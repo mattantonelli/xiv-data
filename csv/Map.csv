@@ -1,0 +1,531 @@
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+#,,,,Hierarchy,MapMarkerRange,Id,SizeFactor,Offset{X},Offset{Y},PlaceName{Region},PlaceName,PlaceName{Sub},DiscoveryIndex,,TerritoryType,DiscoveryArrayByte,
+int32,byte,byte,sbyte,byte,uint16,str,uint16,int16,int16,PlaceName,PlaceName,PlaceName,int16,uint32,TerritoryType,bit&01,bit&02
+0,0,0,0,0,0,"",100,0,0,"","","",-1,0,,True,False
+1,0,0,0,1,0,"default/00",100,0,0,"???","Eorzea","",-1,0,"",True,False
+2,2,2,0,1,3,"f1t1/00",200,0,0,"The Black Shroud","New Gridania","",-1,0,"New Gridania",True,False
+3,2,3,0,1,4,"f1t2/00",200,0,0,"The Black Shroud","Old Gridania","",-1,0,"Old Gridania",True,False
+4,2,5,0,1,5,"f1f1/00",100,0,0,"The Black Shroud","Central Shroud","",0,16382,"Central Shroud",True,False
+5,2,6,0,1,6,"f1f2/00",100,0,0,"The Black Shroud","East Shroud","",0,1048574,"East Shroud",False,False
+6,2,7,0,1,7,"f1f3/00",100,0,0,"The Black Shroud","South Shroud","",1,131070,"South Shroud",False,False
+7,2,8,0,1,8,"f1f4/00",100,0,0,"The Black Shroud","North Shroud","",2,131070,"North Shroud",False,False
+8,2,9,0,1,10,"f1d1/00",300,0,0,"The Black Shroud","The Tam-Tara Deepcroft","",1,4094,"The Tam-Tara Deepcroft",True,False
+9,2,10,0,1,21,"f1r1/00",200,0,0,"The Black Shroud","The Thousand Maws of Toto-Rak","",2,16382,"The Thousand Maws of Toto-Rak",True,False
+10,0,0,0,1,0,"default/00",100,0,0,"???","Mordion Gaol","",-1,0,"Mordion Gaol",True,True
+11,1,2,0,1,71,"s1t1/01",200,0,0,"La Noscea","Limsa Lominsa Upper Decks","",-1,0,"Limsa Lominsa Upper Decks",True,False
+12,1,3,0,1,72,"s1t2/00",200,0,0,"La Noscea","Limsa Lominsa Lower Decks","",-1,0,"Limsa Lominsa Lower Decks",True,False
+13,3,2,0,1,59,"w1t1/01",200,0,0,"Thanalan","Ul'dah - Steps of Nald","",-1,0,"Ul'dah - Steps of Nald",True,False
+14,3,3,1,1,60,"w1t2/01",200,0,0,"Thanalan","Ul'dah - Steps of Thal","Merchant Strip",-1,0,"Ul'dah - Steps of Thal",True,False
+15,1,6,0,1,74,"s1f1/00",100,0,0,"La Noscea","Middle La Noscea","",3,254,"Middle La Noscea",True,False
+16,1,7,0,1,75,"s1f2/00",100,0,0,"La Noscea","Lower La Noscea","",4,2046,"Lower La Noscea",True,False
+17,1,8,0,1,76,"s1f3/00",100,0,0,"La Noscea","Eastern La Noscea","",5,32766,"Eastern La Noscea",True,False
+18,1,9,0,1,77,"s1f4/00",100,0,0,"La Noscea","Western La Noscea","",3,1048574,"Western La Noscea",False,False
+19,1,10,0,1,78,"s1f5/00",100,0,0,"La Noscea","Upper La Noscea","",6,510,"Upper La Noscea",True,False
+20,3,6,0,1,40,"w1f1/00",100,0,0,"Thanalan","Western Thanalan","",7,8190,"Western Thanalan",True,False
+21,3,7,0,1,39,"w1f2/00",100,0,0,"Thanalan","Central Thanalan","",8,16382,"Central Thanalan",True,False
+22,3,8,0,1,41,"w1f3/00",100,0,0,"Thanalan","Eastern Thanalan","",4,262142,"Eastern Thanalan",False,False
+23,3,9,0,1,42,"w1f4/01",100,0,0,"Thanalan","Southern Thanalan","",5,1048574,"Southern Thanalan",False,False
+24,3,10,0,1,43,"w1f5/00",100,0,0,"Thanalan","Northern Thanalan","",9,510,"Northern Thanalan",True,False
+25,5,2,0,1,108,"l1f1/01",100,0,0,"Mor Dhona","Mor Dhona","",6,131070,"Mor Dhona",False,False
+26,0,0,0,1,68,"s1ti/00",800,0,0,"La Noscea","Mizzenmast Inn","",-1,0,"Mizzenmast Inn",True,False
+27,0,0,0,1,70,"w1ti/00",800,0,0,"Thanalan","The Hourglass","",-1,0,"The Hourglass",True,False
+28,0,0,0,1,69,"f1ti/00",800,0,0,"The Black Shroud","The Roost","",-1,0,"The Roost",True,False
+29,0,0,0,1,0,"default/00",200,0,0,"","","",-1,0,"",True,False
+30,1,11,0,1,79,"s1f6/00",100,0,0,"La Noscea","Outer La Noscea","",10,510,"Outer La Noscea",True,False
+31,1,12,0,1,80,"s1d1/00",200,0,0,"La Noscea","Sastasha","",11,4094,"Sastasha",True,False
+32,1,14,0,1,82,"s1d3/00",200,0,0,"La Noscea","The Wanderer's Palace","",12,1022,"The Wanderer's Palace",True,False
+33,0,0,0,1,0,"s1fa/00",400,0,0,"La Noscea","The Navel","",-1,0,"The Navel",True,False
+34,3,11,1,1,44,"w1d1/01",200,0,0,"Thanalan","Copperbell Mines","Ground Level",13,6,"Copperbell Mines",True,False
+35,0,0,0,1,0,"w1fa/00",400,0,0,"Thanalan","Bowl of Embers","",-1,0,"Bowl of Embers",True,False
+36,0,0,0,1,0,"f1fa/00",400,0,0,"The Black Shroud","Thornmarch","",-1,0,"Thornmarch",True,False
+37,4,6,0,1,103,"r1d1/00",200,0,0,"Coerthas","Stone Vigil","",14,1022,"Stone Vigil",True,False
+38,4,8,0,1,106,"r1r2/00",200,0,0,"Coerthas","Aurum Vale","",15,2046,"Aurum Vale",True,False
+39,0,0,1,1,0,"r1fa/01",400,0,0,"Coerthas","The Howling Eye","",-1,0,"The Howling Eye",True,False
+40,3,11,2,1,45,"w1d1/02",200,0,0,"Thanalan","Copperbell Mines","First Drop",13,16632,"Copperbell Mines",True,False
+41,3,11,3,1,46,"w1d1/03",200,0,0,"Thanalan","Copperbell Mines","B2",13,16128,"Copperbell Mines",True,False
+42,3,13,1,1,48,"w1d3/01",200,0,0,"Thanalan","The Sunken Temple of Qarn","Sanctum Entrance",7,2,"The Sunken Temple of Qarn",False,False
+43,3,13,2,1,49,"w1d3/02",200,0,0,"Thanalan","The Sunken Temple of Qarn","Inner Sanctum",7,131068,"The Sunken Temple of Qarn",False,False
+44,3,13,3,1,50,"w1d3/03",200,0,0,"Thanalan","The Sunken Temple of Qarn","Lower Sanctum",7,917504,"The Sunken Temple of Qarn",False,False
+45,1,13,0,1,81,"s1d2/00",200,0,0,"La Noscea","Brayflox's Longstop","",16,65534,"Brayflox's Longstop",True,False
+46,3,12,0,1,47,"w1d2/00",200,0,0,"Thanalan","Halatali","",17,1022,"Halatali",True,False
+47,0,0,0,1,51,"w1d4/00",200,0,0,"Thanalan","Castrum Meridianum","",18,65534,"Castrum Meridianum",True,False
+48,2,11,2,1,12,"f1d2/01",200,0,0,"The Black Shroud","Haukke Manor","Ground Floor",8,510,"Haukke Manor",False,False
+49,2,12,1,1,14,"f1d3/01",200,0,0,"The Black Shroud","Amdapor Keep","Ground Floor",19,14,"Amdapor Keep",True,False
+50,4,7,1,1,104,"r1r1/01",200,0,0,"Coerthas","Dzemael Darkhold","Outer Hold",25,62,"Dzemael Darkhold",True,False
+51,1,5,0,1,83,"s1p1/00",400,-77,0,"La Noscea","Wolves' Den Pier","",-1,0,"Wolves' Den Pier",True,False
+52,3,14,1,1,63,"w1r1/01",200,0,0,"Thanalan","Cutter's Cry","The Dry Sands",20,158,"Cutter's Cry",True,False
+53,4,4,0,1,102,"r1f1/00",100,0,0,"Coerthas","Coerthas Central Highlands","",9,8388606,"Coerthas Central Highlands",False,False
+54,2,11,1,1,11,"f1d2/02",200,0,0,"The Black Shroud","Haukke Manor","Second Floor",8,1966080,"Haukke Manor",False,False
+55,2,11,3,1,13,"f1d2/03",200,0,0,"The Black Shroud","Haukke Manor","Cellarage",8,130560,"Haukke Manor",False,False
+56,0,0,1,1,52,"w1d5/01",200,0,0,"Thanalan","The Praetorium","Sky Level",26,2,"The Praetorium",True,False
+57,0,0,0,1,87,"s1b1/00",200,0,0,"La Noscea","Upper Aetheroacoustic Exploratory Site","",21,254,"Upper Aetheroacoustic Exploratory Site",True,False
+58,0,0,0,1,88,"s1b2/00",200,0,0,"La Noscea","Lower Aetheroacoustic Exploratory Site","",22,6,"Lower Aetheroacoustic Exploratory Site",True,False
+59,0,0,0,1,92,"s1b4/00",200,0,0,"La Noscea","Ragnarok Drive Cylinder","",-1,0,"Ragnarok Drive Cylinder",True,False
+60,0,0,0,1,93,"s1b5/00",200,0,0,"La Noscea","Ragnarok Central Core","",23,14,"Ragnarok Central Core",True,False
+61,0,0,0,1,94,"default/00",100,0,0,"La Noscea","Ragnarok Main Bridge","",-1,0,"Ragnarok Main Bridge",True,False
+62,0,0,1,1,89,"s1b3/01",200,0,0,"La Noscea","The Ragnarok","Engine Room",24,2,"The Ragnarok",True,False
+63,0,0,2,1,90,"s1b3/02",200,0,0,"La Noscea","The Ragnarok","Compression Chamber",24,4,"The Ragnarok",True,False
+64,0,0,3,1,91,"s1b3/03",200,0,0,"La Noscea","The Ragnarok","Propellant Chamber",24,8,"The Ragnarok",True,False
+65,0,0,3,1,25,"f1b3/01",200,0,0,"The Black Shroud","Central Decks","Lower Decks",36,2,"Central Decks",True,False
+66,0,0,2,1,26,"f1b3/02",200,0,0,"The Black Shroud","Central Decks","Main Decks",36,52,"Central Decks",True,False
+67,0,0,1,1,27,"f1b3/03",200,0,0,"The Black Shroud","Central Decks","Upper Decks",36,8,"Central Decks",True,False
+68,0,0,0,1,29,"f1e4/00",800,0,0,"The Black Shroud","Seat of the First Bow","",-1,0,"Seat of the First Bow",True,True
+69,0,0,0,1,30,"f1e5/00",400,0,0,"The Black Shroud","Lotus Stand","",-1,0,"Lotus Stand",True,True
+70,3,2,0,1,61,"w1t1/02",200,0,0,"Thanalan","Ul'dah - Steps of Nald","Airship Landing",-1,0,"Ul'dah - Steps of Nald",True,False
+71,5,4,1,1,110,"l1r1/01",200,0,0,"Mor Dhona","Labyrinth of the Ancients","Lower Labyrinth",30,16382,"Labyrinth of the Ancients",True,False
+72,1,4,1,1,86,"s1h1/01",200,0,0,"La Noscea","Mist","Mist",-1,0,"Mist",True,False
+73,3,3,2,1,62,"w1t2/02",200,0,0,"Thanalan","Ul'dah - Steps of Thal","Hustings Strip",-1,0,"Ul'dah - Steps of Thal",True,False
+74,1,2,0,1,73,"s1t1/02",200,0,0,"La Noscea","Limsa Lominsa Upper Decks","Airship Landing",-1,0,"Limsa Lominsa Upper Decks",True,False
+75,0,0,0,1,31,"s1e4/00",800,0,0,"La Noscea","Command Room","",-1,0,"Command Room",True,True
+76,0,0,0,0,0,"",100,0,0,"","","",-1,0,,True,False
+77,0,0,0,0,0,"",100,0,0,"","","",-1,0,,True,False
+78,0,0,0,1,34,"w1e4/00",400,0,0,"Thanalan","Heart of the Sworn","",-1,0,"Heart of the Sworn",True,True
+79,0,0,0,0,0,"",100,0,0,"","","",-1,0,,True,False
+80,0,0,0,1,36,"w1e6/00",400,0,0,"Thanalan","The Waking Sands","",-1,0,"The Waking Sands",True,True
+81,0,0,0,1,84,"s1p2/00",400,0,0,"La Noscea","The Fold","",-1,0,"",True,False
+82,2,4,1,1,66,"f1h1/01",200,0,0,"The Black Shroud","The Lavender Beds","The Lavender Beds",-1,0,"The Lavender Beds",True,False
+83,3,4,1,1,67,"w1h1/01",200,0,0,"Thanalan","The Goblet","The Goblet",-1,0,"The Goblet",True,False
+84,2,12,2,1,15,"f1d3/02",200,0,0,"The Black Shroud","Amdapor Keep","Second Floor",19,240,"Amdapor Keep",True,False
+85,2,12,3,1,16,"f1d3/03",200,0,0,"The Black Shroud","Amdapor Keep","Third Floor",19,3840,"Amdapor Keep",True,False
+86,4,7,2,1,105,"r1r1/02",200,0,0,"Coerthas","Dzemael Darkhold","Inner Hold",25,8128,"Dzemael Darkhold",True,False
+87,1,1,0,3,131,"region/00",100,0,0,"La Noscea","La Noscea","",-1,0,,True,False
+88,3,1,0,3,132,"region/02",100,0,0,"Thanalan","Thanalan","",-1,0,,True,False
+89,2,1,0,3,133,"region/01",100,0,0,"The Black Shroud","The Black Shroud","",-1,0,,True,False
+90,4,1,0,3,134,"region/03",100,0,0,"Coerthas","Coerthas","",-1,0,,True,False
+91,5,1,0,3,135,"region/04",100,0,0,"Mor Dhona","Mor Dhona","",-1,0,,True,False
+92,10,1,0,2,136,"world/00",100,0,0,"Eorzea","Eorzea","",-1,0,,True,False
+93,0,0,0,1,291,"w1f4/02",100,0,0,"Thanalan","Southern Thanalan","Zanr'ak",-1,0,"Southern Thanalan",True,True
+94,0,0,0,1,37,"w1e6/00",400,0,0,"Thanalan","The Waking Sands","",-1,0,"The Waking Sands",True,True
+95,0,0,0,1,85,"o1e2/00",400,0,0,"La Noscea","Rhotano Sea","",-1,0,,True,False
+96,3,14,2,1,64,"w1r1/02",200,0,0,"Thanalan","Cutter's Cry","The Wet Sands",20,96,"Cutter's Cry",True,False
+97,3,14,3,1,65,"w1r1/03",200,0,0,"Thanalan","Cutter's Cry","The Blue Sands",20,1792,"Cutter's Cry",True,False
+98,0,0,2,1,293,"r1fa/02",400,0,0,"Coerthas","The Howling Eye","",-1,0,"The Howling Eye",True,True
+99,0,0,2,1,53,"w1d5/02",200,0,0,"Thanalan","The Praetorium","Castrum Control",26,12,"The Praetorium",True,False
+100,0,0,3,1,54,"w1d5/03",200,0,0,"Thanalan","The Praetorium","Castrum Defense",26,48,"The Praetorium",True,False
+101,0,0,4,1,55,"w1d5/04",200,0,0,"Thanalan","The Praetorium","Main Level",26,832,"The Praetorium",True,False
+102,0,0,5,1,57,"w1d5/05",200,0,0,"Thanalan","The Praetorium","Ground Level",26,3072,"The Praetorium",True,False
+103,0,0,6,1,56,"w1d5/06",100,0,0,"Thanalan","The Praetorium","Research Level",26,61440,"The Praetorium",True,False
+104,0,0,7,1,0,"w1d5/07",100,0,0,"Thanalan","The Praetorium","",-1,0,"The Praetorium",True,False
+105,0,0,0,1,0,"l1f1/02",400,0,0,"Mor Dhona","Mor Dhona","",-1,0,"Mor Dhona",True,True
+106,0,0,0,1,0,"default/00",100,0,0,"???","Eorzean Subterrane","",-1,0,"Eorzean Subterrane",True,False
+107,0,0,0,1,38,"w1e6/00",400,0,0,"Thanalan","The Waking Sands","",-1,0,"The Waking Sands",True,True
+108,1,15,1,1,95,"s1d4/01",200,0,0,"La Noscea","Pharos Sirius","Flood Cellar",27,6,"Pharos Sirius",True,False
+109,0,0,1,1,0,"s1i1/01",400,0,0,"La Noscea","Private Cottage - Mist","Ground Floor",-1,0,"Private Cottage - Mist",True,False
+110,0,0,2,1,0,"s1i2/01",400,0,0,"La Noscea","Private House - Mist","Ground Floor",-1,0,"Private House - Mist",True,False
+111,0,0,1,1,0,"s1i2/02",400,0,0,"La Noscea","Private House - Mist","Second Floor",-1,0,"Private House - Mist",True,False
+112,0,0,3,1,0,"s1i2/03",400,0,0,"La Noscea","Private House - Mist","Cellarage",-1,0,"Private House - Mist",True,False
+113,0,0,2,1,0,"s1i3/01",400,0,0,"La Noscea","Private Mansion - Mist","Ground Floor",-1,0,"Private Mansion - Mist",True,False
+114,0,0,1,1,0,"s1i3/02",400,0,0,"La Noscea","Private Mansion - Mist","Second Floor",-1,0,"Private Mansion - Mist",True,False
+115,0,0,3,1,0,"s1i3/03",400,0,0,"La Noscea","Private Mansion - Mist","Cellarage",-1,0,"Private Mansion - Mist",True,False
+116,0,0,1,1,0,"f1i1/01",400,0,0,"The Black Shroud","Private Cottage - The Lavender Beds","Ground Floor",-1,0,"Private Cottage - The Lavender Beds",True,False
+117,0,0,2,1,0,"f1i2/01",400,0,0,"The Black Shroud","Private House - The Lavender Beds","Ground Floor",-1,0,"Private House - The Lavender Beds",True,False
+118,0,0,1,1,0,"f1i2/02",400,0,0,"The Black Shroud","Private House - The Lavender Beds","Second Floor",-1,0,"Private House - The Lavender Beds",True,False
+119,0,0,3,1,0,"f1i2/03",400,0,0,"The Black Shroud","Private House - The Lavender Beds","Cellarage",-1,0,"Private House - The Lavender Beds",True,False
+120,0,0,2,1,0,"f1i3/01",400,0,0,"The Black Shroud","Private Mansion - The Lavender Beds","Ground Floor",-1,0,"Private Mansion - The Lavender Beds",True,False
+121,0,0,1,1,0,"f1i3/02",400,0,0,"The Black Shroud","Private Mansion - The Lavender Beds","Second Floor",-1,0,"Private Mansion - The Lavender Beds",True,False
+122,0,0,3,1,0,"f1i3/03",400,0,0,"The Black Shroud","Private Mansion - The Lavender Beds","Cellarage",-1,0,"Private Mansion - The Lavender Beds",True,False
+123,0,0,1,1,0,"w1i1/01",400,0,0,"Thanalan","Private Cottage - The Goblet","Ground Floor",-1,0,"Private Cottage - The Goblet",True,False
+124,0,0,2,1,0,"w1i2/01",400,0,0,"Thanalan","Private House - The Goblet","Ground Floor",-1,0,"Private House - The Goblet",True,False
+125,0,0,1,1,0,"w1i2/02",400,0,0,"Thanalan","Private House - The Goblet","Second Floor",-1,0,"Private House - The Goblet",True,False
+126,0,0,3,1,0,"w1i2/03",400,0,0,"Thanalan","Private House - The Goblet","Cellarage",-1,0,"Private House - The Goblet",True,False
+127,0,0,2,1,0,"w1i3/01",400,0,0,"Thanalan","Private Mansion - The Goblet","Ground Floor",-1,0,"Private Mansion - The Goblet",True,False
+128,0,0,1,1,0,"w1i3/02",400,0,0,"Thanalan","Private Mansion - The Goblet","Second Floor",-1,0,"Private Mansion - The Goblet",True,False
+129,0,0,3,1,0,"w1i3/03",400,0,0,"Thanalan","Private Mansion - The Goblet","Cellarage",-1,0,"Private Mansion - The Goblet",True,False
+130,1,15,2,1,96,"s1d4/02",200,0,0,"La Noscea","Pharos Sirius","Ground Floor",27,248,"Pharos Sirius",True,False
+131,1,15,3,1,97,"s1d4/03",200,0,0,"La Noscea","Pharos Sirius","Second Floor",27,768,"Pharos Sirius",True,False
+132,1,15,4,1,98,"s1d4/04",200,0,0,"La Noscea","Pharos Sirius","Third Floor",27,1024,"Pharos Sirius",True,False
+133,1,15,5,1,99,"s1d4/05",200,0,0,"La Noscea","Pharos Sirius","Fourth Floor",27,2048,"Pharos Sirius",True,False
+134,1,15,6,1,100,"s1d4/06",200,0,0,"La Noscea","Pharos Sirius","Fifth Floor",27,4096,"Pharos Sirius",True,False
+135,5,4,2,1,111,"l1r1/02",200,0,0,"Mor Dhona","Labyrinth of the Ancients","Upper Labyrinth",30,49152,"Labyrinth of the Ancients",True,False
+136,0,0,0,1,109,"l1e1/00",400,0,0,"Mor Dhona","The Rising Stones","",-1,0,"The Rising Stones",True,True
+137,2,13,2,1,18,"f1d4/01",200,0,0,"The Black Shroud","Haukke Manor (Hard)","Ground Floor",28,1922,"Haukke Manor",True,False
+138,2,13,1,1,17,"f1d4/02",200,0,0,"The Black Shroud","Haukke Manor (Hard)","Second Floor",28,124,"Haukke Manor",True,False
+139,2,13,3,1,19,"f1d4/03",200,0,0,"The Black Shroud","Haukke Manor (Hard)","Cellarage",28,63488,"Haukke Manor",True,False
+140,3,15,1,1,119,"w1d6/01",200,0,0,"Thanalan","Copperbell Mines (Hard)","Ground Level",29,6,"Copperbell Mines",True,False
+141,3,15,2,1,120,"w1d6/02",200,0,0,"Thanalan","Copperbell Mines (Hard)","First Drop",29,1016,"Copperbell Mines",True,False
+142,3,15,3,1,121,"w1d6/03",200,0,0,"Thanalan","Copperbell Mines (Hard)","B2",29,64512,"Copperbell Mines",True,False
+143,0,0,0,1,0,"w1fb/00",400,0,0,"Thanalan","Porta Decumana","",-1,0,"Porta Decumana",True,False
+144,0,0,0,1,127,"r1fb/00",200,0,0,"Coerthas","Griffin Crossing","",-1,0,"Griffin Crossing",True,False
+145,3,16,0,1,58,"w1d7/00",200,0,0,"Thanalan","Halatali (Hard)","",31,4094,"Halatali",True,False
+146,1,16,0,1,101,"s1d6/00",200,0,0,"La Noscea","Brayflox's Longstop (Hard)","",32,2046,"Brayflox's Longstop",True,False
+147,0,0,0,1,0,"o1fa/00",400,0,0,"La Noscea","The Whorleater","",-1,0,"The Whorleater",True,False
+148,0,0,0,1,22,"f1b1/00",200,0,0,"The Black Shroud","Dalamud's Shadow","",34,126,"Dalamud's Shadow",True,False
+149,0,0,1,1,23,"f1b2/01",200,0,0,"The Black Shroud","The Outer Coil","Incubation Bay",35,6,"The Outer Coil",True,False
+150,0,0,0,1,28,"f1b4/00",200,0,0,"The Black Shroud","The Holocharts","",-1,0,"The Holocharts",True,False
+151,2,15,1,1,122,"f1d5/01",200,0,0,"The Black Shroud","The Lost City of Amdapor","Central Amdapor",33,510,"The Lost City of Amdapor",True,False
+152,2,15,2,1,123,"f1d5/02",200,0,0,"The Black Shroud","The Lost City of Amdapor","Sanctum of Dreams",33,7680,"The Lost City of Amdapor",True,False
+153,0,0,2,1,0,"s1i1/02",400,0,0,"La Noscea","Private Cottage - Mist","Cellarage",-1,0,"Private Cottage - Mist",True,False
+154,0,0,2,1,0,"f1i1/02",400,0,0,"The Black Shroud","Private Cottage - The Lavender Beds","Cellarage",-1,0,"Private Cottage - The Lavender Beds",True,False
+155,0,0,2,1,0,"w1i1/02",400,0,0,"Thanalan","Private Cottage - The Goblet","Cellarage",-1,0,"Private Cottage - The Goblet",True,False
+156,0,0,2,1,24,"f1b2/02",200,0,0,"The Black Shroud","The Outer Coil","Monitoring Station ",35,24,"The Outer Coil",True,False
+157,4,9,0,1,107,"r1d2/00",200,0,0,"Coerthas","The Stone Vigil (Hard)","",37,16382,"Stone Vigil",True,False
+158,5,5,1,1,112,"l1r2/01",200,0,0,"Mor Dhona","Syrcus Tower","First Lower Ring",38,2,"Syrcus Tower",True,False
+159,5,5,2,1,113,"l1r2/02",200,0,0,"Mor Dhona","Syrcus Tower","Second Lower Ring",38,12,"Syrcus Tower",True,False
+160,5,5,3,1,114,"l1r2/03",200,0,0,"Mor Dhona","Syrcus Tower","Third Lower Ring",38,48,"Syrcus Tower",True,False
+161,5,5,4,1,115,"l1r2/04",200,0,0,"Mor Dhona","Syrcus Tower","First Central Ring",38,192,"Syrcus Tower",True,False
+162,5,5,5,1,116,"l1r2/05",200,0,0,"Mor Dhona","Syrcus Tower","Second Central Ring",38,768,"Syrcus Tower",True,False
+163,5,5,6,1,117,"l1r2/06",200,0,0,"Mor Dhona","Syrcus Tower","Third Central Ring",38,3072,"Syrcus Tower",True,False
+164,5,5,7,1,118,"l1r2/07",200,0,0,"Mor Dhona","Syrcus Tower","Upper Ring",38,28672,"Syrcus Tower",True,False
+165,2,16,0,1,9,"f1d6/00",300,0,0,"The Black Shroud","The Tam-Tara Deepcroft (Hard)","",39,16382,"The Tam-Tara Deepcroft",True,False
+166,0,0,0,1,0,"f1fb/00",400,0,0,"The Black Shroud","The Striking Tree","",-1,0,"The Striking Tree",True,False
+167,0,0,0,1,124,"l1p1/00",100,0,0,"Mor Dhona","Carteneau Flats: Borderland Ruins","",-1,0,"Carteneau Flats: Borderland Ruins",True,False
+168,1,17,0,1,125,"s1d5/00",200,0,0,"La Noscea","Hullbreaker Isle","",40,8190,"Hullbreaker Isle",True,False
+169,1,18,0,1,126,"s1d7/00",200,0,0,"La Noscea","Sastasha (Hard)","",42,1022,"Sastasha",True,False
+170,0,0,0,1,0,"s1i4/00",400,0,0,"La Noscea","Private Chambers - Mist","",-1,0,"Private Chambers - Mist",True,False
+171,0,0,0,1,0,"f1i4/00",400,0,0,"The Black Shroud","Private Chambers - The Lavender Beds","",-1,0,"Private Chambers - The Lavender Beds",True,False
+172,0,0,0,1,0,"w1i4/00",400,0,0,"Thanalan","Private Chambers - The Goblet","",-1,0,"Private Chambers - The Goblet",True,False
+173,0,0,0,1,0,"r1fc/00",400,0,0,"Coerthas","Akh Afah Amphitheatre","",-1,0,"Akh Afah Amphitheatre",True,False
+174,4,10,0,1,128,"r1d3/00",200,0,0,"Coerthas","Snowcloak","",41,2046,"Snowcloak",True,False
+175,0,0,0,1,140,"w1b1/00",200,0,0,"Thanalan","IC-06 Central Decks","",45,126,"IC-06 Central Decks",True,False
+176,0,0,0,1,141,"w1b2/00",200,0,0,"Thanalan","IC-06 Regeneration Grid","",46,126,"IC-06 Regeneration Grid",True,False
+177,0,0,0,1,142,"w1b3/00",200,0,0,"Thanalan","IC-06 Main Bridge","",-1,0,"IC-06 Main Bridge",True,False
+178,0,0,0,1,143,"w1b4/00",200,-448,0,"Thanalan","The Burning Heart","",-1,0,"The Burning Heart",True,False
+179,0,0,0,1,0,"r1e2/00",400,0,0,"Coerthas","Intercessory","",-1,0,"Intercessory",True,True
+180,0,0,0,1,0,"f1e6/00",200,0,0,"The Black Shroud","East Shroud","Sanctum of the Twelve",-1,0,"East Shroud",True,True
+181,0,0,0,1,0,"",100,0,0,"The Black Shroud","South Shroud","Dock Storehouse",-1,0,"Eastern La Noscea",True,True
+182,3,17,1,1,138,"w1d8/01",200,0,0,"Thanalan","The Sunken Temple of Qarn (Hard)","Inner Sanctum",43,65038,"The Sunken Temple of Qarn",True,False
+183,3,17,2,1,139,"w1d8/02",200,0,0,"Thanalan","The Sunken Temple of Qarn (Hard)","Lower Sanctum",43,496,"The Sunken Temple of Qarn",True,False
+184,5,6,1,1,130,"l1r3/00",200,0,0,"Mor Dhona","The World of Darkness","",47,2046,"The World of Darkness",True,False
+185,0,0,0,1,0,"default/00",100,0,0,"Mor Dhona","The Belly of the Beast","",-1,0,"The World of Darkness",True,False
+186,0,0,0,1,152,"r1fd/00",200,0,0,"Coerthas","Steps of Faith","",-1,0,"Steps of Faith",True,False
+187,0,0,0,1,0,"default/00",100,0,0,"The Black Shroud","South Shroud","Urth's Fount",-1,0,"South Shroud",True,False
+188,1,19,0,1,129,"s1d8/00",200,0,0,"La Noscea","The Wanderer's Palace (Hard)","",44,4094,"The Wanderer's Palace",True,False
+189,2,17,1,1,149,"f1d7/01",200,0,0,"The Black Shroud","Amdapor Keep (Hard)","Ground Floor",48,62,"Amdapor Keep",True,False
+190,2,17,2,1,150,"f1d7/02",200,0,0,"The Black Shroud","Amdapor Keep (Hard)","Third Floor",48,8128,"Amdapor Keep",True,False
+191,2,17,3,1,151,"f1d7/03",200,0,0,"The Black Shroud","Amdapor Keep (Hard)","Cellar",48,57344,"Amdapor Keep",True,False
+192,1,4,2,1,144,"s1h1/02",200,704,704,"La Noscea","Mist","Mist Subdivision",-1,0,"Mist",True,False
+193,2,4,2,1,145,"f1h1/02",200,704,704,"The Black Shroud","The Lavender Beds","The Lavender Beds Subdivision",-1,0,"The Lavender Beds",True,False
+194,3,4,2,1,146,"w1h1/02",200,704,704,"Thanalan","The Goblet","The Goblet Subdivision",-1,0,"The Goblet",True,False
+195,0,0,0,1,0,"default/00",100,0,0,"Thanalan","Halatali","",-1,0,"Halatali",True,False
+196,3,5,1,1,147,"w1eb/00",400,0,0,"Thanalan","The Gold Saucer","The Gold Saucer",-1,0,"The Gold Saucer",True,False
+197,3,5,2,1,148,"w1ed/00",400,0,0,"Thanalan","The Gold Saucer","Chocobo Square",-1,0,"Chocobo Square",True,False
+198,0,0,0,1,156,"s1fb/00",100,-472,-424,"???","Chocobo Square","",-1,0,"Chocobo Square",True,False
+199,0,0,0,1,157,"w1fc/01",100,0,0,"???","Chocobo Square","",-1,0,"Chocobo Square",True,False
+200,0,0,0,1,158,"f1fc/00",100,0,0,"???","Chocobo Square","",-1,0,"Chocobo Square",True,False
+201,5,3,1,1,153,"l1d1/01",200,0,0,"Mor Dhona","The Keeper of the Lake","Forecastle",49,30,"The Keeper of the Lake",True,False
+202,5,3,2,1,154,"l1d1/02",200,0,0,"Mor Dhona","The Keeper of the Lake","Quarterdeck",49,480,"The Keeper of the Lake",True,False
+203,5,3,3,1,155,"l1d1/03",200,0,0,"Mor Dhona","The Keeper of the Lake","Stern",49,3584,"The Keeper of the Lake",True,False
+204,0,0,0,1,0,"s1i5/00",400,0,0,"La Noscea","Company Workshop - Mist","",-1,0,"Company Workshop - Mist",True,False
+205,0,0,0,1,0,"w1i5/00",400,0,0,"Thanalan","Company Workshop - The Goblet","",-1,0,"Company Workshop - The Goblet",True,False
+206,0,0,0,1,0,"f1i5/00",400,0,0,"The Black Shroud","Company Workshop - The Lavender Beds","",-1,0,"Company Workshop - The Lavender Beds",True,False
+207,0,0,0,1,0,"z1e9/00",400,0,0,"Mor Dhona","The Chrysalis","",-1,0,"The Chrysalis",True,False
+208,0,0,0,1,0,"default/00",100,-220,0,"Mor Dhona","The Chrysalis","",-1,0,"The Chrysalis",True,False
+209,0,0,0,1,0,"default/00",200,0,0,"The Black Shroud","Sanctum of the Twelve","",-1,0,"East Shroud",True,True
+210,0,0,0,1,0,"default/00",200,0,0,"The Black Shroud","Amdapor Keep","",-1,0,"Amdapor Keep",True,False
+211,4,5,0,1,161,"r2f1/00",95,0,0,"Coerthas","Coerthas Western Highlands","",16,2147483646,"Coerthas Western Highlands",False,False
+212,7,3,0,1,162,"d2f1/00",95,0,0,"Dravania","The Dravanian Forelands","",11,2147483646,"The Dravanian Forelands",False,False
+213,7,4,0,1,163,"d2f2/00",95,0,0,"Dravania","The Dravanian Hinterlands","",12,2147483646,"The Dravanian Hinterlands",False,False
+214,7,5,0,1,164,"d2f3/00",95,0,0,"Dravania","The Churning Mists","",13,2147483646,"The Churning Mists",False,False
+215,6,2,0,1,165,"a2f1/00",95,0,0,"Abalathia's Spine","The Sea of Clouds","",14,2147483646,"The Sea of Clouds",False,False
+216,6,3,0,1,166,"a2f2/00",95,0,0,"Abalathia's Spine","Azys Lla","",15,2147483646,"Azys Lla",False,False
+217,0,0,0,1,0,"w1fc/02",100,0,-690,"???","Chocobo Square","",-1,0,"Chocobo Square",True,False
+218,4,2,0,1,159,"r2t1/00",200,0,0,"Coerthas","Foundation","",-1,0,"Foundation",True,False
+219,4,3,0,1,160,"r2t2/00",200,0,0,"Coerthas","The Pillars","",-1,0,"The Pillars",True,False
+220,0,0,0,1,0,"r2e1/00",400,0,0,"Coerthas","Saint Endalim's Scholasticate","",-1,0,"Saint Endalim's Scholasticate",True,True
+221,0,0,0,1,0,"r2e3/00",400,0,0,"Coerthas","Seat of the Lord Commander","",-1,0,"Seat of the Lord Commander",True,True
+222,0,0,0,1,0,"r2e4/00",400,0,0,"Coerthas","Fortemps Manor","",-1,0,"Fortemps Manor",True,True
+223,0,0,0,1,0,"r2ti/00",800,0,0,"Coerthas","Cloud Nine","",-1,0,"Cloud Nine",True,False
+224,0,0,0,1,0,"r2e5/00",400,0,0,"Coerthas","The Lightfeather Proving Grounds","",-1,0,"The Lightfeather Proving Grounds",True,True
+225,0,0,0,1,0,"r2e6/00",400,0,0,"Coerthas","Ruling Chamber","",-1,0,"Ruling Chamber",True,True
+226,0,0,0,1,294,"d2e2/00",400,0,0,"Dravania","Sacrificial Chamber","",-1,0,"Sacrificial Chamber",True,True
+227,7,6,1,1,167,"d2d1/01",200,185,51,"Dravania","Sohm Al Foothills","The South Face",51,30,"Sohm Al",True,False
+228,7,6,2,1,168,"d2d1/02",200,-162,55,"Dravania","Sohm Al Foothills","The Veins",51,992,"Sohm Al",True,False
+229,7,6,3,1,169,"d2d1/03",200,51,59,"Dravania","Sohm Al Foothills","Betrayal",51,15360,"Sohm Al",True,False
+230,6,5,0,1,174,"a2d2/00",200,0,0,"Abalathia's Spine","Neverreap","",50,62,"Neverreap",True,False
+231,6,4,1,1,170,"a2d1/01",200,-18,149,"Abalathia's Spine","Aetherochemical Research Facility","Automachina Research",10,254,"Aetherochemical Research Facility",False,False
+232,6,4,2,1,171,"a2d1/02",200,-18,-18,"Abalathia's Spine","Aetherochemical Research Facility","Bioweapon Research",10,32512,"Aetherochemical Research Facility",False,False
+233,6,4,3,1,172,"a2d1/03",200,359,250,"Abalathia's Spine","Aetherochemical Research Facility","Autolift",10,32768,"Aetherochemical Research Facility",False,False
+234,6,4,4,1,173,"a2d1/04",200,-229,-62,"Abalathia's Spine","Aetherochemical Research Facility","Triad Control",10,33488896,"Aetherochemical Research Facility",False,False
+235,0,0,0,1,0,"a2fa/00",400,0,0,"Abalathia's Spine","The Limitless Blue","",-1,0,"The Limitless Blue",True,False
+236,0,0,0,1,0,"a2fb/00",400,0,0,"Abalathia's Spine","Singularity Reactor","",-1,0,"Singularity Reactor",True,False
+237,0,0,0,1,175,"d2a1/00",200,0,0,"Dravania","The Fist of the Father","",57,30,"The Fist of the Father",True,False
+238,0,0,1,1,176,"d2a2/01",200,0,0,"Dravania","The Cuff of the Father","Upper Ring",58,6,"The Cuff of the Father",True,False
+239,0,0,0,1,178,"d2a3/00",200,0,0,"Dravania","The Arm of the Father","",59,62,"The Arm of the Father",True,False
+240,0,0,0,1,179,"d2a4/00",200,0,0,"Dravania","The Burden of the Father","",-1,0,"The Burden of the Father",True,False
+241,7,8,0,1,187,"d2d3/00",200,0,0,"Dravania","The Great Gubal Library","",55,65534,"The Great Gubal Library",True,False
+242,0,0,0,1,195,"s2p1/00",100,0,0,"La Noscea","Seal Rock","",-1,0,"Seal Rock",True,False
+243,4,11,0,1,188,"r2d1/00",200,0,0,"Coerthas","Dusk Vigil","",52,65534,"Dusk Vigil",True,False
+244,6,6,1,1,189,"a2d3/01",200,0,-213,"Abalathia's Spine","The Fractal Continuum","Forward Complex",53,2,"The Fractal Continuum",True,False
+245,6,6,2,1,190,"a2d3/02",200,-163,-75,"Abalathia's Spine","The Fractal Continuum","Larboard Complex",53,124,"The Fractal Continuum",True,False
+246,6,6,3,1,191,"a2d3/03",200,237,-128,"Abalathia's Spine","The Fractal Continuum","Starboard Complex",53,3968,"The Fractal Continuum",True,False
+247,6,6,4,1,192,"a2d3/04",200,0,350,"Abalathia's Spine","The Fractal Continuum","Central Complex",53,61440,"The Fractal Continuum",True,False
+248,4,12,1,1,183,"r2d2/01",200,0,0,"Coerthas","The Vault","Chantry Nave",56,126,"The Vault",True,False
+249,4,12,2,1,184,"r2d2/02",200,0,0,"Coerthas","The Vault","Chantry Cloister",56,384,"The Vault",True,False
+250,4,12,3,1,185,"r2d2/03",200,0,0,"Coerthas","The Vault","Inner Sanctum",56,3584,"The Vault",True,False
+251,4,12,4,1,186,"r2d2/04",200,0,0,"Coerthas","The Vault","Hall of the Spear",56,28672,"The Vault",True,False
+252,7,7,0,1,193,"d2d2/00",200,-40,55,"Dravania","The Aery","",54,16382,"The Aery",True,False
+253,0,0,0,1,194,"d2e3/00",400,0,0,"Dravania","Matoya's Cave","",-1,0,"Matoya's Cave",True,True
+254,0,0,0,1,173,"a2d1/04",200,-229,-322,"Abalathia's Spine","Aetherochemical Research Facility","Triad Control",10,33488896,"Aetherochemical Research Facility",False,False
+255,0,0,2,1,177,"d2a2/02",200,0,0,"Dravania","The Cuff of the Father","Lower Ring",58,24,"The Cuff of the Father",True,False
+256,0,0,0,1,0,"d2fa/00",400,0,0,"Dravania","Thok ast Thok","",-1,0,"Thok ast Thok",True,False
+257,7,2,0,1,182,"d2t1/00",400,0,0,"Dravania","Idyllshire","",-1,0,"Idyllshire",True,False
+258,6,1,0,3,181,"region/05",100,0,0,"Abalathia's Spine","Abalathia's Spine","",-1,0,,True,False
+259,7,1,0,3,180,"region/06",100,0,0,"Dravania","Dravania","",-1,0,,True,False
+260,0,0,0,1,0,"default/00",100,0,0,"Dravania","The Gordian Knot","",-1,0,"Alexander",True,True
+261,0,0,0,1,0,"a2e2/00",400,0,0,"Abalathia's Spine","Central Azys Lla","",-1,0,"Central Azys Lla",True,True
+262,1,20,1,1,196,"s1d9/01",200,0,0,"La Noscea","Pharos Sirius (Hard)","Fifth & Fourth Levels",61,14,"Pharos Sirius",True,False
+263,1,20,2,1,197,"s1d9/02",200,0,0,"La Noscea","Pharos Sirius (Hard)","Third Level",61,48,"Pharos Sirius",True,False
+264,1,20,3,1,198,"s1d9/03",200,0,0,"La Noscea","Pharos Sirius (Hard)","Second Level",61,448,"Pharos Sirius",True,False
+265,1,20,4,1,199,"s1d9/04",200,0,0,"La Noscea","Pharos Sirius (Hard)","First Level",61,1536,"Pharos Sirius",True,False
+266,1,20,5,1,200,"s1d9/05",200,15,122,"La Noscea","Pharos Sirius (Hard)","Weight Chamber",61,63488,"Pharos Sirius",True,False
+267,0,0,0,1,0,"default/00",100,0,0,"Thanalan","The Eighteenth Floor","",-1,0,"The Eighteenth Floor",True,True
+268,7,10,1,1,205,"d2d4/01",200,40,6,"Dravania","Saint Mocianne's Arboretum","First Floor",62,510,"Saint Mocianne's Arboretum",True,False
+269,6,7,1,1,201,"z2r1/01",200,289,0,"Abalathia's Spine","Void Ark","Upper Deck",60,502,"Void Ark",True,False
+270,6,7,2,1,202,"z2r1/02",200,289,0,"Abalathia's Spine","Void Ark","Midship Deck",60,8,"Void Ark",True,False
+271,6,7,3,1,203,"z2r1/03",200,0,0,"Abalathia's Spine","Void Ark","The Hold",60,3584,"Void Ark",True,False
+272,6,7,4,1,204,"z2r1/04",200,-289,-180,"Abalathia's Spine","Void Ark","Fo'c'sle",60,61440,"Void Ark",True,False
+273,7,10,2,1,206,"d2d4/02",200,55,-4,"Dravania","Saint Mocianne's Arboretum","The Underworks",62,3584,"Saint Mocianne's Arboretum",True,False
+274,0,0,0,1,207,"a2fc/00",100,0,0,"Abalathia's Spine","The Diadem","",17,134217726,"The Diadem",False,False
+275,0,0,0,1,207,"a2fc/00",100,0,0,"Abalathia's Spine","The Diadem","",17,134217726,"The Diadem",False,False
+276,0,0,0,1,207,"a2fc/00",100,0,0,"Abalathia's Spine","The Diadem","",17,134217726,"The Diadem",False,False
+277,7,11,1,1,212,"d2d5/01",200,0,0,"Dravania","The Antitower","Pleroma",64,126,"The Antitower",True,False
+278,7,11,2,1,213,"d2d5/02",200,0,0,"Dravania","The Antitower","The Lower Reaches",64,3968,"The Antitower",True,False
+279,7,11,3,1,214,"d2d5/03",200,0,0,"Dravania","The Antitower","The Upper Reaches",64,61440,"The Antitower",True,False
+280,2,18,1,1,209,"f1d8/01",200,64,315,"The Black Shroud","The Lost City of Amdapor (Hard)","Central Amdapor",63,62,"The Lost City of Amdapor",True,False
+281,2,18,2,1,210,"f1d8/02",200,197,325,"The Black Shroud","The Lost City of Amdapor (Hard)","Sanctum of Dreams",63,1984,"The Lost City of Amdapor",True,False
+282,2,18,3,1,211,"f1d8/03",200,-175,-297,"The Black Shroud","The Lost City of Amdapor (Hard)","The Crystallum",63,63488,"The Lost City of Amdapor",True,False
+283,0,0,0,1,0,"a2fd/00",400,0,0,"Abalathia's Spine","Containment Bay S1T7","",-1,0,"Containment Bay S1T7",True,False
+284,0,0,0,1,208,"s1p4/00",200,0,0,"La Noscea","The Feasting Grounds","",-1,0,"",True,False
+285,0,0,0,1,208,"s1p5/00",200,0,0,"La Noscea","The Feasting Grounds","",-1,0,"",True,False
+286,0,0,0,1,215,"d2a5/00",200,0,0,"Dravania","The Fist of the Son","",65,62,"The Fist of the Son",True,False
+287,0,0,1,1,216,"d2a6/01",200,0,0,"Dravania","The Cuff of the Son","Forward Ring",66,2,"The Cuff of the Son",True,False
+288,0,0,2,1,217,"d2a6/02",200,0,150,"Dravania","The Cuff of the Son","Rear Ring",66,124,"The Cuff of the Son",True,False
+289,0,0,0,1,218,"d2a7/00",200,-110,-170,"Dravania","The Arm of the Son","",67,62,"The Arm of the Son",True,False
+290,0,0,0,1,219,"d2a8/00",200,0,0,"Dravania","The Burden of the Son","",-1,0,"The Burden of the Son",True,False
+291,0,0,0,1,0,"default/00",100,0,0,"Dravania","The Midan Knot","",-1,0,"Alexander",True,True
+292,7,12,1,1,227,"d2d6/01",200,370,0,"Dravania","Sohr Khai","An Answer of Sorrow",69,62,"Sohr Khai",True,False
+293,7,12,2,1,228,"d2d6/02",200,-370,-200,"Dravania","Sohr Khai","An Answer of Silence",69,960,"Sohr Khai",True,False
+294,7,12,3,1,229,"d2d6/03",200,-370,300,"Dravania","Sohr Khai","An Answer of Shame",69,64512,"Sohr Khai",True,False
+295,0,0,0,1,236,"w1ee/00",800,0,0,"Thanalan","The Battlehall","",-1,0,"The Battlehall",True,False
+296,0,0,0,1,220,"r2p1/00",100,0,0,"Coerthas","The Fields of Glory","",-1,0,"The Fields of Glory",True,False
+297,1,21,0,1,230,"s1da/00",200,0,0,"La Noscea","Hullbreaker Isle (Hard)","",71,8190,"Hullbreaker Isle",True,False
+298,5,7,1,1,221,"z2r2/01",200,-40,-40,"Mor Dhona","The Weeping City of Mhach","Yafaem Saltmoor",68,14,"The Weeping City of Mhach",True,False
+299,5,7,2,1,222,"z2r2/02",200,298,350,"Mor Dhona","The Weeping City of Mhach","The Weeping Ruins",68,496,"The Weeping City of Mhach",True,False
+300,5,7,3,1,223,"z2r2/03",200,290,-272,"Mor Dhona","The Weeping City of Mhach","Pyramid Base",68,3584,"The Weeping City of Mhach",True,False
+301,5,7,4,1,224,"z2r2/04",200,-272,334,"Mor Dhona","The Weeping City of Mhach","The Gloriole",68,12288,"The Weeping City of Mhach",True,False
+302,0,0,0,1,225,"z2r2/05",200,-288,-250,"Mor Dhona","","Twelvefold",68,16384,"The Weeping City of Mhach",True,False
+303,5,7,6,1,226,"z2r2/06",200,296,0,"Mor Dhona","The Weeping City of Mhach","Pyramid Peak",68,32768,"The Weeping City of Mhach",True,False
+304,0,0,0,1,0,"r1fe/00",400,0,0,"Coerthas","Steps of Faith","",-1,0,"Steps of Faith",True,False
+305,0,0,0,1,234,"a2e3/00",400,0,0,"Abalathia's Spine","The Parrock","",-1,0,"The Parrock",True,True
+306,0,0,0,1,235,"a2e4/00",800,0,0,"Abalathia's Spine","Leofard's Chambers","",-1,0,"Leofard's Chambers",True,True
+307,0,0,0,1,0,"r1e3/00",400,0,0,"Coerthas","Steps of Faith","",-1,0,"Steps of Faith",True,True
+308,0,0,0,1,0,"f1tg/00",400,0,0,"The Black Shroud","Twin Adder Barracks","",-1,0,"Twin Adder Barracks",True,True
+309,0,0,0,1,0,"w1tg/00",400,0,0,"Thanalan","Flame Barracks","",-1,0,"Flame Barracks",True,True
+310,0,0,0,1,0,"s1tg/00",400,0,0,"La Noscea","Maelstrom Barracks","",-1,0,"Maelstrom Barracks",True,True
+311,7,13,1,1,231,"d2d7/01",200,116,0,"Dravania","The Great Gubal Library (Hard)","Middle Floors",75,2046,"The Great Gubal Library",True,False
+312,7,13,2,1,232,"d2d7/02",200,-219,117,"Dravania","The Great Gubal Library (Hard)","Upper Floors",75,63488,"The Great Gubal Library",True,False
+313,4,13,0,1,233,"r2d3/00",200,-148,35,"Coerthas","Xelphatol","",70,32766,"Xelphatol",True,False
+314,0,0,0,1,0,"default/00",100,0,0,"The Black Shroud","The Palace of the Dead","",-1,0,"The Palace of the Dead",True,True
+315,0,0,0,1,0,"default/00",100,0,0,"???","The Aquapolis","",-1,0,"The Aquapolis",True,False
+316,0,0,0,1,0,"a2ff/00",400,0,0,"Abalathia's Spine","Last Remnant","",-1,0,"Kugane Ohashi",True,False
+317,0,0,1,1,248,"f1d9/01",200,0,0,"The Black Shroud","Haunted Manor","Ground Floor",-1,0,"Haunted Manor",True,False
+318,0,0,2,1,247,"f1d9/02",200,0,0,"The Black Shroud","Haunted Manor","Second Floor",-1,0,"Haunted Manor",True,False
+319,0,0,3,1,249,"f1d9/03",200,0,0,"The Black Shroud","Haunted Manor","Cellarage",-1,0,"Haunted Manor",True,False
+320,0,0,0,1,237,"s1i6/00",400,0,0,"La Noscea","Topmast Apartment Lobby","",-1,0,"Topmast Apartment Lobby",True,True
+321,0,0,0,1,238,"f1i6/00",400,0,0,"The Black Shroud","Lily Hills Apartment Lobby","",-1,0,"Lily Hills Apartment Lobby",True,True
+322,0,0,0,1,239,"w1i6/00",400,0,0,"Thanalan","Sultana's Breath Apartment Lobby","",-1,0,"Sultana's Breath Apartment Lobby",True,True
+323,0,0,0,1,0,"s1i4/00",400,0,0,"La Noscea","Topmast Apartment","",-1,0,"Topmast Apartment",True,False
+324,0,0,0,1,0,"f1i4/00",400,0,0,"The Black Shroud","Lily Hills Apartment","",-1,0,"Lily Hills Apartment",True,False
+325,0,0,0,1,0,"w1i4/00",400,0,0,"Thanalan","Sultana's Breath Apartment","",-1,0,"Sultana's Breath Apartment",True,False
+326,0,0,1,1,240,"d2a9/01",200,75,14,"Dravania","Eyes of the Creator","The Tipped Ewer",72,6,"Eyes of the Creator",True,False
+327,0,0,2,1,241,"d2a9/02",200,0,358,"Dravania","Eyes of the Creator","The Cranium",72,24,"Eyes of the Creator",True,False
+328,0,0,1,1,242,"d2aa/01",200,0,-80,"Dravania","Breath of the Creator","Illuminus",73,14,"Breath of the Creator",True,False
+329,0,0,2,1,243,"d2aa/02",200,0,-80,"Dravania","Breath of the Creator","Danglylimbs",73,16,"Breath of the Creator",True,False
+330,0,0,1,1,244,"d2ab/01",200,0,0,"Dravania","Heart of the Creator","The Atrium",74,6,"Heart of the Creator",True,False
+331,0,0,2,1,245,"d2ab/02",200,0,0,"Dravania","Heart of the Creator","The Ventricle",74,8,"Heart of the Creator",True,False
+332,0,0,0,1,246,"d2ac/00",200,0,0,"Dravania","Soul of the Creator","",-1,0,"Soul of the Creator",True,False
+333,0,0,0,1,0,"default/00",100,0,0,"Dravania","Soul of the Creator","",-1,0,"Soul of the Creator",True,False
+334,0,0,0,1,0,"a2fe/00",400,0,0,"Abalathia's Spine","Containment Bay P1T6","",-1,0,"Containment Bay P1T6",True,False
+335,0,0,0,1,250,"w1ef/00",800,0,0,"Thanalan","Frondale's Ward for Friendless Foundlings","",-1,0,"Frondale's Ward for Friendless Foundlings",True,True
+336,11,5,0,1,289,"e3d1/00",200,0,35,"Othard","Shisui of the Violet Tides","",81,4094,"Shisui of the Violet Tides",True,False
+337,2,19,1,1,252,"f1da/01",200,182,32,"The Black Shroud","Baelsar's Wall","Lower Reaches",77,62,"Baelsar's Wall",True,False
+338,2,19,2,1,253,"f1da/02",200,0,0,"The Black Shroud","Baelsar's Wall","Outer Reaches",77,64,"Baelsar's Wall",True,False
+339,2,19,3,1,254,"f1da/03",200,-138,0,"The Black Shroud","Baelsar's Wall","Inner Reaches",77,384,"Baelsar's Wall",True,False
+340,2,19,4,1,255,"f1da/04",200,-345,-295,"The Black Shroud","Baelsar's Wall","The Walk",77,15872,"Baelsar's Wall",True,False
+341,0,0,0,1,0,"default/00",100,0,0,"Dravania","Heart of the Creator","",-1,0,"Heart of the Creator",True,True
+342,0,0,0,1,245,"d2ab/02",200,0,0,"Dravania","Heart of the Creator","",74,8,"Heart of the Creator",True,True
+343,6,8,1,1,258,"z2r3/01",200,-350,-400,"Abalathia's Spine","Dun Scaith","The <Emphasis>Lady Radlia</Emphasis>",76,14,"Dun Scaith",True,False
+344,6,8,2,1,259,"z2r3/02",200,100,-100,"Abalathia's Spine","Dun Scaith","Dun Scaith Ruins",76,8176,"Dun Scaith",True,False
+345,6,8,3,1,260,"z2r3/03",200,0,0,"Abalathia's Spine","Dun Scaith","The Crumbling Hold",76,8192,"Dun Scaith",True,False
+346,0,0,0,1,261,"z2r3/04",200,350,400,"Abalathia's Spine","","Hold Roof",76,16384,"Dun Scaith",True,False
+347,0,0,0,1,0,"z2r3/05",200,-350,400,"Abalathia's Spine","","Unwhere",-1,0,"Dun Scaith",True,False
+348,0,0,0,1,251,"f1p1/00",200,0,0,"The Black Shroud","Lichenweed","",-1,0,"",True,False
+349,0,0,0,1,251,"f1p2/00",200,0,0,"The Black Shroud","Lichenweed","",-1,0,"Lichenweed",True,False
+350,7,14,1,1,262,"d2d8/01",200,128,-32,"Dravania","Sohm Al (Hard)","Betrayal",78,30,"Sohm Al",True,False
+351,7,14,2,1,263,"d2d8/02",200,-256,-192,"Dravania","Sohm Al (Hard)","The Veins",78,992,"Sohm Al",True,False
+352,7,14,3,1,264,"d2d8/03",200,-192,192,"Dravania","Sohm Al (Hard)","The Heart",78,15360,"Sohm Al",True,False
+353,0,0,0,1,0,"a2fg/00",400,0,0,"Abalathia's Spine","Containment Bay Z1T9","",-1,0,"Containment Bay Z1T9",True,False
+354,11,3,0,1,282,"e3f2/00",100,0,0,"Othard","Yanxia","",22,2147483646,"Yanxia",False,False
+355,0,0,0,1,0,"l1e3/00",400,0,0,"Mor Dhona","Omega Control","",-1,0,"Omega Control",True,True
+356,0,0,0,1,257,"a2fh/00",100,0,0,"Abalathia's Spine","The Diadem","",17,134217726,"The Diadem",False,False
+357,0,0,0,1,265,"l1p1/00",100,0,0,"Mor Dhona","Carteneau Flats: Borderland Ruins","",-1,0,"Carteneau Flats: Borderland Ruins",True,False
+358,0,0,0,1,0,"default/00",100,0,0,"Abalathia's Spine","The Diadem","",-1,0,"The Diadem",True,False
+359,1,22,0,1,284,"o3d1/00",200,0,0,"La Noscea","The Sirensong Sea","",85,65534,"The Sirensong Sea",True,False
+360,9,4,1,1,285,"e3d4/01",200,70,33,"Hingashi","Kugane Castle","Ni-no-Maru",86,62,"Kugane Castle",True,False
+361,9,4,2,1,286,"e3d4/02",200,-277,-49,"Hingashi","Kugane Castle","Hon-maru",86,65472,"Kugane Castle",True,False
+362,8,8,1,1,266,"g3d3/01",200,-427,-314,"Gyr Abania","The Temple of the Fist","Dilemma",79,62,"The Temple of the Fist",True,False
+363,8,8,2,1,267,"g3d3/02",200,296,170,"Gyr Abania","The Temple of the Fist","Enlightenment",79,16320,"The Temple of the Fist",True,False
+364,9,3,1,1,268,"e1h1/01",200,0,0,"Hingashi","Shirogane","Shirogane",-1,0,"Shirogane",True,False
+365,9,3,2,1,269,"e1h1/02",200,704,704,"Hingashi","Shirogane","Shirogane Subdivision",-1,0,"Shirogane",True,False
+366,8,2,0,1,276,"g3t1/00",200,0,0,"Gyr Abania","Rhalgr's Reach","",-1,0,"Rhalgr's Reach",True,False
+367,8,3,0,1,277,"g3f1/00",100,0,0,"Gyr Abania","The Fringes","",18,2147483646,"The Fringes",False,False
+368,8,4,0,1,278,"g3f2/00",100,0,0,"Gyr Abania","The Peaks","",19,4294967294,"The Peaks",False,False
+369,8,5,0,1,279,"g3f3/00",100,0,0,"Gyr Abania","The Lochs","",20,4294967294,"The Lochs",False,False
+370,9,2,0,1,280,"e3t1/00",200,0,0,"Hingashi","Kugane","",-1,0,"Kugane",True,False
+371,11,2,0,1,281,"e3f1/00",100,0,0,"Othard","The Ruby Sea","",21,2147483646,"The Ruby Sea",False,False
+372,11,4,0,1,283,"e3f3/00",100,0,0,"Othard","The Azim Steppe","",23,2147483646,"The Azim Steppe",False,False
+373,8,7,1,1,274,"g3d2/01",200,292,-163,"Gyr Abania","Ala Mhigo","Mercantile District",80,62,"Ala Mhigo",True,False
+374,8,7,2,1,275,"g3d2/02",200,-250,128,"Gyr Abania","Ala Mhigo","Royal Palace",80,16320,"Ala Mhigo",True,False
+375,11,6,0,1,287,"e3d2/00",200,0,0,"Othard","Bardam's Mettle","",82,32766,"Bardam's Mettle",True,False
+376,0,0,0,1,295,"o3e1/00",400,0,0,"La Noscea","The <Emphasis>Misery</Emphasis>","",-1,0,"The <Emphasis>Misery</Emphasis>",True,True
+377,0,0,0,1,302,"e3e1/00",400,0,0,"Hingashi","Ruby Bazaar Offices","",-1,0,"Ruby Bazaar Offices",True,True
+378,0,0,0,1,297,"e3e5/00",400,0,0,"Othard","The House of the Fierce","",-1,0,"The House of the Fierce",True,True
+379,0,0,0,1,298,"e3ea/00",400,-60,-46,"Othard","The Doman Enclave","",-1,0,"The Doman Enclave",True,True
+380,0,0,0,1,0,"e3ti/00",400,0,0,"Hingashi","Bokairo Inn","",-1,0,"Bokairo Inn",True,False
+381,0,0,0,1,0,"g3e1/00",400,0,0,"Gyr Abania","The First Altar of Djanan Qhat","",-1,0,"The First Altar of Djanan Qhat",True,True
+382,0,0,0,1,0,"g3e3/00",400,0,0,"Gyr Abania","The Resonatorium","",-1,0,"The Lochs",True,False
+383,0,0,0,1,296,"g3e4/00",200,410,142,"Gyr Abania","The Royal Menagerie","",-1,0,"The Royal Menagerie",True,True
+384,12,1,0,2,137,"world/01",100,0,0,"Far East","Far East","",-1,0,,True,False
+385,8,1,0,3,271,"region/07",100,0,0,"Gyr Abania","Gyr Abania","",-1,0,,True,False
+386,11,1,0,4,272,"region/08",100,0,0,"Othard","Othard","",-1,0,,True,False
+387,9,1,0,4,273,"region/09",100,0,0,"Hingashi","Hingashi","",-1,0,,True,False
+388,0,0,0,1,270,"e1i6/00",400,0,0,"Hingashi","Kobai Goten Apartment Lobby","",-1,0,"Kobai Goten Apartment Lobby",True,True
+389,0,0,0,1,292,"z3o1/00",200,0,0,"Gyr Abania","The Interdimensional Rift","",84,30,"The Interdimensional Rift",True,False
+390,0,0,0,1,0,"z3o2/00",400,0,0,"Gyr Abania","Deltascape V1.0","",-1,0,"Deltascape V1.0",True,False
+391,0,0,0,1,0,"z3o3/00",400,0,0,"Gyr Abania","Deltascape V2.0","",-1,0,"Deltascape V2.0",True,False
+392,0,0,0,1,0,"z3o4/00",400,0,0,"Gyr Abania","Deltascape V3.0","",-1,0,"Deltascape V3.0",True,False
+393,0,0,0,1,0,"default/00",400,-256,-4,"Gyr Abania","Deltascape V3.0","",-1,0,"Deltascape V3.0",True,False
+394,0,0,0,1,0,"z3o5/00",400,0,0,"Gyr Abania","Deltascape V4.0","",-1,0,"Deltascape V4.0",True,False
+395,0,0,0,1,0,"default/00",100,0,0,"Gyr Abania","The Interdimensional Rift","",-1,0,"The Interdimensional Rift",True,True
+396,11,7,0,1,288,"e3d3/00",200,0,0,"Othard","Doma Castle","",83,16382,"Doma Castle",True,False
+397,8,6,0,1,290,"g3d1/00",200,72,-186,"Gyr Abania","Castrum Abania","",87,8190,"Castrum Abania",True,False
+398,0,0,0,1,0,"default/00",100,-1000,-1000,"Gyr Abania","The Interdimensional Rift","",-1,0,"The Interdimensional Rift",True,True
+399,0,0,0,1,0,"g3fa/00",400,0,0,"Gyr Abania","Emanation","",-1,0,"Emanation",True,False
+400,0,0,0,1,0,"e3fa/00",400,0,0,"Othard","The Blessed Treasury","",-1,0,"The Blessed Treasury",True,False
+401,0,0,0,1,0,"w1fa/00",400,0,0,"Thanalan","Bowl of Embers","",-1,0,"Bowl of Embers",True,False
+402,0,0,0,1,0,"r1fa/01",400,0,0,"Coerthas","The Howling Eye","",-1,0,"The Howling Eye",True,False
+403,0,0,0,1,0,"s1fa/00",400,0,0,"La Noscea","The Navel","",-1,0,"The Navel",True,False
+404,0,0,0,1,0,"d2fa/00",400,0,0,"Dravania","Thok ast Thok","",-1,0,"Thok ast Thok",True,False
+405,0,0,0,1,0,"g3fb/01",400,0,0,"Gyr Abania","The Royal Airship Landing","",-1,0,"The Royal Airship Landing",True,False
+406,0,0,0,1,0,"g3fb/02",400,0,0,"Gyr Abania","Transparency","",-1,0,"The Royal Airship Landing",True,False
+407,0,0,0,1,0,"a2fa/00",400,0,0,"Abalathia's Spine","The Limitless Blue","",-1,0,"The Limitless Blue",True,False
+408,0,0,0,1,0,"default/00",100,0,0,"???","The Lost Canals of Uznair","",-1,0,"The Lost Canals of Uznair",True,False
+409,0,0,0,1,0,"default/00",100,0,0,"???","The Lost Canals of Uznair","",-1,0,"The Lost Canals of Uznair",True,False
+410,0,0,0,1,299,"g3t1/00",200,0,0,"Gyr Abania","Rhalgr's Reach","",-1,0,"Rhalgr's Reach",True,False
+411,0,0,0,1,300,"e3t1/00",200,0,0,"Hingashi","Kugane","",-1,0,"Kugane",True,False
+412,0,0,0,1,301,"d2p1/00",100,0,0,"Dravania","Astragalos","",-1,0,"Astragalos",True,False
+413,8,9,1,1,306,"g3d4/01",200,185,5,"Gyr Abania","The Drowned City of Skalla","The Shallows",89,3070,"The Drowned City of Skalla",True,False
+414,0,0,0,1,318,"z3fa/00",100,0,0,"???","Eureka Anemos","",93,32766,"Eureka Anemos",True,False
+415,8,9,2,1,307,"g3d4/02",200,-315,5,"Gyr Abania","The Drowned City of Skalla","The Depths",89,62464,"The Drowned City of Skalla",True,False
+416,0,0,0,1,0,"f1bz/00",400,0,0,"???","The Binding Coil of Bahamut","",-1,0,"The Binding Coil of Bahamut",True,False
+417,0,0,0,1,275,"g3d2/02",200,-250,128,"Gyr Abania","The Hall of the Griffin","",80,16320,"Royal Palace",True,True
+418,13,1,0,3,0,"region/99",100,0,0,"???","???","",-1,0,,True,False
+419,0,0,0,1,305,"g3e6/00",200,0,0,"Gyr Abania","The Resonatorium","",-1,0,"The Resonatorium",True,True
+420,0,0,0,1,303,"z3e2/00",400,0,0,"???","The <Emphasis>Prima Vista</Emphasis> Tiring Room","",-1,0,"The <Emphasis>Prima Vista</Emphasis> Tiring Room",True,True
+421,0,0,0,1,304,"z3e3/00",400,0,0,"???","The <Emphasis>Prima Vista</Emphasis> Bridge","",-1,0,"The <Emphasis>Prima Vista</Emphasis> Bridge",True,True
+422,13,2,1,1,308,"z3r1/01",200,300,-100,"???","The Royal City of Rabanastre","Charred Ruins",88,510,"The Royal City of Rabanastre",True,False
+423,13,2,2,1,309,"z3r1/02",200,-250,-300,"???","The Royal City of Rabanastre","Garamsythe Waterway",88,3584,"The Royal City of Rabanastre",True,False
+424,13,2,3,1,310,"z3r1/03",200,-100,300,"???","The Royal City of Rabanastre","The Royal City of Lesalia",88,61440,"The Royal City of Rabanastre",True,False
+425,0,0,1,1,0,"e1i1/01",400,0,0,"Hingashi","Private Cottage - Shirogane","Ground Floor",-1,0,"Private Cottage - Shirogane",True,False
+426,0,0,2,1,0,"e1i1/02",400,0,0,"Hingashi","Private Cottage - Shirogane","Cellarage",-1,0,"Private Cottage - Shirogane",True,False
+427,0,0,2,1,0,"e1i2/01",400,0,0,"Hingashi","Private House - Shirogane","Ground Floor",-1,0,"Private House - Shirogane",True,False
+428,0,0,1,1,0,"e1i2/02",400,0,0,"Hingashi","Private House - Shirogane","Second Floor",-1,0,"Private House - Shirogane",True,False
+429,0,0,3,1,0,"e1i2/03",400,0,0,"Hingashi","Private House - Shirogane","Cellarage",-1,0,"Private House - Shirogane",True,False
+430,0,0,2,1,0,"e1i3/01",400,0,0,"Hingashi","Private Mansion - Shirogane","Ground Floor",-1,0,"Private Mansion - Shirogane",True,False
+431,0,0,1,1,0,"e1i3/02",400,0,0,"Hingashi","Private Mansion - Shirogane","Second Floor",-1,0,"Private Mansion - Shirogane",True,False
+432,0,0,3,1,0,"e1i3/03",400,0,0,"Hingashi","Private Mansion - Shirogane","Cellarage",-1,0,"Private Mansion - Shirogane",True,False
+433,0,0,0,1,0,"e1i5/00",400,0,0,"Hingashi","Company Workshop - Shirogane","",-1,0,"Private Chambers - Shirogane",True,False
+434,0,0,0,1,0,"e1i4/00",400,0,0,"Hingashi","Private Chambers - Shirogane","",-1,0,"Company Workshop - Shirogane",True,False
+435,0,0,0,1,0,"g3fc/01",400,0,0,"Gyr Abania","Transparency","",-1,0,"Transparency",True,False
+436,0,0,0,1,0,"g3fc/02",400,0,32,"Gyr Abania","Myth","",-1,0,"Transparency",True,False
+437,0,0,0,1,298,"e3eb/00",400,-60,-46,"Othard","The Doman Enclave","",-1,0,"The Doman Enclave",True,True
+438,0,0,0,1,0,"e1i4/00",400,0,0,"Hingashi","Kobai Goten Apartment","",-1,0,"Kobai Goten Apartment",True,False
+439,11,8,0,1,321,"e3d5/00",200,0,0,"Othard","Hells' Lid","",94,16382,"Hells' Lid",True,False
+440,0,0,0,1,311,"l1p2/00",200,0,0,"Mor Dhona","Crystal Tower Training Grounds","",-1,0,"Crystal Tower Training Grounds",True,False
+441,6,9,1,1,315,"a2d4/01",200,0,350,"Abalathia's Spine","The Fractal Continuum (Hard)","Central Complex",91,14,"The Fractal Continuum",True,False
+442,6,9,2,1,316,"a2d4/02",200,237,-128,"Abalathia's Spine","The Fractal Continuum (Hard)","Starboard Complex",91,496,"The Fractal Continuum",True,False
+443,6,9,3,1,317,"a2d4/03",200,0,-300,"Abalathia's Spine","The Fractal Continuum (Hard)","Rear Complex",91,32256,"The Fractal Continuum",True,False
+444,0,0,0,1,0,"default/00",100,0,0,"Gyr Abania","The Interdimensional Rift","",-1,0,"The Interdimensional Rift",True,True
+445,0,0,0,1,320,"z3o6/00",200,-67,-250,"Gyr Abania","The Interdimensional Rift","",90,30,"The Interdimensional Rift",True,False
+446,0,0,1,1,0,"z3o7/01",400,0,0,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+447,0,0,0,1,0,"z3o8/00",400,0,0,"Gyr Abania","Sigmascape V2.0","",-1,0,"Sigmascape V2.0",True,False
+448,0,0,0,1,0,"z3o9/00",400,0,0,"Gyr Abania","Sigmascape V3.0","",-1,0,"Sigmascape V3.0",True,False
+449,0,0,0,1,0,"z3oa/00",400,0,0,"Gyr Abania","Sigmascape V4.0","",-1,0,"Sigmascape V4.0",True,False
+450,0,0,0,1,0,"e3fb/00",400,0,0,"Othard","The Jade Stoa","",-1,0,"The Jade Stoa",True,False
+451,0,0,0,1,0,"f1e9/00",400,0,125,"The Black Shroud","Valentione's Ceremony","",-1,0,"Sanctum of the Twelve",True,False
+452,0,0,0,1,0,"z3o7/02",400,30,-45,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+453,0,0,0,1,0,"z3o7/03",400,-145,70,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+454,0,0,0,1,0,"z3o7/04",400,-145,26,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+455,0,0,0,1,0,"z3o7/05",400,-145,-28,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+456,0,0,0,1,0,"z3o7/06",400,-145,-72,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+457,0,0,0,1,0,"z3o7/07",400,-216,70,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+458,0,0,0,1,0,"z3o7/08",400,-216,26,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+459,0,0,0,1,0,"z3o7/09",400,-216,-28,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+460,0,0,0,1,0,"z3o7/10",400,-216,-72,"Gyr Abania","Sigmascape V1.0","",-1,0,"Sigmascape V1.0",True,False
+461,0,0,0,1,314,"e3e7/00",400,0,0,"Othard","Kienkan","",-1,0,"Kienkan",True,True
+462,0,0,0,1,319,"e3e8/00",400,-62,475,"Othard","Reisen Temple","",-1,0,"Reisen Temple",True,True
+463,0,0,0,1,313,"e3ec/00",400,23,34,"Othard","The Doman Enclave","",-1,0,"The Doman Enclave",True,False
+464,11,9,2,1,322,"e3d6/01",200,240,0,"Othard","The Swallow's Compass","The Swallow's Compass",92,62,"The Swallow's Compass",True,False
+465,11,9,3,1,323,"e3d6/02",200,-240,0,"Othard","The Swallow's Compass","The One River",92,960,"The Swallow's Compass",True,False
+466,11,9,1,1,324,"e3d6/03",200,-15,0,"Othard","The Swallow's Compass","The Dairyu Chain",92,15360,"The Swallow's Compass",True,False
+467,0,0,0,1,326,"z3fb/00",100,0,0,"???","Eureka Pagos","",96,32766,"Eureka Pagos",True,False
+468,0,0,0,1,0,"e3fc/00",400,-100,-100,"Othard","The Great Hunt","",-1,0,"The Great Hunt",True,False
+469,0,0,0,1,0,"default/00",100,0,0,"Othard","Reisen Temple Road","",-1,0,"Reisen Temple Road",True,False
+470,13,3,1,1,327,"z3r2/01",200,202,-92,"???","The Ridorana Lighthouse","The Ridorana Cataract",95,14,"The Ridorana Lighthouse",True,False
+471,13,3,2,1,328,"z3r2/02",200,230,432,"???","The Ridorana Lighthouse","The Lower Lighthouse",95,48,"The Ridorana Lighthouse",True,False
+472,13,3,3,1,329,"z3r2/03",200,230,494,"???","The Ridorana Lighthouse","The Upper Lighthouse",95,448,"The Ridorana Lighthouse",True,False
+473,13,3,4,1,330,"z3r2/04",200,-800,144,"???","The Ridorana Lighthouse","The Clockwork City of Goug",95,65024,"The Ridorana Lighthouse",True,False
+474,0,0,0,1,331,"z3r2/05",200,-800,-800,"???","The Ridorana Lighthouse","The Station of Banishment",95,8192,"The Ridorana Lighthouse",True,False
+475,0,0,0,1,0,"w1fz/00",400,-100,-100,"???","Ultimacy","",-1,0,"Ultimacy",True,False
+476,0,0,0,1,0,"e3fd/00",400,-100,-100,"Othard","Castrum Fluminis","",-1,0,"Castrum Fluminis",True,False
+477,0,0,0,1,0,"default/00",100,0,0,"Othard","Heaven-on-High","",-1,0,"Heaven-on-High",True,True
+478,0,0,0,1,0,"default/00",100,0,0,"Othard","The Burn","",-1,0,"The Burn",True,False
+479,0,0,0,1,325,"e3ee/00",400,0,0,"Othard","Castrum Fluminis","",-1,0,"Castrum Fluminis",True,True
+480,11,10,0,1,336,"e3d7/00",200,0,0,"Othard","The Burn","",99,65534,"The Burn",True,False
+481,7,15,1,1,332,"d2d9/01",200,0,0,"Dravania","Saint Mocianne's Arboretum (Hard)","First Floor",97,62,"Saint Mocianne's Arboretum",True,False
+482,7,15,2,1,333,"d2d9/02",200,0,0,"Dravania","Saint Mocianne's Arboretum (Hard)","The Underworks",97,8128,"Saint Mocianne's Arboretum",True,False
+483,0,0,0,1,0,"default/00",100,0,0,"???","The Ridorana Cataract","",-1,0,"The Ridorana Cataract",True,True
+484,0,0,0,1,335,"z3fc/00",100,0,0,"???","Eureka Pyros","",98,16382,"Eureka Pyros",True,False
+485,0,0,0,1,0,"z3oc/00",400,-100,-100,"Gyr Abania","Psiscape V1.0","",-1,0,"Psiscape V1.0",True,False
+486,0,0,0,1,0,"z3oe/00",400,-100,-100,"Gyr Abania","The Interdimensional Rift","",-1,0,"The Interdimensional Rift",True,False
+487,0,0,0,1,334,"w1t1/01",200,0,0,"Thanalan","Ul'dah - Steps of Nald","",-1,0,"Ul'dah - Steps of Nald",True,False
+488,0,0,0,1,341,"w1p1/00",100,0,0,"Thanalan","Hidden Gorge","",-1,0,"Hidden Gorge",True,False
+489,0,0,0,1,0,"e3ff/00",400,-100,-100,"Hingashi","Kugane Ohashi","",-1,0,"Kugane Ohashi",True,False
+490,0,0,0,1,0,"w1tz/00",400,-100,-100,"Thanalan","Blue Sky","",-1,0,"Blue Sky",True,False
+491,0,0,0,1,0,"n4f1/00",100,0,0,"???","","",-1,0,"",True,False
+492,0,0,0,1,0,"n4f2/00",100,0,0,"???","","",-1,0,"",True,False
+493,0,0,0,1,0,"n4f3/00",100,0,0,"???","","",-1,0,"",True,False
+494,0,0,0,1,0,"n4f4/00",100,0,0,"???","","",-1,0,"",True,False
+495,0,0,0,1,0,"n4f5/00",100,0,0,"???","","",-1,0,"",True,False
+496,0,0,0,1,0,"n4f6/00",100,0,0,"???","","",-1,0,"",True,False
+497,0,0,0,1,0,"n4t1/00",200,0,0,"???","","",-1,0,"",True,False
+498,0,0,0,1,0,"n4t2/00",200,0,0,"???","","",-1,0,"",True,False
+499,0,0,0,1,0,"o3c2/00",400,-100,-100,"???","The Shifting Altars of Uznair","",-1,0,"The Shifting Altars of Uznair",True,False
+500,8,10,0,1,340,"g3d5/00",200,0,0,"Gyr Abania","The Ghimlyt Dark","",100,1022,"The Ghimlyt Dark",True,False
+501,0,0,0,1,0,"z3od/00",400,-100,-100,"Gyr Abania","Psiscape V2.0","",-1,0,"Psiscape V2.0",True,False
+502,0,0,0,1,0,"z3of/00",400,-100,-100,"Gyr Abania","The Interdimensional Rift","",-1,0,"The Interdimensional Rift",True,False
+503,0,0,0,1,0,"e3fe/00",400,-100,-100,"Othard","Hells' Kier","",-1,0,"Hells' Kier",True,False
+504,0,0,1,1,337,"f1d9/01",200,0,0,"The Black Shroud","The Haunted Manor","Ground Floor",-1,0,"Haunted Manor",True,True
+505,0,0,2,1,338,"f1d9/02",200,0,0,"The Black Shroud","The Haunted Manor","Second Floor",-1,0,"Haunted Manor",True,True
+506,0,0,3,1,339,"f1d9/03",200,0,0,"The Black Shroud","The Haunted Manor","Cellarage",-1,0,"Haunted Manor",True,True
+507,0,0,0,1,0,"default/00",400,0,0,"Thanalan","The Fall of Belah'dia","",-1,0,"The Fall of Belah'dia",True,False
+508,0,0,0,1,0,"default/00",100,0,0,"Gyr Abania","The Interdimensional Rift","",-1,0,"The Interdimensional Rift",True,True
+509,0,0,0,1,0,"default/00",400,-100,-100,"Gyr Abania","The Interdimensional Rift","",-1,0,"The Interdimensional Rift",True,True
+510,0,0,0,1,0,"n4d3/01",200,0,-274,"???","","",-1,0,"",True,False
+511,0,0,0,1,0,"n4d3/02",200,0,403,"???","","",-1,0,"",True,False
+512,13,4,1,1,351,"z3r3/01",200,-545,-663,"???","The Orbonne Monastery","The Golmore Jungle",101,6,"The Orbonne Monastery",True,False
+513,13,4,2,1,352,"z3r3/02",200,-600,-150,"???","The Orbonne Monastery","The Orbonne Monastery",101,56,"The Orbonne Monastery",True,False
+514,13,4,3,1,353,"z3r3/03",200,645,540,"???","The Orbonne Monastery","The Necrohol",101,192,"The Orbonne Monastery",True,False
+515,0,0,0,1,342,"z3fd/01",100,0,475,"???","Eureka Hydatos","",102,8190,"Eureka Hydatos",True,False
+516,0,0,0,1,0,"e3fg/00",400,-100,-100,"Othard","The Wreath of Snakes","",-1,0,"The Wreath of Snakes",True,False
+517,0,0,0,1,344,"g3e7/01",400,0,0,"Gyr Abania","Garlean Legion Tents","",-1,0,"Eorzean Alliance Headquarters",True,True
+518,0,0,0,1,343,"g3e7/02",400,480,-130,"Gyr Abania","Eorzean Alliance Headquarters","",-1,0,"Eorzean Alliance Headquarters",True,True
+519,13,4,4,1,354,"z3r3/04",200,-600,600,"???","The Orbonne Monastery","Crystalline Gaol",101,256,"The Orbonne Monastery",True,False
+520,0,0,0,1,345,"z3fd/02",200,0,-754,"???","Eureka Hydatos","Headquarters Entrance",-1,0,"Eureka Hydatos",True,False
+521,0,0,0,1,346,"z3fd/03",200,0,-450,"???","Eureka Hydatos","The Basement",-1,0,"Eureka Hydatos",True,False
+522,0,0,0,1,0,"z3r3/05",200,-300,50,"???","The Orbonne Monastery","Confessional",-1,0,"The Orbonne Monastery",True,False
+523,0,0,0,1,0,"z3r3/06",200,600,600,"???","The Orbonne Monastery","The Forgotten Arena",-1,0,"The Orbonne Monastery",True,False
+524,0,0,0,1,347,"z3fd/04",200,0,-450,"???","Eureka Hydatos","The Belly",-1,0,"Eureka Hydatos",True,False
+525,0,0,0,1,348,"z3fd/05",200,0,-450,"???","Eureka Hydatos","The Umbral Tier",-1,0,"Eureka Hydatos",True,False
+526,0,0,0,1,349,"z3fd/06",200,0,-450,"???","Eureka Hydatos","The Astral Tier",-1,0,"Eureka Hydatos",True,False
+527,0,0,0,1,350,"z3fd/07",200,0,-450,"???","Eureka Hydatos","The Loft",-1,0,"Eureka Hydatos",True,False
