@@ -9,7 +9,7 @@ This is a collection of CSV and image files used in generating the ATTT database
 3. Run the following commands:
 ```
 .\SaintCoinach.Cmd.exe 'C:\Path\To\Game\FINAL FANTASY XIV - A Realm Reborn'
-allexd ENpcBase ENpcResident TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule PlaceName
+allexd ENpcBase ENpcResident TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule PlaceName Quest
 rawexd Level TripleTriad Map
 ui 082101 082999
 ```
