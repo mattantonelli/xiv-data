@@ -264,8 +264,8 @@ Coultenet<Indent/>: “Ce n'est pas parce que Moenbryda passe son temps à boire
 247,"Alpha",0,"Alpha",0,1,1,0,1,"“Kwééé... Kwé<Indent/>!”
 - Nouvel employé des Forges de Garlond."
 248,"Altesse namazu nain doré",0,"Altesse namazu nain doré",0,1,1,1,0,"Un Namazu de couleur or. Apprenant que les marionnettes dorées de Namazu étaient populaires comme porte-bonheur au Proche-Orient, il décida de se rendre à Radz-at-Han dans l'espoir de mener une vie de farniente. Il changea la couleur de son corps en doré grâce à une potion alchimique et réussit à s'arroger un rôle de divinité protectrice de la salle des trésors."
-249,"",0,"",0,0,0,0,0,""
+249,"Gilgamesh (Stormblood)",0,"Gilgamesh (Stormblood)",0,0,1,0,1,"“Mon instinct ne m'a jamais trahi. J'ai im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment compris en vous voyant que vous étiez <If(PlayerParameter(4))>une combattante<Else/>un combattant</If> hors pair. Votre arme sera donc à moi<Indent/>! Préparez-vous, car je ne vous ferai aucun cadeau<Indent/>!”"
 250,"Ultima, la Grande Séraphine",0,"Ultima, la Grande Séraphine",0,1,1,1,1,"Cette machine destructrice anti-magie ultime doit son nom à ses capacités extrêmes. Si elle était au départ une simple entité annihilante, la crainte qu'elle inspirait aux gens s'est petit à petit mutée en déférence, et lui a conféré une conscience. On peut comparer ce phénomène à la création d'un Primordial par un souhait populaire."
 251,"Alphinaud & Alisaie (Stormblood)",0,"Alphinaud & Alisaie (Stormblood)",0,1,1,0,1,"“Cependant, je pense être capable d'aider deux partis longtemps ennemis à tisser une relation et à se rapprocher.”
 “(soupire) Je sais que je ne te retirerai pas cette idée de la tête, alors vas-y, fais comme tu veux.”"
-252,"",0,"",0,0,0,0,0,""
+252,"Noctis Lucis Caelum",0,"Noctis Lucis Caelum",0,0,1,0,1,"“Quand tout sera réglé... plus personne n'aura à se soucier de ses origines.”"
