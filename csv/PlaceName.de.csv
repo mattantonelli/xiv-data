@@ -518,9 +518,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte
 513,"Kugane",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Kugane</Case><Case(2)>in Kugane</Case></Switch>",0
 514,"Gyr Abania",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Gyr Abania</Case><Case(2)>in Gyr Abania</Case></Switch>",0
 515,"Othard",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Othard</Case><Case(2)>in Othard</Case></Switch>",0
-516,"",0,"",0,0,0,0,0,"",0
-517,"",0,"",0,0,0,0,0,"",0
-518,"",0,"",0,0,0,0,0,"",0
+516,"Crystarium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Crystarium</Case><Case(2)>in Crystarium</Case><Case(3)>Crystarium</Case></Switch>",0
+517,"Eulmore",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Eulmore</Case><Case(2)>in Eulmore</Case><Case(3)>Eulmore</Case></Switch>",0
+518,"Norvrandt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Norvrandt</Case><Case(2)>in Norvrandt</Case><Case(3)>Norvrandt</Case></Switch>",0
 519,"",0,"",0,0,0,0,0,"",0
 520,"Pfad der Buße",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Buße</Case><Case(2)>auf dem Pfad der Buße</Case></Switch>",0
 521,"Pfad der Vergebung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Vergebung</Case><Case(2)>auf dem Pfad der Vergebung</Case></Switch>",0
@@ -1215,7 +1215,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 1188,"[Erweiterung] Die Große Dürre",0,"",0,0,1,0,0,"",0
 1189,"[Erweiterung] Kuppenmarkt",0,"",0,0,1,0,0,"",0
 1190,"[Erweiterung] Das Überströmende Herz",0,"",0,0,1,0,0,"",0
-1191,"[Erweiterung] Der Atem der Sultana",0,"",0,0,1,0,0,"",0
+1191,"[Erweiterung] Nanamo-Windrad",0,"",0,0,1,0,0,"",0
 1192,"[Erweiterung] Raubahns Arm",0,"",0,0,1,0,0,"",0
 1193,"[Erweiterung] Kelchkuppe Ost",0,"",0,0,1,0,0,"",0
 1194,"[Erweiterung] Kelchkuppe Nord",0,"",0,0,1,0,0,"",0
@@ -1235,7 +1235,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 1208,"Kuppenmarkt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kuppenmarkt</Case><Case(2)>am Kuppenmarkt</Case></Switch>",0
 1209,"Die Große Dürre",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Großen Dürre</Case><Case(2)>an der Großen Dürre</Case></Switch>",0
 1210,"Das Überströmende Herz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Überströmenden Herzen</Case><Case(2)>am Überströmenden Herzen</Case></Switch>",0
-1211,"Der Atem der Sultana",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Atem der Sultana</Case><Case(2)>am Atem der Sultana</Case></Switch>",0
+1211,"Nanamo-Windrad",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nanamo-Windrad</Case><Case(2)>am Nanamo-Windrad</Case></Switch>",0
 1212,"Raubahns Arm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Raubahns Arm</Case><Case(2)>bei Raubahns Arm</Case></Switch>",0
 1213,"Kuppenmarkt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kuppenmarkt</Case><Case(2)>am Kuppenmarkt</Case></Switch>",0
 1214,"Kelchkuppe Nordost",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Kelchkuppe Nordost</Case><Case(2)>in Kelchkuppe Nordost</Case></Switch>",0
@@ -1834,8 +1834,8 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 1806,"[Erweiterung] Fockmast",0,"",0,0,1,0,0,"",0
 1807,"Lilienhügel",0,"",0,0,1,0,0,"",0
 1808,"[Erweiterung] Lilienhügel",0,"",0,0,1,0,0,"",0
-1809,"Der Atem der Sultana",0,"",0,0,1,0,0,"",0
-1810,"[Erweiterung] Der Atem der Sultana",0,"",0,0,1,0,0,"",0
+1809,"Nanamo-Windrad",0,"",0,0,1,0,0,"",0
+1810,"[Erweiterung] Nanamo-Windrad",0,"",0,0,1,0,0,"",0
 1811,"Fockmast (Eingangshalle)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Fockmast (Eingangshalle)</Case><Case(2)>in dem Fockmast (Eingangshalle)</Case><Case(3)>Fockmast (Eingangshalle)</Case></Switch>",0
 1812,"Fockmast (Wohnung)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Fockmast (Wohnung)</Case><Case(2)>in dem Fockmast (Wohnung)</Case><Case(3)>Fockmast (Wohnung)</Case></Switch>",0
 1813,"Lilienhügel (Eingangshalle)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>im Lilienhügel (Eingangshalle)</Case><Case(2)>in den Lilienhügel (Eingangshalle)</Case><Case(3)>Lilienhügel (Eingangshalle)</Case></Switch>",0
@@ -2072,7 +2072,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2044,"Monstaterium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Monstaterium</Case><Case(2)>im Monstaterium</Case><Case(3)>das Monstateirum</Case></Switch>",0
 2045,"Asah-Wolkenweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Asah-Wolkenweg</Case><Case(2)>auf dem Asah-Wolkenweg</Case><Case(3)>der Asah-Wolkenweg</Case></Switch>",0
 2046,"Kreidetempel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kreidetempel</Case><Case(2)>im Kreidetempel</Case><Case(3)>der Kreidetempel</Case></Switch>",0
-2047,"Drachen-Korridor",0,"",0,0,1,0,0,"",0
+2047,"Drachen<SoftHyphen/>korridor",0,"",0,0,1,0,0,"",0
 2048,"Tharl Oom Khash",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Tharl Oom Khash</Case><Case(2)>in Tharl Oom Khash</Case></Switch>",0
 2049,"Ostblick",0,"",0,0,1,0,0,"",0
 2050,"Nest des Drachen",0,"",0,0,1,0,0,"",0
@@ -2309,7 +2309,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2281,"Thronsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Thronsaal</Case><Case(2)>im Thronsaal</Case><Case(3)>der Zugang zum Thronsaal</Case></Switch>",0
 2282,"Dach",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Dach</Case><Case(2)>auf dem Dach</Case><Case(3)>der Zugang zum Dach</Case></Switch>",0
 2283,"Saphirstraßenmarkt",0,"",0,0,1,0,0,"",0
-2284,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Interdimensionalen Riss</Case><Case(2)>im Interdimensionalen Riss</Case><Case(3)>der Zugang zum Interdimensionalen Riss</Case></Switch>",0
+2284,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(2)>im Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(3)>der Zugang zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case></Switch>",0
 2285,"Anshelm-Straße",0,"",0,0,1,0,0,"",0
 2286,"Adelsviertel",0,"",0,0,1,0,0,"",0
 2287,"Palastgarten",0,"",0,0,1,0,0,"",0
@@ -2487,7 +2487,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2459,"Götterstiege",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Götterstiege</Case><Case(2)>auf der Götterstiege</Case><Case(3)>der Zugang zur Götterstiege</Case></Switch>",0
 2460,"Kluft entweihender Winde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kluft entweihender Winde</Case><Case(2)>in der Kluft entweihender Winde</Case><Case(3)>der Zugang zur Kluft entweihender Winde</Case></Switch>",0
 2461,"Kolosseum von Gog",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kolosseum von Gog</Case><Case(2)>im Kolosseum von Gog</Case><Case(3)>der Zugang zum Kolosseum von Gog</Case></Switch>",0
-2462,"Pagos",0,"",0,0,1,0,0,"",0
+2462,"Eureka Pagos",0,"",0,0,1,0,0,"",0
 2463,"Eiskuppe",0,"",0,0,1,0,0,"",0
 2464,"Die Kegel",0,"",0,0,1,0,0,"",0
 2465,"Gefrorener See",0,"",0,0,1,0,0,"",0
@@ -2580,10 +2580,10 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2552,"Sammelkiste",0,"",0,0,1,0,0,"",0
 2553,"Errungenschaften",0,"",0,0,1,0,0,"",0
 2554,"Ausgang",0,"",0,0,1,0,0,"",0
-2555,"",0,"",0,0,0,0,0,"",0
+2555,"Reisender Mogry",0,"",0,0,1,0,0,"",0
 2556,"Blaumagier",0,"",0,0,1,0,0,"",0
-2557,"",0,"",0,0,0,0,0,"",0
-2558,"",0,"",0,0,0,0,0,"",0
+2557,"Quartier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Quartier</Case><Case(2)>im Quartier</Case><Case(3)>das Quartier</Case></Switch>",0
+2558,"Manufaktur der Gemeinschaft",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Manufaktur der Gemeinschaft</Case><Case(2)>in der Manufaktur der Gemeinschaft</Case><Case(3)>die Manufaktur der Gemeinschaft</Case></Switch>",0
 2559,"",0,"",0,0,0,0,0,"",0
 2560,"",0,"",0,0,0,0,0,"",0
 2561,"",0,"",0,0,0,0,0,"",0
@@ -2752,7 +2752,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2724,"Oberer Turm des Ruins",0,"",0,0,1,0,0,"",0
 2725,"Psimetrie 1.0",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Psimetrie 1.0</Case><Case(2)>in der Psimetrie 1.0</Case><Case(3)>der Zugang zur Psimetrie 1.0</Case></Switch>",0
 2726,"Chaosschrein",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Chaosschrein</Case><Case(2)>im Chaosschrein</Case></Switch>",0
-2727,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Interdimensionalen Riss</Case><Case(2)>im Interdimensionalen Riss</Case><Case(3)>der Zugang zum Interdimensionalen Riss</Case></Switch>",0
+2727,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(2)>im Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(3)>der Zugang zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case></Switch>",0
 2728,"Finale Verifikation",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Finalen Verifikation</Case><Case(2)>in der Finalen Verifikation</Case></Switch>",0
 2729,"Letzte Verteidigungslinie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Letzten Verteidigungslinie</Case><Case(2)>an der Letzten Verteidigungslinie</Case><Case(3)>der Zugang zur Letzten Verteidigungslinie</Case></Switch>",0
 2730,"Das Beet",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Beet</Case><Case(2)>im Beet</Case><Case(3)>der Zugang zum Beet</Case></Switch>",0
@@ -2762,7 +2762,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2734,"Reinigungstank A",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Reinigungstank A</Case><Case(2)>im Reinigungstank A</Case></Switch>",0
 2735,"Hort des Schlammkönigs",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hort des Schlammkönigs</Case><Case(2)>im Hort des Schlammkönigs</Case><Case(3)>der Hort des Schlammkönigs</Case></Switch>",0
 2736,"Psimetrie 2.0",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Psimetrie 2.0</Case><Case(2)>in der Psimetrie 2.0</Case><Case(3)>der Zugang zur Psimetrie 2.0</Case></Switch>",0
-2737,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Interdimensionalen Riss</Case><Case(2)>im Interdimensionalen Riss</Case><Case(3)>der Zugang zum Interdimensionalen Riss</Case></Switch>",0
+2737,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(2)>im Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(3)>der Zugang zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case></Switch>",0
 2738,"Drachenstern",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Drachenstern</Case><Case(2)>auf dem Drachenstern</Case></Switch>",0
 2739,"Kosmos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kosmos</Case><Case(2)>im Kosmos</Case></Switch>",0
 2740,"Erste Verteidigungslinie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Ersten Verteidigungslinie</Case><Case(2)>an der Ersten Verteidigungslinie</Case><Case(3)>der Zugang zur Ersten Verteidigungslinie</Case></Switch>",0
@@ -2974,54 +2974,438 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2946,"",0,"",0,0,1,0,0,"",0
 2947,"",0,"",0,0,1,0,0,"",0
 2948,"",0,"",0,0,1,0,0,"",0
-2949,"",0,"",0,0,1,0,0,"",0
-2950,"",0,"",0,0,0,0,0,"",0
-2951,"",0,"",0,0,0,0,0,"",0
-2952,"",0,"",0,0,0,0,0,"",0
-2953,"",0,"",0,0,0,0,0,"",0
-2954,"",0,"",0,0,0,0,0,"",0
-2955,"",0,"",0,0,0,0,0,"",0
-2956,"",0,"",0,0,0,0,0,"",0
-2957,"",0,"",0,0,0,0,0,"",0
-2958,"",0,"",0,0,0,0,0,"",0
-2959,"",0,"",0,0,0,0,0,"",0
-2960,"",0,"",0,0,0,0,0,"",0
-2961,"",0,"",0,0,0,0,0,"",0
-2962,"",0,"",0,0,0,0,0,"",0
-2963,"",0,"",0,0,0,0,0,"",0
-2964,"",0,"",0,0,0,0,0,"",0
-2965,"",0,"",0,0,0,0,0,"",0
-2966,"",0,"",0,0,0,0,0,"",0
-2967,"",0,"",0,0,0,0,0,"",0
-2968,"",0,"",0,0,0,0,0,"",0
-2969,"",0,"",0,0,0,0,0,"",0
-2970,"",0,"",0,0,0,0,0,"",0
-2971,"",0,"",0,0,0,0,0,"",0
-2972,"",0,"",0,0,0,0,0,"",0
-2973,"",0,"",0,0,0,0,0,"",0
-2974,"",0,"",0,0,0,0,0,"",0
-2975,"",0,"",0,0,0,0,0,"",0
-2976,"",0,"",0,0,0,0,0,"",0
-2977,"",0,"",0,0,0,0,0,"",0
-2978,"",0,"",0,0,0,0,0,"",0
-2979,"",0,"",0,0,0,0,0,"",0
-2980,"",0,"",0,0,0,0,0,"",0
-2981,"",0,"",0,0,0,0,0,"",0
-2982,"",0,"",0,0,0,0,0,"",0
-2983,"",0,"",0,0,0,0,0,"",0
-2984,"",0,"",0,0,0,0,0,"",0
-2985,"",0,"",0,0,0,0,0,"",0
-2986,"",0,"",0,0,0,0,0,"",0
-2987,"",0,"",0,0,0,0,0,"",0
-2988,"",0,"",0,0,0,0,0,"",0
-2989,"",0,"",0,0,0,0,0,"",0
-2990,"",0,"",0,0,0,0,0,"",0
-2991,"",0,"",0,0,0,0,0,"",0
-2992,"",0,"",0,0,0,0,0,"",0
-2993,"",0,"",0,0,0,0,0,"",0
-2994,"",0,"",0,0,0,0,0,"",0
-2995,"",0,"",0,0,0,0,0,"",0
-2996,"",0,"",0,0,0,0,0,"",0
-2997,"",0,"",0,0,0,0,0,"",0
-2998,"",0,"",0,0,0,0,0,"",0
-2999,"",0,"",0,0,0,0,0,"",0
+2949,"Norvrandt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Norvrandt</Case><Case(2)>in Norvrandt</Case><Case(3)>Norvrandt</Case></Switch>",0
+2950,"Norvrandt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Norvrandt</Case><Case(2)>in Norvrandt</Case><Case(3)>Norvrandt</Case></Switch>",0
+2951,"Crystarium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Crystarium</Case><Case(2)>in Crystarium</Case><Case(3)>Crystarium</Case></Switch>",0
+2952,"Eulmore",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Eulmore</Case><Case(2)>in Eulmore</Case><Case(3)>Eulmore</Case></Switch>",0
+2953,"Seenland",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Seenland</Case><Case(2)>im Seenland</Case><Case(3)>das Seenland</Case></Switch>",0
+2954,"Kholusia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Kholusia</Case><Case(2)>auf Kholusia</Case><Case(3)>Kholusia</Case></Switch>",0
+2955,"Amh Araeng",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Amh Araeng</Case><Case(2)>in Amh Araeng</Case><Case(3)>Amh Araeng</Case></Switch>",0
+2956,"Il Mheg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Il Mheg</Case><Case(2)>in Il Mheg</Case><Case(3)>Il Mheg</Case></Switch>",0
+2957,"Der Große Wald Rak'tika",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Rak'tika</Case><Case(2)>in Rak'tika</Case><Case(3)>Rak'tika</Case></Switch>",0
+2958,"Tempest",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Tempest</Case><Case(2)>in Tempest</Case><Case(3)>Tempest</Case></Switch>",0
+2959,"Der Geheime Garten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Geheimen Garten</Case><Case(2)>im Geheimen Garten</Case><Case(3)>der Geheime Garten</Case></Switch>",0
+2960,"Wanderwald",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Wanderwald</Case><Case(2)>im Wanderwald</Case><Case(3)>der Wanderwald</Case></Switch>",0
+2961,"Dohn Toch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dohn Toch</Case><Case(2)>in Dohn Toch</Case><Case(3)>Dohn Toch</Case></Switch>",0
+2962,"Dohn Iran",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dohn Iran</Case><Case(2)>in Dohn Iran</Case><Case(3)>Dohn Iran</Case></Switch>",0
+2963,"Taeg Gye",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Taen Gye</Case><Case(2)>in Taen Gye</Case><Case(3)>Taen Gye</Case></Switch>",0
+2964,"Die Knorrige Eiche",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Knorrigen Eiche</Case><Case(2)>an der Knorrigen Eiche</Case><Case(3)>die Knorrige Eiche</Case></Switch>",0
+2965,"Bad der Fuath",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Bad der Fuath</Case><Case(2)>im Bad der Fuath</Case><Case(3)>das Bad der Fuath</Case></Switch>",0
+2966,"Griaules Revier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in Griaules Revier</Case><Case(2)>in Griaules Revier</Case><Case(3)>der Zugang zu Griaules Revier</Case></Switch>",0
+2967,"Halle der Stillen Wasser",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Halle der Stillen Wasser</Case><Case(2)>in der Halle der Stillen Wasser</Case><Case(3)>die Halle der Stillen Wasser</Case></Switch>",0
+2968,"Kronsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Kronsaal</Case><Case(2)>im Kronsaal</Case><Case(3)>der Kronsaal</Case></Switch>",0
+2969,"Aufgang",0,"",0,0,1,0,0,"",0
+2970,"Topologie",0,"",0,0,1,0,0,"",0
+2971,"Abteilung Umfunktionierung",0,"",0,0,1,0,0,"",0
+2972,"Zerstörtes Möbiusband",0,"",0,0,1,0,0,"",0
+2973,"Dimensionstunneler",0,"",0,0,1,0,0,"",0
+2974,"Annäherung",0,"",0,0,1,0,0,"",0
+2975,"Umrüstanlage",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Umrüstanlage</Case><Case(2)>in der Umrüstanlage</Case><Case(3)>die Umrüstanlage</Case></Switch>",0
+2976,"Ätherobservationsdeck",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Ätherobservationsdeck</Case><Case(2)>auf dem Ätherobservationsdeck</Case><Case(3)>das Ätherobservationsdeck</Case></Switch>",0
+2977,"Ätherbrennofen",0,"",0,0,1,0,0,"",0
+2978,"Schnittstelle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Schnittstelle</Case><Case(2)>in der Schnittstelle</Case><Case(3)>die Schnittstelle</Case></Switch>",0
+2979,"Dohn Mheg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dohn Mheg</Case><Case(2)>in Dohn Mheg</Case><Case(3)>Dohn Mheg</Case></Switch>",0
+2980,"Lran Mheg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Lran Mheg</Case><Case(2)>in Lran Mheg</Case><Case(3)>Lran Mheg</Case></Switch>",0
+2981,"Dohn Lran",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dohn Lran</Case><Case(2)>in Dohn Lran</Case><Case(3)>Dohn Lran</Case></Switch>",0
+2982,"Kristallzwilling",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Kristallzwilling</Case><Case(2)>im Kristallzwilling</Case><Case(3)>der Kristallzwilling</Case></Switch>",0
+2983,"Mannigfaltigkeit U1",0,"",0,0,1,0,0,"",0
+2984,"Mannigfaltigkeit U2",0,"",0,0,1,0,0,"",0
+2985,"Amaurot",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Amaurot</Case><Case(2)>in Amaurot</Case><Case(3)>Amaurot</Case></Switch>",0
+2986,"Schwindende Stadt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Schwindende Stadt</Case><Case(2)>in der Schwindenden Stadt</Case><Case(3)>die Schwindende Stadt</Case></Switch>",0
+2987,"Schwindender Planet",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schwindenden Planeten</Case><Case(2)>auf dem Schwindenden Planeten</Case><Case(3)>der Schwindende Planet</Case></Switch>",0
+2988,"Die Kräfte der Schöpfung gebaren absurde Kreaturen",0,"",0,0,1,0,0,"",0
+2989,"Sie hinterließen nichts als Blut und Asche",0,"",0,0,1,0,0,"",0
+2990,"Dies war das erste Unheil, das uns heimsuchte",0,"",0,0,1,0,0,"",0
+2991,"Doch es sollte nicht das letzte sein",0,"",0,0,1,0,0,"",0
+2992,"Die Sonne senkte sich und brachte die Kontinente zum Glühen",0,"",0,0,1,0,0,"",0
+2993,"Dies war das zweite Unheil, und es brach unseren Willen",0,"",0,0,1,0,0,"",0
+2994,"Doch es waren unsere Sünden, die sich emportürmten",0,"",0,0,1,0,0,"",0
+2995,"Sie verdarben den Himmel und ließen ihn niederstürzen",0,"",0,0,1,0,0,"",0
+2996,"Dies war das dritte Unheil, das uns auslöschte",0,"",0,0,1,0,0,"",0
+2997,"Gulg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Gulg</Case><Case(2)>auf dem Gulg</Case><Case(3)>der Gulg</Case></Switch>",0
+2998,"Pfad ohne Halt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad ohne Halt</Case><Case(2)>auf dem Pfad ohne Halt</Case><Case(3)>der Pfad ohne Halt</Case></Switch>",0
+2999,"Die Weiße Pforte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Weißen Pforte</Case><Case(2)>an der Weißen Pforte</Case><Case(3)>der Zugang zur Weißen Pforte</Case></Switch>",0
+3000,"Die Strahlenden Stufen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Strahlenden Stufen</Case><Case(2)>vor den Strahlenden Stufen</Case><Case(3)>der Zugang zu den Strahlenden Stufen</Case></Switch>",0
+3001,"Rücken des Talos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Rücken des Talos</Case><Case(2)>auf dem Rücken des Talos</Case><Case(3)>der Rücken des Talos</Case></Switch>",0
+3002,"Arm des Talos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Arm des Talos</Case><Case(2)>auf dem Arm des Talos</Case><Case(3)>der Arm des Talos</Case></Switch>",0
+3003,"Pfad ohne Schatten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad ohne Schatten</Case><Case(2)>auf dem Pfad ohne Schatten</Case><Case(3)>der Pfad ohne Schatten</Case></Switch>",0
+3004,"Pfad ohne Ziel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad ohne Ziel</Case><Case(2)>auf dem Pfad ohne Ziel</Case><Case(3)>der Pfad ohne Ziel</Case></Switch>",0
+3005,"Bergpfad",0,"",0,0,1,0,0,"",0
+3006,"Perlmuttweg",0,"",0,0,1,0,0,"",0
+3007,"Akadaemia Anyder",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Akadaemia Anyder</Case><Case(2)>in der Akadaemia Anyder</Case><Case(3)>die Akadaemia Anyder</Case></Switch>",0
+3008,"Ichthyologie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Ichthyologie</Case><Case(2)>in der Ichthyologie</Case><Case(3)>die Ichthyologie</Case></Switch>",0
+3009,"Phytobiologie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Phytobiologie</Case><Case(2)>in der Phytobiologie</Case><Case(3)>die Phytobiologie</Case></Switch>",0
+3010,"Phantomologie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Phantomologie</Case><Case(2)>in der Phantomologie</Case><Case(3)>die Phantomologie</Case></Switch>",0
+3011,"Haupttor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haupttor</Case><Case(2)>am Haupttor</Case><Case(3)>das Haupttor</Case></Switch>",0
+3012,"Mitrons Worte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Mitrons Worten</Case><Case(2)>bei Mitrons Worten</Case><Case(3)>Mitrons Worte</Case></Switch>",0
+3013,"Halmarults Worte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Halmarults Worten</Case><Case(2)>bei Halmarults Worten</Case><Case(3)>Halmarults Worte</Case></Switch>",0
+3014,"Lahabreas Worte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Lahabreas Worten</Case><Case(2)>bei Lahabreas Worten</Case><Case(3)>Lahabreas Worte</Case></Switch>",0
+3015,"Die Hallen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Hallen</Case><Case(2)>in den Hallen</Case><Case(3)>die Hallen</Case></Switch>",0
+3016,"Das Dach",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Dach</Case><Case(2)>auf dem Dach</Case><Case(3)>das Dach</Case></Switch>",0
+3017,"",0,"",0,0,0,0,0,"",0
+3018,"Irrungen der Qitari",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Irrungen der Qitari</Case><Case(2)>in den Irrungen der Qitari</Case><Case(3)>die Irrungen der Qitari</Case></Switch>",0
+3019,"Frage des Gewissens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Frage des Gewissens</Case><Case(2)>in der Frage des Gewissens</Case><Case(3)>der Zugang zur Frage des Gewissens</Case></Switch>",0
+3020,"Götterpforte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Götterpforte</Case><Case(2)>an der Götterpforte</Case><Case(3)>der Zugang zur Götterpforte</Case></Switch>",0
+3021,"Yx'Lokwas Abendruh",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Yx'Lokwas Abendruh</Case><Case(2)>in Yx/'Lokwas Abendruh</Case><Case(3)>der Zugang zu Yx/'Lokwas Abendruh</Case></Switch>",0
+3022,"Tränen der Götter",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Tränen der Götter</Case><Case(2)>in den Tränen der Götter</Case><Case(3)>der Zugang zu den Tränen der Götter</Case></Switch>",0
+3023,"Bildnishalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Bildnishalle</Case><Case(2)>in der Bildnishalle</Case><Case(3)>der Zugang zur Bildnishalle</Case></Switch>",0
+3024,"Ox'Charls Sprung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Ox'Charls Sprung</Case><Case(2)>auf Ox'Charls Sprung</Case><Case(3)>der Zugang zu Ox'Charls Sprung</Case></Switch>",0
+3025,"Rak'tika-Fälle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Rak'tika-Fällen</Case><Case(2)>an den Rak'tika-Fällen</Case><Case(3)>der Zugang zu den Rak'tika-Fällen</Case></Switch>",0
+3026,"Altar des Ox'Gatorl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Altar des Ox'Gatorl</Case><Case(2)>am Altar des Ox'Gatorl</Case><Case(3)>der Zugang zum Altar des Ox'Gatorl</Case></Switch>",0
+3027,"Altar der Lügen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Altar der Lügen</Case><Case(2)>am Altar der Lügen</Case><Case(3)>der Zugang zum Altar der Lügen</Case></Switch>",0
+3028,"Malikahs Brunnen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in Malikahs Brunnen</Case><Case(2)>in Malikahs Brunnen</Case><Case(3)>Malikahs Brunnen</Case></Switch>",0
+3029,"Drehscheibe",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Drehscheibe</Case><Case(2)>auf der Drehscheibe</Case><Case(3)>der Zugang zur Drehscheibe</Case></Switch>",0
+3030,"Malikahs Quelle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in Malikahs Quelle</Case><Case(2)>in Malikahs Quelle</Case><Case(3)>Malikahs Quelle</Case></Switch>",0
+3031,"Residenz der Großherzigkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Residenz der Großherzigkeit</Case><Case(2)>in der Residenz der Großherzigkeit</Case><Case(3)>die Residenz der Großherzigkeit</Case></Switch>",0
+3032,"Die Roten Wände",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Roten Wänden</Case><Case(2)>bei den Roten Wänden</Case><Case(3)>die Roten Wände</Case></Switch>",0
+3033,"Der Grüne Pfad",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Grünen Pfad</Case><Case(2)>auf dem Grünen Pfad</Case><Case(3)>der Grüne Pfad</Case></Switch>",0
+3034,"Die Blaue Ader",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Blauen Ader</Case><Case(2)>an der Blauen Ader</Case><Case(3)>die Blaue Ader</Case></Switch>",0
+3035,"Die Bleiche Grotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu der Bleichen Grotte</Case><Case(2)>in der Bleichen Grotte</Case><Case(3)>die Bleiche Grotte</Case></Switch>",0
+3036,"Wald des Verirrten Hirten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Wald des Verirrten Hirten</Case><Case(2)>im Wald des Verirrten Hirten</Case><Case(3)>der Wald des Verirrten Hirten</Case></Switch>",0
+3037,"Tor des Exarchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tor des Exarchen</Case><Case(2)>am Tor des Exarchen</Case><Case(3)>das Tor des Exarchen</Case></Switch>",0
+3038,"Die Verwitterten Lande",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Verwitterten Landen</Case><Case(2)>in den Verwitterten Landen</Case><Case(3)>die Verwitterten Lande</Case></Switch>",0
+3039,"Quellsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Quellsee</Case><Case(2)>am Quellsee</Case><Case(3)>der Quellsee</Case></Switch>",0
+3040,"Schießscharte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Schießscharte</Case><Case(2)>an der Schießscharte</Case><Case(3)>die Schießscharte</Case></Switch>",0
+3041,"Tor der Getreuen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tor der Getreuen</Case><Case(2)>am Tor der Getreuen</Case><Case(3)>das Tor der Getreuen</Case></Switch>",0
+3042,"Gürtelweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gürtelweg</Case><Case(2)>am Gürtelweg</Case><Case(3)>der Gürtelweg</Case></Switch>",0
+3043,"Tausendgipfel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Tausendgipfel</Case><Case(2)>in Tausendgipfeln</Case><Case(3)>Tausendgipfel</Case></Switch>",0
+3044,"Jobb-Feste",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Jobb-Feste</Case><Case(2)>in der Jobb-Feste</Case><Case(3)>die Jobb-Feste</Case></Switch>",0
+3045,"Kirche des Strahlenden Lichts",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kirche des Strahlenden Lichts</Case><Case(2)>in der Kirche des Strahlenden Lichts</Case><Case(3)>die Kirche des Strahlenden Lichts</Case></Switch>",0
+3046,"Felsbrücken",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Felsbrücken</Case><Case(2)>in Felsbrücken</Case><Case(3)>Felsbrücken</Case></Switch>",0
+3047,"Radiscas Rundturm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Radiscas Rundturm</Case><Case(2)>an Radiscas Rundturm</Case><Case(3)>Radiscas Rundturm</Case></Switch>",0
+3048,"Alter Trutzwall",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Alten Trutzwall</Case><Case(2)>am Alten Trutzwall</Case><Case(3)>der Alte Trutzwall</Case></Switch>",0
+3049,"Nördlicher Sammelpunkt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nördlichen Sammelpunkt</Case><Case(2)>am Nördlichen Sammelpunkt</Case><Case(3)>der Nördliche Sammelpunkt</Case></Switch>",0
+3050,"Holminster",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Holminster</Case><Case(2)>in Holminster</Case><Case(3)>Holminster</Case></Switch>",0
+3051,"Klarschmelze",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Klarschmelze</Case><Case(2)>an der Klarschmelze</Case><Case(3)>die Klarschmelze</Case></Switch>",0
+3052,"Unbeflecknis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Unbeflecknis</Case><Case(2)>an der Unbeflecknis</Case><Case(3)>die Unbeflecknis</Case></Switch>",0
+3053,"Burg Selard",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Burg Selard</Case><Case(2)>in Burg Selard</Case><Case(3)>die Burg Selard</Case></Switch>",0
+3054,"Galgenturm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Galgenturm</Case><Case(2)>am Galgenturm</Case><Case(3)>der Galgenturm</Case></Switch>",0
+3055,"Halle der Dreifachen Wiederkunft",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Dreifachen Wiederkunft</Case><Case(2)>in der Halle der Dreifachen Wiederkunft</Case><Case(3)>die Halle der Dreifachen Wiederkunft</Case></Switch>",0
+3056,"Hasenhütte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Hasenhütte</Case><Case(2)>an der Hasenhütte</Case><Case(3)>die Hasenhütte</Case></Switch>",0
+3057,"Ostalls Befehl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Ostalls Befehl</Case><Case(2)>in Ostalls Befehl</Case><Case(3)>Ostalls Befehl</Case></Switch>",0
+3058,"Haus der Schattenwölfe",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haus der Schattenwölfe</Case><Case(2)>im Haus der Schattenwölfe</Case><Case(3)>das Haus der Schattenwölfe</Case></Switch>",0
+3059,"Grantel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Grantel</Case><Case(2)>in Grantel</Case><Case(3)>Grantel</Case></Switch>",0
+3060,"Unkrauthügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Unkrauthügel</Case><Case(2)>auf dem Unkrauthügel</Case><Case(3)>der Unkrauthügel</Case></Switch>",0
+3061,"Backsteininsel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Backsteininsel</Case><Case(2)>auf der Backsteininsel</Case><Case(3)>die Backsteininsel</Case></Switch>",0
+3062,"Buckel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Buckel</Case><Case(2)>auf dem Buckel</Case><Case(3)>der Buckel</Case></Switch>",0
+3063,"Brandungsfels",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Brandungsfels</Case><Case(2)>auf dem Brandungsfels</Case><Case(3)>der Brandungsfels</Case></Switch>",0
+3064,"Klammsohl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Klammsohl</Case><Case(2)>an der Klammsohl</Case><Case(3)>die Klammsohl</Case></Switch>",0
+3065,"Kerkerplatte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kerkerplatte</Case><Case(2)>auf der Kerkerplatte</Case><Case(3)>die Kerkerplatte</Case></Switch>",0
+3066,"Rostige Eisen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Rostige Eisen</Case><Case(2)>in Rostige Eisen</Case><Case(3)>Rostige Eisen</Case></Switch>",0
+3067,"Durstlose Küste",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Durstlosen Küste</Case><Case(2)>an der Durstlosen Küste</Case><Case(3)>die Durstlose Küste</Case></Switch>",0
+3068,"Insel der Erkenntnis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Insel der Erkenntnis</Case><Case(2)>auf der Insel der Erkenntnis</Case><Case(3)>die Insel der Erkenntnis</Case></Switch>",0
+3069,"Nackter Fels",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nackten Fels</Case><Case(2)>am Nackten Fels</Case><Case(3)>der Nackte Fels</Case></Switch>",0
+3070,"Leuchtklippe",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Leuchtklippe</Case><Case(2)>auf der Leuchtklippe</Case><Case(3)>die Leuchtklippe</Case></Switch>",0
+3071,"Schattenfalte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Schattenfalte</Case><Case(2)>an der Schattenfalte</Case><Case(3)>die Schattenfalte</Case></Switch>",0
+3072,"Schotterfeld",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schotterfeld</Case><Case(2)>auf dem Schotterfeld</Case><Case(3)>das Schotterfeld</Case></Switch>",0
+3073,"Duergar-Gebirge",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Duergar-Gebirge</Case><Case(2)>im Duergar-Gebirge</Case><Case(3)>das Duergar-Gebirge</Case></Switch>",0
+3074,"Splittermuschelstrand",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Splittermuschelstrand</Case><Case(2)>am Splittermuschelstrand</Case><Case(3)>der Splittermuschelstrand</Case></Switch>",0
+3075,"Stillwasser",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Stillwasser</Case><Case(2)>in Stillwasser</Case><Case(3)>Stillwasser</Case></Switch>",0
+3076,"Zum Leckenden Kahn",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Leckenden Kahn</Case><Case(2)>im Leckenden Kahn</Case><Case(3)>der Leckende Kahn</Case></Switch>",0
+3077,"Garten des Magistraten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Garten des Magistraten</Case><Case(2)>im Garten des Magistraten</Case><Case(3)>der Garten des Magistraten</Case></Switch>",0
+3078,"Weißölfälle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Weißölfällen</Case><Case(2)>an den Weißölfällen</Case><Case(3)>die Weißölfälle</Case></Switch>",0
+3079,"Greely-Stallungen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Greely-Stallungen</Case><Case(2)>an den Greely-Stallungen</Case><Case(3)>die Greely-Stallungen</Case></Switch>",0
+3080,"Schleichweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schleichweg</Case><Case(2)>am Schleichweg</Case><Case(3)>der Schleichweg</Case></Switch>",0
+3081,"Südfurt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Südfurt</Case><Case(2)>an der Südfurt</Case><Case(3)>Südfurt</Case></Switch>",0
+3082,"Greely-Brücke",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Greely-Brücke</Case><Case(2)>an der Greely-Brücke</Case><Case(3)>die Greely-Brücke</Case></Switch>",0
+3083,"Watts (Unterlauf)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Watts (Unterlauf)</Case><Case(2)>am Watts (Unterlauf)</Case><Case(3)>der Watts (Unterlauf)</Case></Switch>",0
+3084,"Hütte des Eigenbrötlers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Hütte des Eigenbrötlers</Case><Case(2)>an der Hütte des Eigenbrötlers</Case><Case(3)>die Hütte des Eigenbrötlers</Case></Switch>",0
+3085,"Torstadt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Torstadt</Case><Case(2)>in Torstadt</Case><Case(3)>Torstadt</Case></Switch>",0
+3086,"Tor der Offenen Arme",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tor der Offenen Arme</Case><Case(2)>am Tor der Offenen Arme</Case><Case(3)>das Tor der Offenen Arme</Case></Switch>",0
+3087,"Walfischklippe",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Walfischklippe</Case><Case(2)>auf der Walfischklippe</Case><Case(3)>die Walfischklippe</Case></Switch>",0
+3088,"Ambossbogen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ambossbogen</Case><Case(2)>am Ambossbogen</Case><Case(3)>der Ambossbogen</Case></Switch>",0
+3089,"Clavis-Leuchtturm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Clavis-Leuchtturm</Case><Case(2)>am Clavis-Leuchtturm</Case><Case(3)>der Clavis-Leuchtturm</Case></Switch>",0
+3090,"Meerblick",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Meerblick</Case><Case(2)>in Meerblick</Case><Case(3)>Meerblick</Case></Switch>",0
+3091,"Bergblick",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bergblick</Case><Case(2)>in Bergblick</Case><Case(3)>Bergblick</Case></Switch>",0
+3092,"Venmont-Werft",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Venmont-Werft</Case><Case(2)>in der Venmont-Werft</Case><Case(3)>die Venmont-Werft</Case></Switch>",0
+3093,"Kap Kielbruch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kap Kielbruch</Case><Case(2)>am Kap Kielbruch</Case><Case(3)>das Kap Kielbruch</Case></Switch>",0
+3094,"Werfting",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Werfting</Case><Case(2)>in Werfting</Case><Case(3)>Werfting</Case></Switch>",0
+3095,"Wachssiegelmühlen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Wachssiegelmühlen</Case><Case(2)>an den Wachssiegelmühlen</Case><Case(3)>die Wachssiegelmühlen</Case></Switch>",0
+3096,"Flüsterwindbucht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Flüsterwindbucht</Case><Case(2)>an der Flüsterwindbucht</Case><Case(3)>die Flüsterwindbucht</Case></Switch>",0
+3097,"Unterste Sprosse",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Untersten Sprosse</Case><Case(2)>an der Untersten Sprosse</Case><Case(3)>die Unterste Sprosse</Case></Switch>",0
+3098,"Die Leiter",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Leiter</Case><Case(2)>an der Leiter</Case><Case(3)>die Leiter</Case></Switch>",0
+3099,"Barrow",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Barrow</Case><Case(2)>in Barrow</Case><Case(3)>Barrow</Case></Switch>",0
+3100,"Zungenbrennerteich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zungenbrennerteich</Case><Case(2)>am Zungenbrennerteich</Case><Case(3)>der Zungenbrennerteich</Case></Switch>",0
+3101,"Spielplatz der Schwestern",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Spielplatz der Schwestern</Case><Case(2)>auf dem Spielplatz der Schwestern</Case><Case(3)>der Spielplatz der Schwestern</Case></Switch>",0
+3102,"Oberste Sprosse",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Obersten Sprosse</Case><Case(2)>an der Obersten Sprosse</Case><Case(3)>die Oberste Sprosse</Case></Switch>",0
+3103,"Eintracht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Eintracht</Case><Case(2)>in Eintracht</Case><Case(3)>Eintracht</Case></Switch>",0
+3104,"Schacht 8",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Schacht 8</Case><Case(2)>an Schacht 8</Case><Case(3)>Schacht 8</Case></Switch>",0
+3105,"Tomra",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Tomra</Case><Case(2)>in Tomra</Case><Case(3)>Tomra</Case></Switch>",0
+3106,"Schnellweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schnellweg</Case><Case(2)>am Schnellweg</Case><Case(3)>der Schnellweg</Case></Switch>",0
+3107,"Südliche Bernsteinhügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Südlichen Bernsteinhügeln</Case><Case(2)>in den Südlichen Bernsteinhügeln</Case><Case(3)>die Südlichen Bernsteinhügel</Case></Switch>",0
+3108,"Watts (Oberlauf)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Watts (Oberlauf)</Case><Case(2)>am Watts (Oberlauf)</Case><Case(3)>der Watts (Oberlauf)</Case></Switch>",0
+3109,"Euleneintopf-Brücke",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Euleneintopf-Brücke</Case><Case(2)>an der Euleneintopf-Brücke</Case><Case(3)>die Euleneintopf-Brücke</Case></Switch>",0
+3110,"Rußfängerbrücke",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rußfängerbrücke</Case><Case(2)>an der Rußfängerbrücke</Case><Case(3)>die Rußfängerbrücke</Case></Switch>",0
+3111,"Komra",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Komra</Case><Case(2)>in Komra</Case><Case(3)>Komra</Case></Switch>",0
+3112,"Duergars Schlot",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Duergars Schlot</Case><Case(2)>an Duergars Schlot</Case><Case(3)>Duergars Schlot</Case></Switch>",0
+3113,"Zwergenhöhle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Zwergenhöhle</Case><Case(2)>in der Zwergenhöhle</Case><Case(3)>die Zwergenhöhle</Case></Switch>",0
+3114,"Qasr Sharl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Qasr Sharl</Case><Case(2)>in Qasr Sharl</Case><Case(3)>Qasr Sharl</Case></Switch>",0
+3115,"Bernsteinfelder",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Bernsteinfeldern</Case><Case(2)>in den Bernsteinfeldern</Case><Case(3)>die Bernsteinfelder</Case></Switch>",0
+3116,"Nördliche Bernsteinhügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Nördlichen Bernsteinhügeln</Case><Case(2)>in den Nördlichen Bernsteinhügeln</Case><Case(3)>die Nördlichen Bernsteinhügel</Case></Switch>",0
+3117,"Mittlere Bernsteinhügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Mittleren Bernsteinhügeln</Case><Case(2)>in den Mittleren Bernsteinhügeln</Case><Case(3)>die Mittleren Bernsteinhügel</Case></Switch>",0
+3118,"Nabaath Areng",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Nabaath Areng</Case><Case(2)>in Nabaath Areng</Case><Case(3)>Nabaath Areng</Case></Switch>",0
+3119,"Roter Karawanenhof",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Roten Karawanenhof</Case><Case(2)>im Roten Karawanenhof</Case><Case(3)>der Rote Karawanenhof</Case></Switch>",0
+3120,"Fluss aus Sand",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fluss aus Sand</Case><Case(2)>am Fluss aus Sand</Case><Case(3)>der Fluss aus Sand</Case></Switch>",0
+3121,"Samiels Rest",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Samiels Rest</Case><Case(2)>bei Samiels Rest</Case><Case(3)>Samiels Rest</Case></Switch>",0
+3122,"Mordh Souq",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Mordh Souq</Case><Case(2)>in Mordh Souq</Case><Case(3)>Mordh Souq</Case></Switch>",0
+3123,"Hutständer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hutständer</Case><Case(2)>am Hutständer</Case><Case(3)>der Hutständer</Case></Switch>",0
+3124,"Reibehandmühle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Reibehandmühle</Case><Case(2)>an der Reibehandmühle</Case><Case(3)>die Reibehandmühle</Case></Switch>",0
+3125,"Trampelfußmühle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Trampelfußmühle</Case><Case(2)>an der Trampelfußmühle</Case><Case(3)>die Trampelfußmühle</Case></Switch>",0
+3126,"Juckauge",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Juckauge</Case><Case(2)>am Juckauge</Case><Case(3)>das Juckauge</Case></Switch>",0
+3127,"Zwicknase",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Zwicknase</Case><Case(2)>an der Zwicknase</Case><Case(3)>die Zwicknase</Case></Switch>",0
+3128,"Kratzbart",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kratzbart</Case><Case(2)>am Kratzbart</Case><Case(3)>der Kratzbart</Case></Switch>",0
+3129,"Ruhstatt vor der Langen Reise",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Ruhstatt vor der Langen Reise</Case><Case(2)>in der Ruhstatt vor der Langen Reise</Case><Case(3)>die Ruhstatt vor der Langen Reise</Case></Switch>",0
+3130,"Ausguck",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ausguck</Case><Case(2)>auf dem Ausguck</Case><Case(3)>der Ausguck</Case></Switch>",0
+3131,"Kluft von Nabaath",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kluft von Nabaath</Case><Case(2)>an der Kluft von Nabaath</Case><Case(3)>die Kluft von Nabaath</Case></Switch>",0
+3132,"Biran-Mine",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Biran-Mine</Case><Case(2)>in die Biran-Mine</Case><Case(3)>die Biran-Mine</Case></Switch>",0
+3133,"Garik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Garik</Case><Case(2)>in Garik</Case><Case(3)>Garik</Case></Switch>",0
+3134,"Struwwelschwanz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Struwwelschwanz</Case><Case(2)>am Struwwelschwanz</Case><Case(3)>der Struwwelschwanz</Case></Switch>",0
+3135,"Pfotenschlag",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Pfotenschlag</Case><Case(2)>in Pfotenschlag</Case><Case(3)>Pfotenschlag</Case></Switch>",0
+3136,"Kelk",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Kelk</Case><Case(2)>in Kelk</Case><Case(3)>Kelk</Case></Switch>",0
+3137,"Gondelturm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gondelturm</Case><Case(2)>am Gondelturm</Case><Case(3)>der Gondelturm</Case></Switch>",0
+3138,"Nuvys Grube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Nuvys Grube</Case><Case(2)>in Nuvys Grube</Case><Case(3)>Nuvys Grube</Case></Switch>",0
+3139,"Südliche Bernsteinhügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Südlichen Bernsteinhügeln</Case><Case(2)>in den Südlichen Bernsteinhügeln</Case><Case(3)>die Südlichen Bernsteinhügel</Case></Switch>",0
+3140,"Der Nasse Bahnhof",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nassen Bahnhof</Case><Case(2)>am Nassen Bahnhof</Case><Case(3)>der Nasse Bahnhof</Case></Switch>",0
+3141,"Gondelturm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gondelturm</Case><Case(2)>am Gondelturm</Case><Case(3)>der Gondelturm</Case></Switch>",0
+3142,"Palast von Amh Malik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Palast von Amh Malik</Case><Case(2)>im Palast von Amh Malik</Case><Case(3)>der Palast von Amh Malik</Case></Switch>",0
+3143,"Die Große Leere",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Großen Leere</Case><Case(2)>an der Großen Leere</Case><Case(3)>die Großen Leere</Case></Switch>",0
+3144,"Timh Gyeus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Timh Gyeus</Case><Case(2)>in Timh Gyeus</Case><Case(3)>Timh Gyeus</Case></Switch>",0
+3145,"Großes Spiegelchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Großen Spiegelchen</Case><Case(2)>am Großen Spiegelchen</Case><Case(3)>das Große Spiegelchen</Case></Switch>",0
+3146,"Voeburtenburg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Voeburtenburg</Case><Case(2)>in der Voeburtenburg</Case><Case(3)>die Voeburtenburg</Case></Switch>",0
+3147,"Lydha Lran",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Lydha Lran</Case><Case(2)>in Lydha Lran</Case><Case(3)>Lydha Lran</Case></Switch>",0
+3148,"Phisor Lran",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Phisor Lran</Case><Case(2)>in Phisor Lran</Case><Case(3)>Phisor Lran</Case></Switch>",0
+3149,"Dohn Mheg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dohn Mheg</Case><Case(2)>in Dohn Mheg</Case><Case(3)>Dohn Mheg</Case></Switch>",0
+3150,"Lehnsgut des Gelehrten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lehnsgut des Gelehrten</Case><Case(2)>auf dem Lehnsgut des Gelehrten</Case><Case(3)>das Lehnsgut des Gelehrten</Case></Switch>",0
+3151,"Spiegelchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Spiegelchen</Case><Case(2)>am Spiegelchen</Case><Case(3)>das Spiegelchen</Case></Switch>",0
+3152,"Thysm Lran",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Thysm Lran</Case><Case(2)>in Thysm Lran</Case><Case(3)>Thysm Lran</Case></Switch>",0
+3153,"Haus des Strahlenden Lichts",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haus des Strahlenden Lichts</Case><Case(2)>am Haus des Strahlenden Lichts</Case><Case(3)>das Haus des Strahlenden Lichts</Case></Switch>",0
+3154,"Stadt am Grund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Stadt am Grund</Case><Case(2)>in der Stadt am Grund</Case><Case(3)>die Stadt am Grund</Case></Switch>",0
+3155,"Jenannas Glanz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Jenannas Glanz</Case><Case(2)>bei Jenannas Glanz</Case><Case(3)>Jenannas Glanz</Case></Switch>",0
+3156,"Pla Enni",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Pla Enni</Case><Case(2)>in Pla Enni</Case><Case(3)>Pla Enni</Case></Switch>",0
+3157,"Wolekdorf",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wolekdorf</Case><Case(2)>in Wolekdorf</Case><Case(3)>Wolekdorf</Case></Switch>",0
+3158,"Sechslingssyrte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Sechslingssysrte</Case><Case(2)>in der Sechslingssysrte</Case><Case(3)>die Sechslingssysrte</Case></Switch>",0
+3159,"Wallfahrtskirche von Dammroen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Wallfahrtskirche von Dammroen</Case><Case(2)>in der Wallfahrtskirche von Dammroen</Case><Case(3)>die Wallfahrtskirche von Dammroen</Case></Switch>",0
+3160,"Collards Kammer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Collards Kammer</Case><Case(2)>in Collards Kammer</Case><Case(3)>Collards Kammer</Case></Switch>",0
+3161,"Tempel des Heiligen Fathric",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tempel des Heiligen Fathric</Case><Case(2)>im Tempel des Heiligen Fathric</Case><Case(3)>der Tempel des Heiligen Fathric</Case></Switch>",0
+3162,"Andens Schäferhütte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Andens Schäferhütte</Case><Case(2)>in Andens Schäferhütte</Case><Case(3)>Andens Schäferhütte</Case></Switch>",0
+3163,"Earra-Aufweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Earra-Aufweg</Case><Case(2)>am Earra-Aufweg</Case><Case(3)>der Earra-Aufweg</Case></Switch>",0
+3164,"Schloss Lyhe-Ghiah",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Schloss Lyhe-Ghiah</Case><Case(2)>bei Schloss Lyhe-Ghiah</Case><Case(3)>Schloss Lyhe-Ghiah</Case></Switch>",0
+3165,"Citia-Sumpfland",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Citia-Sumpfland</Case><Case(2)>im Citia-Sumpfland</Case><Case(3)>das Citia-Sumpfland</Case></Switch>",0
+3166,"Schlangensee Tusi Mek'ta",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlangensee Tusi Mek'ta</Case><Case(2)>am Schlangensee Tusi Mek'ta</Case><Case(3)>der Schlangensee Tusi Mek'ta</Case></Switch>",0
+3167,"Der Ungesehene Wald Yx'Maja",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ungesehenen Wald Yx'Maja</Case><Case(2)>im Ungesehenen Wald Yx'Maja</Case><Case(3)>der Ungesehene Wald Yx'Maja</Case></Switch>",0
+3168,"K'mul-Astropolis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur K'mul-Astropolis</Case><Case(2)>in der K'mul-Astropolis</Case><Case(3)>die K'mul-Astropolis</Case></Switch>",0
+3169,"Gohn-Feste",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Gohn-Feste</Case><Case(2)>in der Gohn-Feste</Case><Case(3)>die Gohn-Feste</Case></Switch>",0
+3170,"Schlangenzweig",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlangenzweig</Case><Case(2)>am Schlangenzweig</Case><Case(3)>der Schlangenzweig</Case></Switch>",0
+3171,"Im Inneren der Dunkelheit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Innere der Dunkelheit</Case><Case(2)>im Inneren der Dunkelheit</Case><Case(3)>im Inneren der Dunkelheit</Case></Switch>",0
+3172,"Baum der Abgeschiedenheit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Baum der Abgeschiedenheit</Case><Case(2)>am Baum der Abgeschiedenheit</Case><Case(3)>der Baum der Abgeschiedenheit</Case></Switch>",0
+3173,"Treppe des Lozatl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Treppe des Lozatl</Case><Case(2)>auf der Treppe des Lozatl</Case><Case(3)>die Treppe des Lozatl</Case></Switch>",0
+3174,"Eidbund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Eidbund</Case><Case(2)>in Eidbund</Case><Case(3)>Eidbund</Case></Switch>",0
+3175,"Austadias Schoß",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Austadias Schoß</Case><Case(2)>in Austadias Schoß</Case><Case(3)>Austadias Schoß</Case></Switch>",0
+3176,"Kleinod der Beschützerin",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kleinod der Beschützerin</Case><Case(2)>am Kleinod der Beschützerin</Case><Case(3)>das Kleinod der Beschützerin</Case></Switch>",0
+3177,"Das Verlorene Juwel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Verlorenen Juwel</Case><Case(2)>am Verlorenen Juwel</Case><Case(3)>das Verlorene Juwel</Case></Switch>",0
+3178,"Versunkenes Heiligtum von Dwatl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Versunkenen Heiligtum von Dwatl</Case><Case(2)>am Versunkenen Heiligtum von Dwatl</Case><Case(3)>das Versunkene Heiligtum von Dwatl</Case></Switch>",0
+3179,"Fanow",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Fanow</Case><Case(2)>in Fanow</Case><Case(3)>Fanow</Case></Switch>",0
+3180,"Schlummerlaube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Schlummerlaube</Case><Case(2)>in der Schlummerlaube</Case><Case(3)>die Schlummerlaube</Case></Switch>",0
+3181,"Wildgarten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Wildgarten</Case><Case(2)>im Wildgarten</Case><Case(3)>der Wildgarten</Case></Switch>",0
+3182,"Bogenruh",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bogenruh</Case><Case(2)>in Bogenruh</Case><Case(3)>Bogenruh</Case></Switch>",0
+3183,"Mjrls Sehnsucht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Mjrls Sehnsucht</Case><Case(2)>in Mjrls Sehnsucht</Case><Case(3)>Mjrls Sehnsucht</Case></Switch>",0
+3184,"",0,"",0,0,1,0,0,"",0
+3185,"Morgensterne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Morgensternen</Case><Case(2)>an den Morgensternen</Case><Case(3)>die Morgensterne</Case></Switch>",0
+3186,"Ox'Gatorl Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Ox'Gatorl Mul</Case><Case(2)>bei Ox'Gatorl Mul</Case><Case(3)>Ox'Gatorl Mul</Case></Switch>",0
+3187,"Yx'Lokwa Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Yx'Lokwa Mul</Case><Case(2)>bei Yx'Lokwa Mul</Case><Case(3)>Yx'Lokwa Mul</Case></Switch>",0
+3188,"Ox'Charl Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Ox'Gharl Mul</Case><Case(2)>bei Ox'Charl Mul</Case><Case(3)>Ox'Charl Mul</Case></Switch>",0
+3189,"Yx'Anpa Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Yx'Anpa Mul</Case><Case(2)>bei Yx'Anpa Mul</Case><Case(3)>Yx'Anpa Mul</Case></Switch>",0
+3190,"Große Pyramide von Ux'ner",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Großen Pyramide von Ux'ner</Case><Case(2)>an der Großen Pyramide von Ux'ner</Case><Case(3)>die Große Pyramide von Ux'ner</Case></Switch>",0
+3191,"Beichtstuhl von Toupasa dem Älteren",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Beichtstuhl von Toupasa dem Älteren</Case><Case(2)>am Beichtstuhl von Toupasa dem Älteren</Case><Case(3)>der Beichtstuhl von Toupasa dem Älteren</Case></Switch>",0
+3192,"Norvrandt-Hang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Norvrandt-Hang</Case><Case(2)>am Norvrandt-Hang</Case><Case(3)>der Norvrandt-Hang</Case></Switch>",0
+3193,"Caliban-Furche",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Caliban-Furche</Case><Case(2)>in der Caliban-Furche</Case><Case(3)>die Caliban-Furche</Case></Switch>",0
+3194,"Amaurot",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Amaurot</Case><Case(2)>in Amaurot</Case><Case(3)>Amaurot</Case></Switch>",0
+3195,"Ondo-Becken",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Ondo-Becken</Case><Case(2)>in den Ondo-Becken</Case><Case(3)>die Ondo-Becken</Case></Switch>",0
+3196,"Flundergrotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Flundergrotte</Case><Case(2)>in der Flundergrotte</Case><Case(3)>die Flundergrotte</Case></Switch>",0
+3197,"Die Werkstatt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Werkstatt</Case><Case(2)>in der Werkstatt</Case><Case(3)>die Werkstatt</Case></Switch>",0
+3198,"Perlenbeutel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Perlenbeutel</Case><Case(2)>im Perlenbeutel</Case><Case(3)>der Perlenbeutel</Case></Switch>",0
+3199,"Seelenruh der Landler",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Seelenruh der Landler</Case><Case(2)>im Seelenruh der Landler</Case><Case(3)>das Seelenruh der Landler</Case></Switch>",0
+3200,"Mauern der Vergessenen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Mauern der Vergessenen</Case><Case(2)>bei den Mauern der Vergessenen</Case><Case(3)>die Mauern der Vergessenen</Case></Switch>",0
+3201,"Purpurhöhle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Purpurhöhle</Case><Case(2)>in der Purpurhöhle</Case><Case(3)>die Purpurhöhle</Case></Switch>",0
+3202,"Calibans Nistplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Calibans Nistplatz</Case><Case(2)>in Calibans Nistplatz</Case><Case(3)>Calibans Nistplatz</Case></Switch>",0
+3203,"Achora-Turm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Achora-Turm</Case><Case(2)>am Achora-Turm</Case><Case(3)>der Achora-Turm</Case></Switch>",0
+3204,"Polyleritae-Distrikt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Polyleritae-Distrikt</Case><Case(2)>im Polyleritae-Distrikt</Case><Case(3)>der Polyleritae-Distrikt</Case></Switch>",0
+3205,"Macarenses-Forum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Macarenses-Forum</Case><Case(2)>auf dem Macarenses-Forum</Case><Case(3)>das Macarenses-Forum</Case></Switch>",0
+3206,"Palast der Rede",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Palast der Rede</Case><Case(2)>im Palast der Rede</Case><Case(3)>der Palast der Rede</Case></Switch>",0
+3207,"Büro des Architekten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Büro des Achitekten</Case><Case(2)>im Büro des Architekten</Case><Case(3)>das Büro des Architekten</Case></Switch>",0
+3208,"Büro des Administrators",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Büro des Administrators</Case><Case(2)>im Büro des Administrators</Case><Case(3)>das Büro des Administrators</Case></Switch>",0
+3209,"Büro des Sekretärs",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Büro des Sekretärs</Case><Case(2)>im Büro des Sekretärs</Case><Case(3)>das Büro des Sekretärs</Case></Switch>",0
+3210,"Kapitol",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kapitol</Case><Case(2)>am Kapitol</Case><Case(3)>das Kapitol</Case></Switch>",0
+3211,"Erstes Unheil",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ersten Unheil</Case><Case(2)>im Ersten Unheil</Case><Case(3)>der Zugang zum Ersten Unheil</Case></Switch>",0
+3212,"Zweites Unheil",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zweiten Unheil</Case><Case(2)>im Zweiten Unheil</Case><Case(3)>der Zugang zum Zweiten Unheil</Case></Switch>",0
+3213,"Drittes Unheil",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Dritten Unheil</Case><Case(2)>im Dritten Unheil</Case><Case(3)>der Zugang zum Dritten Unheil</Case></Switch>",0
+3214,"",0,"",0,0,0,0,0,"",0
+3215,"",0,"",0,0,0,0,0,"",0
+3216,"",0,"",0,0,0,0,0,"",0
+3217,"",0,"",0,0,0,0,0,"",0
+3218,"Königlicher Tanzgarten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Königlichen Tanzgarten</Case><Case(2)>im Königlichen Tanzgarten</Case><Case(3)>der Königliche Tanzgarten</Case></Switch>",0
+3219,"Strahlenkranz der Makellosigkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Strahlenkranz der Makellosigkeit</Case><Case(2)>im Strahlenkranz der Makellosigkeit</Case><Case(3)>der Strahlenkranz der Makellosigkeit</Case></Switch>",0
+3220,"Die Letzten Tage von Amaurot",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Letzten Tage von Amaurot</Case><Case(2)>in den Letzten Tage von Amaurot</Case><Case(3)>der Zugang zu den Letzten Tage von Amaurot</Case></Switch>",0
+3221,"Syrcus-Schlucht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Syrcus-Schlucht</Case><Case(2)>in der Syrcus-Schlucht</Case><Case(3)>die Syrcus-Schlucht</Case></Switch>",0
+3222,"Isomorph-Quartiere",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Isomorph-Quartiere</Case><Case(2)>in den Isomorph-Quartieren</Case><Case(3)>die Isomorph-Quartiere</Case></Switch>",0
+3223,"Okular",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Okular</Case><Case(2)>im Okular</Case><Case(3)>das Okular</Case></Switch>",0
+3224,"Sanktuarium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Sanktuarium</Case><Case(2)>im Sanktuarium</Case><Case(3)>das Sanktuarium</Case></Switch>",0
+3225,"Die Große Leere",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Große Leere</Case><Case(2)>in der Großen Leere</Case><Case(3)>die Große Leere</Case></Switch>",0
+3226,"Nabaath-Mine",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Nabaath-Mine</Case><Case(2)>in der Nabaath-Mine</Case><Case(3)>die Nabaath-Mine</Case></Switch>",0
+3227,"Ruinen von Ronka",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Ruinen von Ronka</Case><Case(2)>in den Ruinen von Ronka</Case><Case(3)>die Ruinen von Ronka</Case></Switch>",0
+3228,"Beichtstuhl von Toupasa dem Älteren",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Beichtstuhl von Toupasa dem Älteren</Case><Case(2)>am Beichtstuhl von Toupasa dem Älteren</Case><Case(3)>der Beichtstuhl von Toupasa dem Älteren</Case></Switch>",0
+3229,"",0,"",0,0,0,0,0,"",0
+3230,"",0,"",0,0,0,0,0,"",0
+3231,"",0,"",0,0,0,0,0,"",0
+3232,"",0,"",0,0,0,0,0,"",0
+3233,"",0,"",0,0,0,0,0,"",0
+3234,"",0,"",0,0,0,0,0,"",0
+3235,"",0,"",0,0,0,0,0,"",0
+3236,"Die Rotunde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rotunde</Case><Case(2)>auf der Rotunde</Case><Case(3)>die Rotunde</Case></Switch>",0
+3237,"Der Baldachin",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Baldachin</Case><Case(2)>am Baldachin</Case><Case(3)>der Baldachin</Case></Switch>",0
+3238,"Trivium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Trivium</Case><Case(2)>im Trivium</Case><Case(3)>das Trivium</Case></Switch>",0
+3239,"Quadrivium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Quadrivium</Case><Case(2)>im Quadrivium</Case><Case(3)>das Quadrivium</Case></Switch>",0
+3240,"Mosaikbrücke",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mosaikbrücke</Case><Case(2)>auf der Mosaikbrücke</Case><Case(3)>die Mosaikbrücke</Case></Switch>",0
+3241,"Ätherytenplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ätherytenplatz</Case><Case(2)>auf dem Ätherytenplatz</Case><Case(3)>der Ätherytenplatz</Case></Switch>",0
+3242,"Exedra",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Exedra</Case><Case(2)>auf der Exedra</Case><Case(3)>die Exedra</Case></Switch>",0
+3243,"Umbilicus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Umbilicus</Case><Case(2)>im Umbilicus</Case><Case(3)>der Umbilicus</Case></Switch>",0
+3244,"Propylaeum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Propylaeum</Case><Case(2)>auf dem Propylaeum</Case><Case(3)>das Propylaeum</Case></Switch>",0
+3245,"Syrcus-Turm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Syrcus-Turm</Case><Case(2)>im Syrcus-Turm</Case><Case(3)>der Syrcus-Turm</Case></Switch>",0
+3246,"Tierhof Temenos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tierhof Temenos</Case><Case(2)>am Tierhof Temenos</Case><Case(3)>der Tierhof Temenos</Case></Switch>",0
+3247,"Amaro-Flugsteig",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Amaro-Flugsteig</Case><Case(2)>auf dem Amaro-Flugsteig</Case><Case(3)>der Amaro-Flugsteig</Case></Switch>",0
+3248,"Manufaktur der Gemeinschaft",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Manufaktur der Gemeinschaft</Case><Case(2)>in der Manufaktur der Gemeinschaft</Case><Case(3)>die Manufaktur der Gemeinschaft</Case></Switch>",0
+3249,"Spagyrik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Spagyrik</Case><Case(2)>in der Spagyrik</Case><Case(3)>die Spagyrik</Case></Switch>",0
+3250,"Ballistik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Ballistik</Case><Case(2)>in der Ballistik</Case><Case(3)>die Ballistik</Case></Switch>",0
+3251,"Kabinett der Kuriositäten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Kabinett der Kuriositäten</Case><Case(2)>im Kabinett der Kuriositäten</Case><Case(3)>das Kabinett der Kuriositäten</Case></Switch>",0
+3252,"Forum der Freien Rede",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Forum der Freien Rede</Case><Case(2)>im Forum der Freien Rede</Case><Case(3)>das Forum der Freien Rede</Case></Switch>",0
+3253,"Hortorium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Hortorium</Case><Case(2)>im Hortorium</Case><Case(3)>das Hortorium</Case></Switch>",0
+3254,"Musica Universalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Musica Universalis</Case><Case(2)>in Musica Universalis</Case><Case(3)>Musica Universalis</Case></Switch>",0
+3255,"Sternenhagel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Sternenhagel</Case><Case(2)>im Sternenhagel</Case><Case(3)>der Sternenhagel</Case></Switch>",0
+3256,"Ikosagon-Quartiere",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Ikosagon-Quartiere</Case><Case(2)>in den Ikosagon-Quartieren</Case><Case(3)>die Ikosagon-Quartiere</Case></Switch>",0
+3257,"Süßraspelhain",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Süßraspelhain</Case><Case(2)>im Süßraspelhain</Case><Case(3)>der Süßraspelhain</Case></Switch>",0
+3258,"Wrackstadt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wrackstadt</Case><Case(2)>in Wrackstadt</Case><Case(3)>Wrackstadt</Case></Switch>",0
+3259,"Die Wurzeln",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Wurzeln</Case><Case(2)>in den Wurzeln</Case><Case(3)>die Wurzeln</Case></Switch>",0
+3260,"Der Stamm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Stamm</Case><Case(2)>im Stamm</Case><Case(3)>der Stamm</Case></Switch>",0
+3261,"Die Baumkrone",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Baumkrone</Case><Case(2)>in der Baumkrone</Case><Case(3)>die Baumkrone</Case></Switch>",0
+3262,"Der Himmlische Wipfel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Himmlischen Wipfel</Case><Case(2)>im Himmlischen Wipfel</Case><Case(3)>der Himmlische Wipfel</Case></Switch>",0
+3263,"Tor der Herrlichkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tor der Herrlichkeit</Case><Case(2)>am Tor der Herrlichkeit</Case><Case(3)>das Tor der Herrlichkeit</Case></Switch>",0
+3264,"Gärten der Gestrigen Genüsse",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gärten der Gestrigen Genüsse</Case><Case(2)>im Gärten der Gestrigen Genüsse</Case><Case(3)>der Gärten der Gestrigen Genüsse</Case></Switch>",0
+3265,"Halle der Glückseligkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Halle der Glückseligkeit</Case><Case(2)>in der Halle der Glückseligkeit</Case><Case(3)>die Halle der Glückseligkeit</Case></Switch>",0
+3266,"Einbürgerungsamt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Einbürgerungsamt</Case><Case(2)>im Einbürgerungsamt</Case><Case(3)>das Einbürgerungsamt</Case></Switch>",0
+3267,"Meldebehörde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Meldebehörde</Case><Case(2)>in der Meldebehörde</Case><Case(3)>die Meldebehörde</Case></Switch>",0
+3268,"Hygienestation",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Hygienestation</Case><Case(2)>in der Hygienestation</Case><Case(3)>die Hygienestation</Case></Switch>",0
+3269,"Warenkontrolle A-1",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Warenkontrolle A-1</Case><Case(2)>in der Warenkontrolle A-1</Case><Case(3)>die Warenkontrolle A-1</Case></Switch>",0
+3270,"Warenkontrolle A-2",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Warenkontrolle A-2</Case><Case(2)>in der Warenkontrolle A-2</Case><Case(3)>die Warenkontrolle A-2</Case></Switch>",0
+3271,"Zolllager",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Zolllager</Case><Case(2)>im Zolllager</Case><Case(3)>das Zolllager</Case></Switch>",0
+3272,"Xylem-Aufzug",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Xylem-Aufzug</Case><Case(2)>im Xylem-Aufzug</Case><Case(3)>der Xylem-Aufzug</Case></Switch>",0
+3273,"Hauptquartier der Hochrühmlichen Armee von Eulmore",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Hauptquartier der Hochrühmlichen Armee von Eulmore</Case><Case(2)>im Hauptquartier der Hochrühmlichen Armee von Eulmore</Case><Case(3)>das Hauptquartier der Hochrühmlichen Armee von Eulmore</Case></Switch>",0
+3274,"Grundpfeiler der Ordnung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Grundpfeiler der Ordnung</Case><Case(2)>am Grundpfeiler der Ordnung</Case><Case(3)>der Grundpfeiler der Ordnung</Case></Switch>",0
+3275,"Ätherytenplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ätherytenplatz</Case><Case(2)>auf dem Ätherytenplatz</Case><Case(3)>der Ätherytenplatz</Case></Switch>",0
+3276,"Salon der Edlen Dame",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Salon der Edlen Dame</Case><Case(2)>im Salon der Edlen Dame</Case><Case(3)>der Salon der Edlen Dame</Case></Switch>",0
+3277,"Lustspielhaus Bienenstock",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lustspielhaus Bienenstock</Case><Case(2)>im Lustspielhaus Bienenstock</Case><Case(3)>das Lustspielhaus Bienenstock</Case></Switch>",0
+3278,"Baumkronen-Aufzug",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Baumkronen-Aufzug</Case><Case(2)>im Baumkronen-Aufzug</Case><Case(3)>der Baumkronen-Aufzug</Case></Switch>",0
+3279,"Balustrade „Himmelblick“",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Balustrade „Himmelblick“</Case><Case(2)>auf der Balustrade „Himmelblick“</Case><Case(3)>die Balustrade „Himmelblick“</Case></Switch>",0
+3280,"Audienzsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Audienzsaal</Case><Case(2)>im Audienzsaal</Case><Case(3)>der Audienzsaal</Case></Switch>",0
+3281,"Purpurwald",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Purpurwald</Case><Case(2)>imPurpurwald</Case><Case(3)>der Purpurwald</Case></Switch>",0
+3282,"Schwelende Weiden",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Schwelenden Weiden</Case><Case(2)>auf den Schwelenden Weiden</Case><Case(3)>die Schwelenden Weiden</Case></Switch>",0
+3283,"Das Flammenmeer von Holminster",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in das Flammenmeer von Holminster</Case><Case(2)>im Flammenmeer von Holminster</Case><Case(3)>das Flammenmeer von Holminster</Case></Switch>",0
+3284,"Lavendellichtung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Lavendellichtung</Case><Case(2)>auf der Lavendellichtung</Case><Case(3)>der Zugang zur Lavendellichtung</Case></Switch>",0
+3285,"Viehmarkt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Viehmarkt</Case><Case(2)>auf dem Viehmarkt</Case><Case(3)>der Zugang zum Viehmarkt</Case></Switch>",0
+3286,"Lodernde Wegkreuzung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die lodernde Wegkreuzung</Case><Case(2)>auf der lodernden Wegkreuzung</Case><Case(3)>die loderne Wegkreuzung</Case></Switch>",0
+3287,"Garten des Herrenhauses",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Garten des Herrenhauses</Case><Case(2)>im Garten des Herrenhauses</Case><Case(3)>der Garten des Herrenhauses</Case></Switch>",0
+3288,"Isomorph-Quartiere",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Isomorph-Quartiere</Case><Case(2)>in den Isomorph-Quartieren</Case><Case(3)>die Isomorph-Quartiere</Case></Switch>",0
+3289,"Trivium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Trivium</Case><Case(2)>im Trivium</Case><Case(3)>das Trivium</Case></Switch>",0
+3290,"Quadrivium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Quadrivium</Case><Case(2)>im Quadrivium</Case><Case(3)>das Quadrivium</Case></Switch>",0
+3291,"Quartier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Quartier</Case><Case(2)>im Quartier</Case><Case(3)>das Quartier</Case></Switch>",0
+3292,"Die Verwitterten Lande",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Verwitterten Landen</Case><Case(2)>in den Verwitterten Landen</Case><Case(3)>die Verwitterten Lande</Case></Switch>",0
+3293,"Rostlache",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>an die Rostlache</Case><Case(2)>an der Rostlache</Case><Case(3)>die Rostlache</Case></Switch>",0
+3294,"Quellsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Quellsee</Case><Case(2)>am Quellsee</Case><Case(3)>der Quellsee</Case></Switch>",0
+3295,"Grantel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Grantel</Case><Case(2)>in Grantel</Case><Case(3)>Grantel</Case></Switch>",0
+3296,"Insel der Erkenntnis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Insel der Erkenntnis</Case><Case(2)>auf der Insel der Erkenntnis</Case><Case(3)>die Insel der Erkenntnis</Case></Switch>",0
+3297,"Watts (Oberlauf)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Watts (Oberlauf)</Case><Case(2)>am Watts (Oberlauf)</Case><Case(3)>der Watts (Oberlauf)</Case></Switch>",0
+3298,"Weißölfälle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Weißölfällen</Case><Case(2)>an den Weißölfällen</Case><Case(3)>die Weißölfälle</Case></Switch>",0
+3299,"Watts (Unterlauf)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Watts (Unterlauf)</Case><Case(2)>am Watts (Unterlauf)</Case><Case(3)>der Watts (Unterlauf)</Case></Switch>",0
+3300,"Zungenbrennerteich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zungenbrennerteich</Case><Case(2)>am Zungenbrennerteich</Case><Case(3)>der Zungenbrennerteich</Case></Switch>",0
+3301,"Kholusia (Westküste)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Westküste von Kholusia</Case><Case(2)>an der Westküste von Kholusia</Case><Case(3)>die Westküste von Kholusia</Case></Switch>",0
+3302,"Bucht von Meerblick",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Bucht von Meerblick</Case><Case(2)>an der Bucht von Meerblick</Case><Case(3)>die Bucht von Meerblick</Case></Switch>",0
+3303,"Kholusia (Ostküste)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Ostküste von Kholusia</Case><Case(2)>an der Ostküste von Kholusia</Case><Case(3)>die Ostküste von Kholusia</Case></Switch>",0
+3304,"Wrackstadt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wrackstadt</Case><Case(2)>in Wrackstadt</Case><Case(3)>Wrackstadt</Case></Switch>",0
+3305,"Fluss aus Sand",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fluss aus Sand</Case><Case(2)>am Fluss aus Sand</Case><Case(3)>der Fluss aus Sand</Case></Switch>",0
+3306,"Kluft von Nabaath",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kluft von Nabaath</Case><Case(2)>an der Kluft von Nabaath</Case><Case(3)>die Kluft von Nabaath</Case></Switch>",0
+3307,"Bernsteinhügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Bernsteinhügeln</Case><Case(2)>in den Bernsteinhügeln</Case><Case(3)>die Bernsteinhügel</Case></Switch>",0
+3308,"Spiegelchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Spiegelchen</Case><Case(2)>am Spiegelchen</Case><Case(3)>das Spiegelchen</Case></Switch>",0
+3309,"Großes Spiegelchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Großen Spiegelchen</Case><Case(2)>am Großen Spiegelchen</Case><Case(3)>das Große Spiegelchen</Case></Switch>",0
+3310,"Hochmütiges Kind",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hochmütigen Kind</Case><Case(2)>am Hochmütigen Kind</Case><Case(3)>das Hochmütige Kind</Case></Switch>",0
+3311,"Neidisches Kind",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Neidischen Kind</Case><Case(2)>am Neidischen Kind</Case><Case(3)>das Neidische Kind</Case></Switch>",0
+3312,"Verwöhntes Kind",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Verwöhnten Kind</Case><Case(2)>am Verwöhnten Kind</Case><Case(3)>das Verwöhnte Kind</Case></Switch>",0
+3313,"Tempel des Heiligen Fathric",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tempel des Heiligen Fathric</Case><Case(2)>im Tempel des Heiligen Fathric</Case><Case(3)>der Tempel des Heiligen Fathric</Case></Switch>",0
+3314,"Collards Schwäche",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Collards Schwäche</Case><Case(2)>in Collards Schwäche</Case><Case(3)>Collards Schwäche</Case></Switch>",0
+3315,"Schlangensee Tusi Mek'ta",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlangensee Tusi Mek'ta</Case><Case(2)>am Schlangensee Tusi Mek'ta</Case><Case(3)>der Schlangensee Tusi Mek'ta</Case></Switch>",0
+3316,"Blutkelch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Blutkelch</Case><Case(2)>am Blutkelch</Case><Case(3)>der Blutkelch</Case></Switch>",0
+3317,"Lotzaltl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lotzatl</Case><Case(2)>am Lotzatl</Case><Case(3)>der Lotzatl</Case></Switch>",0
+3318,"Mjrls Sehnsucht (Süden)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Süden von Mjrls Sehnsucht</Case><Case(2)>im Süden von Mjrls Sehnsucht</Case><Case(3)>Süden von Mjrls Sehnsucht</Case></Switch>",0
+3319,"Eidbund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Eidbund</Case><Case(2)>in Eidbund</Case><Case(3)>Eidbund</Case></Switch>",0
+3320,"Flundergrotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Flundergrotte</Case><Case(2)>in der Flundergrotte</Case><Case(3)>die Flundergrotte</Case></Switch>",0
+3321,"Seelenruh der Landler",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Seelenruh der Landler</Case><Case(2)>im Seelenruh der Landler</Case><Case(3)>das Seelenruh der Landler</Case></Switch>",0
+3322,"Caliban-Furche (Norden)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Norden der Caliban-Furche</Case><Case(2)>im Norden der Caliban-Furche</Case><Case(3)>Norden der Caliban-Furche</Case></Switch>",0
+3323,"Calibans Nistplatz (Westen)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Westen von Calibans Nistplatz</Case><Case(2)>im Westen von Calibans Nistplatz</Case><Case(3)>Westen von Calibans Nistplatz</Case></Switch>",0
+3324,"Calibans Nistplatz (Osten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Osten von Calibans Nistplatz</Case><Case(2)>im Osten von Calibans Nistplatz</Case><Case(3)>Osten von Calibans Nistplatz</Case></Switch>",0
+3325,"Purpurhöhle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Purpurhöhle</Case><Case(2)>in der Purpurhöhle</Case><Case(3)>die Purpurhöhle</Case></Switch>",0
+3326,"Caliban-Furche",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Caliban-Furche</Case><Case(2)>in der Caliban-Furche</Case><Case(3)>die Caliban-Furche</Case></Switch>",0
+3327,"Ätherytenplatz",0,"",0,0,1,0,0,"",0
+3328,"Musica Universalis",0,"",0,0,1,0,0,"",0
+3329,"Tierhof Temenos",0,"",0,0,1,0,0,"",0
+3330,"Propylaeum (Okular)",0,"",0,0,1,0,0,"",0
+3331,"Isomorph-Quartiere",0,"",0,0,1,0,0,"",0
+3332,"Amaro-Flugsteig",0,"",0,0,1,0,0,"",0
+3333,"Manufaktur der Gemeinschaft",0,"",0,0,1,0,0,"",0
+3334,"Kabinett der Kuriositäten",0,"",0,0,1,0,0,"",0
+3335,"Mosaikbrücke (ins Seenland)",0,"",0,0,1,0,0,"",0
+3336,"Ätherytenplatz",0,"",0,0,1,0,0,"",0
+3337,"Wrackstadt (Südosten)",0,"",0,0,1,0,0,"",0
+3338,"Grundpfeiler der Ordnung",0,"",0,0,1,0,0,"",0
+3339,"Gärten der Gestrigen Genüsse",0,"",0,0,1,0,0,"",0
+3340,"Tor der Herrlichkeit",0,"",0,0,1,0,0,"",0
+3341,"Quellsee (Nordosten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Nordosten des Quellsees</Case><Case(2)>im Nordosten des Quellsees</Case><Case(3)>Nordosten des Quellsees</Case></Switch>",0
+3342,"Insel der Erkenntnis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Insel der Erkenntnis</Case><Case(2)>auf der Insel der Erkenntnis</Case><Case(3)>die Insel der Erkenntnis</Case></Switch>",0
+3343,"Quellsee (Südosten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Südosten des Quellsees</Case><Case(2)>im Südosten des Quellsees</Case><Case(3)>Südosten des Quellsees</Case></Switch>",0
+3344,"Schloss Lyhe-Ghiah (Norden)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Norden von Schloss Lyhe-Ghiah</Case><Case(2)>im Norden von Schloss Lyhe-Ghiah</Case><Case(3)>Norden von Schloss Lyhe-Ghiah</Case></Switch>",0
+3345,"Stadt am Grund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Stadt am Grund</Case><Case(2)>in der Stadt am Grund</Case><Case(3)>die Stadt am Grund</Case></Switch>",0
+3346,"Großes Spiegelchen (Mitte)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Mitte des Großen Spiegelchens</Case><Case(2)>in der Mitte des Großen Spiegelchens</Case><Case(3)>die Mitte des Großen Spiegelchens</Case></Switch>",0
+3347,"Thysm Lran",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Thysm Lran</Case><Case(2)>in Thysm Lran</Case><Case(3)>Thysm Lran</Case></Switch>",0
+3348,"Großes Spiegelchen (Süden)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Süden des Großen Spiegelchens</Case><Case(2)>im Süden des Großen Spiegelchens</Case><Case(3)>Süden des Großen Spiegelchens</Case></Switch>",0
+3349,"Schlangensee Tusi Mek'ta",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlangensee Tusi Mek'ta</Case><Case(2)>am Schlangensee Tusi Mek'ta</Case><Case(3)>der Schlangensee Tusi Mek'ta</Case></Switch>",0
+3350,"Versunkenes Heiligtum von Dwatl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Versunkenen Heiligtum von Dwatl</Case><Case(2)>am Versunkenen Heiligtum von Dwatl</Case><Case(3)>das Versunkene Heiligtum von Dwatl</Case></Switch>",0
+3351,"Pfad zum Ruhm (Kholusia)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad zum Ruhm (Kholusia)</Case><Case(2)>auf dem Pfad zum Ruhm (Kholusia)</Case><Case(3)>der Pfad zum Ruhm (Kholusia)</Case></Switch>",0
+3352,"Pfad zum Ruhm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad zum Ruhm</Case><Case(2)>auf dem Pfad zum Ruhm</Case><Case(3)>der Pfad zum Ruhm</Case></Switch>",0
+3353,"Zungenbrennerteich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zungenbrennerteich</Case><Case(2)>am Zungenbrennerteich</Case><Case(3)>der Zungenbrennerteich</Case></Switch>",0
+3354,"Rat der Langen Bärte",0,"",0,0,1,0,0,"",0
+3355,"Zechers Zeche",0,"",0,0,1,0,0,"",0
+3356,"Mithai Glorianda",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Mithai Glorianda</Case><Case(2)>in Mithai Glorianda</Case><Case(3)>Mithai Glorianda</Case></Switch>",0
+3357,"Prachtparade der Blumengräfin",0,"",0,0,1,0,0,"",0
+3358,"Wollweg",0,"",0,0,1,0,0,"",0
+3359,"Mithai Glorianda",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Mithai Glorianda</Case><Case(2)>in Mithai Glorianda</Case><Case(3)>Mithai Glorianda</Case></Switch>",0
+3360,"Klippen des Schweigens",0,"",0,0,1,0,0,"",0
+3361,"Stolperwald",0,"",0,0,1,0,0,"",0
+3362,"Färberteich",0,"",0,0,1,0,0,"",0
+3363,"Hockender Riese",0,"",0,0,1,0,0,"",0
+3364,"Lotzaltl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lotzatl</Case><Case(2)>am Lotzatl</Case><Case(3)>der Lotzatl</Case></Switch>",0
+3365,"Blutkelch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Blutkelch</Case><Case(2)>am Blutkelch</Case><Case(3)>der Blutkelch</Case></Switch>",0
+3366,"Insel der Bögen",0,"",0,0,1,0,0,"",0
+3367,"Insel der Schwestern",0,"",0,0,1,0,0,"",0
+3368,"Insel der Gatten",0,"",0,0,1,0,0,"",0
+3369,"Trinculo-Plateau",0,"",0,0,1,0,0,"",0
+3370,"Der Verschlungene Turm",0,"",0,0,1,0,0,"",0
+3371,"Die Rampe",0,"",0,0,1,0,0,"",0
+3372,"Landeplatz",0,"",0,0,1,0,0,"",0
+3373,"Ox'Dalan-Spalte",0,"",0,0,1,0,0,"",0
+3374,"Amarogatter",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Amarogatter</Case><Case(2)>am Amarogatter</Case><Case(3)>das Amarogatter</Case></Switch>",0
+3375,"",0,"",0,0,0,0,0,"",0
+3376,"",0,"",0,0,0,0,0,"",0
+3377,"",0,"",0,0,0,0,0,"",0
+3378,"",0,"",0,0,0,0,0,"",0
+3379,"",0,"",0,0,0,0,0,"",0
+3380,"",0,"",0,0,0,0,0,"",0
+3381,"",0,"",0,0,0,0,0,"",0
+3382,"",0,"",0,0,0,0,0,"",0
+3383,"",0,"",0,0,0,0,0,"",0
