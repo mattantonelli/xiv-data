@@ -534,7 +534,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1000530,"",0,"",0,0,1,0,0,"",5,False
 1000531,"",0,"",0,0,1,0,0,"",5,False
 1000532,"",0,"",0,0,1,0,0,"",5,False
-1000533,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"Bewahrer des Wissens",3,True
+1000533,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"Bewahrer des Wissens",3,True
 1000534,"Leih Aliapoh",3,"NONE",1,0,0,1,1,"",3,False
 1000535,"Krämer",4,"NONE",1,0,1,0,0,"Reparatur",3,True
 1000536,"Florimond",3,"NONE",1,0,0,0,1,"",3,False
@@ -2371,7 +2371,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1002367,"Aileen",3,"NONE",1,0,0,1,1,"Freibriefe",3,True
 1002368,"",0,"",0,0,1,0,0,"",3,False
 1002369,"GCショップ パルスメル",0,"",0,0,1,0,0,"",3,False
-1002370,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"Bewahrer des Wissens",3,True
+1002370,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"Bewahrer des Wissens",3,True
 1002371,"Krämerin",3,"NONE",1,0,1,1,0,"Reparatur",3,True
 1002372,"Krämer",4,"NONE",1,0,1,0,0,"Reparatur",3,True
 1002373,"Rüstungshändlerin",3,"NONE",1,0,1,1,0,"",3,True
@@ -5166,7 +5166,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1005162,"Ramuh",3,"NONE",1,0,0,0,1,"",4,False
 1005163,"Frixio",3,"NONE",1,0,0,1,1,"",4,False
 1005164,"Noraxia",3,"NONE",1,0,0,1,1,"",4,False
-1005165,"garleisch[a] Centurio",4,"garleisch[a] Centurios",1,0,1,0,0,"",4,False
+1005165,"garleisch[a] Centurio",4,"garleisch[a] Centurii",1,0,1,0,0,"",4,False
 1005166,"garleisch[a] Bote",8,"garleisch[a] Boten",1,0,1,0,0,"",4,False
 1005167,"Demuth",3,"NONE",1,0,0,1,1,"",3,True
 1005168,"",0,"",0,0,1,0,0,"",5,False
@@ -8279,7 +8279,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1008275,"Kuplo Kopp",3,"NONE",1,0,0,0,1,"",3,False
 1008276,"Kuplo Kopp",3,"NONE",1,0,0,0,1,"",3,False
 1008277,"Kuplo Kopp",3,"NONE",1,0,0,0,1,"",3,False
-1008278,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"Bewahrer des Wissens",3,True
+1008278,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"Bewahrer des Wissens",3,True
 1008279,"Kuplo Kopp",3,"NONE",1,0,0,0,1,"",5,False
 1008280,"Kupli Kipp",3,"NONE",1,0,0,0,1,"",5,False
 1008281,"Kupta Kapa",3,"NONE",1,0,0,0,1,"",5,False
@@ -8327,7 +8327,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1008323,"",0,"",0,0,1,0,0,"",5,False
 1008324,"",0,"",0,0,1,0,0,"",5,False
 1008325,"",0,"",0,0,1,0,0,"",5,False
-1008326,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",4,False
+1008326,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",4,False
 1008327,"Drakon-Flüsterer",4,"Drakon-Flüsterer",2,0,1,0,0,"",3,False
 1008328,"",0,"",0,0,1,0,0,"",5,False
 1008329,"geheimnisvoll[a] Sylphe",3,"geheimnisvoll[a] Sylphen",1,0,1,1,0,"",3,False
@@ -9491,8 +9491,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1009487,"",0,"",0,0,1,0,0,"",5,False
 1009488,"",0,"",0,0,1,0,0,"",5,False
 1009489,"Bran",3,"NONE",1,0,0,0,1,"",3,False
-1009490,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",3,False
-1009491,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",4,False
+1009490,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1009491,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",4,False
 1009492,"",0,"",0,0,0,0,0,"",0,False
 1009493,"",0,"",0,0,0,0,0,"",0,False
 1009494,"",0,"",0,0,0,0,0,"",0,False
@@ -11243,7 +11243,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1011239,"Theugondet",3,"NONE",1,0,0,0,1,"",3,True
 1011240,"Ingaret",3,"NONE",1,0,0,1,1,"",3,False
 1011241,"Thierremont",3,"NONE",1,0,0,0,1,"",3,False
-1011242,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",4,False
+1011242,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",4,False
 1011243,"",0,"",0,0,1,0,0,"",4,False
 1011244,"",0,"",0,0,1,0,0,"",4,False
 1011245,"",0,"",0,0,1,0,0,"",4,False
@@ -13150,8 +13150,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1013146,"Alka Zolka",3,"NONE",1,0,0,0,1,"",3,False
 1013147,"scharfsinnig[a] Marodeurin",4,"scharfsinnig[a] Marodeurinnen",1,0,1,1,0,"",3,False
 1013148,"geschickt[a] Marodeur",3,"geschickt[a] Marodeure",2,0,1,0,0,"",3,False
-1013149,"Surito Carito",3,"NONE",1,0,0,0,1,"",3,False
-1013150,"Alka Zolka",3,"NONE",1,0,0,0,1,"",3,False
+1013149,"Surito Carito",3,"NONE",1,0,0,0,1,"",6,False
+1013150,"Alka Zolka",3,"NONE",1,0,0,0,1,"",5,False
 1013151,"scharfsinnig[a] Marodeurin",4,"scharfsinnig[a] Marodeurinnen",1,0,1,1,0,"",3,False
 1013152,"geschickt[a] Marodeur",3,"geschickt[a] Marodeure",2,0,1,0,0,"",3,False
 1013153,"Dewlala",3,"NONE",1,0,0,1,1,"",3,False
@@ -13807,7 +13807,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1013803,"Schwaden-Bettler",4,"Schwaden-Bettler",2,0,1,0,0,"",4,False
 1013804,"Wegleitsystem",4,"Wegleitsysteme",2,0,1,2,0,"",4,False
 1013805,"Honoroit",3,"NONE",1,0,0,0,1,"",4,False
-1013806,"garleisch[a] Centurio",4,"garleisch[a] Centurios",1,0,1,0,0,"",4,False
+1013806,"garleisch[a] Centurio",4,"garleisch[a] Centurii",1,0,1,0,0,"",4,False
 1013807,"garleisch[a] Soldat",6,"garleisch[a] Soldaten",1,0,1,0,0,"",4,False
 1013808,"garleisch[a] Soldat",6,"garleisch[a] Soldaten",1,0,1,0,0,"",4,False
 1013809,"garleisch[a] Soldat",6,"garleisch[a] Soldaten",1,0,1,0,0,"",4,False
@@ -15802,7 +15802,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1015798,"suspekt[a] Imp",4,"suspekt[a] Imps",1,0,1,0,0,"",3,False
 1015799,"Aben<SoftHyphen/>teurer<SoftHyphen/>gilden-Gesandt[a]",3,"Abenteurergilden-Gesandt[a]",1,0,1,0,0,"",3,False
 1015800,"Kürbishexe",3,"Kürbishexen",1,0,1,1,0,"",3,False
-1015801,"seltsam[a] Ahriman",4,"seltsam[a] Ahrimane",1,0,1,0,0,"",3,False
+1015801,"seltsam[a] Ahriman",4,"seltsam[a] Ahriman",1,0,1,0,0,"",3,False
 1015802,"seltsam[a] Imp",4,"seltsam[a] Imps",1,0,1,0,0,"",3,False
 1015803,"seltsam[a] Zauberpott",4,"seltsam[a] Zauberpott",2,0,1,0,0,"",3,False
 1015804,"verführerisch[a] Gauklerin",3,"verführerisch[a] Gauklerinnen",1,0,1,1,0,"",4,False
@@ -16127,7 +16127,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1016123,"",0,"",0,0,1,0,0,"",5,False
 1016124,"Steuermann",4,"Steuermänner",2,0,1,0,0,"",3,False
 1016125,"erschöpft[a] Reeder",4,"erschöpft[a] Reeder",2,0,1,0,0,"",3,False
-1016126,"Aurvael",3,"Aurvael",1,0,0,0,1,"Diadem-Expeditionen",3,True
+1016126,"Aurvael",3,"Aurvael",1,0,0,0,1,"",3,True
 1016127,"Jaquoinie",3,"Jaquoinie",1,0,0,1,1,"Erdseim",3,True
 1016128,"",0,"",0,0,1,0,0,"",5,False
 1016129,"",0,"",0,0,1,0,0,"",5,False
@@ -16306,7 +16306,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1016302,"Salon-Häschen",4,"Salon-Häschen",1,0,1,2,0,"",3,True
 1016303,"Salon-Häschen",4,"Salon-Häschen",1,0,1,2,0,"",3,True
 1016304,"Salon-Häschen",4,"Salon-Häschen",1,0,1,2,0,"",3,True
-1016305,"Sonderartikel-Händlerin",3,"Sonderartikel-Händlerinnen",1,0,1,1,0,"",3,True
+1016305,"",0,"",0,0,0,0,0,"",0,False
 1016306,"Kaktor Kraxel",3,"Kaktor Kraxel",1,0,0,0,1,"GATE",3,False
 1016307,"Mahjong-Spielerin",3,"Mahjong-Spielerinnen",1,0,1,1,0,"",3,True
 1016308,"",0,"",0,0,1,0,0,"",4,False
@@ -17508,7 +17508,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1017504,"",0,"",0,0,0,0,0,"",0,False
 1017505,"",0,"",0,0,0,0,0,"",0,False
 1017506,"Direktorin",3,"Direktorinnen",1,0,1,1,0,"",4,False
-1017507,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",4,False
+1017507,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",4,False
 1017508,"",0,"",0,0,1,0,0,"",4,False
 1017509,"",0,"",0,0,1,0,0,"",4,False
 1017510,"",0,"",0,0,1,0,0,"",4,False
@@ -18656,7 +18656,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1018652,"",0,"",0,0,1,0,0,"",5,False
 1018653,"",0,"",0,0,1,0,0,"",5,False
 1018654,"",0,"",0,0,1,0,0,"",5,False
-1018655,"verrufen[a] Priesterin",4,"verrufen[a] Priesterinnen",2,0,1,1,0,"",3,True
+1018655,"",0,"",0,0,0,0,0,"",0,False
 1018656,"",0,"",0,0,0,0,0,"",0,False
 1018657,"",0,"",0,0,0,0,0,"",0,False
 1018658,"Mogry-Postbote",8,"Mogry-Postboten",1,0,1,0,0,"",3,True
@@ -19785,7 +19785,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1019781,"Kakura",3,"NONE",1,1,0,0,1,"",4,False
 1019782,"Kotokaze",3,"NONE",1,1,0,1,1,"",4,False
 1019783,"",0,"",0,0,1,0,0,"",4,False
-1019784,"garleisch[a] Centurio",4,"garleisch[a] Centurios",1,0,1,0,0,"",4,False
+1019784,"garleisch[a] Centurio",4,"garleisch[a] Centurii",1,0,1,0,0,"",4,False
 1019785,"entnervt[a] Händler",4,"entnervt[a] Händler",2,0,1,0,0,"",4,False
 1019786,"Haillenarte-Pilot",6,"Haillenarte-Piloten",1,0,1,0,0,"",3,True
 1019787,"",0,"",0,0,1,0,0,"",5,False
@@ -21908,9 +21908,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1021904,"Alka Zolka",3,"NONE",1,0,0,0,1,"",3,False
 1021905,"Alka Zolka",3,"NONE",1,0,0,0,1,"",3,False
 1021906,"Setoto",3,"NONE",1,0,0,1,1,"",4,False
-1021907,"Coeurklauen-Jäger",4,"Coeurklauen-Jäger",2,0,1,0,0,"",4,False
-1021908,"Coeurklauen-Wilderer",4,"Coeurklauen-Wilderer",2,0,1,0,0,"",4,False
-1021909,"wortkarg[a] Jäger",4,"wortkarg[a] Jäger",2,0,1,0,0,"",4,False
+1021907,"listig[a] Wilderer",4,"listig[a] Wilderer",2,0,1,0,0,"",4,False
+1021908,"wild[a] Wilderer",4,"wild[a] Wilderer",2,0,1,0,0,"",4,False
+1021909,"schweigsam[a] Wilderer",4,"schweigsam[a] Wilderer",2,0,1,0,0,"",4,False
 1021910,"Setoto",3,"NONE",1,0,0,1,1,"",3,False
 1021911,"Alka Zolka",3,"NONE",1,0,0,0,1,"",3,False
 1021912,"Setoto",3,"NONE",1,0,0,1,1,"",3,False
@@ -23944,7 +23944,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1023940,"Festverkäuferin",3,"Festverkäuferinnen",1,0,1,1,0,"",3,True
 1023941,"wissend[a] Abenteurer",4,"wissend[a] Abenteurer",2,0,1,0,0,"",3,True
 1023942,"wissend[a] Abenteurer",4,"wissend[a] Abenteurer",2,0,1,0,0,"",3,True
-1023943,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1023943,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
 1023944,"",0,"",0,0,1,0,0,"",5,False
 1023945,"",0,"",0,0,1,0,0,"",5,False
 1023946,"",0,"",0,0,1,0,0,"",5,False
@@ -23954,9 +23954,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1023950,"",0,"",0,0,1,0,0,"",4,False
 1023951,"",0,"",0,0,1,0,0,"",4,False
 1023952,"",0,"",0,0,1,0,0,"",4,False
-1023953,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1023953,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
 1023954,"Dural Tharal",3,"NONE",1,0,0,0,1,"",3,False
-1023955,"fahrend[a] Sänger",4,"fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1023955,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
 1023956,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"Saisonales Geschäft",3,True
 1023957,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"Saisonales Geschäft",3,True
 1023958,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"Saisonales Geschäft",3,True
@@ -26722,15 +26722,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1026718,"Hozan",3,"NONE",1,0,0,0,1,"",3,False
 1026719,"Ihase",3,"NONE",1,0,0,0,1,"",4,False
 1026720,"",0,"",0,0,1,0,0,"",6,False
-1026721,"",0,"",0,0,0,0,0,"",0,False
-1026722,"",0,"",0,0,0,0,0,"",0,False
-1026723,"",0,"",0,0,0,0,0,"",0,False
-1026724,"",0,"",0,0,0,0,0,"",0,False
-1026725,"",0,"",0,0,0,0,0,"",0,False
-1026726,"",0,"",0,0,0,0,0,"",0,False
-1026727,"",0,"",0,0,0,0,0,"",0,False
-1026728,"",0,"",0,0,0,0,0,"",0,False
-1026729,"",0,"",0,0,0,0,0,"",0,False
+1026721,"Rattenminister",4,"Rattenminister",2,0,1,0,0,"",3,False
+1026722,"Rattenleutnant",4,"Rattenleutnants",1,0,1,0,0,"",3,True
+1026723,"Rattenleutnant",4,"Rattenleutnants",1,0,1,0,0,"",3,True
+1026724,"Rattenleutnant",4,"Rattenleutnants",1,0,1,0,0,"",3,True
+1026725,"Rattenhändlerin",3,"Rattenhändlerinnen",1,0,1,1,0,"Saisonales Geschäft",3,True
+1026726,"Rattenhändlerin",3,"Rattenhändlerinnen",1,0,1,1,0,"Saisonales Geschäft",3,True
+1026727,"Rattenhändlerin",3,"Rattenhändlerinnen",1,0,1,1,0,"Saisonales Geschäft",3,True
+1026728,"Neneroon",3,"NONE",1,0,0,0,1,"",3,False
+1026729,"Neneroon",3,"NONE",1,0,0,0,1,"",4,False
 1026730,"",0,"",0,0,0,0,0,"",0,False
 1026731,"",0,"",0,0,1,0,0,"",6,False
 1026732,"",0,"",0,0,1,0,0,"",6,False
@@ -27358,7 +27358,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1027354,"",0,"",0,0,1,0,0,"",5,False
 1027355,"Bjarni",3,"NONE",1,0,0,0,1,"",3,False
 1027356,"Kristinn",3,"NONE",1,0,0,0,1,"",3,False
-1027357,"Roy-Tatch",3,"NONE",1,0,0,0,1,"",3,False
+1027357,"Roi-Tatch",3,"NONE",1,0,0,0,1,"",3,False
 1027358,"",0,"",0,0,1,0,0,"",6,False
 1027359,"",0,"",0,0,1,0,0,"",5,False
 1027360,"",0,"",0,0,1,0,0,"",5,False
@@ -27544,7 +27544,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1027540,"Händlerin",3,"Händlerinnen",1,0,1,1,0,"Wunderwaren",3,True
 1027541,"Scheinewechslerin",3,"Scheinewechslerinnen",1,0,1,1,0,"",3,True
 1027542,"Begutachterin",3,"Begutachterinnen",1,0,1,1,0,"Sammlerstücke",3,True
-1027543,"",0,"",0,0,0,0,0,"",0,False
+1027543,"Hinosen",3,"NONE",1,0,0,1,1,"Eulmore-Marken",3,True
 1027544,"Mowen",3,"NONE",1,0,0,1,1,"",3,False
 1027545,"Dadden",3,"NONE",1,0,0,0,1,"Krämer",3,True
 1027546,"",0,"",0,0,1,0,0,"",5,False
@@ -27564,7 +27564,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1027560,"Lynden",3,"NONE",1,0,0,0,1,"",3,False
 1027561,"",0,"",0,0,1,0,0,"",5,False
 1027562,"Billdia",3,"NONE",1,0,0,1,1,"",3,False
-1027563,"",0,"",0,0,0,0,0,"",0,False
+1027563,"Shee-Tatch",3,"NONE",1,0,0,0,1,"Ausrüstungsverstärkung",3,True
 1027564,"Aymark",3,"NONE",1,0,0,0,1,"Allagische Steine",3,True
 1027565,"Fathard",3,"NONE",1,0,0,0,1,"Seltene Ausrüstung & Anderes",3,True
 1027566,"",0,"",0,0,0,0,0,"",0,False
@@ -28168,7 +28168,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028164,"",0,"",0,0,1,0,0,"",4,False
 1028165,"Tolshs Aath",3,"NONE",1,0,0,0,1,"",4,False
 1028166,"Kristall<SoftHyphen/>exarch",6,"Kristallexarchen",1,0,1,0,0,"",4,False
-1028167,"Centurio[p] mit Katana",3,"Centurios[p] mit Katana",1,0,1,0,0,"",4,False
+1028167,"Centurio[p] mit Katana",4,"Centurii[p] mit Katana",1,0,1,0,0,"",4,False
 1028168,"Aenc Thon",3,"NONE",1,0,0,0,1,"",4,False
 1028169,"Hades",3,"NONE",1,0,0,0,1,"",4,False
 1028170,"Ranaa Mihgo",3,"NONE",1,0,0,0,1,"",4,False
@@ -28363,7 +28363,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028359,"Wyd Lad",3,"NONE",1,0,0,0,1,"",4,False
 1028360,"Bismarck",3,"NONE",1,0,0,0,1,"",4,False
 1028361,"Alphinaud",3,"NONE",1,0,0,0,1,"",4,False
-1028362,"schmutzig[a] Kerl",4,"schmutzig[a] Kerle",2,0,1,0,0,"",4,False
+1028362,"verdreckt[a] Kerl",4,"verdreckt[a] Kerle",2,0,1,0,0,"",4,False
 1028363,"",0,"",0,0,1,0,0,"",4,False
 1028364,"",0,"",0,0,1,0,0,"",4,False
 1028365,"",0,"",0,0,1,0,0,"",4,False
@@ -28444,7 +28444,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028440,"Skip",3,"NONE",1,0,0,0,1,"",3,False
 1028441,"Bethric",3,"NONE",1,0,0,0,1,"",4,False
 1028442,"Skip",3,"NONE",1,0,0,0,1,"",4,False
-1028443,"Räuber[p] mit Schnautzbart",4,"Räuber[p] mit Schnautzbart",2,0,1,0,0,"",4,False
+1028443,"Räuber[p] mit Schnauzbart",4,"Räuber[p] mit Schnauzbart",2,0,1,0,0,"",4,False
 1028444,"Räuberin[p] mit Zöpfen",3,"Räuberinnen[p] mit Zöpfen",1,0,1,1,0,"",4,False
 1028445,"Qeshi-Rae",3,"NONE",1,0,0,1,1,"",4,False
 1028446,"Yalana",3,"NONE",1,0,0,1,1,"",4,False
@@ -28491,7 +28491,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028487,"Bethric",3,"NONE",1,0,0,0,1,"",3,False
 1028488,"Skip",3,"NONE",1,0,0,0,1,"",3,False
 1028489,"Bethric",3,"NONE",1,0,0,0,1,"",3,False
-1028490,"Skip",3,"NONE",1,0,0,0,0,"",3,False
+1028490,"Skip",3,"NONE",1,0,0,0,1,"",3,False
 1028491,"Bethric",3,"NONE",1,0,0,0,1,"",3,False
 1028492,"Skip",3,"NONE",1,0,0,0,1,"",3,False
 1028493,"Yalana",3,"NONE",1,0,0,1,1,"",3,False
@@ -28641,7 +28641,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028637,"",0,"",0,0,1,0,0,"",4,False
 1028638,"",0,"",0,0,1,0,0,"",4,False
 1028639,"",0,"",0,0,1,0,0,"",4,False
-1028640,"",0,"",0,0,0,0,0,"",0,False
+1028640,"",0,"",0,0,1,0,0,"",4,False
 1028641,"",0,"",0,0,1,0,0,"",4,False
 1028642,"",0,"",0,0,1,0,0,"",4,False
 1028643,"",0,"",0,0,1,0,0,"",4,False
@@ -28669,7 +28669,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028665,"",0,"",0,0,1,0,0,"",4,False
 1028666,"",0,"",0,0,1,0,0,"",4,False
 1028667,"",0,"",0,0,1,0,0,"",4,False
-1028668,"",0,"",0,0,0,0,0,"",0,False
+1028668,"",0,"",0,0,1,0,0,"",4,False
 1028669,"",0,"",0,0,1,0,0,"",4,False
 1028670,"",0,"",0,0,1,0,0,"",4,False
 1028671,"",0,"",0,0,1,0,0,"",4,False
@@ -28701,18 +28701,18 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028697,"",0,"",0,0,1,0,0,"",4,False
 1028698,"",0,"",0,0,1,0,0,"",4,False
 1028699,"",0,"",0,0,1,0,0,"",4,False
-1028700,"",0,"",0,0,0,0,0,"",0,False
-1028701,"",0,"",0,0,0,0,0,"",0,False
+1028700,"",0,"",0,0,1,0,0,"",4,False
+1028701,"",0,"",0,0,1,0,0,"",4,False
 1028702,"",0,"",0,0,1,0,0,"",4,False
-1028703,"",0,"",0,0,0,0,0,"",0,False
+1028703,"",0,"",0,0,1,0,0,"",4,False
 1028704,"",0,"",0,0,1,0,0,"",4,False
-1028705,"",0,"",0,0,0,0,0,"",0,False
+1028705,"",0,"",0,0,1,0,0,"",4,False
 1028706,"",0,"",0,0,0,0,0,"",0,False
-1028707,"",0,"",0,0,0,0,0,"",0,False
-1028708,"",0,"",0,0,0,0,0,"",0,False
-1028709,"",0,"",0,0,0,0,0,"",0,False
-1028710,"",0,"",0,0,0,0,0,"",0,False
-1028711,"",0,"",0,0,0,0,0,"",0,False
+1028707,"",0,"",0,0,1,0,0,"",4,False
+1028708,"",0,"",0,0,1,0,0,"",4,False
+1028709,"",0,"",0,0,1,0,0,"",4,False
+1028710,"",0,"",0,0,1,0,0,"",4,False
+1028711,"",0,"",0,0,1,0,0,"",4,False
 1028712,"",0,"",0,0,0,0,0,"",0,False
 1028713,"",0,"",0,0,0,0,0,"",0,False
 1028714,"",0,"",0,0,0,0,0,"",0,False
@@ -28784,7 +28784,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1028780,"",0,"",0,0,1,0,0,"",5,False
 1028781,"Ranaa Mihgo",3,"NONE",1,0,0,0,1,"",3,False
 1028782,"Ranaa Mihgo",3,"NONE",1,0,0,0,1,"",3,False
-1028783,"Nashmeira",3,"NONE",1,0,0,0,1,"",3,False
+1028783,"Eo Sigun",3,"NONE",1,0,0,0,1,"",3,True
 1028784,"Kuihlud",3,"NONE",1,0,0,0,1,"",3,False
 1028785,"",0,"",0,0,1,0,0,"",5,False
 1028786,"",0,"",0,0,1,0,0,"",5,False
@@ -29112,10 +29112,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029108,"",0,"",0,0,1,0,0,"",5,False
 1029109,"Radovan",3,"NONE",1,0,0,0,1,"",3,False
 1029110,"Reese",3,"NONE",1,0,0,0,1,"",3,False
-1029111,"Cato nan Mammula",3,"NONE",1,0,0,0,1,"",3,False
+1029111,"Cato Mammula",3,"NONE",1,0,0,0,1,"",3,False
 1029112,"Reese",3,"NONE",1,0,0,0,1,"",3,False
-1029113,"Cato nan Mammula",3,"NONE",1,0,0,0,1,"",3,False
-1029114,"Cato nan Mammula",3,"NONE",1,0,0,0,1,"",4,False
+1029113,"Cato Mammula",3,"NONE",1,0,0,0,1,"",3,False
+1029114,"Cato Mammula",3,"NONE",1,0,0,0,1,"",4,False
 1029115,"Reese",3,"NONE",1,0,0,0,1,"",4,False
 1029116,"Vitus quo Messalla",3,"NONE",1,0,0,0,1,"",4,False
 1029117,"zwielichtig[a] Gestalt",3,"zwielichtig[a] Gestalten",1,0,1,1,0,"",4,False
@@ -29288,8 +29288,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029284,"schwarz gekleidet[a] Gestalt",3,"schwarz gekleidet[a] Gestalten",1,0,0,1,1,"",4,False
 1029285,"Ghun Gun",3,"NONE",1,0,0,0,1,"",4,False
 1029286,"Jamial",3,"NONE",1,0,0,0,1,"",4,False
-1029287,"",0,"",0,0,0,0,0,"",0,False
-1029288,"",0,"",0,0,0,0,0,"",0,False
+1029287,"",0,"",0,0,1,0,0,"",4,False
+1029288,"mysteriös[a] Angreiferin",3,"mysteriös[a] Angreiferinnen",1,0,1,1,0,"",4,False
 1029289,"",0,"",0,0,1,0,0,"",4,False
 1029290,"",0,"",0,0,1,0,0,"",4,False
 1029291,"",0,"",0,0,1,0,0,"",4,False
@@ -29313,7 +29313,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029309,"",0,"",0,0,1,0,0,"",4,False
 1029310,"Kristall<SoftHyphen/>exarch",6,"Kristallexarchen",1,0,1,0,0,"",4,False
 1029311,"",0,"",0,0,1,0,0,"",4,False
-1029312,"kräftig[a] Arbeitend[a]",4,"kräftig[a] Arbeitend[a]",2,0,1,0,0,"",4,False
+1029312,"kräftig[a] Arbeitend[a]",3,"kräftig[a] Arbeitend[a]",1,0,1,0,0,"",4,False
 1029313,"",0,"",0,0,1,0,0,"",4,False
 1029314,"Späherin",3,"Späherinnen",1,0,1,1,0,"",4,False
 1029315,"",0,"",0,0,1,0,0,"",4,False
@@ -29441,10 +29441,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029437,"",0,"",0,0,1,0,0,"",4,False
 1029438,"",0,"",0,0,1,0,0,"",4,False
 1029439,"Papa Glagg",3,"NONE",1,0,0,0,1,"",4,False
-1029440,"",0,"",0,0,0,0,0,"",0,False
-1029441,"",0,"",0,0,0,0,0,"",0,False
+1029440,"",0,"",0,0,1,0,0,"",4,False
+1029441,"",0,"",0,0,1,0,0,"",4,False
 1029442,"Bote[p] der Wache",5,"Boten[p] der Wache",1,0,1,0,0,"",4,False
-1029443,"Anogg",3,"Anogg",1,0,0,0,1,"",4,False
+1029443,"Anogg",3,"Anogg",1,0,0,1,1,"",4,False
 1029444,"Konogg",3,"Konogg",1,0,0,0,1,"",4,False
 1029445,"Vorarbeiter",4,"Vorarbeiter",2,0,1,0,0,"",4,False
 1029446,"Stollenwächter",4,"Stollenwächter",2,0,1,0,0,"",4,False
@@ -29469,74 +29469,74 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029465,"",0,"",0,0,1,0,0,"",4,False
 1029466,"Untertan[p] der Nacht",6,"Untertanen[p] der Nacht",1,0,1,0,0,"",4,False
 1029467,"",0,"",0,0,1,0,0,"",4,False
-1029468,"",0,"",0,0,1,0,0,"",3,False
-1029469,"",0,"",0,0,1,0,0,"",3,False
-1029470,"",0,"",0,0,1,0,0,"",3,False
-1029471,"",0,"",0,0,1,0,0,"",3,False
-1029472,"",0,"",0,0,1,0,0,"",3,False
-1029473,"",0,"",0,0,1,0,0,"",3,False
-1029474,"",0,"",0,0,1,0,0,"",3,False
-1029475,"",0,"",0,0,1,0,0,"",3,False
-1029476,"",0,"",0,0,1,0,0,"",3,False
-1029477,"",0,"",0,0,1,0,0,"",3,False
-1029478,"",0,"",0,0,1,0,0,"",3,False
-1029479,"",0,"",0,0,1,0,0,"",3,False
-1029480,"",0,"",0,0,1,0,0,"",3,False
-1029481,"",0,"",0,0,1,0,0,"",3,False
-1029482,"",0,"",0,0,1,0,0,"",3,False
-1029483,"",0,"",0,0,1,0,0,"",3,False
-1029484,"",0,"",0,0,1,0,0,"",3,False
-1029485,"",0,"",0,0,1,0,0,"",3,False
-1029486,"",0,"",0,0,1,0,0,"",3,False
-1029487,"",0,"",0,0,1,0,0,"",3,False
-1029488,"",0,"",0,0,1,0,0,"",3,False
-1029489,"",0,"",0,0,1,0,0,"",3,False
-1029490,"",0,"",0,0,1,0,0,"",3,False
-1029491,"",0,"",0,0,1,0,0,"",3,False
-1029492,"",0,"",0,0,1,0,0,"",3,False
-1029493,"",0,"",0,0,1,0,0,"",3,False
-1029494,"",0,"",0,0,1,0,0,"",3,False
-1029495,"",0,"",0,0,1,0,0,"",3,False
-1029496,"",0,"",0,0,1,0,0,"",3,False
-1029497,"",0,"",0,0,1,0,0,"",3,False
-1029498,"",0,"",0,0,1,0,0,"",3,False
-1029499,"",0,"",0,0,1,0,0,"",3,False
-1029500,"",0,"",0,0,1,0,0,"",3,False
-1029501,"",0,"",0,0,1,0,0,"",3,False
-1029502,"",0,"",0,0,1,0,0,"",3,False
-1029503,"",0,"",0,0,1,0,0,"",3,False
-1029504,"",0,"",0,0,1,0,0,"",3,False
-1029505,"",0,"",0,0,1,0,0,"",3,False
-1029506,"",0,"",0,0,1,0,0,"",3,False
-1029507,"",0,"",0,0,1,0,0,"",3,False
-1029508,"",0,"",0,0,1,0,0,"",3,False
-1029509,"",0,"",0,0,1,0,0,"",3,False
-1029510,"",0,"",0,0,1,0,0,"",3,False
-1029511,"",0,"",0,0,1,0,0,"",3,False
-1029512,"",0,"",0,0,1,0,0,"",3,False
-1029513,"",0,"",0,0,1,0,0,"",3,False
-1029514,"",0,"",0,0,1,0,0,"",3,False
-1029515,"",0,"",0,0,1,0,0,"",3,False
-1029516,"",0,"",0,0,1,0,0,"",3,False
-1029517,"",0,"",0,0,1,0,0,"",3,False
-1029518,"",0,"",0,0,1,0,0,"",3,False
-1029519,"",0,"",0,0,1,0,0,"",3,False
-1029520,"",0,"",0,0,1,0,0,"",3,False
-1029521,"",0,"",0,0,1,0,0,"",3,False
-1029522,"",0,"",0,0,1,0,0,"",3,False
-1029523,"",0,"",0,0,1,0,0,"",3,False
-1029524,"",0,"",0,0,1,0,0,"",3,False
-1029525,"",0,"",0,0,1,0,0,"",3,False
-1029526,"",0,"",0,0,1,0,0,"",3,False
-1029527,"",0,"",0,0,1,0,0,"",3,False
-1029528,"",0,"",0,0,1,0,0,"",3,False
-1029529,"",0,"",0,0,1,0,0,"",3,False
-1029530,"",0,"",0,0,1,0,0,"",3,False
-1029531,"",0,"",0,0,1,0,0,"",3,False
-1029532,"",0,"",0,0,1,0,0,"",3,False
-1029533,"",0,"",0,0,1,0,0,"",3,False
-1029534,"",0,"",0,0,1,0,0,"",3,False
-1029535,"",0,"",0,0,1,0,0,"",3,False
+1029468,"Estinien",3,"Estinien",1,0,0,0,1,"",4,False
+1029469,"einfach gekleidet[a] Mann",2,"einfach gekleidet[a] Männer",2,0,1,0,0,"",4,False
+1029470,"ärmlich[a] Frau",3,"ärmlich[a] Frauen",1,0,1,1,0,"",4,False
+1029471,"Beq Lugg",3,"Beq Lugg",1,0,0,0,1,"",4,False
+1029472,"Wrenden",3,"Wrenden",1,0,0,0,1,"",4,False
+1029473,"Abenteurer",4,"Abenteurer",2,0,1,0,0,"",4,False
+1029474,"Angel",3,"Angel",1,0,0,1,1,"",4,False
+1029475,"Einsiedler",4,"Einsiedler",2,0,1,0,0,"",4,False
+1029476,"",0,"",0,0,1,0,0,"",4,False
+1029477,"Mann[p] in weißer Robe",2,"Männer[p] in weißer Robe",2,0,1,0,0,"",4,False
+1029478,"Centurio[p] der III. Legion",4,"Centurii[p] der III. Legion",1,0,1,0,0,"",4,False
+1029479,"Centurio[p] der I. Legion",4,"Centurii[p] der I. Legion",1,0,1,0,0,"",4,False
+1029480,"Mowen",3,"Mowen",1,0,0,1,1,"",4,False
+1029481,"Thoarich",3,"Thoarich",1,0,0,0,1,"",4,False
+1029482,"Hathenbet",3,"Hathenbet",1,0,0,0,1,"",4,False
+1029483,"Chelette",3,"Chelette",1,0,0,1,1,"",4,False
+1029484,"mondän[a] Edelmann",2,"mondän[a] Edelmänner",2,0,1,0,0,"",4,False
+1029485,"Cornenne",3,"Cornenne",1,0,0,0,1,"",4,False
+1029486,"Julia",3,"Julia",1,0,0,1,1,"",4,False
+1029487,"Annia",3,"Annia",1,0,0,1,1,"",4,False
+1029488,"Kai-Shirr",3,"NONE",1,0,0,0,1,"",4,False
+1029489,"Anfrigg",3,"NONE",1,0,0,0,1,"",4,False
+1029490,"Bosta-Zia",3,"NONE",1,0,0,1,1,"",4,False
+1029491,"Direktor[p] des Bienenstocks",4,"Direktoren[p] des Bienenstocks",1,0,1,0,0,"",4,False
+1029492,"",0,"",0,0,0,0,0,"",0,False
+1029493,"",0,"",0,0,0,0,0,"",0,False
+1029494,"",0,"",0,0,0,0,0,"",0,False
+1029495,"",0,"",0,0,0,0,0,"",0,False
+1029496,"",0,"",0,0,0,0,0,"",0,False
+1029497,"",0,"",0,0,0,0,0,"",0,False
+1029498,"",0,"",0,0,0,0,0,"",0,False
+1029499,"",0,"",0,0,0,0,0,"",0,False
+1029500,"",0,"",0,0,0,0,0,"",0,False
+1029501,"",0,"",0,0,0,0,0,"",0,False
+1029502,"",0,"",0,0,0,0,0,"",0,False
+1029503,"",0,"",0,0,0,0,0,"",0,False
+1029504,"",0,"",0,0,0,0,0,"",0,False
+1029505,"",0,"",0,0,0,0,0,"",0,False
+1029506,"",0,"",0,0,1,0,0,"",4,False
+1029507,"F'lhaminn",3,"F'lhaminn",1,0,0,1,1,"",4,False
+1029508,"",0,"",0,0,0,0,0,"",0,False
+1029509,"",0,"",0,0,0,0,0,"",0,False
+1029510,"",0,"",0,0,1,0,0,"",4,False
+1029511,"",0,"",0,0,1,0,0,"",4,False
+1029512,"",0,"",0,0,1,0,0,"",4,False
+1029513,"zierlich[a] Sängerin",3,"zierlich[a] Sängerinnen",1,0,1,1,0,"",4,False
+1029514,"ausgelassen[a] Gast",4,"ausgelassen[a] Gäste",2,0,1,0,0,"",4,False
+1029515,"fidel[a] Gast",4,"fidel[a] Gäste",2,0,1,0,0,"",4,False
+1029516,"feiernd[a] Zwerg",4,"feiernd[a] Zwerge",2,0,1,0,0,"",4,False
+1029517,"sonnig[a] Zwerg",4,"sonnig[a] Zwerge",2,0,1,0,0,"",4,False
+1029518,"",0,"",0,0,1,0,0,"",4,False
+1029519,"",0,"",0,0,1,0,0,"",4,False
+1029520,"",0,"",0,0,1,0,0,"",4,False
+1029521,"",0,"",0,0,1,0,0,"",4,False
+1029522,"",0,"",0,0,1,0,0,"",4,False
+1029523,"",0,"",0,0,0,0,0,"",0,False
+1029524,"",0,"",0,0,1,0,0,"",4,False
+1029525,"",0,"",0,0,1,0,0,"",4,False
+1029526,"",0,"",0,0,1,0,0,"",4,False
+1029527,"",0,"",0,0,1,0,0,"",4,False
+1029528,"",0,"",0,0,1,0,0,"",4,False
+1029529,"",0,"",0,0,1,0,0,"",4,False
+1029530,"",0,"",0,0,1,0,0,"",4,False
+1029531,"",0,"",0,0,1,0,0,"",4,False
+1029532,"",0,"",0,0,1,0,0,"",4,False
+1029533,"",0,"",0,0,1,0,0,"",4,False
+1029534,"Estinien",3,"Estinien",1,0,0,0,1,"",4,False
+1029535,"Estinien",3,"Estinien",1,0,0,0,1,"",4,False
 1029536,"",0,"",0,0,1,0,0,"",3,False
 1029537,"",0,"",0,0,1,0,0,"",3,False
 1029538,"",0,"",0,0,1,0,0,"",3,False
@@ -29566,10 +29566,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029562,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
 1029563,"Minfilia",3,"NONE",1,0,0,1,1,"",3,False
 1029564,"Wyd Aenc",3,"NONE",1,0,0,0,1,"",3,False
-1029565,"",0,"",0,0,0,0,0,"",0,False
-1029566,"",0,"",0,0,0,0,0,"",0,False
-1029567,"",0,"",0,0,0,0,0,"",0,False
-1029568,"",0,"",0,0,0,0,0,"",0,False
+1029565,"patrouillierend[a] Arbeiter",4,"patrouillierend[a] Arbeiter",2,0,1,0,0,"",3,False
+1029566,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
+1029567,"Alisaie",3,"NONE",1,0,0,1,1,"",3,False
+1029568,"F'lhaminn",3,"NONE",1,0,0,1,1,"",3,False
 1029569,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
 1029570,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
 1029571,"Minfilia",3,"NONE",1,0,0,1,1,"",3,False
@@ -29816,11 +29816,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029812,"",0,"",0,0,1,0,0,"",5,False
 1029813,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
 1029814,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
-1029815,"schmutzig[a] Kerl",4,"schmutzig[a] Kerle",2,0,1,0,0,"",3,False
+1029815,"verdreckt[a] Kerl",4,"verdreckt[a] Kerle",2,0,1,0,0,"",3,False
 1029816,"gedankenverloren[a] Träumerin",3,"gedankenverloren[a] Träumerinnen",1,0,1,1,0,"",3,False
 1029817,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
-1029818,"blauhaarig[a] Mystel",4,"blauhaarig[a] Mystel",2,0,1,0,0,"",3,False
-1029819,"bewusstlos[a] Verletzt[a]",3,"bewusstlos[a] Verletzt[a]",2,0,1,0,0,"",3,False
+1029818,"blauhaarig[a] Mystel",3,"blauhaarig[a] Mystel",1,0,1,0,0,"",3,False
+1029819,"bewusstlos[a] Unbekannt[a]",3,"bewusstlos[a] Unbekannt[a]",2,0,1,0,0,"",3,False
 1029820,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
 1029821,"Tristol",3,"NONE",1,0,0,0,1,"",3,False
 1029822,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
@@ -29835,9 +29835,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029831,"Chai-Nuzz",3,"NONE",1,0,0,0,1,"",3,False
 1029832,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
 1029833,"anmutig[a] Frei[a]",3,"anmutig[a] Frei[a]",1,0,1,1,0,"",3,False
-1029834,"kräftig[a] Arbeitend[a]",3,"kräftig[a] Arbeitend[a]",2,0,1,0,0,"",3,False
+1029834,"kräftig[a] Arbeitend[a]",3,"kräftig[a] Arbeitend[a]",1,0,1,0,0,"",3,False
 1029835,"",0,"",0,0,1,0,0,"",5,False
-1029836,"kräftig[a] Arbeitend[a]",3,"kräftig[a] Arbeitend[a]",2,0,1,0,0,"",3,False
+1029836,"kräftig[a] Arbeitend[a]",3,"kräftig[a] Arbeitend[a]",1,0,1,0,0,"",3,False
 1029837,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
 1029838,"herausgeputzt[a] Arbeitend[a]",3,"herausgeputzt[a] Arbeitend[a]",1,0,1,1,0,"",3,False
 1029839,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
@@ -29965,8 +29965,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029961,"Granson",3,"NONE",1,0,0,0,1,"",3,False
 1029962,"Nashmeira",3,"NONE",1,0,0,1,1,"",3,False
 1029963,"Sul Oul",3,"NONE",1,0,0,0,1,"",3,False
-1029964,"",0,"",0,0,1,0,0,"",3,False
-1029965,"",0,"",0,0,1,0,0,"",3,False
+1029964,"",0,"",0,0,0,0,0,"",0,False
+1029965,"",0,"",0,0,0,0,0,"",0,False
 1029966,"Granson",3,"NONE",1,0,0,0,1,"",3,False
 1029967,"Sul Oul",3,"NONE",1,0,0,0,1,"",3,False
 1029968,"Granson",3,"NONE",1,0,0,0,1,"",3,False
@@ -30083,7 +30083,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030079,"Sanson",3,"NONE",1,0,0,0,1,"",3,False
 1030080,"Pukno Poki",3,"NONE",1,0,0,1,1,"",3,False
 1030081,"Sanson",3,"NONE",1,0,0,0,1,"",3,False
-1030082,"Guydelot",3,"NONE",1,0,0,0,1,"",3,False
+1030082,"",0,"",0,0,0,0,0,"",0,False
 1030083,"jung[a] Barde",8,"jung[a] Barden",1,0,1,0,0,"",4,False
 1030084,"jung[a] Barde",8,"jung[a] Barden",1,0,1,0,0,"",4,False
 1030085,"",0,"",0,0,1,0,0,"",5,False
@@ -30091,42 +30091,42 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030087,"Lunnie",3,"NONE",1,0,0,1,1,"",3,False
 1030088,"Patrounade",3,"NONE",1,0,0,0,1,"",3,False
 1030089,"Godeheard",3,"NONE",1,0,0,0,1,"",3,False
-1030090,"",0,"",0,0,0,0,0,"",0,False
-1030091,"",0,"",0,0,0,0,0,"",0,False
-1030092,"",0,"",0,0,0,0,0,"",0,False
-1030093,"",0,"",0,0,0,0,0,"",0,False
-1030094,"",0,"",0,0,0,0,0,"",0,False
-1030095,"",0,"",0,0,0,0,0,"",0,False
-1030096,"",0,"",0,0,0,0,0,"",0,False
-1030097,"",0,"",0,0,0,0,0,"",0,False
-1030098,"",0,"",0,0,0,0,0,"",0,False
-1030099,"",0,"",0,0,0,0,0,"",0,False
-1030100,"",0,"",0,0,0,0,0,"",0,False
-1030101,"",0,"",0,0,0,0,0,"",0,False
-1030102,"",0,"",0,0,0,0,0,"",0,False
-1030103,"",0,"",0,0,0,0,0,"",0,False
-1030104,"",0,"",0,0,0,0,0,"",0,False
-1030105,"",0,"",0,0,0,0,0,"",0,False
-1030106,"",0,"",0,0,0,0,0,"",0,False
-1030107,"",0,"",0,0,0,0,0,"",0,False
-1030108,"",0,"",0,0,0,0,0,"",0,False
-1030109,"",0,"",0,0,0,0,0,"",0,False
-1030110,"",0,"",0,0,0,0,0,"",0,False
-1030111,"",0,"",0,0,0,0,0,"",0,False
-1030112,"",0,"",0,0,0,0,0,"",0,False
-1030113,"",0,"",0,0,0,0,0,"",0,False
-1030114,"",0,"",0,0,0,0,0,"",0,False
-1030115,"",0,"",0,0,0,0,0,"",0,False
-1030116,"",0,"",0,0,0,0,0,"",0,False
-1030117,"",0,"",0,0,0,0,0,"",0,False
-1030118,"",0,"",0,0,0,0,0,"",0,False
-1030119,"",0,"",0,0,0,0,0,"",0,False
-1030120,"",0,"",0,0,0,0,0,"",0,False
-1030121,"",0,"",0,0,0,0,0,"",0,False
-1030122,"",0,"",0,0,0,0,0,"",0,False
-1030123,"",0,"",0,0,0,0,0,"",0,False
-1030124,"",0,"",0,0,0,0,0,"",0,False
-1030125,"",0,"",0,0,0,0,0,"",0,False
+1030090,"besorgt[a] Stadtwache",3,"besorgt[a] Stadtwachen",1,0,1,1,0,"",3,False
+1030091,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030092,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030093,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030094,"",0,"NONE",1,0,0,0,1,"",5,False
+1030095,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030096,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030097,"",0,"NONE",1,0,0,0,1,"",5,True
+1030098,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030099,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030100,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030101,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030102,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030103,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030104,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030105,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030106,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030107,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030108,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030109,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030110,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030111,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030112,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030113,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030114,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030115,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030116,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030117,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030118,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030119,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1030120,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030121,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030122,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030123,"Ghul Gul",3,"NONE",1,0,0,0,1,"Eden-Relikte",3,True
+1030124,"Yhal Yal",3,"NONE",1,0,0,0,1,"Eden-Relikte",3,True
+1030125,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
 1030126,"Lue-Reeq",3,"NONE",1,0,0,0,1,"",3,False
 1030127,"Lue-Reeq",3,"NONE",1,0,0,0,1,"",3,False
 1030128,"Lue-Reeq",3,"NONE",1,0,0,0,1,"",4,False
@@ -30193,7 +30193,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030189,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
 1030190,"Thoarich",3,"NONE",1,0,0,0,1,"",3,False
 1030191,"anmutig[a] Frei[a]",3,"anmutig[a] Frei[a]",1,0,1,1,0,"",3,False
-1030192,"kräftig[a] Arbeitend[a]",4,"kräftig[a] Arbeitend[a]",2,0,1,0,0,"",3,False
+1030192,"kräftig[a] Arbeitend[a]",3,"kräftig[a] Arbeitend[a]",1,0,1,0,0,"",3,False
 1030193,"elegant[a] Edelmann",2,"elegant[a] Edelmänner",2,0,1,0,0,"",3,False
 1030194,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
 1030195,"panisch[a] Privilegiert[a]",3,"panisch[a] Privilegiert[a]",1,0,1,0,0,"",3,False
@@ -30247,7 +30247,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030243,"Rhon Ron",3,"NONE",1,0,0,0,1,"",3,False
 1030244,"Kai-Shirr",3,"NONE",1,0,0,0,1,"",3,False
 1030245,"fürsorglich[a] Pflegerin",3,"fürsorglich[a] Pflegerinnen",1,0,1,1,0,"",3,False
-1030246,"kräftig[a] Arbeitend[a]",4,"kräftig[a] Arbeitend[a]",2,0,1,0,0,"",3,False
+1030246,"kräftig[a] Arbeitend[a]",3,"kräftig[a] Arbeitend[a]",1,0,1,0,0,"",3,False
 1030247,"",0,"",0,0,1,0,0,"",5,False
 1030248,"",0,"",0,0,1,0,0,"",5,False
 1030249,"",0,"",0,0,1,0,0,"",5,False
@@ -30256,7 +30256,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030252,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
 1030253,"Chai-Nuzz",3,"NONE",1,0,0,0,1,"",3,False
 1030254,"Dulia-Chai",3,"NONE",1,0,0,1,1,"",3,False
-1030255,"Soldat[p] der Stadtwache",6,"Soldaten[p] der Stadtwache",1,0,1,0,0,"",3,False
+1030255,"Runar",3,"NONE",1,0,0,0,1,"",3,False
 1030256,"Forscher[p] aus Crystarium",4,"Forscher[p] aus Crystarium",1,0,1,0,0,"",3,False
 1030257,"Alchemist[p] aus Crystarium",6,"Alchemisten[p] aus Crystarium",1,0,1,0,0,"",3,False
 1030258,"Amaro-Reiter",4,"Amaro-Reiter",2,0,1,0,0,"",3,False
@@ -30321,7 +30321,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030317,"",0,"",0,0,1,0,0,"",5,False
 1030318,"",0,"",0,0,1,0,0,"",5,False
 1030319,"",0,"",0,0,1,0,0,"",5,False
-1030320,"Soldat",6,"Soldaten",1,0,1,0,0,"Wache",3,False
+1030320,"Soldat[p] der Stadtwache",6,"Soldaten[p] der Stadtwache",1,0,1,0,0,"",3,False
 1030321,"",0,"",0,0,1,0,0,"",5,False
 1030322,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
 1030323,"Alisaie",3,"Alisaie",1,0,0,1,1,"",3,False
@@ -30388,10 +30388,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030384,"Thol Tol",3,"NONE",1,0,0,0,1,"",3,False
 1030385,"Mhul Mul",3,"NONE",1,0,0,0,1,"",3,False
 1030386,"Halric",3,"NONE",1,0,0,0,1,"",3,False
-1030387,"",0,"",0,0,0,0,0,"",0,False
-1030388,"",0,"",0,0,0,0,0,"",0,False
-1030389,"",0,"",0,0,0,0,0,"",0,False
-1030390,"",0,"",0,0,0,0,0,"",0,False
+1030387,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
+1030388,"",0,"",0,0,1,0,0,"",2,False
+1030389,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
+1030390,"Lewrey",3,"NONE",1,0,0,0,1,"",3,False
 1030391,"Ghun Gun",3,"NONE",1,0,0,0,1,"",3,False
 1030392,"Ghun Gun",3,"NONE",1,0,0,0,1,"",3,False
 1030393,"Hume-Händler",4,"Hume-Händler",2,0,1,0,0,"",3,False
@@ -30456,9 +30456,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030452,"Ondo-Lederer",4,"Ondo-Lederer",2,0,1,0,0,"",3,False
 1030453,"",0,"",0,0,0,0,0,"",0,False
 1030454,"",0,"",0,0,1,0,0,"",4,False
-1030455,"Herr[p] des Bienenstocks",8,"Herr[p] des Bienenstocks",1,0,1,0,0,"",3,False
+1030455,"Direktor[p] des Bienenstocks",4,"Direktoren[p] des Bienenstocks",1,0,1,0,0,"",3,False
 1030456,"Solina",3,"NONE",1,0,0,1,1,"",3,False
-1030457,"Herr[p] des Bienenstocks",8,"Herr[p] des Bienenstocks",1,0,1,0,0,"",3,False
+1030457,"Direktor[p] des Bienenstocks",4,"Direktoren[p] des Bienenstocks",1,0,1,0,0,"",3,False
 1030458,"blauhaarig[a] Jungspund",4,"blauhaarig[a] Jungspunde",2,0,1,0,0,"",3,False
 1030459,"",0,"",0,0,1,0,0,"",5,False
 1030460,"",0,"",0,0,1,0,0,"",5,False
@@ -30534,7 +30534,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030530,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
 1030531,"Y'shtola",3,"NONE",1,0,0,1,1,"",3,False
 1030532,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
-1030533,"Soldat",6,"Soldaten",1,0,1,0,0,"Wache",3,False
+1030533,"Soldat[p] der Stadtwache",6,"Soldaten[p] der Stadtwache",1,0,1,0,0,"Wache",3,False
 1030534,"Alisaie",3,"Alisaie",1,0,0,1,1,"",3,False
 1030535,"Sul Uin",3,"NONE",1,0,0,1,1,"",3,False
 1030536,"",0,"",0,0,1,0,0,"",6,False
@@ -30552,7 +30552,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030548,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
 1030549,"Y'shtola",3,"NONE",1,0,0,1,1,"",3,False
 1030550,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
-1030551,"offenherzig[a] Amaurotaner",4,"offenherzig[a] Amaurotaner",2,0,1,0,0,"",3,False
+1030551,"Amaurotaner[p] im Palast der Rede",4,"Amaurotaner[p] im Palast der Rede",2,0,1,0,0,"",3,False
 1030552,"redselig[a] Amaurotaner",4,"redselig[a] Amaurotaner",2,0,1,0,0,"",3,False
 1030553,"gesprächig[a] Amaurotaner",4,"gesprächig[a] Amaurotaner",2,0,1,0,0,"",3,False
 1030554,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
@@ -30612,7 +30612,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030608,"",0,"",0,0,1,0,0,"",5,False
 1030609,"",0,"",0,0,1,0,0,"",5,False
 1030610,"Quartierverwalter",4,"Quartierverwalter",2,0,1,0,0,"Unterkunft",3,False
-1030611,"",0,"",0,0,0,0,0,"",0,False
+1030611,"Schuhschnabel",4,"Schuhschnäbel",2,0,1,0,0,"",3,False
 1030612,"",0,"",0,0,1,0,0,"",5,False
 1030613,"",0,"",0,0,1,0,0,"",5,False
 1030614,"verarmt[a] Mädchen",4,"verarmt[a] Mädchen",1,0,1,2,0,"",3,False
@@ -30876,7 +30876,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030872,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
 1030873,"Alisaie",3,"NONE",1,0,0,1,1,"",3,False
 1030874,"Seto",3,"NONE",1,0,0,0,1,"",3,False
-1030875,"",0,"",0,0,0,0,0,"",0,False
+1030875,"F'lhaminn",3,"NONE",1,0,0,1,1,"",3,False
 1030876,"",0,"",0,0,1,0,0,"",5,False
 1030877,"",0,"",0,0,1,0,0,"",5,False
 1030878,"",0,"",0,0,1,0,0,"",5,False
@@ -30938,7 +30938,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030934,"laufend[a] Malm",4,"laufend[a] Malme",2,0,1,0,0,"",4,False
 1030935,"Kristall<SoftHyphen/>exarch",6,"Kristallexarchen",1,0,1,0,0,"",4,False
 1030936,"Schuhschnabel",4,"Schuhschnäbel",2,0,1,0,0,"",4,False
-1030937,"blauhaarig[a] Mystel",4,"blauhaarig[a] Mystel",2,0,1,0,0,"",4,False
+1030937,"blauhaarig[a] Mystel",3,"blauhaarig[a] Mystel",1,0,1,0,0,"",4,False
 1030938,"Schuhschnabel",4,"Schuhschnäbel",2,0,1,0,0,"",4,False
 1030939,"verdächtig[a] Gestalt",3,"verdächtig[a] Gestalten",1,0,0,1,1,"",4,False
 1030940,"Schuhschnabel",4,"Schuhschnäbel",2,0,1,0,0,"",4,False
@@ -31061,7 +31061,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031057,"Callea",3,"NONE",1,0,0,1,1,"",3,False
 1031058,"Tolas",3,"NONE",1,0,0,0,1,"",3,False
 1031059,"Unteroffizier[p] der Stadtwache",2,"Unteroffiziere[p] der Stadtwache",2,0,1,0,0,"",3,False
-1031060,"Rekrut[p] der Stadtwache",1,"Rekruten[p] der Stadtwache",1,0,1,0,0,"",3,False
+1031060,"Rekrut[p] der Stadtwache",6,"Rekruten[p] der Stadtwache",1,0,1,0,0,"",3,False
 1031061,"Callea",3,"NONE",1,0,0,1,1,"",3,False
 1031062,"Mauwyl",3,"NONE",1,0,0,0,1,"",3,False
 1031063,"Knem Cheleim-In",3,"NONE",1,0,0,0,1,"",4,False
@@ -31119,8 +31119,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031115,"Bethwren",3,"NONE",1,0,0,1,1,"",3,False
 1031116,"fahrend[a] Mordh-Händler",4,"fahrend[a] Mordh-Händler",2,0,1,0,0,"",3,False
 1031117,"Lethargiker",4,"Lethargiker",2,0,1,0,0,"",3,False
-1031118,"",0,"",0,0,0,0,0,"",0,False
-1031119,"lehrend[a] Gärtnerin",3,"lehrend[a] Gärtnerinnen",1,0,1,1,0,"",3,False
+1031118,"Lereberd",3,"Lereberd",1,0,0,0,1,"Transport",3,True
+1031119,"lehrend[a] Obstbäuerin",3,"lehrend[a] Obstbäuerinnen",1,0,1,1,0,"",3,False
 1031120,"Larasmud",3,"NONE",1,0,0,0,1,"",3,False
 1031121,"Joycefort",3,"NONE",1,0,0,0,1,"",3,False
 1031122,"Sasha-Rae",3,"NONE",1,0,0,1,1,"",3,False
@@ -31181,8 +31181,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031177,"",0,"",0,0,1,0,0,"",5,False
 1031178,"",0,"",0,0,1,0,0,"",5,False
 1031179,"Thon An",3,"NONE",1,0,0,0,1,"",3,False
-1031180,"",0,"",0,0,0,0,0,"",0,False
-1031181,"",0,"",0,0,0,0,0,"",0,False
+1031180,"Thancred",3,"NONE",1,0,0,0,1,"",3,False
+1031181,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
 1031182,"",0,"",0,0,1,0,0,"",5,False
 1031183,"",0,"",0,0,1,0,0,"",5,False
 1031184,"",0,"",0,0,1,0,0,"",5,False
@@ -31193,38 +31193,38 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031189,"",0,"",0,0,1,0,0,"",5,False
 1031190,"aufgebracht[a] Rüpel",4,"aufgebracht[a] Rüpel",2,0,1,0,0,"",3,False
 1031191,"jung[a] Priester",4,"jung[a] Priester",2,0,1,0,0,"",3,False
-1031192,"",0,"",0,0,0,0,0,"",0,False
-1031193,"",0,"",0,0,0,0,0,"",0,False
-1031194,"",0,"",0,0,0,0,0,"",0,False
-1031195,"",0,"",0,0,0,0,0,"",0,False
-1031196,"",0,"",0,0,0,0,0,"",0,False
-1031197,"",0,"",0,0,0,0,0,"",0,False
-1031198,"",0,"",0,0,0,0,0,"",0,False
-1031199,"",0,"",0,0,0,0,0,"",0,False
-1031200,"",0,"",0,0,0,0,0,"",0,False
-1031201,"",0,"",0,0,0,0,0,"",0,False
-1031202,"",0,"",0,0,0,0,0,"",0,False
+1031192,"P'obyano",3,"NONE",1,0,0,1,1,"Komitee-Kaskadeurin",3,False
+1031193,"Bran",3,"NONE",1,0,0,0,1,"",3,False
+1031194,"Bran",3,"NONE",1,0,0,0,1,"",3,False
+1031195,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1031196,"Festverkäuferin",3,"Festverkäuferinnen",1,0,1,1,0,"",3,True
+1031197,"",0,"",0,0,1,0,0,"",5,False
+1031198,"",0,"",0,0,1,0,0,"",5,False
+1031199,"",0,"",0,0,1,0,0,"",5,False
+1031200,"",0,"",0,0,1,0,0,"",5,False
+1031201,"",0,"",0,0,1,0,0,"",5,False
+1031202,"",0,"",0,0,1,0,0,"",5,False
 1031203,"An Sul",3,"NONE",1,0,0,0,1,"",3,False
 1031204,"Iala Jul",3,"NONE",1,0,0,0,1,"",3,False
 1031205,"",0,"",0,0,1,0,0,"",5,False
 1031206,"Gyuf Uin",3,"NONE",1,0,0,0,1,"",3,False
 1031207,"",0,"",0,0,1,0,0,"",6,False
 1031208,"Alka Zolka",3,"NONE",1,0,0,0,1,"",3,False
-1031209,"",0,"",0,0,0,0,0,"",0,False
-1031210,"",0,"",0,0,0,0,0,"",0,False
-1031211,"",0,"",0,0,0,0,0,"",0,False
+1031209,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"",3,True
+1031210,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"",3,True
+1031211,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"",3,True
 1031212,"Kommandant[p] der Stadtwache",6,"Kommandanten[p] der Stadtwache",1,0,1,0,0,"",3,False
 1031213,"Späher[p] der Stadtwache",4,"Späher[p] der Stadtwache",2,0,1,0,0,"",3,False
 1031214,"Amaro[p] des Spähers",4,"Amaro[p] des Spähers",1,0,1,0,0,"",3,False
 1031215,"",0,"",0,0,1,0,0,"",5,False
 1031216,"Amaro[p] des Spähers",4,"Amaro[p] des Spähers",1,0,1,0,0,"",3,False
 1031217,"Lobb",3,"NONE",1,0,0,0,1,"",3,False
-1031218,"",0,"",0,0,0,0,0,"",0,False
-1031219,"",0,"",0,0,0,0,0,"",0,False
-1031220,"",0,"",0,0,0,0,0,"",0,False
-1031221,"",0,"",0,0,0,0,0,"",0,False
-1031222,"",0,"",0,0,0,0,0,"",0,False
-1031223,"",0,"",0,0,0,0,0,"",0,False
+1031218,"",0,"",0,0,1,0,0,"",5,False
+1031219,"",0,"",0,0,1,0,0,"",5,False
+1031220,"",0,"",0,0,1,0,0,"",5,False
+1031221,"",0,"",0,0,1,0,0,"",5,False
+1031222,"",0,"",0,0,1,0,0,"",5,False
+1031223,"",0,"",0,0,1,0,0,"",5,False
 1031224,"bierernst[a] Historiker",4,"bierernst[a] Historiker",2,0,1,0,0,"",3,False
 1031225,"bierernst[a] Historiker",4,"bierernst[a] Historiker",2,0,1,0,0,"",3,False
 1031226,"bierernst[a] Historiker",4,"bierernst[a] Historiker",2,0,1,0,0,"",3,False
@@ -31413,7 +31413,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031409,"",0,"",0,0,1,0,0,"",5,False
 1031410,"",0,"",0,0,1,0,0,"",6,False
 1031411,"",0,"",0,0,1,0,0,"",6,False
-1031412,"",0,"",0,0,0,0,0,"",0,False
+1031412,"Lewrey",3,"NONE",1,0,0,0,1,"",4,False
 1031413,"Mädchen[p] mit Pferdeschwänzen",4,"Mädchen[p] mit Pferdeschwänzen",1,0,1,2,0,"",3,False
 1031414,"Mädchen[p] mit Pferdeschwanz",4,"Mädchen[p] mit Pferdeschwanz",1,0,1,2,0,"",3,False
 1031415,"Mädchen[p] ohne Pferdeschwanz",4,"Mädchen[p] ohne Pferdeschwanz",1,0,1,2,0,"",3,False
@@ -31468,19 +31468,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031464,"fröhlich[a] Fischer",4,"fröhlich[a] Fischer",2,0,1,0,0,"Fischhändler",3,True
 1031465,"Feuermondreigen-Verkäufer",4,"Feuermondreigen-Verkäufer",2,0,1,0,0,"Festbedarf",3,True
 1031466,"Apothecarius",3,"Apothecarii",1,0,1,0,0,"",3,False
-1031467,"Rekrut[p] der Stadtwache",1,"Rekruten[p] der Stadtwache",1,0,1,0,0,"",3,False
+1031467,"Rekrut[p] der Stadtwache",6,"Rekruten[p] der Stadtwache",1,0,1,0,0,"",3,False
 1031468,"",0,"",0,0,0,0,0,"",0,False
 1031469,"",0,"",0,0,1,0,0,"",5,False
 1031470,"",0,"",0,0,1,0,0,"",4,False
 1031471,"",0,"",0,0,1,0,0,"",4,False
 1031472,"",0,"",0,0,1,0,0,"",4,False
-1031473,"",0,"",0,0,0,0,0,"",0,False
+1031473,"Naoki Yoshida",3,"NONE",1,0,0,0,1,"",4,False
 1031474,"",0,"",0,0,1,0,0,"",4,False
 1031475,"",0,"",0,0,1,0,0,"",4,False
 1031476,"",0,"",0,0,1,0,0,"",4,False
-1031477,"Geschichte[p] des Königreichs Voeburt",3,"Geschichten[p] des Königreichs Voeburt",1,0,1,1,0,"",3,False
-1031478,"Legende[p] des Schattenkönigs",3,"Legenden[p] des Schattenkönigs",1,0,1,1,0,"",3,False
-1031479,"Grundlagenwissen[p] über Runen",4,"Grundlagenwissen[p] über Runen",1,0,1,2,0,"",3,False
+1031477,"Geschichte[p] des Königreichs Voeburt",3,"Geschichten[p] des Königreichs Voeburt",1,0,0,1,1,"",3,False
+1031478,"Die Legende[p] des Schattenkönigs",3,"Die Legenden[p] des Schattenkönigs",1,0,0,1,1,"",3,False
+1031479,"Grundlagenwissen[p] über Runen",3,"Grundlagenwissen[p] über Runen",1,0,0,2,1,"",3,False
 1031480,"",0,"",0,0,1,0,0,"",5,False
 1031481,"",0,"",0,0,1,0,0,"",5,False
 1031482,"",0,"",0,0,1,0,0,"",5,False
@@ -31493,7 +31493,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031489,"",0,"",0,0,1,0,0,"",5,False
 1031490,"",0,"",0,0,1,0,0,"",5,False
 1031491,"",0,"",0,0,1,0,0,"",5,False
-1031492,"",0,"",0,0,0,0,0,"",0,False
+1031492,"Bran",3,"NONE",1,0,0,0,1,"",3,False
 1031493,"Guydelot",3,"NONE",1,0,0,0,1,"",3,False
 1031494,"Jehantel",3,"NONE",1,0,0,0,1,"",3,False
 1031495,"",0,"",0,0,1,0,0,"",5,False
@@ -31512,12 +31512,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031508,"",0,"",0,0,1,0,0,"",5,False
 1031509,"",0,"",0,0,1,0,0,"",5,False
 1031510,"Zun-Amarozüchter",4,"Zun-Amarozüchter",2,0,1,0,0,"",3,False
-1031511,"",0,"",0,0,0,0,0,"",0,False
-1031512,"",0,"",0,0,0,0,0,"",0,False
-1031513,"",0,"",0,0,0,0,0,"",0,False
-1031514,"",0,"",0,0,0,0,0,"",0,False
-1031515,"",0,"",0,0,0,0,0,"",0,False
-1031516,"",0,"",0,0,0,0,0,"",0,False
+1031511,"",0,"",0,0,1,0,0,"",4,False
+1031512,"",0,"",0,0,1,0,0,"",4,False
+1031513,"",0,"",0,0,1,0,0,"",4,False
+1031514,"",0,"",0,0,1,0,0,"",4,False
+1031515,"",0,"",0,0,1,0,0,"",4,False
+1031516,"",0,"",0,0,1,0,0,"",4,False
 1031517,"",0,"",0,0,1,0,0,"",5,False
 1031518,"ernst[a] Bauer",8,"ernst[a] Bauern",1,0,1,0,0,"",3,False
 1031519,"",0,"",0,0,1,0,0,"",5,False
@@ -31540,7 +31540,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031536,"still[a] Viis",3,"still[a] Viis",1,0,1,1,0,"",3,False
 1031537,"Gesandt[a] der Aben<SoftHyphen/>teurer<SoftHyphen/>gilde",3,"Gesandt[a] der Abenteurergilde",1,0,1,0,0,"",3,False
 1031538,"Impresario",4,"Impresarios",1,0,1,0,0,"",3,False
-1031539,"Circus-Ahriman",4,"Circus-Ahrimane",2,0,1,0,0,"",3,False
+1031539,"Circus-Ahriman",4,"Circus-Ahriman",1,0,1,0,0,"",3,False
 1031540,"",0,"",0,0,1,0,0,"",5,False
 1031541,"dubios[a] Bändiger",4,"dubios[a] Bändiger",2,0,1,0,0,"",3,False
 1031542,"",0,"",0,0,1,0,0,"",5,False
@@ -31552,7 +31552,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031548,"verführerisch[a] Gauklerin",3,"verführerisch[a] Gauklerinnen",1,0,1,1,0,"",3,False
 1031549,"Kostümparty-Concierge",3,"Kostümparty-Concierges",1,0,1,0,0,"",3,False
 1031550,"dubios[a] Bändiger",4,"dubios[a] Bändiger",2,0,1,0,0,"",4,False
-1031551,"Circus-Ahriman",4,"Circus-Ahrimane",2,0,1,0,0,"",4,False
+1031551,"Circus-Ahriman",4,"Circus-Ahriman",1,0,1,0,0,"",4,False
 1031552,"verführerisch[a] Händlerin",3,"verführerisch[a] Händlerinnen",1,0,1,1,0,"",3,True
 1031553,"Zirkusausruferin",3,"Zirkusausruferinnen",1,0,1,1,0,"",3,True
 1031554,"Zirkusausruferin",3,"Zirkusausruferinnen",1,0,1,1,0,"",3,True
@@ -31568,15 +31568,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031564,"reisend[a] Forscher",4,"reisend[a] Forscher",2,0,1,0,0,"",3,False
 1031565,"",0,"",0,0,1,0,0,"",5,False
 1031566,"Ondo-Fischer",4,"Ondo-Fischer",2,0,1,0,0,"",3,False
-1031567,"",0,"",0,0,0,0,0,"",0,False
-1031568,"",0,"",0,0,0,0,0,"",0,False
-1031569,"",0,"",0,0,0,0,0,"",0,False
-1031570,"",0,"",0,0,0,0,0,"",0,False
-1031571,"",0,"",0,0,0,0,0,"",0,False
-1031572,"",0,"",0,0,0,0,0,"",0,False
-1031573,"",0,"",0,0,0,0,0,"",0,False
-1031574,"",0,"",0,0,0,0,0,"",0,False
-1031575,"",0,"",0,0,0,0,0,"",0,False
+1031567,"",0,"",0,0,1,0,0,"",4,False
+1031568,"",0,"",0,0,1,0,0,"",4,False
+1031569,"",0,"",0,0,1,0,0,"",4,False
+1031570,"",0,"",0,0,1,0,0,"",4,False
+1031571,"",0,"",0,0,1,0,0,"",4,False
+1031572,"",0,"",0,0,1,0,0,"",4,False
+1031573,"",0,"",0,0,1,0,0,"",4,False
+1031574,"",0,"",0,0,1,0,0,"",4,False
+1031575,"",0,"",0,0,1,0,0,"",4,False
 1031576,"visionär[a] Ondo",4,"visionär[a] Ondo",1,0,1,0,0,"",3,False
 1031577,"tratschend[a] Zwerg",4,"tratschend[a] Zwerge",2,0,1,0,0,"",3,False
 1031578,"Stollenwächter",4,"Stollenwächter",2,0,1,0,0,"",3,False
@@ -31646,20 +31646,20 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031642,"",0,"",0,0,1,0,0,"",5,True
 1031643,"",0,"",0,0,1,0,0,"",5,False
 1031644,"",0,"",0,0,1,0,0,"",5,False
-1031645,"",0,"",0,0,0,0,0,"",0,False
-1031646,"",0,"",0,0,0,0,0,"",0,False
-1031647,"",0,"",0,0,0,0,0,"",0,False
-1031648,"",0,"",0,0,0,0,0,"",0,False
-1031649,"",0,"",0,0,0,0,0,"",0,False
-1031650,"",0,"",0,0,0,0,0,"",0,False
+1031645,"",0,"",0,0,1,0,0,"",4,False
+1031646,"",0,"",0,0,1,0,0,"",4,False
+1031647,"",0,"",0,0,1,0,0,"",4,False
+1031648,"",0,"",0,0,1,0,0,"",4,False
+1031649,"",0,"",0,0,1,0,0,"",4,False
+1031650,"",0,"",0,0,1,0,0,"",4,False
 1031651,"Lue-Reeqs Vater",3,"NONE",1,0,0,0,1,"",3,False
-1031652,"",0,"",0,0,0,0,0,"",0,False
+1031652,"",0,"",0,0,1,0,0,"",5,False
 1031653,"Kristall<SoftHyphen/>exarch",6,"Kristallexarchen",1,0,1,0,0,"",3,False
 1031654,"",0,"",0,0,1,0,0,"",5,False
 1031655,"",0,"",0,0,1,0,0,"",5,False
-1031656,"",0,"",0,0,0,0,0,"",0,False
-1031657,"",0,"",0,0,0,0,0,"",0,False
-1031658,"",0,"",0,0,0,0,0,"",0,False
+1031656,"",0,"",0,0,1,0,0,"",4,False
+1031657,"",0,"",0,0,1,0,0,"",4,False
+1031658,"",0,"",0,0,1,0,0,"",4,False
 1031659,"",0,"",0,0,1,0,0,"",4,False
 1031660,"gelassen[a] Ingenieur",4,"gelassen[a] Ingenieure",2,0,1,0,0,"Transport",3,True
 1031661,"",0,"",0,0,1,0,0,"",5,False
@@ -31678,3 +31678,827 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1031674,"",0,"",0,0,0,0,0,"",0,False
 1031675,"",0,"",0,0,0,0,0,"",0,False
 1031676,"",0,"",0,0,0,0,0,"",0,False
+1031677,"",0,"",0,0,0,0,0,"",0,False
+1031678,"",0,"",0,0,0,0,0,"",0,False
+1031679,"",0,"",0,0,0,0,0,"",0,False
+1031680,"",0,"",0,0,0,0,0,"",0,False
+1031681,"",0,"",0,0,0,0,0,"",0,False
+1031682,"",0,"",0,0,0,0,0,"",0,False
+1031683,"",0,"",0,0,0,0,0,"",0,False
+1031684,"",0,"",0,0,0,0,0,"",0,False
+1031685,"",0,"",0,0,0,0,0,"",0,False
+1031686,"",0,"",0,0,0,0,0,"",0,False
+1031687,"",0,"",0,0,0,0,0,"",0,False
+1031688,"",0,"",0,0,0,0,0,"",0,False
+1031689,"",0,"",0,0,0,0,0,"",0,False
+1031690,"",0,"",0,0,0,0,0,"",0,False
+1031691,"",0,"",0,0,0,0,0,"",0,False
+1031692,"",0,"",0,0,0,0,0,"",0,False
+1031693,"",0,"",0,0,0,0,0,"",0,False
+1031694,"",0,"",0,0,0,0,0,"",0,False
+1031695,"",0,"",0,0,0,0,0,"",0,False
+1031696,"",0,"",0,0,0,0,0,"",0,False
+1031697,"",0,"",0,0,0,0,0,"",0,False
+1031698,"",0,"",0,0,0,0,0,"",0,False
+1031699,"",0,"",0,0,0,0,0,"",0,False
+1031700,"",0,"",0,0,0,0,0,"",0,False
+1031701,"",0,"",0,0,0,0,0,"",0,False
+1031702,"",0,"",0,0,0,0,0,"",0,False
+1031703,"",0,"",0,0,0,0,0,"",0,False
+1031704,"",0,"",0,0,0,0,0,"",0,False
+1031705,"",0,"",0,0,0,0,0,"",0,False
+1031706,"",0,"",0,0,1,0,0,"",5,False
+1031707,"",0,"",0,0,1,0,0,"",5,False
+1031708,"",0,"",0,0,1,0,0,"",5,False
+1031709,"",0,"",0,0,1,0,0,"",6,False
+1031710,"",0,"",0,0,1,0,0,"",6,False
+1031711,"",0,"",0,0,1,0,0,"",6,False
+1031712,"",0,"",0,0,1,0,0,"",6,False
+1031713,"",0,"",0,0,1,0,0,"",5,False
+1031714,"",0,"",0,0,1,0,0,"",5,False
+1031715,"",0,"",0,0,1,0,0,"",5,False
+1031716,"",0,"",0,0,1,0,0,"",5,False
+1031717,"",0,"",0,0,1,0,0,"",6,False
+1031718,"",0,"",0,0,1,0,0,"",6,False
+1031719,"",0,"",0,0,1,0,0,"",6,False
+1031720,"",0,"",0,0,1,0,0,"",6,False
+1031721,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031722,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031723,"Alisaie",3,"Alisaie",1,0,0,1,1,"",3,False
+1031724,"Urianger",3,"Urianger",1,0,0,0,1,"",3,False
+1031725,"Y'shtola",3,"Y'shtola",1,0,0,1,1,"",3,False
+1031726,"Kristall<SoftHyphen/>exarch",6,"Kristallexarchen",1,0,0,0,1,"",3,False
+1031727,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031728,"Alisaie",3,"Alisaie",1,0,0,1,1,"",3,False
+1031729,"Y'shtola",3,"Y'shtola",1,0,0,1,1,"",3,False
+1031730,"",0,"",0,0,1,0,0,"",5,False
+1031731,"Beq Lugg",3,"Beq Lugg",1,0,0,0,1,"",3,False
+1031732,"Beq Lugg",3,"Beq Lugg",1,0,0,0,1,"",3,False
+1031733,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031734,"Alisaie",3,"Alisaie",1,0,0,1,1,"",3,False
+1031735,"",0,"",0,0,1,0,0,"",5,False
+1031736,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031737,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031738,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031739,"Dulia-Chai",3,"Dulia-Chai",1,0,0,1,1,"",3,False
+1031740,"Alisaie",3,"Alisaie",1,0,0,1,1,"",3,False
+1031741,"",0,"",0,0,1,0,0,"",5,False
+1031742,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031743,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031744,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031745,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031746,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031747,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031748,"Wrenden",3,"Wrenden",1,0,0,0,1,"",3,False
+1031749,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031750,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031751,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031752,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031753,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1031754,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031755,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031756,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1031757,"Wrenden",3,"Wrenden",1,0,0,0,1,"",3,False
+1031758,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031759,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031760,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1031761,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1031762,"Wrenden",3,"Wrenden",1,0,0,0,1,"",3,False
+1031763,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031764,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031765,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1031766,"Wrenden",3,"Wrenden",1,0,0,0,1,"",3,False
+1031767,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031768,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031769,"Wrenden",3,"Wrenden",1,0,0,0,1,"",3,False
+1031770,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1031771,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031772,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031773,"",0,"",0,0,1,0,0,"",5,False
+1031774,"",0,"",0,0,1,0,0,"",5,False
+1031775,"",0,"",0,0,1,0,0,"",5,False
+1031776,"Dulia-Chai",3,"Dulia-Chai",1,0,0,1,1,"",3,False
+1031777,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031778,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1031779,"Dulia-Chai",3,"Dulia-Chai",1,0,0,1,1,"",3,False
+1031780,"Wrenden",3,"Wrenden",1,0,0,0,1,"",3,False
+1031781,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,False
+1031782,"Y'shtola",3,"Y'shtola",1,0,0,1,1,"",3,False
+1031783,"Krile",3,"Krile",1,0,0,1,1,"",3,False
+1031784,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1031785,"Zeichen geben",3,"Zeichen geben",1,0,0,0,1,"",4,False
+1031786,"Zeichen geben",3,"Zeichen geben",1,0,0,0,1,"",4,False
+1031787,"",0,"",0,0,1,0,0,"",4,False
+1031788,"",0,"",0,0,1,0,0,"",4,False
+1031789,"Zeichen geben",3,"Zeichen geben",1,0,0,0,1,"",4,False
+1031790,"Zeichen geben",3,"Zeichen geben",1,0,0,0,1,"",4,False
+1031791,"",0,"",0,0,1,0,0,"",4,False
+1031792,"Magnus",3,"Magnus",1,0,0,0,1,"",3,False
+1031793,"2P",3,"2P",1,0,0,1,1,"",4,False
+1031794,"9S",3,"9S",1,0,0,0,1,"",4,False
+1031795,"Maschinenwesen",4,"Maschinenwesen",1,0,1,2,0,"",4,False
+1031796,"Yojinbos Knappe",8,"Yojinbos Knappen",1,0,0,0,1,"GATE",3,False
+1031797,"Alisaie",3,"Alisaie",1,0,0,1,1,"",3,False
+1031798,"",0,"",0,0,1,0,0,"",5,False
+1031799,"",0,"",0,0,1,0,0,"",5,False
+1031800,"",0,"",0,0,1,0,0,"",5,False
+1031801,"Kai-Shirr",3,"Kai-Shirr",1,0,0,0,1,"",3,True
+1031802,"Bosta-Zia",3,"NONE",1,0,0,1,1,"",3,False
+1031803,"",0,"",0,0,1,0,0,"",6,False
+1031804,"2P",3,"2P",1,0,0,1,1,"",4,False
+1031805,"9S",3,"9S",1,0,0,0,1,"",4,False
+1031806,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031807,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031808,"Thon Sul",3,"NONE",1,0,0,1,1,"Traumführerin",3,False
+1031809,"Uin Nee",3,"NONE",1,0,0,1,1,"",3,True
+1031810,"Jul Oul",3,"NONE",1,0,0,1,1,"Stammeshändlerin",3,True
+1031811,"Lugg Aenc",3,"NONE",1,0,0,0,1,"",3,False
+1031812,"",0,"",0,0,1,0,0,"",5,False
+1031813,"",0,"",0,0,1,0,0,"",4,False
+1031814,"",0,"",0,0,1,0,0,"",4,False
+1031815,"",0,"",0,0,1,0,0,"",4,False
+1031816,"",0,"",0,0,1,0,0,"",4,False
+1031817,"",0,"",0,0,0,0,0,"",0,False
+1031818,"",0,"",0,0,0,0,0,"",0,False
+1031819,"",0,"",0,0,0,0,0,"",0,False
+1031820,"",0,"",0,0,0,0,0,"",0,False
+1031821,"Frau[p] des Vorarbeiters",3,"Frauen[p] des Vorarbeiters",1,0,1,1,0,"",3,False
+1031822,"stolz[a] Minenarbeiter",4,"stolz[a] Minenarbeiter",2,0,1,0,0,"",3,False
+1031823,"scharfäugig[a] Minenarbeiter",4,"scharfäugig[a] Minenarbeiter",2,0,1,0,0,"",3,False
+1031824,"",0,"",0,0,1,0,0,"",4,False
+1031825,"",0,"",0,0,1,0,0,"",5,False
+1031826,"jung[a] Zwergin",3,"jung[a] Zwerginnen",1,0,1,1,0,"",3,False
+1031827,"Stollenwächter",4,"Stollenwächter",2,0,1,0,0,"",3,False
+1031828,"Stollenwächter",4,"Stollenwächter",2,0,1,0,0,"",3,False
+1031829,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1031830,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1031831,"",0,"",0,0,1,0,0,"",5,False
+1031832,"",0,"",0,0,1,0,0,"",5,False
+1031833,"",0,"",0,0,1,0,0,"",4,False
+1031834,"",0,"",0,0,1,0,0,"",4,False
+1031835,"2P",3,"NONE",1,0,0,1,1,"",3,False
+1031836,"2P",3,"NONE",1,0,0,1,1,"",3,False
+1031837,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1031838,"",0,"",0,0,1,0,0,"",5,False
+1031839,"rosarot[a] Pixie",3,"rosarot[a] Pixies",1,0,1,1,0,"",3,False
+1031840,"Hume-Mädchen",4,"Hume-Mädchen",1,0,0,1,1,"",5,False
+1031841,"Mystel-Mädchen",4,"Mystel-Mädchen",1,0,0,1,1,"",5,False
+1031842,"Elf-Junge",5,"Elf-Jungen",2,0,1,0,0,"",5,False
+1031843,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031844,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031845,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031846,"Mädchen[p] aus Grantel",4,"Mädchen[p] aus Grantel",1,0,1,2,0,"",3,False
+1031847,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031848,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031849,"",0,"",0,0,1,0,0,"",5,False
+1031850,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031851,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031852,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031853,"Mädchen[p] aus Grantel",4,"Mädchen[p] aus Grantel",1,0,1,2,0,"",3,False
+1031854,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031855,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031856,"Lugg Aenc",3,"NONE",1,0,0,0,1,"",3,False
+1031857,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031858,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031859,"Mutter[p] aus Werfting",3,"Mütter[p] aus Werfting",2,0,1,1,0,"",3,False
+1031860,"Junge[p] aus Werfting",5,"Jungen[p] aus Werfting",2,0,1,0,0,"",3,False
+1031861,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031862,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031863,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031864,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031865,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031866,"Junge[p] aus Werfting",8,"Jungen[p] aus Werfting",1,0,1,0,0,"",3,False
+1031867,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031868,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031869,"Junge[p] aus Mordh Souq",8,"Jungen[p] aus Mordh Souq",1,0,1,0,0,"",3,False
+1031870,"reisend[a] Blumenhändler",4,"reisend[a] Blumenhändler",2,0,1,0,0,"",3,False
+1031871,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031872,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031873,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031874,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031875,"Junge[p] aus Mordh Souq",8,"Jungen[p] aus Mordh Souq",1,0,1,0,0,"",3,False
+1031876,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031877,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031878,"Mädchen[p] aus Schlangenzweig",4,"Mädchen[p] aus Schlangenzweig",1,0,1,2,0,"",3,False
+1031879,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031880,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031881,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031882,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031883,"Mädchen[p] aus Schlangenzweig",4,"Mädchen[p] aus Schlangenzweig",1,0,1,2,0,"",3,False
+1031884,"",0,"",0,0,0,0,0,"",0,False
+1031885,"",0,"",0,0,0,0,0,"",0,False
+1031886,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1031887,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1031888,"",0,"",0,0,0,0,0,"",0,False
+1031889,"",0,"",0,0,0,0,0,"",0,False
+1031890,"An Lad",3,"NONE",1,0,0,1,1,"",3,False
+1031891,"Thon Sul",3,"NONE",1,0,0,1,1,"Traumführerin",3,True
+1031892,"Thon Sul",3,"NONE",1,0,0,1,1,"Traumführerin",3,True
+1031893,"Thon Sul",3,"NONE",1,0,0,1,1,"Traumführerin",3,True
+1031894,"Amh Garanjy",3,"Amh Garanjy",1,0,0,1,1,"",3,False
+1031895,"fröhlich[a] Mädchen",4,"fröhlich[a] Mädchen",1,0,1,2,0,"",4,False
+1031896,"Vater[p] des Mädchens",4,"Väter[p] des Mädchens",2,0,1,0,0,"",4,False
+1031897,"fröhlich[a] Junge",8,"fröhlich[a] Junge",1,0,1,0,0,"",4,False
+1031898,"Vater[p] des Jungen",4,"Väter[p] des Jungen",2,0,1,0,0,"",4,False
+1031899,"Nalipponcque",3,"Nalipponcque",1,0,0,0,1,"",4,False
+1031900,"zurückhaltend[a] Klein[a] Helferlein",4,"zurückhaltend[a] Klein[a] Helferlein",1,0,1,2,0,"",3,False
+1031901,"überschwänglich[a] Klein[a] Helferlein",4,"überschwänglich[a] Klein[a] Helferlein",1,0,1,2,0,"",3,False
+1031902,"Lartonphe",3,"Lartonphe",1,0,0,1,1,"",4,False
+1031903,"musikalisch[a] Chocobo",4,"musikalisch[a] Chocobos",1,0,1,0,0,"",4,False
+1031904,"Amh Garanjy",3,"Amh Garanjy",1,0,0,1,1,"",3,False
+1031905,"Lartonphe",3,"Lartonphe",1,0,0,0,1,"",3,False
+1031906,"musikalisch[a] Chocobo",4,"musikalisch[a] Chocobos",1,0,1,0,0,"",5,False
+1031907,"Lewin",3,"Lewin",1,0,0,0,1,"",4,False
+1031908,"Miah Molkot",3,"Miah Molkot",1,0,0,1,1,"",4,False
+1031909,"Luciane",3,"Luciane",1,0,0,0,1,"",4,False
+1031910,"",0,"",0,0,0,0,0,"",0,False
+1031911,"アム・ガランジ",0,"",0,0,1,0,0,"",4,False
+1031912,"ナリポンク",0,"",0,0,1,0,0,"",4,False
+1031913,"星芒祭を楽しむ少女",0,"",0,0,1,0,0,"",4,False
+1031914,"少女の父親",0,"",0,0,1,0,0,"",4,False
+1031915,"星芒祭を楽しむ少年",0,"",0,0,1,0,0,"",4,False
+1031916,"少年の父親",0,"",0,0,1,0,0,"",4,False
+1031917,"ラルトンフ",0,"",0,0,1,0,0,"",4,False
+1031918,"音楽好きなチョコボ",0,"",0,0,1,0,0,"",4,False
+1031919,"リュウィン",0,"",0,0,1,0,0,"",4,False
+1031920,"ミア・モルコット",0,"",0,0,1,0,0,"",4,False
+1031921,"ルシアヌ",0,"",0,0,1,0,0,"",4,False
+1031922,"アルファ",0,"",0,0,1,0,0,"",4,False
+1031923,"プチ・オメガ",0,"",0,0,1,0,0,"",4,False
+1031924,"Nalipponcque",3,"Nalipponcque",1,0,0,0,1,"",3,False
+1031925,"Lartonphe",3,"Lartonphe",1,0,0,1,1,"",3,False
+1031926,"musikalisch[a] Chocobo",4,"musikalisch[a] Chocobos",1,0,1,0,0,"",3,False
+1031927,"fröhlich[a] Mädchen",4,"fröhlich[a] Mädchen",1,0,1,2,0,"",4,False
+1031928,"fröhlich[a] Junge",5,"fröhlich[a] Junge",2,0,1,0,0,"",4,False
+1031929,"",0,"",0,0,1,0,0,"",5,False
+1031930,"",0,"",0,0,1,0,0,"",5,False
+1031931,"",0,"",0,0,1,0,0,"",5,False
+1031932,"",0,"",0,0,1,0,0,"",5,False
+1031933,"",0,"",0,0,1,0,0,"",5,False
+1031934,"",0,"",0,0,1,0,0,"",5,False
+1031935,"",0,"",0,0,1,0,0,"",5,False
+1031936,"Sternenlichtfest-Verwalter",4,"Sternenlichtfest-Verwalter",2,0,1,0,0,"",3,True
+1031937,"Sternenlichtfest-Verwalter",4,"Sternenlichtfest-Verwalter",2,0,1,0,0,"",3,True
+1031938,"Sternenlichtfest-Verwalter",4,"Sternenlichtfest-Verwalter",2,0,1,0,0,"",3,True
+1031939,"Klein[a] Helferlein",4,"Klein[a] Helferlein",1,0,1,2,0,"Saisonales Geschäft",3,True
+1031940,"Klein[a] Helferlein",4,"Klein[a] Helferlein",1,0,1,2,0,"Saisonales Geschäft",3,True
+1031941,"Klein[a] Helferlein",4,"Klein[a] Helferlein",1,0,1,2,0,"Saisonales Geschäft",3,True
+1031942,"",0,"",0,0,0,0,0,"",0,False
+1031943,"",0,"",0,0,0,0,0,"",0,False
+1031944,"",0,"",0,0,0,0,0,"",0,False
+1031945,"",0,"",0,0,0,0,0,"",0,False
+1031946,"",0,"",0,0,0,0,0,"",0,False
+1031947,"",0,"",0,0,0,0,0,"",0,False
+1031948,"",0,"",0,0,0,0,0,"",0,False
+1031949,"",0,"",0,0,0,0,0,"",0,False
+1031950,"",0,"",0,0,0,0,0,"",0,False
+1031951,"",0,"",0,0,0,0,0,"",0,False
+1031952,"",0,"",0,0,0,0,0,"",0,False
+1031953,"",0,"",0,0,0,0,0,"",0,False
+1031954,"Lartonphe",3,"Lartonphe",1,0,0,1,1,"",5,False
+1031955,"musikalisch[a] Chocobo",4,"musikalisch[a] Chocobos",1,0,1,0,0,"",5,False
+1031956,"",0,"",0,0,0,0,0,"",0,False
+1031957,"",0,"",0,0,0,0,0,"",0,False
+1031958,"",0,"",0,0,0,0,0,"",0,False
+1031959,"",0,"",0,0,0,0,0,"",0,False
+1031960,"",0,"",0,0,0,0,0,"",0,False
+1031961,"",0,"",0,0,0,0,0,"",0,False
+1031962,"",0,"",0,0,0,0,0,"",0,False
+1031963,"",0,"",0,0,0,0,0,"",0,False
+1031964,"",0,"",0,0,0,0,0,"",0,False
+1031965,"",0,"",0,0,0,0,0,"",0,False
+1031966,"",0,"",0,0,0,0,0,"",0,False
+1031967,"",0,"",0,0,0,0,0,"",0,False
+1031968,"",0,"",0,0,0,0,0,"",0,False
+1031969,"",0,"",0,0,0,0,0,"",0,False
+1031970,"",0,"",0,0,0,0,0,"",0,False
+1031971,"",0,"",0,0,0,0,0,"",0,False
+1031972,"",0,"",0,0,0,0,0,"",0,False
+1031973,"",0,"",0,0,0,0,0,"",0,False
+1031974,"",0,"",0,0,0,0,0,"",0,False
+1031975,"",0,"",0,0,0,0,0,"",0,False
+1031976,"",0,"",0,0,0,0,0,"",0,False
+1031977,"",0,"",0,0,0,0,0,"",0,False
+1031978,"",0,"",0,0,0,0,0,"",0,False
+1031979,"",0,"",0,0,0,0,0,"",0,False
+1031980,"",0,"",0,0,0,0,0,"",0,False
+1031981,"",0,"",0,0,0,0,0,"",0,False
+1031982,"",0,"",0,0,1,0,0,"",2,False
+1031983,"",0,"",0,0,1,0,0,"",2,False
+1031984,"",0,"",0,0,1,0,0,"",2,False
+1031985,"",0,"",0,0,1,0,0,"",2,False
+1031986,"",0,"",0,0,1,0,0,"",3,False
+1031987,"",0,"",0,0,1,0,0,"",3,False
+1031988,"",0,"",0,0,1,0,0,"",3,False
+1031989,"",0,"",0,0,0,0,0,"",0,False
+1031990,"",0,"",0,0,0,0,0,"",0,False
+1031991,"",0,"",0,0,0,0,0,"",0,False
+1031992,"",0,"",0,0,0,0,0,"",0,False
+1031993,"",0,"",0,0,0,0,0,"",0,False
+1031994,"",0,"",0,0,0,0,0,"",0,False
+1031995,"",0,"",0,0,0,0,0,"",0,False
+1031996,"",0,"",0,0,0,0,0,"",0,False
+1031997,"",0,"",0,0,0,0,0,"",0,False
+1031998,"",0,"",0,0,0,0,0,"",0,False
+1031999,"",0,"",0,0,0,0,0,"",0,False
+1032000,"",0,"",0,0,0,0,0,"",0,False
+1032001,"",0,"",0,0,0,0,0,"",0,False
+1032002,"",0,"",0,0,0,0,0,"",0,False
+1032003,"",0,"",0,0,0,0,0,"",0,False
+1032004,"",0,"",0,0,0,0,0,"",0,False
+1032005,"",0,"",0,0,0,0,0,"",0,False
+1032006,"",0,"",0,0,0,0,0,"",0,False
+1032007,"",0,"",0,0,0,0,0,"",0,False
+1032008,"",0,"",0,0,0,0,0,"",0,False
+1032009,"",0,"",0,0,0,0,0,"",0,False
+1032010,"",0,"",0,0,0,0,0,"",0,False
+1032011,"",0,"",0,0,0,0,0,"",0,False
+1032012,"",0,"",0,0,0,0,0,"",0,False
+1032013,"",0,"",0,0,0,0,0,"",0,False
+1032014,"",0,"",0,0,0,0,0,"",0,False
+1032015,"",0,"",0,0,0,0,0,"",0,False
+1032016,"",0,"",0,0,0,0,0,"",0,False
+1032017,"",0,"",0,0,0,0,0,"",0,False
+1032018,"",0,"",0,0,0,0,0,"",0,False
+1032019,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032020,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032021,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032022,"Anogg",3,"NONE",1,0,0,1,1,"",2,False
+1032023,"Konogg",3,"NONE",1,0,0,0,1,"",2,False
+1032024,"2P",3,"NONE",1,0,0,1,1,"",2,False
+1032025,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032026,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032027,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032028,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032029,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032030,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032031,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032032,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032033,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032034,"Tyr Beq",3,"NONE",1,0,0,1,1,"",4,False
+1032035,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",4,False
+1032036,"An Lad",3,"NONE",1,0,0,1,1,"",4,False
+1032037,"Mädchen[p] aus Grantel",4,"Mädchen[p] aus Grantel",1,0,1,2,0,"",4,False
+1032038,"älter[a] Junge",5,"älter[a] Jungen",2,0,1,0,0,"",4,False
+1032039,"Mutter[p] aus Werfting",3,"Mütter[p] aus Werfting",2,0,1,1,0,"",4,False
+1032040,"reisend[a] Blumenhändler",4,"reisend[a] Blumenhändler",2,0,1,0,0,"",4,False
+1032041,"",0,"",0,0,0,0,0,"",0,False
+1032042,"",0,"",0,0,0,0,0,"",0,False
+1032043,"",0,"",0,0,0,0,0,"",0,False
+1032044,"",0,"",0,0,0,0,0,"",0,False
+1032045,"",0,"",0,0,0,0,0,"",0,False
+1032046,"",0,"",0,0,0,0,0,"",0,False
+1032047,"",0,"",0,0,0,0,0,"",0,False
+1032048,"",0,"",0,0,0,0,0,"",0,False
+1032049,"",0,"",0,0,0,0,0,"",0,False
+1032050,"",0,"",0,0,0,0,0,"",0,False
+1032051,"",0,"",0,0,0,0,0,"",0,False
+1032052,"",0,"",0,0,0,0,0,"",0,False
+1032053,"",0,"",0,0,0,0,0,"",0,False
+1032054,"",0,"",0,0,0,0,0,"",0,False
+1032055,"",0,"",0,0,0,0,0,"",0,False
+1032056,"",0,"",0,0,0,0,0,"",0,False
+1032057,"",0,"",0,0,0,0,0,"",0,False
+1032058,"",0,"",0,0,0,0,0,"",0,False
+1032059,"",0,"",0,0,0,0,0,"",0,False
+1032060,"",0,"",0,0,0,0,0,"",0,False
+1032061,"",0,"",0,0,0,0,0,"",0,False
+1032062,"",0,"",0,0,0,0,0,"",0,False
+1032063,"",0,"",0,0,0,0,0,"",0,False
+1032064,"",0,"",0,0,0,0,0,"",0,False
+1032065,"",0,"",0,0,0,0,0,"",0,False
+1032066,"",0,"",0,0,0,0,0,"",0,False
+1032067,"",0,"",0,0,0,0,0,"",0,False
+1032068,"",0,"",0,0,0,0,0,"",0,False
+1032069,"",0,"",0,0,0,0,0,"",0,False
+1032070,"",0,"",0,0,0,0,0,"",0,False
+1032071,"Dienerin[p] des Hauses Valention",3,"Dienerinnen[a] des Hauses Valention",1,0,1,1,0,"",3,True
+1032072,"Dienerin[p] des Hauses Valention",3,"Dienerinnen[a] des Hauses Valention",1,0,1,1,0,"",3,True
+1032073,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032074,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032075,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032076,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032077,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032078,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032079,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032080,"",0,"",0,0,0,0,0,"",0,False
+1032081,"Tataru",3,"Tataru",1,0,0,1,1,"",3,False
+1032082,"",0,"",0,0,1,0,0,"",5,False
+1032083,"",0,"",0,0,1,0,0,"",5,False
+1032084,"",0,"",0,0,1,0,0,"",5,False
+1032085,"",0,"",0,0,1,0,0,"",5,False
+1032086,"",0,"",0,0,1,0,0,"",5,False
+1032087,"",0,"",0,0,1,0,0,"",5,False
+1032088,"",0,"",0,0,1,0,0,"",5,False
+1032089,"",0,"",0,0,1,0,0,"",5,False
+1032090,"",0,"",0,0,1,0,0,"",5,False
+1032091,"",0,"",0,0,1,0,0,"",5,False
+1032092,"",0,"",0,0,0,0,0,"",0,False
+1032093,"",0,"",0,0,1,0,0,"",5,False
+1032094,"Butler[p] des Hauses Valention",4,"Butler[p] des Hauses Valention",2,0,1,0,0,"",3,True
+1032095,"Butler[p] des Hauses Valention",4,"Butler[p] des Hauses Valention",2,0,1,0,0,"",3,True
+1032096,"Butler[p] des Hauses Valention",4,"Butler[p] des Hauses Valention",2,0,1,0,0,"",3,True
+1032097,"",0,"",0,0,0,0,0,"",0,False
+1032098,"",0,"",0,0,0,0,0,"",0,False
+1032099,"Dienstmädchen[p] des Hauses Valention",4,"Dienstmädchen[p] des Hauses Valention",1,0,1,2,0,"Saisonales Geschäft",3,True
+1032100,"",0,"",0,0,1,0,0,"",6,False
+1032101,"",0,"",0,0,1,0,0,"",6,False
+1032102,"",0,"",0,0,1,0,0,"",6,False
+1032103,"",0,"",0,0,1,0,0,"",6,False
+1032104,"",0,"",0,0,1,0,0,"",6,False
+1032105,"",0,"",0,0,1,0,0,"",6,False
+1032106,"",0,"",0,0,1,0,0,"",6,False
+1032107,"",0,"",0,0,1,0,0,"",6,False
+1032108,"",0,"",0,0,0,0,0,"",0,False
+1032109,"",0,"",0,0,1,0,0,"",5,False
+1032110,"",0,"",0,0,1,0,0,"",5,False
+1032111,"",0,"",0,0,1,0,0,"",5,False
+1032112,"",0,"",0,0,1,0,0,"",5,False
+1032113,"",0,"",0,0,1,0,0,"",5,False
+1032114,"",0,"",0,0,1,0,0,"",5,False
+1032115,"",0,"",0,0,1,0,0,"",5,False
+1032116,"",0,"",0,0,1,0,0,"",5,False
+1032117,"",0,"",0,0,1,0,0,"",5,False
+1032118,"",0,"",0,0,1,0,0,"",5,False
+1032119,"",0,"",0,0,1,0,0,"",5,False
+1032120,"",0,"",0,0,1,0,0,"",5,False
+1032121,"Kristall<SoftHyphen/>exarch",6,"Kristallexarchen",1,0,1,0,0,"",3,False
+1032122,"Beq Lugg",3,"Beq Lugg",1,0,0,0,1,"",3,False
+1032123,"",0,"",0,0,1,0,0,"",5,False
+1032124,"",0,"",0,0,1,0,0,"",5,False
+1032125,"",0,"",0,0,1,0,0,"",5,False
+1032126,"",0,"",0,0,1,0,0,"",5,False
+1032127,"",0,"",0,0,1,0,0,"",5,False
+1032128,"",0,"",0,0,1,0,0,"",5,False
+1032129,"",0,"",0,0,1,0,0,"",5,False
+1032130,"",0,"",0,0,1,0,0,"",5,False
+1032131,"",0,"",0,0,1,0,0,"",4,False
+1032132,"Lisette von Valention ",3,"NONE",1,0,0,1,1,"",3,False
+1032133,"Hortefense",3,"NONE",1,0,0,0,1,"",3,False
+1032134,"Astrid",3,"NONE",1,0,0,1,1,"",3,False
+1032135,"Bert",3,"NONE",1,0,0,0,1,"",3,False
+1032136,"Rodrigault",3,"NONE",1,0,0,0,1,"",3,False
+1032137,"",0,"",0,0,1,0,0,"",5,False
+1032138,"",0,"",0,0,1,0,0,"",5,False
+1032139,"",0,"",0,0,1,0,0,"",5,False
+1032140,"Sammler-Pixie",3,"Sammler-Pixies",1,0,1,1,0,"",3,False
+1032141,"Sammler-Pixie",3,"Sammler-Pixies",1,0,1,1,0,"",3,False
+1032142,"Sammler-Pixie",3,"Sammler-Pixies",1,0,1,1,0,"",3,False
+1032143,"",0,"",0,0,1,0,0,"",5,False
+1032144,"",0,"",0,0,1,0,0,"",5,False
+1032145,"",0,"",0,0,1,0,0,"",5,False
+1032146,"",0,"",0,0,1,0,0,"",5,False
+1032147,"",0,"",0,0,1,0,0,"",5,False
+1032148,"",0,"",0,0,1,0,0,"",5,False
+1032149,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032150,"defekt[a] Pod",4,"defekt[a] Pods",1,0,1,0,0,"",3,False
+1032151,"Vorarbeiter",4,"Vorarbeiter",2,0,1,0,0,"",3,False
+1032152,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032153,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032154,"Vorarbeiter",4,"Vorarbeiter",2,0,1,0,0,"",3,False
+1032155,"Riesenbiber",4,"Riesenbiber",2,0,1,0,0,"",4,False
+1032156,"Riesenbiber",4,"Riesenbiber",2,0,1,0,0,"",4,False
+1032157,"Riesenbiber",4,"Riesenbiber",2,0,1,0,0,"",4,False
+1032158,"",0,"",0,0,0,0,0,"",0,False
+1032159,"blumenpflückend[a] Pixie",3,"blumenpflückend[a] Pixies",1,0,1,1,0,"",4,False
+1032160,"",0,"",0,0,1,0,0,"",5,False
+1032161,"Astrid",3,"NONE",1,0,0,1,1,"",3,False
+1032162,"Bert",3,"NONE",1,0,0,0,1,"",3,False
+1032163,"schmachtend[a] Gridanier",4,"schmachtend[a] Gridanier",2,0,1,0,0,"",4,False
+1032164,"Astrid",3,"NONE",1,0,0,1,1,"",3,False
+1032165,"Bert",3,"NONE",1,0,0,0,1,"",3,False
+1032166,"Rodrigault",3,"NONE",1,0,0,0,1,"",3,False
+1032167,"hochgewachsen[a] Fuath",3,"hochgewachsen[a] Fuath",1,0,1,0,0,"",3,False
+1032168,"unerfahren[a] Schatz<SoftHyphen/>sucher",4,"unerfahren[a] Schatzsucher",2,0,1,0,0,"",3,False
+1032169,"wohlgenährt[a] Mystel",3,"wohlgenährt[a] Mystel",1,0,1,1,0,"",3,False
+1032170,"blumenpflückend[a] Pixie",3,"blumenpflückend[a] Pixies",1,0,1,1,0,"",3,False
+1032171,"",0,"",0,0,1,0,0,"",5,False
+1032172,"",0,"",0,0,1,0,0,"",5,False
+1032173,"",0,"",0,0,1,0,0,"",5,False
+1032174,"Baenfaeld",3,"NONE",1,0,0,0,1,"",3,False
+1032175,"Baenfaeld",3,"NONE",1,0,0,0,1,"",3,False
+1032176,"",0,"",0,0,1,0,0,"",4,False
+1032177,"blumenpflückend[a] Pixie",3,"blumenpflückend[a] Pixies",1,0,1,1,0,"",4,False
+1032178,"Ephemie",3,"Ephemie",1,0,0,1,1,"",3,False
+1032179,"Isildaure",3,"Isildaure",1,0,0,1,1,"",3,False
+1032180,"Alianne",3,"Alianne",1,0,0,1,1,"",3,False
+1032181,"Riol",3,"Riol",1,0,0,0,1,"",3,False
+1032182,"Coultenet",3,"Coultenet",1,0,0,0,1,"",3,False
+1032183,"schläfrig[a] Pixie",3,"schläfrig[a] Pixies",1,0,1,1,0,"",3,False
+1032184,"schläfrig[a] Pixie",3,"schläfrig[a] Pixies",1,0,1,1,0,"",3,False
+1032185,"schläfrig[a] Pixie",3,"schläfrig[a] Pixies",1,0,1,1,0,"",3,False
+1032186,"",0,"",0,0,0,0,0,"",0,False
+1032187,"",0,"",0,0,0,0,0,"",0,False
+1032188,"",0,"",0,0,0,0,0,"",0,False
+1032189,"",0,"",0,0,0,0,0,"",0,False
+1032190,"",0,"",0,0,0,0,0,"",0,False
+1032191,"",0,"",0,0,0,0,0,"",0,False
+1032192,"",0,"",0,0,0,0,0,"",0,False
+1032193,"",0,"",0,0,0,0,0,"",0,False
+1032194,"",0,"",0,0,0,0,0,"",0,False
+1032195,"",0,"",0,0,0,0,0,"",0,False
+1032196,"",0,"",0,0,0,0,0,"",0,False
+1032197,"",0,"",0,0,0,0,0,"",0,False
+1032198,"",0,"",0,0,0,0,0,"",0,False
+1032199,"",0,"",0,0,0,0,0,"",0,False
+1032200,"",0,"",0,0,0,0,0,"",0,False
+1032201,"",0,"",0,0,0,0,0,"",0,False
+1032202,"schläfrig[a] Nu Mou",3,"verschlafen[a] Nu Mou",1,0,1,0,0,"",3,False
+1032203,"schläfrig[a] Nu Mou",3,"verschlafen[a] Nu Mou",1,0,1,0,0,"",3,False
+1032204,"gefangen[a] Phookah",3,"gefangen[a] Phookah",1,0,1,0,0,"",3,False
+1032205,"kopfüber gefangen[a] Phookah",3,"kopfüber gefangen[a] Phookah",1,0,1,0,0,"",3,False
+1032206,"",0,"",0,0,0,0,0,"",0,False
+1032207,"",0,"",0,0,0,0,0,"",0,False
+1032208,"versteckt[a] Pixie",3,"versteckt[a] Pixies",1,0,1,1,0,"",3,False
+1032209,"",0,"",0,0,1,0,0,"",5,False
+1032210,"",0,"",0,0,1,0,0,"",5,False
+1032211,"verängstigt[a] Quiexie",3,"verängstigt[a] Quiexies",1,0,1,1,0,"",3,False
+1032212,"",0,"",0,0,1,0,0,"",5,False
+1032213,"",0,"",0,0,1,0,0,"",5,False
+1032214,"",0,"",0,0,1,0,0,"",5,False
+1032215,"",0,"",0,0,1,0,0,"",5,False
+1032216,"",0,"",0,0,1,0,0,"",5,False
+1032217,"",0,"",0,0,1,0,0,"",5,False
+1032218,"Urianger",3,"Urianger",1,0,0,0,1,"",3,False
+1032219,"Y'shtola",3,"Y'shtola",1,0,0,1,1,"",3,False
+1032220,"",0,"",0,0,0,0,0,"",0,False
+1032221,"Destrudo",3,"NONE",1,0,0,0,1,"",4,False
+1032222,"Dulia-Chai",3,"Dulia-Chai",1,0,0,1,1,"",3,False
+1032223,"",0,"",0,0,1,0,0,"",2,False
+1032224,"",0,"",0,0,1,0,0,"",5,False
+1032225,"",0,"",0,0,1,0,0,"",5,False
+1032226,"",0,"",0,0,1,0,0,"",5,False
+1032227,"Vorarbeiter",4,"Vorarbeiter",2,0,1,0,0,"",3,False
+1032228,"Anogg",3,"NONE",1,0,0,1,1,"",3,False
+1032229,"Konogg",3,"NONE",1,0,0,0,1,"",3,False
+1032230,"Pod",4,"Pods",1,0,1,0,0,"",4,False
+1032231,"",0,"",0,0,1,0,0,"",2,False
+1032232,"",0,"",0,0,1,0,0,"",2,False
+1032233,"Pod",4,"Pods",1,0,1,0,0,"",3,False
+1032234,"Stollenwächter",4,"Stollenwächter",2,0,1,0,0,"",3,False
+1032235,"",0,"",0,0,1,0,0,"",5,False
+1032236,"Stollenwächter",4,"Stollenwächter",2,0,1,0,0,"",3,False
+1032237,"",0,"",0,0,0,0,0,"",0,False
+1032238,"",0,"",0,0,0,0,0,"",0,False
+1032239,"",0,"",0,0,0,0,0,"",0,False
+1032240,"",0,"",0,0,0,0,0,"",0,False
+1032241,"",0,"",0,0,0,0,0,"",0,False
+1032242,"",0,"",0,0,0,0,0,"",0,False
+1032243,"",0,"",0,0,0,0,0,"",0,False
+1032244,"",0,"",0,0,0,0,0,"",0,False
+1032245,"",0,"",0,0,0,0,0,"",0,False
+1032246,"",0,"",0,0,0,0,0,"",0,False
+1032247,"",0,"",0,0,0,0,0,"",0,False
+1032248,"",0,"",0,0,0,0,0,"",0,False
+1032249,"",0,"",0,0,0,0,0,"",0,False
+1032250,"",0,"",0,0,0,0,0,"",0,False
+1032251,"",0,"",0,0,0,0,0,"",0,False
+1032252,"",0,"",0,0,0,0,0,"",0,False
+1032253,"",0,"",0,0,0,0,0,"",0,False
+1032254,"",0,"",0,0,0,0,0,"",0,False
+1032255,"",0,"",0,0,1,0,0,"",5,False
+1032256,"",0,"",0,0,1,0,0,"",5,False
+1032257,"",0,"",0,0,1,0,0,"",5,False
+1032258,"",0,"",0,0,1,0,0,"",4,False
+1032259,"",0,"",0,0,1,0,0,"",4,False
+1032260,"",0,"",0,0,1,0,0,"",4,False
+1032261,"Schafliebhaberin",3,"Schafliebhaberinnen",1,0,1,1,0,"",3,False
+1032262,"",0,"",0,0,1,0,0,"",5,False
+1032263,"",0,"",0,0,0,0,0,"",0,False
+1032264,"",0,"",0,0,0,0,0,"",0,False
+1032265,"",0,"",0,0,1,0,0,"",5,False
+1032266,"",0,"",0,0,0,0,0,"",0,False
+1032267,"",0,"",0,0,0,0,0,"",0,False
+1032268,"",0,"",0,0,0,0,0,"",0,False
+1032269,"",0,"",0,0,0,0,0,"",0,False
+1032270,"",0,"",0,0,0,0,0,"",0,False
+1032271,"",0,"",0,0,1,0,0,"",5,False
+1032272,"",0,"",0,0,0,0,0,"",0,False
+1032273,"",0,"",0,0,0,0,0,"",0,False
+1032274,"",0,"",0,0,0,0,0,"",0,False
+1032275,"",0,"",0,0,0,0,0,"",0,False
+1032276,"",0,"",0,0,0,0,0,"",0,False
+1032277,"",0,"",0,0,0,0,0,"",0,False
+1032278,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032279,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032280,"Mädchen[p] aus Schlangenzweig",4,"Mädchen[p] aus Schlangenzweig",1,0,1,2,0,"",3,False
+1032281,"",0,"",0,0,1,0,0,"",4,False
+1032282,"Halric",3,"Halric",1,0,0,0,1,"",3,False
+1032283,"Mädchen[p] aus Schlangenzweig",4,"Mädchen[p] aus Schlangenzweig",1,0,1,2,0,"",4,False
+1032284,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032285,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032286,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032287,"",0,"",0,0,1,0,0,"",2,False
+1032288,"",0,"",0,0,1,0,0,"",2,False
+1032289,"",0,"",0,0,1,0,0,"",2,False
+1032290,"",0,"",0,0,1,0,0,"",2,False
+1032291,"Kleiderpuppe",3,"Kleiderpuppen",1,0,1,1,0,"",3,True
+1032292,"Kleiderpuppe",3,"Kleiderpuppen",1,0,1,1,0,"",3,True
+1032293,"Kleiderpuppe",3,"Kleiderpuppen",1,0,1,1,0,"",3,True
+1032294,"Kleiderpuppe",3,"Kleiderpuppen",1,0,1,1,0,"",3,True
+1032295,"",0,"",0,0,1,0,0,"",6,False
+1032296,"",0,"",0,0,1,0,0,"",6,False
+1032297,"",0,"",0,0,1,0,0,"",6,False
+1032298,"",0,"",0,0,1,0,0,"",5,False
+1032299,"",0,"",0,0,1,0,0,"",5,False
+1032300,"",0,"",0,0,1,0,0,"",5,False
+1032301,"",0,"",0,0,1,0,0,"",5,False
+1032302,"",0,"",0,0,1,0,0,"",6,False
+1032303,"",0,"",0,0,1,0,0,"",5,False
+1032304,"",0,"",0,0,1,0,0,"",5,False
+1032305,"",0,"",0,0,1,0,0,"",5,False
+1032306,"",0,"",0,0,1,0,0,"",5,False
+1032307,"",0,"",0,0,1,0,0,"",5,False
+1032308,"",0,"",0,0,1,0,0,"",5,False
+1032309,"",0,"",0,0,1,0,0,"",5,False
+1032310,"",0,"",0,0,1,0,0,"",5,False
+1032311,"",0,"",0,0,1,0,0,"",5,False
+1032312,"",0,"",0,0,1,0,0,"",6,False
+1032313,"",0,"",0,0,1,0,0,"",5,False
+1032314,"",0,"",0,0,1,0,0,"",5,False
+1032315,"",0,"",0,0,1,0,0,"",5,False
+1032316,"",0,"",0,0,1,0,0,"",5,False
+1032317,"",0,"",0,0,1,0,0,"",5,False
+1032318,"",0,"",0,0,1,0,0,"",5,False
+1032319,"",0,"",0,0,1,0,0,"",5,False
+1032320,"älter[a] Junge",8,"älter[a] Jungen",1,0,1,0,0,"",3,False
+1032321,"Mädchen[p] aus Grantel",4,"Mädchen[p] aus Grantel",1,0,1,2,0,"",3,False
+1032322,"",0,"",0,0,1,0,0,"",6,False
+1032323,"",0,"",0,0,1,0,0,"",5,False
+1032324,"",0,"",0,0,1,0,0,"",5,False
+1032325,"",0,"",0,0,1,0,0,"",5,False
+1032326,"",0,"",0,0,1,0,0,"",5,False
+1032327,"Mädchen[p] aus Schlangenzweig",4,"Mädchen[p] aus Schlangenzweig",1,0,1,2,0,"",3,False
+1032328,"",0,"",0,0,1,0,0,"",5,False
+1032329,"",0,"",0,0,1,0,0,"",5,False
+1032330,"Junge[p] aus Mordh Souq",8,"Jungen[p] aus Mordh Souq",1,0,1,0,0,"",3,False
+1032331,"",0,"",0,0,1,0,0,"",5,False
+1032332,"",0,"",0,0,1,0,0,"",5,False
+1032333,"",0,"",0,0,1,0,0,"",5,False
+1032334,"",0,"",0,0,1,0,0,"",5,False
+1032335,"",0,"",0,0,1,0,0,"",5,False
+1032336,"",0,"",0,0,1,0,0,"",5,False
+1032337,"",0,"",0,0,1,0,0,"",5,False
+1032338,"",0,"",0,0,1,0,0,"",5,False
+1032339,"",0,"",0,0,1,0,0,"",5,False
+1032340,"",0,"",0,0,1,0,0,"",5,False
+1032341,"",0,"",0,0,1,0,0,"",5,False
+1032342,"",0,"",0,0,1,0,0,"",5,False
+1032343,"",0,"",0,0,1,0,0,"",5,False
+1032344,"Junge[p] aus Werfting",8,"Jungen[p] aus Werfting",1,0,1,0,0,"",3,False
+1032345,"An Lad",3,"NONE",1,0,0,1,1,"",3,False
+1032346,"An Lad",3,"NONE",1,0,0,1,1,"",3,False
+1032347,"",0,"",0,0,0,0,0,"",0,False
+1032348,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032349,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032350,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032351,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032352,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032353,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032354,"Rodrigault",3,"NONE",1,0,0,0,1,"",3,False
+1032355,"Astrid",3,"NONE",1,0,0,1,1,"",3,False
+1032356,"Bert",3,"NONE",1,0,0,0,1,"",3,False
+1032357,"Rodrigault",3,"NONE",1,0,0,0,1,"",3,False
+1032358,"Astrid",3,"NONE",1,0,0,1,1,"",3,False
+1032359,"Bert",3,"NONE",1,0,0,0,1,"",3,False
+1032360,"Rodrigault",3,"NONE",1,0,0,0,1,"",3,False
+1032361,"Bert",3,"NONE",1,0,0,0,1,"",4,False
+1032362,"Rodrigault",3,"NONE",1,0,0,0,1,"",4,False
+1032363,"nachdenklich[a] alt[a] Mann",3,"nachdenklich[a] alt[a] Männer",2,0,1,0,0,"",3,False
+1032364,"An Lad",3,"NONE",1,0,0,1,1,"",3,False
+1032365,"Thon Sul",3,"NONE",1,0,0,1,1,"Traumführerin",3,True
+1032366,"Tyr Beq",3,"NONE",1,0,0,1,1,"",3,False
+1032367,"Ezel[p] II.",3,"NONE",1,0,0,0,1,"",3,False
+1032368,"",0,"",0,0,1,0,0,"",6,False
+1032369,"",0,"",0,0,1,0,0,"",6,False
+1032370,"",0,"",0,0,1,0,0,"",6,False
+1032371,"",0,"",0,0,1,0,0,"",6,False
+1032372,"",0,"",0,0,1,0,0,"",6,False
+1032373,"",0,"",0,0,1,0,0,"",6,False
+1032374,"",0,"",0,0,1,0,0,"",6,False
+1032375,"",0,"",0,0,1,0,0,"",6,False
+1032376,"",0,"",0,0,1,0,0,"",6,False
+1032377,"",0,"",0,0,1,0,0,"",6,False
+1032378,"",0,"",0,0,1,0,0,"",6,False
+1032379,"",0,"",0,0,1,0,0,"",6,False
+1032380,"",0,"",0,0,1,0,0,"",6,False
+1032381,"",0,"",0,0,1,0,0,"",6,False
+1032382,"",0,"",0,0,1,0,0,"",6,False
+1032383,"",0,"",0,0,1,0,0,"",6,False
+1032384,"",0,"",0,0,1,0,0,"",6,False
+1032385,"",0,"",0,0,1,0,0,"",6,False
+1032386,"",0,"",0,0,1,0,0,"",6,False
+1032387,"",0,"",0,0,1,0,0,"",6,False
+1032388,"",0,"",0,0,0,0,0,"",0,False
+1032389,"",0,"",0,0,0,0,0,"",0,False
+1032390,"",0,"",0,0,1,0,0,"",5,False
+1032391,"",0,"",0,0,1,0,0,"",5,False
+1032392,"",0,"",0,0,1,0,0,"",5,False
+1032393,"",0,"",0,0,1,0,0,"",5,False
+1032394,"",0,"",0,0,1,0,0,"",5,False
+1032395,"",0,"",0,0,1,0,0,"",5,False
+1032396,"",0,"",0,0,1,0,0,"",5,False
+1032397,"",0,"",0,0,1,0,0,"",5,False
+1032398,"",0,"",0,0,1,0,0,"",5,False
+1032399,"",0,"",0,0,1,0,0,"",5,False
+1032400,"",0,"",0,0,0,0,0,"",0,False
+1032401,"",0,"",0,0,0,0,0,"",0,False
+1032402,"",0,"",0,0,0,0,0,"",0,False
+1032403,"",0,"",0,0,1,0,0,"",6,False
+1032404,"",0,"",0,0,1,0,0,"",6,False
+1032405,"",0,"",0,0,1,0,0,"",6,False
+1032406,"",0,"",0,0,1,0,0,"",6,False
+1032407,"",0,"",0,0,1,0,0,"",5,False
+1032408,"",0,"",0,0,1,0,0,"",6,False
+1032409,"",0,"",0,0,1,0,0,"",6,False
+1032410,"",0,"",0,0,1,0,0,"",6,False
+1032411,"",0,"",0,0,1,0,0,"",6,False
+1032412,"",0,"",0,0,1,0,0,"",5,False
+1032413,"",0,"",0,0,0,0,0,"",0,False
+1032414,"Luftschiffoffizier",4,"Luftschiffoffiziere",2,0,1,0,0,"Carteneauer Front",3,False
+1032415,"Marcette",3,"Marcette",1,0,0,1,1,"",3,False
+1032416,"",0,"",0,0,0,0,0,"",0,False
+1032417,"",0,"",0,0,0,0,0,"",0,False
+1032418,"",0,"",0,0,0,0,0,"",0,False
+1032419,"",0,"",0,0,0,0,0,"",0,False
+1032420,"",0,"",0,0,0,0,0,"",0,False
+1032421,"",0,"",0,0,0,0,0,"",0,False
+1032422,"",0,"",0,0,0,0,0,"",0,False
+1032423,"",0,"",0,0,0,0,0,"",0,False
+1032424,"",0,"",0,0,0,0,0,"",0,False
+1032425,"",0,"",0,0,0,0,0,"",0,False
+1032426,"",0,"",0,0,1,0,0,"",5,False
+1032427,"",0,"",0,0,1,0,0,"",5,False
+1032428,"",0,"",0,0,0,0,0,"",0,False
+1032429,"",0,"",0,0,0,0,0,"",0,False
+1032430,"Chai-Nuzz",3,"Chai-Nuzz",1,0,0,0,1,"",3,False
+1032431,"Dulia-Chai",3,"Dulia-Chai",1,0,0,1,1,"",3,False
+1032432,"Wrenden",3,"Wrenden",1,0,0,0,1,"",3,False
+1032433,"",0,"",0,0,1,0,0,"",5,False
+1032434,"",0,"",0,0,1,0,0,"",5,False
+1032435,"",0,"",0,0,1,0,0,"",5,False
+1032436,"",0,"",0,0,1,0,0,"",5,False
+1032437,"",0,"",0,0,1,0,0,"",5,False
+1032438,"",0,"",0,0,1,0,0,"",5,False
+1032439,"",0,"",0,0,1,0,0,"",5,False
+1032440,"",0,"",0,0,1,0,0,"",5,False
+1032441,"",0,"",0,0,1,0,0,"",5,False
+1032442,"",0,"",0,0,1,0,0,"",5,False
+1032443,"",0,"",0,0,1,0,0,"",5,False
+1032444,"",0,"",0,0,1,0,0,"",5,False
+1032445,"",0,"",0,0,1,0,0,"",5,False
+1032446,"",0,"",0,0,1,0,0,"",5,False
+1032447,"",0,"",0,0,1,0,0,"",5,False
+1032448,"",0,"",0,0,1,0,0,"",5,False
+1032449,"",0,"",0,0,1,0,0,"",5,False
+1032450,"",0,"",0,0,1,0,0,"",5,False
+1032451,"Alphinaud",3,"Alphinaud",1,0,0,0,1,"",3,False
+1032452,"",0,"",0,0,1,0,0,"",5,False
+1032453,"",0,"",0,0,1,0,0,"",5,False
+1032454,"",0,"",0,0,0,0,0,"",0,False
+1032455,"",0,"",0,0,0,0,0,"",0,False
+1032456,"",0,"",0,0,0,0,0,"",0,False
+1032457,"",0,"",0,0,0,0,0,"",0,False
+1032458,"",0,"",0,0,0,0,0,"",0,False
+1032459,"",0,"",0,0,0,0,0,"",0,False
+1032460,"",0,"",0,0,0,0,0,"",0,False
+1032461,"",0,"",0,0,0,0,0,"",0,False
+1032462,"",0,"",0,0,0,0,0,"",0,False
+1032463,"",0,"",0,0,0,0,0,"",0,False
+1032464,"",0,"",0,0,0,0,0,"",0,False
+1032465,"",0,"",0,0,0,0,0,"",0,False
+1032466,"",0,"",0,0,0,0,0,"",0,False
+1032467,"",0,"",0,0,0,0,0,"",0,False
+1032468,"",0,"",0,0,0,0,0,"",0,False
+1032469,"",0,"",0,0,0,0,0,"",0,False
+1032470,"",0,"",0,0,0,0,0,"",0,False
+1032471,"",0,"",0,0,0,0,0,"",0,False
+1032472,"",0,"",0,0,0,0,0,"",0,False
+1032473,"",0,"",0,0,0,0,0,"",0,False
+1032474,"",0,"",0,0,0,0,0,"",0,False
+1032475,"",0,"",0,0,0,0,0,"",0,False
+1032476,"",0,"",0,0,0,0,0,"",0,False
+1032477,"",0,"",0,0,0,0,0,"",0,False
+1032478,"",0,"",0,0,0,0,0,"",0,False
+1032479,"",0,"",0,0,0,0,0,"",0,False
+1032480,"",0,"",0,0,0,0,0,"",0,False
+1032481,"",0,"",0,0,0,0,0,"",0,False
+1032482,"",0,"",0,0,0,0,0,"",0,False
+1032483,"",0,"",0,0,0,0,0,"",0,False
+1032484,"",0,"",0,0,0,0,0,"",0,False
+1032485,"",0,"",0,0,0,0,0,"",0,False
+1032486,"",0,"",0,0,0,0,0,"",0,False
+1032487,"",0,"",0,0,0,0,0,"",0,False
+1032488,"",0,"",0,0,0,0,0,"",0,False
+1032489,"",0,"",0,0,1,0,0,"",5,False
+1032490,"",0,"",0,0,1,0,0,"",6,False
+1032491,"",0,"",0,0,0,0,0,"",0,False
+1032492,"",0,"",0,0,0,0,0,"",0,False
+1032493,"",0,"",0,0,0,0,0,"",0,False
+1032494,"",0,"",0,0,0,0,0,"",0,False
+1032495,"",0,"",0,0,0,0,0,"",0,False
+1032496,"",0,"",0,0,0,0,0,"",0,False
+1032497,"",0,"",0,0,0,0,0,"",0,False
+1032498,"",0,"",0,0,0,0,0,"",0,False
+1032499,"",0,"",0,0,0,0,0,"",0,False
+1032500,"",0,"",0,0,0,0,0,"",0,False

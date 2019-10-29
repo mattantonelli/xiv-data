@@ -491,9 +491,9 @@ Arbre gardien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le breuil de l'O
 485,"Niveau inférieur I",0,"Niveau inférieur I",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau inférieur I</Case><Case(2)>au niveau inférieur I</Case><Case(3)>du niveau inférieur I</Case></Switch>",0
 486,"Niveau inférieur II",0,"Niveau inférieur II",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau inférieur II</Case><Case(2)>au niveau inférieur II</Case><Case(3)>du niveau inférieur II</Case></Switch>",0
 487,"Niveau inférieur III",0,"Niveau inférieur III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau inférieur III</Case><Case(2)>au niveau inférieur III</Case><Case(3)>du niveau inférieur III</Case></Switch>",0
-488,"Niveau médian I",0,"Niveau médian I",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian II</Case><Case(2)>au niveau médian II</Case><Case(3)>du niveau médian II</Case></Switch>",0
-489,"Niveau médian II",0,"Niveau médian II",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian III</Case><Case(2)>au niveau médian III</Case><Case(3)>du niveau médian III</Case></Switch>",0
-490,"Niveau médian III",0,"Niveau médian III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian I</Case><Case(2)>au niveau médian I</Case><Case(3)>du niveau médian I</Case></Switch>",0
+488,"Niveau médian I",0,"Niveau médian I",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian I</Case><Case(2)>au niveau médian I</Case><Case(3)>du niveau médian I</Case></Switch>",0
+489,"Niveau médian II",0,"Niveau médian II",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian II</Case><Case(2)>au niveau médian II</Case><Case(3)>du niveau médian II</Case></Switch>",0
+490,"Niveau médian III",0,"Niveau médian III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian III</Case><Case(2)>au niveau médian III</Case><Case(3)>du niveau médian III</Case></Switch>",0
 491,"Niveau supérieur",0,"Niveau supérieur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau supérieur</Case><Case(2)>au niveau supérieur</Case><Case(3)>du niveau supérieur</Case></Switch>",0
 492,"山スポット25",0,"",0,0,1,0,0,"",0
 493,"Tour de Syrcus",0,"Tour de Syrcus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Tour de Syrcus</Case><Case(2)>à la Tour de Syrcus</Case><Case(3)>de la Tour de Syrcus</Case></Switch>",0
@@ -1293,7 +1293,7 @@ Guilde des aventuriers",0,0,1,0,0,"",0
 1243,"Donjon",0,"Donjon",0,0,1,0,0,"",0
 1244,"Embarcadère",0,"Embarcadère",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'embarcadère</Case><Case(2)>à l'embarcadère</Case><Case(3)>de l'embarcadère</Case></Switch>",0
 1245,"Embarcadère",0,"Embarcadère",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'embarcadère</Case><Case(2)>à l'embarcadère</Case><Case(3)>de l'embarcadère</Case></Switch>",0
-1246,"Aérodrome",0,"Aérodrome",0,0,1,0,0,"",0
+1246,"Embarcadère",0,"Embarcadère",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'embarcadère</Case><Case(2)>à l'embarcadère</Case><Case(3)>de l'embarcadère</Case></Switch>",0
 1247,"Colonie/Hameau",0,"Colonie/Hameau",0,0,1,0,0,"",0
 1248,"Auberge",0,"Auberge",0,0,1,0,0,"",0
 1249,"Guilde des aventuriers",0,"Guilde des aventuriers",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la guilde des aventuriers</Case><Case(2)>à la guilde des aventuriers</Case><Case(3)>de la guilde des aventuriers</Case></Switch>",0
@@ -3207,13 +3207,13 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3155,"Faveur de Jenanna",0,"Faveur de Jenanna",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Faveur de Jenanna</Case><Case(2)>à la Faveur de Jenanna</Case><Case(3)>de la Faveur de Jenanna</Case></Switch>",0
 3156,"Pla Enni",0,"Pla Enni",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Pla Enni</Case><Case(2)>à Pla Enni</Case><Case(3)>de Pla Enni</Case></Switch>",0
 3157,"Wolekdorf",0,"Wolekdorf",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Wolekdorf</Case><Case(2)>à Wolekdorf</Case><Case(3)>de Wolekdorf</Case></Switch>",0
-3158,"Bas-fond des Sextuplets",0,"Bas-fond des Sextuplets",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bas-fond des Sextuplets</Case><Case(2)>au bas-fond des Sextuplets</Case><Case(3)>du bas-fond des Sextuplets</Case></Switch>",0
+3158,"Bas-fond des Sextuplés",0,"Bas-fond des Sextuplés",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bas-fond des Sextuplés</Case><Case(2)>au bas-fond des Sextuplés</Case><Case(3)>du bas-fond des Sextuplés</Case></Switch>",0
 3159,"Halte de Dammroen",0,"Halte de Dammroen",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la halte de Dammroen</Case><Case(2)>à la halte de Dammroen</Case><Case(3)>de la halte de Dammroen</Case></Switch>",0
 3160,"Champignonnière de Père Collard",0,"Champignonnière de Père Collard",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la champignonnière de Père Collard</Case><Case(2)>à la champignonnière de Père Collard</Case><Case(3)>de la champignonnière de Père Collard</Case></Switch>",0
 3161,"Temple de Saint-Fathric",0,"Temple de Saint-Fathric",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le temple de Saint-Fathric</Case><Case(2)>au temple de Saint-Fathric</Case><Case(3)>du temple de Saint-Fathric</Case></Switch>",0
 3162,"Bergerie d'Anden",0,"Bergerie d'Anden",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la bergerie d'Anden</Case><Case(2)>à la bergerie d'Anden</Case><Case(3)>de la bergerie d'Anden</Case></Switch>",0
 3163,"Arches d'Earra",0,"Arches d'Earra",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Arches d'Earra</Case><Case(2)>aux Arches d'Earra</Case><Case(3)>des Arches d'Earra</Case></Switch>",0
-3164,"Lyhe-Ghiah",0,"Lyhe-Ghiah",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Lyhe-Ghiah</Case><Case(2)>au Lyhe-Ghiah</Case><Case(3)>du Lyhe-Ghiah</Case></Switch>",0
+3164,"Lyhe Ghiah",0,"Lyhe Ghiah",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Lyhe Ghiah</Case><Case(2)>au Lyhe Ghiah</Case><Case(3)>du Lyhe Ghiah</Case></Switch>",0
 3165,"Marécages du Citia",0,"Marécages du Citia",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les marécages du Citia</Case><Case(2)>dans les marécages du Citia</Case><Case(3)>des marécages du Citia</Case></Switch>",0
 3166,"Lac Tusi Mek'ta",0,"Lac Tusi Mek'ta",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le lac Tusi Mek'ta</Case><Case(2)>au lac Tusi Mek'ta</Case><Case(3)>du lac Tusi Mek'ta</Case></Switch>",0
 3167,"Forêt interdite d'Yx'Maja",0,"Forêt interdite d'Yx'Maja",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la forêt interdite d'Yx'Maja</Case><Case(2)>dans la forêt interdite d'Yx'Maja</Case><Case(3)>de la forêt interdite d'Yx'Maja</Case></Switch>",0
@@ -3263,10 +3263,10 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3211,"La première Calamité",0,"La première Calamité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La première Calamité</Case><Case(2)>à La première Calamité</Case><Case(3)>de La première Calamité</Case></Switch>",0
 3212,"La deuxième Calamité",0,"La deuxième Calamité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la deuxième Calamité</Case><Case(2)>à la deuxième Calamité</Case><Case(3)>de la deuxième Calamité</Case></Switch>",0
 3213,"La troisième Calamité",0,"La troisième Calamité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La troisième Calamité</Case><Case(2)>à La troisième Calamité</Case><Case(3)>de La troisième Calamité</Case></Switch>",0
-3214,"",0,"",0,0,0,0,0,"",0
-3215,"",0,"",0,0,0,0,0,"",0
-3216,"",0,"",0,0,0,0,0,"",0
-3217,"",0,"",0,0,0,0,0,"",0
+3214,"Cœur d'Éden",0,"Cœur d'Éden",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cœur d'Éden</Case><Case(2)>dans le Cœur d'Éden</Case><Case(3)>du Cœur d'Éden</Case></Switch>",0
+3215,"Halo pinaculaire",0,"Halo pinaculaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Halo pinaculaire</Case><Case(2)>au Halo pinaculaire</Case><Case(3)>du Halo pinaculaire</Case></Switch>",0
+3216,"Fosse de Nérée",0,"Fosse de Nérée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la fosse de Nérée</Case><Case(2)>à la fosse de Nérée</Case><Case(3)>de la fosse de Nérée</Case></Switch>",0
+3217,"Mont Atlas",0,"Mont Atlas",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le mont Atlas</Case><Case(2)>au mont Atlas</Case><Case(3)>du mont Atlas</Case></Switch>",0
 3218,"Salle de bal de Titania",0,"Salle de bal de Titania",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle de bal de Titania</Case><Case(2)>dans la salle de bal de Titania</Case><Case(3)>de la salle de bal de Titania</Case></Switch>",0
 3219,"Couronne de l'Immaculé",0,"Couronne de l'Immaculé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Couronne de l'Immaculé</Case><Case(2)>à la Couronne de l'Immaculé</Case><Case(3)>de la Couronne de l'Immaculé</Case></Switch>",0
 3220,"Râle de l'Agonie",0,"Râle de l'Agonie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Râle de l'Agonie</Case><Case(2)>au Râle de l'Agonie</Case><Case(3)>du Râle de l'Agonie</Case></Switch>",0
@@ -3278,13 +3278,13 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3226,"Mines des Nabaath",0,"Mines des Nabaath",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les mines des Nabaath</Case><Case(2)>aux mines des Nabaath</Case><Case(3)>des mines des Nabaath</Case></Switch>",0
 3227,"Vestiges ronka",0,"Vestiges ronka",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les vestiges ronka</Case><Case(2)>aux vestiges ronka</Case><Case(3)>des vestiges ronka</Case></Switch>",0
 3228,"Confessionnal de Toupasa l'ancien",0,"Confessionnal de Toupasa l'ancien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Confessionnal de Toupasa l'ancien</Case><Case(2)>au Confessionnal de Toupasa l'ancien</Case><Case(3)>du Confessionnal de Toupasa l'ancien</Case></Switch>",0
-3229,"",0,"",0,0,0,0,0,"",0
-3230,"",0,"",0,0,0,0,0,"",0
-3231,"",0,"",0,0,0,0,0,"",0
-3232,"",0,"",0,0,0,0,0,"",0
-3233,"",0,"",0,0,0,0,0,"",0
-3234,"",0,"",0,0,0,0,0,"",0
-3235,"",0,"",0,0,0,0,0,"",0
+3229,"Donjon hypogéen du Lyhe Ghiah",0,"Donjon hypogéen du Lyhe Ghiah",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Donjon hypogéen du Lyhe Ghiah</Case><Case(2)>dans le Donjon hypogéen du Lyhe Ghiah</Case><Case(3)>du Donjon hypogéen du Lyhe Ghiah</Case></Switch>",0
+3230,"Entrée du donjon",0,"Entrée du donjon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrée du donjon</Case><Case(2)>à l'entrée du donjon</Case><Case(3)>de l'entrée du donjon</Case></Switch>",0
+3231,"Première salle",0,"Première salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la première salle</Case><Case(2)>dans la première salle</Case><Case(3)>de la première salle</Case></Switch>",0
+3232,"Deuxième salle",0,"Deuxième salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la deuxième salle</Case><Case(2)>dans la deuxième salle</Case><Case(3)>de la deuxième salle</Case></Switch>",0
+3233,"Troisième salle",0,"Troisième salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la troisième salle</Case><Case(2)>dans la troisième salle</Case><Case(3)>de la troisième salle</Case></Switch>",0
+3234,"Quatrième salle",0,"Quatrième salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la quatrième salle</Case><Case(2)>dans la quatrième salle</Case><Case(3)>de la quatrième salle</Case></Switch>",0
+3235,"Dernière salle",0,"Dernière salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la dernière salle</Case><Case(2)>dans la dernière salle</Case><Case(3)>de la dernière salle</Case></Switch>",0
 3236,"La Rotonde",0,"La Rotonde",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Rotonde</Case><Case(2)>à La Rotonde</Case><Case(3)>de La Rotonde</Case></Switch>",0
 3237,"Le Baldaquin",0,"Le Baldaquin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Baldaquin</Case><Case(2)>au Baldaquin</Case><Case(3)>du Baldaquin</Case></Switch>",0
 3238,"Le Trivium",0,"Le Trivium",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Trivium</Case><Case(2)>au Trivium</Case><Case(3)>du Trivium</Case></Switch>",0
@@ -3366,7 +3366,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3314,"Eaux grises de la champignonnière",0,"Eaux grises de la champignonnière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les eaux grises de la champignonnière</Case><Case(2)>dans les eaux grises de la champignonnière</Case><Case(3)>des eaux grises de la champignonnière</Case></Switch>",0
 3315,"Lac Tusi Mek'ta",0,"Lac Tusi Mek'ta",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le lac Tusi Mek'ta</Case><Case(2)>au lac Tusi Mek'ta</Case><Case(3)>du lac Tusi Mek'ta</Case></Switch>",0
 3316,"Calice rouge",0,"Calice rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Calice rouge</Case><Case(2)>au Calice rouge</Case><Case(3)>du Calice rouge</Case></Switch>",0
-3317,"Rotzatl",0,"Rotzatl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Rotzatl</Case><Case(2)>à la Rotzatl</Case><Case(3)>de la Rotzatl</Case></Switch>",0
+3317,"Lozatl",0,"Lozatl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Lozatl</Case><Case(2)>à la Lozatl</Case><Case(3)>de la Lozatl</Case></Switch>",0
 3318,"Aval de la Nostalgie de Mjrl",0,"Aval de la Nostalgie de Mjrl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'aval de la Nostalgie de Mjrl</Case><Case(2)>en aval de la Nostalgie de Mjrl</Case><Case(3)>de l'aval de la Nostalgie de Mjrl</Case></Switch>",0
 3319,"Solide Serment",0,"Solide Serment",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Solide Serment</Case><Case(2)>à Solide Serment</Case><Case(3)>de Solide Serment</Case></Switch>",0
 3320,"Cellier du Flet",0,"Cellier du Flet",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cellier du Flet</Case><Case(2)>au cellier du Flet</Case><Case(3)>de cellier du Flet</Case></Switch>",0
@@ -3393,7 +3393,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3341,"Nord-est de L'Origine",0,"Nord-est de L'Origine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la partie nord-est de L'Origine</Case><Case(2)>dans la partie nord-est de L'Origine</Case><Case(3)>de la partie nord-est de L'Origine</Case></Switch>",0
 3342,"Île de Ken",0,"Île de Ken",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île de Ken</Case><Case(2)>sur l'île de Ken</Case><Case(3)>de l'île de Ken</Case></Switch>",0
 3343,"Sud-est de L'Origine",0,"Sud-est de L'Origine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la partie sud-est de L'Origine</Case><Case(2)>dans la partie sud-est de L'Origine</Case><Case(3)>de la partie sud-est de L'Origine</Case></Switch>",0
-3344,"Nord du Lyhe-Ghiah",0,"Nord du Lyhe-Ghiah",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord du Lyhe-Ghiah</Case><Case(2)>au nord du Lyhe-Ghiah</Case><Case(3)>du nord du Lyhe-Ghiah</Case></Switch>",0
+3344,"Nord du Lyhe Ghiah",0,"Nord du Lyhe Ghiah",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord du Lyhe Ghiah</Case><Case(2)>au nord du Lyhe Ghiah</Case><Case(3)>du nord du Lyhe Ghiah</Case></Switch>",0
 3345,"Bois Profond",0,"Bois Profond",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Bois Profond</Case><Case(2)>à Bois Profond</Case><Case(3)>de Bois Profond</Case></Switch>",0
 3346,"Centre du lac Psyché",0,"Centre du lac Psyché",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le centre du lac Psyché</Case><Case(2)>au centre du lac Psyché</Case><Case(3)>du centre du lac Psyché</Case></Switch>",0
 3347,"Thysm Lran",0,"Thysm Lran",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Thysm Lran</Case><Case(2)>à Thysm Lran</Case><Case(3)>de Thysm Lran</Case></Switch>",0
@@ -3406,14 +3406,14 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3354,"Conseil des Barbes longues",0,"Conseil des Barbes longues",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Conseil des Barbes longues</Case><Case(2)>au Conseil des Barbes longues</Case><Case(3)>du Conseil des Barbes longues</Case></Switch>",0
 3355,"La Jacasserie",0,"La Jacasserie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Jacasserie</Case><Case(2)>à La Jacasserie</Case><Case(3)>de La Jacasserie</Case></Switch>",0
 3356,"Mithai Glorianda",0,"Mithai Glorianda",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Mithai Glorianda</Case><Case(2)>à Mithai Glorianda</Case><Case(3)>de Mithai Glorianda</Case></Switch>",0
-3357,"Arches des nobles Veuves",0,"Arches des nobles Veuves",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les arches des nobles Veuves</Case><Case(2)>sous les arches des nobles Veuves</Case><Case(3)>des arches des nobles Veuves</Case></Switch>",0
-3358,"Route de la Laine",0,"Route de la Laine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la route de la Laine</Case><Case(2)>sur la route de la Laine</Case><Case(3)>de la route de la Laine</Case></Switch>",0
+3357,"Arches de la Marquise",0,"Arches de la Marquise",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les arches de la Marquise</Case><Case(2)>aux arches de la Marquise</Case><Case(3)>des arches de la Marquise</Case></Switch>",0
+3358,"Route de la laine",0,"Route de la laine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la route de la laine</Case><Case(2)>sur la route de la laine</Case><Case(3)>de la route de la laine</Case></Switch>",0
 3359,"Mithai Glorianda",0,"Mithai Glorianda",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Mithai Glorianda</Case><Case(2)>à Mithai Glorianda</Case><Case(3)>de Mithai Glorianda</Case></Switch>",0
 3360,"Falaise des Muets",0,"Falaise des Muets",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la falaise des Muets</Case><Case(2)>à la falaise des Muets</Case><Case(3)>de la falaise des Muets</Case></Switch>",0
 3361,"La Trébuche",0,"La Trébuche",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Trébuche</Case><Case(2)>à La Trébuche</Case><Case(3)>de La Trébuche</Case></Switch>",0
 3362,"Lac Kamala",0,"Lac Kamala",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le lac Kamala</Case><Case(2)>au lac Kamala</Case><Case(3)>du lac Kamala</Case></Switch>",0
 3363,"Géant accroupi",0,"Le Géant accroupi",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Géant accroupi</Case><Case(2)>au Géant accroupi</Case><Case(3)>du Géant accroupi</Case></Switch>",0
-3364,"Rotzatl",0,"Rotzatl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Rotzatl</Case><Case(2)>à la Rotzatl</Case><Case(3)>de la Rotzatl</Case></Switch>",0
+3364,"Lozatl",0,"Lozatl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Lozatl</Case><Case(2)>à la Lozatl</Case><Case(3)>de la Lozatl</Case></Switch>",0
 3365,"Calice rouge",0,"Calice rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Calice rouge</Case><Case(2)>au Calice rouge</Case><Case(3)>du Calice rouge</Case></Switch>",0
 3366,"Île aux Arcs",0,"Île aux Arcs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île aux Arcs</Case><Case(2)>à l'île aux Arcs</Case><Case(3)>de l'île aux Arcs</Case></Switch>",0
 3367,"Île aux Sœurs",0,"Île aux Sœurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île aux Sœurs</Case><Case(2)>à l'île aux Sœurs</Case><Case(3)>de l'île aux Sœurs</Case></Switch>",0
@@ -3424,12 +3424,70 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3372,"Appontement",0,"Appontements",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'appontement</Case><Case(2)>à l'appontement</Case><Case(3)>de l'appontement</Case></Switch>",0
 3373,"Abîme d'Ox'Dalan",0,"Abîme d'Ox'Dalan",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Abîme d'Ox'Dalan</Case><Case(2)>à l'Abîme d'Ox'Dalan</Case><Case(3)>de l'Abîme d'Ox'Dalan</Case></Switch>",0
 3374,"Relais à amaros",0,"Relais à amaros",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le relais à amaros</Case><Case(2)>au relais à amaros</Case><Case(3)>du relais à amaros</Case></Switch>",0
-3375,"",0,"",0,0,0,0,0,"",0
-3376,"",0,"",0,0,0,0,0,"",0
-3377,"",0,"",0,0,0,0,0,"",0
+3375,"La Cour martiale",0,"La Cour martiale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Cour martiale</Case><Case(2)>à La Cour martiale</Case><Case(3)>de La Cour martiale</Case></Switch>",0
+3376,"La Source de Quintessence",0,"La Source de Quintessence",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Source de Quintessence</Case><Case(2)>à La Source de Quintessence</Case><Case(3)>de La Source de Quintessence</Case></Switch>",0
+3377,"Le Chœur céleste",0,"Le Chœur céleste",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Chœur céleste</Case><Case(2)>au Chœur céleste</Case><Case(3)>du Chœur céleste</Case></Switch>",0
 3378,"",0,"",0,0,0,0,0,"",0
 3379,"",0,"",0,0,0,0,0,"",0
 3380,"",0,"",0,0,0,0,0,"",0
 3381,"",0,"",0,0,0,0,0,"",0
 3382,"",0,"",0,0,0,0,0,"",0
 3383,"",0,"",0,0,0,0,0,"",0
+3384,"",0,"",0,0,0,0,0,"",0
+3385,"Cosmos coruscant",0,"Cosmos coruscant",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cosmos coruscant</Case><Case(2)>au Cosmos coruscant</Case><Case(3)>du Cosmos coruscant</Case></Switch>",0
+3386,"Quartiers des chevaliers",0,"Quartiers des chevaliers",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les quartiers des chevaliers</Case><Case(2)>aux quartiers des chevaliers</Case><Case(3)>des quartiers des chevaliers</Case></Switch>",0
+3387,"Jardin de la reine",0,"Jardin de la reine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le jardin de la reine</Case><Case(2)>au jardin de la reine</Case><Case(3)>du jardin de la reine</Case></Switch>",0
+3388,"Résidence du roi",0,"Résidence du roi",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la résidence du roi</Case><Case(2)>à la résidence du roi</Case><Case(3)>de la résidence du roi</Case></Switch>",0
+3389,"Salle des chevaliers",0,"Salle des chevaliers",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des chevaliers</Case><Case(2)>dans la salle des chevaliers</Case><Case(3)>de la salle des chevaliers</Case></Switch>",0
+3390,"Salle des lames",0,"Salle des lames",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des lames</Case><Case(2)>dans la salle des lames</Case><Case(3)>de la salle des lames</Case></Switch>",0
+3391,"Bassin murrhin",0,"Bassin murrhin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bassin murrhin</Case><Case(2)>au bassin murrhin</Case><Case(3)>du bassin murrhin</Case></Switch>",0
+3392,"Salle des banquets",0,"Salle des banquets",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des banquets</Case><Case(2)>dans la salle des banquets</Case><Case(3)>de la salle des banquets</Case></Switch>",0
+3393,"Salle des héros",0,"Salle des héros",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des héros</Case><Case(2)>dans la salle des héros</Case><Case(3)>de la salle des héros</Case></Switch>",0
+3394,"Salle de bal",0,"Salle de bal",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle de bal</Case><Case(2)>dans la salle de bal</Case><Case(3)>de la salle de bal</Case></Switch>",0
+3395,"Niveau supérieur",0,"Niveau supérieur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau supérieur</Case><Case(2)>au niveau supérieur</Case><Case(3)>du niveau supérieur</Case></Switch>",0
+3396,"Niveau médian",0,"Niveau médian",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian</Case><Case(2)>au niveau médian</Case><Case(3)>du niveau médian</Case></Switch>",0
+3397,"Niveau inférieur",0,"Niveau inférieur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau inférieur</Case><Case(2)>au niveau inférieur</Case><Case(3)>du niveau inférieur</Case></Switch>",0
+3398,"Profondeurs",0,"Profondeurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les profondeurs</Case><Case(2)>aux profondeurs</Case><Case(3)>des profondeurs</Case></Switch>",0
+3399,"Secteur 1",0,"Secteur 1",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le secteur 1</Case><Case(2)>au secteur 1</Case><Case(3)>du secteur 1</Case></Switch>",0
+3400,"Secteur 2",0,"Secteur 2",0,0,1,0,0,"<Switch(IntegerParameter(2))><Case(1)>le secteur 2</Case><Case(2)>au secteur 2</Case><Case(3)>du secteur 2</Case></Switch>",0
+3401,"Secteur 3",0,"Secteur 3",0,0,1,0,0,"<Switch(IntegerParameter(3))><Case(1)>le secteur 3</Case><Case(2)>au secteur 3</Case><Case(3)>du secteur 3</Case></Switch>",0
+3402,"Secteur 4",0,"Secteur 4",0,0,1,0,0,"<Switch(IntegerParameter(4))><Case(1)>le secteur 4</Case><Case(2)>au secteur 4</Case><Case(3)>du secteur 4</Case></Switch>",0
+3403,"Secteur 5",0,"Secteur 5",0,0,1,0,0,"<Switch(IntegerParameter(5))><Case(1)>le secteur 5</Case><Case(2)>au secteur 5</Case><Case(3)>du secteur 5</Case></Switch>",0
+3404,"Entrepôt A",0,"Entrepôt A",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrepôt A</Case><Case(2)>à l'entrepôt A</Case><Case(3)>de l'entrepôt A</Case></Switch>",0
+3405,"Entrepôt B",0,"Entrepôt B",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrepôt B</Case><Case(2)>à l'entrepôt B</Case><Case(3)>de l'entrepôt B</Case></Switch>",0
+3406,"Salle de test",0,"Salle de test",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle de test</Case><Case(2)>à la salle de test</Case><Case(3)>de la salle de test</Case></Switch>",0
+3407,"Salle de traitement des déchets",0,"Salle de traitement des déchets",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle de traitement des déchets</Case><Case(2)>à la salle de traitement des déchets</Case><Case(3)>de la salle de traitement des déchets</Case></Switch>",0
+3408,"Entrepôt C",0,"Entrepôt C",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrepôt C</Case><Case(2)>à l'entrepôt C</Case><Case(3)>de l'entrepôt C</Case></Switch>",0
+3409,"Colimaçon",0,"Colimaçon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le colimaçon</Case><Case(2)>au colimaçon</Case><Case(3)>du colimaçon</Case></Switch>",0
+3410,"Plate-forme avant",0,"Plate-forme avant",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la plate-forme avant</Case><Case(2)>à la plate-forme avant</Case><Case(3)>de la plate-forme avant</Case></Switch>",0
+3411,"Plate-forme arrière",0,"Plate-forme arrière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la plate-forme arrière</Case><Case(2)>à la plate-forme arrière</Case><Case(3)>de la plate-forme arrière</Case></Switch>",0
+3412,"",0,"",0,0,0,0,0,"",0
+3413,"",0,"",0,0,0,0,0,"",0
+3414,"",0,"",0,0,0,0,0,"",0
+3415,"",0,"",0,0,0,0,0,"",0
+3416,"",0,"",0,0,0,0,0,"",0
+3417,"",0,"",0,0,0,0,0,"",0
+3418,"",0,"",0,0,0,0,0,"",0
+3419,"",0,"",0,0,0,0,0,"",0
+3420,"",0,"",0,0,0,0,0,"",0
+3421,"",0,"",0,0,0,0,0,"",0
+3422,"",0,"",0,0,0,0,0,"",0
+3423,"",0,"",0,0,0,0,0,"",0
+3424,"",0,"",0,0,0,0,0,"",0
+3425,"Réplique de l'usine désaffectée",0,"Réplique de l'usine désaffectée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la réplique de l'usine désaffectée</Case><Case(2)>à la réplique de l'usine désaffectée</Case><Case(3)>de la réplique de l'usine désaffectée</Case></Switch>",0
+3426,"Entrepôt abandonné",0,"Entrepôt abandonné",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrepôt abandonné</Case><Case(2)>à l'entrepôt abandonné</Case><Case(3)>de l'entrepôt abandonné</Case></Switch>",0
+3427,"Entrée des ruines mécaniques",0,"Entrée des ruines mécaniques",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrée des ruines mécaniques</Case><Case(2)>à l'entrée des ruines mécaniques</Case><Case(3)>de l'entrée des ruines mécaniques</Case></Switch>",0
+3428,"Lyhe Mheg",0,"Lyhe Mheg",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Lyhe Mheg</Case><Case(2)>dans le Lyhe Mheg</Case><Case(3)>du Lyhe Mheg</Case></Switch>",0
+3429,"Palais impérial",0,"Palais impérial",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le palais impérial</Case><Case(2)>au palais impérial</Case><Case(3)>du palais impérial</Case></Switch>",0
+3430,"Voie impériale",0,"Voie impériale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voie impériale</Case><Case(2)>sur la voie impériale</Case><Case(3)>de la voie impériale</Case></Switch>",0
+3431,"Croisée de l'Empereur",0,"Croisée de l'Empereur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la croisée de l'Empereur</Case><Case(2)>à la croisée de l'Empereur</Case><Case(3)>de la croisée de l'Empereur</Case></Switch>",0
+3432,"Corridor de liaison",0,"Corridor de liaison",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le corridor de liaison</Case><Case(2)>dans le corridor de liaison</Case><Case(3)>du corridor de liaison</Case></Switch>",0
+3433,"Salle des machines",0,"Salle des machines",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des machines</Case><Case(2)>à la salle des machines</Case><Case(3)>de la salle des machines</Case></Switch>",0
+3434,"Hangar magitek",0,"Hangar magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hangar magitek</Case><Case(2)>au hangar magitek</Case><Case(3)>du hangar magitek</Case></Switch>",0
+3435,"Azurée",0,"Azurée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Azurée</Case><Case(2)>à Azurée</Case><Case(3)>d'Azurée</Case></Switch>",0
+3436,"Esplanade des démunis",0,"Esplanade des démunis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Esplanade des démunis</Case><Case(2)>à l'Esplanade des démunis</Case><Case(3)>de l'Esplanade des démunis</Case></Switch>",0
+3437,"Niveau supérieur",0,"Niveau supérieur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau supérieur</Case><Case(2)>au niveau supérieur</Case><Case(3)>du niveau supérieur</Case></Switch>",0
+3438,"Niveau médian",0,"Niveau médian",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau médian</Case><Case(2)>au niveau médian</Case><Case(3)>du niveau médian</Case></Switch>",0
+3439,"Niveau inférieur",0,"Niveau inférieur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau inférieur</Case><Case(2)>au niveau inférieur</Case><Case(3)>du niveau inférieur</Case></Switch>",0
+3440,"Profondeurs",0,"Profondeurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les profondeurs</Case><Case(2)>dans les profondeurs</Case><Case(3)>des profondeurs</Case></Switch>",0
+3441,"Réplique de l'usine désaffectée",0,"Réplique de l'usine désaffectée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la réplique de l'usine désaffectée</Case><Case(2)>à la réplique de l'usine désaffectée</Case><Case(3)>de la réplique de l'usine désaffectée</Case></Switch>",0
