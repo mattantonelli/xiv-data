@@ -307,7 +307,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte
 303,"Sea of Spires",0,"Sea of Spires",0,0,1,0,0,"",0
 304,"The Golden Bazaar",1,"Golden Bazaar",0,0,1,0,0,"",0
 305,"Halatali",1,"Halatali",0,0,1,0,1,"",0
-306,"Amalj'aa Encampment ",0,"Amalj'aa Encampment ",0,0,1,0,0,"",0
+306,"Amalj'aa Encampment ",0,"Amalj'aa encampment ",0,0,1,0,0,"",0
 307,"Highbridge",0,"Highbridge",0,0,1,0,1,"",0
 308,"Yugr'am River",0,"Yugr'am River",0,0,1,0,0,"",0
 309,"Thal's Respite",0,"Thal's Respite",0,0,1,0,1,"",0
@@ -319,7 +319,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte
 315,"The Sepulchre",0,"Sepulchre",0,0,1,0,0,"",0
 316,"Circle of the Tempered",0,"Circle of the Tempered",0,0,1,0,0,"",0
 317,"Ghostlake",0,"Ghostlake",0,0,1,0,1,"",0
-318,"Zanr'ak Encampment",0,"Zanr'ak Encampment",0,0,1,0,0,"",0
+318,"Zanr'ak Encampment",0,"Zanr'ak encampment",0,0,1,0,0,"",0
 319,"Zanr'ak Altar",0,"Zanr'ak Altar",0,0,1,0,0,"",0
 320,"Zahar'ak",1,"Zahar'ak",0,0,1,0,1,"",0
 321,"Nald's Reflection",0,"Nald's Reflection",0,0,1,0,1,"",0
@@ -425,7 +425,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte
 (The Guardian Tree)",0,0,1,0,1,"",0
 420,"Crystal Tower",0,"Crystal Tower",0,0,1,0,0,"",0
 421,"Silvertear Falls",0,"Silvertear Falls",0,0,1,0,1,"",0
-422,"The Braveheart",2,"Braveheart",0,0,1,0,0,"",0
+422,"The <Emphasis>Braveheart</Emphasis>",2,"<Emphasis>Braveheart</Emphasis>",0,0,1,0,0,"",0
 423,"Entry Counter",0,"entry counter",0,0,1,0,0,"",0
 424,"Wolves' Den Docks",0,"Wolves' Den docks",0,0,1,0,0,"",0
 425,"Mist",1,"Mist",0,0,1,0,1,"",0
@@ -730,14 +730,14 @@ East Shroud",0,0,1,0,1,"",0
 692,"Hall of the Cesti",1,"Hall of the Cesti",0,0,1,0,0,"",0
 693,"Hall of the Secutores",1,"Hall of the Secutores",0,0,1,0,0,"",0
 694,"Hall of the Bestiarii",1,"Hall of the Bestiarii",0,0,1,0,0,"",0
-695,"Frondale's Ward for Friendless Foundlings",0,"Frondale's Ward for Friendless Foundlings",0,0,1,0,1,"",0
+695,"Frondale's Home for Friendless Foundlings",0,"Frondale's Home for Friendless Foundlings",0,0,1,0,1,"",0
 696,"",0,"",0,0,0,0,0,"",0
 697,"",0,"",0,0,0,0,0,"",0
 698,"Hustings Strip",2,"Hustings Strip",0,0,1,0,0,"",0
 699,"",0,"",0,0,0,0,0,"",0
 700,"Upper Decks",2,"upper decks",0,0,1,0,0,"",0
 701,"Lower Decks",2,"lower decks",0,0,1,0,0,"",0
-702,"The Astalicia",0,"<Emphasis>Astalicia</Emphasis>",0,0,1,0,0,"",0
+702,"The <Emphasis>Astalicia</Emphasis>",0,"<Emphasis>Astalicia</Emphasis>",0,0,1,0,0,"",0
 703,"Coral Tower
 (Marauders' Guild)",0,"Coral Tower
 (Marauders' Guild)",0,0,1,0,0,"",0
@@ -2166,7 +2166,7 @@ East Shroud",0,0,1,0,1,"",0
 2112,"Delta Quadrant",1,"Delta Quadrant",0,0,1,0,0,"",0
 2113,"The Habisphere",2,"Habisphere",0,0,1,0,0,"",0
 2114,"The Flagship",2,"Flagship",0,0,1,0,0,"",0
-2115,"The Protector",0,"Protector",0,0,1,0,0,"",0
+2115,"The <Emphasis>Protector</Emphasis>",0,"Protector",0,0,1,0,0,"",0
 2116,"Camp Cloudtop",1,"Camp Cloudtop",0,0,1,0,1,"",0
 2117,"The Rosehouse",0,"Rosehouse",0,0,1,0,0,"",0
 2118,"Ok' Gundu",1,"Ok' Gundu",0,0,1,0,1,"",0
@@ -2306,7 +2306,7 @@ East Shroud",0,0,1,0,1,"",0
 2252,"Landing Site 03",0,"landing site 03",0,0,1,0,1,"",0
 2253,"Landing Site 04",0,"landing site 04",0,0,1,0,1,"",0
 2254,"Landing Site 05",0,"landing site 05",0,0,1,0,1,"",0
-2255,"The Bounty",0,"<Emphasis>Bounty</Emphasis>",0,0,1,0,0,"",0
+2255,"The <Emphasis>Bounty</Emphasis>",0,"<Emphasis>Bounty</Emphasis>",0,0,1,0,0,"",0
 2256,"Containment Bay S1T7",1,"Containment Bay S1T7",0,0,1,0,1,"",0
 2257,"Diadem Skysprings",0,"Diadem skysprings",0,0,1,0,0,"",0
 2258,"Diadem Grotto",1,"Diadem grotto",0,0,1,0,0,"",0
@@ -2578,7 +2578,7 @@ East Shroud",0,0,1,0,1,"",0
 2524,"Loch Seld Northwestern Lakebed",2,"Loch Seld northwestern lakebed",0,0,1,0,0,"",0
 2525,"Loch Seld Central Lakebed",2,"Loch Seld central lakebed",0,0,1,0,0,"",0
 2526,"Loch Seld Southeastern Lakebed",2,"Loch Seld southeastern lakebed",0,0,1,0,0,"",0
-2527,"",0,"",0,0,1,0,0,"",0
+2527,"The Falling City of Nym",1,"Falling City of Nym",0,0,1,0,0,"",0
 2528,"",0,"",0,0,1,0,0,"",0
 2529,"",0,"",0,0,1,0,0,"",0
 2530,"Eureka Pyros",1,"Eureka Pyros",0,0,1,0,1,"",0
@@ -2610,7 +2610,7 @@ East Shroud",0,0,1,0,1,"",0
 2556,"Blue Mage",0,"blue mage",0,0,1,0,0,"",0
 2557,"Personal Suite",1,"personal suite",0,0,1,0,0,"",0
 2558,"The Crystalline Mean",1,"Crystalline Mean",0,0,1,0,0,"",0
-2559,"",0,"",0,0,0,0,0,"",0
+2559,"Skybuilders' Board",0,"skybuilders' board",0,0,1,0,0,"",0
 2560,"",0,"",0,0,0,0,0,"",0
 2561,"",0,"",0,0,0,0,0,"",0
 2562,"",0,"",0,0,0,0,0,"",0
@@ -2985,8 +2985,8 @@ East Shroud",0,0,1,0,1,"",0
 2931,"Kugane Aetheryte Plaza",0,"Kugane aetheryte plaza",0,0,1,0,0,"",0
 2932,"Kugane Ohashi",2,"Kugane Ohashi",0,0,1,0,1,"",0
 2933,"The Dragon's Neck",2,"Dragon's Neck",0,0,1,0,0,"",0
-2934,"",0,"",0,0,1,0,0,"",0
-2935,"",0,"",0,0,1,0,0,"",0
+2934,"Ferry Docks",0,"ferry docks",0,0,1,0,0,"",0
+2935,"",0,"",0,0,0,0,0,"",0
 2936,"",0,"",0,0,1,0,0,"",0
 2937,"",0,"",0,0,1,0,0,"",0
 2938,"",0,"",0,0,1,0,0,"",0
@@ -3068,7 +3068,7 @@ East Shroud",0,0,1,0,1,"",0
 3014,"The Words of Lahabrea",0,"Words of Lahabrea",0,0,1,0,0,"",0
 3015,"The Halls",1,"Halls",0,0,1,0,0,"",0
 3016,"Rooftop",2,"Rooftop",0,0,1,0,0,"",0
-3017,"",0,"",0,0,0,0,0,"",0
+3017,"Liminal Space",1,"liminal space",0,0,1,0,1,"",0
 3018,"The Qitana Ravel",1,"Qitana Ravel",0,0,1,0,0,"",0
 3019,"The Qitari Dissent",0,"Qitari Dissent",0,0,1,0,0,"",0
 3020,"The Divine Threshold",0,"Divine Threshold",0,0,1,0,0,"",0
@@ -3235,7 +3235,7 @@ East Shroud",0,0,1,0,1,"",0
 3181,"The Wild Fete",0,"Wild Fete",0,0,1,0,0,"",0
 3182,"Bowrest",0,"Bowrest",0,0,1,0,1,"",0
 3183,"Mjrl's Regret",0,"Mjrl's Regret",0,0,1,0,1,"",0
-3184,"",0,"",0,0,1,0,0,"",0
+3184,"",0,"",0,0,0,0,0,"",0
 3185,"The Morning Stars",0,"Morning Stars",0,0,1,0,0,"",0
 3186,"Ox'Gatorl Mul",0,"Ox'Gatorl Mul",0,0,1,0,1,"",0
 3187,"Yx'Lokwa Mul",0,"Yx'Lokwa Mul",0,0,1,0,1,"",0
@@ -3429,13 +3429,13 @@ East Shroud",0,0,1,0,1,"",0
 3375,"The Martial Court",1,"Martial Court",0,0,1,0,0,"",0
 3376,"The Font of Quintessence",1,"Font of Quintessence",0,0,1,0,0,"",0
 3377,"The Chamber of Celestial Song",1,"Chamber of Celestial Song",0,0,1,0,0,"",0
-3378,"",0,"",0,0,0,0,0,"",0
-3379,"",0,"",0,0,0,0,0,"",0
-3380,"",0,"",0,0,0,0,0,"",0
-3381,"",0,"",0,0,0,0,0,"",0
-3382,"",0,"",0,0,0,0,0,"",0
-3383,"",0,"",0,0,0,0,0,"",0
-3384,"",0,"",0,0,0,0,0,"",0
+3378,"Onsal Hakair",1,"Onsal Hakair",0,0,1,0,1,"",0
+3379,"Western Onsal Hakair",1,"western Onsal Hakair",0,0,1,0,1,"",0
+3380,"Eastern Onsal Hakair",1,"eastern Onsal Hakair",0,0,1,0,1,"",0
+3381,"Southern Onsal Hakair",1,"southern Onsal Hakair",0,0,1,0,1,"",0
+3382,"Bagurchi Abjiya",0,"Bagurchi Abjiya",0,0,1,0,1,"",0
+3383,"Bagurchi's Vindication",0,"Bagurchi's Vindication",0,0,1,0,1,"",0
+3384,"Bagurchi's Foresight",0,"Bagurchi's Foresight",0,0,1,0,1,"",0
 3385,"The Grand Cosmos",1,"Grand Cosmos",0,0,1,0,0,"",0
 3386,"The Chivalric Sphere",1,"Chivalric Sphere",0,0,1,0,0,"",0
 3387,"The Regal Sphere",1,"Regal Sphere",0,0,1,0,0,"",0
@@ -3463,20 +3463,20 @@ East Shroud",0,0,1,0,1,"",0
 3409,"Winding Walkway",2,"winding walkway",0,0,1,0,0,"",0
 3410,"Forward Deck",2,"forward deck",0,0,1,0,0,"",0
 3411,"Rear Deck",2,"rear deck",0,0,1,0,0,"",0
-3412,"",0,"",0,0,0,0,0,"",0
-3413,"",0,"",0,0,0,0,0,"",0
-3414,"",0,"",0,0,0,0,0,"",0
-3415,"",0,"",0,0,0,0,0,"",0
-3416,"",0,"",0,0,0,0,0,"",0
-3417,"",0,"",0,0,0,0,0,"",0
-3418,"",0,"",0,0,0,0,0,"",0
-3419,"",0,"",0,0,0,0,0,"",0
-3420,"",0,"",0,0,0,0,0,"",0
-3421,"",0,"",0,0,0,0,0,"",0
-3422,"",0,"",0,0,0,0,0,"",0
-3423,"",0,"",0,0,0,0,0,"",0
-3424,"",0,"",0,0,0,0,0,"",0
-3425,"The Copied Factory",1,"copied factory",0,0,1,0,0,"",0
+3412,"Ovoo 1",0,"ovoo 1",0,0,1,0,1,"",0
+3413,"Ovoo 2",0,"ovoo 2",0,0,1,0,1,"",0
+3414,"Ovoo 3",0,"ovoo 3",0,0,1,0,1,"",0
+3415,"Ovoo 4",0,"ovoo 4",0,0,1,0,1,"",0
+3416,"Ovoo 5",0,"ovoo 5",0,0,1,0,1,"",0
+3417,"Ovoo 6",0,"ovoo 6",0,0,1,0,1,"",0
+3418,"Ovoo 7",0,"ovoo 7",0,0,1,0,1,"",0
+3419,"Ovoo 8",0,"ovoo 8",0,0,1,0,1,"",0
+3420,"Ovoo 9",0,"ovoo 9",0,0,1,0,1,"",0
+3421,"Ovoo 10",0,"ovoo 10",0,0,1,0,1,"",0
+3422,"Ovoo 11",0,"ovoo 11",0,0,1,0,1,"",0
+3423,"Ovoo 12",0,"ovoo 12",0,0,1,0,1,"",0
+3424,"Ovoo 13",0,"ovoo 13",0,0,1,0,1,"",0
+3425,"The Copied Factory",1,"Copied Factory",0,0,1,0,0,"",0
 3426,"Ruined Warehouse",1,"ruined warehouse",0,0,1,0,0,"",0
 3427,"Excavation Tunnels",1,"excavation tunnels",0,0,1,0,0,"",0
 3428,"Lyhe Mheg",1,"Lyhe Mheg",0,0,1,0,1,"",0
@@ -3492,4 +3492,54 @@ East Shroud",0,0,1,0,1,"",0
 3438,"Middle Stratum",1,"middle stratum",0,0,1,0,0,"",0
 3439,"Lower Stratum",1,"lower stratum",0,0,1,0,0,"",0
 3440,"Deep Stratum",1,"deep stratum",0,0,1,0,0,"",0
-3441,"The Copied Factory",1,"copied factory",0,0,1,0,0,"",0
+3441,"The Copied Factory",1,"Copied Factory",0,0,1,0,0,"",0
+3442,"Cinder Drift",1,"Cinder Drift",0,0,1,0,1,"",0
+3443,"The High Seas",2,"high seas",0,0,1,0,0,"",0
+3444,"Galadion Bay",1,"Galadion Bay",0,0,1,0,1,"",0
+3445,"The Southern Strait of Merlthor",1,"southern Strait of Merlthor",0,0,1,0,0,"",0
+3446,"The Northern Strait of Merlthor",1,"northern Strait of Merlthor",0,0,1,0,0,"",0
+3447,"Rhotano Sea",2,"Rhotano Sea",0,0,1,0,0,"",0
+3448,"Outer Galadion Bay",1,"outer Galadion Bay",0,0,1,0,1,"",0
+3449,"Galadion Spectral Current",2,"Galadion spectral current",0,0,1,0,1,"",0
+3450,"The Southern Strait of Merlthor",1,"southern Strait of Merlthor",0,0,1,0,0,"",0
+3451,"Southern Merlthor Spectral Current",2,"southern Merlthor spectral current",0,0,1,0,0,"",0
+3452,"The Northern Strait of Merlthor",1,"northern Strait of Merlthor",0,0,1,0,0,"",0
+3453,"Northern Merlthor Spectral Current",2,"northern Merlthor spectral current",0,0,1,0,0,"",0
+3454,"Open Rhotano Sea",2,"open Rhotano Sea",0,0,1,0,0,"",0
+3455,"Rhotano Spectral Current",2,"Rhotano spectral current",0,0,1,0,1,"",0
+3456,"Central Lake Tusi Mek'ta",0,"central Lake Tusi Mek'ta",0,0,1,0,1,"",0
+3457,"South Lake Tusi Mek'ta",0,"south Lake Tusi Mek'ta",0,0,1,0,1,"",0
+3458,"Mjrl's Tears",1,"Mjrl's Tears",0,0,1,0,1,"",0
+3459,"Bismarck's Brow",2,"Bismarck's brow",0,0,1,0,1,"",0
+3460,"The Garden of Recollection",1,"Garden of Recollection",0,0,1,0,0,"",0
+3461,"Anamnesis",1,"Anamnesis",0,0,1,0,1,"",0
+3462,"Katharsis",0,"Katharsis",0,0,1,0,1,"",0
+3463,"Doxa",1,"Doxa",0,0,1,0,1,"",0
+3464,"The Archive Eternal",1,"Archive Eternal",0,0,1,0,0,"",0
+3465,"Noesis",1,"Noesis",0,0,1,0,1,"",0
+3466,"The Setebos Trench",1,"Setebos Trench",0,0,1,0,0,"",0
+3467,"Anamnesis Anyder",1,"Anamnesis Anyder",0,0,1,0,1,"",0
+3468,"The Gandof Thunder Plains",1,"Gandof Thunder Plains",0,0,1,0,0,"",0
+3469,"Ashfall",1,"Ashfall",0,0,1,0,1,"",0
+3470,"The Halo",1,"Halo",0,0,1,0,0,"",0
+3471,"Trial's Threshold",0,"Trial's Threshold",0,0,1,0,1,"",0
+3472,"Hopl's Stopple",1,"Hopl's Stopple",0,0,1,0,1,"",0
+3473,"",0,"",0,0,0,0,0,"",0
+3474,"",0,"",0,0,0,0,0,"",0
+3475,"",0,"",0,0,0,0,0,"",0
+3476,"",0,"",0,0,0,0,0,"",0
+3477,"The <Emphasis>Endeavor</Emphasis>",2,"<Emphasis>Endeavor</Emphasis>",0,0,1,0,0,"",0
+3478,"",0,"",0,0,0,0,0,"",0
+3479,"",0,"",0,0,0,0,0,"",0
+3480,"",0,"",0,0,0,0,0,"",0
+3481,"",0,"",0,0,0,0,0,"",0
+3482,"",0,"",0,0,0,0,0,"",0
+3483,"",0,"",0,0,0,0,0,"",0
+3484,"",0,"",0,0,0,0,0,"",0
+3485,"",0,"",0,0,0,0,0,"",0
+3486,"",0,"",0,0,0,0,0,"",0
+3487,"Great Glacier",2,"great glacier",0,0,1,0,0,"",0
+3488,"Frozen Reflections",2,"frozen reflections",0,0,1,0,0,"",0
+3489,"",0,"",0,0,0,0,0,"",0
+3490,"Sunken Structures",1,"sunken structures",0,0,1,0,0,"",0
+3491,"Sunken Sanctum",1,"sunken sanctum",0,0,1,0,0,"",0

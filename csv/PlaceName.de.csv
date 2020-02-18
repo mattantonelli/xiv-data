@@ -793,7 +793,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 766,"Marodeurgilde (Korallenturm)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Korallenturm</Case><Case(2)>im Korallenturm</Case></Switch>",0
 767,"Kaufmannsplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kaufmannsplatz</Case><Case(2)>am Kaufmannsplatz</Case></Switch>",0
 768,"Fischergilde (Schurkengilde)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Fischergilde</Case><Case(2)>in der Fischergilde</Case></Switch>",0
-769,"Hermetikergilde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Hermetikergilde</Case><Case(2)>in der Hermetikergilde</Case></Switch>",0
+769,"Hermetikergilde (Fähranleger)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Hermetikergilde</Case><Case(2)>in der Hermetikergilde</Case></Switch>",0
 770,"Zephyr-Tor (Zentrales La Noscea)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zephyr-Tor</Case><Case(2)>am Zephyr-Tor</Case></Switch>",0
 771,"Sturmtor (Unteres La Noscea)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sturmtor</Case><Case(2)>am Sturmtor</Case></Switch>",0
 772,"Aben<SoftHyphen/>teurer<SoftHyphen/>gilde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Aben<SoftHyphen/>teurer<SoftHyphen/>gilde</Case><Case(2)>in der Aben<SoftHyphen/>teurer<SoftHyphen/>gilde</Case></Switch>",0
@@ -2552,7 +2552,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2524,"Seldsee (Nordwest)",0,"",0,0,1,0,0,"",0
 2525,"Seldsee (Mitte)",0,"",0,0,1,0,0,"",0
 2526,"Seldsee (Nordost)",0,"",0,0,1,0,0,"",0
-2527,"",0,"",0,0,1,0,0,"",0
+2527,"Schwebende Stadt Nym",0,"",0,0,1,0,0,"",0
 2528,"",0,"",0,0,1,0,0,"",0
 2529,"",0,"",0,0,1,0,0,"",0
 2530,"Eureka Pyros",0,"",0,0,1,0,0,"",0
@@ -2584,7 +2584,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2556,"Blaumagier",0,"",0,0,1,0,0,"",0
 2557,"Quartier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Quartier</Case><Case(2)>im Quartier</Case><Case(3)>das Quartier</Case></Switch>",0
 2558,"Manufaktur der Gemeinschaft",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Manufaktur der Gemeinschaft</Case><Case(2)>in der Manufaktur der Gemeinschaft</Case><Case(3)>die Manufaktur der Gemeinschaft</Case></Switch>",0
-2559,"",0,"",0,0,0,0,0,"",0
+2559,"Schwarzes Brett der Himmelsstadt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schwarzen Brett der Himmelsstadt</Case><Case(2)>am Schwarzen Brett der Himmelsstadt</Case><Case(3)>Schwarzes Brett der Himmelsstadt</Case></Switch>",0
 2560,"",0,"",0,0,0,0,0,"",0
 2561,"",0,"",0,0,0,0,0,"",0
 2562,"",0,"",0,0,0,0,0,"",0
@@ -2959,8 +2959,8 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2931,"Ätherytenplatz",0,"",0,0,1,0,0,"",0
 2932,"Revanche in den Ruinen",0,"",0,0,1,0,0,"",0
 2933,"Drachenhals-Kolosseum",0,"",0,0,1,0,0,"",0
-2934,"",0,"",0,0,1,0,0,"",0
-2935,"",0,"",0,0,1,0,0,"",0
+2934,"Fähranleger",0,"",0,0,1,0,0,"",0
+2935,"",0,"",0,0,0,0,0,"",0
 2936,"",0,"",0,0,1,0,0,"",0
 2937,"",0,"",0,0,1,0,0,"",0
 2938,"",0,"",0,0,1,0,0,"",0
@@ -3042,7 +3042,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3014,"Lahabreas Worte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Lahabreas Worten</Case><Case(2)>bei Lahabreas Worten</Case><Case(3)>Lahabreas Worte</Case></Switch>",0
 3015,"Die Hallen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Hallen</Case><Case(2)>in den Hallen</Case><Case(3)>die Hallen</Case></Switch>",0
 3016,"Das Dach",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Dach</Case><Case(2)>auf dem Dach</Case><Case(3)>das Dach</Case></Switch>",0
-3017,"",0,"",0,0,0,0,0,"",0
+3017,"Geschlossene Raumzeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die geschlossene Raumzeit</Case><Case(2)>in der geschlossenen Raumzeit</Case><Case(3)>die geschlossene Raumzeit</Case></Switch>",0
 3018,"Irrungen der Qitari",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Irrungen der Qitari</Case><Case(2)>in den Irrungen der Qitari</Case><Case(3)>die Irrungen der Qitari</Case></Switch>",0
 3019,"Frage des Gewissens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Frage des Gewissens</Case><Case(2)>in der Frage des Gewissens</Case><Case(3)>der Zugang zur Frage des Gewissens</Case></Switch>",0
 3020,"Götterpforte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Götterpforte</Case><Case(2)>an der Götterpforte</Case><Case(3)>der Zugang zur Götterpforte</Case></Switch>",0
@@ -3164,7 +3164,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3136,"Kelk",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Kelk</Case><Case(2)>in Kelk</Case><Case(3)>Kelk</Case></Switch>",0
 3137,"Gondelturm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gondelturm</Case><Case(2)>am Gondelturm</Case><Case(3)>der Gondelturm</Case></Switch>",0
 3138,"Nuvys Grube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Nuvys Grube</Case><Case(2)>in Nuvys Grube</Case><Case(3)>Nuvys Grube</Case></Switch>",0
-3139,"Südliche Bernsteinhügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Südlichen Bernsteinhügeln</Case><Case(2)>in den Südlichen Bernsteinhügeln</Case><Case(3)>die Südlichen Bernsteinhügel</Case></Switch>",0
+3139,"Malikahs Brunnen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Malikahs Brunnen</Case><Case(2)>in Malikahs Brunnen</Case><Case(3)>Malikahs Brunnen</Case></Switch>",0
 3140,"Der Nasse Bahnhof",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nassen Bahnhof</Case><Case(2)>am Nassen Bahnhof</Case><Case(3)>der Nasse Bahnhof</Case></Switch>",0
 3141,"Gondelturm",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gondelturm</Case><Case(2)>am Gondelturm</Case><Case(3)>der Gondelturm</Case></Switch>",0
 3142,"Palast von Amh Malik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Palast von Amh Malik</Case><Case(2)>im Palast von Amh Malik</Case><Case(3)>der Palast von Amh Malik</Case></Switch>",0
@@ -3192,7 +3192,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3164,"Schloss Lyhe Ghiah",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Schloss Lyhe Ghiah</Case><Case(2)>bei Schloss Lyhe Ghiah</Case><Case(3)>Schloss Lyhe Ghiah</Case></Switch>",0
 3165,"Citia-Sumpfland",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Citia-Sumpfland</Case><Case(2)>im Citia-Sumpfland</Case><Case(3)>das Citia-Sumpfland</Case></Switch>",0
 3166,"Schlangensee Tusi Mek'ta",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlangensee Tusi Mek'ta</Case><Case(2)>am Schlangensee Tusi Mek'ta</Case><Case(3)>der Schlangensee Tusi Mek'ta</Case></Switch>",0
-3167,"Der Ungesehene Wald Yx'Maja",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ungesehenen Wald Yx'Maja</Case><Case(2)>im Ungesehenen Wald Yx'Maja</Case><Case(3)>der Ungesehene Wald Yx'Maja</Case></Switch>",0
+3167,"Der Ungesehene Wald von Yx'Maja",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ungesehenen Wald von Yx'Maja</Case><Case(2)>im Ungesehenen Wald von Yx'Maja</Case><Case(3)>der Ungesehene Wald von Yx'Maja</Case></Switch>",0
 3168,"K'mul-Astropolis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur K'mul-Astropolis</Case><Case(2)>in der K'mul-Astropolis</Case><Case(3)>die K'mul-Astropolis</Case></Switch>",0
 3169,"Gohn-Feste",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Gohn-Feste</Case><Case(2)>in der Gohn-Feste</Case><Case(3)>die Gohn-Feste</Case></Switch>",0
 3170,"Schlangenzweig",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlangenzweig</Case><Case(2)>am Schlangenzweig</Case><Case(3)>der Schlangenzweig</Case></Switch>",0
@@ -3209,7 +3209,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3181,"Wildgarten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Wildgarten</Case><Case(2)>im Wildgarten</Case><Case(3)>der Wildgarten</Case></Switch>",0
 3182,"Bogenruh",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bogenruh</Case><Case(2)>in Bogenruh</Case><Case(3)>Bogenruh</Case></Switch>",0
 3183,"Mjrls Sehnsucht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Mjrls Sehnsucht</Case><Case(2)>in Mjrls Sehnsucht</Case><Case(3)>Mjrls Sehnsucht</Case></Switch>",0
-3184,"",0,"",0,0,1,0,0,"",0
+3184,"",0,"",0,0,0,0,0,"",0
 3185,"Morgensterne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Morgensternen</Case><Case(2)>an den Morgensternen</Case><Case(3)>die Morgensterne</Case></Switch>",0
 3186,"Ox'Gatorl Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Ox'Gatorl Mul</Case><Case(2)>bei Ox'Gatorl Mul</Case><Case(3)>Ox'Gatorl Mul</Case></Switch>",0
 3187,"Yx'Lokwa Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Yx'Lokwa Mul</Case><Case(2)>bei Yx'Lokwa Mul</Case><Case(3)>Yx'Lokwa Mul</Case></Switch>",0
@@ -3342,7 +3342,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3314,"Collards Schwäche",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Collards Schwäche</Case><Case(2)>in Collards Schwäche</Case><Case(3)>Collards Schwäche</Case></Switch>",0
 3315,"Schlangensee Tusi Mek'ta",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlangensee Tusi Mek'ta</Case><Case(2)>am Schlangensee Tusi Mek'ta</Case><Case(3)>der Schlangensee Tusi Mek'ta</Case></Switch>",0
 3316,"Blutkelch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Blutkelch</Case><Case(2)>am Blutkelch</Case><Case(3)>der Blutkelch</Case></Switch>",0
-3317,"Lotzatl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lotzatl</Case><Case(2)>am Lotzatl</Case><Case(3)>der Lotzatl</Case></Switch>",0
+3317,"Lozatl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lozatl</Case><Case(2)>am Lozatl</Case><Case(3)>der Lozatl</Case></Switch>",0
 3318,"Mjrls Sehnsucht (Süden)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Süden von Mjrls Sehnsucht</Case><Case(2)>im Süden von Mjrls Sehnsucht</Case><Case(3)>Süden von Mjrls Sehnsucht</Case></Switch>",0
 3319,"Eidbund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Eidbund</Case><Case(2)>in Eidbund</Case><Case(3)>Eidbund</Case></Switch>",0
 3320,"Flundergrotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Flundergrotte</Case><Case(2)>in der Flundergrotte</Case><Case(3)>die Flundergrotte</Case></Switch>",0
@@ -3389,7 +3389,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3361,"Stolperwald",0,"",0,0,1,0,0,"",0
 3362,"Färberteich",0,"",0,0,1,0,0,"",0
 3363,"Hockender Riese",0,"",0,0,1,0,0,"",0
-3364,"Lotzatl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lotzatl</Case><Case(2)>am Lotzatl</Case><Case(3)>der Lotzatl</Case></Switch>",0
+3364,"Lozatl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lozatl</Case><Case(2)>am Lozatl</Case><Case(3)>der Lozatl</Case></Switch>",0
 3365,"Blutkelch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Blutkelch</Case><Case(2)>am Blutkelch</Case><Case(3)>der Blutkelch</Case></Switch>",0
 3366,"Insel der Bögen",0,"",0,0,1,0,0,"",0
 3367,"Insel der Schwestern",0,"",0,0,1,0,0,"",0
@@ -3403,13 +3403,13 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3375,"Kleine Stufenarkade",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kleinen Stufenarkade</Case><Case(2)>an der Kleinen Stufenarkade</Case><Case(3)>der Zugang zur Kleinen Stufenarkade</Case></Switch>",0
 3376,"Broderieparterre",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Broderieparterre</Case><Case(2)>auf der Broderieparterre</Case><Case(3)>der Zugang zur Broderieparterre</Case></Switch>",0
 3377,"Die Großen Vergnügungen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Großen Vergnügungen</Case><Case(2)>in den Großen Vergnügungen</Case><Case(3)>der Zugang zu den Großen Vergnügungen</Case></Switch>",0
-3378,"",0,"",0,0,0,0,0,"",0
-3379,"",0,"",0,0,0,0,0,"",0
-3380,"",0,"",0,0,0,0,0,"",0
-3381,"",0,"",0,0,0,0,0,"",0
-3382,"",0,"",0,0,0,0,0,"",0
-3383,"",0,"",0,0,0,0,0,"",0
-3384,"",0,"",0,0,0,0,0,"",0
+3378,"Onsal Hakair",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Onsal Hakair</Case><Case(2)>in Onsal Hakair</Case><Case(3)>Onsal Hakair</Case></Switch>",0
+3379,"Westliches Onsal Hakair",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins westliche Onsal Hakair</Case><Case(2)>im westlichen Onsal Hakair</Case><Case(3)>das westliche Onsal Hakair</Case></Switch>",0
+3380,"Östliches Onsal Hakair",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins östliche Onsal Hakair</Case><Case(2)>im östlichen Onsal Hakair</Case><Case(3)>das östliche Onsal Hakair</Case></Switch>",0
+3381,"Südliches Onsal Hakair",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins südliche Onsal Hakair</Case><Case(2)>im südlichen Onsal Hakair</Case><Case(3)>das südliche Onsal Hakair</Case></Switch>",0
+3382,"Bagurchi Abjiya",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bagurchi Abjiya</Case><Case(2)>in Bagurchi Abjiya</Case><Case(3)>Bagurchi Abjiya</Case></Switch>",0
+3383,"Bagurchis Sühne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bagurchis Sühne</Case><Case(2)>in Bagurchis Sühne</Case><Case(3)>Bagurchis Sühne</Case></Switch>",0
+3384,"Bagurchis Vision",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bagurchis Vision</Case><Case(2)>in Bagurchis Vision</Case><Case(3)>Bagurchis Vision</Case></Switch>",0
 3385,"Chateau Cosmea",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Chateau Cosmea</Case><Case(2)>in Chateau Cosmea</Case><Case(3)>das Chateau Cosmea</Case></Switch>",0
 3386,"Marmorflügel",0,"",0,0,1,0,0,"",0
 3387,"Blumenhof der Königlichen Gattin",0,"",0,0,1,0,0,"",0
@@ -3437,19 +3437,19 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3409,"Helixgang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Helixgang</Case><Case(2)>im Helixgang</Case><Case(3)>der Helixgang</Case></Switch>",0
 3410,"Vorderes Deck",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum vorderen Deck</Case><Case(2)>auf dem vorderen Deck</Case><Case(3)>das vordere Deck</Case></Switch>",0
 3411,"Hinteres Deck",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum hinteren Deck</Case><Case(2)>auf dem hinteren Deck</Case><Case(3)>das hintere Deck</Case></Switch>",0
-3412,"",0,"",0,0,0,0,0,"",0
-3413,"",0,"",0,0,0,0,0,"",0
-3414,"",0,"",0,0,0,0,0,"",0
-3415,"",0,"",0,0,0,0,0,"",0
-3416,"",0,"",0,0,0,0,0,"",0
-3417,"",0,"",0,0,0,0,0,"",0
-3418,"",0,"",0,0,0,0,0,"",0
-3419,"",0,"",0,0,0,0,0,"",0
-3420,"",0,"",0,0,0,0,0,"",0
-3421,"",0,"",0,0,0,0,0,"",0
-3422,"",0,"",0,0,0,0,0,"",0
-3423,"",0,"",0,0,0,0,0,"",0
-3424,"",0,"",0,0,0,0,0,"",0
+3412,"Unschuldsfleck 1",0,"",0,0,1,0,0,"",0
+3413,"Unschuldsfleck 2",0,"",0,0,1,0,0,"",0
+3414,"Unschuldsfleck 3",0,"",0,0,1,0,0,"",0
+3415,"Unschuldsfleck 4",0,"",0,0,1,0,0,"",0
+3416,"Unschuldsfleck 5",0,"",0,0,1,0,0,"",0
+3417,"Unschuldsfleck 6",0,"",0,0,1,0,0,"",0
+3418,"Unschuldsfleck 7",0,"",0,0,1,0,0,"",0
+3419,"Unschuldsfleck 8",0,"",0,0,1,0,0,"",0
+3420,"Unschuldsfleck 9",0,"",0,0,1,0,0,"",0
+3421,"Unschuldsfleck 10",0,"",0,0,1,0,0,"",0
+3422,"Unschuldsfleck 11",0,"",0,0,1,0,0,"",0
+3423,"Unschuldsfleck 12",0,"",0,0,1,0,0,"",0
+3424,"Unschuldsfleck 13",0,"",0,0,1,0,0,"",0
 3425,"Die kopierte Fabrik",0,"",0,0,1,0,0,"",0
 3426,"Verlassenes Warenlager",0,"",0,0,1,0,0,"",0
 3427,"Alter Stollen",0,"",0,0,1,0,0,"",0
@@ -3467,3 +3467,53 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3439,"Untergeschoss",0,"",0,0,1,0,0,"",0
 3440,"Fabriktiefen",0,"",0,0,1,0,0,"",0
 3441,"Die kopierte Fabrik",0,"",0,0,1,0,0,"",0
+3442,"Verteidigungslinie Ghimlyt",0,"",0,0,1,0,0,"",0
+3443,"Auf Hoher See",0,"",0,0,1,0,0,"",0
+3444,"Galadion-Bucht",0,"",0,0,1,0,0,"",0
+3445,"Merlthorstraße (Süd)",0,"",0,0,1,0,0,"",0
+3446,"Merlthorstraße (Nord)",0,"",0,0,1,0,0,"",0
+3447,"Rhotano-See",0,"",0,0,1,0,0,"",0
+3448,"Galadion-Bucht - Hochsee",0,"",0,0,1,0,0,"",0
+3449,"Galadion-Bucht - Phantomströmung",0,"",0,0,1,0,0,"",0
+3450,"Südliche Straße von Merlthor",0,"",0,0,1,0,0,"",0
+3451,"Merlthorstraße (Süd) - Phantomströmung",0,"",0,0,1,0,0,"",0
+3452,"Nördliche Straße von Merlthor",0,"",0,0,1,0,0,"",0
+3453,"Merlthorstraße (Nord) - Phantomströmung",0,"",0,0,1,0,0,"",0
+3454,"Rhotano-See - Hochsee",0,"",0,0,1,0,0,"",0
+3455,"Rhotano-See - Phantomströmung",0,"",0,0,1,0,0,"",0
+3456,"Tusi Mek'ta (Mitte)",0,"",0,0,1,0,0,"",0
+3457,"Tusi Mek'ta (Süden)",0,"",0,0,1,0,0,"",0
+3458,"Mjrls Tränen",0,"",0,0,1,0,0,"",0
+3459,"Bismarcks Stirn",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Bismarcks Stirn</Case><Case(2)>auf Bismarcks Stirn</Case><Case(3)>Bismarcks Stirn</Case></Switch>",0
+3460,"Garten der Erinnerungen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Garten der Erinnerungen</Case><Case(2)>in den Garten der Erinnerungen</Case><Case(3)>der Garten der Erinnerungen</Case></Switch>",0
+3461,"Halle der Erinnerungen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Erinnerungen</Case><Case(2)>in die Halle der Erinnerungen</Case><Case(3)>die Halle der Erinnerungen</Case></Switch>",0
+3462,"Platz der Katharsis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Platz der Katharsis</Case><Case(2)>auf den Platz der Katharsis</Case><Case(3)>der Platz der Katharsis</Case></Switch>",0
+3463,"Platz der Doxa",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Platz der Doxa</Case><Case(2)>auf den Platz der Doxa</Case><Case(3)>der Platz der Doxa</Case></Switch>",0
+3464,"Halle der Ideen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Ideen</Case><Case(2)>in die Halle der Ideen</Case><Case(3)>die Halle der Ideen</Case></Switch>",0
+3465,"Die Noesis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Noesis</Case><Case(2)>in die Noesis</Case><Case(3)>die Noesis</Case></Switch>",0
+3466,"Setebos-Tiefseegraben",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Setebos-Tiefseegraben</Case><Case(2)>in den Setebos-Tiefseegraben</Case><Case(3)>der Setebos-Tiefseegraben</Case></Switch>",0
+3467,"Anamnesis Anyder",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Anamnesis Anyder</Case><Case(2)>in der Anamnesis Anyder</Case><Case(3)>die Anamnesis Anyder</Case></Switch>",0
+3468,"Gandoph-Donnersteppe",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Gandoph-Donnersteppe</Case><Case(2)>in die Gandoph-Donnersteppe</Case><Case(3)>die Gandoph-Donnersteppe</Case></Switch>",0
+3469,"Aschenfall",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Aschenfall</Case><Case(2)>in Aschenfall</Case><Case(3)>Aschenfall</Case></Switch>",0
+3470,"Das Deck",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Deck</Case><Case(2)>das Deck</Case><Case(3)>der Zugang zum Deck</Case></Switch>",0
+3471,"Halle der Prüfung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Prüfung</Case><Case(2)>in der Halle der Prüfung</Case><Case(3)>die Halle der Prüfung</Case></Switch>",0
+3472,"Hopls Pfropfen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Hopls Pfropfen</Case><Case(2)>in Hopls Pfropfen</Case><Case(3)>Hopls Pfropfen</Case></Switch>",0
+3473,"",0,"",0,0,0,0,0,"",0
+3474,"",0,"",0,0,0,0,0,"",0
+3475,"",0,"",0,0,0,0,0,"",0
+3476,"",0,"",0,0,0,0,0,"",0
+3477,"Die <Emphasis>Endeavor</Emphasis>",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die <Emphasis>Endeavor</Emphasis></Case><Case(2)>auf der <Emphasis>Endeavor</Emphasis></Case><Case(3)>die <Emphasis>Endeavor</Emphasis></Case></Switch>",0
+3478,"",0,"",0,0,0,0,0,"",0
+3479,"",0,"",0,0,0,0,0,"",0
+3480,"",0,"",0,0,0,0,0,"",0
+3481,"",0,"",0,0,0,0,0,"",0
+3482,"",0,"",0,0,0,0,0,"",0
+3483,"",0,"",0,0,0,0,0,"",0
+3484,"",0,"",0,0,0,0,0,"",0
+3485,"",0,"",0,0,0,0,0,"",0
+3486,"",0,"",0,0,0,0,0,"",0
+3487,"Gletscher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gletscher</Case><Case(2)>im Gletscher</Case><Case(3)>der Gletscher</Case></Switch>",0
+3488,"Gespaltener Gletscher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum gespaltenen Gletscher</Case><Case(2)>im gespaltenen Gletscher</Case><Case(3)>der gespaltene Gletscher</Case></Switch>",0
+3489,"",0,"",0,0,0,0,0,"",0
+3490,"Versunkener Vorplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum versunkenen Vorplatz</Case><Case(2)>auf den versunkenen Vorplatz</Case><Case(3)>der versunkene Vorplatz</Case></Switch>",0
+3491,"Versunkene Hallen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den versunkenen Hallen</Case><Case(2)>in die versunkenen Hallen</Case><Case(3)>die versunkene Halle</Case></Switch>",0
