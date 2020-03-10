@@ -2585,7 +2585,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2557,"Quartier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Quartier</Case><Case(2)>im Quartier</Case><Case(3)>das Quartier</Case></Switch>",0
 2558,"Manufaktur der Gemeinschaft",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Manufaktur der Gemeinschaft</Case><Case(2)>in der Manufaktur der Gemeinschaft</Case><Case(3)>die Manufaktur der Gemeinschaft</Case></Switch>",0
 2559,"Schwarzes Brett der Himmelsstadt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schwarzen Brett der Himmelsstadt</Case><Case(2)>am Schwarzen Brett der Himmelsstadt</Case><Case(3)>Schwarzes Brett der Himmelsstadt</Case></Switch>",0
-2560,"",0,"",0,0,0,0,0,"",0
+2560,"Glücks-Kupo",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glücks-Kupo</Case><Case(2)>am Glücks-Kupo</Case><Case(3)>das Glücks-Kupo</Case></Switch>",0
 2561,"",0,"",0,0,0,0,0,"",0
 2562,"",0,"",0,0,0,0,0,"",0
 2563,"",0,"",0,0,0,0,0,"",0
@@ -3209,7 +3209,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3181,"Wildgarten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Wildgarten</Case><Case(2)>im Wildgarten</Case><Case(3)>der Wildgarten</Case></Switch>",0
 3182,"Bogenruh",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bogenruh</Case><Case(2)>in Bogenruh</Case><Case(3)>Bogenruh</Case></Switch>",0
 3183,"Mjrls Sehnsucht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Mjrls Sehnsucht</Case><Case(2)>in Mjrls Sehnsucht</Case><Case(3)>Mjrls Sehnsucht</Case></Switch>",0
-3184,"",0,"",0,0,0,0,0,"",0
+3184,"Wirbelwind",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wirbelwind</Case><Case(2)>in Wirbelwind</Case><Case(3)>Wirbelwind</Case></Switch>",0
 3185,"Morgensterne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Morgensternen</Case><Case(2)>an den Morgensternen</Case><Case(3)>die Morgensterne</Case></Switch>",0
 3186,"Ox'Gatorl Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Ox'Gatorl Mul</Case><Case(2)>bei Ox'Gatorl Mul</Case><Case(3)>Ox'Gatorl Mul</Case></Switch>",0
 3187,"Yx'Lokwa Mul",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Yx'Lokwa Mul</Case><Case(2)>bei Yx'Lokwa Mul</Case><Case(3)>Yx'Lokwa Mul</Case></Switch>",0
@@ -3468,19 +3468,19 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3440,"Fabriktiefen",0,"",0,0,1,0,0,"",0
 3441,"Die kopierte Fabrik",0,"",0,0,1,0,0,"",0
 3442,"Verteidigungslinie Ghimlyt",0,"",0,0,1,0,0,"",0
-3443,"Auf Hoher See",0,"",0,0,1,0,0,"",0
-3444,"Galadion-Bucht",0,"",0,0,1,0,0,"",0
-3445,"Merlthorstraße (Süd)",0,"",0,0,1,0,0,"",0
-3446,"Merlthorstraße (Nord)",0,"",0,0,1,0,0,"",0
-3447,"Rhotano-See",0,"",0,0,1,0,0,"",0
-3448,"Galadion-Bucht - Hochsee",0,"",0,0,1,0,0,"",0
-3449,"Galadion-Bucht - Phantomströmung",0,"",0,0,1,0,0,"",0
-3450,"Südliche Straße von Merlthor",0,"",0,0,1,0,0,"",0
-3451,"Merlthorstraße (Süd) - Phantomströmung",0,"",0,0,1,0,0,"",0
-3452,"Nördliche Straße von Merlthor",0,"",0,0,1,0,0,"",0
-3453,"Merlthorstraße (Nord) - Phantomströmung",0,"",0,0,1,0,0,"",0
-3454,"Rhotano-See - Hochsee",0,"",0,0,1,0,0,"",0
-3455,"Rhotano-See - Phantomströmung",0,"",0,0,1,0,0,"",0
+3443,"Auf Hoher See",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Hohen See</Case><Case(2)>auf Hoher See</Case><Case(3)>die Hohe See</Case></Switch>",0
+3444,"Galadion-Bucht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Galadion-Bucht</Case><Case(2)>in der Gladion-Bucht</Case><Case(3)>die Gladion-Bucht</Case></Switch>",0
+3445,"Merlthorstraße (Süd)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Merlthorstraße Süd</Case><Case(2)>in der Merlthorstraße Süd</Case><Case(3)>die Merlthorstraße Süd</Case></Switch>",0
+3446,"Merlthorstraße (Nord)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Merlthorstraße Nord</Case><Case(2)>in der Merlthorstraße Nord</Case><Case(3)>die Merlthorstraße Nord</Case></Switch>",0
+3447,"Rhotano-See",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rhotano-See</Case><Case(2)>auf der Rhotano-See</Case><Case(3)>die Rhotano-See</Case></Switch>",0
+3448,"Galadion-Bucht - Hochsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Galadion-Bucht - Hochsee</Case><Case(2)>in der Gladion-Bucht - Hochsee</Case><Case(3)>die Gladion-Bucht - Hochsee</Case></Switch>",0
+3449,"Galadion-Bucht - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Galadion-Bucht - Phantomströmung</Case><Case(2)>in der Gladion-Bucht - Phantomströmung</Case><Case(3)>die Gladion-Bucht - Phantomströmung</Case></Switch>",0
+3450,"Südliche Straße von Merlthor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Südlichen Straße von Merlthor</Case><Case(2)>in der Südlichen Straße von Merlthor</Case><Case(3)>die Südliche Straße von Merlthor</Case></Switch>",0
+3451,"Merlthorstraße (Süd) - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Merlthorstraße Süd - Phantomströmung</Case><Case(2)>in der Merlthorstraße Süd - Phantomströmung</Case><Case(3)>die Merlthorstraße Süd - Phantomströmung</Case></Switch>",0
+3452,"Nördliche Straße von Merlthor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Nördlichen Straße von Merlthor</Case><Case(2)>in der Nördlichen Straße von Merlthor</Case><Case(3)>die Nördlichen Straße von Merlthor</Case></Switch>",0
+3453,"Merlthorstraße (Nord) - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Merlthorstraße Nord - Phantomströmung</Case><Case(2)>in der Merlthorstraße Nord - Phantomströmung</Case><Case(3)>die Merlthorstraße Nord - Phantomströmung</Case></Switch>",0
+3454,"Rhotano-See - Hochsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rhotano-See - Hochsee</Case><Case(2)>auf der Rhotano-See - Hochsee</Case><Case(3)>die Rhotano-See - Hochsee</Case></Switch>",0
+3455,"Rhotano-See - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rhotano-See - Phantomströmung</Case><Case(2)>auf der Rhotano-See - Phantomströmung</Case><Case(3)>die Rhotano-See - Phantomströmung</Case></Switch>",0
 3456,"Tusi Mek'ta (Mitte)",0,"",0,0,1,0,0,"",0
 3457,"Tusi Mek'ta (Süden)",0,"",0,0,1,0,0,"",0
 3458,"Mjrls Tränen",0,"",0,0,1,0,0,"",0
@@ -3498,10 +3498,10 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3470,"Das Deck",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Deck</Case><Case(2)>das Deck</Case><Case(3)>der Zugang zum Deck</Case></Switch>",0
 3471,"Halle der Prüfung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Prüfung</Case><Case(2)>in der Halle der Prüfung</Case><Case(3)>die Halle der Prüfung</Case></Switch>",0
 3472,"Hopls Pfropfen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Hopls Pfropfen</Case><Case(2)>in Hopls Pfropfen</Case><Case(3)>Hopls Pfropfen</Case></Switch>",0
-3473,"",0,"",0,0,0,0,0,"",0
-3474,"",0,"",0,0,0,0,0,"",0
-3475,"",0,"",0,0,0,0,0,"",0
-3476,"",0,"",0,0,0,0,0,"",0
+3473,"Kreuzkarst-Spalier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kreuzkarst-Spalier</Case><Case(2)>auf dem Kreuzkarst-Spalier</Case><Case(3)>das Kreuzkarst-Spalier</Case></Switch>",0
+3474,"Estrade der Sankt Roelle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Estrade der Sankt Roelle</Case><Case(2)>auf der Estrade der Sankt Roelle</Case><Case(3)>die Estrade der Sankt Roelle</Case></Switch>",0
+3475,"Das Genist",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Genist</Case><Case(2)>im Genist</Case><Case(3)>das Genist</Case></Switch>",0
+3476,"Rolanbeeren-Feld",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Rolanbeeren-Feld</Case><Case(2)>im Rolanbeeren-Feld</Case><Case(3)>das Rolanbeeren-Feld</Case></Switch>",0
 3477,"Die <Emphasis>Endeavor</Emphasis>",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die <Emphasis>Endeavor</Emphasis></Case><Case(2)>auf der <Emphasis>Endeavor</Emphasis></Case><Case(3)>die <Emphasis>Endeavor</Emphasis></Case></Switch>",0
 3478,"",0,"",0,0,0,0,0,"",0
 3479,"",0,"",0,0,0,0,0,"",0
@@ -3514,6 +3514,6 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3486,"",0,"",0,0,0,0,0,"",0
 3487,"Gletscher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gletscher</Case><Case(2)>im Gletscher</Case><Case(3)>der Gletscher</Case></Switch>",0
 3488,"Gespaltener Gletscher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum gespaltenen Gletscher</Case><Case(2)>im gespaltenen Gletscher</Case><Case(3)>der gespaltene Gletscher</Case></Switch>",0
-3489,"",0,"",0,0,0,0,0,"",0
+3489,"Sturmumtostes Wolkenmeer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins sturmumtoste Wolkenmeer</Case><Case(2)>im sturmumtosten Wolkenmeer</Case><Case(3)>das sturmumtoste Wolkenmeer</Case></Switch>",0
 3490,"Versunkener Vorplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum versunkenen Vorplatz</Case><Case(2)>auf den versunkenen Vorplatz</Case><Case(3)>der versunkene Vorplatz</Case></Switch>",0
 3491,"Versunkene Hallen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den versunkenen Hallen</Case><Case(2)>in die versunkenen Hallen</Case><Case(3)>die versunkene Halle</Case></Switch>",0

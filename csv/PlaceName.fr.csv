@@ -2609,7 +2609,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 2557,"Chambre personnelle",0,"Chambre personnelle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>chambre personnelle</Case><Case(2)>dans votre chambre personnelle</Case><Case(3)>de votre chambre personnelle</Case></Switch>",0
 2558,"Halle du Juste",0,"Halle du Juste",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la halle du Juste</Case><Case(2)>à la halle du Juste</Case><Case(3)>de la halle du Juste</Case></Switch>",0
 2559,"Panneau d'in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions",0,"Panneau d'information",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le panneau d'in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions</Case><Case(2)>au panneau d'in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions</Case><Case(3)>du panneau d'in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions</Case></Switch>",0
-2560,"",0,"",0,0,0,0,0,"",0
+2560,"Guichet du Kupo de la fortune",0,"Guichets du Kupo de la fortune",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le guichet du Kupo de la fortune</Case><Case(2)>au guichet du Kupo de la fortune</Case><Case(3)>du guichet du Kupo de la fortune</Case></Switch>",0
 2561,"",0,"",0,0,0,0,0,"",0
 2562,"",0,"",0,0,0,0,0,"",0
 2563,"",0,"",0,0,0,0,0,"",0
@@ -3233,7 +3233,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3181,"La Frairie sauvage",0,"La Frairie sauvage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Frairie sauvage</Case><Case(2)>à La Frairie sauvage</Case><Case(3)>de La Frairie sauvage</Case></Switch>",0
 3182,"Halte de l'Archère",0,"Halte de l'Archère",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la halte de l'Archère</Case><Case(2)>à la halte de l'Archère</Case><Case(3)>de la halte de l'Archère</Case></Switch>",0
 3183,"La Nostalgie de Mjrl",0,"La Nostalgie de Mjrl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Nostalgie de Mjrl</Case><Case(2)>à la Nostalgie de Mjrl</Case><Case(3)>de la Nostalgie de Mjrl</Case></Switch>",0
-3184,"",0,"",0,0,0,0,0,"",0
+3184,"Tourbillons venteux",0,"Tourbillons venteux",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Tourbillons venteux</Case><Case(2)>aux Tourbillons venteux</Case><Case(3)>des Tourbillons venteux</Case></Switch>",0
 3185,"Étoiles du Matin",0,"Étoiles du Matin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Étoiles du Matin</Case><Case(2)>aux Étoiles du Matin</Case><Case(3)>des Étoiles du Matin</Case></Switch>",0
 3186,"Mul d'Ox'Gatorl",0,"Mul d'Ox'Gatorl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le mul d'Ox'Gatorl</Case><Case(2)>au mul d'Ox'Gatorl</Case><Case(3)>du mul d'Ox'Gatorl</Case></Switch>",0
 3187,"Mul d'Yx'Lokwa",0,"Mul d'Yx'Lokwa",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le mul d'Yx'Lokwa</Case><Case(2)>au mul d'Yx'Lokwa</Case><Case(3)>du mul d'Yx'Lokwa</Case></Switch>",0
@@ -3522,10 +3522,10 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3470,"Pont supérieur d'Éden",0,"Pont supérieur d'Éden",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pont supérieur d'Éden</Case><Case(2)>au pont supérieur d'Éden</Case><Case(3)>du pont supérieur d'Éden</Case></Switch>",0
 3471,"Antichambre de l'épreuve",0,"Antichambre de l'épreuve",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'antichambre de l'épreuve</Case><Case(2)>à l'antichambre de l'épreuve</Case><Case(3)>de l'antichambre de l'épreuve</Case></Switch>",0
 3472,"Plateau de Hopl",0,"Plateau de Hopl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le plateau de Hopl</Case><Case(2)>au plateau de Hopl</Case><Case(3)>du plateau de Hopl</Case></Switch>",0
-3473,"",0,"",0,0,0,0,0,"",0
-3474,"",0,"",0,0,0,0,0,"",0
-3475,"",0,"",0,0,0,0,0,"",0
-3476,"",0,"",0,0,0,0,0,"",0
+3473,"Le Hoyau",0,"Le Hoyau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Hoyau</Case><Case(2)>au Hoyau</Case><Case(3)>du Hoyau</Case></Switch>",0
+3474,"Estrade de Sainte Roelle",0,"Estrade de Sainte Roelle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'estrade de Sainte Roelle</Case><Case(2)>à l'estrade de Sainte Roelle</Case><Case(3)>de l'estrade de Sainte Roelle</Case></Switch>",0
+3475,"Le Nichoir",0,"Le Nichoir",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Nichoir</Case><Case(2)>au Nichoir</Case><Case(3)>du Nichoir</Case></Switch>",0
+3476,"Champs de Rolanberry",0,"Champs de Rolanberry",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Champs de Rolanberry</Case><Case(2)>aux Champs de Rolanberry</Case><Case(3)>des Champs de Rolanberry</Case></Switch>",0
 3477,"L'Ambition",0,"L'Ambition",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ambition</Case><Case(2)>sur l'Ambition</Case><Case(3)>de l'Ambition</Case></Switch>",0
 3478,"",0,"",0,0,0,0,0,"",0
 3479,"",0,"",0,0,0,0,0,"",0
@@ -3538,6 +3538,6 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3486,"",0,"",0,0,0,0,0,"",0
 3487,"Grand Glacier",0,"Grand Glacier",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Grand Glacier</Case><Case(2)>au Grand Glacier</Case><Case(3)>du Grand Glacier</Case></Switch>",0
 3488,"Grand Glacier (éclaté) ",0,"Grand Glacier (éclaté)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Grand Glacier (éclaté)</Case><Case(2)>au Grand Glacier (éclaté)</Case><Case(3)>du Grand Glacier (éclaté)</Case></Switch>",0
-3489,"",0,"",0,0,0,0,0,"",0
+3489,"Cimes éventées",0,"Cimes éventées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les cimes éventées</Case><Case(2)>aux cimes éventées</Case><Case(3)>des cimes éventées</Case></Switch>",0
 3490,"Vestiges apparents",0,"Vestiges apparents",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les vestiges apparents</Case><Case(2)>aux vestiges apparents</Case><Case(3)>des vestiges apparents</Case></Switch>",0
 3491,"Vestiges dormants",0,"Vestiges dormants",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les vestiges dormants</Case><Case(2)>aux vestiges dormants</Case><Case(3)>des vestiges dormants</Case></Switch>",0
