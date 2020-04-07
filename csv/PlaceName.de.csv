@@ -2960,7 +2960,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2932,"Revanche in den Ruinen",0,"",0,0,1,0,0,"",0
 2933,"Drachenhals-Kolosseum",0,"",0,0,1,0,0,"",0
 2934,"Fähranleger",0,"",0,0,1,0,0,"",0
-2935,"",0,"",0,0,0,0,0,"",0
+2935,"Gangos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Gangos</Case><Case(2)>in Gangos</Case><Case(3)>Gangos</Case></Switch>",0
 2936,"",0,"",0,0,1,0,0,"",0
 2937,"",0,"",0,0,1,0,0,"",0
 2938,"",0,"",0,0,1,0,0,"",0
@@ -3351,7 +3351,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3323,"Calibans Nistplatz (Westen)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Westen von Calibans Nistplatz</Case><Case(2)>im Westen von Calibans Nistplatz</Case><Case(3)>Westen von Calibans Nistplatz</Case></Switch>",0
 3324,"Calibans Nistplatz (Osten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Osten von Calibans Nistplatz</Case><Case(2)>im Osten von Calibans Nistplatz</Case><Case(3)>Osten von Calibans Nistplatz</Case></Switch>",0
 3325,"Purpurhöhle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Purpurhöhle</Case><Case(2)>in der Purpurhöhle</Case><Case(3)>die Purpurhöhle</Case></Switch>",0
-3326,"Caliban-Furche",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Caliban-Furche</Case><Case(2)>in der Caliban-Furche</Case><Case(3)>die Caliban-Furche</Case></Switch>",0
+3326,"Norvrandt-Hang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Norvrandt-Hang</Case><Case(2)>am Norvrandt-Hang</Case><Case(3)>der Norvrandt-Hang</Case></Switch>",0
 3327,"Ätherytenplatz",0,"",0,0,1,0,0,"",0
 3328,"Musica Universalis",0,"",0,0,1,0,0,"",0
 3329,"Tierhof Temenos",0,"",0,0,1,0,0,"",0
@@ -3503,15 +3503,15 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3475,"Das Genist",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Genist</Case><Case(2)>im Genist</Case><Case(3)>das Genist</Case></Switch>",0
 3476,"Rolanbeeren-Feld",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Rolanbeeren-Feld</Case><Case(2)>im Rolanbeeren-Feld</Case><Case(3)>das Rolanbeeren-Feld</Case></Switch>",0
 3477,"Die <Emphasis>Endeavor</Emphasis>",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die <Emphasis>Endeavor</Emphasis></Case><Case(2)>auf der <Emphasis>Endeavor</Emphasis></Case><Case(3)>die <Emphasis>Endeavor</Emphasis></Case></Switch>",0
-3478,"",0,"",0,0,0,0,0,"",0
-3479,"",0,"",0,0,0,0,0,"",0
-3480,"",0,"",0,0,0,0,0,"",0
-3481,"",0,"",0,0,0,0,0,"",0
-3482,"",0,"",0,0,0,0,0,"",0
-3483,"",0,"",0,0,0,0,0,"",0
-3484,"",0,"",0,0,0,0,0,"",0
-3485,"",0,"",0,0,0,0,0,"",0
-3486,"",0,"",0,0,0,0,0,"",0
+3478,"Gangos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Gangos</Case><Case(2)>in Gangos</Case><Case(3)>Gangos</Case></Switch>",0
+3479,"Cids Gedächtnis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in Cids Gedächtnis</Case><Case(2)>in Cids Gedächtnis</Case><Case(3)>Cids Gedächtnis</Case></Switch>",0
+3480,"Cardo Maximus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Cardo Maximus</Case><Case(2)>im Cardo Maximus</Case><Case(3)>Cardo Maximus</Case></Switch>",0
+3481,"Insulae",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Insulae</Case><Case(2)>in Insulae</Case><Case(3)>Insulae</Case></Switch>",0
+3482,"Bozja-Forum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Bozja-Forum</Case><Case(2)>im Bozja-Forum</Case><Case(3)>das Bozja-Forum</Case></Switch>",0
+3483,"Praetentura",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Praetentura</Case><Case(2)>in Praetentura</Case><Case(3)>Praetentura</Case></Switch>",0
+3484,"Principia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Principia</Case><Case(2)>in Principia</Case><Case(3)>Principia</Case></Switch>",0
+3485,"Lunare Sendeanlage",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur lunaren Sendeanlage</Case><Case(2)>in der lunaren Sendeanlage</Case><Case(3)>die lunare Sendeanlage</Case></Switch>",0
+3486,"Signalkontrollstation",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Signalkontrollstation</Case><Case(2)>in der Signalkontrollstation</Case><Case(3)>die Signalkontrollstation</Case></Switch>",0
 3487,"Gletscher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gletscher</Case><Case(2)>im Gletscher</Case><Case(3)>der Gletscher</Case></Switch>",0
 3488,"Gespaltener Gletscher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum gespaltenen Gletscher</Case><Case(2)>im gespaltenen Gletscher</Case><Case(3)>der gespaltene Gletscher</Case></Switch>",0
 3489,"Sturmumtostes Wolkenmeer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins sturmumtoste Wolkenmeer</Case><Case(2)>im sturmumtosten Wolkenmeer</Case><Case(3)>das sturmumtoste Wolkenmeer</Case></Switch>",0

@@ -29916,7 +29916,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1029912,"",0,"",0,0,1,0,0,"",4,False
 1029913,"",0,"",0,0,1,0,0,"",4,False
 1029914,"",0,"",0,0,1,0,0,"",4,False
-1029915,"",0,"",0,0,0,0,0,"",0,False
+1029915,"",0,"",0,0,1,0,0,"",4,False
 1029916,"",0,"",0,0,1,0,0,"",4,False
 1029917,"",0,"",0,0,1,0,0,"",4,False
 1029918,"",0,"",0,0,1,0,0,"",4,False
@@ -32665,22 +32665,22 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1032661,"Yuqurl Manl",3,"Yuqurl Manl",1,0,0,0,1,"Stammeshändler",3,True
 1032662,"Opirl Notel",3,"Opirl Notel",1,0,0,1,1,"Reparatur",3,True
 1032663,"Uterl Matl",3,"Uterl Matl",1,0,0,0,1,"",3,False
-1032664,"",0,"",0,0,0,0,0,"",0,False
-1032665,"",0,"",0,0,0,0,0,"",0,False
-1032666,"",0,"",0,0,0,0,0,"",0,False
-1032667,"",0,"",0,0,0,0,0,"",0,False
-1032668,"",0,"",0,0,0,0,0,"",0,False
-1032669,"",0,"",0,0,0,0,0,"",0,False
-1032670,"",0,"",0,0,0,0,0,"",0,False
-1032671,"",0,"",0,0,0,0,0,"",0,False
-1032672,"",0,"",0,0,0,0,0,"",0,False
-1032673,"",0,"",0,0,0,0,0,"",0,False
-1032674,"",0,"",0,0,0,0,0,"",0,False
+1032664,"Marsak",3,"NONE",1,0,0,0,1,"",4,False
+1032665,"Bajsaljen",3,"NONE",1,0,0,0,1,"",4,False
+1032666,"Lotse[p] der östlichen Verbände",8,"Lotsen[p] der östlichen Verbände",1,0,1,0,0,"",4,False
+1032667,"Gerolt",3,"NONE",1,0,0,0,1,"",4,False
+1032668,"Rowena",3,"NONE",1,0,0,1,1,"",4,False
+1032669,"",0,"",0,0,1,0,0,"",4,False
+1032670,"Varis",3,"NONE",1,0,0,0,1,"",4,False
+1032671,"Midas",3,"NONE",1,0,0,0,1,"",4,False
+1032672,"Menenius rem Lanatus",3,"NONE",1,0,0,0,1,"",4,False
+1032673,"Solus zos Galvus",3,"NONE",1,0,0,0,1,"",4,False
+1032674,"Cid",3,"NONE",1,0,0,0,1,"",4,False
 1032675,"fassungslos[a] Fischer",4,"fassungslos[a] Fischer",2,0,1,0,0,"",4,False
 1032676,"erleichtert[a] Fischer",4,"erleichtert[a] Fischer",2,0,1,0,0,"",4,False
 1032677,"Theyler",3,"NONE",1,0,0,0,1,"",4,False
 1032678,"Vonard",3,"NONE",1,0,0,0,1,"",4,False
-1032679,"",0,"",0,0,0,0,0,"",0,False
+1032679,"Varis",3,"NONE",1,0,0,0,1,"",4,False
 1032680,"",0,"",0,0,1,0,0,"",4,False
 1032681,"",0,"",0,0,1,0,0,"",4,False
 1032682,"",0,"",0,0,1,0,0,"",4,False
@@ -32767,9 +32767,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1032763,"Wasserschlange[p] des Hopl",3,"Wasserschlangen[p] des Hopl",1,0,1,1,0,"",4,False
 1032764,"Garlond-Modellbauer",4,"Garlond-Modellbauer",2,0,1,0,0,"",3,True
 1032765,"",0,"",0,0,1,0,0,"",5,False
-1032766,"",0,"",0,0,0,0,0,"",0,False
-1032767,"",0,"",0,0,0,0,0,"",0,False
-1032768,"",0,"",0,0,0,0,0,"",0,False
+1032766,"Cid",3,"NONE",1,0,0,0,1,"",4,False
+1032767,"Misija",3,"NONE",1,0,0,1,1,"",4,False
+1032768,"Mikoto",3,"NONE",1,0,0,1,1,"",4,False
 1032769,"Eloin",3,"NONE",1,0,0,1,1,"",4,False
 1032770,"Foncrineau",3,"NONE",1,0,0,0,1,"",4,False
 1032771,"Cesteline",3,"NONE",1,0,0,1,1,"",4,False
@@ -32781,8 +32781,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1032777,"",0,"",0,0,0,0,0,"",0,False
 1032778,"",0,"",0,0,0,0,0,"",0,False
 1032779,"",0,"",0,0,0,0,0,"",0,False
-1032780,"",0,"",0,0,0,0,0,"",0,False
-1032781,"",0,"",0,0,0,0,0,"",0,False
+1032780,"domanisch[a] Emissär",4,"domanisch[a] Emissäre",2,0,1,0,0,"",4,False
+1032781,"",0,"",0,0,1,0,0,"",4,False
 1032782,"Ehll Tou",3,"NONE",1,0,0,1,1,"",3,False
 1032783,"",0,"",0,0,0,0,0,"",0,False
 1032784,"Ehll Tou",3,"NONE",1,0,0,1,1,"",3,False
@@ -32856,37 +32856,37 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1032852,"Valdeaulin",3,"Valdeaulin",1,0,0,0,1,"",3,False
 1032853,"Severa",3,"Severa",1,0,0,1,1,"",3,False
 1032854,"",0,"",0,0,1,0,0,"",4,False
-1032855,"",0,"",0,0,0,0,0,"",0,False
-1032856,"",0,"",0,0,0,0,0,"",0,False
-1032857,"",0,"",0,0,0,0,0,"",0,False
-1032858,"",0,"",0,0,0,0,0,"",0,False
-1032859,"",0,"",0,0,0,0,0,"",0,False
-1032860,"",0,"",0,0,0,0,0,"",0,False
+1032855,"",0,"",0,0,1,0,0,"",2,False
+1032856,"",0,"",0,0,1,0,0,"",2,False
+1032857,"",0,"",0,0,1,0,0,"",2,False
+1032858,"",0,"",0,0,1,0,0,"",2,False
+1032859,"",0,"",0,0,1,0,0,"",2,False
+1032860,"",0,"",0,0,1,0,0,"",2,False
 1032861,"Gaius",3,"Gaius",1,0,0,0,1,"",3,False
 1032862,"Qitarl Natl",3,"Qitarl Natl",1,0,0,0,1,"",3,False
 1032863,"Chaqurl Qhotl",3,"Chaqurl Qhotl",1,0,0,0,1,"",3,False
 1032864,"Wasserschlange[p] der Qitari",3,"Wasserschlangen[p] der Qitari",1,0,1,1,0,"",3,False
 1032865,"",0,"",0,0,1,0,0,"",4,False
-1032866,"",0,"",0,0,0,0,0,"",0,False
-1032867,"",0,"",0,0,0,0,0,"",0,False
-1032868,"",0,"",0,0,0,0,0,"",0,False
-1032869,"",0,"",0,0,0,0,0,"",0,False
-1032870,"",0,"",0,0,0,0,0,"",0,False
-1032871,"",0,"",0,0,0,0,0,"",0,False
-1032872,"",0,"",0,0,0,0,0,"",0,False
-1032873,"",0,"",0,0,0,0,0,"",0,False
-1032874,"",0,"",0,0,0,0,0,"",0,False
-1032875,"",0,"",0,0,0,0,0,"",0,False
-1032876,"",0,"",0,0,0,0,0,"",0,False
-1032877,"",0,"",0,0,0,0,0,"",0,False
-1032878,"",0,"",0,0,0,0,0,"",0,False
-1032879,"",0,"",0,0,0,0,0,"",0,False
-1032880,"",0,"",0,0,0,0,0,"",0,False
-1032881,"",0,"",0,0,0,0,0,"",0,False
-1032882,"",0,"",0,0,0,0,0,"",0,False
-1032883,"",0,"",0,0,0,0,0,"",0,False
-1032884,"",0,"",0,0,0,0,0,"",0,False
-1032885,"",0,"",0,0,0,0,0,"",0,False
+1032866,"domanisch[a] Emissär",4,"domanisch[a] Emissäre",2,0,1,0,0,"",3,False
+1032867,"domanisch[a] Emissär",4,"domanisch[a] Emissäre",2,0,1,0,0,"",3,False
+1032868,"Marsak",3,"NONE",1,0,0,0,1,"",3,False
+1032869,"Lotse[p] der östlichen Verbände",8,"Lotsen[p] der östlichen Verbände",1,0,1,0,0,"",3,False
+1032870,"Marsak",3,"NONE",1,0,0,0,1,"",3,False
+1032871,"Bajsaljen",3,"NONE",1,0,0,0,1,"",3,False
+1032872,"Marsak",3,"NONE",1,0,0,0,1,"",3,False
+1032873,"Gerolt",3,"NONE",1,0,0,0,1,"",3,False
+1032874,"Mikoto",3,"NONE",1,0,0,1,1,"",3,False
+1032875,"Gerolt",3,"NONE",1,0,0,0,1,"",3,False
+1032876,"Mikoto",3,"NONE",1,0,0,1,1,"",3,False
+1032877,"Technikerin[p] der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke",3,"Technikerinnen[p] der Garlond-Metallwerke",1,0,1,1,0,"",3,False
+1032878,"Mikoto",3,"NONE",1,0,0,1,1,"",3,False
+1032879,"Gerolt",3,"NONE",1,0,0,0,1,"",3,False
+1032880,"Bajsaljen",3,"NONE",1,0,0,0,1,"",3,False
+1032881,"Marsak",3,"NONE",1,0,0,0,1,"",3,False
+1032882,"Misija",3,"NONE",1,0,0,1,1,"",3,False
+1032883,"Misija",3,"NONE",1,0,0,1,1,"",3,False
+1032884,"Lotse[p] der östlichen Verbände",8,"Lotsen[p] der östlichen Verbände",1,0,1,0,0,"Luftschiff",3,True
+1032885,"Lotse[p] der östlichen Verbände",8,"Lotsen[p] der östlichen Verbände",1,0,1,0,0,"Luftschiff",3,True
 1032886,"königlich[a] Kammermädchen",4,"königlich[a] Kammermädchen",1,0,1,2,0,"Saisonales Geschäft",3,True
 1032887,"aufgeregt[a] Hase",8,"aufgeregt[a] Hasen",1,0,1,0,0,"",3,False
 1032888,"Jihli Aliapoh",3,"NONE",1,0,0,1,1,"",3,False
@@ -32898,15 +32898,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1032894,"schmierig[a] Hase",8,"schmierig[a] Hasen",1,0,1,0,0,"",4,False
 1032895,"Hase[p] mit rötlich glänzendem Fell",8,"Hasen[p] mit rötlich glänzendem Fell",1,0,1,0,0,"",4,False
 1032896,"hochgewachsen[a] Hase",8,"hochgewachsen[a] Hasen",1,0,1,0,0,"",4,False
-1032897,"",0,"",0,0,0,0,0,"",0,False
-1032898,"",0,"",0,0,0,0,0,"",0,False
-1032899,"",0,"",0,0,0,0,0,"",0,False
-1032900,"",0,"",0,0,0,0,0,"",0,False
-1032901,"",0,"",0,0,0,0,0,"",0,False
-1032902,"",0,"",0,0,0,0,0,"",0,False
-1032903,"",0,"",0,0,0,0,0,"",0,False
-1032904,"",0,"",0,0,0,0,0,"",0,False
-1032905,"",0,"",0,0,0,0,0,"",0,False
+1032897,"Himmelsstahl-Ingenieur",4,"Himmelsstahl-Ingenieure",2,0,1,0,0,"",3,False
+1032898,"Neillemard",3,"NONE",1,0,0,0,1,"",3,True
+1032899,"Nimie",3,"NONE",1,0,0,1,1,"",3,True
+1032900,"Denys",3,"NONE",1,0,0,0,1,"Himmelsstahl-Werkzeuge",3,True
+1032901,"Mikoto",3,"NONE",1,0,0,1,1,"",3,False
+1032902,"Stückeschreiber",4,"Stückeschreiber",2,0,1,0,0,"",3,True
+1032903,"Gerolt",3,"NONE",1,0,0,0,1,"",3,False
+1032904,"Zlatan",3,"NONE",1,0,0,0,1,"",3,False
+1032905,"Zlatan",3,"NONE",1,0,0,0,1,"",3,False
 1032906,"Hanagasa",3,"Hanagasa",1,0,0,1,1,"",3,True
 1032907,"Ciuna",3,"Ciuna",1,0,0,1,1,"",3,False
 1032908,"Phyna",3,"Phyna",1,0,0,1,1,"",3,False
@@ -32951,16 +32951,16 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1032947,"",0,"",0,0,1,0,0,"",6,False
 1032948,"",0,"",0,0,1,0,0,"",6,False
 1032949,"",0,"",0,0,1,0,0,"",6,False
-1032950,"",0,"",0,0,0,0,0,"",0,False
-1032951,"",0,"",0,0,0,0,0,"",0,False
-1032952,"",0,"",0,0,0,0,0,"",0,False
+1032950,"Neillemard",3,"NONE",1,0,0,0,1,"",4,False
+1032951,"Nimie",3,"NONE",1,0,0,1,1,"",4,False
+1032952,"Denys",3,"NONE",1,0,0,0,1,"",4,False
 1032953,"Eiersuchkomitee-Vorstandsmitglied",4,"Eiersuchkomitee-Vorstandsmitglieder",2,0,1,2,0,"",3,True
 1032954,"Hase[p] mit dunkelbraunem Fell",8,"Hasen[p] mit dunkelbraunem Fell",1,0,1,0,0,"",3,False
 1032955,"Hase[p] mit blauem Fell",8,"Hasen[p] mit blauem Fell",1,0,1,0,0,"",3,False
 1032956,"Hase[p] mit silbernem Fell",8,"Hasen[p] mit silbernem Fell",1,0,1,0,0,"",3,False
 1032957,"Hase[p] mit rötlich glänzendem Fell",8,"Hasen[p] mit rötlich glänzendem Fell",1,0,1,0,0,"",3,False
 1032958,"Hase[p] auf unsicheren Beinen",8,"Hasen[p] auf unsicheren Beinen",1,0,1,0,0,"",3,False
-1032959,"rosafarben[a] Häschen ",4,"rosafarben[a] Häschen ",1,0,1,2,0,"",3,False
+1032959,"rosafarben[a] Häschen",4,"rosafarben[a] Häschen",1,0,1,2,0,"",3,False
 1032960,"sarkastisch[a] Hase",8,"sarkastisch[a] Hasen",1,0,1,0,0,"",3,False
 1032961,"matrosenhaft[a] Hase",8,"matrosenhaft[a] Hasen",1,0,1,0,0,"",3,False
 1032962,"herzlich[a] Hase",8,"herzlich[a] Hasen",1,0,1,0,0,"",3,False
@@ -33023,21 +33023,21 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1033019,"Kosmetikerin[p] in spe",3,"Kosmetikerinnen[p] in spe",1,0,1,1,0,"",4,False
 1033020,"Singdrossel-Bewunderin",3,"Singdrossel-Bewunderinnen",1,0,1,1,0,"",4,False
 1033021,"",0,"",0,0,0,0,0,"",0,False
-1033022,"",0,"",0,0,0,0,0,"",0,False
-1033023,"",0,"",0,0,0,0,0,"",0,False
-1033024,"",0,"",0,0,0,0,0,"",0,False
-1033025,"",0,"",0,0,0,0,0,"",0,False
-1033026,"",0,"",0,0,0,0,0,"",0,False
-1033027,"",0,"",0,0,0,0,0,"",0,False
-1033028,"",0,"",0,0,0,0,0,"",0,False
-1033029,"",0,"",0,0,0,0,0,"",0,False
-1033030,"",0,"",0,0,0,0,0,"",0,False
-1033031,"",0,"",0,0,0,0,0,"",0,False
+1033022,"",0,"",0,0,1,0,0,"",5,False
+1033023,"",0,"",0,0,1,0,0,"",5,False
+1033024,"",0,"",0,0,1,0,0,"",5,False
+1033025,"",0,"",0,0,1,0,0,"",5,False
+1033026,"",0,"",0,0,1,0,0,"",5,False
+1033027,"",0,"",0,0,1,0,0,"",5,False
+1033028,"",0,"",0,0,1,0,0,"",5,False
+1033029,"",0,"",0,0,1,0,0,"",5,False
+1033030,"",0,"",0,0,1,0,0,"",5,False
+1033031,"",0,"",0,0,1,0,0,"",5,False
 1033032,"",0,"",0,0,1,0,0,"",5,False
 1033033,"",0,"",0,0,1,0,0,"",5,False
 1033034,"",0,"",0,0,1,0,0,"",4,False
 1033035,"",0,"",0,0,1,0,0,"",4,False
-1033036,"",0,"",0,0,0,0,0,"",0,False
+1033036,"Varis",3,"NONE",1,0,0,0,1,"",4,False
 1033037,"",0,"",0,0,1,0,0,"",4,False
 1033038,"",0,"",0,0,1,0,0,"",4,False
 1033039,"",0,"",0,0,1,0,0,"",4,False
@@ -33046,7 +33046,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1033042,"",0,"",0,0,1,0,0,"",4,False
 1033043,"",0,"",0,0,1,0,0,"",4,False
 1033044,"",0,"",0,0,1,0,0,"",4,False
-1033045,"",0,"",0,0,0,0,0,"",0,False
+1033045,"Zlatan",3,"NONE",1,0,0,0,1,"",4,False
 1033046,"Kleiderpuppe",3,"Kleiderpuppen",1,0,1,1,0,"",3,True
 1033047,"Kleiderpuppe",3,"Kleiderpuppen",1,0,1,1,0,"",3,True
 1033048,"Valan",3,"NONE",1,0,0,0,1,"",3,False
@@ -33263,8 +33263,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1033259,"C'intana",3,"C'intana",1,0,0,1,1,"Seltene Ausrüstung",3,True
 1033260,"Reauverre",3,"NONE",1,0,0,0,1,"",4,False
 1033261,"Kosmetikerin[p] in spe",3,"Kosmetikerinnen[p] in spe",1,0,1,1,0,"",4,False
-1033262,"",0,"",0,0,0,0,0,"",0,False
-1033263,"",0,"",0,0,0,0,0,"",0,False
+1033262,"",0,"",0,0,1,0,0,"",5,False
+1033263,"",0,"",0,0,1,0,0,"",5,False
 1033264,"",0,"",0,0,1,0,0,"",6,True
 1033265,"",0,"",0,0,1,0,0,"",5,False
 1033266,"",0,"",0,0,1,0,0,"",5,False
@@ -33549,12 +33549,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1033545,"",0,"",0,0,0,0,0,"",0,False
 1033546,"",0,"",0,0,0,0,0,"",0,False
 1033547,"",0,"",0,0,1,0,0,"",5,False
-1033548,"",0,"",0,0,0,0,0,"",0,False
-1033549,"",0,"",0,0,0,0,0,"",0,False
-1033550,"",0,"",0,0,0,0,0,"",0,False
-1033551,"",0,"",0,0,0,0,0,"",0,False
-1033552,"",0,"",0,0,0,0,0,"",0,False
-1033553,"",0,"",0,0,0,0,0,"",0,False
-1033554,"",0,"",0,0,0,0,0,"",0,False
+1033548,"",0,"",0,0,1,0,0,"",5,False
+1033549,"",0,"",0,0,1,0,0,"",5,False
+1033550,"",0,"",0,0,1,0,0,"",5,False
+1033551,"",0,"",0,0,1,0,0,"",5,False
+1033552,"",0,"",0,0,1,0,0,"",5,False
+1033553,"",0,"",0,0,1,0,0,"",6,False
+1033554,"",0,"",0,0,1,0,0,"",5,False
 1033555,"",0,"",0,0,0,0,0,"",0,False
 1033556,"",0,"",0,0,0,0,0,"",0,False

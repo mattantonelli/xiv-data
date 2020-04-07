@@ -2984,7 +2984,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 2932,"Revanche au vieux château",0,"Revanche au vieux château",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Revanche au vieux château</Case><Case(2)>dans la Revanche au vieux château</Case><Case(3)>de la Revanche au vieux château</Case></Switch>",0
 2933,"Le Col du dragon",0,"Le Col du dragon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Col du dragon</Case><Case(2)>au Col du dragon</Case><Case(3)>du Col du dragon</Case></Switch>",0
 2934,"Embarcadère",0,"Embarcadère",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'embarcadère</Case><Case(2)>à l'embarcadère</Case><Case(3)>de l'embarcadère</Case></Switch>",0
-2935,"",0,"",0,0,0,0,0,"",0
+2935,"Gangos",0,"Gangos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Gangos</Case><Case(2)>à Gangos</Case><Case(3)>de Gangos</Case></Switch>",0
 2936,"",0,"",0,0,1,0,0,"",0
 2937,"",0,"",0,0,1,0,0,"",0
 2938,"",0,"",0,0,1,0,0,"",0
@@ -3527,15 +3527,15 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3475,"Le Nichoir",0,"Le Nichoir",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Nichoir</Case><Case(2)>au Nichoir</Case><Case(3)>du Nichoir</Case></Switch>",0
 3476,"Champs de Rolanberry",0,"Champs de Rolanberry",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Champs de Rolanberry</Case><Case(2)>aux Champs de Rolanberry</Case><Case(3)>des Champs de Rolanberry</Case></Switch>",0
 3477,"L'Ambition",0,"L'Ambition",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ambition</Case><Case(2)>sur l'Ambition</Case><Case(3)>de l'Ambition</Case></Switch>",0
-3478,"",0,"",0,0,0,0,0,"",0
-3479,"",0,"",0,0,0,0,0,"",0
-3480,"",0,"",0,0,0,0,0,"",0
-3481,"",0,"",0,0,0,0,0,"",0
-3482,"",0,"",0,0,0,0,0,"",0
-3483,"",0,"",0,0,0,0,0,"",0
-3484,"",0,"",0,0,0,0,0,"",0
-3485,"",0,"",0,0,0,0,0,"",0
-3486,"",0,"",0,0,0,0,0,"",0
+3478,"Gangos",0,"Gangos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Gangos</Case><Case(2)>à Gangos</Case><Case(3)>de Gangos</Case></Switch>",0
+3479,"Mémoire de Cid",0,"Mémoire de Cid",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mémoire de Cid</Case><Case(2)>dans la mémoire de Cid</Case><Case(3)>de la mémoire de Cid</Case></Switch>",0
+3480,"Cardo maximus",0,"Cardo maximus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cardo maximus</Case><Case(2)>sur le cardo maximus</Case><Case(3)>du cardo maximus</Case></Switch>",0
+3481,"Insulae",0,"Insulae",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les insulae</Case><Case(2)>aux insulae</Case><Case(3)>des insulae</Case></Switch>",0
+3482,"Forum bozjien",0,"Forum bozjien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le forum bozjien</Case><Case(2)>au forum bozjien</Case><Case(3)>du forum bozjien</Case></Switch>",0
+3483,"Praetentura",0,"Praetentura",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Praetentura</Case><Case(2)>sur la Praetentura</Case><Case(3)>de la Praetentura</Case></Switch>",0
+3484,"Principia",0,"Principia",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Principia</Case><Case(2)> à Principia</Case><Case(3)>de Principia</Case></Switch>",0
+3485,"Tour de transmission",0,"Tour de transmission",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la tour de transmission</Case><Case(2)>à la tour de transmission</Case><Case(3)>de la tour de transmission</Case></Switch>",0
+3486,"Salle de contrôle",0,"Salle de contrôle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle de contrôle</Case><Case(2)>dans la salle de contrôle</Case><Case(3)>de la salle de contrôle</Case></Switch>",0
 3487,"Grand Glacier",0,"Grand Glacier",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Grand Glacier</Case><Case(2)>au Grand Glacier</Case><Case(3)>du Grand Glacier</Case></Switch>",0
 3488,"Grand Glacier (éclaté) ",0,"Grand Glacier (éclaté)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Grand Glacier (éclaté)</Case><Case(2)>au Grand Glacier (éclaté)</Case><Case(3)>du Grand Glacier (éclaté)</Case></Switch>",0
 3489,"Cimes éventées",0,"Cimes éventées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les cimes éventées</Case><Case(2)>aux cimes éventées</Case><Case(3)>des cimes éventées</Case></Switch>",0
