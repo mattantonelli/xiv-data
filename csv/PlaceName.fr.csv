@@ -3581,8 +3581,8 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3529,"",0,"",0,0,0,0,0,"",0
 3530,"",0,"",0,0,0,0,0,"",0
 3531,"",0,"",0,0,0,0,0,"",0
-3532,"",0,"",0,0,0,0,0,"",0
-3533,"",0,"",0,0,0,0,0,"",0
+3532,"Mer de nuages calme",0,"Mer de nuages calme",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mer de nuages calme</Case><Case(2)>à la mer de nuages calme</Case><Case(3)>de la mer de nuages calme</Case></Switch>",0
+3533,"Mer de nuages agitée",0,"Mer de nuages agitée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mer de nuages agitée</Case><Case(2)>à la mer de nuages agitée</Case><Case(3)>de la mer de nuages agitée</Case></Switch>",0
 3534,"",0,"",0,0,0,0,0,"",0
 3535,"",0,"",0,0,0,0,0,"",0
 3536,"",0,"",0,0,0,0,0,"",0

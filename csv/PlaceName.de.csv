@@ -3557,8 +3557,8 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3529,"",0,"",0,0,0,0,0,"",0
 3530,"",0,"",0,0,0,0,0,"",0
 3531,"",0,"",0,0,0,0,0,"",0
-3532,"",0,"",0,0,0,0,0,"",0
-3533,"",0,"",0,0,0,0,0,"",0
+3532,"Windbrecher-Wolkengipfel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Windbrecher-Wolkengipfel</Case><Case(2)>am Windbrecher-Wolkengipfel</Case><Case(3)>der Windbrecher-Wolkengipfel</Case></Switch>",0
+3533,"Sturmwind-Wolkengipfel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sturmwind-Wolkengipfel</Case><Case(2)>am Sturmwind-Wolkengipfel</Case><Case(3)>der Sturmwind-Wolkengipfel</Case></Switch>",0
 3534,"",0,"",0,0,0,0,0,"",0
 3535,"",0,"",0,0,0,0,0,"",0
 3536,"",0,"",0,0,0,0,0,"",0
