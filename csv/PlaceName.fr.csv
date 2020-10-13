@@ -2612,8 +2612,8 @@ Guilde des surineurs",0,0,1,0,0,"",0
 2560,"Guichet du Kupo de la fortune",0,"Guichets du Kupo de la fortune",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le guichet du Kupo de la fortune</Case><Case(2)>au guichet du Kupo de la fortune</Case><Case(3)>du guichet du Kupo de la fortune</Case></Switch>",0
 2561,"Comptoir de Touché-tourné",0,"Comptoir de Touché-tourné",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le comptoir de Touché-tourné</Case><Case(2)>au comptoir de Touché-tourné</Case><Case(3)>du comptoir de Touché-tourné</Case></Switch>",0
 2562,"Commise aux objets de classe/job",0,"Commises aux objets de classe/job",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la commise aux objets de classe/job</Case><Case(2)>auprès de la commise aux objets de classe/job</Case><Case(3)>de la commise aux objets de classe/job</Case></Switch>",0
-2563,"",0,"",0,0,0,0,0,"",0
-2564,"",0,"",0,0,0,0,0,"",0
+2563,"Malle du rappel",0,"Malle du rappel",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la malle du rappel</Case><Case(2)>près de la malle du rappel</Case><Case(3)>de la malle du rappel</Case></Switch>",0
+2564,"Guide de la résistance",0,"Guide de la résistance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le guide de la résistance</Case><Case(2)>auprès du guide de la résistance</Case><Case(3)>du guide de la résistance</Case></Switch>",0
 2565,"",0,"",0,0,0,0,0,"",0
 2566,"",0,"",0,0,0,0,0,"",0
 2567,"",0,"",0,0,0,0,0,"",0
@@ -3578,45 +3578,45 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3526,"Annexe de la manufacture de Cielacier",0,"Annexe de la manufacture de Cielacier",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'annexe de la manufacture de Cielacier</Case><Case(2)>à l'annexe de la manufacture de Cielacier</Case><Case(3)>de l'annexe de la manufacture de Cielacier</Case></Switch>",0
 3527,"L'Abaque",0,"L'Abaque",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Abaque</Case><Case(2)>à L'Abaque</Case><Case(3)>de L'Abaque</Case></Switch>",0
 3528,"Retraite de Givreglacé",0,"Retraite de Givreglacé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Retraite de Givreglacé</Case><Case(2)>à la Retraite de Givreglacé</Case><Case(3)>de la Retraite de Givreglacé</Case></Switch>",0
-3529,"",0,"",0,0,0,0,0,"",0
-3530,"",0,"",0,0,0,0,0,"",0
-3531,"",0,"",0,0,0,0,0,"",0
+3529,"Avant-poste d'Utya",0,"Avant poste-d'Utya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'avant-poste d'Utya</Case><Case(2)>à l'avant-poste d'Utya</Case><Case(3)>de l'avant-poste d'Utya</Case></Switch>",0
+3530,"Camp avancé d'Olana",0,"Camp avancé d'Olana",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp avancé d'Olana</Case><Case(2)>au camp avancé d'Olana</Case><Case(3)>du camp avancé d'Olana</Case></Switch>",0
+3531,"Camp avancé de Lunya",0,"Camp avancé de Lunya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp avancé de Lunya</Case><Case(2)>au camp avancé de Lunya</Case><Case(3)>du camp avancé de Lunya</Case></Switch>",0
 3532,"Mer de nuages calme",0,"Mer de nuages calme",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mer de nuages calme</Case><Case(2)>à la mer de nuages calme</Case><Case(3)>de la mer de nuages calme</Case></Switch>",0
 3533,"Mer de nuages agitée",0,"Mer de nuages agitée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mer de nuages agitée</Case><Case(2)>à la mer de nuages agitée</Case><Case(3)>de la mer de nuages agitée</Case></Switch>",0
-3534,"",0,"",0,0,0,0,0,"",0
-3535,"",0,"",0,0,0,0,0,"",0
-3536,"",0,"",0,0,0,0,0,"",0
-3537,"",0,"",0,0,0,0,0,"",0
-3538,"",0,"",0,0,0,0,0,"",0
-3539,"",0,"",0,0,0,0,0,"",0
-3540,"",0,"",0,0,0,0,0,"",0
-3541,"",0,"",0,0,0,0,0,"",0
-3542,"",0,"",0,0,0,0,0,"",0
-3543,"",0,"",0,0,0,0,0,"",0
-3544,"",0,"",0,0,0,0,0,"",0
-3545,"",0,"",0,0,0,0,0,"",0
-3546,"",0,"",0,0,0,0,0,"",0
-3547,"",0,"",0,0,0,0,0,"",0
-3548,"",0,"",0,0,0,0,0,"",0
-3549,"",0,"",0,0,0,0,0,"",0
-3550,"",0,"",0,0,0,0,0,"",0
-3551,"",0,"",0,0,0,0,0,"",0
-3552,"",0,"",0,0,0,0,0,"",0
-3553,"",0,"",0,0,0,0,0,"",0
-3554,"",0,"",0,0,0,0,0,"",0
-3555,"",0,"",0,0,0,0,0,"",0
-3556,"",0,"",0,0,0,0,0,"",0
-3557,"",0,"",0,0,0,0,0,"",0
-3558,"",0,"",0,0,0,0,0,"",0
-3559,"",0,"",0,0,0,0,0,"",0
-3560,"",0,"",0,0,0,0,0,"",0
-3561,"",0,"",0,0,0,0,0,"",0
-3562,"",0,"",0,0,0,0,0,"",0
-3563,"",0,"",0,0,0,0,0,"",0
-3564,"",0,"",0,0,0,0,0,"",0
-3565,"",0,"",0,0,0,0,0,"",0
-3566,"",0,"",0,0,0,0,0,"",0
-3567,"",0,"",0,0,0,0,0,"",0
+3534,"Front sud de Bozja",0,"Front sud de Bozja",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Front sud de Bozja</Case><Case(2)>sur le Front sud de Bozja</Case><Case(3)>du Front sud de Bozja</Case></Switch>",0
+3535,"Castrum Lacus Litore",0,"Castrum Lacus Litore",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Castrum Lacus Litore</Case><Case(2)>à Castrum Lacus Litore</Case><Case(3)>de Castrum Lacus Litore</Case></Switch>",0
+3536,"Tranchées sud",0,"Tranchées sud",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les tranchées sud</Case><Case(2)>aux tranchées sud</Case><Case(3)>des tranchées sud</Case></Switch>",0
+3537,"Ancienne Bozja",0,"Ancienne Bozja",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ancienne Bozja</Case><Case(2)>à l'Ancienne Bozja</Case><Case(3)>de l'Ancienne Bozja</Case></Switch>",0
+3538,"Bourg d'Alermuc",0,"Bourg d'Alermuc",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bourg d'Alermuc</Case><Case(2)>au bourg d'Alermuc</Case><Case(3)>du bourg d'Alermuc</Case></Switch>",0
+3539,"Entrée du castrum",0,"Entrée du castrum",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrée du castrum</Case><Case(2)>à l'entrée du castrum</Case><Case(3)>de l'entrée du castrum</Case></Switch>",0
+3540,"Intérieur du castrum",0,"Intérieur du castrum",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'intérieur du castrum</Case><Case(2)>à l'intérieur du castrum</Case><Case(3)>de l'intérieur du castrum</Case></Switch>",0
+3541,"Hall des Lames",0,"Hall des Lames",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hall des Lames</Case><Case(2)>dans le hall des Lames</Case><Case(3)>du hall des Lames</Case></Switch>",0
+3542,"Vestiges oubliés",0,"Vestiges oubliés",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les vestiges oubliés</Case><Case(2)>aux vestiges oubliés</Case><Case(3)>des vestiges oubliés</Case></Switch>",0
+3543,"Cratère de Verre",0,"Cratère de Verre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cratère de Verre</Case><Case(2)>au cratère de Verre</Case><Case(3)>du cratère de Verre</Case></Switch>",0
+3544,"Perchoir des Aigles",0,"Perchoir des Aigles",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Perchoir des Aigles</Case><Case(2)>au Perchoir des Aigles</Case><Case(3)>du Perchoir des Aigles</Case></Switch>",0
+3545,"Porte du castrum",0,"Porte du castrum",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la porte du castrum</Case><Case(2)>à la porte du castrum</Case><Case(3)>de la porte du castrum</Case></Switch>",0
+3546,"Aire d'atterrissage",0,"Aires d'atterrissage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'aire d'atterrissage</Case><Case(2)>à l'aire d'atterrissage</Case><Case(3)>de l'aire d'atterrissage</Case></Switch>",0
+3547,"Auditorium",0,"Auditorium",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'auditorium</Case><Case(2)>dans l'auditorium</Case><Case(3)>de l'auditorium</Case></Switch>",0
+3548,"Tribune des Souverains",0,"Tribune des Souverains",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la tribune des Souverains</Case><Case(2)>à la tribune des Souverains</Case><Case(3)>de la tribune des Souverains</Case></Switch>",0
+3549,"Ruines orphelines",0,"Ruines orphelines",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Ruines orphelines</Case><Case(2)>aux Ruines orphelines</Case><Case(3)>des Ruines orphelines</Case></Switch>",0
+3550,"DII-I",0,"DII-I",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DII-I</Case><Case(2)>dans le bloc DII-I</Case><Case(3)>du bloc DII-I</Case></Switch>",0
+3551,"DII-II",0,"DII-II",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DII-II</Case><Case(2)>dans le bloc DII-II</Case><Case(3)>du bloc DII-II</Case></Switch>",0
+3552,"DII-III",0,"DII-III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DII-III</Case><Case(2)>dans le bloc DII-III</Case><Case(3)>du bloc DII-III</Case></Switch>",0
+3553,"DII-IV",0,"DII-IV",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DII-IV</Case><Case(2)>dans le bloc DII-IV</Case><Case(3)>du bloc DII-IV</Case></Switch>",0
+3554,"DII-V",0,"DII-V",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DII-V</Case><Case(2)>dans le bloc DII-V</Case><Case(3)>du bloc DII-V</Case></Switch>",0
+3555,"DII-VI",0,"DII-VI",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DII-VI</Case><Case(2)>dans le bloc DII-VI</Case><Case(3)>du bloc DII-VI</Case></Switch>",0
+3556,"SII-I",0,"SII-I",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SII-I</Case><Case(2)>dans le bloc SII-I</Case><Case(3)>du bloc SII-I</Case></Switch>",0
+3557,"SII-II",0,"SII-II",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SII-II</Case><Case(2)>dans le bloc SII-II</Case><Case(3)>du bloc SII-II</Case></Switch>",0
+3558,"SII-III",0,"SII-III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SII-III</Case><Case(2)>dans le bloc SII-III</Case><Case(3)>du bloc SII-III</Case></Switch>",0
+3559,"SII-IV",0,"SII-IV",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SII-IV</Case><Case(2)>dans le bloc SII-IV</Case><Case(3)>du bloc SII-IV</Case></Switch>",0
+3560,"SII-V",0,"SII-V",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SII-V</Case><Case(2)>dans le bloc SII-V</Case><Case(3)>du bloc SII-V</Case></Switch>",0
+3561,"SII-VI",0,"SII-VI",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SII-VI</Case><Case(2)>dans le bloc SII-VI</Case><Case(3)>du bloc SII-VI</Case></Switch>",0
+3562,"DI-I",0,"DI-I",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DI-I</Case><Case(2)>dans le bloc DI-I</Case><Case(3)>du bloc DI-I</Case></Switch>",0
+3563,"DI-II",0,"DI-II",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DI-II</Case><Case(2)>dans le bloc DI-II</Case><Case(3)>du bloc DI-II</Case></Switch>",0
+3564,"DI-III",0,"DI-III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc DI-III</Case><Case(2)>dans le bloc DI-III</Case><Case(3)>du bloc DI-III</Case></Switch>",0
+3565,"SI-I",0,"SI-I",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SI-I</Case><Case(2)>dans le bloc SI-I</Case><Case(3)>du bloc SI-I</Case></Switch>",0
+3566,"SI-II",0,"SI-II",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SI-II</Case><Case(2)>dans le bloc SI-II</Case><Case(3)>du bloc SI-II</Case></Switch>",0
+3567,"SI-III",0,"SI-III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc SI-III</Case><Case(2)>dans le bloc SI-III</Case><Case(3)>du bloc SI-III</Case></Switch>",0
 3568,"Le Trône du Sacrifice",0,"Le Trône du Sacrifice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Trône du Sacrifice</Case><Case(2)>dans Le Trône du Sacrifice</Case><Case(3)>du Le Trône du Sacrifice</Case></Switch>",0
 3569,"Interstice dimensionnel",0,"Interstice dimensionnel",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'interstice dimensionnel</Case><Case(2)>dans l'interstice dimensionnel</Case><Case(3)>de l'interstice dimensionnel</Case></Switch>",0
 3570,"Large de Rocasternes",0,"Large de Rocasternes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large de Rocasternes</Case><Case(2)>au large de Rocasternes</Case><Case(3)>du large de Rocasternes</Case></Switch>",0
@@ -3624,7 +3624,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3572,"Chambre dérobée",0,"Chambre dérobée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre dérobée</Case><Case(2)>à la chambre dérobée</Case><Case(3)>de la chambre dérobée</Case></Switch>",0
 3573,"Chambre de l'Aube",0,"Chambre de l'Aube",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre de l'Aube</Case><Case(2)>dans la chambre de l'Aube</Case><Case(3)>de la chambre de l'Aube</Case></Switch>",0
 3574,"Garage Watts",0,"Garage Watts",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Garage Watts</Case><Case(2)>au Garage Watts</Case><Case(3)>du Garage Watts</Case></Switch>",0
-3575,"",0,"",0,0,0,0,0,"",0
+3575,"Campement de Steva",0,"Campement de Steva",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le campement de Steva</Case><Case(2)>au Campement de Steva</Case><Case(3)>du Campement de Steva</Case></Switch>",0
 3576,"Base militaire des Pantins",0,"Base militaire des Pantins",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la base militaire des Pantins</Case><Case(2)>à la base militaire des Pantins</Case><Case(3)>de la base militaire des Pantins</Case></Switch>",0
 3577,"Lisière des montagnes des Duergars",0,"Lisière des montagnes des Duergars",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la lisière des montagnes des Duergars</Case><Case(2)>à la lisière des montagnes des Duergars</Case><Case(3)>de la lisière des montagnes des Duergars</Case></Switch>",0
 3578,"La Base",0,"La Base",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Base</Case><Case(2)>à la Base</Case><Case(3)>de la Base</Case></Switch>",0

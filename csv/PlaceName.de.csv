@@ -2588,8 +2588,8 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 2560,"Glücks-Kupo",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glücks-Kupo</Case><Case(2)>am Glücks-Kupo</Case><Case(3)>das Glücks-Kupo</Case></Switch>",0
 2561,"Traumtafel",0,"",0,0,1,0,0,"",0
 2562,"Tauschhaus der Wunder",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tauschhaus der Wunder</Case><Case(2)>am Tauschhaus der Wunder</Case><Case(3)>das Tauschhaus der Wunder</Case></Switch>",0
-2563,"",0,"",0,0,0,0,0,"",0
-2564,"",0,"",0,0,0,0,0,"",0
+2563,"Kiste für Verschollenes",0,"",0,0,1,0,0,"",0
+2564,"Informationen",0,"",0,0,1,0,0,"",0
 2565,"",0,"",0,0,0,0,0,"",0
 2566,"",0,"",0,0,0,0,0,"",0
 2567,"",0,"",0,0,0,0,0,"",0
@@ -3554,45 +3554,45 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3526,"Nebengebäude der Himmelsstahl-Werkstätte",0,"",0,0,1,0,0,"",0
 3527,"Allee des Abakus",0,"",0,0,1,0,0,"",0
 3528,"Raureif-Refugium",0,"",0,0,1,0,0,"",0
-3529,"",0,"",0,0,0,0,0,"",0
-3530,"",0,"",0,0,0,0,0,"",0
-3531,"",0,"",0,0,0,0,0,"",0
+3529,"Utya-Gemarkung",0,"",0,0,1,0,0,"",0
+3530,"Olana-Trutz",0,"",0,0,1,0,0,"",0
+3531,"Lunya-Trutz",0,"",0,0,1,0,0,"",0
 3532,"Windbrecher-Wolkengipfel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Windbrecher-Wolkengipfel</Case><Case(2)>am Windbrecher-Wolkengipfel</Case><Case(3)>der Windbrecher-Wolkengipfel</Case></Switch>",0
 3533,"Sturmwind-Wolkengipfel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sturmwind-Wolkengipfel</Case><Case(2)>am Sturmwind-Wolkengipfel</Case><Case(3)>der Sturmwind-Wolkengipfel</Case></Switch>",0
-3534,"",0,"",0,0,0,0,0,"",0
-3535,"",0,"",0,0,0,0,0,"",0
-3536,"",0,"",0,0,0,0,0,"",0
-3537,"",0,"",0,0,0,0,0,"",0
-3538,"",0,"",0,0,0,0,0,"",0
-3539,"",0,"",0,0,0,0,0,"",0
-3540,"",0,"",0,0,0,0,0,"",0
-3541,"",0,"",0,0,0,0,0,"",0
-3542,"",0,"",0,0,0,0,0,"",0
-3543,"",0,"",0,0,0,0,0,"",0
-3544,"",0,"",0,0,0,0,0,"",0
-3545,"",0,"",0,0,0,0,0,"",0
-3546,"",0,"",0,0,0,0,0,"",0
-3547,"",0,"",0,0,0,0,0,"",0
-3548,"",0,"",0,0,0,0,0,"",0
-3549,"",0,"",0,0,0,0,0,"",0
-3550,"",0,"",0,0,0,0,0,"",0
-3551,"",0,"",0,0,0,0,0,"",0
-3552,"",0,"",0,0,0,0,0,"",0
-3553,"",0,"",0,0,0,0,0,"",0
-3554,"",0,"",0,0,0,0,0,"",0
-3555,"",0,"",0,0,0,0,0,"",0
-3556,"",0,"",0,0,0,0,0,"",0
-3557,"",0,"",0,0,0,0,0,"",0
-3558,"",0,"",0,0,0,0,0,"",0
-3559,"",0,"",0,0,0,0,0,"",0
-3560,"",0,"",0,0,0,0,0,"",0
-3561,"",0,"",0,0,0,0,0,"",0
-3562,"",0,"",0,0,0,0,0,"",0
-3563,"",0,"",0,0,0,0,0,"",0
-3564,"",0,"",0,0,0,0,0,"",0
-3565,"",0,"",0,0,0,0,0,"",0
-3566,"",0,"",0,0,0,0,0,"",0
-3567,"",0,"",0,0,0,0,0,"",0
+3534,"Bozja-Südfront",0,"",0,0,1,0,0,"",0
+3535,"Castrum Lacus Litore",0,"",0,0,1,0,0,"",0
+3536,"Südschanze",0,"",0,0,1,0,0,"",0
+3537,"Ruinen von Alt-Bozja",0,"",0,0,1,0,0,"",0
+3538,"Burgstadt Alermuc",0,"",0,0,1,0,0,"",0
+3539,"Äußere des Castrums",0,"",0,0,1,0,0,"",0
+3540,"Innere des Castrums",0,"",0,0,1,0,0,"",0
+3541,"Hauptplatz der Wachen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hauptplatz der Wachen</Case><Case(2)>auf dem Hauptplatz der Wachen</Case><Case(3)>der Hauptplatz der Wachen</Case></Switch>",0
+3542,"Verlorene Ruinen",0,"",0,0,1,0,0,"",0
+3543,"Aschepfuhl",0,"",0,0,1,0,0,"",0
+3544,"Platz des Kämpferischen Adlers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Platz des Kämpferischen Adlers</Case><Case(2)>auf dem Platz des Kämpferischen Adlers</Case><Case(3)>der Platz des Kämpferischen Adlers</Case></Switch>",0
+3545,"Haupttor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haupttor</Case><Case(2)>am Haupttor</Case><Case(3)>das Haupttor</Case></Switch>",0
+3546,"Flugplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Flugplatz</Case><Case(2)>auf dem Flugplatz</Case><Case(3)>der Flugplatz</Case></Switch>",0
+3547,"Halle des Bestienkönigs",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle des Bestienkönigs</Case><Case(2)>in der Halle des Bestienkönigs</Case><Case(3)>die Halle des Bestienkönigs</Case></Switch>",0
+3548,"Podest des Bestienkönigs",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Podest des Bestienkönigs</Case><Case(2)>am Podest des Bestienkönigs</Case><Case(3)>der Podest des Bestienkönigs</Case></Switch>",0
+3549,"Ruinenstadt",0,"",0,0,1,0,0,"",0
+3550,"DII-I",0,"",0,0,1,0,0,"",0
+3551,"DII-II",0,"",0,0,1,0,0,"",0
+3552,"DII-III",0,"",0,0,1,0,0,"",0
+3553,"DII-IV",0,"",0,0,1,0,0,"",0
+3554,"DII-V",0,"",0,0,1,0,0,"",0
+3555,"DII-VI",0,"",0,0,1,0,0,"",0
+3556,"SII-I",0,"",0,0,1,0,0,"",0
+3557,"SII-II",0,"",0,0,1,0,0,"",0
+3558,"SII-III",0,"",0,0,1,0,0,"",0
+3559,"SII-IV",0,"",0,0,1,0,0,"",0
+3560,"SII-V",0,"",0,0,1,0,0,"",0
+3561,"SII-VI",0,"",0,0,1,0,0,"",0
+3562,"DI-I",0,"",0,0,1,0,0,"",0
+3563,"DI-II",0,"",0,0,1,0,0,"",0
+3564,"DI-III",0,"",0,0,1,0,0,"",0
+3565,"SI-I",0,"",0,0,1,0,0,"",0
+3566,"SI-II",0,"",0,0,1,0,0,"",0
+3567,"SI-III",0,"",0,0,1,0,0,"",0
 3568,"Der Kaiserliche Thron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kaiserlichen Thron</Case><Case(2)>am Kaiserlichen Thron</Case><Case(3)>der Kaiserliche Thron</Case></Switch>",0
 3569,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(2)>im Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(3)>der Zugang zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case></Switch>",0
 3570,"Wendeklipp-Küste",0,"",0,0,1,0,0,"",0
@@ -3600,7 +3600,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3572,"Anoggs Zimmer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Anoggs Zimmer</Case><Case(2)>in Anoggs Zimmer</Case><Case(3)>Anoggs Zimmer</Case></Switch>",0
 3573,"Zwielichtsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zwielichtsaal</Case><Case(2)>im Zwielichtsaal</Case><Case(3)>der Zugang zum Zwielichtsaal</Case></Switch>",0
 3574,"Watts-Werkstatt für Hammerprojekte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Watts-Werkstatt für Hammerprojekte</Case><Case(2)>in der Watts-Werkstatt für Hammerprojekte</Case><Case(3)>die Watts-Werkstatt für Hammerprojekte</Case></Switch>",0
-3575,"",0,"",0,0,0,0,0,"",0
+3575,"Steva-Feldposten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Steva-Feldposten</Case><Case(2)>am Steva-Feldposten</Case><Case(3)>der Steva-Feldposten</Case></Switch>",0
 3576,"Die Puppenfestung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Puppenfestung</Case><Case(2)>in der Puppenfestung</Case><Case(3)>die Puppenfestung</Case></Switch>",0
 3577,"Duergar-Gebirge",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Duergar-Gebirge</Case><Case(2)>im Duergar-Gebirge</Case><Case(3)>das Duergar-Gebirge</Case></Switch>",0
 3578,"Der Bunker",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Bunker</Case><Case(2)>im Bunker</Case><Case(3)>der Bunker</Case></Switch>",0
