@@ -3248,7 +3248,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3196,"Cellier du Flet",0,"Cellier du Flet",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cellier du Flet</Case><Case(2)>au cellier du Flet</Case><Case(3)>du cellier du Flet</Case></Switch>",0
 3197,"Atelier de l'Original",0,"Atelier de l'Original",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'atelier de l'Original</Case><Case(2)>à l'atelier de l'Original</Case><Case(3)>de l'atelier de l'Original</Case></Switch>",0
 3198,"Perlières infrangibles",0,"Perlières infrangibles",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Perlières infrangibles</Case><Case(2)>aux Perlières infrangibles</Case><Case(3)>des Perlières infrangibles</Case></Switch>",0
-3199,"Crypte du Sans branchies",0,"Crypte du Sans branchies",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la crypte du Sans branchies</Case><Case(2)>à la crypte du Sans branchies</Case><Case(3)>de la crypte du Sans branchies</Case></Switch>",0
+3199,"Crypte du Sans-branchies",0,"Crypte du Sans-branchies",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la crypte du Sans-branchies</Case><Case(2)>à la crypte du Sans-branchies</Case><Case(3)>de la crypte du Sans-branchies</Case></Switch>",0
 3200,"L'Orphelin",0,"L'Orphelin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Orphelin</Case><Case(2)>à L'Orphelin</Case><Case(3)>de L'Orphelin</Case></Switch>",0
 3201,"Grotte purpurine",0,"Grotte purpurine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la grotte purpurine</Case><Case(2)>à la grotte purpurine</Case><Case(3)>de la grotte purpurine</Case></Switch>",0
 3202,"Caverne de Caliban",0,"Caverne de Caliban",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la caverne de Caliban</Case><Case(2)>à la caverne de Caliban</Case><Case(3)>de la caverne de Caliban</Case></Switch>",0
@@ -3370,7 +3370,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3318,"Aval de la Nostalgie de Mjrl",0,"Aval de la Nostalgie de Mjrl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'aval de la Nostalgie de Mjrl</Case><Case(2)>en aval de la Nostalgie de Mjrl</Case><Case(3)>de l'aval de la Nostalgie de Mjrl</Case></Switch>",0
 3319,"Solide Serment",0,"Solide Serment",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Solide Serment</Case><Case(2)>à Solide Serment</Case><Case(3)>de Solide Serment</Case></Switch>",0
 3320,"Cellier du Flet",0,"Cellier du Flet",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cellier du Flet</Case><Case(2)>au cellier du Flet</Case><Case(3)>de cellier du Flet</Case></Switch>",0
-3321,"Crypte du Sans branchies",0,"Crypte du Sans branchies",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la crypte du Sans branchies</Case><Case(2)>à la crypte du Sans branchies</Case><Case(3)>de la crypte du Sans branchies</Case></Switch>",0
+3321,"Crypte du Sans-branchies",0,"Crypte du Sans-branchies",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la crypte du Sans-branchies</Case><Case(2)>à la crypte du Sans-branchies</Case><Case(3)>de la crypte du Sans-branchies</Case></Switch>",0
 3322,"Nord-ouest des gorges de Caliban",0,"Nord-ouest des gorges de Caliban",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord-ouest des gorges de Caliban</Case><Case(2)>dans le nord-ouest des gorges de Caliban</Case><Case(3)>du nord-ouest des gorges de Caliban</Case></Switch>",0
 3323,"Ouest de la caverne de Caliban",0,"Ouest de la caverne de Caliban",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'ouest de la caverne de Caliban</Case><Case(2)>à l'ouest de la caverne de Caliban</Case><Case(3)>de l'ouest de la caverne de Caliban</Case></Switch>",0
 3324,"Est de la caverne de Caliban",0,"Est de la caverne de Caliban",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'est de la caverne de Caliban</Case><Case(2)>à l'est de la caverne de Caliban</Case><Case(3)>de l'est de la caverne de Caliban</Case></Switch>",0
@@ -3525,7 +3525,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3473,"Le Hoyau",0,"Le Hoyau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Hoyau</Case><Case(2)>au Hoyau</Case><Case(3)>du Hoyau</Case></Switch>",0
 3474,"Estrade de Sainte Roelle",0,"Estrade de Sainte Roelle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'estrade de Sainte Roelle</Case><Case(2)>à l'estrade de Sainte Roelle</Case><Case(3)>de l'estrade de Sainte Roelle</Case></Switch>",0
 3475,"Le Nichoir",0,"Le Nichoir",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Nichoir</Case><Case(2)>au Nichoir</Case><Case(3)>du Nichoir</Case></Switch>",0
-3476,"Champs de Rolanberry",0,"Champs de Rolanberry",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Champs de Rolanberry</Case><Case(2)>aux Champs de Rolanberry</Case><Case(3)>des Champs de Rolanberry</Case></Switch>",0
+3476,"Champs de rolanbaies",0,"Champs de rolanbaies",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Champs de rolanbaies</Case><Case(2)>aux Champs de rolanbaies</Case><Case(3)>des Champs de rolanbaies</Case></Switch>",0
 3477,"L'Ambition",0,"L'Ambition",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ambition</Case><Case(2)>sur l'Ambition</Case><Case(3)>de l'Ambition</Case></Switch>",0
 3478,"Gangos",0,"Gangos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Gangos</Case><Case(2)>à Gangos</Case><Case(3)>de Gangos</Case></Switch>",0
 3479,"Mémoire de Cid",0,"Mémoire de Cid",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mémoire de Cid</Case><Case(2)>dans la mémoire de Cid</Case><Case(3)>de la mémoire de Cid</Case></Switch>",0
@@ -3578,7 +3578,7 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3526,"Annexe de la manufacture de Cielacier",0,"Annexe de la manufacture de Cielacier",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'annexe de la manufacture de Cielacier</Case><Case(2)>à l'annexe de la manufacture de Cielacier</Case><Case(3)>de l'annexe de la manufacture de Cielacier</Case></Switch>",0
 3527,"L'Abaque",0,"L'Abaque",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Abaque</Case><Case(2)>à L'Abaque</Case><Case(3)>de L'Abaque</Case></Switch>",0
 3528,"Retraite de Givreglacé",0,"Retraite de Givreglacé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Retraite de Givreglacé</Case><Case(2)>à la Retraite de Givreglacé</Case><Case(3)>de la Retraite de Givreglacé</Case></Switch>",0
-3529,"Avant-poste d'Utya",0,"Avant poste-d'Utya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'avant-poste d'Utya</Case><Case(2)>à l'avant-poste d'Utya</Case><Case(3)>de l'avant-poste d'Utya</Case></Switch>",0
+3529,"Avant-poste d'Utya",0,"Avant-poste d'Utya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'avant-poste d'Utya</Case><Case(2)>à l'avant-poste d'Utya</Case><Case(3)>de l'avant-poste d'Utya</Case></Switch>",0
 3530,"Camp avancé d'Olana",0,"Camp avancé d'Olana",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp avancé d'Olana</Case><Case(2)>au camp avancé d'Olana</Case><Case(3)>du camp avancé d'Olana</Case></Switch>",0
 3531,"Camp avancé de Lunya",0,"Camp avancé de Lunya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp avancé de Lunya</Case><Case(2)>au camp avancé de Lunya</Case><Case(3)>du camp avancé de Lunya</Case></Switch>",0
 3532,"Mer de nuages calme",0,"Mer de nuages calme",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mer de nuages calme</Case><Case(2)>à la mer de nuages calme</Case><Case(3)>de la mer de nuages calme</Case></Switch>",0
@@ -3630,22 +3630,73 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3578,"La Base",0,"La Base",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Base</Case><Case(2)>à la Base</Case><Case(3)>de la Base</Case></Switch>",0
 3579,"Ascenseur",0,"Ascenseur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'ascenseur</Case><Case(2)>à l'ascenseur</Case><Case(3)>de l'ascenseur</Case></Switch>",0
 3580,"Vaisseau extraterrestre",0,"Vaisseau extraterrestre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le vaisseau extraterrestre</Case><Case(2)>dans le vaisseau extraterrestre</Case><Case(3)>du vaisseau extraterrestre</Case></Switch>",0
-3581,"",0,"",0,0,0,0,0,"",0
-3582,"",0,"",0,0,0,0,0,"",0
-3583,"",0,"",0,0,0,0,0,"",0
-3584,"",0,"",0,0,0,0,0,"",0
-3585,"",0,"",0,0,0,0,0,"",0
-3586,"",0,"",0,0,0,0,0,"",0
-3587,"",0,"",0,0,0,0,0,"",0
-3588,"",0,"",0,0,0,0,0,"",0
-3589,"",0,"",0,0,0,0,0,"",0
-3590,"",0,"",0,0,0,0,0,"",0
-3591,"",0,"",0,0,0,0,0,"",0
-3592,"",0,"",0,0,0,0,0,"",0
-3593,"",0,"",0,0,0,0,0,"",0
-3594,"",0,"",0,0,0,0,0,"",0
-3595,"",0,"",0,0,0,0,0,"",0
-3596,"",0,"",0,0,0,0,0,"",0
+3581,"Cale sèche de Castrum Marinum",0,"Cales sèches de Castrum Marinum",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la cale sèche de Castrum Marinum</Case><Case(2)>dans la cale sèche de Castrum Marinum</Case><Case(3)>de la cale sèche de Castrum Marinum</Case></Switch>",0
+3582,"Grotte du pétrisseur",0,"Grottes du pétrisseur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la grotte du pétrisseur</Case><Case(2)>dans la grotte du pétrisseur</Case><Case(3)>de la grotte du pétrisseur</Case></Switch>",0
+3583,"Puits du porteur d'eau",0,"Puits du porteur d'eau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le puits du porteur d'eau</Case><Case(2)>dans le puits du porteur d'eau</Case><Case(3)>du puits du porteur d'eau</Case></Switch>",0
+3584,"Caveau du rôtisseur",0,"Caveaux du rôtisseur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le caveau du rôtisseur</Case><Case(2)>dans le caveau du rôtisseur</Case><Case(3)>du caveau du rôtisseur</Case></Switch>",0
+3585,"Repaire de la sorcière",0,"Repaires de la sorcière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le repaire de la sorcière</Case><Case(2)>dans le repaire de la sorcière</Case><Case(3)>du repaire de la sorcière</Case></Switch>",0
+3586,"Carrière clinquante",0,"Carrières clinquantes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la carrière clinquante</Case><Case(2)>dans la carrière clinquante</Case><Case(3)>de la carrière clinquante</Case></Switch>",0
+3587,"Fontaine frisquette",0,"Fontaines frisquettes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la fontaine frisquette</Case><Case(2)>dans la fontaine frisquette</Case><Case(3)>de la fontaine frisquette</Case></Switch>",0
+3588,"Brasier bariolé",0,"Brasiers bariolés",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le brasier bariolé</Case><Case(2)>dans le brasier bariolé</Case><Case(3)>du brasier bariolé</Case></Switch>",0
+3589,"Grand four délaissé",0,"Grands fours délaissés",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le grand four délaissé</Case><Case(2)>dans le grand four délaissé</Case><Case(3)>du grand four délaissé</Case></Switch>",0
+3590,"Atelier abandonné de Matoya",0,"Ateliers abandonnés de Matoya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Atelier abandonné de Matoya</Case><Case(2)>à l'Atelier abandonné de Matoya</Case><Case(3)>de l'Atelier abandonné de Matoya</Case></Switch>",0
+3591,"Grotte du pétrisseur",0,"Grottes du pétrisseur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la grotte du pétrisseur</Case><Case(2)>dans la grotte du pétrisseur</Case><Case(3)>de la grotte du pétrisseur</Case></Switch>",0
+3592,"Puits du porteur d'eau",0,"Puits du porteur d'eau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le puits du porteur d'eau</Case><Case(2)>dans le puits du porteur d'eau</Case><Case(3)>du puits du porteur d'eau</Case></Switch>",0
+3593,"Caveau du rôtisseur",0,"Caveaux du rôtisseur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le caveau du rôtisseur</Case><Case(2)>dans le caveau du rôtisseur</Case><Case(3)>du caveau du rôtisseur</Case></Switch>",0
+3594,"Repaire de la sorcière",0,"Repaires de la sorcière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le repaire de la sorcière</Case><Case(2)>dans le repaire de la sorcière</Case><Case(3)>du repaire de la sorcière</Case></Switch>",0
+3595,"Prison d'Eulmore",0,"Prison d'Eulmore",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la prison d'Eulmore</Case><Case(2)>dans la prison d'Eulmore</Case><Case(3)>de la prison d'Eulmore</Case></Switch>",0
+3596,"Sphère de l'absence",0,"Sphère de l'absence",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Sphère de l'absence</Case><Case(2)>dans la Sphère de l'absence</Case><Case(3)>de la Sphère de l'absence</Case></Switch>",0
 3597,"",0,"",0,0,0,0,0,"",0
 3598,"",0,"",0,0,0,0,0,"",0
 3599,"",0,"",0,0,0,0,0,"",0
+3600,"",0,"",0,0,0,0,0,"",0
+3601,"",0,"",0,0,0,0,0,"",0
+3602,"",0,"",0,0,0,0,0,"",0
+3603,"",0,"",0,0,0,0,0,"",0
+3604,"",0,"",0,0,0,0,0,"",0
+3605,"",0,"",0,0,0,0,0,"",0
+3606,"",0,"",0,0,0,0,0,"",0
+3607,"",0,"",0,0,0,0,0,"",0
+3608,"",0,"",0,0,0,0,0,"",0
+3609,"",0,"",0,0,0,0,0,"",0
+3610,"",0,"",0,0,0,0,0,"",0
+3611,"",0,"",0,0,0,0,0,"",0
+3612,"",0,"",0,0,0,0,0,"",0
+3613,"",0,"",0,0,0,0,0,"",0
+3614,"",0,"",0,0,0,0,0,"",0
+3615,"",0,"",0,0,0,0,0,"",0
+3616,"",0,"",0,0,0,0,0,"",0
+3617,"",0,"",0,0,0,0,0,"",0
+3618,"",0,"",0,0,0,0,0,"",0
+3619,"",0,"",0,0,0,0,0,"",0
+3620,"Château de Ganlag",0,"Château de Ganlag",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le château de Ganlag</Case><Case(2)>au château de Ganlag</Case><Case(3)>du château de Ganlag</Case></Switch>",0
+3621,"Large des îles de Cieldalaes",0,"Large des îles de Cieldalaes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large des îles de Cieldalaes</Case><Case(2)>au large des îles de Cieldalaes</Case><Case(3)>du large des îles de Cieldalaes</Case></Switch>",0
+3622,"Courant spectral (large des îles de Cieldalaes)",0,"Courant spectral (large des îles de Cieldalaes)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral au large des îles de Cieldalaes</Case><Case(2)>au courant spectral au large des îles de Cieldalaes</Case><Case(3)>du courant spectral au large des îles de Cieldalaes</Case></Switch>",0
+3623,"Large de la mer Pourpre",0,"Large de la mer Pourpre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large de la mer Pourpre</Case><Case(2)>au large de la mer Pourpre</Case><Case(3)>du large de la mer Pourpre</Case></Switch>",0
+3624,"Courant spectral (large de la mer Pourpre)",0,"Courant spectral (large de la mer Pourpre)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral au large de la mer Pourpre</Case><Case(2)>au courant spectral au large de la mer Pourpre</Case><Case(3)>du courant spectral au large de la mer Pourpre</Case></Switch>",0
+3625,"Large du golfe de Rothlyt",0,"Large du golfe de Rothlyt",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large du golfe de Rothlyt</Case><Case(2)>au large du golfe de Rothlyt</Case><Case(3)>du large du golfe de Rothlyt</Case></Switch>",0
+3626,"Courant spectral (large du golfe de Rothlyt)",0,"Courant spectral (large du golfe de Rothlyt)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral au large du golfe de Rothlyt</Case><Case(2)>au courant spectral au large du golfe de Rothlyt</Case><Case(3)>du courant spectral au large du golfe de Rothlyt</Case></Switch>",0
+3627,"Fond de la Mer de Rubis (est)",0,"Fond de la Mer de Rubis (est)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond de la Mer de Rubis (est)</Case><Case(2)>au fond de la Mer de Rubis (est)</Case><Case(3)>du fond de la Mer de Rubis (est)</Case></Switch>",0
+3628,"Nord du Kobayashimaru",0,"Nord du Kobayashimaru",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord du Kobayashimaru</Case><Case(2)>au nord du Kobayashimaru</Case><Case(3)>du nord du Kobayashimaru</Case></Switch>",0
+3629,"Sud du bateau coulé",0,"Sud du bateau coulé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sud du bateau coulé</Case><Case(2)>au sud du bateau coulé</Case><Case(3)>du sud du bateau coulé</Case></Switch>",0
+3630,"Fond du lac d'Azim Khaat (sud)",0,"Fond du lac d'Azim Khaat (sud)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac d'Azim Khaat (sud)</Case><Case(2)>au fond du lac d'Azim Khaat (sud)</Case><Case(3)>du fond du lac d'Azim Khaat (sud)</Case></Switch>",0
+3631,"Profondeurs du lac Seld",0,"Profondeurs du lac Seld",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les profondeurs du lac Seld</Case><Case(2)>dans les profondeurs du lac Seld</Case><Case(3)>des profondeurs du lac Seld</Case></Switch>",0
+3632,"Est de l'île de Ken",0,"Est de l'île de Ken",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'est de l'île de Ken</Case><Case(2)>à l'est de l'île de Ken</Case><Case(3)>de l'est de l'île de Ken</Case></Switch>",0
+3633,"Est du lac Psyché",0,"Est du lac Psyché",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la partie est du lac Psyché</Case><Case(2)>dans la partie est du lac Psyché</Case><Case(3)>de la partie est du lac Psyché</Case></Switch>",0
+3634,"Profondeurs du lac Tusi Mek'ta",0,"Profondeurs du lac Tusi Mek'ta",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les profondeurs du lac Tusi Mek'ta</Case><Case(2)>dans les profondeurs du lac Tusi Mek'ta</Case><Case(3)>des profondeurs du lac Tusi Mek'ta</Case></Switch>",0
+3635,"Jardin du désespoir",0,"Jardin du désespoir",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le jardin du désespoir</Case><Case(2)>au jardin du désespoir</Case><Case(3)>du jardin du désespoir</Case></Switch>",0
+3636,"",0,"",0,0,0,0,0,"",0
+3637,"",0,"",0,0,0,0,0,"",0
+3638,"",0,"",0,0,0,0,0,"",0
+3639,"",0,"",0,0,0,0,0,"",0
+3640,"",0,"",0,0,0,0,0,"",0
+3641,"Îles de Cieldalaes",0,"Îles de Cieldalaes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les îles de Cieldalaes</Case><Case(2)>sur les îles de Cieldalaes</Case><Case(3)>des îles de Cieldalaes</Case></Switch>",0
+3642,"Mer Pourpre",0,"Mer Pourpre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mer Pourpre</Case><Case(2)>dans la mer Pourpre</Case><Case(3)>de la mer Pourpre</Case></Switch>",0
+3643,"Golfe de Rothlyt",0,"Golfe de Rothlyt",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le golfe de Rothlyt</Case><Case(2)>dans le golfe de Rothlyt</Case><Case(3)>du golfe de Rothlyt</Case></Switch>",0
+3644,"Jardin secret du Lyhe Ghiah",0,"Jardin secret du Lyhe Ghiah",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Jardin secret du Lyhe Ghiah</Case><Case(2)>dans le Jardin secret du Lyhe Ghiah</Case><Case(3)>du Jardin secret du Lyhe Ghiah</Case></Switch>",0
+3645,"",0,"",0,0,0,0,0,"",0
+3646,"",0,"",0,0,0,0,0,"",0
+3647,"",0,"",0,0,0,0,0,"",0
+3648,"",0,"",0,0,0,0,0,"",0
+3649,"",0,"",0,0,0,0,0,"",0
+3650,"",0,"",0,0,0,0,0,"",0
