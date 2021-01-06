@@ -7,13 +7,9 @@ ECHO Setting SC definition to the latest game version...
 COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 
 ECHO [%TIME%] Extracting game data...
-.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action AozActionTransient BuddyEquip CabinetCategory Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory ENpcBase ENpcResident Item MinionRace MinionSkillType Mount MountTransient Orchestrion OrchestrionCategory PlaceName Quest Recipe TextCommand TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction Cabinet CharaMakeCustomize ItemAction Level Map TripleTriad"
-
-ECHO [%TIME%] Extracting images...
-.\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 069999"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement ContentFinderCondition ENpcBase ENpcResident PlaceName Quest TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Level Map TripleTriad"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 082100 082999"
-for /d %%i in (%CD%\%VERSION%\ui\icon\*) do (cd "%%i" & rmdir /S /Q hq 2>NUL)
 
 ECHO [%TIME%] Compressing images...
 powershell Compress-Archive -Force %CD%\%VERSION%\ui %CD%\%VERSION%\ui.zip
