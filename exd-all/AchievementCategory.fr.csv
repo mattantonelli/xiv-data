@@ -1,0 +1,75 @@
+﻿key,0,1,2,3,4
+#,Name,AchievementKind,ShowComplete,HideCategory,Order
+int32,str,AchievementKind,bit&01,bit&02,byte
+0,"","",True,False,0
+1,"Général","Battle",True,False,1
+2,"Donjons","Battle",True,False,2
+3,"Défis","Battle",True,False,3
+4,"Raids","Battle",True,False,4
+5,"Contrats de chasse","Battle",True,False,5
+6,"Chasse aux trésors","Battle",True,False,6
+7,"Général","PvP",True,False,1
+8,"Classement","PvP",True,True,2
+9,"L'Antre des loups","PvP",True,False,3
+10,"Front","PvP",True,False,4
+11,"Ailes rivales","PvP",True,False,5
+12,"Général","Character",True,False,1
+13,"Disciples de la guerre","Character",True,False,2
+14,"Disciples de la magie","Character",True,False,3
+15,"Disciples de la main","Character",True,False,4
+16,"Disciples de la terre","Character",True,False,5
+17,"Honneurs","Character",True,False,6
+18,"Gold Saucer","Character",True,False,7
+19,"Général","Items",True,False,1
+20,"Devises","Items",True,False,2
+21,"Recyclage","Items",True,False,3
+22,"Objets collectionnables","Items",True,False,4
+23,"Matérias","Items",True,False,5
+24,"Menuisier","Crafting & Gathering",True,False,2
+25,"Forgeron","Crafting & Gathering",True,False,3
+26,"Armurier","Crafting & Gathering",True,False,4
+27,"Orfèvre","Crafting & Gathering",True,False,5
+28,"Tanneur","Crafting & Gathering",True,False,6
+29,"Couturier","Crafting & Gathering",True,False,7
+30,"Alchimiste","Crafting & Gathering",True,False,8
+31,"Cuisinier","Crafting & Gathering",True,False,9
+32,"Mineur","Crafting & Gathering",True,False,10
+33,"Botaniste","Crafting & Gathering",True,False,11
+34,"Pêcheur","Crafting & Gathering",True,False,12
+35,"Général","Quests",True,False,1
+36,"Mandats","Quests",True,False,2
+37,"Quêtes tribales","Quests",True,False,3
+38,"Événements saisonniers","Quests",True,True,4
+39,"Carnet d'exploration","Exploration",True,False,1
+40,"Noscea","Exploration",True,False,2
+41,"Forêt de Sombrelinceul","Exploration",True,False,3
+42,"Thanalan","Exploration",True,False,4
+43,"Coerthas","Exploration",True,False,5
+44,"Mor Dhona","Exploration",True,False,6
+45,"Abalathia","Exploration",True,False,7
+46,"Dravania","Exploration",True,False,8
+47,"Gyr Abania","Exploration",True,False,9
+48,"Othard","Exploration",True,False,10
+49,"Instances","Exploration",True,False,100
+50,"Général","Grand Company",True,False,1
+51,"Maelstrom","Grand Company",True,False,2
+52,"Ordre des Deux Vipères","Grand Company",True,False,3
+53,"Immortels","Grand Company",True,False,4
+54,"Combats","Legacy",True,False,1
+55,"Devises","Legacy",True,False,2
+56,"Récolte","Legacy",True,False,3
+57,"Quêtes","Legacy",True,False,4
+58,"Événements saisonniers","Legacy",True,False,5
+59,"Donjons","Legacy",True,False,6
+60,"Exploration","Legacy",True,False,7
+61,"Grandes compagnies","Legacy",True,False,8
+62,"Armes antiques","Items",True,False,6
+63,"Armes du zodiaque","Items",True,False,7
+64,"Armes anima","Items",True,False,8
+65,"Armes Donjons sans fond","Items",True,False,9
+66,"Armes Eurêka","Items",True,False,10
+67,"Norvrandt","Exploration",True,False,11
+68,"Armes de la résistance","Items",True,False,11
+69,"Toutes classes","Crafting & Gathering",True,False,1
+70,"Outils de Cielacier","Items",True,False,51
+71,"Missions d'exploration","Battle",True,False,7

@@ -1,0 +1,75 @@
+﻿key,0,1,2,3,4
+#,Name,AchievementKind,ShowComplete,HideCategory,Order
+int32,str,AchievementKind,bit&01,bit&02,byte
+0,"","",True,False,0
+1,"Battle","Battle",True,False,1
+2,"Dungeons","Battle",True,False,2
+3,"Trials","Battle",True,False,3
+4,"Raids","Battle",True,False,4
+5,"The Hunt","Battle",True,False,5
+6,"Treasure Hunt","Battle",True,False,6
+7,"General","PvP",True,False,1
+8,"Ranking","PvP",True,True,2
+9,"The Wolves' Den","PvP",True,False,3
+10,"Frontline","PvP",True,False,4
+11,"Rival Wings","PvP",True,False,5
+12,"General","Character",True,False,1
+13,"Disciples of War","Character",True,False,2
+14,"Disciples of Magic","Character",True,False,3
+15,"Disciples of the Hand","Character",True,False,4
+16,"Disciples of the Land","Character",True,False,5
+17,"Commendation","Character",True,False,6
+18,"Gold Saucer","Character",True,False,7
+19,"Items","Items",True,False,1
+20,"Currency","Items",True,False,2
+21,"Desynthesis","Items",True,False,3
+22,"Collectables","Items",True,False,4
+23,"Materia","Items",True,False,5
+24,"Carpenter","Crafting & Gathering",True,False,2
+25,"Blacksmith","Crafting & Gathering",True,False,3
+26,"Armorer","Crafting & Gathering",True,False,4
+27,"Goldsmith","Crafting & Gathering",True,False,5
+28,"Leatherworker","Crafting & Gathering",True,False,6
+29,"Weaver","Crafting & Gathering",True,False,7
+30,"Alchemist","Crafting & Gathering",True,False,8
+31,"Culinarian","Crafting & Gathering",True,False,9
+32,"Miner","Crafting & Gathering",True,False,10
+33,"Botanist","Crafting & Gathering",True,False,11
+34,"Fisher","Crafting & Gathering",True,False,12
+35,"Quests","Quests",True,False,1
+36,"Levequests","Quests",True,False,2
+37,"Beast Tribe Quests","Quests",True,False,3
+38,"Seasonal Events","Quests",True,True,4
+39,"Sightseeing Log","Exploration",True,False,1
+40,"La Noscea","Exploration",True,False,2
+41,"The Black Shroud","Exploration",True,False,3
+42,"Thanalan","Exploration",True,False,4
+43,"Coerthas","Exploration",True,False,5
+44,"Mor Dhona","Exploration",True,False,6
+45,"Abalathia's Spine","Exploration",True,False,7
+46,"Dravania","Exploration",True,False,8
+47,"Gyr Abania","Exploration",True,False,9
+48,"Othard","Exploration",True,False,10
+49,"Duty","Exploration",True,False,100
+50,"Grand Company","Grand Company",True,False,1
+51,"Maelstrom","Grand Company",True,False,2
+52,"Order of the Twin Adder","Grand Company",True,False,3
+53,"Immortal Flames","Grand Company",True,False,4
+54,"Battle","Legacy",True,False,1
+55,"Currency","Legacy",True,False,2
+56,"Gathering","Legacy",True,False,3
+57,"Quests","Legacy",True,False,4
+58,"Seasonal Events","Legacy",True,False,5
+59,"Dungeons","Legacy",True,False,6
+60,"Exploration","Legacy",True,False,7
+61,"Grand Company","Legacy",True,False,8
+62,"Relic Weapons","Items",True,False,6
+63,"Zodiac Weapons","Items",True,False,7
+64,"Anima Weapons","Items",True,False,8
+65,"Deep Dungeon Weapons","Items",True,False,9
+66,"Eureka Weapons","Items",True,False,10
+67,"Norvrandt","Exploration",True,False,11
+68,"Resistance Weapons","Items",True,False,11
+69,"All Disciplines","Crafting & Gathering",True,False,1
+70,"Skysteel Tools","Items",True,False,51
+71,"Field Operations","Battle",True,False,7

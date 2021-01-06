@@ -1,0 +1,2623 @@
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11
+#,,,,,,Command,ShortCommand,Description,Alias,ShortAlias,,
+int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,uint16,uint32
+1,1,0,0,0,0,"/record","","/visionnage, /visio, /record
+Ouvre la fenêtre de visionnage de mission.","/visionnage","/visio",32,0
+2,2,1,0,0,0,"/recordready","","/appelenregistrement, /appelenreg, /recordready
+Utilisation<Indent/>: /appelenregistrement [sous-commande]
+Lance un appel d'enregistrement (ou un appel de préparation à partir de la seconde fois), puis un compte à rebours si tous les équipiers ont répondu ""Oui"".
+>> Sous-commande<Indent/>:
+""[nombre de secondes entre 5 et 30]"" Définit la durée du compte à rebours.
+Si aucune sous-commande n'est spécifiée, ouvre la fenêtre de l'appel d'enregistrement.","/appelenregistrement","/appelenreg",0,0
+3,1,0,0,0,0,"/pvpteamcmd","","/fenêtreéquipejcj, /féjcj, /pvpteamcmd
+Ouvre la fenêtre Équipe JcJ.","/fenêtreéquipejcj","/féjcj",0,0
+4,1,0,0,0,0,"/saddlebag","","/sacochechocobo, /schoc, /chocobobag, /saddlebag
+Ouvre la sacoche chocobo.","/sacochechocobo","/schoc",0,0
+5,1,0,0,0,0,"/magiaright","","/magiadroite, /magiaright
+Fait pivoter le plateau Magia dans le sens des aiguilles d'une montre.
+","/magiadroite","",0,0
+6,1,0,0,0,0,"/magialeft","","/magiagauche, /magialeft
+Fait pivoter le plateau Magia dans le sens inverse des aiguilles d'une montre.
+","/magiagauche","",0,0
+7,1,0,0,0,0,"/cwlinkshellcmd","/cwlcmd","/lsimcom, /cwlinkshellcmd
+Ouvre le menu de la linkshell inter-Monde.","/lsimcom","",0,0
+8,3,1,17,0,0,"/quickchat","/qchat","'/expressionfigée, /exfig, /quickchat, /qchat
+Affiche une expression figée.
+* Uniquement dans The Feast.
+Utilisation<Indent/>: /expressionfigée Attaque générale
+Affiche l'expression figée Attaque générale.
+/exfig Attaque<Indent/>: cible <t>
+Affiche l'expression figée Attaque<Indent/>: cible en ajoutant le nom de l'ennemi ciblé.","/expressionfigée","/exfig",1021,0
+9,4,3,2,18,2,"/bluespellbook","","/grimoiremagiebleue, /gmagiebleue, /bluespellbook
+Utilisation<Indent/>: /grimoiremagiebleue [sous-commande]
+Permet de modifier les actions actives de magie bleue.
+>> Sous-commandes<Indent/>:
+set ""Nom d'action de magie bleue"" on    Ajoute le sort de magie bleue au set actif.
+set ""Nom d'action de magie bleue"" off    Retire le sort de magie bleue du set actif.
+preset ""Numéro du set sauvegardé"" (1 à 5)   Charge le set spécifié par le numéro.
+clear    Retire toutes les actions du set actif.
+Si aucune sous-commande n'est spécifiée, ouvre le grimoire de magie bleue.
+
+>> Exemples<Indent/>:
+/grimoiremagiebleue set Tir d'eau
+  Ajoute l'action de magie bleue ""Tir d'eau"" au set actif.
+/bluespellbook preset 2
+  Charge le set d'actions de magie bleue numéro 2 dans le set actif.","/grimoiremagiebleue","/gmagiebleue",36,0
+10,2,1,2,0,0,"/magiaattack","","/magiaoffensif, /magiaattack
+Utilisation<Indent/>: /magiaoffensif [argument de ciblage]
+Configure le plateau Magia de façon à renforcer l'élément ayant l'avantage sur celui de la cible désignée.
+>> Exemple<Indent/>:
+/magiaoffensif <t>
+  Configure le plateau Magia de façon à renforcer l'élément ayant l'avantage sur celui de la cible actuelle.","/magiaoffensif","",0,0
+11,2,1,2,0,0,"/magiadefense","","/magiadéfensif, /magiadefense
+Utilisation<Indent/>: /magiadéfensif [argument de ciblage]
+Configure le plateau Magia de façon à renforcer l'élément de la cible désignée.
+>> Exemple<Indent/>:
+/magiadéfensif <t>
+  Configure le plateau Magia de façon à renforcer l'élément de la cible actuelle.","/magiadéfensif","",0,0
+12,2,1,2,0,0,"/magiaauto","","/magiaauto
+Utilisation<Indent/>: /magiaauto [sous-commande]
+Active la configuration automatique du plateau Magia en fonction de la cible sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née, et selon le mode choisi.
+>> Sous-commande<Indent/>:
+attaque (attack)   Active le mode offensif.
+défense (defense)   Active le mode défensif.
+off   Désactive la configuration automatique du plateau Magia.
+Si aucune sous-commande n'est spécifiée, les différents modes sont activés à tour de rôle.
+>> Exemple<Indent/>:
+/magiaauto attaque
+  Active la configuration automatique du plateau Magia en mode offensif.","/magiaauto","",0,0
+13,1,0,0,0,0,"/cwlinkshell1","/cwl1","/linkshellim1, /lsim1, /cwlinkshell1
+Utilisation<Indent/>: /linkshellim1 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 1, où qu'ils se trouvent.
+""LSIM 1"" devient le mode de discussion par défaut si /linkshellim1 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim1 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 1.
+/lsim1 
+  ""LSIM 1"" devient le mode de discussion par défaut.","/linkshellim1","/lsim1",1021,0
+14,1,0,0,0,0,"/cwlinkshell2","/cwl2","/linkshellim2, /lsim2, /cwlinkshell2
+Utilisation<Indent/>: /linkshellim2 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 2, où qu'ils se trouvent.
+""LSIM 2"" devient le mode de discussion par défaut si /linkshellim2 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim2 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 2.
+/lsim2 
+  ""LSIM 2"" devient le mode de discussion par défaut.","/linkshellim2","/lsim2",1021,0
+15,1,0,0,0,0,"/cwlinkshell3","/cwl3","/linkshellim3, /lsim3, /cwlinkshell3
+Utilisation<Indent/>: /linkshellim3 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 3, où qu'ils se trouvent.
+""LSIM 3"" devient le mode de discussion par défaut si /linkshellim3 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim3 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 3.
+/lsim3 
+  ""LSIM 3"" devient le mode de discussion par défaut.","/linkshellim3","/lsim3",1021,0
+16,1,0,0,0,0,"/cwlinkshell4","/cwl4","/linkshellim4, /lsim4, /cwlinkshell4
+Utilisation<Indent/>: /linkshellim4 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 4, où qu'ils se trouvent.
+""LSIM 4"" devient le mode de discussion par défaut si /linkshellim4 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim4 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 4.
+/lsim4 
+  ""LSIM 4"" devient le mode de discussion par défaut.","/linkshellim4","/lsim4",1021,0
+17,1,0,0,0,0,"/cwlinkshell5","/cwl5","/linkshellim5, /lsim5, /cwlinkshell5
+Utilisation<Indent/>: /linkshellim5 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 5, où qu'ils se trouvent.
+""LSIM 5"" devient le mode de discussion par défaut si /linkshellim5 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim5 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 5.
+/lsim5 
+  ""LSIM 5"" devient le mode de discussion par défaut.","/linkshellim5","/lsim5",1021,0
+18,1,0,0,0,0,"/cwlinkshell6","/cwl6","/linkshellim6, /lsim6, /cwlinkshell6
+Utilisation<Indent/>: /linkshellim6 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 6, où qu'ils se trouvent.
+""LSIM 6"" devient le mode de discussion par défaut si /linkshellim6 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim6 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 6.
+/lsim6 
+  ""LSIM 6"" devient le mode de discussion par défaut.","/linkshellim6","/lsim6",1021,0
+19,1,0,0,0,0,"/cwlinkshell7","/cwl7","/linkshellim7, /lsim7, /cwlinkshell7
+Utilisation<Indent/>: /linkshellim7 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 7, où qu'ils se trouvent.
+""LSIM 7"" devient le mode de discussion par défaut si /linkshellim7 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim7 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 7.
+/lsim7 
+  ""LSIM 7"" devient le mode de discussion par défaut.","/linkshellim7","/lsim7",1021,0
+20,1,0,0,0,0,"/cwlinkshell8","/cwl8","/linkshellim8, /lsim8, /cwlinkshell8
+Utilisation<Indent/>: /linkshellim8 [message]
+Affiche un message visible par tous les membres de la linkshell inter-Monde numéro 8, où qu'ils se trouvent.
+""LSIM 8"" devient le mode de discussion par défaut si /linkshellim8 est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim8 Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde numéro 8.
+/lsim8 
+  ""LSIM 8"" devient le mode de discussion par défaut.","/linkshellim8","/lsim8",1021,0
+21,2,0,0,0,0,"/graphicpresets","/gpresets","/réggraphiques, /reggra, /graphicpresets, /gpresets
+Utilisation<Indent/>: /reggra [numéro du préréglage]
+Active les préréglages graphiques spécifiés.
+
+>> Numéro du préréglage (1 à 5)<Indent/>:
+<If(Equal(PlayerParameter(78),3))>1<Indent/>: Standards (Mac)
+2<Indent/>: Moyens (Mac)
+3<Indent/>: Élevés (Mac)
+4<Indent/>: Très élevés (Mac)<Indent/>: 64bit seulement
+5<Indent/>: Maximums (Mac)<Indent/>: 64bit seulement
+
+>> Exemples<Indent/>:
+/reggra 1
+　Active les préréglages graphiques Standards (Mac).
+/reggra 3
+　Active les préréglages graphiques Élevés (Mac).
+<Else/>1<Indent/>: Moyens (PC portable)
+2<Indent/>: Moyens (PC de bureau)
+3<Indent/>: Élevés (PC portable)
+4<Indent/>: Élevés (PC de bureau)
+5<Indent/>: Maximums
+
+>> Exemples<Indent/>:
+/reggra 1
+　Active les préréglages graphiques Moyens (PC portable).
+/reggra 5
+　Active les préréglages graphiques Maximums.
+</If>","/réggraphiques","/reggra",993,0
+22,1,0,0,0,0,"/fellowship","/fs","/communauté, /commu, /fellowship, /fs
+Affiche la liste de vos communautés.","/communauté","/commu",32,0
+23,1,0,0,0,0,"/fellowshipfinder","/fsfinder","/rechcommunauté, /rechcom, /fsfinder
+Affiche la fenêtre de recherche de communautés.","/rechcommunauté","/rechcom",32,0
+24,1,0,0,0,0,"/collection","/coll","/objetsprécieux, /objpré, /collection, /coll
+Affiche la liste des objets précieux possédés.","/objetsprécieux","/objpré",32,0
+25,1,0,0,0,0,"/newgame+","/ng+","/nouvpartie+, /np+, /newgame+, /ng+
+Affiche la fenêtre permettant de commencer ou reprendre une nouvelle partie +.","/nouvpartie+","/np+",32,0
+26,2,1,2,0,0,"/dice","","/dé, /dice
+Utilisation<Indent/>: /dé [mode de discussion] [valeur maximum]
+Lance un dé affichant un résultat aléatoire entre 0 et 999 dans le mode de discussion spécifié. Le mode de discussion actuel est utilisé s'il n'est pas précisé.
+
+>> Modes de discussion compatibles<Indent/>:
+ Équipe (/chatéq)
+ Alliance (/alliance)
+ Compagnie libre (/compagnielibre)
+ Linkshell (/linkshell[1-8])
+ Linkshell inter-Monde (/lsim[1-8])
+* Le mode de discussion doit forcément être précisé quand cette commande est utilisée dans une macro.
+>> Valeur maximum (2-999)<Indent/>:
+ Détermine la valeur maximum pouvant être tirée. Le résultat sera alors compris entre 1 et la valeur choisie, ou 0 et 999 si aucune valeur n'est saisie.
+
+>> Exemples<Indent/>:
+/dé
+ Lance un dé dans le mode de discussion actif.
+/dé 16
+ Lance un dé dont le résultat sera compris entre 1 et 16 dans le mode de discussion actif.
+/dé lsim1
+ Lance un dé dans la linkshell inter-Monde numéro 1.
+/dé lsim1 16
+ Lance un dé dont le résultat sera compris entre 1 et 16 dans la linkshell inter-Monde numéro 1.","/dé","",36,1000
+27,3,1,2,0,0,"/nameplatetype","","/typedeplaquedenom, /typeplaq
+Utilisation<Indent/>: /typedeplaquedenom [catégorie] [mode d'affichage]
+Change le mode d'affichage des plaques de noms pour la catégorie de joueur spécifiée.
+
+>> Catégories<Indent/>:
+ tous <Indent/>: tous les joueurs
+ soi<Indent/>: soi-même
+ équipe<Indent/>: joueurs membres de son équipe
+ alliance<Indent/>: joueurs membres de son alliance
+ autres<Indent/>: joueurs hors catégorie
+ amis<Indent/>: joueurs amis
+ feast<Indent/>: joueurs ennemis dans The Feast
+
+>> Modes d'affichage<Indent/>:
+ 1<Indent/>: nom complet 2<Indent/>: nom de famille abrégé 3<Indent/>: prénom abrégé 4<Indent/>: initiales
+
+>> Exemples<Indent/>:
+/typedeplaquedenom tous 4
+Affiche seulement les initiales sur les plaques de nom de tous les joueurs.","/typedeplaquedenom","/typeplaq",36,0
+28,3,1,2,0,0,"/nameplatedisp","","/affichageplaquedenom, /affplaq
+Utilisation<Indent/>: /affichageplaquedenom [cible] [mode d'affichage]
+Modifie quand les plaques de noms s'affichent pour la catégorie de joueur spécifiée.
+
+>> Catégories<Indent/>:
+ tous <Indent/>: tous les joueurs
+ soi<Indent/>: soi-même
+ équipe<Indent/>: joueurs membres de son équipe
+ alliance<Indent/>: joueurs membres de son alliance
+ autres<Indent/>: joueurs hors catégorie
+ amis<Indent/>: joueurs amis
+ feast<Indent/>: joueurs ennemis dans The Feast
+
+>> Modes d'affichage<Indent/>:
+ 1<Indent/>: toujours
+ 2<Indent/>: en combat
+ 3<Indent/>: en ciblage
+ 4<Indent/>: jamais
+
+>> Exemples<Indent/>:
+/affichageplaquedenom tous 4
+N'affiche jamais les plaques de nom des joueurs.","/affichageplaquedenom","/affplaq",36,0
+29,2,1,20,0,0,"/fashion","","/accessoire, /fashion
+Utilisation<Indent/>: /accessoire ""[nom l'accessoire de mode]""
+Permet d'équiper l'accessoire de mode spécifié.
+
+>> Exemple<Indent/>:
+/accessoire “ombrelle”
+　Équipe l'accessoire de mode ombrelle.","/accessoire","",36,0
+30,1,0,0,0,0,"/fashionguide","","/listeaccessoires, /fashionguide
+Affiche la liste de vos accessoires de mode.","/listeaccessoires","",32,0
+31,1,0,0,0,0,"/officialsite","/site","/siteofficiel, /site
+Ouvre le menu du site officiel.","/siteofficiel","",32,0
+32,1,0,0,0,0,"//setGearset","","//setGearset
+リアルイベント用コマンド。
+アーマリーチェスト内のアイテムをもとに、自動的にバトルジョブのギアセットを生成する。","","",32,0
+91,1,0,0,0,0,"/pvpteam","/pt","/équipejcj, /éj, /pvpteam, /pt
+Utilisation<Indent/>: /équipejcj [message]
+Affiche un message visible par tous les joueurs appartenant à la même équipe JcJ.
+""Équipe JcJ"" devient le mode de discussion par défaut si /équipejcj est utilisé sans message.","/équipejcj","/éj",1021,0
+92,1,0,0,0,0,"/cwlinkshell","/cwl","/linkshellim, /lsim, /cwlinkshell
+Utilisation<Indent/>: /linkshellim [message]
+Affiche un message visible par tous les membres de votre linkshell inter-Monde active, où qu'ils se trouvent.
+Le mode de discussion par défaut devient celui de la linkshell inter-Monde active si /linkshellim est utilisé sans message.
+
+>> Exemples<Indent/>:
+/linkshellim Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" à tous les membres de la linkshell inter-Monde active.
+/lsim 
+  Change le mode de discussion par défaut par celui de la linkshell inter-Monde active.","/linkshellim","/lsim",1021,0
+101,1,0,0,0,0,"/beginner","/b","/novice, /n, /beginner, /b
+Utilisation<Indent/>: /novice [message]
+Affiche un message visible par tous les joueurs participant au réseau des novices.
+""Réseau des novices"" devient le mode de discussion par défaut si /novice est utilisé sans message.","/novice","/n",1021,0
+102,1,0,0,0,0,"/say","/s","/dire, /d, /say, /s
+Utilisation<Indent/>: /dire [message]
+Affiche un message visible par tous les PJ présents dans un périmètre réduit.
+""Dire"" devient le mode de discussion par défaut si /dire est utilisé sans message.
+Le message ne s'affiche pas si le filtre de chat ""Dire"" est activé.","/dire","/d",1023,0
+103,1,0,0,0,0,"/shout","/sh","/hurler, /h, /shout, /sh
+Utilisation<Indent/>: /hurler [message]
+Affiche un message visible par tous les PJ présents dans la zone.","/hurler","/h",1021,0
+104,3,0,0,0,0,"/tell","/t","/murmurer, /msg, /tell, /t
+Utilisation<Indent/>: /murmurer [nom de PJ]@[nom du Monde] [message]
+Envoie un message à un PJ originaire du Monde spécifié.
+Il est nécessaire d'ajouter la mention @[nom du Monde] après le nom du personnage pour s'adresser à un PJ d'un autre Monde.
+Seuls les membres de la liste d'amis de ce personnage ou le chef d'une équipe en cours de recrutement pourront le contacter.
+""Murmurer"" devient le mode de discussion par défaut avec le PJ désigné si /murmurer [nom de PJ]@[nom du Monde] est utilisé sans message.
+* Le nom du personnage doit être écrit sans guillemets.
+Ce message n'est pas visible par les autres joueurs.
+>> Exemples<Indent/>:
+/murmurer Square Enix@Monde Bonjour<Indent/>!
+  Envoie le message ""Bonjour<Indent/>!"" au personnage Square Enix du Monde spécifié et présent dans le même Monde.","/murmurer","/msg",1021,0
+105,1,0,0,0,0,"/party","/p","/chatéq, /gr, /party, /p
+Utilisation<Indent/>: /chatéq [message]
+Affiche un message visible par les membres de votre équipe, où qu'ils se trouvent.
+""Équipe"" devient le mode de discussion par défaut si /chatéq est utilisé sans message.","/chatéq","/gr",1021,0
+106,1,0,0,0,0,"/linkshell","/l","/ls, /linkshell, /l
+Utilisation<Indent/>: /ls [message]
+Affiche un message visible par tous les membres de votre linkshell, où qu'ils se trouvent.
+""Linkshell"" devient le mode de discussion par défaut si /linkshell est utilisé sans message.","/linkshell","/ls",1021,0
+107,1,0,0,0,0,"/linkshell1","/l1","/linkshell1, /l1, /ls1
+Utilisation<Indent/>: /linkshell1 [message]
+Affiche un message visible par tous les membres de la linkshell 1, où qu'ils se trouvent.","/linkshell1","/ls1",1021,0
+108,1,0,0,0,0,"/linkshell2","/l2","/linkshell2, /l2, /ls2
+Utilisation<Indent/>: /linkshell2 [message]
+Affiche un message visible par tous les membres de la linkshell 2, où qu'ils se trouvent.","/linkshell2","/ls2",1021,0
+109,1,0,0,0,0,"/linkshell3","/l3","/linkshell3, /l3, /ls3
+Utilisation<Indent/>: /linkshell3 [message]
+Affiche un message visible par tous les membres de la linkshell 3, où qu'ils se trouvent.","/linkshell3","/ls3",1021,0
+110,1,0,0,0,0,"/linkshell4","/l4","/linkshell4, /l4, /ls4
+Utilisation<Indent/>: /linkshell4 [message]
+Affiche un message visible par tous les membres de la linkshell 4, où qu'ils se trouvent.","/linkshell4","/ls4",1021,0
+111,1,0,0,0,0,"/linkshell5","/l5","/linkshell5, /l5, /ls5
+Utilisation<Indent/>: /linkshell5 [message]
+Affiche un message visible par tous les membres de la linkshell 5, où qu'ils se trouvent.","/linkshell5","/ls5",1021,0
+112,1,0,0,0,0,"/linkshell6","/l6","/linkshell6, /l6, /ls6
+Utilisation<Indent/>: /linkshell6 [message]
+Affiche un message visible par tous les membres de la linkshell 6, où qu'ils se trouvent.","/linkshell6","/ls6",1021,0
+113,1,0,0,0,0,"/linkshell7","/l7","/linkshell7, /l7, /ls7
+Utilisation<Indent/>: /linkshell7 [message]
+Affiche un message visible par tous les membres de la linkshell 7, où qu'ils se trouvent.","/linkshell7","/ls7",1021,0
+114,1,0,0,0,0,"/linkshell8","/l8","/linkshell8, /l8, /ls8
+Utilisation<Indent/>: /linkshell8 [message]
+Affiche un message visible par tous les membres de la linkshell 8, où qu'ils se trouvent.","/linkshell8","/ls8",1021,0
+115,1,0,0,0,0,"/freecompany","/fc","/compagnielibre, /cl, /freecompany, /fc
+Utilisation<Indent/>: /cl [message]
+Affiche un message visible par tous les membres de votre compagnie libre, où qu'ils se trouvent.
+""Compagnie libre"" devient le mode de discussion par défaut si /cl est utilisé sans message.","/compagnielibre","/cl",1021,0
+116,1,0,0,0,0,"/echo","/e","/écho, /e, /echo
+Utilisation<Indent/>: /écho [message]
+Affiche un message que vous seul pouvez voir.","/écho","",1021,0
+117,1,0,0,0,0,"/yell","/y","/crier, /cri, /yell, /y
+Utilisation<Indent/>: /crier [message]
+Affiche un message visible par tous les PJ présents dans un large périmètre.
+""Crier"" devient le mode de discussion par défaut si /crier est utilisé sans message.","/crier","/cri",1021,0
+118,1,0,0,0,0,"/reply","/r","/répondre, /r, /reply
+Utilisation<Indent/>: /répondre [message]
+Permet d'envoyer un message à la dernière personne qui vous a contacté avec /murmurer.","/répondre","",1021,0
+119,1,0,0,0,0,"/alliance","/a","/alliance, /all, /a
+Utilisation<Indent/>: /alliance [message]
+Affiche un message visible par tous les membres de l'alliance, où qu'ils se trouvent.
+""Alliance"" devient le mode de discussion par défaut si /alliance est utilisé sans message.","/all","",1021,0
+121,1,0,0,0,0,"/join","","/rejoindre, /accepter, /join
+Permet d'accepter une invitation à rejoindre une équipe.","/rejoindre","/accepter",4,0
+122,1,0,0,0,0,"/decline","","/décliner, /decline
+Permet de refuser une invitation à rejoindre une équipe.","/décliner","",4,0
+123,2,0,0,0,0,"/invite","","/inviter, /invite
+Utilisation<Indent/>: /inviter [argument de ciblage]
+Invite la cible désignée dans l'équipe. Si aucun argument n'est spécifié, le personnage ciblé est invité.","/inviter","",4,0
+124,2,0,0,0,0,"/kick","","/exclure, /kick
+Utilisation<Indent/>: /exclure [argument de ciblage]
+Exclut la cible désignée de l'équipe. Si aucun argument n'est spécifié, le personnage ciblé est exclu.","/exclure","",4,0
+125,2,0,0,0,0,"/leader","","/chef, /leader
+Utilisation<Indent/>: /chef [argument de ciblage]
+La cible désignée devient chef d'équipe. Si aucun argument n'est spécifié, le personnage ciblé devient chef d'équipe.","/chef","",4,0
+126,2,0,0,0,0,"/leave","","/partir, /leave
+Quitte l'équipe.","/partir","",4,0
+131,2,0,0,0,0,"/check","/c","/examiner, /exam, /check, /c
+Utilisation<Indent/>: /examiner [argument de ciblage]
+Examine la cible spécifiée, ou le personnage ciblé si aucun argument n'est saisi.","/examiner","/exam",160,0
+132,2,0,0,0,0,"/trade","","/échanger, /éch, /trade
+Utilisation<Indent/>: /éch [argument de ciblage]
+Propose un échange à la cible spécifiée, ou au personnage ciblé si aucun argument n'est saisi.","/échanger","/éch",32,0
+133,2,1,2,0,0,"/automove","","/courseauto, /courir, /automove
+Utilisation<Indent/>: /courseauto [sous-commande]
+Active ou désactive la marche/course automatique, qui permet d'avancer sans s'arrêter dans la direction suivie. Il est nécessaire d'être déjà en mouvement.
+Pour annuler, déplacez-vous dans la direction opposée.
+>> Sous-commandes<Indent/>:
+activé (on)        Active la course automatique.
+désactivé (off)    Désactive la course automatique.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/courseauto","/courir",36,0
+134,2,0,0,0,0,"/follow","","/suivre, /follow
+Utilisation<Indent/>: /suivre [argument de ciblage]
+Permet de suivre au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment la cible spécifiée, ou le personnage ciblé si aucun argument n'est saisi.","/suivre","",36,0
+136,2,0,0,0,0,"/meldrequest","","/sertirsvp, /sertir, /meldrequest
+Utilisation<Indent/>: /sertirsvp [argument de ciblage]
+Demande à la cible désignée de sertir une matéria. Si aucun argument n'est spécifié, la demande est faite au personnage ciblé.","/sertirsvp","/sertir",32,0
+141,1,0,0,0,0,"/character","/gear","/personnage, /character, /gear
+Ouvre le menu personnage.","/personnage","",32,0
+142,1,0,0,0,0,"/journal","","/journal
+Ouvre le journal.","","",32,0
+143,1,0,0,0,0,"/dutyfinder","/dfinder","/outilmission, /outilm, /dutyfinder, /dfinder
+Ouvre l'outil de mission.","/outilmission","/outilm",800,0
+144,1,0,0,0,0,"/armourychest","/armoury","/arsenal, /armourychest, /armoury
+Ouvre l'Arsenal.","/arsenal","",32,0
+145,1,0,0,0,0,"/huntinglog","/hlog","/bestiaire, /best, /huntinglog
+Ouvre le bestiaire.","/bestiaire","/best",32,0
+146,1,0,0,0,0,"/craftinglog","/clog","/cartisanat, /cart, /craftinglog
+Ouvre le carnet d'artisanat.","/cartisanat","/cart",0,0
+147,1,0,0,0,0,"/gatheringlog","/glog","/crécolte, /créc, /gatheringlog
+Ouvre le carnet de récolte.","/crécolte","/créc",0,0
+148,1,0,0,0,0,"/fishinglog","/flog","/cpêche, /cpêc, /fishinglog
+Ouvre le carnet de pêche.","/cpêche","/cpêc",32,0
+149,1,0,0,0,0,"/achievements","","/hautsfaits, /hf, /achievements
+Ouvre le menu des hauts faits.","/hautsfaits","/hf",32,0
+150,3,1,2,0,0,"/partycmd","/pcmd","/cmdéq, /partycmd, /pcmd
+Utilisation<Indent/>: /cmdéq [sous-commande]
+Exécute différentes commandes d'équipe.
+* En équipe inter-Monde, permet uniquement d'ouvrir la fenêtre Réseau social (Équipiers) ou d'inviter un PJ.
+>> Sous-commandes<Indent/>:
+inviter (add) [argument de ciblage]   Inviter le PJ désigné à rejoindre l'équipe.
+accepter (accept)   Accepter une invitation à rejoindre une équipe.
+refuser (deny)   Refuser une invitation à rejoindre une équipe.
+chef (leader) [argument de ciblage]  Nommer chef le PJ désigné.
+quitter (leave)   Quitter l'équipe.
+exclure (kick) [argument de ciblage]   Expulser le PJ désigné de votre équipe (réservé au chef d'équipe).
+dissoudre (breakup)   Dissoudre votre équipe.
+Si aucune sous-commande n'est spécifiée, ouvre la fenêtre Réseau social (Équipiers).","/cmdéq","",32,0
+151,3,1,2,0,0,"/friendlist","/flist","/amis, /la, /friendlist, /flist
+Utilisation<Indent/>: /amis [sous-commande]
+Affiche votre liste d'amis et exécute différentes commandes en lien avec la liste.
+>> Sous-commandes<Indent/>:
+inviter (add) [argument de ciblage]   Envoyer une requête d'ami au PJ désigné.
+accepter (accept) [argument de ciblage]   Accepter la requête d'ami du PJ désigné.
+refuser (deny) [argument de ciblage]   Refuser la requête d'ami du PJ désigné.
+supprimer (remove) [argument de ciblage]  Effacer le PJ désigné de la liste d'amis.
+Si aucune sous-commande n'est spécifiée, la liste d'amis s'affiche.","/amis","/la",128,0
+152,3,1,2,0,0,"/blacklist","/blist","/listenoire, /ln, /blacklist, /blist
+Utilisation<Indent/>: /listenoire [sous-commande]
+Affiche votre liste noire et exécute différentes commandes en lien avec la liste.
+>> Sous-commandes<Indent/>:
+inviter (add)  [argument de ciblage]   Ajouter le PJ désigné à la liste noire.
+supprimer (remove) [argument de ciblage]  Retirer le PJ désigné de la liste noire.
+Si aucune sous-commande n'est spécifiée, la liste noire s'affiche.","/listenoire","/ln",0,0
+153,20,0,0,0,0,"/search","/sea","/recherche, /rech, /search, /sea
+Utilisation<Indent/>: /recherche [conditions]
+Effectuer une recherche de personnages selon des conditions déterminées.
+>> Conditions<Indent/>:
+(Plusieurs peuvent être spécifiées sans ordre particulier. Les noms de lieux contenant une espace doivent être encadrés par des guillemets)
+- Nom de personnage<Indent/>:
+nom (name) [nom]                Spécifie le prénom.
+nomfamille (familyname) [nom]    Spécifie le nom de famille.
+- État en ligne<Indent/>:
+chef (chef d'équipe), absent (absent(e)), occupé (occupé(e)), mission (en mission), scène (regarde une scène cinématique), chéq (cherche une équipe), sertmat (propose le sertissage de matérias), novice (joueur novice), mentor (mentor), mentorcombat (mentor pour le combat), mentorartisanatrécolte (mentor pour l'artisanat et la récolte), mentorjcj (mentor pour le JcJ), jeuderôle (en train de jouer un rôle), rappelé (joueur rappelé).
+- Classes/jobs<Indent/>:
+GLA (gladiateur), PGL (pugiliste), MRD (maraudeur), HAS (maître d'hast), ARC (archer), ELM (élé<SoftHyphen/>men<SoftHyphen/>ta<SoftHyphen/>lis<SoftHyphen/>te), OCC (occultiste), ACN (arcaniste), SUR (surineur), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur), PLD (paladin), MOI (moine), GUE (guerrier), DRG (chevalier dragon), BRD (barde), MBL (mage blanc), MNO (mage noir), INV (invocateur), ERU (érudit), NIN (ninja), CHN (chevalier noir), MCH (machiniste), AST (astromancien), SAM (samouraï), MRG (mage rouge), MBU (mage bleu), PSB (Pistosabreur), DNS (Danseur).
+* Si aucun nom de classe ou de job n'est spécifié, la recherche les couvre tous.
+- Niveaux<Indent/>:
+Il est possible de spécifier un niveau avec le nombre correspondant, ou une fourchette de niveaux avec deux nombres séparés par le signe ""-"".
+* Si aucun nombre n'est spécifié, la recherche couvre tous les niveaux.
+- Grandes compagnies<Indent/>:
+maelstrom (Maelstrom), vipères (Ordre des Deux Vipères), immortels (Immortels).
+- Lieux<Indent/>:
+monde (Monde entier), limsa (Limsa Lominsa), gridania (Gridania), uldah (Ul'dah), ishgard (Ishgard), kugane (Kugane), cristarium (Cristarium), eulmore (Eulmore), noscea (La Noscea), sombrelinceul (Sombrelinceul), thanalan (Thanalan), coerthas (Coerthas), mordhona (Mor Dhona), abalathia (Abalathia), dravania (Dravania), gyrabania (Gyr Abania), othard (Othard), norvrandt (Norvrandt).
+* Si aucun nom de lieu n'est spécifié, la recherche couvre le monde entier.
+- Langues<Indent/>:
+japonais (ja), anglais (en), allemand (de), français (fr).
+* Si aucune langue n'est spécifiée, la recherche se fait pour celle utilisée ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment.
+* Si aucune condition n'est spécifiée, la recherche s'effectue selon celles définies par défaut dans le menu Recherche.
+>> Exemple<Indent/>:
+/recherche GLA 20-30 noscea
+Recherche tous les gladiateurs de niveaux 20 à 30 en Noscea.","/recherche","/rech",0,0
+154,1,0,0,0,0,"/map","","/carte, /map
+Affiche la carte de la zone où se trouve votre personnage.","/carte","",104,0
+155,1,0,0,0,0,"/teleport","","/téléportation, /télép, /teleport
+Ouvre le menu Téléportation.","/téléportation","/télép",0,0
+156,3,1,2,0,0,"/marking","/mk","/marquer, /signe, /marking, /mk
+Utilisation<Indent/>: /marquer [type]  [argument de ciblage]
+Permet de placer un signe sur la cible spécifiée ou le personnage ciblé si aucun argument n'est saisi.
+>> Signes<Indent/>:
+""attaque1"" jusqu'à ""attaque5"" (attack1 à 5)
+""entrave1"" jusqu'à ""entrave3"" (bind1 à 3) 
+""interdit1"" jusqu'à ""interdit2"" (ignore1 à 2)
+* 1 est le numéro par défaut si aucun chiffre n'est spécifié.
+cercle (circle)<Indent/>: signe en forme de cercle
+croix (cross ou plus)<Indent/>: signe en forme de croix
+carré (square)<Indent/>: signe en forme de carré
+triangle<Indent/>: signe en forme de triangle
+désactivé (off)<Indent/>: retirer le signe
+* Si aucune sous-commande n'est saisie, ouvre ou ferme le menu des signes.
+>> Exemples<Indent/>:
+/marquer interdit2 <t>
+  La cible reçoit le signe ""2e cible interdite"".
+/marquer entrave1
+  Le personnage ou ennemi ciblé reçoit le signe ""1re cible à entraver"".
+Une fois marquées, les cibles peuvent être désignées par les arguments <stop1>, <ignore1>, etc.","/marquer","/signe",32,0
+157,1,0,0,0,0,"/actionlist","/alist","/actionstraits, /actionlist, /alist
+Ouvre le menu Actions et traits.","/actionstraits","",32,0
+158,1,0,0,0,0,"/timers","","/calendrier, /timers
+Ouvre le menu Calendrier.","/calendrier","",32,0
+159,1,0,0,0,0,"/recommended","","/re<SoftHyphen/>com<SoftHyphen/>man<SoftHyphen/>da<SoftHyphen/>tions, /recom, /recommended
+Ouvre le menu Recommandations.","/re<SoftHyphen/>com<SoftHyphen/>man<SoftHyphen/>da<SoftHyphen/>tions","/recom",32,0
+160,2,1,0,0,0,"/inventory","/bag","/inventaire, /sac, /inventory
+Ouvre l'inventaire.","/inventaire","/sac",32,0
+161,3,1,2,0,0,"/freecompanycmd","/fccmd","/cmdcl, /freecompanycmd, /fccmd
+Ouvre le menu de compagnie libre.","/cmdcl","",0,0
+162,4,2,0,2,0,"/linkshellcmd","/lcmd","/lscom, /linkshellcmd, /lcmd
+Affiche le menu de linkshell.","/lscom","",128,0
+163,1,0,0,0,0,"/return","","/rapatriement, /rapat, /return
+Permet de se rapatrier au point de retour.","/rapatriement","/rapat",32,0
+164,1,0,0,0,0,"/emotelist","/elist","/emotes, /emotelist, /elist
+Ouvre le menu des emotes.","/emotes","",33,0
+165,1,0,0,0,0,"/activehelp","","/tutoriel, /activehelp
+Ouvre le menu du tutoriel.","/tutoriel","",32,0
+166,1,0,0,0,0,"/supportdesk","/support","/assistance, /supportdesk
+Ouvre le menu Services et aide.","/assistance","",32,0
+167,1,0,0,0,0,"/characterconfig","/cconfig","/configperso, /confp, /characterconfig
+Ouvre le menu Configuration du personnage.","/configperso","/confp",32,0
+168,1,0,0,0,0,"/systemconfig","/sconfig","/configsys, /confs, /systemconfig
+Ouvre le menu Configuration du système.","/configsys","/confs",32,0
+169,1,0,0,0,0,"/keybind","/keyconfig","/attribtouches, /attribt, /keyconfig
+Ouvre le menu Attribution des touches.","/attribtouches","/attribt",32,0
+170,1,0,0,0,0,"/macros","","/macro, /macros
+Ouvre le menu Macros.","/macro","",32,0
+171,2,0,0,0,0,"/hudlayout","","/configath, /hudlayout
+Utilisation<Indent/>: /configath [numéro de configuration]
+Applique la configuration ATH spécifiée (1 à 4).
+Si aucun numéro n'est spécifié, ouvre le menu de configuration ATH.","/configath","",32,0
+172,1,0,0,0,0,"/logout","","/déco, /déconnexion, /logout
+Lance la procédure de déconnexion.","/déco","/déconnexion",32,0
+173,1,0,0,0,0,"/shutdown","","/quitter, /quitterjeu, /shutdown
+Se déconnecte et ferme le jeu.","/quitter","/quitterjeu",32,0
+174,3,0,0,0,0,"/partysort","/psort","/triéquipe, /triéq, /partysort
+Utilisation<Indent/>: /triéquipe [sous-commande] [sous-commande]
+Trie la liste des équipiers dans un ordre défini.
+>> Sous-commandes<Indent/>:
+[numéro d'équipier (2 à 8)]   Intervertit la position des équipiers dont le numéro a été spécifié dans la liste des équipiers.
+Si aucun numéro n'est spécifié, la liste est triée dans l'ordre défini dans Configuration personnage > Interface et fenêtres > Liste des équipiers > Paramètres de la liste des équipiers.
+
+>> Exemples<Indent/>:
+/triéquipe 2 3
+Intervertit la position des équipiers 2 et 3 dans la liste des équipiers.","/triéquipe","/triéq",36,0
+175,1,0,0,0,0,"/readycheck","/rcheck","/appelpréparation, /appelprép, /readycheck
+Lance un appel de préparation.","/appelpréparation","/appelprép",32,0
+176,1,0,0,0,0,"/ready","/rd","/prêt, /ready, /rd
+Répond ""oui"" à un appel de préparation.","/prêt","/rd",36,0
+177,1,0,0,0,0,"/notready","/nr","/nonprêt, /pasprêt, /notready, /nr
+Répond ""non"" à un appel de préparation.","/nonprêt","/pasprêt",36,0
+178,3,1,2,0,0,"/waymark","/wmark","/marqausol, /mqas, /waymark
+Utilisation<Indent/>: /marqausol [sous-commande] [argument de ciblage]
+Place une marque au sol aux pieds de la cible spécifiée.
+Si aucun argument n'est spécifié, la marque est placée via une cible au sol.
+>> Sous-commandes<Indent/>:
+Signe (A, B, C, D, 1, 2, 3 ou 4)   Place la marque au sol spécifiée. Si elle est déjà placée, la retire. Si une cible est spécifiée, la replace à ses pieds.
+annuler (désactivé)   Retire toutes les marques au sol placées.
+enregistrer (1-5)   Enregistre la disposition des marqueurs actuelle dans l'emplacement de sauvegarde spécifié.
+mode (1-5)   Charge la disposition des marqueurs enregistré dans l'emplacement de sauvegarde spécifié.
+* Si aucun nom de signe n'est saisi, place une marque inutilisée dans l'ordre alphabétique.
+* Si tous les signes sont déjà désignés, la commande est in<SoftHyphen/>uti<SoftHyphen/>li<SoftHyphen/>sa<SoftHyphen/>ble.
+* Si l'argument de ciblage est spécifié, le nom de signe ne peut pas être omis.
+>> Exemples<Indent/>:
+/marqausol A
+  Fait apparaître une cible au sol pour placer la marque A.
+/marqausol A <t>
+  Fait apparaître la marque au sol A à l'endroit de la cible.","/marqausol","/mqas",32,0
+179,1,0,0,0,0,"/fishguide","/fg","/nomenclature, /poissons, /fishguide, /fg
+Ouvre la Nomenclature des poissons.","/nomenclature","/poissons",32,0
+180,1,0,0,0,0,"/housing","/hou","/logement, /loge, /housing, /hou
+Ouvre le menu Logement.","/logement","/loge",32,0
+181,1,0,0,0,0,"/minionguide","","/mascottes, /masc, /minionguide
+Ouvre la liste des mascottes, ou la liste CdM lors des batailles de Choc des mascottes.","/mascottes","/masc",48,0
+182,1,0,0,0,0,"/mountguide","","/montures, /mont, /mountguide
+Ouvre la liste des montures.","/montures","/mont",32,0
+183,1,0,0,0,0,"/partyfinder","/pfinder","/rechéq, /partyfinder, /pfinder
+Ouvre le menu Recherche d'équipe.","/rechéq","",0,0
+184,1,0,0,0,0,"/pvpprofile","/pvppro","/profiljcj, /pvpprofile, /pvppro
+Ouvre le Profil JcJ.","/profiljcj","",0,0
+185,1,0,0,0,0,"/companion","/comp","/compagnon, /comp, /companion,
+Ouvre le menu Compagnons.","/compagnon","/comp",32,0
+186,1,0,0,0,0,"/keyitem","/kitem","/objetsclefs, /objc, /keyitem, /kitem
+Ouvre la fenêtre des objets-clefs.","/objetsclefs","/objc",32,0
+187,1,0,0,0,0,"/challengelog","","/cobjectifs, /cobj, /challengelog
+Ouvre le carnet d'objectifs.","/cobjectifs","/cobj",32,0
+188,1,0,0,0,0,"/sightseeinglog","","/cexploration, /cexpl, /sightseeinglog
+Ouvre le carnet d'exploration.","/cexploration","/cexpl",32,0
+189,1,0,0,0,0,"/goldsaucer","/saucer","/goldsaucer, /golds, /saucer
+Ouvre le menu du Gold Saucer.","","/golds",32,0
+190,1,0,0,0,0,"/currency","","/devises, /currency
+Ouvre la fenêtre des devises.","/devises","",32,0
+191,1,0,0,0,0,"/aethercurrent","/acurrent","/ventséthérés, /vents, /aethercurrent, /acurrent
+Ouvre la fenêtre des vents éthérés.","/ventséthérés","/vents",32,0
+192,1,0,0,0,0,"/logcolor","/lcolor","/couleurslog, /colog, /logcolor, /lcolor
+Utilisation<Indent/>: /couleurslog
+Ouvre la fenêtre de réglage des couleurs du log.","/couleurslog","/colog",32,0
+193,1,0,0,0,0,"/playguide","/pguide","/guidesjeu, /guidesj, /playguide, /pguide
+Utilisation<Indent/>: /guidesjeu
+Ouvre la fenêtre d'accès aux guides du jeu.","/guidesjeu","/guidesj",32,0
+194,1,0,0,0,0,"/generaldutykey","/gdutykey","/toucheusagegénéral, /tugén, /generaldutykey, /gdutykey
+Utilisation<Indent/>: /toucheusagegénéral
+Utilise la fonction attribuée à la touche d'usage général en mission.
+>> Exemples<Indent/>:
+Dans la zone d'un ALÉA
+   Active/désactive la synchronisation de niveau.","/toucheusagegénéral","/tugén",40,0
+195,1,0,0,0,0,"/raidfinder","/rfinder","/outilraid, /outilr, /raidfinder, /rfinder
+Utilisation<Indent/>: /outilraid
+Ouvre l'outil de raid.","/outilraid","/outilr",0,0
+196,1,0,0,0,0,"/orchestrion","","/orchestrion
+Utilisation<Indent/>: /orchestrion
+Ouvre le menu Morceaux de l'orchestrion.","","",32,0
+197,2,1,0,0,0,"/countdown","/cd","/compteàrebours, /càr, /countdown, /cd
+Utilisation<Indent/>: /compteàrebours [sous-commande]
+Enclenche un compte à rebours pour indiquer le début du combat aux équipiers.
+>> Sous-commandes<Indent/>:
+""[nombre de secondes entre 5 et 30]""   Définit la durée du compte à rebours.
+* En cas d'utilisation de cette fonction avec la commande texte, le nombre de secondes n'est pas sauvegardé et le message de rappel apparaissant toutes les cinq secondes ne s'affiche pas dans la fenêtre du log.
+Si aucune sous-commande n'est spécifiée, ouvre le menu Compte à rebours.
+>> Exemple<Indent/>:
+/compteàrebours 10
+Enclenche un compte à rebours de 10 secondes.","/compteàrebours","/càr",32,0
+198,1,0,0,0,0,"/contactlist","","/listecontacts, /lc, /contactlist
+Utilisation<Indent/>: /listecontacts
+Affiche votre liste de contacts.","/listecontacts","/lc",32,0
+199,1,0,0,0,0,"/mountspeed","","/vitessemontures, /vm, /mountspeed
+Utilisation<Indent/>: /vitessemontures
+Ouvre le menu Vitesse des montures.","/vitessemontures","/vm",32,0
+201,2,1,1,0,0,"/?","","/infocmd, /?
+Utilisation<Indent/>: /? [nom de commande]
+Décrit en détail la commande spécifiée. La ou les abréviations peuvent être utilisées. La commande doit être saisie en minuscules.","/infocmd","",189,0
+202,2,1,0,0,0,"/wait","","/attendre, /wait
+Utilisation<Indent/>: /attendre [temps d'attente]
+Commande de macro permettant de retarder la commande suivante.
+Un délai de 1 correspond à environ une seconde.
+Le délai maximum est de 60 (tout chiffre supérieur équivaut à 60).","/attendre","",181,0
+204,2,1,2,0,0,"/legacymark","/lmark","/marquelegacy, /mleg, /legacymark, /lmark
+Utilisation<Indent/>: /mleg [sous-commande]
+Affiche ou cache la marque des Douze, qui apparaît sur le cou de ceux qui ont survécu au Fléau.
+>> Sous-commandes<Indent/>:
+activé (on)        Affiche la marque.
+désactivé (off)    Cache la marque.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/marquelegacy","/mleg",60,0
+206,2,1,2,0,0,"/gcsalute","","/salutgc, /gcsalute
+Utilisation<Indent/>: /salutgc [sous-commande]
+Effectue le salut de votre grande compagnie.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutgc","",293,0
+207,3,3,0,2,7,"/macroicon","/micon","/iconemacro, /iconem, /macroicon
+Utilisation<Indent/>: /iconemacro ""[nom d'icone]"" ""[catégorie]""
+Permet d'afficher l'icone de son choix dans la barre de raccourcis.
+Doit être utilisée sur la première ligne de la macro, et une seule fois par macro.
+>> Catégories<Indent/>:
+""[action]"" action   Affiche l'icone de l'action spécifiée ainsi que son temps de recharge et coût en PM.
+""[actionmagiebleue]"" actionmagiebleue   Affiche l'icone de l'action de magie bleue spécifiée ainsi que son temps de recharge et coût en PM.
+""[action JcJ]"" actionjcj   Affiche l'icone de l'action JcJ spécifiée ainsi que son temps de recharge et coût en PM.
+""[action générale]"" général   Affiche l'icone de l'action générale spécifiée ainsi que son temps de recharge.
+""[emote]"" emote   Affiche l'icone de l'emote spécifiée.
+""[action de compagnon]"" compagnon ""[Nom]""   Affiche l'icone de l'action de compagnon spécifiée. Le nom du compagnon peut être omis.
+""[action de familier]"" familier   Affiche l'icone de l'action du familier.
+""[mascotte]"" mascotte   Affiche l'icone de la mascotte spécifiée.
+""[monture]"" monture   Affiche l'icone de la monture spécifiée.
+""[signe]"" marque   Affiche l'icone du signe de ciblage spécifié.
+""[marque]"" mqas   Affiche l'icone de la marque au sol spécifiée.
+""[numéro de tenue]"" tenue   Affiche l'icone de la tenue dont le numéro est spécifié.
+""[classe/job]"" classejob   Affiche l'icone de la classe/job spécifiée.
+""[expression figée]"" exfig Affiche l'icone de l'expression figée spécifiée.
+* Si aucune catégorie n'est saisie, ""action"" est utilisée par défaut.","/iconemacro","/iconem",36,0
+208,2,1,3,0,0,"/recast","","/voirdélai, /recharge, /recast
+Utilisation<Indent/>: /voirdélai ""[nom d'action]""
+Affiche le temps de recharge de l'action spécifiée.
+>> Exemple<Indent/>:
+/voirdélai ""Flux d'éther""
+  Affiche le temps de recharge restant pour l'action Flux d'éther.","/voirdélai","/recharge",36,0
+209,4,1,2,0,0,"/gearset","/gs","/tenue, /gearset, /gs
+Utilisation<Indent/>: /tenue [sous-commande]
+Permet d'utiliser les fonctions relatives aux tenues.
+>> Sous-commandes<Indent/>:
+change [nombre1]/[nomdelatenue] [nombre2]   S'équipe de la tenue n°[nombre1] (ou [nomdelatenue]) et applique la planche mirage n°[nombre2] si disponible. Le numéro de la planche mirage peut ne pas être spécifié.
+voir [nombre]/[nomdelatenue]   Affiche la liste des objets de la tenue n°[nombre] (ou [nomdelatenue]).
+enregistrer [nombre]/[nomdelatenue]   Sauvegarde la tenue portée sous le numéro n°[nombre] (ou [nomdelatenue]).
+supprimer [nombre]/[nomdelatenue]   Efface la tenue n°[nombre] (ou [nomdelatenue]).
+Si aucune sous-commande n'est spécifiée, ouvre la liste des tenues.
+Le nom de la tenue peut être abrégé. Dans ce cas, la première tenue dans la liste commençant par les lettres données sera sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née.
+>> Exemple<Indent/>:
+/tenue change 1 1
+ Équipe le personnage de la tenue n°1 et applique la planche mirage n°1.
+/tenue change Guerrier 1
+ Équipe le personnage de la tenue nommé “Guerrier” et applique la planche mirage n°1.","/tenue","",32,0
+210,4,2,2,2,0,"/itemsort","/isort","/triobjet, /triob, /itemsort
+Utilisation<Indent/>: /triobjet [sous-commande]
+Permet de trier l'inventaire en fonction des conditions précisées.
+>> Sous-commandes<Indent/>:
+condition [catégorie] [condition] [ordre]   Détermine l'ordre de tri pour la catégorie spécifiée.
+exécuter [catégorie]   Effectue le tri pour la catégorie spécifiée.
+annuler [catégorie]   Annule les réglages de tri pour la catégorie spécifiée. Rien ne se passera ensuite en cas de tri pour ces objets.
+>> Catégories<Indent/>:
+inventaire, servant, arsenal, sacochechocobo, sacochechocobo2, direct (Main directrice), nondir (Main non directrice), tête, torse, mains, taille, jambes, pieds, cou, oreilles, poignets, bagues, âme
+>> Conditions<Indent/>:
+id, symbiose, catégorie, niveau, niveauobjet, exemplaires, hq, matéria, dégâtsphysiques, dégâtsmagiques, délai, attaqueauto, tauxblocage, forceblocage, défense, défensemagique, for, dex, vit, int, esp, habileté, contrôle, collecte, discernement, onglet
+>> Ordres<Indent/>:
+croissant, décroissant
+* Si aucun ordre n'est saisi, ""croissant"" est choisi par défaut.
+* Aucun ordre n'est nécessaire pour la catégorie ""onglet"".
+* Les catégories servant et sacoche chocobo ne peuvent être utilisées que lorsque les fenêtres correspondantes sont ouvertes.
+>> Exemples<Indent/>:
+/triobjet condition direct niveau croissant
+/triobjet condition direct niveauobjet décroissant
+/triobjet exécuter direct
+  Trie les pièces équipements de la main directrice de l'arsenal dans l'ordre croissant de leurs niveaux et décroissant de leurs niveaux d'objet.","/triobjet","/triob",36,0
+211,2,1,2,0,0,"/random","","/dés, /random
+Utilisation<Indent/>: /dés [valeur maximum]
+Détermine un nombre aléatoire entre 0 et 999 et affiche le résultat dans le log des personnages présents dans le périmètre de la commande /dire.
+>> Valeur maximum (2-999)<Indent/>:
+ Détermine la valeur maximum pouvant être tirée. Le résultat sera alors compris entre 1 et la valeur choisie, ou 0 et 999 si aucune valeur n'est saisie.
+
+>> Exemples<Indent/>:
+/dés
+ Affiche un résultat compris entre 0 et 999.
+/dés 16
+ Affiche un résultat compris entre 1 et 16.","/dés","",36,0
+212,1,0,0,0,0,"/instance","","/instance
+Indique si votre personnage se trouve ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment dans une zone instanciée ou non.","","",60,0
+213,1,0,0,0,0,"/cleartellhistory","/cth","/effacerinterlocuteurs, /effint, /cleartellhistory, /cth
+Efface les interlocuteurs du canal de discussion /murmure en mémoire.","/effacerinterlocuteurs","/effint",60,0
+214,1,0,0,0,0,"/macrolock","/mlock","/verroumacro, /macrolock, /mlock
+Commande de macro. Les actions suivant cette commande ne peuvent pas être interrompues par une autre macro.","/verroumacro","",36,0
+215,2,1,2,0,0,"/macroerror","/merror","/erreurmacro, /errmac, /macroerror
+Utilisation<Indent/>: /erreurmacro [sous-commande]
+Commande de macro. Affiche/cache les messages d'erreur de syntaxe des macros ou commandes texte. L'affichage est activé au lancement d'une macro, et se réactive au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment après la fin d'exécution de la macro indépendamment de ce réglage.
+>> Sous-commandes<Indent/>:
+activé (on)   Affiche les messages d'erreur des macros.
+désactivé (off)   Cache les messages d'erreur des macros.
+Si aucune sous-commande n'est saisie, alterne entre les deux options.","/erreurmacro","/errmac",36,0
+216,1,0,0,0,0,"/clearlog","/cl","/effacerlog, /efflog, /clearlog
+Efface le contenu du log.","/effacerlog","/efflog",509,0
+217,0,0,0,0,0,"/macrocancel","/mcancel","/macrocancel, /annulermacro, /annumac
+Annule la macro en cours à partir de la fenêtre de discussion.","/annulermacro","/annumac",165,0
+218,1,0,0,0,0,"/playtime","/ptime","/tempsjeu, /tjeu, /playtime, /ptime
+Affiche le temps de jeu cumulé avec votre personnage.","/tempsjeu","/tjeu",60,0
+219,1,0,0,0,0,"/grouppose","/gpose","/posegroupe, /posegr, /grouppose, /gpose
+Fait une pose de groupe avec votre personnage et ceux d'autres joueurs.
+>> Fonctions<Indent/>:
+R, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.
+Espace/<CommandIcon(11)/>    Active/désactive l'orientation du regard vers la caméra.
+!/<CommandIcon(13)/>    Éclaire la position de la caméra.
+1/<CommandIcon(14)/>    Arrête tous les mouvements.
+2/<CommandIcon(15)/>    Arrête les mouvements de la cible.
+Tab, Shift+Tab/<CommandIcon(6)/>    Change le personnage central.
+Z, Q, S, D, E/<CommandIcon(20)/>    Ajuste la position du cadre.
+W/<Gui(16)/>    Réinitialise la position du cadre.
+(Touches par défaut)","/posegroupe","/posegr",32,0
+220,2,0,0,0,0,"/itemsearch","/isearch","/rechercheobjet, /rechobj, /itemsearch, /isearch
+Utilisation<Indent/>: /rechercheobjet ""Terme""
+Recherche tous les objets dont le nom contient le terme saisi parmi ceux équipés par le personnage et les servants, les inventaires du personnage et des servants, l'arsenal, le bahut personnel, la sacoche chocobo et la coiffeuse mirage.
+","/rechercheobjet","/rechobj",32,3000
+221,2,0,0,0,0,"/idlingcamera","/icam","/cameradiaporama, /cdiapo, /idlingcamera, /icam
+Utilisation<Indent/>: /cameradiaporama [argument de ciblage]
+Active la caméra diaporama.
+L'argument de ciblage peut être omis.
+Si une cible a été spécifiée, la caméra se concentre sur elle, la montrant sous divers angles.
+Si la cible spécifiée ne peut pas servir d'objet à cette fonction, une autre est déterminée aléatoirement.
+>> Fonctions<Indent/>:
+R, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.
+0 (clavier numérique)/clic gauche/<CommandIcon(8)/>    Met en pause/redémarre la caméra diaporama.
+Tab, Shift+Tab/<CommandIcon(6)/>    Passe au plan suivant.
+A, Z, E, Q, S, D/<CommandIcon(20)/>    Ajuste la position du cadre.
+W/<Gui(16)/>    Réinitialise la position du cadre.
+>> Exemples<Indent/>:
+/cameradiaporama
+  Active la caméra diaporama sans objet spécifique.
+/cameradiaporama <t>
+  Active la caméra diaporama centrée sur la cible.
+(Touches par défaut)","/cameradiaporama","/cdiapo",40,0
+223,2,1,2,0,0,"/duelswitch","","/refuscombatsingulier, /refuscomsing, /duelswitch
+Utilisation<Indent/>: /refuscombatsingulier [sous-commande]
+Permet de bloquer les demandes de combat singulier.
+Cette commande peut uniquement être effectuée dans une zone d'af<SoftHyphen/>fron<SoftHyphen/>te<SoftHyphen/>ment.
+>> Sous-commandes<Indent/>:
+activé (on)    Active le blocage des demandes.
+désactivé (off)    Désactive le blocage des demandes.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.
+","/refuscombatsingulier","/refuscomsing",4,0
+224,2,1,2,0,0,"/beginnerchannelinvitation","/bchannelinvitation","/invitationréseaunovices, /invrdn, /beginnerchannelinvitation, /bchannelinvitation
+Utilisation<Indent/>: /invitationréseaunovices [sous-commande]
+Permet de recevoir ou refuser au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment les invitations à participer au réseau des novices.
+>> Sous-commandes<Indent/>:
+activé (on)    Reçoit les invitations.
+désactivé (off)    Refuse au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment les invitations.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/invitationréseaunovices","/invrdn",189,1000
+225,1,0,0,0,0,"/beginnerchannelleave","/bchannelleave","/quitterréseaunovices, /quitrdn, /beginnerchannelleave, /bchannelleave
+Utilisation<Indent/>: /quitterréseaunovices
+Permet de quitter le réseau des novices.
+* Disponible uniquement pour les novices et rappelés.","/quitterréseaunovices","/quitrdn",189,1000
+226,3,2,7,15,0,"/egiglamour","","/egimirage
+Utilisation<Indent/>: /egimirage ""[nom d'Egi]"" ""[apparence]""
+Permet de changer l'apparence d'un Egi dès la prochaine invocation.
+Cette commande n'est pas effective dans les instances de combat JcJ.
+>> Noms d'Egi<Indent/>:
+Garuda-Egi
+Titan-Egi
+Ifrit-Egi
+>> Apparences<Indent/>:
+Carbuncle émeraude
+Carbuncle topaze
+Carbuncle rubis
+* Aucune apparence spécifiée ou avec ""annuler""<Indent/>:
+  Rend à l'Egi son apparence d'origine.
+>> Exemple
+/egimirage ""Garuda-Egi"" ""Carbuncle rubis""
+Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.","/egimirage","",36,0
+227,3,1,2,0,0,"/title","","/titre, /title
+Utilisation<Indent/>: /titre [sous-commande]
+Permet de changer le titre du personnage.
+>> Sous-commandes<Indent/>:
+placer (set) ""[nom du titre]""  Attribue le titre spécifié au personnage.
+annuler (clear)  Retire le titre précédemment attribué.
+* Si aucune sous-commande n'est spécifiée, attribue un titre aléatoirement parmi ceux acquis.
+>>Exemple<Indent/>:
+/titre placer ""La Vedette de l'équipe""
+  Attribue le titre ""La Vedette de l'équipe"" au personnage.","/titre","",36,1000
+228,2,1,2,0,0,"/bahamutsize","","/taillebahamut, /tbaha, /bahamutsize
+Utilisation<Indent/>: /taillebahamut [sous-commande]
+Change la taille d'affichage de Demi-Bahamut.
+Sans effet dans les zones JcJ ou sur l'affichage des autres joueurs.
+>> Sous-commandes<Indent/>:
+grand (large)  Change la taille d'affichage en ""grand"".
+moyen (medium)  Change la taille d'affichage en ""moyen"".
+petit (small)  Change la taille d'affichage en ""petit"".
+* Si aucune sous-commande n'est spécifiée, change la taille dans l'ordre petit/moyen/grand.
+>>Exemple<Indent/>:
+/taillebahamut moyen
+  Change la taille d'affichage de Demi-Bahamut en ""moyen"".","/taillebahamut","/tbaha",36,0
+229,6,3,2,2,2,"/alarm","","/alerte, /alarm
+Utilisation<Indent/>: /alerte [sous-commande]
+Permet de régler une alerte pour une heure spécifique.
+>> Sous-commandes<Indent/>:
+""Nom de l'alerte"" Définit le nom de l'alerte.
+lt/st/et (hl/hs/hé) Définit l'heure utilisée (heure locale, heure du serveur, heure éorzéenne).
+repeat (rp) Active la répétition.
+[0000-2400] Définit l'heure de l'alerte au format HHmm.
+[0-60] Définit combien de minutes en avance l'alerte est lancée.
+clear Permet de supprimer toutes les alertes.
+Si aucune sous-commande n'est spécifiée, la fenêtre de réglage des alertes s'ouvre.
+
+>> Exemples<Indent/>:
+/alerte ""Rassemblement"" lt 2000 10
+  Règle une alerte nommée ""Rassemblement"" qui se déclenchera 10 minutes avant qu'il soit 20h00 heure locale.
+/alerte ""Pause"" lt rp 30
+  Règle une alerte nommée ""Pause"" qui se déclenchera toutes les heures à la demie (15h30, 16h30, 17h30, etc).","/alerte","",32,0
+231,2,1,2,0,0,"/busy","","/occupé, /busy
+Utilisation<Indent/>: /occupé [sous-commande]
+Change l'état en ligne du personnage en ""Occupé(e)"".
+>> Sous-commandes<Indent/>:
+activé (on)    Passe en état ""Occupé(e)"".
+désactivé (off)    Passe en état ""En ligne"".
+Si aucune sous-commande n'est spécifiée, alterne entre les deux états.","/occupé","",36,0
+232,2,1,2,0,0,"/away","/afk","/absent, /away, /afk
+Utilisation<Indent/>: /absent [sous-commande]
+Change l'état en ligne du personnage en ""Absent(e)"".
+>> Sous-commandes<Indent/>:
+activé (on)         Passe en état ""Absent(e)"".
+désactivé (off)    Passe en état ""En ligne"".
+Si aucune sous-commande n'est spécifiée, alterne entre les deux états.","/absent","",36,0
+233,1,0,0,0,0,"/lookingforparty","/lfp","/cherchéquipe, /chéq, /lookingforparty, /lfp
+Utilisation<Indent/>: /cherchéquipe [classes/jobs] [sous-commande]
+Change l'état en ligne du personnage en ""Cherche une équipe"" et spécifie les classes/jobs désirés.
+>> Classes/jobs<Indent/>:
+GLA (gladiateur), PGL (pugiliste), MRD (maraudeur), HAS (maître d'hast), ARC (archer), ELM (élé<SoftHyphen/>men<SoftHyphen/>ta<SoftHyphen/>lis<SoftHyphen/>te), OCC (occultiste), ACN (arcaniste), SUR (surineur), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur), PLD (paladin), MOI (moine), GUE (guerrier), DRG (chevalier dragon), BRD (barde), MBL (mage blanc), MNO (mage noir), INV (invocateur), ERU (érudit), NIN (ninja), CHN (chevalier noir), MCH (machiniste), AST (astromancien), SAM (samouraï), MRG (mage rouge), MBU (mage bleu), PSB (pistosabreur), DNS (danseur).
+Si aucun nom de classe ou de job n'est spécifié, la recherche les couvre tous.
+>> Sous-commandes<Indent/>:
+activé (on)         Passe en état ""Cherche une équipe"".
+désactivé (off)    Passe en état ""En ligne"".
+Si aucune classe ni aucune sous-commande n'est spécifiée, alterne entre les deux états.","/cherchéquipe","/chéq",36,0
+234,2,1,2,0,0,"/lookingformeld","/lfm","/sertismatéria, /sertmat, /lookingformeld, /lfm
+Utilisation<Indent/>: /sertismatéria [sous-commande]
+Change l'état en ligne du personnage en ""Sertisseur(se) de matérias"".
+>> Sous-commandes<Indent/>:
+activé (on)         Passe en état ""Sertisseur(se) de matérias"".
+désactivé (off)    Passe en état ""En ligne"".
+Si aucune sous-commande n'est spécifiée, alterne entre les deux états.","/sertismatéria","/sertmat",36,0
+235,1,0,0,0,0,"/searchcomment","/scomment","/commentairerecherche, /comrech, /searchcomment
+Utilisation<Indent/>: /commentairerecherche [message]
+Affiche un message en tant que commentaire de recherche.","/commentairerecherche","/comrech",36,0
+236,2,1,2,0,0,"/beginnerstatus","/bstatus","/étatnovice, /énovice, /beginnerstatus, /bstatus
+Utilisation<Indent/>: /étatnovice [sous-commande]
+Active ou désactive l'état en ligne ""Novice"".
+>> Sous-commandes<Indent/>:
+activé (on)         Active l'état en ligne ""Novice"".
+désactivé (off)    Désactive l'état en ligne ""Novice"".
+Si aucune sous-commande n'est spécifiée, alterne entre les deux états.
+>> Exemple<Indent/>:
+/étatnovice activé     Active l'état en ligne ""Novice"".","/étatnovice","/énovice",36,1000
+237,2,1,2,0,0,"/beginnerchannel","/bchannel","/réseaunovices, /rnovices, /beginnerchannel, /bchannel
+Utilisation<Indent/>: /réseaunovices [sous-commande]
+Active ou désactive la par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion automatique au réseau des novices (mentors uniquement).
+>> Sous-commandes<Indent/>:
+activé (on)         Active la par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion automatique et tente la connexion au réseau des novices.
+désactivé (off)    Désactive la par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion automatique et permet de quitter le réseau des novices.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux états.
+>> Exemple<Indent/>:
+/réseaunovices activé     Active la par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion automatique au réseau des novices.","/réseaunovices","/rnovices",36,1000
+238,1,0,0,0,0,"/returnerstatusoff","","/désactiveétatrappelé, /désarapp, /returnerstatusoff
+Utilisation<Indent/>: /désactiveétatrappelé
+Désactive l'état en ligne ""Rappelé(e)"".","/désactiveétatrappelé","/désarapp",36,1000
+239,2,1,2,0,0,"/roleplaying","","/jeuderôle, /jdr, /roleplaying
+Utilisation<Indent/>: /jeuderôle [sous-commande]
+Change l'état en ligne du personnage en ""Jeu de rôle"".
+>> Sous-commandes<Indent/>:
+activé (on)  Passe en état ""Jeu de rôle"".
+désactivé (off)  Passe en état ""En ligne"".
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux états.","/jeuderôle","/jdr",36,0
+251,3,1,3,0,0,"/action","/ac","/act, /action, /ac
+Utilisation<Indent/>: /action ""[nom d'action]"" [argument de ciblage]
+Permet d'effectuer une action sur la cible spécifiée.
+Si l'action peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [nom de cible].
+Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
+Dans le cas d'une action utilisant une cible au sol, elle est exécutée à l'endroit du personnage désigné. Si aucun personnage n'est spécifié, fait apparaître une cible au sol.
+>> Exemple<Indent/>:
+/action ""Coup puissant"" <t>
+  Utilise l'action Coup puissant sur la cible./action ""Soin"" <2>
+  Utilise l'action Soin sur le personnage occupant la deuxième position dans la liste des équipiers.","/act","",36,0
+252,2,1,2,0,0,"/battlemode","/bm","/dégainer, /mcombat, /battlemode, /bm
+Utilisation<Indent/>: /dégainer [sous-commande]
+Alterne entre le mode passif et le mode actif.
+>> Sous-commandes<Indent/>:
+activé (on)        Passe en mode actif.
+désactivé (off)   Passe en mode passif.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/dégainer","/mcombat",36,0
+253,2,0,0,0,0,"/target","/ta","/cibler, /cible, /target, /ta
+Utilisation<Indent/>: /cibler [argument de ciblage]
+Cible le personnage spécifié par l'argument.
+La cible doit se trouver dans un certain rayon pour que cette commande fonctionne.
+>> Exemple<Indent/>:
+/cibler <2>
+  Cible le personnage occupant la deuxième position dans la liste des équipiers.","/cibler","/cible",36,0
+254,1,0,0,0,0,"/targetpc","/tpc","/ciblerpj, /cpj, /targetpc, /tpc
+Cible le PJ le plus proche dans un certain rayon.","/ciblerpj","/cpj",36,0
+255,1,0,0,0,0,"/targetnpc","/tnpc","/ciblerpnj, /cpnj, /targetnpc, /tnpc
+Cible le PNJ le plus proche dans un certain rayon.","/ciblerpnj","/cpnj",36,0
+256,1,0,0,0,0,"/targetenemy","/tenemy","/ciblerenn, /targetenemy, /tenemy
+Cible l'ennemi le plus proche dans un certain rayon.","/ciblerenn","",36,0
+257,1,0,0,0,0,"/battletarget","/bt","/ciblecombat, /battletarget, /bt
+Cible l'ennemi le plus proche ayant de l'inimitié dans un certain rayon.","/ciblecombat","",36,0
+258,2,0,0,0,0,"/assist","/as","/aider, /assist, /as
+Utilisation<Indent/>: /aider [argument de ciblage]
+Cible la cible du PJ ou PNJ ciblé.
+>> Exemple<Indent/>:
+/aider <t>
+  Cible la cible de la cible actuelle.
+/assist <2>
+  Cible la cible du personnage occupant la deuxième position dans la liste des équipiers.","/aider","",36,0
+259,1,0,0,0,0,"/facetarget","/ft","/faireface, /facetarget, /ft
+Votre personnage se tourne vers la cible.","/faireface","",36,0
+260,1,0,0,0,0,"/nexttarget","/nt","/ciblesuivante, /cibsuiv, /nexttarget, /nt
+Déplace la cible sur le personnage situé à droite à l'écran.","/ciblesuivante","/cibsuiv",36,0
+261,1,0,0,0,0,"/previoustarget","","/cibleprécédente, /cibprécé, /previoustarget
+Déplace la cible sur le personnage situé à gauche à l'écran.","/cibleprécédente","/cibprécé",36,0
+262,1,0,0,0,0,"/targetlasttarget","/tlt","/dernièrecible, /dercib, /targetlasttarget, /tlt
+Replace la cible sur le dernier personnage ciblé.","/dernièrecible","/dercib",36,0
+263,1,0,0,0,0,"/targetlastenemy","/tle","/dernierennemi, /derenn, /targetlastenemy, /tle
+Replace la cible sur le dernier ennemi ciblé.","/dernierennemi","/derenn",36,0
+264,2,1,2,0,0,"/lockon","/lo","/verrouillercible, /verrcib, /lockon, /lo
+Utilisation<Indent/>: /verrouillercible [sous-commande]
+Verrouille la cible sur le personnage ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment ciblé.
+>> Sous-commandes<Indent/>:
+activé (on)    Verrouille la cible.
+désactivé (off)    Déverrouille la cible.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/verrouillercible","/verrcib",36,0
+265,2,0,0,0,0,"/focustarget","","/focalisercible, /foccib, /focustarget
+Utilisation<Indent/>: /focalisercible [argument de ciblage]
+Fait de la cible spécifiée la cible focalisée. Si aucun argument n'est saisi, c'est la cible actuelle qui est désignée.
+>> Exemple<Indent/>:
+/focalisercible <t>
+  Fait de la cible actuelle la cible focalisée.","/focalisercible","/foccib",36,0
+267,3,1,5,0,0,"/petaction","/pac","/actionfamilier, /actfam, /petaction
+Utilisation<Indent/>: /actionfamilier ""[nom d'action]"" [argument de ciblage]
+Exécute l'action de familier désignée sur le personnage spécifié.
+Si l'action peut être lancée sur le familier ou sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage].
+Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
+>> Exemple<Indent/>:
+/actionfamilier ""Passif""
+  Fait passer le familier en mode passif.","/actionfamilier","/actfam",36,0
+268,2,1,6,0,0,"/companionaction","/cac","/actioncompagnon, /actcom, /companionaction
+Utilisation<Indent/>: /actioncompagnon ""[nom d'action]""
+Exécute l'action de compagnon désignée.
+Ne fonctionne pas si l'action de compagnon ne peut pas être utilisée, n'a pas été acquise ou si autre chose qu'une action de compagnon a été saisi.
+>> Exemple<Indent/>:
+/actioncompagnon ""Libre arbitre""
+  Fait passer le compagnon en mode libre arbitre.","/actioncompagnon","/actcom",36,0
+269,1,0,0,0,0,"/facecamera","/fcam","/visagecaméra, /visacam, /facecamera
+Tourne le visage du personnage en direction de la caméra. Réutiliser la commande pour annuler.","/visagecaméra","/visacam",36,0
+270,2,1,2,0,0,"/levelsync","/lsync","/synchroniveau, /syncniv, /levelsync
+Utilisation<Indent/>: /synchroniveau [sous-commande]
+Synchronise le niveau du personnage lors des ALÉA et autres missions où cela est nécessaire.
+>> Sous-commandes<Indent/>:
+activé (on)   Synchronise le niveau du personnage.
+désactivé (off)   Désynchronise le niveau du personnage.
+* Si aucune sous-commande n'est saisie, alterne entre les deux états.","/synchroniveau","/syncniv",36,0
+271,2,1,9,0,0,"/mount","","/monture, /mon, /mount
+Utilisation<Indent/>: /monture ""[nom de monture]""
+La monture spécifiée est appelée. Permet aussi de descendre d'une monture ou de la faire atterrir si elle volait (le nom peut être omis dans ce cas).
+>> Exemple<Indent/>:
+/monture ""chocobo destrier""
+  Appelle la monture chocobo destrier.","/monture","/mon",36,0
+272,3,2,3,2,0,"/additionalaction","/aaction","/actionrôle, /talent, /additionalaction, /aaction
+Utilisation<Indent/>: /actionrôle ""[nom d'action]"" [sous-commande]
+/talent ""[nom d'action]"" [sous-commande]
+Enregistre l'action indiquée dans la liste des talents (récolteurs uniquement).
+>> Sous-commandes<Indent/>:
+activé (on)   Enregistre l'action.
+désactivé (off)   Retire l'action.
+* Si aucune sous-commande n'est saisie, alterne entre les deux options.
+>> Exemples<Indent/>:
+/actionrôle ""Forestier"" activé
+  Enregistre Forestier en tant que talent.
+/talent annuler
+  Retire toutes les actions enregistrées dans la liste des talents.","/actionrôle","/talent",36,1000
+273,3,1,10,0,0,"/generalaction","/gaction","/actiongénérale, /actgén, /generalaction, /gaction
+Utilisation<Indent/>: /actiongénérale ""[nom d'action]"" [argument de ciblage]
+Permet d'effectuer une action générale sur la cible spécifiée.
+Si l'action générale peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage].
+Exécution impossible si l'action générale n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
+>> Exemple<Indent/>:
+/actiongénérale ""Monture aléatoire""
+  Utilise l'action Monture aléatoire.
+/actgén ""Action de mission 1"" <t>
+  Utilise l'action de mission 1 sur la cible.","/actiongénérale","/actgén",36,0
+274,2,1,8,0,0,"/minion","","/mascotte, /minion
+Utilisation<Indent/>: /mascotte ""[nom de mascotte]""
+La mascotte spécifiée est appelée. Si le nom est omis ou qu'une mascotte est déjà présente, celle-ci est renvoyée.
+>> Exemple<Indent/>:
+/mascotte ""bébé chocobo""
+  Appelle la mascotte bébé chocobo.","/mascotte","",36,0
+275,2,0,0,0,0,"/statusoff","","/annuleffet, /anneffet, /statusoff
+Utilisation<Indent/>: /annuleffet ""[nom d'effet]""
+Annule l'effet bénéfique désigné.
+>> Exemple<Indent/>:
+/annuleffet ""Du sang pour du sang""
+  Annule l'effet Du sang pour du sang.","/annuleffet","/anneffet",36,0
+276,3,0,0,0,0,"/addpvpaction","/apa","/ajoutactionjcj, /aaj, /addpvpaction, /apa
+Utilisation<Indent/>: /ajouteractionjcj ""[talent 1]"" ""[talent 2]""
+Enregistre des actions dans les talents du JcJ. Nécessite d'enregistrer les deux d'un coup.
+>> Exemples<Indent/>:
+/ajoutactionjcj ""Jet d'arme"" ""Plein élan""
+  Enregistre Jet d'arme et Plein élan.","/ajoutactionjcj","/aaj",36,1000
+277,3,1,16,0,0,"/pvpaction","/pvpac","/actionjcj, /aj, /pvpaction, /pvpac
+Utilisation<Indent/>: /actionjcj ""[nom d'actions JcJ]"" [argument de ciblage]
+Permet d'effectuer une action sur la cible spécifiée. Si l'action peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage]. Le nom de la cible doit cependant être indiqué si l'action est utilisée sur un adversaire.
+Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
+Dans le cas d'une action utilisant une cible au sol, elle est exécutée à l'endroit de la cible désignée. Si aucun argument n'est spécifié, fait apparaître une cible au sol.
+
+>> Exemples<Indent/>:
+/actionjcj ""Combo Couperet de justice"" <t>
+  Utilise l'action Combo Couperet de justice sur la cible.","/actionjcj","/aj",4,0
+279,3,1,18,0,0,"/blueaction","","/actionmagiebleue, /mb, /blueaction ""Nom de l'action de magie bleue"" [argument de ciblage]
+Permet d'effectuer une action de magie bleue sur la cible spécifiée.
+Dans le cas d'une action utilisant une cible au sol, elle est exécutée à l'endroit du personnage désigné. Si aucun personnage n'est spécifié, fait apparaître une cible au sol.
+>> Exemple<Indent/>:
+/actionmagiebleue ""Tir d'eau"" <t>
+  Utilise l'action de magie bleue Tir d'eau sur la cible.","/actionmagiebleue","/mb",36,0
+301,2,1,2,0,0,"/autolockon","","/verrouillerauto, /verrauto, /autolockon
+Utilisation<Indent/>: /verrouillerauto [sous-commande]
+Verrouille la cible sur l'ennemi lors de l'attaque automatique.
+>> Sous-commandes<Indent/>:
+activé (on)    Active le verrouillage automatique.
+désactivé (off)    Désactive le verrouillage automatique.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/verrouillerauto","/verrauto",36,0
+302,2,1,2,0,0,"/autofacetarget","","/pivoteauto, /pivauto, /autofacetarget
+Utilisation<Indent/>: /pivoteauto [sous-commande]
+Tourne au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment le personnage vers l'ennemi après l'exécution d'une action.
+>> Sous-commandes<Indent/>:
+activé (on)         Active le pivotage automatique.
+désactivé (off)    Désactive le pivotage automatique.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/pivoteauto","/pivauto",36,0
+303,2,1,2,0,0,"/targetring","","/cercleciblage, /cercib, /targetring
+Utilisation<Indent/>: /cercleciblage [sous-commande]
+Affiche le cercle de ciblage.
+>> Sous-commandes<Indent/>:
+activé (on)         Affiche le cercle de ciblage.
+désactivé (off)    Cache le cercle de ciblage.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/cercleciblage","/cercib",36,0
+304,2,1,2,0,0,"/targetline","","/ligneciblage, /ligncib, /targetline
+Utilisation<Indent/>: /ligneciblage [sous-commande]
+Affiche la ligne de ciblage.
+>> Sous-commandes<Indent/>:
+activé (on)         Affiche la ligne de ciblage.
+désactivé (off)    Cache la ligne de ciblage.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/ligneciblage","/ligncib",36,0
+305,2,1,2,0,0,"/linkline","","/liensmonstres, /lienmon, /linkline
+Utilisation<Indent/>: /liensmonstres [sous-commande]
+Affiche les liens entre les monstres.
+>> Sous-commandes<Indent/>:
+activé (on)         Affiche les liens de monstres.
+désactivé (off)    Cache les liens de monstres.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/liensmonstres","/lienmon",36,0
+306,2,1,2,0,0,"/autotarget","","/ciblageauto, /cibauto, /autotarget
+Utilisation<Indent/>: /ciblageauto [sous-commande]
+Active le ciblage automatique si aucune cible n'est sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née.
+>> Sous-commandes<Indent/>:
+activé (on)         Active le ciblage automatique.
+désactivé (off)    Désactive le ciblage automatique.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/ciblageauto","/cibauto",36,0
+307,2,1,2,0,0,"/displayhead","","/affichagecouvrechef, /affichtête, /displayhead
+Utilisation<Indent/>: /affichagecouvrechef [sous-commande]
+Affiche le couvre-chef porté par le personnage.
+>> Sous-commandes<Indent/>:
+activé (on)         Affiche le couvre-chef.
+désactivé (off)    Cache le couvre-chef.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/affichagecouvrechef","/affichtête",36,0
+308,2,1,2,0,0,"/displayarms","","/affichagearmes, /afficharmes, /displayarms
+Utilisation<Indent/>: /affichagearmes [sous-commande]
+Affiche les armes et outils portés par le personnage lorsqu'ils sont rengainés.
+>> Sous-commandes<Indent/>:
+activé (on)         Affiche les armes et outils.
+désactivé (off)    Cache les armes et outils.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/affichagearmes","/afficharmes",36,0
+309,2,1,2,0,0,"/autosheathe","/ashathe","/rengainerauto, /rengauto, /autosheathe, /ashathe
+Utilisation<Indent/>: /rengainerauto [sous-commande]
+Rengaine au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment l'arme hors combat.
+>> Sous-commandes<Indent/>:
+activé (on)         Fait rengainer au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment.
+désactivé (off)    Garde l'arme au clair.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/rengainerauto","/rengauto",36,0
+310,2,1,2,0,0,"/targetself","","/cliquersursoi, /cliqsoi, /targetself
+Utilisation<Indent/>: /cliquersursoi [sous-commande]
+Permet de cliquer sur soi-même pour se cibler.
+>> Sous-commandes<Indent/>:
+activé (on)         Permet de cliquer sur soi-même.
+désactivé (off)    Empêche de cliquer sur soi-même.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/cliquersursoi","/cliqsoi",36,0
+311,2,1,2,0,0,"/groundclick","","/cliquervide, /cliqvide, /groundclick
+Utilisation<Indent/>: /cliquervide [sous-commande]
+Permet de cliquer dans le vide pour annuler le ciblage en cours.
+>> Sous-commandes<Indent/>:
+activé (on)         Annule le ciblage en cliquant dans le vide.
+désactivé (off)    N'annule pas le ciblage en cliquant dans le vide.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/cliquervide","/cliqvide",36,0
+312,4,3,2,2,2,"/chatlog","","/fenêtrelog, /fenlog, /chatlog
+Utilisation<Indent/>: /fenêtrelog [sous-commande]
+Permet d'effectuer les réglages relatifs à la fenêtre de log.
+>> Sous-commandes<Indent/>:
+nom (name) [0-3]   Change l'affichage des noms de personnages.
+   0<Indent/>: Nom complet / 1<Indent/>: Nom de famille abrégé / 2<Indent/>: Prénom abrégé / 3<Indent/>: Initiales
+police (fontsize) [numéro d'onglet] [nombre]   Change la taille de la police pour l'onglet désigné.
+horodatage (time) [numéro d'onglet] activé (on)   Affiche l'horaire des messages pour l'onglet désigné.
+horodatage (time) [numéro d'onglet] désactivé (off)  Cache l'horaire des messages pour l'onglet désigné.
+horodatage (time) [numéro d'onglet]  Alterne entre les deux options pour l'onglet désigné.
+horodatage (time) 12   Affiche en cycles de 12 heures.
+horodatage (time) 24   Affiche en cycles de 24 heures.
+horodatage (time) local   Affiche l'heure locale.
+horodatage (time) serveur (server)   Affiche l'heure du serveur.
+appel (call) [nom de canal] activé (on)   Un son accompagne la réception d'un message dans le canal spécifié (""murmure"" si aucun n'est désigné).
+appel (call) [nom de canal] désactivé (off)   Pas de son lors de la réception d'un message dans le canal spécifié (""murmure"" si aucun n'est désigné).
+appel (call) [nom de canal] [numéro d'effet sonore]  Définit le type de son pour la réception de message dans le canal spécifié (""murmure"" si aucun n'est désigné).
+appel (call) [nom de canal] Alterne entre activation/désactivation de l'effet sonore du canal spécifié (""murmure"" si aucun n'est désigné).
+Types de canaux<Indent/>: chatéq (gr, party, p), alliance (al), compagnielibre (cl, freecompany, fc), équipejcj (pvpteam), linkshell1 à 8 (l1 à 8, ls1 à 8), novice (beginner), linkshell inter-Monde 1 à 8 (lsim1 à 8, cwlinkshell1 à 8), emotes reçues (emote).","/fenêtrelog","/fenlog",36,0
+313,3,2,2,2,0,"/battleeffect","","/effetscombats, /effcomb, /battleeffect
+Utilisation<Indent/>: /effetscombats [cible] [type]
+Permet d'effectuer les réglages relatifs aux effets des combats.
+>> Objets<Indent/>:
+soi (self)             Fait les réglages pour son personnage.
+équipe (party)      Fait les réglages pour ses équipiers.
+autres (other)      Fait les réglages pour les autres.
+>> Types<Indent/>:
+tous (all)            Affiche tous les effets des combats.
+simplifié (simple)  Affiche les effets de façon simplifiée.
+désactivé (off)    Cache tous les effets des combats.
+Si aucun type n'est spécifié, alterne entre ""tous"" et ""désactivé"".","/effetscombats","/effcomb",228,0
+314,3,2,4,2,0,"/hud","","/ath, /hud
+Utilisation<Indent/>: /ath ""[composant]"" [sous-commande]
+Affiche ou cache le composant de l'interface spécifié.
+>> Composants<Indent/>:
+Cible<Indent/>: Cible (target)
+Cible - barre de PV<Indent/>: CiblePV (TargetInfo:HP)
+Cible - barre de progression<Indent/>: CibleProg (TargetInfo:CastBar)
+Cible - effets bénéfiques/néfastes<Indent/>: CibleEff (TargetInfo:Status)
+Cible focalisée<Indent/>: focal (focus)
+Équipe<Indent/>: équipe (plist)
+Inimitié<Indent/>: inim (elist)
+Attributs<Indent/>: attrib (param)
+Boussole<Indent/>: bouss (mmap)
+Menu principal<Indent/>: mprinc (mmenu)
+Infos du serveur<Indent/>: infoserv (server)
+Gils<Indent/>: gils (gil)
+Inventaire<Indent/>: invent (bag)
+Liste des objectifs<Indent/>: listeobj (todo)
+Détails de l'objet<Indent/>: détobjet (item)
+Détails de l'action<Indent/>: détaction (action)
+Jauge de Transcendance<Indent/>: jgtrans (limit)
+Expérience<Indent/>: exp (ebar)
+État - effets bénéfiques/néfastes<Indent/>: état (buff)
+État - effets bénéfiques<Indent/>: ÉtatEffB (Status:Buff)
+État - effets néfastes<Indent/>: ÉtatEffN (Status:Debuff)
+État - effets divers<Indent/>: ÉtatEffD (Status:Other)
+Liste d'alliance 1<Indent/>: alliance1 (alist1)
+Liste d'alliance 2<Indent/>: alliance2 (alist2)
+Barres de raccourcis 1 à 10 (racc1 à racc10)
+Barre de raccourcis spéciale (raccsp)
+Croix de raccourcis (cxracc)
+Guide de l'épopée (Guideépopée)
+Éther compressé (Éthcomp)
+Le Front<Indent/>: jauge de combat(JaugeCombat)
+Ailes rivales - liste d'alliance<Indent/>: ARalliance (RivalWings:Alliance)
+Ailes rivales - gare<Indent/>: ARgare (RivalWings:Station)
+Ailes rivales - mercenaire gobelin<Indent/>: ARmercenaire (RivalWings:Mercenary)
+The Feast<Indent/>: alliés (TheFeast:AllyInfo)
+The Feast<Indent/>: adversaires (TheFeast:EnemyInfo)
+>> Sous-commandes<Indent/>:
+activé (on)        Affiche le composant spécifié.
+désactivé (off)   Cache le composant spécifié.
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.
+>> Exemple<Indent/>:
+/ath infoserv
+  Affiche/cache l'élément Infos du serveur.","/ath","",32,0
+315,6,3,2,3,7,"/hotbar","","/barracc, /bracc, /hotbar
+Utilisation<Indent/>: /barracc [sous-commande]
+Permet de faire des réglages dans les barres de raccourcis. Utilisables uniquement dans les zones JcE.
+>> Sous-commandes<Indent/>:
+placer (set) ""[nom d'action]"" [chiffre1] [chiffre2]    Place l'action désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1]. Si l'argument ""actuel"" est utilisé pour [chiffre1], le placement se fait dans la barre de raccourcis n°1 actuelle. Si [chiffre2] n'est pas spécifié, l'action est placée dans la première case vide. Si [chiffre1] et [chiffre2] ne sont pas spécifiés, l'action est placée dans la première case vide dans l'ordre croissant des barres et cases.
+actionmagiebleue (blueaction) ""[nom d'action de magie bleue]"" [chiffre1] [chiffre2]    Place l'action de magie bleue désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+général (general) ""[nom d'action]"" [chiffre1] [chiffre2]    Place l'action générale désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+objet (item) ""[nom d'objet]"" [chiffre1] [chiffre2]    Place l'objet désigné dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+emote ""[nom d'emote]""    Place l'emote désignée dans une case (le paramétrage des numéros est le même que pour ""placer"").
+compagnon (buddy) ""[nom d'action de compagnon]"" [chiffre1] [chiffre2]    Place l'action de compagnon désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+familier (pet) ""[nom d'action de familier]"" [chiffre1] [chiffre2]    Place l'action de familier désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+mascotte (minion) ""[nom de mascotte]"" [chiffre1] [chiffre2]    Place la mascotte désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+monture (mount) ""[nom de monture]"" [chiffre1] [chiffre2]    Place la monture désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+marque (marking) ""[nom de marque]"" [chiffre1] [chiffre2]    Place la marque désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+mqas (waymark) ""[nom de marque au sol]"" [chiffre1] [chiffre2]    Place la marque au sol désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+changer (change) [chiffre]    Affiche la barre de raccourcis n°[chiffre] à la place de la barre de raccourcis n°1 actuelle. Si l'argument ""précédent"" ou ""suivant"" est utilisé pour [chiffre], la barre de raccourcis précédente ou suivante de celle actuelle est affichée.
+copier (copy) [classe/job1] [chiffre1] [classe/job2] [chiffre2]    Copie le contenu de la barre de raccourcis n°[chiffre1] de [classe/job1] dans la barre de raccourcis n°[chiffre2] de [classe/job2]. Si l'argument ""actuel"" est utilisé pour [classe/job], il prend en compte la classe ou job actuel du personnage. Si l'argument ""commun"" est utilisé pour la [classe/job], il détermine une barre de raccourcis commune.
+afficher (display) [chiffre] on    Affiche la barre de raccourcis spécifiée.
+afficher (display) [chiffre] off    Cache la barre de raccourcis spécifiée.
+* Si on/off n'est pas spécifié, alterne entre ces deux options.
+commun (share) [chiffre] on    Rend la barre de raccourcis spécifiée commune à tous les jobs/classes.
+commun (share) [chiffre] off    Rend la barre de raccourcis spécifiée exclusive au job/classe actuel.
+* Si on/off n'est pas spécifié, alterne entre ces deux options.
+supprimer (remove) [chiffre1] [chiffre2]    Retire l'action/macro de la case [chiffre2] de la barre de raccourcis [chiffre1]. Si ""all"" est saisi pour [chiffre2], toutes les cases sont libérées.
+>> Exemples<Indent/>:
+/barracc placer ""Monture aléatoire"" 1 1
+  Place l'action Monture aléatoire dans la case 1 de la barre de raccourcis 1.
+/barracc changer 2
+  Affiche la barre de raccourcis 2 à la place de la barre de raccourcis 1.","/barracc","/bracc",36,0
+316,6,3,2,3,7,"/crosshotbar","/chotbar","/croixracc, /cxracc, /crosshotbar, /chotbar
+Utilisation<Indent/>: /croixracc [sous-commande]
+Permet de faire des réglages dans les croix de raccourcis. Utilisables uniquement dans les zones JcE.
+>> Sous-commandes<Indent/>:
+placer (set) ou action ""[nom d'action]"" [chiffre] [code de case]    Place l'action désignée dans la case spécifiée de la croix de raccourcis n°[chiffre]. Si l'argument ""actuel"" est utilisé pour [chiffre], le placement se fait dans la croix de raccourcis ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment affichée.
+actionmagiebleue (blueaction) ""[nom d'action de magie bleue]"" [chiffre] [code de case]    Place l'action de magie bleue désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+général (general) ""[nom d'action]"" [chiffre] [code de case]    Place l'action générale désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+objet (item) ""[nom d'objet]"" [chiffre] [code de case]    Place l'objet désigné dans la case spécifiée de la croix de raccourcis n°[chiffre].
+emote ""[nom d'emote]"" [chiffre] [code de case]    Place l'emote désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+compagnon (buddy) ""[nom d'action de compagnon]"" [chiffre1] [code de case]    Place l'action de compagnon désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+familier (pet) ""[nom d'action de familier]"" [chiffre] [code de case]    Place l'action de familier désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+mascotte (minion) ""[nom de mascotte]"" [chiffre] [code de case]    Place la mascotte désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+monture (mount) ""[nom de monture]"" [chiffre] [code de case]    Place la monture désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+marque (marking) ""[nom de marque]"" [chiffre] [code de case]    Place la marque désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+mqas (waymark) ""[nom de marque au sol]"" [chiffre] [code de case]    Place la marque au sol désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+changer (change) [chiffre]    Affiche la croix de raccourcis n°[chiffre]. Si l'argument ""précédent"" ou ""suivant"" est utilisé pour [chiffre], la croix de raccourcis précédente ou suivante de celle actuelle est affichée.
+copier (copy) [classe/job1] [chiffre1] [classe/job2] [chiffre2]    Copie le contenu de la croix de raccourcis n°[chiffre1] de classe/job1 dans la croix de raccourcis n°[chiffre2] de classe/job2. Si l'argument ""actuel"" est utilisé pour classe/job, il prend en compte la classe ou job actuel du personnage. Si l'argument ""commun"" est utilisé pour la classe/job, il détermine une croix de raccourcis commune.
+commun (share) [chiffre] on    Rend la croix de raccourcis spécifiée commune à tous les jobs/classes.
+commun (share) [chiffre] off    Rend la croix de raccourcis spécifiée exclusive au job/classe actuel.
+* Si on/off n'est pas spécifié, alterne entre ces deux options.
+supprimer (remove) [chiffre] [code de case]    Retire l'action/macro de la case spécifiée de la croix de raccourcis n°[chiffre]. Si ""all"" est saisi à la place du code de la case, toutes les cases sont libérées.
+>> Codes de case<Indent/>:
+<Gui(14)/> + <Gui(3)/> => LDL (LD1)
+<Gui(15)/> + <Gui(3)/> => RDL (RD1)
+<Gui(14)/> + <Gui(1)/> => LDU (LD2)
+<Gui(15)/> + <Gui(1)/> => RDU (RD2)
+<Gui(14)/> + <Gui(4)/> => LDR (LD3)
+<Gui(15)/> + <Gui(4)/> => RDR (RD3)
+<Gui(14)/> + <Gui(2)/> => LDD (LD4)
+<Gui(15)/> + <Gui(2)/> => RDD (RD4)
+<Gui(14)/> + <Gui(10)/> => LAL (LA1)
+<Gui(15)/> + <Gui(10)/> => RAL (RA1)
+<Gui(14)/> + <Gui(11)/> => LAU (LA2)
+<Gui(15)/> + <Gui(11)/> => RAU (RA2)
+<Gui(14)/> + <Gui(8)/> => LAR (LA3)
+<Gui(15)/> + <Gui(8)/> => RAR (RA3)
+<Gui(14)/> + <Gui(9)/> => LAD (LA4)
+<Gui(15)/> + <Gui(9)/> => RAD (RA4)","/croixracc","/cxracc",36,0
+317,1,0,0,0,0,"/hudreset","","/réinitath, /resetath, /hudreset
+Réinitialise la position, la taille et la transparence de la configuration ATH actuelle.","/réinitath","/resetath",32,0
+318,1,0,0,0,0,"/uireset","","/réiniiu, /uireset
+Réinitialise la position, la taille et la transparence de toutes les configurations ATH (1 à 4) et des fenêtres.","/réiniiu","",32,0
+319,2,1,0,0,0,"/uiscale","","/tailleiu, /tiu, /uiscale
+Utilisation<Indent/>: /tailleiu [sous-commande]
+Agrandit ou réduit la taille des fenêtres et de la configuration ATH actuelle.
+>> Sous-commandes<Indent/>:
+[nombre]    Agrandit/réduit la taille au pourcentage spécifié. Valeurs possibles<Indent/>: 60/80/90/100/110/120/140.
+réinit (reset)    Réinitialise la taille des fenêtres et de la configuration ATH actuelle.
+>> Exemples<Indent/>:
+/tailleiu 140
+  Agrandit la taille des fenêtres et de la configuration ATH actuelle à 140%.
+/tailleiu réinit
+  Réinitialise la taille des fenêtres et de la configuration ATH actuelle.","/tailleiu","/tiu",32,0
+320,2,1,2,0,0,"/actionerror","/aerror","/erreuraction, /actionerror, /aerror
+Utilisation<Indent/>: /erreuraction [sous-commande]
+Affiche/cache les messages d'erreur des actions.
+>> Sous-commandes<Indent/>:
+activé (on)   Affiche les messages d'erreur des actions.
+désactivé (off)   Cache les messages d'erreur des actions.
+* Si aucune sous-commande n'est saisie, alterne entre les deux options.","/erreuraction","",36,0
+321,2,1,2,0,0,"/recasterror","/rerror","/erreurrecharge, /recasterror, /rerror
+Utilisation<Indent/>: /erreuraction [sous-commande]
+Affiche/cache les messages d'erreur de recharge des actions.
+>> Sous-commandes<Indent/>:
+activé (on)   Affiche les messages d'erreur de recharge des actions.
+désactivé (off)   Cache les messages d'erreur de recharge des actions.
+* Si aucune sous-commande n'est saisie, alterne entre les deux options.","/erreurrecharge","",36,0
+322,1,0,0,0,0,"//eventReset","","//eventReset
+リアルイベント用コマンド。
+ゲーム内の設定をリアルイベント用に初期化する。","","",32,0
+323,2,1,2,0,0,"/crosshotbartype","/chotbartype","/typecroixraccourcis, /typecracc, /crosshotbartype, /chotbartype
+Utilisation<Indent/>: /typecroixraccourcis [sous-commande]
+Active un des types de contrôles de la croix de raccourcis.
+>> Sous-commandes<Indent/>:
+maintenue (hold)   Active les contrôles par pression maintenue.
+simpl (toggle)   Active les contrôles par pression simple.
+mixte (mix)   Active les contrôles de type mixte.","/typecroixraccourcis","/typecracc",36,0
+324,2,1,2,0,0,"/crosshotbardisplay","/chotbardisplay","/affichagecroixraccourcis, /affcracc, /crosshotbardisplay, /chotbardisplay
+Utilisation<Indent/>: /affichagecroixraccourcis [sous-commande]
+Affiche en permanence la croix de raccourcis.
+>> Sous-commandes<Indent/>:
+activé (on)   Active l'affichage permanent.
+désactivé (off)   Désactive l'affichage permanent.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/affichagecroixraccourcis","/affcracc",36,0
+325,6,3,2,16,7,"/pvphotbar","","/barraccjcj, /braccjcj, /pvphotbar
+Utilisation<Indent/>: /barraccjcj [sous-commande]
+Permet de faire des réglages dans les barres de raccourcis JcJ. Utilisables uniquement dans les zones JcJ.
+>> Sous-commandes<Indent/>:
+placer (set) ""[nom d'action JcJ]"" [chiffre1] [chiffre2]    Place l'action JcJ désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1]. Si l'argument ""actuel"" est utilisé pour [chiffre1], le placement se fait dans la barre de raccourcis n°1 actuelle. Si [chiffre2] n'est pas spécifié, l'action JcJ est placée dans la première case vide. Si [chiffre1] et [chiffre2] ne sont pas spécifiés, l'action JcJ est placée dans la première case vide dans l'ordre croissant des barres et cases.
+général (general) ""[nom d'action]"" [chiffre1] [chiffre2]    Place l'action générale désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+objet (item) ""[nom d'objet]"" [chiffre1] [chiffre2]    Place l'objet désigné dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+emote ""[nom d'emote]""    Place l'emote désignée dans une case (le paramétrage des numéros est le même que pour ""placer"").
+compagnon (buddy) ""[nom d'action de compagnon]"" [chiffre1] [chiffre2]    Place l'action de compagnon désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+familier (pet) ""[nom d'action de familier]"" [chiffre1] [chiffre2]    Place l'action de familier désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+mascotte (minion) ""[nom de mascotte]"" [chiffre1] [chiffre2]    Place la mascotte désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+monture (mount) ""[nom de monture]"" [chiffre1] [chiffre2]    Place la monture désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+marque (marking) ""[nom de marque]"" [chiffre1] [chiffre2]    Place la marque désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+mqas (waymark) ""[nom de marque au sol]"" [chiffre1] [chiffre2]    Place la marque au sol désignée dans la case [chiffre2] de la barre de raccourcis n°[chiffre1].
+changer (change) [chiffre]    Affiche la barre de raccourcis n°[chiffre] à la place de la barre de raccourcis n°1 actuelle. Si l'argument ""précédent"" ou ""suivant"" est utilisé pour [chiffre], la barre de raccourcis précédente ou suivante de celle actuelle est affichée.
+copier (copy) [job1] [chiffre1] [job2] [chiffre2]    Copie le contenu de la barre de raccourcis n°[chiffre1] de [job1] dans la barre de raccourcis n°[chiffre2] de [job2]. Si l'argument ""actuel"" est utilisé pour un [job], il prend en compte le job actuel du personnage. Si l'argument ""commun"" est utilisé pour un [job], il détermine une barre de raccourcis commune.
+afficher (display) [chiffre] on    Affiche la barre de raccourcis spécifiée.
+afficher (display) [chiffre] off    Cache la barre de raccourcis spécifiée.
+* Si on/off n'est pas spécifié, alterne entre ces deux options.
+commun (share) [chiffre] on    Rend la barre de raccourcis spécifiée commune à tous les jobs.
+commun (share) [chiffre] off    Rend la barre de raccourcis spécifiée exclusive au job actuel.
+* Si on/off n'est pas spécifié, alterne entre ces deux options.
+supprimer (remove) [chiffre1] [chiffre2]    Retire l'action/macro de la case [chiffre2] de la barre de raccourcis [chiffre1]. Si ""all"" est saisi pour [chiffre2], toutes les cases sont libérées.
+>> Exemples<Indent/>:
+/barraccjcj placer ""Dépuration"" 1 1
+  Place l'action Dépuration dans la case 1 de la barre de raccourcis 1.
+/barraccjcj changer 2
+  Affiche la barre de raccourcis 2 à la place de la barre de raccourcis 1.","/barraccjcj","/braccjcj",36,0
+326,6,3,2,16,7,"/pvpcrosshotbar","/pvpchotbar","/croixraccjcj, /cxraccjcj, /pvpchotbar, /pvpxhb
+Utilisation<Indent/>: /croixraccjcj [sous-commande]
+Permet de faire des réglages dans les croix de raccourcis JcJ. Utilisables uniquement dans les zones JcJ.
+>> Sous-commandes<Indent/>:
+placer (set) ou action ""[nom d'action JcJ]"" [chiffre] [code de case]    Place l'action JcJ désignée dans la case spécifiée de la croix de raccourcis n°[chiffre]. Si l'argument ""actuel"" est utilisé pour [chiffre], le placement se fait dans la croix de raccourcis ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment affichée.
+général (general) ""[nom d'action]"" [chiffre] [code de case]    Place l'action générale désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+objet (item) ""[nom d'objet]"" [chiffre] [code de case]    Place l'objet désigné dans la case spécifiée de la croix de raccourcis n°[chiffre].
+emote ""[nom d'emote]"" [chiffre] [code de case]    Place l'emote désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+compagnon (buddy) ""[nom d'action de compagnon]"" [chiffre1] [code de case]    Place l'action de compagnon désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+familier (pet) ""[nom d'action de familier]"" [chiffre] [code de case]    Place l'action de familier désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+mascotte (minion) ""[nom de mascotte]"" [chiffre] [code de case]    Place la mascotte désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+monture (mount) ""[nom de monture]"" [chiffre] [code de case]    Place la monture désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+marque (marking) ""[nom de marque]"" [chiffre] [code de case]    Place la marque désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+mqas (waymark) ""[nom de marque au sol]"" [chiffre] [code de case]    Place la marque au sol désignée dans la case spécifiée de la croix de raccourcis n°[chiffre].
+changer (change) [chiffre]    Affiche la croix de raccourcis n°[chiffre]. Si l'argument ""précédent"" ou ""suivant"" est utilisé pour [chiffre], la croix de raccourcis précédente ou suivante de celle actuelle est affichée.
+copier (copy) [job1] [chiffre1] [job2] [chiffre2]    Copie le contenu de la croix de raccourcis n°[chiffre1] de [job1] dans la croix de raccourcis n°[chiffre2] de [job2]. Si l'argument ""actuel"" est utilisé pour un [job], il prend en compte le job actuel du personnage. Si l'argument ""commun"" est utilisé pour un [job], il détermine une croix de raccourcis commune.
+commun (share) [chiffre] on    Rend la croix de raccourcis spécifiée commune à tous les jobs.
+commun (share) [chiffre] off    Rend la croix de raccourcis spécifiée exclusive au job actuel.
+* Si on/off n'est pas spécifié, alterne entre ces deux options.
+supprimer (remove) [chiffre] [code de case]    Retire l'action/macro de la case spécifiée de la croix de raccourcis n°[chiffre]. Si ""all"" est saisi à la place du code de la case, toutes les cases sont libérées.
+>> Codes de case<Indent/>:
+<Gui(14)/> + <Gui(3)/> => LDL (LD1)
+<Gui(15)/> + <Gui(3)/> => RDL (RD1)
+<Gui(14)/> + <Gui(1)/> => LDU (LD2)
+<Gui(15)/> + <Gui(1)/> => RDU (RD2)
+<Gui(14)/> + <Gui(4)/> => LDR (LD3)
+<Gui(15)/> + <Gui(4)/> => RDR (RD3)
+<Gui(14)/> + <Gui(2)/> => LDD (LD4)
+<Gui(15)/> + <Gui(2)/> => RDD (RD4)
+<Gui(14)/> + <Gui(10)/> => LAL (LA1)
+<Gui(15)/> + <Gui(10)/> => RAL (RA1)
+<Gui(14)/> + <Gui(11)/> => LAU (LA2)
+<Gui(15)/> + <Gui(11)/> => RAU (RA2)
+<Gui(14)/> + <Gui(8)/> => LAR (LA3)
+<Gui(15)/> + <Gui(8)/> => RAR (RA3)
+<Gui(14)/> + <Gui(9)/> => LAD (LA4)
+<Gui(15)/> + <Gui(9)/> => RAD (RA4)","/croixraccjcj","/cxraccjcj",36,0
+327,2,1,2,0,0,"/emotelog","","/emotelog
+Utilisation<Indent/>: /emotelog [sous-commande]
+Active/Désactive l'affichage des textes d'emote dans le log.
+>> Sous-commandes<Indent/>:
+activé (on)  Active l'affichage dans le log.
+désactivé (off)  Désactive l'affichage dans le log.
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","","",36,0
+328,2,0,0,0,0,"/jobhudmode","","/affichageinterfacejob, /affinterjob, /jobhudmode
+Utilisation<Indent/>: /affichageinterfacejob [sous-commande]
+Alterne entre les modes d'affichage (normal/simplifié) de l'interface du job actuel.
+>> Sous-commandes<Indent/>:
+1  Change le mode d'affichage du premier élément.
+2  Change le mode d'affichage du deuxième élément.
+* Si aucune sous-commande n'est spécifiée, alterne entre les modes d'affichage pour tous les éléments de l'interface de job.
+>> Exemple<Indent/>:
+/affichageinterfacejob 1
+  Change le mode d'affichage du premier élément de l'interface de job.","/affichageinterfacejob","/affinterjob",36,0
+329,2,0,0,0,0,"/mastervolume","","/vgénéral, /mastervolume
+Utilisation<Indent/>: /vgénéral [sous-commande]
+Règle le volume général sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/vgénéral","",228,0
+330,2,0,0,0,0,"/bgm","","/vmusique, /bgm
+Utilisation<Indent/>: /vmusique [sous-commande]
+Règle le volume de la musique sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/vmusique","",228,0
+331,2,0,0,0,0,"/soundeffects","","/veffetssonores, /soundeffects
+Utilisation<Indent/>: /veffetssonores [sous-commande]
+Règle le volume des effets sonores sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/veffetssonores","",228,0
+332,2,0,0,0,0,"/voice","","/vvoix, /voice
+Utilisation<Indent/>: /vvoix [sous-commande]
+Règle le volume des voix sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/vvoix","",228,0
+333,2,0,0,0,0,"/systemsounds","","/vsonssystèmes, /systemsounds
+Utilisation<Indent/>: /vsonssystèmes [sous-commande]
+Règle le volume des sons système sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/vsonssystèmes","",228,0
+334,2,0,0,0,0,"/ambientsounds","","/vambiancesonore, /ambientsounds
+Utilisation<Indent/>: /vambiancesonore [sous-commande]
+Règle le volume de l'ambiance sonore sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/vambiancesonore","",228,0
+335,2,0,0,0,0,"/soundeffectsself","","/veffetssoi, /soundeffectsself
+Utilisation<Indent/>: /veffetssoi [sous-commande]
+Règle le volume des effets sonores venant de vous sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/veffetssoi","",228,0
+336,2,0,0,0,0,"/soundeffectsparty","","/veffetséquipe, /soundeffectsparty
+Utilisation<Indent/>: /veffetséquipe [sous-commande]
+Règle le volume des effets sonores venant des équipiers sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/veffetséquipe","",228,0
+337,2,0,0,0,0,"/soundeffectsother","","/veffetsautres, /soundeffectsother
+Utilisation<Indent/>: /veffetsautres [sous-commande]
+Règle le volume des effets sonores venant des autres joueurs sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/veffetsautres","",228,0
+338,2,0,0,0,0,"/systemsoundsspeaker","","/vhautparleur, /systemsoundsspeaker
+Utilisation<Indent/>: /vhautparleur [sous-commande]
+Règle le volume du haut-parleur sur la valeur spécifiée.
+* Version PlayStation®4 uniquement.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/vhautparleur","",228,0
+339,2,0,0,0,0,"/tiltcamera","","/hcaméraobjective, /tiltcamera
+Utilisation<Indent/>: /hcaméraobjective [sous-commande]
+Règle la hauteur de la caméra objective sur la valeur spécifiée dans la configuration personnage.
+>> Sous-commande<Indent/>:
+[0-100]  Règle la hauteur sur la valeur correspondante.","/hcaméraobjective","",36,0
+340,2,1,2,0,0,"/mountbgm","","/musiquemonture, /mountbgm
+Utilisation<Indent/>: /musiquemonture [sous-commande]
+Active/Désactive la musique à dos de monture (configuration système).
+>> Sous-commande<Indent/>:
+activé (on)  Active la musique à dos de monture.
+désactivé (off)  Désactive la musique à dos de monture.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/musiquemonture","",100,0
+341,2,0,0,0,0,"/performsounds","","/actionsinterprétation, /ainterp, /performsounds
+Utilisation<Indent/>: /actionsinterprétation [sous-commande]
+Règle le volume des Actions d'interprétation sur la valeur spécifiée.
+>> Sous-commande<Indent/>:
+[0-100]  Règle le volume sur la valeur correspondante.
+* Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/actionsinterprétation","/ainterp",228,0
+401,1,0,0,0,0,"/emote","/em","/cmdémotion, /emote, /em
+Utilisation<Indent/>: /cmdémotion [message]
+Affiche un message commençant par le nom de votre personnage dans la couleur d'un message d'emote et dans le même périmètre qu'un ""Dire"".
+Le message ne s'affiche pas si le filtre de chat ""Emotes personnalisées"" est activé.","/cmdémotion","",292,0
+402,2,1,2,0,0,"/surprised","","/surprise, /surprised
+Utilisation<Indent/>: /surprise [sous-commande]
+S'étonner.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/surprise","",293,0
+403,2,1,2,0,0,"/angry","","/fâché, /colère, /angry
+Utilisation<Indent/>: /fâché [sous-commande]
+Se fâcher.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/fâché","/colère",293,0
+404,2,1,2,0,0,"/furious","","/furieux, /rage, /furious
+Utilisation<Indent/>: /furieux [sous-commande]
+Enrager.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/furieux","/rage",293,0
+405,2,1,2,0,0,"/blush","","/rougir, /rougit, /blush
+Utilisation<Indent/>: /rougir [sous-commande]
+Rougir d'embarras.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/rougir","/rougit",293,0
+406,2,1,2,0,0,"/bow","","/révérence, /sincliner, /bow
+Utilisation<Indent/>: /révérence [sous-commande]
+S'incliner.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/révérence","/sincliner",293,0
+407,2,1,2,0,0,"/cheer","","/encourager, /cheer
+Utilisation<Indent/>: /encourager [sous-commande]
+Encourager.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/encourager","",293,0
+408,2,1,2,0,0,"/clap","","/applaudir, /clap
+Utilisation<Indent/>: /applaudir [sous-commande]
+Applaudir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/applaudir","",293,0
+409,2,1,2,0,0,"/beckon","","/viens, /beckon
+Utilisation<Indent/>: /viens [sous-commande]
+Faire signe de venir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/viens","",293,0
+410,2,1,2,0,0,"/comfort","","/consoler, /comfort
+Utilisation<Indent/>: /consoler [sous-commande]
+Consoler.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/consoler","",293,0
+411,2,1,2,0,0,"/cry","","/pleurer, /cry
+Utilisation<Indent/>: /pleurer [sous-commande]
+Pleurer.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pleurer","",293,0
+412,2,1,2,0,0,"/dance","","/danser, /dance
+Utilisation<Indent/>: /danser [sous-commande]
+Danser.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/danser","",293,0
+413,2,1,2,0,0,"/doubt","","/questionner, /douter, /doubt
+Utilisation<Indent/>: /questionner [sous-commande]
+Remettre en question, douter.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/questionner","/douter",293,0
+414,2,1,2,0,0,"/doze","","/somnoler, /doze
+Utilisation<Indent/>: /somnoler [sous-commande]
+Somnoler. Cette commande peut également être utilisée à proximité d'un lit pour s'y coucher.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/somnoler","",293,0
+415,2,1,2,0,0,"/fume","","/dépit, /fume
+Utilisation<Indent/>: /dépit [sous-commande]
+Se dépiter, fulminer.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dépit","",293,0
+416,2,1,2,0,0,"/goodbye","","/bye, /aurevoir, /goodbye
+Utilisation<Indent/>: /aurevoir [sous-commande]
+Faire un signe d'au revoir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/aurevoir","/bye",293,0
+417,2,1,2,0,0,"/wave","","/coucou, /wave
+Utilisation<Indent/>: /coucou [sous-commande]
+Faire un signe de la main.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/coucou","",293,0
+418,2,1,2,0,0,"/huh","","/consterner, /bah, /huh
+Utilisation<Indent/>: /consterner [sous-commande]
+Montrer sa consternation.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/consterner","/bah",293,0
+419,2,1,2,0,0,"/joy","","/joie, /réjouir, /joy
+Utilisation<Indent/>: /joie [sous-commande]
+Se réjouir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/joie","/réjouir",293,0
+420,2,1,2,0,0,"/kneel","","/àgenoux, /sagenouiller, /kneel
+Utilisation<Indent/>: /àgenoux [sous-commande]
+S'agenouiller en signe de respect.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/àgenoux","/sagenouiller",293,0
+421,2,1,2,0,0,"/chuckle","","/rire, /rigoler, /chuckle
+Utilisation<Indent/>: /rire [sous-commande]
+Rire.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/rire","/rigoler",293,0
+422,2,1,2,0,0,"/laugh","","/sesclaffer, /mdr, /laugh
+Utilisation<Indent/>: /sesclaffer [sous-commande]
+S'esclaffer.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sesclaffer","/mdr",293,0
+423,2,1,2,0,0,"/lookout","","/scruter, /lookout
+Utilisation<Indent/>: /scruter [sous-commande]
+Scruter les environs.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/scruter","",293,0
+424,2,1,2,0,0,"/me","","/moi, /me
+Utilisation<Indent/>: /moi [sous-commande]
+Attirer l'attention sur soi.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/moi","",293,0
+425,2,1,2,0,0,"/no","","/non, /no
+Utilisation<Indent/>: /non [sous-commande]
+Refuser d'un signe de tête.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/non","",293,0
+426,2,1,2,0,0,"/deny","","/nier, /deny
+Utilisation<Indent/>: /nier [sous-commande]
+Refuser ou nier énergiquement.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/nier","",293,0
+427,2,1,2,0,0,"/panic","","/paniquer, /panic
+Utilisation<Indent/>: /paniquer [sous-commande]
+Paniquer.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/paniquer","",293,0
+428,2,1,2,0,0,"/point","","/montrer, /point
+Utilisation<Indent/>: /montrer [sous-commande]
+Montrer du doigt.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/montrer","",293,0
+429,2,1,2,0,0,"/poke","","/toucher, /poke
+Utilisation<Indent/>: /toucher [sous-commande]
+Titiller, toucher du doigt.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/toucher","",293,0
+430,2,1,2,0,0,"/congratulate","","/féliciter, /bravo, /congratulate
+Utilisation<Indent/>: /féliciter [sous-commande]
+Féliciter chaleureusement.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/féliciter","/bravo",293,0
+431,2,1,2,0,0,"/psych","","/motivation, /moral, /psych
+Utilisation<Indent/>: /motivation [sous-commande]
+Se motiver.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/motivation","/moral",293,0
+432,2,1,2,0,0,"/salute","","/saluer, /salute
+Utilisation<Indent/>: /saluer [sous-commande]
+Saluer solennellement.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/saluer","",293,0
+433,2,1,2,0,0,"/shocked","","/choc, /shocked
+Utilisation<Indent/>: /choc [sous-commande]
+Se montrer choqué.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/choc","",293,0
+434,2,1,2,0,0,"/shrug","","/épaules, /bof, /shrug
+Utilisation<Indent/>: /épaules [sous-commande]
+Hausser les épaules.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/épaules","/bof",293,0
+435,2,1,2,0,0,"/rally","","/stimuler, /rally
+Utilisation<Indent/>: /stimuler [sous-commande]
+Faire un geste stimulant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/stimuler","",293,0
+436,2,1,2,0,0,"/soothe","","/apaiser, /soothe
+Utilisation<Indent/>: /apaiser [sous-commande]
+Apaiser.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/apaiser","",293,0
+437,2,1,2,0,0,"/stagger","","/tituber, /stagger
+Utilisation<Indent/>: /tituber [sous-commande]
+Tituber.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/tituber","",293,0
+438,2,1,2,0,0,"/stretch","","/étirer, /stretch
+Utilisation<Indent/>: /étirer [sous-commande]
+S'étirer.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/étirer","",293,0
+439,2,1,2,0,0,"/sulk","","/bouder, /sulk
+Utilisation<Indent/>: /bouder [sous-commande]
+Bouder.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bouder","",293,0
+440,2,1,2,0,0,"/think","","/penser, /think
+Utilisation<Indent/>: /penser [sous-commande]
+Réfléchir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/penser","",293,0
+441,2,1,2,0,0,"/upset","","/déçu, /raslebol, /upset
+Utilisation<Indent/>: /déçu [sous-commande]
+Être très déçu.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/déçu","/raslebol",293,0
+442,2,1,2,0,0,"/welcome","","/bienvenue, /accueillir, /welcome
+Utilisation<Indent/>: /bienvenue [sous-commande]
+Accueillir à bras ouverts.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bienvenue","/accueillir",293,0
+443,2,1,2,0,0,"/yes","","/oui, /acquiescer, /yes
+Utilisation<Indent/>: /oui [sous-commande]
+Approuver d'un signe de tête.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/oui","/acquiescer",293,0
+444,2,1,2,0,0,"/thumbsup","","/approuver, /pouce, /thumbsup
+Utilisation<Indent/>: /approuver [sous-commande]
+Approuver énergiquement.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/approuver","/pouce",293,0
+445,2,1,2,0,0,"/examineself","","/seregarder, /examineself
+Utilisation<Indent/>: /seregarder [sous-commande]
+Se regarder.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/seregarder","",293,0
+446,2,1,2,0,0,"/pose","","/poser, /pose
+Utilisation<Indent/>: /poser [sous-commande]
+Prendre une pose.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/poser","",293,0
+447,2,1,2,0,0,"/blowkiss","","/lancerbaiser, /blowkiss
+Utilisation<Indent/>: /lancerbaiser [sous-commande]
+Envoyer un baiser.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/lancerbaiser","",293,0
+448,2,1,2,0,0,"/grovel","","/prosterner, /grovel
+Utilisation<Indent/>: /prosterner [sous-commande]
+Se prosterner.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/prosterner","",293,0
+449,2,1,2,0,0,"/happy","","/heureux, /jubiler, /happy
+Utilisation<Indent/>: /heureux [sous-commande]
+Jubiler.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/heureux","/jubiler",293,0
+450,2,1,2,0,0,"/disappointed","","/désespoir, /disappointed
+Utilisation<Indent/>: /désespoir [sous-commande]
+Exprimer son désespoir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/désespoir","",293,0
+451,1,0,0,0,0,"/lounge","/sit","/asseoir, /sit, /lounge
+Alterner entre la position assise et la position levée. Cette commande peut également être utilisée à proximité d'un siège pour s'y asseoir.
+Certaines commandes d'emotes comportent des gestes spéciaux adaptés à la position assise.","/asseoir","/lounge",37,0
+453,1,0,0,0,0,"/groundsit","","/asseoirparterre, /groundsit
+Alterne entre la position assise par terre et la position levée.
+Certaines commandes d'emotes comportent des gestes spéciaux adaptés à la position assise.","/asseoirparterre","",37,0
+455,2,1,2,0,0,"/airquotes","","/guillemets, /airquotes
+Faire des guillemets avec les doigts pour citer les dires de quelqu'un ou encore marquer l'ironie ou l'importance de certains mots.
+Seule une animation est exécutée.","/guillemets","",293,0
+456,2,1,2,0,0,"/gcsalute","","/salutgc, /gcsalute
+Utilisation<Indent/>: /salutgc [sous-commande]
+Effectuer le salut du Maelstrom.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutgc","",293,0
+457,2,1,2,0,0,"/gcsalute","","/salutgc, /gcsalute
+Utilisation<Indent/>: /salutgc [sous-commande]
+Effectuer le salut de l'ordre des Deux Vipères.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutgc","",293,0
+458,2,1,2,0,0,"/gcsalute","","/salutgc, /gcsalute
+Utilisation<Indent/>: /salutgc [sous-commande]
+Effectuer le salut des Immortels.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutgc","",293,0
+459,2,1,2,0,0,"/pray","","/prier, /pray
+Utilisation<Indent/>: /prier [sous-commande]
+Offrir une prière solennelle aux Douze ou tout autre dieu vénéré.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/prier","",293,0
+460,2,1,2,0,0,"/imperialsalute","","/salutimp, /imperialsalute
+Utilisation<Indent/>: /salutimp [sous-commande]
+Effectuer le salut des Impériaux.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutimp","",293,0
+461,2,1,2,0,0,"/visor","","/visière, /visor
+Baisse ou remonte la visière d'un couvre-chef pour lequel une telle opération est possible.","/visière","",301,0
+463,2,1,2,0,0,"/megaflare","","/mégabrasier, /megaflare
+Utilisation<Indent/>: /mégabrasier [sous-commande]
+Effectue une dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion pyrotechnique.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mégabrasier","",293,0
+464,2,1,2,0,0,"/crimsonlotus","","/chorémartiale, /crimsonlotus
+Utilisation<Indent/>: /chorémartiale [sous-commande]
+Exécute une chorégraphie martiale.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/chorémartiale","",293,0
+465,2,1,2,0,0,"/charmed","","/tombersouslecharme, /charmed
+Utilisation<Indent/>: /tombersouslecharme [sous-commande]
+Tombe en pâmoison.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/tombersouslecharme","",293,0
+466,2,1,2,0,0,"/cheeron","","/encouragerbleu, /cheeron
+Utilisation<Indent/>: /encouragerbleu [sous-commande]
+Encourage avec des bâtons lumineux bleus.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/encouragerbleu","",293,0
+467,2,1,2,0,0,"/cheerwave","","/encouragerjaune, /cheerwave
+Utilisation<Indent/>: /encouragerjaune [sous-commande]
+Encourage avec des bâtons lumineux jaunes.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/encouragerjaune","",293,0
+468,2,1,2,0,0,"/cheerjump","","/encouragerrouge, /cheerjump
+Utilisation<Indent/>: /encouragerrouge [sous-commande]
+Encourage avec des bâtons lumineux rouges.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/encouragerrouge","",293,0
+469,2,1,2,0,0,"/straightface","/straight","/neutre, /straightface, /straight
+Utilisation<Indent/>: /neutre [sous-commande]
+Afficher une expression normale.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/neutre","/normal",293,0
+470,2,1,2,0,0,"/smile","","/sourire, /smile
+Utilisation<Indent/>: /sourire [sous-commande]
+Sourire.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sourire","",293,0
+471,2,1,2,0,0,"/grin","","/radieux, /grin
+Utilisation<Indent/>: /radieux [sous-commande]
+Prendre un air radieux.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/radieux","",293,0
+472,2,1,2,0,0,"/smirk","","/confiant, /smirk
+Utilisation<Indent/>: /confiant [sous-commande]
+Prendre un air confiant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/confiant","",293,0
+473,2,1,2,0,0,"/taunt","","/arrogant, /taunt
+Utilisation<Indent/>: /arrogant [sous-commande]
+Afficher un air arrogant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/arrogant","",293,0
+474,2,1,2,0,0,"/shuteyes","/shut","/yeuxfermés, /shuteyes, /shut 
+Utilisation<Indent/>: /yeuxfermés [sous-commande]
+Fermer les yeux.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/yeuxfermés","",293,0
+475,2,1,2,0,0,"/sad","","/triste, /sad
+Utilisation<Indent/>: /triste [sous-commande]
+Prendre un air triste.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/triste","",293,0
+476,2,1,2,0,0,"/scared","/fear","/peur, /scared, /fear
+Utilisation<Indent/>: /peur [sous-commande]
+Prendre un air effrayé.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/peur","/effrayé",293,0
+477,2,1,2,0,0,"/amazed","/awe","/stupéfait, /amazed, /awe
+Utilisation<Indent/>: /stupéfait [sous-commande]
+Prendre un air stupéfait.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/stupéfait","",293,0
+478,2,1,2,0,0,"/ouch","/ow","/douleur, /ouch, /ow
+Utilisation<Indent/>: /douleur [sous-commande]
+Souffrir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/douleur","/aïe",293,0
+479,2,1,2,0,0,"/annoyed","/annoy","/grognon, /annoyed, /annoy
+Utilisation<Indent/>: /grognon [sous-commande]
+Prendre un air maussade.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/grognon","/maussade",293,0
+480,2,1,2,0,0,"/alert","","/interloqué, /alert
+Utilisation<Indent/>: /interloqué [sous-commande]
+Prendre un air interloqué.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/interloqué","",293,0
+481,2,1,2,0,0,"/worried","/worry","/inquiet, /worried, /worry
+Utilisation<Indent/>: /inquiet [sous-commande]
+Prendre un air inquiet.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/inquiet","",293,0
+482,2,1,2,0,0,"/biggrin","","/rieur, /biggrin
+Utilisation<Indent/>: /rieur [sous-commande]
+Affiche un large sourire.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/rieur","",293,0
+483,2,1,2,0,0,"/reflect","","/méditatif, /reflect
+Utilisation<Indent/>: /méditatif [sous-commande]
+Prend un air méditatif.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/méditatif","",293,0
+484,2,1,2,0,0,"/furrow","","/froncersourcils, /sourcilsfroncés, /furrow
+Utilisation<Indent/>: /froncersourcils [sous-commande]
+Fronce les sourcils.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/froncersourcils","/sourcilsfroncés",293,0
+485,2,1,2,0,0,"/scoff","","/sourirenavré, /scoff
+Utilisation<Indent/>: /sourirenavré [sous-commande]
+Affiche un sourire navré.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sourirenavré","",293,0
+486,2,1,2,0,0,"/throw","","/lancer, /throw
+Utilisation<Indent/>: /lancer [sous-commande]
+Lance un objet.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/lancer","",293,0
+491,2,1,2,0,0,"/changepose","/cpose","/changerpose, /changepose, /cpose
+Change la pose du personnage.
+Seule une animation est exécutée.","/changerpose","",37,0
+502,2,1,2,0,0,"/stepdance","/sdance","/claquettes, /stepdance
+Utilisation<Indent/>: /claquettes [sous-commande]
+Fait faire des claquettes.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/claquettes","",293,0
+503,2,1,2,0,0,"/harvestdance","/hdance","/dansemoissons, /dmoissons, /harvestdance
+Utilisation<Indent/>: /dansemoissons [sous-commande]
+Exécute la danse des moissons.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansemoissons","/dmoissons",293,0
+504,2,1,2,0,0,"/balldance","/bdance","/dansecour, /dcour, /balldance
+Utilisation<Indent/>: /dansecour [sous-commande]
+Exécute la danse de la cour.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansecour","/dcour",293,0
+505,2,1,2,0,0,"/mandervilledance","/mdance","/dansegentilhomme, /dghomme, /mandervilledance
+Utilisation<Indent/>: /dansegentilhomme [sous-commande]
+Exécute la danse du gentilhomme.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansegentilhomme","/dghomme",293,0
+506,2,1,2,0,0,"/stroke","","/caresser, /caresse, /stroke
+Utilisation<Indent/>: /caresser [sous-commande]
+Caresser.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/caresser","/caresse",293,0
+507,2,1,2,0,0,"/handover","","/donner, /donne, /handover
+Utilisation<Indent/>: /donner [sous-commande]
+Donner.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/donner","/donne",293,0
+510,2,1,2,0,0,"/bombdance","","/dansebombo, /dbombo, /bombdance
+Utilisation<Indent/>: /dansebombo [sous-commande]
+Exécute la danse du bombo.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansebombo","/dbombo",293,0
+511,2,1,2,0,0,"/hurray","","/hourra, /hurray
+Utilisation<Indent/>: /hourra [sous-commande]
+Pousse un cri d'acclamation.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/hourra","",293,0
+512,2,1,2,0,0,"/slap","","/claque, /slap
+Utilisation<Indent/>: /claque [sous-commande]
+Donne une claque.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/claque","",293,0
+513,2,1,2,0,0,"/hug","","/accolade, /hug
+Utilisation<Indent/>: /accolade [sous-commande]
+Donne une accolade.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/accolade","",293,0
+514,2,1,2,0,0,"/embrace","","/étreinte, /embrace
+Utilisation<Indent/>: /étreinte [sous-commande]
+Étreindre quelqu'un ou quelque chose.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/étreinte","",293,0
+515,2,1,2,0,0,"/hildibrand","/hildy","/hildibrand, /hildy
+Utilisation<Indent/>: /hildibrand [sous-commande]
+Faire la pose du détective.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","","",293,0
+516,2,1,2,0,0,"/fistbump","/fist","/salutpoing, /fistbump, /brofist
+Utilisation<Indent/>: /salutpoing [sous-commande]
+Exécute un salut avec le poing.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutpoing","/brofist",293,0
+519,2,1,2,0,0,"/thavdance","/tdance","/dansethavnairoise, /dthavn, /thavdance, /tdanse
+Utilisation<Indent/>: /dansethavnairoise [sous-commande]
+Exécute la danse thavnairoise.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansethavnairoise","/dthavn",293,0
+520,2,1,2,0,0,"/golddance","/gdance","/dansedelor, /ddelor, /golddance, /gdance
+Utilisation<Indent/>: /dansedelor [sous-commande]
+Exécute la danse de l'or.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansedelor","/ddelor",293,0
+521,2,1,2,0,0,"/sundance","","/dansedusoleil, /dsoleil, /sundance
+Utilisation<Indent/>: /dansedusoleil [sous-commande]
+Exécute la danse du soleil.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansedusoleil","/dsoleil",293,0
+522,2,1,2,0,0,"/battlestance","/bstance","/seprépareraucombat, /prépcomb, /battlestance, /bstance
+Utilisation<Indent/>: /seprépareraucombat [sous-commande]
+Se prépare au combat.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/seprépareraucombat","/prépcomb",293,0
+523,2,1,2,0,0,"/victorypose","/vpose","/seréjouirdelavictoire, /réjvict, /victorypose, /vpose
+Utilisation<Indent/>: /seréjouirdelavictoire [sous-commande]
+Se réjouit de la victoire.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/seréjouirdelavictoire","/réjvict",293,0
+524,2,1,2,0,0,"/backflip","/bflip","/saltoarrière, /saltarr, /backflip, /bflip
+Utilisation<Indent/>: /saltoarrière [sous-commande]
+Effectue un salto arrière.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/saltoarrière","/saltarr",293,0
+525,2,1,2,0,0,"/easterngreeting","/egreeting","/salutoriental, /salutor, /easterngreeting, /egreeting
+Utilisation<Indent/>: /salutoriental [sous-commande]
+Fait un salut oriental.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutoriental","/salutor",293,0
+526,2,1,2,0,0,"/eureka","","/éclairdegénie, /éclgénie, /eureka
+Utilisation<Indent/>: /éclairdegénie [sous-commande]
+A un éclair de génie.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/éclairdegénie","/éclgénie",293,0
+527,2,1,2,0,0,"/mogdance","","/dansemog, /dmog, /mogdance
+Utilisation<Indent/>: /dansemog [sous-commande]
+Exécute la danse mog.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansemog","/dmog",293,0
+528,2,1,2,0,0,"/haurchefant","/hknight","/haurchefant, /hknight
+Utilisation<Indent/>: /haurchefant [sous-commande]
+Exécute le geste préféré d'Haurchefant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","","",293,0
+529,2,1,2,0,0,"/easternstretch","/estretch","/étirementsorientaux, /étirorient, /easternstretch, /estretch
+Utilisation<Indent/>: /étirementsorientaux [sous-commande]
+Effectue des étirements orientaux.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/étirementsorientaux","/étirorient",293,0
+530,2,1,2,0,0,"/easterndance","/edance","/danseorientale, /dorientale, /easterndance, /edance
+Utilisation<Indent/>: /danseorientale [sous-commande]
+Exécute une danse orientale.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/danseorientale","/dorientale",293,0
+531,2,1,2,0,0,"/rangerpose1r","/rpose1r","/bomboforcerouge, /bbfrouge, /rangerpose1r, /rpose1r
+Utilisation<Indent/>: /bomboforcerouge [sous-commande]
+Exécute les mouvements de Bomboforce rouge.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bomboforcerouge","/bbfrouge",293,0
+532,2,1,2,0,0,"/rangerpose2r","/rpose2r","/bomboforcenoire, /bbfnoire, /rangerpose2r, /rpose2r
+Utilisation<Indent/>: /bomboforcenoire [sous-commande]
+Exécute les mouvements de Bomboforce noire.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bomboforcenoire","/bbfnoire",293,0
+533,2,1,2,0,0,"/rangerpose3r","/rpose3r","/bomboforcejaune, /bbfjaune, /rangerpose3r, /rpose3r
+Utilisation<Indent/>: /bomboforcejaune [sous-commande]
+Exécute les mouvements de Bomboforce jaune.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bomboforcejaune","/bbfjaune",293,0
+534,2,1,2,0,0,"/wink","/rightwink","/clindoeildroit, /cloeild, /wink, /rightwink
+Utilisation<Indent/>: /clindoeildroit [sous-commande]
+Fait un clin d'œil droit.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/clindoeildroit","/cloeild",293,0
+535,2,1,2,0,0,"/rangerpose1l","/rpose1l","/bomboforcerougeinversé, /bbfrougeinv, /rangerpose1l, /rpose1l
+Utilisation<Indent/>: /bomboforcerougeinversé [sous-commande]
+Exécute les mouvements de Bomboforce rouge inversés.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bomboforcerougeinversé","/bbfrougeinv",293,0
+536,2,1,2,0,0,"/rangerpose2l","/rpose2l","/bomboforcenoireinversé, /bbfnoireinv, /rangerpose2l, /rpose2l
+Utilisation<Indent/>: /bomboforcenoireinversé [sous-commande]
+Exécute les mouvements de Bomboforce noire inversés.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bomboforcenoireinversé","/bbfnoireinv",293,0
+537,2,1,2,0,0,"/rangerpose3l","/rpose3l","/bomboforcejauneinversé, /bbfjauneinv, /rangerpose3l, /rpose3l
+Utilisation<Indent/>: /bomboforcejauneinversé [sous-commande]
+Exécute les mouvements de Bomboforce jaune inversés.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/bomboforcejauneinversé","/bbfjauneinv",293,0
+538,2,1,2,0,0,"/facepalm","","/seprendrelatête, /prentête, /facepalm
+Utilisation<Indent/>: /seprendrelatête [sous-commande]
+Se prend la tête à deux mains.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/seprendrelatête","/prentête",293,0
+539,2,1,2,0,0,"/zantetsuken","/ztk","/zantetsuken, /ztk
+Utilisation<Indent/>: /zantetsuken [sous-commande]
+Tranche l'espace à la manière d'Odin.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/zantetsuken","",293,0
+540,2,1,2,0,0,"/flex","","/contractersesmuscles, /muscles, /flex
+Utilisation<Indent/>: /contractersesmuscles [sous-commande]
+Contracte ses muscles.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/contractersesmuscles","/muscles",293,0
+541,2,1,2,0,0,"/respect","","/serecueillir, /respect
+Utilisation<Indent/>: /serecueillir [sous-commande]
+Se recueille.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/serecueillir","",293,0
+542,2,1,2,0,0,"/sneer","","/vicieux, /sneer
+Utilisation<Indent/>: /vicieux [sous-commande]
+Affiche un sourire vicieux.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/vicieux","",293,0
+543,2,1,2,0,0,"/prettyplease","/pplease","/attendrir, /prettyplease, /pplease
+Utilisation<Indent/>: /attendrir [sous-commande]
+Prend un air attendrissant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/attendrir","",293,0
+544,2,1,2,0,0,"/playdead","/pdead","/feindrelamort, /feinmort, /playdead, /pdead
+Utilisation<Indent/>: /feindrelamort [sous-commande]
+Feint la mort.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/feindrelamort","/feinmort",293,0
+545,2,1,2,0,0,"/iceheart","","/illusionsglacées, /shiva, /iceheart
+Utilisation<Indent/>: /illusionsglacées [sous-commande]
+Émerge de la glace à la manière de Shiva.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/illusionsglacées","/shiva",293,0
+546,2,1,2,0,0,"/moonlift","","/dansesoleiletlune, /dsoleillune, /moonlift
+Utilisation<Indent/>: /dansesoleiletlune [sous-commande]
+Exécute la danse du soleil et de la lune.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansesoleiletlune","/dsoleillune",293,0
+547,2,1,2,0,0,"/dote","","/exprimersonamour, /expramour, /dote
+Utilisation<Indent/>: /exprimersonamour [sous-commande]
+Exprime son amour.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/exprimersonamour","/expramour",293,0
+549,2,1,2,0,0,"/spectacles","","/ajusterseslunettes, /ajlunettes, /spectacles
+Utilisation<Indent/>: /ajusterseslunettes [sous-commande]
+Ajuste ses lunettes.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/ajusterseslunettes","/ajlunettes",293,0
+550,2,1,2,0,0,"/songbird","","/dansedeséglantines, /déglantines, /songbird
+Utilisation<Indent/>: /dansedeséglantines [sous-commande]
+Exécute la danse des Églantines.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansedeséglantines","/déglantines",293,0
+551,2,1,2,0,0,"/waterfloat","","/flottersurleau, /flotteau, /waterfloat
+Se laisser porter par l'eau.
+Seule une animation est exécutée.","/flottersurleau","/flotteau",293,0
+552,2,1,2,0,0,"/waterflip","","/saltodansleau, /salteau, /waterflip
+Exécute un salto arrière dans l'eau.
+Seule une animation est exécutée.","/saltodansleau","/salteau",293,0
+553,2,1,2,0,0,"/puckerup","","/tendreleslèvres, /tlèvres, /puckerup
+Utilisation<Indent/>: /tendreleslèvres [sous-commande]
+Ferme les yeux et tend les lèvres.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/tendreleslèvres","/tlèvres",293,0
+554,2,1,2,0,0,"/powerup","","/concentrersesforces, /powerup
+Utilisation<Indent/>: /concentrersesforces [sous-commande]
+Fait concentrer ses forces.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/concentrersesforces","",293,0
+555,2,1,2,0,0,"/easternbow","/ebow","/révérenceorientale, /révorientale, /easternbow, /ebow
+Utilisation<Indent/>: /révérenceorientale [sous-commande]
+Exécute une révérence orientale.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/révérenceorientale","/révorientale",293,0
+556,2,1,2,0,0,"/squats","","/flexionsjambes, /squats
+Utilisation<Indent/>: /flexionsjambes [sous-commande]
+Effectue des flexions de jambes.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/flexionsjambes","",293,0
+557,2,1,2,0,0,"/pushups","","/pompes, /pushups
+Utilisation<Indent/>: /pompes [sous-commande]
+Effectue des pompes.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pompes","",293,0
+558,2,1,2,0,0,"/situps","","/abdos, /situps
+Utilisation<Indent/>: /abdos [sous-commande]
+Effectue des abdos.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/abdos","",293,0
+559,2,1,2,0,0,"/breathcontrol","","/respirationprofonde, /respiprof, /breathcontrol
+Utilisation<Indent/>: /respirationprofonde [sous-commande]
+Respire pro<SoftHyphen/>fon<SoftHyphen/>dé<SoftHyphen/>ment.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/respirationprofonde","/respiprof",293,0
+560,2,1,2,0,0,"/converse","","/parler, /converse
+Utilisation<Indent/>: /parler [sous-commande]
+Parle.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/parler","",293,0
+561,2,1,2,0,0,"/concentrate","","/sérieux, /concentrate
+Utilisation<Indent/>: /sérieux [sous-commande]
+Prend un air sérieux.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sérieux","",293,0
+562,2,1,2,0,0,"/disturbed","","/perplexe, /disturbed
+Utilisation<Indent/>: /perplexe [sous-commande]
+Prend un air perplexe.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/perplexe","",293,0
+563,2,1,2,0,0,"/simper","","/souriretendre, /simper
+Utilisation<Indent/>: /souriretendre [sous-commande]
+Sourit tendrement.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/souriretendre","",293,0
+564,2,1,2,0,0,"/beam","","/satisfait, /beam
+Utilisation<Indent/>: /satisfait [sous-commande]
+Prend un air satisfait.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/satisfait","",293,0
+565,2,1,2,0,0,"/attention","","/gardeàvous, /gàv, /attention
+Utilisation<Indent/>: /gardeàvous [sous-commande]
+Fait le garde-à-vous.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/gardeàvous","/gàv",293,0
+566,2,1,2,0,0,"/atease","","/repos, /atease
+Utilisation<Indent/>: /repos [sous-commande]
+Se met au repos.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/repos","",293,0
+567,2,1,2,0,0,"/box","","/boxe, /box
+Utilisation<Indent/>: /boxe [sous-commande]
+Donne des coups de poing.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/boxe","",293,0
+568,2,1,2,0,0,"/ritualprayer","","/prièrerituelle, /prituelle, /ritualprayer
+Utilisation<Indent/>: /prièrerituelle [sous-commande]
+Effectue une prière rituelle.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/prièrerituelle","/prituelle",293,0
+570,2,1,2,0,0,"/tremble","","/tremblerdepeur, /tremble
+Utilisation<Indent/>: /tremblerdepeur [sous-commande]
+Tremble de peur.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/tremblerdepeur","",293,0
+571,2,1,2,0,0,"/winded","","/genouàterre, /winded
+Utilisation<Indent/>: /genouàterre [sous-commande]
+Pose un genou à terre.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/genouàterre","",293,0
+572,2,1,2,0,0,"/aback","","/stupéfaction, /aback
+Utilisation<Indent/>: /stupéfaction [sous-commande]
+Tombe des nues.
+>> Sous-commande<Indent/>:
+animation (motion)  Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/stupéfaction","",293,0
+573,2,1,2,0,0,"/greet","","/salutdécontracté, /greet
+Utilisation<Indent/>: /salutdécontracté [sous-commande]
+Salue de façon décontractée.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/salutdécontracté","",293,0
+574,2,1,2,0,0,"/boxstep","","/pasdebase, /boxstep
+Utilisation<Indent/>: /pasdebase [sous-commande]
+Exécute un pas de danse de base.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pasdebase","",293,0
+575,2,1,2,0,0,"/sidestep","","/pasdecôté, /sidestep
+Utilisation<Indent/>: /pasdecôté [sous-commande]
+Exécute un pas de danse de côté.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pasdecôté","",293,0
+576,2,1,2,0,0,"/ultima","","/ultima
+Utilisation<Indent/>: /ultima [sous-commande]
+Fait une dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion du sort Ultima.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/ultima","",293,0
+577,2,1,2,0,0,"/yoldance","","/dansedesyols, /yoldance
+Utilisation<Indent/>: /dansedesyols [sous-commande]
+Exécute la danse des yols.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansedesyols","",293,0
+579,2,1,2,0,0,"/splash","","/éclabousser, /splash
+Utilisation<Indent/>: /éclabousser [sous-commande]
+Fait semblant d'asperger avec de l'eau.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/éclabousser","",293,0
+581,2,1,2,0,0,"/sweat","","/transpirer, /sweat
+Utilisation<Indent/>: /transpirer [sous-commande]
+S'essuie le front.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/transpirer","",293,0
+582,2,1,2,0,0,"/shiver","","/grelotter, /shiver
+Utilisation<Indent/>: /grelotter [sous-commande]
+Tremble de froid.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/grelotter","",293,0
+583,2,1,2,0,0,"/elucidate","","/élucider, /elucidate
+Utilisation<Indent/>: /élucider [sous-commande]
+Se lance dans des ex<SoftHyphen/>pli<SoftHyphen/>ca<SoftHyphen/>tions.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/élucider","",293,0
+584,2,1,2,0,0,"/ponder","","/songeur, /ponder
+Utilisation<Indent/>: /songeur [sous-commande]
+Est perdu dans ses pensées.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/songeur","",293,0
+585,2,1,2,0,0,"/leftwink","","/clindoeilgauche, /cloeilg, /leftwink
+Utilisation<Indent/>: /clindoeilgauche [sous-commande]
+Fait un clin d'œil gauche.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/clindoeilgauche","/cloeilg",293,0
+586,2,1,2,0,0,"/getfantasy","","/fantaisieurbaine, /getfantasy
+Utilisation<Indent/>: /fantaisieurbaine [sous-commande]
+Exécute la danse ""Fantaisie urbaine"".
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/fantaisieurbaine","",293,0
+587,2,1,2,0,0,"/popotostep","","/poppingpopoto, /popotostep
+Utilisation<Indent/>: /poppingpopoto [sous-commande]
+Exécute la danse ""Popping popoto"".
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/poppingpopoto","",293,0
+588,2,1,2,0,0,"/hum","","/fredonner, /hum
+Utilisation<Indent/>: /fredonner [sous-commande]
+Fredonne gaiement.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/fredonner","",293,0
+589,2,1,2,0,0,"/confirm","","/confirmer, /confirm
+Utilisation<Indent/>: /confirmer [sous-commande]
+Confirme une information.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/confirmer","",293,0
+590,2,1,2,0,0,"/scheme","","/expliquerplan, /scheme
+Utilisation<Indent/>: /expliquerplan [sous-commande]
+Explique son plan.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/expliquerplan","",293,0
+591,2,1,2,0,0,"/endure","","/crispé, /endure
+Utilisation<Indent/>: /crispé [sous-commande]
+Prend un air crispé.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/crispé","",293,0
+592,2,1,2,0,0,"/tomestone","","/mémoquartz, /tomestone
+Utilisation<Indent/>: /mémoquartz [sous-commande]
+Utilise son mémoquartz.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mémoquartz","",293,0
+593,2,1,2,0,0,"/heeltoe","","/dansesautillante, /heeltoe
+Utilisation<Indent/>: /dansesautillante [sous-commande]
+Exécute un pas de danse sautillante.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansesautillante","",293,0
+594,2,1,2,0,0,"/goobbuedo","","/dansegoobbue, /goobbuedo
+Utilisation<Indent/>: /dansegoobbue [sous-commande]
+Exécute la danse festive du goobbue.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansegoobbue","",293,0
+595,2,1,2,0,0,"/gratuity","","/charitéchafouine, /gratuity
+Utilisation<Indent/>: /charitéchafouine [sous-commande]
+Lance de l'argent en l'air.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/charitéchafouine","",293,0
+596,2,1,2,0,0,"/fistpump","","/poingair, /fistpump
+Utilisation<Indent/>: /poingair [sous-commande]
+Exprime sa joie avec une pose victorieuse.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/poingair","",293,0
+597,2,1,2,0,0,"/reprimand","","/réprimander, /reprimand
+Utilisation<Indent/>: /réprimander [sous-commande]
+Exprime son mécontentement tout en gardant son sang-froid.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/réprimander","",293,0
+598,2,1,2,0,0,"/sabotender","","/pasdepampa, /sabotender
+Utilisation<Indent/>: /pasdepampa [sous-commande]
+Imite les célèbres pas effectués par des pampas.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pasdepampa","",293,0
+599,2,1,2,0,0,"/mandervillemambo","/mmambo","/mambogentilhomme, /mmambo, /mandervillemambo
+Utilisation<Indent/>: /mambogentilhomme [sous-commande]
+Exécute le mambo du gentilhomme.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mambogentilhomme","",293,0
+600,2,1,2,0,0,"/laliho","","/laliho
+Utilisation<Indent/>: /laliho [sous-commande]
+Exécute un lali-ho nain.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/laliho","",293,0
+601,2,1,2,0,0,"/simulationm","","/simulationm
+Utilisation<Indent/>: /simulationm [sous-commande]
+Fait une dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion de la simulation M.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/simulationm","",293,0
+602,2,1,2,0,0,"/simulationf","","/simulationf
+Utilisation<Indent/>: /simulationf [sous-commande]
+Fait une dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion de la simulation F.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/simulationf","",293,0
+603,2,1,2,0,0,"/toast","","/trinquer, /toast
+Utilisation<Indent/>: /trinquer [sous-commande]
+Trinque à la santé et au succès de ceux qui vous entourent.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/trinquer","",293,0
+604,2,1,2,0,0,"/lean","","/sepencher, /lean
+Se pencher légèrement.
+Seule une animation est exécutée.","/sepencher","",293,0
+605,2,1,2,0,0,"/headache","","/migraine, /headache
+Utilisation<Indent/>: /migraine [sous-commande]
+Souffre de terribles maux de tête.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/migraine","",293,0
+606,2,1,2,0,0,"/snap","","/claquerdesdoigts, /claqdoi, /snap
+Utilisation<Indent/>: /claquerdesdoigts [sous-commande]
+Claque des doigts de manière audible.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/claquerdesdoigts","/claqdoi",293,0
+607,2,1,2,0,0,"/breakfast","/bread","/mangerdupain, /mangpain, /breakfast, /bread
+Utilisation<Indent/>: /mangerdupain [sous-commande]
+Mange un bout de pain.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerdupain","/mangpain",293,0
+608,2,1,2,0,0,"/read","","/lireunlivre, /lire, /read
+Utilisation<Indent/>: /lireunlivre [sous-commande]
+Lit un livre.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/lireunlivre","/lire",293,0
+609,2,1,2,0,0,"/insist","","/insister, /insist
+Utilisation<Indent/>: /insister [sous-commande]
+Insiste pour bien se faire comprendre.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/insister","",293,0
+610,2,1,2,0,0,"/consider","/hmm","/sinterroger, /consider, /hmm
+Utilisation<Indent/>: /sinterroger [sous-commande]
+S'interroge.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sinterroger","",293,0
+611,2,1,2,0,0,"/wasshoi","","/ohhisse,
+Utilisation<Indent/>: /ohhisse [sous-commande]
+Fait “oh hisse<Indent/>!”.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/ohhisse","",293,0
+613,2,1,2,0,0,"/flamedance","","/dansedesflammes, /flamedance
+Utilisation<Indent/>: /dansedesflammes [sous-commande]
+Effectue la danse des flammes.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansedesflammes","",293,0
+614,2,1,2,0,0,"/highfive","/hifive","/topelà, /highfive
+Utilisation<Indent/>: /topelà [sous-commande]
+Tend le bras en l'air et tape énergiquement.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/topelà","",293,0
+615,2,1,2,0,0,"/guard","","/monterlagarde, /guard
+Utilisation<Indent/>: /monterlagarde [sous-commande]
+Monte la garde ou surveille quelqu'un.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/monterlagarde","",293,0
+617,2,1,2,0,0,"/beesknees","","/dansedesabeilles, /beesknees
+Utilisation<Indent/>: /dansedesabeilles [sous-commande]
+Effectue la danse des abeilles.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansedesabeilles","",293,0
+618,2,1,2,0,0,"/lalihop","","/lali-hop, /lalihop
+Utilisation<Indent/>: /lali-hop [sous-commande]
+Danse le lali-hop.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/lali-hop","",293,0
+625,2,1,2,0,0,"/paintblack","","/pinchoconoir, /pinceaunoir, /paintblack
+Utilisation<Indent/>: /pinchoconoir [sous-commande]
+Repeint le sol en noir.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pinchoconoir","/pinceaunoir",293,0
+626,2,1,2,0,0,"/paintred","","/pinchocorouge, /pinceaurouge, /paintred
+Utilisation<Indent/>: /pinchocorouge [sous-commande]
+Repeint le sol en rouge.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pinchocorouge","/pinceaurouge",293,0
+627,2,1,2,0,0,"/paintyellow","","/pinchocojaune, /pinceaujaune, /paintyellow
+Utilisation<Indent/>: /pinchocojaune [sous-commande]
+Repeint le sol en jaune.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pinchocojaune","/pinceaujaune",293,0
+628,2,1,2,0,0,"/paintblue","","/pinchocobleu, /pinceaubleu, /paintblue
+Utilisation<Indent/>: /pinchocobleu [sous-commande]
+Repeint le sol en bleu.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pinchocobleu","/pinceaubleu",293,0
+629,2,1,2,0,0,"/fakesmile","","/sourireforcé, /fakesmile
+Utilisation<Indent/>: /sourireforcé [sous-commande]
+Affiche un sourire forcé.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sourireforcé","",293,0

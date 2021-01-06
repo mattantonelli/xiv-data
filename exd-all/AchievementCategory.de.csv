@@ -1,0 +1,75 @@
+﻿key,0,1,2,3,4
+#,Name,AchievementKind,ShowComplete,HideCategory,Order
+int32,str,AchievementKind,bit&01,bit&02,byte
+0,"","",True,False,0
+1,"Kampferfolge","Battle",True,False,1
+2,"Dungeons","Battle",True,False,2
+3,"Prüfungen","Battle",True,False,3
+4,"Raids","Battle",True,False,4
+5,"Hohe Jagd","Battle",True,False,5
+6,"Schatzsuche","Battle",True,False,6
+7,"Allgemein","PvP",True,False,1
+8,"PvP-Ranglisten","PvP",True,True,2
+9,"Wolfshöhle","PvP",True,False,3
+10,"Front","PvP",True,False,4
+11,"Stahlschwingen","PvP",True,False,5
+12,"Charakter","Character",True,False,1
+13,"Krieger","Character",True,False,2
+14,"Magier","Character",True,False,3
+15,"Handwerker","Character",True,False,4
+16,"Sammler","Character",True,False,5
+17,"Ehrungen","Character",True,False,6
+18,"Gold Saucer","Character",True,False,7
+19,"Gegenstände","Items",True,False,1
+20,"Vermögen","Items",True,False,2
+21,"Verwertung","Items",True,False,3
+22,"Sammlerstücke","Items",True,False,4
+23,"Materia","Items",True,False,5
+24,"Zimmerer","Crafting & Gathering",True,False,2
+25,"Grobschmied","Crafting & Gathering",True,False,3
+26,"Plattner","Crafting & Gathering",True,False,4
+27,"Goldschmied","Crafting & Gathering",True,False,5
+28,"Gerber","Crafting & Gathering",True,False,6
+29,"Weber","Crafting & Gathering",True,False,7
+30,"Alchemist","Crafting & Gathering",True,False,8
+31,"Gourmet","Crafting & Gathering",True,False,9
+32,"Minenarbeiter","Crafting & Gathering",True,False,10
+33,"Gärtner","Crafting & Gathering",True,False,11
+34,"Fischer","Crafting & Gathering",True,False,12
+35,"Aufträge","Quests",True,False,1
+36,"Freibriefe","Quests",True,False,2
+37,"Wilde Stämme","Quests",True,False,3
+38,"Saisonale Ereignisse","Quests",True,True,4
+39,"Eorzea Incognita","Exploration",True,False,1
+40,"La Noscea","Exploration",True,False,2
+41,"Finsterwald","Exploration",True,False,3
+42,"Thanalan","Exploration",True,False,4
+43,"Coerthas","Exploration",True,False,5
+44,"Mor Dhona","Exploration",True,False,6
+45,"Abalathia","Exploration",True,False,7
+46,"Dravania","Exploration",True,False,8
+47,"Gyr Abania","Exploration",True,False,9
+48,"Othard","Exploration",True,False,10
+49,"Inhalte","Exploration",True,False,100
+50,"Staatliche Gesellschaften","Grand Company",True,False,1
+51,"Mahlstrom","Grand Company",True,False,2
+52,"Bruderschaft","Grand Company",True,False,3
+53,"Legion","Grand Company",True,False,4
+54,"Kampferfolge","Legacy",True,False,1
+55,"Vermögen","Legacy",True,False,2
+56,"Sammeln","Legacy",True,False,3
+57,"Aufträge","Legacy",True,False,4
+58,"Saisonale Ereignisse","Legacy",True,False,5
+59,"Dungeons","Legacy",True,False,6
+60,"Erkundungen","Legacy",True,False,7
+61,"Staatliche Gesellschaften","Legacy",True,False,8
+62,"Zenit-Waffen","Items",True,False,6
+63,"Zeta-Waffen","Items",True,False,7
+64,"Anima-Waffen","Items",True,False,8
+65,"Tiefe Gewölbe-Waffen","Items",True,False,9
+66,"Eureka-Ausrüstung","Items",True,False,10
+67,"Norvrandt","Exploration",True,False,11
+68,"Waffen des Widerstands","Items",True,False,11
+69,"Klassenübergreifend","Crafting & Gathering",True,False,1
+70,"Himmelsstahl-Werkzeuge","Items",True,False,51
+71,"Feldexkursionen","Battle",True,False,7
