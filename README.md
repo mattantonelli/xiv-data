@@ -19,6 +19,7 @@ Image data is no longer stored in this repository. The extract script will gener
 mv ui.zip /var/rails/images/ffxiv
 cd /var/rails/images/ffxiv
 unzip -oq ui.zip
+find ui -type f -exec chmod 664 {} \;
 rm ui.zip
 ```
 
