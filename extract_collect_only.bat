@@ -7,11 +7,12 @@ ECHO Setting SC definition to the latest game version...
 COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 
 ECHO [%TIME%] Extracting game data...
-.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BuddyEquip Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory Item MinionRace MinionSkillType Mount MountTransient Orchestrion OrchestrionCategory Ornament Quest Recipe TextCommand Title"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction Cabinet CabinetCategory CharaMakeCustomize Emote ItemAction OrchestrionUiParam"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BuddyEquip Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory Item MinionRace MinionSkillType Mount MountTransient Orchestrion OrchestrionCategory Ornament Quest TextCommand Title"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction Cabinet CabinetCategory CharaMakeCustomize Emote ItemAction OrchestrionUiParam Recipe"
 
 ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 069999"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "ui 072200 072459"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 130000 139999"
 for /d %%i in (%CD%\%VERSION%\ui\icon\*) do (cd "%%i" & rmdir /S /Q hq 2>NUL)
 
