@@ -558,22 +558,22 @@ int32,str,str,bit&01,uint16
 554,"Gefährlichster-Job-Kandidat","Gefährlichster-Job-Kandidatin",True,1622
 555,"Manta-Maniac","Manta-Maniac",True,1623
 556,"Weltklassefischer","Weltklassefischerin",True,1624
-557,"","",False,0
-558,"","",False,0
+557,"Heiliger des Himmels","Heilige des Himmels",False,10002
+558,"Beatus des Himmels","Beata des Himmels",False,10012
 559,"Turniermeister","Turniermeisterin",True,1625
 560,"der Sucher der geheimen Schätze","die Sucherin der geheimen Schätze",False,1626
 561,"der Hüter der geheimen Schätze","die Hüterin der geheimen Schätze",False,1627
 562,"Karusselljockey","Karusselljockey",True,1628
 563,"der Meister der Meere","die Meisterin der Meere",False,1629
 564,"","",False,0
-565,"","",False,0
-566,"","",False,0
-567,"","",False,0
-568,"","",False,0
-569,"","",False,0
-570,"","",False,0
-571,"","",False,0
-572,"","",False,0
-573,"","",False,0
-574,"","",False,0
-575,"","",False,0
+565,"die Zimmererlegende von Himmelsang","die Zimmererlegende von Himmelsang",False,1631
+566,"die Grobschmiedlegende von Himmelsang","die Grobschmiedlegende von Himmelsang",False,1632
+567,"die Plattnerlegende von Himmelsang","die Plattnerlegende von Himmelsang",False,1633
+568,"die Goldschmiedlegende von Himmelsang","die Goldschmiedlegende von Himmelsang",False,1634
+569,"die Gerberlegende von Himmelsang","die Gerberlegende von Himmelsang",False,1635
+570,"die Weberlegende von Himmelsang","die Weberlegende von Himmelsang",False,1636
+571,"die Alchemistenlegende von Himmelsang","die Alchemistenlegende von Himmelsang",False,1637
+572,"die Gourmetlegende von Himmelsang","die Gourmetlegende von Himmelsang",False,1638
+573,"die Minenarbeiterlegende von Himmelsang","die Minenarbeiterlegende von Himmelsang",False,1639
+574,"die Gärtnerlegende von Himmelsang","die Gärtnerlegende von Himmelsang",False,1640
+575,"die Fischerlegende von Himmelsang","die Fischerlegende von Himmelsang",False,1641

@@ -876,7 +876,8 @@ plus im<SoftHyphen/>pres<SoftHyphen/>sion<SoftHyphen/>nant.","Piou piou<Indent/>
 405,"Vous appelez votre mascotte Drippy, une jeune nixe en voyage autour du monde.","Cette jeune nixe a fait son entrée dans le monde des vivants au milieu des montagnes d'Abalathia. Au gré de ses vagabondages, elle est arrivée à l'atelier de Matoya, où elle a rapidement compris qu'il valait mieux être l'alliée de la
 vieille ermite que son
 ennemie.","Touloulou<Indent/>! Awawa<Indent/>!","Awawa<Indent/>!","Inflige des dégâts équivalents à 5% de sa solidité à la pierre arcanique ennemie la plus proche.",85,40,3,False,False,True,False,False,"Dismantling"
-406,"","","","","",0,0,0,False,False,False,False,False,""
+406,"Vous appelez votre mascotte Trike, un bébé tricératops nerveux mais affectueux.","Aurvael de Haillenarte a sauvé ce petit tricératops d'une mort certaine par empoisonnement lors d'une expédition au Diadème. Reconnaissant à l'extrême, l'animal a résolu de vouer son existence au bien-être des humains en les aidant
+durant leurs voyages.","Triii... céraaa... tooops...","Trikorne","Dissipe tous les effets bénéfiques des ennemis dans l'aire d'effet.",20,50,2,False,False,True,True,False,"Disarming"
 407,"Vous appelez votre mascotte castor doré, dont la couleur provoque toujours les plus profondes mais inutiles interrogations.","On raconte que cette étrange créature apparaît dans les donjons du Lyhe Ghiah lorsque le vœu d'un visiteur est exaucé. La plupart du temps, cela signifie que celui-ci a mis la main sur un trésor longtemps convoité.","Graou<Indent/>! Graougraougraou<Indent/>!","Malédiction du castor doré","Inflige des dégâts équivalents à 70% de sa solidité au bouclier ennemi. N'a aucun effet si ce dernier est déjà détruit.",60,60,2,False,False,True,False,False,"Dismantling"
 408,"","","","","",0,0,0,False,False,False,False,False,""
 409,"","","","","",0,0,0,False,False,False,False,False,""

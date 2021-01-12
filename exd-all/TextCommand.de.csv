@@ -2732,6 +2732,24 @@ VERWENDUNG:
 → Du tanzt den Holladrihopsasa.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/holladrihopsasa","/hhopsasa",293,0
+621,2,1,2,0,0,"/eatriceball","/riceball","/onigiriessen, /onigiri, /eatriceball, /riceball
+VERWENDUNG:
+/onigiri [Unterbefehl]
+→ Du isst einen Onigiri.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/onigiriessen","/onigiri",293,0
+622,2,1,2,0,0,"/eatapple","/apple","/apfelessen, /apfel, /eatapple, /apple
+VERWENDUNG:
+/apfel [Unterbefehl]
+→ Du isst einen Apfel.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/apfelessen","/apfel",293,0
+624,2,1,2,0,0,"/sweep","/broom","/kehren, /sweep, /broom
+VERWENDUNG:
+/kehren [Unterbefehl]
+→ Du kehrst den Boden.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/kehren","",293,0
 625,2,1,2,0,0,"/paintblack","","/pinselschwarz, /paintblack
 VERWENDUNG:
 /pinselschwarz [Unterbefehl]

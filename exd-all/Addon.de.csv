@@ -8819,7 +8819,7 @@ Möchtest du deine Teilnahme bestätigen?"
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Die Regeln können im laufenden Turnier nicht geändert werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-Möchtest du mit diesen EInstellungen fortfahren?"
+Möchtest du mit diesen Einstellungen fortfahren?"
 9856,"Alle Spieler sind bereit.
 Das Spiel wird gleich beginnen."
 9857,"Die Gegner der nächsten Runde stehen fest.
@@ -10104,7 +10104,7 @@ Höchste Punktzahl
 11263,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 11264,"Verbleibende Zeit: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 11265,"Beenden"
-11266,"HERAUSRAGENDER ERFOLG"
+11266,"VOLLER ERFOLG"
 11310,"Einverständniserklärung"
 11311,""
 11312,"Ich stimme der obigen Erklärung zu."
@@ -11547,6 +11547,10 @@ Wenn ein Inhalt mit NPCs betreten wird, werfen Schatztruhen weniger Beute ab. Au
 12780,"GLÜCKS-KUPO"
 12781,"<Value>IntegerParameter(1)</Value>"
 12782,"Schließen"
+12783,"Denkmal zu Ehren der zahllosen Helfer, ohne welche die Himmelsstadt nie aus den Ruinen des Krieges auferstanden wäre."
+12784,"Schließen"
+12785,"Monument der Arbeit"
+12786,"Gestiftet von den dankbaren Bürgern Ishgards"
 12790,"KURIOSITÄTEN"
 12791,""
 12800,"ZIRKEL"

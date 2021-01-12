@@ -558,22 +558,22 @@ int32,str,str,bit&01,uint16
 554,"Péril de la haute mer","Péril de la haute mer",False,1622
 555,"Mentor des mantas","Mentor des mantas",False,1623
 556,"Ratisseur des mers","Ratisseuse des mers",False,1624
-557,"","",False,0
-558,"","",False,0
+557,"Saint d'Azurée","Sainte d'Azurée",False,10002
+558,"Bienheureux d'Azurée","Bienheureuse d'Azurée",False,10012
 559,"Champion de tournoi officiel","Championne de tournoi officiel",False,1625
 560,"Découvreur du jardin secret","Découvreuse du jardin secret",False,1626
 561,"Gardien du jardin secret","Gardienne du jardin secret",False,1627
 562,"Échappé du jardin secret","Échappée du jardin secret",False,1628
 563,"Maître des mers","Maîtresse des mers",False,1629
 564,"","",False,0
-565,"","",False,0
-566,"","",False,0
-567,"","",False,0
-568,"","",False,0
-569,"","",False,0
-570,"","",False,0
-571,"","",False,0
-572,"","",False,0
-573,"","",False,0
-574,"","",False,0
-575,"","",False,0
+565,"Menuisier du Nouveau Refrain","Menuisière du Nouveau Refrain",False,1631
+566,"Forgeron du Nouveau Refrain","Forgeronne du Nouveau Refrain",False,1632
+567,"Armurier du Nouveau Refrain","Armurière du Nouveau Refrain",False,1633
+568,"Orfèvre du Nouveau Refrain","Orfèvre du Nouveau Refrain",False,1634
+569,"Tanneur du Nouveau Refrain","Tanneuse du Nouveau Refrain",False,1635
+570,"Couturier du Nouveau Refrain","Couturière du Nouveau Refrain",False,1636
+571,"Alchimiste du Nouveau Refrain","Alchimiste du Nouveau Refrain",False,1637
+572,"Cuisinier du Nouveau Refrain","Cuisinière du Nouveau Refrain",False,1638
+573,"Mineur du Nouveau Refrain","Mineuse du Nouveau Refrain",False,1639
+574,"Botaniste du Nouveau Refrain","Botaniste du Nouveau Refrain",False,1640
+575,"Pêcheur du Nouveau Refrain","Pêcheuse du Nouveau Refrain",False,1641

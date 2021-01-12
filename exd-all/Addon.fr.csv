@@ -11724,6 +11724,11 @@ Con<SoftHyphen/>trai<SoftHyphen/>re<SoftHyphen/>ment au mode “Alter ego”, ce
 12780,"Kupo de la fortune"
 12781,"<Value>IntegerParameter(1)</Value>"
 12782,"Fermer"
+12783,"Ce monument est dédié aux prodigieux <Unknown2F>FF1202280EFF09436C6173734A6F62E8020103</Unknown2F>s et à tous les autres ouvriers qui ont aidé Azurée à renaître de ses cendres."
+12784,"Fermer"
+12785,"Leurs mains
+nous ont offert le ciel"
+12786,"Monument offert par les habitants d'Azurée "
 12790,"Objets précieux"
 12791,""
 12800,"Liste de vos communautés"
@@ -13108,8 +13113,8 @@ Voulez-vous le changer<Indent/>?"
 102321,"Non"
 102322,"<Sheet(PlaceName,IntegerParameter(1),0)/>"
 102323,"<Sheet(PlaceName,IntegerParameter(1),0)/>"
-102329,"Choisissez votre destination.
-Emplacement actuel<Indent/>: <Highlight>StringParameter(1)</Highlight>"
+102329,"Choisissez une destination.
+Lieu actuel<Indent/>: <Highlight>StringParameter(1)</Highlight>"
 102330,"Annuler"
 102334,"Enregistrer comme favori gratuit<Indent/>?
 Se téléporter vers cette destination ne coûtera plus rien."

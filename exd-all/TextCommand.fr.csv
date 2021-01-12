@@ -2591,6 +2591,24 @@ Danse le lali-hop.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/lali-hop","",293,0
+621,2,1,2,0,0,"/eatriceball","/riceball","/mangerunonigiri, /mangonigiri, /eatriceball, /riceball
+Utilisation<Indent/>: /mangerunonigiri [sous-commande]
+Mange un onigiri.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunonigiri","/mangonigiri",293,0
+622,2,1,2,0,0,"/eatapple","/apple","/mangerunepomme, /mangpomme, /eatapple, /apple
+Utilisation<Indent/>: /mangerunepomme [sous-commande]
+Mange une pomme.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunepomme","/mangpomme",293,0
+624,2,1,2,0,0,"/sweep","/broom","/balayer, /balai, /sweep, /broom
+Utilisation<Indent/>: /balayer [sous-commande]
+Passe le balai.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/balayer","/balai",293,0
 625,2,1,2,0,0,"/paintblack","","/pinchoconoir, /pinceaunoir, /paintblack
 Utilisation<Indent/>: /pinchoconoir [sous-commande]
 Repeint le sol en noir.

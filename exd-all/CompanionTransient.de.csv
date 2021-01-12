@@ -1575,7 +1575,8 @@ leicht ganz normal.","Jetzt mal im Ernst. Du bist gekommen, um mit mir über Kek
 405,"Du rufst deinen Tröpfel als Begleiter herbei. Er vertraut darauf, dass du ihm nichts antust.","Ein junger Wassergeist. Geboren aus dem Regen, der auf Abalathias Rückgrat fällt, ließ er sich im Thaliak-Fluss mittreiben und strandete schließlich in Matoyas Atelier. Dein Kampf gegen seine Brüder bewog ihn jedoch dazu, in die weite
 Welt hinauszuziehen. ","Sie beißen den Köder von der Angel ab und lachen dabei!
 <Emphasis>Zorniger Fischer</Emphasis>","Wasserstreich","Fügt dem nächstgelegenen gegnerischen Arkana-Stein 5 % Schaden zu.",85,40,3,False,False,True,False,False,"Dismantling"
-406,"","","","","",0,0,0,False,False,False,False,False,""
+406,"Du rufst deinen Tricero als Begleiter herbei, ein Jungtier eines Triceratops.","Dieses Jungtier eines Triceratops wurde von Aurvael Haillenarte auf einer Diadem-Expedition entdeckt und nach Hause gebracht. Es soll die Weisheit besitzen, sich einzig Besitzer mit einem gütigen Herzen auszuwählen.","Auf dem Diadem findet man alle möglichen Schätze, aber <Emphasis>damit</Emphasis> hatte ich nicht gerechnet.
+<Emphasis>Aurvael Haillenarte</Emphasis>","Trampelsaurier","Entfernt alle positiven Effekte von den gegnerischen Trabanten in der Nähe.",20,50,2,False,False,True,True,False,"Disarming"
 407,"Du rufst deinen Goldbiber als Begleiter herbei. Mit einem goldigen Gemüt gesegnet ist er innen wie außen goldig.  ","Ein rätselhaftes Wesen aus purem Gold, das immer dann in den Verliesen von Lyhe Ghiah erscheint, wenn jemand findet, wonach er gesucht hat, zum Beispiel eine Schatzkarte. Warum das so ist, weiß der Biber.","Biber!
 <Emphasis>Versteck spielende Pixie</Emphasis>","Nagerlöcher","Fügt einem gegnerischen Schild 70 % Schaden zu. Kein Effekt, falls er schon zerstört ist.",60,60,2,False,False,True,False,False,"Dismantling"
 408,"","","","","",0,0,0,False,False,False,False,False,""

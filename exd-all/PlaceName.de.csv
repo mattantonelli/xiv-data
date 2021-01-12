@@ -3661,17 +3661,17 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3633,"Großes Spiegelchen (Osten)",0,"",0,0,1,0,0,"",0
 3634,"Tusi Mek'ta (Tiefen)",0,"",0,0,1,0,0,"",0
 3635,"Nimmerwo-Garten",0,"",0,0,1,0,0,"",0
-3636,"",0,"",0,0,0,0,0,"",0
-3637,"",0,"",0,0,0,0,0,"",0
-3638,"",0,"",0,0,0,0,0,"",0
-3639,"",0,"",0,0,0,0,0,"",0
-3640,"",0,"",0,0,0,0,0,"",0
+3636,"Kurhaus Rouchemande",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kurhaus Rouchemande</Case><Case(2)>im Kurhaus Rouchemande</Case><Case(3)>das Kurhaus Rouchemande</Case></Switch>",0
+3637,"Füllfederpfad",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Füllfederpfad</Case><Case(2)>am Füllfederpfad</Case><Case(3)>der Füllfederpfad</Case></Switch>",0
+3638,"Balladenpassage",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Balladenpassage</Case><Case(2)>in der Balladenpassage</Case><Case(3)>die Balladenpassage</Case></Switch>",0
+3639,"Thermalbad Winterwonne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Thermalbad Winterwonne</Case><Case(2)>im Thermalbad Winterwonne</Case><Case(3)>das Thermalbad Winterwonne</Case></Switch>",0
+3640,"Himmelsang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Himmelsang</Case><Case(2)>in Himmelsang</Case><Case(3)>Himmelsang</Case></Switch>",0
 3641,"Inseln der Cieldaläen",0,"",0,0,1,0,0,"",0
 3642,"Schwerblütiges Meer",0,"",0,0,1,0,0,"",0
 3643,"Rothlyt-Meerbusen",0,"",0,0,1,0,0,"",0
 3644,"Das Karussell von Lyhe Ghiah",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in das Karussell von Lyhe Ghiah</Case><Case(2)>im Karussell von Lyhe Ghiah</Case><Case(3)>das Karussell von Lyhe Ghiah</Case></Switch>",0
-3645,"",0,"",0,0,0,0,0,"",0
-3646,"",0,"",0,0,0,0,0,"",0
+3645,"Östliches Himmelsang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum östlichen Himmelsang</Case><Case(2)>im östlichen Himmelsang</Case><Case(3)>Östliches Himmelsang</Case></Switch>",0
+3646,"Westliches Himmelsang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum westlichen Himmelsang</Case><Case(2)>im westlichen Himmelsang</Case><Case(3)>Westliches Himmelsang</Case></Switch>",0
 3647,"",0,"",0,0,0,0,0,"",0
 3648,"",0,"",0,0,0,0,0,"",0
 3649,"",0,"",0,0,0,0,0,"",0

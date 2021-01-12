@@ -14,7 +14,7 @@ int32,uint16,byte,byte,bit&01,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte
 10,3169,1,1,False,9,"ui/icon/008000/008012.tex",9,"Ombrelle du Gold Saucer",0,"Ombrelles du Gold Saucer",0,1,1,1,0
 11,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
 12,3167,1,1,False,11,"ui/icon/008000/008010.tex",11,"Ombrelle rose à pois",0,"Ombrelles rose à pois",0,1,1,1,0
-13,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+13,3168,1,1,False,12,"ui/icon/008000/008011.tex",12,"Ombrelle vert d'eau à pois",0,"Ombrelles vert d'eau à pois",0,1,1,1,0
 14,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
 15,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
 16,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
