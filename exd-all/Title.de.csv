@@ -551,9 +551,9 @@ int32,str,str,bit&01,uint16
 547,"Heiliger des Himmels","Heilige des Himmels",True,10001
 548,"Beatus des Himmels","Beata des Himmels",True,10011
 549,"Geschichtsschreiber","Geschichtsschreiberin",True,1617
-550,"","",False,0
-551,"","",False,0
-552,"","",False,0
+550,"der wahrlich Blaue","die wahrlich Blaue",False,1618
+551,"das Blaue Wunder","das Blaue Wunder",False,1619
+552,"Omega-Blau","Omega-Blau",True,1620
 553,"Ballonfänger","Ballonfängerin",True,1621
 554,"Gefährlichster-Job-Kandidat","Gefährlichster-Job-Kandidatin",True,1622
 555,"Manta-Maniac","Manta-Maniac",True,1623
@@ -565,7 +565,7 @@ int32,str,str,bit&01,uint16
 561,"der Hüter der geheimen Schätze","die Hüterin der geheimen Schätze",False,1627
 562,"Karusselljockey","Karusselljockey",True,1628
 563,"der Meister der Meere","die Meisterin der Meere",False,1629
-564,"","",False,0
+564,"Delubrum-Erkunder","Delubrum-Erkunderin",True,1630
 565,"die Zimmererlegende von Himmelsang","die Zimmererlegende von Himmelsang",False,1631
 566,"die Grobschmiedlegende von Himmelsang","die Grobschmiedlegende von Himmelsang",False,1632
 567,"die Plattnerlegende von Himmelsang","die Plattnerlegende von Himmelsang",False,1633

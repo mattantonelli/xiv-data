@@ -551,9 +551,9 @@ int32,str,str,bit&01,uint16
 547,"Saint d'Azurée","Sainte d'Azurée",False,10001
 548,"Bienheureux d'Azurée","Bienheureuse d'Azurée",False,10011
 549,"Scripteur d'Histoires","Scripteuse d'Histoires",False,1617
-550,"","",False,0
-551,"","",False,0
-552,"","",False,0
+550,"Bleu véritable","Bleu véritable",False,1618
+551,"Ranger bleu","Ranger bleue",False,1619
+552,"L'Azur et l'Oméga","L'Azur et l'Oméga",False,1620
 553,"Fou du ballon","Folle du ballon",False,1621
 554,"Péril de la haute mer","Péril de la haute mer",False,1622
 555,"Mentor des mantas","Mentor des mantas",False,1623
@@ -565,7 +565,7 @@ int32,str,str,bit&01,uint16
 561,"Gardien du jardin secret","Gardienne du jardin secret",False,1627
 562,"Échappé du jardin secret","Échappée du jardin secret",False,1628
 563,"Maître des mers","Maîtresse des mers",False,1629
-564,"","",False,0
+564,"Excavateur de Delubrum","Excavatrice de Delubrum",False,1630
 565,"Menuisier du Nouveau Refrain","Menuisière du Nouveau Refrain",False,1631
 566,"Forgeron du Nouveau Refrain","Forgeronne du Nouveau Refrain",False,1632
 567,"Armurier du Nouveau Refrain","Armurière du Nouveau Refrain",False,1633

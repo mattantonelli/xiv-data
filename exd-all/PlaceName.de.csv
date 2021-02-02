@@ -3551,7 +3551,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3523,"Schlaflose Wacht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Schlaflosen Wacht</Case><Case(2)>in der Schlaflosen Wacht</Case><Case(3)>die Schlaflose Wacht</Case></Switch>",0
 3524,"Erleuchtetes Refugium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Erleuchteten Refugium</Case><Case(2)>im Erleuchteten Refugium</Case><Case(3)>das Erleuchtete Refugium</Case></Switch>",0
 3525,"Federfall-Quartier",0,"",0,0,1,0,0,"",0
-3526,"Nebengebäude der Himmelsstahl-Werkstätte",0,"",0,0,1,0,0,"",0
+3526,"Zweigstelle der Himmelsstahl-Werkstätte",0,"",0,0,1,0,0,"",0
 3527,"Allee des Abakus",0,"",0,0,1,0,0,"",0
 3528,"Raureif-Refugium",0,"",0,0,1,0,0,"",0
 3529,"Utya-Gemarkung",0,"",0,0,1,0,0,"",0
@@ -3622,29 +3622,29 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0
 3594,"Schoß der Hexerei",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schoß der Hexerei</Case><Case(2)>im Schoß der Hexerei</Case><Case(3)>der Schoß der Hexerei</Case></Switch>",0
 3595,"Verlies von Eulmore",0,"",0,0,1,0,0,"",0
 3596,"Nichtssphäre",0,"",0,0,1,0,0,"",0
-3597,"",0,"",0,0,0,0,0,"",0
-3598,"",0,"",0,0,0,0,0,"",0
-3599,"",0,"",0,0,0,0,0,"",0
-3600,"",0,"",0,0,0,0,0,"",0
-3601,"",0,"",0,0,0,0,0,"",0
-3602,"",0,"",0,0,0,0,0,"",0
-3603,"",0,"",0,0,0,0,0,"",0
-3604,"",0,"",0,0,0,0,0,"",0
-3605,"",0,"",0,0,0,0,0,"",0
-3606,"",0,"",0,0,0,0,0,"",0
-3607,"",0,"",0,0,0,0,0,"",0
-3608,"",0,"",0,0,0,0,0,"",0
-3609,"",0,"",0,0,0,0,0,"",0
-3610,"",0,"",0,0,0,0,0,"",0
-3611,"",0,"",0,0,0,0,0,"",0
-3612,"",0,"",0,0,0,0,0,"",0
-3613,"",0,"",0,0,0,0,0,"",0
-3614,"",0,"",0,0,0,0,0,"",0
-3615,"",0,"",0,0,0,0,0,"",0
-3616,"",0,"",0,0,0,0,0,"",0
-3617,"",0,"",0,0,0,0,0,"",0
-3618,"",0,"",0,0,0,0,0,"",0
-3619,"",0,"",0,0,0,0,0,"",0
+3597,"Delubrum Reginae",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Delubrum Reginae</Case><Case(2)>im Delubrum Reginae</Case><Case(3)>das Delubrum Reginae</Case></Switch>",0
+3598,"Obere Ebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die obere Ebene</Case><Case(2)>auf der oberen Ebene</Case><Case(3)>die obere Ebene</Case></Switch>",0
+3599,"Untere Ebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die untere Ebene</Case><Case(2)>auf der untere Ebene</Case><Case(3)>die untere Ebene</Case></Switch>",0
+3600,"Verborgene Ebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die verborgene Ebene</Case><Case(2)>auf der verborgenen Ebene</Case><Case(3)>die verborgene Ebene</Case></Switch>",0
+3601,"Verwilderter Vorhof",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den verwilderten Vorhof</Case><Case(2)>im verwilderten Vorhof</Case><Case(3)>der verwilderte Vorhof</Case></Switch>",0
+3602,"Verlassene Kaserne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die verlassene Kaserne</Case><Case(2)>in der verlassenen Kaserne</Case><Case(3)>die verlassene Kaserne</Case></Switch>",0
+3603,"Vergessener Kornspeicher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den verwilderten Vorhof</Case><Case(2)>im verwilderten Vorhof</Case><Case(3)>der verwilderte Vorhof</Case></Switch>",0
+3604,"Verwaiste Kammern",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die verwaisten Kammern</Case><Case(2)>in den verwaisten Kammern</Case><Case(3)>die verwaisten Kammern</Case></Switch>",0
+3605,"Verschlossener Eingang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den verschlossenen Eingang</Case><Case(2)>im verschlossenen Eingang</Case><Case(3)>der verschlossene Eingang</Case></Switch>",0
+3606,"Halle des Schweigenden Gebets",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Halle des Schweigenden Gebets</Case><Case(2)>in der Halle des Schweigenden Gebets</Case><Case(3)>die Halle des Schweigenden Gebets</Case></Switch>",0
+3607,"Versteckte Treppen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die versteckten Treppen</Case><Case(2)>auf den versteckten Treppen</Case><Case(3)>die versteckten Treppen</Case></Switch>",0
+3608,"Verschwiegener Schrein",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den verschwiegenen Schrein</Case><Case(2)>im verschwiegenen Schrein</Case><Case(3)>der verschwiegene Schrein</Case></Switch>",0
+3609,"Ruhender Altar",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Ruhenden Altar</Case><Case(2)>im Ruhenden Altar</Case><Case(3)>der Ruhende Altar</Case></Switch>",0
+3610,"Stilles Sanktum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Stille Sanktum</Case><Case(2)>im Stillen Sanktum</Case><Case(3)>das Stille Sanktum</Case></Switch>",0
+3611,"Einsame Arena",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Einsame Arena</Case><Case(2)>in der Einsamen Arena</Case><Case(3)>die Einsame Arena</Case></Switch>",0
+3612,"Saal der Löwin",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Saal der Löwin</Case><Case(2)>im Saal der Löwin</Case><Case(3)>der Saal der Löwin</Case></Switch>",0
+3613,"Große Gebetshalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die große Gebetshalle</Case><Case(2)>in der großen Gebetshalle</Case><Case(3)>die große Gebetshalle</Case></Switch>",0
+3614,"Halle des Orakels",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Halle des Orakels</Case><Case(2)>in der Halle des Orakels</Case><Case(3)>die Halle des Orakels</Case></Switch>",0
+3615,"Saal des Löwen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Saal des Löwen</Case><Case(2)>im Saal des Löwen</Case><Case(3)>der Saal des Löwen</Case></Switch>",0
+3616,"Ort des Klingenden Kristalls",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>an den Ort des Klingenden Kristallsn</Case><Case(2)>am Ort des Klingenden Kristalls</Case><Case(3)>der Ort des Klingenden Kristalls</Case></Switch>",0
+3617,"Zimmer der Abgeschiedenheit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Zimmer der Abgeschiedenheit</Case><Case(2)>im Zimmer der Abgeschiedenheit</Case><Case(3)>das Zimmer der Abgeschiedenheit</Case></Switch>",0
+3618,"Sanktuarium des Lebens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Zimmer der Abgeschiedenheit</Case><Case(2)>im Zimmer der Abgeschiedenheit</Case><Case(3)>das Zimmer der Abgeschiedenheit</Case></Switch>",0
+3619,"Saal der Dienerinnen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Saal der Dienerinnen</Case><Case(2)>im Saal der Dienerinnen</Case><Case(3)>der Saal der Dienerinnen</Case></Switch>",0
 3620,"Burg Selard",0,"",0,0,1,0,0,"",0
 3621,"Cieldaläen - Hochsee",0,"",0,0,1,0,0,"",0
 3622,"Cieldaläen - Phantomströmung",0,"",0,0,1,0,0,"",0

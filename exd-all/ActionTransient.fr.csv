@@ -14459,7 +14459,7 @@ Les ennemis à moins de 8 yalms ne sont pas touchés.
 La puissance est réduite de 50% au delà du premier ennemi touché.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Paralysie.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 9s
-La puissance est augmentée si l'ennemi subit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Congélation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+La puissance est augmentée si l'ennemi subit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Congélation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (non valable pour certains ennemis).
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance avec Congélation<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
 Met fin à l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Congélation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 11421,"Augmente de 5% les dégâts magiques subis par les ennemis alentour.
@@ -25789,7 +25789,8 @@ Cette technique d'arme a un temps de recharge indépendant."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s"
 20703,"Vous inflige Pesanteur, mais réduit de 90% les dégâts reçus et vous immunise contre la plupart des projections et des attractions.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s"
-20704,"Dissipe un effet bénéfique de la cible."
+20704,"Dissipe un effet bénéfique de la cible.
+Interrompt vos attaques automatiques."
 20705,"Réduit de 25% votre vitesse de déplacement et dissimule votre présence à la plupart des ennemis.
 L'effet prend fin en relançant l'action ou lors de l'utilisation d'une autre à part Sprint.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> hors combat."
@@ -27580,19 +27581,66 @@ Le montant est déterminé par votre Discernement."
 22341,""
 22342,""
 22343,""
-22344,""
-22345,""
-22346,""
-22347,""
-22348,""
-22349,""
-22350,""
-22351,""
-22352,""
-22353,""
-22354,""
-22355,""
-22356,""
+22344,"Révèle les pièges cachés dans un rayon de 15 yalms.
+Si aucun piège n'est détecté dans un rayon de 15 yalms, vous indique la présence ou non de pièges dans un rayon de 36 yalms.
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Fonctionne uniquement dans Delubrum Reginae.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22345,"Ressuscite la cible et restaure l'intégralité de ses PV.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous inflige l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sacrifice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ne pas être déjà victime de l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sacrifice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+22346,"Augmente de 11% votre esquive et de 77% vos chances de coups critiques et de coups nets.
+Ne peut pas être utilisé en même temps qu'une autre action de type <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breuvage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+On dit que les breuvages érémitiques auraient des propriétés cachées...
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Fonctionne uniquement dans Delubrum Reginae.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22347,"Augmente de 25% votre défense, de 50% vos dégâts infligés et de 100% vos PV maximums.
+Ne peut pas être utilisé en même temps qu'une autre action de type <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breuvage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+On dit que les breuvages érémitiques auraient des propriétés cachées...
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Fonctionne uniquement dans Delubrum Reginae.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22348,"Augmente de 60% votre défense et vos dégâts infligés, et de 81% vos PV maximums.
+Ne peut pas être utilisé en même temps qu'une autre action de type <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breuvage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+On dit que les breuvages érémitiques auraient des propriétés cachées...
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Fonctionne uniquement dans Delubrum Reginae.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22349,"Augmente de 60% votre défense, de 50% vos dégâts infligés et de 81% vos PV maximums.
+Ne peut pas être utilisé en même temps qu'une autre action de type <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breuvage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+On dit que les breuvages érémitiques auraient des propriétés cachées...
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Fonctionne uniquement dans Delubrum Reginae.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22350,"Augmente de 40% votre défense, de 72% vos dégâts infligés et de 50% vos PV maximums.
+Ne peut pas être utilisé en même temps qu'une autre action de type <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breuvage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+On dit que les breuvages érémitiques auraient des propriétés cachées...
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Fonctionne uniquement dans Delubrum Reginae.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22351,"Augmente de 25% votre défense, de 35% vos dégâts infligés et de 100% vos PV maximums.
+Ne peut pas être utilisé en même temps qu'une autre action de type <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breuvage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+On dit que les breuvages érémitiques auraient des propriétés cachées...
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Fonctionne uniquement dans Delubrum Reginae.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22352,"Inflige des dégâts magiques neutres autour de vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> dégâts périodiques neutres.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 350 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+Cet effet ne peut pas être cumulé plusieurs fois sur une même cible."
+22353,"Saute sur la cible et porte une attaque physique sur elle et les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% les dégâts subis par la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+Ne peut pas être utilisé sous l'effet Entrave."
+22354,"Saute sur la cible et porte une attaque magique sur elle et les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 500
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 10% la précision de la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Prestance du prêtre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Prestance du prêtre<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 60% la puissance des effets curatifs que vous prodiguez et augmente de 60% les dégâts que vous infligez.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Ne peut pas être utilisé sous l'effet Entrave."
+22355,"Réduit de 30% les dégâts reçus par vous et les équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+22356,"Augmente de 10% les chances de critiques, de 7% les dégâts infligés et réduit de 1% le délai des attaques automatiques et les temps de lancement et de recharge des techniques d'arme et des sorts de magie, pour vous et les équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s"
 22357,""
 22358,""
 22359,""
@@ -28500,33 +28548,145 @@ Le montant est déterminé par votre Discernement."
 23261,""
 23262,""
 23263,""
-23264,""
-23265,""
-23266,""
-23267,""
-23268,""
-23269,""
-23270,""
-23271,""
-23272,""
-23273,""
-23274,""
-23275,""
-23276,""
-23277,""
-23278,""
-23279,""
-23280,""
-23281,""
-23282,""
-23283,""
-23284,""
-23285,""
-23286,""
-23287,""
-23288,""
-23289,""
-23290,""
+23264,"Effectue trois attaques physiques successives sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 150
+Ce sort a un temps de recharge indépendant."
+23265,"Effectue une attaque magique de foudre sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 100 la puissance du prochain sort qui inflige des dégâts physiques.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+23266,"Effectue une attaque magique neutre en ligne droite sur les ennemis devant vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 220
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Étourdissement.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s"
+23267,"Vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Brume glaciale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+Si vous subissez une attaque ennemie, vous obtenez à la place l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mort blanche<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mort blanche<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> l'action <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Brume glaciale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mort blanche<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Ce sort a un temps de recharge indépendant.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mort blanche<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Effectue une attaque magique de glace sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Congélation.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mort blanche<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+23268,"Effectue une attaque magique de glace sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Congélation.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mort blanche<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+23269,"Effectue une attaque magique neutre sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 140
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec Éther de soigneur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300"
+23270,"Effectue une attaque magique neutre sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance contre les morts-vivants<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 500"
+23271,"Effectue une attaque magique de terre en ligne droite sur les ennemis devant vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 220
+La puissance est réduite de 50% au delà du premier ennemi touché."
+23272,"Restaure vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec Éther de soigneur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Ce sort a un temps de recharge indépendant partagé avec d'autres actions de magie bleue."
+23273,"Déploie une barrière mystique qui réduit de 20% vos dégâts subis.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> si vous subissez des dégâts d'un montant supérieur à 30% de vos PV maximums, vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cataracte divine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cataracte divine<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> l'action <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Barrière mystique<UIGlow>01</UIGlow><UIForeground>01</UIForeground> devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cataracte divine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+La barrière mystique se dissipe si vous effectuez une action, un déplacement ou une rotation.
+Dans ce cas, l'effet additionnel <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cataracte divine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> prendra également fin.
+Ce sort a un temps de recharge indépendant partagé avec d'autres actions de magie bleue.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cataracte divine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Effectue une attaque magique d'eau sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 500
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance avec Éther de protecteur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cataracte divine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+23274,"Effectue une attaque magique d'eau sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 500
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance avec Éther de protecteur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cataracte divine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+23275,"Effectue une attaque magique neutre sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> projette la cible 10 yalms en arrière.
+Ce sort a un temps de recharge indépendant partagé avec d'autres actions de magie bleue."
+23276,"Augmente votre vitesse de déplacement de 30%, et vos dégâts et vos soins de 100%. Les dégâts infligés ne sont pas réduits avec <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Garde puissante<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+N'a d'effet que lorsque vous participez en solitaire à une mission pouvant être jouée à deux ou plus, ou que tous vos équipiers ont été mis K.O.
+L'effet prend fin si un équipier est ranimé."
+23277,"Envoie des ultrasons aux ennemis alentour, et met K.O. à coup sûr ceux qui subissent <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Congélation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ou <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pétrification<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Sans effet sur les ennemis de plus haut niveau que soi ainsi que certains ennemis.
+Ce sort a un temps de recharge indépendant partagé avec d'autres actions de magie bleue."
+23278,"Effectue une attaque magique de glace sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 220
+La puissance est réduite de 50% au delà du premier ennemi touché."
+23279,"Effectue une attaque magique de feu sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 220
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> si la cible subit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Titubation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, lui inflige des dégâts périodiques de feu.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+23280,"Réduit de 20% les dégâts subis.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Réduit de 40% les dégâts subis si vous êtes sous l'effet d'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Éther de protecteur<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Ce sort a un temps de recharge indépendant partagé avec d'autres actions de magie bleue."
+23281,"Effectue une attaque magique neutre en ligne droite sur les ennemis devant vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> dégâts périodiques neutres.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+23282,"Effectue une attaque magique d'eau sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 220
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> attire les ennemis dans votre direction."
+23283,"Effectue une attaque magique d'eau en ligne droite sur les ennemis devant vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> projette les ennemis et équipiers dans l'aire d'effet 10 yalms en arrière.
+Sans effet si la cible subit certaines altérations d'état."
+23284,"Effectue une attaque magique neutre sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance si votre chocobo fait partie de l'équipe<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
+La puissance est réduite de 50% au delà du premier ennemi touché."
+23285,"Effectue huit attaques magiques neutres successives sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance avec Éther de combattant<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+Ce sort a un temps de recharge indépendant partagé avec d'autres actions de magie bleue."
+23286,"Effectue une attaque physique en ligne droite sur les ennemis devant vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 220
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Titubation.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+Si Titubation est infligé plusieurs fois de suite au même ennemi dans un court laps de temps, la durée de l'effet diminue progressivement, et l'ennemi finit par y résister totalement.
+La puissance est augmentée lorsque <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Titubation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> est infligé à l'ennemi.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance en infligeant Titubation<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
+La puissance est réduite de 50% au delà du premier ennemi touché."
+23287,"Effectue une attaque physique neutre sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600
+Partage le même temps de recharge que d'autres actions de magie bleue."
+23288,"Effectue une série d'attaques dans une zone en éventail devant vous.
+Les ennemis dans la zone subissent des dégâts toutes les secondes.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+Si l'action est réutilisée pendant cette durée, effectue une attaque physique neutre dans une zone en éventail devant vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600
+La puissance est réduite de 50% au delà du premier ennemi touché.
+L'effet prend fin si vous effectuez une action autre que Frénésie spectrale, un déplacement ou une rotation."
+23289,"Effectue une série d'attaques dans une zone en éventail devant vous.
+Les ennemis dans la zone subissent des dégâts toutes les secondes.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+Si l'action est réutilisée pendant cette durée, effectue une attaque physique neutre dans une zone en éventail devant vous.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600
+La puissance est réduite de 50% au delà du premier ennemi touché.
+L'effet prend fin si vous effectuez une action autre que Frénésie spectrale, un déplacement ou une rotation."
+23290,"Effectue une attaque magique neutre sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
+La puissance est réduite de 50% au delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> dégâts périodiques neutres.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 75 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+Partage le même temps de recharge que d'autres actions de magie bleue."
 23291,""
 23292,""
 23293,""
@@ -28653,7 +28813,10 @@ Le montant est déterminé par votre Discernement."
 23413,""
 23414,""
 23415,""
-23416,""
+23416,"Effectue une attaque magique neutre sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 140
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec Éther de soigneur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300"
 23417,""
 23418,""
 23419,""

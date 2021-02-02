@@ -3646,29 +3646,29 @@ Guilde des surineurs",0,0,1,0,0,"",0
 3594,"Repaire de la sorcière",0,"Repaires de la sorcière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le repaire de la sorcière</Case><Case(2)>dans le repaire de la sorcière</Case><Case(3)>du repaire de la sorcière</Case></Switch>",0
 3595,"Prison d'Eulmore",0,"Prison d'Eulmore",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la prison d'Eulmore</Case><Case(2)>dans la prison d'Eulmore</Case><Case(3)>de la prison d'Eulmore</Case></Switch>",0
 3596,"Sphère de l'absence",0,"Sphère de l'absence",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Sphère de l'absence</Case><Case(2)>dans la Sphère de l'absence</Case><Case(3)>de la Sphère de l'absence</Case></Switch>",0
-3597,"",0,"",0,0,0,0,0,"",0
-3598,"",0,"",0,0,0,0,0,"",0
-3599,"",0,"",0,0,0,0,0,"",0
-3600,"",0,"",0,0,0,0,0,"",0
-3601,"",0,"",0,0,0,0,0,"",0
-3602,"",0,"",0,0,0,0,0,"",0
-3603,"",0,"",0,0,0,0,0,"",0
-3604,"",0,"",0,0,0,0,0,"",0
-3605,"",0,"",0,0,0,0,0,"",0
-3606,"",0,"",0,0,0,0,0,"",0
-3607,"",0,"",0,0,0,0,0,"",0
-3608,"",0,"",0,0,0,0,0,"",0
-3609,"",0,"",0,0,0,0,0,"",0
-3610,"",0,"",0,0,0,0,0,"",0
-3611,"",0,"",0,0,0,0,0,"",0
-3612,"",0,"",0,0,0,0,0,"",0
-3613,"",0,"",0,0,0,0,0,"",0
-3614,"",0,"",0,0,0,0,0,"",0
-3615,"",0,"",0,0,0,0,0,"",0
-3616,"",0,"",0,0,0,0,0,"",0
-3617,"",0,"",0,0,0,0,0,"",0
-3618,"",0,"",0,0,0,0,0,"",0
-3619,"",0,"",0,0,0,0,0,"",0
+3597,"Delubrum Reginae",0,"Delubrum Reginae",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Delubrum Reginae</Case><Case(2)>à Delubrum Reginae</Case><Case(3)>de Delubrum Reginae</Case></Switch>",0
+3598,"Ruines extérieures",0,"Ruines extérieures",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines extérieures</Case><Case(2)>dans les ruines extérieures</Case><Case(3)>des ruines extérieures</Case></Switch>",0
+3599,"Ruines intérieures",0,"Ruines intérieures",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines intérieures</Case><Case(2)>dans les ruines intérieures</Case><Case(3)>des ruines intérieures</Case></Switch>",0
+3600,"Ruines cachées",0,"Ruines cachées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines cachées</Case><Case(2)>dans les ruines cachées</Case><Case(3)>des ruines cachées</Case></Switch>",0
+3601,"Jardins royaux délaissés",0,"Jardins royaux délaissés",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Jardins royaux délaissés</Case><Case(2)>aux Jardins royaux délaissés</Case><Case(3)>des Jardins royaux délaissés</Case></Switch>",0
+3602,"Caserne déserte",0,"Caserne déserte",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la caserne déserte</Case><Case(2)>à la caserne déserte</Case><Case(3)>de la caserne déserte</Case></Switch>",0
+3603,"Grenier abandonné",0,"Grenier abandonné",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le grenier abandonné</Case><Case(2)>au grenier abandonné</Case><Case(3)>du grenier abandonné</Case></Switch>",0
+3604,"Villa royale cachée",0,"Villa royale cachée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la villa royale cachée</Case><Case(2)>à la villa royale cachée</Case><Case(3)>de la villa royale cachée</Case></Switch>",0
+3605,"Avant-nef ineffable",0,"Avant-nef ineffable",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Avant-nef ineffable</Case><Case(2)>à l'Avant-nef ineffable</Case><Case(3)>de l'Avant-nef ineffable</Case></Switch>",0
+3606,"Prières silencieuses",0,"Prières silencieuses",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Prières silencieuses</Case><Case(2)>aux Prières silencieuses</Case><Case(3)>des Prières silencieuses</Case></Switch>",0
+3607,"Escalier dérobé",0,"Escalier dérobé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'escalier dérobé</Case><Case(2)>dans l'escalier dérobé</Case><Case(3)>de l'escalier dérobé</Case></Switch>",0
+3608,"Nef sacrale",0,"Nef sacrale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Nef sacrale</Case><Case(2)>à la Nef sacrale</Case><Case(3)>de la Nef sacrale</Case></Switch>",0
+3609,"Sanctuaire décati",0,"Sanctuaire décati",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Sanctuaire décati</Case><Case(2)>au Sanctuaire décati</Case><Case(3)>du Sanctuaire décati</Case></Switch>",0
+3610,"Saint des saints",0,"Saint des saints",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Saint des saints</Case><Case(2)>dans le Saint des saints</Case><Case(3)>du Saint des saints</Case></Switch>",0
+3611,"Amphithéâtre en ruines",0,"Amphithéâtre en ruines",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'amphithéâtre en ruines</Case><Case(2)>à l'amphithéâtre en ruines</Case><Case(3)>de l'amphithéâtre en ruines</Case></Switch>",0
+3612,"Hall de la Lionne",0,"Hall de la Lionne",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hall de la Lionne</Case><Case(2)>dans le hall de la Lionne</Case><Case(3)>du Hall de la Lionne</Case></Switch>",0
+3613,"Grande salle des prières",0,"Grande salle des prières",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la grande salle des prières</Case><Case(2)>dans la grande salle des prières</Case><Case(3)>de la grande salle des prières</Case></Switch>",0
+3614,"Salle des oracles",0,"Salle des oracles",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des oracles</Case><Case(2)>dans la salle des oracles</Case><Case(3)>de la salle des oracles</Case></Switch>",0
+3615,"Hall du Lion",0,"Hall du Lion",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hall du Lion</Case><Case(2)>dans le hall du Lion</Case><Case(3)>du Hall du Lion</Case></Switch>",0
+3616,"Chambre des cristaux chantants",0,"Chambre des cristaux chantants",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre des cristaux chantants</Case><Case(2)>dans la chambre des cristaux chantants</Case><Case(3)>de la chambre des cristaux chantants</Case></Switch>",0
+3617,"Alcove des méditations",0,"Alcove des méditations",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'alcove des méditations</Case><Case(2)>dans l'alcove des méditations</Case><Case(3)>de l'alcove des méditations</Case></Switch>",0
+3618,"Salle des sages",0,"Salle des sages",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des sages</Case><Case(2)>dans la salle des sages</Case><Case(3)>de la salle des sages</Case></Switch>",0
+3619,"Chambre des prêtresses",0,"Chambre des prêtresses",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre des prêtresses</Case><Case(2)>dans la chambre des prêtresses</Case><Case(3)>de la chambre des prêtresses</Case></Switch>",0
 3620,"Château de Ganlag",0,"Château de Ganlag",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le château de Ganlag</Case><Case(2)>au château de Ganlag</Case><Case(3)>du château de Ganlag</Case></Switch>",0
 3621,"Large des îles de Cieldalaes",0,"Large des îles de Cieldalaes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large des îles de Cieldalaes</Case><Case(2)>au large des îles de Cieldalaes</Case><Case(3)>du large des îles de Cieldalaes</Case></Switch>",0
 3622,"Courant spectral (large des îles de Cieldalaes)",0,"Courant spectral (large des îles de Cieldalaes)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral au large des îles de Cieldalaes</Case><Case(2)>au courant spectral au large des îles de Cieldalaes</Case><Case(3)>du courant spectral au large des îles de Cieldalaes</Case></Switch>",0

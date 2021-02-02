@@ -2720,6 +2720,12 @@ VERWENDUNG:
 → Du siehst dich wachsam um.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/wachsam","/wach",293,0
+616,2,1,2,0,0,"/malevolence","","/fluch, /malevolence
+ VERWENDUNG:
+/fluch [Unterbefehl]
+→ Du sprichst einen Fluch aus
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/fluch","",293,0
 617,2,1,2,0,0,"/beesknees","","/bswing, /bienenswing, /beesknees
 VERWENDUNG:
 /bswing [Unterbefehl]

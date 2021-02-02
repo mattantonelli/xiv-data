@@ -2579,6 +2579,12 @@ Monte la garde ou surveille quelqu'un.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/monterlagarde","",293,0
+616,2,1,2,0,0,"/malevolence","","/occultiste, /malevolence
+Utilisation<Indent/>: /occultiste [sous-commande]
+Faire la pose de l'occultiste.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/occultiste","",293,0
 617,2,1,2,0,0,"/beesknees","","/dansedesabeilles, /beesknees
 Utilisation<Indent/>: /dansedesabeilles [sous-commande]
 Effectue la danse des abeilles.

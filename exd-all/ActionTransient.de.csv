@@ -14234,7 +14234,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
 Wirkt nicht auf Gegner, die näher als 8 Yalme stehen.
 Zusatzeffekt: Ziel erleidet <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Paralyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 9 Sekunden
-Wenn das Ziel unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tiefkühlung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet, ist der Attacke-Wert erhöht und Tiefkühlung wird aufgehoben.
+Wenn das Ziel unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tiefkühlung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet, ist in den meisten Fällen der Attacke-Wert erhöht und Tiefkühlung wird aufgehoben.
 Erhöhter Attacke-Wert: 400"
 11421,"Du erhöhst den erlittenen magischen Schaden der umstehenden Gegner um 5<Indent/>%.
 Dauer: 15 Sekunden
@@ -25427,7 +25427,8 @@ Zusatzeffekt: Erhöht den erlittenen Schaden untoter Gegner um 25<Indent/>%.
 Dauer: 60 Sekunden"
 20703,"Du fügst dir selbst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu und erleidest dafür 90<Indent/>% weniger Schaden. Zusätzlich werden bestimmte Rückstoß- und Heranzieheffekte verhindert.
 Dauer: 6 Sekunden"
-20704,"Entfernt einen positiven Status vom Ziel."
+20704,"Entfernt einen positiven Status vom Ziel.
+Unterbindet Auto-Attacke."
 20705,"Du verbirgst dich vor den Blicken der meisten Gegner, verlangsamst aber deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit um 25<Indent/>%.
 Einige Gegner können dich sehen.
 Bedingung: nach Ausführung nicht im Kampf.
@@ -27244,19 +27245,65 @@ Je nach deiner Wahrnehmung steigt die Chance,  dass keine Belastbarkeit verbrauc
 22341,""
 22342,""
 22343,""
-22344,""
-22345,""
-22346,""
-22347,""
-22348,""
-22349,""
-22350,""
-22351,""
-22352,""
-22353,""
-22354,""
-22355,""
-22356,""
+22344,"Du deckst im Umkreis von 15 Yalmen alle Fallen auf.
+Wenn sich keine Fallen im Umkreis von 15 Yalmen befinden, wird der Suchkreis auf 36 Yalme erweitert und dir wird gewahr, ob sich dort noch Fallen befinden.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Kann nur im Delubrum Reginae angewendet werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22345,"Du regenerierst alle LP des Ziels und belebst es wieder.
+Zusatzeffekt: Du erhältst den Status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aufopferung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Dauer: 10 Sekunden
+Bedingung: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aufopferung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv."
+22346,"Du erhöhst deine Ausweichrate um 11<Indent/>% und deine kritische und direkte Trefferrate um 77<Indent/>%.
+Den Legenden nach verbirgt dieser Trank einen geheimen Effekt.
+Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
+Effekt endet bei erneuter Ausführung.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Kann nur im Delubrum Reginae angewendet werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22347,"Du erhöhst deine Verteidigung um 25<Indent/>%, deinen ausgeteilten Schaden um 50<Indent/>% und deine maximalen LP um 100<Indent/>%.
+Den Legenden nach verbirgt dieser Trank einen geheimen Effekt.
+Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
+Effekt endet bei erneuter Ausführung.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Kann nur im Delubrum Reginae angewendet werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22348,"Du erhöhst deine Verteidigung um 60<Indent/>%, deinen ausgeteilten Schaden um 60<Indent/>% und deine maximalen LP um 81<Indent/>%.
+Den Legenden nach verbirgt dieser Trank einen geheimen Effekt.
+Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
+Effekt endet bei erneuter Ausführung.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Kann nur im Delubrum Reginae angewendet werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22349,"Du erhöhst deine Verteidigung um 60<Indent/>%, deinen ausgeteilten Schaden um 50<Indent/>% und deine maximalen LP um 81<Indent/>%.
+Den Legenden nach verbirgt dieser Trank einen geheimen Effekt.
+Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
+Effekt endet bei erneuter Ausführung.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Kann nur im Delubrum Reginae angewendet werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22350,"Du erhöhst deine Verteidigung um 40<Indent/>%, deinen ausgeteilten Schaden um 72<Indent/>% und deine maximalen LP um 50<Indent/>%.
+Den Legenden nach verbirgt dieser Trank einen geheimen Effekt.
+Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
+Effekt endet bei erneuter Ausführung.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Kann nur im Delubrum Reginae angewendet werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22351,"Du erhöhst deine Verteidigung um 25<Indent/>%, deinen ausgeteilten Schaden um 35<Indent/>% und deine maximalen LP um 100<Indent/>%.
+Den Legenden nach verbirgt dieser Trank einen geheimen Effekt.
+Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
+Effekt endet bei erneuter Ausführung.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Kann nur im Delubrum Reginae angewendet werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+22352,"Du verbrauchst MP, um eine elementneutrale magische Attacke auf umstehende Gegner auszuführen.
+Attacke-Wert: 300
+Zusatzeffekt: Schaden über Zeit
+Attacke-Wert: 350
+Dauer: 60 Sekunden
+Gegner nehmen nur Schaden von jeweils einem <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verschollenen Flare-Stern<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+22353,"Du führst eine Sprung-Attacke auf das Ziel und umstehende Gegner aus.
+Attacke-Wert: 100
+Zusatzeffekt: Erlittener Schaden der Ziele um 10<Indent/>% erhöht
+Dauer: 30 Sekunden
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+22354,"Du führst eine magische Sprung-Attacke auf das Ziel und umstehende Gegner aus.
+Attacke-Wert: 500
+Zusatzeffekt: Präzision der Ziele um 10<Indent/>% verringert
+Dauer: 15 Sekunden
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bußprediger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bußprediger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Wirkung eigener Heilung ist um 60<Indent/>% verringert, eigener erteilter Schaden dafür um 60<Indent/>% erhöht.
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+22355,"Du verringerst den erlittenen Schaden von dir und den umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern um 30<Indent/>%.
+Dauer: 15 Sekunden"
+22356,"Du erhöhst die kritische Trefferrate von dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern um 10<Indent/>%, den ausgeteilten Schaden um 7<Indent/>% und verkürzt die Intervalle zwischen Auto-Attacken und die (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie um 1<Indent/>%.
+Dauer: 60 Sekunden"
 22357,""
 22358,""
 22359,""
@@ -28164,33 +28211,147 @@ Je nach deiner Wahrnehmung steigt die Chance,  dass keine Belastbarkeit verbrauc
 23261,""
 23262,""
 23263,""
-23264,""
-23265,""
-23266,""
-23267,""
-23268,""
-23269,""
-23270,""
-23271,""
-23272,""
-23273,""
-23274,""
-23275,""
-23276,""
-23277,""
-23278,""
-23279,""
-23280,""
-23281,""
-23282,""
-23283,""
-23284,""
-23285,""
-23286,""
-23287,""
-23288,""
-23289,""
-23290,""
+23264,"Du führst eine dreifache physische Attacke auf das Ziel aus.
+Attacke-Wert: 150
+Eigener Reaktivierungs-Timer"
+23265,"Du führst eine blitzbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 100
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
+Zusatzeffekt: Erhöht den Schaden deines nächsten physischen Angriffszaubers während der Wirkungsdauer um 100.
+Dauer: 15 Sekunden"
+23266,"Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.
+Attacke-Wert: 220
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Dauer: 3 Sekunden
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
+23267,"Du hüllst dich selbst in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eisigen Nebel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Dauer: 5 Sekunden
+Wirst du während der Wirkdauer angegriffen, verwandelt sich das Kommando zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Weißer Tod<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Dauer: 15 Sekunden
+Eigener Reaktivierungs-Timer
+
+<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Weißer Tod<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Du fügst dem Ziel eisbasierten magischen Schaden zu.
+Attacke-Wert: 400
+Zusatzeffekt: Das Ziel wird eingefroren.
+Dauer: 10 Sekunden
+Kann nur während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eisiger Nebel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+23268,"Du fügst dem Ziel eisbasierten magischen Schaden zu.
+Attacke-Wert: 400
+Zusatzeffekt: Das Ziel wird eingefroren.
+Dauer: 10 Sekunden
+Kann nur während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eisiger Nebel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+23269,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 140
+Effekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Heiler<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
+Heilpotenzial: 300"
+23270,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 100
+Attacke-Wert gegen untote Ziele: 500"
+23271,"Du führst eine erdbasierte magische Attacke auf alle Gegner in gerader Linie vor dir aus.
+Attacke-Wert: 220
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
+23272,"Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
+Heilpotenzial: 400
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Heiler<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Regeneriert stetig LP des Ziels.
+Heilpotenzial: 200
+Dauer: 15 Sekunden
+Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+23273,"Du errichtest eine Barriere um dich und verringerst deinen erlittenen Schaden um 20<Indent/>%.
+Dauer: 10 Sekunden
+Zusatzeffekt: Gewährt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, wenn Schaden in der Höhe von 30<Indent/>% deiner Maximal-LP erlitten wird.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Barriere<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt endet bei Bewegung, Umdrehen oder Ausführen eines Kommandos. Bei Ende von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Barriere<UIGlow>01</UIGlow><UIForeground>01</UIForeground> endet auch <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern.
+
+<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Du führst eine wasserbasierte magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 500
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert erhöht sich auf 1000.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Kann nur während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden. "
+23274,"Du führst eine wasserbasierte magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 500
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert erhöht sich auf 1000.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Kann nur während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden. "
+23275,"Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: 100
+Zusatzeffekt: Ziele werden 10y zurückgeschleudert.
+Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+23276,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nur wirksam in Inhalten für 2 oder mehr Spieler.
+Nur alleine oder als einzig kampffähiges Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied wirksam.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Du erhöhst deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit um 30<Indent/>%, deinen ausgeteilten Schaden und die Wirkung deiner Heilmagie um 100<Indent/>% und bist gegen die Schadensreduzierung durch <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totalabwehr<UIGlow>01</UIGlow><UIForeground>01</UIForeground> immun.
+Effekt endet bei erneuter Ausführung und bei Anwesenheit von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern."
+23277,"Du generierst Ultraschallwellen und machst fast alle umstehenden Gegner, die unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tiefkühlung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leiden, sofort kampfunfähig. Wirkt nicht bei Gegnern, die eine höhere Stufe als der Wirkende haben.
+Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+23278,"Du führst eine eisbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 220
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
+23279,"Du führst eine feuerbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 220
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Wenn das Ziel unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auf wackeligen Beinen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet, wird ihm Feuerschaden über Zeit zugefügt.
+Attacke-Wert: 50
+Dauer: 15 Sekunden"
+23280,"Du verringerst erlittenen Schaden um 20<Indent/>%.
+Dauer: 15 Sekunden
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Wirkung der Schadensreduktion erhöht sich auf 40<Indent/>%.
+Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+23281,"Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.
+Attacke-Wert: 50
+Zusatzeffekt: Schaden über Zeit
+Attacke-Wert: 50
+Dauer: 15 Sekunden"
+23282,"Du führst eine wasserbasierte magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 220
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Das Ziel wird herangezogen."
+23283,"Du führst eine wasserbasierte magische Attacke auf alle Gegner in gerader Linie vor dir aus.
+Attacke-Wert: 200
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Ziele und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder werden um 10 Yalme zurückgeschleudert.
+Nur wirksam, wenn du und das Ziel im Kampf sind. Bei einigen negativen Status unwirksam."
+23284,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 200
+Attacke-Wert mit gerufenem Chocobo: 300
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
+23285,"Du führst eine achtfache elementneutrale magische Attacke auf das Ziel aus.
+Attacke-Wert: 50
+Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Angreifer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 100
+Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+23286,"Du führst eine elementneutrale physische Attacke auf alle Gegner in gerader Linie vor dir aus.
+Attacke-Wert: 220
+Zusatzeffekt: Fügt dem Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auf wackeligen Beinen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu.
+Dauer: 5 Sekunden
+Wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auf wackeligen Beinen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> binnen kurzer Zeit wiederholt zugefügt, verliert der Effekt an Wirkung, bis er komplett wirkungslos wird.
+Attacke-Wert gegen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auf wackeligen Beinen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 400
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
+23287,"Du führst eine elementneutrale physische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 600
+Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+23288,"Du fügst den fächerförmig vor dir stehenden Gegnern im Sekundentakt Schaden über Zeit zu.
+Attacke-Wert: 200
+Dauer: 5 Sekunden
+Bei erneuter Anwendung während der Wirkdauer führst du eine elementneutrale physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
+Auto-Attacke: 600
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phantomhast<UIGlow>01</UIGlow><UIForeground>01</UIForeground> endet bei Bewegung, Umdrehen oder Ausführung eines anderen Kommandos als <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Phantomhast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+23289,"Du fügst den fächerförmig vor dir stehenden Gegnern im Sekundentakt Schaden über Zeit zu.
+Attacke-Wert: 200
+Dauer: 5 Sekunden
+Bei erneuter Anwendung während der Wirkdauer führst du eine elementneutrale physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
+Auto-Attacke: 600
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phantomhast<UIGlow>01</UIGlow><UIForeground>01</UIForeground> endet bei Bewegung, Umdrehen oder Ausführung eines anderen Kommandos als <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Phantomhast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+23290,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 400
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Schaden über Zeit
+Attacke-Wert: 75
+Dauer: 60 Sekunden
+Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
 23291,""
 23292,""
 23293,""
@@ -28317,7 +28478,10 @@ Je nach deiner Wahrnehmung steigt die Chance,  dass keine Belastbarkeit verbrauc
 23413,""
 23414,""
 23415,""
-23416,""
+23416,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 140
+Effekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Heiler<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
+Heilpotenzial: 300"
 23417,""
 23418,""
 23419,""

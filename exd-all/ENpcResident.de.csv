@@ -33786,7 +33786,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1033782,"",0,"",0,0,1,0,0,"",4,False
 1033783,"",0,"",0,0,1,0,0,"",4,False
 1033784,"Arvide",3,"NONE",1,0,0,0,1,"",3,False
-1033785,"Anna",3,"NONE",1,0,0,1,1,"",3,True
+1033785,"Anna",3,"NONE",1,0,0,1,1,"Material",3,True
 1033786,"ernsthaft[a] Handwerker",4,"ernsthaft[a] Handwerker",2,0,1,0,0,"",3,False
 1033787,"großmütig[a] Sammler",4,"großmütig[a] Sammler",2,0,1,0,0,"",3,False
 1033788,"Himmelsstahl-Ingenieur",4,"Himmelsstahl-Ingenieure",2,0,1,0,0,"",3,False
@@ -34251,7 +34251,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1034247,"",0,"",0,0,1,0,0,"",4,False
 1034248,"",0,"",0,0,1,0,0,"",4,False
 1034249,"",0,"",0,0,1,0,0,"",4,False
-1034250,"",0,"",0,0,0,0,0,"",0,False
+1034250,"",0,"",0,0,1,0,0,"",4,False
 1034251,"",0,"",0,0,1,0,0,"",4,False
 1034252,"",0,"",0,0,1,0,0,"",4,False
 1034253,"",0,"",0,0,1,0,0,"",4,False
@@ -34260,7 +34260,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1034256,"",0,"",0,0,1,0,0,"",4,False
 1034257,"",0,"",0,0,1,0,0,"",4,False
 1034258,"",0,"",0,0,1,0,0,"",4,False
-1034259,"",0,"",0,0,0,0,0,"",0,False
+1034259,"",0,"",0,0,1,0,0,"",4,False
 1034260,"",0,"",0,0,1,0,0,"",4,False
 1034261,"",0,"",0,0,1,0,0,"",4,False
 1034262,"",0,"",0,0,1,0,0,"",4,False
@@ -34272,7 +34272,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1034268,"",0,"",0,0,1,0,0,"",4,False
 1034269,"",0,"",0,0,1,0,0,"",4,False
 1034270,"",0,"",0,0,1,0,0,"",4,False
-1034271,"",0,"",0,0,0,0,0,"",0,False
+1034271,"",0,"",0,0,1,0,0,"",4,False
 1034272,"",0,"",0,0,0,0,0,"",0,False
 1034273,"",0,"",0,0,0,0,0,"",0,False
 1034274,"",0,"",0,0,0,0,0,"",0,False
@@ -34526,7 +34526,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1034522,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
 1034523,"Gold-Saucer-Mitarbeiter",4,"Gold-Saucer-Mitarbeiter",2,0,1,0,0,"",3,False
 1034524,"Gold-Saucer-Mitarbeiter",4,"Gold-Saucer-Mitarbeiter",2,0,1,0,0,"",4,False
-1034525,"Yalfort",3,"NONE",1,0,0,0,1,"",3,False
+1034525,"Yalfort",3,"NONE",1,0,0,0,1,"",3,True
 1034526,"",0,"",0,0,1,0,0,"",5,False
 1034527,"",0,"",0,0,1,0,0,"",5,False
 1034528,"",0,"",0,0,1,0,0,"",5,False
@@ -35013,12 +35013,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035009,"Honoroit",3,"NONE",1,0,0,0,1,"",4,False
 1035010,"",0,"",0,0,1,0,0,"",5,False
 1035011,"Ja'bhen Tia",3,"Ja'bhen Tia",1,0,0,0,1,"",3,False
-1035012,"",0,"",0,0,0,0,0,"",0,False
-1035013,"",0,"",0,0,0,0,0,"",0,False
-1035014,"",0,"",0,0,0,0,0,"",0,False
-1035015,"",0,"",0,0,0,0,0,"",0,False
-1035016,"",0,"",0,0,0,0,0,"",0,False
-1035017,"",0,"",0,0,0,0,0,"",0,False
+1035012,"Emeny",3,"NONE",1,0,0,1,1,"",3,True
+1035013,"Joellie",3,"NONE",1,0,0,1,1,"",3,True
+1035014,"Stahlarm",3,"Stahlarm",1,0,0,0,1,"Himmelsstahl-Werkzeuge",3,True
+1035015,"Emeny",3,"NONE",1,0,0,1,1,"",4,False
+1035016,"Joellie",3,"NONE",1,0,0,1,1,"",4,False
+1035017,"Stahlarm",3,"Stahlarm",1,0,0,0,1,"",4,False
 1035018,"",0,"",0,0,1,0,0,"",2,False
 1035019,"Begutachtungsoffizier",4,"Begutachtungsoffiziere",2,0,1,0,0,"Frontsplitter",3,True
 1035020,"Begutachtungsoffizier",4,"Begutachtungsoffiziere",2,0,1,0,0,"Frontsplitter",3,True
@@ -35036,20 +35036,20 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035032,"sarkastisch[a] Soldat",6,"sarkastisch[a] Soldaten",1,0,1,0,0,"",4,False
 1035033,"bissig[a] Soldat",6,"bissig[a] Soldaten",1,0,1,0,0,"",4,False
 1035034,"grob[a] Soldat",6,"grob[a] Soldaten",1,0,1,0,0,"",4,False
-1035035,"",0,"",0,0,0,0,0,"",0,False
-1035036,"",0,"",0,0,0,0,0,"",0,False
-1035037,"",0,"",0,0,0,0,0,"",0,False
-1035038,"",0,"",0,0,0,0,0,"",0,False
-1035039,"",0,"",0,0,0,0,0,"",0,False
-1035040,"",0,"",0,0,0,0,0,"",0,False
-1035041,"",0,"",0,0,0,0,0,"",0,False
-1035042,"",0,"",0,0,0,0,0,"",0,False
-1035043,"",0,"",0,0,0,0,0,"",0,False
-1035044,"",0,"",0,0,0,0,0,"",0,False
-1035045,"",0,"",0,0,0,0,0,"",0,False
-1035046,"",0,"",0,0,0,0,0,"",0,False
-1035047,"",0,"",0,0,0,0,0,"",0,False
-1035048,"",0,"",0,0,0,0,0,"",0,False
+1035035,"P'yandih",3,"NONE",1,0,0,1,1,"",4,False
+1035036,"Kaufmann[p] aus Kugane",4,"Kaufmänner[p] aus Kugane",2,0,1,0,0,"",4,False
+1035037,"",0,"",0,0,1,0,0,"",4,False
+1035038,"Nutiba Buntiba",3,"NONE",1,0,0,0,1,"",4,False
+1035039,"Gogo",3,"NONE",1,0,0,0,1,"",4,False
+1035040,"Martyn",3,"NONE",1,0,0,0,1,"",4,False
+1035041,"Nutibas Verlobt[a]",3,"NONE",1,0,0,1,1,"",4,False
+1035042,"Nutiba Buntiba",3,"NONE",1,0,0,0,1,"",4,False
+1035043,"",0,"",0,0,1,0,0,"",4,False
+1035044,"",0,"",0,0,1,0,0,"",4,False
+1035045,"Fukumen-Kampffest-Ansager",4,"Fukumen-Kampffest-Ansager",2,0,1,0,0,"",4,False
+1035046,"aufgeregt[a] Zuschauer",4,"aufgeregt[a] Zuschauer",2,0,1,0,0,"",4,False
+1035047,"ungehobelt[a] Zuschauer",4,"ungehobelt[a] Zuschauer",2,0,1,0,0,"",4,False
+1035048,"Gogo",3,"NONE",1,0,0,0,1,"",4,False
 1035049,"",0,"",0,0,1,0,0,"",4,False
 1035050,"",0,"",0,0,1,0,0,"",4,False
 1035051,"Anogg",3,"NONE",1,0,0,1,1,"",4,False
@@ -35095,32 +35095,32 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035091,"",0,"",0,0,1,0,0,"",4,False
 1035092,"",0,"",0,0,1,0,0,"",4,False
 1035093,"",0,"",0,0,1,0,0,"",4,False
-1035094,"",0,"",0,0,0,0,0,"",0,False
-1035095,"",0,"",0,0,0,0,0,"",0,False
-1035096,"",0,"",0,0,0,0,0,"",0,False
-1035097,"",0,"",0,0,0,0,0,"",0,False
-1035098,"",0,"",0,0,0,0,0,"",0,False
-1035099,"",0,"",0,0,0,0,0,"",0,False
-1035100,"",0,"",0,0,0,0,0,"",0,False
-1035101,"",0,"",0,0,0,0,0,"",0,False
-1035102,"",0,"",0,0,0,0,0,"",0,False
-1035103,"",0,"",0,0,0,0,0,"",0,False
-1035104,"",0,"",0,0,0,0,0,"",0,False
-1035105,"",0,"",0,0,0,0,0,"",0,False
-1035106,"",0,"",0,0,0,0,0,"",0,False
-1035107,"",0,"",0,0,0,0,0,"",0,False
-1035108,"",0,"",0,0,0,0,0,"",0,False
-1035109,"",0,"",0,0,0,0,0,"",0,False
-1035110,"",0,"",0,0,0,0,0,"",0,False
-1035111,"",0,"",0,0,0,0,0,"",0,False
-1035112,"",0,"",0,0,0,0,0,"",0,False
-1035113,"",0,"",0,0,0,0,0,"",0,False
-1035114,"",0,"",0,0,0,0,0,"",0,False
-1035115,"",0,"",0,0,0,0,0,"",0,False
-1035116,"",0,"",0,0,0,0,0,"",0,False
-1035117,"",0,"",0,0,0,0,0,"",0,False
-1035118,"",0,"",0,0,0,0,0,"",0,False
-1035119,"",0,"",0,0,0,0,0,"",0,False
+1035094,"Ultros",3,"NONE",1,0,0,0,1,"",3,False
+1035095,"P'yandih",3,"NONE",1,0,0,1,1,"",3,False
+1035096,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035097,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035098,"ruhig[a] alt[a] Mann",2,"ruhig[a] alt[a] Männer",2,0,1,0,0,"",4,False
+1035099,"vornehm[a] Bürger",4,"vornehm[a] Bürger",2,0,1,0,0,"",3,False
+1035100,"",0,"",0,0,1,0,0,"",3,False
+1035101,"",0,"",0,0,1,0,0,"",3,False
+1035102,"",0,"",0,0,1,0,0,"",5,False
+1035103,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035104,"Ticketkontrolleurin",3,"Ticketkontrolleurinnen",1,0,1,1,0,"",3,False
+1035105,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035106,"Lalafell-Mann",4,"Lalafell-Männer",2,0,1,0,0,"",3,False
+1035107,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035108,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035109,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035110,"Gogo",3,"NONE",1,0,0,0,1,"",5,False
+1035111,"",0,"",0,0,1,0,0,"",3,False
+1035112,"Mädchen[p] aus Namai",4,"Mädchen[p] aus Namai",1,0,1,2,0,"",3,False
+1035113,"Bewohner[p] von Namai",4,"Bewohner[p] von Namai",2,0,1,0,0,"",3,False
+1035114,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
+1035115,"",0,"",0,0,1,0,0,"",5,False
+1035116,"Nutiba Buntiba",3,"NONE",1,0,0,0,1,"",3,False
+1035117,"P'yandih",3,"NONE",1,0,0,1,1,"",3,False
+1035118,"Royse",3,"NONE",1,0,0,0,1,"",3,False
+1035119,"",0,"",0,0,1,0,0,"",3,False
 1035120,"betrübt[a] Bürgerin",3,"betrübt[a] Bürgerinnen",1,0,1,1,0,"",3,False
 1035121,"",0,"",0,0,1,0,0,"",4,False
 1035122,"",0,"",0,0,1,0,0,"",4,False
@@ -35182,8 +35182,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035178,"",0,"",0,0,1,0,0,"",5,False
 1035179,"",0,"",0,0,1,0,0,"",5,False
 1035180,"Lewto-Sue",3,"NONE",1,0,0,1,1,"",3,True
-1035181,"",0,"",0,0,0,0,0,"",0,False
-1035182,"",0,"",0,0,0,0,0,"",0,False
+1035181,"Droyn",3,"NONE",1,0,0,0,1,"",3,True
+1035182,"",0,"",0,0,1,0,0,"",2,False
 1035183,"Hortefense",3,"NONE",1,0,0,0,1,"",3,False
 1035184,"Elyne",3,"NONE",1,0,0,1,1,"",3,False
 1035185,"Kupka Kupp",3,"NONE",1,0,0,0,1,"",3,False
@@ -35267,9 +35267,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035263,"",0,"",0,0,0,0,0,"",0,False
 1035264,"",0,"",0,0,0,0,0,"",0,False
 1035265,"",0,"",0,0,0,0,0,"",0,False
-1035266,"",0,"",0,0,0,0,0,"",0,False
-1035267,"",0,"",0,0,0,0,0,"",0,False
-1035268,"",0,"",0,0,0,0,0,"",0,False
+1035266,"",0,"",0,0,1,0,0,"",6,False
+1035267,"",0,"",0,0,1,0,0,"",6,False
+1035268,"",0,"",0,0,1,0,0,"",6,False
 1035269,"",0,"",0,0,0,0,0,"",0,False
 1035270,"",0,"",0,0,0,0,0,"",0,False
 1035271,"",0,"",0,0,0,0,0,"",0,False
@@ -35431,7 +35431,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035427,"Mahlstromoffizier",4,"Mahlstromoffiziere",2,0,1,0,0,"",4,False
 1035428,"",0,"",0,0,0,0,0,"",0,False
 1035429,"",0,"",0,0,0,0,0,"",0,False
-1035430,"",0,"",0,0,0,0,0,"",0,False
+1035430,"",0,"",0,0,1,0,0,"",4,False
 1035431,"",0,"",0,0,0,0,0,"",0,False
 1035432,"",0,"",0,0,0,0,0,"",0,False
 1035433,"Patriarch[p] des 2. Ordens Za Da",4,"Patriarchen[p] des 2. Ordens Za Da",1,0,1,0,0,"",4,False
@@ -35439,23 +35439,23 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035435,"",0,"",0,0,1,0,0,"",4,False
 1035436,"",0,"",0,0,1,0,0,"",4,False
 1035437,"",0,"",0,0,1,0,0,"",4,False
-1035438,"",0,"",0,0,0,0,0,"",0,False
-1035439,"",0,"",0,0,0,0,0,"",0,False
-1035440,"",0,"",0,0,0,0,0,"",0,False
-1035441,"",0,"",0,0,0,0,0,"",0,False
-1035442,"",0,"",0,0,0,0,0,"",0,False
-1035443,"",0,"",0,0,0,0,0,"",0,False
-1035444,"",0,"",0,0,0,0,0,"",0,False
-1035445,"",0,"",0,0,0,0,0,"",0,False
-1035446,"",0,"",0,0,0,0,0,"",0,False
-1035447,"",0,"",0,0,0,0,0,"",0,False
+1035438,"Misija",3,"NONE",1,0,0,1,1,"",4,False
+1035439,"Kriegstechniker[p] der IV. Legion",4,"Kriegstechniker[p] der IV. Legion",2,0,1,0,0,"",4,False
+1035440,"",0,"",0,0,1,0,0,"",4,False
+1035441,"",0,"",0,0,1,0,0,"",4,False
+1035442,"",0,"",0,0,1,0,0,"",4,False
+1035443,"",0,"",0,0,1,0,0,"",4,False
+1035444,"",0,"",0,0,1,0,0,"",4,False
+1035445,"",0,"",0,0,1,0,0,"",4,False
+1035446,"",0,"",0,0,1,0,0,"",4,False
+1035447,"",0,"",0,0,1,0,0,"",4,False
 1035448,"",0,"",0,0,1,0,0,"",4,False
 1035449,"",0,"",0,0,1,0,0,"",4,False
 1035450,"",0,"",0,0,1,0,0,"",4,False
 1035451,"",0,"",0,0,1,0,0,"",4,False
 1035452,"",0,"",0,0,1,0,0,"",4,False
 1035453,"",0,"",0,0,1,0,0,"",4,False
-1035454,"",0,"",0,0,0,0,0,"",0,False
+1035454,"Speichersystem",4,"Speichersysteme",2,0,1,2,0,"",4,False
 1035455,"",0,"",0,0,0,0,0,"",0,False
 1035456,"Alfonse",3,"Alfonse",1,0,0,0,1,"",4,False
 1035457,"",0,"",0,0,0,0,0,"",0,False
@@ -35593,12 +35593,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035589,"Ruhtwyda Herz",3,"NONE",1,0,0,1,1,"",4,False
 1035590,"Jonas Pik",3,"NONE",1,0,0,0,1,"",4,False
 1035591,"Guhtwint Karo",3,"NONE",1,0,0,0,1,"",4,False
-1035592,"",0,"",0,0,0,0,0,"",0,False
-1035593,"",0,"",0,0,0,0,0,"",0,False
-1035594,"",0,"",0,0,0,0,0,"",0,False
-1035595,"",0,"",0,0,0,0,0,"",0,False
-1035596,"",0,"",0,0,0,0,0,"",0,False
-1035597,"",0,"",0,0,0,0,0,"",0,False
+1035592,"Marsak",3,"NONE",1,0,0,0,1,"",3,False
+1035593,"",0,"",0,0,1,0,0,"",5,False
+1035594,"",0,"",0,0,1,0,0,"",5,False
+1035595,"Mikoto",3,"NONE",1,0,0,1,1,"",3,False
+1035596,"Mikoto",3,"NONE",1,0,0,1,1,"Königinnenwache",3,False
+1035597,"Rostik",3,"NONE",1,0,0,0,1,"",3,False
 1035598,"Kamlito Halito",3,"NONE",1,0,0,0,1,"",3,False
 1035599,"Kamlito Halito",3,"NONE",1,0,0,0,1,"",3,False
 1035600,"Kamlito Halito",3,"NONE",1,0,0,0,1,"",3,False
@@ -35607,25 +35607,25 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035603,"",0,"",0,0,1,0,0,"",2,False
 1035604,"",0,"",0,0,1,0,0,"",2,False
 1035605,"",0,"",0,0,1,0,0,"",2,False
-1035606,"Begutachtungsoffizier",4,"Begutachtungsoffiziere",2,0,1,0,0,"Frontsplitter",3,False
-1035607,"",0,"",0,0,0,0,0,"",0,False
-1035608,"",0,"",0,0,0,0,0,"",0,False
-1035609,"",0,"",0,0,0,0,0,"",0,False
-1035610,"",0,"",0,0,0,0,0,"",0,False
-1035611,"",0,"",0,0,0,0,0,"",0,False
+1035606,"Begutachtungsoffizier",4,"Begutachtungsoffiziere",2,0,1,0,0,"Frontsplitter",3,True
+1035607,"Technisch[a] Offizier",4,"Technisch[a] Offiziere",2,0,1,0,0,"Bozja-Münzen",3,True
+1035608,"Technisch[a] Offizier",4,"Technisch[a] Offiziere",2,0,1,0,0,"",3,False
+1035609,"Mujikoza-Schreiberling",4,"Mujikoza-Schreiberlinge",2,0,1,0,0,"Königinnenwache",3,True
+1035610,"Annes",3,"NONE",1,0,0,1,1,"",3,False
+1035611,"Kriv",3,"NONE",1,0,0,0,1,"",3,False
 1035612,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
 1035613,"Alisaie",3,"NONE",1,0,0,1,1,"",3,False
 1035614,"Y'shtola",3,"NONE",1,0,0,1,1,"",3,False
 1035615,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
-1035616,"",0,"",0,0,0,0,0,"",0,False
-1035617,"",0,"",0,0,0,0,0,"",0,False
-1035618,"",0,"",0,0,0,0,0,"",0,False
+1035616,"Speichersystem",4,"Speichersysteme",2,0,1,2,0,"",3,False
+1035617,"Begutachtungsoffizier",4,"Begutachtungsoffiziere",1,0,0,1,1,"",3,False
+1035618,"Mikoto",3,"NONE",1,0,0,1,1,"",3,False
 1035619,"",0,"",0,0,0,0,0,"",0,False
-1035620,"",0,"",0,0,0,0,0,"",0,False
+1035620,"Späher[p] des Widerstands",4,"Späher[p] des Widerstands",2,0,1,0,0,"",3,False
 1035621,"",0,"",0,0,0,0,0,"",0,False
 1035622,"",0,"",0,0,0,0,0,"",0,False
-1035623,"",0,"",0,0,0,0,0,"",0,False
-1035624,"",0,"",0,0,0,0,0,"",0,False
+1035623,"Speichersystem",4,"Speichersysteme",2,0,1,2,0,"",3,False
+1035624,"Begutachtungsoffizier",4,"Begutachtungsoffiziere",2,0,1,0,0,"Frontsplitter",3,True
 1035625,"",0,"",0,0,0,0,0,"",0,False
 1035626,"",0,"",0,0,0,0,0,"",0,False
 1035627,"",0,"",0,0,0,0,0,"",0,False
@@ -35640,7 +35640,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035636,"",0,"",0,0,0,0,0,"",0,False
 1035637,"",0,"",0,0,0,0,0,"",0,False
 1035638,"",0,"",0,0,1,0,0,"",2,False
-1035639,"",0,"",0,0,0,0,0,"",0,False
+1035639,"",0,"",0,0,1,0,0,"",2,False
 1035640,"",0,"",0,0,1,0,0,"",5,False
 1035641,"",0,"",0,0,1,0,0,"",5,False
 1035642,"",0,"",0,0,1,0,0,"",5,False
@@ -36168,7 +36168,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1036164,"",0,"",0,0,0,0,0,"",0,False
 1036165,"",0,"",0,0,0,0,0,"",0,False
 1036166,"",0,"",0,0,0,0,0,"",0,False
-1036167,"",0,"",0,0,0,0,0,"",0,False
+1036167,"Marsak",3,"NONE",1,0,0,0,1,"",3,False
 1036168,"",0,"",0,0,1,0,0,"",5,False
 1036169,"",0,"",0,0,1,0,0,"",5,False
 1036170,"",0,"",0,0,1,0,0,"",5,False
@@ -36253,15 +36253,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1036249,"",0,"",0,0,1,0,0,"",5,False
 1036250,"Avilina",3,"NONE",1,0,0,1,1,"",4,False
 1036251,"Mädchen[p] voller Vorfreude",4,"Mädchen[p] voller Vorfreude",1,0,1,2,0,"",3,False
-1036252,"",0,"",0,0,0,0,0,"",0,False
-1036253,"",0,"",0,0,0,0,0,"",0,False
-1036254,"",0,"",0,0,0,0,0,"",0,False
-1036255,"",0,"",0,0,0,0,0,"",0,False
-1036256,"",0,"",0,0,0,0,0,"",0,False
-1036257,"",0,"",0,0,0,0,0,"",0,False
-1036258,"",0,"",0,0,0,0,0,"",0,False
-1036259,"",0,"",0,0,0,0,0,"",0,False
-1036260,"",0,"",0,0,0,0,0,"",0,False
+1036252,"",0,"",0,0,1,0,0,"",5,False
+1036253,"",0,"",0,0,1,0,0,"",5,False
+1036254,"",0,"",0,0,1,0,0,"",5,False
+1036255,"",0,"",0,0,1,0,0,"",5,False
+1036256,"",0,"",0,0,1,0,0,"",5,False
+1036257,"",0,"",0,0,1,0,0,"",5,False
+1036258,"",0,"",0,0,1,0,0,"",5,True
+1036259,"",0,"",0,0,1,0,0,"",5,True
+1036260,"",0,"",0,0,1,0,0,"",5,True
 1036261,"",0,"",0,0,0,0,0,"",0,False
 1036262,"",0,"",0,0,0,0,0,"",0,False
 1036263,"",0,"",0,0,0,0,0,"",0,False
