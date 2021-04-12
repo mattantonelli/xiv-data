@@ -2,6 +2,9 @@
 
 This is a collection of CSV and image files used for updating my Final Fantasy XIV web applications. The data is generated using [Saint Coinach](https://github.com/ufx/SaintCoinach).
 
+## Requirements
+* [7-Zip](https://www.7-zip.org/)
+
 ### Generating the latest data
 
 1. Download the latest version of SaintCoinach.Cmd from the project's [releases page](https://github.com/ufx/SaintCoinach/releases)
