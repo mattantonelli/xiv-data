@@ -82,7 +82,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 78,"barde Smaragdus",0,"bardes Smaragdus",0,0,1,1,0,"Barde Smaragdus",65609,65609,65609,"None","ui/icon/049000/049235.tex","ui/icon/049000/049237.tex","ui/icon/049000/049236.tex",147
 79,"barde-la-Reine",0,"bardes-la-Reine",0,0,1,1,0,"Barde-la-Reine",65610,65610,65610,"None","ui/icon/049000/049238.tex","ui/icon/049000/049240.tex","ui/icon/049000/049239.tex",148
 80,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
-81,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+81,"barde Adamas",0,"bardes Adamas",0,0,1,1,0,"Barde Adamas",65612,65612,65612,"None","ui/icon/049000/049244.tex","ui/icon/049000/049246.tex","ui/icon/049000/049245.tex",149
 82,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 83,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 84,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

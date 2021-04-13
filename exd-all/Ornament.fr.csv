@@ -10,11 +10,12 @@ int32,uint16,byte,byte,bit&01,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte
 6,3010,1,1,False,5,"ui/icon/008000/008006.tex",6,"Ombrelle à carreaux bleue",0,"Ombrelles à carreaux bleues",0,1,1,1,0
 7,3011,1,1,False,6,"ui/icon/008000/008007.tex",7,"Ombrelle à carreaux rouge",0,"Ombrelles à carreaux rouges",0,1,1,1,0
 8,3012,1,1,False,7,"ui/icon/008000/008008.tex",8,"Ombrelle à carreaux noire",0,"Ombrelles à carreaux noires",0,1,1,1,0
-9,3042,2,0,True,8,"ui/icon/008000/008013.tex",13,"Ailes angéliques",0,"Ailes angéliques",0,1,1,1,0
+9,3042,2,0,True,8,"ui/icon/008000/008013.tex",100,"Ailes angéliques",0,"Ailes angéliques",0,1,1,1,0
 10,3169,1,1,False,9,"ui/icon/008000/008012.tex",9,"Ombrelle du Gold Saucer",0,"Ombrelles du Gold Saucer",0,1,1,1,0
 11,3166,1,1,False,10,"ui/icon/008000/008009.tex",10,"Ombrelle bleue à pois",0,"Ombrelles bleue à pois",0,1,1,1,0
 12,3167,1,1,False,11,"ui/icon/008000/008010.tex",11,"Ombrelle rose à pois",0,"Ombrelles rose à pois",0,1,1,1,0
 13,3168,1,1,False,12,"ui/icon/008000/008011.tex",12,"Ombrelle vert d'eau à pois",0,"Ombrelles vert d'eau à pois",0,1,1,1,0
-14,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
-15,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+14,3286,1,1,False,13,"ui/icon/008000/008014.tex",13,"Ombrelle gros minou",0,"Ombrelles gros minou",0,1,1,1,0
+15,3287,1,1,False,14,"ui/icon/008000/008015.tex",14,"Ombrelle Serpent marin de Ronka ?",0,"Ombrelles Serpent marin de Ronka ?",0,1,1,1,0
 16,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+17,0,0,0,False,0,,0,"",0,"",0,0,0,0,0

@@ -1268,7 +1268,7 @@ Aus unerfindlichen Gründen wird von Kontakt mit Wasser und Licht abgeraten.","E
 hat auch keinen
 erkennbaren Effekt mehr.","Gurrruuu!","Gezeter","Verringert die ATT von Gegnern in der Nähe um 50 %.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15 Sekunden",50,35,2,False,False,True,True,False,"Enfeeblement"
-318,"Du rufst deinen Tugendhaften Begleiter  herbei.
+318,"Du rufst deinen Tugendhaften Begleiter herbei.
 Angeblich ein Stück vom Leib der Absoluten Tugend, nach ihrer Teilung.","Dieses semi-materielle Wesen entstand angeblich aus dem Leib des auf Eureka aufgetauchten, riesenhaften magischen Ungeheuers, das als „Absolute Tugend“ bezeichnet wird. Manche ordnen das Wesen den Exergonen zu.","Befreit vom uralten Bann
 werde ich wieder frei sein!","Die letzte Tugend","Erhöht die ATT und ABW der ausführenden Trabanten. Pro 5<Indent/>% verlorener LP steigt die ATT um 10 und die ABW um 5.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",90,55,4,False,True,False,True,False,"Enhancement"
@@ -1566,11 +1566,18 @@ klärlichen Ereignisse bedenkt, ist eine Hammer
 schwingenden Puppe viel-
 leicht ganz normal.","Jetzt mal im Ernst. Du bist gekommen, um mit mir über Kekse zu reden?
 <Emphasis>Gaia</Emphasis>","Schicksalshammer","Fügt dem nächstgelegenen gegnerischen Tor 60<Indent/>% Schaden zu. Kein Effekt, falls es schon zerstört ist.",55,30,1,True,False,False,False,True,"Dismantling"
-399,"","","","","",0,0,0,False,False,False,False,False,""
+399,"Du rufst deine Palom-Puppe als Begleiter herbei. Sie ist einem Helden aus einer vergangenen Zeit nachempfunden, der eine Zwil<SoftHyphen/>lings<SoftHyphen/>schwes<SoftHyphen/>ter hatte.","Palom war der Zwil<SoftHyphen/>lings<SoftHyphen/>bru<SoftHyphen/>der von Porom. Angeblich soll er schon im Alter von fünf Jahren schwarze Magie erlernt haben. Da stellt sich bloß die Frage, wer so unverantwortlich war, einem kleinen Kind solch gefährlichen Künste
+beizubringen.","Irgendwas ist faul!
+<Emphasis>Palom</Emphasis>","Bluff","Erhöht die ABW eigener Trabanten in der Nähe um 20.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",20,60,2,False,False,True,False,False,"Enhancement"
 400,"","","","","",0,0,0,False,False,False,False,False,""
-401,"","","","","",0,0,0,False,False,False,False,False,""
-402,"","","","","",0,0,0,False,False,False,False,False,""
-403,"","","","","",0,0,0,False,False,False,False,False,""
+401,"Du rufst deine Edge-Puppe als Begleiter herbei. Sie ist einem Helden aus einer vergangenen Zeit nachempfunden, der ein Prinz und ein Ninja war.","Edge soll nicht nur ein Prinz gewesen sein, sondern dazu noch ein talentierter Ninja. Das ist eine Kombination, die nur selten vorkommt, und um die ihn sicher viele junge Männer beneiden. ","Du hältst Wut für eine Schwäche? Lass mich dir zeigen, wie sehr du dich täuschst!
+<Emphasis>Edge</Emphasis>","Ninjutsu","Erhöht die ATT aller Trabanten in der Nähe um 25.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",85,30,4,False,False,True,False,False,"Enhancement"
+402,"Du rufst deine Rydia-Puppe als Begleiter herbei. Sie ist einer ebenso ehrgeizigen wie liebenswerten Heldin aus einer vergangenen Zeit nachempfunden.","Diese Puppe ist einer Beschwörerin nachempfunden, die vor langer Zeit gelebt haben soll. Der Legende nach verschwand Rydia als junges Mädchen und tauchte kurze Zeit später als erwachsene Frau wieder auf.","Dieser Kampf ist unser aller Kampf.
+<Emphasis>Rydia</Emphasis>","Beschwörung","Stellt einen zerstörten Schild wieder her.",80,80,3,False,False,False,True,False,"Special"
+403,"Du rufst deine Rosa-Puppe als Begleiter herbei. Sie ist einer freundlichen und gutherzigen Heldin aus einer vergangenen Zeit nachempfunden.","Die historische Weißmagierin, der diese Puppe nachempfunden ist, soll über große Heilkräfte verfügt haben und eine geschickte Bogenschützin gewesen sein.","Bitte, Cecil ... Sei am Leben!
+<Emphasis>Rosa</Emphasis>","Gebet","'Regeneriert bei den eigenen Trabanten in der Nähe 100 LP, im Fall von Puppen 150.",30,50,2,False,True,False,False,False,"Restoration"
 404,"Du rufst deine Prinzessinnewache als Begleiter herbei. Für alle, die schon immer eine langbeinige, trompetenblasende Marionette auf Rädern wollten: Hier ist sie.","Diese Absurdität wurde tief im Delubrum Reginae gefunden und es wird vermutet, dass sie nur das verkleinerte Abbild einer noch größeren Absurdität ist, welche die Bozianer des Altertums vor den Garlearn beschützte. Welche
 Rätsel die Trompete
 birgt, ist unbekannt. ","Die Prinzessin ist also mal wieder auf eigene Faust unterwegs. Hoffentlich bringt sie uns nicht in Schwie<SoftHyphen/>rig<SoftHyphen/>keiten.
@@ -1582,11 +1589,56 @@ Welt hinauszuziehen. ","Sie beißen den Köder von der Angel ab und lachen dabei
 <Emphasis>Aurvael Haillenarte</Emphasis>","Trampelsaurier","Entfernt alle positiven Effekte von den gegnerischen Trabanten in der Nähe.",20,50,2,False,False,True,True,False,"Disarming"
 407,"Du rufst deinen Goldbiber als Begleiter herbei. Mit einem goldigen Gemüt gesegnet ist er innen wie außen goldig.  ","Ein rätselhaftes Wesen aus purem Gold, das immer dann in den Verliesen von Lyhe Ghiah erscheint, wenn jemand findet, wonach er gesucht hat, zum Beispiel eine Schatzkarte. Warum das so ist, weiß der Biber.","Biber!
 <Emphasis>Versteck spielende Pixie</Emphasis>","Nagerlöcher","Fügt einem gegnerischen Schild 70 % Schaden zu. Kein Effekt, falls er schon zerstört ist.",60,60,2,False,False,True,False,False,"Dismantling"
-408,"","","","","",0,0,0,False,False,False,False,False,""
-409,"","","","","",0,0,0,False,False,False,False,False,""
-410,"","","","","",0,0,0,False,False,False,False,False,""
-411,"","","","","",0,0,0,False,False,False,False,False,""
-412,"","","","","",0,0,0,False,False,False,False,False,""
-413,"","","","","",0,0,0,False,False,False,False,False,""
-414,"","","","","",0,0,0,False,False,False,False,False,""
-415,"","","","","",0,0,0,False,False,False,False,False,""
+408,"Du rufst deine Möwe als Begleiter herbei. Fischschwärme und unbeaufsichtigte Mahlzeiten vermag sie aus weiter Distanz zu sichten.","Von der Aussicht auf leichte Beute verlockt, folgte diese Möwe dem Hochseefischkutter „Endeavor“. Der anfängliche Ärger des Kapitäns über den diebischen Vogel schlug nach und nach in Bewunderung um, und am Ende wurde sie gar
+zum Ehrenmitglied der
+Fischergilde ernannt.","Frischer Fisch ist köstlich. Etwas störend nur die vielen Vögel. Man muss sich in Acht nehmen, nicht <Emphasis>getroffen</Emphasis> zu werden.
+<Emphasis>Vkebbe</Emphasis>","Fischfinder","Erhöht die GSW eigener Trabanten in der Nähe um 35 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",30,30,3,False,False,True,False,False,"Enhancement"
+409,"Du rufst deinen Ameisenbär als Begleiter herbei. Er frisst Ameisen und keine Abenteurer - jedenfalls nicht, soweit dir bekannt ist<Indent/>...","Ein Ameisenbär, der durch das Verschlingen von Unmengen an Ameisen seine stattliche Größe erreicht hat. In einigen Gegenden ist er auch unter dem Namen „Witwenmacher“ bekannt, da er mit dem Verschwinden von Wander-
+arbeitern in Zusammen-
+hang gebracht wird.","Ich schwöre, er hat mich angesehen, als sei ich eine Ameise.
+<Emphasis>Anonymer Wanderarbeiter</Emphasis>","Witwenmacher","Verringert die ABW von Gegnern in der Nähe um 50 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15 Sekunden",35,45,2,False,True,False,True,False,"Enfeeblement"
+410,"Du rufst dein Delphinkalb als Begleiter herbei. Es besitzt mit seinen jungen Jahren mehr Verstand, als du jemals haben wirst.","Laut eines sharlayanischen Biologen sind Delphine die zweitklügsten Wesen auf diesem Planeten. Zu den klügsten Wesen hat sich derselbige Wissenschaftler niemals explizit geäußert. ","Adieu und danke für all die Fische.
+<Emphasis>Sprechender Delphin</Emphasis>","Adieu","Verringert die GSW von Gegnern in der Nähe um 50 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5 Sekunden",60,45,3,False,False,False,True,False,"Enfeeblement"
+411,"Du rufst deinen A-Magitek-Prädator als Begleiter herbei. Er kommt mitsamt garleischem Piloten daher und ist bereit, Chaos und Verwüstung anzurichten.","Eine Miniaturausgabe des Magitek-Prädators. Sie hatte sich unter den Soldaten der Telophoroi befunden, als diese in Paglth'an eingefallen waren. Wie sie von einem Spielzeuggeschäft in Garlemald dorthin kam, ist ein Rätsel.","Eine Magitek-Waffe ist kein Spielzeug!
+<Emphasis>Widargelt</Emphasis>","Kampfkrallen","Fügt einem gegnerischen Suchenden Auge 90 % Schaden zu. Kein Effekt, falls es schon zerstört ist.",70,50,3,False,False,True,False,False,"Dismantling"
+412,"Du rufst deine Señorita Kaktor als Begleiterin herbei. So kuschelig wie ein Igel.","Einer der attraktiven Preise des Gold Saucers. Geschaffen von Godbert, dem Eigentümer des Gold Saucers, der als größter Goldschmied Thanalans gilt, stellt diese Puppe die Nichte des legendären Señors Kaktor dar.","Diese Nadeln!
+<Emphasis>Nanaphon</Emphasis>","Señorita ","Halbiert den Ruf-Timer von Trabanten beim Herbeirufen.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",70,35,2,False,True,False,True,False,"Special"
+413,"Du rufst deine Benben-Pyramide als Begleiter herbei. Sie wurde auf dem Meeresgrund entdeckt und kann sich bewegen. Jeder braucht so etwas.","Die Bewohner Meracydias bauten einst ein Steinmonument in der Form des legendären Bergs Benben, dessen Name „Ewigkeit“ bedeutet. Die Pyramide bildete die Spitze. Wer sie zum Meeresgrund beförderte? 
+Na, ihre Beine, wer denn
+sonst?","Pyramiden brauchen Beine, um sich fortzubewegen.
+<Emphasis>Anonymer Monumentforscher</Emphasis>","An der Spitze","Fügt dem nächstgelegenen gegnerischen Arkana-Stein 5 % Schaden zu.",35,30,2,True,False,False,False,False,"Dismantling"
+414,"Du rufst dein Reise-Lagerfeuer als Begleiter herbei. Sollte in keiner (feuerfesten) Reisehandtasche fehlen.","Ein Lagerfeuer zum Mitnehmen, das nicht nur wilde Tiere fernhält, sondern auch vor Kälte schützt. Natürlich lassen sich auch Marshmallows darüber rösten.","Ah, die Wärme tut gut ... Und das Flackern der Flammen wirkt vertraut und beruhigend.
+<Emphasis>Alphinaud</Emphasis>","Lagerfeuerromantik","Regeneriert 200 LP bei eigenen Trabanten in der Nähe, im Fall von Objekten 250.",20,45,1,False,False,False,True,False,"Restoration"
+415,"Du rufst deine Maschinenwesen-Puppe als Begleiter herbei. Die Miniaturausgabe eines Maschinenwesens, das im oberen Teil des Hauptquartiers von Baldesions Gelehrten gefunden wurde.","Obwohl dieses kurzbeinige Wesen dir überallhin folgt, dich mit seinen Leuchtaugen anstarrt und mit seinen dünnen Ärmchen hin und wieder in die Luft boxt, will es dir nicht schaden.","<Emphasis>Was</Emphasis> diese Maschinenwesen tatsächlich sind, ist ein Geheimnis, das ich zu lüften gedenke! 
+<Emphasis>Anogg</Emphasis>","Attacke","Führt eine Attacke mit Attacke-Wert 30 auf die Gegner in der Nähe aus und schleudert sie zurück.",30,70,2,False,False,True,True,False,"Damage"
+416,"Du rufst deine Lyna-Puppe als Begleiterin herbei. Wer sie ansieht, muss unwillkürlich salutieren.","Ein Zwergenhandwerker bat Lyna einst, Modell für eine Puppe zu stehen. Nach ein paar Krügen Zwergenbräu schwand ihr anfänglicher Widerstand. Obwohl eine wahre Schnapsidee, lässt sich das Ergebnis durchaus sehen.","Jawohl, Frau Kommandatin!
+<Emphasis>Soldat der Stadtwache</Emphasis>","Führungserfahrung","Erhöht die ABW der ausführenden Trabanten um 40.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",60,45,3,False,True,False,True,False,"Enhancement"
+417,"Du rufst deine Runar-Puppe als Begleiter herbei. Ihr achtsamer Blick schenkt dir inneren Frieden.","Eine Puppe in der Gestalt von Runar, die zum
+Gedenken des Handelsvertrages zwischen den
+Untertanen der Nacht und den Bewohnern
+Crystariums angefertigt wurde. Die weiße
+Blume symbolisiert Runars
+Gefühle für eine bestimmte
+Dame.","Ach Runar, wein doch nicht. Du bist doch der Stärkste von uns allen.
+<Emphasis>Y'shtola</Emphasis>","Weiße Blume","Erhöht die Technikpunkte eigener Trabanten in der Nähe um 10, außer wenn sie ebenfalls diesen Effekt verursachen können.",65,75,2,False,False,False,True,False,"Enhancement"
+418,"","","","","",0,0,0,False,False,False,False,False,""
+419,"Du rufst deinen Aufzieh-9S als Begleiter herbei, ein winziger Android ganz in Schwarz. ","Diese kleine Marionette, die dem echten 9S aufs Haar gleicht, wurde im oberen Teil des Hauptquartiers von Baldesions Gelehrten entdeckt. Was in seinem kleinen Köpfchen vorgeht, weiß niemand.","Er<Indent/>... ist ein Android. Eine automatische Kampfeinheit. Genau wie ich.
+<Emphasis>Aufzieh-2P</Emphasis>","Flüchtige Sanftheit","Führt eine Attacke mit Attacke-Wert 120 auf die Gegner in der Nähe aus und erhöht die ATT der ausführenden Trabanten um 20.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",60,50,4,False,False,True,False,False,"Damage"
+420,"","","","","",0,0,0,False,False,False,False,False,""
+421,"","","","","",0,0,0,False,False,False,False,False,""
+422,"","","","","",0,0,0,False,False,False,False,False,""
+423,"","","","","",0,0,0,False,False,False,False,False,""
+424,"","","","","",0,0,0,False,False,False,False,False,""
+425,"","","","","",0,0,0,False,False,False,False,False,""
+426,"","","","","",0,0,0,False,False,False,False,False,""
+427,"","","","","",0,0,0,False,False,False,False,False,""
+428,"","","","","",0,0,0,False,False,False,False,False,""
+429,"","","","","",0,0,0,False,False,False,False,False,""
+430,"","","","","",0,0,0,False,False,False,False,False,""
+431,"","","","","",0,0,0,False,False,False,False,False,""

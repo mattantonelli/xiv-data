@@ -554,7 +554,8 @@ auf 100 Malmen.","Wunderbar, einfach wunderbar!
 231,"Rufe Incitatus herbei. Ein legendäres Reittier, das von Mähne bis Schweif Edelmut ausdrückt.","Incitatus ist die geheime Leidenschaft der Händlerin Rowena, die dieses ungewöhnlich edelmütige Pferd wie eine Kostbarkeit mit Luxus verwöhnt hat. Incitatus gilt als ein äußerst schlauer und treuer Reisebegleiter. ","<schnaub> <wieher> ♪"
 232,"Rufe deinen Schneemann herbei. Er ist mit Immerfrost-Kristallen präpariert und wird gewiss nicht unter dir wegschmelzen.","Ein für das Sternenlichtfest gebauter Schneemann. Der Brauch, Schneemänner zu bauen, wurde aus Gyr Abania übernommen. Dank gridanischer Druidenkunst bleibt er stets frisch und frostig.","Was für ein herzerwärmender Anblick!
 <Emphasis>Kleines Helferlein</Emphasis>"
-233,"","",""
+233,"Rufe deinen Mondwal herbei, ein walförmiges Magitek-Gefährt, das Platz für 8 Personen bietet.","Ein von den Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ken entwickeltes Magitek-Gefährt, das dem legendären Schiff von Mysidia nachgeformt ist und eine hohe Beförderungskapazität besitzt.  ","Einfach genial!
+<Emphasis>Begeisterter Ingenieur</Emphasis>"
 234,"Rufe dein Eden herbei. Auf ihm zu reiten fühlt sich paradiesisch an.","Ein mit Magie gefüllter Kristall, der im Herzen von Eden geborgen wurde. Obwohl er dem Sünden<SoftHyphen/>ver<SoftHyphen/>tilger Eden äußerlich gleicht, geht von ihm keinerlei Gefahr aus.","Eden absorbiert Unmengen an Äther!
 <Emphasis>Ryne</Emphasis>"
 235,"Rufe deinen Cerebus herbei. Doch wundere dich nicht, wenn die Leute etwas gucken.","Neben seiner unfassbaren Stärke und seinen drei gefährlichen Mäulern rühmt sich dieser Nichts<SoftHyphen/>gesand<SoftHyphen/>te eines erstaunlich langen Lebens: Er stammt aus der Dritten Ära des Lichts. Es heißt, die allagischen Halsbänder halten ihn in Schach,
@@ -574,13 +575,76 @@ zu bremsen.","Wizzu eiligmachen, muzzu Proto-Magna Rotula nutzen. Pssssss<Indent
 <Emphasis>Anonymer Chocobo-Züchter</Emphasis>"
 241,"Rufe deinen Gabriel III herbei. Erwarte nicht zu viel von dieser „Kampfmaschine“. Die goldene Farbe reflektiert keine Laserstrahlen.","Jeder erfahrene Abenteurer weiß: Wenn eine besiegte Kreatur in einer anderen Farbe wieder erscheint, ist sie wesentlich stärker. Zum Glück ist dieser Miniaturprototyp auf deiner Seite.","Diese wunderbare goldene Farbe! 
 <Emphasis>Ihase</Emphasis>"
-242,"","",""
-243,"","",""
+242,"Rufe deine Antilopenkuh herbei. Ihr weiches Fell schimmert bläulich.","Ein Steppentier, das vor der Siebten Katastrophe auch in Coerthas anzutreffen war. Obwohl für ihr Fleisch und ihre Milch sehr begehrt, scheitern alle Versuche, die Antilopenkuh vollständig zu domestizie-
+ren an ihrem launischen Gemüt. Wer sie bereiten
+möchte, braucht Geduld
+und ein hartes Hinterteil.","Einen ganzen Tag auf der Jagd gewesen und es ist
+nichts als Antilopen-Fleisch dabei rumgekommen.
+<Emphasis>Isarmoix</Emphasis>"
+243,"Rufe deinen Antilopenbock herbei. Sein gestreiftes Fell und sein Geweih unterscheiden ihn von der Antilopenkuh.","Wegen seiner Schnelligkeit wird der Antilopenbock von den Bergvölkern von Abalathias Rückgrat als Reittier bevorzugt. Uralte Zauber, die gerade eine Renaissance erleben, ermöglichen außerdem seine Nutzung als Flugtier, vorausgesetzt der Reiter verfügt über genügend Äther. ","Eine Herde junger Antilopenböcke ist aufgeschreckt und hat panisch die Flucht ergriffen.
+<Emphasis>Maximiloix</Emphasis>"
 244,"","",""
-245,"","",""
+245,"Rufe Mechamander herbei, den legendären mechanischen Drachen.","Die alten Allager entwickelten dieses Stahlwesen als Waffe gegen die Drachen. Es heißt, dass nur ein wahrer Held auf seinem Rücken geduldet wird.","Hut ab vor der Technik der Allager.
+<Emphasis>Garlear</Emphasis>"
 246,"","",""
-247,"","",""
+247,"Rufe deinen Chaser herbei und jage deine Feinde.","Diese von der Indigo-Hand entwickelte zweibeinige Kriegsmaschine verwandelt sich in ein Luftschiff, sobald sie vom Boden abhebt. Ein gewisser Ingenieur der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke soll bereits ein Modell im kleinen Maßstab in Planung haben.","Los, hinterher!
+<Emphasis>Seserukka</Emphasis>"
 248,"Rufe dein Konstrukt6S herbei. Ein besteigbarer Stahlkoloss, der von Kobolden erschaffen wurde.","Gebaut von freundlich gesinnten Kobolden verfügt dieses Stahlgefährt über eine dreißig Prozent verbesserte Triebkraft gegenüber seinem Vorgängermodell. Das macht es zwar nicht dreimal schneller, doch der rote Anstrich verleiht ihm ein rassiges Aussehen.","Huldigt Titan! Titan ist groß! Titan! Titan! Titan!!!
 <Emphasis>Gravur an der Fußsohle des Konstrukts</Emphasis>"
-249,"","",""
-250,"","",""
+249,"Rufe deinen Diamant-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife rufen, die von der Magie eines unbekannten Primae erfüllt ist.","Die Pfeife, mit der dieses Schuppentier herbeigerufen werden kann, ist von der Magie jenes Primae erfüllt, den die Diamant-Waffe absorbiert haben soll. Wie der Beschwörer in den Besitz der Pfeife kam und wie er Kenntnis über ihre magischen Kräfte erlangte, bleibt ein Rätsel.","Ihr seid doch alle dickköpfig wie ein Rohdiamant!
+<Emphasis>Glagg</Emphasis>"
+250,"Rufe deinen Eisbären herbei. Ein kuscheliger Freund mit einer Schwäche für Süßes.","Auf der Suche nach dem perfekten Eis verschlug es die Eiskonditorin Nekeke zu den Nordmeerinseln, wo sie auf einen Eisbären traf und ihm ein paar Süßigkeiten anbot. Seither frisst er ihr aus der Hand. Seine Bewunderung für dich war jedoch noch stärker als seine Liebe für Süßes, weshalb er sich dich als neuen Meister ausgesucht hat.","Selbst der Stärkste kann einer süßen Versuchung nicht widerstehen.
+<Emphasis>Nekeke</Emphasis>"
+251,"","",""
+252,"Rufe dein Gold-Mikoshi herbei, das von acht feucht<SoftHyphen/>fröhlichen Namazuo getragen wird.","Ein vergoldeter Mikoshi zu Ehren der Großen Flosse, dem ehrwürdigen Urahnen der Namazuo. Auf die Idee, mit dem Verkauf teurer Mikoshi das Fest der Großen Flosse zu finanzieren, das ganze sieben Jahre dauert, kamen die Namazuo dank Rowenas Bestseller „Wie man Reichtum anhäuft“.","Wasshoi, Wasshoi, Wasshoi ♪
+Ich weiß zwar nicht, was wir hier machen, aber es macht Spaß!
+<Emphasis>Namazuo-Festbesucher</Emphasis> "
+253,"Rufe deine Urne der goldenen Wasserschlange herbei. Eine ganz gewöhnliche Urne der Wasserschlange, nur dass sie ein mysteriöses goldenes Leuchten von sich gibt.","Diese Urne aus den Ronka-Ruinen gelangte durch Räuber auf den Schwarzmarkt und hat seither mehrmals ihren Besitzer gewechselt. Bläst man in die dazugehörige Pfeife, strahlt sie ein goldenes Leuchten aus, das Segen spenden soll.","Wasserschlange spricht!
+<Emphasis>Chaqurl Qhotl</Emphasis> "
+254,"","",""
+255,"","",""
+256,"","",""
+257,"","",""
+258,"","",""
+259,"","",""
+260,"","",""
+261,"","",""
+262,"","",""
+263,"","",""
+264,"","",""
+265,"","",""
+266,"","",""
+267,"","",""
+268,"","",""
+269,"","",""
+270,"","",""
+271,"","",""
+272,"","",""
+273,"","",""
+274,"","",""
+275,"","",""
+276,"","",""
+277,"","",""
+278,"","",""
+279,"","",""
+280,"","",""
+281,"","",""
+282,"","",""
+283,"","",""
+284,"","",""
+285,"","",""
+286,"","",""
+287,"","",""
+288,"","",""
+289,"","",""
+290,"","",""
+291,"","",""
+292,"","",""
+293,"","",""
+294,"","",""
+295,"","",""
+296,"","",""
+297,"","",""
+298,"","",""
+299,"","",""
+300,"","",""

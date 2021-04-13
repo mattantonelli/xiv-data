@@ -1,7 +1,7 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
-#,Number,Icon,Stats,Description,,Location,StartQuest,NextQuest,,,,,,,,,,,,
-int32,byte,Image,str,str,byte,ContentFinderCondition,Quest,Quest,bit&01,bit&02,bit&04,bit&08,bit&10,bit&20,bit&40,bit&80,bit&01,bit&02,bit&04,bit&08
-0,0,,"","",0,"",,,False,False,False,False,False,False,False,False,False,False,False,False
+#,Number,Icon,Stats,Description,LocationKey,Location,RequiredForQuest,PreviousQuest,TargetsEnemy,TargetsSelfOrAlly,CauseSlow,CausePetrify,CauseParalysis,CauseInterrupt,CauseBlind,CauseStun,CauseSleep,CauseBind,CauseHeavy,CauseDeath
+int32,byte,Image,str,str,byte,Row,Quest,Quest,bit&01,bit&02,bit&04,bit&08,bit&10,bit&20,bit&40,bit&80,bit&01,bit&02,bit&04,bit&08
+0,0,,"","",0,,,,False,False,False,False,False,False,False,False,False,False,False,False
 1,25,"ui/icon/072000/072201.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Wind
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -16,7 +16,7 @@ Ein wahrlich niederschmetternder Angriff, dessen Wirkung von seinen Opfern als �
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Wasser
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Angriffszauber der Kraken.
-Schießt mit Hochdruck einen harten Wasserstrahl auf den Gegner. Sammelt den in der Luft enthaltenen wasserbasierten Äther und kann deshalb auch an trockenen Orten eingesetzt werden.",3,"",,,True,False,False,False,False,False,False,False,False,False,False,False
+Schießt mit Hochdruck einen harten Wasserstrahl auf den Gegner. Sammelt den in der Luft enthaltenen wasserbasierten Äther und kann deshalb auch an trockenen Orten eingesetzt werden.",3,,,,True,False,False,False,False,False,False,False,False,False,False,False
 4,9,"ui/icon/072000/072204.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -31,7 +31,7 @@ Der Stromschlag mit Flächenwirkung wird durch eine Ansammlung von Blitzäther e
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Hinterhältiger Angriff der Morbol.
-Wind oder Erde sollen einen großen Anteil an dieser müffeligen Flächenattacke haben, aber auch die anderen Elemente, in ihrer verdorbensten Form, müssen eine Rolle spielen. Kein Element alleine kann so stinken.",1,"Ward Up",,,True,False,True,False,True,True,True,False,False,False,True,False
+Wind oder Erde sollen einen großen Anteil an dieser müffeligen Flächenattacke haben, aber auch die anderen Elemente, in ihrer verdorbensten Form, müssen eine Rolle spielen. Kein Element alleine kann so stinken.",1,"Central Shroud",,,True,False,True,False,True,True,True,False,False,False,True,False
 7,4,"ui/icon/072000/072207.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch/Schlag
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
@@ -51,12 +51,12 @@ Lässt durch Manipulation des Umgebungsäthers örtliche Erdbeben entstehen, die
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Abwehrmechanismus von Baumschraten und anderen Waldwesen.
-Streut magische Eicheln, die in einer Kettenexplosion detonieren und dabei einen schläfrig machenden Wirkstoff freisetzen. Eigentlich zur Abwehr von Fressfeinden und Parasiten entwickelt.",1,"the Navel",,,True,False,False,False,False,False,False,False,True,False,False,False
+Streut magische Eicheln, die in einer Kettenexplosion detonieren und dabei einen schläfrig machenden Wirkstoff freisetzen. Eigentlich zur Abwehr von Fressfeinden und Parasiten entwickelt.",1,"North Shroud",,,True,False,False,False,False,False,False,False,True,False,False,False
 11,12,"ui/icon/072000/072211.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Kampfinstinkt wilder Kreaturen.
-Entfesselt den angeborenen Tötungsinstinkt von jagdtreibenden Bestien und steigert, wenn von Magiern gewirkt, die Angriffskraft von anderen Blauzaubern.",1,"Solemn Trinity",,,False,True,False,False,False,False,False,False,False,False,False,False
+Entfesselt den angeborenen Tötungsinstinkt von jagdtreibenden Bestien und steigert, wenn von Magiern gewirkt, die Angriffskraft von anderen Blauzaubern.",1,"East Shroud",,,False,True,False,False,False,False,False,False,False,False,False,False
 12,41,"ui/icon/072000/072212.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
@@ -66,22 +66,22 @@ Lähmt Geist wie Körper<Indent/>- eine Angewohnheit, die sich auch ein gewisses
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Fressmethode von Fledermäusen und Stechmücken.
-Durch die Entziehung von Blut wird dem Opfer Körperäther entnommen und das eigene magische Potenzial aufgebaut. Wilde Tiere haben diese Fähigkeit aus ihrer täglichen Nah<SoftHyphen/>rungs<SoftHyphen/>auf<SoftHyphen/>nahme entwickelt.",1,"the Great Gubal Library","Blue Collar Work","Blue Leading the Blue",True,True,False,False,False,False,False,False,False,False,False,False
+Durch die Entziehung von Blut wird dem Opfer Körperäther entnommen und das eigene magische Potenzial aufgebaut. Wilde Tiere haben diese Fähigkeit aus ihrer täglichen Nah<SoftHyphen/>rungs<SoftHyphen/>auf<SoftHyphen/>nahme entwickelt.",1,"Lower La Noscea","Blue Collar Work","Blue Leading the Blue",True,True,False,False,False,False,False,False,False,False,False,False
 14,19,"ui/icon/072000/072214.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Feuer
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Imitation goblinscher Bombenattacken.
-Ein Blauzauber, der die mit magischen Elementen verstärkten Bombenwürfe der Goblins imitiert.",1,"the Wanderer's Palace (Hard)",,,True,False,False,False,False,False,False,True,False,False,False,False
+Ein Blauzauber, der die mit magischen Elementen verstärkten Bombenwürfe der Goblins imitiert.",1,"Middle La Noscea",,,True,False,False,False,False,False,False,True,False,False,False,False
 15,36,"ui/icon/072000/072215.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch/Stich
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Natürlicher Abwehrmechanismus der Sabotender.
-Die winzigen Nadeln sind magische Imitate, aber die von ihnen verursachten Schmerzen und Wunden sind sehr real.",1,"Hero on the Half Shell","Blue Gold","Scream Blue Murder",True,False,False,False,False,False,False,False,False,False,False,False
+Die winzigen Nadeln sind magische Imitate, aber die von ihnen verursachten Schmerzen und Wunden sind sehr real.",1,"Southern Thanalan","Blue Gold","Scream Blue Murder",True,False,False,False,False,False,False,False,False,False,False,False
 16,5,"ui/icon/072000/072216.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch/Stich
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Magitek-basierte Werktechnik.
-Die hochdrehzahlige Rotation erzeugt eine erschreckende Durchschlagskraft, die besonders bei versteinerten Gegnern fürchterliche Schäden anrichtet.",1,"Pulling Poison Posies",,,True,False,False,False,False,False,False,False,False,False,False,False
+Die hochdrehzahlige Rotation erzeugt eine erschreckende Durchschlagskraft, die besonders bei versteinerten Gegnern fürchterliche Schäden anrichtet.",1,"Northern Thanalan",,,True,False,False,False,False,False,False,False,False,False,False,False
 17,27,"ui/icon/072000/072217.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -96,7 +96,7 @@ Ein gefürchteter Angriff. Die mit einem hasserfüllten Grinsen geführte Waffe 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Niederer Transportzauber.
-Löst den Körper in seine ätherischen Bestandteile auf, wodurch er über eine kurze Distanz durch den Ätherstrom gleiten und an anderer Stelle materialisiert werden kann. Gut geeignet für Fluchtmanöver.",1,"Pulling Poison Posies",,,False,False,False,False,False,False,False,False,False,False,False,False
+Löst den Körper in seine ätherischen Bestandteile auf, wodurch er über eine kurze Distanz durch den Ätherstrom gleiten und an anderer Stelle materialisiert werden kann. Gut geeignet für Fluchtmanöver.",1,"Northern Thanalan",,,False,False,False,False,False,False,False,False,False,False,False,False
 20,2,"ui/icon/072000/072220.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Feuer
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -106,7 +106,7 @@ Die nach vorne gerichtete Konzentration von Feueräther verhält sich wie eine h
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","List der Qiqirn.
-Die fleischfressenden Qiqirn verängstigen ihre Opfer mit einer magischen Schockwelle aus der hohlen Hand, bevor sie sich geifernd daran machen, sie zu verzehren.",1,"the Keeper of the Lake","Scream Blue Murder","Why They Call It the Blues",True,False,False,False,False,False,False,True,False,False,False,False
+Die fleischfressenden Qiqirn verängstigen ihre Opfer mit einer magischen Schockwelle aus der hohlen Hand, bevor sie sich geifernd daran machen, sie zu verzehren.",1,"Eastern La Noscea","Scream Blue Murder","Why They Call It the Blues",True,False,False,False,False,False,False,True,False,False,False,False
 22,10,"ui/icon/072000/072222.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Blitz
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -121,37 +121,37 @@ Eine ätherisch gelenkte Waffe, deren Detonation beim Aufschlag auch gut gepanze
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Archaischer Heilzauber.
-Warme Winde tragen heilende Ätherkraft über einen begrenzten Bereich. Die große Heilwirkung verlangt dem Wirkenden einiges an Kräften ab.",2,"",,,False,True,False,False,False,False,False,False,False,False,False,False
+Warme Winde tragen heilende Ätherkraft über einen begrenzten Bereich. Die große Heilwirkung verlangt dem Wirkenden einiges an Kräften ab.",2,,,,False,True,False,False,False,False,False,False,False,False,False,False
 25,8,"ui/icon/072000/072225.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch/Stich
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Attacke der Vespula.
-Die tödlich verletzte Vespula verwandelt den letzten Rest ihrer Lebenskraft in einen hochgiftigen Stachelstich, mit dem sie ihren Bezwinger mit in den Tod reißt.",1,"the Wanderer's Palace (Hard)",,,True,False,False,False,False,False,False,False,False,False,False,False
+Die tödlich verletzte Vespula verwandelt den letzten Rest ihrer Lebenskraft in einen hochgiftigen Stachelstich, mit dem sie ihren Bezwinger mit in den Tod reißt.",1,"Middle La Noscea",,,True,False,False,False,False,False,False,False,False,False,False,False
 26,21,"ui/icon/072000/072226.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Feuer
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Typische Attacke der Bomber.
-Verwandelt den gesamten Äther urplötzlich in feuerbasierten und löst so eine Explosion aus. Besonders gefährlich in ölverschmierten Umgebungen.",1,"Basic Training: Enemy Parties",,,True,False,False,False,False,False,False,False,False,False,False,False
+Verwandelt den gesamten Äther urplötzlich in feuerbasierten und löst so eine Explosion aus. Besonders gefährlich in ölverschmierten Umgebungen.",1,"Western Thanalan",,,True,False,False,False,False,False,False,False,False,False,False,False
 27,22,"ui/icon/072000/072227.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Blaumagie aus der Geisterwelt der Neuen Welt.
-Opfert die eigene Lebensenergie, um das Leiden eines anderen zu lindern und ihn vollständig zu heilen.",2,"",,,False,True,False,False,False,False,False,False,False,False,False,False
+Opfert die eigene Lebensenergie, um das Leiden eines anderen zu lindern und ihn vollständig zu heilen.",2,,,,False,True,False,False,False,False,False,False,False,False,False,False
 28,32,"ui/icon/072000/072228.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Von der Karpfenkröte erworbener Blauzauber.
-Dieser Ausweichzauber ist der eigentliche Grund für die sagenhafte Schlüpfrigkeit der Karpfenkröte und streicht den Blaumagier mit glitschigem Öl ein. Manche stehen drauf, andere finden's widerlich.",1,"Basic Training: Enemy Parties",,,False,True,False,False,False,False,False,False,False,False,False,False
+Dieser Ausweichzauber ist der eigentliche Grund für die sagenhafte Schlüpfrigkeit der Karpfenkröte und streicht den Blaumagier mit glitschigem Öl ein. Manche stehen drauf, andere finden's widerlich.",1,"Western Thanalan",,,False,True,False,False,False,False,False,False,False,False,False,False
 29,20,"ui/icon/072000/072229.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Blauzauber des Stammes der Riesen.
-Ein uralter Fluch aus der Neuen Welt, der den Geist des Gegners zerfrisst und schwächt. Folgeangriffe können das wehrlos gewordene Opfer empfindlich treffen.",2,"",,,True,False,False,False,False,False,False,False,False,False,False,False
+Ein uralter Fluch aus der Neuen Welt, der den Geist des Gegners zerfrisst und schwächt. Folgeangriffe können das wehrlos gewordene Opfer empfindlich treffen.",2,,,,True,False,False,False,False,False,False,False,False,False,False,False
 30,31,"ui/icon/072000/072230.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch/Schlag
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Von der Karpfenkröte erworbener Blauzauber.
-Die Klebrigkeit der Zunge der Karpfenkröte ist legendär und ermöglicht ihr, Fressbeute von weit her heranzuziehen. Der Zauber imitiert diese Fähigkeit.",1,"Basic Training: Enemy Parties",,,True,False,False,False,False,False,False,True,False,False,False,False
+Die Klebrigkeit der Zunge der Karpfenkröte ist legendär und ermöglicht ihr, Fressbeute von weit her heranzuziehen. Der Zauber imitiert diese Fähigkeit.",1,"Western Thanalan",,,True,False,False,False,False,False,False,True,False,False,False,False
 31,40,"ui/icon/072000/072231.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -166,22 +166,22 @@ Setzt sich in den kleinen Rissen der Seele fest, die im Laufe des Lebens entsteh
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Zauber der Nichts<SoftHyphen/>gesand<SoftHyphen/>ten.
-Nichts<SoftHyphen/>gesand<SoftHyphen/>te der Neuen Welt versetzen mit diesem Zauber die Angehörigen eines Stammes Mondanbeter in Ekstase, um sich von ihnen verehren zu lassen.",2,"",,,False,True,False,False,False,False,False,False,False,False,False,False
+Nichts<SoftHyphen/>gesand<SoftHyphen/>te der Neuen Welt versetzen mit diesem Zauber die Angehörigen eines Stammes Mondanbeter in Ekstase, um sich von ihnen verehren zu lassen.",2,,,,False,True,False,False,False,False,False,False,False,False,False,False
 34,42,"ui/icon/072000/072234.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Zauber der Nichts<SoftHyphen/>gesand<SoftHyphen/>ten.
-Ein enorm starker Fluch aus der Neuen Welt, der dem Opfer jeglichen Lebenswillen entzieht. Wirkt allerdings nicht zuverlässig.",2,"",,,True,False,False,False,False,False,False,False,False,False,False,True
+Ein enorm starker Fluch aus der Neuen Welt, der dem Opfer jeglichen Lebenswillen entzieht. Wirkt allerdings nicht zuverlässig.",2,,,,True,False,False,False,False,False,False,False,False,False,False,True
 35,30,"ui/icon/072000/072235.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Blauzauber aus den Meeren der Neuen Welt.
-Schutzzauber eines dünnhäutigen Meeresbewohners, mit dem er eine magische Mauer um sich errichtet und Fressfeinde abhält.",2,"",,,False,True,False,False,False,False,False,False,False,False,False,False
+Schutzzauber eines dünnhäutigen Meeresbewohners, mit dem er eine magische Mauer um sich errichtet und Fressfeinde abhält.",2,,,,False,True,False,False,False,False,False,False,False,False,False,False
 36,16,"ui/icon/072000/072236.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Eis
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Zauber der Nichts<SoftHyphen/>gesand<SoftHyphen/>ten.
-Bündelt die Feindseligkeit eines Angreifers in eine eisbasierte Ätherspitze, die auf den Aggressor zurückgeschleudert werden kann.",1,"Ward Up",,,False,True,True,False,False,False,False,False,False,False,False,False
+Bündelt die Feindseligkeit eines Angreifers in eine eisbasierte Ätherspitze, die auf den Aggressor zurückgeschleudert werden kann.",1,"Central Shroud",,,False,True,True,False,False,False,False,False,False,False,False,False
 37,33,"ui/icon/072000/072237.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Eis
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -196,7 +196,7 @@ Eine blaumagische Version der Gabe, Blitze auf die Umgebung niederfahren zu lass
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Von Salamandern absorbierter Blauzauber.
-Blendet Angreifer mit einem hellen Lichtblitz und steigert ihre Verwundbarkeit.",1,"Thornmarch (Extreme)",,,True,False,False,False,False,False,False,False,False,False,False,False
+Blendet Angreifer mit einem hellen Lichtblitz und steigert ihre Verwundbarkeit.",1,"Mor Dhona",,,True,False,False,False,False,False,False,False,False,False,False,False
 40,37,"ui/icon/072000/072240.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
@@ -206,7 +206,7 @@ Eine Weiterentwicklung der Wasserkanone, mit der Angreifer durch einen Strahl di
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Blaumagisches Imitat einer Apkallu-Attacke.
-Dieser Zauber ahmt die unappetitliche Angewohnheit der Apkallu nach, ihren Gegnern verschluckte Fische ins Gesicht zu spucken. Verschlägt dem Opfer nicht selten die Sprache.",1,"the Keeper of the Lake",,,True,False,False,False,False,True,False,False,False,False,False,False
+Dieser Zauber ahmt die unappetitliche Angewohnheit der Apkallu nach, ihren Gegnern verschluckte Fische ins Gesicht zu spucken. Verschlägt dem Opfer nicht selten die Sprache.",1,"Eastern La Noscea",,,True,False,False,False,False,True,False,False,False,False,False,False
 42,29,"ui/icon/072000/072242.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -261,12 +261,12 @@ Bei dieser Technik manipuliert das belebte Wasser seine eigene Flüssigkeit, um 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Eis
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Eisiger Atem des Yetis.
-Der Yeti kann seinen eigenen Atem so stark abkühlen, dass er wasseraspektierten Äther gefrieren lässt. Diese Magie ist besonders effektiv gegen Gegner, die an Wassersucht leiden.",1,,"Something Borrowed, Something Blue","Into the Blue Again",True,False,False,True,False,False,False,False,False,False,False,False
+Der Yeti kann seinen eigenen Atem so stark abkühlen, dass er wasseraspektierten Äther gefrieren lässt. Diese Magie ist besonders effektiv gegen Gegner, die an Wassersucht leiden.",1,"Coerthas Western Highlands","Something Borrowed, Something Blue","Into the Blue Again",True,False,False,True,False,False,False,False,False,False,False,False
 53,53,"ui/icon/072000/072254.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Blitz
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Schockende Seeschlangenspucke.
-Bei dieser Technik wird eine elektrisch geladene Wasserblase verspeit, die der Beute beim Einschlag einen ordentlichen Schlag versetzt.",1,,,,True,False,False,False,False,False,False,False,False,False,False,False
+Bei dieser Technik wird eine elektrisch geladene Wasserblase verspeit, die der Beute beim Einschlag einen ordentlichen Schlag versetzt.",1,"The Sea of Clouds",,,True,False,False,False,False,False,False,False,False,False,False,False
 54,54,"ui/icon/072000/072255.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -281,12 +281,12 @@ Der Äther wird zu einer Kugel aus Schwertern geformt, die dann auf das Ziel in 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Urschrei eines Paissas.
-Dieser Zauber imitiert den schrillen Schrei eines Paissas, der den Geist des Opfers so vereinnahmt, dass dieses in einen tiefen Schlummer fällt.",1,,,,True,False,False,False,False,False,False,False,True,False,False,False
+Dieser Zauber imitiert den schrillen Schrei eines Paissas, der den Geist des Opfers so vereinnahmt, dass dieses in einen tiefen Schlummer fällt.",1,"The Sea of Clouds",,,True,False,False,False,False,False,False,False,True,False,False,False
 57,57,"ui/icon/072000/072258.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Schaurige Schallwelle einer Empusa.
-Die Empusa generiert ihre schaurige Schallwelle, indem sie Teile ihres Körpers schnell vibrieren lässt. Der resultierende Ton stört bestimmte ätherische Frequenzen, wodurch deren positive Effekte erlöschen.",1,,,,True,False,False,False,False,False,False,False,False,False,False,False
+Die Empusa generiert ihre schaurige Schallwelle, indem sie Teile ihres Körpers schnell vibrieren lässt. Der resultierende Ton stört bestimmte ätherische Frequenzen, wodurch deren positive Effekte erlöschen.",1,"Azys Lla",,,True,False,False,False,False,False,False,False,False,False,False,False
 58,58,"ui/icon/072000/072259.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
@@ -296,7 +296,7 @@ Dieser Zauber scheint sich kaum von jenen der Druiden zu unterscheiden, doch die
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Verteidigungsmagie der Goblins.
-Nur ausgewählte Goblins können diese Technik einsetzen, die durch skrupellose Experimente der Indigohand entwickelt wurde. Dabei weben sie einen dünnen, hautengen Ätherschleier um ihren Körper, um ihre Verteidigung zu verstärken.",1,,,,False,True,False,False,False,False,False,False,False,False,False,False
+Nur ausgewählte Goblins können diese Technik einsetzen, die durch skrupellose Experimente der Indigohand entwickelt wurde. Dabei weben sie einen dünnen, hautengen Ätherschleier um ihren Körper, um ihre Verteidigung zu verstärken.",1,"The Dravanian Hinterlands",,,False,True,False,False,False,False,False,False,False,False,False,False
 60,60,"ui/icon/072000/072261.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -311,7 +311,7 @@ Wenn die Falkenkönigin Gefahr wittert, setzt sie ein bestimmtes Pheromon frei, 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Poroggo-Gesang.
-Dieser Gesang regt Poroggos zum Mittanzen an. Für alle anderen Kreaturen klingt er eher so, als würde ein Frosch von einem Karren überfahren. Die lautstarke Wiedergabe eignet sich daher hervorragend, um sich den Zorn anderer zuzuziehen.",1,,"Blue Scream of Death","Blue in the Face",True,False,False,False,False,False,False,False,False,False,False,False
+Dieser Gesang regt Poroggos zum Mittanzen an. Für alle anderen Kreaturen klingt er eher so, als würde ein Frosch von einem Karren überfahren. Die lautstarke Wiedergabe eignet sich daher hervorragend, um sich den Zorn anderer zuzuziehen.",1,"The Dravanian Hinterlands","Blue Scream of Death","Blue in the Face",True,False,False,False,False,False,False,False,False,False,False,False
 63,63,"ui/icon/072000/072264.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Wind
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -321,7 +321,7 @@ Eine bevorzugte Technik der Zu, die einen besonders kräftigen Flügelschlag aus
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Brunftschrei eines Dhalmels.
-Bei der richtigen Tonhöhe reagiert der eigene Körper mit einer erhöhten Produktion von Adrenalin, das einem im Kampf einen Vorteil verschafft<Indent/>- oder einen Partner anlockt, falls man ein Dhalmel ist.",1,,"Bolt from the Blue","Something Borrowed, Something Blue",False,True,False,False,False,False,False,False,False,False,False,False
+Bei der richtigen Tonhöhe reagiert der eigene Körper mit einer erhöhten Produktion von Adrenalin, das einem im Kampf einen Vorteil verschafft<Indent/>- oder einen Partner anlockt, falls man ein Dhalmel ist.",1,"The Sea of Clouds","Bolt from the Blue","Something Borrowed, Something Blue",False,True,False,False,False,False,False,False,False,False,False,False
 65,65,"ui/icon/072000/072266.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -356,17 +356,17 @@ Wilde Sabotender sollen diese Fähigkeit entwickelt haben, um ihren Äther zu ka
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Ver<SoftHyphen/>zweif<SoftHyphen/>lung der Whalaqee.
-Diese Nahkampftechnik erlaubt es dem Zaubernden, seine eigenen Gefühle der Ver<SoftHyphen/>zweif<SoftHyphen/>lung ob eines nahenden Todes zu nutzen, um eine letzte Offensive zu starten. Der Name der Kreatur, die sie ursprünglich besaß, bleibt ein Geheimnis.",2,"",,,True,False,False,False,False,False,False,False,False,False,False,False
+Diese Nahkampftechnik erlaubt es dem Zaubernden, seine eigenen Gefühle der Ver<SoftHyphen/>zweif<SoftHyphen/>lung ob eines nahenden Todes zu nutzen, um eine letzte Offensive zu starten. Der Name der Kreatur, die sie ursprünglich besaß, bleibt ein Geheimnis.",2,,,,True,False,False,False,False,False,False,False,False,False,False,False
 72,72,"ui/icon/072000/072273.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Revitalisierung der Whalaqee.
-Bei diesem Zauber wird heilender Äther durch ein Familiar verstärkt, das ein Bote des Himmels zu sein scheint<Indent/>- ein Konzept, das im Widerspruch zu den religiösen Vorstellungen der Whalaqee steht.",2,"",,,False,True,False,False,False,False,False,False,False,False,False,False
+Bei diesem Zauber wird heilender Äther durch ein Familiar verstärkt, das ein Bote des Himmels zu sein scheint<Indent/>- ein Konzept, das im Widerspruch zu den religiösen Vorstellungen der Whalaqee steht.",2,,,,False,True,False,False,False,False,False,False,False,False,False,False
 73,73,"ui/icon/072000/072274.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Die Larvenhäutung der Wamoura.
-Die Wamoura stoßen Schadstoffe und Gifte wie eine zweite Haut einfach ab<Indent/>- übrig bleibt ein funkelnder Schauer winziger Schuppen und ein wohliges Gefühl der Frische.",1,,"Blue in the Face","Bolt from the Blue",False,True,False,False,False,False,False,False,False,False,False,False
+Die Wamoura stoßen Schadstoffe und Gifte wie eine zweite Haut einfach ab<Indent/>- übrig bleibt ein funkelnder Schauer winziger Schuppen und ein wohliges Gefühl der Frische.",1,"The Sea of Clouds","Blue in the Face","Bolt from the Blue",False,True,False,False,False,False,False,False,False,False,False,False
 74,74,"ui/icon/072000/072275.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Blitz
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
@@ -406,12 +406,12 @@ Schwingen der Gerechtigkeit, tragt uns hoch hinauf! Liebe, Freund<SoftHyphen/>sc
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Speerfischtechnik der Namazuo.
-Dieser schnelle, dreifache Angriff hat sich als äußerst effektiv gegen Kreaturen erwiesen, die den Fischer verspeisen wollten.",1,,,,True,False,False,False,False,False,False,False,False,False,False,False
+Dieser schnelle, dreifache Angriff hat sich als äußerst effektiv gegen Kreaturen erwiesen, die den Fischer verspeisen wollten.",1,"Yanxia",,,True,False,False,False,False,False,False,False,False,False,False,False
 82,82,"ui/icon/072000/072283.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Blitz
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Blitzschläge der Namazuo.
-Vermutlich eher nach dem wohligen Gefühl, das den Ausführenden überkommt, benannt als nach der blitzartigen Zerstörung des fernen Ziels. Von Jägern ersonnen, die es sich am Fluss gemütlich machen und einfach angreifen, was gerade anschwimmt.",1,,"Azuro and Goliath","Everybody Was Fukumen Fighting",True,True,False,False,False,False,False,False,False,False,False,False
+Vermutlich eher nach dem wohligen Gefühl, das den Ausführenden überkommt, benannt als nach der blitzartigen Zerstörung des fernen Ziels. Von Jägern ersonnen, die es sich am Fluss gemütlich machen und einfach angreifen, was gerade anschwimmt.",1,"Yanxia","Azuro and Goliath","Everybody Was Fukumen Fighting",True,True,False,False,False,False,False,False,False,False,False,False
 83,83,"ui/icon/072000/072284.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
@@ -441,7 +441,7 @@ Diese Fähigkeit nutzt Erdäther, um einen stechenden Geysir aus Schlamm zu erze
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Blaumagie der Wächterstatuen.
-Ein Zauber, der den Wächerstatuen der Neuen Welt innewohnt und allerlei Heilmittel aus dem Äther zieht. Das Ziel des Zaubers erfährt eine schnelle Wundheilung<Indent/>- ein Effekt, der mitunter nachwirkt, wenn der Zauber von einem erfahrenen Heiler gesprochen wurde.",2,"",,,False,True,False,False,False,False,False,False,False,False,False,False
+Ein Zauber, der den Wächerstatuen der Neuen Welt innewohnt und allerlei Heilmittel aus dem Äther zieht. Das Ziel des Zaubers erfährt eine schnelle Wundheilung<Indent/>- ein Effekt, der mitunter nachwirkt, wenn der Zauber von einem erfahrenen Heiler gesprochen wurde.",2,,,,False,True,False,False,False,False,False,False,False,False,False,False
 89,89,"ui/icon/072000/072290.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Wasser
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -456,12 +456,12 @@ Dieser Zauber imitiert die Blaster-Attacke von wilden Coeurl. Beim Ausführen wi
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Coeurl-Spezialtechnik.
-Ein Verhalten, das von bestimmten Arten von Coeurl erlernt wird. Der Magier reagiert auf gefallene Kameraden, indem er seinen animalischen Überlebensinstinkt weckt. Wenn alles verloren scheint, ist ungezähmte Wildheit das einzige Mittel zum Sieg.",1,"the Vault","Everybody Was Fukumen Fighting","Second-rate Entertainment",False,True,False,False,False,False,False,False,False,False,False,False
+Ein Verhalten, das von bestimmten Arten von Coeurl erlernt wird. Der Magier reagiert auf gefallene Kameraden, indem er seinen animalischen Überlebensinstinkt weckt. Wenn alles verloren scheint, ist ungezähmte Wildheit das einzige Mittel zum Sieg.",1,"Upper La Noscea","Everybody Was Fukumen Fighting","Second-rate Entertainment",False,True,False,False,False,False,False,False,False,False,False,False
 92,92,"ui/icon/072000/072293.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Flügelschlag der Kongamato.
-Dieser Zauber imitiert die Flügelschläge eines Kongamato und erzeugt eine Ultraschallwelle, die sich sichtbar in der Luft ausbreitet. Die Vibrationen sind für gefrorene oder versteinerte Ziele tödlich und lassen diese zersplittern.",1,,"Where the Gold Goes","Azuro and Goliath",True,False,False,False,False,False,False,False,False,False,False,True
+Dieser Zauber imitiert die Flügelschläge eines Kongamato und erzeugt eine Ultraschallwelle, die sich sichtbar in der Luft ausbreitet. Die Vibrationen sind für gefrorene oder versteinerte Ziele tödlich und lassen diese zersplittern.",1,"The Peaks","Where the Gold Goes","Azuro and Goliath",True,False,False,False,False,False,False,False,False,False,False,True
 93,93,"ui/icon/072000/072294.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Eis
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -476,12 +476,12 @@ Eine Imitation der furchtbaren chemischen Explosionen, die Omega verursacht. Die
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Spezialtechnik der Drachen der Neuen Welt.
-Diese Fähigkeit hüllt den Magier in eine Sphäre ätherischer Kraft, die eingehende Angriffe schwächt. Es gibt eine Debatte darüber, ob es sich bei diesen „Drachen“ tatsächlich um Drachen oder lediglich um eine artverwandte Spezies handelt.",2,"",,,False,True,False,False,False,False,False,False,False,False,False,False
+Diese Fähigkeit hüllt den Magier in eine Sphäre ätherischer Kraft, die eingehende Angriffe schwächt. Es gibt eine Debatte darüber, ob es sich bei diesen „Drachen“ tatsächlich um Drachen oder lediglich um eine artverwandte Spezies handelt.",2,,,,False,True,False,False,False,False,False,False,False,False,False,False
 96,96,"ui/icon/072000/072297.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Nadelspitzen der Salz-Dhruva.
-Dieser Zauber beschwört eine Reihe leuchtender Projektile, die allem in ihrem Weg nadelstichartige Wunden zufügen. Die Wunden verursachen starke Blutungen, wodurch das Ziel geschwächt wird und erhebliche Schmerzen erleidet.",1,,"Master of Mimicry","Where the Gold Goes",True,False,False,False,False,False,False,False,False,False,False,False
+Dieser Zauber beschwört eine Reihe leuchtender Projektile, die allem in ihrem Weg nadelstichartige Wunden zufügen. Die Wunden verursachen starke Blutungen, wodurch das Ziel geschwächt wird und erhebliche Schmerzen erleidet.",1,"The Lochs","Master of Mimicry","Where the Gold Goes",True,False,False,False,False,False,False,False,False,False,False,False
 97,97,"ui/icon/072000/072298.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Wasser
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -496,12 +496,12 @@ Diese Form der Geomantie beschwört einen Wasserschwall, der alles in seinem Weg
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★
 ","Post vom Kurier-Chocobo.
-Eine zerstörerische Fähigkeit, die Staub und Schmutz zu einer soliden Masse verdichtet, die dann erhitzt und von oben auf das Ziel abgeworfen wird. Daher ist es kein Wunder, dass diese gefiederten Feinde überall, wo sie auftauchen, Schrecken verursachen.",1,,,,True,False,False,False,False,False,False,False,False,False,False,False
+Eine zerstörerische Fähigkeit, die Staub und Schmutz zu einer soliden Masse verdichtet, die dann erhitzt und von oben auf das Ziel abgeworfen wird. Daher ist es kein Wunder, dass diese gefiederten Feinde überall, wo sie auftauchen, Schrecken verursachen.",1,"The Dravanian Forelands",,,True,False,False,False,False,False,False,False,False,False,False,False
 100,100,"ui/icon/072000/072301.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Schrecken der Nichts<SoftHyphen/>gesand<SoftHyphen/>ten der Neuen Welt.
-Dieser Zauber setzt dem Ziel mit einem Sperrfeuer aus glühenden Kugeln zu. Sein Name soll einst die Flüche der Whalaqee sowie die Konvertierung von Lebenskraft zu Mana umfasst haben.",2,"",,,True,False,False,False,False,False,False,False,False,False,False,False
+Dieser Zauber setzt dem Ziel mit einem Sperrfeuer aus glühenden Kugeln zu. Sein Name soll einst die Flüche der Whalaqee sowie die Konvertierung von Lebenskraft zu Mana umfasst haben.",2,,,,True,False,False,False,False,False,False,False,False,False,False,False
 101,101,"ui/icon/072000/072302.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch/Schlag
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★

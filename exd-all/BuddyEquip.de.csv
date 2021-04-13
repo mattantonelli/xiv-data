@@ -82,7 +82,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 78,"Smaragd-Rossharnisch",4,"Smaragd-Rossharnische",2,0,1,0,0,"Smaragd-Rossharnisch",65609,65609,65609,"None","ui/icon/049000/049235.tex","ui/icon/049000/049237.tex","ui/icon/049000/049236.tex",147
 79,"Königinnenwache-Rossharnisch",4,"Königinnenwache-Rossharnische",2,0,1,0,0,"Königinnenwache-Rossharnisch",65610,65610,65610,"None","ui/icon/049000/049238.tex","ui/icon/049000/049240.tex","ui/icon/049000/049239.tex",148
 80,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
-81,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+81,"Diamant-Rossharnisch",4,"Diamant-Rossharnische",2,0,1,0,0,"Diamant-Rossharnisch",65612,65612,65612,"None","ui/icon/049000/049244.tex","ui/icon/049000/049246.tex","ui/icon/049000/049245.tex",149
 82,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 83,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 84,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

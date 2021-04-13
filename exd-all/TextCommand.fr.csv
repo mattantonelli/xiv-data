@@ -1450,7 +1450,7 @@ Règle le volume des effets sonores venant des autres joueurs sur la valeur spé
 338,2,0,0,0,0,"/systemsoundsspeaker","","/vhautparleur, /systemsoundsspeaker
 Utilisation<Indent/>: /vhautparleur [sous-commande]
 Règle le volume du haut-parleur sur la valeur spécifiée.
-* Version PlayStation®4 uniquement.
+* Version PlayStation®4 et PlayStation®5 uniquement.
 >> Sous-commande<Indent/>:
 [0-100]  Règle le volume sur la valeur correspondante.
 * Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.","/vhautparleur","",228,0
@@ -2561,6 +2561,12 @@ Fait “oh hisse<Indent/>!”.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/ohhisse","",293,0
+612,2,1,2,0,0,"/flowershower","/petals","/pluiedepétales, /petals
+Utilisation<Indent/>: /pluiedepétales [sous-commande]
+Fait tomber une pluie de pétales.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pluiedepétales","",293,0
 613,2,1,2,0,0,"/flamedance","","/dansedesflammes, /flamedance
 Utilisation<Indent/>: /dansedesflammes [sous-commande]
 Effectue la danse des flammes.
@@ -2581,7 +2587,7 @@ animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/monterlagarde","",293,0
 616,2,1,2,0,0,"/malevolence","","/occultiste, /malevolence
 Utilisation<Indent/>: /occultiste [sous-commande]
-Faire la pose de l'occultiste.
+Fait la pose de l'occultiste.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/occultiste","",293,0
@@ -2645,3 +2651,21 @@ Affiche un sourire forcé.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sourireforcé","",293,0
+630,2,1,2,0,0,"/pantomime","/mime","/pantomime, /mime
+Utilisation<Indent/>: /pantomime [sous-commande]
+Exécute un pantomime.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pantomime","",293,0
+631,2,1,2,0,0,"/vexed","","/mécontentement, /vexed
+Utilisation<Indent/>: /mécontentement [sous-commande]
+Affiche votre mécontentement.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mécontentement","",293,0
+633,2,1,2,0,0,"/eatpizza","/pizza","/mangerunepizza, /eatpizza
+Utilisation<Indent/>: /mangerunepizza [sous-commande]
+Mange une tranche de pizza.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunepizza","/mangpizza",293,0
