@@ -2756,6 +2756,12 @@ VERWENDUNG:
 → Du isst einen Apfel.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/apfelessen","/apfel",293,0
+623,2,1,2,0,0,"/wringhands","","/händereiben, /wringhands
+VERWENDUNG:
+/händereiben [Unterbefehl]
+→ Du reibst die Hände.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/händereiben","",293,0
 624,2,1,2,0,0,"/sweep","/broom","/kehren, /sweep, /broom
 VERWENDUNG:
 /kehren [Unterbefehl]
@@ -2804,6 +2810,12 @@ VERWENDUNG:
 → Du grübelst vor dich hin.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/grübeln","",293,0
+632,2,1,2,0,0,"/shush","/shh","/pst, /shh
+VERWENDUNG:
+/pst [Unterbefehl]
+→ Du bittest um Ruhe, indem du den Zeigefinger auf den Mund legst.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/pst","",293,0
 633,2,1,2,0,0,"/eatpizza","/pizza","/pizzaessen, /pizza, /eatpizza 
 VERWENDUNG:
 /pizzaessen [Unterbefehl]

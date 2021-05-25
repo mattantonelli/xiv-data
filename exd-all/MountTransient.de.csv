@@ -446,7 +446,7 @@ Gleich hebst du ab!
 174,"Rufe einen Magitek-Himmelspanzer herbei, die modernste fliegende Kampfmaschine der garleischen Armee.","Dieser einsitzige Himmelspanzer der garleischen Streitkräfte ist wegen seiner Wendigkeit gefürchtet. Bisherige fliegende Magitek-Kampf<SoftHyphen/>maschinen wie der Schlachtkreuzer waren sehr groß, doch mit der Schnitter-Technologie gelang den Garlearn die Herstellung dieses kompakten
 Modells.","Da haben die garleischen Ingenieure keine schlechte Arbeit abgeliefert.
 <Emphasis>Cid</Emphasis>"
-175,"Rufe einen fliegenden Teppich herbei und lass dich von ihm bequem durch die Luft tragen.","Einer Legende nach brachte einst der König von Colvo einen Geist dazu, ihm einen Teppich zu verzaubern, sodass er darauf fliegen konnte. Mit modernsten Verzauberungen ist es nun gelungen, dieses Wunder nachzuahmen.","Der macht sich bestimmt auch gut vor dem Kamin.
+175,"Rufe einen fliegenden Teppich herbei und lass dich von ihm bequem durch die Luft tragen.","Einer Legende nach brachte einst der König von Corvos einen Geist dazu, ihm einen Teppich zu verzaubern, sodass er darauf fliegen konnte. Mit modernsten Verzauberungen ist es nun gelungen, dieses Wunder nachzuahmen.","Der macht sich bestimmt auch gut vor dem Kamin.
 <Emphasis>Beeindruckte Hofdame</Emphasis>"
 176,"Rufe Magna Rotula herbei, eine mächtige Kampfmaschine, die von den Goblins umgebaut wurde.","Aus den Trümmern der garleischen Magitek-Kampfmaschine, die in Gyr Abania geborgen werden konnten, fabrizierten die Goblins ein furcht<SoftHyphen/>ein<SoftHyphen/>flößendes Gefährt. Ursprünglich funktionierte die Kampfmaschine vollautomatisch, doch Magna Rotula muss gesteuert werden.","Für jede Maschine gibt perfekte Reparierenwerkzeug. Aber mit Gobbihammer kannzu fast
 alle Sache wieder funktionierenklopfen. Wunderwerkzeug für Allezweck!
@@ -515,7 +515,9 @@ Manche gehen sogar so weit zu behaupten, Amaros könnten <Emphasis>Gedanken</Emp
 210,"","",""
 211,"Rufe Ufiti herbei, einen der letzten überlebenden Affenwesen, die früher zahlreich auf dem Diadem lebten.","Nachdem blutrünstige Abenteurer seine Artgenossen massakriert hatten, meisterte er die Kunst des Fliegens, um sich auf die Suche nach einem würdigen Anführer zu machen.","Starke werden von Stärke angezogen.
 <Emphasis>Ywain</Emphasis>"
-212,"","",""
+212,"Ruf deinen Deinonychus herbei. Er ist sehr viel klüger, als er aussieht.","Eine riesige fleischfressende Echse, die im Süden von Ilsabard beheimatet ist und mit dem Raptor aus dem Finsterwald artverwandt ist. Aufgrund seiner Intelligenz, die sich auch im Jagdverhalten äußert (Deinonychus jagen stets zu zweit), wurde er seit alters als Kampftier in Kriegen
+eingesetzt.","Wer einen Deinonychus jagt, wird schnell zum Gejagten.
+<Emphasis>Anonymer Jäger</Emphasis>"
 213,"Du rufst Automat Nr. 14 als Begleiter herbei. Dieses kampferprobte Konstrukt wurde von der IV. Legion erbeutet.","Die IV. Legion der garleischen Armee ließ in der Uhrwerksstadt Gog eine Kampfmaschine entwickeln, die den Transport von Soldaten und Material erleichtern sollte. Der Automat Nr.14 ist eine kampfkraftgesteigerte Weiterentwicklung des ursprünglichen
 Eisenkonstrukt-Modells.","Be-schleu-nige auf Hyper-ge-schwindig-keit. Biep.
 <Emphasis>Semi-autonomer Automat Nr. 14</Emphasis>"
@@ -586,7 +588,9 @@ nichts als Antilopen-Fleisch dabei rumgekommen.
 244,"","",""
 245,"Rufe Mechamander herbei, den legendären mechanischen Drachen.","Die alten Allager entwickelten dieses Stahlwesen als Waffe gegen die Drachen. Es heißt, dass nur ein wahrer Held auf seinem Rücken geduldet wird.","Hut ab vor der Technik der Allager.
 <Emphasis>Garlear</Emphasis>"
-246,"","",""
+246,"Rufe Ikril herbei, das richtige Motorrad, um Eindruck zu schinden.","Dieses Flugmotorrad, das neben dem Fahrer Platz für eine weitere Person bietet, war ein Geschenk Frans an die bozianischen Widerstandstruppen. Sein Name bedeutet „Thron“ auf Hoch-Ivalisisch und tatsächlich hat der Beifahrersitz etwas Thronhaftes, was man vom Fahrersitz nicht unbedingt
+behaupten kann.","Ikril ist der König unter den Motorrädern.
+<Emphasis>Motorradliebhaber</Emphasis>"
 247,"Rufe deinen Chaser herbei und jage deine Feinde.","Diese von der Indigo-Hand entwickelte zweibeinige Kriegsmaschine verwandelt sich in ein Luftschiff, sobald sie vom Boden abhebt. Ein gewisser Ingenieur der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke soll bereits ein Modell im kleinen Maßstab in Planung haben.","Los, hinterher!
 <Emphasis>Seserukka</Emphasis>"
 248,"Rufe dein Konstrukt6S herbei. Ein besteigbarer Stahlkoloss, der von Kobolden erschaffen wurde.","Gebaut von freundlich gesinnten Kobolden verfügt dieses Stahlgefährt über eine dreißig Prozent verbesserte Triebkraft gegenüber seinem Vorgängermodell. Das macht es zwar nicht dreimal schneller, doch der rote Anstrich verleiht ihm ein rassiges Aussehen.","Huldigt Titan! Titan ist groß! Titan! Titan! Titan!!!
@@ -601,7 +605,8 @@ Ich weiß zwar nicht, was wir hier machen, aber es macht Spaß!
 <Emphasis>Namazuo-Festbesucher</Emphasis> "
 253,"Rufe deine Urne der goldenen Wasserschlange herbei. Eine ganz gewöhnliche Urne der Wasserschlange, nur dass sie ein mysteriöses goldenes Leuchten von sich gibt.","Diese Urne aus den Ronka-Ruinen gelangte durch Räuber auf den Schwarzmarkt und hat seither mehrmals ihren Besitzer gewechselt. Bläst man in die dazugehörige Pfeife, strahlt sie ein goldenes Leuchten aus, das Segen spenden soll.","Wasserschlange spricht!
 <Emphasis>Chaqurl Qhotl</Emphasis> "
-254,"","",""
+254,"Rufe deine magische Karte herbei, geschmiedet vom größten Goldschmied unter der güldenen Sonne Thanalans.","Niemand Geringerer als Godbert Manderville schmiedete diese Karte, um sie einem wahren Triple Triad-Freund als Treuegeschenk zukommen zu lassen. Dass die Karte fliegen kann, ist einerseits verwunderlich, andererseits angesichts der Genialität seines Schöpfers auch wieder nicht.","Ein Spielchen gefällig?
+<Emphasis>Iola</Emphasis> "
 255,"","",""
 256,"","",""
 257,"","",""

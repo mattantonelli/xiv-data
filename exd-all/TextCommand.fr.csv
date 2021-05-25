@@ -2615,6 +2615,12 @@ Mange une pomme.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunepomme","/mangpomme",293,0
+623,2,1,2,0,0,"/wringhands","","/sefrotterlesmains, /frottmains, /wringhands
+Utilisation<Indent/>: /sefrotterlesmains [sous-commande]
+Se frotte les mains.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sefrotterlesmains","/frottmains",293,0
 624,2,1,2,0,0,"/sweep","/broom","/balayer, /balai, /sweep, /broom
 Utilisation<Indent/>: /balayer [sous-commande]
 Passe le balai.
@@ -2663,6 +2669,12 @@ Affiche votre mécontentement.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mécontentement","",293,0
+632,2,1,2,0,0,"/shush","/shh","/chut, /shush
+Utilisation<Indent/>: /chut [sous-commande]
+Place l'index sur les lèvres pour dire chut.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/chut","",293,0
 633,2,1,2,0,0,"/eatpizza","/pizza","/mangerunepizza, /eatpizza
 Utilisation<Indent/>: /mangerunepizza [sous-commande]
 Mange une tranche de pizza.

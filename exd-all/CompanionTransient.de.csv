@@ -1626,7 +1626,11 @@ Blume symbolisiert Runars
 Gefühle für eine bestimmte
 Dame.","Ach Runar, wein doch nicht. Du bist doch der Stärkste von uns allen.
 <Emphasis>Y'shtola</Emphasis>","Weiße Blume","Erhöht die Technikpunkte eigener Trabanten in der Nähe um 10, außer wenn sie ebenfalls diesen Effekt verursachen können.",65,75,2,False,False,False,True,False,"Enhancement"
-418,"","","","","",0,0,0,False,False,False,False,False,""
+418,"Du rufst deine Gunnhildr-Puppe als Begleiterin herbei. Sie ist dir genauso treu ergeben, wie die echte Königin es ihrem Volk war.","Diese Puppe in der Gestalt von Königin Gunnhildr trug ein Stück Papier bei sich, auf dem stand: „Am Ende der Reise fand ich Liebe ... doch sie verschwand zusammen mit dem Licht.“ Die schon fast krankhaft zu nennende Detailtreue
+kommt dir irgendwie
+bekannt vor<Indent/>... ","Ich halte das Schwert Gunnhildrs und gelobe, ihren Willen zu ehren.
+<Emphasis>Misija</Emphasis>","Weiße Königin","Stellt eine Falle auf, die nach 10 Sekunden ausgelöst werden kann. Bewirkt die Verlangsamung von Gegnern in der Nähe um 70<Indent/>%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20 Sekunden",75,55,2,True,False,False,False,False,"Trap"
 419,"Du rufst deinen Aufzieh-9S als Begleiter herbei, ein winziger Android ganz in Schwarz. ","Diese kleine Marionette, die dem echten 9S aufs Haar gleicht, wurde im oberen Teil des Hauptquartiers von Baldesions Gelehrten entdeckt. Was in seinem kleinen Köpfchen vorgeht, weiß niemand.","Er<Indent/>... ist ein Android. Eine automatische Kampfeinheit. Genau wie ich.
 <Emphasis>Aufzieh-2P</Emphasis>","Flüchtige Sanftheit","Führt eine Attacke mit Attacke-Wert 120 auf die Gegner in der Nähe aus und erhöht die ATT der ausführenden Trabanten um 20.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",60,50,4,False,False,True,False,False,"Damage"

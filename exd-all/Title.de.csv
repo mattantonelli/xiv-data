@@ -577,22 +577,22 @@ int32,str,str,bit&01,uint16
 573,"die Minenarbeiterlegende von Himmelsang","die Minenarbeiterlegende von Himmelsang",False,1639
 574,"die Gärtnerlegende von Himmelsang","die Gärtnerlegende von Himmelsang",False,1640
 575,"die Fischerlegende von Himmelsang","die Fischerlegende von Himmelsang",False,1641
-576,"","",False,0
+576,"Triple-Triad-Aficionado","Triple-Triad-Aficionada",True,1642
 577,"Tempo-Teufel","Tempo-Teufelin",True,1643
 578,"der Nimmermüde","die Nimmermüde",False,1644
-579,"","",False,0
-580,"","",False,0
+579,"der Herr fremder Gewässer","die Herrin fremder Gewässer",False,1645
+580,"der Hecht im Karpfenteich","der Hecht im Karpfenteich",False,1646
 581,"Charlemends Engel","Charlemends Engel",True,1647
 582,"Lebensretter","Lebensretterin",True,1648
-583,"","",False,0
-584,"","",False,0
-585,"","",False,0
-586,"","",False,0
-587,"","",False,0
-588,"","",False,0
-589,"","",False,0
-590,"","",False,0
-591,"","",False,0
-592,"","",False,0
+583,"Wächter des Morgengrauens","Wächterin des Morgengrauens",True,1649
+584,"Zeuge der Apokalypse","Zeugin der Apokalypse",True,1650
+585,"Dalriada-Eroberer","Dalriada-Erobererin",True,1651
+586,"der Hyperkrieger","die Hyperkriegerin",False,1652
+587,"Bezwinger der Legion","Bezwingerin der Legion",True,1653
+588,"König der Bestienbändiger","Königin der Bestienbändiger",True,1654
+589,"Held von Zadnor","Heldin von Zadnor",True,1655
+590,"Königinnenwache","Königinnenwache",True,1656
+591,"Träger aller Orden","Trägerin aller Orden",True,1657
+592,"Diener der Königin","Dienerin der Königin",True,1658
 593,"","",False,0
 594,"","",False,0

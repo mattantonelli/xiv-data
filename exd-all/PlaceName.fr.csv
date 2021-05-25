@@ -3711,27 +3711,27 @@ Guilde des surineurs",0,0,1,0,0,"",0,0
 3659,"Pare-feu D",0,"Pare-feu D",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pare-feu D</Case><Case(2)>au pare-feu D</Case><Case(3)>du pare-feu D</Case></Switch>",0,0
 3660,"Plateforme élévatrice",0,"Plateforme élévatrice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la plateforme élévatrice</Case><Case(2)>à la plateforme élévatrice</Case><Case(3)>de la plateforme élévatrice</Case></Switch>",0,0
 3661,"Sommet",0,"Sommet",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sommet</Case><Case(2)>au sommet</Case><Case(3)>du sommet</Case></Switch>",0,0
-3662,"",0,"",0,0,0,0,0,"",0,0
+3662,"Hauts plateaux de Zadnor",0,"Hauts plateaux de Zadnor",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Hauts plateaux de Zadnor</Case><Case(2)>sur les Hauts plateaux de Zadnor</Case><Case(3)>des Hauts plateaux de Zadnor</Case></Switch>",0,6
 3663,"Ponton du Gardien-G",0,"Ponton du Gardien-G",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ponton du Gardien-G</Case><Case(2)>au ponton du Gardien-G</Case><Case(3)>du ponton du Gardien-G</Case></Switch>",0,0
-3664,"",0,"",0,0,0,0,0,"",0,0
-3665,"",0,"",0,0,0,0,0,"",0,0
-3666,"",0,"",0,0,0,0,0,"",0,0
-3667,"",0,"",0,0,0,0,0,"",0,0
-3668,"",0,"",0,0,0,0,0,"",0,0
-3669,"",0,"",0,0,0,0,0,"",0,0
-3670,"",0,"",0,0,0,0,0,"",0,0
-3671,"",0,"",0,0,0,0,0,"",0,0
-3672,"",0,"",0,0,0,0,0,"",0,0
-3673,"",0,"",0,0,0,0,0,"",0,0
-3674,"",0,"",0,0,0,0,0,"",0,0
-3675,"",0,"",0,0,0,0,0,"",0,0
-3676,"",0,"",0,0,0,0,0,"",0,0
-3677,"",0,"",0,0,0,0,0,"",0,0
-3678,"",0,"",0,0,0,0,0,"",0,0
-3679,"",0,"",0,0,0,0,0,"",0,0
-3680,"",0,"",0,0,0,0,0,"",0,0
-3681,"",0,"",0,0,0,0,0,"",0,0
-3682,"",0,"",0,0,0,0,0,"",0,0
+3664,"Avant-poste de Vrdelnis",0,"Avant-poste de Vrdelnis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'avant-poste de Vrdelnis</Case><Case(2)>à l'avant-poste de Vrdelnis</Case><Case(3)>de l'avant-poste de Vrdelnis</Case></Switch>",0,0
+3665,"Camp avancé de Zuprtik",0,"Camp avancé de Zuprtik",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp avancé de Zuprtik</Case><Case(2)>au camp avancé de Zuprtik</Case><Case(3)>du camp avancé de Zuprtik</Case></Switch>",0,0
+3666,"Camp avancé de Ljeban",0,"Camp avancé de Ljeban",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp avancé de Ljeban</Case><Case(2)>au camp avancé de Ljeban</Case><Case(3)>du camp avancé de Ljeban</Case></Switch>",0,0
+3667,"Camp avancé de Hrmovir",0,"Camp avancé de Hrmovir",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp avancé de Hrmovir</Case><Case(2)>au camp avancé de Hrmovir</Case><Case(3)>du camp avancé de Hrmovir</Case></Switch>",0,0
+3668,"Plateau sud",0,"Plateau sud",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le plateau sud</Case><Case(2)>sur le plateau sud</Case><Case(3)>du plateau sud</Case></Switch>",0,0
+3669,"Plateau ouest",0,"Plateau ouest",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le plateau ouest</Case><Case(2)>sur le plateau ouest</Case><Case(3)>du plateau ouest</Case></Switch>",0,0
+3670,"Plateau nord",0,"Plateau nord",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le plateau nord</Case><Case(2)>sur le plateau nord</Case><Case(3)>du plateau nord</Case></Switch>",0,0
+3671,"Castellum Zadnori",0,"Castellum Zadnori",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Castellum Zadnori</Case><Case(2)>à Castellum Zadnori</Case><Case(3)>de Castellum Zadnori</Case></Switch>",0,0
+3672,"Proue martiale",0,"Proue martiale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Proue martiale</Case><Case(2)>à la Proue martiale</Case><Case(3)>de la Proue martiale</Case></Switch>",0,0
+3673,"Pont du Fondateur",0,"Pont du Fondateur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pont du Fondateur</Case><Case(2)>sur le pont du Fondateur</Case><Case(3)>du pont du Fondateur</Case></Switch>",0,0
+3674,"Excavation allagoise",0,"Excavation allagoise",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'excavation allagoise</Case><Case(2)>à l'excavation allagoise</Case><Case(3)>de l'excavation allagoise</Case></Switch>",0,0
+3675,"Embarcadère du Dalriada",0,"Embarcadère du Dalriada",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'embarcadère du Dalriada</Case><Case(2)>à l'embarcadère du Dalriada</Case><Case(3)>du embarcadère du Dalriada</Case></Switch>",0,0
+3676,"Aire de chargement",0,"Aire de chargement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'aire de chargement</Case><Case(2)>à l'aire de chargement</Case><Case(3)>de l'aire de chargement</Case></Switch>",0,0
+3677,"Poste de gestion du chargement",0,"Poste de gestion du chargement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le poste de gestion du chargement</Case><Case(2)>au poste de gestion du chargement</Case><Case(3)>du poste de gestion du chargement</Case></Switch>",0,0
+3678,"Section des recherches magitek",0,"Section des recherches magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la section des recherches magitek</Case><Case(2)>dans la section des recherches magitek</Case><Case(3)>de la section des recherches magitek</Case></Switch>",0,0
+3679,"Poste de contrôle des moteurs",0,"Poste de contrôle des moteurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le poste de contrôle des moteurs</Case><Case(2)>dans le poste de contrôle des moteurs</Case><Case(3)>du poste de contrôle des moteurs</Case></Switch>",0,0
+3680,"Grande soute",0,"Grande soute",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la grande soute</Case><Case(2)>dans la grande soute</Case><Case(3)>de la grande soute</Case></Switch>",0,0
+3681,"Anneau effondré",0,"Anneau effondré",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Anneau effondré</Case><Case(2)>sur l'Anneau effondré</Case><Case(3)>de l'Anneau effondré</Case></Switch>",0,0
+3682,"Le Dalriada",0,"Le Dalriada",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Dalriada</Case><Case(2)>sur le Dalriada</Case><Case(3)>du Dalriada</Case></Switch>",0,0
 3683,"Poulailler des rêvœufs",0,"Poulailler des rêvœufs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le poulailler des rêvœufs</Case><Case(2)>au poulailler des rêvœufs</Case><Case(3)>du poulailler des rêvœufs</Case></Switch>",0,0
 3684,"",0,"",0,0,0,0,0,"",0,0
 3685,"",0,"",0,0,0,0,0,"",0,0

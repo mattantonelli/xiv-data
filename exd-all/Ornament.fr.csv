@@ -17,5 +17,5 @@ int32,uint16,byte,byte,bit&01,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte
 13,3168,1,1,False,12,"ui/icon/008000/008011.tex",12,"Ombrelle vert d'eau à pois",0,"Ombrelles vert d'eau à pois",0,1,1,1,0
 14,3286,1,1,False,13,"ui/icon/008000/008014.tex",13,"Ombrelle gros minou",0,"Ombrelles gros minou",0,1,1,1,0
 15,3287,1,1,False,14,"ui/icon/008000/008015.tex",14,"Ombrelle Serpent marin de Ronka ?",0,"Ombrelles Serpent marin de Ronka ?",0,1,1,1,0
-16,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+16,3288,1,1,False,15,"ui/icon/008000/008016.tex",15,"Ombrelle Dalamud",0,"Ombrelle Dalamud",0,1,1,1,0
 17,0,0,0,False,0,,0,"",0,"",0,0,0,0,0

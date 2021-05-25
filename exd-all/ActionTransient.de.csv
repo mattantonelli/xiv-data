@@ -472,7 +472,8 @@ Attacke-Wert: 60
 Dauer: 18 Sekunden"
 133,"Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
 Heilpotenzial: 200
-Zusatzeffekt: Regeneriert stetig LP des Ziels, Heilpotenzial: 100
+Zusatzeffekt: Regeneriert stetig LP des Ziels.
+Heilpotenzial: 100
 Dauer: 15 Sekunden"
 134,"Du fügst dem Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu.
 Dauer: 6 Sekunden"
@@ -25257,7 +25258,8 @@ Eigener Reaktivierungs-Timer."
 20530,""
 20531,""
 20532,""
-20533,""
+20533,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 200"
 20534,""
 20535,""
 20536,""
@@ -25554,7 +25556,8 @@ Eigener Reaktivierungs-Timer, der nicht durch andere Reaktivierungs-Timer beeinf
 20733,"Du übernimmst die <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verschollenen Kommandos<UIGlow>01</UIGlow><UIForeground>01</UIForeground> des anvisierten befreundeten Ziels.
 Bedingung: Nicht im Kampf."
 20734,"Du lässt die Würfel des Schicksals entscheiden. Was hält das Schicksal wohl für dich bereit?
-Nur im Kampf wirksam."
+Nur im Kampf wirksam.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tränkesammlung des Widerstands<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Elixier des Widerstands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20735,"Du belebst das Ziel wieder, wonach es für gewisse Zeit unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwäche<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet."
 20736,"Wenn du während der Wirkungsdauer k. o. gehst, belebst du dich mit einer Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit von 70<Indent/>%  wieder.
 Dauer: 180 Minuten"
@@ -25573,7 +25576,8 @@ Kann nicht zugleich mit ähnlichen Barriereeffekten aktiv sein.
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tränkesammlung des Widerstands<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Äthersammlung des Widerstands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20740,"Du regenerierst stetig eigene LP.
 Heilpotenzial: 5000
-Dauer: 40 Sekunden"
+Dauer: 40 Sekunden
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Würfel des Schicksals<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Elixier des Widerstands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20741,"Du erhöhst deinen ausgeteilten Schaden um 80<Indent/>%.
 Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
 Effekt endet bei erneuter Ausführung."
@@ -25637,7 +25641,7 @@ Effekt endet bei erneuter Ausführung."
 20761,"Du erhöhst deine Verteidigung um 36<Indent/>% und deine maximalen LP um 12<Indent/>%.
 Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
 Effekt endet bei erneuter Ausführung."
-20762,"Du erhöhst deine Maximal-MP um 60<Indent/>%, die Wirkung deiner Heilmagie um 30<Indent/>% und deinen ausgeteilten Schaden um  24<Indent/>%.
+20762,"Du erhöhst deine Maximal-MP um 60<Indent/>%, die Wirkung deiner Heilmagie um 30<Indent/>% und deinen ausgeteilten Schaden um 24<Indent/>%.
 Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
 Effekt endet bei erneuter Ausführung."
 20763,"Du erhöhst deinen ausgeteilten Schaden um 24<Indent/>% und deine kritische Trefferrate um 18<Indent/>%.
@@ -25649,7 +25653,7 @@ Effekt endet bei erneuter Ausführung."
 20765,"Du verringerst die Wirkung deiner Heilmagie um 70<Indent/>% und erhöhst dafür deinen ausgeteilten Schaden um 120<Indent/>%.
 Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
 Effekt endet bei erneuter Ausführung."
-20766,"Du erhöhst deinen erlittenen Schaden um 60<Indent/>% und verringerst deine Maximal-LP um 30<Indent/>%, erhöhst dafür aber deinen ausgeteilten Schaden um 200<Indent/>%.
+20766,"Du erhöhst deinen erlittenen Schaden um 200<Indent/>% und verringerst deine Maximal-LP um 30<Indent/>%, erhöhst dafür aber deinen ausgeteilten Schaden um 108<Indent/>%.
 Kann nicht zusammen mit anderen <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zaubertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wundertränken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder ähnlichen Tränken eingesetzt werden.
 Effekt endet bei erneuter Ausführung."
 20767,"Du erhöhst deine Ausweichrate um 20<Indent/>%. Außerdem ist deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit auf- und abgesessen erhöht und deine Giftresistenz verstärkt.
@@ -26389,11 +26393,15 @@ EP-Heilpotenzial: 30<Indent/>% des Maximalwerts"
 21491,""
 21492,""
 21493,""
-21494,""
-21495,""
+21494,"Du führst eine physische Attacke aus.
+Attacke-Wert: 440"
+21495,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 400"
 21496,""
-21497,""
-21498,""
+21497,"Du regenerierst LP des Ziels.
+Heilpotenzial: 350"
+21498,"Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: 210"
 21499,""
 21500,""
 21501,""
@@ -26503,10 +26511,20 @@ EP-Heilpotenzial: 30<Indent/>% des Maximalwerts"
 21605,""
 21606,""
 21607,""
-21608,""
-21609,""
+21608,"Du regenerierst LP des Ziels.
+Heilpotenzial: 400"
+21609,"Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
+Heilpotenzial: 200
+Zusatzeffekt: Regeneriert stetig LP des Ziels. Heilpotenzial: 100
+Dauer: 15 Sekunden"
 21610,""
-21611,""
+21611,"Du schaffst eine Kraftzone um dich. Gewährt dir und allen Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in der Zone <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schrein des Stillstands<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und verringert den erlittenen Schaden um 10<Indent/>%.
+Dauer: 18 Sekunden
+Gewährt dir und allen Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in der Zone außerdem LP-Regeneration.
+Heilpotenzial: 100
+Dauer: 15 Sekunden
+Unterbindet Auto-Attacke.
+Effekt endet bei Bewegung, Umdrehen oder Ausführen eines Kommandos."
 21612,""
 21613,""
 21614,""
@@ -26747,7 +26765,10 @@ EP-Heilpotenzial: 30<Indent/>% des Maximalwerts"
 21849,""
 21850,""
 21851,""
-21852,""
+21852,"Du fügst dem Ziel eisbasierten magischen Schaden zu.
+Attacke-Wert: 300
+Zusatzeffekt: Regeneriert 40<Indent/>% der eigenen Maximal-MP.
+"
 21853,""
 21854,""
 21855,""
@@ -26779,11 +26800,21 @@ EP-Heilpotenzial: 30<Indent/>% des Maximalwerts"
 21881,""
 21882,""
 21883,""
-21884,""
+21884,"Du führst eine blitzbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 200
+Zusatzeffekt: Blitzschaden über Zeit
+Attacke-Wert: 30
+Dauer: 18 Sekunden
+"
 21885,""
-21886,""
+21886,"Du regenerierst LP des Ziels.
+Heilpotenzial: 700"
 21887,""
-21888,""
+21888,"Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
+Heilpotenzial: 200
+Zusatzeffekt: Regeneriert stetig LP des Ziels.
+Heilpotenzial: 100
+Dauer: 15 Sekunden"
 21889,""
 21890,""
 21891,""
@@ -26816,7 +26847,7 @@ EP-Heilpotenzial: 30<Indent/>% des Maximalwerts"
 21918,""
 21919,""
 21920,""
-21921,""
+21921,"Du fügst umstehenden Gegnern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Unterbrechung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu und hemmst ihre Bewegung."
 21922,""
 21923,""
 21924,""
@@ -28978,22 +29009,86 @@ Heilpotenzial: 300"
 23904,""
 23905,""
 23906,""
-23907,""
-23908,""
-23909,""
-23910,""
-23911,""
-23912,""
-23913,""
-23914,""
-23915,""
-23916,""
-23917,""
-23918,""
-23919,""
-23920,""
-23921,""
-23922,""
+23907,"Du aktivierst die Rückführung.
+Bedingung: Nicht im Kampf.
+Gemeinsamer Reaktivierungs-Timer mit allen anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie."
+23908,"Du errichtest eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden in der Höhe von 10<Indent/>% der Maximal-LP des Ziels absorbiert.
+Dauer: 30 Sekunden"
+23909,"Du führst eine blitzbasierte magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 300
+Zusatzeffekt: Unterbricht Kommandos der Ziele.
+Zusatzeffekt: Wenn das Ziel unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Magische Schwachstelle<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet, erhöht sich der erlittene Schaden des Ziels um 10<Indent/>%.
+Dauer: 60 Sekunden"
+23910,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 300
+Zusatzeffekt: Unterbricht Kommandos der Ziele.
+Zusatzeffekt: Wenn das Ziel unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Physische Schwachstelle<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet, erhöht sich der erlittene Schaden des Ziels um 10<Indent/>%.
+Dauer: 60 Sekunden"
+23911,"Du gewährst dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollene Reflektion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollene Reflektion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du errichtest eine Barriere um dich oder ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, die fast alle magischen Attacken auf den Angreifer reflektiert.
+Dauer: 10 Sekunden
+Gemeinsamer Reaktivierungs-Timer mit allen anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie."
+23912,"Du gewährst dir oder dem befreundeten Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rückkehr aus dem Jenseits<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rückkehr aus dem Jenseits<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Bei Kampfunfähigkeit 80<Indent/>% Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit auf automatische Wiederbelebung.
+Dauer: 180 Minuten"
+23913,"Du kannst Zauber sofort wirken.
+Dauer: 30 Sekunden
+Bedingung: Im Kampf
+Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Magieexplosion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Magieexplosion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du erhöhst den Schaden magischer Attacken im Austausch für erhöhten MP-Verbrauch um 45<Indent/>%.
+Dauer: 30 Sekunden
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trank des Priesters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Zusätzlicher MP-Verbrauch wird auf 0 gesenkt und der ausgeteilte Schaden um 100<Indent/>% erhöht.
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trank des Spähers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Dauer von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollene Zauberkette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird auf 90 Sekunden erhöht."
+23914,"Du führst eine physische Nahkampfattacke aus.
+Attacke-Wert: 350
+Von hinten:  Ziel kann kampfunfähig werden. Je weniger LP das Ziel hat, desto größer ist die Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit.
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trank der Wolfsleute<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollene Machtfontäne<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollene Machtfontäne<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du erhöhst deinen ausgeteilten Schaden um 30<Indent/>% und deine kritische Trefferrate um 40<Indent/>%.
+Dauer: 18 Sekunden
+Eigener Reaktivierungs-Timer, der nicht durch andere Reaktivierungs-Timer beeinflusst wird."
+23915,"Du errichtest einen Schild um dich oder das Ziel, der erlittenen physischen Schaden um 15<Indent/>% verringert.
+Dauer: 30 Minuten"
+23916,"Du errichtest einen Schild um dich oder das Ziel, der erlittenen magischen Schaden um 15<Indent/>% verringert.
+Dauer: 30 Minuten"
+23917,"Du erhöhst die Maximal-LP von dir oder dem Ziel um 30<Indent/>%.
+Dauer: 600 Sekunden"
+23918,"Du schnellst 10 Yalme nach vorne.
+Zusatzeffekt: Verleiht dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollene Eile<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollene Eile<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit beträchtlich. Wenn mehrere Effekte die Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit erhöhen, wird nur einer angewendet.
+Dauer: 10 Sekunden
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trank des Diebes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht Ausweichrate von dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern um 15<Indent/>%.
+Dauer: 60 Sekunden
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trank des Spähers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verleiht dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Velocitas<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Velocitas<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit des nächsten während der Wirkungsdauer gewirkten Talents ist um 25<Indent/>% verkürzt.
+Dauer: 15 Sekunden
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+23919,"Du entfernst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwäche<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, machst dich gegen fast alle Attacken unverwundbar und erhöhst deinen ausgeteilten Schaden um 65<Indent/>%.
+Dauer: 10 Sekunden
+Bedingung: im Kampf
+Nach Ende: Verleiht <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Segen des Helden<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Segen des Helden<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht deinen ausgeteilten Schaden um 65<Indent/>% und verringert deinen erlittenen Schaden um 10<Indent/>%.
+Dauer: 50 Sekunden"
+23920,"Du stellst alle LP und MP von dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern wieder her.
+Zusatzeffekt: Verleiht dir und nahestehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-Heiltrank<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-Äther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-Heiltrank<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du regenerierst automatisch LP, sobald sie unter 50<Indent/>% sinken.
+Dauer: 600 Sekunden
+Sobald der Effekt ausgelöst wurde, endet der Status mit einer Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit von 50<Indent/>%.
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trank des Diebes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Der Status endet nur mit einer Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit von 10<Indent/>%.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-Äther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du regenerierst automatisch MP, sobald sie unter 20<Indent/>% sinken.
+Dauer: 600 Sekunden
+Sobald der Effekt ausgelöst wurde, endet der Status mit einer Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit von 50<Indent/>%.
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trank des Diebes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Der Status endet nur mit einer Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit von 10<Indent/>%.
+"
+23921,"Du gewährst dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollener Blutzorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verschollener Blutzorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Jeder Stapel erhöht deinen ausgeteilten Schaden um 5<Indent/>% und verringert deinen erlittenen Schaden um 5<Indent/>%. Jedes Ausführen von Attacken mit Nachvornespringen fügt 1 Stapel hinzu und setzt die Dauer zurück.
+Dauer: 18 Sekunden
+Nur im Kampf wirksam.
+Maximalstapelzahl: 4
+Status ändert sich zu <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erwachtes Blut<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, sobald die Maximalstapelzahl erreicht ist.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erwachtes Blut<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht deinen ausgeteilten Schaden um 60<Indent/>%, stellt schrittweise LP und MP wieder her und verkürzt die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von während der Wirkung ausgelösten Talenten um 75<Indent/>%.
+Dauer: 30 Sekunden"
+23922,"Du stellst alle eigenen LP und MP wieder her.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tränkesammlung des Widerstands<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Würfel des Schicksals<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 23923,""
 23924,""
 23925,""
@@ -29691,8 +29786,8 @@ Heilpotenzial: 300"
 24616,""
 24617,""
 24618,""
-24619,"Du feuerst eine Salve aus weißen Partikeln, die schwarzen Barrieren und Türmen zusetzt."
-24620,"Du feuerst eine Salve aus schwarzen Partikeln, die weißen Barrieren und Türmen zusetzt."
+24619,"Du feuerst eine Salve aus digitalen Partikeln, die schwarzen Barrieren und Türmen zusetzt."
+24620,"Du feuerst eine Salve aus digitalen Partikeln, die weißen Barrieren und Türmen zusetzt."
 24621,"Du kehrst deinen Farbton um."
 24622,"Du kehrst deinen Farbton um."
 24623,""

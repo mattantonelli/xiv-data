@@ -3641,17 +3641,17 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0
 3613,"Große Gebetshalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die große Gebetshalle</Case><Case(2)>in der großen Gebetshalle</Case><Case(3)>die große Gebetshalle</Case></Switch>",0,0
 3614,"Halle des Orakels",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Halle des Orakels</Case><Case(2)>in der Halle des Orakels</Case><Case(3)>die Halle des Orakels</Case></Switch>",0,0
 3615,"Saal des Löwen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Saal des Löwen</Case><Case(2)>im Saal des Löwen</Case><Case(3)>der Saal des Löwen</Case></Switch>",0,0
-3616,"Ort des Klingenden Kristalls",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>an den Ort des Klingenden Kristallsn</Case><Case(2)>am Ort des Klingenden Kristalls</Case><Case(3)>der Ort des Klingenden Kristalls</Case></Switch>",0,0
+3616,"Ort des Klingenden Kristalls",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>an den Ort des Klingenden Kristalls</Case><Case(2)>am Ort des Klingenden Kristalls</Case><Case(3)>der Ort des Klingenden Kristalls</Case></Switch>",0,0
 3617,"Zimmer der Abgeschiedenheit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Zimmer der Abgeschiedenheit</Case><Case(2)>im Zimmer der Abgeschiedenheit</Case><Case(3)>das Zimmer der Abgeschiedenheit</Case></Switch>",0,0
 3618,"Sanktuarium des Lebens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Sanktuarium des Lebens</Case><Case(2)>im Sanktuarium des Lebens</Case><Case(3)>das Sanktuarium des Lebens</Case></Switch>",0,0
 3619,"Saal der Dienerinnen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Saal der Dienerinnen</Case><Case(2)>im Saal der Dienerinnen</Case><Case(3)>der Saal der Dienerinnen</Case></Switch>",0,0
 3620,"Burg Selard",0,"",0,0,1,0,0,"",0,0
-3621,"Cieldaläen - Hochsee",0,"",0,0,1,0,0,"",0,0
-3622,"Cieldaläen - Phantomströmung",0,"",0,0,1,0,0,"",0,0
-3623,"Schwerblütiges Meer - Hochsee",0,"",0,0,1,0,0,"",0,0
-3624,"Schwerblütiges Meer - Phantomströmung",0,"",0,0,1,0,0,"",0,0
-3625,"Rothlyt-Meerbusen - Hochsee",0,"",0,0,1,0,0,"",0,0
-3626,"Rothlyt-Meerbusen - Phantomströmung",0,"",0,0,1,0,0,"",0,0
+3621,"Cieldaläen - Hochsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Cieldaläen - Hochsee</Case><Case(2)>in den Cieldaläen - Hochsee</Case><Case(3)>die Cieldaläen - Hochsee</Case></Switch>",0,0
+3622,"Cieldaläen - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Cieldaläen - Phantomströmung</Case><Case(2)>in den Cieldaläen - Phantomströmung</Case><Case(3)>die Cieldaläen - Phantomströmung</Case></Switch>",0,0
+3623,"Schwerblütiges Meer - Hochsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schwerblütigen Meer - Hochsee</Case><Case(2)>im Schwerblütigen Meer - Hochsee</Case><Case(3)>das Schwerblütigen Meer - Hochsee</Case></Switch>",0,0
+3624,"Schwerblütiges Meer - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schwerblütigen Meer - Phantomströmung</Case><Case(2)>im Schwerblütigen Meer - Phantomströmung</Case><Case(3)>das Schwerblütigen Meer - Phantomströmung</Case></Switch>",0,0
+3625,"Rothlyt-Meerbusen - Hochsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Rothlyt-Meerbusen - Hochsee</Case><Case(2)>in den Rothlyt-Meerbusen - Hochsee</Case><Case(3)>der Rothlyt-Meerbusen - Hochsee</Case></Switch>",0,0
+3626,"Rothlyt-Meerbusen - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Rothlyt-Meerbusen - Phantomströmung</Case><Case(2)>im Rothlyt-Meerbusen - Phantomströmung</Case><Case(3)>der Rothlyt-Meerbusen - Phantomströmung</Case></Switch>",0,0
 3627,"Östliche Rubinsee",0,"",0,0,1,0,0,"",0,0
 3628,"<Emphasis>Kobayashi Maru</Emphasis> (Norden)",0,"",0,0,1,0,0,"",0,0
 3629,"Versunkene Dschunke (Süden)",0,"",0,0,1,0,0,"",0,0
@@ -3687,27 +3687,27 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0
 3659,"Sammelknoten D",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sammelknoten D</Case><Case(2)>im Sammelknoten D</Case><Case(3)>der Sammelknoten D</Case></Switch>",0,0
 3660,"Aufzug",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Aufzug</Case><Case(2)>im Aufzug</Case><Case(3)>der Aufzug</Case></Switch>",0,0
 3661,"Zenit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zenit</Case><Case(2)>auf dem Zenit</Case><Case(3)>der Zenit</Case></Switch>",0,0
-3662,"",0,"",0,0,0,0,0,"",0,0
+3662,"Zadnor-Hochebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Zadnor-Hochebene</Case><Case(2)>auf der Zadnor-Hochebene</Case><Case(3)>die Zadnor-Hochebene</Case></Switch>",0,6
 3663,"Gefechtsplattform des G-Retters",0,"",0,0,1,0,0,"",0,0
-3664,"",0,"",0,0,0,0,0,"",0,0
-3665,"",0,"",0,0,0,0,0,"",0,0
-3666,"",0,"",0,0,0,0,0,"",0,0
-3667,"",0,"",0,0,0,0,0,"",0,0
-3668,"",0,"",0,0,0,0,0,"",0,0
-3669,"",0,"",0,0,0,0,0,"",0,0
-3670,"",0,"",0,0,0,0,0,"",0,0
-3671,"",0,"",0,0,0,0,0,"",0,0
-3672,"",0,"",0,0,0,0,0,"",0,0
-3673,"",0,"",0,0,0,0,0,"",0,0
-3674,"",0,"",0,0,0,0,0,"",0,0
-3675,"",0,"",0,0,0,0,0,"",0,0
-3676,"",0,"",0,0,0,0,0,"",0,0
-3677,"",0,"",0,0,0,0,0,"",0,0
-3678,"",0,"",0,0,0,0,0,"",0,0
-3679,"",0,"",0,0,0,0,0,"",0,0
-3680,"",0,"",0,0,0,0,0,"",0,0
-3681,"",0,"",0,0,0,0,0,"",0,0
-3682,"",0,"",0,0,0,0,0,"",0,0
+3664,"Vrdelnis-Gemarkung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Vrdelnis-Gemarkung</Case><Case(2)>in der Vrdelnis-Gemarkung</Case><Case(3)>die Vrdelnis-Gemarkung</Case></Switch>",0,0
+3665,"Außenposten Zuprtik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Außenposten Zuprtik</Case><Case(2)>im Außenposten Zuprtik</Case><Case(3)>der Außenposten Zuprtik</Case></Switch>",0,0
+3666,"Außenposten Ljeban",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Außenposten Ljeban</Case><Case(2)>im Außenposten Ljeban</Case><Case(3)>der Außenposten Ljeban</Case></Switch>",0,0
+3667,"Außenposten Hrmovir",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Außenposten Hrmovir</Case><Case(2)>im Außenposten Hrmovir</Case><Case(3)>der Außenposten Hrmovir</Case></Switch>",0,0
+3668,"Südliches Plateau",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum südlichen Plateau</Case><Case(2)>auf dem südlichen Plateau</Case><Case(3)>das südliche Plateau</Case></Switch>",0,0
+3669,"Westliches Plateau",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum westlichen Plateau</Case><Case(2)>auf dem westlichen Plateau</Case><Case(3)>das westliche Plateau</Case></Switch>",0,0
+3670,"Nördliches Plateau",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum nördlichen Plateau</Case><Case(2)>auf dem nördlichen Plateau</Case><Case(3)>das nördliche Plateau</Case></Switch>",0,0
+3671,"Castellum Zadnori",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Castellum Zadnori</Case><Case(2)>in Castellum Zadnori</Case><Case(3)>das Castellum Zadnori</Case></Switch>",0,0
+3672,"Kriegsbug",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kriegsbug</Case><Case(2)>auf dem Kriegsbug</Case><Case(3)>der Kriegsbug</Case></Switch>",0,0
+3673,"Flaggendeck",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Flaggendeck</Case><Case(2)>auf dem Flaggendeck</Case><Case(3)>das Flaggendeck</Case></Switch>",0,0
+3674,"Allagische Gruben",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den allagischen Gruben</Case><Case(2)>in den allagischen Gruben</Case><Case(3)>die allagischen Gruben</Case></Switch>",0,0
+3675,"Kriegsschiff-Ankerplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kriegsschiff-Ankerplatz</Case><Case(2)>auf dem Kriegsschiff-Ankerplatz</Case><Case(3)>der Kriegsschiff-Ankerplatz</Case></Switch>",0,0
+3676,"Ladebereich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ladebereich</Case><Case(2)>im Ladebereich</Case><Case(3)>der Ladebereich</Case></Switch>",0,0
+3677,"Ladekontrollraum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ladekontrollraum</Case><Case(2)>im Ladekontrollraum</Case><Case(3)>der Ladekontrollraum</Case></Switch>",0,0
+3678,"Bereich Magitek-Forschung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Bereich Magitek-Forschung</Case><Case(2)>im Bereich Magitek-Forschung</Case><Case(3)>der Bereich Magitek-Forschung</Case></Switch>",0,0
+3679,"Bereich Antriebssteuerung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Bereich Antriebssteuerung</Case><Case(2)>im Bereich Antriebssteuerung</Case><Case(3)>der Bereich Antriebssteuerung</Case></Switch>",0,0
+3680,"Großer Stauraum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Großen Stauraum</Case><Case(2)>im Großen Stauraum</Case><Case(3)>der Große Stauraum</Case></Switch>",0,0
+3681,"Eingestürzte Grube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu der eingestürzten Grube</Case><Case(2)>in der eingestürzten Grube</Case><Case(3)>die eingestürzte Grube</Case></Switch>",0,0
+3682,"Die <Emphasis>Dalriada</Emphasis>",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die <Emphasis>Dalriada</Emphasis></Case><Case(2)>in der <Emphasis>Dalriada</Emphasis></Case><Case(3)>die <Emphasis>Dalriada</Emphasis></Case></Switch>",0,0
 3683,"Hühnerstall der Träumerin ",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hühnerstall der Träumerin</Case><Case(2)>im Hühnerstall der Träumerin</Case><Case(3)>der Hühnerstall der Träumerin</Case></Switch>",0,0
 3684,"",0,"",0,0,0,0,0,"",0,0
 3685,"",0,"",0,0,0,0,0,"",0,0

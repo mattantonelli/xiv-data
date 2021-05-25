@@ -16131,7 +16131,7 @@ Ne peut pas être utilisé sous l'effet Entrave."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Lenteur 20%.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> après une esquive."
-12988,"Réduit de 50% le temps de recharge de la prochaine action lancée.
+12988,"Réduit de 50% le temps de recharge de la prochaine aptitude lancée.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 12989,"Restaure les PV de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 9000
@@ -25619,7 +25619,8 @@ Cette technique d'arme a un temps de recharge indépendant."
 20530,""
 20531,""
 20532,""
-20533,""
+20533,"Effectue une attaque magique neutre sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200"
 20534,""
 20535,""
 20536,""
@@ -25918,7 +25919,8 @@ Cette technique d'arme a un temps de recharge indépendant qui n'est pas affect�
 20733,"Vous copiez le set d'actions oubliées de l'allié ciblé.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> hors combat."
 20734,"Vous faites rouler le dé du destin. Mais sera-t-il de votre côté aujourd'hui<Indent/>?
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> en combat."
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> en combat.
+Partage le même temps de recharge que <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Potion de la résistance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Élixir de la résistance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20735,"Ressuscite la cible avec l'effet Affaiblissement."
 20736,"Offre 70% de chance de ressusciter au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment en cas de K.O.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 180m"
@@ -25940,7 +25942,8 @@ Ne peut être cumulé avec des effets du même type.
 Partage le même temps de recharge que <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kit de potion de la résistance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kit d'éther de la résistance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20740,"Restaure périodiquement vos PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5000
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 40s"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 40s
+Partage le même temps de recharge que <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dé du destin<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Élixir de la résistance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20741,"Augmente de 80% vos dégâts infligés.
 Ne peut pas être utilisé en même temps qu'une autre action de type <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Breuvage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20742,"Augmente de 60% vos dégâts infligés.
@@ -26725,11 +26728,15 @@ Ne peut pas être utilisé en même temps qu'une autre action de type <UIForegro
 21491,""
 21492,""
 21493,""
-21494,""
-21495,""
+21494,"Effectue une attaque physique sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 440"
+21495,"Effectue une attaque physique sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400"
 21496,""
-21497,""
-21498,""
+21497,"Restaure les PV de la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 350"
+21498,"Effectue une attaque magique neutre sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 210"
 21499,""
 21500,""
 21501,""
@@ -26839,10 +26846,20 @@ Ne peut pas être utilisé en même temps qu'une autre action de type <UIForegro
 21605,""
 21606,""
 21607,""
-21608,""
-21609,""
+21608,"Restaure les PV de la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400"
+21609,"Restaure vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 21610,""
-21611,""
+21611,"Crée un signe fixe autour de vous.
+Réduit de 10% les dégâts subis par vous et les équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s
+Octroie également un effet de restauration périodique de PV à vous et aux équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+L'effet prend fin si vous effectuez une action, un déplacement ou une rotation.
+Interrompt vos attaques automatiques."
 21612,""
 21613,""
 21614,""
@@ -27083,7 +27100,9 @@ Ne peut pas être utilisé en même temps qu'une autre action de type <UIForegro
 21849,""
 21850,""
 21851,""
-21852,""
+21852,"Effectue une attaque magique de glace sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure 40% de vos PM maximums."
 21853,""
 21854,""
 21855,""
@@ -27115,11 +27134,18 @@ Ne peut pas être utilisé en même temps qu'une autre action de type <UIForegro
 21881,""
 21882,""
 21883,""
-21884,""
+21884,"Effectue une attaque magique de foudre sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> dégâts périodiques de foudre.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s"
 21885,""
-21886,""
+21886,"Restaure des PV à la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 700"
 21887,""
-21888,""
+21888,"Restaure vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement vos PV et ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 21889,""
 21890,""
 21891,""
@@ -27152,7 +27178,7 @@ Ne peut pas être utilisé en même temps qu'une autre action de type <UIForegro
 21918,""
 21919,""
 21920,""
-21921,""
+21921,"Empêche toute action des ennemis alentour et les immobilise."
 21922,""
 21923,""
 21924,""
@@ -29313,22 +29339,86 @@ Partage le même temps de recharge que d'autres actions de magie bleue."
 23904,""
 23905,""
 23906,""
-23907,""
-23908,""
-23909,""
-23910,""
-23911,""
-23912,""
-23913,""
-23914,""
-23915,""
-23916,""
-23917,""
-23918,""
-23919,""
-23920,""
-23921,""
-23922,""
+23907,"Lance le sort Rapatriement qui vous téléporte à votre point de retour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> hors combat.
+Partage le même temps de recharge que les sorts et les techniques d'arme."
+23908,"Crée une barrière sur vous et les équipiers alentour, absorbant les dégâts subis pour un total de 10% des PV maximums.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
+23909,"Effectue une attaque magique de foudre sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> interrompt le lancement d'une action par la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% les dégâts subis par les ennemis atteints de Faiblesse magique.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s"
+23910,"Effectue une attaque physique sur les ennemis alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> interrompt le lancement d'une action par la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% les dégâts subis par les ennemis atteints de Faiblesse physique.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s"
+23911,"Vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Miroir oublié<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Miroir oublié<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie une protection à la cible qui renvoie la plupart des sorts de magie subis sur leur lanceur.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+Partage le même temps de recharge que les sorts et les techniques d'arme."
+23912,"Octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Auréole<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à vous ou à l'allié ciblé.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auréole<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> offre 80% de chance de ressusciter au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment en cas de K.O.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 180m"
+23913,"Rend instantané le lancement des sorts.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée avec un breuvage d'éclaireur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> en combat.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Explosion magique<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Explosion magique<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente les dégâts des sorts de 45% et les PM consommés par les actions.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage de prêtre<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> durant Explosion magique, les actions ne consomment plus de PM, et l'augmentation des dégâts des sorts passe à 100%."
+23914,"Effectue une attaque physique de corps-à-corps sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 350
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel par derrière<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> tente d'achever instantanément la cible. Moins elle a de PV, plus les chances de succès sont élevées.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage d'homme-loup<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fontaine de puissance oubliée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fontaine de puissance oubliée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 30% vos dégâts infligés et de 40% vos chances de critiques.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s
+Cette technique d'arme a un temps de recharge indépendant qui n'est pas affecté par ceux des sorts et des autres techniques d'armes."
+23915,"Réduit de 15% les dégâts physiques subis par vous ou le joueur ciblé.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30m"
+23916,"Réduit de 15% les dégâts magiques subis par vous ou le joueur ciblé.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30m"
+23917,"Augmente de 30% vos PV maximums ou ceux du joueur ciblé.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600s"
+23918,"Permet de se déplacer rapidement de 10 yalms vers l'avant.
+Ne peut pas être utilisé sous l'effet Entrave.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vélocité oubliée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à vous et aux équipiers alentours.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vélocité oubliée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente grandement votre vitesse de déplacement.
+Si vous bénéficiez d'un autre effet d'augmentation de vitesse, seul l'un d'entre eux s'applique.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage de voleur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 15% les chances d'esquive pour vous et les équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage d'éclaireur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Recharge rapide<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à vous et aux équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Recharge rapide<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 25% le temps de recharge de la prochaine aptitude.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+23919,"Guérit de l'altération d'état <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Affaiblissement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, annule les dégâts de la plupart des attaques contre soi et augmente de 65% les dégâts infligés.
+* Ne permet pas de guérir l'altération d'état <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mourant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> en combat.
+Octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vaillance héroïque<UIGlow>01</UIGlow><UIForeground>01</UIForeground> lorsque l'effet s'est écoulé.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vaillance héroïque<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 65% les dégâts infligés et réduit de 10% les dégâts subis.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50s"
+23920,"Restaure l'intégralité de vos PV et de vos PM ainsi que ceux des équipiers alentour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Auto-potion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Auto-éther<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à vous et aux équipiers alentours.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-potion<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment vos PV s'ils tombent en dessous de 50%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600s
+Cet effet a 50% de chance de prendre fin chaque fois qu'il se déclenche.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage de voleur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> les chances pour l'effet de prendre fin au déclenchement sont réduites à 10%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-éther<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment vos PM s'ils tombent en dessous de 20%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600s
+Cet effet a 50% de chance de prendre fin chaque fois qu'il se déclenche.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage de voleur<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> les chances pour l'effet de prendre fin au déclenchement sont réduites à 10%."
+23921,"Vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rage sanguinaire oubliée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rage sanguinaire oubliée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente les dégâts infligés de 15% et réduit les dégâts subis de 5% par degré. L'effet augmente d'un degré à chaque action de déplacement exécutée pendant sa durée (maximum 4).
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> en combat.
+Au degré maximal, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rage sanguinaire oubliée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Éveil du sang<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Éveil du sang<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 60% les dégâts infligés, restaure périodiquement les PV ainsi que les PM, et réduit de 75% les temps de recharge des aptitudes pendant la durée de l'effet.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
+23922,"Restaure l'intégralité de vos PV et de vos PM.
+Partage le même temps de recharge que <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Potion de la résistance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dé du destin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 23923,""
 23924,""
 23925,""
