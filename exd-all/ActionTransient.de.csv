@@ -10871,6 +10871,7 @@ Attacke-Wert: 800
 Zusatzeffekt: Blutbalken füllt sich um 10."
 8776,"Du führst eine physische Attacke aus
 Attacke-Wert: 1800
+Zusatzeffekt: 100 % des ausgeteilten Schadens werden als LP absorbiert.
 Zusatzeffekt: 500 MP werden regeneriert.
 Blutbalken-Kosten: 50"
 8777,"Du schnellst zum Ziel hin und führst eine physische Attacke aus.
@@ -10932,7 +10933,7 @@ Dauer: 6 Sekunden
 Zusatzeffekt: Errichtet eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 2500 absorbiert.
 Dauer: 6 Sekunden"
 8789,"Du führst eine physische Attacke aus.
-Attacke-Wert: 2000
+Attacke-Wert: 1800
 Maximale Aufladungen: 2"
 8790,"Du führst eine physische Attacke aus.
 Attacke-Wert: 2000
@@ -11233,7 +11234,7 @@ Attacke-Wert: 1400
 Zusatzeffekt: Hitzebalken füllt sich um 10.
 Kann nicht im Kommandomenü angelegt werden."
 8851,"Du führst eine physische Attacke aus.
-Attacke-Wert: 1200
+Attacke-Wert: 1400
 Zusatzeffekt: Verkürzt die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Gauß-Geschoss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Rikoschettschuss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 7,5 Sekunden.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
@@ -11269,7 +11270,7 @@ Attacke-Wert: 400
 Zusatzeffekt: Schaden über Zeit
 Attacke-Wert: 400
 Dauer: 15 Sekunden
-Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzga-bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, wenn du dem vom Blitz getroffenen Ziel 6000 Schaden zufügst. Blitzschaden über Zeit endet dafür.
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzga-bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, wenn du dem vom Blitz getroffenen Ziel 8000 Schaden zufügst. Blitzschaden über Zeit endet dafür.
 Dauer: 10 Sekunden
 Kommando wird bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzga-bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blitzga<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 8861,"Du führst eine magische Attacke aus.
@@ -11277,7 +11278,7 @@ Attacke-Wert: 2400
 Zusatzeffekt: Schaden über Zeit
 Attacke-Wert: 400
 Dauer: 15 Sekunden
-Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzga-bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, wenn du dem vom Blitz getroffenen Ziel 6000 Schaden zufügst. Blitzschaden über Zeit endet dafür.
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzga-bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, wenn du dem vom Blitz getroffenen Ziel 8000 Schaden zufügst. Blitzschaden über Zeit endet dafür.
 Dauer: 10 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzga-bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
@@ -12721,10 +12722,10 @@ Dauer: 30 Sekunden
 Zusatzeffekt: Du regenerierst 1000 MP."
 10027,"Du ziehst entweder den <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>König der Kronen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Königin der Kronen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 10028,"Du erhöhst deinen ausgeteilten Schaden oder den eines Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds um 20<Indent/>%.
-Dauer: 10 Sekunden
+Dauer: 15 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
 10029,"Du verringerst deinen erlittenen Schaden oder den eines Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds um 20<Indent/>%.
-Dauer: 10 Sekunden
+Dauer: 15 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
 10030,""
 10031,""
@@ -21480,7 +21481,7 @@ Dauer: 3 Sekunden"
 17691,"Du führst eine physische Attacke aus.
 Attacke-Wert: 2000
 Zusatzeffekt: Du regenerierst 500 MP.
-Zusatzeffekt: Eidbalken füllt sich um 5.
+Zusatzeffekt: Eidbalken füllt sich um 10.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwert-Eid<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 17692,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
@@ -21525,6 +21526,7 @@ Maximale Aufladungen: 2"
 Dauer: 10 Sekunden "
 17700,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 1000
+Zusatzeffekt: 100 % des ausgeteilten Schadens werden als LP absorbiert.
 Zusatzeffekt: Regeneriert 250 MP pro Treffer.
 Blutbalken-Kosten: 50"
 17701,"Du führst eine elementneutrale magische Attacke aus.
@@ -21820,7 +21822,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>En Avant<UI
 Kommando ändert sich während des Tanzes zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Pas Emboite der Rose<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Kann nicht im Kommandomenü angelegt werden."
 17760,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 1800
+Attacke-Wert: 2000
 Zusatzeffekt: Eigener ausgeteilter Schaden und der Schaden des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 10<Indent/>% erhöht.
 Dauer: 15 Sekunden
 Tanzfieberkosten: 50"
@@ -21867,9 +21869,9 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -21878,9 +21880,9 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -21889,9 +21891,9 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -21914,7 +21916,7 @@ Attacke-Wert: 1200
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phönix-Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
 17780,"Du führst eine magische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
-Attacke-Wert: 1000
+Attacke-Wert: 1600
 Zusatzeffekt: Entfernt jegliche Regenerations- und Barriere-Effekte der Ziele."
 17781,"Du begibst dich in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phönix-Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
@@ -21983,7 +21985,7 @@ Zusatzeffekt: Heileffekte auf das Ziel sind um 10<Indent/>% verringert.
 Dauer: 15 Sekunden
 Zusatzeffekt: Feenbalken füllt sich um 20."
 17797,"Du führst eine magische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 1600
+Attacke-Wert: 2000
 Zusatzeffekt: Feenbalken füllt sich um 10 pro Treffer."
 17798,"Du rufst deinen Seraphen herbei, der mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schleier der Seraphim<UIGlow>01</UIGlow><UIForeground>01</UIForeground> automatisch bei einem Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied LP regeneriert.
 Dauer: je nach Stand des Feenbalkens, max. 22 Sekunden
@@ -22017,7 +22019,7 @@ Attacke-Wert: 800
 Zusatzeffekt: Ausgeteilter Schaden und Heileffekte des Ziels sind um 10<Indent/>% verringert.
 Dauer: 15 Sekunden"
 17807,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 800 bis 3200
+Attacke-Wert: 1600 bis 3200
 Attacke-Wert steigt, je mehr LP das Ziel noch hat.
 Eigener Reaktivierungs-Timer"
 17808,""
@@ -22046,11 +22048,11 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
-3 Schritte: 800 bis 2400
-4 Schritte: 1000 bis 3000
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
+3 Schritte: 1200 bis 2400
+4 Schritte: 1500 bis 3000
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -22059,11 +22061,11 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
-3 Schritte: 800 bis 2400
-4 Schritte: 1000 bis 3000
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
+3 Schritte: 1200 bis 2400
+4 Schritte: 1500 bis 3000
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -22072,11 +22074,11 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
-3 Schritte: 800 bis 2400
-4 Schritte: 1000 bis 3000
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
+3 Schritte: 1200 bis 2400
+4 Schritte: 1500 bis 3000
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -22085,11 +22087,11 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
-3 Schritte: 800 bis 2400
-4 Schritte: 1000 bis 3000
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
+3 Schritte: 1200 bis 2400
+4 Schritte: 1500 bis 3000
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -22098,11 +22100,11 @@ Attacke-Wert umso höher, je näher du deinen Gegnern bist.
 Zusatzeffekt: Erhöht den Tanzfieberbalken um 5 pro Treffer.
 Tanzschritt-Bonus: Eigene (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie und die des von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5<Indent/>% verkürzt.
 Attacke-Wert und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Bonus variiert mit der Anzahl der Tanzschritte:
-0 Schritte: 200 bis 600
-1 Schritt: 400 bis 1200
-2 Schritte: 600 bis 1800
-3 Schritte: 800 bis 2400
-4 Schritte: 1000 bis 3000
+0 Schritte: 300 bis 600
+1 Schritt: 600 bis 1200
+2 Schritte: 900 bis 1800
+3 Schritte: 1200 bis 2400
+4 Schritte: 1500 bis 3000
 Dauer: 60 Sekunden
 Löst die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten und Finalen aus. Kann nicht während der Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten, Tanzschritten oder Finalen angewendet werden.
 Kann nicht im Kommandomenü angelegt werden."
@@ -22181,8 +22183,8 @@ Dauer: 6 Sekunden"
 17890,"Du entziehst deinem Ziel Blut, um dich selbst damit zu stärken. Ist ein solcher Effekt bereits aktiv, wird er überschrieben.
 Wenn das Ziel ein Nahkampfangreifer ist, wird sein erlittener Schaden um 10<Indent/>% erhöht, dein erlittener Schaden um 10<Indent/>% verringert.
 Wenn das Ziel ein Fernangreifer ist, werden sein ausgeteilter Schaden und seine Heileffekte um 10<Indent/>% verringert, dein ausgeteilter Schaden und die Wirkung deiner Heileffekte wird um 10<Indent/>% erhöht.
-Dauer der Schadenserhöhung: 10 Sekunden
-Dauer der Schadensreduzierung: 60 Sekunden"
+Dauer der Schadenserhöhung: 15 Sekunden
+Dauer der Schadensreduzierung: 15 Sekunden"
 17891,"Du regenerierst LP des Ziels.
 Heilpotenzial: 3000
 Zusatzeffekt: Regeneriert stetig LP des Ziels.
@@ -22287,8 +22289,8 @@ Dauer: 10 Sekunden"
 17987,""
 17988,""
 17989,""
-17990,"Du erhöhst die Wirkung deiner Heilmagie um 50<Indent/>%.
-Dauer: 6 Sekunden
+17990,"Dein ausgeteilter Schaden ist um 25<Indent/>% und die Wirkung deiner Heilmagie um 50<Indent/>% erhöht.
+Dauer: 10 Sekunden
 Zusatzeffekt: Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Revitalisierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Unbezwingbarkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 15 Sekunden verkürzt
 Feenbalken-Kosten: 50"
 17991,"Du entfernst jegliche Regenerations- und Barriere-Effekte von allen umstehenden Gegnern und gewährst dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in der Nähe die folgenden Effekte:
@@ -23362,7 +23364,7 @@ Kann nicht im Kommandomenü angelegt werden."
 18899,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 1200
 Zusatzeffekt: Regeneriert 250 MP pro Treffer.
-Zusatzeffekt: Eidbalken füllt sich um 5.
+Zusatzeffekt: Eidbalken füllt sich um 10.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwert-Eid<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 18900,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
@@ -23567,7 +23569,7 @@ Maximalstapelzahl: 3"
 Heilpotenzial: 1000
 Zusatzeffekt: Errichtet eine Barriere um die Ziele, die Schaden in der Höhe von 100<Indent/>% der Heilwirkung absorbiert.
 Dauer: 10 Sekunden
-Zusatzeffekt bei erfolgreich geheilten LP: Feenbalken füllt sich um 5 pro Treffer."
+Zusatzeffekt: Feenbalken füllt sich um 10."
 18948,"Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
 Heilpotenzial: 1500
 Maximale Aufladungen: 3
@@ -23603,7 +23605,7 @@ Dauer: 6 Sekunden"
 18955,"Während der Wirkungsdauer erhöhst du den Schaden der nächsten Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit um 50<Indent/>%.
 Dauer: 5 Sekunden"
 18956,"Du führst eine magische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 1200
+Attacke-Wert: 1600
 Zusatzeffekt: Verlängert die (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie des Ziels um 20<Indent/>%.
 Dauer: 10 Sekunden"
 18957,"Du erhöhst die Wirkung deiner Heilkommandos um 25<Indent/>%.

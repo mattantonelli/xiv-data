@@ -12573,7 +12573,7 @@ Chaque image complétée vous fera gagner des “folioles irréelles”."
 13820,"Mémento"
 13821,"Affrontements en cours"
 13822,"Cristaux bozjiens"
-13823,"La difficulté de ce combat dépasse de loin votre rang de résistant<If(PlayerParameter(4))>e<Else/></If>.
+13823,"Le combat qui vous attend sera ardu.
 Y participer quand même<Indent/>?"
 13824,"Participer"
 13825,"Abandonner"

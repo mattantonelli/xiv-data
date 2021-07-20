@@ -11039,6 +11039,7 @@ Vous immunise également contre les effets Étourdissement, Sommeil, Entrave, Pe
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de sang<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 10."
 8776,"Effectue une attaque physique sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbe en PV 100% des dégâts infligés.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure 500 de vos PM.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coût Jauge de sang<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
 8777,"Vous rapproche de la cible et effectue une attaque physique sur elle.
@@ -11099,7 +11100,7 @@ Ne peut pas être utilisé sous l'effet Entrave."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie une barrière absorbant un certain montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2500 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s"
 8789,"Effectue une attaque physique sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1800
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2"
 8790,"Effectue une attaque physique sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000
@@ -11414,7 +11415,7 @@ Les dégâts sont déterminés par le degré d'<UIForeground>F201F4</UIForegroun
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 8851,"Effectue une attaque physique sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1400
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 7,5s le temps de recharge de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Décharge Gauss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ricochet<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Surchauffe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
@@ -11454,7 +11455,7 @@ Si la jauge atteint 100, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGl
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> dégâts périodiques.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nuage d'orage<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et met fin à <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Foudre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, si vous infligez au moins 6000 points de dégâts à la cible pendant la durée de l'effet.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nuage d'orage<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et met fin à <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Foudre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, si vous infligez au moins 8000 points de dégâts à la cible pendant la durée de l'effet.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Avec <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nuage d'orage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Méga Foudre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -11462,7 +11463,7 @@ Si la jauge atteint 100, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGl
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2400
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> dégâts périodiques.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nuage d'orage<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et met fin à <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Foudre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, si vous infligez au moins 6000 points de dégâts à la cible pendant la durée de l'effet.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nuage d'orage<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et met fin à <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Foudre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, si vous infligez au moins 8000 points de dégâts à la cible pendant la durée de l'effet.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nuage d'orage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
@@ -12946,11 +12947,11 @@ L'effet d'une seule carte peut être activé à la fois.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure 1000 de vos PM."
 10027,"Vous fait tirer la carte <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Roi des couronnes<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ou <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Reine des couronnes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 10028,"Augmente de 20% les dégâts infligés par vous ou l'équipier ciblé.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10029,"Réduit de 20% les dégâts subis par vous ou l'équipier ciblé.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10030,""
@@ -21752,7 +21753,7 @@ La puissance augmente d'autant plus que vos PV restants sont bas.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s"
 17691,"Effectue une attaque physique sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure 500 de vos PM et remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge du serment<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure 500 de vos PM et remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge du serment<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 10.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Serment de l'épée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -21801,6 +21802,7 @@ Met fin à l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cha
 Si vous bénéficiez de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rempart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, cet effet est dissipé, et la puissance de la barrière monte à 4000."
 17700,"Effectue une attaque physique sur les ennemis alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbe en PV 100% des dégâts infligés.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure 250 de vos PM pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coût Jauge de sang<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
 17701,"Effectue une attaque magique neutre sur la cible.
@@ -22115,7 +22117,7 @@ Met fin à l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>En 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Durant une danse, devient Emboîté carmin.
 * Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17760,"Effectue une attaque physique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% vos dégâts infligés ainsi que ceux de votre <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Partenaire de position rapprochée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coût Jauge de fascination<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
@@ -22170,9 +22172,9 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17771,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et votre <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Partenaire de position rapprochée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
@@ -22181,9 +22183,9 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17772,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et votre <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Partenaire de position rapprochée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
@@ -22192,9 +22194,9 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17773,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et votre <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Partenaire de position rapprochée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
@@ -22222,7 +22224,7 @@ Met fin à l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pol
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17780,"Effectue une attaque magique dans une zone en éventail vers la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1600
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> les cibles touchées perdent tous leurs effets de soins périodiques et toutes leurs barrières absorbant des dégâts."
 17781,"Active la Transe-Phénix.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
@@ -22290,7 +22292,7 @@ Un <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Lys<UIGlow>01</UIGl
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge d'éther féerique<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 20."
 17797,"Effectue une attaque magique sur les ennemis alentour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge d'éther féerique<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 10 par ennemi touché."
 17798,"Invoque Séraphin.
 La durée de l'invocation dépend de la quantité d'éther féerique consommée en plus du coût minimum, pour un maximum de 22 secondes.
@@ -22326,7 +22328,7 @@ Séraphin lance au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 10% les dégâts infligés et la puissance des effets curatifs de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 17807,"Effectue une attaque magique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 800 à 3200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1600 à 3200
 La puissance augmente d'autant plus que les PV restants de la cible sont élevés.
 Ce sort a un temps de recharge indépendant."
 17808,""
@@ -22353,11 +22355,11 @@ De plus, il devient impossible d'utiliser autre chose que des pas de danse, à l
 Cette action applique un temps de recharge aux techniques d'arme après utilisation."
 17825,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 800 à 2400
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1000 à 3000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1200 à 2400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1500 à 3000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et les équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
@@ -22366,11 +22368,11 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17826,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 800 à 2400
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1000 à 3000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1200 à 2400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1500 à 3000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et les équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
@@ -22379,11 +22381,11 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17827,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 800 à 2400
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1000 à 3000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1200 à 2400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1500 à 3000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et les équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
@@ -22392,11 +22394,11 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17828,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 800 à 2400
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1000 à 3000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1200 à 2400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1500 à 3000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et les équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
@@ -22405,11 +22407,11 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17829,"Effectue une attaque physique sur les ennemis alentour.
 La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>rec<SoftHyphen/>te<SoftHyphen/>ment enchaînés. D'autre part, plus une cible est proche, plus elle subit de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 200 à 600
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 400 à 1200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1800
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 800 à 2400
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1000 à 3000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance sans pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 300 à 600
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 1 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 600 à 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 2 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 900 à 1800
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 3 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1200 à 2400
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance après 4 pas<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 1500 à 3000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de fascination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 pour chaque coup porté.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Avec au moins 1 pas réussi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 5% les temps de lancement et de recharge des techniques d'arme et des sorts pour vous et les équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
@@ -22490,8 +22492,8 @@ Cette action applique un temps de recharge aux techniques d'arme après utilisat
 Remplace les effets bénéfiques dont vous bénéficiez déjà.
 Augmente de 10% les dégâts subis par la cible s'il s'agit d'un job de mêlée, et réduit de 10% vos dégâts subis.
 Réduit de 10% les dégâts infligés et les effets de récupération de PV de la cible s'il s'agit d'un job à distance, et augmente de 10% vos dégâts infligés et les effets de récupération de PV sur vous.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée des affaiblissements<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée des bonus<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée des affaiblissements<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée des bonus<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 17891,"Restaure les PV de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement les PV de la cible.
@@ -22595,8 +22597,8 @@ Réduit de 10% les dégâts infligés et les effets de récupération de PV de l
 17987,""
 17988,""
 17989,""
-17990,"Augmente de 50% la puissance des effets curatifs que vous prodiguez.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
+17990,"Augmente de 25% les dégâts que vous infligez et de 50% la puissance des effets curatifs que vous prodiguez.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 15s les temps de recharge de Loi de revivification et de Traité de la persévérance.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coût Jauge d'éther féerique<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
 17991,"Les ennemis alentour perdent tous leurs effets de soins périodiques et toutes leurs barrières absorbant des dégâts.
@@ -23692,7 +23694,7 @@ Déclenche le temps de recharge des techniques d'arme, sorts, mudrâ et ninjutsu
 18899,"Effectue une attaque physique dans une zone en éventail vers la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1200
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure 250 de vos PM pour chaque coup porté.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge du serment<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge du serment<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 10.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Serment de l'épée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -23908,7 +23910,7 @@ Un <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Lys<UIGlow>01</UIGl
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> crée une barrière annulant un montant de dégâts égal à 100% des PV restaurés.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel en combat<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge d'éther féerique<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5 par équipiers auxquels des PV manquants ont été restaurés."
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel en combat<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge d'éther féerique<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 10 si des PV manquants ont été restaurés."
 18948,"Restaure vos PV et ceux des équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1500
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3
@@ -23943,7 +23945,7 @@ Partage le même temps de recharge que <UIForeground>F201F4</UIForeground><UIGlo
 18955,"Augmente de 50% les dégâts de votre prochaine technique d'arme.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s"
 18956,"Effectue une attaque magique sur les ennemis alentour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1200
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1600
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> allonge de 20% les temps de lancement et de recharge des techniques d'arme et des sorts de magie de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
 18957,"Augmente de 25% vos effets de récupération de PV.
@@ -29368,7 +29370,7 @@ Partage le même temps de recharge que les sorts et les techniques d'arme."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Explosion magique<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Explosion magique<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente les dégâts des sorts de 45% et les PM consommés par les actions.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage de prêtre<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> durant Explosion magique, les actions ne consomment plus de PM, et l'augmentation des dégâts des sorts passe à 100%."
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec un breuvage de prêtre<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> durant Explosion magique, la consommation de PM n'est plus augmentée, et l'augmentation des dégâts des sorts passe à 100%."
 23914,"Effectue une attaque physique de corps-à-corps sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 350
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel par derrière<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> tente d'achever instantanément la cible. Moins elle a de PV, plus les chances de succès sont élevées.
