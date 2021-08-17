@@ -8,7 +8,7 @@ COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 
 ECHO [%TIME%] Extracting game data...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BuddyEquip Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory Item MinionRace MinionSkillType Mount MountTransient MYCWarResultNotebook Orchestrion OrchestrionCategory Ornament Quest TextCommand Title"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction Cabinet CabinetCategory CharaMakeCustomize Emote ItemAction OrchestrionUiParam Recipe SpecialShop"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction Cabinet CabinetCategory CharaMakeCustomize Emote GCScripShopItem GilShopItem ItemAction OrchestrionUiParam Recipe SpecialShop"
 
 ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 069999"

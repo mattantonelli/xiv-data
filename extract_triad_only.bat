@@ -7,7 +7,7 @@ ECHO Setting SC definition to the latest game version...
 COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 
 ECHO [%TIME%] Extracting game data...
-.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement ContentFinderCondition ENpcBase ENpcResident PlaceName Quest TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement ContentFinderCondition ENpcBase ENpcResident PlaceName Quest SpecialShop TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Level Map TripleTriad"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 082100 082999"
 
