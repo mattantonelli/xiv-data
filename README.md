@@ -4,6 +4,9 @@ This is a collection of CSV and image files used for updating my Final Fantasy X
 
 ## Requirements
 * [7-Zip](https://www.7-zip.org/)
+* [FFmpeg](https://ffmpeg.org/download.html) (FFXIV Collect Music Samples)
+* [Vorbis](https://xiph.org/vorbis/) (FFXIV Collect Music Samples)
+
 
 ### Generating the latest data
 
@@ -24,6 +27,18 @@ cd /var/rails/images/ffxiv
 unzip -oq ui.zip
 find ui -type f -exec chmod 664 {} \;
 rm ui.zip
+```
+
+### Music Samples
+
+A similar script can be used for processing music samples for FFXIV Collect:
+
+```sh
+mv music.zip /var/rails/music/ffxiv
+cd /var/rails/music/ffxiv
+unzip -oq music.zip
+find . -type f -exec chmod 664 {} \;
+rm music.zip
 ```
 
 ---
