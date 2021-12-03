@@ -73,3 +73,6 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 69,"All Disciplines","Crafting & Gathering",True,False,1
 70,"Skysteel Tools","Items",True,False,51
 71,"Field Operations","Battle",True,False,7
+72,"The Northern Empty","Exploration",True,False,12
+73,"Ilsabard","Exploration",True,False,13
+74,"Other","Exploration",True,False,99

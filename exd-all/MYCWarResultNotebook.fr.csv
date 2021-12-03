@@ -2,7 +2,7 @@
 #,Number,,Link,Quest,,Icon,Image,Rarity,NameJP,Name,Description
 int32,byte,byte,byte,Quest,int32,Image,Image,byte,str,str,str
 0,0,0,0,,0,,,0,"","",""
-1,1,0,0,"Memoirs from the Front",0,"ui/icon/072000/072601.tex","ui/icon/072000/072501.tex",1,"バイシャーエン・ウルガッシュ","Bajsaljen Ulgasch","Race<Indent/>: Hrothgar
+1,1,0,0,"Memoirs from the Front",0,"ui/icon/072000/072556.tex","ui/icon/072000/072501.tex",1,"バイシャーエン・ウルガッシュ","Bajsaljen Ulgasch","Race<Indent/>: Hrothgar
 Âge<Indent/>: 54 ans
 Lieu de naissance<Indent/>: citadelle de Bozja
 
@@ -13,7 +13,7 @@ Une fois ses études de médecine terminées, il est mobilisé par Garlemald pou
 Lorsqu'il était encore soldat de l'Empire, Bajsaljen n'était pas mécontent de sa situation, mais cela changea du tout au tout après la perte de sa famille. Dès lors, il voua une haine sans borne à Garlemald, plus féroce encore que celle de ses camarades résistants. Seul son attachement à la raison et à la sagesse lui a permis de réfréner sa rancœur pendant toutes ces années. Mieux que quiconque, il sait que la haine n'engendre que la haine.
 
 Aujourd'hui, il se bat pour bouter la 4e légion hors des terres bozjiennes avec comme principal atout les nouvelles lames de Gunnhildr, des soldats équipés de reproductions d'armes légendaires à l'immense pouvoir."
-2,2,0,0,"Memoirs from the Front",0,"ui/icon/072000/072602.tex","ui/icon/072000/072502.tex",1,"マルシャーク・アペッラ","Marsak Apella","Race<Indent/>: Hrothgar
+2,2,0,0,"Memoirs from the Front",0,"ui/icon/072000/072557.tex","ui/icon/072000/072502.tex",1,"マルシャーク・アペッラ","Marsak Apella","Race<Indent/>: Hrothgar
 Âge<Indent/>: 42 ans
 Lieu de naissance<Indent/>: citadelle de Bozja (province impériale)
 
@@ -24,7 +24,7 @@ Bien qu'il éprouve un sentiment de rancœur pour l'Empire, Marsak met un point 
 Malgré son rôle de gestion au sein de la résistance, c'est aussi un combattant hors pair qui a été formé par le légendaire pistosabreur Rostik.
 
 Un homme fait de tendresse et sur qui l'on peut compter en toute circonstance, voilà ce qui définit Marsak Apella."
-3,3,0,0,"Memoirs from the Front",0,"ui/icon/072000/072603.tex","ui/icon/072000/072503.tex",1,"ゼヴェン・スヴァナシュ","Xeven Svanasch","Race<Indent/>: Hrothgar
+3,3,0,0,"Memoirs from the Front",0,"ui/icon/072000/072558.tex","ui/icon/072000/072503.tex",1,"ゼヴェン・スヴァナシュ","Xeven Svanasch","Race<Indent/>: Hrothgar
 Âge<Indent/>: 47 ans
 Lieu de naissance<Indent/>: inconnu
 
@@ -38,7 +38,7 @@ Alors au sommet de son art, il est un mage sans pareil sur le champ de bataille,
 Xeven n'a pas peur de la mort au combat, au contraire. Il semble l'inviter, l'attendre, même. Ce fatalisme lui vient d'une prophétie le concernant, entendue de la bouche d'un mystérieux mage au détour du grand labyrinthe de Dalmasca. Même si le langage de l'homme lui est inconnu, Xeven devine le sens de ses mots<Indent/>: son heure viendra lorsque les flammes de la révolution consumeront Bozja.
 
 Alors que la bataille fait rage sur le front sud, le Hrothgar est convaincu que c'est là que sa tombe sera creusée. Il ne cherchera pas à esquiver son destin, mais plutôt à jeter toutes ses forces dans l'af<SoftHyphen/>fron<SoftHyphen/>te<SoftHyphen/>ment pour mener les nouvelles lames de Gunnhildr à la victoire. Non, même si chaque seconde qui passe, la prophétie est plus proche de se réaliser, Xeven Svanasch ne craint pas la mort."
-4,4,0,0,"Memoirs from the Front",0,"ui/icon/072000/072604.tex","ui/icon/072000/072504.tex",2,"イソルデ・コヴィー","Isolde Covey","Race<Indent/>: Hyure
+4,4,0,0,"Memoirs from the Front",0,"ui/icon/072000/072559.tex","ui/icon/072000/072504.tex",2,"イソルデ・コヴィー","Isolde Covey","Race<Indent/>: Hyure
 Âge<Indent/>: 26 ans
 Lieu de naissance<Indent/>: Lea Monde, Dalmasca
 
@@ -48,7 +48,7 @@ C'est là qu'Isolde voit le jour et reçoit une éducation conforme à la doctri
 C'est donc tout na<SoftHyphen/>tu<SoftHyphen/>rel<SoftHyphen/>le<SoftHyphen/>ment que la jeune Isolde se destine à une carrière dans la discipline, et on voit bien vite en elle un talent très prometteur. Pour devenir une danseuse à part entière, elle doit cependant apprendre à utiliser l'arc, qui sert d'instrument dans la tradition bozjienne. On frotte par exemple les cordes de deux arcs pour créer des notes de musique, ou l'on y tape ses doigts afin d'imprimer le rythme d'une chanson. Par respect pour leurs ancêtres, qui étaient des chasseurs nomades, il est de coutume pour les danseurs de Bozja de maîtriser l'arme par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment.
 
 Ainsi, lorsqu'Isolde rejoint la résistance, elle est déjà une archère accomplie, et sa main ferme ainsi que son œil vif lui valent très vite une place parmi les nouvelles lames de Gunnhildr. Cependant, dans le quotidien de violence incessante qui est le sien, elle n'oublie pas son amour pour la vie des gens simples et leur lien avec la nature, et elle prie chaque jour pour que revienne l'harmonie du passé. Comme Isolde aime à le dire<Indent/>: “Puisse la paix être bientôt retrouvée, pour les Bozjiens comme pour les Garlemaldais.”"
-5,5,0,0,"Memoirs from the Front",0,"ui/icon/072000/072605.tex","ui/icon/072000/072505.tex",1,"スタニック・アルボフ","Stanik Alubov","Race<Indent/>: Hrothgar
+5,5,0,0,"Memoirs from the Front",0,"ui/icon/072000/072560.tex","ui/icon/072000/072505.tex",1,"スタニック・アルボフ","Stanik Alubov","Race<Indent/>: Hrothgar
 Âge<Indent/>: 36 ans
 Lieu de naissance<Indent/>: citadelle de Bozja (province impériale)
 
@@ -61,7 +61,7 @@ C'est à l'âge de quinze ans que Stanik se présente au bureau de conscription 
 Stanik ne manque pas d'envoyer la majeure partie de sa maigre solde à la maison familiale, et même si ce n'est qu'une bouchée de pain, cela lui permet parfois de se sentir comme le héros qu'il a toujours souhaité devenir. Les lettres qu'il reçoit en retour sont sa seule source de réconfort, car elles lui prouvent que ses parents sont toujours en vie.
 
 C'est lorsqu'il est en mission dans une région reculée que Stanik apprend pour la catastrophe de Bozja. Quand un message de ses parents lui parvient cinq jours plus tard, il pousse un grand soupir de soulagement... jusqu'à ce qu'il réalise quand il a été écrit. La veille de la disparition de la citadelle..."
-6,6,0,0,"Memoirs from the Front",0,"ui/icon/072000/072606.tex","ui/icon/072000/072506.tex",3,"ブラズ・アゼティナ","Blaz Azetina","Race<Indent/>: Hrothgar
+6,6,0,0,"Memoirs from the Front",0,"ui/icon/072000/072561.tex","ui/icon/072000/072506.tex",3,"ブラズ・アゼティナ","Blaz Azetina","Race<Indent/>: Hrothgar
 Âge<Indent/>: 25 ans
 Lieu de naissance<Indent/>: Doma
 
@@ -72,7 +72,7 @@ Traditionnellement, la Voie verdoyante a toujours interdit à ses disciples de p
 Le père de Blaz, cadet de la famille fondatrice de l'école, choisit lui aussi d'aller à l'encontre de la philosophie de cette dernière pour prêter sa lame à la cause bozjienne. Lorsque la rébellion est matée, il part trouver refuge à Doma, où il finit par se marier et avoir un fils. Blaz hérite de la passion de son père pour les arts martiaux et rejoint une prestigieuse école de samouraïs, où il apprend la maîtrise du katana. Quelques années plus tard, lorsque Hien revient d'exil pour mener la révolution de sa province, le fougueux Hrothgar saisit l'occasion de rembourser la dette de sa famille à Doma. Une fois la libération arrachée, et alors qu'il s'apprête à suivre sa propre route, Blaz a vent de rumeurs d'une coalition orientale et d'un nouveau soulèvement à Bozja. Il comprend alors que son destin doit le mener jusqu'à la terre natale de son père.
 
 À cette époque, la Voie verdoyante traverse sa propre période de renouveau, et son maître fraîchement nommé est un ardent défenseur de la restauration des traditions bozjiennes. Blaz est accueilli à bras ouverts, et on lui propose même un poste pour enseigner la voie du samouraï. Il refuse cependant cet honneur pour reprendre le flambeau de son défunt père et rejoindre les rangs de la résistance ainsi que des nouvelles lames de Gunnhildr, prêtant serment pour la recon<SoftHyphen/>struc<SoftHyphen/>tion de la nation bozjienne."
-7,7,0,0,"Memoirs from the Front",0,"ui/icon/072000/072607.tex","ui/icon/072000/072507.tex",3,"ヴェリボル・アゼティナ","Velibor Azetina","Race<Indent/>: Hrothgar
+7,7,0,0,"Memoirs from the Front",0,"ui/icon/072000/072562.tex","ui/icon/072000/072507.tex",3,"ヴェリボル・アゼティナ","Velibor Azetina","Race<Indent/>: Hrothgar
 Âge<Indent/>: 24 ans
 Lieu de naissance<Indent/>: Grâce de Zetina, Bozja
 
@@ -85,7 +85,7 @@ Quand la grand-mère de Velibor succède à son mari à la tête de l'école, el
 Lorsque Blaz fait son retour à Bozja et découvre que la philosophie de la Voie verdoyante est en accord avec ses desseins, Velibor se découvre un cousin avec qui il s'entend par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment. Il se rappelle encore que, lors de leur première rencontre, il a l'impression de retrouver une partie de son âme qu'on lui aurait enlevée. Pendant une courte période, il développe une rivalité amicale avec celui qu'il considère comme son frère, et leurs en<SoftHyphen/>traî<SoftHyphen/>ne<SoftHyphen/>ments réguliers leur permettent à tous les deux d'acquérir de nouvelles techniques de combat.
 
 C'est à ce moment que le vent du soulèvement commence à souffler de nouveau sur la citadelle, un mouvement que ne manque pas de rallier la Voie verdoyante. Velibor rejoint alors les nouvelles lames de Gunnhildr, déterminé à pourfendre de sa grande épée l'envahisseur qui opprime son peuple depuis bien trop longtemps."
-8,8,0,0,"Memoirs from the Front",0,"ui/icon/072000/072608.tex","ui/icon/072000/072508.tex",1,"アギー・グローヴァー","Aggie Glover","Race<Indent/>: Hyure
+8,8,0,0,"Memoirs from the Front",0,"ui/icon/072000/072563.tex","ui/icon/072000/072508.tex",1,"アギー・グローヴァー","Aggie Glover","Race<Indent/>: Hyure
 Âge<Indent/>: 17 ans
 Lieu de naissance<Indent/>: Martrvje, Bozja
 
@@ -100,7 +100,7 @@ Une fois sortie de la rue, Aggie est placée à la Voie verdoyante, une illustre
 C'est avec Blaz et Velibor Azetina qu'Aggie s'entend le mieux. Déterminée à ne pas se laisser surpasser par leur habileté au combat, elle décide de se consacrer à l'en<SoftHyphen/>traî<SoftHyphen/>ne<SoftHyphen/>ment pugilistique. Grâce à son assiduité et à un talent inné, elle passe maître en sa discipline alors qu'elle n'a encore que seize ans.
 
 Lorsqu'Aggie rejoint la résistance, sa venue est un véritable rayon de soleil pour les soldats en proie à la colère ou au désespoir, tant sa bonne humeur permanente a un effet bénéfique sur le moral des troupes. Elle intègre ensuite les nouvelles lames de Gunnhildr, où elle est accueillie à bras ouverts par Blaz et Velibor, même si elle soupçonne que la décision de Bajsaljen est plus motivée par des raisons politiques que par ses capacités martiales. Mais elle en fait peu de cas et reste fidèle à elle-même, toujours prête à mettre du baume au cœur de ses camarades et à se battre pour la bonne cause."
-9,10,0,0,"Memoirs from the Front",0,"ui/icon/072000/072610.tex","ui/icon/072000/072510.tex",3,"エルネイス・ピル・ロングス","Hernais pyr Longus","Race<Indent/>: Hyur
+9,10,0,0,"Memoirs from the Front",0,"ui/icon/072000/072565.tex","ui/icon/072000/072510.tex",3,"エルネイス・ピル・ロングス","Hernais pyr Longus","Race<Indent/>: Hyur
 Âge<Indent/>: 24 ans
 Lieu de naissance<Indent/>: Mons Falconis, ancienne république de Landis
 
@@ -120,7 +120,7 @@ Hernais<Indent/>: Lyon rem Helsos est au-delà de toute critique. Je lui suis d�
 Journaliste<Indent/>: Un commentaire sur les paroles pleines de ferveur du messager Longus, Commandant<Indent/>?
 Lyon<Indent/>: Qui ça<Indent/>? Ah ouais, le p'tit jeunot qui me suit partout<Indent/>! J'avais déjà oublié son existence alors qu'il est fourré dans mes pattes du matin au soir. C'est un bon toutou, j'peux pas dire, mais va falloir qu'il montre les crocs davantage... ll est de la race à poil court au menton, celle qui survit pas bien longtemps...
 Journaliste<Indent/>: Euh... Merci..."
-10,13,0,0,"Memoirs from the Front",0,"ui/icon/072000/072611.tex","ui/icon/072000/072511.tex",2,"クラリシー・クォ・プリスクス","Clarricie quo Priscus","Race<Indent/>: Élézenne
+10,13,0,0,"Memoirs from the Front",0,"ui/icon/072000/072566.tex","ui/icon/072000/072511.tex",2,"クラリシー・クォ・プリスクス","Clarricie quo Priscus","Race<Indent/>: Élézenne
 Âge<Indent/>: 33 ans
 Lieu de naissance<Indent/>: inconnu
 
@@ -131,7 +131,7 @@ Entrée au service de la 4e légion impériale il y a de cela environ une décen
 Néanmoins, il est fort vraisemblable que seule une superposition de ces deux images antagonistes puisse faire apparaître la vérité. Clarricie n'est pro<SoftHyphen/>ba<SoftHyphen/>ble<SoftHyphen/>ment pas plus une sorcière qu'une sainte ou l'inverse, et chacun l'affuble du sobriquet qui lui convient en fonction des cir<SoftHyphen/>cons<SoftHyphen/>tan<SoftHyphen/>ces qui l'ont amené à observer la centurio dans le feu de l'action.
 
 Aujourd'hui encore, son passé reste drapé de mystère. Les rares in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions ayant filtré font état de sa naissance au sein des Eschva, un peuple de nomades qui vagabondait d'un pays à un autre.  Lorsque l'Empire annexa leurs territoires d'adoption, ils refusèrent de se plier à sa loi, et le général Gabranth leur proposa un compromis<Indent/>: Garlemald leur permettrait de continuer à vivre comme ils le souhaitaient, à condition qu'ils envoient ré<SoftHyphen/>gu<SoftHyphen/>liè<SoftHyphen/>re<SoftHyphen/>ment un certain nombre de leurs hommes les plus robustes pour servir l'Empire pendant une période déterminée. Les Eschva n'eurent pas vraiment d'autre choix que d'accepter son offre, et l'époux de Clarricie fut parmi les premiers à être enrôlé dans la cohorte bestiale de Lyon rem Helsos, où il perdit tragiquement la vie durant la bataille qui suivit son incor<SoftHyphen/>por<SoftHyphen/>ation, quelques mois à peine après avoir juré fidélité éternelle à sa promise. Se sentant responsable de son malheur, Lyon rendit personnellement une visite de condoléances à Clarricie et s'excusa platement pour l'avoir rendue veuve. C'est alors qu'elle le pria de l'accepter au sein de la cohorte bestiale en lieu et place de son mari, afin d'éviter à d'autres femmes comme elle d'endurer le même deuil à l'avenir. Impressionné par la détermination de la jeune femme, Lyon accepta qu'elle rejoigne les rangs de sa troupe, et depuis ce jour, elle porte à tour de rôle les masques de la sainte et de la sorcière pour défendre la paix en mémoire de son défunt mari."
-11,14,0,0,"Memoirs from the Front",0,"ui/icon/072000/072612.tex","ui/icon/072000/072512.tex",5,"サルトヴォアール・クォ・ソラノス","Sartauvoir quo Soranus","Race<Indent/>: Élézen
+11,14,0,0,"Memoirs from the Front",0,"ui/icon/072000/072567.tex","ui/icon/072000/072512.tex",5,"サルトヴォアール・クォ・ソラノス","Sartauvoir quo Soranus","Race<Indent/>: Élézen
 Âge<Indent/>: 61 ans
 Lieu de naissance<Indent/>: Mannatheihwo, ancienne république de Landis
 
@@ -141,14 +141,14 @@ Sartauvoir était l'un de ces individus auxquels Gabranth prêtait sou<SoftHyphe
 
 Trente années se sont écoulées depuis cette rencontre, et bien que l'arrivée de Sadr rem Albeleo au sein de la 4e légion n'ait pas été sans effet sur la puissance et la combativité de ses mages, Sartauvoir ne manque jamais de rappeler ses origines à ses ennemis alors qu'il se concentre pour lancer un sort destiné à les annihiler. Toutefois, sa motivation première ne réside pas dans la mise au tombeau de toute hostilité, mais dans la réalisation du rêve du général Noah van Gabranth, héritier des idéaux de son père Basch...
 "
-12,15,0,0,"Memoirs from the Front",0,"ui/icon/072000/072613.tex","ui/icon/072000/072513.tex",3,"シシニアス・マル・ヴェリュータス","Sicinius mal Vellutus","Race<Indent/>: Garlemaldais
+12,15,0,0,"Memoirs from the Front",0,"ui/icon/072000/072568.tex","ui/icon/072000/072513.tex",3,"シシニアス・マル・ヴェリュータス","Sicinius mal Vellutus","Race<Indent/>: Garlemaldais
 Âge<Indent/>: 42 ans
 Lieu de naissance<Indent/>: Garlemald, capitale de l'Empire
 
 Ingénieur en chef de la 4e légion impériale, Sicinius gagne ses galons de chercheur émérite au laboratoire impérial sous la direction d'Aulus mal Asina. Lorsque la chute d'Ala Mhigo précipite la dissolution de l'institut, les résultats de ses études sont transmis aux autorités compétentes de la capitale impériale qui exigent le retour au bercail de l'ingénieur, mais Sicinius ne l'entend pas de cette oreille. Il est résolu à percer les secrets de la technologie allagoise et, convaincu que la 4e légion lui permettra d'atteindre son objectif, il demande à ses supérieurs de l'y affecter. On pourrait croire qu'il était également télépathe puisqu'au même moment, la 4e légion, toujours à la recherche de savoirs d'antan et de reliques sacrées, l'invite à leur prêter main-forte pour parvenir à ses fins. Le général Gabranth ne tarde pas à reconnaître le talent et les mérites de l'ingénieur et se félicite de son arrivée au sein de la troupe, à l'instar de Menenius rem Lanatus qui a reçu la charge des expéditions archéologiques. Ému par les idéaux de son général, Sicinius jure de le servir jusqu'à ce qu'ils deviennent réalité.
 
 Aujourd'hui, Sicinius poursuit ses recherches avec encore plus de zèle et d'ardeur. Son objectif actuel est de restaurer des machines militaires de technologie ancienne découvertes au Phare de Ridorana, en plein cœur de la mer de Valnard. Selon les dires de l'intéressé, il serait sur le point d'accomplir la transformation des unités de manutention en nouvelles armes magitek pouvant être exploitées sur le champ de bataille. Et puisque les Bozjiens ont décidé de se soulever une énième fois contre l'Empire, comment aurait-il pu refuser cette occasion en or de tester ses nouveaux bébés sur le terrain, à la manière de son vieux maître<Indent/>?"
-13,9,0,3,"Memoirs from the Front",0,"ui/icon/072000/072609.tex","ui/icon/072000/072509.tex",2,"ロフィー・ピル・ポティトゥス","Llofii pyr Potitus","Race<Indent/>: Miqo'te
+13,9,0,3,"Memoirs from the Front",0,"ui/icon/072000/072564.tex","ui/icon/072000/072509.tex",2,"ロフィー・ピル・ポティトゥス","Llofii pyr Potitus","Race<Indent/>: Miqo'te
 Âge<Indent/>: 19 ans
 Lieu de naissance<Indent/>: Valnain, Dalmasca
 
@@ -159,7 +159,7 @@ Les Garlemaldais sont connus pour leur aversion de la magie, que ce soit pour de
 En sa qualité d'invocatrice, Llofii possède une con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce élevée des sorts de magie et des courants éthérés, au point de surpasser notablement ses camarades de l'académie. Après avoir obtenu son diplôme haut la main, elle se porte candidate à l'entrée dans la 4e légion, qui lui impose un en<SoftHyphen/>traî<SoftHyphen/>ne<SoftHyphen/>ment très rude au bout duquel elle obtient sa place au sein de la cohorte d'incantateurs de Sadr rem Albeleo. Elle est im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment chargée de développer de nouveaux sorts de magie, mais la désillusion la frappe en plein cœur lorsqu'elle se rend compte que le traitement des sujets de test au sein de sa troupe aurait davantage sa place au musée des horreurs qu'à celui de la science.
 
 L'un de ces sujets dont la Miqo'te avait reçu la garde afin de faire fructifier ses recherches était donc un monocéros, une créature magnifique dotée du pouvoir de soutirer les morts-vivants à leur triste condition grâce à sa lumière purificatrice. Sa rareté en avait fait un sujet de test de choix pour les res<SoftHyphen/>pon<SoftHyphen/>sa<SoftHyphen/>bles de la 4e légion, mais lorsqu'ils estimèrent que l'invocatrice avait conduit suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment d'expériences sur elle, ils lui ordonnèrent de procéder à une vivisection de la bête. Réalisant la gravité du péché qu'elle avait contribué à commettre et dévorée de remords, Llofii a décidé de tirer un trait sur sa vocation et de laisser l'Empire derrière elle... pour toujours<Indent/>? "
-14,11,0,4,"Memoirs from the Front",0,"ui/icon/072000/072614.tex","ui/icon/072000/072514.tex",5,"ダボグ・アン・イニヴァシュ","Dabog aan Inivisch","Race<Indent/>: Hrothgar
+14,11,0,4,"Memoirs from the Front",0,"ui/icon/072000/072569.tex","ui/icon/072000/072514.tex",5,"ダボグ・アン・イニヴァシュ","Dabog aan Inivisch","Race<Indent/>: Hrothgar
 Âge estimé<Indent/>: 34 ans
 Lieu de naissance<Indent/>: citadelle de Bozja (province impériale)
 
@@ -174,7 +174,7 @@ Quinze ans auparavant, l'incident de la citadelle de Bozja avait scellé le dest
 Dans le but de garantir la sécurité de chacun, le règlement intérieur de la 4e légion prohibe toute expérience scien<SoftHyphen/>ti<SoftHyphen/>fi<SoftHyphen/>que sur les malades, les blessés, ainsi que tout autre individu n'étant pas en pleine possession de ses capacités physiques et mentales, mais pour Sicinius, Dabog représentait une chance unique au monde. Persuadé à tort ou à raison que sa désobéissance à la loi du général Gabranth était absoute par le fait qu'il sauvait la vie d'un homme, il s'arrangea pour mener des tests en secret sur le corps détruit du Hrothgar.
 
 Deux ans plus tard, le feu de la résistance bozjienne brûle à nouveau, et cloué dans une arme magitek géante qu'il contrôle par la pensée se trouve un de ses vieux attiseurs auquel Sicinius a eu la bonté préméditée d'effacer la mémoire. Il serait tout de même fâcheux que son pilote fétiche reconnaisse le visage d'un de ses anciens frères d'armes juste avant de le broyer en mille morceaux..."
-15,12,0,0,"Memoirs from the Front",0,"ui/icon/072000/072615.tex","ui/icon/072000/072515.tex",4,"ユンブ・ピル・ポティトゥス","Dyunbu pyr Potitus","Race<Indent/>: Miqo'te
+15,12,0,0,"Memoirs from the Front",0,"ui/icon/072000/072570.tex","ui/icon/072000/072515.tex",4,"ユンブ・ピル・ポティトゥス","Dyunbu pyr Potitus","Race<Indent/>: Miqo'te
 Âge<Indent/>: 24 ans
 Lieu de naissance<Indent/>: Revenia, Dalmasca
 
@@ -185,7 +185,7 @@ Nombreux sont les soldats impériaux qui ignoraient de quoi leur avenir allait �
 Si Dyunbu fait preuve d'autant de zèle, c'est avant tout en raison de ses origines. Son nom de famille, Potitus, est emblématique des Miqo'tes des provinces impériales ayant obtenu la citoyenneté garlemaldaise. Orpheline dès son plus jeune âge, elle grandit dans les rues de Revenia et ne voit qu'une seule issue pour améliorer ses conditions de vie<Indent/>: devenir un membre à part entière de l'Empire. Elle sait toutefois qu'elle n'y parviendra pas sans une éducation appropriée, et prend pour habitude de se faufiler dis<SoftHyphen/>crè<SoftHyphen/>te<SoftHyphen/>ment dans les écoles pour suivre des cours en cachette. Cette transgression finit par lui être favorable, puisqu'elle est remarquée pour ses capacités de lecture et d'écriture par le bureau impérial d'aide sociale, où elle fait siens les idéaux de Gabranth.
 
 Elle rejoint ensuite la 4e légion afin d'être au plus près de son mentor, et il ne se passe pas une seule bataille, pas une seule escarmouche même, sans qu'elle se lance au combat avec la conviction qu'elle se bat pour un monde meilleur."
-16,19,0,1,"Memoirs from the Front",0,"ui/icon/072000/072619.tex","ui/icon/072000/072519.tex",3,"ミーシィヤ・ヴォートヤシュ","Misija Votyasch","Race<Indent/>: Roegadyne
+16,19,0,1,"Memoirs from the Front",0,"ui/icon/072000/072574.tex","ui/icon/072000/072519.tex",3,"ミーシィヤ・ヴォートヤシュ","Misija Votyasch","Race<Indent/>: Roegadyne
 Âge<Indent/>: 29 ans
 Lieu de naissance<Indent/>: citadelle de Bozja (province impériale)
 
@@ -202,7 +202,7 @@ Misija est née dans cette caste de laissés-pour-compte et a passé la majeure 
 L'autre raison, qui fut sûrement le déclencheur de sa trahison, est l'idéologie prônée par la 4e légion.
 En effet, les Gabranth ont toujours défendu l'égalité des chances en acceptant dans leurs rangs quiconque se démarque par sa loyauté et ses compétences, sans jamais faire état de ses racines, de son sexe ou de sa religion. On peut facilement comprendre pourquoi Misija s'est sentie attirée par cette façon de penser aux antipodes de celle qu'elle a subie durant son enfance.
 Reste une simple interrogation<Indent/>: jusqu'où ira-t-elle pour défendre ces idéaux<Indent/>? "
-17,17,0,5,"Memoirs from the Front",0,"ui/icon/072000/072617.tex","ui/icon/072000/072517.tex",5,"ライアン・レム・ヘルソス","Lyon rem Helsos","Race<Indent/>: Hyur
+17,17,0,5,"Memoirs from the Front",0,"ui/icon/072000/072572.tex","ui/icon/072000/072517.tex",5,"ライアン・レム・ヘルソス","Lyon rem Helsos","Race<Indent/>: Hyur
 Âge<Indent/>: 68 ans
 Lieu de naissance<Indent/>: Arnsbeirgs, ancienne république de Landis
 
@@ -212,7 +212,7 @@ Il n'a pas encore vingt ans lors de l'invasion de Bozja, quand il se voit confie
 Il est aujourd'hui sous les ordres de Menenius rem Lanatus et commande la cohorte bestiale. Le Roi bestial, comme certains l'appellent, mène ses batailles contre la résistance bozjienne en ordonnant à diverses créatures qu'il a lui-même domptées. Toutefois, cela ne veut pas dire pour autant qu'il n'en vient jamais aux mains. En effet, son âge avancé n'a pas eu raison de sa vivacité, et il n'hésite pas à défier quiconque s'oppose à lui dans des duels dont il sort presque toujours vainqueur grâce à sa vie passée sur les champs de bataille. C'est aussi une tête brûlée qui ignore les stratégies préalablement décidées, même celles qu'il a lui-même élaborées. Plus que la victoire, ce sont les combats grandioses qu'il recherche, d'où sa propension pour les mano a mano. Cette fougue qui le caractérise lui vaut de constantes remontrances de la part de Menenius, son supérieur qui, lui, préfère jouer les fins tacticiens.
 
 Ceux qui côtoient Lyon rem Helsos auront souvent entendu ses jurons, ainsi que sa réplique favorite<Indent/>: “Parle avec tes poings, si t'es un homme<Indent/>!”"
-18,18,0,6,"Memoirs from the Front",0,"ui/icon/072000/072618.tex","ui/icon/072000/072518.tex",3,"メネニウス・サス・ラナトゥス","Menenius sas Lanatus","Race<Indent/>: Élézen
+18,18,0,6,"Memoirs from the Front",0,"ui/icon/072000/072573.tex","ui/icon/072000/072518.tex",3,"メネニウス・サス・ラナトゥス","Menenius sas Lanatus","Race<Indent/>: Élézen
 Âge<Indent/>: 55 ans
 Lieu de naissance<Indent/>: Garlemald, capitale de l'Empire
 
@@ -223,7 +223,7 @@ Les Lanatus occupaient une place importante dans la noblesse, du temps de la ré
 
 C'est dès son enfance que Menenius tisse ses premiers liens de camaraderie avec Noah van Gabranth, cet enfant qui prendra plus tard la relève de son père. Son amitié se transforme au fil du temps en loyauté indéfectible, et quand Noah prend la relève à la tête de la 4e légion, Menenius ne se fait pas prier pour devenir son bras droit et son officier de ren<SoftHyphen/>sei<SoftHyphen/>gne<SoftHyphen/>ment, un poste demandant ré<SoftHyphen/>gu<SoftHyphen/>liè<SoftHyphen/>re<SoftHyphen/>ment de se salir les mains. Ses hommes le considèrent sans scrupules, mais ce manque d'état d'âme ne reflète que son dévouement envers les Gabranth, un sentiment brûlant qui contraste avec son caractère froid.
 Les Gabranth ont longtemps caressé le souhait de fonder une nouvelle nation indépendante, et lorsque les guerres intestines éclatent dans l'Empire, Noah voit là l'occasion rêvée de faire de ce vœu une réalité. Privé de l'appui militaire de Garlemald toutefois, il ne peut plus se permettre de gaspiller ses troupes. Son fidèle bras droit lui propose alors une stratégie qui lui permettra d'économiser ses soldats tout en semant la confusion dans les rangs ennemis, une stratégie qui implique de retrouver la lame sacrée de Bozja, Garde-la-Reine..."
-19,16,0,0,"Memoirs from the Front",0,"ui/icon/072000/072616.tex","ui/icon/072000/072516.tex",3,"サドル・レム・アルビレオ","Sadr rem Albeleo","Race<Indent/>: Élézen
+19,16,0,0,"Memoirs from the Front",0,"ui/icon/072000/072571.tex","ui/icon/072000/072516.tex",3,"サドル・レム・アルビレオ","Sadr rem Albeleo","Race<Indent/>: Élézen
 Âge<Indent/>: 37 ans
 Lieu de naissance<Indent/>: Ul'dah, Éorzéa
 
@@ -232,7 +232,7 @@ Sadr, ou Albeleo comme il préférait qu'on l'appelle, commandait la cohorte des
 Afin d'aiguiser ses talents, le jeune Albeleo rejoint d'abord la guilde des occultistes, mais il en est rapidement banni quand son maître Mumuepo prend conscience du sadisme qui l'habite. Devenu persona non grata à Ul'dah, il voyage à travers le monde à la recherche d'autres magies de destruction et d'invocation. Ses errances le mènent jusqu'à la province impériale de Dalmasca, où il croise la route de la 4e légion. Il identifie tout de suite un fort potentiel parmi certains de ses membres, et accepte de rejoindre le corps d'armée à condition de pouvoir constituer et diriger une troupe de mages. Le général Gabranth tient sa promesse et le place à la tête de la toute nouvelle cohorte des incantateurs. Albeleo se met alors à pied d'œuvre et forme de nombreux soldats. En seulement quinze ans, sa cohorte rivalise avec les plus grands bataillons de mages éorzéens.
 
 Son intérêt pour les sorts anciens ne s'érode pas avec le temps. Et quand il apprend que le détachement de Menenius a pour mission de trouver une relique sacrée en Bozja, il demande à l'accompagner, sans oublier d'emporter avec lui l'auralithe blanche qu'il a découverte en Ivalice, au cas où..."
-20,20,0,2,"Memoirs from the Front",0,"ui/icon/072000/072620.tex","ui/icon/072000/072520.tex",3,"グンヒルド","Gunnhildr","Les guerres claniques ravageaient autrefois Bozja. Afin d'y mettre un terme, les différents chefs décidèrent d'introniser une souveraine qui unirait leurs terres en une nation unique. Ils la nommèrent Gunnhildr<Indent/>; un titre qui se transmettrait ensuite de reine en reine.
+20,20,0,2,"Memoirs from the Front",0,"ui/icon/072000/072575.tex","ui/icon/072000/072520.tex",3,"グンヒルド","Gunnhildr","Les guerres claniques ravageaient autrefois Bozja. Afin d'y mettre un terme, les différents chefs décidèrent d'introniser une souveraine qui unirait leurs terres en une nation unique. Ils la nommèrent Gunnhildr<Indent/>; un titre qui se transmettrait ensuite de reine en reine.
 
 Elles étaient choisies parmi les meilleures chamanes de leur ordre religieux, sans aucune considération de noblesse ou de race. Officiellement, tout du moins, car la population bozjienne étant relativement homogène, les probabilités jouaient souvent en faveur d'une Hrothgar.
 
@@ -241,7 +241,7 @@ La fin de la 3e ère astrale vint marquer un tournant dans la lignée des Gunnhi
 Ainsi, une partie de Bozja survécut au quatrième fléau. Ceux qui avaient poussé Gunnhildr à se sacrifier eurent cependant une mauvaise surprise lorsque les éléments se calmèrent. En effet, leur Reine réapparut, et contrairement à leurs attentes, sous forme humaine. Sa transformation en divinité guerrière ne l'avait pas privée de sa raison. Pire encore, elle avait conservé ses nouveaux pouvoirs et les contrôlait par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment. La caste des puissants, craignant des re<SoftHyphen/>pré<SoftHyphen/>sail<SoftHyphen/>les, ordonna aux lames de Gunnhildr d'assassiner celle qu'ils s'étaient juré de défendre. Ils ne l'avaient choisie qu'en tant qu'agneau sacrificiel, et elle ne devait pas régner.
 
 Tel fut le destin tragique de l'ultime Gunnhildr, fauchée dans la fleur de l'âge par des comploteurs qu'elle ne soupçonnait même pas. Ce que ces derniers ignoraient toutefois, c'est qu'une partie de son âme s'était réfugiée dans Garde-la-Reine, et qu'un jour quelqu'un la pousserait à prendre sa revanche..."
-21,21,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072622.tex","ui/icon/072000/072522.tex",3,"リリヤ・シアサリス","Lilja Sjasaris","Race<Indent/>: Viéra
+21,21,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072577.tex","ui/icon/072000/072522.tex",3,"リリヤ・シアサリス","Lilja Sjasaris","Race<Indent/>: Viéra
 Âge<Indent/>: 19 ans
 Lieu de naissance<Indent/>: Rabanastre, Dalmasca
 
@@ -262,7 +262,7 @@ Ces mots sonnaient comme de la propagande dans la bouche de Gabranth, mais pour 
 “Vous en faites pas, Boss<Indent/>! Je rate pas un mot de ce que vous dites, Boss<Indent/>!”
 “Et par pitié, arrête de m'appeler Boss...”
 "
-22,22,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072623.tex","ui/icon/072000/072523.tex",3,"ブワジ・エンゼ・パンチャ","Bwagi Ennze Panca","Race<Indent/>: Vangaa
+22,22,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072578.tex","ui/icon/072000/072523.tex",3,"ブワジ・エンゼ・パンチャ","Bwagi Ennze Panca","Race<Indent/>: Vangaa
 Âge<Indent/>: 48 ans
 Lieu de naissance<Indent/>: Valnain, Dalmasca
 
@@ -277,7 +277,7 @@ Toutefois, il y a un souvenir qu'il gardera toujours pré<SoftHyphen/>cieu<SoftH
 C'est suite à cette expérience nouvelle que Bwagi s'est mis à jouer le rôle du bouffon dans sa propre bande de pirates. Ba'Gamnan et les autres n'étaient pas spé<SoftHyphen/>cia<SoftHyphen/>le<SoftHyphen/>ment du genre à rire, mais il ressentait une grande fierté à chaque fois qu'il parvenait à leur arracher un rictus.
 
 Hélas, la dure réalité devait le rattraper tôt ou tard. Lorsque son chef rendit l'âme prématurément, Bwagi retourna na<SoftHyphen/>tu<SoftHyphen/>rel<SoftHyphen/>le<SoftHyphen/>ment se jeter corps et âme dans le combat contre l'Empire, et son sourire narquois disparut de son visage. Son seul et unique but devint la libération de sa patrie, quel qu'en soit le prix."
-23,24,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072624.tex","ui/icon/072000/072524.tex",3,"ミコト・ジンバ","Mikoto Jinba","Race<Indent/>: Ao Ra
+23,24,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072579.tex","ui/icon/072000/072524.tex",3,"ミコト・ジンバ","Mikoto Jinba","Race<Indent/>: Ao Ra
 Âge<Indent/>: 24 ans
 Lieu de naissance<Indent/>: Sharlayan
 
@@ -294,7 +294,7 @@ Heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, elle n'était pas tout à f
 Jusqu'au jour où la mauvaise nouvelle tomba<Indent/>: Moenbryda était morte dans des cir<SoftHyphen/>cons<SoftHyphen/>tan<SoftHyphen/>ces tragiques. Au départ, Mikoto refusa d'y croire. Elle interrogea tout le monde autour d'elle pour tenter de comprendre ce qu'il s'était passé. Une lettre d'Urianger vint finalement lui confirmer la triste vérité, déclenchant chez elle la première grosse crise de larmes de sa vie. Elle s'en voulut ter<SoftHyphen/>ri<SoftHyphen/>ble<SoftHyphen/>ment d'avoir aidé son amie à mettre au point son extracteur d'éther. Elle aurait pu l'en dissuader, si seulement elle avait pris la peine de se renseigner sur ses véritables intentions. Si seulement...
 
 Quelques jours plus tard, Mikoto pliait bagage et partait pour sa première expédition scien<SoftHyphen/>ti<SoftHyphen/>fi<SoftHyphen/>que à l'étranger. Aujourd'hui, elle prête volontiers ses talents et son savoir aux Héritiers de la Septième Aube et à diverses or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tions philanthropiques. Se rendre utile aux autres, telle est la nouvelle mission qu'elle s'est fixée."
-24,25,1,1,"A Sign of What's to Come",0,"ui/icon/072000/072625.tex","ui/icon/072000/072525.tex",3,"ミーシィヤ・ヴォートヤシュ","Misija Votyasch","Race<Indent/>: Roegadyne
+24,25,1,1,"A Sign of What's to Come",0,"ui/icon/072000/072580.tex","ui/icon/072000/072525.tex",3,"ミーシィヤ・ヴォートヤシュ","Misija Votyasch","Race<Indent/>: Roegadyne
 Âge<Indent/>: 29 ans
 Lieu de naissance<Indent/>: citadelle de Bozja (province impériale)
 
@@ -339,7 +339,7 @@ M.V.<Indent/>: Hmpf... Quand je vous ai rencontrés, Bajsaljen et toi, je me sui
 
 
 Transcription de l'interrogatoire de Misija Votyasch mené par l'officier Apella trois jours après sa capture. L'officier Apella ayant tenu des propos en contradiction avec ses fonctions, ce document a été classé secret sur ordre du commandant Ulgasch, et il ne peut être consulté sans son aval."
-25,26,1,2,"A Sign of What's to Come",0,"ui/icon/072000/072626.tex","ui/icon/072000/072526.tex",3,"グンヒルド","Gunnhildr","Lorsque l'on parle de Gunnhildr de nos jours, on se réfère la plupart du temps à la dernière prêtresse ayant hérité de ce titre dans l'ancienne Bozja, Nevembya Votyasch. Un nom de famille qui fait d'elle l'une des ancêtres de Misija.
+25,26,1,2,"A Sign of What's to Come",0,"ui/icon/072000/072581.tex","ui/icon/072000/072526.tex",3,"グンヒルド","Gunnhildr","Lorsque l'on parle de Gunnhildr de nos jours, on se réfère la plupart du temps à la dernière prêtresse ayant hérité de ce titre dans l'ancienne Bozja, Nevembya Votyasch. Un nom de famille qui fait d'elle l'une des ancêtres de Misija.
 
 La lignée des Votyasch a donné naissance à de nombreux fileurs de songes, et Nevembya n'a que sept ans lorsque l'on décèle chez elle ce talent. Elle commence alors son initiation religieuse au cours de laquelle elle apprend l'astromancie, l'aéromancie et bien d'autres arts divinatoires, avant de passer aux techniques d'invocation, à l'oraison et aux danses rituelles. Au terme de cet en<SoftHyphen/>sei<SoftHyphen/>gne<SoftHyphen/>ment, elle prend sa place parmi les douze prêtresses servantes de la reine.
 
@@ -356,7 +356,7 @@ Un beau jour, la dernière des Gunnhildr reprend con<SoftHyphen/>nais<SoftHyphen
 “Mes lames... N'ai-je pas assez souffert pour vous<Indent/>? Pourquoi vouloir m'ôter la vie à nouveau<Indent/>? Je suis votre reine... Je suis Gunnhildr... Vous me devez obéissance et respect.”
 Gunnhildr ne se reconnaît plus dans cette vision. Une autre semble dicter ses actes. Elle tente de l'arrêter, lui crie à tue-tête, mais sa voix ne l'atteint pas.
 “Ne fais pas ça<Indent/>! Même tes sujets les plus abjects ne méritent pas la mort<Indent/>! La haine n'engendre que la haine... Alors, défais-en toi, et brise ce cercle infernal de violence...”"
-26,27,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072627.tex","ui/icon/072000/072527.tex",4,"トリニティ・シーカー","Trinité soudée","Résultat de la fusion entre trois nouvelles lames de Gunnhildr subjuguées par Misija<Indent/>: Blaz la lame rédemptrice, Velibor le sabre singulier et Aggie les poings de feu, cette entité à l'apparence monstrueuse n'existe que pour servir la divinité guerrière Garde-la-Reine.
+26,27,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072582.tex","ui/icon/072000/072527.tex",4,"トリニティ・シーカー","Trinité soudée","Résultat de la fusion entre trois nouvelles lames de Gunnhildr subjuguées par Misija<Indent/>: Blaz la lame rédemptrice, Velibor le sabre singulier et Aggie les poings de feu, cette entité à l'apparence monstrueuse n'existe que pour servir la divinité guerrière Garde-la-Reine.
 
 À environ une heure de marche vers le nord de la ville portuaire de Martrvje, au cœur d'un territoire vallonné de pentes douces, une imposante muraille se dresse au sommet de la butte dominante. En apparence vieille de plusieurs siècles, elle est constituée de blocs de pierre à chaux si épais que deux Hyurs adultes tendant les bras peineraient à les couvrir. Malgré sa robustesse, la majorité de l'édifice est en ruines et sa façade couverte de profondes cicatrices trahit son âge avancé.
 Derrière ce vieux mur d'enceinte se trouve un petit village niché entre deux collines, le berceau de la Voie verdoyante. À l'époque de la république de Bozja, le hameau était connu pour son temple, visité par de nombreuses chamanes pour pratiquer leur foi. C'est autour de lui qu'a été construite l'illustre école d'arts martiaux, qui trouve ses origines dans le style de combat ru<SoftHyphen/>di<SoftHyphen/>men<SoftHyphen/>taire pratiqué par les fidèles pour fortifier leur corps et leur esprit. Reconnaissable à ses flèches, on distingue encore nettement le bâtiment au milieu du village.
@@ -367,7 +367,7 @@ Blaz et Velibor, proches aussi bien par l'âge que par l'aptitude au combat, ét
 Aggie, elle, ne l'entendait pas de cette oreille. Elle poursuivit in<SoftHyphen/>las<SoftHyphen/>sa<SoftHyphen/>ble<SoftHyphen/>ment son en<SoftHyphen/>traî<SoftHyphen/>ne<SoftHyphen/>ment jusqu'à passer maître dans sa discipline, et parvenir à remporter un duel sur trois qu'elle disputait avec Blaz et Velibor. Ses frères d'adoption finirent par se rendre à l'évidence et l'accueillirent comme troisième pointe de leur trident. Plus que pour bénéficier de son apport au combat, c'était surtout pour être près d'elle qu'ils prirent cette décision difficile. Ils se jurèrent de la protéger quoi qu'il arrive, au prix de leur vie si nécessaire.
 
 Une promesse solennelle dûment tenue, car Aggie, Blaz et Velibor sont aujourd'hui plus unis que jamais en cette monstrueuse trinité soudée, et seule la mort pourra les séparer."
-27,28,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072628.tex","ui/icon/072000/072528.tex",4,"クイーンズ・ガード","La garde de la reine","Le soldat de la reine, le chevalier de la reine, la guerrière de la reine et le fusilier de la reine. Tous étaient membres des nouvelles lames de Gunnhildr, et tous servent désormais inconditionnellement leur souveraine après avoir été subjugués.
+27,28,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072583.tex","ui/icon/072000/072528.tex",4,"クイーンズ・ガード","La garde de la reine","Le soldat de la reine, le chevalier de la reine, la guerrière de la reine et le fusilier de la reine. Tous étaient membres des nouvelles lames de Gunnhildr, et tous servent désormais inconditionnellement leur souveraine après avoir été subjugués.
 
 Mladen l'insaisissable
 
@@ -394,7 +394,7 @@ Habitué à vivre de la chasse dans les régions les plus reculées de Bozja, ce
 La légende de Ratimir naît la nuit d'un assaut impérial sur le campement où lui et ses compagnons se reposent, sur les berges de la Gorava. L'attaque surprise prend de court les résistants qui, incapables de s'organiser, tombent les uns après les autres. Certains tentent bien de prendre la fuite, mais les Garlemaldais ont étroitement quadrillé la zone et comptent bien ne laisser aucun survivant. C'est alors qu'un soldat impérial s'écroule comme foudroyé, près du feu au milieu du campement. Puis un autre. Dans les ténèbres de la nuit, un fusil se fait entendre, et à chacun de ses coups, c'est un ennemi qui est éliminé. Désormais, ce sont les agresseurs qui sont gagnés par la panique et l'horreur.
 Bien sûr, le tireur n'est autre que Ratimir, qui est revenu au meilleur moment de sa patrouille et s'applique à décimer méthodiquement les rangs impériaux. Lorsque le jour se lève ce matin-là, les résistants comptent trente-six corps garlemaldais, chacun avec une balle plantée dans le crâne...
 Désormais subjugué, c'est au service de sa reine que Ratimir le pâle fait parler la poudre, et malheur à ceux qui croiseront son viseur."
-28,29,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072629.tex","ui/icon/072000/072529.tex",4,"トリニティ・アヴァウド","Trinité féale","Cette entité inhumaine, inconditionnellement dévouée à Garde-la-Reine, a été formée par la fusion de trois nouvelles lames de Gunnhildr après leur subjugation<Indent/>: Stanik le chevalier implacable, Xeven le feu du ciel et Isolde l'ouragan de fleurs.
+28,29,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072584.tex","ui/icon/072000/072529.tex",4,"トリニティ・アヴァウド","Trinité féale","Cette entité inhumaine, inconditionnellement dévouée à Garde-la-Reine, a été formée par la fusion de trois nouvelles lames de Gunnhildr après leur subjugation<Indent/>: Stanik le chevalier implacable, Xeven le feu du ciel et Isolde l'ouragan de fleurs.
 
 L'un des tournants majeurs de l'histoire bozjienne est sans aucun doute l'assaut sur Castrum Lacus Litore, sur les berges occidentales du Igalj Kelo. Si en langue impériale “Lacus Litore” signifie “rive du lac”, “Igalj Kelo” est le bozjien ancien pour “lac miroir”. L'étendue d'eau a été baptisée ainsi car les jours de temps clair, il n'y a pas la moindre ondulation à la surface de l'eau, sur laquelle se reflète l'éclat aveuglant du soleil et le bleu majestueux des cieux.
 C'est dans ce théâtre naturel somptueux que, quelques mois avant la bataille décisive, les troupes de la résistance bozjienne, secrètement rassemblées à l'avant-poste de Volod, essuient un implacable assaut de l'armée impériale. Conscient que ses hommes n'ont pas la moindre chance face à l'écrasante majorité de l'ennemi, Bajsaljen sonne la retraite dont il confie la couverture à ses trois plus fidèles lieutenants. Stanik, Xeven et Isolde parviennent à rallier les troupes restantes et à orchestrer leur fuite, mais tombent malheureusement dans une embuscade tendue par Albeleo et son régiment. Le commandant élézen tente en effet de profiter de l'affaiblissement des résistants pour leur porter le coup final.
@@ -402,7 +402,7 @@ Complètement encerclés, les trois lieutenants de Bajsaljen mènent un combat h
 Les deux hommes s'assoient alors dos à dos en contemplant la lune pour la dernière fois, n'attendant plus que l'inévitable. Alors que le jour est sur le point de se lever, ils entendent au loin le son sinistre d'un cor impérial, l'ordre qui doit sceller leur funeste destinée. Mais, alors qu'ils pensent leur fin arrivée, c'est cette fois une douce mélodie qui parvient à leurs oreilles. Il s'agit d'une chanson tra<SoftHyphen/>di<SoftHyphen/>tion<SoftHyphen/>nel<SoftHyphen/>le bozjienne, jouée sur l'arc d'Isolde qui vient tout juste d'arriver avec des renforts inespérés.
 
 La veille de l'assaut sur Castrum Lacus Litore, Stanik demande à Isolde de lui interpréter cette composition en souvenir du bon vieux temps, ce à quoi elle s'exécute, tout sourire. Xeven, une pinte de liqueur forte à la main, ferme les yeux en se remémorant cette nuit épique à laquelle ils ont tous les trois miraculeusement survécu. Tous n'espèrent qu'une chose<Indent/>: pouvoir à nouveau partager un tel moment de sérénité, une fois la bataille du front sud remportée. Ils sont encore loin d'imaginer ce que le destin leur réserve..."
-29,30,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072630.tex","ui/icon/072000/072530.tex",5,"セイブ・ザ・クイーン","Garde-la-Reine","Les Allagois ont pendant longtemps cherché à invoquer plus facilement et à mieux contrôler les divinités guerrières. L'une de leurs méthodes consistait à créer un catalyseur sous la forme d'une arme. L'épée que d'autres appelèrent plus tard Garde-la-Reine est l'une d'entre elles.
+29,30,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072585.tex","ui/icon/072000/072530.tex",5,"セイブ・ザ・クイーン","Garde-la-Reine","Les Allagois ont pendant longtemps cherché à invoquer plus facilement et à mieux contrôler les divinités guerrières. L'une de leurs méthodes consistait à créer un catalyseur sous la forme d'une arme. L'épée que d'autres appelèrent plus tard Garde-la-Reine est l'une d'entre elles.
 On ignore comment ou pourquoi cette dernière est devenue l'épée sacrée de Bozja. Même s'il n'est pas impossible que les anciens Bozjiens l'aient dérobée à leurs ennemis, ce scénario est dif<SoftHyphen/>fi<SoftHyphen/>ci<SoftHyphen/>le<SoftHyphen/>ment envisageable sachant qu'Allag les dépassait militairement. Et évidemment, jamais l'ancien empire n'aurait offert ou vendu une arme si puissante à une nation ennemie. On pense plutôt qu'un ou une Allagoise en désaccord avec la ligne politique de sa patrie aurait déserté et emporté avec lui ou elle cette arme pour prouver sa bonne foi. Quoi qu'il en soit, une chose est sûre, l'épée sacrée que seule la reine pouvait ceindre provient bel et bien de l'empire que les anciens Bozjiens combattaient si farouchement.
 
 Cette arme est unique de par le matériau qui la compose.
@@ -413,7 +413,7 @@ La jeune Roegadyne, après avoir appris le destin tragique de Gunnhildr, avait l
 Peu après, elle commença par invoquer une forme incomplète de Garde-la-Reine en manipulant l'éther mémoriel de la dernière Gunnhildr contenu dans l'épée. Cet ersatz lui permit de subjuguer plusieurs des soldats d'élite de la résistance et de freiner pour un temps leur rébellion. Elle ne s'arrêta cependant pas là, puisqu'elle se mit en quête d'une source d'éther afin d'invoquer en elle et pour de bon la divinité guerrière. Elle s'aventura finalement dans les ruines de Delubrum Reginae pour y trouver le nimbe royal, un immense cristal qui révéla enfin le véritable pouvoir de l'épée sacrée.
 
 En cet instant, Misija et Garde-la-Reine ne faisaient plus qu'une, une entité animée par la conjugaison d'une rancœur millénaire et des idéaux du général Gabranth."
-30,23,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072631.tex","ui/icon/072000/072531.tex",3,"ロスティック・リュバシュ","Rostik Liubasch","Race<Indent/>: Hrothgar
+30,23,1,0,"A Sign of What's to Come",0,"ui/icon/072000/072586.tex","ui/icon/072000/072531.tex",3,"ロスティック・リュバシュ","Rostik Liubasch","Race<Indent/>: Hrothgar
 Âge<Indent/>: 56 ans
 Lieu de naissance<Indent/>: citadelle de Bozja
 
@@ -427,7 +427,7 @@ Hélas, son entreprise se solde par le même échec. Alors qu'il se bat à mort 
 Suite à cette tragédie, Rostik décide de faire cavalier seul, loin des affres de l'Empire. Pendant un temps, la vengeance est sa seule raison de vivre, mais quel que soit le nombre de Garlemaldais qu'il passe sous le tranchant de sa pistolame, il est conscient qu'il ne peut triompher de l'armée impériale entière à lui tout seul. Sa vendetta prend fin le jour où il tombe dans une embuscade savamment planifiée. Il est grièvement blessé et parvient à s'enfuir dans une forêt où, arrivé à bout de forces, il s'effondre sur le sol et se résout à attendre la mort. De toute façon, elle arriverait bien assez tôt.
 Or, le destin voulut que la résistance bozjienne avait ce jour-là prévu d'attaquer les mêmes Garlemaldais qui avaient failli envoyer Rostik rejoindre son père, et en lieu et place de la grande faucheuse, c'est Bajsaljen qui finit par apparaître devant lui et le sauver in extremis du trépas. Impressionné par la force de conviction de son bienfaiteur, Rostik rejoint na<SoftHyphen/>tu<SoftHyphen/>rel<SoftHyphen/>le<SoftHyphen/>ment ses congénères dans leur combat après avoir récupéré ses forces, non cette fois pour trancher des gorges dans un esprit de revanche, mais à nouveau pour protéger ce qui pouvait encore l'être en transmettant ses con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ces à ses cadets.
 Au fur et à mesure que les jours s'écoulent, les techniques ancestrales des pistosabreurs continuent de passer de génération en génération. Qu'il s'agisse des membres centraux de la résistance tels que Marsak, ou d'un Héritier de la Septième Aube rencontré par hasard comme Thancred, les disciples de Rostik sont nombreux. Et c'est ainsi que se poursuit son rêve de voir la grande et belle citadelle de Bozja renaître de ses cendres..."
-31,31,2,0,"A New Playing Field",0,"ui/icon/072000/072633.tex","ui/icon/072000/072533.tex",1,"モリベのアトリ","Atori Moribe","Race<Indent/>: Ao Ra
+31,31,2,0,"A New Playing Field",0,"ui/icon/072000/072588.tex","ui/icon/072000/072533.tex",1,"モリベのアトリ","Atori Moribe","Race<Indent/>: Ao Ra
 Âge<Indent/>: 29 ans
 Lieu de naissance<Indent/>: Dagluk
 
@@ -445,7 +445,7 @@ Le choc émotionnel avait rendu Atori temporairement muette. Cependant, le temps
 
 Atori devint ensuite membre de la résistance et participe aujourd'hui à des attaques contre l'Empire, se distinguant par son expertise dans le maniement de la lance.
 Elle fait souvent équipe avec Kosyu, l'homme qui avait pris soin d'elle lorsqu'elle avait perdu l'usage de la parole, et elle le considère comme un véritable grand frère."
-32,32,2,0,"A New Playing Field",0,"ui/icon/072000/072634.tex","ui/icon/072000/072534.tex",2,"虎鬚","Kosyu","Race<Indent/>: Roegadyn 
+32,32,2,0,"A New Playing Field",0,"ui/icon/072000/072589.tex","ui/icon/072000/072534.tex",2,"虎鬚","Kosyu","Race<Indent/>: Roegadyn 
 Âge<Indent/>: 38 ans
 Lieu de naissance<Indent/>: village de Bunlai, nord-est de Nagxia
 
@@ -459,7 +459,7 @@ Un an avant la pacification de Nagxia par l'armée impériale, Kosyu et ses comp
 Rapidement, Kosyu et Atori deviennent au sein de la résistance des combattants de tout premier ordre. En attestent les prouesses qu'ils accomplissent lors de la bataille de Castrum Viride. 
 
 Lorsque la coalition orientale réclame des renforts pour soutenir l'insurrection bozjienne, c'est avec au cœur le désir de secourir le peuple opprimé par l'Empire que Kosyu et Atori proposent leur aide, bien vite acceptée."
-33,33,2,0,"A New Playing Field",0,"ui/icon/072000/072635.tex","ui/icon/072000/072535.tex",1,"オボロ・トリオイ","Oboro Torioi","Race<Indent/>: Hyurois
+33,33,2,0,"A New Playing Field",0,"ui/icon/072000/072590.tex","ui/icon/072000/072535.tex",1,"オボロ・トリオイ","Oboro Torioi","Race<Indent/>: Hyurois
 Âge<Indent/>: 24 ans
 Lieu de naissance<Indent/>: Doma
 
@@ -480,7 +480,7 @@ Oboro se distingue par son grand sérieux et son profond attachement à la justi
 Voici les témoignages d'un shinobi l'ayant cotoyé pendant plusieurs missions (pour des raisons de confidentialité, son nom n'est pas révélé)<Indent/>: 
 Il semble qu'il ait, par le passé, pensé à prendre pour femme celle que lui avait recommandée le doyen. En tant que shinobi d'élite, il pensait sans doute qu'il se devait de former lui-même ses enfants afin qu'ils deviennent de fiers combattants. Je ne sais pas si c'est l'influence de la vie sans entrave que mènent les habitants d'Éorzéa... dans tous les cas, je vous prie de ne pas répéter ailleurs ce que je viens de dire, ce serait très embarrassant. Eh bien, comment dire... Je crois que maître Oboro rêve d'un mariage d'amour<Indent/>: dissimulé dans l'ombre, je l'ai vu lire un livre de développement personnel dont le titre était... “Tout savoir sur le mariage”.
 "
-34,34,2,0,"A New Playing Field",0,"ui/icon/072000/072636.tex","ui/icon/072000/072536.tex",3,"ツバメ・オシダリ","Tsubame Oshidari","Race<Indent/>: Hyuroise
+34,34,2,0,"A New Playing Field",0,"ui/icon/072000/072591.tex","ui/icon/072000/072536.tex",3,"ツバメ・オシダリ","Tsubame Oshidari","Race<Indent/>: Hyuroise
 Âge<Indent/>: 22 ans
 Lieu de naissance<Indent/>: Doma
 
@@ -499,7 +499,7 @@ Oboro, bien que possédant un certain degré de discrétion que lui confèrent s
 Tsubame, elle, connaît la raison pour laquelle Oboro a tendance à sortir de son rôle. Elle a noté chez lui une sincérité confinant à la candeur ainsi qu'une tendance à prendre très à cœur les injustices dont il est témoin. Tout ceci fait qu'Oboro ne parvient pas à jouer un rôle d'une manière assez crédible pour tromper les esprits les plus perspicaces.
 
 Tsubame ne peut pas en vouloir à Oboro<Indent/>; l'aider est son devoir. Cependant, il lui pèse de, aujourd'hui encore, passer et repasser derrière lui pour s'assurer de la réussite d'une mission. Mais elle doit bien avouer qu'au fond, elle aime un peu ça."
-35,35,2,0,"A New Playing Field",0,"ui/icon/072000/072637.tex","ui/icon/072000/072537.tex",2,"メリオール・ミラー","Meryall Miller","Race<Indent/>: Hyuroise
+35,35,2,0,"A New Playing Field",0,"ui/icon/072000/072592.tex","ui/icon/072000/072537.tex",2,"メリオール・ミラー","Meryall Miller","Race<Indent/>: Hyuroise
 Âge<Indent/>: 18 ans
 Lieu de naissance<Indent/>: citadelle de Bozja
 
@@ -516,7 +516,7 @@ Il y a deux ans, Lovro, soupçonné d'être un espion de la résistance bozjienn
 Meryall s'apprête à participer à l'attaque-surprise sur Kralja quand elle apprend que Lovro a été subjugué. Malgré cela, elle reste concentrée sur le commandement de l'opération, qui, grâce à elle, est un succès total. Tous les par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants louent sa capacité à dissocier l'affect du devoir, devoir qu'elle sait faire primer sur le reste. Mais au fond d'elle, Meryall n'a qu'une hâte<Indent/>: partir rejoindre Lovro au Front sud de Bozja.
 
 Meryall et Lovro s'étaient promis que s'ils étaient faits prisonniers, ils mettraient respectivement fin à leurs jours. Elle sait donc qu'elle devra abréger ses souffrances si son maître ne peut être désenvoûté, mais en aura-t-elle la force<Indent/>? À chaque fois qu'elle y pense, elle doit contenir le chagrin qui emplit son cœur."
-36,36,2,0,"A New Playing Field",0,"ui/icon/072000/072638.tex","ui/icon/072000/072538.tex",3,"ロヴロ・アン・スラナシュ","Lovro aan Slanasch","Race<Indent/>: Hrothgar 
+36,36,2,0,"A New Playing Field",0,"ui/icon/072000/072593.tex","ui/icon/072000/072538.tex",3,"ロヴロ・アン・スラナシュ","Lovro aan Slanasch","Race<Indent/>: Hrothgar 
 Âge<Indent/>: 38 ans
 Lieu de naissance<Indent/>: citadelle de Bozja
 
@@ -533,7 +533,7 @@ Lovro, s'il éprouve une haine profonde pour Lambard, qu'il voit comme le chien 
 C'est dans la citadelle de Bozja que Lovro rencontre Meryall, une brillante étudiante de quatorze ans par<SoftHyphen/>ti<SoftHyphen/>cu<SoftHyphen/>liè<SoftHyphen/>rement douée pour la stratégie militaire. Constatant que la jeune fille absorbe telle une éponge la moindre information et voyant qu'il pourrait s'en faire une alliée précieuse, le mage entreprend avec un enthousiasme inédit de lui enseigner tout ce qu'il sait.
 
 Lovro et Meryall, conformément aux vœux qu'ils ont échangés, entrent dans la résistance bozjienne. Leurs talents reconnus avant même que les opérations contre le régime ne commencent, ils sont tous deux faits nouvelles lames de Gunnhildr. Mais Lovro cesse d'être lui-même lorsque, subjugué par le pouvoir de Garde-la-Reine, il est transformé en esclave docile."
-37,37,2,3,"A New Playing Field",0,"ui/icon/072000/072639.tex","ui/icon/072000/072539.tex",4,"ロフィー・ピル・ポティトゥス","Llofii pyr Potitus","Race<Indent/>: Miqo'te 
+37,37,2,3,"A New Playing Field",0,"ui/icon/072000/072594.tex","ui/icon/072000/072539.tex",4,"ロフィー・ピル・ポティトゥス","Llofii pyr Potitus","Race<Indent/>: Miqo'te 
 Âge<Indent/>: 19 ans
 Lieu de naissance<Indent/>: Valnain, Dalmasca
 
@@ -548,7 +548,7 @@ Mais Llofii hésite à quitter le champ de bataille, car elle est préoccupée p
 “Monocéros, acceptes-tu de m'aider<Indent/>? Je ne veux pas t'y forcer. Fais comme tu l'entends.”
 
 Bajsaljen promet à Llofii que même si celle-ci venait à mourir, il se chargerait de rendre le monocéros à son pays natal. Peu après, Llofii se fait la réflexion que prier le monocéros de l'accompagner ne la rend pas si différente de Fabineau. Honteuse, elle laisse son compagnon et se dirige seule vers le champ de bataille. Le monocéros, incapable de comprendre les raisons du combat de Llofii mais désirant plus que tout la protéger, choisit toutefois de la suivre."
-38,38,2,0,"A New Playing Field",0,"ui/icon/072000/072640.tex","ui/icon/072000/072540.tex",2,"ファビノー・クォ・ソラノス","Fabineau quo Soranus","Race<Indent/>: Élézen 
+38,38,2,0,"A New Playing Field",0,"ui/icon/072000/072595.tex","ui/icon/072000/072540.tex",2,"ファビノー・クォ・ソラノス","Fabineau quo Soranus","Race<Indent/>: Élézen 
 Âge<Indent/>: 37 ans
 Lieu de naissance<Indent/>: Mannatheihwo, ancienne république de Landis
 
@@ -562,7 +562,7 @@ Si Fabineau ne comprend pas ses propres émotions, son inconscient le pousse à 
 “Pfff<Indent/>! Moi au moins, je ne m'en suis jamais pris à des humains. Après tout, leurs vies sont précieuses. En comparaison, que valent celles des animaux de laboratoire<Indent/>? Écoutez plutôt<Indent/>: c'est le développement de la magie, dont découle l'acquisition du pouvoir, qui est la clé d'un monde où les guerres n'existent plus, où seule règne la paix. Et c'est l'avènement d'un tel monde qui exige ces sacrifices.”
 
 Il est à noter que Soranus est un patronyme répandu à Mannatheihwo. L'homme dont il est question ici n'a aucun lien de parenté avec Sartauvoir le fer rouge."
-39,39,2,0,"A New Playing Field",0,"ui/icon/072000/072641.tex","ui/icon/072000/072541.tex",3,"ヤマツミ・ピル・ウラベ","Yamatsumi pyr Urabe","Race<Indent/>: Hyurois 
+39,39,2,0,"A New Playing Field",0,"ui/icon/072000/072596.tex","ui/icon/072000/072541.tex",3,"ヤマツミ・ピル・ウラベ","Yamatsumi pyr Urabe","Race<Indent/>: Hyurois 
 Âge<Indent/>: 41 ans
 Lieu de naissance<Indent/>: village de Godo, Doma
 
@@ -576,7 +576,7 @@ Gabranth réussit à les convaincre que leurs talents ne devaient pas être gâc
 En tant que recrue fraîchement intégrée, il fut relégué à un rang bien inférieur à celui d'un decurio, car ses capacités étaient bien moindres. Cependant, son affectation à une unité mobile, consentie par Gabranth, lui permettait une certaine liberté de mouvement. Il faisait également partie de la cohorte des incantateurs et, aux ordres directs de Menenius, participait aux recherches de reliques sacrées.
 
 Yamatsumi avait emporté avec lui lors de la fuite de Doma un artefact, le Kami-no-Iwato. On dit de cet instrument, servant à sonner le début d'une cérémonie, qu'il était transmis de génération en génération chez les Urabe, et que seul le chef de famille pouvait le manipuler. Si l'on en croit Yamatsumi, les Urabe en avaient fait don à la dynastie régnant sur Doma. On ne sait guère comment l'instrument s'est retrouvé entre les mains de Yamatsumi, car ce dernier se borne à affirmer qu'il est simplement retourné à son premier pro<SoftHyphen/>prié<SoftHyphen/>taire lorsque son pays fut placé sous domination impériale. Le prêtre onmyo est à présent recherché dans tout Doma pour le vol de l'artefact et pour s'être rangé du côté de l'Empire."
-40,40,2,0,"A New Playing Field",0,"ui/icon/072000/072642.tex","ui/icon/072000/072542.tex",1,"パガガ・クォ・バックスタイン","Pagaga quo Vochstein","Race<Indent/>:  Lalafelle
+40,40,2,0,"A New Playing Field",0,"ui/icon/072000/072597.tex","ui/icon/072000/072542.tex",1,"パガガ・クォ・バックスタイン","Pagaga quo Vochstein","Race<Indent/>:  Lalafelle
 Âge<Indent/>: 20 ans
 Lieu de naissance<Indent/>: Neimrahava, Dalmasca
 
@@ -601,7 +601,7 @@ Cet événement apprit l'humilité à Gannp et le rendit avenant. Il cessa d'él
 
 Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, Gannp fut un jour touché par un mal incurable. Lorsqu'il ne put plus sortir de son lit, il décida d'adopter of<SoftHyphen/>fi<SoftHyphen/>ciel<SoftHyphen/>le<SoftHyphen/>ment Pagaga et de lui faire porter le nom des Vochstein. Quand celui qui l'avait adoptée rendit son dernier souffle, Pagaga lui jura de devenir une plus grande dresseuse que lui, et de surpasser même Lyon. 
 "
-41,41,2,0,"A New Playing Field",0,"ui/icon/072000/072643.tex","ui/icon/072000/072543.tex",1,"ダグザ・エン・スース","Daguza oen Sus","Race<Indent/>:  Seeq
+41,41,2,0,"A New Playing Field",0,"ui/icon/072000/072598.tex","ui/icon/072000/072543.tex",1,"ダグザ・エン・スース","Daguza oen Sus","Race<Indent/>:  Seeq
 Âge<Indent/>: 46 ans
 Lieu de naissance<Indent/>: Nalbina, Dalmasca
 
@@ -621,7 +621,7 @@ Gabranth, le général de la 4e légion, permet à Daguza de sortir du bourbier 
 
 Daguza accepte sans se faire prier. Devenus of<SoftHyphen/>fi<SoftHyphen/>ciel<SoftHyphen/>le<SoftHyphen/>ment membres de la légion, lui et ses hommes ont beaucoup de travail. Notre mercenaire n'a pourtant qu'une chose en tête<Indent/>: se procurer juste assez de viande pour calmer la faim de ses compagnons. Tous pensent qu'il leur suffit d'avoir assez à manger pour tenir jusqu'au matin suivant. Tout bien considéré, ils n'éprouvent aucune espèce de loyauté envers Gabranth et la 4e légion, mais n'en travaillent pas moins dur pour mériter chaque pièce gagnée.
 "
-42,42,2,0,"A New Playing Field",0,"ui/icon/072000/072644.tex","ui/icon/072000/072544.tex",2,"ジルブリスベル・クォ・ブテオ","Gilbrisbert quo Buteo","Race<Indent/>:  Élézen
+42,42,2,0,"A New Playing Field",0,"ui/icon/072000/072599.tex","ui/icon/072000/072544.tex",2,"ジルブリスベル・クォ・ブテオ","Gilbrisbert quo Buteo","Race<Indent/>:  Élézen
 Âge<Indent/>: 29 ans
 Lieu de naissance<Indent/>: Sal Ghidos, Dalmasca
 
@@ -638,7 +638,7 @@ Gilbrisbert naît dans une zone administrée de Dalmasca. En tant que membre d'u
 Les fidèles de Germonicus sont convaincus que sacrifier leur vie leur permet de rejoindre Ultima, ce qui équivaut à aller au paradis. Lorsqu'ils se sacrifient au terme d'un combat, ils ont recours à un pouvoir puissant qui leur permet d'invoquer ou de prendre la forme de rukavis, des êtres monstrueux. Pour ce faire, ils ont besoin d'un médium<Indent/>: les auralithes.
 
 Si les prêtres-combattants font don de leurs vies, Gilbrisbert, lui, se sert des autres comme spécimens expérimentaux auxquels il fait subir des transformations, en plus d'utiliser sur eux des sorts de contrôle mental pour mieux les manipuler. On le déteste et le surnomme “le marionnettiste” car il n'hésite pas à sacrifier autrui pour grossir les rangs. Cependant, loin de s'en formaliser, Gilbrisbert semble s'en enorgueillir."
-43,43,2,4,"A New Playing Field",69624,"ui/icon/072000/072645.tex","ui/icon/072000/072545.tex",5,"ダボグ・アン・イニヴァシュ","Dabog aan Inivisch","Race<Indent/>:  Hrothgar
+43,43,2,4,"A New Playing Field",69624,"ui/icon/072000/072600.tex","ui/icon/072000/072545.tex",5,"ダボグ・アン・イニヴァシュ","Dabog aan Inivisch","Race<Indent/>:  Hrothgar
 Âge<Indent/>: 34 ans (estimation)
 Lieu de naissance<Indent/>: citadelle de Bozja
 
@@ -662,7 +662,7 @@ Euh... dites, vous faites de ces têtes<Indent/>! On dirait que vous avez avalé
 Enfin, peu importe. De toute façon, vous autres rebelles allez me mettre à mort, je me trompe<Indent/>? Dans ce cas, autant tout avouer sur mes exploits. J'espère que vous notez tout, il faut que les générations futures soient au courant<Indent/>! D'ailleurs, vous pouvez vous servir de ce que je vous dis pour accroître l'efficacité des forces armées de votre, comment vous dites, déjà<Indent/>? Votre nouvelle Dalmasca<Indent/>! (rire) Comment<Indent/>? Ça ne vous fait pas rire<Indent/>? Ooh, c'est bon<Indent/>! Vous devez peut-être vous dire que plus personne ne veut la guerre. D'accord, mais avez-vous pensé à nos descendants<Indent/>? Avec vous, ils vivront dans un monde où on ne sait rien de la guerre<Indent/>!  Alors que s'ils ont appris qu'il est nécessaire d'entraîner ses soldats, d'améliorer sa stratégie et d'augmenter l'efficacité des armes utilisées afin d'avoir le dessus sur les forces adverses, il seront armés, si j'ose dire, et surtout ils sauront à qui ils doivent toutes ces con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ces<Indent/>! “Mais oui, c'est le génie qui l'a dit, ça” se diront-ils<Indent/>! (rire) Ben oui, c'est moi, le génie<Indent/>! (gros rire) Voilà pourquoi vous devez écouter at<SoftHyphen/>ten<SoftHyphen/>ti<SoftHyphen/>ve<SoftHyphen/>ment ce que je vous dis, et surtout faire en sorte que ce soit retranscrit à l'écrit<Indent/>!
 
 Hé ho, attendez, où allez-vous comme ça<Indent/>? J'ai à peine commencé<Indent/>!!!<Else/></If>"
-44,44,2,5,"A New Playing Field",69624,"ui/icon/072000/072646.tex","ui/icon/072000/072546.tex",5,"ライアン・クォ・ヘルソス","Lyon quo Helsos","Race<Indent/>: Hyur
+44,44,2,5,"A New Playing Field",69624,"ui/icon/072000/072601.tex","ui/icon/072000/072546.tex",5,"ライアン・クォ・ヘルソス","Lyon quo Helsos","Race<Indent/>: Hyur
 Âge<Indent/>: 68 ans
 Lieu de naissance<Indent/>: Arnsbeirgs, ancienne république de Landis
 
@@ -681,7 +681,7 @@ On ignore encore ce qui a poussé le Roi bestial à livrer ainsi son ancien alli
 On notera enfin que Lyon était accompagné d'une jeune Lalafelle lorsqu'il a rencontré les Rumta-Zaraam. Nous soupçonnons qu'il s'agissait de Pagaga quo Vochstein, et que c'est elle qui l'a aidé à s'évader.
 
 À ce jour, l'un comme l'autre courent toujours.<Else/></If>"
-45,45,2,6,"A New Playing Field",69624,"ui/icon/072000/072647.tex","ui/icon/072000/072547.tex",5,"メネニウス・サス・ラナトゥス","Menenius sas Lanatus","Race<Indent/>: Élézen
+45,45,2,6,"A New Playing Field",69624,"ui/icon/072000/072602.tex","ui/icon/072000/072547.tex",5,"メネニウス・サス・ラナトゥス","Menenius sas Lanatus","Race<Indent/>: Élézen
 Âge<Indent/>: 55 ans
 Lieu de naissance<Indent/>: Garlemald, capitale de l'Empire
 
@@ -709,7 +709,7 @@ Et Noah<Indent/>? se dit-il. Noah, le fils de Basch auquel Lucius, son père ado
 
 Les paroles de Lyon lui revinrent alors à l'esprit<Indent/>:
 “Il serait p't-être temps de te faire une raison<Indent/>? Le petit Noah t'a pas attendu, lui.”<Else/></If>"
-46,46,2,0,"A New Playing Field",0,"ui/icon/072000/072648.tex","ui/icon/072000/072548.tex",3,"ディアブロ・アーマメント","La batterie d'artillerie Diablo","Artefact de la civilisation allagoise.
+46,46,2,0,"A New Playing Field",0,"ui/icon/072000/072603.tex","ui/icon/072000/072548.tex",3,"ディアブロ・アーマメント","La batterie d'artillerie Diablo","Artefact de la civilisation allagoise.
 
 Comme nous le savons aujourd'hui, Allag lança le projet Armes pour retourner le pouvoir des Primordiaux contre eux. Toutefois, ils ne mirent pas tous leurs œufs dans le même panier, et explorèrent d'autres solutions. La batterie d'artillerie Diablo était l'une d'elles<Indent/>: une machine développée en parallèle au sein d'un autre projet, visant à exploiter la puissance des démons venus du néant.
 
@@ -725,7 +725,7 @@ Diablo lui-même est classé au deuxième rang dans la Hiérarchie du néant ét
 
 L'arme créée fut ensuite envoyée en Bozja pour soumettre le petit pays. Cependant, elle fut ensevelie au cours du quatrième fléau avant d'avoir pu faire ses preuves, et ne revit le jour que lorsque la 4e légion la déterra des Hauts plateaux de Zadnor.
 Après la perte de ce prototype devant rivaliser de puissance avec l'Ultima Arma, Allag poursuivit ses recherches, mais on ignore encore combien d'autres modèles furent créés. Des études plus poussées nous permettront peut-être un jour de répondre à cette question."
-47,47,2,0,"A New Playing Field",0,"ui/icon/072000/072649.tex","ui/icon/072000/072549.tex",3,"シド・ガーロンド","Cid Garlond","Race<Indent/>: Garlemaldais
+47,47,2,0,"A New Playing Field",0,"ui/icon/072000/072604.tex","ui/icon/072000/072549.tex",3,"シド・ガーロンド","Cid Garlond","Race<Indent/>: Garlemaldais
 Âge<Indent/>: 34 ans
 Lieu de naissance<Indent/>: Garlemald, capitale de l'Empire
 
@@ -739,7 +739,7 @@ En réalité, son père n'était pas dans son état normal les jours qui avaient
 Traumatisé et accablé par le regret, Cid avait confiné ce souvenir au plus profond de son subconscient. Mais aujourd'hui, il sait que son père était déjà mort lorsqu'il l'avait délaissé, que ce n'était pas lui qui avait pressé la détente.
 
 Le soir de la libération de Bozja, Cid tenait entre ses mains un pendentif resté fermé depuis quinze ans. En l'ouvrant, il laissa le passé remonter à la surface, et contempla pour la première fois depuis longtemps cette photo de lui aux côtés de son père lui souriant avec tendresse."
-48,48,2,0,"A New Playing Field",0,"ui/icon/072000/072650.tex","ui/icon/072000/072550.tex",3,"フラン・エルト","Fran Eruyt","Race<Indent/>: Viéra
+48,48,2,0,"A New Playing Field",0,"ui/icon/072000/072605.tex","ui/icon/072000/072550.tex",3,"フラン・エルト","Fran Eruyt","Race<Indent/>: Viéra
 Âge<Indent/>: inconnu
 Lieu de naissance<Indent/>: inconnu
 
@@ -755,7 +755,7 @@ Fran ne ressortit pas entièrement indemne de cette épreuve non plus. Plus tard
 
 Aujourd'hui, Bwagi et les autres sont plus que jamais des amis chers aux yeux de Fran. Toutefois, elle ne leur a pas encore révélé que sa protégée est bien plus qu'un simple membre de la famille royale, qu'il s'agit de la princesse Ashe elle-même. Le jour viendra où elle sera dans l'obligation de le leur expliquer, et elle sait qu'elle devra alors affronter leur colère.
 Avant cela toutefois, il faudra entièrement libérer Dalmasca avec l'aide des Bozjiens. En attendant, elle continuera de se cacher derrière un visage de marbre afin de ne pas trahir ses émotions à ses amis."
-49,49,2,0,"A New Playing Field",0,"ui/icon/072000/072651.tex","ui/icon/072000/072551.tex",3,"ヒエン・リジン","Hien Rijin","Race<Indent/>: Hyur
+49,49,2,0,"A New Playing Field",0,"ui/icon/072000/072606.tex","ui/icon/072000/072551.tex",3,"ヒエン・リジン","Hien Rijin","Race<Indent/>: Hyur
 Âge<Indent/>: 24 ans
 Lieu de naissance<Indent/>: Doma
 
@@ -771,7 +771,7 @@ Lorsque les lames de Gunnhildr sont subjuguées sur le front bozjien, Hien comme
 Malgré ses interrogations, Hien a par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment conscience de la nécessité de ses actes. Il se salit les mains, afin que les générations futures n'aient pas à le faire. S'il avait pu l'éviter, il l'aurait fait, mais parfois, le destin nous force la main. Pour sauver son peuple, il est prêt à passer de héros à démon, mais son ami<If(PlayerParameter(4))>e<Else/></If> d'Éorzéa comprendra-t-<If(PlayerParameter(4))>elle<Else/>il</If> ses choix<Indent/>?
 
 “C'est moi qui t'ai demandé ton aide, alors permets-moi de partager ton fardeau, mon ami<If(PlayerParameter(4))>e<Else/></If>. Je serai ton compagnon de route, jusqu'à ce que la paix revienne sur ce monde.”"
-50,50,2,0,"A New Playing Field",0,"ui/icon/072000/072652.tex","ui/icon/072000/072552.tex",3,"ノア・ヴァン・ガブラス","Noah van Gabranth","Race<Indent/>: Hyur
+50,50,2,0,"A New Playing Field",0,"ui/icon/072000/072607.tex","ui/icon/072000/072552.tex",3,"ノア・ヴァン・ガブラス","Noah van Gabranth","Race<Indent/>: Hyur
 Âge<Indent/>: 48 ans
 Lieu de naissance<Indent/>: Arnsbeirgs, ancienne république de Landis
 

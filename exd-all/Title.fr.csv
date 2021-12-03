@@ -594,5 +594,33 @@ int32,str,str,bit&01,uint16
 590,"Lame de Gunnhildr","Lame de Gunnhildr",False,1656
 591,"Médailliste","Médailliste",False,1657
 592,"Élu de la Reine","Élue de la Reine",False,1658
-593,"","",False,0
-594,"","",False,0
+593,"Prodige de la guerre","Prodige de la guerre",False,1659
+594,"Prodige de la magie","Prodige de la magie",False,1660
+595,"Prodige de la main","Prodige de la main",False,1661
+596,"Prodige de la terre","Prodige de la terre",False,1662
+597,"Pourfendeur des Magus","Pourfendeuse des Magus",False,1663
+598,"Marcheur sélénien","Marcheuse sélénienne",False,1664
+599,"Cuniculiculteur millénaire","Cuniculicultrice millénaire",False,1665
+600,"Défenseur de Thavnair","Défenseur de Thavnair",False,1666
+601,"Voyageur d'Elpis","Voyageuse d'Elpis",False,1667
+602,"Symbole de l'espoir","Symbole de l'espoir",False,1668
+603,"Arpenteur des finitudes","Arpenteuse des finitudes",False,1669
+604,"Lémure","Lémure",False,1670
+605,"Sage","Sage",False,1671
+606,"Métallurgiste érudit","Métallurgiste érudite",False,1672
+607,"Façonnier érudit","Façonnière érudite",False,1673
+608,"Préparateur érudit","Préparatrice érudite",False,1674
+609,"Naturaliste érudit","Naturaliste érudite",False,1675
+610,"Pêcheur érudit","Pêcheuse érudite",False,1676
+611,"Diplômé honoris causa","Diplômée honoris causa",False,1677
+612,"Entraîneur de la Septième Aube","Entraîneuse de la Septième Aube",False,1678
+613,"Serment irréductible","Serment irréductible",False,1679
+614,"Acier irréductible","Acier irréductible",False,1680
+615,"Morale irréductible","Morale irréductible",False,1681
+616,"Loyauté irréductible","Loyauté irréductible",False,1682
+617,"Glaneur hors pair","Glaneuse hors pair",False,1683
+618,"Traqueur notoire","Traqueuse notoire",False,1684
+619,"Homo ludens","Homo ludens",False,1685
+620,"Régulier du Ludodrome","Régulière du Ludodrome",False,1686
+621,"Champion du Ludodrome","Championne du Ludodrome",False,1687
+622,"Maître des aléas du destin","Maîtresse des aléas du destin",False,1688

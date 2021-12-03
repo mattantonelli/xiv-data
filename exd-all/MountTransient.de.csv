@@ -566,7 +566,8 @@ nur ein Trick.","Was für ein niedliches Hündchen!
 <Emphasis>Nashu Mhakaracca</Emphasis>"
 236,"Rufe deine Riesenkrabbe herbei. Sie ist dankbar, am Leben zu sein, und wird dich nicht zwicken.","Diese riesige Krabbe wurde von einem verfressenen Qiqirn gemästest, der es jedoch am Ende nicht über sein Herz brachte, sie zu schlachten. Aus Dankbarkeit stellt sich die Krabbe seither als Reittier zur Verfügung.","Krabbe ist fett, aber nett. Soll leben!
 <Emphasis>Anonymer Qiqirn</Emphasis>"
-237,"","",""
+237,"Rufe das legendäre Fabelwesen Areion herbei.","Dieses geflügelte Pferd soll einst einem Helden gehört haben. Es heißt, dass nur wessen Herz so heiß brennt wie die Sonne, auf ihm reiten kann.","Ein fabelhaftes Pferd.
+<Emphasis>Anonymer Pferdezüchter</Emphasis>"
 238,"Rufe deinen Smaragd-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife rufen, die von der Magie eines unbekannten Primae erfüllt ist.","Die Pfeife, mit der dieses grünlich schimmernde Schuppentier herbeigerufen werden kann, soll von der Magie jenes Primae erfüllt sein, den die Smaragd-Waffe absorbiert haben soll. Wie der Beschwörer in den Besitz der Pfeife kam und wie er Kenntnis über ihre magischen Kräfte erlangte,
 bleibt ein Rätsel.","Ich frage mich, ob ein ausgestopfter Smaragd-Gwiber immer noch grünlich schimmert.
 <Emphasis>Enion</Emphasis>"
@@ -613,20 +614,30 @@ Ich weiß zwar nicht, was wir hier machen, aber es macht Spaß!
 258,"","",""
 259,"","",""
 260,"","",""
-261,"","",""
-262,"","",""
-263,"","",""
-264,"","",""
+261,"Rufe deinen Umbral-Luchs herbei, ein geflügeltes Fabelwesen erfüllt mit schattenelementarer Energie.","Diese Kreatur ist von schattenelementarer Energie durchdrungen. Seine geflügelte Gestalt ähnelt Zodiark, dem ältesten und mächtigsten aller Primae, doch die Herkunft des Umbral-Luchses ist ein Rätsel.","Bist du ein Krieger der Dunkelheit?!
+<Emphasis>Mutige Stadtwache</Emphasis>"
+262,"Rufe deinen Astral-Luchs herbei, ein geflügeltes Fabelwesen erfüllt mit lichtelementarer Energie.","Diese Kreatur ist von lichtelementarer Energie durchdrungen. Seine geflügelte Gestalt ähnelt Hydaelyn, der Verkörperung des Planeten, doch die Herkunft des Astral-Luchses ist ein Rätsel.","Diese strahlende, gottgleiche Erscheinung ... muss ein Krieger des Lichts sein!
+<Emphasis>Humphrey</Emphasis>"
+263,"Rufe Argos herbei, Venats treuen Begleiter mit goldenem Fell.","Argos wurde von Venat erschaffen und lässt nur jene auf seinen kräftigen Rücken, die sein Vertrauen gewonnen haben. Dir vertraut er seit eurer ersten Begegnung in Mare Lamentorum.","Wie brav der ist!
+<Emphasis>Nashu Mhakaracca</Emphasis>"
+264,"Rufe deinen Brummonauten herbei, eine riesige Maschine, die alles um sich herum in Schutt und Asche legt.","Ursprünglich wurde der Brummonaut als Kriegsmaschine entwickelt, doch als neuere Modelle aufkamen, wurde sie auf Baustellen eingesetzt. Einer Legende nach kämpfte sich ein junger Held mit einem Brummonauten durch eine Gruppe von Feinden.","Wofür ist die Maschine?
+<Emphasis>Neugieriger junger Mann</Emphasis>"
 265,"","",""
-266,"","",""
-267,"","",""
-268,"","",""
-269,"","",""
+266,"Rufe Calydontis herbei. Trotz seiner Wildheit folgt er deinem Willen.","Als Herrscher der Wildschweine war Calydontis in seinem Wald weithin gefürchtet, bis er einer Gruppe un<SoftHyphen/>erschro<SoftHyphen/>ckener Abenteurer unterlag. So lernte er Demut und fand in dir seinen Meister.","Eines Tages, wenn ich selbst erfahren genug bin, um ein Wildschwein zu erlegen, gönne ich mir vielleicht auch mal ein Stück.
+<Emphasis>Isarmoix</Emphasis>"
+267,"Rufe Victor herbei, ein großer Canis, der bei so mancher Hundeshow in Garlemald den ersten Preis gewonnen hat.","Niemand Geringeres als Kaiser Varis gehört zu den Bewunderern dieses Canis, der ein Star bei den Hundeshows in Garlemald ist. Er ist darauf trainiert, sich gut zu präsentieren, doch für den Kampf ist der Schönling weniger geeignet.","Hmpf! Hunde, die bellen, beißen nicht. Immer das Gleiche mit diesen kleinen Kläffern!
+<Emphasis>Hundeführer der Tollwütigen Tölen<Emphasis>"
+268,"Rufe einen Monitor herbei. Die mysteriöse Maschine kann deine Fähigkeiten analysieren.","Als der Monitor zum ersten Mal deine Fähigkeiten analysierte, war das Ergebnis „Stufe 90“. Wie die Maschine zu diesem Ergebnis kam, bleibt ihr Geheimnis.","Du beeindruckst mich jedes Mal mehr!
+<Emphasis>Kai-Shirr</Emphasis>"
+269,"Rufe Papa Paissa herbei. Dieser außer<SoftHyphen/>ordent<SoftHyphen/>lich große Paissa ist Vater von acht Sprösslingen.","Um seine acht Kinder zu versorgen, verdient sich dieser große Paissa ein Zubrot, indem er Abenteurern als Reittier dient. Wenn du auf ihm reitest, unterstützt du seine ganze Familie.","Es ist bestimmt nicht leicht, so viele Mäuler zu stopfen.
+<Emphasis>Pip</Emphasis>"
 270,"","",""
 271,"","",""
 272,"","",""
-273,"","",""
-274,"","",""
+273,"Rufe deine Wivre herbei, eine gehörnte Bestie aus der Neuen Welt.","Die in der Neuen Welt beheimateten Wivres sind bösartig und schwer zu zähmen. Nur den Mamool Ja ist es gelungen, einige von ihnen als Reittiere zu bändigen.","Pass auf, dass du dich nicht zu tollkühn in Gefahren stürzt. Vorsicht ist besser als Nachsicht.
+<Emphasis>Iliud</Emphasis>"
+274,"Rufe deinen Quiexie-König herbei. Dieses Prachtexemplar einer Quiexie riecht leicht nach Räucherschinken.","Anders als seine Artgenossen, verfügt diese Quiexie nicht über die Fähigkeit, andere zu heilen. Also machte man sie kurzerhand zum Reittier und setzte ihr eine Krone auf.","Ein königliches Exemplar!
+<Emphasis>Martineau</Emphasis>"
 275,"","",""
 276,"","",""
 277,"","",""

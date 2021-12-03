@@ -18,4 +18,17 @@ int32,uint16,byte,byte,bit&01,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte
 14,3286,1,1,False,13,"ui/icon/008000/008014.tex",13,"Ombrelle gros minou",0,"Ombrelles gros minou",0,1,1,1,0
 15,3287,1,1,False,14,"ui/icon/008000/008015.tex",14,"Ombrelle Serpent marin de Ronka ?",0,"Ombrelles Serpent marin de Ronka ?",0,1,1,1,0
 16,3288,1,1,False,15,"ui/icon/008000/008016.tex",15,"Ombrelle Dalamud",0,"Ombrelle Dalamud",0,1,1,1,0
-17,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+17,3426,2,0,True,16,"ui/icon/008000/008017.tex",100,"Ailes d'ange déchu",0,"Ailes d'ange déchu",0,1,1,1,0
+18,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+19,3428,3,0,True,18,"ui/icon/008000/008019.tex",101,"Ailes de Diabolos",0,"Ailes de Diabolos",0,1,1,1,0
+20,3429,6,0,True,19,"ui/icon/008000/008020.tex",102,"Ailes de Pixie",0,"Ailes de Pixie",0,1,1,1,0
+21,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+22,3431,5,0,True,21,"ui/icon/008000/008022.tex",200,"Mirage de lunettes ovales",0,"Mirages de lunettes ovales",0,0,1,0,0
+23,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+24,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+25,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+26,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+27,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+28,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+29,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+30,0,0,0,False,0,,0,"",0,"",0,0,0,0,0

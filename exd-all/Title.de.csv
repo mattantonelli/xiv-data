@@ -594,5 +594,33 @@ int32,str,str,bit&01,uint16
 590,"Königinnenwache","Königinnenwache",True,1656
 591,"Träger aller Orden","Trägerin aller Orden",True,1657
 592,"Diener der Königin","Dienerin der Königin",True,1658
-593,"","",False,0
-594,"","",False,0
+593,"am Horizont des Krieges","am Horizont des Krieges",False,1659
+594,"am Horizont der Magie","am Horizont der Magie",False,1660
+595,"am Horizont der Handwerks","am Horizont der Handwerks",False,1661
+596,"am Horizont des Landes","am Horizont des Landes",False,1662
+597,"Magus-Bändiger","Magus-Bändigerin",True,1663
+598,"Mondläufer","Mondläuferin",True,1664
+599,"Lightingway","Lightingway",True,1665
+600,"Mut der Vrtra","Mut der Vrtra",True,1666
+601,"Elpiphoros","Elpiphoros",True,1667
+602,"Hoffnungsvolle Hinterlassenschaft","Hoffnungsvolle Hinterlassenschaft",True,1668
+603,"Endwalker","Endwalker",True,1669
+604,"mit der Sense","mit der Sense",False,1670
+605,"der Weisheit","der Weisheit",False,1671
+606,"fachkundiger Schmied","fachkundige Schmiedin",False,1672
+607,"fachkundiger Handwerker","fachkundige Handwerkerin",False,1673
+608,"fachkundiger Kräutermischer","fachkundige Kräutermischerin",False,1674
+609,"fachkundiger Sucher","fachkundige Sucherin",False,1675
+610,"fachkundiger Fischer","fachkundige Fischerin",False,1676
+611,"fachkundiger Alleskönner","fachkundige Alleskönnerin",False,1677
+612,"der Über-Exeget","die Über-Exegetin",False,1678
+613,"der ungebrochene Eid","der ungebrochene Eid",False,1679
+614,"der ungebrochene Wille","der ungebrochene Wille",False,1680
+615,"das ungebrochene Schwarz","das ungebrochene Schwarz",False,1681
+616,"die ungebrochene Klinge","die ungebrochene Klinge",False,1682
+617,"Gefahrensucher","Gefahrensucherin",True,1683
+618,"Gefahrensucher par excellence","Gefahrensucherin par excellence",True,1684
+619,"Ekstase 6000","Ekstase 6000",True,1685
+620,"der euphorische Glücksritter","die euphorische Glücksritterin",False,1686
+621,"Lunarer Krösus","Lunarer Krösus",True,1687
+622,"Meister der schicksalhaften Begegnungen","Meisterin der schicksalhaften Begegnungen",True,1688

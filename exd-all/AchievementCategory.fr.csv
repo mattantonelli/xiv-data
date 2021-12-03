@@ -73,3 +73,6 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 69,"Toutes classes","Crafting & Gathering",True,False,1
 70,"Outils de Cielacier","Items",True,False,51
 71,"Missions d'exploration","Battle",True,False,7
+72,"Mers du Nord","Exploration",True,False,12
+73,"Ilsabard","Exploration",True,False,13
+74,"Autres","Exploration",True,False,99

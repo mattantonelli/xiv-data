@@ -421,7 +421,7 @@ Perle der Wüste.","Kämpf für die Sultana, Junge! Für Ul'dah!
 85,"Du rufst deinen Aufzieh-Gilgamesch herbei.","Das Meisterwerk von einem der besten Goldschmiede Eorzeas. Zusammengesetzt aus Ersatzteilen anderer Projekte, ist es dem Antlitz eines guten Bekannten des Sohnes des Goldschmieds nachempfunden. Leider
 konnte kein Hüftschwung
 mehr eingebaut werden.","Gilgamesch-Metamorphooose!
-<Emphasis>Gilgamesch<Emphasis>","Bitteres Ende","Führt eine Attacke mit Attacke-Wert 300 auf die Gegner in der Nähe aus, aber die ausführenden Trabanten werden weggeschickt.",40,55,4,True,False,False,False,False,"Damage"
+<Emphasis>Gilgamesch<Emphasis>","Klingenschimmer","Führt eine Attacke mit Attacke-Wert 300 auf die Gegner in der Nähe aus, aber die ausführenden Trabanten werden weggeschickt.",40,55,4,True,False,False,False,False,"Damage"
 86,"Du rufst Prinz Zwiebel herbei. Er würde für dich sterben. Oder um dich weinen. Oder dich zum Weinen bringen.","Nachdem er erfahren musste, dass seine Eltern nicht aus Liebe heirateten, sondern weil sie es als ihre Pflicht ansahen, schwor sich Prinz Zwiebel, nie in ihre Fußstapfen zu treten und stattdessen mit seiner Geliebten davonzulaufen.","Mit so ein paar kleinen Gemüsezwiebeln
 mach ich kurzen Prozess.
 <Emphasis>Hildibrand, Meister-Kriminologe</Emphasis>","Dicke Tränen","Fügt dem nächstgelegenen gegnerischen Arkana-Stein 5 % Schaden zu.",55,30,3,False,False,True,False,False,"Dismantling"
@@ -1570,7 +1570,9 @@ leicht ganz normal.","Jetzt mal im Ernst. Du bist gekommen, um mit mir über Kek
 beizubringen.","Irgendwas ist faul!
 <Emphasis>Palom</Emphasis>","Bluff","Erhöht die ABW eigener Trabanten in der Nähe um 20.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",20,60,2,False,False,True,False,False,"Enhancement"
-400,"","","","","",0,0,0,False,False,False,False,False,""
+400,"Du rufst deine Porom-Puppe als Begleiter herbei. Sie ist einer Heldin aus einer vergangenen Zeit nachempfunden, die einen Zwil<SoftHyphen/>lings<SoftHyphen/>bru<SoftHyphen/>der hatte.","Porom war eine Weißmagierin, die gemeinsam mit ihrem Zwil<SoftHyphen/>lings<SoftHyphen/>bru<SoftHyphen/>der Palom große Heldentaten vollbracht hat. Sie war auf Heilmagie spezialisiert und hatte ein großes Herz.","Und der mit dem frechen Mundwerk ist mein Zwil<SoftHyphen/>lings<SoftHyphen/>bru<SoftHyphen/>der Palom!
+<Emphasis>Porom</Emphasis>","Heulen","Führt eine Attacke mit Attacke-Wert 150 auf die Gegner in der Nähe aus und verringert ihre ABW um 30 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",10,30,2,False,False,False,True,False,"Damage"
 401,"Du rufst deine Edge-Puppe als Begleiter herbei. Sie ist einem Helden aus einer vergangenen Zeit nachempfunden, der ein Prinz und ein Ninja war.","Edge soll nicht nur ein Prinz gewesen sein, sondern dazu noch ein talentierter Ninja. Das ist eine Kombination, die nur selten vorkommt, und um die ihn sicher viele junge Männer beneiden. ","Du hältst Wut für eine Schwäche? Lass mich dir zeigen, wie sehr du dich täuschst!
 <Emphasis>Edge</Emphasis>","Ninjutsu","Erhöht die ATT aller Trabanten in der Nähe um 25.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",85,30,4,False,False,True,False,False,"Enhancement"
@@ -1612,7 +1614,7 @@ Na, ihre Beine, wer denn
 sonst?","Pyramiden brauchen Beine, um sich fortzubewegen.
 <Emphasis>Anonymer Monumentforscher</Emphasis>","An der Spitze","Fügt dem nächstgelegenen gegnerischen Arkana-Stein 5 % Schaden zu.",35,30,2,True,False,False,False,False,"Dismantling"
 414,"Du rufst dein Reise-Lagerfeuer als Begleiter herbei. Sollte in keiner (feuerfesten) Reisehandtasche fehlen.","Ein Lagerfeuer zum Mitnehmen, das nicht nur wilde Tiere fernhält, sondern auch vor Kälte schützt. Natürlich lassen sich auch Marshmallows darüber rösten.","Ah, die Wärme tut gut ... Und das Flackern der Flammen wirkt vertraut und beruhigend.
-<Emphasis>Alphinaud</Emphasis>","Lagerfeuerromantik","Regeneriert 200 LP bei eigenen Trabanten in der Nähe, im Fall von Objekten 250.",20,45,1,False,False,False,True,False,"Restoration"
+<Emphasis>Alphinaud</Emphasis>","Lagerfeuerromantik","Regeneriert 200 LP bei eigenen Trabanten in der Nähe, im Fall von Apparaten 250.",20,45,1,False,False,False,True,False,"Restoration"
 415,"Du rufst deine Maschinenwesen-Puppe als Begleiter herbei. Die Miniaturausgabe eines Maschinenwesens, das im oberen Teil des Hauptquartiers von Baldesions Gelehrten gefunden wurde.","Obwohl dieses kurzbeinige Wesen dir überallhin folgt, dich mit seinen Leuchtaugen anstarrt und mit seinen dünnen Ärmchen hin und wieder in die Luft boxt, will es dir nicht schaden.","<Emphasis>Was</Emphasis> diese Maschinenwesen tatsächlich sind, ist ein Geheimnis, das ich zu lüften gedenke! 
 <Emphasis>Anogg</Emphasis>","Attacke","Führt eine Attacke mit Attacke-Wert 30 auf die Gegner in der Nähe aus und schleudert sie zurück.",30,70,2,False,False,True,True,False,"Damage"
 416,"Du rufst deine Lyna-Puppe als Begleiterin herbei. Wer sie ansieht, muss unwillkürlich salutieren.","Ein Zwergenhandwerker bat Lyna einst, Modell für eine Puppe zu stehen. Nach ein paar Krügen Zwergenbräu schwand ihr anfänglicher Widerstand. Obwohl eine wahre Schnapsidee, lässt sich das Ergebnis durchaus sehen.","Jawohl, Frau Kommandatin!
@@ -1634,15 +1636,78 @@ bekannt vor<Indent/>... ","Ich halte das Schwert Gunnhildrs und gelobe, ihren Wi
 419,"Du rufst deinen Aufzieh-9S als Begleiter herbei, ein winziger Android ganz in Schwarz. ","Diese kleine Marionette, die dem echten 9S aufs Haar gleicht, wurde im oberen Teil des Hauptquartiers von Baldesions Gelehrten entdeckt. Was in seinem kleinen Köpfchen vorgeht, weiß niemand.","Er<Indent/>... ist ein Android. Eine automatische Kampfeinheit. Genau wie ich.
 <Emphasis>Aufzieh-2P</Emphasis>","Flüchtige Sanftheit","Führt eine Attacke mit Attacke-Wert 120 auf die Gegner in der Nähe aus und erhöht die ATT der ausführenden Trabanten um 20.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",60,50,4,False,False,True,False,False,"Damage"
-420,"","","","","",0,0,0,False,False,False,False,False,""
-421,"","","","","",0,0,0,False,False,False,False,False,""
-422,"","","","","",0,0,0,False,False,False,False,False,""
-423,"","","","","",0,0,0,False,False,False,False,False,""
-424,"","","","","",0,0,0,False,False,False,False,False,""
-425,"","","","","",0,0,0,False,False,False,False,False,""
-426,"","","","","",0,0,0,False,False,False,False,False,""
-427,"","","","","",0,0,0,False,False,False,False,False,""
-428,"","","","","",0,0,0,False,False,False,False,False,""
-429,"","","","","",0,0,0,False,False,False,False,False,""
-430,"","","","","",0,0,0,False,False,False,False,False,""
-431,"","","","","",0,0,0,False,False,False,False,False,""
+420,"Du rufst dein Rudy-Stofftier als Begleiter herbei. Seine violette Nase ist in ganz Eorzea bekannt.","Nachdem Rudy seine Pflichten als Kleines Helferlein erfüllt hatte, kehrte er zur Enttäuschung aller Kinder nach Hause in die Berge zurück. Einem wandernden Pilger gelang es jedoch, eine exakte lebende Kopie des
+Rentiers zu erschaffen.
+Ein Sternenlichtwunder!","Rudy, da hast du dich ja echt ins Zeug gelegt.
+<Emphasis>Amh Garanjy</Emphasis>","Sternenlichtgeschenk","Führt eine Attacke mit Attacke-Wert 150 auf die Gegner in der Nähe aus und verringert ihre ABW um 30 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",65,25,3,False,False,True,False,False,"Damage"
+421,"Du rufst deinen Phantom-Rissai als Begleiter herbei. Erschaffen vom Tierheiligen Rissai höchst<SoftHyphen/>persön<SoftHyphen/>lich.","Der kinderliebe Rissai verwandelte sich eines Tages in einen Sterblichen und erbaute eine Schule. Wie sein Erzeuger ist auch das Phantom-Modell süßen Kindern und Süßigkeiten äußerst zugetan.","Süß!
+<Emphasis>Rissai</Emphasis>","Schneeballfresser","Stellt eine Falle auf, die nach 10 Sekunden ausgelöst werden kann. Bewirkt eine Attacke mit Attacke-Wert 180 auf die Gegner in der Nähe.",100,50,4,False,True,False,False,False,"Trap"
+422,"Du rufst dein Fähnchen als Begleiter herbei. Ein kleines Rehkitz mit großem Appetit.","Bei jeder Bewegung tanzt sein Wedel wie eine Fahne im Wind, was dem Rehkitz seinen Namen verliehen hat. Stets hungrig vermag es ganze Maisfelder kahlzufressen, weshalb ein Gehilfe es auf Bitte der Farmer zu sich nach Hause
+nahm.","Süß und unschuldig? Von wegen!
+<Emphasis>Maisanbauer</Emphasis>","Vielfraß","Regeneriert 100 LP bei eigenen Trabanten in der Nähe, im Fall von Tieren 150",45,55,3,False,False,False,True,False,"Restoration"
+423,"Du rufst deinen Klein-Ea als Begleiter herbei. Klein, aber zu großen Gedanken fähig.","Die Ea pflegen Teile von sich abzuspalten, um ihre Gedanken zu ordnen. Diesem Ea-Teil gefiel seine neue Freiheit so sehr, dass er beschloss, nicht mehr zurückzukehren.","Alles ausräumen und wieder einräumen. So schafft man Ordnung, im Zimmer und im Kopf.
+<Emphasis>Anonymer Aufräumexperte</Emphasis>","Epiphanie","Verdoppelt die LP-Regeneration der Trabanten innerhalb eines Tors.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20 Sekunden",40,40,3,True,False,True,False,False,"Special"
+424,"Du rufst dein Magus-Schwestern-Puppentrio als Begleiter herbei. Nur im Dreierpack erhältlich. ","Die Magus-Schwestern werden auf Thavnair als Gottheiten verehrt und ihre Nachbildungen zählen zu den beliebtesten Glücksbringern. Mit frei beweglichen Puppen, die Turnübungen vorführen, gehört dieses Trio zu den
+exklusiveren Angeboten
+in den Souvenirläden.","Ich könnte den Schwestern stundenlang zusehen.
+<Emphasis>Anonymer Turner</Emphasis>","Delta-Angriff","Erhöht die Technikpunkte eigener Trabanten in der Nähe um 10, außer wenn sie ebenfalls diesen Effekt verursachen können.",20,40,2,True,False,False,False,False,"Enhancement"
+425,"Du rufst dein Optimus Omikron als Begleiter herbei. Minimale Proportionen, maximale Leistung.","Ein Produkt des Versuchs der Omikron, kleine Versionen von sich selbst zu erschaffen. Aufgrund des Funktionsstillstands der Eroberungsmatrix Stigma-4 kam es leider niemals zur Massenproduktion.","Auf den Inhalt kommt es an, nicht auf die Größe.
+<Emphasis>Zwerg-Ingenieur</Emphasis>","Verteidigungsprotokoll","Erhöht die ABW von eigenen Trabanten in der Nähe um 10, im Fall von Puppen um 30.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",30,40,3,False,False,True,False,False,"Enhancement"
+426,"Du rufst deinen Aufzieh-Anima als Begleiter herbei. Achtung: Kann nicht dazu verwendet werden, um deine Waffe zum Leben zu erwecken.","„Anima“ bedeutet „Seele“ in der Sprache der alten Garlear, während heutzutage das Wort benutzt wird, um die feminine Seite in Männern zu bezeichnen. Ob dies in irgendeiner Weise mit dem Aussehen des Primae zu tun hat, sei
+dahingestellt.","Wer seine Anima unterdrückt, wird es schrecklich bereuen.
+<Emphasis>Psychologe</Emphasis>","Chaos-D","Führt eine Attacke mit Attacke-Wert 30 auf die Gegner in der Nähe aus und schleudert sie zurück.",55,50,1,False,True,False,False,False,"Damage"
+427,"Du rufst deinen Sternenvogel als Begleiter herbei. Sein hoffnungsvolles Zwitschern verspricht einen schönen Tag.","Ein Vogel, dessen wunderschöne Gestalt Meteion gleichen soll. Solange die Hoffnung im Herzen nicht stirbt, soll sich sein Gefieder nicht schwarz verfärben.","Dieser Vogel verkörpert Schönheit und Hoffnung.
+<Emphasis>Ornithologe</Emphasis>","Glücksvogel","Stellt einen zerstörten Schild wieder her.",20,70,2,False,True,False,True,False,"Special"
+428,"Du rufst deine nagxianische Katze als Begleiter herbei. Ein vornehmes Tier, schöner als alle ihre bisherigen Besitzer.","In der Blütezeit des alten Nagxia durften nur Adlige und hochrangige Priester sie besitzen. Es heißt, dass sie mit ihren blauen Augen Äther und die Seelen von Verstorbenen zu sehen vermag.","Die Katze ist das edelste Geschöpf dieser Welt!
+<Emphasis>Katzenfanatiker</Emphasis>","Stolze Gelassenheit","Entfernt alle Effekte von allen Trabanten in der Nähe.",65,55,4,False,True,False,True,False,"Disarming"
+429,"Du rufst deine neue Urianger-Puppe als Begleiter herbei. Wer weiß, welche Gedanken sich hinter dieser hohen Stirn verbergen.","Beim Aufräumen stieß Tataru auf eine ganze Armee dieser Puppen – das Ergebnis einer Fehlbestellung. Da ihr Verschwendung zuwider ist, verpasste sie den Puppen neue Kleidung und eine neue Frisur, um möglichst viele Exemplare
+absetzen zu können.","Vor dir steht Urianger, seines Zeichens Astrologe.
+<Emphasis>Urianger</Emphasis>","Sharlayanische Astrologie","Regeneriert bei den eigenen Trabanten in der Nähe 100 LP, im Fall von Puppen 150.",50,65,2,False,False,True,True,False,"Restoration"
+430,"Du rufst deinen Aufzieh-Vrtra als Begleiter herbei. Ein Miniaturmodell von einem der sieben Hohen Drachen.","Laut Legende soll Vrtra als letzter der sieben Hohen Drachen geschlüpft sein. Entgegen seines furcht<SoftHyphen/>er<SoftHyphen/>re<SoftHyphen/>gen<SoftHyphen/>den Aussehens wird ihm nachgesagt, von freundlichem Gemüt gewesen zu sein.","Nicht alle Drachen bringen Tod und Zerstörung.
+<Emphasis>Lucia</Emphasis>","Sandhauch","Führt eine Attacke mit Attacke-Wert 110 auf die Gegner in der Nähe aus.",85,60,3,False,True,True,False,False,"Damage"
+431,"Du rufst dein Nilpferdkalb als Begleiter herbei. Klein, aber sehr schwer.","Ursprünglich auf dem südlichen Kontinent Meracydia beheimatet, gilt die Existenz von Nilpferden auf Thavnair als Beweis, dass zwischen den Kontinenten seit alters Handelskontakt besteht.","Ich glaub, mich tritt ein Nilpferd!
+<Emphasis>Händler aus Thavnair</Emphasis>","Großes Gähnen","Macht Gegner in der Nähe be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>un<SoftHyphen/>fäh<SoftHyphen/>ig.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5 Sekunden",20,60,1,False,True,False,False,False,"Enfeeblement"
+432,"Du rufst deinen Krabbenkrebs als Begleiter herbei. Krabbelt sehr schnell mit seinen zehn Beinen.","Eine neue Krebsart, die nach ihren Entdeckern, den Krabben, einem Unterstamm der Arkasodara,  benannt wurde. Nicht zu verwechseln mit der Krabbe, die ebenfalls ein Krebstier ist.","Da krabbelt was den Baum hoch!
+<Emphasis>Erstaunter Arkasodara</Emphasis>","Krebsgang","Macht eigene Trabanten in der Nähe unempfindlich für Angriffe von Monstern.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5 Sekunden",30,85,2,False,False,True,False,False,"Enhancement"
+433,"Du rufst deinen Lunatender-Prinzen als Begleiter herbei. Nicht nur eine einfache Grünpflanze.","Zu einem Paradies gehören Pflanzen und so brachten die Loporrit diesen Lunatender nach Smileton. Der war nun aber keine gewöhnliche Grünpflanze, sondern ein Prinz, dem es nicht gefiel, nur Dekoration zu sein. Eines Tages sprang
+er in deine Tasche und
+ward frei.","Ein schönes Paradies ist das.
+<Emphasis>Alphinaud</Emphasis>","Mondlichtbad","Stellt eine Falle auf, die nach 10 Sekunden ausgelöst werden kann. Bewirkt eine Attacke mit Attacke-Wert 260 auf die Gegner in der Nähe.",65,60,2,False,False,True,False,False,"Trap"
+434,"Du rufst dein Tröllchen als Begleiter herbei. Er grinst dich lieb an.","Aus Neugier schlich sich dieses Trolljunge ins Aitiaskop und fiel hinab auf den Sternengrund. Dort traf es seine verstorbenen Ahnen, eine Begegnung, die seine geistige Entwicklung gehörig vorantrieb, auch wenn man ihm seine
+Reife nicht unbedingt an-
+sieht.","Grrr!
+<Emphasis>Flauschi</Emphasis>","Niesen","Fügt Gegnern in der Nähe eine Schwäche gegen Monster zu.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15 Sekunden",40,60,2,False,False,True,False,False,"Enfeeblement"
+435,"Du rufst deinen Caduceus als Begleiter herbei. Eine von Hermes‘ Schöpfungen. ","Diese kluge Schlange diente einst als Bote in Elpis. Ob sich Amon an sie erinnerte und deswegen seiner Schlangenkreation denselben Namen gab, bleibt ein Rätsel. ","Sie ist keine Schlange, sondern eine Ananta!
+<Emphasis>Tahla Molkoh</Emphasis>","Ringelreigen","Verringert die ATT von Gegnern in der Nähe um 40 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",50,50,3,False,False,False,True,False,"Enfeeblement"
+436,"Du rufst deinen Abenteurerkorb als Begleiter herbei. Weil niemand mit leerem Magen die Welt retten sollte.","Ein Korb voller Köstlichkeiten, der sowohl extreme Kälte als auch größte Hitze aushält und damit für Abenteurer ideal ist. Wenn dir die Kugeln um die Ohren fliegen, öffne den Korb und lass dich in Picknicklaune versetzen.","Es sind oft die kleinen Dinge im Leben, die das Leben schön machen, kupo!
+<Emphasis>Mogomo</Emphasis>","Picknick","Erhöht die ABW der ausführenden Trabanten um 40.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",10,90,1,False,False,False,True,False,"Enhancement"
+437,"Du rufst deinen Goldenen Dhyata als Begleiter herbei. Er ist weder Fisch noch Vogel, sondern eine Übersetzungsmaschine.","Ein von Professorin Rurusha restauriertes Artefakt, dem eine Ähnlichkeit zu einem Wels nachgesagt wird. Weshalb diese Form für eine Übersetzungsmaschine gewählt wurde, bleibt ein Rätsel.","Kann mal jemand für mich übersetzen?
+<Emphasis>Sawney</Emphasis>","Wörtliche Übersetzung","Entfernt alle negativen Effekte von eigenen Trabanten in der Nähe.",60,40,3,False,False,True,False,False,"Disarming"
+438,"Du rufst deinen Laub-Klauber als Begleiter herbei. Gut im Verstecken, aber offensichtlich nicht gut genug.","Dieses Genomos-Junge versteckte sich im grünen Laub und hielt sich für unsichtbar – bis es von einem Gehilfen eingefangen wurde. Genomos wurden von den Sharlayanern lange Zeit wegen ihrer Eigenschaft, Schädlinge zu fressen, als
+Nutztiere gezüchtet.","Niemand ist wütend auf dich, komm doch bitte raus, falls du dich versteckst!
+<Emphasis>Yalana</Emphasis>","Aufblühen","Fügt Gegnern in der Nähe im Sekundentakt 10 Schaden über Zeit zu.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20 Sekunden",30,30,3,False,False,False,True,False,"Damage"
+439,"Du rufst deine Typhoid-Puppe als Begleiter herbei. Sie verströmt einen leichten Duft nach Meer und Felsen.","Ein Namazuo-Handwerker soll diese magische Puppe einer rätselhaften Gestalt nachgebildet haben, die vor ihm erschien, als er benommen an Land taumelte, nachdem er beinahe ertrunken wäre.","Hilfe! Da ertrinkt jemand!
+<Emphasis>Strandbesucher</Emphasis>","Blubberblubber","Halbiert den Ruf-Timer von Trabanten beim Herbeirufen.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",40,55,3,False,False,True,True,False,"Special"
+440,"","","","","",0,0,0,False,False,False,False,False,""
+441,"Du rufst deine heroische Puppe als Begleiter herbei. Komm schon, du weißt, wer sie ist.","Es war einmal eine Frau, die nicht müde wurde, sich für die Rettung anderer einzusetzen, selbst nachdem sie ihren Titel als Azem abgetreten hatte. Die Puppe wurde zu Ehren dieser Heldin geschaffen, die am Ende zu einer Göttin wurde.","Gut. Machen wir uns also ans Werk.
+<Emphasis>Heroische Frau</Emphasis>","Persona","Macht Gegner in der Nähe be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>un<SoftHyphen/>fäh<SoftHyphen/>ig.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5 Sekunden",55,55,3,False,True,False,False,False,"Enfeeblement"
+442,"Du rufst deine Daivadipa-Puppe als Begleiter herbei. Knie dich nieder, sieh ihr in die Augen und erfahre, auf welcher Seite du stehst.","Eine Puppe in der Gestalt von einer der Mrga-Gottheiten. In der Sprache der alten Arkasodara bedeutet der Name „himmlisches Licht“ sowie „Auge“, was eine Referenz zu ihrer Fähigkeit darstellt, Gutes von Bösem zu un-
+terscheiden.","Meinen großen Augen entgeht nichts!
+<Emphasis>Gyoka</Emphasis>","Göttliches Auge","Erhöht die ATT eigener Trabanten in der Nähe um 10.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",55,55,3,False,True,False,True,False,"Enhancement"
+443,"","","","","",0,0,0,False,False,False,False,False,""
+444,"","","","","",0,0,0,False,False,False,False,False,""
+445,"","","","","",0,0,0,False,False,False,False,False,""
+446,"","","","","",0,0,0,False,False,False,False,False,""
+447,"","","","","",0,0,0,False,False,False,False,False,""
