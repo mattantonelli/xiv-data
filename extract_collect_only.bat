@@ -23,6 +23,7 @@ ECHO [%TIME%] Compressing images...
 "C:\Program Files\7-Zip\7z.exe" a %CD%\%VERSION%\ui.zip %CD%\%VERSION%\ui\* > NUL
 
 ECHO Processing music...
+.\SaintCoinach.Cmd.exe %GAMEPATH% "bgm bgm_ride bgm_orch"
 for %%f in (%CD%\%VERSION%\music\ffxiv\*.ogg) do %FFMPEG% -y -i "%%f" -t 00:00:15.0 -b:a 32k -ar 22050 -loglevel quiet "%CD%\%VERSION%\music\%%~nf.ogg"
 for %%f in (%CD%\%VERSION%\music\ffxiv\Orchestrion\*.ogg) do (
   set name=%%~nf
