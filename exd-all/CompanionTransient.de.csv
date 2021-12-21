@@ -1698,7 +1698,9 @@ Nutztiere gezüchtet.","Niemand ist wütend auf dich, komm doch bitte raus, fall
 439,"Du rufst deine Typhoid-Puppe als Begleiter herbei. Sie verströmt einen leichten Duft nach Meer und Felsen.","Ein Namazuo-Handwerker soll diese magische Puppe einer rätselhaften Gestalt nachgebildet haben, die vor ihm erschien, als er benommen an Land taumelte, nachdem er beinahe ertrunken wäre.","Hilfe! Da ertrinkt jemand!
 <Emphasis>Strandbesucher</Emphasis>","Blubberblubber","Halbiert den Ruf-Timer von Trabanten beim Herbeirufen.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",40,55,3,False,False,True,True,False,"Special"
-440,"","","","","",0,0,0,False,False,False,False,False,""
+440,"Du rufst deine Nosferatu-Puppe als Begleiter herbei. Sie besitzt einen genügend starken Charakter, um ihrer Schwäche für Blut nicht nachzugeben.","Ein fledermausähnliches Wesen, dem es zwar nach deinem Blut dürstet, aber ebenso nach deiner Liebe, weshalb es dir niemals Schaden zufügen wird. Woher sein Name stammt, ist nicht bekannt. ","Ruhig Blut, mein Lieber!
+<Emphasis>Hildibrand</Emphasis>","Aderlass","Macht die Auto-Attacke der ausführenden Trabanten zu einem Flächenangriff.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 Sekunden",75,50,3,False,False,True,True,False,"Enhancement"
 441,"Du rufst deine heroische Puppe als Begleiter herbei. Komm schon, du weißt, wer sie ist.","Es war einmal eine Frau, die nicht müde wurde, sich für die Rettung anderer einzusetzen, selbst nachdem sie ihren Titel als Azem abgetreten hatte. Die Puppe wurde zu Ehren dieser Heldin geschaffen, die am Ende zu einer Göttin wurde.","Gut. Machen wir uns also ans Werk.
 <Emphasis>Heroische Frau</Emphasis>","Persona","Macht Gegner in der Nähe be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>un<SoftHyphen/>fäh<SoftHyphen/>ig.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5 Sekunden",55,55,3,False,True,False,False,False,"Enfeeblement"

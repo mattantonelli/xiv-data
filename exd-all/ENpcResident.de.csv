@@ -2316,7 +2316,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1002312,"Cocobani",3,"NONE",1,0,0,0,1,"",3,False
 1002313,"Cocobezi",3,"NONE",1,0,0,0,1,"",3,False
 1002314,"Cocoboha",3,"NONE",1,0,0,0,1,"",3,False
-1002315,"mitgenommen[a] Marodeur",4,"mitgenommen[a] Marodeure",2,0,1,0,0,"",3,False
+1002315,"verletzt[a] Marodeur",4,"verletzt[a] Marodeure",2,0,1,0,0,"",3,False
 1002316,"Cocobuki",3,"NONE",1,0,0,0,1,"Gildenmeister",3,False
 1002317,"Cocobuki",3,"NONE",1,0,0,0,1,"Gildenmeister",3,False
 1002318,"Cocobygo",3,"NONE",1,0,0,0,1,"",5,False
@@ -35553,28 +35553,28 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1035549,"",0,"",0,0,1,0,0,"",5,False
 1035550,"",0,"",0,0,1,0,0,"",5,False
 1035551,"",0,"",0,0,1,0,0,"",3,False
-1035552,"",0,"",0,0,0,0,0,"",0,False
-1035553,"",0,"",0,0,0,0,0,"",0,False
-1035554,"",0,"",0,0,0,0,0,"",0,False
-1035555,"",0,"",0,0,0,0,0,"",0,False
-1035556,"",0,"",0,0,0,0,0,"",0,False
-1035557,"",0,"",0,0,0,0,0,"",0,False
-1035558,"",0,"",0,0,0,0,0,"",0,False
-1035559,"",0,"",0,0,0,0,0,"",0,False
-1035560,"",0,"",0,0,0,0,0,"",0,False
-1035561,"",0,"",0,0,0,0,0,"",0,False
-1035562,"",0,"",0,0,0,0,0,"",0,False
-1035563,"",0,"",0,0,0,0,0,"",0,False
-1035564,"",0,"",0,0,0,0,0,"",0,False
-1035565,"",0,"",0,0,0,0,0,"",0,False
-1035566,"",0,"",0,0,0,0,0,"",0,False
-1035567,"",0,"",0,0,0,0,0,"",0,False
-1035568,"",0,"",0,0,0,0,0,"",0,False
-1035569,"",0,"",0,0,0,0,0,"",0,False
-1035570,"",0,"",0,0,0,0,0,"",0,False
-1035571,"",0,"",0,0,0,0,0,"",0,False
-1035572,"",0,"",0,0,0,0,0,"",0,False
-1035573,"",0,"",0,0,0,0,0,"",0,False
+1035552,"Tigerminister",4,"Tigerminister",2,0,1,0,0,"",3,False
+1035553,"Tigerleutnant",4,"Tigerleutnants",1,0,1,0,0,"",3,True
+1035554,"Tigerleutnant",4,"Tigerleutnants",1,0,1,0,0,"",3,True
+1035555,"Tigerleutnant",4,"Tigerleutnants",1,0,1,0,0,"",3,True
+1035556,"Tigerhändler",4,"Tigerhändler",2,0,1,0,0,"Saisonales Geschäft",3,True
+1035557,"Tigerhändler",4,"Tigerhändler",2,0,1,0,0,"Saisonales Geschäft",3,True
+1035558,"Tigerhändler",4,"Tigerhändler",2,0,1,0,0,"Saisonales Geschäft",3,True
+1035559,"fernöstlich[a] Onmyoji",3,"fernöstlich[a] Onmyoji",1,0,1,0,0,"",4,False
+1035560,"Schüler[p] des Onmyoji",4,"Schüler[p] des Onmyoji",2,0,1,0,0,"",4,False
+1035561,"Mochi-Meister",4,"Mochi-Meister",2,0,1,0,0,"",3,False
+1035562,"",0,"",0,0,1,0,0,"",4,False
+1035563,"",0,"",0,0,1,0,0,"",4,False
+1035564,"",0,"",0,0,1,0,0,"",4,False
+1035565,"",0,"",0,0,1,0,0,"",4,False
+1035566,"",0,"",0,0,1,0,0,"",4,False
+1035567,"",0,"",0,0,1,0,0,"",4,False
+1035568,"Lyngsath",3,"NONE",1,0,1,0,0,"",4,False
+1035569,"Baderon",3,"NONE",1,0,1,0,0,"",4,False
+1035570,"Wawalago",3,"NONE",1,0,1,0,0,"",4,False
+1035571,"Sisipu",3,"NONE",1,0,1,1,0,"",4,False
+1035572,"Sundhimal",3,"NONE",1,0,1,0,0,"",4,False
+1035573,"Hase[p] mit silbernem Fell",8,"Hasen[p] mit silbernem Fell",1,0,1,0,0,"",4,False
 1035574,"",0,"",0,0,1,0,0,"",3,False
 1035575,"",0,"",0,0,1,0,0,"",3,False
 1035576,"Gaius",3,"Gaius",1,0,0,0,1,"",3,False
@@ -38064,7 +38064,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038060,"Hermes",3,"Hermes",1,0,0,0,1,"",4,False
 1038061,"Emet-Selch",3,"NONE",1,0,0,0,1,"",4,False
 1038062,"Hythlodaeus",3,"NONE",1,0,0,0,1,"",4,False
-1038063,"",0,"",0,0,0,0,0,"",0,False
+1038063,"Erichthonios",3,"NONE",1,0,0,0,1,"",4,False
 1038064,"Themis",3,"NONE",1,0,0,0,1,"",4,False
 1038065,"Zenos yae Galvus",3,"NONE",1,0,0,0,1,"",4,False
 1038066,"Hermes",3,"Hermes",1,0,0,0,1,"",4,False
@@ -38081,7 +38081,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038077,"Soldat[p] der I. Legion",6,"Soldaten[p] der I. Legion",1,0,1,0,0,"",4,False
 1038078,"Sadu",3,"NONE",1,0,0,1,1,"",4,False
 1038079,"Korpsmitglied[p] des Widerstands",4,"Korpsmitglieder[p] des Widerstands",2,0,1,2,0,"",4,False
-1038080,"Korpsmitglied[p] der Untersterblichen",4,"Korpsmitglieder[p] der Untersterblichen",2,0,1,2,0,"",4,False
+1038080,"Korpsmitglied[p] der Unsterblichen",4,"Korpsmitglieder[p] der Unsterblichen",2,0,1,2,0,"",4,False
 1038081,"Korpsmitglied[p] der Bruderschaft",4,"Korpsmitglieder[p] der Bruderschaft",2,0,1,2,0,"",4,False
 1038082,"Mondwächter",4,"Mondwächter",2,0,1,0,0,"",4,False
 1038083,"Licinia",3,"NONE",1,0,0,1,1,"",4,False
@@ -38210,12 +38210,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038206,"",0,"",0,0,1,0,0,"",4,False
 1038207,"",0,"",0,0,1,0,0,"",4,False
 1038208,"",0,"",0,0,1,0,0,"",4,False
-1038209,"",0,"",0,0,0,0,0,"",0,False
-1038210,"",0,"",0,0,0,0,0,"",0,False
-1038211,"",0,"",0,0,0,0,0,"",0,False
-1038212,"",0,"",0,0,0,0,0,"",0,False
-1038213,"",0,"",0,0,0,0,0,"",0,False
-1038214,"",0,"",0,0,0,0,0,"",0,False
+1038209,"",0,"",0,0,1,0,0,"",4,False
+1038210,"",0,"",0,0,1,0,0,"",4,False
+1038211,"",0,"",0,0,1,0,0,"",4,False
+1038212,"",0,"",0,0,1,0,0,"",4,False
+1038213,"",0,"",0,0,1,0,0,"",4,False
+1038214,"",0,"",0,0,1,0,0,"",4,False
 1038215,"",0,"",0,0,0,0,0,"",0,False
 1038216,"",0,"",0,0,1,0,0,"",4,False
 1038217,"",0,"",0,0,1,0,0,"",4,False
@@ -39201,7 +39201,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1039197,"Kan-E-Senna",3,"NONE",1,0,0,1,1,"",3,False
 1039198,"Hüter[p] der Weißen Viper",4,"Hüter[p] der Weißen Viper",2,0,1,0,0,"",3,False
 1039199,"Wohnungsbeamtin",3,"Wohnungsbeamtinnen",1,0,1,1,0,"",3,True
-1039200,"",0,"",0,0,0,0,0,"",0,False
+1039200,"",0,"",0,0,1,0,0,"",3,False
 1039201,"",0,"",0,0,0,0,0,"",0,False
 1039202,"",0,"",0,0,1,0,0,"",5,False
 1039203,"Rurusha",3,"NONE",1,0,0,1,1,"",3,False
@@ -39508,8 +39508,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1039504,"",0,"",0,0,1,0,0,"",5,False
 1039505,"Cendresinne",3,"NONE",1,0,0,1,1,"Wache",3,True
 1039506,"Wohnbezirksverwalterin",3,"Wohnbezirksverwalterinnen",1,0,1,1,0,"",3,False
-1039507,"",0,"",0,0,0,0,0,"",0,False
-1039508,"",0,"",0,0,0,0,0,"",0,False
+1039507,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1039508,"Claudien",3,"NONE",1,0,0,0,1,"",3,False
 1039509,"Toffwyb",3,"NONE",1,0,0,1,1,"",3,False
 1039510,"Passemerrant",3,"NONE",1,0,0,0,1,"",3,False
 1039511,"Mauguissant",3,"NONE",1,0,0,0,1,"",3,False
@@ -39556,7 +39556,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1039552,"Aeglyffe",3,"NONE",1,0,0,0,1,"Transport",3,True
 1039553,"Pilot[p] des Ilsabard-Korps",6,"Piloten[p] des Ilsabard-Korps",1,0,1,0,0,"Transport",3,True
 1039554,"Pilot[p] der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke",6,"Piloten[p] der Garlond-Metallwerke",1,0,1,0,0,"Transport",3,True
-1039555,"",0,"",0,0,0,0,0,"",0,False
+1039555,"Mylenie",3,"NONE",1,0,0,1,1,"Pandæmonium-Ausrüstung",3,True
 1039556,"",0,"",0,0,1,0,0,"",5,False
 1039557,"",0,"",0,0,1,0,0,"",5,False
 1039558,"",0,"",0,0,1,0,0,"",5,False
@@ -40698,9 +40698,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1040694,"Raya-O-Senna",3,"NONE",1,0,0,1,1,"",4,False
 1040695,"",0,"",0,0,1,0,0,"",4,False
 1040696,"Ojika Tsunjika",3,"NONE",1,0,0,0,1,"",4,False
-1040697,"",0,"",0,0,0,0,0,"",0,False
-1040698,"",0,"",0,0,0,0,0,"",0,False
-1040699,"",0,"",0,0,0,0,0,"",0,False
+1040697,"Nemjiji",3,"NONE",1,0,0,1,1,"",4,False
+1040698,"Claudien",3,"NONE",1,0,0,0,1,"",4,False
+1040699,"Ruissenaud",3,"NONE",1,0,0,0,1,"",4,False
 1040700,"Bedienung[p] der Letzten Bastion",3,"Bedienungen[p] der Letzten Bastion",1,0,1,1,0,"",4,False
 1040701,"Ephemie",3,"NONE",1,0,0,1,1,"",4,False
 1040702,"Isildaure",3,"NONE",1,0,0,0,1,"",4,False
@@ -40748,12 +40748,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1040744,"",0,"",0,0,1,0,0,"",2,False
 1040745,"",0,"",0,0,1,0,0,"",2,False
 1040746,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
-1040747,"Alisae",3,"NONE",1,0,0,1,1,"",3,False
+1040747,"Alisaie",3,"NONE",1,0,0,1,1,"",3,False
 1040748,"",0,"",0,0,1,0,0,"",5,False
 1040749,"",0,"",0,0,1,0,0,"",5,False
 1040750,"Jullus",3,"NONE",1,0,0,0,1,"",3,False
 1040751,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
-1040752,"Alisae",3,"NONE",1,0,0,1,1,"",3,False
+1040752,"Alisaie",3,"NONE",1,0,0,1,1,"",3,False
 1040753,"",0,"",0,0,1,0,0,"",5,False
 1040754,"",0,"",0,0,1,0,0,"",5,False
 1040755,"",0,"",0,0,1,0,0,"",5,True
@@ -40851,7 +40851,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1040847,"Sternenlichtfest-Verwalter",4,"Sternenlichtfest-Verwalter",2,0,1,0,0,"",3,True
 1040848,"Sternenlichtfest-Verwalter",4,"Sternenlichtfest-Verwalter",2,0,1,0,0,"",3,True
 1040849,"Sternenlichtfest-Verwalter",4,"Sternenlichtfest-Verwalter",2,0,1,0,0,"",3,True
-1040850,"verwundet[a] Siedler",4,"verwundet[a] Siedler",2,0,1,0,0,"",3,False
+1040850,"verwundet[a] Siedlerin",3,"verwundet[a] Siedlerinnen",1,0,1,1,0,"",3,False
 1040851,"aurisch[a] Tänzer",4,"aurisch[a] Tänzer",1,0,1,0,0,"",3,False
 1040852,"Wächter",4,"Wächter",2,0,1,0,0,"",3,False
 1040853,"Wächter",4,"Wächter",2,0,1,0,0,"",3,False
@@ -40864,7 +40864,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1040860,"",0,"",0,0,1,0,0,"",5,False
 1040861,"aurisch[a] Tänzer",4,"aurisch[a] Tänzer",1,0,1,0,0,"",3,False
 1040862,"Überlebend[a]",3,"Überlebend[a]",1,0,1,0,0,"",3,False
-1040863,"verwundet[a] Siedler",4,"verwundet[a] Siedler",2,0,1,0,0,"",3,False
+1040863,"verwundet[a] Siedlerin",3,"verwundet[a] Siedlerinnen",1,0,1,1,0,"",3,False
 1040864,"erschöpft[a] Kriegerin[p] des Himmelsheeres",3,"erschöpft[a] Kriegerinnen[p] des Himmelsheeres",1,0,1,1,0,"",3,False
 1040865,"kraftstrotzend[a] Loporrit",3,"kraftstrotzend[a] Loporrit",1,0,1,0,0,"",3,False
 1040866,"kraftstrotzend[a] Loporrit",3,"kraftstrotzend[a] Loporrit",1,0,1,0,0,"",3,False
@@ -40886,7 +40886,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1040882,"sehnsuchtsvoll[a] Ea",3,"sehnsuchtsvoll[a] Eas",1,0,1,0,0,"",3,False
 1040883,"erschöpft[a] Drache",8,"erschöpft[a] Drachen",1,0,1,0,0,"",3,False
 1040884,"Wachoffizierin[p] des Himmelsheers",3,"Wachoffizierinnen[p] des Himmelsheeres",1,0,1,1,0,"",3,False
-1040885,"Wachsoldat[p] des Himmelsheers",6,"Wachsoldaten[p] des Himmelsheeres",1,0,1,0,0,"",3,False
+1040885,"Wachsoldatin[p] des Himmelsheers",3,"Wachsoldatinnen[p] des Himmelsheeres",1,0,1,1,0,"",3,False
 1040886,"grimmig[a] Au Ra",3,"grimmig[a] Au Ra",1,0,1,0,0,"",3,False
 1040887,"sanftmütig[a] Au Ra",3,"sanftmütig[a] Au Ra",1,0,1,1,0,"",3,False
 1040888,"Kleon",3,"NONE",1,0,0,0,1,"",3,False
@@ -41152,7 +41152,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041148,"klein[a] Hamsa",4,"klein[a] Hamsas",1,0,1,0,0,"",3,False
 1041149,"groß[a] Hamsa",4,"groß[a] Hamsas",1,0,1,0,0,"",3,False
 1041150,"fragwürdig[a] Händler",4,"fragwürdig[a] Händler",2,0,1,0,0,"",5,False
-1041151,"ausgelastet[a] Alchemist",6,"ausgelastet[a] Alchemisten",1,0,1,0,0,"",3,False
+1041151,"ausgelastet[a] Alchemistin",3,"ausgelastet[a] Alchemistinnen",1,0,1,1,0,"",3,False
 1041152,"halbstark[a] Au Ra",4,"halbstark[a] Au Ras",1,0,1,0,0,"",3,False
 1041153,"jung[a] Au Ra",3,"jung[a] Au Ras",1,0,1,1,0,"",3,False
 1041154,"Tochter[p] der Familie Barik",3,"Töchter[p] der Familie Barik",2,0,1,1,0,"",3,False
@@ -41258,31 +41258,31 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041254,"Krile",3,"NONE",1,0,0,1,1,"",3,False
 1041255,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
 1041256,"Estinien",3,"NONE",1,0,0,0,1,"",3,False
-1041257,"",0,"",0,0,0,0,0,"",0,False
-1041258,"",0,"",0,0,0,0,0,"",0,False
-1041259,"",0,"",0,0,0,0,0,"",0,False
-1041260,"",0,"",0,0,0,0,0,"",0,False
-1041261,"",0,"",0,0,0,0,0,"",0,False
-1041262,"",0,"",0,0,0,0,0,"",0,False
-1041263,"",0,"",0,0,0,0,0,"",0,False
-1041264,"",0,"",0,0,0,0,0,"",0,False
-1041265,"",0,"",0,0,0,0,0,"",0,False
-1041266,"",0,"",0,0,0,0,0,"",0,False
-1041267,"",0,"",0,0,0,0,0,"",0,False
-1041268,"",0,"",0,0,0,0,0,"",0,False
-1041269,"",0,"",0,0,0,0,0,"",0,False
+1041257,"Nemjiji",3,"NONE",1,0,0,1,1,"",3,False
+1041258,"Claudien",3,"NONE",1,0,0,0,1,"",3,False
+1041259,"Ruissenaud",3,"NONE",1,0,0,0,1,"",3,False
+1041260,"",0,"",0,0,1,0,0,"",2,False
+1041261,"",0,"",0,0,1,0,0,"",2,False
+1041262,"",0,"",0,0,1,0,0,"",2,False
+1041263,"",0,"",0,0,1,0,0,"",2,False
+1041264,"",0,"",0,0,1,0,0,"",2,False
+1041265,"",0,"",0,0,1,0,0,"",2,False
+1041266,"",0,"",0,0,1,0,0,"",2,False
+1041267,"",0,"",0,0,1,0,0,"",2,False
+1041268,"Nemjiji",3,"NONE",1,0,0,1,1,"",3,False
+1041269,"Nemjiji",3,"NONE",1,0,0,1,1,"",3,False
 1041270,"",0,"",0,0,0,0,0,"",0,False
-1041271,"",0,"",0,0,0,0,0,"",0,False
-1041272,"",0,"",0,0,0,0,0,"",0,False
-1041273,"",0,"",0,0,0,0,0,"",0,False
-1041274,"",0,"",0,0,0,0,0,"",0,False
-1041275,"",0,"",0,0,0,0,0,"",0,False
-1041276,"",0,"",0,0,0,0,0,"",0,False
-1041277,"",0,"",0,0,0,0,0,"",0,False
-1041278,"",0,"",0,0,0,0,0,"",0,False
-1041279,"",0,"",0,0,0,0,0,"",0,False
-1041280,"",0,"",0,0,0,0,0,"",0,False
-1041281,"",0,"",0,0,0,0,0,"",0,False
+1041271,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041272,"Angestellt[a] von Lahabreas Worten",3,"Angestellte[p] von Lahabreas Worten",1,0,1,0,0,"",3,False
+1041273,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041274,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041275,"",0,"",0,0,1,0,0,"",5,False
+1041276,"Erichthonios",3,"NONE",1,0,0,0,1,"",3,False
+1041277,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041278,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041279,"Erichthonios",3,"NONE",1,0,0,0,1,"",3,False
+1041280,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041281,"Erichthonios",3,"NONE",1,0,0,0,1,"",3,False
 1041282,"Alchemistin[p] mit geröteten Augen",3,"Alchemistinnen[p] mit geröteten Augen",1,0,1,1,0,"",3,False
 1041283,"unbekannt[a] Lebewesen",4,"unbekannt[a] Lebewesen",1,0,1,2,0,"",4,False
 1041284,"unbekannt[a] Lebewesen",4,"unbekannt[a] Lebewesen",1,0,1,2,0,"",3,False
@@ -41315,7 +41315,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041311,"unbekannt[a] Lebewesen",4,"unbekannt[a] Lebewesen",1,0,1,2,0,"",3,False
 1041312,"",0,"",0,0,1,0,0,"",5,False
 1041313,"Viera-Klauber",4,"Viera-Klauber",2,0,1,0,0,"",3,False
-1041314,"Angestellt[p] des Elementbrüters",6,"Angestellt[p] des Elementbrüters",1,0,1,0,0,"",3,False
+1041314,"Angestellt[a] des Elementbrüters",3,"Angestellt[a] des Elementbrüters",1,0,1,0,0,"",3,False
 1041315,"umherwandernd[a] Loporrit",3,"umherwandernd[a] Loporrit",2,0,1,0,0,"",3,False
 1041316,"Forscher[p] der Magieakademie",4,"Forscher[p] der Magieakademie",2,0,1,0,0,"",3,False
 1041317,"streunend[a] Karfunkel",4,"streunend[a] Karfunkel",2,0,1,2,0,"",3,False
@@ -41384,8 +41384,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041380,"verwirrt[a] Königin",3,"verwirrt[a] Königinnen",1,0,1,1,0,"",3,False
 1041381,"Skatene-Pflegerin",3,"Skatene-Pflegerinnen",2,0,1,1,0,"",3,False
 1041382,"Skatene",3,"Skatene",1,0,1,0,0,"",3,False
-1041383,"Angestellter[p] des Elementbrüters",6,"Angestellte[p] des Elementbrüters",1,0,1,0,0,"",3,False
-1041384,"Klauber[p] mit Pflanzenkreatur",4,"Klauber[p] mit Pflanzenkreatur",2,0,1,0,0,"",3,False
+1041383,"Angestellt[a] des Elementbrüters",3,"Angestellt[a] des Elementbrüters",1,0,1,0,0,"",3,False
+1041384,"Klauber[p] mit Pflanzenkreaturen",4,"Klauber[p] mit Pflanzenkreaturen",2,0,1,0,0,"",3,False
 1041385,"",0,"",0,0,1,0,0,"",5,False
 1041386,"",0,"",0,0,1,0,0,"",5,False
 1041387,"",0,"",0,0,1,0,0,"",5,False
@@ -41485,9 +41485,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041481,"Thancred",3,"NONE",1,0,0,0,1,"",4,False
 1041482,"Y'shtola",3,"NONE",1,0,0,1,1,"",4,False
 1041483,"Urianger",3,"NONE",1,0,0,0,1,"",4,False
-1041484,"",0,"",0,0,0,0,0,"",0,False
-1041485,"",0,"",0,0,0,0,0,"",0,False
-1041486,"",0,"",0,0,0,0,0,"",0,False
+1041484,"Hesperos",3,"NONE",1,0,0,1,1,"",4,False
+1041485,"Hesperos",3,"NONE",1,0,0,1,1,"",4,False
+1041486,"Hesperos",3,"NONE",1,0,0,1,1,"",4,False
 1041487,"hoffnungsvoll[a] Alt[a]",3,"hoffnungsvoll[a] Alt[a]",1,0,1,0,0,"",4,False
 1041488,"optimistisch[a] Alt[a]",3,"optimistisch[a] Alt[a]",1,0,1,0,0,"",4,False
 1041489,"",0,"",0,0,1,0,0,"",4,False
@@ -41502,11 +41502,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041498,"Kancana",3,"NONE",1,0,0,1,1,"",4,False
 1041499,"Estinien",3,"NONE",1,0,0,0,1,"",4,False
 1041500,"",0,"",0,0,1,0,0,"",4,False
-1041501,"",0,"",0,0,0,0,0,"",0,False
-1041502,"",0,"",0,0,0,0,0,"",0,False
-1041503,"",0,"",0,0,0,0,0,"",0,False
-1041504,"",0,"",0,0,0,0,0,"",0,False
-1041505,"",0,"",0,0,0,0,0,"",0,False
+1041501,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041502,"Erichthonios",3,"NONE",1,0,0,0,1,"",3,False
+1041503,"Themis",3,"NONE",1,0,0,0,1,"",3,False
+1041504,"Ruissenaud",3,"NONE",1,0,0,0,1,"",3,False
+1041505,"Themis",3,"NONE",1,0,0,0,1,"",3,False
 1041506,"Alkaios",3,"NONE",1,0,0,0,1,"",3,False
 1041507,"Maira",3,"NONE",1,0,0,1,1,"",3,False
 1041508,"Alkaios",3,"NONE",1,0,0,0,1,"",3,False
@@ -41883,7 +41883,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041879,"Agavoides-Jungtier",4,"Agavoides-Jungtiere",2,0,1,2,0,"",3,False
 1041880,"",0,"",0,0,1,0,0,"",5,False
 1041881,"Erenville",3,"NONE",1,0,0,0,1,"",4,False
-1041882,"",0,"",0,0,0,0,0,"",0,False
+1041882,"",0,"",0,0,1,0,0,"",4,False
 1041883,"Runningway",3,"NONE",1,0,0,0,1,"",4,False
 1041884,"",0,"",0,0,1,0,0,"",4,False
 1041885,"",0,"",0,0,1,0,0,"",4,False
@@ -41912,7 +41912,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041908,"",0,"",0,0,1,0,0,"",4,False
 1041909,"",0,"",0,0,1,0,0,"",5,False
 1041910,"",0,"",0,0,1,0,0,"",5,False
-1041911,"Delegationsmitglied[p] des Mahlstrom",4,"Delegationsmitglieder[p] des Mahlstrom",2,0,1,2,0,"",3,False
+1041911,"Delegationsmitglied[p] des Mahlstroms",4,"Delegationsmitglieder[p] des Mahlstroms",2,0,1,2,0,"",3,False
 1041912,"Dorfheilerin",3,"Dorfheilerinen",1,0,1,1,0,"",3,False
 1041913,"Assistentin[p] der Dorfheilerin",3,"Assistentinen[p] der Dorfheilerin",1,0,1,1,0,"",3,False
 1041914,"",0,"",0,0,1,0,0,"",5,False
@@ -41932,10 +41932,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041928,"Rimelnaud",3,"NONE",1,0,0,0,1,"",3,False
 1041929,"Frontinus",3,"NONE",1,0,0,0,1,"",4,False
 1041930,"",0,"",0,0,1,0,0,"",4,False
-1041931,"",0,"",0,0,0,0,0,"",0,False
-1041932,"",0,"",0,0,0,0,0,"",0,False
-1041933,"",0,"",0,0,0,0,0,"",0,False
-1041934,"",0,"",0,0,0,0,0,"",0,False
+1041931,"Claudien",3,"NONE",1,0,0,0,1,"",3,False
+1041932,"Nemjiji",3,"NONE",1,0,0,1,1,"",3,False
+1041933,"Ruissenaud",3,"NONE",1,0,0,0,1,"",3,False
+1041934,"Claudien",3,"NONE",1,0,0,0,1,"",3,False
 1041935,"G'raha Tia",3,"NONE",1,0,0,0,1,"",4,False
 1041936,"",0,"",0,0,1,0,0,"",4,False
 1041937,"",0,"",0,0,1,0,0,"",4,False
@@ -42054,8 +42054,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1042050,"Mondwächter",4,"Mondwächter",2,0,1,0,0,"",3,False
 1042051,"",0,"",0,0,0,0,0,"",0,False
 1042052,"",0,"",0,0,0,0,0,"",0,False
-1042053,"",0,"",0,0,0,0,0,"",0,False
-1042054,"",0,"",0,0,0,0,0,"",0,False
+1042053,"Cocobuki",3,"NONE",1,0,0,0,1,"",3,False
+1042054,"Cocobuki",3,"NONE",1,0,0,0,1,"",3,False
 1042055,"",0,"",0,0,0,0,0,"",0,False
 1042056,"",0,"",0,0,0,0,0,"",0,False
 1042057,"",0,"",0,0,0,0,0,"",0,False
@@ -42218,7 +42218,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1042214,"Estinien",3,"NONE",1,0,0,0,1,"",3,False
 1042215,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
 1042216,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
-1042217,"",0,"",0,0,0,0,0,"",0,False
-1042218,"",0,"",0,0,0,0,0,"",0,False
-1042219,"",0,"",0,0,0,0,0,"",0,False
+1042217,"Matsya",3,"NONE",1,0,0,1,1,"",3,False
+1042218,"Nidhana",3,"NONE",1,0,0,1,1,"",3,False
+1042219,"Ameliance",3,"NONE",1,0,0,1,1,"",3,False
 1042220,"",0,"",0,0,0,0,0,"",0,False

@@ -3818,7 +3818,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 3766,"Glacier artificiel",0,"Glacier artificiel",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le glacier artificiel</Case><Case(2)>au glacier artificiel</Case><Case(3)>du glacier artificiel</Case></Switch>",0,0,0
 3767,"Salle d'évaluation",0,"Salle d'évaluation",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle d'évaluation</Case><Case(2)>à la salle d'évaluation</Case><Case(3)>de la salle d'évaluation</Case></Switch>",0,0,0
 3768,"Voûte céleste",0,"Voûte céleste",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte céleste</Case><Case(2)>à la voûte céleste</Case><Case(3)>de la voûte céleste</Case></Switch>",0,0,0
-3769,"パンデモニウム正門",0,"",0,0,1,0,0,"",0,0,0
+3769,"Limbes du Pandæmonium - Parvis",0,"Limbes du Pandæmonium - Parvis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Limbes du Pandæmonium - Parvis</Case><Case(2)>aux Limbes du Pandæmonium - Parvis</Case><Case(3)>des Limbes du Pandæmonium - Parvis</Case></Switch>",0,0,0
 3770,"Risette-sur-lune",0,"Risette-sur-lune",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Risette-sur-lune</Case><Case(2)>à Risette-sur-lune</Case><Case(3)>de Risette-sur-lune</Case></Switch>",0,0,0
 3771,"Endroit du décor",0,"Endroit du décor",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'endroit du décor</Case><Case(2)>dans l'endroit du décor</Case><Case(3)>de l'endroit du décor</Case></Switch>",0,0,0
 3772,"Envers du décor",0,"Envers du décor",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'envers du décor</Case><Case(2)>dans l'envers du décor</Case><Case(3)>de l'envers du décor</Case></Switch>",0,0,0
@@ -3848,8 +3848,8 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 3794,"Quartier général A-4",0,"Quartier général A-4",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le quartier général A-4</Case><Case(2)>au quartier général A-4</Case><Case(3)>du quartier général A-4</Case></Switch>",0,0,0
 3795,"Avenue Fer-de-hallebarde",0,"Avenue Fer-de-hallebarde",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'avenue Fer-de-hallebarde</Case><Case(2)>sur l'l'avenue Fer-de-hallebarde</Case><Case(3)>de l'avenue Fer-de-hallebarde</Case></Switch>",0,0,0
 3796,"Avenue Fer-de-hallebarde [Annexe]",0,"Avenue Fer-de-hallebarde [Annexe]",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Annexesur l'l'avenue Fer-de-hallebarde  [Annexe]</Case><Case(2)>de l'avenue Fer-de-hallebarde  [Annexe]</Case></Switch>",0,0,0
-3797,"パンデモニウム辺獄下層",0,"",0,0,1,0,0,"",0,0,0
-3798,"",0,"",0,0,0,0,0,"",0,0,0
+3797,"Limbes du Pandæmonium - Fournaise",0,"Limbes du Pandæmonium - Fournaise",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Limbes du Pandæmonium - Fournaise</Case><Case(2)>aux Limbes du Pandæmonium - Fournaise</Case><Case(3)>des Limbes du Pandæmonium - Fournaise</Case></Switch>",0,0,0
+3798,"Limbes du Pandæmonium - Cloaque",0,"Limbes du Pandæmonium - Cloaque",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Limbes du Pandæmonium - Cloaque</Case><Case(2)>aux Limbes du Pandæmonium - Cloaque</Case><Case(3)>des Limbes du Pandæmonium - Cloaque</Case></Switch>",0,0,0
 3799,"",0,"",0,0,1,0,0,"",0,0,0
 3800,"Académie de magie",0,"Académie de magie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'académie de magie</Case><Case(2)>à l'académie de magie</Case><Case(3)>de l'académie de magie</Case></Switch>",0,1301,0
 3801,"Phénomène",0,"Phénomène",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Phénomène</Case><Case(2)>au Phénomène</Case><Case(3)>du Phénomène</Case></Switch>",0,1302,0
@@ -4186,7 +4186,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4132,"Maillon",0,"Maillon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Maillon</Case><Case(2)>au Maillon</Case><Case(3)>du Maillon</Case></Switch>",0,0,0
 4133,"Distorsion éthérée",0,"Distorsion éthérée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la distorsion éthérée</Case><Case(2)>sur la distorsion éthérée</Case><Case(3)>de la distorsion éthérée</Case></Switch>",0,0,0
 4134,"Dimension d'Anima",0,"Dimension d'Anima",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la ligne E de fret magitek</Case><Case(2)>sur la ligne E de fret magitek</Case><Case(3)>de la la ligne E de fret magitek</Case></Switch>",0,0,0
-4135,"",0,"",0,0,0,0,0,"",0,0,0
+4135,"Limbes du Pandæmonium - Abîme",0,"Limbes du Pandæmonium - Abîme",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Limbes du Pandæmonium - Abîme</Case><Case(2)>aux Limbes du Pandæmonium - Abîme</Case><Case(3)>des Limbes du Pandæmonium - Abîme</Case></Switch>",0,0,0
 4136,"Idyllée",0,"Idyllée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Idyllée</Case><Case(2)>à Idyllée</Case><Case(3)>d'Idyllée</Case></Switch>",0,0,0
 4137,"L'Étendue de Rhalgr",0,"L'Étendue de Rhalgr",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Étendue de Rhalgr</Case><Case(2)>à L'Étendue de Rhalgr</Case><Case(3)>de L'Étendue de Rhalgr</Case></Switch>",0,0,0
 4138,"Garlemald",0,"Garlemald",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Garlemald</Case><Case(2)>à Garlemald</Case><Case(3)>de Garlemald</Case></Switch>",0,0,0

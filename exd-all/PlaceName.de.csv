@@ -3823,7 +3823,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 3795,"Hellebardenspalier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hellebardenspalier</Case><Case(2)>am Hellebardenspalier</Case><Case(3)>das Hellebardenspalier</Case></Switch>",0,0,0
 3796,"[Erweiterung] Hellebardenspalier",0,"",0,0,1,0,0,"",0,0,0
 3797,"Glühender Limbus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum glühenden Limbus</Case><Case(2)>im glühenden Limbus</Case><Case(3)>der glühende Limbus</Case></Switch>",0,0,0
-3798,"",0,"",0,0,0,0,0,"",0,0,0
+3798,"Trister Limbus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum tristen Limbus</Case><Case(2)>im tristen Limbus</Case><Case(3)>der triste Limbus</Case></Switch>",0,0,0
 3799,"",0,"",0,0,1,0,0,"",0,0,0
 3800,"Magieakademie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Magieakademie</Case><Case(2)>in der Magieakademie</Case><Case(3)>die Magieakademie</Case></Switch>",0,1301,0
 3801,"Phänomenon",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in das Phänomenon</Case><Case(2)>im Phänomenon</Case><Case(3)>das Phänomenon</Case></Switch>",0,1302,0
@@ -4160,7 +4160,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4132,"Halle der Ketten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Ketten</Case><Case(2)>in der Halle der Ketten</Case><Case(3)>die Halle der Ketten</Case></Switch>",0,0,0
 4133,"Verzerrte Ader",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur verzerrten Ader</Case><Case(2)>in der verzerrten Ader</Case><Case(3)>die verzerrte Ader</Case></Switch>",0,0,0
 4134,"Animas Dimension",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in Animas Dimension</Case><Case(2)>in Animas Dimension</Case><Case(3)>Animas Dimension</Case></Switch>",0,0,0
-4135,"",0,"",0,0,0,0,0,"",0,0,0
+4135,"Blutender Limbus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum blutenden Limbus</Case><Case(2)>im blutenden Limbus</Case><Case(3)>der blutende Limbus</Case></Switch>",0,0,0
 4136,"Frohehalde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Frohehalde</Case><Case(2)>in Frohehalde</Case><Case(3)>Frohehalde</Case></Switch>",0,0,0
 4137,"Rhalgrs Wacht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Rhalgrs Wacht</Case><Case(2)>in Rhalgrs Wacht</Case><Case(3)>Rhalgrs Wacht</Case></Switch>",0,0,0
 4138,"Garlemald",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Garlemald</Case><Case(2)>in Garlemald</Case><Case(3)>Garlemald</Case></Switch>",0,0,0
