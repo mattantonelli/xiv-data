@@ -37301,7 +37301,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1037297,"météorologue",0,"météorologues",0,0,1,1,0,"",3,True
 1037298,"Mog postier",0,"Mogs postiers",0,0,1,0,0,"",3,True
 1037299,"Atapa",0,"Atapa",0,1,1,0,1,"Réparations",3,False
-1037300,"",0,"",0,0,0,0,0,"",0,False
+1037300,"Khaldeen",0,"Khaldeen",0,0,1,0,1,"Équipements",3,True
 1037301,"Cihanti",0,"Cihanti",0,0,1,1,1,"Mémoquartz",3,True
 1037302,"Nesvaaz",0,"Nesvaaz",0,0,1,0,1,"Divers",3,True
 1037303,"Djole",0,"Djole",0,0,1,1,1,"Équipements du Pandæmonium",3,True
@@ -38216,7 +38216,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038212,"",0,"",0,0,1,0,0,"",4,False
 1038213,"",0,"",0,0,1,0,0,"",4,False
 1038214,"",0,"",0,0,1,0,0,"",4,False
-1038215,"",0,"",0,0,0,0,0,"",0,False
+1038215,"",0,"",0,0,1,0,0,"",4,False
 1038216,"",0,"",0,0,1,0,0,"",4,False
 1038217,"",0,"",0,0,1,0,0,"",4,False
 1038218,"",0,"",0,0,1,0,0,"",4,False
@@ -39393,7 +39393,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1039389,"",0,"",0,0,1,0,0,"",5,False
 1039390,"",0,"",0,0,1,0,0,"",5,False
 1039391,"",0,"",0,0,1,0,0,"",5,False
-1039392,"membre du Maelstrom",0,"membres du Maelstrom",0,0,1,0,0,"",3,False
+1039392,"membre du Maelstrom à l'air soucieux",0,"membres du Maelstrom à l'air soucieux",0,0,1,0,0,"",3,False
 1039393,"femme décurion de la 3e légion",0,"femmes décurions de la 3e légion",0,0,1,1,0,"",3,False
 1039394,"jeune homme à la caisse",0,"jeunes hommes à la caisse",0,0,1,0,0,"",4,False
 1039395,"jeune homme aux aguets",0,"jeunes hommes aux aguets",0,0,1,0,0,"",3,False
@@ -41914,7 +41914,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041910,"",0,"",0,0,1,0,0,"",5,False
 1041911,"déléguée du Maelstrom",0,"déléguées du Maelstrom",0,0,1,1,0,"",3,False
 1041912,"soigneuse du village",0,"soigneuses du village",0,0,1,1,0,"",3,False
-1041913,"assistante du soigneur",0,"assistantes du soigneur",0,1,1,1,0,"",3,False
+1041913,"assistante de la soigneuse",0,"assistantes de la soigneuse",0,1,1,1,0,"",3,False
 1041914,"",0,"",0,0,1,0,0,"",5,False
 1041915,"",0,"",0,0,1,0,0,"",5,False
 1041916,"chercheur de l'Akadaemia",0,"chercheurs de l'Akadaemia",0,0,1,0,0,"",3,False
@@ -42054,8 +42054,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1042050,"inconnu aux allures d'Ancien",0,"inconnus aux allures d'Ancien",0,1,1,0,0,"",3,False
 1042051,"",0,"",0,0,0,0,0,"",0,False
 1042052,"",0,"",0,0,0,0,0,"",0,False
-1042053,"ココブキ",0,"",0,0,1,0,0,"",3,False
-1042054,"ココブキ",0,"",0,0,1,0,0,"",3,False
+1042053,"Cocobuki",0,"Cocobuki",0,0,1,0,1,"",3,False
+1042054,"Cocobuki",0,"Cocobuki",0,0,1,0,1,"",3,False
 1042055,"",0,"",0,0,0,0,0,"",0,False
 1042056,"",0,"",0,0,0,0,0,"",0,False
 1042057,"",0,"",0,0,0,0,0,"",0,False

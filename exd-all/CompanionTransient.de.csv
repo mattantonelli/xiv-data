@@ -1708,7 +1708,9 @@ Nutztiere gezüchtet.","Niemand ist wütend auf dich, komm doch bitte raus, fall
 terscheiden.","Meinen großen Augen entgeht nichts!
 <Emphasis>Gyoka</Emphasis>","Göttliches Auge","Erhöht die ATT eigener Trabanten in der Nähe um 10.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",55,55,3,False,True,False,True,False,"Enhancement"
-443,"","","","","",0,0,0,False,False,False,False,False,""
+443,"Du rufst deinen königlichen Lunatender als Begleiter herbei. Einst ein König, dann ein Sachpreis und jetzt läuft er dir hinterher.","Als dieser Lunatender aufgrund einer Mutation golden wurde, verließ er den grauen Mond, weil ihm seine auffällige Farbe nur Ärger bescherte. Er beschloss, von nun an als Sachpreis des Euphoratrons durchs Leben zu gehen.","So ist es, mein König.
+<Emphasis>Ihanashi</Emphasis>","Sonnenbad","Verdoppelt die LP-Regeneration der Trabanten innerhalb eines Tors.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20 Sekunden",55,50,4,False,True,False,False,False,"Special"
 444,"","","","","",0,0,0,False,False,False,False,False,""
 445,"","","","","",0,0,0,False,False,False,False,False,""
 446,"","","","","",0,0,0,False,False,False,False,False,""

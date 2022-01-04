@@ -965,7 +965,10 @@ inconnue.","Le sang<Indent/>!","Suçage de sang","Donne une aire d'effet aux att
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",55,55,3,False,True,False,False,False,"Enfeeblement"
 442,"Vous appelez votre mascotte Daïvadipa miniature, une poupée magique à l'effigie d'une divinité mrga.","Daïvadipa est une divinité mrga vénérée par les Thavnairois depuis de nombreuses générations. En langue arkasodara ancienne, son nom signifie à la fois “lumière divine” et “œil”, en référence à sa capacité à distinguer le bien du mal.","Le bien, le mal<Indent/>!","Œil pur","Augmente de 10 l'attaque des alliés dans l'aire d'effet.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",55,55,3,False,True,False,True,False,"Enhancement"
-443,"","","","","",0,0,0,False,False,False,False,False,""
+443,"Vous appelez votre mascotte Roi pampa sélénien, un pampa qui vaut lit<SoftHyphen/>té<SoftHyphen/>ra<SoftHyphen/>le<SoftHyphen/>ment de l'or.","Né doré à la suite d'une anomalie génétique, ce pampa a beaucoup souffert de son clinquant, qui jure avec la surface grise de la lune. Il a finalement préféré vivre heureux et caché dans le Ludodrome,
+en tant que plante
+décorative et trophée.","Que de l'or<Indent/>!","Douche solaire","Double le montant de PV récupérés par les mascottes qui se trouvent à l'intérieur des portails.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s",55,50,4,False,True,False,False,False,"Special"
 444,"","","","","",0,0,0,False,False,False,False,False,""
 445,"","","","","",0,0,0,False,False,False,False,False,""
 446,"","","","","",0,0,0,False,False,False,False,False,""

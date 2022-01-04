@@ -37301,7 +37301,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1037297,"Meteorologin",3,"Meteorologinen",1,0,1,1,0,"",3,True
 1037298,"Mogry-Postbote",8,"Mogry-Postboten",1,0,1,0,0,"",3,True
 1037299,"Atapa",3,"NONE",1,0,0,0,1,"Reparatur",3,False
-1037300,"",0,"",0,0,0,0,0,"",0,False
+1037300,"Khaldeen",3,"NONE",1,0,0,0,1,"Ausrüstung",3,True
 1037301,"Cihanti",3,"NONE",1,0,0,1,1,"Allagische Steine",3,True
 1037302,"Nesvaaz",3,"NONE",1,0,0,0,1,"Verschiedenes",3,True
 1037303,"Djole",3,"NONE",1,0,0,1,1,"Pandæmonium-Ausrüstung",3,True
@@ -38216,7 +38216,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038212,"",0,"",0,0,1,0,0,"",4,False
 1038213,"",0,"",0,0,1,0,0,"",4,False
 1038214,"",0,"",0,0,1,0,0,"",4,False
-1038215,"",0,"",0,0,0,0,0,"",0,False
+1038215,"",0,"",0,0,1,0,0,"",4,False
 1038216,"",0,"",0,0,1,0,0,"",4,False
 1038217,"",0,"",0,0,1,0,0,"",4,False
 1038218,"",0,"",0,0,1,0,0,"",4,False
@@ -41748,7 +41748,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1041744,"offenherzig[a] Loporrit",3,"offenherzig[a] Loporrit",1,0,1,0,0,"",3,False
 1041745,"fröhlich[a] Loporrit",3,"fröhlich[a] Loporrit",1,0,1,0,0,"",3,False
 1041746,"arbeitsam[a] Loporrit",3,"arbeitsam[a] Loporrit",1,0,1,0,0,"",3,False
-1041747,"abgehärtet[a] Soldat[p] des Himmelheers",6,"abgehärtet[a] Soldaten[p] des Himmelheers",1,0,1,0,0,"",3,False
+1041747,"abgehärtet[a] Soldat[p] des Himmelsheers",6,"abgehärtet[a] Soldaten[p] des Himmelheers",1,0,1,0,0,"",3,False
 1041748,"",0,"",0,0,1,0,0,"",6,True
 1041749,"",0,"",0,0,1,0,0,"",6,True
 1041750,"",0,"",0,0,1,0,0,"",6,True

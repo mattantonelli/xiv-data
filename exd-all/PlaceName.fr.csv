@@ -4162,13 +4162,13 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4108,"Village grébuloff",0,"Village grébuloff",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le village grébuloff</Case><Case(2)>au village grébuloff</Case><Case(3)>du village grébuloff</Case></Switch>",0,0,0
 4109,"Le Jugement dernier",0,"Le Jugement dernier",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Jugement dernier</Case><Case(2)>au Jugement dernier</Case><Case(3)>du Jugement dernier</Case></Switch>",0,0,0
 4110,"Monde débordant de vie",0,"Monde débordant de vie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le monde débordant de vie</Case><Case(2)>dans le monde débordant de vie</Case><Case(3)>du monde débordant de vie</Case></Switch>",0,0,0
-4111,"",0,"",0,0,0,0,0,"",0,0,0
-4112,"",0,"",0,0,0,0,0,"",0,0,0
-4113,"",0,"",0,0,0,0,0,"",0,0,0
-4114,"",0,"",0,0,0,0,0,"",0,0,0
-4115,"",0,"",0,0,0,0,0,"",0,0,0
-4116,"",0,"",0,0,0,0,0,"",0,0,0
-4117,"",0,"",0,0,0,0,0,"",0,0,0
+4111,"Ludodrome",0,"Ludodrome",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Ludodrome</Case><Case(2)>dans le Ludodrome</Case><Case(3)>du Ludodrome</Case></Switch>",0,0,0
+4112,"Entrée du Ludodrome",0,"Entrée du Ludodrome",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrée du Ludodrome</Case><Case(2)>à l'entrée du Ludodrome</Case><Case(3)>de l'entrée du Ludodrome</Case></Switch>",0,0,0
+4113,"Première salle",0,"Première salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la première salle</Case><Case(2)>dans la première salle</Case><Case(3)>de la première salle</Case></Switch>",0,0,0
+4114,"Deuxième salle",0,"Deuxième salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la deuxième salle</Case><Case(2)>dans la deuxième salle</Case><Case(3)>de la deuxième salle</Case></Switch>",0,0,0
+4115,"Troisième salle",0,"Troisième salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la troisième salle</Case><Case(2)>dans la troisième salle</Case><Case(3)>de la troisième salle</Case></Switch>",0,0,0
+4116,"Quatrième salle",0,"Quatrième salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la quatrième salle</Case><Case(2)>dans la quatrième salle</Case><Case(3)>de la quatrième salle</Case></Switch>",0,0,0
+4117,"Dernière salle",0,"Dernière salle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la dernière salle</Case><Case(2)>dans la dernière salle</Case><Case(3)>de la dernière salle</Case></Switch>",0,0,0
 4118,"Tour de Babil",0,"Tour de Babil",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la tour de Babil</Case><Case(2)>à la tour de Babil</Case><Case(3)>de la tour de Babil</Case></Switch>",0,0,0
 4119,"Ligne E de fret magitek",0,"Ligne E de fret magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la ligne E de fret magitek</Case><Case(2)>sur la ligne E de fret magitek</Case><Case(3)>de la ligne E de fret magitek</Case></Switch>",0,0,0
 4120,"Secteur souterrain",0,"Secteur souterrain",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le secteur souterrain</Case><Case(2)>au secteur souterrain</Case><Case(3)>du secteur souterrain</Case></Switch>",0,0,0

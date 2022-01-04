@@ -141,8 +141,7 @@ Si un ennemi était ciblé, entrave ses déplacements.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bonus du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vent de tempête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vent de tempête<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% vos dégâts infligés.
-Si vous êtes déjà sous l'effet de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vent de tempête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allonge la durée de 30s (maximum 60s).
-<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))>
+Si vous êtes déjà sous l'effet de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vent de tempête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allonge la durée de 30s (maximum 60s).<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bonus du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de la bête<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 10.<Else/></If><Else/></If>"
 46,"Effectue une attaque physique à distance sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
@@ -3230,8 +3229,8 @@ Déclenche le temps de recharge des techniques d'arme, sorts, mudrâ et ninjutsu
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 2267,"Effectue un ninjutsu d'attaque magique de foudre sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 650
-<If(Equal(PlayerParameter(68),30))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie un degré de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Griffe de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>  (maximum 3).
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<If(Equal(PlayerParameter(68),30))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie un degré de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technique de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>  (maximum 3).
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 <Else/></If><Else/></If><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mudrâ requises<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ten<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ou <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Jin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Déclenche le temps de recharge des techniques d'arme, sorts, mudrâ et ninjutsu.
@@ -4735,8 +4734,7 @@ Partage le même temps de recharge que <UIForeground>F201F4</UIForeground><UIGlo
 3552,"Restaure vos PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1200<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement vos PV.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s<Else/></If><Else/></If>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s<Else/></If><Else/></If>"
 3553,"Augmente de 30% la puissance de <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Grand saut<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Saut<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Saut<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> et de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Piqué brise-échine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>30<Else/>20</If><Else/>20</If>s<If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),56))><If(GreaterThanOrEqualTo(PlayerParameter(72),58))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel avec Percée totale<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Croc-et-griffe préparé<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -4753,7 +4751,7 @@ Cet effet disparaît si <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlo
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance de côté<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Croc-et-griffe préparé<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 3555,"Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>250<Else/>200</If><Else/>200</If>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>260<Else/>200</If><Else/>200</If>
 La puissance au-delà du premier ennemi touché est réduite de 30%.<If(GreaterThanOrEqualTo(PlayerParameter(72),70))><If(Equal(PlayerParameter(68),22))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vie du dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2e degré d'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Œil du dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
@@ -9084,7 +9082,7 @@ L'effet prend fin lorsque sa durée s'est écoulée ou après 3 techniques d'arm
 <If(GreaterThanOrEqualTo(PlayerParameter(72),70))><If(Equal(PlayerParameter(68),22))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> intensifie le regard de l'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Œil du dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/></If><Else/></If><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Piqué mirage préparé<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (Effet obtenu après avoir utilisé <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>Saut ou Grand saut<Else/>Saut</If><Else/>Saut</If>)."
 7400,"Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>350<Else/>300</If><Else/>300</If>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>360<Else/>300</If><Else/>300</If>
 La puissance au-delà du premier ennemi touché est réduite de 30%.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vie du dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
@@ -9256,7 +9254,7 @@ L'effet prend fin en relançant l'action."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
 Vide périodiquement la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge d'éther féerique<UIGlow>01</UIGlow><UIForeground>01</UIForeground> tant que l'effet est actif.
 La fée ne peut exécuter aucune autre action.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> équipier à 15 yalms ou moins de la fée.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> équipier à 30 yalms ou moins de la fée.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 7439,"Place une <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Étoile terrestre<UIGlow>01</UIGlow><UIForeground>01</UIForeground> dans l'aire ciblée, et vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Domination terrestre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -10095,12 +10093,12 @@ Détecte les endroits où des poissons se cachent peut-être, et indique leur em
 S'active au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment lorsque vous devenez pêcheur.<Else/></If><Else/></If>"
 7904,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pêche au harpon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Localise le point de harponnage le plus proche, et indique son emplacement sur la boussole.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sondage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sondage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 7905,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pêche au harpon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Localise le point de harponnage le plus proche parmi ceux de niveau le plus élevé pour vos compétences, et indique son emplacement sur la boussole.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sondage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sondage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 7906,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pêche au harpon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Empêche de pêcher des poissons identiques à celui précédemment attrapé.
 L'effet disparaît en quittant le point de pêche, et ne fonctionne pas sur certains poissons."
@@ -19596,8 +19594,7 @@ Cette action a un temps de recharge indépendant."
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 16151,"Restaure périodiquement les PV de la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s<If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s<If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2<Else/></If><Else/></If>"
 16152,"Réduit vos PV à 1 et vous rend invulnérable à la plupart des attaques.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
@@ -20263,7 +20260,8 @@ Attaque de mêlée<Indent/>: 160
 Attaque à distance<Indent/>: 160
 Attaque de zone<Indent/>: 80
 Les attaques de votre ombre ne génèrent aucun bonus de combo, mais votre <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de Ninki<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 5 chaque fois qu'une de ses attaques touche.
-<If(Equal(PlayerParameter(68),30))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kamaitachi fantôme préparé<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<If(Equal(PlayerParameter(68),30))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kamaitachi fantôme préparé<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kamaitachi fantôme<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 45s
 <Else/></If><Else/></If><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coût Jauge de Ninki<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
 16494,"Effectue une attaque physique sur la cible et les ennemis alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 170
@@ -20366,12 +20364,12 @@ Partage le même temps de recharge que <UIForeground>F201F4</UIForeground><UIGlo
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 16514,"Effectue une attaque magique de feu sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 430
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 520
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Transe-Phénix<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 16515,"Effectue une attaque magique de feu sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 180
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 240
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Transe-Phénix<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -23755,8 +23753,8 @@ Déclenche le temps de recharge des techniques d'arme, sorts, mudrâ et ninjutsu
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 18877,"Effectue un ninjutsu d'attaque magique de foudre sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 650
-<If(Equal(PlayerParameter(68),30))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie un degré de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Griffe de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (maximum 3).
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<If(Equal(PlayerParameter(68),30))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie un degré de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technique de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (maximum 3).
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 <Else/></If><Else/></If><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mudrâ requises<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ten<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ou <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Jin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Déclenche le temps de recharge des techniques d'arme, sorts, mudrâ et ninjutsu.
@@ -30004,8 +30002,7 @@ La puissance au-delà du premier ennemi touché est réduite de 50%.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> consomme un <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Croc de vipère<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 24305,"Crée une barrière sur vous ou l'équipier ciblé, absorbant un certain montant de dégâts, et octroie 5 degrés de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 Quand la barrière a absorbé son montant de dégâts, elle est réappliquée en échange d'un degré de Haimatinon.
 Haimatinon restaure des PV à la cible lorsque l'effet prend fin.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 150 par degré restant."
@@ -30032,8 +30029,7 @@ Ce sort a un temps de recharge indépendant."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 10% les dégâts reçus par vous et les équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s"
 24311,"Crée une barrière sur vous et les équipiers alentour, absorbant un certain montant de dégâts, et octroie 5 degrés de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Panhaimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 Quand la barrière a absorbé son montant de dégâts, elle est réappliquée en échange d'un degré de Panhaimatinon.
 Panhaimatinon restaure des PV à la cible lorsque l'effet prend fin.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100 par degré restant."
@@ -30323,7 +30319,7 @@ Ne peut pas être utilisé sous l'effet Entrave.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s<If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blason revigorant<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à vous et à vos équipiers dans un rayon de 15 yalms quand la barrière a absorbé son montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blason revigorant<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement les PV.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s<Else/></If><Else/></If>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s<Else/></If><Else/></If>"
 24405,"Augmente de 3% vos dégâts infligés et ceux des équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s<If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>
 Octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cercle sacrificiel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à vous et à aux équipiers alentour.
@@ -31849,7 +31845,7 @@ Cet effet disparaît si une technique d'arme de corps-à-corps est utilisée."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 Cet effet disparaît si une technique d'arme de corps-à-corps est utilisée."
 25773,"Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 370
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 420
 La puissance au-delà du premier ennemi touché est réduite de 50%.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fougue des dragons anciens<UIGlow>01</UIGlow><UIForeground>01</UIForeground> au 2e degré."
 25774,"Votre ombre effectue une attaque magique de vent sur la cible et les ennemis autour dans une zone de 5 yalms.
@@ -31864,20 +31860,15 @@ La puissance est réduite de 50% au-delà du premier ennemi touché.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 25777,"Vous rapproche de la cible et effectue une attaque magique de foudre sur elle.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Croc de Raijû préparé<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, puis cette action devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Croc de Raijû<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 560
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de Ninki<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Griffe de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technique de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Ne peut pas être utilisé sous l'effet Entrave."
-25778,"Vous rapproche de la cible et effectue une attaque magique de foudre sur elle.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 450
+25778,"Effectue une attaque magique de foudre sur la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 560
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de Ninki<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 5.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Griffe de Raijû
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Croc de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Ne peut pas être utilisé sous l'effet Entrave.
-
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technique de Raijû préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 25779,"Effectue une attaque physique sur les ennemis alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
 Consomme tous les degrés de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tension de la lame<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -34595,8 +34586,7 @@ Les vésicules de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bile
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> consomme une vésicule de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bile de vipère<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Les vésicules de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bile de vipère<UIGlow>01</UIGlow><UIForeground>01</UIForeground> se régénèrent à raison d'une toute les 10 secondes."
 27833,"Crée une barrière sur vous ou l'équipier ciblé, absorbant un certain montant de dégâts, et octroie 5 degrés de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 Quand la barrière a absorbé son montant de dégâts, elle est réappliquée en échange d'un degré de Haimatinon.
 Haimatinon restaure des PV à la cible lorsque l'effet prend fin.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000 par degrés restants"

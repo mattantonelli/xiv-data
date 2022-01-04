@@ -4136,13 +4136,13 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4108,"Typhoid-Siedlung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Typhoid-Siedlung</Case><Case(2)>in der Typhoid-Siedlung</Case><Case(3)>die Typhoid-Siedlung</Case></Switch>",0,0,0
 4109,"Tag der totalen Vernichtung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tag der totalen Vernichtung</Case><Case(2)>am Tag der totalen Vernichtung</Case><Case(3)>der Tag der totalen Vernichtung</Case></Switch>",0,0,0
 4110,"Die glückliche Welt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Zur glücklichen Welt</Case><Case(2)>in der glücklichen Welt</Case><Case(3)> die glückliche Welt</Case></Switch>",0,0,0
-4111,"",0,"",0,0,0,0,0,"",0,0,0
-4112,"",0,"",0,0,0,0,0,"",0,0,0
-4113,"",0,"",0,0,0,0,0,"",0,0,0
-4114,"",0,"",0,0,0,0,0,"",0,0,0
-4115,"",0,"",0,0,0,0,0,"",0,0,0
-4116,"",0,"",0,0,0,0,0,"",0,0,0
-4117,"",0,"",0,0,0,0,0,"",0,0,0
+4111,"Euphoratron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Euphoratron</Case><Case(2)>im Euphoratron</Case><Case(3)>das Euphoratron</Case></Switch>",0,0,0
+4112,"Tor zur Euphorie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tor zur Euphorie</Case><Case(2)>am Tor zur Euphorie</Case><Case(3)>das Tor zur Euphorie</Case></Switch>",0,0,0
+4113,"Erste Arena",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur ersten Arena</Case><Case(2)>in der ersten Arena</Case><Case(3)>die erste Arena</Case></Switch>",0,0,0
+4114,"Zweite Arena",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur zweiten Arena</Case><Case(2)>in der zweiten Arena</Case><Case(3)>die zweite Arena</Case></Switch>",0,0,0
+4115,"Dritte Arena",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur dritten Arena</Case><Case(2)>in der dritten Arena</Case><Case(3)>die dritte Arena</Case></Switch>",0,0,0
+4116,"Vierte Arena",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur vierten Arena</Case><Case(2)>in der vierten Arena</Case><Case(3)>die vierte Arena</Case></Switch>",0,0,0
+4117,"Arena der Euphorie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Arena der Euphorie</Case><Case(2)>in der Arena der Euphorie</Case><Case(3)>die Arena der Euphorie</Case></Switch>",0,0,0
 4118,"Turm von Babil",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Turm von Babil</Case><Case(2)>im Turm von Babil</Case><Case(3)>der Turm von Babil</Case></Switch>",0,0,0
 4119,"Magitek-Frachtroute E",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Magitek-Frachtroute E</Case><Case(2)>auf Magitek-Frachtroute E</Case><Case(3)>Magitek-Frachtroute E</Case></Switch>",0,0,0
 4120,"Unterirdische Sektion",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur unterirdischen Sektion</Case><Case(2)>in der unterirdischen Sektion</Case><Case(3)>die unterirdische Sektion</Case></Switch>",0,0,0

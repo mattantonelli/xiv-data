@@ -19,7 +19,7 @@ int32,uint16,byte,byte,bit&01,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte
 15,3287,1,1,False,14,"ui/icon/008000/008015.tex",14,"Wasserschlange-Sonnenschirm",4,"Wasserschlange Ronka-Sonnenschirme",2,0,1,0,0
 16,3288,1,1,False,15,"ui/icon/008000/008016.tex",15,"Dalamud-Papierschirm",4,"Dalamud-Papierschirme",2,0,1,0,0
 17,3426,2,0,True,16,"ui/icon/008000/008017.tex",100,"Gefallener-Engel-Flügel",4,"Gefallener-Engel-Flügel",2,0,1,0,0
-18,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
+18,3427,2,0,True,17,"ui/icon/008000/008018.tex",100,"Erzengel-Flügel",4,"Erzengel-Flügel",2,0,1,0,0
 19,3428,3,0,True,18,"ui/icon/008000/008019.tex",101,"Diabolos-Flügel",4,"Diabolos-Flügel",2,0,1,0,0
 20,3429,6,0,True,19,"ui/icon/008000/008020.tex",102,"Pixie-Flügel",4,"Pixie-Flügel",2,0,1,0,0
 21,0,0,0,False,0,,0,"",0,"",0,0,0,0,0
