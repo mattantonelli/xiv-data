@@ -21,12 +21,12 @@ Bei fehlendem Unterbefehl wird das Menü für die Bereitschaftsanfrage (Rückble
 8,3,1,17,0,0,"/quickchat","/qchat","/schnellchat, /schat, /quickchat, /qchat
 VERWENDUNG:
 /schnellchat [Chat-Nachricht]
-→ Sendet eine schnelle Chat-Nachricht. Kann nur während „The Feast“ benutzt werden.
+→ Sendet eine schnelle Chat-Nachricht. Kann nur während „Crystalline Conflict“ benutzt werden.
 
 Beispiel:
-/schnellchat angreifen
-Sendet die Nachricht „angreifen“ an die Teammitglieder.
-/schnellchat <t> angreifen
+/schnellchat Angriff
+Sendet die Nachricht „Angriff“ an die Teammitglieder.
+/schnellchat <t> Angriff
 Bittet Teammitglieder, das aktuell anvisierte Ziel anzugreifen.","/schnellchat","/schat","<reply>",0
 9,4,3,2,18,2,"/bluespellbook","","/blaumagie, /blaum, /bluespellbook
 VERWENDUNG:
@@ -223,7 +223,7 @@ Einstellungen für andere Charaktere.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>freund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Einstellungen für Freunde.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Einstellungen für PvP-Gegner in „The Feast“.
+Einstellungen für PvP-Gegner in „Crystalline Conflict“.
 
 >>Typen (1-4)
 1: Voller Name
@@ -252,7 +252,7 @@ Einstellungen für andere Charaktere.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>freund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Einstellungen für Freunde.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Einstellungen für PvP-Gegner in „The Feast“.
+Einstellungen für PvP-Gegner in „Crystalline Conflict“.
 
 >>Typen (1-4)
 1: Immer anzeigen
@@ -334,6 +334,10 @@ Wenn der gewünschte Platz belegt ist, wird automatisch ein freier Platz gewähl
 Lässt dich auf dem Reittier von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied 2 aufsitzen, und zwar an Platznummer 1.","/mitfahren","","head",0
 36,1,0,0,0,0,"/patchnote","","/patchdetails, /patchnote
 → Öffnet die offizielle Lodestone-Seite mit den Patchdetails in deinem Browser.","/patchdetails","","pack",1000
+37,1,0,0,0,0,"/portrait","","/portrait
+→ Öffnet das Portrait-Menü.","","","pack",0
+38,1,0,0,0,0,"/adventurerplate","/myplate","/abenteurerpass, /meinpass, /adventurerplate, /myplate
+→ Öffnet deinen Abenteurerpass.","/abenteurerpass","/meinpass","pack",0
 91,1,0,0,0,0,"/pvpteam","/pt","/pvpteam, /pt
 VERWENDUNG:
 pvpteam [Nachr.]
@@ -1302,7 +1306,7 @@ VERWENDUNG:
 /hud ""[Element]"" [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 >>HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kampfgeist, Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), The Feast: Mitspielerinfo (feastmit), The Feast: Gegnerinfo (feastgeg)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kampfgeist, Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld)
 >>Unterbefehle:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element anzeigen
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element ausblenden
@@ -2304,7 +2308,7 @@ Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text
 534,2,1,2,0,0,"/wink","/rightwink","/zwinkerrechts, /rightwink
 VERWENDUNG:
 /zwinkerrechts [Unterbefehl]
-→ Du zwinkerst jemandem mit dem rechten Auge zu.
+→ Du zwinkerst jemandem zu.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.
 Achtung, der Befehl /wink aus der englischen Version ist nicht für das Zwinkern verwendbar, da er bereits mit „Winken“ belegt ist.","/zwinkerrechts","/wink","pdamage",0
@@ -2490,7 +2494,7 @@ Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text
 564,2,1,2,0,0,"/beam","","/zufrieden, /beam
 VERWENDUNG:
 /zufrieden [Unterbefehl]
-→ Du strahlst vollste Zufriedenheit aus.
+→ Du lässt keine Zweifel daran, dass du mit der Welt im Reinen bist.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus.
 Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/zufrieden","","pdamage",0
@@ -2616,7 +2620,7 @@ Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text
 585,2,1,2,0,0,"/leftwink","","/zwinkerlinks, /leftwink
 VERWENDUNG:
 /zwinkerlinks [Unterbefehl]
-→ Du zwinkerst jemandem mit dem linken Auge zu.
+→ Du zwinkerst jemandem zu.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/zwinkerlinks","","pdamage",0
 586,2,1,2,0,0,"/getfantasy","","/funkyfantasy, /funky
@@ -2895,3 +2899,57 @@ VERWENDUNG:
 → Du isst ein Stück Pizza.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/pizzaessen","/pizza","pdamage",0
+634,2,1,2,0,0,"/clutchhead","","/kopffassen, /clutchhead
+VERWENDUNG:
+/kopffassen [Unterbefehl]
+→ Du fasst dir an den Kopf.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/kopffassen","","pdamage",0
+636,2,1,2,0,0,"/eategg","/egg","/eiessen, /ei, /eategg, /egg
+VERWENDUNG:
+/eiessen [Unterbefehl]
+→ Du isst ein gekochtes Ei.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/eiessen","/ei","pdamage",0
+637,2,1,2,0,0,"/content","","/glückselig, /content
+VERWENDUNG:
+/glückselig [Unterbefehl]
+→ Du machst ein glückseliges Gesicht.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/glückselig","","pdamage",0
+638,2,1,2,0,0,"/sheathe","","/wegstecken, /sheathe
+VERWENDUNG:
+/wegstecken [Unterbefehl]
+→ Du steckst deine Waffe weg.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/wegstecken","","pdamage",0
+639,2,1,2,0,0,"/draw","","/ziehen, /draw
+VERWENDUNG:
+/ziehen [Unterbefehl]
+→ Du ziehst deine Waffe.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/ziehen","","pdamage",0
+640,2,1,2,0,0,"/tea","","/tee, /tea
+VERWENDUNG:
+/tee [Unterbefehl]
+→ Du trinkst eine Tasse Schwarztee.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/tee","","pdamage",0
+641,2,1,2,0,0,"/determined","","/entschlossen, /determined
+VERWENDUNG:
+/entschlossen [Unterbefehl]
+→ Du bringst deine Ent<SoftHyphen/>schlos<SoftHyphen/>sen<SoftHyphen/>heit zum Ausdruck.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/entschlossen","","pdamage",0
+642,2,1,2,0,0,"/showright","","/rechtszeigen, /showright
+VERWENDUNG:
+/rechtszeigen [Unterbefehl]
+→ Du zeigst nach rechts.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/rechtszeigen","","pdamage",0
+643,2,1,2,0,0,"/showleft","","/linkszeigen, /showleft
+VERWENDUNG:
+/linkszeigen [Unterbefehl]
+→ Du zeigst nach links.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/linkszeigen","","pdamage",0

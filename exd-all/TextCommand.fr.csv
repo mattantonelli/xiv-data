@@ -23,9 +23,9 @@ Fait pivoter le plateau Magia dans le sens inverse des aiguilles d'une montre.
 Ouvre le menu de la linkshell inter-Monde.","/lsimcom","","on",0
 8,3,1,17,0,0,"/quickchat","/qchat","'/expressionfigée, /exfig, /quickchat, /qchat
 Affiche une expression figée.
-* Uniquement dans The Feast.
-Utilisation<Indent/>: /expressionfigée Attaque générale
-Affiche l'expression figée Attaque générale.
+* Uniquement dans Crystalline Conflict.
+Utilisation<Indent/>: /expressionfigée Attaque
+Affiche l'expression figée Attaque.
 /exfig Attaque<Indent/>: cible <t>
 Affiche l'expression figée Attaque<Indent/>: cible en ajoutant le nom de l'ennemi ciblé.","/expressionfigée","/exfig","<reply>",0
 9,4,3,2,18,2,"/bluespellbook","","/grimoiremagiebleue, /gmagiebleue, /bluespellbook
@@ -216,7 +216,7 @@ Change le mode d'affichage des plaques de noms pour la catégorie de joueur spé
  alliance<Indent/>: joueurs membres de son alliance
  autres<Indent/>: joueurs hors catégorie
  amis<Indent/>: joueurs amis
- feast<Indent/>: joueurs ennemis dans The Feast
+ feast<Indent/>: joueurs ennemis dans Crystalline Conflict
 
 >> Modes d'affichage<Indent/>:
  1<Indent/>: nom complet 2<Indent/>: nom de famille abrégé 3<Indent/>: prénom abrégé 4<Indent/>: initiales
@@ -225,8 +225,8 @@ Change le mode d'affichage des plaques de noms pour la catégorie de joueur spé
 /typedeplaquedenom tous 4
 Affiche seulement les initiales sur les plaques de nom de tous les joueurs.","/typedeplaquedenom","/typeplaq","head",0
 28,3,1,2,0,0,"/nameplatedisp","","/affichageplaquedenom, /affplaq
-Utilisation<Indent/>: /affichageplaquedenom [cible] [mode d'affichage]
-Modifie quand les plaques de noms s'affichent pour la catégorie de joueur spécifiée.
+Utilisation<Indent/>: /affichageplaquedenom [catégorie] [mode d'affichage]
+Change le mode d'affichage des plaques de noms pour la catégorie de joueur spécifiée.
 
 >> Catégories<Indent/>:
  tous <Indent/>: tous les joueurs
@@ -235,7 +235,7 @@ Modifie quand les plaques de noms s'affichent pour la catégorie de joueur spéc
  alliance<Indent/>: joueurs membres de son alliance
  autres<Indent/>: joueurs hors catégorie
  amis<Indent/>: joueurs amis
- feast<Indent/>: joueurs ennemis dans The Feast
+ feast<Indent/>: joueurs ennemis dans Crystalline Conflict
 
 >> Modes d'affichage<Indent/>:
  1<Indent/>: toujours
@@ -313,6 +313,10 @@ Si la place spécifiée est déjà prise, tente de s'asseoir dans une autre. Si 
 S'assoie dans la première place de la monture du personnage occupant la deuxième position dans la liste des équipiers.","/monteràplusieurs","/montplus","head",0
 36,1,0,0,0,0,"/patchnote","","/notesdemiseàjour, /notemaj, /patchnote
 Ouvre la page des archives des notes de mise à jour sur le site officiel grâce à votre navigateur internet.","/notesdemiseàjour","/notemaj","pack",1000
+37,1,0,0,0,0,"/portrait","","/portrait
+Ouvre la fenêtre des portraits.","/portrait","","pack",0
+38,1,0,0,0,0,"/adventurerplate","/myplate","/cartepersonnage, /cartep, /adventurerplate, /myplate
+Affiche la carte de personnage.","/cartepersonnage","/cartep","pack",0
 91,1,0,0,0,0,"/pvpteam","/pt","/équipejcj, /éj, /pvpteam, /pt
 Utilisation<Indent/>: /équipejcj [message]
 Affiche un message visible par tous les joueurs appartenant à la même équipe JcJ.
@@ -962,13 +966,13 @@ Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol""
   Utilise l'action Shukuchi sur la cible.
 /action ""Shukuchi"" sansciblesol
   Utilise l'action Shukuchi directement là où se trouve le curseur.","/act","","head",0
-252,2,1,2,0,0,"/battlemode","/bm","/dégainer, /mcombat, /battlemode, /bm
-Utilisation<Indent/>: /dégainer [sous-commande]
+252,2,1,2,0,0,"/battlemode","/bm","/modecombat, /mcombat, /battlemode, /bm
+Utilisation<Indent/>: /modecombat [sous-commande]
 Alterne entre le mode passif et le mode actif.
 >> Sous-commandes<Indent/>:
 activé (on)        Passe en mode actif.
 désactivé (off)   Passe en mode passif.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/dégainer","/mcombat","head",0
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/modecombat","/mcombat","head",0
 253,2,0,0,0,0,"/target","/ta","/cibler, /cible, /target, /ta
 Utilisation<Indent/>: /cibler [argument de ciblage]
 Cible le personnage spécifié par l'argument.
@@ -1253,8 +1257,6 @@ Le Front<Indent/>: jauge de combat (JaugeCombat)
 Ailes rivales - liste d'alliance<Indent/>: ARalliance (RivalWings:Alliance)
 Ailes rivales - gare<Indent/>: ARgare (RivalWings:Station)
 Ailes rivales - mercenaire gobelin<Indent/>: ARmercenaire (RivalWings:Mercenary)
-The Feast<Indent/>: alliés (TheFeast:AllyInfo)
-The Feast<Indent/>: adversaires (TheFeast:EnemyInfo)
 >> Sous-commandes<Indent/>:
 activé (on)        Affiche le composant spécifié.
 désactivé (off)   Cache le composant spécifié.
@@ -2745,3 +2747,57 @@ Mange une tranche de pizza.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunepizza","/mangpizza","pdamage",0
+634,2,1,2,0,0,"/clutchhead","","/setenirlatête, /tenirtête, /clutchhead
+Utilisation<Indent/>: /setenirlatête [sous-commande]
+Se tient la tête en se contorsionnant de douleur.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/setenirlatête","/tenirtête","pdamage",0
+636,2,1,2,0,0,"/eategg","/egg","/mangerunoeuf, /mangoeuf, /eategg, /egg
+Utilisation<Indent/>: /mangerunoeuf [sous-commande]
+Mange un œuf.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunoeuf","/mangoeuf","pdamage",0
+637,2,1,2,0,0,"/content","","/content
+Utilisation<Indent/>: /content [sous-commande]
+Affiche un air content.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/content","","pdamage",0
+638,2,1,2,0,0,"/sheathe","","/rengainer, /sheathe
+Utilisation<Indent/>: /rengainer [sous-commande]
+Rengaine la ou les armes.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/rengainer","","pdamage",0
+639,2,1,2,0,0,"/draw","","/dégainer, /draw
+Utilisation<Indent/>: /dégainer [sous-commande]
+Dégaine la ou les armes.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dégainer","","pdamage",0
+640,2,1,2,0,0,"/tea","","/thé, /tea
+Utilisation<Indent/>: /thé [sous-commande]
+Boit une tasse de thé.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/thé","","pdamage",0
+641,2,1,2,0,0,"/determined","","/détermination, /determined
+Utilisation<Indent/>: /détermination [sous-commande]
+Frappe dans sa main pour montrer sa détermination.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/détermination","","pdamage",0
+642,2,1,2,0,0,"/showright","","/montrerdroite, /montred, /showright
+Utilisation<Indent/>: /montrerdroite [sous-commande]
+Exhibe ce qui se trouve à sa droite.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/montrerdroite","/montred","pdamage",0
+643,2,1,2,0,0,"/showleft","","/montrergauche, /montreg, /showleft
+Utilisation<Indent/>: /montrergauche [sous-commande]
+Exhibe ce qui se trouve à sa gauche.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/montrergauche","/montreg","pdamage",0

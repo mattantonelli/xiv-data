@@ -87,5 +87,13 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 83,"set of barding of divine Light",0,"sets of barding of divine Light",0,0,1,0,0,"Barding of Divine Light",65614,65614,65614,"None","ui/icon/058000/058750.tex","ui/icon/058000/058752.tex","ui/icon/058000/058751.tex",152
 84,"set of postmoogle barding",0,"sets of postmoogle barding",0,0,1,0,0,"Postmoogle Barding",65615,65615,65615,"None","ui/icon/058000/058753.tex","ui/icon/058000/058755.tex","ui/icon/058000/058754.tex",107
 85,"set of Thavnairian barding",0,"sets of Thavnairian barding",0,0,1,0,0,"Thavnairian Barding",65616,65616,65616,"None","ui/icon/058000/058756.tex","ui/icon/058000/058758.tex","ui/icon/058000/058757.tex",73
-86,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
-87,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+86,"set of bluefeather barding",0,"sets of bluefeather barding",0,0,1,0,0,"Bluefeather Barding",65617,65617,65617,"None","ui/icon/058000/058759.tex","ui/icon/058000/058761.tex","ui/icon/058000/058760.tex",153
+87,"set of wolf barding",0,"sets of wolf barding",0,0,1,0,0,"Wolf Barding",65618,65618,65618,"None","ui/icon/058000/058762.tex","ui/icon/058000/058764.tex","ui/icon/058000/058763.tex",74
+88,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+89,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+90,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+91,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+92,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+93,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+94,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+95,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

@@ -596,7 +596,7 @@ int32,str,str,bit&01,uint16
 592,"Diener der Königin","Dienerin der Königin",True,1658
 593,"am Horizont des Krieges","am Horizont des Krieges",False,1659
 594,"am Horizont der Magie","am Horizont der Magie",False,1660
-595,"am Horizont der Handwerks","am Horizont der Handwerks",False,1661
+595,"am Horizont des Handwerks","am Horizont des Handwerks",False,1661
 596,"am Horizont des Landes","am Horizont des Landes",False,1662
 597,"Magus-Bändiger","Magus-Bändigerin",True,1663
 598,"Mondläufer","Mondläuferin",True,1664
@@ -624,3 +624,25 @@ int32,str,str,bit&01,uint16
 620,"der euphorische Glücksritter","die euphorische Glücksritterin",False,1686
 621,"Lunarer Krösus","Lunarer Krösus",True,1687
 622,"Meister der schicksalhaften Begegnungen","Meisterin der schicksalhaften Begegnungen",True,1688
+623,"der Schlichter","die Schlichterin",False,1689
+624,"Bronzeträger","Bronzeträgerin",True,1690
+625,"Silberträger","Silberträgerin",True,1691
+626,"Goldträger","Goldträgerin",True,1692
+627,"Platinträger","Platinträgerin",True,1693
+628,"Diamantträger","Diamantträgerin",True,1694
+629,"Kristallträger","Kristallträgerin",True,1695
+630,"vom finalen Konflikt","vom finalen Konflikt",False,1696
+631,"vom endlosen Konflikt","vom endlosen Konflikt",False,1697
+632,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1698
+633,"","",False,0
+634,"","",False,0
+635,"","",False,0
+636,"","",False,0
+637,"Neu entdeckter Abenteurer","Neu entdeckte Abenteurerin",True,1703
+638,"Herr seiner Domäne","Herrin ihrer Domäne",True,1704
+639,"Makai-Samurai","Makai-Samurai",True,1705
+640,"Makai-Rotmagier","Makai-Rotmagierin",True,1706
+641,"Makai-Revolver<SoftHyphen/>klinge","Makai-Revolver<SoftHyphen/>klinge",True,1707
+642,"Makai-Tänzer","Makai-Tänzerin",True,1708
+643,"Makai-Schnitter","Makai-Schnitterin",True,1709
+644,"Makai-Weiser","Makai-Weise",True,1710

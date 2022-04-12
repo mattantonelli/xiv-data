@@ -2590,7 +2590,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2562,"Tauschhaus der Wunder",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tauschhaus der Wunder</Case><Case(2)>am Tauschhaus der Wunder</Case><Case(3)>das Tauschhaus der Wunder</Case></Switch>",0,0,0
 2563,"Kiste für Verschollenes",0,"",0,0,1,0,0,"",0,0,0
 2564,"Informationen",0,"",0,0,1,0,0,"",0,0,0
-2565,"",0,"",0,0,0,0,0,"",0,0,0
+2565,"Ruheräume",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Ruheräumen</Case><Case(2)>in den Ruheräumen</Case><Case(3)>die Ruheräume</Case></Switch>",0,0,0
 2566,"",0,"",0,0,0,0,0,"",0,0,0
 2567,"",0,"",0,0,0,0,0,"",0,0,0
 2568,"",0,"",0,0,0,0,0,"",0,0,0
@@ -3765,7 +3765,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 3737,"Basisebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Basisebene</Case><Case(2)>in der Basisebene</Case><Case(3)>die Basisebene</Case></Switch>",0,0,0
 3738,"Zentralebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Zentralebene</Case><Case(2)>in der Zentralebene</Case><Case(3)>die Zentralebene</Case></Switch>",0,0,0
 3739,"Primärebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Primärebene</Case><Case(2)>in der Primärebene</Case><Case(3)>die Primärebene</Case></Switch>",0,0,0
-3740,"Labyrinthos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Labyrinthos</Case><Case(2)>in Labyrinthos</Case><Case(3)>Labyrinthos</Case></Switch>",0,0,0
+3740,"Labyrinthos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Labyrinthos</Case><Case(2)>im Labyrinthos</Case><Case(3)>das Labyrinthos</Case></Switch>",0,0,0
 3741,"Thavnair",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Thavnair</Case><Case(2)>in Thavnair</Case><Case(3)>Thavnair</Case></Switch>",0,0,0
 3742,"Kosmos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Kosmos</Case><Case(2)>im Kosmos</Case><Case(3)>der Kosmons</Case></Switch>",0,0,7
 3743,"Unzersplitterte Welt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die unzersplitterte Welt</Case><Case(2)>in der unzersplitterten Welt</Case><Case(3)>die unzersplitterte Welt</Case></Switch>",0,0,9
@@ -3782,7 +3782,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 3754,"Bekko (Nordost)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bekko (Nordost)</Case><Case(2)>auf Bekko (Nordost)</Case><Case(3)>Bekko (Nordost)</Case></Switch>",0,1,0
 3755,"Grenzinsel (Ost)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Grenzinsel (Ost</Case><Case(2)>auf der Grenzinsel (Ost</Case><Case(3)>die Grenzinsel (Ost</Case></Switch>",0,1,0
 3756,"Onokoro (Nordwest)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Onokoro (Nordwest)</Case><Case(2)>auf Onokoro (Nordwest)</Case><Case(3)>Onokoro (Nordwest)</Case></Switch>",0,1,0
-3757,"Bekko (Ost)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bekko (Ost</Case><Case(2)>auf Bekko (Ost</Case><Case(3)>Bekko (Ost</Case></Switch>",0,1,0
+3757,"",0,"",0,0,0,0,0,"",0,0,0
 3758,"Seldsee (Nordost)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Seldsee (Nordost)</Case><Case(2)>am Seldsee (Nordost)</Case><Case(3)>Seldsee (Nordost)</Case></Switch>",0,1,0
 3759,"Ktisis Hyperboreia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Ktisis Hyperboreia</Case><Case(2)>im Ktisis Hyperboreia</Case><Case(3)>das Ktisis Hyperboreia</Case></Switch>",0,0,0
 3760,"Kontinentalebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Kontinentalebene</Case><Case(2)>auf der Kontinentalebene</Case><Case(3)>die Kontinentalebene</Case></Switch>",0,0,0
@@ -4055,11 +4055,11 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4027,"Jnanamandapa",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Jnanamandapa</Case><Case(2)>in Jnanamandapa</Case><Case(3)>Jnanamandapa</Case></Switch>",0,1369,0
 4028,"Aitiaskop",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Aitiaskop</Case><Case(2)>im Aitiaskop</Case><Case(3)>das Aitiaskop</Case></Switch>",0,0,0
 4029,"Portal des Vergessens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Portal des Vergessens</Case><Case(2)>am Portal des Vergessens</Case><Case(3)>das Portal des Vergessens</Case></Switch>",0,1545,0
-4030,"",0,"",0,0,1,0,0,"",0,0,0
-4031,"",0,"",0,0,1,0,0,"",0,0,0
-4032,"",0,"",0,0,1,0,0,"",0,0,0
-4033,"",0,"",0,0,1,0,0,"",0,0,0
-4034,"",0,"",0,0,1,0,0,"",0,0,0
+4030,"Svarna",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Svarna</Case><Case(2)>in Svarna</Case><Case(3)>Svarna</Case></Switch>",0,0,0
+4031,"Omphalos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Omphalos</Case><Case(2)>im Omphalos</Case><Case(3)>Omphalos</Case></Switch>",0,0,0
+4032,"Porta Decumana",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Porta Decumana</Case><Case(2)>an der Porta Decumana</Case><Case(3)>die Porta Decumana</Case></Switch>",0,0,0
+4033,"Pforten des Pandæmoniums",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Pforten des Pandæmoniums</Case><Case(2)>an den Pforten des Pandæmoniums</Case><Case(3)>die Pforten des Pandæmoniums</Case></Switch>",0,0,0
+4034,"Verbotener Flügel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Verbotenen Flügel</Case><Case(2)>im Verbotenen Flügel</Case><Case(3)>der Verbotene Flügel</Case></Switch>",0,0,0
 4035,"",0,"",0,0,1,0,0,"",0,0,0
 4036,"",0,"",0,0,1,0,0,"",0,0,0
 4037,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4115,16 +4115,16 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4087,"",0,"",0,0,1,0,0,"",0,0,0
 4088,"",0,"",0,0,1,0,0,"",0,0,0
 4089,"",0,"",0,0,1,0,0,"",0,0,0
-4090,"",0,"",0,0,1,0,0,"",0,0,0
-4091,"",0,"",0,0,1,0,0,"",0,0,0
-4092,"",0,"",0,0,1,0,0,"",0,0,0
+4090,"Die Palästra",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Palästra</Case><Case(2)>in der Palästra</Case><Case(3)>die Palästra</Case></Switch>",0,0,0
+4091,"Das Herz des Vulkans",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz des Vulkans</Case><Case(2)>im Herz des Vulkans</Case><Case(3)>das Herz des Vulkans</Case></Switch>",0,0,0
+4092,"Wolke Sieben",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wolke Sieben</Case><Case(2)>auf Wolke Sieben</Case><Case(3)>Wolke Sieben</Case></Switch>",0,0,0
 4093,"",0,"",0,0,1,0,0,"",0,0,0
 4094,"",0,"",0,0,1,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
 4097,"",0,"",0,0,1,0,0,"",0,0,0
-4098,"",0,"",0,0,1,0,0,"",0,0,0
-4099,"",0,"",0,0,1,0,0,"",0,0,0
+4098,"",0,"",0,0,0,0,0,"",0,0,0
+4099,"",0,"",0,0,0,0,0,"",0,0,0
 4100,"Das Sternengrab",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sternengrab</Case><Case(2)>im Sternengrab</Case><Case(3)>das Sternengrab</Case></Switch>",0,0,0
 4101,"Ostrakon Exi",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ostrakon Exi</Case><Case(2)>im Ostrakon Exi</Case><Case(3)>das Ostrakon Exi</Case></Switch>",0,0,0
 4102,"Ostrakon Okto",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ostrakon Okto</Case><Case(2)>im Ostrakon Okto</Case><Case(3)>das Ostrakon Okto</Case></Switch>",0,0,0
@@ -4179,20 +4179,29 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4151,"[Erweiterung] Tor des Heldenmuts",0,"",0,0,1,0,0,"",0,0,0
 4152,"[Erweiterung] Dangoulins Hingabe",0,"",0,0,1,0,0,"",0,0,0
 4153,"[Erweiterung] Neuer Drachen<SoftHyphen/>korridor",0,"",0,0,1,0,0,"",0,0,0
-4154,"",0,"",0,0,0,0,0,"",0,0,0
-4155,"",0,"",0,0,0,0,0,"",0,0,0
-4156,"",0,"",0,0,0,0,0,"",0,0,0
-4157,"",0,"",0,0,0,0,0,"",0,0,0
-4158,"",0,"",0,0,0,0,0,"",0,0,0
-4159,"",0,"",0,0,0,0,0,"",0,0,0
-4160,"",0,"",0,0,0,0,0,"",0,0,0
-4161,"",0,"",0,0,0,0,0,"",0,0,0
-4162,"",0,"",0,0,0,0,0,"",0,0,0
-4163,"",0,"",0,0,0,0,0,"",0,0,0
-4164,"",0,"",0,0,0,0,0,"",0,0,0
-4165,"",0,"",0,0,0,0,0,"",0,0,0
-4166,"",0,"",0,0,0,0,0,"",0,0,0
-4167,"",0,"",0,0,0,0,0,"",0,0,0
-4168,"",0,"",0,0,0,0,0,"",0,0,0
-4169,"",0,"",0,0,0,0,0,"",0,0,0
-4170,"",0,"",0,0,0,0,0,"",0,0,0
+4154,"Aldazaals Vermächtnis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Alzadaals Vermächtnis</Case><Case(2)>in Alzadaals Vermächtnis</Case><Case(3)>Alzadaals Vermächtnis</Case></Switch>",0,0,0
+4155,"Bhaflau-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Bhaflau-Ruinen</Case><Case(2)>in die Bhaflau-Ruinen</Case><Case(3)>die Bhaflau-Ruinen</Case></Switch>",0,0,0
+4156,"Arrapago-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Arrapago-Ruinen</Case><Case(2)>in die Arrapago-Ruinen</Case><Case(3)>die Arrapago-Ruinen</Case></Switch>",0,0,0
+4157,"Zhayolm-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Zhayolm-Ruinen</Case><Case(2)>in die Zhayolm-Ruinen</Case><Case(3)>die Zhayolm-Ruinen</Case></Switch>",0,0,0
+4158,"Versunkene Pforte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Versunkenen Pforte</Case><Case(2)>an der Versunkenen Pforte</Case><Case(3)>die Versunkene Pforte</Case></Switch>",0,0,0
+4159,"Schwelle zum Reichtum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Schwelle zum Reichtum</Case><Case(2)>an der Schwelle zum Reichtum</Case><Case(3)>die Schwelle zum Reichtum</Case></Switch>",0,0,0
+4160,"Webers Wehr",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Webers Wehr</Case><Case(2)>in Webers Wehr</Case><Case(3)>Webers Wehr</Case></Switch>",0,0,0
+4161,"Bhaflau-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Bhaflau-Ruinen</Case><Case(2)>in die Bhaflau-Ruinen</Case><Case(3)>die Bhaflau-Ruinen</Case></Switch>",0,0,0
+4162,"Arrapago-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Arrapago-Ruinen</Case><Case(2)>in die Arrapago-Ruinen</Case><Case(3)>die Arrapago-Ruinen</Case></Switch>",0,0,0
+4163,"Zhayolm-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Zhayolm-Ruinen</Case><Case(2)>in die Zhayolm-Ruinen</Case><Case(3)>die Zhayolm-Ruinen</Case></Switch>",0,0,0
+4164,"●玉座の間",0,"",0,0,1,0,0,"",0,0,0
+4165,"●財宝の間",0,"",0,0,1,0,0,"",0,0,0
+4166,"Hort des Alzadaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hort des Alzadaal</Case><Case(2)>im Hort des Alzadaal</Case><Case(3)>der Hort des Alzadaal</Case></Switch>",0,0,0
+4167,"Aglaia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Aglaia</Case><Case(2)>in Aglaia</Case><Case(3)>Aglaia</Case></Switch>",0,0,0
+4168,"Donnerhimmel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Donnerhimmel</Case><Case(2)>im Donnerhimmel</Case><Case(3)>Donnerhimmel</Case></Switch>",0,0,0
+4169,"Flammenhimmel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Flammenhimmel</Case><Case(2)>im Flammenhimmel</Case><Case(3)>Flammenhimmel</Case></Switch>",0,0,0
+4170,"Schrein der Zwei",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein der Zwei</Case><Case(2)>im Schrein der Zwei</Case><Case(3)>der Schrein der Zwei</Case></Switch>",0,0,0
+4171,"Donnerhimmel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Donnerhimmel</Case><Case(2)>im Donnerhimmel</Case><Case(3)>Donnerhimmel</Case></Switch>",0,0,0
+4172,"Flammenhimmel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Flammenhimmel</Case><Case(2)>im Flammenhimmel</Case><Case(3)>Flammenhimmel</Case></Switch>",0,0,0
+4173,"Schrein des Handwerks",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein des Handwerks</Case><Case(2)>im Schrein des Handwerks</Case><Case(3)>der Schrein des Handwerks</Case></Switch>",0,0,0
+4174,"Pfad der Führung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Führung</Case><Case(2)>auf dem Pfad der Führung</Case><Case(3)>der Pfad der Führung</Case></Switch>",0,0,0
+4175,"Schrein des Kometen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein des Kometen</Case><Case(2)>im Schrein des Kometen</Case><Case(3)>der Schrein des Kometen</Case></Switch>",0,0,0
+4176,"Stadt der Herrlichkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein der Herrlichkeit</Case><Case(2)>im Schrein der Herrlichkeit</Case><Case(3)>der Schrein der Herrlichkeit</Case></Switch>",0,0,0
+4177,"Schrein des Urteils",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein des Urteils</Case><Case(2)>im Schrein des Urteils</Case><Case(3)>der Schrein des Urteils</Case></Switch>",0,0,0
+4178,"Schrein der Zwei",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein der Zwei</Case><Case(2)>im Schrein der Zwei</Case><Case(3)>der Schrein der Zwei</Case></Switch>",0,0,0
+4179,"",0,"",0,0,0,0,0,"",0,0,0

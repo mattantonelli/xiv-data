@@ -460,7 +460,7 @@ Arbre gardien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le breuil de l'O
 454,"Laboratoire premier",0,"Laboratoire premier",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le laboratoire premier</Case><Case(2)>au laboratoire premier</Case><Case(3)>du laboratoire premier</Case></Switch>",0,0,0
 455,"Atelier magitek",0,"Atelier magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'atelier magitek</Case><Case(2)>à l'atelier magitek</Case><Case(3)>de l'atelier magitek</Case></Switch>",0,0,0
 456,"Ascenseur magitek",0,"Ascenseur magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'ascenseur magitek</Case><Case(2)>à l'ascenseur magitek</Case><Case(3)>de l'ascenseur magitek</Case></Switch>",0,0,0
-457,"Porta decumana",0,"Porta decumana",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la porta decumana</Case><Case(2)>à la porta decumana</Case><Case(3)>de la porta decumana</Case></Switch>",0,0,0
+457,"Porta Decumana",0,"Porta decumana",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Porta Decumana</Case><Case(2)>à Porta Decumana</Case><Case(3)>de Porta Decumana</Case></Switch>",0,0,0
 458,"Salle d'identification de l'armement magitek",0,"Salle d'identification de l'armement magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle d'identification de l'armement magitek</Case><Case(2)>à la salle d'identification de l'armement magitek</Case><Case(3)>de la salle d'identification de l'armement magitek</Case></Switch>",0,0,0
 459,"Hurlœil (abord)",0,"Hurlœil (abord)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Hurlœil =abord</Case><Case(2)>à Hurlœil =abord</Case><Case(3)>de Hurlœil =abord</Case></Switch>",0,0,0
 460,"Quai du chantier naval de Moraby",0,"Quai du chantier naval de Moraby",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le quai du chantier naval de Moraby</Case><Case(2)>au quai du chantier naval de Moraby</Case><Case(3)>du quai du chantier naval de Moraby</Case></Switch>",0,0,0
@@ -480,7 +480,7 @@ Arbre gardien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le breuil de l'O
 474,"Quartier des soldats",0,"Quartier des soldats",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le quartier des soldats</Case><Case(2)>au quartier des soldats</Case><Case(3)>du quartier des soldats</Case></Switch>",0,0,0
 475,"Quai de l'appontement du Miroir",0,"Quai de l'appontement du Miroir",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le quai de l'appontement du Miroir</Case><Case(2)>au quai de l'appontement du Miroir</Case><Case(3)>du quai de l'appontement du Miroir</Case></Switch>",0,0,0
 476,"Quai de Lavandière",0,"Quai de Lavandière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le quai de Lavandière</Case><Case(2)>au quai de Lavandière</Case><Case(3)>du quai de Lavandière</Case></Switch>",0,0,0
-477,"Porta decumana",0,"Porta decumana",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la porta decumana</Case><Case(2)>à la porta decumana</Case><Case(3)>de la porta decumana</Case></Switch>",0,0,0
+477,"Porta Decumana",0,"Porta decumana",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Porta Decumana</Case><Case(2)>à Porta Decumana</Case><Case(3)>de Porta Decumana</Case></Switch>",0,0,0
 478,"Dédale antique",0,"Dédale antique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Dédale antique</Case><Case(2)>au Dédale antique</Case><Case(3)>du Dédale antique</Case></Switch>",0,0,0
 479,"Premier niveau du Dédale",0,"Premier niveau du Dédale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le premier niveau du Dédale</Case><Case(2)>au premier niveau du Dédale</Case><Case(3)>du premier niveau du Dédale</Case></Switch>",0,0,0
 480,"Deuxième niveau du Dédale",0,"Deuxième niveau du Dédale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le deuxième niveau du Dédale</Case><Case(2)>au deuxième niveau du Dédale</Case><Case(3)>du deuxième niveau du Dédale</Case></Switch>",0,0,0
@@ -2614,7 +2614,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 2562,"Commise aux objets de classe/job",0,"Commises aux objets de classe/job",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la commise aux objets de classe/job</Case><Case(2)>auprès de la commise aux objets de classe/job</Case><Case(3)>de la commise aux objets de classe/job</Case></Switch>",0,0,0
 2563,"Malle du rappel",0,"Malle du rappel",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la malle du rappel</Case><Case(2)>près de la malle du rappel</Case><Case(3)>de la malle du rappel</Case></Switch>",0,0,0
 2564,"Guide de la résistance",0,"Guide de la résistance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le guide de la résistance</Case><Case(2)>auprès du guide de la résistance</Case><Case(3)>du guide de la résistance</Case></Switch>",0,0,0
-2565,"",0,"",0,0,0,0,0,"",0,0,0
+2565,"Chambre à coucher",0,"Chambre à coucher",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre à coucher</Case><Case(2)>dans la chambre à coucher</Case><Case(3)>de la chambre à coucher</Case></Switch>",0,0,0
 2566,"",0,"",0,0,0,0,0,"",0,0,0
 2567,"",0,"",0,0,0,0,0,"",0,0,0
 2568,"",0,"",0,0,0,0,0,"",0,0,0
@@ -3806,7 +3806,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 3754,"Nord-est de l'île de Bekko",0,"Nord-est de l'île de Bekko",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord-est de l'île de Bekko</Case><Case(2)>au nord-est de l'île de Bekko</Case><Case(3)>du nord-est de l'île de Bekko</Case></Switch>",0,1,0
 3755,"Est de l'île barrière",0,"Est de l'île barrière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'est de l'île barrière</Case><Case(2)>à l'est de l'île barrière</Case><Case(3)>de l'est de l'île barrière</Case></Switch>",0,1,0
 3756,"Nord-ouest d'Onokoro",0,"Nord-ouest d'Onokoro",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord-ouest d'Onokoro</Case><Case(2)>au nord-ouest d'Onokoro</Case><Case(3)>du nord-ouest d'Onokoro</Case></Switch>",0,1,0
-3757,"Est de l'île de Bekko",0,"Est de l'île de Bekko",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'est de l'île de Bekko</Case><Case(2)>à l'est de l'île de Bekko</Case><Case(3)>de l'est de l'île de Bekko</Case></Switch>",0,1,0
+3757,"",0,"",0,0,0,0,0,"",0,0,0
 3758,"Fond du lac Seld (nord-est)",0,"Fond du lac Seld (nord-est)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac Seld (nord-est)</Case><Case(2)>au fond du lac Seld (nord-est)</Case><Case(3)>du fond du lac Seld (nord-est)</Case></Switch>",0,1,0
 3759,"Hyperborée",0,"Hyperborée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Hyperborée</Case><Case(2)>à l'Hyperborée</Case><Case(3)>de l'Hyperborée</Case></Switch>",0,0,0
 3760,"Étage terrestre",0,"Étage terrestre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'étage terrestre</Case><Case(2)>à l'étage terrestre</Case><Case(3)>de l'étage terrestre</Case></Switch>",0,0,0
@@ -4081,11 +4081,11 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4027,"Jnanamandapa",0,"Jnanamandapa",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Jnanamandapa</Case><Case(2)> à Jnanamandapa</Case><Case(3)>de Jnanamandapa</Case></Switch>",0,1369,0
 4028,"Prisme de l'Aitia",0,"Prisme de l'Aitia",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Prisme de l'Aitia</Case><Case(2)>au Prisme de l'Aitia</Case><Case(3)>du Prisme de l'Aitia</Case></Switch>",0,0,0
 4029,"Portail oublié",0,"Portails oubliés",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le portail oublié</Case><Case(2)>au portail oublié</Case><Case(3)>du portail oublié</Case></Switch>",0,1545,0
-4030,"",0,"",0,0,1,0,0,"",0,0,0
-4031,"",0,"",0,0,1,0,0,"",0,0,0
-4032,"",0,"",0,0,1,0,0,"",0,0,0
-4033,"",0,"",0,0,1,0,0,"",0,0,0
-4034,"",0,"",0,0,1,0,0,"",0,0,0
+4030,"Svarna",0,"Svarna",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Svarna</Case><Case(2)>à Svarna</Case><Case(3)>de Svarna</Case></Switch>",0,0,0
+4031,"Omphalos",0,"Omphalos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Omphalos</Case><Case(2)>à Omphalos</Case><Case(3)>d'Omphalos</Case></Switch>",0,0,0
+4032,"Porta Decumana",0,"Porta decumana",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Porta Decumana</Case><Case(2)>à Porta Decumana</Case><Case(3)>de Porta Decumana</Case></Switch>",0,0,0
+4033,"Limbes du Pandæmonium - Parvis",0,"Limbes du Pandæmonium - Parvis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Limbes du Pandæmonium - Parvis</Case><Case(2)>aux Limbes du Pandæmonium - Parvis</Case><Case(3)>des Limbes du Pandæmonium - Parvis</Case></Switch>",0,0,0
+4034,"Archives interdites du Noumène",0,"Archives interdites du Noumène",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les archives interdites du Noumène</Case><Case(2)>aux archives interdites du Noumène</Case><Case(3)>des archives interdites du Noumène</Case></Switch>",0,0,0
 4035,"",0,"",0,0,1,0,0,"",0,0,0
 4036,"",0,"",0,0,1,0,0,"",0,0,0
 4037,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4141,16 +4141,16 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4087,"",0,"",0,0,1,0,0,"",0,0,0
 4088,"",0,"",0,0,1,0,0,"",0,0,0
 4089,"",0,"",0,0,1,0,0,"",0,0,0
-4090,"",0,"",0,0,1,0,0,"",0,0,0
-4091,"",0,"",0,0,1,0,0,"",0,0,0
-4092,"",0,"",0,0,1,0,0,"",0,0,0
+4090,"Le Palestre",0,"Le Palestre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Palestre</Case><Case(2)>au Palestre</Case><Case(3)>du Palestre</Case></Switch>",0,0,0
+4091,"Le Cœur volcanique",0,"Le Cœur volcanique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cœur volcanique</Case><Case(2)>au Cœur volcanique</Case><Case(3)>du Cœur volcanique</Case></Switch>",0,0,0
+4092,"Le Petit Nuage",0,"Le Petit Nuage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Petit Nuage</Case><Case(2)>au Petit Nuage</Case><Case(3)>du Petit Nuage</Case></Switch>",0,0,0
 4093,"",0,"",0,0,1,0,0,"",0,0,0
 4094,"",0,"",0,0,1,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
 4097,"",0,"",0,0,1,0,0,"",0,0,0
-4098,"",0,"",0,0,1,0,0,"",0,0,0
-4099,"",0,"",0,0,1,0,0,"",0,0,0
+4098,"",0,"",0,0,0,0,0,"",0,0,0
+4099,"",0,"",0,0,0,0,0,"",0,0,0
 4100,"L'Issue aux Impasses",0,"L'Issue aux Impasses",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Issue aux Impasses</Case><Case(2)>dans L'Issue aux Impasses</Case><Case(3)>de L'Issue aux Impasses</Case></Switch>",0,0,0
 4101,"Ostrakon Exi",0,"Ostrakon Exi",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Exi</Case><Case(2)>dans l'Ostrakon Exi</Case><Case(3)>de l'Ostrakon Exi</Case></Switch>",0,0,0
 4102,"Ostrakon Okto",0,"Ostrakon Okto",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Okto</Case><Case(2)>dans l'Ostrakon Okto</Case><Case(3)>de l'Ostrakon Okto</Case></Switch>",0,0,0
@@ -4205,20 +4205,29 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4151,"Porte des Altruistes [Annexe]",0,"Porte des Altruistes [Annexe]",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la porte des Altruistes [Annexe]</Case><Case(2)>à la porte des Altruistes [Annexe]</Case><Case(3)>de la porte des Altruistes [Annexe]</Case></Switch>",0,0,0
 4152,"Mémorial Dangoulin [Annexe]",0,"Mémorial Dangoulin [Annexe]",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le mémorial Dangoulin [Annexe]</Case><Case(2)>au mémorial Dangoulin [Annexe]</Case><Case(3)>du mémorial Dangoulin [Annexe]</Case></Switch>",0,0,0
 4153,"Roquerie du Nouveau Refrain [Annexe]",0,"Roquerie du Nouveau Refrain [Annexe]",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Roquerie du Nouveau Refrain [Annexe]</Case><Case(2)>à la Roquerie du Nouveau Refrain [Annexe]</Case><Case(3)>de la Roquerie du Nouveau Refrain [Annexe]</Case></Switch>",0,0,0
-4154,"",0,"",0,0,0,0,0,"",0,0,0
-4155,"",0,"",0,0,0,0,0,"",0,0,0
-4156,"",0,"",0,0,0,0,0,"",0,0,0
-4157,"",0,"",0,0,0,0,0,"",0,0,0
-4158,"",0,"",0,0,0,0,0,"",0,0,0
-4159,"",0,"",0,0,0,0,0,"",0,0,0
-4160,"",0,"",0,0,0,0,0,"",0,0,0
-4161,"",0,"",0,0,0,0,0,"",0,0,0
-4162,"",0,"",0,0,0,0,0,"",0,0,0
-4163,"",0,"",0,0,0,0,0,"",0,0,0
-4164,"",0,"",0,0,0,0,0,"",0,0,0
-4165,"",0,"",0,0,0,0,0,"",0,0,0
-4166,"",0,"",0,0,0,0,0,"",0,0,0
-4167,"",0,"",0,0,0,0,0,"",0,0,0
-4168,"",0,"",0,0,0,0,0,"",0,0,0
-4169,"",0,"",0,0,0,0,0,"",0,0,0
-4170,"",0,"",0,0,0,0,0,"",0,0,0
+4154,"Legs d'Alzadaal",0,"Legs d'Alzadaal",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le legs d'Alzadaal</Case><Case(2)>au legs d'Alzadaal</Case><Case(3)>du legs d'Alzadaal</Case></Switch>",0,0,0
+4155,"Ruines de Bhaflau",0,"Ruines de Bhaflau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines de Bhaflau</Case><Case(2)>aux ruines de Bhaflau</Case><Case(3)>des ruines de Bhaflau</Case></Switch>",0,0,0
+4156,"Ruines d'Arrapago",0,"Ruines d'Arrapago",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines d'Arrapago</Case><Case(2)>aux ruines d'Arrapago</Case><Case(3)>des ruines d'Arrapago</Case></Switch>",0,0,0
+4157,"Ruines de Zhayolm",0,"Ruines de Zhayolm",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines de Zhayolm</Case><Case(2)>aux ruines de Zhayolm</Case><Case(3)>des ruines de Zhayolm</Case></Switch>",0,0,0
+4158,"Hall dévasté",0,"Hall dévasté",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hall dévasté</Case><Case(2)>au hall dévasté</Case><Case(3)>du hall dévasté</Case></Switch>",0,0,0
+4159,"Chambre de l'Abondance",0,"Chambre de l'Abondance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre de l'Abondance</Case><Case(2)>à la chambre de l'Abondance</Case><Case(3)>de la chambre de l'Abondance</Case></Switch>",0,0,0
+4160,"Chambre scellée du tisserand",0,"Chambre scellée du tisserand",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre scellée du tisserand</Case><Case(2)>à la chambre scellée du tisserand</Case><Case(3)>de la chambre scellée du tisserand</Case></Switch>",0,0,0
+4161,"Ruines de Bhaflau",0,"Ruines de Bhaflau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines de Bhaflau</Case><Case(2)>aux ruines de Bhaflau</Case><Case(3)>des ruines de Bhaflau</Case></Switch>",0,0,0
+4162,"Ruines d'Arrapago",0,"Ruines d'Arrapago",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines d'Arrapago</Case><Case(2)>aux ruines d'Arrapago</Case><Case(3)>des ruines d'Arrapago</Case></Switch>",0,0,0
+4163,"Ruines de Zhayolm",0,"Ruines de Zhayolm",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines de Zhayolm</Case><Case(2)>aux ruines de Zhayolm</Case><Case(3)>des ruines de Zhayolm</Case></Switch>",0,0,0
+4164,"●玉座の間",0,"",0,0,1,0,0,"",0,0,0
+4165,"●財宝の間",0,"",0,0,1,0,0,"",0,0,0
+4166,"Coffre-fort d'Alzadaal III",0,"Coffre-fort d'Alzadaal III",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le coffre-fort d'Alzadaal III</Case><Case(2)>au coffre-fort d'Alzadaal III</Case><Case(3)>du coffre-fort d'Alzadaal III</Case></Switch>",0,0,0
+4167,"Domaine divin - Aglaé",0,"Domaine divin - Aglaé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le domaine divin - Aglaé</Case><Case(2)>au domaine divin - Aglaé</Case><Case(3)>du domaine divin - Aglaé</Case></Switch>",0,0,0
+4168,"Voûte de la foudre",0,"Voûte de la foudre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de la foudre</Case><Case(2)>à la voûte de la foudre</Case><Case(3)>de la voûte de la foudre</Case></Switch>",0,0,0
+4169,"Voûte du feu",0,"Voûte du feu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte du feu</Case><Case(2)>à la voûte du feu</Case><Case(3)>de la voûte du feu</Case></Switch>",0,0,0
+4170,"Palais jumeau",0,"Palais jumeau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Palais jumeau</Case><Case(2)>au Palais jumeau</Case><Case(3)>du Palais jumeau</Case></Switch>",0,0,0
+4171,"Voûte de la foudre",0,"Voûte de la foudre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de la foudre</Case><Case(2)>à la voûte de la foudre</Case><Case(3)>de la voûte de la foudre</Case></Switch>",0,0,0
+4172,"Voûte du feu",0,"Voûte du feu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte du feu</Case><Case(2)>à la voûte du feu</Case><Case(3)>de la voûte du feu</Case></Switch>",0,0,0
+4173,"Gloire de l'ingéniosité",0,"Gloire de l'ingéniosité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Gloire de l'ingéniosité</Case><Case(2)>à la Gloire de l'ingéniosité</Case><Case(3)>de la Gloire de l'ingéniosité</Case></Switch>",0,0,0
+4174,"Corridor céleste",0,"Corridor céleste",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Corridor céleste</Case><Case(2)>au Corridor céleste</Case><Case(3)>du Corridor céleste</Case></Switch>",0,0,0
+4175,"Monument à la destruction",0,"Monument à la destruction",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Monument à la destruction</Case><Case(2)>au Monument à la destruction</Case><Case(3)>du Monument à la destruction</Case></Switch>",0,0,0
+4176,"Cité des splendeurs",0,"Cité des splendeurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Cité des splendeurs</Case><Case(2)>à la Cité des splendeurs</Case><Case(3)>de la Cité des splendeurs</Case></Switch>",0,0,0
+4177,"Cercle de la justice",0,"Cercle de la justice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cercle de la justice</Case><Case(2)>au Cercle de la justice</Case><Case(3)>du Cercle de la justice</Case></Switch>",0,0,0
+4178,"Palais jumeau",0,"Palais jumeau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Palais jumeau</Case><Case(2)>au Palais jumeau</Case><Case(3)>du Palais jumeau</Case></Switch>",0,0,0
+4179,"",0,"",0,0,0,0,0,"",0,0,0

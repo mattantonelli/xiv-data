@@ -623,7 +623,7 @@ In <If(Equal(IntegerParameter(1),0))><If(Equal(IntegerParameter(2),1))>einer Min
 608,"<Highlight>StringParameter(1)</Highlight> ist nicht dein Heimatpunkt.
 Wenn du während des Freibriefs zu deinem momentan registrierten Heimatpunkt zurückkehrst, wird der Freibrief als fehlgeschlagen abgebrochen.
 Trotzdem beginnen? "
-609,"Einsatzort: <Sheet(PlaceName,IntegerParameter(1),0)/>"
+609,"Einsatzort: <Highlight>StringParameter(1)</Highlight>"
 610,"SAMMLER-NOTIZBUCH"
 611,""
 612,"Klasse"
@@ -1219,10 +1219,10 @@ Du erhältst <If(Equal(IntegerParameter(4),0))>zur gleichen Zeit<Else/><Value>In
 1192,"Wechselt zur übergeordneten Karte."
 1193,"Schaltet Text auf der Karte an/aus."
 1194,"Karte durchsichtig/undurchsichtig, wenn Fenster nicht aktiv."
-1195,"Adrenalin"
+1195,"Limitrausch"
 1196,"Weltkarte"
 1197,"Karte nach Esc, <CommandIcon(10)/> oder Hauptmenü geöffnet lassen/schließen."
-1198,"Manufaktur-Freibriefe"
+1198,"Bestimmungsort: <Highlight>StringParameter(1)</Highlight>"
 1199,"Schaltet Icons auf der Karte an/aus."
 1200,"CHATLOG-KONFIGURATION"
 1201,""
@@ -1506,6 +1506,8 @@ Sammlerwert: <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow><Value>In
 1485,"Kategorie"
 1486,"<Highlight>StringParameter(1)</Highlight>"
 1487,"<Highlight>StringParameter(1)</Highlight>"
+1488,"Einstellungen wurden nicht übernommen.
+Änderungen verwerfen?"
 1489,"Als Titel verwenden"
 1490,"Titel verbergen"
 1491,"Errungenschaften öffnen"
@@ -1515,6 +1517,8 @@ Sammlerwert: <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow><Value>In
 1495,"Nach ID"
 1496,"Liste sortieren"
 1497,"<Value>IntegerParameter(1)</Value>-<Value>IntegerParameter(2)</Value>"
+1498,"Speichern"
+1499,"Schließen"
 1500,"ZEREMONIENDETAILS"
 1501,""
 1502,"Stil der Zeremonie"
@@ -2060,9 +2064,11 @@ Mit den Oben-/Unten-Tasten oder <CommandIcon(5)/> lassen sich vergangene Eingabe
 2079,"In derselben Kategorie suchen"
 2080,"Merkliste"
 2081,"Merkliste"
-2082,"Auf Merkliste setzen"
-2083,"Von Merkliste entfernen"
+2082,"Zur Merkliste hinzufügen （<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>）"
+2083,"Von Merkliste löschen （<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 2084,"In diese Liste kannst du bis zu einhundert Gegenstände deines Interesses aufnehmen. Die Liste kann von anderen Spielern nicht eingesehen werden und du kannst sie auch außerhalb deiner Stammwelt nutzen."
+2085,"Noch nicht erhalten/registriert"
+2086,"Auf dieser Seite sind keine nicht erhaltene oder registrierte Gegenstände vorhanden."
 2090,"Um das Zielgebiet „<Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(1),5)/>,0)/>“ zu entlasten, wurde es in mehrere Instanzen gleichen Inhalts aufgeteilt.
 Wähle eine Instanz aus."
 2091,"Keine Präferenz"
@@ -2332,8 +2338,8 @@ Wähle eine Instanz aus."
 Wertmarken in Besitz: <Value>IntegerParameter(2)</Value>"
 2378,"Gegenstände geben oder nehmen"
 2379,"Gil geben oder nehmen"
-2380,"Gegenstände aus dem eigenen Inventar verkaufen"
-2381,"Gegenstände aus dem Gehilfeninventar verkaufen"
+2380,"<If(Equal(IntegerParameter(1),0))><Else/><Gui(63)/></If>Gegenstände aus dem eigenen Inventar verkaufen"
+2381,"<If(Equal(IntegerParameter(1),0))><Else/><Gui(63)/></If>Gegenstände aus dem Gehilfeninventar verkaufen"
 2382,"Transaktionsverlauf ansehen"
 2383,"Gehilfen wegschicken"
 2384,"Laufende Unternehmung einsehen (Abschluss am <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr)"
@@ -2443,6 +2449,7 @@ Trotzdem fortfahren?"
 2495,"<If(GreaterThan(IntegerParameter(2),0))><UIForeground>F2023D</UIForeground><UIGlow>F2023E</UIGlow><Emphasis>Gegen<SoftHyphen/>stands<SoftHyphen/>stufe <Value>IntegerParameter(1)</Value></Emphasis><UIForeground>01</UIForeground><UIGlow>01</UIGlow><Else/>Gegen<SoftHyphen/>stands<SoftHyphen/>stufe <Value>IntegerParameter(1)</Value></If>"
 2496,"HQ-Gegenstand. Wird wie NQ behandelt."
 2497,"Bedingung zum Färben nicht erfüllt"
+2498,"<If(GreaterThan(IntegerParameter(1),0))>(bereits erhalten oder registriert)<Else/>(noch nicht erhalten oder registriert)</If>"
 2500,"INHALTSSUCHE"
 2501,""
 2502,"Stufe <Value>IntegerParameter(1)</Value>"
@@ -2740,6 +2747,7 @@ Trotzdem fortfahren?"
 2825,""
 2826,"Memo bearbeiten"
 2827,"Anschlagbrett bearbeiten"
+2829,"Inhalt:"
 2830,"Folgende Bedingungen sind nicht erfüllt:"
 2831,"Die Sperre wird aufgehoben in:"
 2832,"Inhaltssuche"
@@ -3174,7 +3182,12 @@ wähle denselben Slot nochmals aus. "
 3365,"Währung"
 3366,"Errungenschaftspunkte"
 3367,"Hilfetext anzeigen"
-3368,"Mit jeder erfüllten Errungenschaft sammelst du Punkte, für die Jonathas in Alt-Gridania bei Erreichen von bestimmten Punktzahlen Errungen<SoftHyphen/>schafts<SoftHyphen/>zerti<SoftHyphen/>fikate ausstellt. Tausche diese Zertifikate bei ihm gegen besondere Gegenstände ein."
+3368,"Belohnung entgegennehmen
+Belohnungen für abgeschlossene Errungenschaften können im Reiter „Gegenstände“ entgegengenommen werden.
+
+
+Errungen<SoftHyphen/>schafts<SoftHyphen/>zerti<SoftHyphen/>fikate
+Mit jeder erfüllten Errungenschaft sammelst du Punkte, für die Jonathas in Alt-Gridania bei Erreichen von bestimmten Punktzahlen Errungen<SoftHyphen/>schafts<SoftHyphen/>zerti<SoftHyphen/>fikate ausstellt. Tausche diese Zertifikate bei ihm gegen besondere Gegenstände ein."
 3369,"Kurz vor Abschluss"
 3370,"Aktuelles Areal"
 3371,"Weitere Errungenschaften anzeigen"
@@ -3716,6 +3729,7 @@ Fortschritt: <Value>IntegerParameter(2)</Value> %"
 4108,"Voreingestellte Tastenbelegung"
 4109,"Gegnerische Spieler (PvP)"
 4110,"Controller-Kalibrierung"
+4111,"Funktionen von DualSense / DUALSHOCK 4 aktivieren"
 4112,"<Gui(8)/> Bestätigen / <Gui(9)/> Abbrechen (Japanischer Standard)"
 4113,"<Gui(8)/> Abbrechen / <Gui(9)/> Bestätigen (Globaler Standard)"
 4114,"Empfindlichkeit des Sticks"
@@ -3728,6 +3742,7 @@ Fortschritt: <Value>IntegerParameter(2)</Value> %"
 4121,"Untertitel"
 4122,"Audio"
 4123,"※ Die einzelnen Sprachen können inhaltlich voneinander abweichen."
+4124,"Kompatiblen Controllern steht Vibration und das Abspielen von Tönen zur Verfügung. <Switch(PlayerParameter(78))><Case(1)>(<Gui(63)/> Nur DX11-Version.)</Case><Case(2)></Case><Case(3)>(<Gui(63)/> Nur Windows-Version.)</Case></Switch>"
 4125,"Auflösung der Karte"
 4126,"Lautstärke der Soundeffekte"
 4127,"Eigene"
@@ -3907,6 +3922,10 @@ Speichern mit <Gui(12)/> + <Gui(19)/> "
 4341,"Drück die <Gui(18)/>-Taste. (<Value>IntegerParameter(1)</Value>/24)"
 4342,"Drück die <Gui(16)/>-Taste. (<Value>IntegerParameter(1)</Value>/24)"
 4343,"Drück die <Gui(17)/>-Taste. (<Value>IntegerParameter(1)</Value>/24)"
+4347,"Mit Portrait verknüpfen"
+4348,"Verknüpfung mit Portrait ändern"
+4349,"Verknüpfung mit Portrait aufheben"
+4350,"<Value>IntegerParameter(1)</Value>"
 4351,"Ausrüstung wechseln"
 4352,"Mit der momentanen Ausrüstung überschreiben"
 4353,"Nummer ändern"
@@ -4207,6 +4226,8 @@ Du kannst <If(Equal(IntegerParameter(2),1))>ihn<Else/>sie</If> dann nicht mehr z
 4646,"Staatstaler (absteigend)"
 4647,"Art des Gegenstands"
 4648,"Staatstaler"
+4649,"Der Gegenstand gehört zu mindestens einem Ausrüstungsset.
+Wirklich abliefern?"
 4650,"<Clickable(<SheetDe(Item,2,IntegerParameter(1),1,4,1)/>)/> ins Kostbarkeitenkabinett legen?
 ※ Die emotionale Bindung wird auf 0 % und der Zustand auf 100 % zurückgesetzt, und Färbungen, Wappen und Projektionen werden entfernt."
 4651,"Ja"
@@ -5042,6 +5063,8 @@ bereits abgeschlossen."
 5505,""
 5506,"https://de.finalfantasyxiv.com/lodestone/playguide/?utm_source=game&utm_medium=main_menu&utm_campaign=playguide"
 5507,"https://de.finalfantasyxiv.com/lodestone/playguide/?utm_source=game&utm_medium=main_menu&utm_campaign=playguide"
+5508,"Verlängerung"
+5509,"<38>E8020BFF022C</38> %"
 5510,"The Feast (Übungskampf)"
 5511,"The Feast (gewertet)"
 5512,"The Feast (Gruppe, gewertet)"
@@ -5078,7 +5101,7 @@ bereits abgeschlossen."
 5543,"Lege deine PvP-Kommandos in einem speziellen Kommandomenü ab, das in PvP-Arealen automatisch angezeigt wird."
 5544,"Wähle bis zu 2 ergänzende Kommandos zum Gebrauch in PvP-Arealen."
 5545,"Wähle 3 Eigenschaften zum Gebrauch in PvP-Arealen."
-5546,"Der Schnellchat kann in „The Feast“ benutzt werden, um auf einfache Weise mit anderen Spielern zu kommunizieren."
+5546,"Der Schnellchat kann in „Crystalline Conflict“ benutzt werden, um auf einfache Weise mit anderen Spielern zu kommunizieren."
 5547,"Mehr über PvP"
 5548,"Die PvP-Inhalte von FINAL FANTASY XIV erlauben es Spielern, gegeneinander anzutreten und ihre Fähigkeiten im Kampf zu testen. Es gibt viele verschiedene Spielmodi: von einfachen Mann-gegen-Mann-Duellen zum Spaß bis hin zu großen Schlachten mit bis zu 72 Spielern um einen guten Platz auf den Ranglisten!
 
@@ -5265,6 +5288,16 @@ Trotzdem fortfahren?"
 5756,"Eingestellt"
 5757,"Diese Währung wurde eingestellt. Für eine begrenzte Zeit kannst du sie bei einem NPC in gültige Währung umtauschen."
 5758,"Aufbauscheine"
+5759,"Währungseinstellungen"
+5760,"Währungseinstellungen"
+5761,""
+5762,"Währung, die im HUD angezeigt werden soll"
+5763,"Bestätigen"
+5764,"Abbrechen"
+5765,"Die Änderungen wirklich verwerfen?"
+5766,"Nicht festgelegt"
+5767,"Diese Währung anzeigen"
+5768,"FATE"
 5780,"LAYOUT-ELEMENT"
 5781,""
 5782,"Element"
@@ -5333,6 +5366,8 @@ Trotzdem fortfahren?"
 <Clickable(<SheetDe(ActStr,5,IntegerParameter(4),1,1,1)/>)/><Else/></If>
 
 Fortfahren?"
+5843,"Wenn du dein Aben<SoftHyphen/>teuer<SoftHyphen/>album mit weniger als neun Aufklebern abgibst, erhältst du weder eine zusätzliche Belohnung noch Bonus-Routine. Möchtest du trotzdem fortfahren?"
+5844,"Das Album dennoch abgeben"
 5860,"Anzahl"
 5861,"Anzahl: <Value>IntegerParameter(1)</Value>"
 5862,"Weiter"
@@ -5912,6 +5947,21 @@ Wähle „Bestätigen“, um die Änderungen vorzunehmen."
 6422,""
 6423,"Düngen"
 6424,"<CommandIcon(10)/> Auswahl aufheben"
+6425,"Mit dem Kauf der Unterkunft (Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaft) fortfahren?
+
+※ Der im Voraus geleistete Kaufpreis wird nicht erstattet."
+6426,"Mit dem Umzug in die Unterkunft (Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaft) fortfahren?
+
+※ Dir werden 15<Indent/>% des Mindestwertes deines alten Grundstücks rückerstattet.
+Rückerstattung: <Format(IntegerParameter(1),FF022E)/> Gil"
+6427,"Mit dem Kauf der persönlichen Unterkunft fortfahren?
+
+※ Der im Voraus geleistete Kaufpreis wird nicht erstattet."
+6428,"Mit dem Umzug in die persönliche Unterkunft fortfahren?
+
+※ Dir werden 15<Indent/>% des Mindestwertes deines alten Grundstücks rückerstattet.
+Rückerstattung: <Format(IntegerParameter(1),FF022E)/> Gil"
+6429,"Teilnahme am Losverfahren"
 6430,"<Clickable(<Sheet(ENpcResident,IntegerParameter(1),0)/>)/> einstellen? Der Vertrag wird dabei verbraucht."
 6432,"<Clickable(<Sheet(ENpcResident,IntegerParameter(1),0)/>)/> einstellen."
 6433,"<Clickable(<Sheet(ENpcResident,IntegerParameter(1),0)/>)/> entlassen."
@@ -6224,14 +6274,14 @@ Verbraucht <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>
 6735,"<Sheet(HousingMateAuthority,6,0)/>"
 6736,"<If(GreaterThan(IntegerParameter(1),1))><Format(IntegerParameter(1),FF022E)/> Gil bezahlen und mit der persönlichen Unterkunft umziehen?
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ 30 % des Mindestwertes des alten Grundstücks wurden auf den neuen Kaufpreis angerechnet.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(LessThan(IntegerParameter(1),1))>Mit der persönlichen Unterkunft umziehen?
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ 15 % des Mindestwertes des alten Grundstücks wurden auf den neuen Kaufpreis angerechnet.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(LessThan(IntegerParameter(1),1))>Mit der persönlichen Unterkunft umziehen?
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Nach Abzug von 30 % des Mindestwertes des alten Grundstücks beträgt der Kaufpreis des neuen Grundstücks <Emphasis2>0 Gil</Emphasis2>.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Nach Abzug von 15 % des Mindestwertes des alten Grundstücks beträgt der Kaufpreis des neuen Grundstücks <Emphasis2>0 Gil</Emphasis2>.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
 6737,"<If(GreaterThan(IntegerParameter(1),1))><Format(IntegerParameter(1),FF022E)/> Gil bezahlen und mit der Unterkunft der Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft umziehen?
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ 30 % des Mindestwertes des alten Grundstücks wurden auf den neuen Kaufpreis angerechnet.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(LessThan(IntegerParameter(1),1))>Mit der Unterkunft der Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft umziehen?
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ 15 % des Mindestwertes des alten Grundstücks wurden auf den neuen Kaufpreis angerechnet.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(LessThan(IntegerParameter(1),1))>Mit der Unterkunft der Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft umziehen?
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Nach Abzug von 30 % des Mindestwertes des alten Grundstücks beträgt der Kaufpreis des neuen Grundstücks <Emphasis2>0 Gil</Emphasis2>.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Nach Abzug von 15 % des Mindestwertes des alten Grundstücks beträgt der Kaufpreis des neuen Grundstücks <Emphasis2>0 Gil</Emphasis2>.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
 6738,"<Sheet(MateAuthorityCategory,5,0)/>"
 6739,"<Sheet(HousingMateAuthority,7,0)/>"
 6740,"Ausziehen"
@@ -6269,7 +6319,7 @@ Ein Name nur aus Satzzeichen ist nicht möglich."
 6773,"Für jeden frei zugänglich"
 6774,"WOHNUNGSDETAILS"
 6775,""
-6776,"<Sheet(PlaceName,IntegerParameter(1),0)/>, <Value>IntegerParameter(2)</Value>. Bezirk, <If(Equal(IntegerParameter(1),425))><Sheet(PlaceName,1805,0)/>,<Else/><If(Equal(IntegerParameter(1),426))><Sheet(PlaceName,1807,0)/>,<Else/><If(Equal(IntegerParameter(1),427))><Sheet(PlaceName,1809,0)/>,<Else/><If(Equal(IntegerParameter(1),2412))><Sheet(PlaceName,1905,0)/><Else/>Wohnung in</If></If></If></If> <If(Equal(IntegerParameter(3),129))>Gebäude 1<Else/>Gebäude 2</If>, Zimmer <Value>IntegerParameter(4)</Value>"
+6776,"<Sheet(PlaceName,IntegerParameter(1),0)/>, <Value>IntegerParameter(2)</Value>. Bezirk, <If(Equal(IntegerParameter(1),425))><Sheet(PlaceName,1805,0)/>,<Else/><If(Equal(IntegerParameter(1),426))><Sheet(PlaceName,1807,0)/>,<Else/><If(Equal(IntegerParameter(1),427))><Sheet(PlaceName,1809,0)/>,<Else/><If(Equal(IntegerParameter(1),2412))><Sheet(PlaceName,1905,0)/><Else/><If(Equal(IntegerParameter(1),4139))><Sheet(PlaceName,3718,0)/><Else/>Wohnung in</If></If></If></If></If> <If(Equal(IntegerParameter(3),129))>Gebäude 1<Else/>Gebäude 2</If>, Zimmer <Value>IntegerParameter(4)</Value>"
 6777,"WOHNUNGEN"
 6778,""
 6779,"Wohnung auflösen"
@@ -6369,7 +6419,7 @@ Trotzdem ändern?
 6873,"Wohnung"
 6874,"Persönlich"
 6875,"Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaft"
-6876,"<Sheet(PlaceName,IntegerParameter(1),0)/>, <Value>IntegerParameter(2)</Value>. Bezirk, <If(Equal(IntegerParameter(1),425))><Sheet(PlaceName,1805,0)/>,<Else/><If(Equal(IntegerParameter(1),426))><Sheet(PlaceName,1807,0)/>,<Else/><If(Equal(IntegerParameter(1),427))><Sheet(PlaceName,1809,0)/>,<Else/><If(Equal(IntegerParameter(1),2412))><Sheet(PlaceName,1905,0)/><Else/>Wohnung in</If></If></If></If> <If(Equal(IntegerParameter(3),129))>Gebäude 1<Else/>Gebäude 2</If>, Zimmer <Value>IntegerParameter(4)</Value>"
+6876,"<Sheet(PlaceName,IntegerParameter(1),0)/>, <Value>IntegerParameter(2)</Value>. Bezirk, <If(Equal(IntegerParameter(1),425))><Sheet(PlaceName,1805,0)/>,<Else/><If(Equal(IntegerParameter(1),426))><Sheet(PlaceName,1807,0)/>,<Else/><If(Equal(IntegerParameter(1),427))><Sheet(PlaceName,1809,0)/>,<Else/><If(Equal(IntegerParameter(1),2412))><Sheet(PlaceName,1905,0)/>,<Else/><If(Equal(IntegerParameter(1),4139))><Sheet(PlaceName,3718,0)/><Else/>Wohnung in</If></If></If></If> <If(Equal(IntegerParameter(3),129))>Gebäude 1<Else/>Gebäude 2</If></If>"
 6877,"<Sheet(PlaceName,IntegerParameter(1),0)/> <Value>IntegerParameter(2)</Value>. Bezirk, <Value>IntegerParameter(3)</Value> (<Switch(IntegerParameter(4))><Case(1)>Hütte</Case><Case(2)>Haus</Case><Case(3)>Residenz</Case></Switch>)"
 6878,"Teleport für Freunde"
 6879,"Daten werden übermittelt ..."
@@ -6551,6 +6601,28 @@ Den vorhandenen Gegenstand verwerfen und durch den folgenden ersetzen?
 Möchtest du Komponenten austauschen?
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fahrzeuge mit unzureichender Ge<SoftHyphen/>schwindig<SoftHyphen/>keit oder Reichweite können nicht eingesetzt werden."
+7039,"Art des Grundstücks"
+7040,"<Switch(IntegerParameter(1))><Case(1)>Für Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaften</Case><Case(2)>Nicht für Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaften</Case></Switch>"
+7041," <Switch(IntegerParameter(1))><Case(1)>Für private Käufer</Case><Case(2)>Nicht für private Käufer</Case></Switch>"
+7042," / "
+7043,"<Switch(IntegerParameter(1))><Case(1)>Freier Verkauf</Case><Case(2)>Verkauf per Auslosung (aktuell <Value>IntegerParameter(2)</Value> Teilnehmer)</Case><Case(3)>In Vorbereitung</Case></Switch>"
+7044,"<Switch(IntegerParameter(2))><Case(1)>Die Bewerbungsphase endet am <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr.</Case><Case(2)>Die Ergebnisphase endet am <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr.</Case></Switch>"
+7045,"Bewerben"
+7046,"Es kann immer nur an einer Auslosung zum Grundstückskauf teilgenommen werden. Möchtest du ein Los für <Format(IntegerParameter(1),FF022E)/> Gil kaufen?
+
+- Dieses Grundstück ist momentan <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Switch(IntegerParameter(2))><Case(1)>für Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaften</Case><Case(2)>als Privatgrundstück</Case><Case(3)>ohne Kaufbeschränkung</Case></Switch><UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeschrieben.
+- Die Teilnahme an der Auslosung kann nicht zurückgezogen werden.
+- Das Ergebnis der Ziehung wird für eine bestimmte Zeit an der Informationstafel angezeigt.
+- Wurde deine Nummer nicht gezogen, kannst du dir den Kaufpreis des Loses an der Informationstafel erstatten lassen.
+- Wurde deine Nummer gezogen, werden dir ca. 15<Indent/>% des Mindestwertes des alten Grundstücks rückerstattet. Diese Rückerstattung ist jedoch maximal so hoch wie der Preis des neuen Grundstücks.
+- Wurde deine Nummer gezogen und du lehnst den Kauf ab, fällt eine Stornogebühr in Höhe von 50<Indent/>% des Kaufpreises an. Die übrigen 50<Indent/>% Rückerstattung kannst du an der Informationstafel erhalten.
+- Jegliche Rückerstattungen sind für 90 Tage ab der Ziehung gültig. Danach ist keine Rückerstattung mehr möglich.
+- Während du ein offenes Kaufangebot oder eine offene Rückerstattung hast, kannst du an keinen weiteren Auslosungen teilnehmen.
+- Der Grundstückskauf ist erst 30 Tage nach dem Beitritt in eine Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaft möglich.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bitte beachte:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Verlässt du die Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaft, nachdem du ein Los für sie gekauft hast, kannst du 30 Tage kein Grundstück erwerben."
+7047,"Zustimmen und an der Verlosung teilnehmen"
+7048,"Ja"
+7049,"Nein"
 7050,"WIEDERGABELISTE"
 7051,""
 7053,"Nacheinander abspielen"
@@ -6625,6 +6697,18 @@ Diesen Titel in der Unterkunft bzw. im Gästezimmer wiedergeben?
 7119,"SUCHE"
 7120,"Suche per vollem oder partiellem Titel. Suche wird per Eingabetaste begonnen."
 7121,"Keine passenden Musikstücke gefunden."
+7122,"Die Gewinnzahl ist <Value>IntegerParameter(1)</Value>. Herzlichen Glückwunsch, du hast gewonnen! Möchtest du den Kauf des Grundstücks abschließen?
+
+※ Das Angebot ist bis <Time(IntegerParameter(2))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr gültig."
+7123,"Die Frist zum Kauf des Grundstücks ist abgelaufen und es fällt eine Stornogebühr in Höhe von 50<Indent/>% an. Willst du die rückerstatteten <Format(IntegerParameter(1),FF022E)/> Gil erhalten?
+
+※ Die Rückerstattung ist bis <Time(IntegerParameter(2))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr möglich."
+7124,"Die Gewinnzahl ist <Value>IntegerParameter(1)</Value>. Diesmal war dir das Glück leider nicht hold. Möchtest du die Rückerstattung über <Format(IntegerParameter(2),FF022E)/> Gil erhalten?
+
+※ Die Rückerstattung ist bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr möglich."
+7125,"Deine Gil können nicht rückerstattet werden, da die Rückerstattungsfrist von 90 Tagen überschritten wurde."
+7126,"<If(GreaterThan(IntegerParameter(1),0))>Die Gewinnzahl dieses Grundstücks ist <Value>IntegerParameter(1)</Value>.<Else/>Für diese Verlosung gab es keine Teilnehmer.</If>"
+7127,"Ziehung einsehen"
 7130,"Slot bearbeiten"
 7131,"GELÄNDEMARKIERUNG"
 7132,""
@@ -6690,7 +6774,13 @@ Löscht alle vorhandenen Themen und verteilt dafür neue."
 7515,"Maus"
 7516,"Controller"
 7517,"Gegenstände und Inventar"
+7518,"Einstellungen für „automatisches Anvisieren”"
+7519,"Wenn kein Ziel ausgewählt ist"
+7520,"Ziel bei Ausführung einer Attacke automatisch anvisieren"
 7523,"Untermenü zurücksetzen"
+7524,"Art des automatischen Anvisierens"
+7525,"Den Gegner in direkter Sichtlinie"
+7526,"Den nächsten Gegner"
 7527,"Änderungen für diesen Modus verwerfen und Modus wechseln?"
 7528,"Ja"
 7529,"Nein"
@@ -6739,7 +6829,7 @@ Löscht alle vorhandenen Themen und verteilt dafür neue."
 7574,"Ring um Ziel anzeigen"
 7575,"Aggro-Linien von neuen Angreifern anzeigen"
 7576,"Linien zwischen verbündeten Feinden anzeigen"
-7577,"Automatisches Anvisieren, wenn kein Ziel anvisiert ist"
+7577,"Automatisches Anvisieren bei erlittener Attacke"
 7578,"Kameradistanz beibehalten (nur bei Legacy-Kamerasteuerung)"
 7579,"Zielkreis-Einstellungen"
 7580,"Zielfilter-Einstellungen"
@@ -6893,7 +6983,7 @@ Löscht alle vorhandenen Themen und verteilt dafür neue."
 7730,"Familiare anderer"
 7731,"Zimmerausstattung"
 7732,"Gartenausstattung"
-7733,"Namensanzeige von PvP-Gegnern in „The Feast“"
+7733,"Namensanzeige von PvP-Gegnern in „Crystalline Conflict“"
 7734,"Name der aktuellen Welt anzeigen"
 7735,"Front - Mahlstrom"
 7736,"Front - Bruderschaft der Morgenviper"
@@ -7009,7 +7099,7 @@ Löscht alle vorhandenen Themen und verteilt dafür neue."
 7846,"Kreuz-Kommandomenü und Kommandomenü anzeigen"
 7847,"Nur Kreuz-Kommandomenü anzeigen"
 7848,"Nur Kommandomenü anzeigen"
-7849,"Beim Reiten Menü 1 durch Helfer-Kommandomenü ersetzen"
+7849,"Menü 1 durch Helfer-Kommandomenü ersetzen"
 7850,"<Gui(12)/> Belegung <If(GreaterThan(IntegerParameter(1),0))>der L1-Taste<Else/>des linken Bumpers</If>"
 7851,"<Gui(14)/> Belegung <If(GreaterThan(IntegerParameter(1),0))>der L2-Taste<Else/>des linken Schalters</If>"
 7852,"<Gui(16)/> Belegung <If(GreaterThan(IntegerParameter(1),0))>der L3-Taste<Else/>des linken Sticks</If>"
@@ -7280,6 +7370,9 @@ Hast du alle Vor<SoftHyphen/>bereitungen getroffen?
 8158,"Allianz D/E/F"
 8159,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 8160,"Endwalker"
+8161,"A Realm Reborn"
+8162,"Eorzea Incognita bei neu hinzugefügten Einträgen öffnen"
+8163,"Eintrag anzeigen"
 8164,"Vergütung"
 8165,"Heraus<SoftHyphen/>forde<SoftHyphen/>rung bestanden"
 8166,"Bestanden!"
@@ -7641,6 +7734,11 @@ Viel Spaß im Gold Saucer!"
 Der Rezeptionist im Foyer gibt Auskunft über das aktuelle GATE-Programm. Der Zeitplan für GATEs wurde angepasst, um die neue Attraktion zu berücksichtigen.
 
 Viel Spaß im Gold Saucer!"
+8483,"Fortan kannst du die Gegenstände, die im Online Store erhältlich sind, direkt im Spiel anprobieren!
+
+Die neue Traumgarderobe ist über das Bett in allen Gästezimmern nutzbar.
+
+So kannst du sogar Einzelstücke zur Probe tragen und dein Outfit bis ins kleinste Detail an deine Wünsche anpassen! Viel Spaß dabei!"
 8484,"Andere"
 8485,"Favoriten"
 8486,"Ishgard und Umgebung"
@@ -7867,7 +7965,7 @@ Annehmen?"
 8756,"300 %: empfohlen für 4K, nur wirksam bei 4K"
 8757,"System-UI vergrößern"
 8758,"※ Nur Teile des System-UI sind betroffen."
-8759,"Wireless Controller<Switch(PlayerParameter(78))><Case(1)> =<Gui(63)/>Nur DX11-Version</Case><Case(2)></Case><Case(3)> <Gui(63)/> Nur Windows-Version</Case></Switch>"
+8759,"DualSense/DUALSHOCK 4<Switch(PlayerParameter(78))><Case(1)> =<Gui(63)/>Nur DX11-Version</Case><Case(2)></Case><Case(3)> <Gui(63)/> Nur Windows-Version</Case></Switch>"
 8760,"Optionale Einstellungen<Switch(PlayerParameter(78))><Case(1)> =<Gui(63)/>Nur DX11-Version</Case><Case(2)></Case><Case(3)> <Gui(63)/> Nur Windows-Version</Case></Switch>"
 8761,"Immerse Spatial Audio aktivieren"
 8762,"Lerne mehr über Immerse Spatial Audio"
@@ -7917,6 +8015,7 @@ Annehmen?"
 8815,"Zufrieden<SoftHyphen/>heits<SoftHyphen/>rang"
 8816,"Name des Luftschiffs"
 8817,"Name des Tauchboots"
+8818,"Status der Auslosung "
 8819,"Kleiderkritik"
 8820,"Das Thema der aktuellen Kleiderkritik einsehen."
 8821,"Wieder<SoftHyphen/>aufbau der domanischen Enklave"
@@ -7941,6 +8040,13 @@ Annehmen?"
 8840,"(erreicht)"
 8841,"Daten können auf dieser Welt nicht abgerufen werden."
 8842,"<Gui(63)/> Daten konnten nicht abgerufen werden"
+8843,"Status der Auslosung"
+8844,"Lose werden verkauft."
+8845,"Das Ergebnis der Ziehung ist einsehbar."
+8846,"Eigenes Los"
+8847,"<Sheet(PlaceName,IntegerParameter(1),0)/> <Value>IntegerParameter(2)</Value>. Bezirk, <Value>IntegerParameter(3)</Value> (<Switch(IntegerParameter(4))><Case(1)>Hütte</Case><Case(2)>Haus</Case><Case(3)>Residenz</Case></Switch>)"
+8848,"Losnummer: <Value>IntegerParameter(1)</Value>"
+8849,"Grundstücksart: <Switch(IntegerParameter(1))><Case(1)>Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaft</Case><Case(2)>Privatgrundstück</Case></Switch>"
 8850,"KLASSEN-/JOB-REIHENFOLGE"
 8851,""
 8852,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Leg fest, in welcher Reihenfolge Klassen/Jobs innerhalb der entsprechenden Rolle angezeigt werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -8309,7 +8415,7 @@ Schaden"
 9277,"AUSZAHLUNG"
 9278,""
 9279,"Gewinnzahl"
-9280,"Die Gewinnzahl wird jeden <If(NotEqual(PlayerParameter(83),0))><Switch(PlayerParameter(83))><Case(1)><ResetTime>1607</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</Case><Case(2)><ResetTime>0C01</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</Case><Case(3)><ResetTime>0501</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</Case></Switch><Else/><ResetTime>1607</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</If> Uhr (Erdenzeit) gezogen."
+9280,"Die Gewinnzahl wird jeden <If(NotEqual(PlayerParameter(83),0))><Switch(PlayerParameter(83))><Case(1)><ResetTime>1607</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</Case><Case(2)><ResetTime>0C01</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</Case><Case(3)><ResetTime>0501</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</Case><Case(4)><ResetTime>1307</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</Case></Switch><Else/><ResetTime>1607</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00</If> Uhr (Erdenzeit) gezogen."
 9281,"Kl. 1"
 9282,"Alle Ziffern"
 9283,"Kl. 2"
@@ -8990,6 +9096,7 @@ Die Ergebnisse werden berechnet."
 ※ Es bestehen keine Rollenbeschränkungen.
 ※ Stufen- und Gegen<SoftHyphen/>stands<SoftHyphen/>stufenanpassung sind deaktiviert.
 ※ Die Bindung an Gegenstände wird nicht erhöht.
+※ Ein Abbruch kann jederzeit vorgeschlagen werden.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Nur möglich bei Inhalten, die keinen Beschränkungen unterliegen.
 ※ Es gelten die Einstellungen des Gruppenanführers.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10010,"Anpassung an Mindest-Gegen<SoftHyphen/>stands<SoftHyphen/>stufe"
@@ -9524,6 +9631,8 @@ Die erreichte Ebene und deine Stufe werden auf 1 zurückgesetzt. Die Verstärkun
 Durchgang keine Errungenschaft für alleinige Eroberung erhalten werden."
 10483,"In diesem Speicherstand ist die Gruppe mindestens einmal komplett kampfunfähig geworden. Hohe Ebenen können deswegen nicht betreten werden. Trotzdem fortfahren?"
 10484,"Mit diesen Speicherdaten fortfahren"
+10500,"Mit Inhaltshelfer betreten"
+10501,"Mit Seite an Seite betreten"
 10507,"/"
 10508,"Kameradenbonus"
 10509,"<Highlight>StringParameter(1)</Highlight>: <Highlight>StringParameter(2)</Highlight>"
@@ -9795,7 +9904,7 @@ Zuschauer: 1 bis 8 Spieler (wenn gestattet)"
 10829,"※ Teilnahme mit einem beschränkten Job ist nur in bestehenden Gruppen oder in Inhalten ohne Beschränkungen (sofern der Inhalt das zulässt) möglich."
 10830,"Von Stammwelt aus teilnehmen"
 10831,"1. Dan oder höher"
-10832,"Dieser Inhalt ist momentan nicht verfügbar."
+10832,"Das PvP-System wird großflächig umgestaltet, daher ist dieser Inhalt momentan nicht verfügbar. Kommende Patchnotes werden darüber informieren, wann er wieder zugänglich ist."
 10834,"<If(Equal(IntegerParameter(1),0))><Else/>Verringerte Schwierigkeit</If>"
 10835,"Die folgenden Änderungen wurden an epischen Inhalten vorgenommen:
 - Keine Speicherung des Fortschritts für einzelne Inhalte.
@@ -9900,7 +10009,7 @@ Statuseffekte, die normalerweise die ganze Gruppe betreffen, nur auf den Wirkend
 10918,"Die Anzahl der Gruppen, die den Suchkriterien entsprechen, wird in regelmäßigen Abständen im Chatlog angezeigt. Private Suchen sind darin nicht enthalten."
 10919,"Filtern"
 10920,"Sortieren"
-10921,"Aufenthaltsort: <Sheet(PlaceName,IntegerParameter(1),0)/>"
+10921,"Aufenthaltsort: <Highlight>StringParameter(1)</Highlight>"
 10922,"Zeitlimit: <Value>IntegerParameter(1)</Value> Min"
 10923,"Ziel"
 10924,"Nicht festgelegt"
@@ -10029,7 +10138,7 @@ Sprich nach Abschluss der Traumprüfung mit Großmeister Reineke, um Zugang zur 
 11032,"Danke!<Unknown60>0262</Unknown60>"
 11033,"Gut gemacht!<Unknown60>0262</Unknown60>"
 11034,"<Sheet(Action,IntegerParameter(1),0)/> <If(Equal(IntegerParameter(2),0))>bereit!<Unknown60>0263</Unknown60><Else/>in <Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>Sekunde<Else/>Sekunden</If> bereit!<Unknown60>0264</Unknown60></If>"
-11035,"Adrenalinrausch <If(Equal(IntegerParameter(1),100))>bereit!<Unknown60>0263</Unknown60><Else/>bei <Value>IntegerParameter(1)</Value> %!<Unknown60>0264</Unknown60></If>"
+11035,"Limitrausch <If(Equal(IntegerParameter(1),100))>bereit!<Unknown60>0263</Unknown60><Else/>bei <Value>IntegerParameter(1)</Value> %!<Unknown60>0264</Unknown60></If>"
 11036,"Ich hebe das Offensiv-Depot aus!<Unknown60>0265</Unknown60>"
 11037,"Ich hebe das Defensiv-Depot aus!<Unknown60>0265</Unknown60>"
 11038,"Ich hebe das Adrenalin-Depot aus!<Unknown60>0265</Unknown60>"
@@ -10044,14 +10153,14 @@ Sprich nach Abschluss der Traumprüfung mit Großmeister Reineke, um Zugang zur 
 11047,"Ich schalte den Fernkämpfer aus!<Unknown60>0267</Unknown60>"
 11048,"Ich sammle die Medaillen auf!<Unknown60>0268</Unknown60>"
 11049,"Holt die Medaillen!<Unknown60>0268</Unknown60>"
-11050,"Alle angreifen!<Unknown60>0269</Unknown60>"
-11051,"Zurückfallen!<Unknown60>0264</Unknown60>"
+11050,"Zum Angriff!<Unknown60>0269</Unknown60>"
+11051,"Neu formieren!<Unknown60>0264</Unknown60>"
 11052,"MP auf <Value>IntegerParameter(1)</Value> %!<Unknown60>0263</Unknown60>"
 11053,"TP auf <Value>IntegerParameter(1)</Value> %!<Unknown60>0263</Unknown60>"
-11054,"Ich greife <If(Equal(IntegerParameter(1),37))>die<Else/>den</If> <If(Equal(IntegerParameter(1),6))>Druiden<Else/><If(Equal(IntegerParameter(1),7))>Thaumaturgen<Else/><If(Equal(IntegerParameter(1),14))>Alchemisten<Else/><If(Equal(IntegerParameter(1),23))>Barden<Else/><If(Equal(IntegerParameter(1),28))>Gelehrten<Else/><If(Equal(IntegerParameter(1),29))>Schurken<Else/><If(Equal(IntegerParameter(1),31))>Maschinisten<Else/><If(Equal(IntegerParameter(1),33))>Astrologen<Else/><Sheet(ClassJob,IntegerParameter(1),0)/></If></If></If></If></If></If></If></If> an!<Unknown60>0266</Unknown60>"
-11055,"Ich schalte <If(Equal(IntegerParameter(1),37))>die<Else/>den</If> <If(Equal(IntegerParameter(1),6))>Druiden<Else/><If(Equal(IntegerParameter(1),7))>Thaumaturgen<Else/><If(Equal(IntegerParameter(1),14))>Alchemisten<Else/><If(Equal(IntegerParameter(1),23))>Barden<Else/><If(Equal(IntegerParameter(1),28))>Gelehrten<Else/><If(Equal(IntegerParameter(1),29))>Schurken<Else/><If(Equal(IntegerParameter(1),31))>Maschinisten<Else/><If(Equal(IntegerParameter(1),33))>Astrologen<Else/><Sheet(ClassJob,IntegerParameter(1),0)/></If></If></If></If></If></If></If></If> aus!<Unknown60>0267</Unknown60>"
+11054,"Ich greife <If(Equal(IntegerParameter(1),37))>die<Else/>den</If> <If(Equal(IntegerParameter(1),6))>Druiden<Else/><If(Equal(IntegerParameter(1),7))>Thaumaturgen<Else/><If(Equal(IntegerParameter(1),14))>Alchemisten<Else/><If(Equal(IntegerParameter(1),23))>Barden<Else/><If(Equal(IntegerParameter(1),28))>Gelehrten<Else/><If(Equal(IntegerParameter(1),29))>Schurken<Else/><If(Equal(IntegerParameter(1),31))>Maschinisten<Else/><If(Equal(IntegerParameter(1),33))>Astrologen<Else/><If(Equal(IntegerParameter(1),40))>Weisen<Else/><Sheet(ClassJob,IntegerParameter(1),0)/></If></If></If></If></If></If></If></If></If> an!<Unknown60>0266</Unknown60>"
+11055,"Ich halte <If(Equal(IntegerParameter(1),37))>die<Else/>den</If> <If(Equal(IntegerParameter(1),6))>Druiden<Else/><If(Equal(IntegerParameter(1),7))>Thaumaturgen<Else/><If(Equal(IntegerParameter(1),14))>Alchemisten<Else/><If(Equal(IntegerParameter(1),23))>Barden<Else/><If(Equal(IntegerParameter(1),28))>Gelehrten<Else/><If(Equal(IntegerParameter(1),29))>Schurken<Else/><If(Equal(IntegerParameter(1),31))>Maschinisten<Else/><If(Equal(IntegerParameter(1),33))>Astrologen<Else/><If(Equal(IntegerParameter(1),40))>Weisen<Else/><Sheet(ClassJob,IntegerParameter(1),0)/></If></If></If></If></If></If></If></If></If> auf!<Unknown60>0267</Unknown60>"
 11056,"<Sheet(Action,IntegerParameter(1),0)/> <If(Equal(IntegerParameter(2),0))>ist bereit!<Unknown60>0263</Unknown60><Else/>ist in <Value>IntegerParameter(2)</Value> Sekunden bereit!<Unknown60>0264</Unknown60></If>"
-11057,"Konzentriert euch auf <If(Equal(IntegerParameter(1),37))>die<Else/>den</If> <If(Equal(IntegerParameter(1),6))>Druiden<Else/><If(Equal(IntegerParameter(1),7))>Thaumaturgen<Else/><If(Equal(IntegerParameter(1),14))>Alchemisten<Else/><If(Equal(IntegerParameter(1),23))>Barden<Else/><If(Equal(IntegerParameter(1),28))>Gelehrten<Else/><If(Equal(IntegerParameter(1),29))>Schurken<Else/><If(Equal(IntegerParameter(1),31))>Maschinisten<Else/><If(Equal(IntegerParameter(1),33))>Astrologen<Else/><Sheet(ClassJob,IntegerParameter(1),0)/></If></If></If></If></If></If></If></If>!"
+11057,"Konzentriert euch auf <If(Equal(IntegerParameter(1),37))>die<Else/>den</If> <If(Equal(IntegerParameter(1),6))>Druiden<Else/><If(Equal(IntegerParameter(1),7))>Thaumaturgen<Else/><If(Equal(IntegerParameter(1),14))>Alchemisten<Else/><If(Equal(IntegerParameter(1),23))>Barden<Else/><If(Equal(IntegerParameter(1),28))>Gelehrten<Else/><If(Equal(IntegerParameter(1),29))>Schurken<Else/><If(Equal(IntegerParameter(1),31))>Maschinisten<Else/><If(Equal(IntegerParameter(1),33))>Astrologen<Else/><If(Equal(IntegerParameter(1),40))>Weisen<Else/><Sheet(ClassJob,IntegerParameter(1),0)/></If></If></If></If></If></If></If></If></If>!"
 11058,"Angriff auf Hauptziel beenden! <Unknown60>0264</Unknown60>"
 11060,"Beuteregeln"
 11061,"Standard"
@@ -10626,6 +10735,12 @@ Aktiviere <If(GreaterThan(IntegerParameter(1),1))>bis zu zwei Logos-Kommandos<El
 11710,"Sieg"
 11711,"Niederlage"
 11712,"Unentschieden"
+11713,"Tut mir leid!<Unknown60>0264</Unknown60>"
+11714,"Ich presche vor!<Unknown60>0269</Unknown60>"
+11715,"Ich falle zurück!<Unknown60>0264</Unknown60>"
+11716,"Ich eskortiere jetzt den Kristall!<Unknown60>0266</Unknown60>"
+11717,"Eskortiert den Kristall!<Unknown60>0269</Unknown60>"
+11718,"Ich decke <If(Equal(IntegerParameter(1),37))>die<Else/>den</If> <If(Equal(IntegerParameter(1),6))>Druiden<Else/><If(Equal(IntegerParameter(1),7))>Thaumaturgen<Else/><If(Equal(IntegerParameter(1),14))>Alchemisten<Else/><If(Equal(IntegerParameter(1),23))>Barden<Else/><If(Equal(IntegerParameter(1),28))>Gelehrten<Else/><If(Equal(IntegerParameter(1),29))>Schurken<Else/><If(Equal(IntegerParameter(1),31))>Maschinisten<Else/><If(Equal(IntegerParameter(1),33))>Astrologen<Else/><If(Equal(IntegerParameter(1),40))>Weisen<Else/><Sheet(ClassJob,IntegerParameter(1),0)/></If></If></If></If></If></If></If></If></If>!"
 11720,"PVP-TEAM ERSTELLEN"
 11721,""
 11722,"An dieser Tafel kannst du ein PvP-Team erstellen und Informationen zu deinem Team eintragen."
@@ -10633,7 +10748,7 @@ Aktiviere <If(GreaterThan(IntegerParameter(1),1))>bis zu zwei Logos-Kommandos<El
 11724,"Wichtige Begriffe"
 11725,"Erklärungen"
 11726,"PvP-Teams"
-11727,"Erstelle mit deinen Freunden ein PvP-Team, um zusammen PvP-Inhalte wie „The Feast“ zu bestreiten. Eingespielten Teams, die sich auf die oberen Plätze der speziellen Team-Rangliste kämpfen, winken Belohnungen und Einladungen zu besonderen Turnieren.
+11727,"Erstelle mit deinen Freunden ein PvP-Team, um zusammen PvP-Inhalte wie „Crystalline Conflict“ zu bestreiten. Eingespielten Teams, die sich auf die oberen Plätze der speziellen Team-Rangliste kämpfen, winken Belohnungen und Einladungen zu besonderen Turnieren.
 
 Die folgenden Bedingungen müssen erfüllt sein, um ein Team zu gründen:
 ・4 - 6 Spieler müssen sich in einer Gruppe (auch weltenübergreifend) befinden.
@@ -10653,8 +10768,6 @@ Bei Beginn einer neuen Saison werden die PvP-Ränge und der PvP-Wert wieder auf 
 11735,"Nachdem ein Team erstellt wurde, kann im Hauptmenü unter „Soziales“ ein Fenster für das PvP-Team geöffnet werden. Dort können Informationen zu den Mitgliedern und erworbenen Belohnungen eingesehen werden."
 11736,"Einladungen und Ausschluss"
 11737,"Der Anführer und der Zweite Anführer eines PvP-Teams können neue Charaktere einladen und Mitglieder ausschließen.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Nach Beginn einer Saison für PvP-Teams können keine neuen Mitglieder mehr eingeladen werden. Wenn die Anzahl der Teammitglieder während einer Saison auf weniger als 4 sinkt, wird das Team disqualifiziert und erscheint nicht mehr in der Rangliste.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-
 Lade ein neues Mitglied ein, indem du den Charakter anvisierst und im Untermenü das entsprechende Kommando benutzt.
 Um einen Charakter einzuladen, der sich auf einer anderen Welt befindet, wähle den Charakter in der Gruppenliste und benutze das entsprechende Kommando.
 
@@ -10663,10 +10776,9 @@ Um ein Mitglied aus dem Team zu entfernen, wähle den Charakter in der Teamliste
 11739,"Der Anführer eines PvP-Teams kann ein Mitglied zum Zweiten Anführer ernennen. Beide können Charaktere einladen, Mitglieder ausschließen und den Namen oder das Wappen des Teams ändern."
 11740,"Auflösung und Austreten"
 11741,"Nur der Teamanführer und die Mehrheit der Mitglieder können das PvP-Team auflösen. Der Anführer startet den Vorgang, indem er im Fenster „PvP-Team“ die Schaltfläche „Team auflösen“ drückt. Wenn die Mehrheit der Mitglieder zustimmt, wird das Team aufgelöst.
-<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※ Mit der Auflösung werden alle das Team betreffenden Daten wie z.<Indent/>B. Kampfstatistiken und Wertung gelöscht.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 Spieler, die ein Team verlassen wollen, drücken im Fenster „PvP-Team“ die Schaltfläche „Team verlassen“.
-<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※ Nach Verlassen des Teams können teamspezifische Funktionen und Inhalte nicht mehr genutzt werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground> "
+<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※ Nach Verlassen des Teams können teamspezifische Funktionen nicht mehr genutzt werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground> "
 11742,"Automatische Nachfolge"
 11743,"Wenn sich der Teamanführer 90 Tage (Erdenzeit) lang nicht in das Spiel eingeloggt hat, wird der Zweite Anführer automatisch zum Anführer. Wenn kein Zweiter Anführer vorhanden ist, wird das Mitglied, das am längsten im Team ist, zum Anführer.
 
@@ -10901,7 +11013,7 @@ Dabei werden folgende Farbstoffe verbraucht:"
 11991,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dieser Gegenstand kann im Kostbarkeitenkabinett eingelagert werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11992,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Es befindet sich bereits eine Projektion dieses Gegenstands in der Pro<SoftHyphen/>jektions<SoftHyphen/>kommode.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11993,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dieser Gegenstand ist in einem Ausrüstungsset gespeichert.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-11994,"Wenn ein Gegenstand in eine Projektion verwandelt wird, gehen alle Anpassungen (z. B. Materia, Ätherboni und Signaturen) verloren und die Bindung wird auf 0<Indent/>% und der Zustand auf 100<Indent/>% zurückgesetzt. Bei Entnahme aus der Kommode und Zurückverwandlung in einen Gegenstand wird dieser persönlich gebunden.
+11994,"Wenn ein Gegenstand in eine Projektion verwandelt wird, gehen alle Anpassungen (z. B. Materia, Ätherboni, Signaturen, Projektionen und Wappen) verloren und die Bindung wird auf 0<Indent/>% und der Zustand auf 100<Indent/>% zurückgesetzt. Bei Entnahme aus der Kommode und Zurückverwandlung in einen Gegenstand wird dieser persönlich gebunden.
 1 <Clickable(<SheetDe(Item,5,IntegerParameter(1),1,4,1)/>)/> verbrauchen und fortfahren?"
 12002,"C"
 12003,"D"
@@ -11422,28 +11534,53 @@ Wirklich fortfahren?"
 12511,""
 12512,"Stammwelt"
 12513,"Fremde Welten"
-12514,"<UIForeground>F20202</UIForeground>Weltenreise<UIForeground>01</UIForeground>
-Von deiner Stammwelt aus kannst du fremde Welten auf demselben Datenzentrum besuchen und dort wie gewohnt mit Freunden Gruppen bilden, Gegenstände einkaufen und alle Inhalte spielen.
+12514,"<If(Equal(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Reise zwischen Datenzentren<UIForeground>01</UIForeground>
+Die Reise zwischen den Datenzentren erlaubt es dir, Welten außerhalb deines Datenzentrums zu besuchen und dort auf ihnen zu spielen. Zusätzlich zu den Bedingungen der gewöhnlichen Weltenreise gibt es für die Reise auf ein anderes Datenzentrum einige spezifische Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
+
+<UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>
+- Abhängig von der Auslastung der Zielwelt kann der Wechsel bis zu 30 Minuten dauern.
+- Hat der Reiseprozess begonnen, kann er nicht mehr abgebrochen werden. Während dieses Prozesses ist dein Account und all seine Charaktere kurzfristig gesperrt. Bis die Reise vollzogen ist, kannst du dich nicht einloggen.
+- Wählst du „Auf ein anderes Datenzentrum reisen“, kehrst du zum Titelbildschirm zurück. Sobald der Prozess abgeschlossen ist, wähle ein Datenzentrum und logge dich erneut ein.
+- Andere Charaktere auf deiner Stammwelt können weder einloggen noch andere Funktionen nutzen, bis du von der Reise in ein anderes Datenzentrum zurückgekehrt bist.
+- Charaktere, die sich auf der Reise in ein anderes Datenzentrum befinden, können nicht direkt zu einem dritten Datenzentrum reisen. Sie müssen vorher in ihre Stamm-Datenzentrum zurückkehren.
+
+<Else/></If><If(LessThan(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Weltenreise<UIForeground>01</UIForeground>
+<If(Equal(IntegerParameter(1),0))>Von deiner Stammwelt aus<Else/>Von deiner momentanen Welt aus</If> kannst du fremde Welten auf demselben Datenzentrum besuchen und dort wie gewohnt mit Freunden Gruppen bilden, Gegenstände einkaufen und alle Inhalte spielen.
 
 <UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>
 Abhängig von der Auslastung der Zielwelt dauert der Wechsel unter Umständen etwas länger. Sobald alles für den Wechsel bereit ist, wird der Teleport durchgeführt. Dabei werden alle laufenden Aktionen abgebrochen.
 
-<UIForeground>F20202</UIForeground>Ein<SoftHyphen/>schrän<SoftHyphen/>kungen auf fremden Welten<UIForeground>01</UIForeground>
-Auf fremden Welten gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
+<Else/></If><UIForeground>F20202</UIForeground>Ein<SoftHyphen/>schrän<SoftHyphen/>kungen auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If><UIForeground>01</UIForeground>
+<If(Equal(IntegerParameter(1),1))>Du befindest dich momentan in einem anderen Datenzentrum als das deiner Stammwelt. <Else/></If>Auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If> gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
 
-<UIForeground>F20202</UIForeground>Gehilfen<UIForeground>01</UIForeground>:
-- Gehilfen können nicht gerufen, angestellt oder entlassen werden.
-- Gehilfen können keine Gegenstände auf dem Markt anbieten (Gegenstände können auf dem Markt gekauft werden).
 
-<UIForeground>F20202</UIForeground>Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaften<UIForeground>01</UIForeground>:
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Freunde<UIForeground>01</UIForeground>:
+- Du kannst nicht mit Freunden sprechen, die sich auf einem anderen Datenzentrum befinden.
+- Du kannst keine Gruppe mit Freunden bilden, die sich auf einem anderen Datenzentrum befinden.
+
+<Else/></If><UIForeground>F20202</UIForeground>Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaften<UIForeground>01</UIForeground>:
 - Besucher können keine Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaften gründen oder ihnen beitreten.
 - Die Informationen der eigenen Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft können nicht abgerufen werden.
 - Auf fremden Welten können keine Ge<SoftHyphen/>sell<SoftHyphen/>schaftstaler gesammelt werden.
 
-<UIForeground>F20202</UIForeground>Kontaktkreise<UIForeground>01</UIForeground>:
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Welten-Kontaktkreise<UIForeground>01</UIForeground>:
+- Neue Welten-Kontaktkreise können nicht erstellt werden.
+- Du kannst nicht zum Meister eines Welten-Kontaktkreises ernannt werden.
+
+<Else/></If><UIForeground>F20202</UIForeground>Kontaktkreise<UIForeground>01</UIForeground>:
 - Kontaktkreise können nicht verwendet werden.
 - Die Details zu Kontaktkreisen können nicht angezeigt werden.
 - Besucher können keine Kontaktkreise anlegen oder ihnen beitreten.
+
+if([lnum1>0],<UIForeground>F20202</UIForeground>PvP-Teams<UIForeground>01</UIForeground>
+- Die Funktionen des PvP-Teams sind eingeschränkt, inklusive des Chats.
+
+<UIForeground>F20202</UIForeground>Zirkel<UIForeground>01</UIForeground>
+- Es können keinerlei Funktionen des Zirkels genutzt werden, mit Ausnahme der Zirkelsuche.
+
+,)><UIForeground>F20202</UIForeground>Gehilfen<UIForeground>01</UIForeground>:
+- Gehilfen können nicht gerufen, angestellt oder entlassen werden.
+- Gehilfen können keine Gegenstände auf dem Markt anbieten (Gegenstände können auf dem Markt gekauft werden).
 
 <UIForeground>F20202</UIForeground>Unterkünfte<UIForeground>01</UIForeground>:
 - Grundstücke und Wohnungen können nicht erworben werden.
@@ -11455,7 +11592,8 @@ Auf fremden Welten gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
 - Spieler aus fremden Welten können nicht zur Zeremonie eingeladen werden.
 
 <UIForeground>F20202</UIForeground>Inhalte und Funktionen<UIForeground>01</UIForeground>:
-- Besucher können nicht an „Kampf der Trabanten“-Turnieren teilnehmen.
+<If(GreaterThan(IntegerParameter(1),0))>- PvP-Ergebnisse werden nicht in den Ranglisten berücksichtigt.
+<Else/></If>- Besucher können nicht an „Kampf der Trabanten“-Turnieren teilnehmen.
 - Besucher können nicht an „Triple Triad“-Turnieren teilnehmen.
 - Besucher können keine Lose für den Jumbo-Glückskaktor kaufen oder einlösen.
 - Die Mogry-Post kann nicht verwendet werden.
@@ -11564,6 +11702,8 @@ Auf fremden Welten gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
 12614,""
 12624,"Nach <Highlight>StringParameter(1)</Highlight> reisen?
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Damit der Transfer durchgeführt werden kann, musst du entweder alleine oder Teil einer weltenübergreifenden Gruppe sein.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+12625,"<If(Equal(IntegerParameter(1),1))>Reisende<Else/>Reisender</If>"
+12626,"Du wirst nicht benachricht, wenn du neue Post erhältst, da du dich nicht auf dem Datenzentrum deiner Stammwelt befindest."
 12630,"Kupo-Jagdlizenz ★"
 12631,"Kupo-Jagdlizenz ★★"
 12632,"Kupo-Jagdlizenz ★★★"
@@ -11621,7 +11761,7 @@ Wetterabhängig"
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Abhängig von den verfügbaren Sprachen im Datenzentrum, kann die Suche länger dauern. Wenn es zu ungewöhnlichen Wartezeiten kommt, wird empfohlen, die Sprachoptionen zu ändern und eine neue Suche zu starten.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※Die im Launcher eingestellte Sprache ist mit _ markiert.
-※Die Spracheinstellungen gelten für alle Inhalte mit automatischer Gruppenzusammenstellung.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+※Die Spracheinstellungen gelten für alle Inhalte mit automatischer Gruppenzusammenstellung. Einige Inhalte im Gold Saucer sind davon ausgenommen.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 12695,"Nicht verfügbar während Neues Spiel+"
 12696,"Stufenanpassung"
 12697,"Die Stufen aller Teilnehmer werden an die für den Inhalt erforderliche Mindeststufe angepasst.
@@ -11629,8 +11769,6 @@ Wetterabhängig"
 ※ Auch wenn die Option „Keine Beschränkungen“ gewählt wurde, erhalten Spieler für den Sieg über Gegner Routine und Gegenstände.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※ Kann nur ausgewählt werden, wenn die Option „Keine Beschränkungen“ gewählt wurde.
 ※ Es gelten nur die Einstellungen des Gruppenanführers.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-12698,"Hauptszenario"
-12699,"Betritt abgeschlossene Inhalte des Hauptszenarios mit NPCs. Die NPCs sind dabei die gleichen, wie sie es auch im Rahmen des Hauptszenarios waren."
 12700,"SEITE AN SEITE"
 12701,""
 12702,"Gruppe"
@@ -11643,14 +11781,6 @@ Wetterabhängig"
 12709,"Hauptszenario"
 12710,"Routine"
 12711,"Hilfe"
-12712,"Seite an Seite"
-12713,"Die Instanzinhalte des Hauptszenarios von „Shadowbringers“ und „Endwalker“ können mit befreundeten NPCs betreten werden. Stelle dir unter Berücksichtigung der Rollenverteilung eine eigene Gruppe zusammen!
-Die Inhalte können auch wie bisher mit anderen Spielerinnen und Spielern betreten werden.
-Wenn ein Inhalt mit NPCs betreten wird, werfen Schatztruhen weniger Beute ab. Außerdem können von bestimmten Gegnern nicht alle Belohnungen erhalten werden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-12714,"Routineerwerb"
-12715,"Betritt abgeschlossene Inhalte des Hauptszenarios mit NPCs. Die NPCs sammeln dabei Routine und können so aufgestuft werden."
-12716,"Projektionen"
-12717,"Wenn ein NPC Stufe 80 erreicht, werden Projektionen freigeschaltet. Wähle den entsprechenden Befehl aus dem Untermenü des NPCs, dessen Erscheinung du verändern möchtest."
 12718,"Seite an Seite"
 12719,""
 12720,"Stufe zu niedrig"
@@ -12172,6 +12302,12 @@ Fortfahren?"
 13290,"Bonus!"
 13291,"Voraus<SoftHyphen/>setzungen"
 13292,"--"
+13293,"Gehilfen-Notiz bearbeiten"
+13294,"Notiz"
+13295,"Gehilfen-Notiz"
+13296,""
+13297,"In der Liste befinden sich Gegenstände, die nicht auf dem Markt verkauft werden können. Es empfiehlt sich, sie wieder an dich zu nehmen, da sie nicht auf dem Marktbrett angezeigt werden. Möchtest du dennoch fortfahren?"
+13298,"<Gui(63)/>"
 13300,"Entfernt <Highlight>StringParameter(1)</Highlight> von der Schwarzen Liste des Zirkels. Fortfahren?"
 13301,"Entfernt <Highlight>StringParameter(1)</Highlight> aus dem Zirkel. Fortfahren?"
 13302,"Verleiht <Highlight>StringParameter(1)</Highlight> Meister-Privilegien. Fortfahren?"
@@ -12470,6 +12606,11 @@ Unabhängig von der Anzahl der Versuche und vom Ergebnis erhältst du die folgen
 13660,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Die Kommandomenü-Slots dieses Sets wurden zu Blaumagie-exklusiven Slots zurückgesetzt.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 13661,"Aktive Kommandos als <Highlight>StringParameter(1)</Highlight> speichern?
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Da du gerade kein Blaumagier bist, werden Blaumagie-Slots im Kommandomenü nicht gespeichert.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+13662,"Die Barriere des Kristalls ist aufgehoben!"
+13663,"Der Vulkan bricht aus!"
+13664,"Turbulente Winde breiten sich aus!"
+13665,"<Switch(IntegerParameter(1))><Case(1)>Team Astra</Case><Case(2)>Team Umbra</Case></Switch> hat den Kontrollpunkt passiert!"
+13666,"K. o."
 13670,"Stellt ein Modeaccessoire zur Schau"
 13671,"MODEACCESSOIRES"
 13672,""
@@ -12479,6 +12620,26 @@ Unabhängig von der Anzahl der Versuche und vom Ergebnis erhältst du die folgen
 13676,"Wähle ein Modeaccessoire"
 13677,"Dem Kommandomenü hinzufügen"
 13678,"Verwenden"
+13679,"Modeaccessoire-Posen sind über das Emote „Pose ändern“ ausführbar."
+13759,"Erhalten durch <Sheet(Item,IntegerParameter(1),9)/>"
+13760,"Grundausstattung"
+13761,"Abschluss des Auftrags „<Sheet(Quest,IntegerParameter(1),0)/>“"
+13762,"Abschluss des Inhalts „<Sheet(ContentFinderCondition,IntegerParameter(1),38)/>“"
+13763,"Erhalten durch <Sheet(Item,IntegerParameter(3),9)/>
+<97>E803</97>
+Tausch: <Clickable(<SheetDe(ObjStr,5,IntegerParameter(1),1,1,1)/>)/>"
+13764,"Erhalten durch <Sheet(Item,IntegerParameter(1),9)/>
+<If(NotEqual(PlayerParameter(92),0))><Switch(PlayerParameter(92))><Case(1)><97>F63DEC88</97>
+Tausch: Quartiermeisterin</Case><Case(2)><97>F63CA772</97>
+Tausch: Quartiermeisterin</Case><Case(3)><97>F6379843</97>
+Tausch: Quartiermeisterin</Case></Switch><Else/>Tausch gegen Staatstaler</If>"
+13765,"Erhalten durch die App „FINAL FANTASY XIV COMPANION“"
+13766,"Erhalten bei Login mit aktivem Premium-Plan der App „FINAL FANTASY XIV COMPANION“"
+13767,"Erhalten durch <Sheet(Item,IntegerParameter(1),9)/>"
+13768,"Erhalten durch <Sheet(Item,IntegerParameter(1),9)/>"
+13769,"Erhalten durch <Sheet(Item,IntegerParameter(1),9)/>
+Für die erste Rekrutierung durch die „Lade einen Freund ein“-Kampagne"
+13770,"Abschließen der Errungenschaft <Sheet(Achievement,IntegerParameter(1),1)/>"
 13771,"SAMMLERSTÜCKE EINTAUSCHEN"
 13772,""
 13773,"Gesamt"
@@ -12845,6 +13006,8 @@ Chance auf eine zusätzliche Erhöhung des Sammlerwerts, abhängig von der Exper
 14206,"Die HP-Kosten sind um 50 % reduziert."
 14207,"Das nächste Kommando wirkt zwei Schritte länger."
 14208,"Der Fortschritt steigt 1,5-fach schneller an."
+14209,"Benötigter Sammlerwert"
+14210,"<Value>IntegerParameter(1)</Value>"
 14350,"FREILASS-LISTE"
 14351,""
 14352,"Normal"
@@ -12882,6 +13045,25 @@ Es werden maximal 10 Ergebnisse angezeigt."
 14419," "
 14420,"Erneut mischen"
 14421,"Abgeschlossen!"
+14422,":"
+14423,"Astra"
+14424,"Umbra"
+14425,"Siegessterne<If(GreaterThan(IntegerParameter(1),0))>(Siegessträhnen-Bonus aktiv!)<Else/> </If>"
+14426,"<Highlight>StringParameter(1)</Highlight><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value><Else/></If><Switch(IntegerParameter(3))><Case(1)>☆☆☆</Case><Case(2)>★☆☆</Case><Case(3)>★★☆</Case><Case(4)>★★★</Case></Switch>　→　<Highlight>StringParameter(4)</Highlight><If(Equal(IntegerParameter(5),0))><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value><Else/></If><Switch(IntegerParameter(7))><Case(1)>☆☆☆</Case><Case(2)>★☆☆</Case><Case(3)>★★☆</Case><Case(4)>★★★</Case></Switch><Else/></If>"
+14427,"Kristallpunkte"
+14428,"<Value>IntegerParameter(1)</Value> → <Value>IntegerParameter(2)</Value>"
+14429,"Derzeitige Arena: <Sheet(PlaceName,IntegerParameter(1),0)/> (<If(Equal(IntegerParameter(4),0))><Time(IntegerParameter(2))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><Time(IntegerParameter(2))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> bis <Time(IntegerParameter(3))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue></If>)
+"
+14430,"Nächste Arena: <Sheet(PlaceName,IntegerParameter(1),0)/> (<If(Equal(IntegerParameter(4),0))><Time(IntegerParameter(2))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><Time(IntegerParameter(2))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> bis <Time(IntegerParameter(3))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue></If>)"
+14431,"Wähle die Spielregeln aus."
+14432,"Umgebungseffekte"
+14433,"Sets"
+14434,"Bestätigen"
+14435,"Abbrechen"
+14436,"Team Astra"
+14437,"Team Umbra"
+14438,"Team Astra"
+14439,"Team Umbra"
 14440,"Akademie-Lieferungen"
 14441,""
 14442,"Vergütung"
@@ -12896,8 +13078,301 @@ Es werden maximal 10 Ergebnisse angezeigt."
 14472,"Projektion 2"
 14475,"Bis St. <Value>IntegerParameter(1)</Value>"
 14476,"Ab St. <Value>IntegerParameter(1)</Value>"
-14477,"NPC-Limitierung"
-14478,"Aufgrund der NPC-Limitierung können dich einige NPCs nicht in bestimmte Dungeons begleiten."
+14494,"<Value>IntegerParameter(1)</Value> Sek. bis zur Aufhebung der Barriere!"
+14495,"<Value>IntegerParameter(1)</Value> Sek. bis zur Eruption!"
+14496,"<Value>IntegerParameter(1)</Value> Sek. bis zum Ende der Eruption."
+14497,"<Value>IntegerParameter(1)</Value> Sek. bis zur Turbulenz!"
+14498,"<Value>IntegerParameter(1)</Value> Sek. bis zum Ende der Turbulenz."
+14620,"TRAUMGARDEROBE"
+14621,""
+14622,"In den Filtereinstellungen kann man festlegen, welche Gegenstände in der Traumgarderobe angezeigt werden. Die vorgenommenen Filtereinstellungen werden beim Schließen des Fensters automatisch wieder zurückgesetzt."
+14623,"FILTEREINSTELLUNGEN"
+14624,""
+14625,"Alle Gegenstände"
+14626,"Sets"
+14627,"Einzelstücke"
+14628,"Unisex"
+14629,"Herren"
+14630,"Damen"
+14631,"Färbbar"
+14632,"Nicht färbbar"
+14633,"Waffen und Werkzeuge"
+14634,"Kopf"
+14635,"Rumpf"
+14636,"Beine"
+14637,"Füße"
+14638,"Halsketten"
+14639,"Ohrringe"
+14640,"Ringe"
+14641,"Übernehmen"
+14642,"Abbrechen"
+14643,"Zum Online Store"
+14644,"KATEGORIE"
+14645,"PRODUKTE"
+14646,"VORSCHAU"
+14647,"NEU"
+14648,"Keine Gegenstände"
+14649,"Die Traumgarderobe wird geschlossen. Fortfahren?"
+14650,"Portraits"
+14651,"βeta-Version"
+14652,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
+14653,"Charakter"
+14654,"Verzierungen"
+14655,"バックグラウンド"
+14656,"フレーム"
+14657,"オーナメント"
+14658,"Abenteurerpass anzeigen"
+14659,"Anleitung zu Portraits anzeigen"
+14660,"Das ausgewählte Portrait wirklich löschen?"
+14661,"Portrait bearbeiten"
+14662,"Für den Abenteurerpass verwenden"
+14663,"Mit Ausrüstungsset verknüpfen"
+14664,"Nach oben bewegen"
+14665,"Nach unten bewegen"
+14666,"Ganz nach oben bewegen"
+14667,"Ganz nach unten bewegen"
+14668,"Portrait löschen"
+14669,"Neues Portrait"
+14670,"Aus dem Hauptportrait erstellen"
+14671,"Aus dem Schnellportrait erstellen"
+14672,"Das ausgewählte Portrait auf den Abenteurerpass anwenden?"
+14673,"Portrait mit Ausrüstungsset verknüpfen"
+14674,"Wenn du zu dem ausgewählten Ausrüstungsset wechselst, wird dieses Portrait automatisch als dein Schnellportrait ausgewählt. Schnellportraits werden anderen Teilnehmern zu Beginn einer Partie Crystalline Conflict angezeigt."
+14675,"Verknüpftes Ausrüstungsset"
+14676,"Portrait mit Ausrüstungsset verknüpfen"
+14677,"Wenn du zu dem ausgewählten Ausrüstungsset wechselst, wird dieses Portrait automatisch als dein Schnellportrait ausgewählt. Schnellportraits werden anderen Teilnehmern zu Beginn einer Partie Crystalline Conflict angezeigt."
+14678,"Verknüpftes Ausrüstungsset"
+14679,"Namen ändern"
+14680,"Gib einen Namen für das gewählte Portrait ein."
+14681,"Portrait bearbeiten"
+14682,"βeta-Version"
+14683,"Speichern"
+14684,"Gestaltung"
+14685,"Charakter"
+14686,"Vorlage"
+14687,"Hintergrund"
+14688,"Rahmen"
+14689,"Verzierung"
+14690,"Pose und Bewegung"
+14691,"Ge<SoftHyphen/>sichts<SoftHyphen/>aus<SoftHyphen/>druck"
+14692,"Umgebungslicht"
+14693,"Gerichtete Beleuchtung"
+14694,"Helligkeit"
+14695,"Horizontalwinkel"
+14696,"Vertikalwinkel"
+14697,"Hintergründe"
+14698,"Rahmen"
+14699,"Verzierungen"
+14700,"Posen"
+14701,"Gesichtsausdrücke"
+14702,"Individuell"
+14703,"Wenn du das Fenster schließt, ohne die Änderungen zu speichern, gehen sie verloren. Wirklich schließen?"
+14704,"Bewegung ausführen"
+14705,"Bewegung pausieren"
+14706,"Kopf zur Kamera drehen"
+14707,"In die Kamera blicken"
+14708,"Kamera zurücksetzen"
+14709,"Kopf zurücksetzen"
+14710,"Blick zurücksetzen"
+14711,"Zoom"
+14712,"Rotation"
+14713,"Liste aller Hintergründe "
+14714,"Liste aller Rahmen "
+14715,"Liste aller Verzierungen "
+14716,"Liste aller Posen und Bewegungen "
+14717,"Liste aller Gesichtsausdrücke"
+14718,"Alle"
+14719,"Erhalten"
+14720,"Nicht erhalten"
+14721,"Alle"
+14722,"Emotes"
+14723,"Kommandos"
+14724,"Andere"
+14725,"Als Schnellportait verwenden"
+14726,"Das ausgewählte Portait als dein Schnellportrait verwenden?"
+14727,"Nicht festgelegt"
+14728,"Bestätigen"
+14729,"Abbrechen"
+14730,"<If(Equal(PlayerParameter(80),0))> Linke Taste ziehen: Kamera rotieren  Rechte Taste ziehen: Charakter bewegen  Rad nach vorne/hinten: Kamera zoomen<Else/><CommandIcon(23)/> Kamera rotieren <CommandIcon(20)/> Charakter bewegen <CommandIcon(12)/>+<CommandIcon(24)/> Kamera zoomen <CommandIcon(11)/> Kopf zur Kamera ausrichten <CommandIcon(13)/> Bewegung anhalten</If>"
+14731,"Umgebungslicht zurücksetzen"
+14732,"Gerichtete Beleuchtung zurücksetzen"
+14733,"Bearbeiten"
+14734,"Hier kannst du deine eigenen Portraits erstellen und mit vielerlei Einstellungen individuell gestalten. Dafür stehen dir neben Emotes und Posen auch jede Menge Hintergründe, Rahmen und andere Verzierungen zur Verfügung.
+Fertige Portraits lassen sich als Profilbild für deinen Abenteurerpass, oder aber als Schnellportrait für die Teilnehmeranzeige beim Crystalline Conflict einstellen.
+Lass deiner Kreativität freien Lauf und setze deinen Charakter mit den zahlreichen Kombinationsmöglichkeiten in Szene!
+※ Mehr über die einzelnen Funktionen erfährst du in den Hilfetexten."
+14735,"Deine Ausrüstung entspricht nicht mehr dem Set, für das dieses Portrait erstellt wurde. Bitte aktualisiere das Schnellportrait mit der momentanen Ausrüstung."
+14736,"Das Portrait wird mit deiner momentanen Ausrüstung aktualisiert. Fortfahren?"
+14800,"<Sheet(InstanceContent,IntegerParameter(1),3)/> mit anderen Spielern betreten"
+14801,"<Sheet(ContentFinderCondition,IntegerParameter(1),38)/> mit NPCs betreten"
+14802,"Verfügbare Mitglieder"
+14803,"<If(GreaterThan(IntegerParameter(1),0))>Ø Gegen<SoftHyphen/>stands<SoftHyphen/>stufe: min.  <Value>IntegerParameter(1)</Value><Else/></If><If(GreaterThan(IntegerParameter(2),0))>
+Anpassung auf:  <Value>IntegerParameter(2)</Value><Else/></If>"
+14804,"INHALTSHELFER"
+14805,""
+14806,"Vergütung"
+14807,"Information"
+14808,"Erklärung anzeigen"
+14809,"ERKLÄRUNG"
+14810,""
+14811,"INHALTSSUCHE-HILFE"
+14812,""
+14813,"Erklärung zur Inhaltssuche anzeigen"
+14814,"Austauschbare Gruppe"
+14851,"REISEKODEX"
+14852,""
+14853,"Alle"
+14854,"Personen"
+14855,"Begriffe"
+14856,"Daten werden abgerufen."
+14857,"<CommandIcon(24)/>詳細情報のスクロール"
+14860,"Serienstufe:"
+14861,"TOTAL:<Value>IntegerParameter(1)</Value>"
+14862,"Nächste: <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value><Else/>--/--</If>"
+14863,"Crystalline Conflict"
+14864,"Freie Spiele"
+14865,"Gewertete Spiele"
+14866,"Serien-Malmensteine"
+14867,"Siege:"
+14868,"<Switch(IntegerParameter(1))><Case(1)>☆☆☆</Case><Case(2)>★☆☆</Case><Case(3)>★★☆</Case><Case(4)>★★★</Case></Switch>"
+14869,"<Format(IntegerParameter(1),FF022E)/>/<Format(IntegerParameter(2),FF022E)/>"
+14870,"Team Astra gewinnt!"
+14871,"Team Umbra gewinnt!"
+14872,"Team Astra"
+14873,"Team Umbra"
+14874,"Fortschritt:"
+14875,"Zeit"
+14876,"Serien-Routine"
+14877,"S: <Value>IntegerParameter(1)</Value>"
+14878,"K: <Value>IntegerParameter(1)</Value>"
+14879,"U: <Value>IntegerParameter(1)</Value>"
+14880,"Start"
+14881,"Verdient"
+14882,"Entgegengenommen"
+14883,"Nächste"
+14884,"Schließen"
+14885,"Vorherige Serie"
+14886,"Aktuelle Serie"
+14887,"Du musst noch immer die Belohnungen der vorherigen Serie entgegennehmen.
+* Bis zum Begin der nächsten Serie verfügbar."
+14888,"Belohnung entgegennehmen?"
+14889,"Ja"
+14890,"Nein"
+14891,"∞"
+14892,"Siegessträhne!"
+14893,"Neuer Kristallpunkte-Rekord!"
+14894,"Bronze"
+14895,"Silber"
+14896,"Gold"
+14897,"Platin"
+14898,"Diamant"
+14899,"Kristall"
+14900,"Serie <Value>IntegerParameter(1)</Value>"
+14901,"Serien-Malmensteine"
+14902,""
+14903,"Charakterdaten konnten nicht abgerufen werden."
+14950,"Zeigt den momentanen Status der Auslosung an."
+14990,"Helfer-Kommandomenü sortieren"
+14991,""
+14992,"Kreuzkommandomenü"
+14993,"Kommandomenü"
+14994,"Zurücksetzen"
+14995,"Speichern"
+14996,"Abbrechen"
+14997,"Soll die Sortierung auf die Anfangseinstellung zurückgesetzt werden?"
+14998,"Die vorgenommenen Einstellungen gehen verloren. Bist du damit einverstanden?"
+15000,"<Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),ObjectParameter(0)))><Else/> [<Sheet(WorldDCGroupType,IntegerParameter(2),WORLDDCGROUPTYPE_NAME)/>]</If>"
+15001,"Profil anzeigen"
+15002,"Pass bearbeiten"
+15003,"Profil bearbeiten"
+15004,"Einstellungen zur Privatsphäre"
+15005,"Profil bearbeiten"
+15006,""
+15007,"Bevorzugte Klasse/Job"
+15008,"Bevorzugter Titel"
+15009,"Spielstil"
+15010,"Spielzeiten"
+15011,"Wochentags"
+15012,"Wochenende"
+15013,"Änderungen verwerfen und Fenster schließen?"
+15014,"Pass bearbeiten"
+15015,""
+15016,"Speichern"
+15017,"Schließen"
+15018,"Gestaltung bearbeiten"
+15019,"Speichern/Laden"
+15020,"Voreinstellung"
+15021,"Grundpass"
+15022,"Muster"
+15023,"Rückseite"
+15024,"Oberer Rand"
+15025,"Unterer Rand"
+15026,"Portraitrahmen"
+15027,"Passrahmen"
+15028,"Verzierung"
+15029,"Layout"
+15030,"Normal"
+15031,"Gespiegelt"
+15032,"Gestaltung speichern/laden"
+15033,"Grundpass wählen"
+15034,"Muster wählen"
+15035,"Rückseite wählen"
+15036,"Oberen Rand wählen"
+15037,"Unteren Rand wählen"
+15038,"Portraitrahmen wählen"
+15039,"Passrahmen wählen"
+15040,"Verzierung wählen"
+15041,"Änderungen verwerfen und Fenster schließen?"
+15042,"Individuell"
+15043,"Liste aller Grundpässe"
+15044,"Liste aller Muster"
+15045,"Liste aller Rückseiten"
+15046,"Liste aller oberen Ränder"
+15047,"Liste aller unteren Ränder"
+15048,"Liste aller Portraitrahmen"
+15049,"Liste aller Passrahmen"
+15050,"Liste aller Verzierungen"
+15051,"Alle"
+15052,"Erhalten"
+15053,"Nicht erhalten"
+15054,"Überschreiben und speichern"
+15055,"Umbenennen"
+15056,"Löschen"
+15057,"<Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>"
+15058,"Gib einen Namen für den gewählten Slot ein."
+15059,"Änderungen verwerfen und Fenster schließen?"
+15060,"Einstellungen zur Privatsphäre"
+15061,""
+15062,"Sichtbar für:"
+15063,"Freunde"
+15065,"Diese Einstellung bestimmt, wer deinen Abenteurerpass ansehen kann.
+
+„Alle“ erlaubt es allen Spielern, ihn anzusehen, während „Freunde“ nur Spieler zulässt, die auf deiner Freundesliste stehen. Wählst du „Niemand“, kannst nur du deinen Abenteurerpass sehen."
+15066,"Wähle deine bevorzugte Klasse/Job, um sie auf deinem Pass anzeigen zu lassen."
+15067,"Wähle deinen bevorzugten Titel, um ihn auf deinem Pass anzeigen zu lassen."
+15068,"Wähle deine bevorzugten Spielstile, um sie auf deinem Pass anzeigen zu lassen."
+15069,"STUFE <Value>IntegerParameter(1)</Value>"
+15070,"Wochentags"
+15071,"Wochenende"
+15072,"<Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue> <Switch(IntegerParameter(3))><Case(1)> </Case><Case(2)>a.m.</Case><Case(3)> p.m.</Case></Switch>"
+15073,"Momentane Klasse/Job"
+15074,"Speichern"
+15075,"Schließen"
+15076,"Bestätigen"
+15077,"Abbrechen"
+15078,"Bevorzugte Klasse/Job"
+15079,""
+15080,"Spielstil"
+15081,""
+15082,"Hilfe"
+15083,"Abenteurerpass anzeigen"
+15084,"Der Abenteurerpass erlaubt es dir, Informationen über dich und deinen Charakter auf einem von dir gestalteten Profil zu teilen. Auch die Pässe anderer Spieler kannst du dir über das Untermenü in der Freundesliste oder beim Anwählen ansehen.
+※ Dein Abenteurerpass ist im Moment privat. Ändere deine Privatsphäre-Einstellungen, um ihn für andere Spieler sichtbar zu machen."
+15085,"<Gui(63)/><Highlight>StringParameter(1)</Highlight>"
+15086,"<If(Equal(PlayerParameter(80),0))> Untermenü<Else/><CommandIcon(10)/> Untermenü</If>"
+15087,"Alle"
+15088,"Niemand"
+15089,"Design-Einstellungen öffnen"
 101000,"<CommandIcon(10)/> Untermenü"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Auswählen"
@@ -13321,7 +13796,7 @@ Dieser Ätheryt ist als kostenpflichtiger Favorit gespeichert. Möchtest du ihn 
 102451,""
 102452,"Wolfshöhle"
 102453,"PvP-Kommandos"
-102454,"Rang: "
+102454,"PvP-Rang: "
 102455,"Gesamt: <Format(IntegerParameter(1),FF022E)/>"
 102456,"Nächster: <If(GreaterThan(IntegerParameter(2),0))><Format(IntegerParameter(1),FF022E)/>/<Format(IntegerParameter(2),FF022E)/><Else/>--/--</If>"
 102457,"Gesamt-Kommandopunkte:"

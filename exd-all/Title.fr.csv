@@ -624,3 +624,25 @@ int32,str,str,bit&01,uint16
 620,"Régulier du Ludodrome","Régulière du Ludodrome",False,1686
 621,"Champion du Ludodrome","Championne du Ludodrome",False,1687
 622,"Maître des aléas du destin","Maîtresse des aléas du destin",False,1688
+623,"L'Arbitre","L'Arbitre",False,1689
+624,"Médaillé de bronze","Médaillée de bronze",False,1690
+625,"Médaillé d'argent","Médaillée d'argent",False,1691
+626,"Médaillé d'or","Médaillée d'or",False,1692
+627,"Médaillé de platine","Médaillée de platine",False,1693
+628,"Médaillé de diamant","Médaillée de diamant",False,1694
+629,"Médaillé de cristal","Médaillée de cristal",False,1695
+630,"Légende conflictuelle","Légende conflictuelle",False,1696
+631,"Histoire conflictuelle","Histoire conflictuelle",False,1697
+632,"Parcours conflictuel","Parcours conflictuel",False,1698
+633,"","",False,0
+634,"","",False,0
+635,"","",False,0
+636,"","",False,0
+637,"Aventurier de nouveaux horizons","Aventurière de nouveaux horizons",False,1703
+638,"L'aide lénificatrice","L'aide lénificatrice",False,1704
+639,"Samouraï Makai","Samouraï Makai",False,1705
+640,"Mage rouge Makai","Mage rouge Makai",False,1706
+641,"Pistosabreur Makai","Pistosabreuse Makai",False,1707
+642,"Danseur Makai","Danseuse Makai",False,1708
+643,"Faucheur Makai","Faucheuse Makai",False,1709
+644,"Sage Makai","Sage Makai",False,1710
