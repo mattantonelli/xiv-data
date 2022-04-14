@@ -1,5 +1,4 @@
 @echo off
-SETLOCAL EnableDelayedExpansion
 
 SET GAMEPATH="C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online"
 SET REPOPATH="C:\Users\Matt\Documents\Code\xiv-data"
@@ -27,12 +26,19 @@ ECHO [%TIME%] Compressing images...
 
 ECHO Processing music...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "bgm bgm_ride bgm_orch"
-for %%f in (%DATAPATH%\music\ffxiv\*.ogg) do %FFMPEG% -y -i "%%f" -t 00:00:15.0 -b:a 32k -ar 22050 -loglevel quiet "%DATAPATH%\music\%%~nf.ogg"
+
 for %%f in (%DATAPATH%\music\ffxiv\Orchestrion\*.ogg) do (
+  set input="%%f"
+
+  rem We need to enable delayed expansion AFTER setting the input variable or it will eat the !'s
+  SETLOCAL EnableDelayedExpansion
   set name=%%~nf
   set name=!name:~0,12!
-  %FFMPEG% -y -i "%%f" -ss 00:00:10.0 -t 00:00:15.0 -b:a 32k -ar 22050 -loglevel quiet "%DATAPATH%\music\!name!.ogg"
+  set output="%DATAPATH%\music\!name!.ogg"
+  %FFMPEG% -y -i !input! -ss 00:00:10.0 -t 00:00:15.0 -b:a 32k -ar 22050 -loglevel quiet !output!
+  ENDLOCAL
 )
+
 rmdir /S /Q %DATAPATH%\music\ffxiv
 
 ECHO [%TIME%] Compressing music...
