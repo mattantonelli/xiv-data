@@ -13493,7 +13493,7 @@ Le menu d'aide vous apportera plus de détails quant aux multiples options de pe
 15069,"NIVEAU <Value>IntegerParameter(1)</Value>"
 15070,"Semaine"
 15071,"Week-end"
-15072,"<Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue> <Switch(IntegerParameter(3))><Case(1)> </Case><Case(2)>a.m.</Case><Case(3)> p.m.</Case></Switch>"
+15072,"<If(Equal(IntegerParameter(3),1))><Value>IntegerParameter(1)</Value><Else/><If(Equal(IntegerParameter(1),0))>12<Else/><Value>IntegerParameter(1)</Value></If></If>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue> <Switch(IntegerParameter(3))><Case(1)></Case><Case(2)>a.m.</Case><Case(3)>p.m.</Case></Switch>"
 15073,"Classe/Job actuel"
 15074,"Sauvegarder"
 15075,"Fermer"

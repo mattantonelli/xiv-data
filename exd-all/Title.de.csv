@@ -637,7 +637,7 @@ int32,str,str,bit&01,uint16
 633,"","",False,0
 634,"","",False,0
 635,"","",False,0
-636,"","",False,0
+636,"der Himmelsbändiger","die Himmelsbändigerin",False,1702
 637,"Neu entdeckter Abenteurer","Neu entdeckte Abenteurerin",True,1703
 638,"Herr seiner Domäne","Herrin ihrer Domäne",True,1704
 639,"Makai-Samurai","Makai-Samurai",True,1705

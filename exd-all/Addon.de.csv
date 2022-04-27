@@ -6779,8 +6779,8 @@ Löscht alle vorhandenen Themen und verteilt dafür neue."
 7520,"Ziel bei Ausführung einer Attacke automatisch anvisieren"
 7523,"Untermenü zurücksetzen"
 7524,"Art des automatischen Anvisierens"
-7525,"Den Gegner in direkter Sichtlinie"
-7526,"Den nächsten Gegner"
+7525,"Direkte Sichtlinie"
+7526,"Nächster Gegner"
 7527,"Änderungen für diesen Modus verwerfen und Modus wechseln?"
 7528,"Ja"
 7529,"Nein"
@@ -10449,9 +10449,9 @@ Motivation aller Teammitglieder ist erhöht."
 (Die Zahl kann durch das Zerstören von Türmen gesteigert werden.)</Case></Switch>"
 11393,"Stahlschwingen"
 11394,"Kämpfe insgesamt:"
-11395,"Gewonnen insgesamt:"
+11395,"Davon gewonnen:"
 11396,"Kämpfe diese Woche:"
-11397,"Gewonnen diese Woche:"
+11397,"Davon gewonnen:"
 11398,"Mit den Falken alliiert"
 11399,"Kämpfen im <If(Equal(IntegerParameter(1),0))>Norden<Else/>Süden</If>!"
 11400,"FALLE DER VERLOCKUNG"
@@ -11537,20 +11537,20 @@ Wirklich fortfahren?"
 12514,"<If(Equal(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Reise zwischen Datenzentren<UIForeground>01</UIForeground>
 Die Reise zwischen den Datenzentren erlaubt es dir, Welten außerhalb deines Datenzentrums zu besuchen und dort auf ihnen zu spielen. Zusätzlich zu den Bedingungen der gewöhnlichen Weltenreise gibt es für die Reise auf ein anderes Datenzentrum einige spezifische Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
 
-<UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>
+<UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>:
 - Abhängig von der Auslastung der Zielwelt kann der Wechsel bis zu 30 Minuten dauern.
 - Hat der Reiseprozess begonnen, kann er nicht mehr abgebrochen werden. Während dieses Prozesses ist dein Account und all seine Charaktere kurzfristig gesperrt. Bis die Reise vollzogen ist, kannst du dich nicht einloggen.
 - Wählst du „Auf ein anderes Datenzentrum reisen“, kehrst du zum Titelbildschirm zurück. Sobald der Prozess abgeschlossen ist, wähle ein Datenzentrum und logge dich erneut ein.
 - Andere Charaktere auf deiner Stammwelt können weder einloggen noch andere Funktionen nutzen, bis du von der Reise in ein anderes Datenzentrum zurückgekehrt bist.
 - Charaktere, die sich auf der Reise in ein anderes Datenzentrum befinden, können nicht direkt zu einem dritten Datenzentrum reisen. Sie müssen vorher in ihre Stamm-Datenzentrum zurückkehren.
 
-<Else/></If><If(LessThan(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Weltenreise<UIForeground>01</UIForeground>
+<Else/></If><If(LessThan(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Weltenreise<UIForeground>01</UIForeground>:
 <If(Equal(IntegerParameter(1),0))>Von deiner Stammwelt aus<Else/>Von deiner momentanen Welt aus</If> kannst du fremde Welten auf demselben Datenzentrum besuchen und dort wie gewohnt mit Freunden Gruppen bilden, Gegenstände einkaufen und alle Inhalte spielen.
 
-<UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>
+<UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>:
 Abhängig von der Auslastung der Zielwelt dauert der Wechsel unter Umständen etwas länger. Sobald alles für den Wechsel bereit ist, wird der Teleport durchgeführt. Dabei werden alle laufenden Aktionen abgebrochen.
 
-<Else/></If><UIForeground>F20202</UIForeground>Ein<SoftHyphen/>schrän<SoftHyphen/>kungen auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If><UIForeground>01</UIForeground>
+<Else/></If><UIForeground>F20202</UIForeground>Ein<SoftHyphen/>schrän<SoftHyphen/>kungen auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If><UIForeground>01</UIForeground>:
 <If(Equal(IntegerParameter(1),1))>Du befindest dich momentan in einem anderen Datenzentrum als das deiner Stammwelt. <Else/></If>Auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If> gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
 
 
@@ -11572,13 +11572,13 @@ Abhängig von der Auslastung der Zielwelt dauert der Wechsel unter Umständen et
 - Die Details zu Kontaktkreisen können nicht angezeigt werden.
 - Besucher können keine Kontaktkreise anlegen oder ihnen beitreten.
 
-if([lnum1>0],<UIForeground>F20202</UIForeground>PvP-Teams<UIForeground>01</UIForeground>
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>PvP-Teams<UIForeground>01</UIForeground>:
 - Die Funktionen des PvP-Teams sind eingeschränkt, inklusive des Chats.
 
-<UIForeground>F20202</UIForeground>Zirkel<UIForeground>01</UIForeground>
+<UIForeground>F20202</UIForeground>Zirkel<UIForeground>01</UIForeground>:
 - Es können keinerlei Funktionen des Zirkels genutzt werden, mit Ausnahme der Zirkelsuche.
 
-,)><UIForeground>F20202</UIForeground>Gehilfen<UIForeground>01</UIForeground>:
+<Else/></If><UIForeground>F20202</UIForeground>Gehilfen<UIForeground>01</UIForeground>:
 - Gehilfen können nicht gerufen, angestellt oder entlassen werden.
 - Gehilfen können keine Gegenstände auf dem Markt anbieten (Gegenstände können auf dem Markt gekauft werden).
 
@@ -11586,7 +11586,7 @@ if([lnum1>0],<UIForeground>F20202</UIForeground>PvP-Teams<UIForeground>01</UIFor
 - Grundstücke und Wohnungen können nicht erworben werden.
 - Wohngemeinschaften können nicht gegründet oder genutzt werden.
 
-<UIForeground>F20202</UIForeground>Ewigen Bund<UIForeground>01</UIForeground>:
+<UIForeground>F20202</UIForeground>Ewiger Bund<UIForeground>01</UIForeground>:
 - Die Zeremonie des Ewigen Bundes kann nur auf der Stammwelt durchgeführt werden.
 - Die Aufträge zum Ewigen Bund können nur auf der Stammwelt angenommen werden.
 - Spieler aus fremden Welten können nicht zur Zeremonie eingeladen werden.
@@ -13188,7 +13188,7 @@ Es werden maximal 10 Ergebnisse angezeigt."
 14722,"Emotes"
 14723,"Kommandos"
 14724,"Andere"
-14725,"Als Schnellportait verwenden"
+14725,"Als Schnellportrait verwenden"
 14726,"Das ausgewählte Portait als dein Schnellportrait verwenden?"
 14727,"Nicht festgelegt"
 14728,"Bestätigen"
@@ -13253,7 +13253,7 @@ Anpassung auf:  <Value>IntegerParameter(2)</Value><Else/></If>"
 14884,"Schließen"
 14885,"Vorherige Serie"
 14886,"Aktuelle Serie"
-14887,"Du musst noch immer die Belohnungen der vorherigen Serie entgegennehmen.
+14887,"Nimm erst die vorherigen Belohnungen entgegen.
 * Bis zum Begin der nächsten Serie verfügbar."
 14888,"Belohnung entgegennehmen?"
 14889,"Ja"
@@ -13354,7 +13354,7 @@ Anpassung auf:  <Value>IntegerParameter(2)</Value><Else/></If>"
 15069,"STUFE <Value>IntegerParameter(1)</Value>"
 15070,"Wochentags"
 15071,"Wochenende"
-15072,"<Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue> <Switch(IntegerParameter(3))><Case(1)> </Case><Case(2)>a.m.</Case><Case(3)> p.m.</Case></Switch>"
+15072,"<If(Equal(IntegerParameter(3),1))><Value>IntegerParameter(1)</Value><Else/><If(Equal(IntegerParameter(1),0))>12<Else/><Value>IntegerParameter(1)</Value></If></If>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue> <Switch(IntegerParameter(3))><Case(1)></Case><Case(2)>a.m.</Case><Case(3)>p.m.</Case></Switch>"
 15073,"Momentane Klasse/Job"
 15074,"Speichern"
 15075,"Schließen"

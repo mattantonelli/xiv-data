@@ -3099,7 +3099,7 @@ int32,AchievementCategory,str,str,AchievementTarget,byte,byte,Title,Item,byte,by
 3071,49,"Mapping the Realm: Aglaia","Discover every location within Aglaia.",0,0,10,0,0,255,255,0,1001,1,8,755,0,0,0,0,0,0,0,0,1507,65,0
 3072,3,"Silence Is Golden","Defeat the Endsinger in the Minstrel's Ballad: Endsinger's Aria.",0,0,10,0,0,255,255,0,317,1,14,20083,0,0,0,0,0,0,0,0,36,1,0
 3073,4,"Divine Intervention","Complete Aglaia.",0,0,5,0,0,255,255,0,2669,1,14,30115,0,0,0,0,0,0,0,0,0,65,0
-3074,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3074,4,"As Suits a Hero","Complete Dragonsong's Reprise (Ultimate).",43,90,10,636,0,255,255,0,317,1,14,30106,0,0,0,0,0,0,0,0,0,1,0
 3075,35,"Newfound Adventure","Complete the main scenario quest “A Satrap's Duty.”",43,90,20,637,0,255,255,0,26002,1,6,70071,0,0,0,0,0,0,0,0,81,63,0
 3076,35,"Sum of Our Parts","Complete the quest “Forlorn Glory.”",0,0,10,638,0,255,255,0,2698,1,6,70118,0,0,0,0,0,0,0,0,633,63,0
 3077,34,"Go Big Till the End I","Catch 7 different varieties of big fish in areas explored during Endwalker.",0,0,10,0,0,255,255,0,1102,1,1,1000,7,0,0,0,0,0,0,0,106,1,0
