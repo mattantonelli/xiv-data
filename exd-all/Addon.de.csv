@@ -11541,18 +11541,17 @@ Die Reise zwischen den Datenzentren erlaubt es dir, Welten außerhalb deines Dat
 - Abhängig von der Auslastung der Zielwelt kann der Wechsel bis zu 30 Minuten dauern.
 - Hat der Reiseprozess begonnen, kann er nicht mehr abgebrochen werden. Während dieses Prozesses ist dein Account und all seine Charaktere kurzfristig gesperrt. Bis die Reise vollzogen ist, kannst du dich nicht einloggen.
 - Wählst du „Auf ein anderes Datenzentrum reisen“, kehrst du zum Titelbildschirm zurück. Sobald der Prozess abgeschlossen ist, wähle ein Datenzentrum und logge dich erneut ein.
-- Andere Charaktere auf deiner Stammwelt können weder einloggen noch andere Funktionen nutzen, bis du von der Reise in ein anderes Datenzentrum zurückgekehrt bist.
-- Charaktere, die sich auf der Reise in ein anderes Datenzentrum befinden, können nicht direkt zu einem dritten Datenzentrum reisen. Sie müssen vorher in ihre Stamm-Datenzentrum zurückkehren.
+- Andere Charaktere auf deiner Stammwelt können weder einloggen noch andere Funktionen nutzen, bis du von der Reise auf ein anderes Datenzentrum zurückgekehrt bist.
+- Charaktere, die sich auf einem anderen Datenzentrum befinden, können nicht direkt zu einem dritten Datenzentrum reisen. Sie müssen vorher auf ihr Stamm-Datenzentrum zurückkehren.
 
 <Else/></If><If(LessThan(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Weltenreise<UIForeground>01</UIForeground>:
-<If(Equal(IntegerParameter(1),0))>Von deiner Stammwelt aus<Else/>Von deiner momentanen Welt aus</If> kannst du fremde Welten auf demselben Datenzentrum besuchen und dort wie gewohnt mit Freunden Gruppen bilden, Gegenstände einkaufen und alle Inhalte spielen.
+- <If(Equal(IntegerParameter(1),0))>Von deiner Stammwelt aus<Else/>Von deiner momentanen Welt aus</If> kannst du fremde Welten auf demselben Datenzentrum besuchen und dort wie gewohnt mit Freunden Gruppen bilden, Gegenstände einkaufen und alle Inhalte spielen.
 
 <UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>:
-Abhängig von der Auslastung der Zielwelt dauert der Wechsel unter Umständen etwas länger. Sobald alles für den Wechsel bereit ist, wird der Teleport durchgeführt. Dabei werden alle laufenden Aktionen abgebrochen.
+- Abhängig von der Auslastung der Zielwelt dauert der Wechsel unter Umständen etwas länger. Sobald alles für den Wechsel bereit ist, wird der Teleport durchgeführt. Dabei werden alle laufenden Aktionen abgebrochen.
 
 <Else/></If><UIForeground>F20202</UIForeground>Ein<SoftHyphen/>schrän<SoftHyphen/>kungen auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If><UIForeground>01</UIForeground>:
-<If(Equal(IntegerParameter(1),1))>Du befindest dich momentan in einem anderen Datenzentrum als das deiner Stammwelt. <Else/></If>Auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If> gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
-
+- <If(Equal(IntegerParameter(1),1))>Du befindest dich momentan auf einem anderen Datenzentrum als das deiner Stammwelt. <Else/></If>Auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If> gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
 
 <If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Freunde<UIForeground>01</UIForeground>:
 - Du kannst nicht mit Freunden sprechen, die sich auf einem anderen Datenzentrum befinden.

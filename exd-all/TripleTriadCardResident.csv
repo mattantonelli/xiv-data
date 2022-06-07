@@ -349,8 +349,8 @@ int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint1
 345,344,10,10,5,3,"TripleTriadCardRarity#5","Primal",1500,42,330,0,True,3,"The Mothercrystal",,"Her Children, One and All"
 346,345,6,9,9,6,"TripleTriadCardRarity#5","Garlean",0,43,331,0,True,11,"Triple-decker XI",,"Endwalker"
 347,346,1,5,1,6,"TripleTriadCardRarity#1","",100,43,333,0,False,3,"Alzadaal's Legacy",,"Alzadaal's Legacy"
-348,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-349,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+348,347,1,7,4,1,"TripleTriadCardRarity#1","",100,43,341,0,False,6,"Ghasa","Level#9173588"," Leader to Leader"
+349,348,4,4,4,7,"TripleTriadCardRarity#2","Beastman",300,43,342,0,False,10,"Ghanta","Level#9160432"," Hippo Healing"
 350,349,6,1,7,8,"TripleTriadCardRarity#3","",500,43,334,0,False,6,"Prudence","Level#9230548","The Face of an Explorer"
 351,350,7,1,8,6,"TripleTriadCardRarity#3","",500,43,335,0,False,6,"Prudence","Level#9230548","The Face of an Explorer"
 352,351,8,6,7,1,"TripleTriadCardRarity#3","",500,43,336,0,False,2,"Aglaia",,"The Realm of the Gods"

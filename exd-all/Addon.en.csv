@@ -11622,31 +11622,55 @@ Please bear this in mind before choosing to reset."
 12511,""
 12512,"Home World"
 12513,"Available Destinations"
-12514,"<UIForeground>F20202</UIForeground>The World Visit System<UIForeground>01</UIForeground>
-You may now visit other World servers in your data center to party with friends, purchase items, and tackle duties.
+12514,"<If(Equal(IntegerParameter(1),2))>　　　　　　　　　　<UIForeground>F20202</UIForeground>Data Center Travel System<UIForeground>01</UIForeground>
+The Data Center Travel system is an extension of the World Visit system, and allows you to temporarily visit Worlds in other data centers. Certain restrictions apply to data center travel, including those dictated by the World Visit system.
 
-<UIForeground>F20202</UIForeground>Visiting Other Worlds<UIForeground>01</UIForeground>
-Depending on the congestion of the target World, it may take several minutes to complete the transfer. Transfers will occur automatically and cancel all current actions/duties.
+　　　　　　　<UIForeground>F20202</UIForeground>Visiting other Data Centers<UIForeground>01</UIForeground>
+　・Depending on server congestion, travel to other data centers may take up to thirty minutes.
+　・You may not cancel data center travel while it is in progress. Your account will be temporarily locked, preventing you from logging in with any character until travel has been completed.
+　・After submitting a Data Center Visit request, you will be returned to the title screen. Once travel has been successfully completed, select the appropriate data center and log in.
+　・Until you have returned from visiting another data center, you may not log in or perform other actions with characters in your Home World.
+　・You may only travel to other data centers from your Home Data Center. If you wish to travel to a data center different from the one you are currently visiting, you must first return to your Home Data Center and submit a Data Center Visit request from there.
 
-<UIForeground>F20202</UIForeground>Restrictions<UIForeground>01</UIForeground>
-The following restrictions apply when playing on servers other than your Home World:
+<Else/></If><If(LessThan(IntegerParameter(1),2))>　　　　　　　　　　<UIForeground>F20202</UIForeground>World Visit System<UIForeground>01</UIForeground>
+The World Visit System allows you to travel from <If(Equal(IntegerParameter(1),0))>your Home World<Else/>the World you are currently visiting</If> to different World servers within the same data center. While visiting different Worlds, you may party with friends, purchase items, tackle duties, and more.
 
-<UIForeground>F20202</UIForeground>Retainers<UIForeground>01</UIForeground>
-　・Retainers cannot be summoned, hired, or released from service
-　・Items cannot be put up to market (purchasing is available)
+　　　　　　　　　　<UIForeground>F20202</UIForeground>Visiting Other Worlds<UIForeground>01</UIForeground>
+Depending on the congestion of the target World, travel may take several minutes. Once preparations have been completed, travel will occur automatically and cancel all current actions/duties.
 
-<UIForeground>F20202</UIForeground>Free Companies<UIForeground>01</UIForeground>
+<Else/></If>　　　　　　　　　<UIForeground>F20202</UIForeground>Restrictions While Visiting <If(GreaterThan(IntegerParameter(1),0))>Other Data Centers<Else/>Other Worlds</If><UIForeground>01</UIForeground>
+<If(Equal(IntegerParameter(1),1))>You are currently outside your Home Data Center. <Else/></If>The following restrictions apply when playing <If(GreaterThan(IntegerParameter(1),0))>in another data center<Else/>on other World servers</If>:
+
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Friend List<UIForeground>01</UIForeground>
+　・Friends in different data centers cannot communicate
+　・Parties cannot be formed with friends in different data centers
+
+<Else/></If><UIForeground>F20202</UIForeground>Free Companies<UIForeground>01</UIForeground>
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
 
-<UIForeground>F20202</UIForeground>Linkshells<UIForeground>01</UIForeground>
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Cross-world Linkshells<UIForeground>01</UIForeground>
+　・Cross-world linkshells cannot be created
+　・Cross-world linkshell master privileges cannot be attained
+
+<Else/></If><UIForeground>F20202</UIForeground>Linkshells<UIForeground>01</UIForeground>
 　・Linkshells cannot be used
 　・Linkshell information cannot be viewed
 　・Linkshells cannot be created or joined
 
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>PvP Teams<UIForeground>01</UIForeground>
+　・All functions for PvP teams, including chat, are inaccessible
+
+<UIForeground>F20202</UIForeground>Fellowships<UIForeground>01</UIForeground>
+　・All functions for fellowships, excluding recruitment search, are inaccessible
+
+<Else/></If><UIForeground>F20202</UIForeground>Retainers<UIForeground>01</UIForeground>
+　・Retainers cannot be summoned, hired, or released from service
+　・Items cannot be put up to market (but can be purchased)
+
 <UIForeground>F20202</UIForeground>Housing<UIForeground>01</UIForeground>
-　・Estates and apartments cannot be purchased
+　・Land and apartments cannot be purchased
 　・Residence sharing is unavailable
 
 <UIForeground>F20202</UIForeground>Eternal Bonding<UIForeground>01</UIForeground>
@@ -11655,7 +11679,8 @@ The following restrictions apply when playing on servers other than your Home Wo
 　・Others' ceremonies cannot be attended
 
 <UIForeground>F20202</UIForeground>Duties/Features<UIForeground>01</UIForeground>
-　・Lord of Verminion tournaments cannot be entered
+<If(GreaterThan(IntegerParameter(1),0))>　・PvP results will not influence ranking
+<Else/></If>　・Lord of Verminion tournaments cannot be entered
 　・Triple Triad tournaments cannot be entered
 　・Cactpot tickets cannot be purchased
 　・The Moogle Delivery Service is unavailable

@@ -634,9 +634,9 @@ int32,str,str,bit&01,uint16
 630,"Légende conflictuelle","Légende conflictuelle",False,1696
 631,"Histoire conflictuelle","Histoire conflictuelle",False,1697
 632,"Parcours conflictuel","Parcours conflictuel",False,1698
-633,"","",False,0
-634,"","",False,0
-635,"","",False,0
+633,"Héros des hippos","Héroïne des hippos",False,1699
+634,"Ami d'Ameliance","Amie d'Ameliance",False,1700
+635,"Défenseur de l'éducation","Défenseuse de l'éducation",False,1701
 636,"Légende d'azur","Légende d'azur",False,1702
 637,"Aventurier de nouveaux horizons","Aventurière de nouveaux horizons",False,1703
 638,"L'aide lénificatrice","L'aide lénificatrice",False,1704

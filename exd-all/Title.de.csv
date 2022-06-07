@@ -630,13 +630,13 @@ int32,str,str,bit&01,uint16
 626,"Goldträger","Goldträgerin",True,1692
 627,"Platinträger","Platinträgerin",True,1693
 628,"Diamantträger","Diamantträgerin",True,1694
-629,"Kristallträger","Kristallträgerin",True,1695
+629,"Hüter des Kristalls","Hüterin des Kristalls",True,1695
 630,"vom finalen Konflikt","vom finalen Konflikt",False,1696
 631,"vom endlosen Konflikt","vom endlosen Konflikt",False,1697
 632,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1698
-633,"","",False,0
-634,"","",False,0
-635,"","",False,0
+633,"Hipporaser","Hipporaserin",True,1699
+634,"Freund von Ameliance","Freundin von Ameliance",True,1700
+635,"Bildungsbefürworter","Bildungsbefürworterin",True,1701
 636,"der Himmelsbändiger","die Himmelsbändigerin",False,1702
 637,"Neu entdeckter Abenteurer","Neu entdeckte Abenteurerin",True,1703
 638,"Herr seiner Domäne","Herrin ihrer Domäne",True,1704

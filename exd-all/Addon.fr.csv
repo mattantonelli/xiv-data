@@ -158,7 +158,7 @@ int32,str
 150," "
 151,"Voulez-vous vraiment utiliser cet objet collectionnable<Indent/>?"
 152,"Jeter l'objet collectionnable"
-153,"<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Jeter <UIGlow>01</UIGlow><UIForeground>01</UIForeground><SheetFr(Item,2,IntegerParameter(1),1,1)/><UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><If(GreaterThan(IntegerParameter(2),0))> de valeur de collection <Value>IntegerParameter(2)</Value><Else/></If><Indent/>?<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+153,"<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Jeter <SheetFr(Item,2,IntegerParameter(1),1,1)/><If(GreaterThan(IntegerParameter(2),0))> de valeur de collection <Value>IntegerParameter(2)</Value><Else/></If><Indent/>?<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 154,"Baisser la qualité"
 155,"Baisser la qualité <If(Equal(IntegerParameter(2),1))><SheetFr(Item,9,IntegerParameter(1),1,1)/><Else/>des <Value>IntegerParameter(2)</Value> <SheetFr(Item,12,IntegerParameter(1),IntegerParameter(2),1)/></If> pour le résultat suivant<Indent/>?"
 156,"Baisser la qualité <SheetFr(Item,9,IntegerParameter(1),1,1)/> (valeur de collection <Value>IntegerParameter(2)</Value>) pour le résultat suivant<Indent/>?"
@@ -6697,7 +6697,7 @@ Appliquer quand même les changements<Indent/>?
 7040,"Maison de compagnie libre<Indent/>: <Switch(IntegerParameter(1))><Case(1)>Oui</Case><Case(2)>Non</Case></Switch>"
 7041,"Maison individuelle<Indent/>: <Switch(IntegerParameter(1))><Case(1)>Oui</Case><Case(2)>Non</Case></Switch>"
 7042," / "
-7043,"<Switch(IntegerParameter(1))><Case(1)>Vente au premier arrivé</Case><Case(2)>Vente par tirage au sort (nombre actuel de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants<Indent/>: <Value>IntegerParameter(2)</Value>)</Case></Switch>"
+7043,"<Switch(IntegerParameter(1))><Case(1)>Vente au premier arrivé</Case><Case(2)>Vente par tirage au sort (nombre actuel de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants<Indent/>: <Value>IntegerParameter(2)</Value>)</Case><Case(3)>En cours de traitement</Case></Switch>"
 7044,"<Switch(IntegerParameter(2))><Case(1)>Période de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion<Indent/>: jusqu'au <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> à <Value>TopLevelParameter(218)</Value>h<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue></Case><Case(2)>Période des résultats<Indent/>: jusqu'au <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> à <Value>TopLevelParameter(218)</Value>h<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue></Case></Switch>"
 7045,"Participer"
 7046,"Il n'est possible de participer qu'à un seul tirage au sort à la fois. Voulez-vous confirmer votre par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion à celui-ci pour la somme de <Format(IntegerParameter(1),FF05021D0103)/> <If(LessThanOrEqualTo(IntegerParameter(1),1))>gil<Else/>gils</If><Indent/>?
@@ -6710,8 +6710,7 @@ Appliquer quand même les changements<Indent/>?
  - Si l'achat n'est pas finalisé durant la période de publication des résultats, le droit d'acquisition du terrain est au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment perdu. En outre, en guise de mesure visant à empêcher divers abus, seule la moitié des frais de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion est remboursée.
  - La période de remboursement des frais de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion, quel que soit leur montant, est de 90 jours après la fin de la publication des résultats. Aucun remboursement ne sera accordé au-delà de cette période.
  - Il est impossible de participer à un autre tirage au sort tant qu'une procédure d'achat ou de remboursement est en cours.
- - Attention<Indent/>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum.  Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.
-<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+ - Attention<Indent/>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 7047,"Accepter les conditions de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion"
 7048,"Oui"
 7049,"Non"
@@ -10021,7 +10020,7 @@ Il suffit qu'un des joueurs adverses quitte l'instance pour mettre fin aux af<So
 10817,"Temps écoulé<Indent/>: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>/Délai d'attente moyen<Indent/>: <Highlight>StringParameter(3)</Highlight>"
 10818,"Ordre d'attente pour le rôle choisi<Indent/>: <Highlight>StringParameter(1)</Highlight>"
 10819,"Temps écoulé<Indent/>: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
-10820,"<Sheet(ContentType,IntegerParameter(1),0)/> (ARR/Heavensward/Stormblood/ Shadowbringers)"
+10820,"<Sheet(ContentType,IntegerParameter(1),0)/> (ARR à Shadowbringers)"
 10821,"Missions normales"
 10822,"Missions à difficulté élevée"
 10823,"Impossible de s'enregistrer pour participer à une mission, tout en effectuant un recrutement.
@@ -11695,28 +11694,54 @@ Vous pourrez ensuite les ajouter à vos barres ou à vos croix de raccourcis."
 12511,""
 12512,"Monde d'origine"
 12513,"Mondes disponibles"
-12514,"<UIForeground>F20202</UIForeground>Les voyages inter-Monde<UIForeground>01</UIForeground>
-Vous pouvez quitter votre Monde d'origine pour en visiter d'autres appartenant au même centre de données que le vôtre.
+12514,"<If(Equal(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Les voyages entre centres de traitement de données<UIForeground>01</UIForeground>
+Cette fonctionnalité va plus loin que le voyage inter-Monde. Elle permet à vos personnages de visiter des Mondes hébergés sur d'autres centres de traitement de données pour peu que ces derniers appartiennent à la même région. Toutefois, des restrictions sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res s'appliquent.
+
+<UIForeground>F20202</UIForeground>Limitations du voyage entre centres de traitement de données<UIForeground>01</UIForeground>
+- Le transfert peut prendre environ 30 minutes suivant la congestion des serveurs.
+- La procédure ne peut être annulée une fois lancée. Vous ne pourrez pas vous connecter avec un personnage différent ou faire quoi que ce soit d'autre qu'attendre.
+- La procédure vous renverra à l'écran-titre, d'où vous devrez ensuite rejoindre le centre de traitement de données où vous souhaitiez vous rendre.
+- Vous ne pourrez pas jouer sur votre Monde d'origine avec d'autres personnages tant que celui avec lequel vous voyagez ne sera pas rentré.
+- Un personnage visitant déjà un autre centre de traitement de données ne peut pas directement voyager vers un autre. Il doit d'abord rentrer dans son centre de traitement de données d'origine.
+
+<Else/></If><If(LessThan(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Les voyages inter-Monde<UIForeground>01</UIForeground>
+Vous pouvez quitter <If(Equal(IntegerParameter(1),0))>votre Monde d'origine<Else/>le Monde où vous vous trouvez</If> pour en visiter d'autres appartenant au même centre de traitement de données.
+Formez une équipe prête pour l'aventure, partez à l'assaut de donjons ou faites des emplettes sur ces marchés exotiques<Indent/>; le choix est vôtre<Indent/>!
 
 <UIForeground>F20202</UIForeground>Avertissement<UIForeground>01</UIForeground>
 Le niveau de fréquentation du Monde choisi au moment de confirmer votre demande peut considérablement augmenter le temps nécessaire à la procédure pour aboutir. Une fois celle-ci achevée, vous serez au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment transporté<If(PlayerParameter(4))>e<Else/></If> vers votre destination, annulant par la même occasion toutes les activités en cours.
 
-<UIForeground>F20202</UIForeground>Limitations dans les Mondes visités<UIForeground>01</UIForeground>
-Certaines fonctionnalités sont indisponibles à l'extérieur de votre Monde d'origine.
+<Else/></If><UIForeground>F20202</UIForeground>Limitations dans les <If(GreaterThan(IntegerParameter(1),0))>centres de traitement de données<Else/>Mondes</If> visités<UIForeground>01</UIForeground>
+<If(Equal(IntegerParameter(1),1))>Votre personnage ne se trouve ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment pas dans son centre de traitement de données d'origine.
+<Else/></If>Certaines fonctionnalités sont indisponibles à l'extérieur de votre <If(GreaterThan(IntegerParameter(1),0))>centre de traitement de données<Else/>Monde</If> d'origine.
 
-<UIForeground>F20202</UIForeground>Servant<UIForeground>01</UIForeground>
-- Impossible d'en engager ou d'en renvoyer définitivement
-- Impossible de vendre des objets sur les marchés, bien qu'il reste possible d'en acheter
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Liste d'amis<UIForeground>01</UIForeground>
+- Impossible de communiquer avec des amis se trouvant dans un autre centre de traitement de données
+- Impossible de former une équipe avec des amis se trouvant dans un autre centre de traitement de données
 
-<UIForeground>F20202</UIForeground>Compagnies libres<UIForeground>01</UIForeground>
+<Else/></If><UIForeground>F20202</UIForeground>Compagnies libres<UIForeground>01</UIForeground>
 - Impossible d'en créer ou d'en rejoindre
 - Impossible de consulter les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions de sa compagnie libre
 - Impossible d'augmenter le nombre des crédits de compagnie grâce aux activités dans les Mondes visités
 
-<UIForeground>F20202</UIForeground>Linkshells<UIForeground>01</UIForeground>
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Linkshells inter-Monde<UIForeground>01</UIForeground>
+- Impossible d'en créer de nouvelles
+- Impossible d'en devenir le chef
+
+<Else/></If><UIForeground>F20202</UIForeground>Linkshells<UIForeground>01</UIForeground>
 - Impossible de les utiliser
 - Impossible de consulter les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions de ses linkshells
 - Impossible d'en créer ou d'en rejoindre
+
+<If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Équipe JcJ<UIForeground>01</UIForeground>
+- Impossible d'utiliser les fonctionnalités liées aux équipes JcJ, y compris les canaux de discussion
+
+<UIForeground>F20202</UIForeground>Communautés<UIForeground>01</UIForeground>
+- Aucune fonctionnalité disponible, à l'exception de la recherche de communauté
+
+<Else/></If><UIForeground>F20202</UIForeground>Servant<UIForeground>01</UIForeground>
+- Impossible d'en engager ou d'en renvoyer définitivement
+- Impossible de vendre des objets sur les marchés, bien qu'il reste possible d'en acheter
 
 <UIForeground>F20202</UIForeground>Logement<UIForeground>01</UIForeground>
 - Impossible d'acheter des terrains et des appartements
@@ -11727,8 +11752,9 @@ Certaines fonctionnalités sont indisponibles à l'extérieur de votre Monde d'o
 - Impossible d'accepter la quête du lien éternel
 - Impossible d'inviter à une cérémonie des joueurs habitant un autre Monde
 
-<UIForeground>F20202</UIForeground>Fonctionalités et éléments divers<UIForeground>01</UIForeground>
-- Impossible de participer à un tournoi du Choc des mascottes
+<UIForeground>F20202</UIForeground>Fonctionnalités et éléments divers<UIForeground>01</UIForeground>
+<If(GreaterThan(IntegerParameter(1),0))>- Certains résultats JcJ ne sont pas pris en compte dans les classements
+<Else/></If>- Impossible de participer à un tournoi du Choc des mascottes
 - Impossible de participer à un tournoi de Triple Triade
 - Impossible de participer ou de retirer un lot au Méga Cactpot
 - Impossible d'utiliser le service de courrier Mog
@@ -11838,7 +11864,7 @@ Certaines fonctionnalités sont indisponibles à l'extérieur de votre Monde d'o
 12624,"Voulez-vous vraiment visiter “<Highlight>StringParameter(1)</Highlight>”<Indent/>?
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vous ne pouvez pas utiliser le voyage inter-Monde en faisant partie d'une équipe standard.
 Vous pouvez néanmoins faire partie d'une équipe inter-Monde ou être en cours de recherche d'équipe.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-12625,"Traveler"
+12625,"<If(Equal(IntegerParameter(1),1))>Baroudeuse<Else/>Baroudeur</If>"
 12626,"Vous ne pourrez pas recevoir de notification de nouveau courrier si votre Monde d'origine et celui vers lequel vous voyagez ne partagent pas le même centre de traitement de données."
 12630,"Contrats du clan Kupo (débutant)"
 12631,"Contrats du clan Kupo (intermédiaire)"
@@ -12212,7 +12238,7 @@ de mentor a pris fin."
 13016,"Vous n'avez pas renouvelé votre accréditation de mentor durant la période impartie et avez donc perdu ce statut.
 Pour l'obtenir à nouveau, parlez à un chef instructeur après avoir rempli toutes les nouvelles conditions d'obtention."
 13017,"Fermer"
-13018,"5. Accomplir une des deux quêtes de rôle de DPS (physique ou magique) de niveau <Value>IntegerParameter(1)</Value>."
+13018,"5. Accomplir une des trois quêtes de rôle de DPS (physique ou magique) de niveau <Value>IntegerParameter(1)</Value>."
 13019,"2. Synthétiser 100 objets collectionnables."
 13020,"3. Atteindre le niveau <Value>IntegerParameter(1)</Value> dans l'une des disciplines de la terre."
 13021,"4. Atteindre le niveau <Value>IntegerParameter(1)</Value> dans l'une des disciplines de la main."
@@ -13189,7 +13215,7 @@ Les chances de bénéficier de ce bonus dépendent de votre Savoir-faire."
 14424,"Umbra"
 14425,"Étoiles de victoire<If(GreaterThan(IntegerParameter(1),0))> (bonus de victoires consécutives actif)<Else/> </If>"
 14426,"<Highlight>StringParameter(1)</Highlight><If(GreaterThan(IntegerParameter(2),0))> <Value>IntegerParameter(2)</Value><Else/></If><Switch(IntegerParameter(3))><Case(1)> ☆☆☆</Case><Case(2)> ★☆☆</Case><Case(3)> ★★☆</Case><Case(4)> ★★★</Case></Switch>　→　<Highlight>StringParameter(4)</Highlight><If(Equal(IntegerParameter(5),0))><If(GreaterThan(IntegerParameter(6),0))> <Value>IntegerParameter(6)</Value><Else/></If><Switch(IntegerParameter(7))><Case(1)> ☆☆☆</Case><Case(2)> ★☆☆</Case><Case(3)> ★★☆</Case><Case(4)> ★★★</Case></Switch><Else/></If>"
-14427,"Points Crystal"
+14427,"Points de cristal"
 14428,"<Value>IntegerParameter(1)</Value> → <Value>IntegerParameter(2)</Value>"
 14429,"Carte actuelle<Indent/>: <Sheet(PlaceName,IntegerParameter(1),0)/> (<If(Equal(IntegerParameter(4),0))><Time(IntegerParameter(2))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> à <Time(IntegerParameter(3))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><Time(IntegerParameter(2))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(LessThan(TopLevelParameter(218),12))>am<Else/>pm</If> à <Time(IntegerParameter(3))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(LessThan(TopLevelParameter(218),12))>am<Else/>pm</If></If>)
 "
@@ -13367,7 +13393,7 @@ Le menu d'aide vous apportera plus de détails quant aux multiples options de pe
 14855,"Termes récurrents"
 14856,"Obtention des données..."
 14857,"<CommandIcon(24)/> Défiler"
-14860,"Niveau de série<Indent/>:"
+14860,"Niveau de série<Indent/>: "
 14861,"TOTAL:<Value>IntegerParameter(1)</Value>"
 14862,"Prochain<Indent/>: <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value><Else/>--/--</If>"
 14863,"Crystalline Conflict"
@@ -13401,7 +13427,7 @@ Le menu d'aide vous apportera plus de détails quant aux multiples options de pe
 14890,"Non"
 14891,"∞"
 14892,"Bonus de victoires consécutives actif"
-14893,"Nouveau record de points Crystal<Indent/>!"
+14893,"Nouveau record de points de cristal<Indent/>!"
 14894,"Bronze"
 14895,"Argent"
 14896,"Or"

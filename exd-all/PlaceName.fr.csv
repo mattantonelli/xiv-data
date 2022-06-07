@@ -3806,7 +3806,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 3754,"Nord-est de l'île de Bekko",0,"Nord-est de l'île de Bekko",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord-est de l'île de Bekko</Case><Case(2)>au nord-est de l'île de Bekko</Case><Case(3)>du nord-est de l'île de Bekko</Case></Switch>",0,1,0
 3755,"Est de l'île barrière",0,"Est de l'île barrière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'est de l'île barrière</Case><Case(2)>à l'est de l'île barrière</Case><Case(3)>de l'est de l'île barrière</Case></Switch>",0,1,0
 3756,"Nord-ouest d'Onokoro",0,"Nord-ouest d'Onokoro",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord-ouest d'Onokoro</Case><Case(2)>au nord-ouest d'Onokoro</Case><Case(3)>du nord-ouest d'Onokoro</Case></Switch>",0,1,0
-3757,"",0,"",0,0,0,0,0,"",0,0,0
+3757,"Jardins d'anémones",0,"Jardins d'anémones",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Jardins d'anémones</Case><Case(2)>aux Jardins d'anémones</Case><Case(3)>des Jardins d'anémones</Case></Switch>",0,1,0
 3758,"Fond du lac Seld (nord-est)",0,"Fond du lac Seld (nord-est)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac Seld (nord-est)</Case><Case(2)>au fond du lac Seld (nord-est)</Case><Case(3)>du fond du lac Seld (nord-est)</Case></Switch>",0,1,0
 3759,"Hyperborée",0,"Hyperborée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Hyperborée</Case><Case(2)>à l'Hyperborée</Case><Case(3)>de l'Hyperborée</Case></Switch>",0,0,0
 3760,"Étage terrestre",0,"Étage terrestre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'étage terrestre</Case><Case(2)>à l'étage terrestre</Case><Case(3)>de l'étage terrestre</Case></Switch>",0,0,0
@@ -4149,8 +4149,8 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
 4097,"",0,"",0,0,1,0,0,"",0,0,0
-4098,"",0,"",0,0,0,0,0,"",0,0,0
-4099,"",0,"",0,0,0,0,0,"",0,0,0
+4098,"Interstice du chant onirique",0,"Interstice du chant onirique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'interstice du chant onirique</Case><Case(2)>à l'interstice du chant onirique</Case><Case(3)>de l'interstice du chant onirique</Case></Switch>",0,0,0
+4099,"Interstice du chant onirique",0,"Interstice du chant onirique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'interstice du chant onirique</Case><Case(2)>à l'interstice du chant onirique</Case><Case(3)>de l'interstice du chant onirique</Case></Switch>",0,0,0
 4100,"L'Issue aux Impasses",0,"L'Issue aux Impasses",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Issue aux Impasses</Case><Case(2)>dans L'Issue aux Impasses</Case><Case(3)>de L'Issue aux Impasses</Case></Switch>",0,0,0
 4101,"Ostrakon Exi",0,"Ostrakon Exi",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Exi</Case><Case(2)>dans l'Ostrakon Exi</Case><Case(3)>de l'Ostrakon Exi</Case></Switch>",0,0,0
 4102,"Ostrakon Okto",0,"Ostrakon Okto",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Okto</Case><Case(2)>dans l'Ostrakon Okto</Case><Case(3)>de l'Ostrakon Okto</Case></Switch>",0,0,0
@@ -4230,4 +4230,4 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4176,"Cité des splendeurs",0,"Cité des splendeurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Cité des splendeurs</Case><Case(2)>à la Cité des splendeurs</Case><Case(3)>de la Cité des splendeurs</Case></Switch>",0,0,0
 4177,"Cercle de la justice",0,"Cercle de la justice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cercle de la justice</Case><Case(2)>au Cercle de la justice</Case><Case(3)>du Cercle de la justice</Case></Switch>",0,0,0
 4178,"Palais jumeau",0,"Palais jumeau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Palais jumeau</Case><Case(2)>au Palais jumeau</Case><Case(3)>du Palais jumeau</Case></Switch>",0,0,0
-4179,"",0,"",0,0,0,0,0,"",0,0,0
+4179,"Sud-ouest du lac de Seld",0,"Sud-ouest du lac de Seld",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sud-ouest du lac de Seld</Case><Case(2)>au sud-ouest du lac de Seld</Case><Case(3)>du sud-ouest du lac de Seld</Case></Switch>",0,1,0

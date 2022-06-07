@@ -2551,7 +2551,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2523,"Azim Khaat (Ost)",0,"",0,0,1,0,0,"",0,1,0
 2524,"Seldsee (Nordwest)",0,"",0,0,1,0,0,"",0,1,0
 2525,"Seldsee (Mitte)",0,"",0,0,1,0,0,"",0,1,0
-2526,"Seldsee (Nordost)",0,"",0,0,1,0,0,"",0,1,0
+2526,"Seldsee (Südost)",0,"",0,0,1,0,0,"",0,1,0
 2527,"Schwebende Stadt Nym",0,"",0,0,1,0,0,"",0,0,0
 2528,"",0,"",0,0,1,0,0,"",0,0,0
 2529,"",0,"",0,0,1,0,0,"",0,0,0
@@ -3782,7 +3782,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 3754,"Bekko (Nordost)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Bekko (Nordost)</Case><Case(2)>auf Bekko (Nordost)</Case><Case(3)>Bekko (Nordost)</Case></Switch>",0,1,0
 3755,"Grenzinsel (Ost)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Grenzinsel (Ost</Case><Case(2)>auf der Grenzinsel (Ost</Case><Case(3)>die Grenzinsel (Ost</Case></Switch>",0,1,0
 3756,"Onokoro (Nordwest)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Onokoro (Nordwest)</Case><Case(2)>auf Onokoro (Nordwest)</Case><Case(3)>Onokoro (Nordwest)</Case></Switch>",0,1,0
-3757,"",0,"",0,0,0,0,0,"",0,0,0
+3757,"Anemonengärten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Anemonengärten</Case><Case(2)>in den Anemonengärten</Case><Case(3)>die Anemonengärten</Case></Switch>",0,1,0
 3758,"Seldsee (Nordost)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Seldsee (Nordost)</Case><Case(2)>am Seldsee (Nordost)</Case><Case(3)>Seldsee (Nordost)</Case></Switch>",0,1,0
 3759,"Ktisis Hyperboreia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Ktisis Hyperboreia</Case><Case(2)>im Ktisis Hyperboreia</Case><Case(3)>das Ktisis Hyperboreia</Case></Switch>",0,0,0
 3760,"Kontinentalebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Kontinentalebene</Case><Case(2)>auf der Kontinentalebene</Case><Case(3)>die Kontinentalebene</Case></Switch>",0,0,0
@@ -4123,8 +4123,8 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
 4097,"",0,"",0,0,1,0,0,"",0,0,0
-4098,"",0,"",0,0,0,0,0,"",0,0,0
-4099,"",0,"",0,0,0,0,0,"",0,0,0
+4098,"Medias Res",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Medias Res</Case><Case(2)>im Medias Res</Case><Case(3)>das Medias Res</Case></Switch>",0,0,0
+4099,"Medias Res",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Medias Res</Case><Case(2)>im Medias Res</Case><Case(3)>das Medias Res</Case></Switch>",0,0,0
 4100,"Das Sternengrab",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sternengrab</Case><Case(2)>im Sternengrab</Case><Case(3)>das Sternengrab</Case></Switch>",0,0,0
 4101,"Ostrakon Exi",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ostrakon Exi</Case><Case(2)>im Ostrakon Exi</Case><Case(3)>das Ostrakon Exi</Case></Switch>",0,0,0
 4102,"Ostrakon Okto",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ostrakon Okto</Case><Case(2)>im Ostrakon Okto</Case><Case(3)>das Ostrakon Okto</Case></Switch>",0,0,0
@@ -4179,7 +4179,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4151,"[Erweiterung] Tor des Heldenmuts",0,"",0,0,1,0,0,"",0,0,0
 4152,"[Erweiterung] Dangoulins Hingabe",0,"",0,0,1,0,0,"",0,0,0
 4153,"[Erweiterung] Neuer Drachen<SoftHyphen/>korridor",0,"",0,0,1,0,0,"",0,0,0
-4154,"Aldazaals Vermächtnis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Alzadaals Vermächtnis</Case><Case(2)>in Alzadaals Vermächtnis</Case><Case(3)>Alzadaals Vermächtnis</Case></Switch>",0,0,0
+4154,"Alzadaals Vermächtnis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Alzadaals Vermächtnis</Case><Case(2)>in Alzadaals Vermächtnis</Case><Case(3)>Alzadaals Vermächtnis</Case></Switch>",0,0,0
 4155,"Bhaflau-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Bhaflau-Ruinen</Case><Case(2)>in die Bhaflau-Ruinen</Case><Case(3)>die Bhaflau-Ruinen</Case></Switch>",0,0,0
 4156,"Arrapago-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Arrapago-Ruinen</Case><Case(2)>in die Arrapago-Ruinen</Case><Case(3)>die Arrapago-Ruinen</Case></Switch>",0,0,0
 4157,"Zhayolm-Ruinen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Zhayolm-Ruinen</Case><Case(2)>in die Zhayolm-Ruinen</Case><Case(3)>die Zhayolm-Ruinen</Case></Switch>",0,0,0
@@ -4201,7 +4201,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4173,"Schrein des Handwerks",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein des Handwerks</Case><Case(2)>im Schrein des Handwerks</Case><Case(3)>der Schrein des Handwerks</Case></Switch>",0,0,0
 4174,"Pfad der Führung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Führung</Case><Case(2)>auf dem Pfad der Führung</Case><Case(3)>der Pfad der Führung</Case></Switch>",0,0,0
 4175,"Schrein des Kometen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein des Kometen</Case><Case(2)>im Schrein des Kometen</Case><Case(3)>der Schrein des Kometen</Case></Switch>",0,0,0
-4176,"Stadt der Herrlichkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein der Herrlichkeit</Case><Case(2)>im Schrein der Herrlichkeit</Case><Case(3)>der Schrein der Herrlichkeit</Case></Switch>",0,0,0
+4176,"Stadt der Herrlichkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Stadt der Herrlichkeit</Case><Case(2)>in der Stadt der Herrlichkeit</Case><Case(3)>die Stadt der Herrlichkeit</Case></Switch>",0,0,0
 4177,"Schrein des Urteils",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein des Urteils</Case><Case(2)>im Schrein des Urteils</Case><Case(3)>der Schrein des Urteils</Case></Switch>",0,0,0
 4178,"Schrein der Zwei",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein der Zwei</Case><Case(2)>im Schrein der Zwei</Case><Case(3)>der Schrein der Zwei</Case></Switch>",0,0,0
-4179,"",0,"",0,0,0,0,0,"",0,0,0
+4179,"Seldsee (Südwest)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Seldsee (Südwest)</Case><Case(2)>am Seldsee (Südwest)</Case><Case(3)>der Seldsee (Südwest)</Case></Switch>",0,1,0
