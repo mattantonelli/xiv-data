@@ -637,7 +637,7 @@ int32,str,str,bit&01,uint16
 633,"Hipporaser","Hipporaserin",True,1699
 634,"Freund von Ameliance","Freundin von Ameliance",True,1700
 635,"Bildungsbefürworter","Bildungsbefürworterin",True,1701
-636,"der Himmelsbändiger","die Himmelsbändigerin",False,1702
+636,"die Himmelslegende","die Himmelslegende",False,1702
 637,"Neu entdeckter Abenteurer","Neu entdeckte Abenteurerin",True,1703
 638,"Herr seiner Domäne","Herrin ihrer Domäne",True,1704
 639,"Makai-Samurai","Makai-Samurai",True,1705
@@ -646,3 +646,16 @@ int32,str,str,bit&01,uint16
 642,"Makai-Tänzer","Makai-Tänzerin",True,1708
 643,"Makai-Schnitter","Makai-Schnitterin",True,1709
 644,"Makai-Weiser","Makai-Weise",True,1710
+645,"der Zurückgezogene","die Zurückgezogene",False,1711
+646,"Händler des Paradieses","Händlerin des Paradieses",True,1712
+647,"Connaisseur der Cieldaläen","Connaisseuse der Cieldaläen",True,1713
+648,"Nichtsreisender","Nichtsreisende",True,1714
+649,"vom finalen Konflikt","vom finalen Konflikt",False,1715
+650,"vom endlosen Konflikt","vom endlosen Konflikt",False,1716
+651,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1717
+652,"vom finalen Konflikt","vom finalen Konflikt",False,1718
+653,"vom endlosen Konflikt","vom endlosen Konflikt",False,1719
+654,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1720
+655,"","",False,0
+656,"","",False,0
+657,"","",False,0

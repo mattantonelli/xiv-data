@@ -38,7 +38,7 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 34,"Fisher","Crafting & Gathering",True,False,12
 35,"Quests","Quests",True,False,1
 36,"Levequests","Quests",True,False,2
-37,"Beast Tribe Quests","Quests",True,False,3
+37,"Tribal Quests","Quests",True,False,3
 38,"Seasonal Events","Quests",True,True,4
 39,"Sightseeing Log","Exploration",True,False,1
 40,"La Noscea","Exploration",True,False,2
@@ -76,3 +76,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 72,"The Northern Empty","Exploration",True,False,12
 73,"Ilsabard","Exploration",True,False,13
 74,"Other","Exploration",True,False,99
+75,"","",False,False,0

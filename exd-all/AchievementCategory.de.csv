@@ -38,7 +38,7 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 34,"Fischer","Crafting & Gathering",True,False,12
 35,"Aufträge","Quests",True,False,1
 36,"Freibriefe","Quests",True,False,2
-37,"Wilde Stämme","Quests",True,False,3
+37,"Stammesvölker","Quests",True,False,3
 38,"Saisonale Ereignisse","Quests",True,True,4
 39,"Eorzea Incognita","Exploration",True,False,1
 40,"La Noscea","Exploration",True,False,2
@@ -76,3 +76,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 72,"Die nördlichen Meere","Exploration",True,False,12
 73,"Ilsabard","Exploration",True,False,13
 74,"Sonstige","Exploration",True,False,99
+75,"","",False,False,0

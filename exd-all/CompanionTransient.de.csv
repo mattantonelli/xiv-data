@@ -606,7 +606,7 @@ was unsere Schwäche ist?
 125,"Es heißt, dass Dezul Qualan mit dem Bau von Ballons begann, nachdem er im Traum eine Minnesängerweise mit dem Titel „Über den Wolken“ vernommen hatte.","Das letzte Mal, als der geniale Ixal-Ingenieur Dezul Qualan gesehen ward, stieg er in einen gewaltigen Panzerballon, der genug Proviant für einen vollen Mond in den Wolken geladen hatte. Sein Ziel: der fliegende Kontinent Ayatlan.","Klemm ich dir gleich Kopf in Drehbank.
 Vielleicht macht Oberstübchen wieder klar. Kha!
 <Emphasis>Sezul Totoloc</Emphasis>","Bist du kaputt","Fügt dem nächstgelegenen gegnerischen Arkana-Stein 5 % Schaden zu.",45,35,3,False,True,True,False,False,"Dismantling"
-126,"Die unbestrittene - und ewige - Nummer 2 der Kobolde.","Unzufrieden mit der Explosivkraft des ersten Exemplars, kehrte Ba Go in sein Laboratorium  zurück und erschuf den Kobold Nr. 2. Mit Erfolg, denn Nr. 2 lebt!","Neues du willst wissen?
+126,"Die unbestrittene - und ewige - Nummer 2 der Kobolde.","Unzufrieden mit der Explosivkraft des ersten Exemplars, kehrte Ba Go in sein Laboratorium zurück und erschuf den Kobold Nr. 2. Mit Erfolg, denn Nr. 2 lebt!","Neues du willst wissen?
 Ja, bei meinen lieben Bombern es gibt Neues!
 <Emphasis>Ba Go</Emphasis>","Supersprengstoff","Führt eine Attacke mit Attacke-Wert 300 auf die Gegner in der Nähe aus, aber die ausführenden Trabanten werden weggeschickt.",20,45,2,False,False,False,True,False,"Damage"
 127,"Eine Marionette, die dem berüchtigten Anführer der Riff-Harpunen nachempfunden ist. Pikst nur ganz selten.","Als fürsorglicher Laichvater ließ Novv dieses putzige Spielzeug mit aufgemalten Blutspritzern für seine Kleinen bauen. An Wildheit und Verschlagenheit kann der kleine Seeteufel es mit dem Original durchaus aufnehmen.","Erwähne seinen Namen in einer Hafenkneipe,
@@ -1695,7 +1695,7 @@ sieht.","Grrr!
 Nutztiere gezüchtet.","Niemand ist wütend auf dich, komm doch bitte raus, falls du dich versteckst!
 <Emphasis>Yalana</Emphasis>","Aufblühen","Fügt Gegnern in der Nähe im Sekundentakt 10 Schaden über Zeit zu.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20 Sekunden",30,30,3,False,False,False,True,False,"Damage"
-439,"Du rufst deine Typhoid-Puppe als Begleiter herbei. Sie verströmt einen leichten Duft nach Meer und Felsen.","Ein Namazuo-Handwerker soll diese magische Puppe einer rätselhaften Gestalt nachgebildet haben, die vor ihm erschien, als er benommen an Land taumelte, nachdem er beinahe ertrunken wäre.","Hilfe! Da ertrinkt jemand!
+439,"Du rufst deine Grebuloff-Puppe als Begleiter herbei. Sie verströmt einen leichten Duft nach Meer und Felsen.","Ein Namazuo-Handwerker soll diese magische Puppe einer rätselhaften Gestalt nachgebildet haben, die vor ihm erschien, als er benommen an Land taumelte, nachdem er beinahe ertrunken wäre.","Hilfe! Da ertrinkt jemand!
 <Emphasis>Strandbesucher</Emphasis>","Blubberblubber","Halbiert den Ruf-Timer von Trabanten beim Herbeirufen.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",40,55,3,False,False,True,True,False,"Special"
 440,"Du rufst deine Nosferatu-Puppe als Begleiter herbei. Sie besitzt einen genügend starken Charakter, um ihrer Schwäche für Blut nicht nachzugeben.","Ein fledermausähnliches Wesen, dem es zwar nach deinem Blut dürstet, aber ebenso nach deiner Liebe, weshalb es dir niemals Schaden zufügen wird. Woher sein Name stammt, ist nicht bekannt. ","Ruhig Blut, mein Lieber!
@@ -1753,12 +1753,30 @@ mit Hühnern lässt ...","Quiiiep～♪","Glückseligkeit","Macht die Auto-Attac
 <Emphasis>Anonymer Pirat</Emphasis>","Höhenflug","Macht die Auto-Attacke der ausführenden Trabanten zu einem Flächenangriff.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 Sekunden",55,55,1,False,False,False,False,True,"Enhancement"
 454,"","","","","",0,0,0,False,False,False,False,False,""
-455,"","","","","",0,0,0,False,False,False,False,False,""
-456,"","","","","",0,0,0,False,False,False,False,False,""
+455,"Du rufst deinen Auzieh-Solus herbei, eine mechanische Puppe, die dem ersten Kaiser des Garleischen Kaiserreichs Solus nachgebildet ist.","Diese Puppe wurde anlässlich des neunten Jubiläums der Inthronisation von Solus angefertigt und soll zur Demonstration der garleischen Technologie auch an alle Haushalte in den Provinzen verteilt worden sein.  ","Wenn doch bloß jemand wie Kaiser Solus auftauchen würde.
+<Emphasis>Dossennus</Emphasis>","Fingerschnippen","Versetzt die ausführenden Trabanten zurück zu Tor B.",40,80,2,False,False,True,False,False,"Special"
+456,"Du rufst deine Miaurizius-Puppe als Begleiter herbei. Miezencharme-Alarm!","Diese Miaurionetten-Puppe wurde von Sharlayan als Arbeitskraft für das Pionierprojekt Inselparadies zur Verfügung gestellt. Da sie jedoch weder besonders stark noch klug ist, besteht ihre vornehmliche Aufgabe darin, süß auszusehen.","Einfach hinreißend!
+<Emphasis>Tataru</Emphasis>","Katzenlehre","Verringert die Technikpunkte der Gegner in der Nähe um 50<Indent/>% des Maximalwerts.",50,45,3,False,True,False,False,False,"Enfeeblement"
 457,"","","","","",0,0,0,False,False,False,False,False,""
-458,"","","","","",0,0,0,False,False,False,False,False,""
-459,"","","","","",0,0,0,False,False,False,False,False,""
-460,"","","","","",0,0,0,False,False,False,False,False,""
+458,"Du rufst deinen roten Aufzieh-Chaser als Begleiter herbei. Rot, ratternd, rassig.","Ein Garlond-Modellbauer fertigte dieses Modell nach dem Vorbild einer Kampfmaschine an, die auf dem Trainingsgelände Astragalos zum Einsatz kommt. Weil als Spielzeug viel zu teuer, wird es als Trophäe an die erfolgreichsten Schlachtenteilnehmer vergeben.","Mama, ich will das!
+<Emphasis> Anonymes Kind</Emphasis>","Transformation","Erhöht die GSW der ausführenden Trabanten um 30 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",70,60,3,False,True,False,True,False,"Enhancement"
+459,"Du rufst deinen blauen Aufzieh-Chaser als Begleiter herbei. Blau, bombig, bärenstark.","Ein Garlond-Modellbauer fertigte dieses Modell nach dem Vorbild einer Kampfmaschine an, die auf dem Trainingsgelände Astragalos zum Einsatz kommt. Weil als Spielzeug viel zu teuer, wird es als Trophäe an die erfolgreichsten Schlachtenteilnehmer vergeben.","Mama, ich will das!
+<Emphasis> Anonymes Kind</Emphasis>","Transformation","Erhöht die GSW der ausführenden Trabanten um 30 %.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 Sekunden",70,60,3,False,True,False,True,False,"Enhancement"
+460,"Du rufst deine Scarmiglione-Puppe als Begleiter herbei. Die Puppenversion des Nichts<SoftHyphen/>gesand<SoftHyphen/>ten Scarmiglione.","Der Elementarfürst der Erde ließ diese Puppe von einem niederen Nichts<SoftHyphen/>gesand<SoftHyphen/>ten anfertigen, um seine Schrecklichkeit zu demonstrieren. Obwohl von enttäuschend mickrigem Aussehen besitzt diese Puppe über ungeheure Kräfte, die sich aus der Stärke seines Erzeugers speisen.","Nun lernt ihr unser wahres Wesen kennen!
+<Emphasis>Scarmiglione </Emphasis>","Tentakelhieb","Fügt dem nächstgelegenen gegnerischen Arkana-Stein 5 % Schaden zu.",40,65,1,False,False,False,False,True,"Dismantling"
 461,"","","","","",0,0,0,False,False,False,False,False,""
-462,"","","","","",0,0,0,False,False,False,False,False,""
+462,"Du rufst dein Flughörnchen als Begleiter herbei. Ein kleiner Säuger, der durch die Lüfte gleiten kann.","Anders als sein Verwandter, das Eichhörnchen, kann dieses Säugetier yalmenweit in der Luft gleiten, indem es seine Flugmembrane ausbreitet und geschickt Wind- und Ätherströme ausnutzt.  ","Fliege in die Welt hinaus wie ein Flughörnchen!
+<Emphasis>Hinganisches Sprichwort</Emphasis>","Flughautflug","Macht eigene Trabanten in der Nähe unempfindlich für Angriffe von Monstern.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5 Sekunden",40,45,3,False,False,True,True,False,"Enhancement"
 463,"","","","","",0,0,0,False,False,False,False,False,""
+464,"","","","","",0,0,0,False,False,False,False,False,""
+465,"","","","","",0,0,0,False,False,False,False,False,""
+466,"Du rufst deine Erichthonios-Puppe als Begleiter herbei. Sie wird dich gewiss retten wollen ...","Ein Kerkermeister des Pandæmoniums und Kollege von Erichthonios fertigte aus Hochachtung vor dessen Verantwortungsbewusstsein diese Puppe an. Umgeben von schrecklichen Kreaturen soll er sie hin und wieder an sich drücken, um sich zu beruhigen.","Ich muss sie schützen! Ich <Emphasis>werde</Emphasis> alle schützen!!
+<Emphasis>Erichthonios</Emphasis>","Hinweisen","Entfernt alle positiven Effekte von den gegnerischen Trabanten in der Nähe.",60,55,2,False,True,False,True,False,"Disarming"
+467,"","","","","",0,0,0,False,False,False,False,False,""
+468,"","","","","",0,0,0,False,False,False,False,False,""
+469,"","","","","",0,0,0,False,False,False,False,False,""
+470,"","","","","",0,0,0,False,False,False,False,False,""
+471,"","","","","",0,0,0,False,False,False,False,False,""

@@ -1,34 +1,34 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
-#,Model,,,,,,Order,Icon,Transient,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,Pronoun,Article,
-int32,uint16,byte,byte,bit&01,byte,uint16,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
-0,0,0,0,False,0,0,-1,,0,"",0,"",0,0,1,0,0
-1,2939,1,1,False,1,0,0,"ui/icon/008000/008001.tex",1,"Sonnenschirm",4,"Sonnenschirme",2,0,1,0,0
-2,2940,1,1,False,1,0,1,"ui/icon/008000/008002.tex",2,"Himmlischer Sonnenschirm",4,"Himmlische Sonnenschirme",2,0,1,0,0
-3,3007,1,1,False,1,0,2,"ui/icon/008000/008003.tex",3,"Roter Ölpapierschirm",4,"Rote Ölpapierschirme",2,0,1,0,0
-4,3008,1,1,False,1,0,3,"ui/icon/008000/008004.tex",4,"Violetter Ölpapierschirm",4,"Violette Ölpapierschirme",2,0,1,0,0
-5,3009,1,1,False,1,0,4,"ui/icon/008000/008005.tex",5,"Gelber Ölpapierschirm",4,"Gelbe Ölpapierschirme",2,0,1,0,0
-6,3010,1,1,False,1,0,5,"ui/icon/008000/008006.tex",6,"Blau karierter Sonnenschirm",4,"Blau karierter Sonnenschirme",2,0,1,0,0
-7,3011,1,1,False,1,0,6,"ui/icon/008000/008007.tex",7,"Rot karierter Sonnenschirm",4,"Rot karierter Sonnenschirme",2,0,1,0,0
-8,3012,1,1,False,1,0,7,"ui/icon/008000/008008.tex",8,"Schwarz karierter Sonnenschirm",4,"Schwarz karierter Sonnenschirme",2,0,1,0,0
-9,3042,2,0,True,2,0,8,"ui/icon/008000/008013.tex",100,"Engelsflügel",4,"Engelsflügel",2,0,1,0,0
-10,3169,1,1,False,1,0,9,"ui/icon/008000/008012.tex",9,"Gold Saucer-Sonnenschirm",4,"Gold Saucer-Sonnenschirme",2,0,1,0,0
-11,3166,1,1,False,1,0,10,"ui/icon/008000/008009.tex",10,"Blau-weiß gepunkteter Sonnenschirm",4,"Blau-weiß gepunktete Sonnenschirme",2,0,1,0,0
-12,3167,1,1,False,1,0,11,"ui/icon/008000/008010.tex",11,"Rosa-weiß gepunkteter Sonnenschirm",4,"Rosa-weiß gepunktete Sonnenschirme",2,0,1,0,0
-13,3168,1,1,False,1,0,12,"ui/icon/008000/008011.tex",12,"Hellblau-weiß gepunkteter Sonnenschirm",4,"Hellblau-weiß gepunktete Sonnenschirme",2,0,1,0,0
-14,3286,1,1,False,1,0,13,"ui/icon/008000/008014.tex",13,"Dicke-Katze-Sonnenschirm",4,"Dicke-Katze-Sonnenschirme",2,0,1,0,0
-15,3287,1,1,False,1,0,14,"ui/icon/008000/008015.tex",14,"Wasserschlange-Sonnenschirm",4,"Wasserschlange Ronka-Sonnenschirme",2,0,1,0,0
-16,3288,1,1,False,1,0,15,"ui/icon/008000/008016.tex",15,"Dalamud-Papierschirm",4,"Dalamud-Papierschirme",2,0,1,0,0
-17,3426,2,0,True,2,0,16,"ui/icon/008000/008017.tex",100,"Gefallener-Engel-Flügel",4,"Gefallener-Engel-Flügel",2,0,1,0,0
-18,3427,2,0,True,2,0,17,"ui/icon/008000/008018.tex",100,"Erzengel-Flügel",4,"Erzengel-Flügel",2,0,1,0,0
-19,3428,3,0,True,2,0,18,"ui/icon/008000/008019.tex",101,"Diabolos-Flügel",4,"Diabolos-Flügel",2,0,1,0,0
-20,3429,6,0,True,2,0,19,"ui/icon/008000/008020.tex",102,"Pixie-Flügel",4,"Pixie-Flügel",2,0,1,0,0
-21,0,0,0,False,0,0,0,,0,"",0,"",0,0,0,0,0
-22,3431,5,0,True,2,0,21,"ui/icon/008000/008022.tex",200,"Ovale Brille",3,"Ovale Brillen",1,0,1,1,0
-23,3611,1,1,False,1,0,22,"ui/icon/008000/008023.tex",16,"Weißer Rüschen-Sonnenschirm",4,"Weiße Rüschen-Sonnenschirme",2,0,1,0,0
-24,3612,1,1,False,1,0,23,"ui/icon/008000/008024.tex",17,"Blauer Blüten-Sonnenschirm",4,"Blaue Blüten-Sonnenschirme",2,0,1,0,0
-25,3613,5,0,True,2,0,24,"ui/icon/008000/008025.tex",201,"Getönte Brille",3,"Getönte Brillen",1,0,1,1,0
-26,3614,7,0,True,2,0,25,"ui/icon/008000/008026.tex",202,"Klassische Brille",3,"Klassische Brillen",1,0,1,1,0
-27,0,0,0,False,0,0,0,,0,"",0,"",0,0,0,0,0
-28,0,0,0,False,0,0,0,,0,"",0,"",0,0,0,0,0
-29,0,0,0,False,0,0,0,,0,"",0,"",0,0,0,0,0
-30,0,0,0,False,0,0,0,,0,"",0,"",0,0,0,0,0
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+#,Model,,,,,,Order,Icon,Transient,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,,Pronoun
+int32,uint16,byte,byte,byte,uint16,int16,uint16,Image,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
+0,0,0,0,0,0,-1,0,,"",0,"",0,0,1,0,0
+1,2939,1,1,1,2,0,8001,"ui/icon/000000/000001.tex","Sonnenschirm",4,"Sonnenschirme",2,0,1,0,0
+2,2940,1,1,1,2,1,8002,"ui/icon/000000/000002.tex","Himmlischer Sonnenschirm",4,"Himmlische Sonnenschirme",2,0,1,0,0
+3,3007,1,1,1,2,2,8003,"ui/icon/000000/000003.tex","Roter Ölpapierschirm",4,"Rote Ölpapierschirme",2,0,1,0,0
+4,3008,1,1,1,2,3,8004,"ui/icon/000000/000004.tex","Violetter Ölpapierschirm",4,"Violette Ölpapierschirme",2,0,1,0,0
+5,3009,1,1,1,2,4,8005,"ui/icon/000000/000005.tex","Gelber Ölpapierschirm",4,"Gelbe Ölpapierschirme",2,0,1,0,0
+6,3010,1,1,1,2,5,8006,"ui/icon/000000/000006.tex","Blau karierter Sonnenschirm",4,"Blau karierter Sonnenschirme",2,0,1,0,0
+7,3011,1,1,1,2,6,8007,"ui/icon/000000/000007.tex","Rot karierter Sonnenschirm",4,"Rot karierter Sonnenschirme",2,0,1,0,0
+8,3012,1,1,1,2,7,8008,"ui/icon/000000/000008.tex","Schwarz karierter Sonnenschirm",4,"Schwarz karierter Sonnenschirme",2,0,1,0,0
+9,3042,2,0,2,0,8,8013,"ui/icon/000000/000100.tex","Engelsflügel",4,"Engelsflügel",2,0,1,0,0
+10,3169,1,1,1,2,9,8012,"ui/icon/000000/000009.tex","Gold Saucer-Sonnenschirm",4,"Gold Saucer-Sonnenschirme",2,0,1,0,0
+11,3166,1,1,1,2,10,8009,"ui/icon/000000/000010.tex","Blau-weiß gepunkteter Sonnenschirm",4,"Blau-weiß gepunktete Sonnenschirme",2,0,1,0,0
+12,3167,1,1,1,2,11,8010,"ui/icon/000000/000011.tex","Rosa-weiß gepunkteter Sonnenschirm",4,"Rosa-weiß gepunktete Sonnenschirme",2,0,1,0,0
+13,3168,1,1,1,2,12,8011,"ui/icon/000000/000012.tex","Hellblau-weiß gepunkteter Sonnenschirm",4,"Hellblau-weiß gepunktete Sonnenschirme",2,0,1,0,0
+14,3286,1,1,1,2,13,8014,"ui/icon/000000/000013.tex","Dicke-Katze-Sonnenschirm",4,"Dicke-Katze-Sonnenschirme",2,0,1,0,0
+15,3287,1,1,1,2,14,8015,"ui/icon/000000/000014.tex","Wasserschlange-Sonnenschirm",4,"Wasserschlange Ronka-Sonnenschirme",2,0,1,0,0
+16,3288,1,1,1,2,15,8016,"ui/icon/000000/000015.tex","Dalamud-Papierschirm",4,"Dalamud-Papierschirme",2,0,1,0,0
+17,3426,2,0,2,0,16,8017,"ui/icon/000000/000100.tex","Gefallener-Engel-Flügel",4,"Gefallener-Engel-Flügel",2,0,1,0,0
+18,3427,2,0,2,0,17,8018,"ui/icon/000000/000100.tex","Erzengel-Flügel",4,"Erzengel-Flügel",2,0,1,0,0
+19,3428,3,0,2,0,18,8019,"ui/icon/000000/000101.tex","Diabolos-Flügel",4,"Diabolos-Flügel",2,0,1,0,0
+20,3429,6,0,2,0,19,8020,"ui/icon/000000/000102.tex","Pixie-Flügel",4,"Pixie-Flügel",2,0,1,0,0
+21,0,0,0,0,0,0,0,,"",0,"",0,0,0,0,0
+22,3431,5,0,2,0,21,8022,"ui/icon/000000/000200.tex","Ovale Brille",3,"Ovale Brillen",1,0,1,1,0
+23,3611,1,1,1,2,22,8023,"ui/icon/000000/000016.tex","Weißer Rüschen-Sonnenschirm",4,"Weiße Rüschen-Sonnenschirme",2,0,1,0,0
+24,3612,1,1,1,2,23,8024,"ui/icon/000000/000017.tex","Blauer Blüten-Sonnenschirm",4,"Blaue Blüten-Sonnenschirme",2,0,1,0,0
+25,3613,5,0,2,0,24,8025,"ui/icon/000000/000201.tex","Getönte Brille",3,"Getönte Brillen",1,0,1,1,0
+26,3614,7,0,2,0,25,8026,"ui/icon/000000/000202.tex","Klassische Brille",3,"Klassische Brillen",1,0,1,1,0
+27,0,0,0,0,0,0,0,,"",0,"",0,0,0,0,0
+28,3702,6,0,2,0,27,8028,"ui/icon/000000/000102.tex","Blaue Pixie-Flügel",4,"Blaue Pixie-Flügel",2,0,1,0,0
+29,0,0,0,0,0,0,0,,"",0,"",0,0,0,0,0
+30,0,0,0,0,0,0,0,,"",0,"",0,0,0,0,0

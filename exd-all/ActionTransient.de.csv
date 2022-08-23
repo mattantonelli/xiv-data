@@ -103,13 +103,14 @@ Attacke-Wert: 200
 Bedingung: LP des Gegners unter 20 %
 Tötet die Attacke den Gegner, regenerierst du 20 % deiner Maximal-LP."
 37,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>150<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Gewaltiger Hieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>250</If><Else/>250</If><If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>250</If><Else/>250</If><If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
 Bonus: Urkraftbalken füllt sich um 10.<Else/></If><Else/></If><Else/></If><Else/></If>"
 38,"Du gewährst dir drei Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tollwut<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tollwut<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Deine nächste Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit ist ein kritischer und direkter Treffer.<If(GreaterThanOrEqualTo(PlayerParameter(72),40))><If(Equal(PlayerParameter(68),3))>
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tollwut<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Deine nächste Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit ist ein kritischer und direkter Treffer.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.<If(GreaterThanOrEqualTo(PlayerParameter(72),40))><If(Equal(PlayerParameter(68),3))>
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 10 Sekunden verlängert (maximal 60 Sekunden).<Else/><If(Equal(PlayerParameter(68),21))>
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 10 Sekunden verlängert (maximal 60 Sekunden).<Else/></If></If><Else/></If>"
 39,"Du führst eine physische Attacke aus.
@@ -124,9 +125,9 @@ Dauer bei <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>PvP<UIGlow>0
 41,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 110"
 42,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verstümmelung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>380</If><Else/>380</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
 Bonus: LP-Regeneration
 Heilpotenzial: 250<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
 Bonus: Urkraftbalken füllt sich um 20.<Else/></If><Else/></If>"
@@ -136,9 +137,9 @@ Dauer: 10 Sekunden"
 44,"Du verringerst den erlittenen Schaden um 30 % und schlägst bei jedem erlittenen physischen Schaden mit Attacke-Wert 55 zurück.
 Dauer: 15 Sekunden"
 45,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verstümmelung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>380</If><Else/>380</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
 Bonus: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden ist um 10 % erhöht.
@@ -175,6 +176,7 @@ Nur im Kampf wirksam."
 Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>210<Else/>180</If><Else/>180</If>
 <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verbesserter Schlag auf Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>310<Else/>280</If><Else/>280</If>
 <Else/></If><Else/></If>Zusatzeffekt während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: trifft kritisch.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
 54,"Du führst eine physische Attacke aus. 
@@ -297,6 +299,7 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubu
 Dauer: 3 Sekunden
 Dauer bei <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>PvP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 2 Sekunden"
 83,"Du erzielst mit der nächsten physischen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit während der Wirkungsdauer einen kritischen Treffer und absorbierst außerdem LP.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Wirkt nicht auf Schaden über Zeit.
 Dauer: 5 Sekunden<If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>
 Maximale Aufladungen: 2<Else/></If><Else/></If>"
@@ -346,7 +349,6 @@ Attacke-Wert: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(Player
 Nach der Attacke kehrst du wieder an deine ursprüngliche Position zurück.
 <If(GreaterThanOrEqualTo(PlayerParameter(72),68))><If(Equal(PlayerParameter(68),22))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sprungbereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 15 Sekunden
-Kommando ändert sich während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sprungbereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Illusionssprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/></If><Else/></If>Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 93,"Du erhöhst den Schaden deines nächsten <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sprungs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wirbelsprengers<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 50 %.
 Dauer: 10 Sekunden"
@@ -3817,8 +3819,9 @@ Dauer: 20 Sekunden"
 2862,""
 2863,""
 2864,"Du aktivierst einen Geschützturm, woraufhin er <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Salve<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf Einzelziele ausführt.
-Attacke-Wert: 70
-Dauer: je nach Stand des Batteriebalkens, max. 15 Sekunden
+Attacke-Wert: 35 bis 70
+Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Gyrocopters.
+Dauer: 9 Sekunden
 Der Gyrocopter verschwindet durch Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>TURM-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder wenn der Batteriebalken leer ist.
 Bedingung: Batteriebalken min. 50
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>TURM-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> "
@@ -3869,9 +3872,10 @@ Maximale Aufladungen: <If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualT
 Attacke-Wert: 240
 Bedingung: LP des Ziels unter 20<Indent/>%"
 2876,"Die nächste Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit während der Wirkungsdauer trifft direkt und kritisch.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Wirkt nicht auf Schaden über Zeit.
 Dauer: 5 Sekunden<If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximale Aufladungen: 2<Else/></If><Else/></If>"
+Maximale Aufladungen: 2<Else/></If><Else/></If>"
 2877,"Du fügst dem Ziel 40 % <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu.
 Dauer: 12 Sekunden
 Bei <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>PvP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 8 Sekunden<If(GreaterThanOrEqualTo(PlayerParameter(72),22))><If(Equal(PlayerParameter(68),31))>
@@ -4648,7 +4652,7 @@ Kann nicht im Kommandomenü angelegt werden."
 Dauer: Fortdauernd
 Außerhalb des Kampfes erhältst du die volle Stapelzahl (5).
 Bei voller Stapelzahl ändert sich das Kommando zu <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verbotenes Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Stahlzinnen<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Stahlzinnen<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
-Gemeinsamer Reaktivierungs-Timer mit allen anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten"
+Bei Ausführung wird der Reaktivierungs-Timer von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie ausgelöst. Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie lösen den Reaktivierungs-Timer dieses Kommandos aus."
 3547,"Du führst eine physische Attacke aus und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatten-Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird beendet.
 Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>310</If><Else/>310</If>
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fünftes Schatten-Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und im Kampf
@@ -4793,7 +4797,8 @@ Zusatzeffekt: Du fügst dem Ziel <If(GreaterThanOrEqualTo(PlayerParameter(72),66
 Dauer: 15 Sekunden
 Zusatzeffekt: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Ruinga<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Lichtimpuls<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Elementarkorona<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Lichtflare<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Bedingung: Im Kampf und Karfunkel ist bereits gerufen."
+Bedingung: Im Kampf und Karfunkel ist bereits gerufen.
+Eigener Reaktivierungs-Timer."
 3582,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 500
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.
@@ -5021,7 +5026,7 @@ Attacke-Wert: 150
 <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))>Maximale Aufladungen: 2
 <Else/></If><Else/></If>Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 3641,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 150
+Attacke-Wert: 240
 Zusatzeffekt: LP-Regeneration
 Heilpotenzial: 200
 Zusatzeffekt: MP-Regeneration
@@ -8907,10 +8912,11 @@ Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Zauber können sofort gewirkt werden und der Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Heiliger Geist<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Heiliger Kreis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist erhöht.<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>
 Zusatzeffekt: Gewährt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> bei Ende von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
+Der Effekt endet bei Ausführung einer Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit.
 Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Confiteor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
 7384,"Du führst eine elementneutrale magische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>270<Else/>250</If><Else/>250</If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
-Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>540<Else/>500</If><Else/>500</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
+Attacke-Wert: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>270</If><Else/>270</If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
+Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>560<Else/>540</If><Else/>540</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 Zusatzeffekt: Regeneriert eigene LP.
 Heilpotenzial: 400<Else/></If><Else/></If>"
 7385,"Du errichtest einen Schild, der erlittenen Schaden im fächerförmig hinter dir liegenden Bereich verringert. Deine Blockrate ist 100<Indent/>% und der erlittene Schaden von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Bereich hinter dir ist um 15 % verringert.
@@ -8932,6 +8938,7 @@ Heilpotenzial: 300<Else/></If><Else/></If>"
 7389,"Du gewährst dir drei Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urbefreiung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urbefreiung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Niedermähen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dezimieren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> treffen direkt und kritisch und verringern den Urkraftbalken nicht.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urgewalt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urgewalt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du bist immun gegen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlaf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und fast alle Rückstoß- und Heranzieheffekte.
@@ -8975,8 +8982,7 @@ Dauer: 20 Sekunden"
 7399,"Du führst eine physische Attacke aus.
 Attacke-Wert: 200
 <If(GreaterThanOrEqualTo(PlayerParameter(72),70))><If(Equal(PlayerParameter(68),22))>Zusatzeffekt: Öffnet <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachen<SoftHyphen/>auge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um eine Stufe.
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sprungbereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nach <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hochsprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
-Kann nicht im Kommandomenü angelegt werden."
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sprungbereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nach <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hochsprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>"
 7400,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>360<Else/>300</If><Else/>300</If>
 Attacke-Wert verringert sich ab dem zweiten Gegner um 30<Indent/>%.
@@ -9027,7 +9033,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Direktschus
 Attacke-Wert: 180
 Zusatzeffekt: Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Gauß-Geschoss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Rikoschettschuss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 15 Sekunden verkürzt
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Reaktivierungs-Timer wird nicht von Status oder Ausrüstung beeinflusst."
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet."
 7411,"Du führst eine physische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>200<Else/>180</If><Else/>180</If><If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
 Zusatzeffekt: Hitzebalken füllt sich um 5.<Else/></If><Else/></If>"
@@ -9045,14 +9051,14 @@ Bonus: Batteriebalken füllt sich um 10.<Else/></If><Else/></If>"
 7414,"Du füllst den Hitzebalken um 50.
 Nur im Kampf wirksam."
 7415,"Du lässt den gefechtsbereiten Selbstschuss-Gyrocopter TURM die physische Attacke <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>TURM-Überladung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen.
-Attacke-Wert: 320
+Attacke-Wert: 160 bis 320
 Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Gyrocopters.
 Gyrocopter verschwindet nach der Ausführung.
 Wird ausgelöst, sobald <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>TURM-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt wird oder der Batteriebalken leer ist.
 Bedingung: Selbstschuss-Gyrocopter TURM ist bereits gerufen.
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Selbstschuss-Gyrocopter TURM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 7416,"Du lässt den gefechtsbereiten Selbstschuss-Gyrocopter TURM eine physische Attacke ausführen.
-Attacke-Wert: 320
+Attacke-Wert: 160 bis 320
 Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Gyrocopters.
 Gyrocopter verschwindet nach der Ausführung.
 Wird ausgelöst, sobald <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>TURM-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt wird oder der Batteriebalken leer ist.
@@ -9107,7 +9113,8 @@ Zusatzeffekt: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Ruinga<U
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Bedingung: Karfunkel ist bereits gerufen.
 Demi-Bahamut nimmt für die Dauer der Beschwörung den Platz deines Karfunkels ein, aber das Karfunkel findet danach von selbst wieder zu dir.
-Die Ausführung dieses Kommandos erhöht die Feindseligkeit des Ziels gegen dich."
+Die Ausführung dieses Kommandos erhöht die Feindseligkeit des Ziels gegen dich.
+Eigener Reaktivierungs-Timer."
 7428,"Führt eine elementneutrale magische Attacke aus.
 Attacke-Wert: 150
 Bedingung: Demi-Bahamut anwesend.
@@ -9140,9 +9147,12 @@ Attacke-Wert: 240"
 Dauer: 15 Sekunden"
 7437,"Du lässt deine momentan gerufene Fee <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Feenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dich oder ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied ausführen.
 Feenbalken-Kosten: 10
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Regeneriert stetig LP des Ziels.
+Heilpotenzial: 300
+Während der Effekt aktiv wird, leert sich der Feenbalken schrittweise um 10. Das Ziel darf sich dabei nicht weiter als 30y von der Fee entfernen. Die Ausführung anderer Feen-Kommandos beendet den Effekt.
 Feenbalken füllt sich durch erfolgreiche Ausführung von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ätherfluss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbrauchenden Kommandos im Kampf. <If(Equal(PlayerParameter(68),28))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Fee oder Seraph<Else/>Fee</If><Else/>Fee</If> muss dabei anwesend sein.
 Kann nicht auf sich selbst angewendet werden. Effekt endet bei erneuter Ausführung."
-7438,"Du regenerierst bei einem Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, mit dem deine Fee einen Feenbund hat, LP über Zeit, wobei sich dein Feenbalken stetig leert.
+7438,"Du regenerierst bei einem Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, mit dem deine Fee einen Feenbund hat, LP über Zeit, wobei sich dein Feenbalken schrittweise um 10 leert.
 Heilpotenzial: 300
 Die Fee kann während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground> keine anderen Aktionen ausführen.
 Bedingung: Ziel ist nicht weiter als 30y entfernt
@@ -9160,7 +9170,7 @@ Heilpotenzial: 720"
 7441,""
 7442,"Du führst eine elementneutrale magische Attacke aus.
 Attacke-Wert: 190"
-7443,"Du ziehst entweder den <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>König der Kronen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Königin der Kronen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Danach verwandelt sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Spiel der Kronen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in das Kommando der gezogenen Karte.
+7443,"Du ziehst entweder den <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>König der Kronen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Königin der Kronen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Danach verwandelt sich dieses Kommando in das Kommando der gezogenen Karte.
 Nur im Kampf wirksam."
 7444,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 250
@@ -9289,11 +9299,12 @@ Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verbessertes Enpi<
 Zusatzeffekt: Füllt den Kenki-Balken um <If(GreaterThanOrEqualTo(PlayerParameter(72),62))><If(Equal(PlayerParameter(68),34))>10<Else/>5</If><Else/>5</If>.<Else/></If><Else/></If>"
 7487,"Du führst eine physische Attacke aus, die kritisch trifft.
 Attacke-Wert: 640
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 <If(Equal(PlayerParameter(68),34))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditationsebene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Maximalstapelzahl: 3
 <Else/></If><Else/></If>Kann nicht im Kommandomenü angelegt werden."
 7488,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 280
+Attacke-Wert: 300
 <If(Equal(PlayerParameter(68),34))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditationsebene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Maximalstapelzahl: 3
 <Else/></If><Else/></If>Kann nicht im Kommandomenü angelegt werden."
@@ -9309,7 +9320,7 @@ Maximalstapelzahl: 3
 Attacke-Wert: 250
 Kenki-Balken-Kosten: 25"
 7491,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 110
+Attacke-Wert: 120
 Kenki-Balken-Kosten: 25"
 7492,"Du schnellst zum Ziel hin und führst eine physische Attacke aus.
 Attacke-Wert: 100
@@ -9329,7 +9340,7 @@ Kenki-Balken-Kosten: 20"
 Bedingung: Einer dieser drei Status ist aktiv."
 7496,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 500
-Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 25<Indent/>%.
 Kenki-Balken-Kosten: 25<If(Equal(PlayerParameter(68),34))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hissatsu: Senei<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>"
 7497,"Du füllst nach und nach deinen Kenki-Balken.
@@ -12710,44 +12721,44 @@ Bei Ausführung werden alle Lilien verbraucht."
 9969,""
 9970,""
 9971,"Du feuerst ein Geschoss auf den anvisierten Bereich ab.
-Attacke-Wert gegen PCs und Kriegsmaschinen: 7500
-Attacke-Wert gegen Objekte und Marionetten: 750"
+Attacke-Wert gegen PCs und Kriegsmaschinen: 30.000
+Attacke-Wert gegen Objekte und Marionetten: 3000"
 9972,""
 9973,"Du führst eine Attacke auf die fächerförmig vor dir stehenden Gegner aus.
-Attacke-Wert gegen PCs, Objekte und Marionetten: 1000
-Attacke-Wert gegen Kriegsmaschinen: 10.000"
+Attacke-Wert gegen PCs, Objekte und Marionetten: 40.000
+Attacke-Wert gegen Kriegsmaschinen: 4000"
 9974,"Du führst eine Attacke auf die fächerförmig vor dir stehenden Gegner aus.
-Attacke-Wert gegen PCs und Kriegsmaschinen: 12.500
-Attacke-Wert gegen Objekte und Marionetten: 1250"
+Attacke-Wert gegen PCs und Kriegsmaschinen: 50.000
+Attacke-Wert gegen Objekte und Marionetten: 5000"
 9975,"Du feuerst ein Geschoss auf den anvisierten Bereich ab.
-Attacke-Wert gegen PCs, Kriegsmaschinen und Marionetten: 5000
-Attacke-Wert gegen Objekte: 250.000
+Attacke-Wert gegen PCs, Kriegsmaschinen und Marionetten: 20.000
+Attacke-Wert gegen Objekte: 1.000.000
 Attacke-Wert nimmt mit der Entfernung zum Einschlagort ab. Maximale Entfernung: 30y"
 9976,""
 9977,"Du führst eine Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert gegen PCs und Kriegsmaschinen: 2500
-Attacke-Wert gegen Objekte und Marionetten: 250
+Attacke-Wert gegen PCs und Kriegsmaschinen: 10.000
+Attacke-Wert gegen Objekte und Marionetten: 1000
 Zusatzeffekt: Schleudert Ziele 15y zurück."
 9978,"Du führst eine Attacke auf die fächerförmig vor dir stehenden Gegner aus.
-Attacke-Wert gegen PCs und Kriegsmaschinen: 10.000
+Attacke-Wert gegen PCs und Kriegsmaschinen: 40.000
 Zusatzeffekt gegen PCs und Kriegsmaschinen: Brandwunde
-Attacke-Wert: 2500
+Attacke-Wert: 10.000
 Dauer: 12 Sekunden
-Attacke-Wert gegen Objekte und Marionetten: 1000"
+Attacke-Wert gegen Objekte und Marionetten: 4000"
 9979,"Du feuerst ein Geschoss auf den anvisierten Bereich ab.
-Attacke-Wert gegen PCs, Kriegsmaschinen und Marionetten: 7500
-Attacke-Wert gegen Objekte: 150.000
+Attacke-Wert gegen PCs, Kriegsmaschinen und Marionetten: 30.000
+Attacke-Wert gegen Objekte: 600.000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 3 Sekunden"
 9980,"Du führst eine Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert gegen PCs und Kriegsmaschinen: 15.000
-Attacke-Wert gegen Objekte und Marionetten: 1500
+Attacke-Wert gegen PCs und Kriegsmaschinen: 60.000
+Attacke-Wert gegen Objekte und Marionetten: 6000
 Zusatzeffekt: Schleudert Ziele 30y zurück."
 9981,"Du füllst den Tank der momentan gesteuerten Kriegsmaschine um 5000 EP auf.
 Bedingung: 25 Erdseim-Energie"
 9982,"Du feuerst ein Geschoss auf den anvisierten Bereich ab.
-Attacke-Wert gegen PCs und Kriegsmaschinen: 5000
-Attacke-Wert gegen Objekte und Marionetten: 500"
+Attacke-Wert gegen PCs und Kriegsmaschinen: 20.000
+Attacke-Wert gegen Objekte und Marionetten: 2000"
 9983,""
 9984,""
 9985,""
@@ -14249,7 +14260,7 @@ Attacke-Wert: 220
 Bei Zielen mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist der Attacke-Wert erhöht.
 Erhöhter Attacke-Wert: 450"
 11401,"Du bewegst dich blitzschnell an den anvisierten Ort.
-Kann nicht während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 11402,"Du führst eine feuerbasierte magische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 220
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %."
@@ -15979,9 +15990,9 @@ Einige Gegner können dich sehen.
 Bedingung: nach Ausführung nicht im Kampf.
 Effekt endet bei erneuter Ausführung oder nächstem Kommando mit Ausnahme von Sprint."
 12982,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel. 
-Kann nicht während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 12983,"Du springst 10 Yalme von deiner aktuellen Position zurück.
-Kann nicht während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 12984,"Du fügst dem Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu.
 Dauer: 8 Sekunden"
 12985,"Du wandelst einen Teil deines ausgeteilten Schadens in LP um.
@@ -16458,7 +16469,7 @@ Attacke-Wert: 140"
 13424,"Du fügst dem Ziel windbasierten physischen Schaden zu.
 Attacke-Wert: 50
 Zusatzeffekt: Windbasierter Schaden über Zeit
-Attacke-Wert: 30
+Attacke-Wert: 50
 Dauer: 18 Sekunden"
 13425,"Du regenerierst LP des Ziels.
 Heilpotenzial: 700"
@@ -19098,26 +19109,26 @@ Kommando ändert sich während des Tanzes zu <UIForeground>F201F6</UIForeground>
 15997,"Tanzgrundschritt. Du erhältst den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfache Choreographie<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
 Wechselt zu Kommando <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> während des Tanzes. Nur <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Tanzschritte, Sprint, Limitrausch und Rollenkommandos können im Tanz ausgeführt werden.
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos."
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet."
 15998,"Tanzgrundschritt. Du erhältst den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexe Choreographie<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
 Wechselt zu Kommando <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> während des Tanzes. Nur <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Tanzschritte, Sprint, Limitrausch und Rollenkommandos können im Tanz ausgeführt werden.
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos."
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet."
 15999,"Tanzschritt. Du führst einen Pas Emboite aus.
 Erhöht in Kombination mit anderen Tanzschritten die Wirkung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16000,"Tanzschritt. Du führst ein Entrechat aus.
 Erhöht in Kombination mit anderen Tanzschritten die Wirkung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16001,"Tanzschritt. Du führst ein Jete aus.
 Erhöht in Kombination mit anderen Tanzschritten die Wirkung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16002,"Tanzschritt. Du führst eine Pirouette aus.
 Erhöht in Kombination mit anderen Tanzschritten die Wirkung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16003,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Tanzschritte:
@@ -19132,7 +19143,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75 %.
 1 Schritt: 2 %
 2 Schritte: 5 %
 Dauer: 60 Sekunden
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16004,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Tanzschritte:
@@ -19153,7 +19164,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 Dauer: 20 Sekunden
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
-<Else/></If><Else/></If>Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+<Else/></If><Else/></If>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16005,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
 Attacke-Wert: 480
@@ -19324,9 +19335,9 @@ Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(Player
 16138,"Du erhöhst deinen ausgeteilten Schaden um 20<Indent/>%.
 Dauer: 20 Sekunden"
 16139,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zerfetzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>260<Else/>240</If><Else/>240</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>270<Else/>240</If><Else/>240</If>
 Bonus: Du regenerierst eigene LP.
 Heilpotenzial: 200<If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),52))>
 Das errichtet auch eine Barriere um dich, die Schaden in Höhe von 100 % der regenerierten LP absorbiert.
@@ -19343,9 +19354,9 @@ Zusatzeffekt: Erhöhte Feindseligkeit"
 16144,"Du führst eine physische Attacke aus.
 Attacke-Wert: 250"
 16145,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>140<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Brutaler Einschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>320</If><Else/>320</If><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
+Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
 Bonus: Du erhältst eine Erda-Patrone.<Else/></If><Else/></If>"
 16146,"Du führst eine physische Attacke aus.
 Attacke-Wert: 380
@@ -19430,11 +19441,11 @@ Dauer: 10 Sekunden
 Effekt endet bei Ausführung einer Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit.
 <Else/></If><Else/></If>Erda-Patronen-Kosten: 1"
 16163,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 290
+Attacke-Wert: 300
 Erda-Patronen-Kosten: 1"
 16164,"Du ziehst Magie aus einem Gegner und erhältst dafür <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>3<Else/>2</If><Else/>2</If> Erda-Patronen."
 16165,"Du führst eine physische Attacke aus.
-Attacke-Wert: 700"
+Attacke-Wert: 720"
 16166,""
 16167,""
 16168,""
@@ -19473,7 +19484,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 1 Schritt: 2 %
 2 Schritte: 5 %
 Dauer: 60 Sekunden
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16192,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Tanzschritte:
@@ -19488,7 +19499,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 1 Schritt: 2 %
 2 Schritte: 5 %
 Dauer: 60 Sekunden
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16193,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Tanzschritte:
@@ -19509,7 +19520,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 Dauer: 20 Sekunden
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
-<Else/></If><Else/></If>Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+<Else/></If><Else/></If>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16194,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Tanzschritte:
@@ -19530,7 +19541,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 Dauer: 20 Sekunden
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
-<Else/></If><Else/></If>Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+<Else/></If><Else/></If>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16195,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Tanzschritte:
@@ -19551,7 +19562,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 Dauer: 20 Sekunden
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
-<Else/></If><Else/></If>Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+<Else/></If><Else/></If>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16196,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Tanzschritte:
@@ -19572,7 +19583,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 Dauer: 20 Sekunden
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
-<Else/></If><Else/></If>Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+<Else/></If><Else/></If>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 16197,""
 16198,""
@@ -19871,6 +19882,7 @@ Ist dieser Status bereits aktiv, wird er um 30 Sekunden verlängert (max. 60 Sek
 Bonus: Urkraftbalken füllt sich um 20.<Else/></If><Else/></If>"
 16463,"Du führst eine physische Attacke auf alle umstehenden Gegner aus, die direkt und kritisch trifft.
 Attacke-Wert: 320
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Zusatzeffekt: Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schlachtruf<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5 Sekunden verkürzt.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Saat des Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Saat des Chaos wird durch die Ausführung beendet.
@@ -19890,6 +19902,7 @@ Dauer: 20 Sekunden
 Gemeinsamer Reaktivierungs-Timer mit <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urimpuls<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urinstinkt<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urinstinkt<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>."
 16465,"Du führst eine physische Attacke aus, die direkt und kritisch trifft.
 Attacke-Wert: 650
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Zusatzeffekt: Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schlachtruf<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 5 Sekunden verkürzt.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Saat des Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Saat des Chaos wird durch die Ausführung beendet.
@@ -19928,9 +19941,9 @@ Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>
 16471,"Du verringerst den erlittenen Magieschaden von dir und den umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern um 10 %.
 Dauer: 15 Sekunden"
 16472,"Du lässt ein Abbild deiner selbst erscheinen, das an deiner Seite kämpft.
-Attacke-Wert des Heldenschemens: <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>300<Else/>240</If><Else/>240</If>
-Dauer: 24 Sekunden
-<If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schattenbringer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 450
+Attacke-Wert des Heldenschemens: <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>350<Else/>280</If><Else/>280</If>
+Dauer: 20 Sekunden
+<If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schattenbringer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 500
 Attacke-Wert verringert sich ab dem zweiten Gegner um 25<Indent/>%.
 <Else/></If><Else/></If>Blutbalken-Kosten: 50"
 16473,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
@@ -19966,7 +19979,6 @@ Attacke-Wert: 400
 Nach der Attacke kehrst du wieder an deine ursprüngliche Position zurück.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sprungbereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 15 Sekunden
-Kommando ändert sich während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sprungbereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Illusionssprung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 16479,"Du führst eine physische Attacke aus.
 Attacke-Wert: 280
@@ -19999,11 +20011,12 @@ Kann nicht zugleich mit dem Schaden über Zeit von <UIForeground>F201F4</UIForeg
 Reaktivierungs-Timer wie Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten
 Kann nicht im Kommandomenü angelegt werden."
 16485,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 280
+Attacke-Wert: 300
 Reaktivierungs-Timer wie Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten
 Kann nicht im Kommandomenü angelegt werden."
 16486,"Du führst eine physische Attacke aus, die kritisch trifft.
 Attacke-Wert: 640
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Reaktivierungs-Timer wie Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten
 Kann nicht im Kommandomenü angelegt werden."
 16487,"Du führst eine physische Attacke aus.
@@ -20062,7 +20075,7 @@ Dauer: 10 Sekunden
 16497,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 140
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Reaktivierungs-Timer wird nicht durch Ausrüstung oder Status beeinflusst."
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet."
 16498,"Du führst eine physische Attacke aus.
 Attacke-Wert: 580<If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bioblaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>"
@@ -20076,27 +20089,28 @@ Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>
 Attacke-Wert: 580
 Zusatzeffekt: Batteriebalken füllt sich um 20.
 Eigener Reaktivierungs-Timer"
-16501,"Du mobilisierst das Automaton DAME und verbrauchst dafür kontinuierlich Batterieladung.
-Dauer: Je nach Stand des Batteriebalkens, max. 20 Sekunden
+16501,"Du mobilisierst das Automaton DAME. Sein Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen.
+Dauer: 12 Sekunden
 Das Automaton verschwindet durch Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>DAME-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder wenn die Wirkungsdauer endet.
 Bedingung: Batteriebalken min. 50
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>DAME-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 16502,"Du lässt das Automaton DAME die physische Attacke <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Pressluftramme<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen.
-Attacke-Wert: 680
+Attacke-Wert: 340 bis 680
 Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Automatons.
 Automaton verschwindet nach der Ausführung.
 Wird ausgelöst, sobald <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>DAME-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt wird oder der Batteriebalken leer ist.
 Bedingung: Automaton DAME ist bereits gerufen.
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Automaton DAME<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 16503,"Du lässt das gefechtsbereite Automaton DAME eine physische Attacke ausführen.
-Attacke-Wert: 680
+Attacke-Wert: 340 bis 680
 Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Automatons.
 <If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><Else/>Automaton verschwindet nach der Ausführung.
 </If><Else/>Automaton verschwindet nach der Ausführung.
 </If>Wird ausgelöst, sobald <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>DAME-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt wird oder wenn die Wirkungsdauer endet.
 Kann nicht im Kommandomenü angelegt werden."
 16504,"Führt eine physische Attacke aus.
-Attacke-Wert: 120
+Attacke-Wert: 120 bis 240
+Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Automatons.
 Kann nicht im Kommandomenü angelegt werden."
 16505,"Du führst eine feuerbasierte magische Attacke aus.
 Attacke-Wert: 340
@@ -21105,7 +21119,8 @@ Bedingung: Diurnal aktiv</If>"
 17204,""
 17205,""
 17206,"Schnellt zum Ziel hin und führt eine physische Attacke aus.
-Attacke-Wert: 240
+Attacke-Wert: 240 bis 480
+Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Automatons.
 Kann nicht im Kommandomenü angelegt werden."
 17207,""
 17208,""
@@ -29635,13 +29650,13 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 30<Indent/>%.
 Zusatzeffekt: Regeneriert LP bei dem Ziel mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Heilpotenzial: <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
 Maximale Aufladungen: 2
-Eigener Reaktivierungs-Timer"
+Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
 24290,"Du verstärkst bestimmte Heil- und Angriffszauber.
 <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis III<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.</If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.</If></If><Else/><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.</If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.</If></If>
 <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Diagnose<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Diagnose<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Prognose<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Prognose<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Der Effekt endet, sobald ein verstärktes Kommando ausgeführt wird.
-Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet."
 24291,"Du regenerierst LP des Ziels.
 Heilpotenzial: 300
 Zusatzeffekt: Errichtet eine Barriere um das Ziel, die Schaden in der Höhe von <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>180<Else/>125</If><Else/>125</If><Indent/>％ der Heilwirkung absorbiert.
@@ -29689,7 +29704,7 @@ Dauer: 15 Sekunden
 Heilpotenzial: 400
 Zusatzeffekt: Regeneriert 7<Indent/>% der eigenen Maximal-MP.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Humor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Kosten: 1"
-24300,"Du erhöhst das Heilpotenzial deiner nächsten gewirkten Heilmagie um 150<Indent/>%.
+24300,"Du erhöhst das Heilpotenzial deiner nächsten gewirkten Heilmagie um 50<Indent/>%.
 Dauer: 30 Sekunden"
 24301,"Du entfernst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eukratische Diagnose<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eukratische Prognose<UIGlow>01</UIGlow><UIForeground>01</UIForeground> von dir selbst und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern und regenerierst dafür LP der betroffenen Ziele.
 Heilpotenzial bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eukratische Diagnose<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 450
@@ -29727,7 +29742,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: Regeneriert LP bei dem Ziel mit von dir gewährtem <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Heilpotenzial: <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
 Maximale Aufladungen: 2
-Eigener Reaktivierungs-Timer"
+Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
 24308,"Du fügst dem Ziel elementneutralen magischen Schaden über Zeit zu.
 Attacke-Wert: 60
 Dauer: 30 Sekunden
@@ -29737,6 +29752,8 @@ Kann nicht im Kommandomenü angelegt werden."
 24309,"Du erhältst 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Humor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 24310,"Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
 Heilpotenzial: 300
+Zusatzeffekt: Errichtet eine Barriere um die Ziele, die Schaden in der Höhe von 100<Indent/>% der Heilwirkung absorbiert.
+Dauer: 30 Sekunden
 Zusatzeffekt: Erlittener Schaden von dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern ist um 10<Indent/>% verringert.
 Dauer: 20 Sekunden"
 24311,"Du errichtest eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend einem Heilpotenzial von 200 absorbiert, und gewährst dir 5 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Panhaimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -29753,7 +29770,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: Regeneriert LP bei dem Ziel mit von dir gewährtem <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Heilpotenzial: <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
 Maximale Aufladungen: 2
-Eigener Reaktivierungs-Timer"
+Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
 24314,"Du fügst dem Ziel elementneutralen magischen Schaden über Zeit zu.
 Attacke-Wert: 70
 Dauer: 30 Sekunden
@@ -29779,7 +29796,7 @@ Zusatzeffekt: Regeneriert eigene LP und die von Grup<SoftHyphen/>pen<SoftHyphen/
 Heilpotenzial: 600
 Zusatzeffekt: Regeneriert LP bei dem Ziel mit von dir gewährtem <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Heilpotenzial: <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
-Eigener Reaktivierungs-Timer"
+Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
 24319,""
 24320,""
 24321,""
@@ -29835,17 +29852,17 @@ Eigener Reaktivierungs-Timer"
 24371,""
 24372,""
 24373,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>300<Else/>260</If><Else/>260</If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
+Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>320<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>300<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>300<Else/>260</If><Else/>260</If></If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
 Zusatzeffekt: Seelenbalken füllt sich um 10.<Else/></If><Else/></If>"
 24374,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>160<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schlitzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>380<Else/>340</If><Else/>340</If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
 Bonus: Seelenbalken füllt sich um 10.<Else/></If><Else/></If>"
 24375,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>180<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Neulicht-Schlitzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>460<Else/>420</If><Else/>420</If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
+Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>500<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>460<Else/>420</If><Else/>420</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>460<Else/>420</If><Else/>420</If></If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
 Bonus: Seelenbalken füllt sich um 10.<Else/></If><Else/></If>"
 24376,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>120</If><Else/>120</If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
@@ -29873,12 +29890,14 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Architekt d
 Attacke-Wert: 460
 Zusatzeffekt: Seelenbalken füllt sich um 50.
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))>Maximale Aufladungen: 2
-<Else/></If><Else/></If>Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Seelensense<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<Else/></If><Else/></If>Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Seelensense<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 24381,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 180
 Zusatzeffekt: Seelenbalken füllt sich um 50.
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))>Maximale Aufladungen: 2
-<Else/></If><Else/></If>Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Seelenschlitzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<Else/></If><Else/></If>Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Seelenschlitzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 24382,"Du führst eine physische Attacke aus.
 Attacke-Wert: 400
 Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Richten<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 460
@@ -29966,7 +29985,7 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kreuzmah
 Dauer: 30 Sekunden
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>Zusatzeffekt: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nichtsseele<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <Else/></If><Else/></If>Seelenkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lemurenseele<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Reaktivierungs-Timer wird nicht durch Ausrüstung oder Status beeinflusst.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 24396,"Du führst eine physische Attacke aus.
 Attacke-Wert: 460
@@ -29975,13 +29994,13 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nichtsma
 Dauer: 30 Sekunden
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>Zusatzeffekt: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nichtsseele<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <Else/></If><Else/></If>Seelenkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lemurenseele<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Reaktivierungs-Timer wird nicht durch Ausrüstung oder Status beeinflusst.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 24397,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 200
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>Zusatzeffekt: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nichtsseele<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <Else/></If><Else/></If>Seelenkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lemurenseele<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Reaktivierungs-Timer wird nicht durch Ausrüstung oder Status beeinflusst.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 24398,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 1000
@@ -31390,7 +31409,7 @@ Attacke-Wert: 340
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: MP werden regeneriert."
 25748,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 420
+Attacke-Wert: 460
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: Regeneriert eigene LP.
 Heilpotenzial: 400
@@ -31398,7 +31417,7 @@ Zusatzeffekt: MP werden regeneriert.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv, gewährt nach der Effektdauer von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
 25749,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 500
+Attacke-Wert: 540
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: Regeneriert eigene LP.
@@ -31406,7 +31425,7 @@ Heilpotenzial: 400
 Zusatzeffekt: MP werden regeneriert.
 Kann nicht im Kommandomenü angelegt werden."
 25750,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 580
+Attacke-Wert: 620
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Redlichkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: Regeneriert eigene LP.
@@ -31434,6 +31453,7 @@ Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>
 25753,"Du führst eine Sprung-Attacke aus, die direkt und kritisch trifft, und fügst dem Ziel und den Gegnern in seiner Nähe physischen Schaden zu.
 Attacke-Wert: 700
 Attacke-Wert verringert sich ab dem zweiten Gegner um 70<Indent/>%.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Verbraucht keinen Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urbefreiung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Bedingung: durch <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urbefreiung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährte <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Brachiale Gewalt<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
@@ -31468,7 +31488,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Knallender 
 Kann nicht im Kommandomenü angelegt werden."
 25760,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 1200
-Attacke-Wert verringert sich ab dem zweiten Gegner um 20<Indent/>%.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 15<Indent/>%.
 Erda-Patronen-Kosten: 2
 Eigener Reaktivierungs-Timer"
 25761,"Du führst eine physische Attacke aus.
@@ -31479,7 +31499,7 @@ Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>
 Kann nicht im Kommandomenü angelegt werden."
 25762,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Maximale Aufladungen: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>3<Else/>2</If><Else/>2</If>
-Kann nicht während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 25763,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 100
 Schließt alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatten-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -31502,6 +31522,7 @@ Bedingung: 3 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tier-Chak
 Dauer: 15 Sekunden"
 25767,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 110
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Zusatzeffekt während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: trifft kritisch.
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
@@ -31584,6 +31605,7 @@ Zusatzeffekt: Füllt den Kenki-Balken um 10."
 25781,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus, die kritisch trifft.
 Attacke-Wert: 800
 Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditationsebene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Maximalstapelzahl: 3
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ogi Namikiri<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
@@ -31591,6 +31613,7 @@ Kommando ändert sich bei Ausführung zu <UIForeground>F201F6</UIForeground><UIG
 25782,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus, die kritisch trifft.
 Attacke-Wert: 800
 Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Reaktivierungs-Timer wie Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten
 Kann nicht im Kommandomenü angelegt werden."
 25783,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
@@ -31612,7 +31635,7 @@ Bedingung: mindestens 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlo
 Attacke-Wert: 150
 Zusatzeffekt: Hitzebalken füllt sich um 10."
 25787,"Du führst eine physische Attacke aus.
-Attacke-Wert: 780
+Attacke-Wert: 390 bis 780
 Attacke-Wert steigt je nach Stand des Batteriebalkens beim Herbeirufen des Automatons.
 Automaton verschwindet nach der Ausführung.
 Wird ausgelöst, sobald <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>DAME-Überhitzung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt wird oder der Batteriebalken leer ist.
@@ -31638,7 +31661,7 @@ Zusatzeffekt: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftH
 Dauer: 60 Sekunden
 Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 5<Indent/>%
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-Ausrüstung und Statuseffekte haben keinen Einfluss auf die Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit dieses Kommandos.
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25791,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 300
@@ -31647,6 +31670,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz
 25792,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus, die direkt und kritisch trifft.
 Attacke-Wert: 600
 Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
+Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sternenfalltanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv"
 25793,"Du führst eine eisbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 100
@@ -31693,19 +31717,22 @@ Attacke-Wert: 400
 Zusatzeffekt: 2 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden feuerbasiert.
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Rubin-Karfunkel, kehrt danach aber an deine Seite zurück."
 25803,"Du rufst dein Topas-Karfunkel an deine Seite und lässt es <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Topasfunkeln<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen, was es zum Ziel schnellen lässt und ihm erdbasierten magischen Schaden zufügt.
 Attacke-Wert: 400
 Zusatzeffekt: 4 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erdäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erdäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden erdbasiert.
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Topas-Karfunkel, kehrt danach aber an deine Seite zurück."
 25804,"Du rufst dein Smaragd-Karfunkel an deine Seite und lässt es <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Smaragdfunkeln<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen, was es zum Ziel schnellen lässt und ihm windbasierten magischen Schaden zufügt.
 Attacke-Wert: 400
 Zusatzeffekt: 4 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Windäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Windäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden windbasiert.
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Smaragd-Karfunkel, kehrt danach aber an deine Seite zurück."
 25805,"Du rufst dein Ifrit-Egi an deine Seite und lässt es <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Inferno<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Brennender Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Brennender Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ausführen, was <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>es zum Ziel schnellen und eine feuerbasierte magische Attacke auf alle Gegner in einem Fächer von 5y ausführen lässt.
 Attacke-Wert: 600
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
@@ -31718,7 +31745,8 @@ Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden feuerbasiert.
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrits Gunst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dieser Effekt wird aufgehoben, sobald du ein anderes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beschwörungs<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Kommando ausführst.
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Ifrit, kehrt danach aber an deine Seite zurück."
 25806,"Du rufst dein Titan-Egi an deine Seite und lässt es <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Gaias Zorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Steinsprenger<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Steinsprenger<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ausführen, was <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>es zum Ziel schnellen und eine erdbasierte magische Attacke auf alle umstehenden Gegner innerhalb von 5y ausführen lässt.
 Attacke-Wert: 600
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
@@ -31729,7 +31757,8 @@ Attacke-Wert: 500
 </If>Zusatzeffekt: 4 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erdäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erdäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden erdbasiert.
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Titan, kehrt danach aber an deine Seite zurück."
 25807,"Du rufst dein Garuda-Egi an deine Seite und lässt es <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Windschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Lufthieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Lufthieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ausführen, was dem Ziel und allen ihm umstehenden Gegnern innerhalb von 5y windbasierten magischen Schaden zufügt.
 Attacke-Wert: <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>600<Else/>100</If><Else/>100</If>
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
@@ -31738,10 +31767,12 @@ Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Windäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden windbasiert.
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garudas Gunst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dieser Effekt wird aufgehoben, sobald du ein anderes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beschwörungs<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Kommando ausführst.
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Garuda, kehrt danach aber an deine Seite zurück."
 25808,"Du führst eine feuerbasierte magische Attacke aus.
 Attacke-Wert: 340
 Ätherkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25809,"Du führst eine erdbasierte magische Attacke aus.
 Attacke-Wert: 240
@@ -31754,6 +31785,7 @@ Kann nicht im Kommandomenü angelegt werden."
 25811,"Du führst eine feuerbasierte magische Attacke aus.
 Attacke-Wert: 380
 Ätherkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25812,"Du führst eine erdbasierte magische Attacke aus.
 Attacke-Wert: 270
@@ -31766,6 +31798,7 @@ Kann nicht im Kommandomenü angelegt werden."
 25814,"Du führst eine feuerbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 160
 Ätherkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25815,"Du führst eine erdbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 110
@@ -31778,6 +31811,7 @@ Kann nicht im Kommandomenü angelegt werden."
 25817,"Du führst eine feuerbasierte magische Attacke aus.
 Attacke-Wert: 410
 Ätherkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25818,"Du führst eine erdbasierte magische Attacke aus.
 Attacke-Wert: 300
@@ -31804,6 +31838,7 @@ Bei <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(
 25823,"Du fügst dem Ziel feuerbasierten magischen Schaden zu.
 Attacke-Wert: <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>510<Else/>480</If><Else/>480</If>
 Ätherkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25824,"Du fügst dem Ziel erdbasierten magischen Schaden zu.
 Attacke-Wert: <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>330<Else/>320</If><Else/>320</If>
@@ -31820,6 +31855,7 @@ Attacke-Wert: 120"
 25827,"Du führst eine feuerbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 190
 Ätherkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25828,"Du führst eine erdbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 130
@@ -31845,10 +31881,12 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Ar
 Bedingung: Karfunkel ist bereits gerufen.
 Demi-Phönix nimmt für die Dauer der Beschwörung den Platz deines Karfunkels ein, aber das Karfunkel findet danach von selbst wieder zu dir.
 Die Ausführung dieses Kommandos erhöht die Feindseligkeit des Ziels gegen dich.
+Eigener Reaktivierungs-Timer.
 Kann nicht im Kommandomenü angelegt werden."
 25832,"Du fügst dem Ziel und den Gegnern in seiner Nähe feuerbasierten magischen Schaden zu.
 Attacke-Wert: 210
 Ätherkosten: 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25833,"Du fügst dem Ziel und den Gegnern in seiner Nähe erdbasierten magischen Schaden zu.
 Attacke-Wert: 140
@@ -31879,6 +31917,7 @@ Zusatzeffekt: Errichtet eine Schadenszone um das Ziel.
 Attacke-Wert: 30
 Dauer: 15 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garudas Gunst<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Kann nicht im Kommandomenü angelegt werden."
 25838,"Du rufst Rubin-Ifrit an deine Seite und lässt ihn <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Inferno<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y feuerbasierten magischen Schaden zufügt.
 Attacke-Wert: 700
@@ -31888,14 +31927,16 @@ Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Feueräther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden feuerbasiert.
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrits Gunst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dieser Effekt wird aufgehoben, sobald du ein anderes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beschwörungs<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Kommando ausführst.
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Rubin-Ifrit, kehrt danach aber an deine Seite zurück."
 25839,"Du rufst Topas-Titan an deine Seite und lässt ihn <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Gaias Zorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y erdbasierten magischen Schaden zufügt.
 Attacke-Wert: 700
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
 Zusatzeffekt: 4 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erdäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erdäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden erdbasiert.
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Topas-Titan, kehrt danach aber an deine Seite zurück."
 25840,"Du rufst Smaragd-Garuda an deine Seite und lässt sie <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Windschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y windbasierten magischen Schaden zufügt.
 Attacke-Wert: 700
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
@@ -31904,7 +31945,8 @@ Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Windäther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Juwelenschein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Edelglanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> werden windbasiert.
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garudas Gunst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dieser Effekt wird aufgehoben, sobald du ein anderes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beschwörungs<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Kommando ausführst.
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen."
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Arkanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und Karfunkel bereits gerufen.
+Dein Karfunkel verschwindet während der Beschwörung von Smaragd-Garuda, kehrt danach aber an deine Seite zurück."
 25841,"Errichtet eine Barriere um dich, die Schaden in Höhe von 20<Indent/>% deiner Maximal-LP absorbiert.
 Dauer: 30 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
@@ -31949,7 +31991,7 @@ Dauer: 4 Sekunden"
 25861,"Du verringerst deinen erlittenen Schaden oder den eines Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds um 15<Indent/>%.
 Dauer: 8 Sekunden"
 25862,"Du erschaffst eine weißmagische Blume und erhältst 5 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Glockenspiel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Dauer: 15 Sekunden
+Dauer: 20 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Glockenspiel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Bei erhaltenem Schaden wird ein Stapel verbraucht. Jeder so verbrauchte Stapel regeneriert in einem Umkreis von 20 Yalmen um das Glockenspiel bei dir und allen Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern LP.
 Heilpotenzial: 400
 Dieser Effekt kann nur einmal pro Sekunde ausgelöst werden. Sind bei Ablauf der Wirkdauer noch Stapel übrig oder wird das Kommando abermals ausgeführt, werden sie verbraucht und ihr dem<SoftHyphen/>ent<SoftHyphen/>spre<SoftHyphen/>chender Effekt ausgelöst.
@@ -31992,7 +32034,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 40<Indent/>%.
 Zusatzeffekt: Gewährt dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Makrokosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und dieses Kommando ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Mikrokosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Makrokosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erleidet das Ziel während der Wirkungsdauer Schaden, wird dieser angesammelt. Bei Ablauf der Wirkungsdauer oder bei Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Mikrokosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird das Ziel entsprechend einem Heilpotenzial von 200 plus 50<Indent/>% des angesammelten Schadens geheilt. Dabei ist die Menge der regenerierten LP nur so hoch wie die Maximal-LP des Ziels.
-Eigener Reaktivierungs-Timer"
+Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
 25875,"Du beendest den Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Makrokosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf den Zielen und regenerierst ihre LP.
 Heilpotenzial: 200 plus 50<Indent/>% des angesammelten Schadens
 Die Menge der regenerierten LP ist nur so hoch wie die Maximal-LP des Ziels."
@@ -34193,7 +34235,7 @@ Dauer: 15 Sekunden
 Falls die Barriere den vollen Schaden absorbiert, wird 1 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und die Barriere erneuert. Bei Ablauf der Wirkungsdauer werden alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und das Ziel geheilt.
 Heilpotenzial: 1000 pro übrigem Stapel"
 27834,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
-Kann nicht während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 27835,"Du erhältst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und du oder das anvisierte Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Gewisse deiner magische Attacken regenerieren beim Ziel mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> LP."
 27836,""
 27837,""
@@ -35487,7 +35529,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trutz des R
 Dauer: 10 Sekunden"
 29068,""
 29069,"Du gewährst dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliger Boden<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phalanx<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliger Boden<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Unverwundbar gegen alle Attacken.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliger Boden<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Unverwundbar gegen fast alle Attacken.
 Dauer: 10 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phalanx<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erlittener Schaden ist um 50<Indent/>% verringert.
 Dauer: 10 Sekunden
@@ -35509,18 +35551,20 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Re
 Heilpotenzial: 2000
 Dauer: 10 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+Ändert sich bei Ausführung zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Redlichkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Kann nicht im Kommandomenü angelegt werden."
-29072,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.  Leiden die Ziele unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, ist dein Schaden um 50 % erhöht.
+29072,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Leiden die Ziele unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, ist dein Schaden um 50 % erhöht.
 Attacke-Wert: 6000
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
 Heilpotenzial: 2000
 Dauer: 10 Sekunden
+Ändert sich bei Ausführung zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Tapferkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Kann nicht im Kommandomenü angelegt werden."
 29073,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Leiden die Ziele unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, ist dein Schaden um 50 % erhöht.
 Attacke-Wert: 8000
-Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Redlichkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
 Heilpotenzial: 2000
@@ -35561,7 +35605,7 @@ Dauer: 10 Sekunden"
 Zusatzeffekt: Ziel erleidet 75 % <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 5 Sekunden"
 29082,"Du gewährst dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urimpuls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Jagdtrieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Saat des Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urimpuls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 75 % des durch Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten ausgeteilten Schadens werden als LP absorbiert.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urimpuls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 100 % des durch Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten ausgeteilten Schadens werden als LP absorbiert.
 Dauer: 10 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Jagdtrieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Errichtet eine Barriere um dich, die Schaden entsprechend 10<Indent/>% deiner Maximal-LP absorbiert.
 Dauer: 10 Sekunden
@@ -35866,7 +35910,7 @@ Attacke-Wert: 10000
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Angreifer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nebula<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Aurora<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
-29129,"Du regenerierst LP des Ziels.
+29129,"Du regenerierst eigene LP oder die eines Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds.
 Heilpotenzial: 8000 
 Zusatzeffekt: Regeneriert stetig LP des Ziels.
 Heilpotenzial: 3000
@@ -35981,21 +36025,21 @@ Heilpotenzial: 12000
 Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vitaga bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Vitra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Vitaga<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer"
-29225,"Du regenerierst LP des Ziels und aller Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder in seiner Nähe.
-Heilpotenzial: 12000
+29225,"Du regenerierst eigene LP oder die des des Ziels und aller Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder in seiner Nähe.
+Heilpotenzial: 16000
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vitaga bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29226,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 10000
+Attacke-Wert: 12000
 Eigener Reaktivierungs-Timer"
-29227,"Du errichtest eine Barriere um dich oder ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, die Schaden entsprechend einem Heilpotenzial von 6000 absorbiert.
+29227,"Du errichtest eine Barriere um dich oder ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, die Schaden entsprechend einem Heilpotenzial von 8000 absorbiert.
 Dauer: 10 Sekunden
 Zusatzeffekt: Entfernt einen negativen Statuseffekt, der auch von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Purifikation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aufgehoben werden kann. Wird ein negativer Statuseffekt erfolgreich entfernt, verdoppelt sich die Barrierewirkung."
 29228,"Du verwandelst deinen Gegner in einen Flusskobold oder ein Ferkel. Während der Dauer der Verwandlung können keine Kommandos ausgeführt werden.
 Dauer: 2 Sekunden
-Unwirksam gegen Spieler mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wehr<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Spieler in Kriegsmaschinen und Zielen, die keine Spieler sind."
+Unwirksam gegen Spieler mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Wehr<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind."
 29229,"Du führst eine Sprung-Attacke aus und fügst dem Ziel und den Gegnern in seiner Nähe magischen Schaden zu.
-Attacke-Wert: 6000
+Attacke-Wert: 8000
 Zusatzeffekt: Gewährt dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Protes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 10 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Protes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verringert erlittenen Schaden um 10<Indent/>%.
@@ -36020,7 +36064,7 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dynamisi
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dynamisieren<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Errichtet eine Barriere um das Ziel, die Schaden entsprechend einem Heilpotenzial von 4000 absorbiert.
 Dauer: 15 Sekunden
 Ist <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raffinesse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dir aktiv, erhöht sich die Wirkung der Barriere um 50<Indent/>%.
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Katalyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden ist um 10 % erhöht.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Katalyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden ist um 8 % erhöht.
 Dauer: 15 Sekunden
 Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer"
@@ -36029,7 +36073,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Causae et C
 Attacke-Wert: 3000
 Dauer: 15 Sekunden
 Ist <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raffinesse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dir aktiv, erhöht sich der Attacke-Wert um 50<Indent/>%.
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Causae<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden des Ziels ist um 10<Indent/>% verringert.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Causae<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden des Ziels ist um 8<Indent/>% verringert.
 Dauer: 15 Sekunden
 Eigener Reaktivierungs-Timer"
 29234,"Wirkst du diesen Zauber auf dich selbst oder ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, erweiterst du die Wirkung von dem dir gewährten <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dynamisieren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Katalyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf die umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder. Wirkst du ihn auf einen Gegner, erweiterst du die Wirkung von dem dir gewährten <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Causae et Curae<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Causae<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf die umstehenden Gegner. Ist keiner dieser Status aktiv, hat auch <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dislokation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> keine Wirkung.
@@ -36113,7 +36157,7 @@ Attacke-Wert: 8000
 Zusatzeffekt: Das anvisierte Ziel erleidet <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 3 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
-29249,"Du ziehst entweder die <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Waage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, den <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Krug<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder den <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Turm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Dieses Kommando verwandelt in das der gezogenen Karte entsprechende Kommando.
+29249,"Du ziehst entweder die <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Waage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, die <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eiche<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder den <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Pfeil<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Dieses Kommando verwandelt in das der gezogenen Karte entsprechende Kommando.
 Dauer: 15 Sekunden"
 29250,"Du erhöhst den ausgeteilten Schaden des Ziels und der Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder in seiner Nähe um 10<Indent/>%.
 Dauer: 15 Sekunden
@@ -36169,7 +36213,7 @@ Heilpotenzial: 2000 pro übrigem Stapel
 Eigener Reaktivierungs-Timer"
 29261,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Maximale Aufladungen: 2
-Kann nicht während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
+Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29262,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 2000
 Zusatzeffekt: Ziele erleiden 10<Indent/>% mehr Schaden.
@@ -36416,9 +36460,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Bi
 Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Analyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert ist verdoppelt.
 Maximale Aufladungen: 2
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Bohrer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-Eigener Reaktivierungs-Timer
-Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Luftanker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bohrer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Luftanker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Kreissäge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bohrer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kreissäge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+Eigener Reaktivierungs-Timer"
 29406,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 4000
 Zusatzeffekt: Schaden über Zeit
@@ -36446,8 +36488,8 @@ Kann nicht im Kommandomenü angelegt werden."
 Attacke-Wert: 12000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Bohrer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Bohrer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kreissäge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bohrer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Analyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 3<Indent/>% Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit, 100<Indent/>% der Maximal-LP des Ziels als Schaden zu verursachen.
-Unwirksam gegen Spieler in Kriegsmaschinen und Zielen, die keine Spieler sind.
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Analyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 3<Indent/>% Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit, 95<Indent/>% der Maximal-LP des Ziels als Schaden zu verursachen.
+Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Maximale Aufladungen: 2
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfe Kreissäge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Eigener Reaktivierungs-Timer
@@ -36477,7 +36519,8 @@ Dauer: 10 Sekunden
 <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bohrer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert ist verdoppelt.
 <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bioblaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ziele erleiden <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Luftanker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert erhöht sich um 50<Indent/>% und der Zusatzeffekt ändert sich zu <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kreissäge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 3<Indent/>% Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit, 100<Indent/>% der Maximal-LP des Ziels als Schaden zu verursachen."
+<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kreissäge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 3<Indent/>% Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit, 95<Indent/>% der Maximal-LP des Ziels als Schaden zu verursachen.
+Maximale Aufladungen: 2"
 29415,"Du führst eine physische Fernkampfattacke aus.
 Attacke-Wert: 36000
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll"
@@ -36789,7 +36832,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Himmelssto�
 Kann nicht im Kommandomenü angelegt werden."
 29490,"Du führst eine physische Attacke aus.
 Attacke-Wert: 8000
-Zusatzeffekt: 100 % des ausgeteilten Schadens werden als LP absorbiert.
+Zusatzeffekt: 150 % des ausgeteilten Schadens werden als LP absorbiert.
 Eigener Reaktivierungs-Timer."
 29491,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 4000
@@ -36800,6 +36843,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachengeis
 29492,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 4000 bis 8000
 Attacke-Wert umso höher, je niedriger die LP des Ziels sind. Maximalen Wert erreicht er ab 50<Indent/>% Maximal-LP des Ziels.
+Bei Ausführung wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachengeist<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachengeist<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29493,"Du greifst den Gegner mit einem großen Sprung an.
@@ -36879,7 +36923,7 @@ Dauer: 10 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tri-Mudra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ändert alle Kommandos außer <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Maximale Aufladungen: 2
 Kommando ändert sich während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tri-Mudra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Meisui<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-29508,"Du regenerierst LP des Ziels.
+29508,"Du regenerierst eigene LP oder die eines Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds.
 Heilpotenzial: 8000
 Zusatzeffekt: Regeneriert stetig LP des Ziels.
 Heilpotenzial: 4000
@@ -36929,22 +36973,24 @@ Kann nicht im Kommandomenü angelegt werden."
 29515,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % Maximal-LP, wird es kampfunfähig.
 Attacke-Wert: 10000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Unwirksam gegen Spieler in Kriegsmaschinen und Zielen, die keine Spieler sind.
+Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Dauer: 5 Sekunden
 Wird das Ziel durch dieses Kommando oder während der Effektdauer von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground> kampfunfähig, wird dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährt.
 Dauer: 8 Sekunden
+Die Dauer wird jedes Mal um 1 Sekunde verringert, wenn ein Ziel erfolgreich mit einer minimalen Statusdauer von 4 Sekunden belegt wird.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> kann abermals ausgeführt werden.
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29516,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % Maximal-LP, wird es kampfunfähig.
 Attacke-Wert: 10000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Unwirksam gegen Spieler in Kriegsmaschinen und Zielen, die keine Spieler sind.
+Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Dauer: 5 Sekunden
 Wird das Ziel durch dieses Kommando oder während der Effektdauer von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground> kampfunfähig, wird dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährt.
 Dauer: 8 Sekunden
+Die Dauer wird jedes Mal um 1 Sekunde verringert, wenn ein Ziel erfolgreich mit einer minimalen Statusdauer von 4 Sekunden belegt wird.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> kann abermals ausgeführt werden.
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29517,""
 29518,""
@@ -37028,7 +37074,7 @@ Dauer: 10 Sekunden"
 29537,"Du bewegst dich blitzschnell durch dein anvisiertes Ziel und führst eine physische Attacke auf das Ziel und umstehende Gegner aus, jeglichen Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wehr<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ignorierend.
 Attacke-Wert: 24000
 Leidet ein Ziel unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kuzushi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, erhöht sich der Schaden auf 100<Indent/>% seiner Maximal-LP.
-Unwirksam gegen Spieler in Kriegsmaschinen und Zielen, die keine Spieler sind.
+Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29538,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kombo-Kommando<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -37124,6 +37170,7 @@ Während der Effektdauer ändert sich <UIForeground>F201F6</UIForeground><UIGlow
 Zusatzeffekt: Umstehende Gegner erleiden <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Panik<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 2 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Panik<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verliert vor Angst jegliche Kontrolle über die eigene Bewegung.
+Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll"
 29554,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 16000
@@ -37149,6 +37196,7 @@ Kann nicht im Kommandomenü angelegt werden."
 Attacke-Wert: 8000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenopfer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Maximalstapelzahl: 8
+Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer"
 29567,""
 29568,""
@@ -37156,7 +37204,7 @@ Eigener Reaktivierungs-Timer"
 29570,""
 29571,""
 29572,""
-29573,""
+29573,"Du kehrst zur Strandhütte deines Inselparadieses zurück."
 29574,""
 29575,""
 29576,""
@@ -37391,9 +37439,11 @@ Eigener Reaktivierungs-Timer
 Kann nicht im Kommandomenü angelegt werden."
 29669,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 8000
-Zusatzeffekt: Errichtet eine ringförmige Schadenszone in 5y Entfernung um das Ziel herum.
-Attacke-Wert: 4000
+Zusatzeffekt: Errichtet eine <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wirbelströmung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in 5y Entfernung um das Ziel herum.
 Dauer: 10 Sekunden
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wirbelströmung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> bei verbündeten Zielen: Erhöht die Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit von allen Zielen im Bereich.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wirbelströmung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> bei gegnerischen Zielen: Fügt allen Gegnern im Bereich Schaden über Zeit zu.
+Attacke-Wert: 4000
 Eigener Reaktivierungs-Timer"
 29670,"Du verringerst deinen erlittenen Schaden oder den eines Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieds um 20<Indent/>% und errichtest eine Barriere um dich oder ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, die Schaden entsprechend eines Heilpotenzials von 10000 absorbiert.
 Dauer: 10 Sekunden"
@@ -37626,7 +37676,8 @@ Heilpotenzial: 15000"
 29717,""
 29718,""
 29719,""
-29720,""
+29720,"プレゼントの幻影を見せる。
+※演出用アクション。特に効果は発生しない。"
 29721,""
 29722,""
 29723,""
@@ -37703,8 +37754,12 @@ Bedingung: Du hast noch mindestens 20 % deiner Maximal-LP."
 29780,""
 29781,""
 29782,""
-29783,""
-29784,""
+29783,"Du verringerst deinen erlittenen Schaden oder den des Ziels und der Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder in seiner Nähe um 10<Indent/>%.
+Dauer: 15 Sekunden
+Kann nicht im Kommandomenü angelegt werden."
+29784,"Du verkürzt die Intervalle zwischen Auto-Attacken und die (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zei<SoftHyphen/>ten von Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie bei dir selbst oder beim Ziel und bei den Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in seiner Nähe um 10<Indent/>% und erhöhst die Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit aller betroffenen Ziele.
+Dauer: 10 Sekunden
+Kann nicht im Kommandomenü angelegt werden."
 29785,""
 29786,""
 29787,""
@@ -38788,8 +38843,10 @@ Bedingung: Du hast noch mindestens 20 % deiner Maximal-LP."
 30865,""
 30866,""
 30867,""
-30868,""
-30869,""
+30868,"Mit deinem Schirm in deiner Hand führst du einen äußerst grazilen Tanz auf.
+(Nur visueller Effekt, keine Wirkung.)"
+30869,"Du spähst mit zusammengekniffenen Augen in den Himmel und hältst Ausschau nach Regenwolken.
+(Nur visueller Effekt, keine Wirkung.)"
 30870,""
 30871,""
 30872,""
@@ -39007,3 +39064,348 @@ Bedingung: Du hast noch mindestens 20 % deiner Maximal-LP."
 31084,""
 31085,""
 31086,""
+31087,""
+31088,""
+31089,""
+31090,""
+31091,""
+31092,""
+31093,""
+31094,""
+31095,""
+31096,""
+31097,""
+31098,""
+31099,""
+31100,""
+31101,""
+31102,""
+31103,""
+31104,""
+31105,""
+31106,""
+31107,""
+31108,""
+31109,""
+31110,""
+31111,""
+31112,""
+31113,""
+31114,""
+31115,""
+31116,""
+31117,""
+31118,""
+31119,""
+31120,""
+31121,""
+31122,""
+31123,""
+31124,""
+31125,""
+31126,""
+31127,""
+31128,""
+31129,""
+31130,""
+31131,""
+31132,""
+31133,""
+31134,""
+31135,""
+31136,""
+31137,""
+31138,""
+31139,""
+31140,""
+31141,""
+31142,""
+31143,""
+31144,""
+31145,""
+31146,""
+31147,""
+31148,""
+31149,""
+31150,""
+31151,""
+31152,""
+31153,""
+31154,""
+31155,""
+31156,""
+31157,""
+31158,""
+31159,""
+31160,""
+31161,""
+31162,""
+31163,""
+31164,""
+31165,""
+31166,""
+31167,""
+31168,""
+31169,""
+31170,""
+31171,""
+31172,""
+31173,""
+31174,""
+31175,""
+31176,""
+31177,""
+31178,""
+31179,""
+31180,""
+31181,""
+31182,""
+31183,""
+31184,""
+31185,""
+31186,""
+31187,""
+31188,""
+31189,""
+31190,""
+31191,""
+31192,""
+31193,""
+31194,""
+31195,""
+31196,""
+31197,""
+31198,""
+31199,""
+31200,""
+31201,""
+31202,""
+31203,""
+31204,""
+31205,""
+31206,""
+31207,""
+31208,""
+31209,""
+31210,""
+31211,""
+31212,""
+31213,""
+31214,""
+31215,""
+31216,""
+31217,""
+31218,""
+31219,""
+31220,""
+31221,""
+31222,""
+31223,""
+31224,""
+31225,""
+31226,""
+31227,""
+31228,""
+31229,""
+31230,""
+31231,""
+31232,""
+31233,""
+31234,""
+31235,""
+31236,""
+31237,""
+31238,""
+31239,""
+31240,""
+31241,""
+31242,""
+31243,""
+31244,""
+31245,""
+31246,""
+31247,""
+31248,""
+31249,""
+31250,""
+31251,""
+31252,""
+31253,""
+31254,""
+31255,""
+31256,""
+31257,""
+31258,""
+31259,""
+31260,""
+31261,""
+31262,""
+31263,""
+31264,""
+31265,""
+31266,""
+31267,""
+31268,""
+31269,""
+31270,""
+31271,""
+31272,""
+31273,""
+31274,""
+31275,""
+31276,""
+31277,""
+31278,""
+31279,""
+31280,""
+31281,""
+31282,""
+31283,""
+31284,""
+31285,""
+31286,""
+31287,""
+31288,""
+31289,""
+31290,""
+31291,""
+31292,""
+31293,""
+31294,""
+31295,""
+31296,""
+31297,""
+31298,""
+31299,""
+31300,""
+31301,""
+31302,""
+31303,""
+31304,""
+31305,""
+31306,""
+31307,""
+31308,""
+31309,""
+31310,""
+31311,""
+31312,""
+31313,""
+31314,"Du erhöhst deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit.
+Dauer: 20 Sekunden"
+31315,""
+31316,""
+31317,""
+31318,""
+31319,""
+31320,""
+31321,""
+31322,""
+31323,""
+31324,""
+31325,""
+31326,""
+31327,""
+31328,""
+31329,""
+31330,""
+31331,""
+31332,""
+31333,""
+31334,""
+31335,""
+31336,""
+31337,""
+31338,""
+31339,""
+31340,""
+31341,""
+31342,""
+31343,""
+31344,""
+31345,""
+31346,""
+31347,""
+31348,""
+31349,""
+31350,""
+31351,""
+31352,""
+31353,""
+31354,""
+31355,""
+31356,""
+31357,""
+31358,""
+31359,""
+31360,""
+31361,""
+31362,""
+31363,""
+31364,""
+31365,""
+31366,""
+31367,""
+31368,""
+31369,""
+31370,""
+31371,""
+31372,""
+31373,""
+31374,""
+31375,""
+31376,""
+31377,""
+31378,""
+31379,""
+31380,""
+31381,""
+31382,""
+31383,""
+31384,""
+31385,""
+31386,""
+31387,""
+31388,""
+31389,""
+31390,""
+31391,""
+31392,""
+31393,""
+31394,""
+31395,""
+31396,""
+31397,""
+31398,""
+31399,""
+31400,""
+31401,""
+31402,""
+31403,""
+31404,""
+31405,""
+31406,""
+31407,""
+31408,""
+31409,""
+31410,""
+31411,""
+31412,""
+31413,""
+31414,""
+31415,""
+31416,""
+31417,""
+31418,""
+31419,""
+31420,""
+31421,""
+31422,""
+31423,""
+31424,""
+31425,""
+31426,""
+31427,""
+31428,""
+31429,""
+31430,""

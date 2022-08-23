@@ -89,8 +89,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 85,"Thavnair-Rossharnisch",4,"Thavnair-Rossharnische",2,0,1,0,0,"Thavnair-Rossharnisch",65616,65616,65616,"None","ui/icon/058000/058756.tex","ui/icon/058000/058758.tex","ui/icon/058000/058757.tex",73
 86,"Blaufeder-Rossharnisch",4,"Blaufeder-Rossharnische",2,0,1,0,0,"Blaufeder-Rossharnisch",65617,65617,65617,"None","ui/icon/058000/058759.tex","ui/icon/058000/058761.tex","ui/icon/058000/058760.tex",153
 87,"Wolf-Rossharnisch",4,"Wolf-Rossharnische",2,0,1,0,0,"Wolf-Rossharnisch",65618,65618,65618,"None","ui/icon/058000/058762.tex","ui/icon/058000/058764.tex","ui/icon/058000/058763.tex",74
-88,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
-89,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+88,"Barbarizia-Rossharnisch",4,"Barbarizia-Rossharnische",2,0,1,0,0,"Barbarizia-Rossharnisch",65619,65619,65619,"None","ui/icon/058000/058768.tex","ui/icon/058000/058770.tex","ui/icon/058000/058769.tex",154
+89,"Inselpionier-Rossharnisch",4,"Inselpionier-Rossharnische",2,0,1,0,0,"Inselpionier-Rossharnisch",65620,65620,65620,"None","ui/icon/058000/058765.tex","ui/icon/058000/058767.tex","ui/icon/058000/058766.tex",75
 90,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 91,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 92,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

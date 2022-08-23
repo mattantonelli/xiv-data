@@ -76,3 +76,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 72,"Mers du Nord","Exploration",True,False,12
 73,"Ilsabard","Exploration",True,False,13
 74,"Autres","Exploration",True,False,99
+75,"","",False,False,0

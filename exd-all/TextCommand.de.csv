@@ -754,7 +754,7 @@ VERWENDUNG:
 /set [Unterbefehl]
 → Führt Aktionen an Ausrüstungssets aus.
 >>Unterbefehle:
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ändern<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>change<UIGlow>01</UIGlow><UIForeground>01</UIForeground>) [Name/Nummer] [1-15]  Legt die Gegenstände von Set [Name/Nummer] an. Wenn eine Pro<SoftHyphen/>jektions<SoftHyphen/>platte [1-15] vorhanden ist, kann sie auch angewendet werden (optional).
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ändern<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>change<UIGlow>01</UIGlow><UIForeground>01</UIForeground>) [Name/Nummer] [1-20]  Legt die Gegenstände von Set [Name/Nummer] an. Wenn eine Pro<SoftHyphen/>jektions<SoftHyphen/>platte [1-15] vorhanden ist, kann sie auch angewendet werden (optional).
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>check<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>view<UIGlow>01</UIGlow><UIForeground>01</UIForeground>) [Name/Nummer]  Listet die Gegenstände von Set [Name/Nummer] auf.
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>speichern<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save<UIGlow>01</UIGlow><UIForeground>01</UIForeground>) [Name/Nummer]  Speichert aktuelle Gegenstände in Set [Name/Nummer].
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>entf<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>delete<UIGlow>01</UIGlow><UIForeground>01</UIForeground>) [Name/Nummer]  Entfernt das Set [Name/Nummer].
@@ -1005,7 +1005,7 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.","/rollenspiel","","h
 251,3,2,3,2,0,"/action","/ac","/kommando, /kmd, /action, /ac
 VERWENDUNG:
 /kmd ""[Kommando]"" [Variable zur Zielbestimmung]
-→ Führt das gewählte Kommando auf das spezifizierte Ziel aus. Bei Kommandos auf den eigenen Charakter kann der Zielname entfallen. Kann nicht mit Kommandos verwendet werden, die noch nicht erlernt wurden oder die in dieser Situation nicht benutzt werden können. 
+→ Führt das gewählte Kommando auf das spezifizierte Ziel aus. Kann nicht mit Kommandos verwendet werden, die noch nicht erlernt wurden oder die in dieser Situation nicht benutzt werden können. 
 
 >>Zielbestimmung:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><1>-<8><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied 1 - 8 aus.
@@ -1119,7 +1119,7 @@ Entfernt alle Ergänzenden Kommandos.","/ergkmd","","head",1000
 273,3,2,10,2,0,"/generalaction","/gaction","/allgkom, /generalaction, /gaction
 VERWENDUNG:
 allgkom ""[Kommando]"" [Variable zur Zielbestimmung]
-→ Wendet das Kommando auf das Ziel an. Bei auf sich selbst anwendbaren Kommandos kann die Zielangabe entfallen.
+→ Wendet das Kommando auf das Ziel an.
 >>Zielbestimmung:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><1>-<8><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied 1 - 8 aus.
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><t>, <target><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.
@@ -1142,18 +1142,12 @@ VERWENDUNG:
 /statusaus ""Lanzenschärfung""
 Entfernt den Status Lanzenschärfung.","/statusaus","","head",0
 276,3,0,0,0,0,"/addpvpaction","/apa","/pluspvpkmd, /pluspvp, /addpvpaction, /apa
-VERWENDUNG:
-/pluspvp [Kommando] [Kommando]
-→ Legt zwei ergänzende PvP-Kommandos fest. Zwei Angaben nötig.
-
->>Beispiel:
-/pluspvp ""Waffenwurf"" ""Voller Schwinger""
-Legt „Waffenwurf“ und „Voller Schwinger“ als PvP-Kommandos fest.","/pluspvpkmd","/pluspvp","head",1000
+** Dieses Kommando wurde deaktiviert. **","/pluspvpkmd","/pluspvp","head",1000
 277,3,2,16,2,0,"/pvpaction","/pvpac","/pvpkommando, /pvpkmd, /pvpaction, /pvpac
 VERWENDUNG:
 /pvpkmd  ""[Kommando]"" [Variable zur Zielbestimmung]
 → Führt ein PvP-Kommando auf das angegebene Ziel aus.
-Ausführung nur möglich, wenn das Kommando bereits erlernt wurde und die Umstände es erlauben. Bei auf sich selbst anwendbaren Kommandos kann die Zielangabe entfallen. Bei auf Gegner gerichteten Kommandos müssen Variablen verwendet werden. Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
+Ausführung nur möglich, wenn das Kommando bereits erlernt wurde und die Umstände es erlauben. Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
 >>Zielbestimmung:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><1>-<8><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied 1 - 8 aus.
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><t>, <target><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.
@@ -2905,6 +2899,12 @@ VERWENDUNG:
 → Du fasst dir an den Kopf.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/kopffassen","","pdamage",0
+635,2,1,2,0,0,"/eatchocolate","/choco","/schokoladeessen, /schoko, /eatchocolate, /choco
+VERWENDUNG:
+/schokoladeessen [Unterbefehl]
+→ Du isst ein Stück Schokolade.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/schokoladeessen","/schoko","pdamage",0
 636,2,1,2,0,0,"/eategg","/egg","/eiessen, /ei, /eategg, /egg
 VERWENDUNG:
 /eiessen [Unterbefehl]
@@ -2953,3 +2953,21 @@ VERWENDUNG:
 → Du zeigst nach links.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/linkszeigen","","pdamage",0
+646,2,1,2,0,0,"/deride","/pagaga","/verhöhnen, /deride
+VERWENDUNG:
+/verhöhnen [Unterbefehl]
+→ Du machst eine Geste der Verhöhnung.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/verhöhnen","","pdamage",0
+648,2,1,2,0,0,"/eatpumpkincookie","/cookie","/kürbiskeksessen, /kürbiskeks
+VERWENDUNG:
+/kürbiskeksessen [Unterbefehl]
+→ Du isst einen Kürbiskeks.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/kürbiskeksessen","/kürbiskeks","pdamage",0
+649,2,1,2,0,0,"/spirit","","/oleoleoleole, /ole, /spirit
+VERWENDUNG:
+/oleoleoleole [Unterbefehl]
+→ Du gibst motivierende Zurufe von dir.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/oleoleoleole","/ole","pdamage",0

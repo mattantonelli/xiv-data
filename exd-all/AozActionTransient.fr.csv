@@ -506,7 +506,7 @@ Tire huit projectiles magiques. Il existe deux autres sorts whalaqee qui partage
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Élément<Indent/>: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Aucun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang<Indent/>: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Sort reproduisant l'attaque spéciale d'Oméga.
-Matérialise un énorme poing de fer autopropulsé. L'arme autonome a mis au point cette technique à partir des données de combats prélevées dans la fissure interdimensionnelle – son laboratoire en quelque sorte.",4,"Alphascape V3.0",,,True,False,True,False,False,False,False,False,False,False,False,False
+Matérialise un énorme poing de fer autopropulsé. L'arme autonome a mis au point cette technique à partir des données de combats prélevées dans la fissure interdimensionnelle – son laboratoire en quelque sorte.",4,"Alphascape V3.0",,,True,False,False,False,False,False,False,True,False,False,False,False
 102,102,"ui/icon/072000/072303.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Type<Indent/>: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physique / Contondant
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Élément<Indent/>: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Aucun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang<Indent/>: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★★

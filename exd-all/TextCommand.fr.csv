@@ -954,7 +954,6 @@ désactivé (off)  Passe en état ""En ligne"".
 251,3,2,3,2,0,"/action","/ac","/act, /action, /ac
 Utilisation<Indent/>: /action ""[nom d'action]"" [argument de ciblage]
 Permet d'effectuer une action sur la cible spécifiée.
-Si l'action peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage].
 Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
 >> Exemples<Indent/>:
@@ -1065,7 +1064,6 @@ désactivé (off)   Retire l'action.
 273,3,2,10,2,0,"/generalaction","/gaction","/actiongénérale, /actgén, /generalaction, /gaction
 Utilisation<Indent/>: /actiongénérale ""[nom d'action]"" [argument de ciblage]
 Permet d'effectuer une action générale sur la cible spécifiée.
-Si l'action générale peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage].
 Exécution impossible si l'action générale n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
 >> Exemples<Indent/>:
@@ -1088,12 +1086,10 @@ Annule l'effet bénéfique désigné.
 276,3,0,0,0,0,"/addpvpaction","/apa","/ajoutactionjcj, /aaj, /addpvpaction, /apa
 Utilisation<Indent/>: /ajouteractionjcj ""[talent 1]"" ""[talent 2]""
 Enregistre des actions dans les talents du JcJ. Nécessite d'enregistrer les deux d'un coup.
->> Exemples<Indent/>:
-/ajoutactionjcj ""Jet d'arme"" ""Plein élan""
-  Enregistre Jet d'arme et Plein élan.","/ajoutactionjcj","/aaj","head",1000
+* Cette commande est ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment indisponible en raison d'un remaniement du système.","/ajoutactionjcj","/aaj","head",1000
 277,3,2,16,2,0,"/pvpaction","/pvpac","/actionjcj, /aj, /pvpaction, /pvpac
 Utilisation<Indent/>: /actionjcj ""[nom d'actions JcJ]"" [argument de ciblage]
-Permet d'effectuer une action sur la cible spécifiée. Si l'action peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage]. Le nom de la cible doit cependant être indiqué si l'action est utilisée sur un adversaire.
+Permet d'effectuer une action sur la cible spécifiée.
 Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
 
@@ -2753,6 +2749,12 @@ Se tient la tête en se contorsionnant de douleur.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/setenirlatête","/tenirtête","pdamage",0
+635,2,1,2,0,0,"/eatchocolate","/choco","/mangerunchocolat, /mangchocolat, /eatchocolate, /choco
+Utilisation<Indent/>: /mangerunchocolat [sous-commande]
+Mange un chocolat de la Valention.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunchocolat","/mangchocolat","pdamage",0
 636,2,1,2,0,0,"/eategg","/egg","/mangerunoeuf, /mangoeuf, /eategg, /egg
 Utilisation<Indent/>: /mangerunoeuf [sous-commande]
 Mange un œuf.
@@ -2801,3 +2803,21 @@ Exhibe ce qui se trouve à sa gauche.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/montrergauche","/montreg","pdamage",0
+646,2,1,2,0,0,"/deride","/pagaga","/montrersoncôtérebelle, /rebelle, /deride, /pagaga
+Utilisation<Indent/>: /montrersoncôtérebelle [sous-commande]
+Montre son côté rebelle.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/montrersoncôtérebelle","/rebelle","pdamage",0
+648,2,1,2,0,0,"/eatpumpkincookie","/cookie","/mangerunbiscuitcitrouille, /mangbiscuitcitrouille, /eatpumpkincookie, /cookie
+Utilisation<Indent/>: /mangerunbiscuitcitrouille [sous-commande]
+Mange un biscuit citrouille.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerunbiscuitcitrouille","/mangbiscuitcitrouille","pdamage",0
+649,2,1,2,0,0,"/spirit","","/apprécierlespectacle, /apprécispectacle, /spirit
+Utilisation<Indent/>: /apprécierlespectacle [sous-commande]
+Apprécie le spectacle.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/apprécierlespectacle","/apprécispectacle","pdamage",0
