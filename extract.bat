@@ -26,6 +26,7 @@ ECHO [%TIME%] Compressing images...
 
 ECHO Processing music...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "bgm bgm_ride bgm_orch"
+for %%f in (%DATAPATH%\music\ffxiv\*.ogg) do %FFMPEG% -y -i "%%f" -t 00:00:15.0 -b:a 32k -ar 22050 -loglevel quiet "%DATAPATH%\music\%%~nf.ogg"
 
 for %%f in (%DATAPATH%\music\ffxiv\Orchestrion\*.ogg) do (
   set input="%%f"
