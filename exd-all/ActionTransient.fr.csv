@@ -124,9 +124,9 @@ Les dégâts infligés sont augmentés lorsque vous bénéficiez d'un effet augm
 41,"Effectue une attaque physique sur les ennemis alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 110"
 42,"Effectue une attaque physique sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>150<Else/>100</If><Else/>100</If>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Mutilation
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>430<Else/>380</If><Else/>380</If>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bonus du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 250<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bonus du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> remplit la <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de la bête<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 20.<Else/></If><Else/></If>"
@@ -136,9 +136,9 @@ Si un ennemi était ciblé, entrave ses déplacements.
 44,"Réduit de 30% vos dégâts subis et inflige des dégâts pour chaque attaque physique que vous recevez.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 55 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 45,"Effectue une attaque physique sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>150<Else/>100</If><Else/>100</If>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Mutilation
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>430<Else/>380</If><Else/>380</If>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bonus du combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vent de tempête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vent de tempête<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% vos dégâts infligés.
@@ -4726,7 +4726,7 @@ L'utilisation de certaines actions avec Délivrance remplit la <UIForeground>F20
 La <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Jauge de la bête<UIGlow>01</UIGlow><UIForeground>01</UIForeground> est réduite à 0, si l'effet Délivrance est retiré.
 Ne peut pas être utilisé en même temps que <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Défi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, et partage le même temps de recharge."
 3549,"Effectue une attaque physique sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 460
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 470
 <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chaos intérieur<UIGlow>01</UIGlow><UIForeground>01</UIForeground> sous l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chaos naissant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/></If><Else/></If><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coût Jauge de la bête<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
 3550,"Effectue une attaque physique sur les ennemis alentour.
@@ -9033,8 +9033,8 @@ Vous octroie 5 degrés de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIG
 Confiteor devient Lame de foi.
 Cet effet disparaît si une technique d'arme de corps-à-corps est utilisée.<Else/></If><Else/></If>"
 7384,"Effectue une attaque magique neutre sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>270</If><Else/>270</If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance avec Requiescat<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>560<Else/>540</If><Else/>540</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>270</If><Else/>270</If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance avec Requiescat<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>600<Else/>540</If><Else/>540</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400<Else/></If><Else/></If>"
 7385,"Crée un bouclier protecteur dans une zone en éventail derrière vous, réduisant de 15% les dégâts subis des équipiers à l'intérieur.
@@ -9047,7 +9047,7 @@ Interrompt vos attaques automatiques."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>3<Else/>2</If><Else/>2</If>
 Ne peut pas être utilisé sous l'effet Entrave."
 7387,"Effectue une attaque physique sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 350<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 360<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>
 Partage le même temps de recharge qu'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Orogenèse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
 7388,"Crée une barrière sur vous et les équipiers alentour, absorbant les dégâts subis pour un total de 15% des PV maximums.
 Si <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Frisson de la bataille<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Représailles<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et/ou <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Intuition fougueuse<Else/>Intuition pure</If><Else/>Intuition pure</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> sont octroyés, dissipe ces effets et augmente de 2% celui de la barrière pour chacun d'entre eux.
@@ -20085,7 +20085,7 @@ La puissance de cette action dépend du nombre de pas de danse cor<SoftHyphen/>r
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400<Else/></If><Else/></If>"
 16459,"Effectue une attaque magique neutre sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 900
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1000
 <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
 <Else/></If><Else/></If>Met fin à l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -31737,11 +31737,11 @@ Ne s'applique qu'aux objets dont les chances de récolte sup<SoftHyphen/>plé<So
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 250
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coût Jauge du serment<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
 25747,"Effectue une attaque physique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 340
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 420
 La puissance est réduite de 50% au-delà du premier ennemi touché.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PM."
 25748,"Effectue une attaque magique neutre sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 460
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 480
 La puissance est réduite de 50% au-delà du premier ennemi touché.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
@@ -31750,7 +31750,7 @@ La puissance est réduite de 50% au-delà du premier ennemi touché.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 25749,"Effectue une attaque magique neutre sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 540
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 560
 La puissance est réduite de 50% au-delà du premier ennemi touché.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Lame de foi
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV.

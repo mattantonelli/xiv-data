@@ -125,9 +125,9 @@ Dauer bei <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>PvP<UIGlow>0
 41,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 110"
 42,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>150<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verstümmelung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>430<Else/>380</If><Else/>380</If>
 Bonus: LP-Regeneration
 Heilpotenzial: 250<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
 Bonus: Urkraftbalken füllt sich um 20.<Else/></If><Else/></If>"
@@ -137,9 +137,9 @@ Dauer: 10 Sekunden"
 44,"Du verringerst den erlittenen Schaden um 30 % und schlägst bei jedem erlittenen physischen Schaden mit Attacke-Wert 55 zurück.
 Dauer: 15 Sekunden"
 45,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>150<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verstümmelung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>430<Else/>380</If><Else/>380</If>
 Bonus: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden ist um 10 % erhöht.
@@ -4664,7 +4664,7 @@ Wenn bestimmte Kommandos während der Wirkungsdauer ausgeführt werden, füllt s
 Kann nicht zugleich mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground> eingesetzt werden.
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>"
 3549,"Du führst eine physische Attacke aus.
-Attacke-Wert: 460
+Attacke-Wert: 470
 <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Kommando ändert sich bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Saat des Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Inneres Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/></If><Else/></If>Urkraftbalken-Kosten: 50"
 3550,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
@@ -8915,8 +8915,8 @@ Dauer: 30 Sekunden
 Der Effekt endet bei Ausführung einer Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit.
 Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Confiteor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
 7384,"Du führst eine elementneutrale magische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>270</If><Else/>270</If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
-Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>560<Else/>540</If><Else/>540</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
+Attacke-Wert: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>270</If><Else/>270</If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
+Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>600<Else/>540</If><Else/>540</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 Zusatzeffekt: Regeneriert eigene LP.
 Heilpotenzial: 400<Else/></If><Else/></If>"
 7385,"Du errichtest einen Schild, der erlittenen Schaden im fächerförmig hinter dir liegenden Bereich verringert. Deine Blockrate ist 100<Indent/>% und der erlittene Schaden von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Bereich hinter dir ist um 15 % verringert.
@@ -8928,7 +8928,7 @@ Attacke-Wert: 150
 Maximale Aufladungen: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>3<Else/>2</If><Else/>2</If>
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 7387,"Du führst eine physische Attacke aus.
-Attacke-Wert: 350<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>
+Attacke-Wert: 360<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Orogenese<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>"
 7388,"Du errichtest eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden in der Höhe von 15<Indent/>% der Maximal-LP des Ziels absorbiert.
 Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kampfrausch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rachsucht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urinstinkt<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urimpuls<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urinstinkt<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Urinstinkt<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> aktiv sind, werden diese Status entfernt und dafür die Wirkung der Barriere für jeden entfernten Status um 2<Indent/>% erhöht.
@@ -19858,7 +19858,7 @@ Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>
 Zusatzeffekt: Regeneriert eigene LP.
 Heilpotenzial: 400<Else/></If><Else/></If>"
 16459,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 900
+Attacke-Wert: 1000
 <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>Zusatzeffekt: Regeneriert eigene LP.
 Heilpotenzial: 400
 <Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -31405,11 +31405,11 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schutz des 
 Heilpotenzial: 250
 Eidbalken-Kosten: 50"
 25747,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 340
+Attacke-Wert: 420
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: MP werden regeneriert."
 25748,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 460
+Attacke-Wert: 480
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: Regeneriert eigene LP.
 Heilpotenzial: 400
@@ -31417,7 +31417,7 @@ Zusatzeffekt: MP werden regeneriert.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv, gewährt nach der Effektdauer von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
 25749,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 540
+Attacke-Wert: 560
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: Regeneriert eigene LP.

@@ -13514,6 +13514,8 @@ Anpassung auf:  <Value>IntegerParameter(2)</Value><Else/></If>"
 14940,"Abbrechen"
 14941,"G<Value>IntegerParameter(1)</Value>:"
 14942,"<Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),ObjectParameter(0)))><Else/> [<Sheet(WorldDCGroupType,IntegerParameter(2),WORLDDCGROUPTYPE_NAME)/>]</If>"
+14943,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Da du den erforderlichen Katalysator nicht besitzt, wird ein besserer Katalysator verwendet.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Trotzdem fortfahren?"
 14950,"Zeigt den momentanen Status der Auslosung an."
 14990,"Helfer-Kommandomenü sortieren"
 14991,""
