@@ -10,8 +10,8 @@ ECHO Setting SC definition to the latest game version...
 COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 
 ECHO [%TIME%] Extracting game data...
-.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BuddyEquip Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory ENpcBase ENpcResident Item MinionRace MinionSkillType Mount MountTransient MYCWarResultNotebook Orchestrion OrchestrionCategory Ornament PlaceName Quest SpecialShop TextCommand Title TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule VVDNotebookContents"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction Cabinet CabinetCategory CharaMakeCustomize Emote GCScripShopItem GilShopItem InstanceContent ItemAction Level Map OrchestrionPath OrchestrionUiParam PvPSeries Recipe SpecialShop TripleTriad"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BuddyEquip Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory ENpcBase ENpcResident Item MinionRace MinionSkillType Mount MountTransient MYCWarResultNotebook Orchestrion OrchestrionCategory Ornament PlaceName Quest SpecialShop TextCommand Title TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule VVDNotebookContents VVDNotebookSeries"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction Cabinet CabinetCategory CharaMakeCustomize Emote GCScripShopItem GilShopItem InstanceContent ItemAction Level Map OrchestrionPath OrchestrionUiParam PvPSeries Recipe SpecialShop TripleTriad VVDNotebookSeries"
 
 ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 070999"
