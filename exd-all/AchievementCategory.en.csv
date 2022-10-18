@@ -76,4 +76,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 72,"The Northern Empty","Exploration",True,False,12
 73,"Ilsabard","Exploration",True,False,13
 74,"Other","Exploration",True,False,99
-75,"","",False,False,0
+75,"Manderville Weapons","Items",True,False,12

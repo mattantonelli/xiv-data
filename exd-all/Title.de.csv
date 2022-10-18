@@ -656,6 +656,6 @@ int32,str,str,bit&01,uint16
 652,"vom finalen Konflikt","vom finalen Konflikt",False,1718
 653,"vom endlosen Konflikt","vom endlosen Konflikt",False,1719
 654,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1720
-655,"","",False,0
-656,"","",False,0
-657,"","",False,0
+655,"Barista am Rande des Universums","Barista am Rande des Universums",True,1721
+656,"Schatten der Sultana","Schatten der Sultana",True,1722
+657,"Verrucht in Sil'dih","Verrucht in Sil'dih",False,1723

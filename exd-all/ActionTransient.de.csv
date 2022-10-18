@@ -34914,7 +34914,7 @@ Dauer: 30 Sekunden"
 28507,""
 28508,""
 28509,"Du erschaffst eine weißmagische Blume und erhältst 5 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Glockenspiel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Dauer: 15 Sekunden
+Dauer: 20 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Glockenspiel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Bei erhaltenem Schaden wird ein Stapel verbraucht. Jeder so verbrauchte Stapel regeneriert in einem Umkreis von 20 Yalmen um das Glockenspiel bei dir und allen Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern LP.
 Heilpotenzial: 400
 Dieser Effekt kann nur einmal pro Sekunde ausgelöst werden. Sind bei Ablauf der Wirkdauer noch Stapel übrig oder wird das Kommando abermals ausgeführt, werden sie verbraucht und ihr dem<SoftHyphen/>ent<SoftHyphen/>spre<SoftHyphen/>chender Effekt ausgelöst.
@@ -35516,6 +35516,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwert-Eid
 Maximale Aufladungen: 2
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29066,"Du bewegst dich augenblicklich vor dein anvisiertes Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied und nimmst allen Schaden auf dich, der das Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied treffen sollte.
+Interagiert das Ziel jedoch mit einem Objekt, hat das Kommando keinen Effekt.
 Dauer: 10 Sekunden
 Bedingung: Du darfst dich nicht weiter als 10 Yalme vom geschützten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied entfernen.
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
@@ -37674,10 +37675,11 @@ Heilpotenzial: 15000"
 29715,""
 29716,"対象の被ダメージを10％増加させ、ガードの被ダメージ軽減効果を25％減少させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
 29717,""
-29718,""
-29719,""
-29720,"プレゼントの幻影を見せる。
-※演出用アクション。特に効果は発生しない。"
+29718,"Lässt Knisterstrom fließen."
+29719,"Lässt Knisterstrom fließen.
+(Nur visueller Effekt, keine Wirkung.)"
+29720,"Du hüllst dich in eine Wolke aus Geschenken.
+(Nur visueller Effekt, keine Wirkung.)"
 29721,""
 29722,""
 29723,""
@@ -37686,12 +37688,30 @@ Heilpotenzial: 15000"
 29726,""
 29727,""
 29728,""
-29729,""
-29730,""
-29731,""
-29732,""
-29733,""
-29734,""
+29729,"Du regenerierst LP des Ziels.
+Heilpotenzial: 14000
+Zusatzeffekt: Regeneriert stetig LP des Ziels.
+Heilpotenzial: 4200
+Dauer: 15 Sekunden
+Zusatzeffekt: Wirkt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rehabilitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dem Ziel, verdoppelt sich das Heilpozenzial.
+Die Effekte dieses Kommandos werden nicht von Parametern beeinflusst."
+29730,"Du setzt dich an die erste Stelle der Feindseligkeitsliste der umstehenden Gegner und erhöhst die Feindseligkeit gegen dich noch weiter.
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Dauer: 4 Sekunden
+Zusatzeffekt: Erhöht Feindseligkeit gegen dich immens.
+Dauer: 30 Sekunden"
+29731,"Du belebst das Ziel wieder, wonach es für gewisse Zeit unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwäche<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet.
+Eigener Reaktivierungs-Timer, der nicht durch andere Reaktivierungs-Timer beeinflusst wird."
+29732,"Du belegst das Ziel und die Gegner in seiner Nähe mit Schaden über Zeit.
+Attacke-Wert: 2040
+Dauer: 30 Sekunden
+Der Effekt dieses Kommandos wird nicht von Parametern oder Statuseffekten beeinflusst."
+29733,"Du verringerst deinen erlittenen Schaden um 20<Indent/>%.
+Dauer: 60 Sekunden
+Zusatzeffekt: Errichtet eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 21000 absorbiert.
+Dauer: 8 Sekunden"
+29734,"Du belebst das Ziel wieder, wonach es für gewisse Zeit unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwäche<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet.
+Dieses Kommando ist nicht von Wiederbelebungsbegrenzungen betroffen."
 29735,"Du reduzierst deinen erlittenen Schaden um 90<Indent/>%, wirst immun gegen Rückstoß- und Heranzieheffekte sowie gegen alle Statuseffekte, die von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Purifikation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aufgehoben werden können. Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wehr<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, kannst du dich zwar bewegen, allerdings ist deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit um 50<Indent/>% reduziert.
 Dauer: 5 Sekunden
 Effekt endet bei erneuter Ausführung oder nächstem Kommando."
@@ -38660,7 +38680,7 @@ Kann nicht im Kommandomenü angelegt werden."
 30682,""
 30683,""
 30684,""
-30685,""
+30685,"AA"
 30686,""
 30687,""
 30688,""
@@ -39086,7 +39106,7 @@ Kann nicht im Kommandomenü angelegt werden."
 31106,""
 31107,""
 31108,""
-31109,""
+31109,"AA"
 31110,""
 31111,""
 31112,""

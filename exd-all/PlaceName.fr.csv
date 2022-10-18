@@ -4093,14 +4093,14 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4039,"Appartements du palais du Meghaduta",0,"Appartements du palais du Meghaduta",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les appartements du palais du Meghaduta</Case><Case(2)>aux appartements du palais du Meghaduta</Case><Case(3)>des appartements du palais du Meghaduta</Case></Switch>",0,0,0
 4040,"Demeure de la femme à tête de citrouille",0,"Demeures de la femme à tête de citrouille",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la demeure de la femme à tête de citrouille</Case><Case(2)>à la demeure de la femme à tête de citrouille</Case><Case(3)>de la demeure de la femme à tête de citrouille</Case></Switch>",0,0,0
 4041,"Camp de base A-4",0,"Camp de base A-4",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le camp de base A-4</Case><Case(2)>au camp de base A-4</Case><Case(3)>du camp de base A-4</Case></Switch>",0,0,0
-4042,"",0,"",0,0,0,0,0,"",0,0,0
+4042,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
 4043,"Île sans nom",0,"Île sans nom",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île sans nom</Case><Case(2)>sur l'île sans nom</Case><Case(3)>de l'île sans nom</Case></Switch>",0,0,0
 4044,"Creuset de l'Al-Kimiya",0,"Creuset de l'Al-Kimiya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Creuset de l'Al-Kimiya</Case><Case(2)>au Creuset de l'Al-Kimiya</Case><Case(3)>du Creuset de l'Al-Kimiya</Case></Switch>",0,0,0
 4045,"Toison des tempêtes",0,"Toison des tempêtes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Toison des tempêtes</Case><Case(2)>à la Toison des tempêtes</Case><Case(3)>de la Toison des tempêtes</Case></Switch>",0,0,0
 4046,"Repaire de Zero",0,"Repaire de Zero",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le repaire de Zero</Case><Case(2)>au repaire de Zero</Case><Case(3)>du repaire de Zero</Case></Switch>",0,0,0
 4047,"Place de la statue",0,"Place de la statue",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la place de la statue</Case><Case(2)>sur la place de la statue</Case><Case(3)>de la place de la statue</Case></Switch>",0,0,0
-4048,"",0,"",0,0,0,0,0,"",0,0,0
-4049,"",0,"",0,0,0,0,0,"",0,0,0
+4048,"Les Dernières Réminiscences",0,"Les Dernières Réminiscences",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Les Dernières Réminiscences</Case><Case(2)>aux Dernières Réminiscences</Case><Case(3)>des Dernières Réminiscences</Case></Switch>",0,0,0
+4049,"Champs élyséens",0,"Champs élyséens",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les champs élyséens</Case><Case(2)>aux champs élyséens</Case><Case(3)>des champs élyséens</Case></Switch>",0,0,0
 4050,"Port de l'Érudit",0,"Port de l'Érudit",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le port de l'Érudit</Case><Case(2)>dans le port de l'Érudit</Case><Case(3)>du port de l'Érudit</Case></Switch>",0,0,0
 4051,"Vallée cristalline",0,"Vallée cristalline",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Vallée cristalline</Case><Case(2)>dans la Vallée cristalline</Case><Case(3)>de la Vallée cristalline</Case></Switch>",0,0,0
 4052,"Étang des Réflexions",0,"Étang des Réflexions",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'étang des Réflexions</Case><Case(2)>à l'étang des Réflexions</Case><Case(3)>de l'étang des Réflexions</Case></Switch>",0,0,0
@@ -4131,16 +4131,16 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4077,"Hélos Dékaokto β",0,"Hélos Dékaokto β",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Hélos Dékaokto β</Case><Case(2)>au Hélos Dékaokto β</Case><Case(3)>du Hélos Dékaokto β</Case></Switch>",0,0,0
 4078,"Hélos Dékaokto α",0,"Hélos Dékaokto α",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Hélos Dékaokto α</Case><Case(2)>au Hélos Dékaokto α</Case><Case(3)>du Hélos Dékaokto α</Case></Switch>",0,0,0
 4079,"Source des Velléitaires",0,"Source des Velléitaires",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la source des Velléitaires</Case><Case(2)>à la source des Velléitaires</Case><Case(3)>de la source des Velléitaires</Case></Switch>",0,0,0
-4080,"Cippes élégiaques",0,"Cippes élégiaques",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Cippes élégiaques</Case><Case(2)>au Cippes élégiaques</Case><Case(3)>des Cippes élégiaques</Case></Switch>",0,0,0
+4080,"Demeure des Éas",0,"Demeure des Éas",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la demeure des Éas</Case><Case(2)>dans la demeure des Éas</Case><Case(3)>de la demeure des Éas</Case></Switch>",0,0,0
 4081,"Limné Dékaokto",0,"Limné Dékaokto",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Limné Dékaokto</Case><Case(2)>au Limné Dékaokto</Case><Case(3)>du Limné Dékaokto</Case></Switch>",0,0,0
 4082,"Limné Tria α",0,"Limné Tria α",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Limné Tria α</Case><Case(2)>au Limné Tria α</Case><Case(3)>du Limné Tria α</Case></Switch>",0,0,0
 4083,"Limné Tria β",0,"Limné Tria β",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Limné Tria β</Case><Case(2)>au Limné Tria β</Case><Case(3)>du Limné Tria β</Case></Switch>",0,0,0
 4084,"Étage troposphérique",0,"Étage troposphérique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'étage troposphérique</Case><Case(2)>à l'étage troposphérique</Case><Case(3)>de l'étage troposphérique</Case></Switch>",0,0,0
 4085,"Étage stratosphérique",0,"Étage stratosphérique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'étage stratosphérique</Case><Case(2)>à l'étage stratosphérique</Case><Case(3)>de l'étage stratosphérique</Case></Switch>",0,0,0
 4086,"Étage mésosphérique",0,"Étage mésosphérique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'étage mésosphérique</Case><Case(2)>à l'étage mésosphérique</Case><Case(3)>de l'étage mésosphérique</Case></Switch>",0,0,0
-4087,"",0,"",0,0,0,0,0,"",0,0,0
-4088,"",0,"",0,0,0,0,0,"",0,0,0
-4089,"",0,"",0,0,0,0,0,"",0,0,0
+4087,"Mers élyséennes",0,"Mers élyséennes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les mers élyséennes</Case><Case(2)>aux mers élyséennes</Case><Case(3)>des mers élyséennes</Case></Switch>",0,0,0
+4088,"Terrains de jeu élyséens",0,"Terrains de jeu élyséens",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les terrains de jeu élyséens</Case><Case(2)>aux terrains de jeu élyséens</Case><Case(3)>des terrains de jeu élyséens</Case></Switch>",0,0,0
+4089,"Forêt élyséenne",0,"Forêt élyséenne",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la forêt élyséenne</Case><Case(2)>à la forêt élyséenne</Case><Case(3)>de la forêt élyséenne</Case></Switch>",0,0,0
 4090,"Le Palestre",0,"Le Palestre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Palestre</Case><Case(2)>au Palestre</Case><Case(3)>du Palestre</Case></Switch>",0,0,0
 4091,"Le Cœur volcanique",0,"Le Cœur volcanique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cœur volcanique</Case><Case(2)>au Cœur volcanique</Case><Case(3)>du Cœur volcanique</Case></Switch>",0,0,0
 4092,"Le Petit Nuage",0,"Le Petit Nuage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Petit Nuage</Case><Case(2)>au Petit Nuage</Case><Case(3)>du Petit Nuage</Case></Switch>",0,0,0
@@ -4152,7 +4152,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4098,"Interstice du chant onirique",0,"Interstice du chant onirique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'interstice du chant onirique</Case><Case(2)>à l'interstice du chant onirique</Case><Case(3)>de l'interstice du chant onirique</Case></Switch>",0,0,0
 4099,"Interstice du chant onirique",0,"Interstice du chant onirique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'interstice du chant onirique</Case><Case(2)>à l'interstice du chant onirique</Case><Case(3)>de l'interstice du chant onirique</Case></Switch>",0,0,0
 4100,"L'Issue aux Impasses",0,"L'Issue aux Impasses",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Issue aux Impasses</Case><Case(2)>dans L'Issue aux Impasses</Case><Case(3)>de L'Issue aux Impasses</Case></Switch>",0,0,0
-4101,"Ostrakon Exi",0,"Ostrakon Exi",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Exi</Case><Case(2)>dans l'Ostrakon Exi</Case><Case(3)>de l'Ostrakon Exi</Case></Switch>",0,0,0
+4101,"Ostrakon Hexi",0,"Ostrakon Hexi",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Hexi</Case><Case(2)>dans l'Ostrakon Hexi</Case><Case(3)>de l'Ostrakon Hexi</Case></Switch>",0,0,0
 4102,"Ostrakon Okto",0,"Ostrakon Okto",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Okto</Case><Case(2)>dans l'Ostrakon Okto</Case><Case(3)>de l'Ostrakon Okto</Case></Switch>",0,0,0
 4103,"Ostrakon Dékahepta",0,"Ostrakon Dékahepta",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ostrakon Dékahepta</Case><Case(2)>dans l'Ostrakon Dékahepta</Case><Case(3)>de l'Ostrakon Dékahepta</Case></Switch>",0,0,0
 4104,"Amas coquillier naufragé",0,"Amas coquillier naufragé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'amas coquillier naufragé</Case><Case(2)>dans l'amas coquillier naufragé</Case><Case(3)>de l'amas coquillier naufragé</Case></Switch>",0,0,0
@@ -4242,51 +4242,51 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4188,"Quatrième donjon",0,"Quatrième donjon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le quatrième donjon</Case><Case(2)>au quatrième donjon</Case><Case(3)>du quatrième donjon</Case></Switch>",0,0,0
 4189,"Château de Troïa",0,"Château de Troïa",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Château de Troïa</Case><Case(2)>au Château de Troïa</Case><Case(3)>du Château de Troïa</Case></Switch>",0,0,0
 4190,"Promenade de l'Hydromancie",0,"Promenade de l'Hydromancie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la promenade de l'Hydromancie</Case><Case(2)>à la promenade de l'Hydromancie</Case><Case(3)>de la promenade de l'Hydromancie</Case></Switch>",0,0,0
-4191,"",0,"",0,0,0,0,0,"",0,0,0
-4192,"",0,"",0,0,0,0,0,"",0,0,0
-4193,"",0,"",0,0,0,0,0,"",0,0,0
-4194,"",0,"",0,0,0,0,0,"",0,0,0
-4195,"",0,"",0,0,0,0,0,"",0,0,0
+4191,"Champs élyséens",0,"Champs élyséens",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les champs élyséens</Case><Case(2)>aux champs élyséens</Case><Case(3)>des champs élyséens</Case></Switch>",0,0,0
+4192,"Mers élyséennes α",0,"Mers élyséennes α",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les mers élyséennes α</Case><Case(2)>aux mers élyséennes α</Case><Case(3)>des mers élyséennes α</Case></Switch>",0,0,0
+4193,"Mers élyséennes β",0,"Mers élyséennes β",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les mers élyséennes β</Case><Case(2)>aux mers élyséennes β</Case><Case(3)>des mers élyséennes β</Case></Switch>",0,0,0
+4194,"Terrains de jeu élyséens α",0,"Terrains de jeu élyséens α",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les terrains de jeu élyséens α</Case><Case(2)>aux terrains de jeu élyséens α</Case><Case(3)>des terrains de jeu élyséens α</Case></Switch>",0,0,0
+4195,"Terrains de jeu élyséens β",0,"Terrains de jeu élyséens β",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les terrains de jeu élyséens β</Case><Case(2)>aux terrains de jeu élyséens β</Case><Case(3)>des terrains de jeu élyséens β</Case></Switch>",0,0,0
 4196,"Bloc des organismes parasites",0,"Bloc des organismes parasites",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc des organismes parasites</Case><Case(2)>au bloc des organismes parasites</Case><Case(3)>du bloc des organismes parasites</Case></Switch>",0,0,0
 4197,"Toison des tempêtes",0,"Toison des tempêtes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Toison des tempêtes</Case><Case(2)>à la Toison des tempêtes</Case><Case(3)>de la Toison des tempêtes</Case></Switch>",0,0,0
 4198,"Bloc des créations arborescentes",0,"Bloc des créations arborescentes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc des créations arborescentes</Case><Case(2)>au bloc des créations arborescentes</Case><Case(3)>du bloc des créations arborescentes</Case></Switch>",0,0,0
-4199,"",0,"",0,0,0,0,0,"",0,0,0
-4200,"",0,"",0,0,0,0,0,"",0,0,0
-4201,"",0,"",0,0,0,0,0,"",0,0,0
-4202,"",0,"",0,0,0,0,0,"",0,0,0
-4203,"",0,"",0,0,0,0,0,"",0,0,0
-4204,"",0,"",0,0,0,0,0,"",0,0,0
-4205,"",0,"",0,0,0,0,0,"",0,0,0
-4206,"",0,"",0,0,0,0,0,"",0,0,0
-4207,"",0,"",0,0,0,0,0,"",0,0,0
-4208,"",0,"",0,0,0,0,0,"",0,0,0
-4209,"",0,"",0,0,0,0,0,"",0,0,0
-4210,"",0,"",0,0,0,0,0,"",0,0,0
-4211,"",0,"",0,0,0,0,0,"",0,0,0
-4212,"",0,"",0,0,0,0,0,"",0,0,0
-4213,"",0,"",0,0,0,0,0,"",0,0,0
-4214,"",0,"",0,0,0,0,0,"",0,0,0
-4215,"",0,"",0,0,0,0,0,"",0,0,0
-4216,"",0,"",0,0,0,0,0,"",0,0,0
-4217,"",0,"",0,0,0,0,0,"",0,0,0
-4218,"",0,"",0,0,0,0,0,"",0,0,0
-4219,"",0,"",0,0,0,0,0,"",0,0,0
-4220,"",0,"",0,0,0,0,0,"",0,0,0
-4221,"",0,"",0,0,0,0,0,"",0,0,0
-4222,"",0,"",0,0,0,0,0,"",0,0,0
-4223,"",0,"",0,0,0,0,0,"",0,0,0
-4224,"",0,"",0,0,0,0,0,"",0,0,0
-4225,"",0,"",0,0,0,0,0,"",0,0,0
-4226,"",0,"",0,0,0,0,0,"",0,0,0
-4227,"",0,"",0,0,0,0,0,"",0,0,0
-4228,"",0,"",0,0,0,0,0,"",0,0,0
-4229,"",0,"",0,0,0,0,0,"",0,0,0
-4230,"",0,"",0,0,0,0,0,"",0,0,0
-4231,"",0,"",0,0,0,0,0,"",0,0,0
-4232,"",0,"",0,0,0,0,0,"",0,0,0
-4233,"",0,"",0,0,0,0,0,"",0,0,0
-4234,"",0,"",0,0,0,0,0,"",0,0,0
-4235,"",0,"",0,0,0,0,0,"",0,0,0
+4199,"Canalisations sildiennes",0,"Canalisations sildiennes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les canalisations sildiennes</Case><Case(2)>aux canalisations sildiennes</Case><Case(3)>des canalisations sildiennes</Case></Switch>",0,0,0
+4200,"Salle des pompes à limon",0,"Salle des pompes à limon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des pompes à limon</Case><Case(2)>à la salle des pompes à limon</Case><Case(3)>de la salle des pompes à limon</Case></Switch>",0,0,0
+4201,"Avant-cour abandonnée",0,"Avant-cour abandonnée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'avant-cour abandonnée</Case><Case(2)>à l'avant-cour abandonnée</Case><Case(3)>de l'avant-cour abandonnée</Case></Switch>",0,0,0
+4202,"Portique des Malachites",0,"Portique des Malachites",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le portique des Malachites</Case><Case(2)>au portique des Malachites</Case><Case(3)>du portique des Malachites</Case></Switch>",0,0,0
+4203,"Parterre ombragé",0,"Parterre ombragé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le parterre ombragé</Case><Case(2)>au parterre ombragé</Case><Case(3)>du parterre ombragé</Case></Switch>",0,0,0
+4204,"Jardin ensoleillé",0,"Jardin ensoleillé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le jardin ensoleillé</Case><Case(2)>au jardin ensoleillé</Case><Case(3)>du jardin ensoleillé</Case></Switch>",0,0,0
+4205,"Bassin de sédiments",0,"Bassin de sédiments",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bassin de sédiments</Case><Case(2)>au bassin de sédiments</Case><Case(3)>du bassin de sédiments</Case></Switch>",0,0,0
+4206,"Tombe du héros trépassé",0,"Tombe du héros trépassé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la tombe du héros trépassé</Case><Case(2)>à la tombe du héros trépassé</Case><Case(3)>de la tombe du héros trépassé</Case></Switch>",0,0,0
+4207,"Antichambre des rituels",0,"Antichambre des rituels",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'antichambre des rituels</Case><Case(2)>à l'antichambre des rituels</Case><Case(3)>de l'antichambre des rituels</Case></Switch>",0,0,0
+4208,"Site de filtrage",0,"Site de filtrage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le site de filtrage</Case><Case(2)>au site de filtrage</Case><Case(3)>du site de filtrage</Case></Switch>",0,0,0
+4209,"Arène des Faveurs",0,"Arène des Faveurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'arène des Faveurs</Case><Case(2)>à l'arène des Faveurs</Case><Case(3)>de l'arène des Faveurs</Case></Switch>",0,0,0
+4210,"Appartements royaux",0,"Appartements royaux",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les appartements royaux</Case><Case(2)>aux appartements royaux</Case><Case(3)>des appartements royaux</Case></Switch>",0,0,0
+4211,"Salle à manger du monarque",0,"Salle à manger du monarque",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle à manger du monarque</Case><Case(2)>à la salle à manger du monarque</Case><Case(3)>de la salle à manger du monarque</Case></Switch>",0,0,0
+4212,"Chambre des audiences",0,"Chambre des audiences",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre des audiences</Case><Case(2)>à la chambre des audiences</Case><Case(3)>de la chambre des audiences</Case></Switch>",0,0,0
+4213,"Trésor sildien",0,"Trésor sildien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Trésor sildien</Case><Case(2)>au Trésor sildien</Case><Case(3)>du Trésor sildien</Case></Switch>",0,0,0
+4214,"Entrepôt des armes sacrées",0,"Entrepôt des armes sacrées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrepôt des armes sacrées</Case><Case(2)>à l'entrepôt des armes sacrées</Case><Case(3)>de l'entrepôt des armes sacrées</Case></Switch>",0,0,0
+4215,"Piédestal du Feu et de la Balance",0,"Piédestal du Feu et de la Balance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Piédestal du Feu et de la Balance</Case><Case(2)>au Piédestal du Feu et de la Balance</Case><Case(3)>du Piédestal du Feu et de la Balance</Case></Switch>",0,0,0
+4216,"Salle des trois seuils",0,"Salle des trois seuils",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des trois seuils</Case><Case(2)>à la salle des trois seuils</Case><Case(3)>de la salle des trois seuils</Case></Switch>",0,0,0
+4217,"Canaux d'irrigation",0,"Canaux d'irrigation",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les canaux d'irrigation</Case><Case(2)>aux canaux d'irrigation</Case><Case(3)>des canaux d'irrigation</Case></Switch>",0,0,0
+4218,"Passage verdoyant",0,"Passage verdoyant",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le passage verdoyant</Case><Case(2)>au passage verdoyant</Case><Case(3)>du passage verdoyant</Case></Switch>",0,0,0
+4219,"Embouchure souterraine",0,"Embouchure souterraine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'embouchure souterraine</Case><Case(2)>à l'embouchure souterraine</Case><Case(3)>de l'embouchure souterraine</Case></Switch>",0,0,0
+4220,"Canaux d'assainissement",0,"Canaux d'assainissement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les canaux d'assainissement</Case><Case(2)>aux canaux d'assainissement</Case><Case(3)>des canaux d'assainissement</Case></Switch>",0,0,0
+4221,"Fourche des Flammes",0,"Fourche des Flammes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Fourche des Flammes</Case><Case(2)>à la Fourche des Flammes</Case><Case(3)>de la Fourche des Flammes</Case></Switch>",0,0,0
+4222,"Avant-poste de campagne",0,"Avant-poste de campagne",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'avant-poste de campagne</Case><Case(2)>à l'avant-poste de campagne</Case><Case(3)>de l'avant-poste de campagne</Case></Switch>",0,0,0
+4223,"Couloir des citernes",0,"Couloir des citernes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le couloir des citernes</Case><Case(2)>au couloir des citernes</Case><Case(3)>du couloir des citernes</Case></Switch>",0,0,0
+4224,"Quartiers de la Loi sildienne",0,"Quartiers de la Loi sildienne",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les quartiers de la Loi sildienne</Case><Case(2)>aux quartiers de la Loi sildienne</Case><Case(3)>des quartiers de la Loi sildienne</Case></Switch>",0,0,0
+4225,"Hall intérieur",0,"Hall intérieur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hall intérieur</Case><Case(2)>au hall intérieur</Case><Case(3)>du hall intérieur</Case></Switch>",0,0,0
+4226,"Passage des Cobelligérants",0,"Passage des Cobelligérants",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le passage des Cobelligérants</Case><Case(2)>au passage des Cobelligérants</Case><Case(3)>du passage des Cobelligérants</Case></Switch>",0,0,0
+4227,"Canalisations sildiennes annexes",0,"Canalisations sildiennes annexes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les canalisations sildiennes annexes</Case><Case(2)>aux canalisations sildiennes annexes</Case><Case(3)>des canalisations sildiennes annexes</Case></Switch>",0,0,0
+4228,"Strate de la Sagesse",0,"Strate de la Sagesse",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Strate de la Sagesse</Case><Case(2)>à la Strate de la Sagesse</Case><Case(3)>de la Strate de la Sagesse</Case></Switch>",0,0,0
+4229,"Strate de la Puissance",0,"Strate de la Puissance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Strate de la Puissance</Case><Case(2)>à la Strate de la Puissance</Case><Case(3)>de la Strate de la Puissance</Case></Switch>",0,0,0
+4230,"Strate de la Justice",0,"Strate de la Justice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Strate de la Justice</Case><Case(2)>à la Strate de la Justice</Case><Case(3)>de la Strate de la Justice</Case></Switch>",0,0,0
+4231,"Épreuve de la Sagesse",0,"Épreuve de la Sagesse",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Épreuve de la Sagesse</Case><Case(2)>à l'Épreuve de la Sagesse</Case><Case(3)>de l'Épreuve de la Sagesse</Case></Switch>",0,0,0
+4232,"Épreuve de la Puissance",0,"Épreuve de la Puissance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Épreuve de la Puissance</Case><Case(2)>à l'Épreuve de la Puissance</Case><Case(3)>de l'Épreuve de la Puissance</Case></Switch>",0,0,0
+4233,"Épreuve de la Justice",0,"Épreuve de la Justice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Épreuve de la Justice</Case><Case(2)>à l'Épreuve de la Justice</Case><Case(3)>de l'Épreuve de la Justice</Case></Switch>",0,0,0
+4234,"Refuge des Sages",0,"Refuge des Sages",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Refuge des Sages</Case><Case(2)>au Refuge des Sages</Case><Case(3)>du Refuge des Sages</Case></Switch>",0,0,0
+4235,"Refuge des Puissants",0,"Refuge des Puissants",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Refuge des Puissants</Case><Case(2)>au Refuge des Puissants</Case><Case(3)>du Refuge des Puissants</Case></Switch>",0,0,0
 4236,"Les Landes",0,"Les Landes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Landes</Case><Case(2)>aux Landes</Case><Case(3)>des Landes</Case></Switch>",0,0,0
 4237,"Base d'opérations",0,"Base d'opérations",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la base d'opération</Case><Case(2)>à la base d'opérations</Case><Case(3)>de la base d'opérations</Case></Switch>",0,0,0
 4238,"Baie des pirates",0,"Baie des pirates",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la baie des pirates</Case><Case(2)>à la baie des pirates</Case><Case(3)>de la baie des pirates</Case></Switch>",0,0,0
@@ -4302,13 +4302,13 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4248,"Rivière longitudinale",0,"Rivière longitudinale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la rivière longitudinale</Case><Case(2)>à la rivière longitudinale</Case><Case(3)>de la rivière longitudinale</Case></Switch>",0,0,0
 4249,"Bloc des créatures ex<SoftHyphen/>trê<SoftHyphen/>me<SoftHyphen/>ment nocives",0,"Bloc des créatures ex<SoftHyphen/>trê<SoftHyphen/>me<SoftHyphen/>ment nocives",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bloc des créatures ex<SoftHyphen/>trê<SoftHyphen/>me<SoftHyphen/>ment nocives</Case><Case(2)>au bloc des créatures ex<SoftHyphen/>trê<SoftHyphen/>me<SoftHyphen/>ment nocives</Case><Case(3)>du bloc des créatures ex<SoftHyphen/>trê<SoftHyphen/>me<SoftHyphen/>ment nocives</Case></Switch>",0,0,0
 4250,"Laboratoire d'études des secrets du vivant",0,"Laboratoire d'études des secrets du vivant",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le laboratoire d'études des secrets du vivant</Case><Case(2)>au laboratoire d'études des secrets du vivant</Case><Case(3)>du laboratoire d'études des secrets du vivant</Case></Switch>",0,0,0
-4251,"",0,"",0,0,0,0,0,"",0,0,0
-4252,"",0,"",0,0,0,0,0,"",0,0,0
-4253,"",0,"",0,0,0,0,0,"",0,0,0
-4254,"",0,"",0,0,0,0,0,"",0,0,0
-4255,"",0,"",0,0,0,0,0,"",0,0,0
-4256,"",0,"",0,0,0,0,0,"",0,0,0
+4251,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
+4252,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
+4253,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
+4254,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
+4255,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
+4256,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
 4257,"Avenue Fer-de-hallebarde [Annexe]",0,"Avenue Fer-de-hallebarde [Annexe]",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Annexesur l'l'avenue Fer-de-hallebarde  [Annexe]</Case><Case(2)>de l'avenue Fer-de-hallebarde  [Annexe]</Case></Switch>",0,0,0
-4258,"",0,"",0,0,0,0,0,"",0,0,0
-4259,"",0,"",0,0,0,0,0,"",0,0,0
-4260,"",0,"",0,0,0,0,0,"",0,0,0
+4258,"",0,"",0,0,1,0,0,"",0,0,0
+4259,"",0,"",0,0,1,0,0,"",0,0,0
+4260,"",0,"",0,0,1,0,0,"",0,0,0

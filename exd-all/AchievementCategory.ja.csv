@@ -76,4 +76,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 72,"北洋地域","Exploration",True,False,12
 73,"イルサバード大陸","Exploration",True,False,13
 74,"その他","Exploration",True,False,99
-75,"","",False,False,0
+75,"マンダヴィルウェポン","Items",True,False,12

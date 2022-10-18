@@ -317,6 +317,7 @@ Ouvre la page des archives des notes de mise à jour sur le site officiel grâce
 Ouvre la fenêtre des portraits.","/portrait","","pack",0
 38,1,0,0,0,0,"/adventurerplate","/myplate","/cartepersonnage, /cartep, /adventurerplate, /myplate
 Affiche la carte de personnage.","/cartepersonnage","/cartep","pack",0
+39,1,0,0,0,0,"//resetSettingCWLS","","","","","pack",1000
 91,1,0,0,0,0,"/pvpteam","/pt","/équipejcj, /éj, /pvpteam, /pt
 Utilisation<Indent/>: /équipejcj [message]
 Affiche un message visible par tous les joueurs appartenant à la même équipe JcJ.
@@ -2809,6 +2810,12 @@ Montre son côté rebelle.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/montrersoncôtérebelle","/rebelle","pdamage",0
+647,2,1,2,0,0,"/wow","","/avoirdesétoilesdanslesyeux, /fana, /wow
+Utilisation<Indent/>: /avoirdesétoilesdanslesyeux [sous-commande]
+A des étoiles dans les yeux.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/avoirdesétoilesdanslesyeux","/fana","pdamage",0
 648,2,1,2,0,0,"/eatpumpkincookie","/cookie","/mangerunbiscuitcitrouille, /mangbiscuitcitrouille, /eatpumpkincookie, /cookie
 Utilisation<Indent/>: /mangerunbiscuitcitrouille [sous-commande]
 Mange un biscuit citrouille.
