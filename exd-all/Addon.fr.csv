@@ -10528,6 +10528,8 @@ Meilleur score
 11264,"Temps restant<Indent/>: <Value>IntegerParameter(1)</Value>m <TwoDigitValue>IntegerParameter(2)</TwoDigitValue>s"
 11265,"Quitter"
 11266,"MAGNIFIQUE<Indent/>!"
+11267,"Fermer l'omikuji<Indent/>?
+Vous ne pourrez pas le relire."
 11300,"Soigneur pur"
 11301,"Soigneur axé barrières"
 11310,"Accord sur l'utilisation des Actions d'interprétation"
@@ -11911,7 +11913,7 @@ Le niveau de fréquentation du Monde choisi au moment de confirmer votre demande
 12624,"Voulez-vous vraiment visiter “<Highlight>StringParameter(1)</Highlight>”<Indent/>?
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vous ne pouvez pas utiliser le voyage inter-Monde en faisant partie d'une équipe standard.
 Vous pouvez néanmoins faire partie d'une équipe inter-Monde ou être en cours de recherche d'équipe.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-12625,"<If(Equal(IntegerParameter(1),1))>Baroudeuse<Else/>Baroudeur</If>"
+12625,"<If(Equal(IntegerParameter(1),1))>Exploratrice<Else/>Explorateur</If>"
 12626,"Vous ne pourrez pas recevoir de notification de nouveau courrier si votre Monde d'origine et celui vers lequel vous voyagez ne partagent pas le même centre de traitement de données."
 12630,"Contrats du clan Kupo (débutant)"
 12631,"Contrats du clan Kupo (intermédiaire)"
@@ -14016,7 +14018,7 @@ Voulez-vous appliquer le changement<Indent/>?"
 15282,"Confirmer"
 15283,"Annuler"
 15284,"La capacité maximale d'assignats insulaires sera atteinte, et les assignats excédentaires seront perdus.
-Acceptez-vous tout de même de recevoir le paiment<Indent/>?"
+Acceptez-vous tout de même de recevoir le paiement<Indent/>?"
 15285,"Certains matériaux sont utilisés par la fabrique.
 Souhaitez-vous tout de même les envoyer<Indent/>?"
 15286,"Envois de gros"

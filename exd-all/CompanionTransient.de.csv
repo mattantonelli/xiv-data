@@ -857,9 +857,8 @@ gereicht.","Zerbersten sollt ihr! Alle!
 es vorhat.","Haltet das Ferkelchen!
 Es hat sein Essen nicht bezahlt!
 <Emphasis>Wirt im Gold Saucer</Emphasis>","Quieken","Entfernt alle negativen Effekte von eigenen Trabanten in der Nähe.",45,30,3,False,False,False,False,False,"Disarming"
-188,"Du rufst einen magischen Eimer herbei, der dank neuester Marionettentechnik laufen kann.","Ein Fischer war es leid, seinen schweren Fang immer nach Hause tragen zu müssen. Also wurde kurzerhand ein laufender Eimer entwickelt. Ein Rätsel bleibt, woher das Wasser und die Fische darin kommen, denn selbst wenn
-man den Eimer leert, ist
-er kurz darauf wieder voll.","Endlich mal eine praktische Erfindung!
+188,"Du rufst einen magischen Eimer herbei, der dank neuester Marionettentechnik laufen kann.","Ein Fischer war es leid, seinen schweren Fang immer nach Hause tragen zu müssen. Also wurde kurzer-
+hand ein laufender Eimer entwickelt. Ein Rätsel bleibt, woher das Wasser und die Fische darin kommen, denn selbst wenn man den Eimer leert, ist er kurz darauf wieder voll.","Endlich mal eine praktische Erfindung!
 <Emphasis>Fischer</Emphasis>","Eimerkette","Erhöht die GSW eigener Trabanten in der Nähe um 35 %.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Dauer:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6 Sekunden",20,55,1,False,False,False,False,False,"Enhancement"
 189,"Du rufst ein Tentakel herbei, das dem Aquadon abgeschlagen wurde.","Nachdem Abenteurer auf der Schiffbrecher-Insel dem Aquadon ein Tentakel abgeschlagen hatten, flog dieses ins Meer, kroch kurze Zeit später aber wieder an Land. Während der Aquadon auf Rache aus ist, scheint das Tentakel
