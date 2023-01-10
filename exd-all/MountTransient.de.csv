@@ -2,8 +2,7 @@
 #,Description,Description{Enhanced},Tooltip
 int32,str,str,str
 0,"","",""
-1,"Ruf deinen von deiner Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaft ausgegebenen Kampf-Chocobo herbei.","Diese Tiere wachsen im Stadt<SoftHyphen/>staat von Ishgard auf und eignen sich sowohl zum Reiten als auch für die Schlacht. Um dem Körperbau von Roegadyn und Lalafell gerecht zu werden, werden auch besonders kräftige und sehr kleine
-Varianten gezüchtet.","Schlafende Chocobos soll man nicht wecken. Warum? Weil
+1,"Ruf deinen von deiner Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaft ausgegebenen Kampf-Chocobo herbei.","Diese Tiere wachsen im Stadt<SoftHyphen/>staat von Ishgard auf und eignen sich sowohl zum Reiten als auch für die Schlacht. Um dem Körperbau von Roegadyn und Lalafell gerecht zu werden, werden auch besonders kräftige und sehr kleine Varianten gezüchtet.","Schlafende Chocobos soll man nicht wecken. Warum? Weil
 sie einen noch strengeren Körpergeruch entwickeln, wenn
 sie nicht ausgeschlafen sind.
 <Emphasis>Volksmund</Emphasis>"
@@ -13,9 +12,7 @@ sie nicht ausgeschlafen sind.
 doch nur den Magen einer Goobbue hätte,
 dann könnte ich noch mehr essen.
 <Emphasis>Nanamo</Emphasis>"
-5,"Fünf Jahre und eine erschütternde Katastrophe konnten die Bande zwischen euch nicht sprengen: Ein Pfiff, und dein treuer Chocobo ist zur Stelle wie in alten Zeiten.","In den fünf Jahren nach deinem plötzlichen Verschwinden in Carteneau hat dieser treue Chocobo jeden Moment damit zugebracht, auf der Suche nach seinem verlorenen Meister durch die Lande zu streifen. Seine zahlreichen
-Abenteuer sind fantastisch
-und herzzerreißend ...","Bis vor kurzem wurde die Chocobo-Zucht nur in Ishgard betrieben. Dort wurde
+5,"Fünf Jahre und eine erschütternde Katastrophe konnten die Bande zwischen euch nicht sprengen: Ein Pfiff, und dein treuer Chocobo ist zur Stelle wie in alten Zeiten.","In den fünf Jahren nach deinem plötzlichen Verschwinden in Carteneau hat dieser treue Chocobo jeden Moment damit zugebracht, auf der Suche nach seinem verlorenen Meister durch die Lande zu streifen. Seine zahlreichen Abenteuer sind fantastisch und herzzerreißend ...","Bis vor kurzem wurde die Chocobo-Zucht nur in Ishgard betrieben. Dort wurde
 alles sehr streng reguliert. Es gab zum Beispiel ein striktes Exportverbot für
 weibliche Chocobos, um die Monopolstellung Ishgards nicht zu gefährden.
 <Emphasis>Keitha</Emphasis>"
@@ -27,9 +24,7 @@ Magitek-Kampf<SoftHyphen/>maschinen alles niedertraten, was in unserem schönen 
 8,"Ruf deinen flinken Coeurl herbei, der darauf trainiert wurde, dich als <If(PlayerParameter(4))>seine Meisterin<Else/>seinen Meister</If> zu erkennen und nicht als Mahlzeit.","Diese Spezies stammt aus dem Nahen Osten und hat sich erst vor kurzem auch in Eorzea verbreitet. Die Tiere wurden von Adeligen aus Ul'dah aus fernen Ländern wie Thavnair importiert, um sie als Haustiere zu halten. Jedoch gibt es nur eine Handvoll ausgebildeter Bändiger, die sie abzurichten vermögen.","Erst letzte Woche wurde ein Neuling von einem Coeurl
 in Stücke gerissen. Kein schöner Anblick, das sage ich dir.
 <Emphasis>Orwen</Emphasis>"
-9,"Ruf deinen Ahriman herbei, den mächtige Magie dazu brachte, sich ohne Murren von dir reiten zu lassen. ","Obwohl man wenig über das Reich des Nichts und dessen Kreaturen weiß, haben Gelehrte entdeckt, dass es eine strikte Hierarchie unter den Nichts-
-gesandten gibt, die aus zwölf Rängen besteht. Ahriman gehören mutmaßlich zum fünften davon, was sie zu formidablen Gegnern
-macht.","Sprachforscher vermuten, dass gefräßige Ahriman der
+9,"Ruf deinen Ahriman herbei, den mächtige Magie dazu brachte, sich ohne Murren von dir reiten zu lassen. ","Obwohl man wenig über das Reich des Nichts und dessen Kreaturen weiß, haben Gelehrte entdeckt, dass es eine strikte Hierarchie unter den Nichts<SoftHyphen/>gesand<SoftHyphen/>ten gibt, die aus zwölf Rängen besteht. Ahriman gehören mutmaßlich zum fünften davon, was sie zu formidablen Gegnern macht.","Sprachforscher vermuten, dass gefräßige Ahriman der
 Ursprung für die Redensart „Das Auge isst mit.“ sind.
 <Emphasis>Enzyklopädie Eorzea</Emphasis>"
 10,"","",""
@@ -37,8 +32,8 @@ Ursprung für die Redensart „Das Auge isst mit.“ sind.
 12,"","",""
 13,"","",""
 14,"","",""
-15,"Ruf dein weißes, elegant gehörntes Reittier herbei, mit dem du dich im Finsterwald befreundet hast. ","Vor gar nicht allzu langer Zeit gab es in Eorzea noch Tausende von Einhörnern, die oft in großen Herden über das Hochland von Coerthas zogen und die Berge so schneeweiß färbten. Die Wilderei hat den Beständen jedoch arg zugesetzt, und wenn du nicht gewesen wärest, gäbe es
-nun noch eins weniger.","Einhörner sind klug und dafür bekannt, sich für
+15,"Ruf dein weißes, elegant gehörntes Reittier herbei, mit dem du dich im Finsterwald befreundet hast. ","Vor gar nicht allzu langer Zeit gab es in Eorzea noch Tausende von Einhörnern, die oft in großen Herden über das Hochland von Coerthas zogen und die Berge so schneeweiß färbten. Die Wilderei hat den Bestän-
+den jedoch arg zugesetzt, und wenn du nicht gewesen wärest, gäbe es nun noch eins weniger.","Einhörner sind klug und dafür bekannt, sich für
 gute Taten bei ihren Gönnern zu bedanken.
 <Emphasis>Braya</Emphasis>"
 16,"","",""
@@ -53,8 +48,7 @@ Genau so ist es auch bei den Amalj'aa.
 20,"Klettere auf deine hünenhafte Waldkreatur, die dir die Sylphen anvertraut haben.","Nachdem ihr das Moos und die Blumen vom Kopf entfernt wurden, nahmen die Sylphen von der Sylphen-Zuflucht diese sanftmütige Goobbue bei sich auf und fertigten für sie einen beeindruckenden Lorbeerkranz an, um ihre Narben zu kaschieren.","Die Goobbueige der Meinigen riecht wie
 eine alte Milchwurzel, hihi. So süß!
 <Emphasis>Nyxia</Emphasis>"
-21,"Ruf deine antimagisch beschichtete Magitek-Kampfmaschine (Typ C) herbei.","Nach nur wenigen Gefechten mit den alliierten Stadt<SoftHyphen/>staaten musste Garlemand feststellen, dass die Zauber der Magier des Reiches selbst die dickste Magitek-Rüstung durchdrangen. Daraufhin wurde eine spezielle Bronzelegierung erfunden, um elementaren Angriffen besser
-standhalten zu können.","Was ist das? Ein verbesserter Typ von Magitek-Kampfmaschine?
+21,"Ruf deine antimagisch beschichtete Magitek-Kampfmaschine (Typ C) herbei.","Nach nur wenigen Gefechten mit den alliierten Stadt<SoftHyphen/>staaten musste Garlemand feststellen, dass die Zauber der Magier des Reiches selbst die dickste Magitek-Rüstung durchdrangen. Daraufhin wurde eine spezielle Bronzelegierung erfunden, um elementaren Angriffen besser standhalten zu können.","Was ist das? Ein verbesserter Typ von Magitek-Kampfmaschine?
 <Emphasis>Biggs</Emphasis>"
 22,"Ruf dein freundliches Pferd Albtraum herbei.","Es ist kein Geheimnis, dass es die Ascians waren, die die Wilden Stämme mit Albträumen versorgten, aber die Gründe dafür sind nach wie vor unklar. Die wilden Bestien gelten als unzähmbar und einzig der schrille Ton einer magischen Pfeife vermag sie zu beruhigen.","Ich hörte die eindringlichen Stimmen der Gebieter in ungewohnter
 Klarheit rufen: „Der Albtraum ist erwacht!“ So viel Schrecken
@@ -67,8 +61,7 @@ schwang in ihren Worten mit, wie ich es nie zuvor erlebt habe.
 26,"Ruf deinen Kavallerie-Elbst herbei, der aus einem Ei von Pahh von Novvs Sippe stammt.","Damit seine Elbste mit den flinken Chocobos mithalten können, stutzt Pahh von Novvs Sippe ihre Schwimmhäute schon in jungen Jahren. Auch wenn sie dadurch schneller laufen, büßen sie doch einen Teil ihrer Schwimmfähigkeit ein.","Auf dem Rücken dieser stolzen Tiere meisterst du
 selbst das stürmischste aller Meere! Sssssh ...
 <Emphasis>Novv</Emphasis>"
-27,"Ruf einen Schwarm von explosiven Sänftenträgern für dich herbei. Angenehme Reise!","Als er erfuhr, dass seine Schöpfungen nicht die Fähigkeit besaßen, sich selbst zu entflammen, tat Ba Go, was jeder gute Sprengmeister tun würde - er brachte die Bomber an den Ecken eines bestickten Seidenkissens an und erschuf
-eine schwebende Kutsche.","Hihihi, Bomber zur Explosion geboren. Für einen
+27,"Ruf einen Schwarm von explosiven Sänftenträgern für dich herbei. Angenehme Reise!","Als er erfuhr, dass seine Schöpfungen nicht die Fähigkeit besaßen, sich selbst zu entflammen, tat Ba Go, was jeder gute Sprengmeister tun würde<Indent/>- er brachte die Bomber an den Ecken eines bestickten Seidenkissens an und erschuf eine schwebende Kutsche.","Hihihi, Bomber zur Explosion geboren. Für einen
 kurzen Moment sie leben. In einem Augenblick
 des Glanzes sie vergehen.
 <Emphasis>Ba Go, Akolyth des 789. Ordens</Emphasis>"
@@ -91,25 +84,19 @@ viele Beine!
 32,"Ruf deinen furchtlosen Kriegslöwen herbei, der über das Schlachtfeld herrschen wird wie über das Reich der Tiere.","In der Sechsten Ära des Lichts wurden Löwen aus dem Nahen Osten nach Ul'dah gebracht, um dort als Kampfreittiere der Palastwache zu dienen. Man hielt sie jedoch für unzähmbar, und so wurden die Tiere, die man nicht für Tierhetzen ans Kolosseum verkaufte, in den Wüsten von Thanalan wieder ausgesetzt.","Ich soll mich auf diesen abgemagerten Löwen setzen? Hat
 der heute überhaupt schon etwas zu futtern bekommen?
 <Emphasis>Furchtsame Palastwache</Emphasis>"
-33,"Ruf deinen furchtlosen Kriegsbären herbei, der schon Tausende Schlachten geschlagen hat. Sein Anblick wird deine Gegner erzittern lassen.","Krieger vergangener Generationen reisten auf der Suche nach Ruhm und Ehre zuweilen in die Wildnis von Abalathia, um einen der riesigen Grizzlybären aufzuspüren. Sie versuchten dann, ihn niederzuringen und voller Stolz den Ritt auf ihm zurück in die Zivilisation anzutreten. Oder sie kamen
-bei dem Versuch ums Leben.","Haben Sie keine Angst, der will nur spielen.
+33,"Ruf deinen furchtlosen Kriegsbären herbei, der schon Tausende Schlachten geschlagen hat. Sein Anblick wird deine Gegner erzittern lassen.","Krieger vergangener Generationen reisten auf der Suche nach Ruhm und Ehre zuweilen in die Wildnis von Abalathia, um einen der riesigen Grizzlybären aufzuspüren. Sie versuchten dann, ihn niederzuringen und voller Stolz den Ritt auf ihm zurück in die Zivilisation anzutreten. Oder sie kamen bei dem Versuch ums Leben.","Haben Sie keine Angst, der will nur spielen.
 <Emphasis>Urgh, Bärentrainer von Halatali</Emphasis>"
-34,"Rufe deinen Tandem-Chocobo herbei. Ein gewaltiger Vogel, der stark genug ist, um zwei Reiter zu tragen.","Diese bisher unbekannte Rasse wurde angeblich von Chocobo-Jägern auf der Suche nach dem legendären Chocobo-Wald entdeckt. Seine enorme Größe würde ihn zu einem idealen Last-Chocobo machen, aber sein Temperament führt häufig zu
-Verletzungen bei
-unvorsichtigen Reitern.","Das war vielleicht ein Kaventsmann, von doppeltem Umfang
+34,"Rufe deinen Tandem-Chocobo herbei. Ein gewaltiger Vogel, der stark genug ist, um zwei Reiter zu tragen.","Diese bisher unbekannte Rasse wurde angeblich von Chocobo-Jägern auf der Suche nach dem legendären Chocobo-Wald entdeckt. Seine enorme Größe würde ihn zu einem idealen Last-Chocobo machen, aber sein Temperament führt häufig zu Verletzungen bei unvorsichtigen Reitern.","Das war vielleicht ein Kaventsmann, von doppeltem Umfang
 wie ein Roegadyn würd ich sagen, und tatsächlich trug er auch
 gleich zwei davon auf seinem Rücken, als wären es Küken.
 <Emphasis>Kommandeur Ribald</Emphasis>"
 35,"Rufe deinen tödlichen Düsterwolf herbei. Einer von fünf Welpen, die man im tiefen Schnee an den Körper ihrer erschlagenen Mutter geschmiegt auffand.","Während der Sechsten Ära des Lichts führten Massenkeulungen dieser Bestien dazu, dass Naturforscher die Spezies für ausgestorben hielten. Sie wurden jedoch widerlegt, als Aufklärer der Ixal auf ein Rudel in den dünn besiedelten Bergen von Xelphatol stießen.","Zwei gute Ritter habe ich an diese Wölfe verloren.
 <Emphasis>Ritter Corentiaux aus dem Haus Fortemps</Emphasis>"
-36,"Rufe dein vom Mahlstrom ausgegebenes Schlachtross herbei und versuche den Gedanken zu verdrängen, dass dein Chocobo nun ganz allein und hungrig irgendwo herumsitzt.","Nachdem sie beeindruckenden Demonstrationen beiwohnten, wie ein Schlachtross das Blatt auf dem Schlachtfeld wenden kann, ließen sich die Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaften von Eorzea nicht lumpen und zahlten der Pferdeministerin ordentliche Summen, um sich an der Carteneauer Front einen
-Vorteil zu verschaffen.","Hm? Ob ich Pferde schön finde? Bist du jetzt völlig übergeschnappt?
+36,"Rufe dein vom Mahlstrom ausgegebenes Schlachtross herbei und versuche den Gedanken zu verdrängen, dass dein Chocobo nun ganz allein und hungrig irgendwo herumsitzt.","Nachdem sie beeindruckenden Demonstrationen beiwohnten, wie ein Schlachtross das Blatt auf dem Schlachtfeld wenden kann, ließen sich die Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaften von Eorzea nicht lumpen und zahlten der Pferdeministerin ordentliche Summen, um sich an der Carteneauer Front einen Vorteil zu verschaffen.","Hm? Ob ich Pferde schön finde? Bist du jetzt völlig übergeschnappt?
 <Emphasis>Anonymer Chocobo-Züchter</Emphasis>"
-37,"Rufe dein von der Bruderschaft ausgegebenes Schlachtross herbei und versuche den Gedanken zu verdrängen, dass dein Chocobo nun ganz allein und hungrig irgendwo herumsitzt.","Nachdem sie beeindruckenden Demonstrationen beiwohnten, wie ein Schlachtross das Blatt auf dem Schlachtfeld wenden kann, ließen sich die Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaften von Eorzea nicht lumpen und zahlten der Pferdeministerin ordentliche Summen, um sich an der Carteneauer Front einen
-Vorteil zu verschaffen.","Hm? Ob ich Pferde schön finde? Bist du jetzt völlig übergeschnappt?
+37,"Rufe dein von der Bruderschaft ausgegebenes Schlachtross herbei und versuche den Gedanken zu verdrängen, dass dein Chocobo nun ganz allein und hungrig irgendwo herumsitzt.","Nachdem sie beeindruckenden Demonstrationen beiwohnten, wie ein Schlachtross das Blatt auf dem Schlachtfeld wenden kann, ließen sich die Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaften von Eorzea nicht lumpen und zahlten der Pferdeministerin ordentliche Summen, um sich an der Carteneauer Front einen Vorteil zu verschaffen.","Hm? Ob ich Pferde schön finde? Bist du jetzt völlig übergeschnappt?
 <Emphasis>Anonymer Chocobo-Züchter</Emphasis>"
-38,"Rufe dein von der Legion ausgegebenes Schlachtross herbei und versuche den Gedanken zu verdrängen, dass dein Chocobo nun ganz allein und hungrig irgendwo herumsitzt.","Nachdem sie beeindruckenden Demonstrationen beiwohnten, wie ein Schlachtross das Blatt auf dem Schlachtfeld wenden kann, ließen sich die Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaften von Eorzea nicht lumpen und zahlten der Pferdeministerin ordentliche Summen, um sich an der Carteneauer Front einen
-Vorteil zu verschaffen.","Hm? Ob ich Pferde schön finde? Bist du jetzt völlig übergeschnappt?
+38,"Rufe dein von der Legion ausgegebenes Schlachtross herbei und versuche den Gedanken zu verdrängen, dass dein Chocobo nun ganz allein und hungrig irgendwo herumsitzt.","Nachdem sie beeindruckenden Demonstrationen beiwohnten, wie ein Schlachtross das Blatt auf dem Schlachtfeld wenden kann, ließen sich die Staatlichen Ge<SoftHyphen/>sell<SoftHyphen/>schaften von Eorzea nicht lumpen und zahlten der Pferdeministerin ordentliche Summen, um sich an der Carteneauer Front einen Vorteil zu verschaffen.","Hm? Ob ich Pferde schön finde? Bist du jetzt völlig übergeschnappt?
 <Emphasis>Anonymer Chocobo-Züchter</Emphasis>"
 39,"","",""
 40,"Ruf das legendäre Ross Markab herbei, welches dem Primae Ramuh zugerechnet wird. Es soll durch einen einzelnen Blitz zum Leben erweckt worden sein.","Der Legende nach schuf der Herr der Blitze, Ramuh, dieses magische Ross aus einem Albtraum, der von den Sylphen geopfert wurde.","Ich frage mich, wer wohl schneller galoppieren kann: Chocobos
@@ -126,22 +113,18 @@ aus, um die Vorzüge der
 Pferde anzupreisen?
 Haha, was für ein Blödsinn!
 <Emphasis>Ul'dahner</Emphasis>"
-44,"Rufe deinen Parade-Chocobo herbei, der - seinem Aussehen nach zu urteilen - noch nicht in vielen Paraden mitmarschiert ist.","Ursprünglich von der Aben<SoftHyphen/>teurer<SoftHyphen/>gilde erworben, um ihn in Paraden einzusetzen, verspielte dieser stämmige Chocobo alle Sympathien, als er gleich bei der ersten Fütterung eine ganze Mondration Gizar-Blätter verschlang.
-Danach marschierte er
-direkt aufs Abstellgleis.","Psst! Lust auf 'ne Parade?
+44,"Rufe deinen Parade-Chocobo herbei, der - seinem Aussehen nach zu urteilen - noch nicht in vielen Paraden mitmarschiert ist.","Ursprünglich von der Aben<SoftHyphen/>teurer<SoftHyphen/>gilde erworben, um ihn in Paraden einzusetzen, verspielte dieser stämmige Chocobo alle Sympathien, als er gleich bei der ersten Fütterung eine ganze Mondration Gizar-Blätter verschlang. Danach marschierte er direkt aufs Abstellgleis.","Psst! Lust auf 'ne Parade?
 <Emphasis>Windiger Gaukler</Emphasis>"
 45,"Rufe deinen schwarzen Flug-Chocobo herbei.","Dieser schwarzgefiederte Chocobo wurde dir von Haurchefant als Zeichen seiner Freund<SoftHyphen/>schaft übergeben.","Dann schnappst du dir besser einen schwarzen Chocobo, dann bist du im Nu dort.
 <Emphasis>Redwald</Emphasis>"
-46,"Rufe deine Reit-Taimai herbei. Keine Sorge, sie ist schneller, als sie aussieht.","Die auf der nah-östlichen Insel Thavnair heimische Riesenschildkröte wurde lange Zeit für unzähmbar gehalten, doch gelang es ul'dhischen Zoologen, eine kleine Anzahl von ihnen als Reittiere abzurichten. Die Thaumaturgen-Gilde vollbrachte es zudem, die unbeweglichen Riesen mithilfe uralter Rituale
-mit Flugfähigkeiten auszustatten.","Man bringe mir einen
+46,"Rufe deine Reit-Taimai herbei. Keine Sorge, sie ist schneller, als sie aussieht.","Die auf der nah-östlichen Insel Thavnair heimische Riesenschildkröte wurde lange Zeit für unzähmbar gehalten, doch gelang es ul'dhischen Zoologen, eine kleine Anzahl von ihnen als Reittiere abzurichten. Die Thaumaturgen-Gilde vollbrachte es zudem, die unbeweglichen Riesen mithilfe uralter Rituale mit Flugfähigkeiten auszustatten.","Man bringe mir einen
 geräucherten Wellwick-
 Wurm, ein weichgekochtes
 Adaman-Taimai-Ei und ein
 Goblinkäse-Soufflé. Aber
 dalli dalli!
 <Emphasis>Gegeruju</Emphasis>"
-47,"Rufe dein Kirin herbei, den unumschränkten König der Tiere im Fernen Osten. ","Wen man in Othard auch nach der mächtigsten Kreatur fragt, die Antwort ist immer dieselbe: Kirin. Es heißt, das löwenartige Wesen streife schon über tausend Jahre durch den Fernen Osten und erkenne nur einen wahren Helden
-als seinen Herrn an.","Wenn ich Ferner Osten sage,
+47,"Rufe dein Kirin herbei, den unumschränkten König der Tiere im Fernen Osten. ","Wen man in Othard auch nach der mächtigsten Kreatur fragt, die Antwort ist immer dieselbe: Kirin. Es heißt, das löwenartige Wesen streife schon über tausend Jahre durch den Fernen Osten und erkenne nur einen wahren Helden als seinen Herrn an.","Wenn ich Ferner Osten sage,
 dann mein ich übrigens auch fern.
 <Emphasis>Gerolt</Emphasis>"
 48,"Rufe dein allagisches Logistiksystem herbei. Zu deiner Sicherheit und der von Passanten wurden alle Waffensysteme deaktiviert.","Eine der automatisierten Drohnen, die die Allager zum Schutz ihrer Festung einsetzten. Nachdem sie von den Forschern der Sankt Coinach-Stiftung gefunden wurde, modifizierte Nero tol Scaeva sie zu seinem persönlichen Transportmittel.","Bescheidenheit war den
@@ -170,7 +153,7 @@ wir uns mal wieder selbst übertroffen!
 57,"","",""
 58,"Rufe deinen Stampfer herbei, eine dampfbetriebene Kriegsmaschine der berüchtigten Indigohand.","Dieses Modell ist wesentlich zuverlässiger als die ersten Prototypen, die häufig außer Kontrolle gerieten und dabei ganze Werkstätten verwüsteten.","Macht Vielebumm. Muzzu gucken!
 <Emphasis>Unbekannter Goblin-Tüftler</Emphasis>"
-59,"Rufe Twintania herbei, ein legendärer Wyvern, der insgeheim davon träumt, frei zu sein ... und dich zu verschlingen.","Dank einer allagischen Gedankenfessel ist dir dieser uralte Wyvern aus dem südlichen Kontinent Meracydia ein treuer Diener - solange die Gedankenfessel hält.","Da sind Wyvern. Überall Wyvern.
+59,"Rufe Twintania herbei, ein legendärer Wyvern, der insgeheim davon träumt, frei zu sein ... und dich zu verschlingen.","Dank einer allagischen Gedankenfessel ist dir dieser uralte Wyvern aus dem südlichen Kontinent Meracydia ein treuer Diener<Indent/>- solange die Gedankenfessel hält.","Da sind Wyvern. Überall Wyvern.
 <Emphasis>Vath-Drohne</Emphasis>"
 60,"","",""
 61,"","",""
@@ -180,24 +163,19 @@ wir uns mal wieder selbst übertroffen!
 64,"","",""
 65,"","",""
 66,"","",""
-67,"Rufe einen Pegasus herbei, ein sagenumwobenes Pferdewesen, dessen Existenz lange Zeit angezweifelt wurde.","Über viele Jahrhunderte hinweg galten Pegasus als Fabelwesen, doch seit zahlreiche Luftschiffe jeden Winkel des Wolkenmeeres erforschen, werden ab und zu einzelne Exemplare gesichtet. Es gibt sogar Gerüchte, in Not geratene
-Luftpiraten wären von
-Pegasus gerettet worden.","Ich will aber einen Pegasus
+67,"Rufe einen Pegasus herbei, ein sagenumwobenes Pferdewesen, dessen Existenz lange Zeit angezweifelt wurde.","Über viele Jahrhunderte hinweg galten Pegasus als Fabelwesen, doch seit zahlreiche Luftschiffe jeden Winkel des Wolkenmeeres erforschen, werden ab und zu einzelne Exemplare gesichtet. Es gibt sogar Gerüchte, in Not geratene Luftpiraten wären von Pegasus gerettet worden.","Ich will aber einen Pegasus
 zum Geburtstag!
 <Emphasis>Mädchen aus Ishgard</Emphasis>"
-68,"Rufe die Magitek-Kampfmaschine vom Typ „Weißer Teufel“ herbei, die eigens für Livia sas Junius entwickelt und gebaut worden ist.","Die Magitek-Kampfmaschine vom Typ „Weißer Teufel“ wurde speziell für Livia sas Junius, Tribunus der XIV. Legion des Garleischen Kaiserreichs, gebaut. Die Effektivität ihres Lieblings hat die Hexe von Dalmasca eindrucksvoll bei der Eroberung der nördlichen Territorien Ilsabards unter
-Beweis gestellt.","Die Hexe von Dalmasca
+68,"Rufe die Magitek-Kampfmaschine vom Typ „Weißer Teufel“ herbei, die eigens für Livia sas Junius entwickelt und gebaut worden ist.","Die Magitek-Kampfmaschine vom Typ „Weißer Teufel“ wurde speziell für Livia sas Junius, Tribunus der XIV. Legion des Garleischen Kaiserreichs, gebaut. Die Effektivität ihres Lieblings hat die Hexe von Dalmasca eindrucksvoll bei der Eroberung der nördlichen Territorien Ilsabards unter Beweis gestellt.","Die Hexe von Dalmasca
 bringt Tod und Zerstörung!
 <Emphasis>Kriegsflüchtling</Emphasis>"
-69,"Rufe die Magitek-Kampfmaschine vom Typ „Roter Baron“ herbei, die eigens für Nero tol Scaeva entwickelt und gebaut worden ist.","Die Magitek-Kampfmaschine vom Typ „Roter Baron“ wurde speziell für Nero tol Scaeva, Tribunus der XIV. Legion des Garleischen Kaiserreichs, gebaut. Als versierter Maschinist hat Nero persönlich an der Optimierung des Erdseim-Antriebs mitgewirkt und im laufenden Betrieb ständig die
-Mechanik verbessert.","Dieser mechanische Koloss
+69,"Rufe die Magitek-Kampfmaschine vom Typ „Roter Baron“ herbei, die eigens für Nero tol Scaeva entwickelt und gebaut worden ist.","Die Magitek-Kampfmaschine vom Typ „Roter Baron“ wurde speziell für Nero tol Scaeva, Tribunus der XIV. Legion des Garleischen Kaiserreichs, gebaut. Als versierter Maschinist hat Nero persönlich an der Optimierung des Erdseim-Antriebs mitgewirkt und im laufenden Betrieb ständig die Mechanik verbessert.","Dieser mechanische Koloss
 ist ein Wunderwerk der Technik!
 <Emphasis>Cid</Emphasis>"
-70,"Rufe einen Wyvern herbei, der dir treu ergeben ist und mit dir zusammen Monster jagen möchte.","Vor vielen Jahren schloss dieser Wyvern einen Pakt mit einem Ritter und diente ihm als treues Reittier bei der Jagd auf Monster. Der Ritter ist lange verstorben, doch der Wyvern hält seinen Schwur und widersteht dem Ruf seiner Artgenossen,
-im Drachenkrieg gegen
-Ishgard zu kämpfen.","Trau keinem Wyvern!
+70,"Rufe einen Wyvern herbei, der dir treu ergeben ist und mit dir zusammen Monster jagen möchte.","Vor vielen Jahren schloss dieser Wyvern einen Pakt mit einem Ritter und diente ihm als treues Reittier bei der Jagd auf Monster. Der Ritter ist lange verstorben, doch der Wyvern hält seinen Schwur und widersteht dem Ruf seiner Artgenossen, im Drachenkrieg gegen Ishgard zu kämpfen.","Trau keinem Wyvern!
 <Emphasis>Saintrelmaux</Emphasis>"
-71,"Rufe die SKD-Fenrir herbei, ein zweirädriges Kampfgefährt, das wirkt, als stamme es aus einer weit entfernten Welt.","Der Name dieses gepanzerten Kampfgefährts kommt nicht von ungefähr. Schon im unteren Drehzahlbereich faucht der Motor wie ein waschechter Drache. Die Abkürzung SKD steht übrigens für „Strife Kurierdienst“.","Unglück ist keine Ausrede
+71,"Rufe die SKD-Fenrir herbei, ein zweirädriges Kampfgefährt, das wirkt, als stamme es aus einer weit entfernten Welt.","Der Name dieses gepanzerten Kampfgefährts kommt nicht von ungefähr. Schon im unteren Drehzahl-
+bereich faucht der Motor wie ein waschechter Drache. Die Abkürzung SKD steht übrigens für „Strife Kurierdienst“.","Unglück ist keine Ausrede
 für eine verpasste Lieferung!
 <Emphasis>Hildeyard</Emphasis>"
 72,"Rufe einen Kongamato herbei, der von einem Vath-Krämer großgezogen wurde. Ein Muschelpuster ist aus Sicherheitsgründen nicht montiert.","Kongamato-Weibchen legen ihre Eier an Flusssäumen ab, und die geschlüpften Larven verbringen ihren ersten Lebensabschnitt überwiegend im Wasser. Erst mit einsetzender Geschlechtsreife öffnen sie ihre Flügel und erheben sich in die Lüfte.","Du willst den Kongamato besteigen?
@@ -209,7 +187,8 @@ bedeutet nicht, dass er dich nicht mag.
 74,"Rufe einen legendären Bennu herbei.","Dieser Vogel trank vom Äther, der dem unsterblichen Phönix entstieg, als er während der sechsten Katastrophe über Carteneau gesichtet wurde. Von vielen wird er als heilig verehrt, und sein Name bedeutet „glänzendes Flügelwesen in blendendem Glanz“.","Ich wurde zur Verkörperung des Phönix,
 des uralten Symbols der Auferstehung.
 <Emphasis>Louisoix Leveilleur</Emphasis>"
-75,"Rufe den Weißlanner herbei. Er steht unter dem Schutz von Bismarck selbst und herrscht über die Lüfte.","Dieser Vogel steht unter Bismarcks persönlichem Schutz und ist in wirbelnde Wolken gehüllt. Mutige Krieger der Vanu Vanu, die auf eine Audienz beim Herrscher der Wolken hoffen, sitzen auf sie auf und lassen sich einem ungewissen Schicksal entgegentragen.","In der Legende ist Bismarck also ein guter Gott,
+75,"Rufe den Weißlanner herbei. Er steht unter dem Schutz von Bismarck selbst und herrscht über die Lüfte.","Dieser Vogel steht unter Bismarcks persönlichem Schutz und ist in wirbelnde Wolken gehüllt. Mutige Krieger der Vanu Vanu, die auf eine Audienz beim Herrscher der Wolken hoffen, sitzen auf sie auf und lassen sich einem ungewissen Schicksal entgegen-
+tragen.","In der Legende ist Bismarck also ein guter Gott,
 der das Wolkenmeer frei von Krieg und Streit
 geschaffen hat?
 <Emphasis>Alphinaud</Emphasis>"
@@ -234,12 +213,10 @@ der Liiiebe!
 82,"Rufe einen Original-Chocomoppel herbei. Nur echt mit 52 Zähnen.","Der Original-Chocomoppel stellt in Sachen Gefräßigkeit sogar noch seinen Namensvetter in den Schatten. Sein weißes Federkleid gibt ihn als Chocobo der ersten Stunde zu erkennen, doch trägt es häufig Spuren der letzten Mahlzeiten.","Wie?! Das ist nicht das Original? Aber er
 sieht absolut identisch aus.
 <Emphasis>Severian</Emphasis>"
-83,"Rufe Astrope herbei, einen seltenen Pegasus, der so groß und stark ist, dass zwei Personen auf ihm reiten können.","Astrope ist ein altehrwürdiger und besonders großer Pegasus, auf dem bequem zwei Reiter Platz finden. Lass dich von seiner Anmut nicht täuschen! Er ist ein gefährliches Wildtier, dem man sich nicht leichtfertig näher sollte. Man sagt, nur wer ein reines Herz hat, dem öffnet Astrope das
-seine.","Papa, ich will auch so einen Pegasus
+83,"Rufe Astrope herbei, einen seltenen Pegasus, der so groß und stark ist, dass zwei Personen auf ihm reiten können.","Astrope ist ein altehrwürdiger und besonders großer Pegasus, auf dem bequem zwei Reiter Platz finden. Lass dich von seiner Anmut nicht täuschen! Er ist ein gefährliches Wildtier, dem man sich nicht leichtfertig näher sollte. Man sagt, nur wer ein reines Herz hat, dem öffnet Astrope das seine.","Papa, ich will auch so einen Pegasus
 für mich und meine Freundin!
 <Emphasis>Mädchen aus Ishgard</Emphasis>"
-84,"Rufe einen Moppel-Mogry herbei, der so kupomäßig groß ist, dass sogar zwei Personen auf ihm reiten können. In der Luft hält sich der dicke Mops nur mithilfe von Magie.","Der Moppel-Mogry hat sich immer fleißig den Bauch vollgeschlagen, sodass er groß und stark geworden ist, und sehr, sehr dick! Erstaunlich, dass er überhaupt noch fliegen kann, geschweige denn mit zwei Reitern auf seinem Rücken. Da muss Magie
-im Spiel sein!","Wenn du groß und stark werden willst,
+84,"Rufe einen Moppel-Mogry herbei, der so kupomäßig groß ist, dass sogar zwei Personen auf ihm reiten können. In der Luft hält sich der dicke Mops nur mithilfe von Magie.","Der Moppel-Mogry hat sich immer fleißig den Bauch vollgeschlagen, sodass er groß und stark geworden ist, und sehr, sehr dick! Erstaunlich, dass er überhaupt noch fliegen kann, geschweige denn mit zwei Reitern auf seinem Rücken. Da muss Magie im Spiel sein!","Wenn du groß und stark werden willst,
 musst du gaaanz viele Kupo-Nüsse essen, kupo!
 <Emphasis>Mogek Schlaubommel</Emphasis>"
 85,"","",""
@@ -249,12 +226,10 @@ musst du gaaanz viele Kupo-Nüsse essen, kupo!
 <Emphasis>Ixal-Häuptling</Emphasis>"
 88,"","",""
 89,"","",""
-90,"Rufe einen Düsterlanner herbei, ein riesiger Falke, der Nidhoggs dunkle Magie in sich aufgenommen hat. Lass dich auf seinen düsteren Schwingen durch die Luft tragen.","Der Düsterlanner ist von Nidhoggs dunkler Magie verdorben, die ihm gewaltige Macht verleiht. Seine imposante Gestalt kann aus der Ferne leicht mit einem Hohen Drachen verwechselt werden. Manch einer hat schon panisch die Flucht ergriffen, weil er glaubte, Nidhogg persönlich
-zu sehen.","Flieht, ihr Narren!
+90,"Rufe einen Düsterlanner herbei, ein riesiger Falke, der Nidhoggs dunkle Magie in sich aufgenommen hat. Lass dich auf seinen düsteren Schwingen durch die Luft tragen.","Der Düsterlanner ist von Nidhoggs dunkler Magie verdorben, die ihm gewaltige Macht verleiht. Seine imposante Gestalt kann aus der Ferne leicht mit einem Hohen Drachen verwechselt werden. Manch einer hat schon panisch die Flucht ergriffen, weil er glaubte, Nidhogg persönlich zu sehen.","Flieht, ihr Narren!
 Der schwarze Drache kommt über uns!
 <Emphasis>Ängstlicher Bauer</Emphasis>"
-91,"Rufe ein aerodynamisches System herbei, eine technische Errungenschaft der Allager, die sich gut als Fortbewegungsmittel eignet.","Im östlichen Tiefland von Coerthas wurde eine Maschine ausgegraben, die von den alten Allagern zu Verteidigungszwecken erbaut wurde. Ihre Waffen- systeme sind defekt, aber sie eignet sich noch als Fortbewegungsmittel. Dass sie beharrlich nach einer Inspektion verlangt, damit
-lässt sich leben.","Inspektion fällig.
+91,"Rufe ein aerodynamisches System herbei, eine technische Errungenschaft der Allager, die sich gut als Fortbewegungsmittel eignet.","Im östlichen Tiefland von Coerthas wurde eine Maschine ausgegraben, die von den alten Allagern zu Verteidigungszwecken erbaut wurde. Ihre Waffen- systeme sind defekt, aber sie eignet sich noch als Fortbewegungsmittel. Dass sie beharrlich nach einer Inspektion verlangt, damit lässt sich leben.","Inspektion fällig.
 Umgehend Servicetechniker kontaktieren!
 <Emphasis>Aerodynamisches System</Emphasis>"
 92,"Rufe einen geflügelten Steinkopf herbei. Sitzkissen muss separat erworben werden.","E-Una-Kotor schlug dieses geflügelte Monstrum aus Mauersteinen, die aus dem Palast der Toten geborgen wurden, um ein besseres Verständnis für die Wächtergolems von Amdapor zu gewinnen. Nach wessen Antlitz er den Kopf schuf, ist ein unaussprechliches Geheimnis.","Kopf hoch, Leute! Ist doch halb so wild.
@@ -280,18 +255,14 @@ Bis die Bären kamen.
 <Emphasis>Wedge</Emphasis>"
 102,"Rufe Raigo herbei, ein magisches Pferd, das nur die stärksten Helden, die zahllose Schlachten geschlagen haben, auf seinen Rücken lässt.","Raigo ist noch größer und wilder als seine ohnehin schon beeindruckenden Artverwandten Goten und Ginga. Er lässt niemanden auf sich reiten, der kein Blut an seinen Händen hat und somit unwürdig ist.","Sei wie das Pferd, frei von Zweifel und Hintergedanken!
 <Emphasis>Schwarzer Pferdeleutnant</Emphasis>"
-103,"Rufe die Magitek-Kampfmaschine vom Typ „Roter Baron“ herbei, die eigens für Nero tol Scaeva entwickelt und gebaut worden ist.","Die Magitek-Kampfmaschine vom Typ „Roter Baron“ wurde speziell für Nero tol Scaeva, Tribunus der XIV. Legion des Garleischen Kaiserreichs, gebaut. Als versierter Maschinist hat Nero persönlich an der Optimierung des Erdseim-Antriebs mitgewirkt und im laufenden Betrieb ständig die
-Mechanik verbessert.","Dieser mechanische Koloss
+103,"Rufe die Magitek-Kampfmaschine vom Typ „Roter Baron“ herbei, die eigens für Nero tol Scaeva entwickelt und gebaut worden ist.","Die Magitek-Kampfmaschine vom Typ „Roter Baron“ wurde speziell für Nero tol Scaeva, Tribunus der XIV. Legion des Garleischen Kaiserreichs, gebaut. Als versierter Maschinist hat Nero persönlich an der Optimierung des Erdseim-Antriebs mitgewirkt und im laufenden Betrieb ständig die Mechanik verbessert.","Dieser mechanische Koloss
 ist ein Wunderwerk der Technik!
 <Emphasis>Cid</Emphasis>"
 104,"Rufe einen Dämonen-Lanner herbei. Er steht unter dem Schutz des grimmigen Gottes und ist der Vorbote vollstreckter Gerechtigkeit.","Diese Vögel stehen unter Zurvans Schutz. Uralten Legenden vom südlichen Kontinent Meracydia zufolge, schickt der grimmige Gott sie seinen Feinden als Vorboten des nahenden Urteils, das er selbst wenig später vollstreckt.","Ich ertrage den durchdringenden Blick dieses höllischen Vogels nicht länger!
 <Emphasis>Ängstlicher Abenteurer</Emphasis>"
-105,"Rufe einen Feuervogel herbei. Das legendäre Fabelwesen lässt sich mit einer Pfeife aus dem Fernen Osten herbeirufen.","Die Legenden aus dem Fernen Osten besagen, dass die Lebenskraft in diesem Fabelwesen heiß wie Feuer brennt, und dass er im Tode von seinen eigenen Flammen verzehrt wird, worauf er aus der eigenen Asche wieder neu ersteht. Es heißt, er erkenne nur einen wahren Helden als
-seinen Herrn an.","Von solch einem Vogel habe ich immer geträumt.
+105,"Rufe einen Feuervogel herbei. Das legendäre Fabelwesen lässt sich mit einer Pfeife aus dem Fernen Osten herbeirufen.","Die Legenden aus dem Fernen Osten besagen, dass die Lebenskraft in diesem Fabelwesen heiß wie Feuer brennt, und dass er im Tode von seinen eigenen Flammen verzehrt wird, worauf er aus der eigenen Asche wieder neu ersteht. Es heißt, er erkenne nur einen wahren Helden als seinen Herrn an.","Von solch einem Vogel habe ich immer geträumt.
 <Emphasis>Grimold</Emphasis>"
-106,"Rufe ein Wundereisystem herbei. Ein komisches Wunderei, das fliegen kann.","Ein Nachbau des Wundereies, das Jihli Aliapoh im Traum erschien. Nonotta hat es geschaffen, um die Wundereiersuche zu einem erfolgreichen Abschluss zu führen. Es handelt sich wohl um ein umgebautes Relikt einer von der Sankt
-Coinach-Stiftung ent-
-deckten, uralten Kultur.","Warum bloß schlürfen die Qiqirn so gerne Eier?
+106,"Rufe ein Wundereisystem herbei. Ein komisches Wunderei, das fliegen kann.","Ein Nachbau des Wundereies, das Jihli Aliapoh im Traum erschien. Nonotta hat es geschaffen, um die Wundereiersuche zu einem erfolgreichen Abschluss zu führen. Es handelt sich wohl um ein umgebautes Relikt einer von der Sankt Coinach-Stiftung entdeckten, uralten Kultur.","Warum bloß schlürfen die Qiqirn so gerne Eier?
 <Emphasis>Ba Go</Emphasis>"
 107,"","",""
 108,"Rufe einen Höllenhund-Einzelgänger herbei. Dieses grausame Monster stammt aus dem Nichts. Es meidet Kontakt zu anderen seiner Art.","Dieses Wesen hat es geschafft, auf sich allein gestellt im Nichts zu überleben, ohne sich den Gefahren zu beugen, die wir als Nichts<SoftHyphen/>gesand<SoftHyphen/>te fürchten. Es akzeptiert nur jene auf seinem Rücken, die sich in unzähligen Schlachten bewiesen haben.","Auf eigene Faust handeln ist viel zu gefährlich.
@@ -299,20 +270,15 @@ Ich verbiete dir hiermit, alleine zu helfen, kupo!
 <Emphasis>Mogloo</Emphasis>"
 109,"Rufe ein Höllenhund-Alphatier herbei. Dieses grausame Monster stammt aus dem Nichts. Es führt ein Rudel anderer Höllenhunde an.","Dieses Wesen strahlt eine Aura des Schreckens aus, die es ihm ermöglicht, selbst im Nichts anderen seinen Willen aufzuzwingen. Es akzeptiert nur jene auf seinem Rücken, bei denen es eine Mordlust spürt, die seiner eigenen ebenbürtig ist.","Hunderttausend heulende Höllenhunde!
 <Emphasis>Rostnsthal</Emphasis>"
-110,"Rufe einen Exegeten-Thron herbei. Ob dich das zum Herrscher der Exegeten macht?","Angeblich soll dieser Stuhl Louisoix Leveilleur gehört haben, aber ehemalige Bewohner von Sharlayan haben bezeugt, dass es sich um ein verzaubertes Möbelstück aus der Großen Gubal-Bibliothek handelt,
-um leichter an die Bücher in den
-hohen Regalen
-zu gelangen.","Da, bitte, nimm doch Platz!
+110,"Rufe einen Exegeten-Thron herbei. Ob dich das zum Herrscher der Exegeten macht?","Angeblich soll dieser Stuhl Louisoix Leveilleur gehört haben, aber ehemalige Bewohner von Sharlayan haben bezeugt, dass es sich um ein verzaubertes Möbelstück aus der Großen Gubal-Bibliothek handelt, um leichter an die Bücher in den hohen Regalen zu gelangen.","Da, bitte, nimm doch Platz!
 <Emphasis> Baderon</Emphasis>"
 111,"Rufe Syldra herbei. Sie würde dich jederzeit wieder retten.","Längst vergessene Legenden berichten von einem Seedrachen, der mit einer Piratin befreundet war und ihr Schiff über die Meere zog. Dieser Begleiter hat nicht die gleiche Kraft, aber was nicht ist, kann ja noch werden.","Ich sagte, lasst mich los! Syldra!!!
 <Emphasis>Faris</Emphasis>"
-112,"Rufe den <Emphasis>Falken</Emphasis> herbei, das (inoffiziell) schnellste einsitzige Luftschiff von ganz Eorzea.","Wedge von den Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ken begann die Konstruktion am <Emphasis>Falken</Emphasis> als Hobbyprojekt. Nachdem er sämtliche Ge<SoftHyphen/>schwindig<SoftHyphen/>keitsrekorde brach, kam es bei dem Versuch, die maximale Flughöhe auszuloten, zu einem tragischen Unfall. Seitdem lässt der Konstrukteur etwas mehr
-Bescheidenheit walten.","Ich hab's dir doch gesagt. Es ist das schnellste Luftschiff der Welt.
+112,"Rufe den <Emphasis>Falken</Emphasis> herbei, das (inoffiziell) schnellste einsitzige Luftschiff von ganz Eorzea.","Wedge von den Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ken begann die Konstruktion am <Emphasis>Falken</Emphasis> als Hobbyprojekt. Nachdem er sämtliche Ge<SoftHyphen/>schwindig<SoftHyphen/>keitsrekorde brach, kam es bei dem Versuch, die maximale Flughöhe auszuloten, zu einem tragischen Unfall. Seitdem lässt der Konstrukteur etwas mehr Bescheidenheit walten.","Ich hab's dir doch gesagt. Es ist das schnellste Luftschiff der Welt.
 <Emphasis>Setzer Gabbiani</Emphasis>"
-113,"Rufe einen Feenhund-Einzelgänger herbei. Dieses grausame Monster stammt aus dem Nichts. Es meidet Kontakt zu anderen seiner Art.","Dieses Wesen stammt aus dem Nichts und sein silbern glänzendes Fell ist oft mit dem Blut seiner Opfer besudelt, was ihm ein wahrhaft gespenstisches Aussehen verleiht. Es durchstreift die Welt wie ein einsamer Wolf und duldet nur jene auf seinem Rücken, die eine flammende
-Kampfeslust versprühen.","Graouuuh!"
-114,"Rufe ein Feenhund-Alphatier herbei. Dieses grausame Monster stammt aus dem Nichts. Es führt ein Rudel anderer Feenhunde an.","Dieses Wesen stammt aus dem Nichts und fällt durch die dunklen Schattierungen auf seinem silbern glänzenden Fell auf, die es wahrhaft unheilvoll wirken lassen. Dieses Exemplar hat sich lange als Anführer eines Rudels durchgebissen und lässt nur kampferprobte Recken auf
-seinen Rücken.","Grrr ... Grrr ..."
+113,"Rufe einen Feenhund-Einzelgänger herbei. Dieses grausame Monster stammt aus dem Nichts. Es meidet Kontakt zu anderen seiner Art.","Dieses Wesen stammt aus dem Nichts und sein silbern glänzendes Fell ist oft mit dem Blut seiner Opfer besudelt, was ihm ein wahrhaft gespenstisches Aussehen verleiht. Es durchstreift die Welt wie ein einsamer Wolf und duldet nur jene auf seinem Rücken, die eine flammende Kampfeslust versprühen.","Graouuuh!"
+114,"Rufe ein Feenhund-Alphatier herbei. Dieses grausame Monster stammt aus dem Nichts. Es führt ein Rudel anderer Feenhunde an.","Dieses Wesen stammt aus dem Nichts und fällt durch die dunklen Schattierungen auf seinem silbern glänzenden Fell auf, die es wahrhaft unheilvoll wirken lassen. Dieses Exemplar hat sich lange als Anführer eines Rudels durchgebissen und lässt nur kampf-
+erprobte Recken auf seinen Rücken.","Grrr ... Grrr ..."
 115,"Rufe deinen gepflegten Kamuy herbei. Der gesegnete Wolf setzt sich mühelos über die Gesetze der Schwerkraft hinweg.","Der einst gewöhnliche Wolf, den die Ananta ihrem Primae Lakshmi opfern wollten, wurde von der Gottheit mit besonderen Kräften ausgestattet.","Du bist schon ganz begeistert, dem Rudel
 zu zeigen, wer hier das Alphatier ist?
 <Emphasis>Berkoeya</Emphasis>"
@@ -323,37 +289,28 @@ zu zeigen, wer hier das Alphatier ist?
 118,"","",""
 119,"","",""
 120,"","",""
-121,"Rufe deinen Magitek-Prädator herbei und stampf drauf los.","Die Prädator-Kampf<SoftHyphen/>maschinen sind eine Fortentwicklung der Schlitzer-Serie. Die verbesserte Feuerkraft hat einen Verlust an Beweglichkeit zum Preis. Dieses Modell hat keine Waffen, dafür einen
-experimentellen Antrieb
-mit hohem Verpuffungs-
-durchlauf.","Knatter, knatter, knatter ..."
+121,"Rufe deinen Magitek-Prädator herbei und stampf drauf los.","Die Prädator-Kampf<SoftHyphen/>maschinen sind eine Fortentwicklung der Schlitzer-Serie. Die verbesserte Feuerkraft hat einen Verlust an Beweglichkeit zum Preis. Dieses Modell hat keine Waffen, dafür einen experimentellen Antrieb mit hohem Verpuffungsdurchlauf.","Knatter, knatter, knatter ..."
 122,"Rufe deinen vollgepanzerten Kampflöwen herbei, der dich mit kraftvollem Brüllen in den Kampf trägt!","Kampflöwen waren die bevorzugten Reittiere der uld'hischen Palastwache und ihre die Wüstensonne gleißend hell reflektierende Rüstung ihr gefürchtetes Markenzeichen. Heute werden Tierführer aus Thavnair angeworben, um die Tradition wiederzubeleben.","Polieren! Poliert die Rüstung, bis sie
 hell wie die Sonne strahlt!
 <Emphasis>Palastwachen-Gardist Aubelet</Emphasis>"
 123,"Rufe deinen vollgepanzerten Kampfbären herbei, der dich mit donnernden Schritten in den Kampf trägt!","Die Bären in Abalathias Rückgrat sind nicht für ihre Neigung bekannt, als Reittiere zu dienen. Das dieses Exemplar sich dennoch dazu überreden ließ, muss an deinem unwiderstehlichen Charme liegen.","Bauch von Muna Vanu-ooh wird vor Vorfreude
 knurren wie Bär in Höhle.
 <Emphasis>Luna Vanu</Emphasis>"
-124,"Rufe deinen vollgepanzerten Kampfpanther herbei, der dich mit wehenden Maulbarteln in den Kampf trägt!","Nichts schmückt einen Helden der Dunkelheit mehr als ein Panther an seiner Seite. Der unzähmbare Überlebensinstinkt, die blutdürstige Kehle, das lichtschluckende Fell - dieses Tier ist eine
-pechschwarze Killermaschine.","Miau, miau ♪
+124,"Rufe deinen vollgepanzerten Kampfpanther herbei, der dich mit wehenden Maulbarteln in den Kampf trägt!","Nichts schmückt einen Helden der Dunkelheit mehr als ein Panther an seiner Seite. Der unzähmbare Überlebensinstinkt, die blutdürstige Kehle, das lichtschluckende Fell<Indent/>- dieses Tier ist eine pechschwarze Killermaschine.","Miau, miau ♪
 <Emphasis>Schwarze Katze</Emphasis>"
-125,"Rufe deinen Yol herbei. Die Raubvögel gestatten nur echten Kriegern der Xaela, auf ihnen zu reiten.","Wie Blitze stürzen die Yol auf die Krieger herab, die sich einreden, keine Angst vor den Raubvögeln zu haben. Wer Bardams Probe bestanden hat, den tragen die Yol auf ihrem Rücken empor - die anderen in ihren messerscharfen Krallen.","I-Ich habe keine Angst. Von einem Yol
+125,"Rufe deinen Yol herbei. Die Raubvögel gestatten nur echten Kriegern der Xaela, auf ihnen zu reiten.","Wie Blitze stürzen die Yol auf die Krieger herab, die sich einreden, keine Angst vor den Raubvögeln zu haben. Wer Bardams Probe bestanden hat, den tragen die Yol auf ihrem Rücken empor<Indent/>- die anderen in ihren messerscharfen Krallen.","I-Ich habe keine Angst. Von einem Yol
 bin ich noch nie heruntergeflogen!
 <Emphasis>Heißblütiger Mol-Krieger</Emphasis>"
 126,"Rufe Alte Roite, den legendären Drachen, herbei!","Eine von Omega erschaffene, künstliche Lebensform. Die Herkunft des Namens ist nicht eindeutig geklärt, doch in uralten Heldenerzählungen finden sich Hinweise auf einen alten Magier, der sich in einen Drachen verwandeln konnte und Omega als Inspiration gedient haben könnte.","Dass alte Leute immer so
 peinlich sein müssen<Indent/>...
 <Emphasis>Oboro</Emphasis>"
-127,"Rufe deinen Centurio-Tiger herbei und gehe für den Clan auf Jagd!","In einem seltenen Anflug von Mitleid brachte ein Jäger des Clans Centurio den Welpen eines Rang S-Ziels mit von der Hochwildjagd. Für seine milde Tat wurde er aus dem Clan ausgeschlossen, doch
-auch die anderen Mitglieder brachten
-es nicht über das Herz,
-das Tigerjunge zu töten.","Ob ich 'ne frohe Magd kenne ...?
+127,"Rufe deinen Centurio-Tiger herbei und gehe für den Clan auf Jagd!","In einem seltenen Anflug von Mitleid brachte ein Jäger des Clans Centurio den Welpen eines Rang S-Ziels mit von der Hochwildjagd. Für seine milde Tat wurde er aus dem Clan ausgeschlossen, doch auch die anderen Mitglieder brachten es nicht über das Herz, das Tigerjunge zu töten.","Ob ich 'ne frohe Magd kenne ...?
 Na klar, aber die werd ich dir nicht ...
 Ach, Hohe Jagd!
 <Emphasis>Ardolain</Emphasis>"
 128,"","",""
 129,"","",""
-130,"Rufe Ixion herbei, Rhalgrs mächtiges Streitross!","Schneller als Blitz und Donner prescht Ixion über das Hochland von Gyr Abania. Altertümliche Texte aus Mhach legen nahe, dass das Tier mechanisch verstärkt wurde - was die aus seinen Augen schießenden
-Lichtstrahlen erklären
-könnte.","Jetzt hakt's aber! Chocobos sind viel hübscher als Pferde!
+130,"Rufe Ixion herbei, Rhalgrs mächtiges Streitross!","Schneller als Blitz und Donner prescht Ixion über das Hochland von Gyr Abania. Altertümliche Texte aus Mhach legen nahe, dass das Tier mechanisch verstärkt wurde<Indent/>- was die aus seinen Augen schießenden Lichtstrahlen erklären könnte.","Jetzt hakt's aber! Chocobos sind viel hübscher als Pferde!
 <Emphasis>Chefin der Chocobo-Transportgewerkschaft</Emphasis>"
 131,"","",""
 132,"","",""
@@ -367,9 +324,11 @@ Feuer speienden, Knaben verschlingenden Drachen.
 136,"Rufe deinen Streifenrochen herbei. Er stammt aus der Rubinsee und wurde vom Rochenflüsterer der Kojin persönlich abgerichtet.","Dieser Streifenrochen wurde vom Rochenflüsterer der Kojin höchstselbst abgerichtet und ist die Gelassenheit in Person. Sein flacher Körper übernimmt eine ähnliche Funktion wie die Äthertragflächen von Luftschiffen, wodurch er schwerelos gleiten kann.","Die jungen Rochen sind noch etwas schüchtern. Wir sollten ihnen ein bisschen Mut<Indent/>...... machen.
 <Emphasis>Zukin</Emphasis>"
 137,"","",""
-138,"Rufe dein Aquamarin-Karfunkel herbei, geboren aus einem Äthergramm erfüllt von der Kraft eines Aquamarins.","Ein magisches Reittier, das von dem selbst<SoftHyphen/>er<SoftHyphen/>nann<SoftHyphen/>ten Hermetikergenie Ulan auf Grundlage ihres bei der Züchtung des Riesenkarfunkels Diama gewonnenen Wissens geschaffen wurde. Dank des mit Aquamarinkörnern gefüllten Kerns kann es auch von Nicht-Hermetikern beschworen werden.","Fiep, fiep!
+138,"Rufe dein Aquamarin-Karfunkel herbei, geboren aus einem Äthergramm erfüllt von der Kraft eines Aquamarins.","Ein magisches Reittier, das von dem selbst<SoftHyphen/>er<SoftHyphen/>nann<SoftHyphen/>ten Hermetikergenie Ulan auf Grundlage ihres bei der Züchtung des Riesenkarfunkels Diama gewonnenen Wissens geschaffen wurde. Dank des mit Aquamarin-
+körnern gefüllten Kerns kann es auch von Nicht-Hermetikern beschworen werden.","Fiep, fiep!
 <Emphasis>Karfunkel</Emphasis>"
-139,"Rufe dein Citrin-Karfunkel herbei, geboren aus einem Äthergramm erfüllt von der Kraft eines Citrins.","Ein magisches Reittier, das von dem selbst<SoftHyphen/>er<SoftHyphen/>nann<SoftHyphen/>ten Hermetikergenie Ulan auf Grundlage ihres bei der Züchtung des Riesenkarfunkels Diama gewonnenen Wissens geschaffen wurde. Dank des mit Citrinkörnern gefüllten Kerns kann es auch von Nicht-Hermetikern beschworen werden.","Fiep, fiep!
+139,"Rufe dein Citrin-Karfunkel herbei, geboren aus einem Äthergramm erfüllt von der Kraft eines Citrins.","Ein magisches Reittier, das von dem selbst<SoftHyphen/>er<SoftHyphen/>nann<SoftHyphen/>ten Hermetikergenie Ulan auf Grundlage ihres bei der Züchtung des Riesenkarfunkels Diama gewonnenen Wissens geschaffen wurde. Dank des mit Citrin-
+körnern gefüllten Kerns kann es auch von Nicht-Hermetikern beschworen werden.","Fiep, fiep!
 <Emphasis>Karfunkel</Emphasis>"
 140,"Rufe deinen fliegenden Sessel herbei, ein magisch behandeltes Möbelstück. Damit kommst du höher hinaus - wenn er nicht aus dem Leim geht.","Ein Sessel, der dank magischem Lack fliegen kann. Fliegst du schon oder sitzt du noch? Im schlichten zeitlosen Design, kostensparend zum selber Zusammenbauen. Inbusschlüssel und Nervenzusammenbrüche inklusive!","Wenn er rausbekommt, dass ich mir seinen lederbezogenen Bürosessel geliehen habe, bin ich geliefert!
 <Emphasis>Cyr</Emphasis>"
@@ -377,19 +336,17 @@ Feuer speienden, Knaben verschlingenden Drachen.
 <Emphasis>Cid Garlond</Emphasis>"
 142,"Rufe deinen Koloss-Korpokkur herbei, der dank seiner Größe auch Roegadyn mit Leichtigkeit transportiert.","Ein riesiger Korpokkur. Die Hoffnung auf das große Geld brachte ihn zum Gold Saucer. Unterwegs trocknete er in der Sagolii-Wüste fast vollständig aus, trank sich danach aber zu seinen heutigen Dimensionen dick.","Damals ist Aura-Forschengruppe zu Thaliak kommen und hat Koloss in Fluss durchsuchen mit Schnüffelnase.
 <Emphasis>Rückblix</Emphasis>"
-143,"Rufe dein Feuerross herbei und wandle in den Hufstapfen des großen Geomanten und Kriegers Ganen.","Das Feuerross verdankt seinen Namen seiner feuerroten Mähne. In ganz Yanxia ist es als das treue Kriegsross des großen Ganen bekannt, der ihm mit einem geomantischen Trick das Fliegen beibrachte. Ob dieses Pferd wirklich einmal
-Ganen gehörte oder
-nicht, ist ungeklärt.","Alte Ver<SoftHyphen/>zweif<SoftHyphen/>lung reitet auf neuem Ross.
+143,"Rufe dein Feuerross herbei und wandle in den Hufstapfen des großen Geomanten und Kriegers Ganen.","Das Feuerross verdankt seinen Namen seiner feuerroten Mähne. In ganz Yanxia ist es als das treue Kriegsross des großen Ganen bekannt, der ihm mit einem geomantischen Trick das Fliegen beibrachte. Ob dieses Pferd wirklich einmal Ganen gehörte oder nicht, ist ungeklärt.","Alte Ver<SoftHyphen/>zweif<SoftHyphen/>lung reitet auf neuem Ross.
 <Emphasis>Fahrender Sänger</Emphasis>"
-144,"Rufe deinen glücklichen Kamuy herbei. Der von Byakko gesegnete Wolf setzt sich mühelos über die Gesetze der Schwerkraft hinweg.","Einst eine blutrünstige Bestie, die von dem Tierheiligen Byakko besänftigt und gesegnet wurde. Seither gebietet er über die Himmelswinde.","Wenn er dich anheult, gefriert das Blut in deinen Adern!
+144,"Rufe deinen glücklichen Kamuy herbei. Der von Byakko gesegnete Wolf setzt sich mühelos über die Gesetze der Schwerkraft hinweg.","Einst eine blutrünstige Bestie, die von dem Tier-
+heiligen Byakko besänftigt und gesegnet wurde. Seither gebietet er über die Himmelswinde.","Wenn er dich anheult, gefriert das Blut in deinen Adern!
 <Emphasis>X'rhun Tia</Emphasis>"
 145,"Rufe deine Magitek-Todesklaue herbei. Aus dem Griff dieser unbemannten Kriegsmaschine gibt es kein Entkommen.","Diese Weiterentwicklung der antiken allagischen Magitek-Waffe „Eisenklaue“ wird von Spezialeinheiten der Garlear genutzt, um gesuchte Verbrecher oder Feinde lebend gefangen zu nehmen.","Ergreift sie!
 <Emphasis>Garleischer Offizier</Emphasis>"
 146,"Rufe deinen Mariden herbei, ausgebildet von den Ananta und mit einem magischen Teppich zum Fliegen ausgestattet.","Wer früher vorgab, einen fliegenden Mariden am Himmel gesehen zu haben, galt als verrückt, doch dann kamen die Ananta auf die Idee, magische Teppiche auf die Rücken ihrer Reittiere zu binden, mit denen sie fliegen können. Nun werden erst recht viele Leute für verrückt erklärt.","Flieg, Maride, flieg!
 <Emphasis>Dakshina</Emphasis>"
 147,"","",""
-148,"Rufe deinen Urgreifen herbei, ein imposantes, geflügeltes Tier, das in Abalathias Rückgrat heimisch ist.","Niemand kennt sich besser mit den stolzen Greifen aus Abalathias Rückgrat aus als der Greifenführer Giff. Unter seiner einfühlsamen Anleitung entwickeln sie sich zu treuen Reitieren, die mit ihren kräftigen Flügeln Windstöße erzeugen können. Die Urgreife erkennt man an ihrem
-strahlend weißen Fell.","Greifenfleisch soll ziemlich lecker schmecken, aber sag das lieber nicht laut, wenn einer in der Nähe steht.
+148,"Rufe deinen Urgreifen herbei, ein imposantes, geflügeltes Tier, das in Abalathias Rückgrat heimisch ist.","Niemand kennt sich besser mit den stolzen Greifen aus Abalathias Rückgrat aus als der Greifenführer Giff. Unter seiner einfühlsamen Anleitung entwickeln sie sich zu treuen Reitieren, die mit ihren kräftigen Flügeln Windstöße erzeugen können. Die Urgreife erkennt man an ihrem strahlend weißen Fell.","Greifenfleisch soll ziemlich lecker schmecken, aber sag das lieber nicht laut, wenn einer in der Nähe steht.
 <Emphasis>Papin</Emphasis>"
 149,"","",""
 150,"Rufe einen Tyrannosaurus herbei. Der furcht<SoftHyphen/>ein<SoftHyphen/>flößende Fleischfresser ist ein Relikt aus einer längst vergangenen Zeit.","Hochkonzentrierter Wind-Äther auf der Insel Val hat anscheinend dazu geführt, dass diese riesige Echse durch die Luft schweben kann. Sie folgt ihren räuberischen Instinkten. Nur ein willensstarker Reiter vermag es, den Tyrannen zu bändigen.","Mit Tyrannosauriern ist nicht zu spaßen!
@@ -406,20 +363,19 @@ strahlend weißen Fell.","Greifenfleisch soll ziemlich lecker schmecken, aber sa
 156,"Rufe deine Luftwaffe herbei. Das tödliche Fluggerät wurde irgendwie aus Omegas Sigmametrie herausgeschmuggelt.","Diese seltsam geformte Kampfmaschine stammt aus Omegas Sigmametrie und wurde vermutlich von einer fremden Macht entwickelt, deren Ursprung ein Rätsel bleibt. Das vorne aufgemalte Haimaul deutet auf eine maritime Zivilisation hin.","Luftfahrttechnik als Waffe zu missbrauchen ist Häresie!
 <Emphasis>Tataramu</Emphasis>"
 157,"","",""
-158,"Rufe deinen lunarischen Kamuy herbei. Der von Tsukuyomi gesegnete Wolf setzt sich mühelos über die Gesetze der Schwerkraft hinweg.","Dieser Wolf streifte durch die Ruinen eines verlassenen garleischen Stützpunktes, bis er mit dem Äther der Herrscherin der Nacht und des Mondes in Berührung kam.","Haben die denn keine Brillenputztücher aus Schneewolfmähne?
+158,"Rufe deinen lunarischen Kamuy herbei. Der von Tsukuyomi gesegnete Wolf setzt sich mühelos über die Gesetze der Schwerkraft hinweg.","Dieser Wolf streifte durch die Ruinen eines ver-
+lassenen garleischen Stützpunktes, bis er mit dem Äther der Herrscherin der Nacht und des Mondes in Berührung kam.","Haben die denn keine Brillenputztücher aus Schneewolfmähne?
 <Emphasis>Nashu</Emphasis>"
-159,"Rufe deinen Dodo herbei. Hoffentlich nicht der Letzte seiner Art!","Jahrhunderte hielt man den Dodo im Fernen Osten für ausgestorben. Ausgerottet von Jägern, die es auf seine glänzenden Federn und schmackhafte Riesenomelettes abgesehen hatten. Seit der Entdeckung eines Nestes, hoch oben in der Himmelssäule, schöpfen alle
-Naturfreunde Hoffnung.","Da brat mir doch einer 'nen Dodo!
+159,"Rufe deinen Dodo herbei. Hoffentlich nicht der Letzte seiner Art!","Jahrhunderte hielt man den Dodo im Fernen Osten für ausgestorben. Ausgerottet von Jägern, die es auf seine glänzenden Federn und schmackhafte Riesen-
+omelettes abgesehen hatten. Seit der Entdeckung eines Nestes, hoch oben in der Himmelssäule, schöpfen alle Naturfreunde Hoffnung.","Da brat mir doch einer 'nen Dodo!
 <Emphasis>Weites Tal</Emphasis>"
 160,"Rufe einen riesigen Wal aus indigoblauen Tiefen herbei, auf dem auch noch eine zweite Person Platz findet. Wenn das doch bloß auch mit Fischen klappen würde!","Herden dieses riesigen Säugers durchstreifen die Tiefen der Rubinsee tausende Malme weit auf der Suche nach Futter. Warum sie sich auf die See beschränken, obwohl sie ätherunterstützt fliegen können, ist ein Rätsel, das die Gelehrten bis heute beschäftigt.","Ich schätze, es steht nicht zur Debatte,
 den inselfressenden Wal einfach Wal sein zu lassen?
 <Emphasis>Cid</Emphasis>"
-161,"Rufe deinen Rathalos, einen mächtigen Wyvern, aus seinem fernen Heimatland herbei. Wegen seiner urplötzlichen Luftattacken nennt man ihn auch den „König der Lüfte“.","Schon viele mutige Jäger haben sich dem feuerspeienden Wyvern entgegengestellt, nur um in ein qualmendes Aschehäufchen verwandelt zu werden.","Das ist das Gebrüll des Rathalos! Deckung!!!
+161,"Rufe deinen Rathalos, einen mächtigen Wyvern, aus seinem fernen Heimatland herbei. Wegen seiner urplötzlichen Luftattacken nennt man ihn auch den „König der Lüfte“.","Schon viele mutige Jäger haben sich dem feuer-
+speienden Wyvern entgegengestellt, nur um in ein qualmendes Aschehäufchen verwandelt zu werden.","Das ist das Gebrüll des Rathalos! Deckung!!!
 <Emphasis>Felyne</Emphasis>"
-162,"Rufe deinen Magitek-Transporter herbei, eine Weiterentwicklung allagischer Beförderungstechnologie.","Es liegt nicht in der garleischen Natur, Gutes bei Gutem zu belassen. Und so haben imperiale Magitek-Ingenieure die letzten zwanzig Sommer damit verbracht, die Kunst des Lufttransports zu perfektio-
-nieren. Erstaunlicherweise fehlt dem
-Magitek-Transporter eine Waffe.
-Aber sicher nicht mehr lange ...","Ein Magitek-Kessel zum Wasserkochen, was?
+162,"Rufe deinen Magitek-Transporter herbei, eine Weiterentwicklung allagischer Beförderungstechnologie.","Es liegt nicht in der garleischen Natur, Gutes bei Gutem zu belassen. Und so haben imperiale Magitek-Ingenieure die letzten zwanzig Sommer damit verbracht, die Kunst des Lufttransports zu per<SoftHyphen/>fek<SoftHyphen/>tio<SoftHyphen/>nie<SoftHyphen/>ren. Erstaunlicherweise fehlt dem Magitek-Transporter eine Waffe. Aber sicher nicht mehr lange ...","Ein Magitek-Kessel zum Wasserkochen, was?
 Jetzt wundert mich gar nichts mehr.
 <Emphasis>Nero</Emphasis>"
 163,"Rufe deinen Proto-Transporter herbei, eine Weiterentwicklung allagischer Beförderungstechnologie.","Es liegt nicht in der garleischen Natur, Gutes bei Gutem zu belassen. Und so bauten die imperialen Magitek-Ingenieure schon bald einen neuen Magitek-Transporter - wobei sie konventionelle Exopanzerplatten durch <Emphasis>hochwertige</Emphasis> Exopanzerplatten ersetzten.","Brauche ich Vergleichsobjekt aus federloser Hand,
@@ -431,7 +387,8 @@ um zu verbessern Metallteile.
 166,"Rufe Juedi herbei und galoppiere mit wahnsinniger Ge<SoftHyphen/>schwindig<SoftHyphen/>keit davon.","Juedi ist ein legendäres Ross, das mit der Magie der Geomanten gesegnet wurde. Der Name bedeutet so viel wie „wahnsinnig schnelles Pferd, das im Galopp abhebt“.","Halt dich gut fest, Soldat.
 Gleich hebst du ab!
 <Emphasis>Domanischer Offizier</Emphasis>"
-167,"","",""
+167,"Aktiviere ein allagisches Logistikmodul, si<SoftHyphen/>cher<SoftHyphen/>heits<SoftHyphen/>hal<SoftHyphen/>ber mit deaktiviertem Waffensystem.","Eine der automatisierten Drohnen, die die Allager zur Überwachung der Logistik in ihren Anlagen einsetzten. Die Forscher der Sankt Coinach-Stiftung fanden die Drohne und übergaben sie der  Eorzäischen Allianz, die sie zu einem persönlichen Transportmittel umbaute.","Allagische Technologie also?
+<Emphasis>Fyrgeiss</Emphasis>"
 168,"Aktiviere ein allagisches Sicherheitssystem, si<SoftHyphen/>cher<SoftHyphen/>heits<SoftHyphen/>hal<SoftHyphen/>ber mit deaktiviertem Waffensystem.","Eine der automatisierten Drohnen, die die Allager zum Schutz ihrer Anlagen einsetzten. Die Forscher der Sankt Coinach-Stiftung fanden die Drohne, übergaben sie den Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ken, deren Techniker sie wieder einsatzbereit machten.","Das System ist unsicher ...
 <Emphasis>Ardashir</Emphasis>"
 169,"","",""
@@ -443,8 +400,7 @@ Gleich hebst du ab!
 <Emphasis>Großmutter</Emphasis>"
 173,"Rufe ein Modell O herbei. Dabei handelt es sich um ein flugfähiges Ebenbild von Omega.","Diese vollautomatische Maschine wurde vermutlich von Omega im Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss als Fluggerät für die sterblichen Testsubjekte entwickelt, um ihre Gewohnheiten besser analysieren zu können.","Eine Kopie, die Omega von sich selbst angefertigt hat.
 <Emphasis>Midgardsormr</Emphasis>"
-174,"Rufe einen Magitek-Himmelspanzer herbei, die modernste fliegende Kampfmaschine der garleischen Armee.","Dieser einsitzige Himmelspanzer der garleischen Streitkräfte ist wegen seiner Wendigkeit gefürchtet. Bisherige fliegende Magitek-Kampf<SoftHyphen/>maschinen wie der Schlachtkreuzer waren sehr groß, doch mit der Schnitter-Technologie gelang den Garlearn die Herstellung dieses kompakten
-Modells.","Da haben die garleischen Ingenieure keine schlechte Arbeit abgeliefert.
+174,"Rufe einen Magitek-Himmelspanzer herbei, die modernste fliegende Kampfmaschine der garleischen Armee.","Dieser einsitzige Himmelspanzer der garleischen Streitkräfte ist wegen seiner Wendigkeit gefürchtet. Bisherige fliegende Magitek-Kampf<SoftHyphen/>maschinen wie der Schlachtkreuzer waren sehr groß, doch mit der Schnitter-Technologie gelang den Garlearn die Herstellung dieses kompakten Modells.","Da haben die garleischen Ingenieure keine schlechte Arbeit abgeliefert.
 <Emphasis>Cid</Emphasis>"
 175,"Rufe einen fliegenden Teppich herbei und lass dich von ihm bequem durch die Luft tragen.","Einer Legende nach brachte einst der König von Corvos einen Geist dazu, ihm einen Teppich zu verzaubern, sodass er darauf fliegen konnte. Mit modernsten Verzauberungen ist es nun gelungen, dieses Wunder nachzuahmen.","Der macht sich bestimmt auch gut vor dem Kamin.
 <Emphasis>Beeindruckte Hofdame</Emphasis>"
@@ -455,8 +411,7 @@ alle Sache wieder funktionierenklopfen. Wunderwerkzeug für Allezweck!
 <Emphasis>Arnoulain</Emphasis>"
 178,"Ruf deinen Eldthurs herbei, benannt nach einem Riesen, der einst zusammen mit seinen Artgenossen eine Welt voller Feuer beherrschte.","Trotz ihres außer<SoftHyphen/>ge<SoftHyphen/>wöhn<SoftHyphen/>lichen Namens halten Naturkundler die Eldthurs für gewöhnliche Yetis, die zu den Magmaseen in Pyros zogen, um dort ihre Jungen großzuziehen. Dieses Exemplar wurde zumindest so weit abgerichtet, dass es keine Reiterwaden mehr anknabbert.","Großegroße Riesendank!
 <Emphasis>Rundblox</Emphasis>"
-179,"Rufe Magna Rotula X herbei, das absolute Meisterwerk goblinoider Ingenieurskunst.","Es ist kaum zu glauben, aber die Goblins haben Magna Rotula noch weiter verbessert. Für diese Spezialversion wurde die gesamte Konstruktion verstärkt und die Außenhülle mit Panzerplatten aus gehärtetem Cermet verkleidet. Das höhere Gewicht wurde durch den stärkeren Antrieb
-mehr als ausgeglichen.","Pshhh! Hazzu gesehen? Ass in Ärmel! Superass!
+179,"Rufe Magna Rotula X herbei, das absolute Meisterwerk goblinoider Ingenieurskunst.","Es ist kaum zu glauben, aber die Goblins haben Magna Rotula noch weiter verbessert. Für diese Spezialversion wurde die gesamte Konstruktion verstärkt und die Außenhülle mit Panzerplatten aus gehärtetem Cermet verkleidet. Das höhere Gewicht wurde durch den stärkeren Antrieb mehr als ausgeglichen.","Pshhh! Hazzu gesehen? Ass in Ärmel! Superass!
 <Emphasis>Brüllvolx</Emphasis>"
 180,"Rufe deinen Imperator Kaktor herbei. Dabei handelt es sich um eine Kaktor-Statue, die wie das Gebäude des Gold Saucers aussieht.","Diese Nachbildung des berühmt-berüchtigten Gold Saucers schwebt majestätisch wie ein Imperator durch die Lüfte. Das Geheimnis, warum der Gold Saucer in einem Kaktor-Gebäude untergebracht ist, behält jedoch auch diese Statue für sich.","Wird der Kaktor über uns herrschen?!
 <Emphasis>Besorgter Abenteurer</Emphasis>"
@@ -466,12 +421,13 @@ mehr als ausgeglichen.","Pshhh! Hazzu gesehen? Ass in Ärmel! Superass!
 182,"Rufe deinen blauen Kamuy herbei. Der von Seiryu gesegnete Wolf setzt sich mühelos über die Gesetze der Schwerkraft hinweg.","Dieses Wolfswesen wurde gefürchtet, gejagt und erschlagen, doch von Seiryu wiederbelebt.","Ist der nicht gefährlich?!
 <Emphasis>Katzenliebhaber</Emphasis>"
 183,"Rufe deinen Säbelzahntiger herbei. Dieser Tiger wurde zum Kämpfen trainiert und hat Reißzähne, die so lang sind wie Säbel.","Woher der Name dieses Tigers stammt, ist auf den ersten Blick erkennbar. Das Abrichten dieser Rasse zu Reittieren gelingt nur, wenn man direkt nach ihrer Geburt damit beginnt, sie zu trainieren.","Grrrrrr<Indent/>... <schnurr>"
-184,"Rufe deine Eureka-Schwalbe herbei. Geboren im Meer, bestimmt für die Lüfte.","Eureka-Schwalben, auch „blaue Engel“ genannt, sind elementare Hybride. Sie werden im Meer geboren, doch erheben sich alsbald wie Schwalben in die Lüfte. Ihre Anmut sollte jedoch nicht darüber hinwegtäuschen, dass sie  auch geschickte Jäger sind, die mit ihrem potenten Gift ihre
-Beute schnell ausschalten.","Was ist das für ein wundervolles blaues Leuchten am Himmel?
+184,"Rufe deine Eureka-Schwalbe herbei. Geboren im Meer, bestimmt für die Lüfte.","Eureka-Schwalben, auch „blaue Engel“ genannt, sind elementare Hybride. Sie werden im Meer geboren, doch erheben sich alsbald wie Schwalben in die Lüfte. Ihre Anmut sollte jedoch nicht darüber hinwegtäu-
+schen, dass sie auch geschickte Jäger sind, die mit ihrem potenten Gift ihre Beute schnell ausschalten.","Was ist das für ein wundervolles blaues Leuchten am Himmel?
 <Emphasis>Aus der Sammlung „Berühmte letzte Worte“</Emphasis>"
 185,"Rufe deinen kälteresistenten Magitek-Rächer herbei, eine von den Goblins zu einem Reitgefährt umgebaute imperiale Kampfmaschine, die in dieser Ausführung besonders für den Einsatz in kalten Gebieten geeignet ist.","Eine ursprünglich führerlose Kampfmaschine der Garlear, die von den Goblins zu einem Reitgefährt umgebaut und nun noch zusätzlich gegen Kälte isoliert wurde.","Willzu auf Arm nehmen?!
 <Emphasis>Trockdox</Emphasis>"
-186,"Rufe deinen Demi-Yadis herbei. Die Replikation eines Proto-Yadis, erschaffen von den Forschern von Baldesions Gelehrten.","Forscher von den Gelehrten erschufen den Demi-Yadis, um mögliche Schwachstellen des  Proto-Yadis zu ergründen. Sie vermuteten, dass die Schwarzmagier von Mhach mit der Erschaffung der Yadis das Aufrufen des Proto-Yadis erprobten.","... ... ..."
+186,"Rufe deinen Demi-Yadis herbei. Die Replikation eines Proto-Yadis, erschaffen von den Forschern von Baldesions Gelehrten.","Forscher von den Gelehrten erschufen den Demi-Yadis, um mögliche Schwachstellen des Proto-Yadis zu ergründen. Sie vermuteten, dass die Schwarz-
+magier von Mhach mit der Erschaffung der Yadis das Aufrufen des Proto-Yadis erprobten.","... ... ..."
 187,"Rufe deinen Amaro herbei. Diese flugfähigen Reittiere sind in ganz Norvrandt beliebt.","Vor langer Zeit schufen die Magier des Ronka-Kaiserreichs diese Nutztiere durch gezielte Auslesezüchtung aus dem Cama, der damals zu den intelligenteren wilden Bestien zählte. Bei den Flügeln wurde beim Züchten wohl magisch nachgeholfen.","Der Amaro spürt instinktiv das Gemüt seines Reiters.
 Manche gehen sogar so weit zu behaupten, Amaros könnten <Emphasis>Gedanken</Emphasis> lesen!
 <Emphasis>Bethric</Emphasis>"
@@ -479,7 +435,8 @@ Manche gehen sogar so weit zu behaupten, Amaros könnten <Emphasis>Gedanken</Emp
 189,"Rufe deinen Pixie-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife rufen, die von der Magie des Feenkönigs Titania erfüllt ist.","Die Pfeife, mit der dieses Wesen gerufen werden kann, wurde vor langer Zeit von fähigen Magiern erschaffen. Das Wesen soll einen legendären Drachen darstellen.","H-Heiliger Bommel! Ein ... Drache?!
 <Emphasis>Mogzin</Emphasis>"
 190,"Rufe deinen Triceratops herbei, eine uralte Bestie mit drei charakteristischen Hörnern. Er ist bereits mit einem magischen Sattel ausgerüstet.","Auf dem Rücken dieser uralten Bestie ist ein Sattel befestigt, der unter Anwendung magischer Verfahren der Ronka-Zeit angefertigt wurde. Nuts, der Gründer vom Clan Kupo, entdeckte ihn während der Erforschung antiker Ruinen.","Grrroooaaarrr!!!"
-191,"Rufe deinen Eisenfrosch herbei. Diese mittelgroße Marionette wurde von Zwergenhandwerkern angefertigt.","Die Zwergenhandwerker haben für den alltäglichen Gebrauch nicht nur das Fahrgestell verstärkt, sondern auch ausfahrbare Triebwerke eingebaut, die den Eisenfrosch fliegen lassen. Deren Herstellungsmethode würde aber kein Zwerg jemals verraten.","Holladriooooh!!"
+191,"Rufe deinen Eisenfrosch herbei. Diese mittelgroße Marionette wurde von Zwergenhandwerkern angefertigt.","Die Zwergenhandwerker haben für den alltäglichen Gebrauch nicht nur das Fahrgestell verstärkt, sondern auch ausfahrbare Triebwerke eingebaut, die den Eisenfrosch fliegen lassen. Deren Herstellungs-
+methode würde aber kein Zwerg jemals verraten.","Holladriooooh!!"
 192,"Rufe deinen Innozenz-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife beschwören, die von Innozenz' Magie erfüllt ist.","Das Licht, welches dieses Wesen umgibt, erinnert an den allmächtigen Innozenz. Natürlich handelt es sich hierbei nicht um einen Sünden<SoftHyphen/>ver<SoftHyphen/>tilger.","Ich bin ohne Schuld, frei von jedem Makel! Ich bin Innozenz!
 <Emphasis>Vauthry</Emphasis>"
 193,"Rufe dein Zauberbett herbei. Dieses fliegende Bett erleichtert den morgendlichen Weg zum Bäcker erheblich.","Zu der Zeit, als das Königreich Voeburt noch existierte, wurde dieses Bett für einen unglaublich faulen Königssohn angefertigt. Da es ihm zu anstrengend war, sich die Steuerung erklären zu lassen, stieg er schlafend in die Wolken auf und wart nie wieder gesehen.","Ich hätte nichts gegen eine heiße Tasse Tee und ein anständiges Bett einzuwenden.
@@ -515,73 +472,68 @@ Manche gehen sogar so weit zu behaupten, Amaros könnten <Emphasis>Gedanken</Emp
 210,"","",""
 211,"Rufe Ufiti herbei, eins der letzten überlebenden Affenwesen, die früher zahlreich auf dem Diadem lebten.","Nachdem blutrünstige Abenteurer seine Artgenossen massakriert hatten, meisterte er die Kunst des Fliegens, um sich auf die Suche nach einem würdigen Anführer zu machen.","Starke werden von Stärke angezogen.
 <Emphasis>Ywain</Emphasis>"
-212,"Ruf deinen Deinonychus herbei. Er ist sehr viel klüger, als er aussieht.","Eine riesige fleischfressende Echse, die im Süden von Ilsabard beheimatet ist und mit dem Raptor aus dem Finsterwald artverwandt ist. Aufgrund seiner Intelligenz, die sich auch im Jagdverhalten äußert (Deinonychus jagen stets zu zweit), wurde er seit alters als Kampftier in Kriegen
-eingesetzt.","Wer einen Deinonychus jagt, wird schnell zum Gejagten.
+212,"Ruf deinen Deinonychus herbei. Er ist sehr viel klüger, als er aussieht.","Eine riesige fleischfressende Echse, die im Süden von Ilsabard beheimatet ist und mit dem Raptor aus dem Finsterwald artverwandt ist. Aufgrund seiner Intelligenz, die sich auch im Jagdverhalten äußert (Deinonychus jagen stets zu zweit), wurde er seit alters als Kampftier in Kriegen eingesetzt.","Wer einen Deinonychus jagt, wird schnell zum Gejagten.
 <Emphasis>Anonymer Jäger</Emphasis>"
-213,"Du rufst Automat Nr. 14 als Begleiter herbei. Dieses kampferprobte Konstrukt wurde von der IV. Legion erbeutet.","Die IV. Legion der garleischen Armee ließ in der Uhrwerksstadt Gog eine Kampfmaschine entwickeln, die den Transport von Soldaten und Material erleichtern sollte. Der Automat Nr.14 ist eine kampfkraftgesteigerte Weiterentwicklung des ursprünglichen
-Eisenkonstrukt-Modells.","Be-schleu-nige auf Hyper-ge-schwindig-keit. Biep.
+213,"Du rufst Automat Nr. 14 als Begleiter herbei. Dieses kampferprobte Konstrukt wurde von der IV. Legion erbeutet.","Die IV. Legion der garleischen Armee ließ in der Uhrwerksstadt Gog eine Kampfmaschine entwickeln, die den Transport von Soldaten und Material erleichtern sollte. Der Automat Nr.14 ist eine kampfkraftgesteigerte Weiterentwicklung des ursprünglichen Eisenkonstrukt-Modells.","Be-schleu-nige auf Hyper-ge-schwindig-keit. Biep.
 <Emphasis>Semi-autonomer Automat Nr. 14</Emphasis>"
-214,"Rufe deinen Königspfau herbei, eine Riesenpfauenart, die auf dem Kontinent Othard beheimatet ist. Schlägt er ein Rad, verschlägt es einem die Sprache, so schön ist er.","Dieses Prachtexemplar von einem Pfau ist nicht nur schön, sondern auch äußerst nützlich, da er Ungeziefer in großen Mengen vertilgt. Er soll aus einer auf Othard heimischen Art hervorgegangen sein, deren Eigenschaften durch Geomantie verbessert wurde. Im Nahen wie im Fernen Osten gilt er als der „König der Vögel“.","Die Geomantie besitzt viele Anwendungsfelder, eines davon ist die Artenzüchtung.
+214,"Rufe deinen Königspfau herbei, eine Riesenpfauenart, die auf dem Kontinent Othard beheimatet ist. Schlägt er ein Rad, verschlägt es einem die Sprache, so schön ist er.","Dieses Prachtexemplar von einem Pfau ist nicht nur schön, sondern auch äußerst nützlich, da er Unge-
+ziefer in großen Mengen vertilgt. Er soll aus einer auf Othard heimischen Art hervorgegangen sein, deren Eigenschaften durch Geomantie verbessert wurde. Im Nahen wie im Fernen Osten gilt er als der „König der Vögel“.","Die Geomantie besitzt viele Anwendungsfelder, eines davon ist die Artenzüchtung.
 <Emphasis>Professor der angewandten Geomantie</Emphasis>"
 215,"Rufe die Urne der Wasserschlange herbei. Sie fühlt sich schwer an, obwohl du schwören könntest, dass sie bis gerade eben noch ziemlich leer war.","Eine kleine Ronka-Flöte befand sich in dieser Urne, die sich wie von Zauberhand füllte, wenn man auf der Flöte spielte. Warum? Das weiß niemand, denn die Wege der Wasserschlange sind unergründlich.","Urne ist gleichzeitig leer und voll wie Herz von Wasserschlange.
 <Emphasis>Quinfort</Emphasis>"
-216,"Rufe dein Pteranodon herbei, ein fliegendes Schuppentier, an dem die Evolution spurlos vorbeigegangen zu sein scheint.","Dieses Schuppentier, das auf dem Diadem beheimatet ist, schloss Freund<SoftHyphen/>schaft mit dem Piloten der <Emphasis>Bounty</Emphasis>, der ihm ab und an Essensreste hinwarf. Mittlerweile ist es so zahm, dass es geübte Flugtierreiter wie dich auf seinem Rücken duldet.","Freund<SoftHyphen/>schaft geht durch den Magen.
+216,"Rufe dein Pteranodon herbei, ein fliegendes Schuppentier, an dem die Evolution spurlos vorbeigegangen zu sein scheint.","Dieses Schuppentier, das auf dem Diadem behei-
+matet ist, schloss Freund<SoftHyphen/>schaft mit dem Piloten der <Emphasis>Bounty</Emphasis>, der ihm ab und an Essensreste hinwarf. Mittlerweile ist es so zahm, dass es geübte Flug-
+tierreiter wie dich auf seinem Rücken duldet.","Freund<SoftHyphen/>schaft geht durch den Magen.
 <Emphasis>Pilot der Bounty</Emphasis>"
 217,"Rufe deinen Rubin-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife rufen, die von der Magie eines unbekannten Primae erfüllt ist.","Die Pfeife, mit der dieses rötlich schimmernde Schuppentier herbeigerufen werden kann, soll von der Magie jenes Primae erfüllt sein, den die Rubin-Waffe absorbiert haben soll. Wie der Beschwörer in den Besitz der Pfeife kam und wie er Kenntnis über ihre magischen Kräfte erlangte, bleibt ein Rätsel.","Ich frage mich, ob ein ausgestopfter Rubin-Gwiber immer noch rötlich schimmert.
 <Emphasis>Enion</Emphasis>"
-218,"Rufe deinen Hybodus herbei. Der nahe Verwandte des Tornadohais kann dank eines hohen Anteils an Luft-Äther fliegen.","Der Hybodus ist ein Verwandter des Tornadohais. Er verfügt jedoch über ein magiesensitives Organ, mit dem er Luftäther beeinflussen und dadurch fliegen kann. Er ernährt sich hauptsächlich von Wolkenmeerfischen und Vögeln.","Das glaube ich erst, wenn Haie fliegen können!
+218,"Rufe deinen Hybodus herbei. Der nahe Verwandte des Tornadohais kann dank eines hohen Anteils an Luft-Äther fliegen.","Der Hybodus ist ein Verwandter des Tornadohais. Er verfügt jedoch über ein magiesensitives Organ, mit dem er Luftäther beeinflussen und dadurch fliegen kann. Er ernährt sich hauptsächlich von Wolken-
+meerfischen und Vögeln.","Das glaube ich erst, wenn Haie fliegen können!
 <Emphasis>Meister Oboro</Emphasis>"
-219,"Rufe deinen Ramuh herbei, ein magisches Wesen, das aus einem kleinen Kristall im Herzen von Eden schlüpfte, nachdem er mit magischer Energie übergossen wurde. ","Der Kristall, aus dem dieses Wesen schlüpfte, entstand als Nebenprodukt einer Primae-Beschwörung. Als Shiva beschworen wurde, wurde Blitz-Äther, der bei der Ramuh-Beschwörung angefallen war und noch in der Luft waberte, blitzartig abgestoßen und
-kristallisiert. ","Die Meinige findet den flitzenden Blitzenden einfach fabelhaft!
+219,"Rufe deinen Ramuh herbei, ein magisches Wesen, das aus einem kleinen Kristall im Herzen von Eden schlüpfte, nachdem er mit magischer Energie übergossen wurde. ","Der Kristall, aus dem dieses Wesen schlüpfte, entstand als Nebenprodukt einer Primae-Beschwörung. Als Shiva beschworen wurde, wurde Blitz-Äther, der bei der Ramuh-Beschwörung angefallen war und noch in der Luft waberte, blitzartig abgestoßen und kristallisiert. ","Die Meinige findet den flitzenden Blitzenden einfach fabelhaft!
 <Emphasis>Sylphe</Emphasis>"
-220,"Rufe dein Rubellit-Karfunkel herbei, geboren aus einem Äthergramm erfüllt von der Kraft eines Rubellits.","Ein magisches Reittier, das von dem selbst<SoftHyphen/>er<SoftHyphen/>nann<SoftHyphen/>ten Hermetikergenie Ulan auf Grundlage ihres bei der Züchtung des Riesenkarfunkels Diama gewonnenen Wissens geschaffen wurde. Dank des mit Rubellit-Körnern gefüllten Kerns kann es auch von Nicht-Hermetikern beschworen werden.","Die Erforschung von Karfunkeln ist ein wahrhaft schillerndes Feld!
+220,"Rufe dein Rubellit-Karfunkel herbei, geboren aus einem Äthergramm erfüllt von der Kraft eines Rubellits.","Ein magisches Reittier, das von dem selbst<SoftHyphen/>er<SoftHyphen/>nann<SoftHyphen/>ten Hermetikergenie Ulan auf Grundlage ihres bei der Züchtung des Riesenkarfunkels Diama gewonnenen Wissens geschaffen wurde. Dank des mit Rubellit-
+körnern gefüllten Kerns kann es auch von Nicht-Hermetikern beschworen werden.","Die Erforschung von Karfunkeln ist ein wahrhaft schillerndes Feld!
 <Emphasis>Ulan</Emphasis>"
 221,"","",""
-222,"Rufe deine Chocobo-Kutsche herbei und nimm die Zügel endlich selbst in die Hand.","Der erste Prototyp der heute so bekannten Chocobo-Kutsche wurde vor rund einhundert Jahren gebaut. Die Technologie für die schwebenden, mit Erdseim-Gas gefüllten Ballons stammt erstaunlicherweise von den Ixal, die im Finsterwald
-bruchgelandet sind.","Kweeeh!"
-223,"Rufe deinen Zwergenpanzer herbei, der ganze Stolz der Zwerge der Watts-Werkstatt für Hammerprojekte.","Dieses Gefährt basiert auf einem Entwurf des legendären Schmieds Watts und ist mit einem neunzylindrigen Zwergenspritsternmotor, Eisenarmen und einem rotierbaren Dämonengeschütz ausgestattet.","Dank des Zwergenpanzers ist die Welt ein kleines Stück sicherer geworden.
+222,"Rufe deine Chocobo-Kutsche herbei und nimm die Zügel endlich selbst in die Hand.","Der erste Prototyp der heute so bekannten Chocobo-Kutsche wurde vor rund einhundert Jahren gebaut. Die Technologie für die schwebenden, mit Erdseim-Gas gefüllten Ballons stammt erstaunlicherweise von den Ixal, die im Finsterwald bruchgelandet sind.","Kweeeh!"
+223,"Rufe deinen Zwergenpanzer herbei, der ganze Stolz der Zwerge der Watts-Werkstatt für Hammerprojekte.","Dieses Gefährt basiert auf einem Entwurf des legendären Schmieds Watts und ist mit einem neunzylindrigen Zwergenspritsternmotor, Eisenarmen und einem rotierbaren Dämonen-
+geschütz ausgestattet.","Dank des Zwergenpanzers ist die Welt ein kleines Stück sicherer geworden.
 <Emphasis>Lorathia</Emphasis>"
 224,"Rufe deinen Gabriel α. Etwas klein, aber dafür umso schneller. Gut festhalten!","Ein experimenteller Prototyp der späteren Magitek-Flugrüstung Gabriel. Die kleinere Form diente wohl zur Optimierung der Aerodynamik.","Bieeeeeep."
-225,"Rufe deinen Megalotragus herbei. Gib Acht, dass du dich beim Reiten nicht an seinen riesigen Hörnern stößt.","Mit Hörnern wie Krummschwerter stammt der Megalotragus aus den Bergen von Abalathias Rückgrat. Erst nach der Katastrophe fanden sie im erkalteten Coerthas eine neue Heimat. Eine derart alte Spezies ist außerdem
-selbst<SoftHyphen/>verständ<SoftHyphen/>lich von
-magischem Naturell.","Brrrrh<Indent/>..."
+225,"Rufe deinen Megalotragus herbei. Gib Acht, dass du dich beim Reiten nicht an seinen riesigen Hörnern stößt.","Mit Hörnern wie Krummschwerter stammt der Megalotragus aus den Bergen von Abalathias Rückgrat. Erst nach der Katastrophe fanden sie im erkalteten Coerthas eine neue Heimat. Eine derart alte Spezies ist außerdem selbst<SoftHyphen/>verständ<SoftHyphen/>lich von magischem Naturell.","Brrrrh<Indent/>..."
 226,"Rufe deinen Gwiber des Lichts herbei. Zum Leben erweckt von Heldenäther ist er nun bereit, dich auf seinem Rücken zu tragen.","Heldenäther bringt das Herz dieses mächtigen Gwibers zum Schlagen. Vielleicht gab es einst einen strahlenden Helden, der auf dem Rücken dieser magischen Kreatur ritt, um das Böse zu finden und niederzustrecken<Indent/>...","Grooooh!"
 227,"","",""
 228,"Rufe dein Jibanyan-Sofa herbei. Ein mysteriöses Sofa, welches dem Yo-kai Jibanyan nachempfunden ist.","Dieses Sofa ist dem Yo-kai Jibanyan nachempfunden und kann im Gegensatz zu seiner gestalterischen Vorlage fliegen. Es ist so komfortabel, dass es Helden und Abenteurer jeglicher Art in Sofahelden verwandelt.","So gemütlich, nyan!"
-229,"Rufe deinen Magitek-Transporter NEO herbei, die zweite Generation allagischer Beförderungstechnologie.","Es liegt nicht in der garleischen Natur, Gutes bei Gutem zu belassen. Und so haben Magitek-Ingenieure in Doppelschichten daran gearbeitet, den Magitek-Transporter zu verbessern. Er ist nun 8<Indent/>% leichter und verbraucht 14<Indent/>% weniger Erdseim
-auf 100 Malmen.","Wunderbar, einfach wunderbar!
+229,"Rufe deinen Magitek-Transporter NEO herbei, die zweite Generation allagischer Beförderungstechnologie.","Es liegt nicht in der garleischen Natur, Gutes bei Gutem zu belassen. Und so haben Magitek-Ingenieure in Doppelschichten daran gearbeitet, den Magitek-Transporter zu verbessern. Er ist nun 8<Indent/>% leichter und verbraucht 14<Indent/>% weniger Erdseim auf 100 Malmen.","Wunderbar, einfach wunderbar!
 <Emphasis>Entzückter Ingenieur</Emphasis>"
 230,"Rufe Ehll Tou herbei. Niemand bastelt besser als sie, zisch.","Hilfs<SoftHyphen/>bereit<SoftHyphen/>schaft und Neugier brachte Ehll Tou nach Ishgard. Dort fand sie nicht nur neue Freunde, sondern entdeckte auch ihre einzigartige Gabe des Handwerks. Kein anderer Drache vermag es, Werkzeuge mit derartigem Geschick zu führen.","Die Ode eines neuen Zeitalters!
 <Emphasis>Ehll Tou</Emphasis>"
-231,"Rufe Incitatus herbei. Ein legendäres Reittier, das von Mähne bis Schweif Edelmut ausdrückt.","Incitatus ist die geheime Leidenschaft der Händlerin Rowena, die dieses ungewöhnlich edelmütige Pferd wie eine Kostbarkeit mit Luxus verwöhnt hat. Incitatus gilt als ein äußerst schlauer und treuer Reisebegleiter. ","<schnaub> <wieher> ♪"
-232,"Rufe deinen Schneemann herbei. Er ist mit Immerfrost-Kristallen präpariert und wird gewiss nicht unter dir wegschmelzen.","Ein für das Sternenlichtfest gebauter Schneemann. Der Brauch, Schneemänner zu bauen, wurde aus Gyr Abania übernommen. Dank gridanischer Druidenkunst bleibt er stets frisch und frostig.","Was für ein herzerwärmender Anblick!
+231,"Rufe Incitatus herbei. Ein legendäres Reittier, das von Mähne bis Schweif Edelmut ausdrückt.","Incitatus ist die geheime Leidenschaft der Händlerin Rowena, die dieses ungewöhnlich edelmütige Pferd wie eine Kostbarkeit mit Luxus verwöhnt hat. Incitatus gilt als ein äußerst schlauer und treuer Reisebe-
+gleiter. ","<schnaub> <wieher> ♪"
+232,"Rufe deinen Schneemann herbei. Er ist mit Immerfrost-Kristallen präpariert und wird gewiss nicht unter dir wegschmelzen.","Ein für das Sternenlichtfest gebauter Schneemann. Der Brauch, Schneemänner zu bauen, wurde aus Gyr Abania übernommen. Dank gridanischer Druiden-
+kunst bleibt er stets frisch und frostig.","Was für ein herzerwärmender Anblick!
 <Emphasis>Kleines Helferlein</Emphasis>"
-233,"Rufe deinen Mondwal herbei, ein walförmiges Magitek-Gefährt, das Platz für 8 Personen bietet.","Ein von den Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ken entwickeltes Magitek-Gefährt, das dem legendären Schiff von Mysidia nachgeformt ist und eine hohe Beförderungskapazität besitzt.  ","Einfach genial!
+233,"Rufe deinen Mondwal herbei, ein walförmiges Magitek-Gefährt, das Platz für 8 Personen bietet.","Ein von den Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ken entwickeltes Magitek-Gefährt, das dem legendären Schiff von Mysidia nachgeformt ist und eine hohe Beför-
+derungskapazität besitzt.  ","Einfach genial!
 <Emphasis>Begeisterter Ingenieur</Emphasis>"
 234,"Rufe dein Eden herbei. Auf ihm zu reiten fühlt sich paradiesisch an.","Ein mit Magie gefüllter Kristall, der im Herzen von Eden geborgen wurde. Obwohl er dem Sünden<SoftHyphen/>ver<SoftHyphen/>tilger Eden äußerlich gleicht, geht von ihm keinerlei Gefahr aus.","Eden absorbiert Unmengen an Äther!
 <Emphasis>Ryne</Emphasis>"
-235,"Rufe deinen Cerebus herbei. Doch wundere dich nicht, wenn die Leute etwas gucken.","Neben seiner unfassbaren Stärke und seinen drei gefährlichen Mäulern rühmt sich dieser Nichts<SoftHyphen/>gesand<SoftHyphen/>te eines erstaunlich langen Lebens: Er stammt aus der Dritten Ära des Lichts. Es heißt, die allagischen Halsbänder halten ihn in Schach,
-aber vielleicht ist das auch
-nur ein Trick.","Was für ein niedliches Hündchen!
+235,"Rufe deinen Cerebus herbei. Doch wundere dich nicht, wenn die Leute etwas gucken.","Neben seiner unfassbaren Stärke und seinen drei gefährlichen Mäulern rühmt sich dieser Nichts<SoftHyphen/>gesand<SoftHyphen/>te eines erstaunlich langen Lebens: Er stammt aus der Dritten Ära des Lichts. Es heißt, die allagischen Halsbänder halten ihn in Schach, aber vielleicht ist das auch nur ein Trick.","Was für ein niedliches Hündchen!
 <Emphasis>Nashu Mhakaracca</Emphasis>"
 236,"Rufe deine Riesenkrabbe herbei. Sie ist dankbar, am Leben zu sein, und wird dich nicht zwicken.","Diese riesige Krabbe wurde von einem verfressenen Qiqirn gemästest, der es jedoch am Ende nicht über sein Herz brachte, sie zu schlachten. Aus Dankbarkeit stellt sich die Krabbe seither als Reittier zur Verfügung.","Krabbe ist fett, aber nett. Soll leben!
 <Emphasis>Anonymer Qiqirn</Emphasis>"
 237,"Rufe das legendäre Fabelwesen Areion herbei.","Dieses geflügelte Pferd soll einst einem Helden gehört haben. Es heißt, dass nur wessen Herz so heiß brennt wie die Sonne, auf ihm reiten kann.","Ein fabelhaftes Pferd.
 <Emphasis>Anonymer Pferdezüchter</Emphasis>"
-238,"Rufe deinen Smaragd-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife rufen, die von der Magie eines unbekannten Primae erfüllt ist.","Die Pfeife, mit der dieses grünlich schimmernde Schuppentier herbeigerufen werden kann, soll von der Magie jenes Primae erfüllt sein, den die Smaragd-Waffe absorbiert haben soll. Wie der Beschwörer in den Besitz der Pfeife kam und wie er Kenntnis über ihre magischen Kräfte erlangte,
-bleibt ein Rätsel.","Ich frage mich, ob ein ausgestopfter Smaragd-Gwiber immer noch grünlich schimmert.
+238,"Rufe deinen Smaragd-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife rufen, die von der Magie eines unbekannten Primae erfüllt ist.","Die Pfeife, mit der dieses grünlich schimmernde Schuppentier herbeigerufen werden kann, soll von der Magie jenes Primae erfüllt sein, den die Smaragd-Waffe absorbiert haben soll. Wie der Beschwörer in den Besitz der Pfeife kam und wie er Kenntnis über ihre magischen Kräfte erlangte, bleibt ein Rätsel.","Ich frage mich, ob ein ausgestopfter Smaragd-Gwiber immer noch grünlich schimmert.
 <Emphasis>Enion</Emphasis>"
-239,"Rufe Proto-Magna Rotula herbei, der Prototyp einer mächtigen Kampfmaschine, die von den Goblins umgebaut wurde.","Aus den Trümmern der garleischen Magitek-Kampfmaschine, die in Gyr Abania geborgen werden konnten, fabrizierten die Goblins ein furcht<SoftHyphen/>ein<SoftHyphen/>flößendes Gefährt. Auf Schnelligkeit programmiert, soll es eines Tages Gefallen an der Raserei gefunden haben. Seither ist es nicht mehr
-zu bremsen.","Wizzu eiligmachen, muzzu Proto-Magna Rotula nutzen. Pssssss<Indent/>...
+239,"Rufe Proto-Magna Rotula herbei, der Prototyp einer mächtigen Kampfmaschine, die von den Goblins umgebaut wurde.","Aus den Trümmern der garleischen Magitek-Kampfmaschine, die in Gyr Abania geborgen werden konnten, fabrizierten die Goblins ein furcht<SoftHyphen/>ein<SoftHyphen/>flößendes Gefährt. Auf Schnelligkeit programmiert, soll es eines Tages Gefallen an der Raserei gefunden haben. Seither ist es nicht mehr zu bremsen.","Wizzu eiligmachen, muzzu Proto-Magna Rotula nutzen. Pssssss<Indent/>...
 <Emphasis>Anonymer Goblin</Emphasis>"
 240,"Rufe deinen Chokorpokkur herbei. Er ist mindestens so groß wie ein Chocobo, riecht aber bedeutend besser.","Ein überdimensionaler Korpokkur, der herumhüpft und Schokolade verteilt. Er verströmt einen süßen Schokoladenduft, der ihn bei Groß und Klein beliebt macht.","Wenn nur meine Chocobos so gut riechen würden<Indent/>...
 <Emphasis>Anonymer Chocobo-Züchter</Emphasis>"
 241,"Rufe deinen Gabriel III herbei. Erwarte nicht zu viel von dieser „Kampfmaschine“. Die goldene Farbe reflektiert keine Laserstrahlen.","Jeder erfahrene Abenteurer weiß: Wenn eine besiegte Kreatur in einer anderen Farbe wieder erscheint, ist sie wesentlich stärker. Zum Glück ist dieser Miniaturprototyp auf deiner Seite.","Diese wunderbare goldene Farbe! 
 <Emphasis>Ihase</Emphasis>"
-242,"Rufe deine Antilopenkuh herbei. Ihr weiches Fell schimmert bläulich.","Ein Steppentier, das vor der Siebten Katastrophe auch in Coerthas anzutreffen war. Obwohl für ihr Fleisch und ihre Milch sehr begehrt, scheitern alle Versuche, die Antilopenkuh vollständig zu domestizie-
-ren an ihrem launischen Gemüt. Wer sie bereiten
-möchte, braucht Geduld
-und ein hartes Hinterteil.","Einen ganzen Tag auf der Jagd gewesen und es ist
+242,"Rufe deine Antilopenkuh herbei. Ihr weiches Fell schimmert bläulich.","Ein Steppentier, das vor der Siebten Katastrophe auch in Coerthas anzutreffen war. Obwohl für ihr Fleisch und ihre Milch sehr begehrt, scheitern alle Versuche, die Antilopenkuh vollständig zu domestizieren an ihrem launischen Gemüt. Wer sie bereiten möchte, braucht Geduld und ein hartes Hinterteil.","Einen ganzen Tag auf der Jagd gewesen und es ist
 nichts als Antilopen-Fleisch dabei rumgekommen.
 <Emphasis>Isarmoix</Emphasis>"
 243,"Rufe deinen Antilopenbock herbei. Sein gestreiftes Fell und sein Geweih unterscheiden ihn von der Antilopenkuh.","Wegen seiner Schnelligkeit wird der Antilopenbock von den Bergvölkern von Abalathias Rückgrat als Reittier bevorzugt. Uralte Zauber, die gerade eine Renaissance erleben, ermöglichen außerdem seine Nutzung als Flugtier, vorausgesetzt der Reiter verfügt über genügend Äther. ","Eine Herde junger Antilopenböcke ist aufgeschreckt und hat panisch die Flucht ergriffen.
@@ -589,8 +541,7 @@ nichts als Antilopen-Fleisch dabei rumgekommen.
 244,"","",""
 245,"Rufe Mechamander herbei, den legendären mechanischen Drachen.","Die alten Allager entwickelten dieses Stahlwesen als Waffe gegen die Drachen. Es heißt, dass nur ein wahrer Held auf seinem Rücken geduldet wird.","Hut ab vor der Technik der Allager.
 <Emphasis>Garlear</Emphasis>"
-246,"Rufe Ikril herbei, das richtige Motorrad, um Eindruck zu schinden.","Dieses Flugmotorrad, das neben dem Fahrer Platz für eine weitere Person bietet, war ein Geschenk Frans an die bozianischen Widerstandstruppen. Sein Name bedeutet „Thron“ auf Hoch-Ivalisisch und tatsächlich hat der Beifahrersitz etwas Thronhaftes, was man vom Fahrersitz nicht unbedingt
-behaupten kann.","Ikril ist der König unter den Motorrädern.
+246,"Rufe Ikril herbei, das richtige Motorrad, um Eindruck zu schinden.","Dieses Flugmotorrad, das neben dem Fahrer Platz für eine weitere Person bietet, war ein Geschenk Frans an die bozianischen Widerstandstruppen. Sein Name bedeutet „Thron“ auf Hoch-Ivalisisch und tatsächlich hat der Beifahrersitz etwas Thronhaftes, was man vom Fahrersitz nicht unbedingt behaupten kann.","Ikril ist der König unter den Motorrädern.
 <Emphasis>Motorradliebhaber</Emphasis>"
 247,"Rufe deinen Chaser herbei und jage deine Feinde.","Diese von der Indigo-Hand entwickelte zweibeinige Kriegsmaschine verwandelt sich in ein Luftschiff, sobald sie vom Boden abhebt. Ein gewisser Ingenieur der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke soll bereits ein Modell im kleinen Maßstab in Planung haben.","Los, hinterher!
 <Emphasis>Seserukka</Emphasis>"
@@ -598,7 +549,8 @@ behaupten kann.","Ikril ist der König unter den Motorrädern.
 <Emphasis>Gravur an der Fußsohle des Konstrukts</Emphasis>"
 249,"Rufe deinen Diamant-Gwiber herbei. Dieses Wesen lässt sich mithilfe einer Pfeife rufen, die von der Magie eines unbekannten Primae erfüllt ist.","Die Pfeife, mit der dieses Schuppentier herbeigerufen werden kann, ist von der Magie jenes Primae erfüllt, den die Diamant-Waffe absorbiert haben soll. Wie der Beschwörer in den Besitz der Pfeife kam und wie er Kenntnis über ihre magischen Kräfte erlangte, bleibt ein Rätsel.","Ihr seid doch alle dickköpfig wie ein Rohdiamant!
 <Emphasis>Glagg</Emphasis>"
-250,"Rufe deinen Eisbären herbei. Ein kuscheliger Freund mit einer Schwäche für Süßes.","Auf der Suche nach dem perfekten Eis verschlug es die Eiskonditorin Nekeke zu den Nordmeerinseln, wo sie auf einen Eisbären traf und ihm ein paar Süßigkeiten anbot. Seither frisst er ihr aus der Hand. Seine Bewunderung für dich war jedoch noch stärker als seine Liebe für Süßes, weshalb er sich dich als neuen Meister ausgesucht hat.","Selbst der Stärkste kann einer süßen Versuchung nicht widerstehen.
+250,"Rufe deinen Eisbären herbei. Ein kuscheliger Freund mit einer Schwäche für Süßes.","Auf der Suche nach dem perfekten Eis verschlug es die Eiskonditorin Nekeke zu den Nordmeerinseln, wo sie auf einen Eisbären traf und ihm ein paar Süßig-
+keiten anbot. Seither frisst er ihr aus der Hand. Seine Bewunderung für dich war jedoch noch stärker als seine Liebe für Süßes, weshalb er sich dich als neuen Meister ausgesucht hat.","Selbst der Stärkste kann einer süßen Versuchung nicht widerstehen.
 <Emphasis>Nekeke</Emphasis>"
 251,"","",""
 252,"Rufe dein Gold-Mikoshi herbei, das von acht feucht<SoftHyphen/>fröhlichen Namazuo getragen wird.","Ein vergoldeter Mikoshi zu Ehren der Großen Flosse, dem ehrwürdigen Urahnen der Namazuo. Auf die Idee, mit dem Verkauf teurer Mikoshi das Fest der Großen Flosse zu finanzieren, das ganze sieben Jahre dauert, kamen die Namazuo dank Rowenas Bestseller „Wie man Reichtum anhäuft“.","Wasshoi, Wasshoi, Wasshoi ♪
@@ -606,7 +558,8 @@ Ich weiß zwar nicht, was wir hier machen, aber es macht Spaß!
 <Emphasis>Namazuo-Festbesucher</Emphasis> "
 253,"Rufe deine Urne der goldenen Wasserschlange herbei. Eine ganz gewöhnliche Urne der Wasserschlange, nur dass sie ein mysteriöses goldenes Leuchten von sich gibt.","Diese Urne aus den Ronka-Ruinen gelangte durch Räuber auf den Schwarzmarkt und hat seither mehrmals ihren Besitzer gewechselt. Bläst man in die dazugehörige Pfeife, strahlt sie ein goldenes Leuchten aus, das Segen spenden soll.","Wasserschlange spricht!
 <Emphasis>Chaqurl Qhotl</Emphasis> "
-254,"Rufe deine magische Karte herbei, geschmiedet vom größten Goldschmied unter der güldenen Sonne Thanalans.","Niemand Geringerer als Godbert Manderville schmiedete diese Karte, um sie einem wahren Triple Triad-Freund als Treuegeschenk zukommen zu lassen. Dass die Karte fliegen kann, ist einerseits verwunderlich, andererseits angesichts der Genialität seines Schöpfers auch wieder nicht.","Ein Spielchen gefällig?
+254,"Rufe deine magische Karte herbei, geschmiedet vom größten Goldschmied unter der güldenen Sonne Thanalans.","Niemand Geringerer als Godbert Manderville schmiedete diese Karte, um sie einem wahren Triple Triad-Freund als Treuegeschenk zukommen zu lassen. Dass die Karte fliegen kann, ist einerseits verwun-
+derlich, andererseits angesichts der Genialität seines Schöpfers auch wieder nicht.","Ein Spielchen gefällig?
 <Emphasis>Iola</Emphasis> "
 255,"Rufe deine Paradies-Mandragora herbei. Nur im Inselparadies erreichen Mandragoras derart monströse Ausmaße.","Als Spross des sagen<SoftHyphen/>umwobenen Hauses der Paradies-Mandragoras reifte dieses Exemplar dank bester Wetterbedingungen zu gewaltiger Größe heran. Nun bleibt zu hoffen, dass kein Gemüsehändler das Inselparadies entdeckt und sich einfallen lässt, mit der prächtigen Knolle auf dem Markt ein Vermögen zu verdienen.","〇□◎◎▲！"
 256,"Rufe deinen Prinz Paradieszwiebel herbei. Eine Zwiebel, deren Durchmesser ihrem Titel alle Ehre macht.","Aller höfischen Erziehung zum Trotz, machte er seinen Eltern als rebellisches Junggemüse das Leben schwer. So schickten sie ihn fort aus dem komfortablen Inselparadies und verboten ihm zurückzukehren, bis er jemanden gefunden hat, von dessen Heldentaten er lernt, was es bedeutet, eine Zwiebel von wahrer Größe zu sein.","●×▼……！！"
@@ -653,11 +606,14 @@ Ich weiß zwar nicht, was wir hier machen, aber es macht Spaß!
 282,"","",""
 283,"","",""
 284,"Rufe deinen Pod 602 herbei.
-Der perfekte Abenteuerbegleiter, wenn er denn ordentlich funktionieren würde. ","Diese weiße Maschine wurde aus einer alten Fabrikruine geborgen. Vermutlich diente sie ursprünglich dem Transport von YoRHa. Eine einzelne Person befördert sie daher mit Leichtigkeit. "," Schnappen wir uns einen Pod!
+Der perfekte Abenteuerbegleiter, wenn er denn ordentlich funktionieren würde. ","Diese weiße Maschine wurde aus einer alten Fabrik-
+ruine geborgen. Vermutlich diente sie ursprünglich dem Transport von YoRHa. Eine einzelne Person befördert sie daher mit Leichtigkeit. "," Schnappen wir uns einen Pod!
 <Emphasis>Konogg</Emphasis>"
 285,"","",""
-286,"","",""
-287,"Rufe deinen Hippowagen herbei, ein von jungen Arkasodara erschaffener Rennwagen, der von einem Flusspferd gezogen wird.","Eine Chocobo-Kutsche inspirierte eine Gruppe von jungen Arkasodara zu diesem schnittigen Rennwagen. Das Sonnendach soll aus dem gleichen Stoff sein wie die fliegenden Teppiche aus Corvos, weshalb dieses Vehikel nicht nur über Stock und Stein, sondern auch durch die Wolken rasen kann.","Was einen Hippowagen ausmacht? Tempo, Tempo, Tempo!
+286,"Rufe deinen Insel-Alligator herbei. Wenn er schauläuft, darfst du seinen Rücken zieren.","Niemand weiß woher, aber dieser imposante Alligator tauchte eine Tages auf deinem Inselparadies auf und machte es sich dort gemütlich. Er ist sich offensichtlich seiner Seltenheit auf dem Meer bewusst und stolz darauf. Er trägt gerne einen Reiter auf seinem Rücken, wenn auch nur, um sich vor allen anderen zu zeigen.","Du trägst doch nur deine Eitelkeit zur Schau.
+<Emphasis>Jacke</Emphasis>"
+287,"Rufe deinen Hippowagen herbei, ein von jungen Arkasodara erschaffener Rennwagen, der von einem Flusspferd gezogen wird.","Eine Chocobo-Kutsche inspirierte eine Gruppe von jungen Arkasodara zu diesem schnittigen Renn-
+wagen. Das Sonnendach soll aus dem gleichen Stoff sein wie die fliegenden Teppiche aus Corvos, weshalb dieses Vehikel nicht nur über Stock und Stein, sondern auch durch die Wolken rasen kann.","Was einen Hippowagen ausmacht? Tempo, Tempo, Tempo!
 <Emphasis>Hipporaser</Emphasis>"
 288,"Rufe deinen Troll herbei. Entgegen seines dümmlichen Grinsens ein sehr intelligentes Wesen.","Sharlayanische Forscher sollen einst versucht haben, einigen Trollen die Gebärdensprache beizubringen. Dieser Troll ist eines der Versuchsobjekte. Ob er sich mittels Gebärden mitteilen kann, sei dahingestellt. Sein Lächeln spricht auf jeden Fall Bände.","Eins, zwei, drei, Troll. Test, Test ... Könnt ihr mich verstehen?
 <Emphasis>Flauschi</Emphasis>"
@@ -676,8 +632,10 @@ Der perfekte Abenteuerbegleiter, wenn er denn ordentlich funktionieren würde. "
 298,"Rufe deine Miw Miisv herbei. Ein glitzernder Beweis dafür, dass Hoffnung unerwartete Formen annehmen kann. ","Das Dynamis kanalisierte die Hoffnungen der Ea auf Elysium und schuf diese quirlige, quallenartige Lebensform. Zwar besitzen sie die Fähigkeit, kräftige Stromstöße auszuteilen, viel lieber jedoch vergnügen sie sich damit, sich die Gedanken und Gefühle anderer Lebewesen im wahrsten Sinne des Wortes einzuverleiben.","Mi-Mimiii～♪"
 299,"Rufe deinen Wunderlanner herbei. Ein stolzer Falke mit einer Vorliebe für fantastische Erzählungen.","Als ehemaliger Gefährte der Händlerin Rowena wurde dieser stolze Falke wie ein Juwel gehegt und gepflegt. Da er der Sprache seiner Halter mächtig ist, lauschte er gerne Khloe Aliapohs Geschichten von tapferen Abenteurern. Es heißt, seither strebe er danach, ein gewisses, weißes Pferd in seiner Rolle als treues Reittier zu übertreffen.","Umsonst bekommst du bei mir nichts.
 <Emphasis>Rowena</Emphasis>"
-300,"","",""
-301,"","",""
+300,"Rufe deinen magischen Regenschirm herbei, mit dem du bei jedem Wetter sicher abheben kannst.","Diesen fliegenden Regenschirm hat eine gewisse ältere Magierin in ihrer Jugend erschaffen. Als Basis dient ein schwarzer Regenschirm, der mit dem Nachthimmel verschmilzt und es ermöglicht, sich von oben in die Große Gubal-Bibliothek zu schleichen. Seine Schöpferin scheint eine rebellische Ader gehabt zu haben.","Ich habe es versäumt, Biggs und Wedge anzuweisen, meine Klimaabschirmung zu verbessern.
+<Emphasis>Omega</Emphasis>"
+301,"Rufe deinen magischen Parasol herbei und die ganze Welt wird dir zu Füßen liegen.","Diesen fliegenden Parasol hat eine gewisse ältere Magierin in ihrer Jugend erschaffen. Sie wollte ihn massenhaft verkaufen, um ihre Forschungen zu finanzieren, und wählte als Basis einen damals sehr beliebten rosa Sonnenschirm. Da die Verwendung der Schirme jedoch erhebliche magische Kräfte und eine hohe Griffstärke erfordert, hatte sie nur mäßigen Erfolg.","Bringst du mir dann einen eurer ulkigen „Regenschirme“ vorbei?
+<Emphasis>Wolkenweißer Loporrit</Emphasis>"
 302,"Rufe deinen Sternenlicht-Blitzen herbei. Allein sein Anblick vermag es jung und alt mit aufrichtiger Freude zu erfüllen.","Dieses prächtige Rentier stammt aus Sharlayan und bietet dir als Dank für deine Hilfe seine Dienste an. Es selbst mag eine Illusion sein, doch der Freude, die das Herz bei einem Ritt auf seinem Rücken durch den winterlichen Sternenhimmel überkommt, kann sich gewiss niemand erwehren.","Los, Blitzen! Offenbare diesem Mädchen den Geist des Sternenlichtfests!
 <Emphasis>Laurenssen</Emphasis>"
 303,"Rufe deinen Thron von Sil'dih herbei. Einst im Besitz der Herrscher von Sil'dih, ist er nun bereit, ein heldenhaftes Gesäß auf sich zu betten.","Ein reich verzierter Thron, der den Großteil seines Daseins in einer verstaubten Ersatzteilkammer der Unterstadt von Sil'dih abgesessen haben soll. Niemand weiß, ob es der Wille seines Reiters oder bloße Magie ist, die ihn so zielsicher durch die Lüfte lenkt.","Wer letztlich auf dem Thron sitzen wird, ist nicht so wichtig.
@@ -690,3 +648,21 @@ Der perfekte Abenteuerbegleiter, wenn er denn ordentlich funktionieren würde. "
 <Emphasis>Sonu Vanu</Emphasis>"
 307,"","",""
 308,"","",""
+309,"","",""
+310,"Rufe dein Bündel bunter Erdseimballone herbei und schwebe deinen Abenteuern entgegen.","Um diese mit gasförmigem Erdseim gefüllten Ballone in die gewünschte Richtung zu lenken, sollte der Pilot nicht nur nicht zu schwer sein, sondern auch über genügend Magie verfügen, um Winde herbei<SoftHyphen/>zu<SoftHyphen/>zaubern.","Die schönste Art der Fortbewegung!
+<Emphasis>Erdseimballonfahrer</Emphasis>"
+311,"Rufe Anden III. herbei, ein rätselhaftes Pflanzenwesen, das sich raschelnd fortbewegt.","Mit diesem veganen Geschenk wollte sich die Pixie Eo Tyr für deine Hilfe revanchieren. Erschaffen aus den Blättern, die beim Trimmen vom Anden der ersten Generation anfielen, soll dieses Geschöpf dem ursprünglichen Wesen sehr ähnlich sein.","...?!"
+312,"Rufe deine Black Jack herbei. Der Prototyp eines Luftschiffs von den Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ken.","Dieses Luftschiff wurde von Tatabaru, dem Direktor der Highwind-Fluggesellschaft, in Auftrag gegeben. Obwohl relativ klein, vermag es relativ große Lasten zu transportieren.","Das ...! Das ist die <Emphasis>Black Jack</Emphasis>!
+<Emphasis>Tataramu</Emphasis>"
+313,"Rufe dein Phaeton herbei, eine feurige Pferdegestalt aus den Mythen Corvos.","Wenn man den Mythen und Legenden von Corvos Glauben schenkt, so gleicht die bloße Nähe zu dieser majestätischen Kreatur einem Bad in glühenden Kohlen. Lediglich durch das Wunder der Alchemie lässt es sich unversehrt reiten. Ein ganz ähnliches Wesen soll schon in der Welt der Alten existiert haben, geschaffen, um eine Kutsche durch die Himmel zu ziehen. Ob jedoch eine Verbindung zwischen dem einen und dem anderen Mythos besteht, bleibt weiterhin ungeklärt.","Der Himmel<Indent/>... er steht in Flammen.
+<Emphasis>Alisaie</Emphasis>"
+314,"Rufe deine Pinky herbei, eine elefantenförmige Maschine, die die Leute glücklich machen soll.","Diese Elefantenmaschine wurde von den Loporrit erbaut, nachdem sie die Worte eines Sharlayaners, Betrunkene würden oft von rosa Elefanten phantasieren, für bare Münze genommen hatten. Auch wenn ihr Anblick nicht unbedingt Glücksgefühle erzeugt, so sorgt er immerhin für Heiterkeit.","Pink ist das neue Orange!
+<Emphasis>Loporrit</Emphasis>"
+315,"Rufe deinen Fegefeuer-Luchs herbei, der wie ein gewisser ehrbarer Erzbösewicht aussieht ... in Form einer großen, geflügelten Katze.","Eine Phantomkreatur, deren elementarer Aspekt stark in Richtung finsterem Feuer tendiert. Sein sengender Körper erinnert an die Feuersbrunst von Rubicante, dem Fürst des Feuers, aber die Ursprünge dieses Familiars sind von undurchdringlichen Flammen umhüllt.","Es wird Zeit für dich, die reinigende Kraft seines feurigen Segens zu empfangen!
+<Emphasis>Zagozz Teh</Emphasis>"
+316,"Rufe deinen vergoldeten Magitek-Rächer herbei, eine von den Goblins zu einem Reitgefährt umgebaute imperiale Kampfmaschine, die in dieser Ausführung noch prächtiger aussieht.","Gerüchten zufolge steht im Herzen der Kaiserlichen Hauptstadt Garlemald eine goldene Sasquatch-Statue, die im Falle eines Angriffs die Stadt mit Magitek-Waffen verteidigen soll. Ungeachtet des Wahrheitsgehalts dieser Geschichte gefiel sie den Goblins so gut, dass sie beschlossen, passend zur Statue diesen goldenen Rächer zu erschaffen.","Goldener ... Goliath?
+<Emphasis>Mädchen aus Namai</Emphasis>"
+317,"Rufe deinen Chrysomallos herbei. Die Widderversion eines Goldesels.","Ein legendärer goldener Widder. Obwohl die Legende nichts von Goldstücken erzählt, die hinten herausfallen ...","Die Inselschäfchen haben mir das Herz wahrlich höherschlagen lassen.
+<Emphasis>Cirina</Emphasis>"
+318,"","",""
+319,"","",""

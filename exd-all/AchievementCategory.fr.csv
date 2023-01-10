@@ -37,9 +37,9 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 33,"Botaniste","Crafting & Gathering",True,False,11
 34,"Pêcheur","Crafting & Gathering",True,False,12
 35,"Général","Quests",True,False,1
-36,"Mandats","Quests",True,False,2
-37,"Quêtes tribales","Quests",True,False,3
-38,"Événements saisonniers","Quests",True,True,4
+36,"Mandats","Quests",True,False,4
+37,"Quêtes tribales","Quests",True,False,5
+38,"Événements saisonniers","Quests",True,True,99
 39,"Carnet d'exploration","Exploration",True,False,1
 40,"Noscea","Exploration",True,False,2
 41,"Forêt de Sombrelinceul","Exploration",True,False,3
@@ -77,3 +77,6 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 73,"Ilsabard","Exploration",True,False,13
 74,"Autres","Exploration",True,False,99
 75,"Armes des Manderville","Items",True,False,12
+76,"Épopée","Quests",True,False,2
+77,"Quêtes de job/rôle","Quests",True,False,3
+78,"","",False,False,0

@@ -338,7 +338,36 @@ Lässt dich auf dem Reittier von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen
 → Öffnet das Portrait-Menü.","","","pack",0
 38,1,0,0,0,0,"/adventurerplate","/myplate","/abenteurerpass, /meinpass, /adventurerplate, /myplate
 → Öffnet deinen Abenteurerpass.","/abenteurerpass","/meinpass","pack",0
-39,1,0,0,0,0,"//resetSettingCWLS","","","","","pack",1000
+39,2,1,2,0,0,"/rclickpc","","/rklickpc, rclickpc
+VERWENDUNG:
+/rklickpc [Unterbefehl]
+→ Ändert die Einstellung für „Charaktere von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakter<SoftHyphen/>konfiguration).
+>>Unterbefehle:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Aktiviert die Einstellung.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Deaktiviert die Einstellung.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.","/rklickpc","","head",0
+40,2,1,2,0,0,"/rclickbattlenpc","","/rklickkampfnpc, rclickbattlenpc
+VERWENDUNG:
+/rklickkampfnpc [Unterbefehl]
+→ Ändert die Einstellung für „Kampf-NPCs von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakter<SoftHyphen/>konfiguration).
+>>Unterbefehle:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Aktiviert die Einstellung.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Deaktiviert die Einstellung.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.","/rklickkampfnpc","","head",0
+41,2,1,2,0,0,"/rclickminion","","/rklickbegleiter, rclickminion
+VERWENDUNG:
+/rklickbegleiter [Unterbefehl]
+→ Ändert die Einstellung für „Begleiter von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakter<SoftHyphen/>konfiguration).
+>>Unterbefehle:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Aktiviert die Einstellung.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Deaktiviert die Einstellung.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.","/rklickbegleiter","","head",0
 91,1,0,0,0,0,"/pvpteam","/pt","/pvpteam, /pt
 VERWENDUNG:
 pvpteam [Nachr.]
@@ -643,9 +672,9 @@ VERWENDUNG:
 Setzt/entfernt Markierung A, B, C, D, 1, 2, 3, 4. Ist das Symbol bereits vergeben, wird die Markierung entfernt, bei Angabe des Charakternamens überschrieben.
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>), <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zurück<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)
 Entfernt alle gesetzten Markierungen.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>speichern 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)
-Speichert die platzierten Markierungen in Slot 1-5.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>wieder<SoftHyphen/>herstellen 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>speichern 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)
+Speichert die platzierten Markierungen in Slot 1-30.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>wieder<SoftHyphen/>herstellen 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)
 Stellt die gespeicherten Markierungen wieder her.
 Bei fehlendem Symbolnamen wird eine noch unbenutzte Markierung (A→ 2) gesetzt. Sind alle bereits benutzt, kann das Kommando nicht ausgeführt werden.
 >>Beispiel:
@@ -824,21 +853,21 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.","/macrofehler","/mfe
 219,1,0,0,0,0,"/grouppose","/gpose","/gruppenpose, /grouppose, /gpose
 → Lässt Gruppen- und Allianzmitglieder sowie Begleiter, Reittiere und Mitstreiter gemeinsam posieren.
 >>Steuerung:
-<CommandIcon(10)/>, R, Num *, Mausrad-Klick
+<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, Num *, Mausrad-Klick
 Kamera-Einstellungen anzeigen
 <CommandIcon(11)/>, Leertaste
 Blick zur Kamera/normal
-<CommandIcon(13)/>, X
+<CommandIcon(13)/>, <If(Equal(PlayerParameter(78),3))>x<Else/>X</If>
 Bewegung anhalten (alle)
 <CommandIcon(14)/>, Num 1
 Bewegung anhalten (Ziel)
 <CommandIcon(15)/>,Num 2
 Fokussierten Charakter wechseln
-<CommandIcon(6)/>, Tab, Umsch+Tab
+<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab, umsch+tab<Else/>Tab, Umsch+Tab</If>
 Fokus wechseln
-<CommandIcon(20)/>, W, A, S, D, Q, E
+<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>
 Kameraposition ändern
-<Gui(16)/>, Z
+<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>
 Kameraposition zurücksetzen","/gruppenpose","","RAU",0
 220,2,0,0,0,0,"/itemsearch","/isearch","/ggsuche, /itemsearch, /isearch
 VERWENDUNG:
@@ -852,15 +881,15 @@ VERWENDUNG:
 /knips [Variable zur Zielbestimmung]
 → Aktiviert den Schnappschuss-Sucher, der im 10-Sekunden-Abstand zufällige Naheinstellungen von Charakteren und Objekten der Umgebung zeigt. Bei Angabe eines Ziels fokussiert der Sucher darauf (ausgenommen einige unfokussierbare Charaktere).
 >>Steuerung:
-<CommandIcon(10)/>, R, Num *, Mausrad-Klick
+<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, Num *, Mausrad-Klick
 Kamera-Einstellungen anzeigen
 <CommandIcon(8)/>, Num 0, Links-Klick
 Kamerawinkel anhalten/weiter wechseln
-<CommandIcon(6)/>, Tab, Umsch+Tab
+<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab,umschalt+tab<Else/>Tab,Umschalt+Tab</If>
 Szene überspringen
-<CommandIcon(20)/>, W,A,S,D,Q,E
+<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>
 Kameraposition ändern
-<Gui(16)/>, Z
+<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>
 Kameraposition zurücksetzen
 >>Beispiel:
 /knips <t>
@@ -1103,20 +1132,7 @@ VERWENDUNG:
 /reit ""[Reittiername]""
 → Du besteigst das angegebene Reittier bzw. steigst davon ab. Zum Absteigen kann der Reittiername entfallen. Beim Flug wird zum Sturzflug angesetzt.","/reit","","head",0
 272,3,2,3,2,0,"/additionalaction","/aaction","/ergkmd, /additionalaction, /aaction
-VERWENDUNG:
-/ergkmd ""[Kommando]"" [Unterbefehl]
-→ Legt das angegebene Kommando als Ergänzendes Kommando fest. Kann nur von Sammlern verwendet werden.
->>Unterbefehle:
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Legt Ergänzendes Kommando fest.
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Entfernt Ergänzendes Kommando.
-Bei fehlendem Unterbefehl wird das Ergänzende Kommando festgelegt bzw. entfernt.
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zurück<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Entfernt alle Ergänzenden Kommandos (Kommandoname entfällt).
-
->>Beispiele:
-/ergkmd ""Geodäsie""
-Legt Geodäsie in den Ergänzenden Kommandos an.
-/ergkmd zurück
-Entfernt alle Ergänzenden Kommandos.","/ergkmd","","head",1000
+** Dieses Kommando wurde deaktiviert. **","/ergkmd","","head",1000
 273,3,2,10,2,0,"/generalaction","/gaction","/allgkom, /generalaction, /gaction
 VERWENDUNG:
 allgkom ""[Kommando]"" [Variable zur Zielbestimmung]
@@ -1164,7 +1180,7 @@ Shukuchi wird direkt an der Stelle des Zeigers ausgelöst.","/pvpkommando","/pvp
 279,3,2,18,2,0,"/blueaction","","/blaukommando, /blauk, /blueaction
 VERWENDUNG:
 /blaukommando ""[Kommando]"" [Variable zur Zielbestimmung]
-→ Führt das genannte Blaumagie-Kommando auf das genannte Ziel aus. Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
+→ Führt das genannte Blaumagie-Kommando auf das genannte Ziel aus (außer die Umgebung gestattet die Ausführung nicht oder das Kommando wurde noch nicht erlernt). Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
 >>Zielbestimmung:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><1>-<8><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied 1 - 8 aus.
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><t>, <target><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.
@@ -2978,3 +2994,21 @@ VERWENDUNG:
 → Du gibst motivierende Zurufe von dir.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/oleoleoleole","/ole","pdamage",0
+651,2,1,2,0,0,"/littleladiesdance","/ladance","/prinzessinnentanz, /littleladiesdance, /ladance
+VERWENDUNG:
+/prinzessinnentanz [Unterbefehl]
+→ Du tanzt wie auf dem Prinzessinnenfest.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/prinzessinnentanz","","pdamage",0
+652,2,1,2,0,0,"/linkpearl","","/kontaktperle, /linkpearl
+VERWENDUNG:
+/kontaktperle [Unterbefehl]
+→ Du tätigst einen Kontaktperlenanruf.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/kontaktperle","","pdamage",0
+657,2,1,2,0,0,"/frighten","","/angstundschrecken, /schrecken, /frighten
+VERWENDUNG:
+/angstundschrecken [Unterbefehl]
+→ Du versuchst, alle um dich herum in Angst und Schrecken zu versetzen.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/angstundschrecken","/schrecken","pdamage",0

@@ -317,7 +317,27 @@ Ouvre la page des archives des notes de mise à jour sur le site officiel grâce
 Ouvre la fenêtre des portraits.","/portrait","","pack",0
 38,1,0,0,0,0,"/adventurerplate","/myplate","/cartepersonnage, /cartep, /adventurerplate, /myplate
 Affiche la carte de personnage.","/cartepersonnage","/cartep","pack",0
-39,1,0,0,0,0,"//resetSettingCWLS","","","","","pack",1000
+39,2,1,2,0,0,"/rclickpc","","/clicdroitpj, /clicdpj, /rclickpc
+Utilisation<Indent/>: /clicdroitpj [sous-commande]
+Permet de désactiver le ciblage des personnages joueurs en cliquant sur le bouton droit de la souris.
+>> Sous-commandes<Indent/>:
+activé (on) Désactive le ciblage par clic droit.
+désactivé (off) Active le ciblage par clic droit.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/clicdroitpj","/clicdpj","head",0
+40,2,1,2,0,0,"/rclickbattlenpc","","/clicdroitpnj, /clicdpnj, /rclickbattlenpc
+Utilisation<Indent/>: /clicdroitpnj [sous-commande]
+Permet de désactiver le ciblage des personnages non-joueurs dans les instances en cliquant sur le bouton droit de la souris.
+>> Sous-commandes<Indent/>:
+activé (on) Désactive le ciblage par clic droit.
+désactivé (off) Active le ciblage par clic droit.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/clicdroitpnj","/clicdpnj","head",0
+41,2,1,2,0,0,"/rclickminion","","/clicdroitmascotte, /clicdmas, /rclickminion
+Utilisation<Indent/>: /clicdroitmascotte [sous-commande]
+Permet de désactiver le ciblage des mascottes en cliquant sur le bouton droit de la souris.
+>> Sous-commandes<Indent/>:
+activé (on) Désactive le ciblage par clic droit.
+désactivé (off) Active le ciblage par clic droit.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/clicdroitmascotte","/clicdmas","head",0
 91,1,0,0,0,0,"/pvpteam","/pt","/équipejcj, /éj, /pvpteam, /pt
 Utilisation<Indent/>: /équipejcj [message]
 Affiche un message visible par tous les joueurs appartenant à la même équipe JcJ.
@@ -599,9 +619,9 @@ Signe (A, B, C, D, 1, 2, 3 ou 4)   Place la marque au sol spécifiée. Si elle e
 Signe (A, B, C, D, 1, 2, 3 ou 4) [argument de ciblage]   Place la marque au sol spécifiée aux pieds de la cible désignée.
 Signe (A, B, C, D, 1, 2, 3 ou 4) sansciblesol  Place directement la marque au sol spécifiée là où se trouve le curseur, sans faire apparaître la cible au sol.
 annuler (désactivé)   Retire toutes les marques au sol placées.
-enregistrer (1-5)   Enregistre la disposition des marqueurs actuelle dans l'emplacement de sauvegarde spécifié.
-mode (1-5)   Charge la disposition des marqueurs enregistré dans l'emplacement de sauvegarde spécifié.
-* Si aucun nom de signe n'est saisi, place une marque inutilisée dans l'ordre alphabétique.
+enregistrer (1-30)   Enregistre la disposition des marqueurs actuelle dans l'emplacement de sauvegarde spécifié.
+mode (1-30)   Charge la disposition des marqueurs enregistré dans l'emplacement de sauvegarde spécifié.
+* Si aucun nom de signe n'est saisi, place une marque inutilisée dans l'ordre alphabétique, puis dans l'ordre numérique.
 * Si tous les signes sont déjà désignés, la commande est in<SoftHyphen/>uti<SoftHyphen/>li<SoftHyphen/>sa<SoftHyphen/>ble.
 * Si l'argument de ciblage est spécifié, le nom de signe ne peut pas être omis.
 >> Exemples<Indent/>:
@@ -787,14 +807,14 @@ Affiche le temps de jeu cumulé avec votre personnage.","/tempsjeu","/tjeu","L.w
 219,1,0,0,0,0,"/grouppose","/gpose","/posegroupe, /posegr, /grouppose, /gpose
 Fait une pose de groupe avec votre personnage et ceux d'autres joueurs.
 >> Fonctions<Indent/>:
-R, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.
-Espace/<CommandIcon(11)/>    Active/désactive l'orientation du regard vers la caméra.
-!/<CommandIcon(13)/>    Éclaire la position de la caméra.
+<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.
+<If(Equal(PlayerParameter(78),3))>espace<Else/>Espace</If>/<CommandIcon(11)/>    Active/désactive l'orientation du regard vers la caméra.
+<If(Equal(PlayerParameter(78),3))>x<Else/>X</If>/<CommandIcon(13)/>    Éclaire la position de la caméra.
 1/<CommandIcon(14)/>    Arrête tous les mouvements.
 2/<CommandIcon(15)/>    Arrête les mouvements de la cible.
-Tab, Shift+Tab/<CommandIcon(6)/>    Change le personnage central.
-Z, Q, S, D, E/<CommandIcon(20)/>    Ajuste la position du cadre.
-W/<Gui(16)/>    Réinitialise la position du cadre.
+<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>/<CommandIcon(6)/>    Change le personnage central.
+<If(Equal(PlayerParameter(78),3))>z,q,s,d,a,e<Else/>Z,Q,S,D,A,E</If>/<CommandIcon(20)/>    Ajuste la position du cadre.
+<If(Equal(PlayerParameter(78),3))>w<Else/>W</If>/<Gui(16)/>    Réinitialise la position du cadre.
 (Touches par défaut)","/posegroupe","/posegr","RAU",0
 220,2,0,0,0,0,"/itemsearch","/isearch","/rechercheobjet, /rechobj, /itemsearch, /isearch
 Utilisation<Indent/>: /rechercheobjet ""Terme""
@@ -807,11 +827,11 @@ L'argument de ciblage peut être omis.
 Si une cible a été spécifiée, la caméra se concentre sur elle, la montrant sous divers angles.
 Si la cible spécifiée ne peut pas servir d'objet à cette fonction, une autre est déterminée aléatoirement.
 >> Fonctions<Indent/>:
-R, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.
+<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.
 0 (clavier numérique)/clic gauche/<CommandIcon(8)/>    Met en pause/redémarre la caméra diaporama.
-Tab, Shift+Tab/<CommandIcon(6)/>    Passe au plan suivant.
-A, Z, E, Q, S, D/<CommandIcon(20)/>    Ajuste la position du cadre.
-W/<Gui(16)/>    Réinitialise la position du cadre.
+<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>/<CommandIcon(6)/>    Passe au plan suivant.
+<If(Equal(PlayerParameter(78),3))>z,q,s,d,a,e<Else/>Z,Q,S,D,A,E</If>/<CommandIcon(20)/>    Ajuste la position du cadre.
+<If(Equal(PlayerParameter(78),3))>w<Else/>W</If>/<Gui(16)/>    Réinitialise la position du cadre.
 >> Exemples<Indent/>:
 /cameradiaporama
   Active la caméra diaporama sans objet spécifique.
@@ -1052,16 +1072,7 @@ La monture spécifiée est appelée. Permet aussi de descendre d'une monture ou 
 272,3,2,3,2,0,"/additionalaction","/aaction","/actionrôle, /talent, /additionalaction, /aaction
 Utilisation<Indent/>: /actionrôle ""[nom d'action]"" [sous-commande]
 /talent ""[nom d'action]"" [sous-commande]
-Enregistre l'action indiquée dans la liste des talents (récolteurs uniquement).
->> Sous-commandes<Indent/>:
-activé (on)   Enregistre l'action.
-désactivé (off)   Retire l'action.
-* Si aucune sous-commande n'est saisie, alterne entre les deux options.
->> Exemples<Indent/>:
-/actionrôle ""Forestier"" activé
-  Enregistre Forestier en tant que talent.
-/talent annuler
-  Retire toutes les actions enregistrées dans la liste des talents.","/actionrôle","/talent","head",1000
+Enregistrait autrefois l'action indiquée dans la liste des talents (récolteurs uniquement).* Cette commande est ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment indisponible en raison d'un remaniement du système.","/actionrôle","/talent","head",1000
 273,3,2,10,2,0,"/generalaction","/gaction","/actiongénérale, /actgén, /generalaction, /gaction
 Utilisation<Indent/>: /actiongénérale ""[nom d'action]"" [argument de ciblage]
 Permet d'effectuer une action générale sur la cible spécifiée.
@@ -1104,6 +1115,7 @@ Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol""
 279,3,2,18,2,0,"/blueaction","","/actionmagiebleue, /mb, /blueaction ""Nom de l'action de magie bleue"" [argument de ciblage]
 Permet d'effectuer une action de magie bleue sur la cible spécifiée.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
+Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 >> Exemple<Indent/>:
 /actionmagiebleue ""Tir d'eau"" <t>
   Utilise l'action de magie bleue Tir d'eau sur la cible.","/actionmagiebleue","/mb","head",0
@@ -2828,3 +2840,21 @@ Apprécie le spectacle.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/apprécierlespectacle","/apprécispectacle","pdamage",0
+651,2,1,2,0,0,"/littleladiesdance","/ladance","/dansedesprincesses, /dansprinc, /littleladiesdance
+Utilisation<Indent/>: /dansedesprincesses [sous-commande]
+Effectue la danse des princesses.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/dansedesprincesses","/dansprinc","pdamage",0
+652,2,1,2,0,0,"/linkpearl","","/appelvialinkperle, /applink, /linkpearl
+Utilisation<Indent/>: /appelvialinkperle [sous-commande]
+Passe un appel via linkperle.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/appelvialinkperle","/applink","pdamage",0
+657,2,1,2,0,0,"/frighten","","/effrayer, /frighten
+Utilisation<Indent/>: /effrayer [sous-commande]
+Prend un air effrayant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/effrayer","","pdamage",0

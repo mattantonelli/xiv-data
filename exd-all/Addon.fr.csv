@@ -702,7 +702,7 @@ Commencer le mandat<Indent/>?"
 683,"Actions"
 684,"Jobs"
 685,"Traits"
-686,"Talents"
+686,"Récolte"
 687,"Général"
 688,"Talents"
 689,"<Clickable(<Sheet(ActStr,IntegerParameter(1),0)/>)/>
@@ -2387,6 +2387,8 @@ Si vous souhaitez passer à l'obtention du butin, choisissez “Oui”. Si vous 
 2402,"Accepter l'obtention de <Value>IntegerParameter(1)</Value> coffre<If(Equal(IntegerParameter(1),1))><Else/>s</If> sur <Value>IntegerParameter(2)</Value> maximum<Indent/>?"
 2404,"Oui"
 2405,"Non"
+2406,"Appliquer des mirages"
+2407,"Teindre des objets"
 2408,"Vote d'attribution du butin"
 2411,"Défaire la teinture"
 2412,"Visualiser une teinture"
@@ -2419,6 +2421,7 @@ Procéder tout de même à l'échange<Indent/>?"
 2437,"Vous ne pourrez pas vous équiper de cet objet.
 Procéder quand même à l'échange<Indent/>?"
 2438,"Confirmer"
+2439,"Essayage pour servant"
 2440,"Retour"
 2445,"Vents éthérés"
 2446,""
@@ -2961,9 +2964,9 @@ L'enregistrement ne se fera pas même si les conditions sont remplies."
 3068,"Aide de visionnage"
 3069,""
 3070,"<Value>IntegerParameter(1)</Value>/2"
-3071,"・<Clickable(<Sheet(ContentFinderCondition,295,39)/>)/>"
+3071,"・<Clickable(<Sheet(ContentFinderCondition,295,41)/>)/>"
 3072,"<UIForeground>F20202</UIForeground>Missions enregistrables<UIForeground>01</UIForeground>"
-3073,"・<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>)/>"
+3073,"・<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>"
 3074,"Aucune"
 3075,"・Mission non débloquée"
 3079,"[<Value>IntegerParameter(1)</Value>] <ZeroPaddedValue(2)>IntegerParameter(2)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue> <If(GreaterThan(IntegerParameter(5),0))><Switch(IntegerParameter(5))><Case(1)>Lecture ou reprise</Case><Case(2)>Cinématique</Case></Switch><Else/>Compte à rebours</If>"
@@ -3411,6 +3414,7 @@ Les majuscules/minuscules sont prises en compte lors de la recherche."
 3641,"nom de la note"
 3642,"nom de l'expression figée"
 3643,"nom de l'accessoire de mode"
+3644,"cible"
 3650,"Inventaire"
 3651,"Objets-clefs/Cristaux"
 3652,"Inventaire (1-100)"
@@ -3485,6 +3489,10 @@ Les majuscules/minuscules sont prises en compte lors de la recherche."
 3727,"Vous ne possédez pas le catalyseur nécessaire pour effacer le mirage."
 3728,"<Clickable(<SheetFr(Item,2,IntegerParameter(1),1,1)/>)/> vous sera lié<If(<Sheet(Item,IntegerParameter(1),6)/>)>e<Else/></If>."
 3729,"Le mirage n'est visible que si vous pouvez vous équiper des deux objets avec votre classe actuelle."
+3730,"Équipement du servant"
+3731,"Inventaire du servant"
+3732,"Inventaire / Arsenal / Équipement"
+3733,"Équipement / Inventaire du servant"
 3740,"Voulez-vous réinitialiser la position de l'élément “<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>”<Indent/>?"
 3743,"Réinitialiser"
 3756,"Copie de configuration ATH"
@@ -3546,14 +3554,16 @@ Autres conditions：<Switch(IntegerParameter(3))><Case(1)>oui</Case><Case(2)>non
 3816,"Pêche/Pêche au harpon"
 3820,"Nomenclature"
 3821,""
-3822,"Total<Indent/>: <Format(IntegerParameter(1),FF05021D0103)/>"
-3823,"Bons coins"
-3824,"<Highlight>StringParameter(1)</Highlight>
-<Highlight>StringParameter(2)</Highlight>"
+3822,"<If(Equal(IntegerParameter(2),0))>Prises pêchées à la ligne<Else/>Prises pêchées au harpon</If><Indent/>: <Format(IntegerParameter(1),FF022C)/>"
+3823,"<If(Equal(IntegerParameter(1),0))>Bons coins<Else/>Points de harponnage</If>"
+3824,"<If(Equal(IntegerParameter(4),0))>???<Else/><Highlight>StringParameter(1)</Highlight>
+<Highlight>StringParameter(2)</Highlight>
+<If(Equal(IntegerParameter(5),0))>???<Else/><Highlight>StringParameter(3)</Highlight></If></If>"
 3825,"Vous n'avez pas encore pêché ce poisson."
 3826,"Information sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>re"
 3827,"Collectionnable"
 3828,"Objet requis<Indent/>: <If(Equal(IntegerParameter(3),0))>Légendes ichtyologiques de<Indent/>???<Else/><Sheet(Item,IntegerParameter(1),9)/> (<If(Equal(IntegerParameter(2),0))>non <Else/></If>acquis)</If>"
+3829,"<Sheet(GatheringSubCategory,IntegerParameter(1),5)/> (<If(Equal(IntegerParameter(2),0))>non obtenu<Else/>obtenu</If>)"
 3830,"Palmarès"
 3831,""
 3832,"Vous n'avez pêché aucun poisson de cette catégorie."
@@ -3837,12 +3847,12 @@ Recommandés uniquement pour les configurations haut de gamme.</If>"
 4191,"Tous les paramètres de cette catégorie retrouveront leurs valeurs par défaut. Confirmer<Indent/>?"
 4192,"Oui"
 4193,"Non"
-4194,"Aperçu du thème classique"
+4194,"Aperçu du thème FF classique"
 4195,"Voulez-vous conserver cette résolution<Indent/>?
 Les paramètres précédents seront rétablis dans <Value>IntegerParameter(1)</Value> <If(LessThanOrEqualTo(IntegerParameter(1),1))>seconde<Else/>secondes</If>."
 4196,"Oui"
 4197,"Non"
-4198,"クラシック"
+4198,"Aperçu du thème bleu clair"
 4200,"Maximums"
 4201,"Élevés"
 4202,"Moyens"
@@ -3868,10 +3878,11 @@ Les paramètres précédents seront rétablis dans <Value>IntegerParameter(1)</V
 4231,"Faible"
 4232,"Sombre"
 4233,"Clair"
-4234,"Classique"
-4235,"Anisotrope"
-4236,"Trilinéaire"
-4237,"Bilinéaire"
+4234,"FF classique"
+4235,"Bleu clair"
+4236,"Anisotrope"
+4237,"Trilinéaire"
+4238,"Bilinéaire"
 4240,"x16"
 4241,"x8"
 4242,"x4"
@@ -4316,6 +4327,8 @@ Continuer tout de même<Indent/>?"
 4681,"Inventaire<Indent/>: équipement"
 4682,"Inventaire<Indent/>: mobilier"
 4683,"Éléments de logement"
+4685,"Inventaire du servant<Indent/>: équipement"
+4686,"Inventaire du servant<Indent/>: mobilier"
 4687,"Appliquer"
 4688,"Autre objet"
 4689,"Accomplir “<Highlight>StringParameter(2)</Highlight>”
@@ -5314,7 +5327,7 @@ Continuer<Indent/>?"
 5706,"≧ <Value>IntegerParameter(1)</Value>"
 5707,"Qté"
 5708,"<Value>IntegerParameter(1)</Value>"
-5709,"Détails"
+5709,"Commandes spéciales (<Highlight>StringParameter(1)</Highlight>)"
 5710,"Valeur de collection"
 5711,"<If(Equal(IntegerParameter(2),IntegerParameter(1)))><Else/><If(Equal(IntegerParameter(2),0))>≧ <Else/></If></If><Value>IntegerParameter(1)</Value><If(Equal(IntegerParameter(2),IntegerParameter(1)))><Else/><If(Equal(IntegerParameter(2),0))><Else/> à <Value>IntegerParameter(2)</Value></If></If>"
 5712,"Temps restant<Indent/>: <Value>IntegerParameter(1)</Value> <If(LessThanOrEqualTo(IntegerParameter(1),1))>heure<Else/>heures</If> <Value>IntegerParameter(2)</Value> <If(LessThanOrEqualTo(IntegerParameter(2),1))>minute<Else/>minutes</If> <Time(IntegerParameter(3))/>[<Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value> à <Value>TopLevelParameter(218)</Value>h<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>]"
@@ -5359,6 +5372,9 @@ Continuer<Indent/>?"
 5746,"<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Nombre de catalyseurs insuffisant.
 Impossible d'appliquer les changements.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 5747,"Toutes les pièces utilisées comme mirage vous seront liées."
+5748,"Lieu de pêche"
+5749,"<If(Equal(IntegerParameter(2),0))>[Pêche]<Else/>[Pêche au harpon]</If>
+Commandes spéciales<Indent/>: <Sheet(ENpcResident,IntegerParameter(1),0)/>"
 5750,"Tribus"
 5751,"Monnaies tribales"
 5752,"A Realm Reborn"
@@ -6491,7 +6507,7 @@ Confirmer la cession de l'appartement<Indent/>?"
 6823,"Aperçu de la peinture"
 6824,""
 6825,"Fermer"
-6826,"<If(Equal(IntegerParameter(1),1))>Carnet d'exploration<Else/><If(Equal(IntegerParameter(1),2))>Paysage<Else/></If></If>"
+6826,"<If(Equal(IntegerParameter(1),1))>Carnet d'exploration<Else/><If(Equal(IntegerParameter(1),2))>Paysage<Else/><If(Equal(IntegerParameter(1),3))>Portrait<Else/></If></If></If>"
 6827,"Mettre la peinture “<Sheet(Item,IntegerParameter(1),9)/>” dans le cadre<Indent/>?"
 6828,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Une peinture identique est déjà placée dans le cadre.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Jeter l'objet ci-dessous et le remplacer par l'autre<Indent/>?"
@@ -6746,7 +6762,7 @@ Appliquer quand même les changements<Indent/>?
  - Si l'achat n'est pas finalisé durant la période de publication des résultats, le droit d'acquisition du terrain est au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment perdu. En outre, en guise de mesure visant à empêcher divers abus, seule la moitié des frais de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion est remboursée.
  - La période de remboursement des frais de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion, quel que soit leur montant, est de 90 jours après la fin de la publication des résultats. Aucun remboursement ne sera accordé au-delà de cette période.
  - Il est impossible de participer à un autre tirage au sort tant qu'une procédure d'achat ou de remboursement est en cours.
- - Attention<Indent/>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<If(Equal(IntegerParameter(2),1))> - Attention<Indent/>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.<Else/><If(Equal(IntegerParameter(2),3))><If(Equal(IntegerParameter(3),1))> - Attention<Indent/>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.<Else/></If><Else/></If></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 7047,"Accepter les conditions de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion"
 7048,"Oui"
 7049,"Non"
@@ -6845,6 +6861,7 @@ Période de remboursement<Indent/>: jusqu'au <Time(IntegerParameter(3))/><Value>
 Elles ne peuvent être sauvegardées et chargées que dans certaines missions."
 7138,"Écraser l'ancienne sauvegarde"
 7139,"Supprimer"
+7140,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 7141,"Commencer"
 7142,"Réessayer"
 7143,"Fermer"
@@ -6949,7 +6966,7 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions."
 7575,"Afficher la ligne de ciblage"
 7576,"Afficher les liens de monstres"
 7577,"Cibler au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment les ennemis attaquants"
-7578,"Maintenir la distance de la caméra (mode Legacy uniquement)"
+7578,"Maintenir la distance de la caméra"
 7579,"Paramètres du cercle de ciblage"
 7580,"Modes de ciblage"
 7581,"Changer de mode en dégainant/rengainant"
@@ -6978,6 +6995,7 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions."
 7604,"Rengainer au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment l'arme de la main directrice"
 7605,"Délai avant de rengainer"
 7606,"Paramètres de l'inventaire"
+7607,"Verrouiller la correction caméra"
 7608,"Ranger les équipements obtenus dans l'arsenal"
 7609,"Ranger les équipements synthétisés dans l'inventaire"
 7610,"Paramètres liés aux marchands"
@@ -9113,9 +9131,9 @@ Continuer<Indent/>?"
 9778,"Cartes non possédées"
 9779,"Aucune carte ne correspond aux critères choisis."
 9780,"Tutoriel de Triple Triade"
-9781,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>)/>"
-9782,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>)/>"
-9783,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(2),39)/>)/>
+9781,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>"
+9782,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>"
+9783,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(2),41)/>)/>
 <Clickable(<Sheet(Fate,IntegerParameter(1),0)/>)/>"
 9784,"<Clickable(<Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(2),5)/>,0)/>)/>
 <Clickable(<Sheet(Fate,IntegerParameter(1),0)/>)/>"
@@ -9130,7 +9148,7 @@ Continuer<Indent/>?"
 <97>E803</97>"
 9790,"Haut fait<Indent/>:
 <Clickable(<Sheet(Achievement,IntegerParameter(1),1)/>)/>"
-9791,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>)/>
+9791,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>
 Chasse au trésor du lapin du bonheur"
 9792,"???"
 9793,"RÉSULTATS"
@@ -9295,7 +9313,7 @@ Les duels sont sur le point de commencer."
 10034,"Recruter des équipiers"
 10035,"Voir les recrutements"
 10036,"Autres recrutements"
-10037,"En attente de grou<SoftHyphen/>page"
+10037,"En attente de groupement"
 10038,"Ordre d'attente pour le rôle choisi"
 10039,"<Value>IntegerParameter(1)</Value><If(LessThanOrEqualTo(IntegerParameter(1),1))>er<Else/>e</If>"
 10040,"50e ou plus"
@@ -9311,13 +9329,13 @@ Les duels sont sur le point de commencer."
 10050,"E"
 10051,"D"
 10052,"F"
-10053,"Définit la ou les langues utilisées lors des missions. Le grou<SoftHyphen/>page se fera avec des joueurs partageant tous une de ces langues."
+10053,"Définit la ou les langues utilisées lors des missions. Le groupement se fera avec des joueurs partageant tous une de ces langues."
 10054,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sélectionnez la ou les langues utilisées en mission.
 La langue du jeu est marquée d'une étoile (★).<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>* Ce choix est valable pour toutes les missions avec grou<SoftHyphen/>page.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>* Ce choix est valable pour toutes les missions avec groupement.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10055,"★"
 10056,"<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Attention<Indent/>:
-Le temps d'attente lors des grou<SoftHyphen/>pages peut grandement varier en fonction des langues choisies et de celles utilisées dans les Mondes du centre de traitement de données.
+Le temps d'attente lors des groupements peut grandement varier en fonction des langues choisies et de celles utilisées dans les Mondes du centre de traitement de données.
 Il est recommandé d'essayer d'autres langues si les délais d'accès aux missions deviennent anormalement longs après changement.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10057,"Informations de mission"
 10058,"Quitter sans sauvegarder les changements<Indent/>?"
@@ -9329,7 +9347,7 @@ Il est recommandé d'essayer d'autres langues si les délais d'accès aux missio
 10064,"Quitter"
 10065,"Sert à quitter l'instance.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* Le premier joueur de l'équipe à abandonner reçoit une pénalité dans les cas suivants<Indent/>:
-　- Mission en cours avec une équipe formée par grou<SoftHyphen/>page
+　- Mission en cours avec une équipe formée par groupement
 　- 10 premières minutes d'une mission aléatoire en équipe préformée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10066,"Vote d'abandon"
 10067,"Sert à demander leur avis aux équipiers pour quitter la mission en cours.
@@ -9346,7 +9364,7 @@ Il est recommandé d'essayer d'autres langues si les délais d'accès aux missio
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* En cours de missions, les paramètres peuvent seulement être consultés.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10076,"Outil de raid"
 10077,""
-10078,"Condition de grou<SoftHyphen/>page"
+10078,"Condition de groupement"
 10079,"Déjà terminé"
 10080,"Jamais terminé"
 10081,"* Uniquement si vous avez déjà terminé le raid."
@@ -9443,7 +9461,7 @@ Des joueurs dont la progression diffère de celle du chef d'équipe peuvent part
 <UIForeground>F20202</UIForeground>Récompenses et coffres<UIForeground>01</UIForeground>
 Les personnages qui participent à un raid “sadique” récent qu'ils ont déjà terminé pendant la semaine en cours ne reçoivent pas de récompenses.
 Par ailleurs, le nombre de ces joueurs influence celui des coffres apparaissant lors de l'incursion.
-En cas d'enregistrement seul ou en équipe de moins de huit joueurs, le nombre de coffres peut varier en fonction de la progression des membres ajoutés par grou<SoftHyphen/>page automatique.
+En cas d'enregistrement seul ou en équipe de moins de huit joueurs, le nombre de coffres peut varier en fonction de la progression des membres ajoutés par groupement automatique.
 
 <UIForeground>F20202</UIForeground>Composition de l'équipe<UIForeground>01</UIForeground>
 Pour les raids “sadiques” les plus récents, l'outil de raid forme des équipes composées de membres ayant des jobs différents.
@@ -9456,8 +9474,8 @@ L'objectif choisi joue également sur la possibilité ou non d'avoir des jobs id
 Les paramètres utilisés sont ceux établis dans l'outil de mission.
 
 <UIForeground>F20202</UIForeground>Pénalité d'abandon ou de retrait<UIForeground>01</UIForeground>
-Dans le cas d'une équipe formée par grou<SoftHyphen/>page automatique, tout retrait répété ou abandon en cours de mission ayant un impact sur l'expérience des autres joueurs sera sanctionné par une pénalité.
-Celle-ci s'appliquera à tous les types de missions utilisant la fonction de grou<SoftHyphen/>page automatique.
+Dans le cas d'une équipe formée par groupement automatique, tout retrait répété ou abandon en cours de mission ayant un impact sur l'expérience des autres joueurs sera sanctionné par une pénalité.
+Celle-ci s'appliquera à tous les types de missions utilisant la fonction de groupement automatique.
 * Même avec une équipe comptant le nombre requis de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants, quitter une mission aléatoire avant un certain temps fera également l'objet d'une pénalité."
 10161,"Fermer"
 10162,"Appartenir à une grande compagnie"
@@ -9656,6 +9674,14 @@ Profitez-en pour créer de nouveaux liens au cours de vos aventures<Indent/>!"
 10319,"Ouvrir tout<Indent/>: indisp. avec DX9"
 10320,"Ouvrir tout<Indent/>: indisp. sur Mac"
 10321,"Afficher le portrait des personnages qui parlent en combat"
+10322,"Portraits instantanés"
+10323,"Afficher les portraits des équipiers en début de mission"
+10324,"Afficher les portraits des équipiers dans la fenêtre d'honneurs"
+10325,"Afficher la notification des portaits des équipiers"
+10326,"Désactiver le ciblage des PJ par clic droit"
+10327,"Désactiver le ciblage des PNJ par clic droit"
+10328,"Afficher le temps restant des effets bénéfiques/néfastes"
+10329,"Désactiver le ciblage des mascottes par clic droit"
 10350,"Médallium des Yo-kai"
 10351,""
 10352,"Ouvre l'encyclopédie des mascottes."
@@ -9708,13 +9734,13 @@ Vous pourrez obtenir l'objet requis en échange de médailles Yo-kai. Ces derni�
 10407,"Informations du donjon"
 10408,""
 10409,"Objets spéciaux"
-10410,"Convertir la sauvegarde de la progression en équipe préformée pour le grou<SoftHyphen/>page automatique<Indent/>?
+10410,"Convertir la sauvegarde de la progression en équipe préformée pour le groupement automatique<Indent/>?
 
-Une sauvegarde en grou<SoftHyphen/>page automatique permet de former une équipe avec des joueurs ayant la même progression que soi et d'ajouter au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment des équipiers manquants.
+Une sauvegarde en groupement automatique permet de former une équipe avec des joueurs ayant la même progression que soi et d'ajouter au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment des équipiers manquants.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Les données relatives aux objets spéciaux possédés ne sont pas conservées lors de la conversion.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aucun score n'est calculé pour les incursions en équipe formée par grou<SoftHyphen/>page automatique.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aucun score n'est calculé pour les incursions en équipe formée par groupement automatique.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>* Attention<Indent/>: la conversion d'une sauvegarde ne peut pas être annulée.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10411,"Accepter et effectuer la conversion"
@@ -9797,6 +9823,8 @@ Une sauvegarde en grou<SoftHyphen/>page automatique permet de former une équipe
 pour l'obtention de hauts faits en solo."
 10483,"Toute progression au plus profond du donjon sans fond est impossible avec cette sauvegarde, car une ou plusieurs défaites ont été enregistrées. Souhaitez-vous quand même l'utiliser<Indent/>?"
 10484,"Utiliser cette sauvegarde."
+10490,"Guides de jeu (The Lodestone)"
+10491,"En savoir plus sur les donjons sans fond"
 10500,"Participer avec des PNJ alliés"
 10501,"Participer avec l'adjuration"
 10507,"/"
@@ -10049,13 +10077,13 @@ Il suffit qu'un des joueurs adverses quitte l'instance pour mettre fin aux af<So
 10807,"Nombre de batailles restantes du tournoi"
 10808,"Inscription au tournoi"
 10809,"Tournoi en cours"
-10810,"<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>"
+10810,"<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>"
 10811,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* “Déjà terminé” n'est disponible que pour les missions préalablement réussies.
 * Spécifier une phase ne permet pas de sauter celles précédentes.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10812,"Sélection d'autres missions impossible"
 10813,"Participation indépendante au Front"
-10814,"Permet de participer à une bataille du Front par grou<SoftHyphen/>page automatique sans restriction d'allégeance à une grande compagnie.
-<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>* En cas d'enregistrement en équipe, le grou<SoftHyphen/>page automatique se fait systématiquement sans restriction d'allégeance, quel que soit l'état de ce paramètre.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+10814,"Permet de participer à une bataille du Front par groupement automatique sans restriction d'allégeance à une grande compagnie.
+<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>* En cas d'enregistrement en équipe, le groupement automatique se fait systématiquement sans restriction d'allégeance, quel que soit l'état de ce paramètre.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10815,"<Gui(82)/><Indent/>: <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value> <Gui(83)/><Indent/>: <Value>IntegerParameter(3)</Value>/<Value>IntegerParameter(4)</Value> <Gui(84)/><Indent/>: <Value>IntegerParameter(5)</Value>/<Value>IntegerParameter(6)</Value>"
 10816,"<Gui(87)/><Indent/>: <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 10817,"Temps écoulé<Indent/>: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>/Délai d'attente moyen<Indent/>: <Highlight>StringParameter(3)</Highlight>"
@@ -10066,7 +10094,7 @@ Il suffit qu'un des joueurs adverses quitte l'instance pour mettre fin aux af<So
 10822,"Missions à difficulté élevée"
 10823,"Impossible de s'enregistrer pour participer à une mission, tout en effectuant un recrutement.
 Annuler le recrutement en cours<Indent/>?"
-10824,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* S'enregistrer pour cette mission n'est possible qu'en ayant formé une équipe complète (structure libre). Les paramètres de condition de grou<SoftHyphen/>page ne sont donc pas disponibles.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+10824,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* S'enregistrer pour cette mission n'est possible qu'en ayant formé une équipe complète (structure libre). Les paramètres de condition de groupement ne sont donc pas disponibles.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10825,"* En cas de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion avec l'option “Sans restriction” activée, il faut trois équipes d'au moins un membre."
 10826,"Enregistrement en alliance possible"
 10827,"Combattants<Indent/>:  2 équipes de <Value>IntegerParameter(1)</Value> joueurs
@@ -10084,7 +10112,7 @@ Sa réouverture sera annoncée dans les notes d'une future mise à jour."
  - La récompense minimum est désormais de deux coffres.
  - La limite hebdomadaire d'objets pouvant être obtenus dans les coffres a été supprimée."
 10836,"Options"
-10837,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition de grou<SoftHyphen/>page<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+10837,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition de groupement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 “Déjà terminé” n'est disponible que pour les missions préalablement réussies.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Objectif<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -10105,7 +10133,7 @@ Par ailleurs, le nombre de ces joueurs influence celui des coffres apparaissant 
  - Un coffre si entre un et quatre joueurs ont déjà accompli le raid dans la semaine en cours.
  - Aucun coffre si cinq joueurs ou plus ont déjà accompli le raid dans la semaine en cours.
 
-En cas d'enregistrement seul ou en équipe de moins de huit joueurs, le nombre de coffres peut varier en fonction de la progression des membres ajoutés par grou<SoftHyphen/>page automatique."
+En cas d'enregistrement seul ou en équipe de moins de huit joueurs, le nombre de coffres peut varier en fonction de la progression des membres ajoutés par groupement automatique."
 10842,"Composition de l'équipe"
 10843,"Pour les missions “sadiques”, l'outil de raid forme des équipes composées de membres ayant des jobs différents.
 Pour les DPS, la répartition se fait selon la structure suivante<Indent/>: mêlée / physique à distance / magique à distance / libre.
@@ -10432,7 +10460,7 @@ Ces paramètres sont conservés pendant la durée de la connexion."
 11171,"* Les recrutements privés ne sont pas notifiés dans le log."
 11172,"Recruteur<Indent/>: <Highlight>StringParameter(1)</Highlight>"
 11173,"Recruter (alliance)"
-11174,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Le grou<SoftHyphen/>page automatique n'étant pas disponible en cas de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion après avoir formé une alliance, il est nécessaire d'avoir composé 3 équipes de 8 joueurs.
+11174,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Le groupement automatique n'étant pas disponible en cas de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion après avoir formé une alliance, il est nécessaire d'avoir composé 3 équipes de 8 joueurs.
 Si l'option “Sans restriction” a été activée, chaque équipe de l'alliance doit compter au moins un membre.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11175,"Emplacement actuel<Indent/>: <Highlight>StringParameter(1)</Highlight>"
 11177,"Ajouter le recruteur à la liste noire"
@@ -11138,6 +11166,8 @@ Sur le point d'apparaître..."
 11913,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 11914,"Effacer"
 11915,"Effacer le mirage <SheetFr(Item,9,IntegerParameter(1),1,1)/> sauvegardé dans la coiffeuse mirage<Indent/>?"
+11916,"Ordre croissant"
+11917,"Ordre décroissant"
 11918,"Transformation en mirage"
 11919,""
 11920,"Sélection d'équipement"
@@ -11150,6 +11180,12 @@ Sur le point d'apparaître..."
 11927,"Arsenal (poignets/bagues)"
 11928,"Prismes mirage<Indent/>: <Value>IntegerParameter(1)</Value>"
 11929,"Exclure les pièces appartenant à des tenues"
+11930,"Trier les objets par ordre croissant/décroissant"
+11931,"Recherche d'objet"
+11932,"Recherche"
+11933,"Saisissez le nom (complet ou non) d'un objet
+puis validez pour effectuer une recherche."
+11934,"Aucun résultat"
 11935,"Aucun objet pouvant être transformé en mirage."
 11936,"Confirmer"
 11939,"Édition de planches mirage"
@@ -11409,6 +11445,11 @@ désigné parmi les membres restants.<UIGlow>01</UIGlow><UIForeground>01</UIFore
 12173,"Membres en ligne en haut de liste"
 12174,"Ordre des linkshells inter-Monde"
 12175,""
+12176,"Réinitialiser l'ordre des linkshells"
+12177,"L'ordre actuel des linkshells inter-Monde va être réinitialisé.
+Les numéros attribués risquent ainsi d'être modifiés. Restez attentif lorsque vous utiliserez des commandes textuelles.
+Cette manipulation affectera toutes les linkshells inter-Monde, peu importe leur centre de traitement des données."
+12178,"Réinitialiser"
 12180,"Suppression de mirage"
 12181,""
 12182,"Planche mirage"
@@ -11718,7 +11759,7 @@ Vous pourrez ensuite les ajouter à vos barres ou à vos croix de raccourcis."
 12490,"Nv <Value>IntegerParameter(1)</Value>"
 12491,"Résultat"
 12492,"Niveau"
-12493,"<TwoDigitValue>IntegerParameter(1)</TwoDigitValue>. <Sheet(ContentFinderCondition,IntegerParameter(2),39)/>"
+12493,"<TwoDigitValue>IntegerParameter(1)</TwoDigitValue>. <Sheet(ContentFinderCondition,IntegerParameter(2),41)/>"
 12494,"Temps"
 12495,"<Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 12496,"Prouesses"
@@ -11969,13 +12010,13 @@ La dis<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion du butin est opérée par
 * La règle du butin ne peut être changée pour certaines missions.
 * Seul le chef d'équipe peut changer la règle du butin.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 12694,"Définit la ou les langues utilisées lors des missions.
-Le grou<SoftHyphen/>page se fera avec des joueurs partageant tous une de ces langues.
+Le groupement se fera avec des joueurs partageant tous une de ces langues.
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Le temps d'attente lors des grou<SoftHyphen/>pages peut grandement varier en fonction des langues choisies et de celles utilisées dans les Mondes du centre de traitement de données.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Le temps d'attente lors des groupements peut grandement varier en fonction des langues choisies et de celles utilisées dans les Mondes du centre de traitement de données.
 Il est recommandé d'essayer d'autres langues si les délais d'accès aux missions deviennent anormalement longs après changement.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>* La langue du jeu est soulignée.
-* Ce choix est valable pour toutes les missions avec grou<SoftHyphen/>page, sauf certains jeux du Gold Saucer.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+* Ce choix est valable pour toutes les missions avec groupement, sauf certains jeux du Gold Saucer.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 12695,"Enregistrement impossible en mode Nouvelle partie +"
 12696,"Niveau synchronisé"
 12697,"Permet de synchroniser le niveau du personnage à celui de la mission.
@@ -12603,7 +12644,7 @@ Continuer sans les récupérer<Indent/>?"
 13400,"État normal
 La qualité augmente normalement."
 13401,"Bon état
-Les gains en qualité sont augmentés de 50%."
+Les gains en qualité sont multipliés par <38>E80265FF022E01</38>."
 13402,"Excellent état
 Les gains en qualité sont multipliés par 4."
 13403,"Mauvais état
@@ -12721,6 +12762,20 @@ Valeur totale des objets mis en vente<Indent/>: <Highlight>StringParameter(1)</H
 
 Gils de votre servant<Indent/>: <Format(IntegerParameter(1),FF05021D0103)/>
 "
+13522,"Confier empilables"
+13523,"Il est possible de confier au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment à votre servant des objets de votre inventaire déjà en sa possession.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* Ne s'applique qu'aux objets pouvant exister en plusieurs exemplaires.
+* Vous pouvez conserver certains objets dans votre inventaire en décochant la sélection.
+* Confier un nombre important d'objet requiert un certain temps.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+13524,"Obj. empilables<Indent/>: <Value>IntegerParameter(1)</Value>"
+13525,"Confirmer"
+13526,"Annuler"
+13527,"En cours..."
+13528,"Les objets empilables ont été confiés."
+13529,"Interrompre"
+13530,"Quitter"
+13531,"Il est possible de confier au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment à votre servant des objets de votre inventaire déjà en sa possession."
 13550,"Petite image"
 13551,"Rare"
 13552,"Image moyenne"
@@ -12835,6 +12890,22 @@ Chaque image complétée vous fera gagner des “folioles irréelles”."
 13677,"Ajouter aux raccourcis"
 13678,"Équiper"
 13679,"Ajoute une pose spéciale dépendante de l'accessoire de mode à l'emote “Changer de pose”."
+13680,"Activer l'ombrelle/le parapluie automatique"
+13681,"Désactiver l'ombrelle/le parapluie automatique"
+13682,"Il est possible d'activer au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment votre ombrelle/parapluie en cas d'averse à l'aide du sous-menu, et ce dans des <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zones spécifiques<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Lorsque la pluie s'arrêtera ou que votre personnage atteindra un abri, il rangera au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment son ombrelle/parapluie.
+* Un(e) seul(e) parapluie/ombrelle peut être activé(e) à la fois.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zones concernées<UIGlow>01</UIGlow><UIForeground>01</UIForeground>:
+・Cités
+・Quartiers résidentiels
+・Azurée
+・Félicité insulaire"
+13754,"Utiliser l'objet “<Sheet(Item,IntegerParameter(3),9)/>” obtenu dans la mission “<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>”"
+13755,"Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”
+<Switch(PlayerParameter(70))><Case(1)>Échange de devises<Indent/>: Bango Zango
+<97>F63F38E6</97></Case><Case(2)>Échange de devises<Indent/>: Maisenta
+<97>F6227367</97></Case><Case(3)>Échange de devises<Indent/>: Roarich
+<97>F63E116C</97></Case></Switch>"
 13756,"Obtenir les actions d'interprétation"
 13757,"Récompense de série (JcJ)
 Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”"
@@ -12843,7 +12914,7 @@ Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”"
 13759,"Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”"
 13760,"Disponible de base"
 13761,"Terminer la quête “<Sheet(Quest,IntegerParameter(1),0)/>”"
-13762,"Accomplir la mission “<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>”"
+13762,"Accomplir la mission “<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>”"
 13763,"Utiliser l'objet “<Sheet(Item,IntegerParameter(3),9)/>”
 Échange de devises<Indent/>: <Clickable(<Sheet(ObjStr,IntegerParameter(1),0)/>)/>, <97>E803</97>"
 13764,"Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”
@@ -13167,7 +13238,7 @@ Le personnage retourne à sa position neutre une fois le mouvement effectué."
 14109,"Niveau"
 14110,"Coordonnées"
 14111,"Mentions légales"
-14112,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight>"
+14112,"<Highlight>StringParameter(1)</Highlight> <Gui(88)/> <Highlight>StringParameter(2)</Highlight> <If(GreaterThanOrEqualTo(IntegerParameter(3),100))><Else/> [<Sheet(WorldDCGroupType,IntegerParameter(3),WORLDDCGROUPTYPE_NAME)/>]</If>"
 14113,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D>"
 14114,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D> <Highlight>StringParameter(2)</Highlight>"
 14115,"Jeu de rôle"
@@ -13217,10 +13288,10 @@ Les chances de bénéficier de ce bonus dépendent de votre Savoir-faire."
 14177,""
 14178,"Sublimation"
 14179,"<Value>IntegerParameter(1)</Value>％"
-14180,"Valeur de collection minimum"
+14180,"Val. collection min."
 14181," <Value>IntegerParameter(1)</Value>"
 14200,"La qualité augmente normalement."
-14201,"Les gains en qualité sont augmentés de 50%."
+14201,"Les gains en qualité sont multipliés par <38>E80265FF022E01</38>."
 14202,"Les gains en qualité sont multipliés par 4."
 14203,"Les gains en qualité sont divisés par 2."
 14204,"Les chances de réussite sont augmentées de 25%."
@@ -13311,8 +13382,7 @@ Souhaitez-vous vraiment la supprimer<Indent/>?
 14324,"Culture automatique"
 14325,""
 14326,"Vous pouvez confier une parcelle à un cultivateur pour <Value>IntegerParameter(1)</Value> assignats insulaires azur par jour, jusqu'à un maximum de 50 récoltes.
-Les honoraires sont débités au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment lors de la demande de culture, puis chaque jour à <ResetTime>12</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>h.
-* Les honoraires ne sont débités qu'une fois par jour maximum.
+Les honoraires sont débités lors de la demande de culture, puis une seule fois par jour à <ResetTime>12</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>h (temps réel).
 
 Voulez-vous confier la parcelle à un cultivateur<Indent/>?
 
@@ -13320,7 +13390,8 @@ La culture sera interrompue dans les cas suivants<Indent/>:
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>- Stock de graines épuisé.
 - Vous manquez d'assignats insulaires azur.
 - Limite de 50 récoltes atteinte.
-* Une fois les conditions remplies, la récolte et le paiement reprendront au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+* Une fois les conditions remplies, la récolte et le paiement reprendront au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment.
+* Lorsqu'une parcelle est confiée, les poupées magiques s'occupent de la récolte. Aucun point d'expérience insulaire ne vous sera attribué.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 14327,"Confirmer"
 14328,"Annuler"
 14329,"Vous pouvez récupérer<Indent/>: <Sheet(Item,IntegerParameter(1),0)/> x <Value>IntegerParameter(2)</Value>. Continuer<Indent/>?
@@ -13363,6 +13434,32 @@ Voulez-vous tout de même les récupérer<Indent/>?"
 14364,"Énorme"
 14365,"Aucune prise."
 14366,"Fin de la pêche<Indent/>!"
+14367,"<If(Equal(IntegerParameter(1),0))>Appât typique<Else/>Taille</If>"
+14368,"<Highlight>StringParameter(1)</Highlight>"
+14369,"Paramètres du filtre"
+14370,""
+14371,"Paramètres"
+14372,"Conditions"
+14373,"Région"
+14374,"Toutes les zones"
+14375,"Légende locale"
+14376,"Indéterminé"
+14377,"Maître"
+14378,"Collectionnable"
+14380,"Réinitialiser"
+14381,"Valider"
+14382,"Annuler"
+14383,"Saisissez un terme puis validez pour effectuer une recherche.
+Seuls les 100 premiers résultats sont affichés.
+Utilisez les touches directionnelles vers le haut ou le bas pour voir l'historique de saisie."
+14384,"Aucun résultat"
+14385,""
+14386,"Pêche au vif"
+14387,"Petit"
+14388,"Moyen"
+14389,"Grand"
+14390,"???"
+14391,"???"
 14401,"Trier par défaut"
 14402,"Trier par nom"
 14403,"Recherche"
@@ -13588,8 +13685,13 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès."
 14756,"Annuler"
 14757,"<ZeroPaddedValue(2)>IntegerParameter(1)</ZeroPaddedValue> <Highlight>StringParameter(2)</Highlight>"
 14758,"Impossible de sauvegarder les réglages pendant qu'une animation est en cours."
+14759,"Importer les réglages de la carte de personnage"
+14760,"Tous les réglages du portait de la carte de personnage vont être copiés.
+
+* La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès."
+14761,"Carte de personnage"
 14800,"Accomplir “<Clickable(<Sheet(InstanceContent,IntegerParameter(1),3)/>)/>” avec d'autres joueurs"
-14801,"Accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>)/>” avec des PNJ alliés"
+14801,"Accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>” avec des PNJ alliés"
 14802,"Choix des équipiers"
 14803,"<If(GreaterThan(IntegerParameter(1),0))>Nv. d'objet moyen<Indent/>: <Value>IntegerParameter(1)</Value> ou plus<Else/></If><If(GreaterThan(IntegerParameter(2),0))>
 Nv. d'objet synchronisé<Indent/>: <Value>IntegerParameter(2)</Value><Else/></If>"
@@ -13604,7 +13706,7 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès."
 14812,""
 14813,"Afficher l'aide"
 14814,"Équipe personnalisable"
-14815,"Des PNJ alliés pourront pro<SoftHyphen/>chai<SoftHyphen/>ne<SoftHyphen/>ment être utilisés pour accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),39)/>)/>”"
+14815,"Des PNJ alliés pourront pro<SoftHyphen/>chai<SoftHyphen/>ne<SoftHyphen/>ment être utilisés pour accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>”"
 14816,"Le système de renforts sera disponible dans une prochaine mise à jour."
 14851,"Compendium"
 14852,""
@@ -13660,6 +13762,10 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès."
 14903,"Impossible d'obtenir les données du personnage."
 14904,"(<Clickable(<Sheet(ClassJob,IntegerParameter(1),0)/>)/>) J'active ma Transcendance<Indent/>!<Unknown60>0263</Unknown60>"
 14905,"Regroupons-nous<Indent/>!<Unknown60>0264</Unknown60>"
+14906,"<Value>IntegerParameter(1)</Value> s avant le début du défilé mécanique<Indent/>!"
+14907,"Le défilé mécanique commence<Indent/>!"
+14908,"Saison <Value>IntegerParameter(1)</Value> en cours"
+14909,"Pré-saison en cours"
 14910,"Vérification du contenu"
 14911,""
 14912,"Objet sélectionné"
@@ -13667,6 +13773,10 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès."
 14914,"Fermer"
 14915,"Vérifier le contenu"
 14916,"[Contenu vérifiable]"
+14918,"Saison <Value>IntegerParameter(1)</Value> en cours
+"
+14919,"Pré-saison en cours
+"
 14920,"Demander une réparation"
 14921,"Demande de réparation"
 14922,""
@@ -13689,9 +13799,15 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès."
 14939,"Réparer"
 14940,"Annuler"
 14941,"<Switch(IntegerParameter(1))><Case(1)>Ⅰ</Case><Case(2)>Ⅱ</Case><Case(3)>Ⅲ</Case><Case(4)>Ⅳ</Case><Case(5)>Ⅴ</Case><Case(6)>Ⅵ</Case><Case(7)>Ⅶ</Case><Case(8)>Ⅷ</Case></Switch><Indent/>:"
-14942,"<Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),ObjectParameter(0)))><Else/> [<Sheet(WorldDCGroupType,IntegerParameter(2),WORLDDCGROUPTYPE_NAME)/>]</If>"
+14942,"<Highlight>StringParameter(1)</Highlight><If(GreaterThanOrEqualTo(IntegerParameter(2),100))><Else/> [<Sheet(WorldDCGroupType,IntegerParameter(2),WORLDDCGROUPTYPE_NAME)/>]</If>"
 14943,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vous ne possédez pas le catalyseur adéquat. Un catalyseur de grade supérieur sera utilisé.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Confirmer<Indent/>?"
+14945,"Présentation des équipiers"
+14946,"Présentation de vos équipiers"
+14947,"Présentation des équipiers"
+14948,"Fonctions en mission"
+14949,"Permet de modifier l'affichage des portraits des membres de votre équipe en début de mission.
+* N'est pas accessible durant certaines missions."
 14950,"Affiche les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions actuelles du tirage au sort des terrains."
 14990,"Disposition des raccourcis spéciaux"
 14991,""
@@ -13702,7 +13818,7 @@ Confirmer<Indent/>?"
 14996,"Annuler"
 14997,"Réinitialiser la disposition des raccourcis<Indent/>?"
 14998,"Quitter sans sauvegarder les changements<Indent/>?"
-15000,"<Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),ObjectParameter(0)))><Else/> [<Sheet(WorldDCGroupType,IntegerParameter(2),WORLDDCGROUPTYPE_NAME)/>]</If>"
+15000,"<Highlight>StringParameter(1)</Highlight><If(GreaterThanOrEqualTo(IntegerParameter(2),100))><Else/> [<Sheet(WorldDCGroupType,IntegerParameter(2),WORLDDCGROUPTYPE_NAME)/>]</If>"
 15001,"Afficher le profil de recherche"
 15002,"Modifier la carte"
 15003,"Modifier le profil"
@@ -13797,7 +13913,7 @@ Vous pouvez voir celle des autres en accédant au sous-menu lorsque vous sélect
 15089,"Afficher tous les réglages"
 15090,"Portrait à gauche"
 15091,"La carte de personnage permet de vous présenter auprès des autres joueurs. Vous pouvez personnaliser son agencement et les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions qui s'y affichent pour qu'elle reflète votre personnalité et soit unique<Indent/>!
-Pour consulter celle des autres joueurs, ciblez-les et utilisez l'option “Voir la carte de profil” du sous-menu."
+Pour consulter celle des autres joueurs, ciblez-les et utilisez l'option “Voir la carte de personnage” du sous-menu."
 15092,"Votre carte de personnage n'est pas visible par les autres joueurs tant que vous ne l'avez pas personnalisée."
 15093,"Votre carte de personnage a été réinitialisée car vous avez utilisé un philtre d'illusion. Les autres joueurs ne pourront pas la voir tant que vous ne l'aurez pas à nouveau personnalisée."
 15094,"Commentaire de recherche"
@@ -13932,16 +14048,16 @@ Souhaitez-vous confirmer ces changements<Indent/>?"
 15220,"Récupérer l'animal"
 15221,"Collecter les ressources animalières et continuer la curation"
 15222,"Relâcher"
-15223,"Les honoraires journaliers d'un curateur sont de <Value>IntegerParameter(1)</Value> assignats insulaires azur. Lorsqu'un animal est confié, le curateur s'occupera de le nourrir et de collecter les ressources animalières, jusqu'à un maximum de 20 par animal.
-Les honoraires seront débités au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment lors de la demande de curation, puis chaque jour à <ResetTime>12</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>h.
-* Les honoraires ne seront débités qu'une seule fois par jour maximum.
+15223,"Vous pouvez confier un animal à un curateur pour <Value>IntegerParameter(1)</Value> assignats insulaires azur par jour, jusqu'à un maximum de 20 ressources par animal.
+Les honoraires sont débités lors de la demande de curation, puis une seule fois par jour à <ResetTime>12</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>h (temps réel).
 
 Voulez-vous confier votre animal au curateur<Indent/>?
 
 La curation sera interrompue dans les cas suivants<Indent/>:
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>- Vous manquez d'assignats insulaires azur.
 - Limite de 20 ressources animalières atteinte.
-* Une fois les conditions remplies, la collecte des ressources animalières et le paiement reprendront au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+* Une fois les conditions remplies, la collecte des ressources et le paiement reprendront au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment.
+* Lorsqu'un animal est confié, les poupées magiques s'occupent de la collecte. Aucun point d'expérience insulaire ne vous sera attribué.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 15224,"Confirmer"
 15225,"Annuler"
 15226,"Voulez-vous accepter les objets suivants<Indent/>?"
@@ -13999,7 +14115,7 @@ Voulez-vous appliquer le changement<Indent/>?"
 15265,"Voulez-vous relâcher <SheetFr(BNpcName,2,IntegerParameter(1),1,1)/><Indent/>?
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-15266,"Raretés"
+15266,"Améliorer vos compétences de pionnier"
 15267,"Cultures"
 15268,"Ressources animalières"
 15269,"Nom de l'objet"
@@ -14131,6 +14247,17 @@ Souhaitez-vous tout de même les envoyer<Indent/>?"
 15386,"Voulez-vous vraiment supprimer ce set prédéfini<Indent/>?"
 15387,"Catalyseur"
 15388,"Fin de la rénovation<Indent/>: <If(GreaterThan(IntegerParameter(1),0))>le <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value> à <Value>TopLevelParameter(218)</Value>h<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/>rénovation terminée</If>"
+15389,"Consultez le panneau de con<SoftHyphen/>struc<SoftHyphen/>tion de votre fabrique pour terminer les travaux."
+15390,"Consultez le panneau de con<SoftHyphen/>struc<SoftHyphen/>tion de votre grange pour terminer les travaux."
+15391,"Collecte"
+15392,"Autoriser"
+15393,"Paramètres de la boussole"
+15394,"Afficher les icones de plantes"
+15395,"Afficher les icones de bois"
+15396,"Afficher les icones de roches"
+15397,"Afficher les icones de terre"
+15398,"Afficher les icones de pêche"
+15399,"Variation"
 15400,"Donjons spéciaux"
 15401,""
 15402,"Donjons à embranchements"
@@ -14160,7 +14287,7 @@ Réinitialisation de la mission en cas défaite</Case></Switch><Else/></If>"
 15417,"Confirmer"
 15418,"Annuler"
 15419,"Grouper si l'équipe compte moins de 4 joueurs"
-15420,"Groupage activé pour les équipes de moins de 4 joueurs"
+15420,"Groupement activé pour les équipes de moins de 4 joueurs"
 15421,"Équipe de quatre joueurs obligatoire"
 15422,"Participer"
 15423,"Pages débloquées<Indent/>: <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
@@ -14171,8 +14298,8 @@ Réinitialisation de la mission en cas défaite</Case></Switch><Else/></If>"
 15428,"Aide de la fenêtre des donjons spéciaux"
 15429,""
 15430,"Explorer le donjon en solo<Indent/>?"
-15431,""
-15432,""
+15431,"Les actions embranchées ne peuvent pas être modifiées en combat ou durant leur temps de recharge."
+15432,"Pour pouvoir lire le journal d'exploration, vous devez avoir terminé la quête “<Sheet(Quest,IntegerParameter(1),0)/>”."
 15433,""
 15434,""
 15435,""
@@ -14190,6 +14317,58 @@ Réinitialisation de la mission en cas défaite</Case></Switch><Else/></If>"
 15447,""
 15448,""
 15449,""
+15470,"Présentation des équipiers"
+15471,"Afficher les portraits des équipiers en début de mission"
+15472,"Afficher la notification de pré<SoftHyphen/>sen<SoftHyphen/>ta<SoftHyphen/>tion des équipiers"
+15473,"Aligner les portraits en bas"
+15474,"Confirmer"
+15475,"Annuler"
+15476,"Afficher l'aide des portraits des équipiers"
+15477,"Paramètres"
+15500,"Tout récupérer"
+15501,"Voulez-vous récupérer tous les produits animaliers collectés<Indent/>?
+
+* La curation continuera après avoir obtenu les produits."
+15502,"Attention<Indent/>: les produits au-delà de la limite ne pourront pas être obtenus.
+
+Voulez-vous tout de même les récupérer<Indent/>?"
+15503,"Voulez-vous mettre fin à la curation et relâcher l'animal suivant<Indent/>: <Highlight>StringParameter(1)</Highlight><Indent/>?
+(Les produits animaliers collectés seront au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment récupérés, mais les produits en surplus seront jetés.)
+
+* Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage. "
+15504,"Tout récupérer"
+15505,"Voulez-vous récupérer tous les produits de la culture collectés<Indent/>?
+
+* La culture automatique continuera après avoir obtenu les produits."
+15506,"Attention<Indent/>: les produits au-delà de la limite ne pourront pas être obtenus.
+
+Voulez-vous tout de même les récupérer<Indent/>?"
+15507,"Durée"
+15508,"Popularité<Indent/>:"
+15509,"Demande<Indent/>:"
+15510,"Évolution<Indent/>:"
+15511,"Popularité escomptée<Indent/>:"
+15512,"Voulez-vous mettre fin à la curation et relâcher  <SheetFr(BNpcName,2,IntegerParameter(1),1,1)/><Indent/>?
+(Les produits animaliers collectés seront au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment récupérés, mais les produits en surplus seront jetés.)
+
+* Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage. "
+15513,"Jouer avec l'orchestrion"
+15600,"Paramètres du filtre"
+15601,""
+15602,"Critères"
+15603,"Niveau d'équipement"
+15604,"Nv"
+15605,"Nv 1"
+15606,"Sexe"
+15607,"Non spécifié"
+15608,"Homme"
+15609,"Femme"
+15610,"Nom"
+15611,"Réinitialiser"
+15612,"Confirmer"
+15613,"Annuler"
+15614,"Filtrer l'affichage des objets"
+15615,"Ajuster au sexe actuel"
 101000,"<CommandIcon(10)/> Sous-menu"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Sélectionner"
@@ -14702,6 +14881,8 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 102546,"https://sqex.to/dCSwT"
 102547,"Visiter le site officiel"
 102548,"Recherche d'aventuriers"
+102549,"Paramètres de la fenêtre d'honneurs"
+102550,""
 102551,"Vote d'expulsion"
 102552,"Le vote pour l'expulsion de <Highlight>StringParameter(1)</Highlight> va commencer."
 102553,"Choisissez une raison."
@@ -14718,12 +14899,18 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 102564,"Oui"
 102565,"Non"
 102566,"<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Attention<Indent/>: l'utilisation du vote d'expulsion à de mauvaises fins sera punie.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+102567,"Paramètres de la fenêtre d'honneurs"
+102568,"Vous pouvez choisir d'afficher ou non les portraits des joueurs dans la fenêtre d'honneurs.
+* Si tous les équipiers ont déjà quitté l'instance, ces paramètres seront appliqués lors de la prochaine mission."
+102569,"Afficher les portraits dans la fenêtre d'honneurs"
 102570,"Honneurs"
 102571,""
 102572,"Vous pouvez “honorer” le joueur avec lequel vous avez le plus apprécié jouer durant cette mission."
 102573,"Confirmer"
 102574,"Annuler"
 102575,"Honorer un équipier"
+102576,"Confirmer"
+102577,"Annuler"
 102578,"Si vous annulez votre par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion à une mission en cliquant sur “Se retirer” ou en laissant le compte à rebours arriver à son terme, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>vous recevrez une pénalité et ne pourrez plus utiliser les outils de mission et de raid pendant un certain temps.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Confirmer<Indent/>?"
 102579,"<Highlight>StringParameter(1)</Highlight>"
@@ -14748,7 +14935,7 @@ Confirmer<Indent/>?"
 102598,"???"
 102599,"<Value>IntegerParameter(1)</Value> joueur<If(LessThanOrEqualTo(IntegerParameter(1),1))><Else/>s</If>"
 102600,"Être membre d'une grande compagnie
-* En cas d'enregistrement en équipe, le grou<SoftHyphen/>page automatique se fait systématiquement sans restriction d'allégeance."
+* En cas d'enregistrement en équipe, le groupement automatique se fait systématiquement sans restriction d'allégeance."
 102601,"Temps écoulé<Indent/>: <Value>IntegerParameter(1)</Value>m"
 102602,"Classer les missions par niveau."
 102603,"3 à 9 équipes de 1 à <Value>IntegerParameter(1)</Value> joueur<If(LessThanOrEqualTo(IntegerParameter(1),1))><Else/>s</If>"

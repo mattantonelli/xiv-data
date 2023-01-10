@@ -680,14 +680,14 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 660,"See der Schreie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum See der Schreie</Case><Case(2)>am See der Schreie</Case></Switch>",0,0,0
 661,"Leerer Raum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum leeren Raum</Case><Case(2)>im leeren Raum</Case><Case(3)>der leere Raum</Case></Switch>",0,0,0
 662,"Der Katzenzwinger",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Katzenzwinger</Case><Case(2)>am Katzenzwinger</Case><Case(3)>der Katzenzwinger</Case></Switch>",0,0,0
-663,"Die Rambade",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rambade</Case><Case(2)>an der Rambade</Case><Case(3)>die Rambade</Case></Switch>",0,0,0
+663,"Erstes Fallreeptor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ersten Fallreeptor</Case><Case(2)>am Ersten Fallreeptor</Case><Case(3)>das Erste Fallreeptor</Case></Switch>",0,0,0
 664,"Rudererquartier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Rudererquartier</Case><Case(2)>im Rudererquartier</Case><Case(3)>das Rudererquartier</Case></Switch>",0,0,0
 665,"Ausgang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ausgang</Case><Case(2)>am Ausgang</Case><Case(3)>der Ausgang</Case></Switch>",0,0,0
 666,"Navigatorstube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Navigatorstube</Case><Case(2)>in der Navigatorstube</Case><Case(3)>die Navigatorstube</Case></Switch>",0,0,0
 667,"Mannschaftsquartier",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Mannschaftquartier</Case><Case(2)>im Mannschaftsquartier</Case><Case(3)>das Mannschaftsquartier</Case></Switch>",0,0,0
 668,"Kapitänsstube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kapitänsstube</Case><Case(2)>in der Kapitänsstube</Case><Case(3)>die Kapitänsstube</Case></Switch>",0,0,0
 669,"Der Kerker",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kerker</Case><Case(2)>im Kerker</Case><Case(3)>der Kerker</Case></Switch>",0,0,0
-670,"Die Rambade",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rambade</Case><Case(2)>an der Rambade</Case><Case(3)>die Rambade</Case></Switch>",0,0,0
+670,"Zweites Fallreeptor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zweiten Fallreeptor</Case><Case(2)>am Zweiten Fallreeptor</Case><Case(3)>das Zweite Fallreeptor</Case></Switch>",0,0,0
 671,"Wellenfahrer-Tor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wellenfahrer-Tor</Case><Case(2)>am Wellenfahrer-Tor</Case><Case(3)>das Wellenfahrer-Tor</Case></Switch>",0,0,0
 672,"Seemanns-Tor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Seemanns-Tor</Case><Case(2)>am Seemanns-Tor</Case><Case(3)>das Seemanns-Tor</Case></Switch>",0,0,0
 673,"Stollen A1",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Stollen A1</Case><Case(2)>im Stollen A1</Case><Case(3)>Stollen A1</Case></Switch>",0,0,0
@@ -2553,8 +2553,8 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2525,"Seldsee (Mitte)",0,"",0,0,1,0,0,"",0,1,0
 2526,"Seldsee (Südost)",0,"",0,0,1,0,0,"",0,1,0
 2527,"Schwebende Stadt Nym",0,"",0,0,1,0,0,"",0,0,0
-2528,"",0,"",0,0,1,0,0,"",0,0,0
-2529,"",0,"",0,0,1,0,0,"",0,0,0
+2528,"Sylphenland",0,"",0,0,1,0,0,"",0,0,0
+2529,"",0,"",0,0,0,0,0,"",0,0,0
 2530,"Eureka Pyros",0,"",0,0,1,0,0,"",0,0,0
 2531,"Nordkuppe",0,"",0,0,1,0,0,"",0,0,0
 2532,"Schneewehen",0,"",0,0,1,0,0,"",0,0,0
@@ -2595,12 +2595,12 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2567,"",0,"",0,0,0,0,0,"",0,0,0
 2568,"",0,"",0,0,0,0,0,"",0,0,0
 2569,"",0,"",0,0,0,0,0,"",0,0,0
-2570,"",0,"",0,0,0,0,0,"",0,0,0
-2571,"",0,"",0,0,0,0,0,"",0,0,0
-2572,"",0,"",0,0,0,0,0,"",0,0,0
-2573,"",0,"",0,0,0,0,0,"",0,0,0
+2570,"Das Verbotene Land Eureka (Feldexkursion)",0,"",0,0,1,0,0,"",0,0,0
+2571,"Die Königinnenwache (Feldexkursion)",0,"",0,0,1,0,0,"",0,0,0
+2572,"Palast der Toten (Tiefes Gewölbe)",0,"",0,0,1,0,0,"",0,0,0
+2573,"Himmelssäule (Tiefes Gewölbe)",0,"",0,0,1,0,0,"",0,0,0
 2574,"",0,"",0,0,0,0,0,"",0,0,0
-2575,"",0,"",0,0,0,0,0,"",0,0,0
+2575,"Unterstadt von Sil'dih (Gewölbesuche)",0,"",0,0,1,0,0,"",0,0,0
 2576,"",0,"",0,0,0,0,0,"",0,0,0
 2577,"",0,"",0,0,0,0,0,"",0,0,0
 2578,"",0,"",0,0,0,0,0,"",0,0,0
@@ -3540,7 +3540,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 3512,"Amh Araeng",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Amh Araeng</Case><Case(2)>in Amh Araeng</Case><Case(3)>Amh Araeng</Case></Switch>",0,0,0
 3513,"Il Mheg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Il Mheg</Case><Case(2)>in Il Mheg</Case><Case(3)>Il Mheg</Case></Switch>",0,0,0
 3514,"Seenland",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Seenland</Case><Case(2)>im Seenland</Case><Case(3)>das Seenland</Case></Switch>",0,0,0
-3515,"Minen des Argai",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Minen des Argai</Case><Case(2)>in den Minen des Argai</Case><Case(3)>die Minen des Argai</Case></Switch>",0,0,0
+3515,"Vorplatz der Argai-Minen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Vorplatz der Argai-Minen</Case><Case(2)>im Vorplatz der Argai-Minen</Case><Case(3)>der Vorplatz der Argai-Minen</Case></Switch>",0,0,0
 3516,"Ballsaal der Grasgrummel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ballsaal der Grasgrummel</Case><Case(2)>im Ballsaal der Grasgrummel</Case><Case(3)>der Ballsaal der Grasgrummel</Case></Switch>",0,0,0
 3517,"Platz der Erleuchteten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Platz der Erleuchteten</Case><Case(2)>auf dem Platz der Erleuchteten</Case><Case(3)>der Platz der Erleuchteten</Case></Switch>",0,0,0
 3518,"Verfallene Lorenspur",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Verfallenen Lorenspur</Case><Case(2)>auf der Verfallenen Lorenspur</Case><Case(3)>die Verfallene Lorenspur</Case></Switch>",0,0,0
@@ -4118,7 +4118,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4090,"Die Palästra",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Palästra</Case><Case(2)>in der Palästra</Case><Case(3)>die Palästra</Case></Switch>",0,0,0
 4091,"Das Herz des Vulkans",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz des Vulkans</Case><Case(2)>im Herz des Vulkans</Case><Case(3)>das Herz des Vulkans</Case></Switch>",0,0,0
 4092,"Wolke Sieben",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wolke Sieben</Case><Case(2)>auf Wolke Sieben</Case><Case(3)>Wolke Sieben</Case></Switch>",0,0,0
-4093,"",0,"",0,0,1,0,0,"",0,0,0
+4093,"Die Mechanische Menagerie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mechanischen Menagerie</Case><Case(2)>in der Mechanischen Menagerie</Case><Case(3)>die Mechanische Menagerie</Case></Switch>",0,0,0
 4094,"",0,"",0,0,1,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4283,6 +4283,41 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4255,"Elysium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Elysium</Case><Case(2)>auf Elysium</Case><Case(3)>Elysium</Case></Switch>",0,0,0
 4256,"Elysium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Elysium</Case><Case(2)>auf Elysium</Case><Case(3)>Elysium</Case></Switch>",0,0,0
 4257,"[Erweiterung] Hellebardenspalier",0,"",0,0,1,0,0,"",0,0,0
-4258,"",0,"",0,0,1,0,0,"",0,0,0
-4259,"",0,"",0,0,1,0,0,"",0,0,0
-4260,"",0,"",0,0,1,0,0,"",0,0,0
+4258,"Euphrosyne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Euphrosyne</Case><Case(2)>in Euphrosyne</Case><Case(3)>Euphrosyne</Case></Switch>",0,0,0
+4259,"Elementarhimmel der Erde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Elementarhimmel der Erde</Case><Case(2)>im Elementarhimmel der Erde</Case><Case(3)>der Elementarhimmel der Erde</Case></Switch>",0,0,0
+4260,"Elementarhimmel des Eises",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Elementarhimmel des Eises</Case><Case(2)>im Elementarhimmel des Eises</Case><Case(3)>der Elementarhimmel des Eises</Case></Switch>",0,0,0
+4261,"Göttliches Firmament",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Göttlichen Firmament</Case><Case(2)>im Göttlichen Firmament</Case><Case(3)>das Göttliche Firmament</Case></Switch>",0,0,0
+4262,"Spitze des Firmaments",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Spitze des Firmaments</Case><Case(2)>auf der Spitze des Firmaments</Case><Case(3)>die Spitze des Firmaments</Case></Switch>",0,0,0
+4263,"Elementarhimmel der Erde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Elementarhimmel der Erde</Case><Case(2)>im Elementarhimmel der Erde</Case><Case(3)>der Elementarhimmel der Erde</Case></Switch>",0,0,0
+4264,"Elementarhimmel des Eises",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Eisgewölbe</Case><Case(2)>im Eisgewölbe</Case><Case(3)>das Eisgewölbe</Case></Switch>",0,0,0
+4265,"Land der Fruchtbarkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Land der Fruchtbarkeit</Case><Case(2)>im Land der Fruchtbarkeit</Case><Case(3)>das Land der Fruchtbarkeit</Case></Switch>",0,0,0
+4266,"Fuß des Weltenbaums",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fuß des Weltenbaums</Case><Case(2)>am des Weltenbaums</Case><Case(3)>der Fuß des Weltenbaums</Case></Switch>",0,0,0
+4267,"Weltenbaum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Weltenbaum</Case><Case(2)>beim Weltenbaum</Case><Case(3)>der Weltenbaum</Case></Switch>",0,0,0
+4268,"Geschabter Gletscher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Geschabten Gletscher</Case><Case(2)>am Geschabten Gletscher</Case><Case(3)>der Geschabte Gletscher</Case></Switch>",0,0,0
+4269,"Domäne der Furie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Domäne der Furie</Case><Case(2)>in der Domäne der Furie</Case><Case(3)>die Domäne der Furie</Case></Switch>",0,0,0
+4270,"Lapis Manalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Lapis Manalis</Case><Case(2)>in Lapis Manalis</Case><Case(3)>Lapis Manalis</Case></Switch>",0,0,0
+4271,"Hang des Mons Albus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hang des Mons Albus</Case><Case(2)>auf dem Hang des Mons Albus</Case><Case(3)>der Hang des Mons Albus</Case></Switch>",0,0,0
+4272,"Vicus Messorem",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Vicus Messorem</Case><Case(2)>in Vicus Messorem</Case><Case(3)>Vicus Messorem</Case></Switch>",0,0,0
+4273,"Fons Manalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Fons Manalis</Case><Case(2)>in Fons Manalis</Case><Case(3)>Fons Manalis</Case></Switch>",0,0,0
+4274,"Thron der Schneebestie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Thron der Schneebestie</Case><Case(2)>am Thron der Schneebestie</Case><Case(3)>der Thron der Schneebestie</Case></Switch>",0,0,0
+4275,"Forum Messorem",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Forum Messorem</Case><Case(2)>im Forum Messorem</Case><Case(3)>das Forum Messorem</Case></Switch>",0,0,0
+4276,"Erdseim-Dornen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Erdseim-Dornen</Case><Case(2)>bei den Erdseim-Dornen</Case><Case(3)>der Kampfplatz „Die Erdseim-Dornen“</Case></Switch>",0,0,0
+4277,"Ofen der Ernte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ofen der Ernte</Case><Case(2)>am Ofen der Ernte</Case><Case(3)>der Ofen der Ernte</Case></Switch>",0,0,0
+4278,"Hang des Mons Albus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hang des Mons Albus</Case><Case(2)>auf dem Hang des Mons Albus</Case><Case(3)>der Hang des Mons Albus</Case></Switch>",0,0,0
+4279,"Vicus Messorem",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Vicus Messorem</Case><Case(2)>in Vicus Messorem</Case><Case(3)>Vicus Messorem</Case></Switch>",0,0,0
+4280,"Fons Manalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Fons Manalis</Case><Case(2)>in Fons Manalis</Case><Case(3)>Fons Manalis</Case></Switch>",0,0,0
+4281,"Insel der Erkenntnis (Südwesten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Insel der Erkenntnis =Südwesten</Case><Case(2)>auf der Insel der Erkenntnis =Südwesten</Case><Case(3)>die Insel der Erkenntnis =Südwesten</Case></Switch>",0,1,0
+4282,"Haus des Strahlenden Lichts",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haus des Strahlenden Lichts</Case><Case(2)>am Haus des Strahlenden Lichts</Case><Case(3)>das Haus des Strahlenden Lichts</Case></Switch>",0,1,0
+4283,"Grund des Bronzesees (Nordosten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Grund des Bronzesees =Nordosten</Case><Case(2)>auf dem Grund des Bronzesees =Nordosten</Case><Case(3)>der Grund des Bronzesees =Nordosten</Case></Switch>",0,1,0
+4284,"Kammer der Zwillingsmonde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kammer der Zwillingsmonde</Case><Case(2)>in der Kammer der Zwillingsmonde</Case><Case(3)>die Kammer der Zwillingsmonde</Case></Switch>",0,0,0
+4285,"Bergstraße XLVII",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Bergstraße XLVII</Case><Case(2)>auf der Bergstraße XLVII</Case><Case(3)>die Bergstraße XLVII</Case></Switch>",0,0,0
+4286,"Tyrannenwald",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Tyrannenwald</Case><Case(2)>im Tyrannenwald</Case><Case(3)>der Tyrannenwald</Case></Switch>",0,0,0
+4287,"Gymnasion Agonon",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gymnasion Agonon</Case><Case(2)>im Gymnasion Agonon</Case><Case(3)>das Gymnasion Agonon</Case></Switch>",0,0,0
+4288,"",0,"",0,0,0,0,0,"",0,0,0
+4289,"Berg der Tortur",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Berg der Tortur</Case><Case(2)>auf dem Berg der Tortur</Case><Case(3)>der Berg der Tortur</Case></Switch>",0,0,0
+4290,"Halle der Heiterkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Heiterkeit</Case><Case(2)>in der Halle der Heiterkeit</Case><Case(3)>die Halle der Heiterkeit</Case></Switch>",0,0,0
+4291,"Fuß des Mons Albus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fuß des Mons Albus</Case><Case(2)>am Fuß des Mons Albus</Case><Case(3)>der Fuß des Mons Albus</Case></Switch>",0,0,0
+4292,"Fuß des Mons Albus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fuß des Mons Albus</Case><Case(2)>am Fuß des Mons Albus</Case><Case(3)>der Fuß des Mons Albus</Case></Switch>",0,0,0
+4293,"Khadga-Felsen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Khadga-Felsen</Case><Case(2)>auf dem Khadga-Felsen</Case><Case(3)>der Khadga-Felsen</Case></Switch>",0,0,0
+4294,"Deck des Schneemobils",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Deck des Schneemobils</Case><Case(2)>auf dem Deck des Schneemobils</Case><Case(3)>das Deck des Schneemobils</Case></Switch>",0,0,0
+4295,"Lapis Manalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Lapis Manalis</Case><Case(2)>in Lapis Manalis</Case><Case(3)>Lapis Manalis</Case></Switch>",0,0,0

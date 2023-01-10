@@ -91,7 +91,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 87,"barde de loup",0,"bardes de loup",0,0,1,1,0,"Barde de loup",65618,65618,65618,"None","ui/icon/058000/058762.tex","ui/icon/058000/058764.tex","ui/icon/058000/058763.tex",74
 88,"barde de Barbariccia",0,"bardes de Barbariccia",0,0,1,1,0,"Barde de Barbariccia",65619,65619,65619,"None","ui/icon/058000/058768.tex","ui/icon/058000/058770.tex","ui/icon/058000/058769.tex",154
 89,"barde de pionnier insulaire",0,"bardes de pionnier insulaire",0,0,1,1,0,"Barde de pionnier insulaire",65620,65620,65620,"None","ui/icon/058000/058765.tex","ui/icon/058000/058767.tex","ui/icon/058000/058766.tex",75
-90,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+90,"barde de Rubicante",0,"bardes de Rubicante",0,0,1,1,0,"Barde de Rubicante",65621,65621,65621,"None","ui/icon/058000/058771.tex","ui/icon/058000/058773.tex","ui/icon/058000/058772.tex",155
 91,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 92,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 93,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

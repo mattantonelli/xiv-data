@@ -698,14 +698,14 @@ Guilde des alchimistes",0,0,1,0,0,"",0,0,0
 660,"Mare des Gémissements",0,"Mare des Gémissements",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la mare des Gémissements</Case><Case(2)>à la mare des Gémissements</Case><Case(3)>de la mare des Gémissements</Case></Switch>",0,0,0
 661,"Salle vide",0,"Salle vide",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle vide</Case><Case(2)>à la salle vide</Case><Case(3)>de la salle vide</Case></Switch>",0,0,0
 662,"La Chatterie",0,"La Chatterie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Chatterie</Case><Case(2)>à La Chatterie</Case><Case(3)>de La Chatterie</Case></Switch>",0,0,0
-663,"La Rambade",0,"La Rambade",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Rambade</Case><Case(2)>à La Rambade</Case><Case(3)>de La Rambade</Case></Switch>",0,0,0
+663,"La Première Rambade",0,"La Première Rambade",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Première Rambade</Case><Case(2)>à La Première Rambade</Case><Case(3)>de La Première Rambade</Case></Switch>",0,0,0
 664,"Quartiers des rameurs",0,"Quartiers des rameurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les quartiers des rameurs</Case><Case(2)>aux quartiers des rameurs</Case><Case(3)>des quartiers des rameurs</Case></Switch>",0,0,0
 665,"Sortie",0,"Sortie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la sortie</Case><Case(2)>à la sortie</Case><Case(3)>de la sortie</Case></Switch>",0,0,0
 666,"Quartiers du navigateur",0,"Quartiers du navigateur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les quartiers du navigateur</Case><Case(2)>aux quartiers du navigateur</Case><Case(3)>des quartiers du navigateur</Case></Switch>",0,0,0
 667,"Quartiers des matelots",0,"Quartiers des matelots",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les quartiers des matelots</Case><Case(2)>aux quartiers des matelots</Case><Case(3)>des quartiers des matelots</Case></Switch>",0,0,0
 668,"Quartiers du capitaine",0,"Quartiers du capitaine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les quartiers du capitaine</Case><Case(2)>aux quartiers du capitaine</Case><Case(3)>des quartiers du capitaine</Case></Switch>",0,0,0
 669,"Le Trou",0,"Le Trou",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Trou</Case><Case(2)>au Trou</Case><Case(3)>du Trou</Case></Switch>",0,0,0
-670,"La Rambade",0,"La Rambade",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Rambade</Case><Case(2)>à La Rambade</Case><Case(3)>de La Rambade</Case></Switch>",0,0,0
+670,"La Seconde Rambade",0,"La Seconde Rambade",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Seconde Rambade</Case><Case(2)>à La Seconde Rambade</Case><Case(3)>de La Seconde Rambade</Case></Switch>",0,0,0
 671,"Porte des bourlingueurs",0,"Porte des bourlingueurs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la porte des bourlingueurs</Case><Case(2)>à la porte des bourlingueurs</Case><Case(3)>de la porte des bourlingueurs</Case></Switch>",0,0,0
 672,"Le Giron de la Sultane",0,"Le Giron de la Sultane",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Giron de la Sultane</Case><Case(2)>au Giron de la Sultane</Case><Case(3)>du Giron de la Sultane</Case></Switch>",0,0,0
 673,"Puits A1",0,"Puits A1",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le puits A1</Case><Case(2)>au puits A1</Case><Case(3)>du puits A1</Case></Switch>",0,0,0
@@ -2577,8 +2577,8 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 2525,"Fond du lac Seld (centre)",0,"Fond du lac Seld (centre)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac Seld (centre)</Case><Case(2)>au fond du lac Seld (centre)</Case><Case(3)>du fond du lac Seld (centre)</Case></Switch>",0,1,0
 2526,"Fond du lac Seld (sud-est)",0,"Fond du lac Seld (sud-est)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac Seld (sud-est)</Case><Case(2)>au fond du lac Seld (sud-est)</Case><Case(3)>du fond du lac Seld (sud-est)</Case></Switch>",0,1,0
 2527,"Cité croulante de Nym",0,"Cité croulante de Nym",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la cité croulante de Nym</Case><Case(2)>à la cité croulante de Nym</Case><Case(3)>de la cité croulante de Nym</Case></Switch>",0,0,0
-2528,"",0,"",0,0,1,0,0,"",0,0,0
-2529,"",0,"",0,0,1,0,0,"",0,0,0
+2528,"Sylve sylphe sibylline",0,"Sylve sylphe sibylline",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la sylve sylphe sibylline</Case><Case(2)>à la sylve sylphe sibylline</Case><Case(3)>de la sylve sylphe sibylline</Case></Switch>",0,0,0
+2529,"",0,"",0,0,0,0,0,"",0,0,0
 2530,"Eurêka Pyros",0,"Eurêka Pyros",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Eurêka Pyros</Case><Case(2)>à Eurêka Pyros</Case><Case(3)>d'Eurêka Pyros</Case></Switch>",0,0,0
 2531,"Le Septentrion",0,"Le Septentrion",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Septentrion</Case><Case(2)>au Septentrion</Case><Case(3)>du Septentrion</Case></Switch>",0,0,0
 2532,"Front glacial",0,"Front glacial",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Front glacial</Case><Case(2)>à Front glacial</Case><Case(3)>de Front glacial</Case></Switch>",0,0,0
@@ -2619,12 +2619,22 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 2567,"",0,"",0,0,0,0,0,"",0,0,0
 2568,"",0,"",0,0,0,0,0,"",0,0,0
 2569,"",0,"",0,0,0,0,0,"",0,0,0
-2570,"",0,"",0,0,0,0,0,"",0,0,0
-2571,"",0,"",0,0,0,0,0,"",0,0,0
-2572,"",0,"",0,0,0,0,0,"",0,0,0
-2573,"",0,"",0,0,0,0,0,"",0,0,0
+2570,"Eurêka, la terre interdite
+[Missions d'exploration]",0,"Eurêka, la terre interdite
+[Missions d'exploration]",0,0,1,0,0,"",0,0,0
+2571,"Garde-la-Reine
+[Missions d'exploration]",0,"Garde-la-Reine
+[Missions d'exploration]",0,0,1,0,0,"",0,0,0
+2572,"Palais des morts
+[Donjon sans fond]",0,"Palais des morts
+[Donjon sans fond]",0,0,1,0,0,"",0,0,0
+2573,"Pilier des Cieux
+[Donjon sans fond]",0,"Pilier des Cieux
+[Donjon sans fond]",0,0,1,0,0,"",0,0,0
 2574,"",0,"",0,0,0,0,0,"",0,0,0
-2575,"",0,"",0,0,0,0,0,"",0,0,0
+2575,"Canalisations sildiennes
+[Donjons spéciaux]",0,"Canalisations sildiennes
+[Donjons spéciaux]",0,0,1,0,0,"",0,0,0
 2576,"",0,"",0,0,0,0,0,"",0,0,0
 2577,"",0,"",0,0,0,0,0,"",0,0,0
 2578,"",0,"",0,0,0,0,0,"",0,0,0
@@ -4144,7 +4154,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4090,"Le Palestre",0,"Le Palestre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Palestre</Case><Case(2)>au Palestre</Case><Case(3)>du Palestre</Case></Switch>",0,0,0
 4091,"Le Cœur volcanique",0,"Le Cœur volcanique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cœur volcanique</Case><Case(2)>au Cœur volcanique</Case><Case(3)>du Cœur volcanique</Case></Switch>",0,0,0
 4092,"Le Petit Nuage",0,"Le Petit Nuage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Petit Nuage</Case><Case(2)>au Petit Nuage</Case><Case(3)>du Petit Nuage</Case></Switch>",0,0,0
-4093,"",0,"",0,0,1,0,0,"",0,0,0
+4093,"Le Traquenard oriental",0,"Le Traquenard oriental",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Traquenard oriental</Case><Case(2)>au Traquenard oriental</Case><Case(3)>du Traquenard oriental</Case></Switch>",0,0,0
 4094,"",0,"",0,0,1,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4309,6 +4319,41 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4255,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
 4256,"Élysée",0,"Élysée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Élysée</Case><Case(2)>sur Élysée</Case><Case(3)>d'Élysée</Case></Switch>",0,0,0
 4257,"Avenue Fer-de-hallebarde [Annexe]",0,"Avenue Fer-de-hallebarde [Annexe]",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Annexesur l'l'avenue Fer-de-hallebarde  [Annexe]</Case><Case(2)>de l'avenue Fer-de-hallebarde  [Annexe]</Case></Switch>",0,0,0
-4258,"",0,"",0,0,1,0,0,"",0,0,0
-4259,"",0,"",0,0,1,0,0,"",0,0,0
-4260,"",0,"",0,0,1,0,0,"",0,0,0
+4258,"Domaine divin - Euphrosyne",0,"Domaine divin - Euphrosyne",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le domaine divin - Euphrosyne</Case><Case(2)>au domaine divin - Euphrosyne</Case><Case(3)>du domaine divin - Euphrosyne</Case></Switch>",0,0,0
+4259,"Voûte de la terre",0,"Voûte de la terre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de la terre</Case><Case(2)>à la voûte de la terre</Case><Case(3)>de la voûte de la terre</Case></Switch>",0,0,0
+4260,"Voûte de la glace",0,"Voûte de la glace",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de la glace</Case><Case(2)>à la voûte de la glace</Case><Case(3)>de la voûte de la glace</Case></Switch>",0,0,0
+4261,"Sanctuaire de l'Azur",0,"Sanctuaire de l'Azur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sanctuaire de l'Azur</Case><Case(2)>dans le sanctuaire de l'Azur</Case><Case(3)>du sanctuaire de l'Azur</Case></Switch>",0,0,0
+4262,"Toits du sanctuaire de l'Azur",0,"Toits du sanctuaire de l'Azur",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les toits du sanctuaire de l'Azur</Case><Case(2)>aux toits du sanctuaire de l'Azur</Case><Case(3)>des toits du sanctuaire de l'Azur</Case></Switch>",0,0,0
+4263,"Voûte de la terre",0,"Voûte de la terre",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de la terre</Case><Case(2)>à la voûte de la terre</Case><Case(3)>de la voûte de la terre</Case></Switch>",0,0,0
+4264,"Voûte de la glace",0,"Voûte de la glace",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de la glace</Case><Case(2)>à la voûte de la glace</Case><Case(3)>de la voûte de la glace</Case></Switch>",0,0,0
+4265,"Terre d'abondance",0,"Terre d'abondance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la terre d'abondance</Case><Case(2)>à la terre d'abondance</Case><Case(3)>de la terre d'abondance</Case></Switch>",0,0,0
+4266,"Racines de l'Arbre-Monde",0,"Racines de l'Arbre-Monde",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les racines de l'Arbre-Monde</Case><Case(2)>aux racines de l'Arbre-Monde</Case><Case(3)>des racines de l'Arbre-Monde</Case></Switch>",0,0,0
+4267,"Arbre-Monde",0,"Arbre-Monde",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Arbre-Monde</Case><Case(2)>à l'Arbre-Monde</Case><Case(3)>de l'Arbre-Monde</Case></Switch>",0,0,0
+4268,"Glacier ciselé",0,"Glacier ciselé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le glacier ciselé</Case><Case(2)>au glacier ciselé</Case><Case(3)>du glacier ciselé</Case></Switch>",0,0,0
+4269,"Quartiers de la Conquérante",0,"Quartiers de la Conquérante",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les quartiers de la Conquérante</Case><Case(2)>aux quartiers de la Conquérante</Case><Case(3)>des quartiers de la Conquérante</Case></Switch>",0,0,0
+4270,"Lapis Manalis",0,"Lapis Manalis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Lapis Manalis</Case><Case(2)>à Lapis Manalis</Case><Case(3)>de Lapis Manalis</Case></Switch>",0,0,0
+4271,"Flanc du Mons Albus",0,"Flanc du Mons Albus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le flanc du Mons Albus</Case><Case(2)>au flanc du Mons Albus</Case><Case(3)>du flanc du Mons Albus</Case></Switch>",0,0,0
+4272,"Vicus Messorem",0,"Vicus Messorem",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Vicus Messorem</Case><Case(2)>à Vicus Messorem</Case><Case(3)>de Vicus Messorem</Case></Switch>",0,0,0
+4273,"Fons Manalis",0,"Fons Manalis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Fons Manalis</Case><Case(2)>à Fons Manalis</Case><Case(3)>de Fons Manalis</Case></Switch>",0,0,0
+4274,"Trône de la Bête des neiges",0,"Trône de la Bête des neiges",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Trône de la Bête des neiges</Case><Case(2)>au Trône de la Bête des neiges</Case><Case(3)>du Trône de la Bête des neiges</Case></Switch>",0,0,0
+4275,"Forum Messorem",0,"Forum Messorem",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Forum Messorem</Case><Case(2)>à Forum Messorem</Case><Case(3)>de Forum Messorem</Case></Switch>",0,0,0
+4276,"Épines céruléennes",0,"Épines céruléennes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Épines céruléennes</Case><Case(2)>aux Épines céruléennes</Case><Case(3)>des Épines céruléennes</Case></Switch>",0,0,0
+4277,"Four à Épis",0,"Four à Épis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Four à Épis</Case><Case(2)>au Four à Épis</Case><Case(3)>du Four à Épis</Case></Switch>",0,0,0
+4278,"Flanc du Mons Albus",0,"Flanc du Mons Albus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le flanc du Mons Albus</Case><Case(2)>au flanc du Mons Albus</Case><Case(3)>du flanc du Mons Albus</Case></Switch>",0,0,0
+4279,"Vicus Messorem",0,"Vicus Messorem",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Vicus Messorem</Case><Case(2)>à Vicus Messorem</Case><Case(3)>de Vicus Messorem</Case></Switch>",0,0,0
+4280,"Fons Manalis",0,"Fons Manalis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Fons Manalis</Case><Case(2)>à Fons Manalis</Case><Case(3)>de Fons Manalis</Case></Switch>",0,0,0
+4281,"Sud-ouest de l'île de Ken",0,"Sud-ouest de l'île de Ken",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sud-ouest de l'île de Ken</Case><Case(2)>au sud-ouest de l'île de Ken</Case><Case(3)>du sud-ouest de l'île de Ken</Case></Switch>",0,1,0
+4282,"Alentours de l'Abbaye de l'Aurore",0,"Alentours de l'Abbaye de l'Aurore",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les alentours de l'Abbaye de l'Aurore</Case><Case(2)>aux alentours  de l'Abbaye de l'Aurore</Case><Case(3)>des alentours de l'Abbaye de l'Aurore</Case></Switch>",0,1,0
+4283,"Nord-est du lac d'Airain",0,"Nord-est du lac d'Airain",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord-est du lac d'Airain</Case><Case(2)>au nord-est du lac d'Airain</Case><Case(3)>du nord-est du lac d'Airain</Case></Switch>",0,1,0
+4284,"Chambre des lunes jumelles",0,"Chambre des lunes jumelles",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre des lunes jumelles</Case><Case(2)>à la chambre des lunes jumelles</Case><Case(3)>de la chambre des lunes jumelles</Case></Switch>",0,0,0
+4285,"Route de montagne XLVII",0,"Route de montagne XLVII",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la route de montagne XLVII</Case><Case(2)>sur la route de montagne XLVII</Case><Case(3)>de la route de montagne XLVII</Case></Switch>",0,0,0
+4286,"Bois du Tyran",0,"Bois du Tyran",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bois du Tyran</Case><Case(2)>dans le bois du Tyran</Case><Case(3)>du bois du Tyran</Case></Switch>",0,0,0
+4287,"Elpis Gymnasion",0,"Elpis Gymnasion",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Elpis Gymnasion</Case><Case(2)>à Elpis Gymnasion</Case><Case(3)>d'Elpis Gymnasion</Case></Switch>",0,0,0
+4288,"",0,"",0,0,0,0,0,"",0,0,0
+4289,"Mont du Supplice",0,"Mont du Supplice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Mont du Supplice</Case><Case(2)>au Mont du Supplice</Case><Case(3)>du Mont du Supplice</Case></Switch>",0,0,0
+4290,"Berceau des espoirs",0,"Berceau des espoirs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Berceau des espoirs</Case><Case(2)>au Berceau des espoirs</Case><Case(3)>du Berceau des espoirs</Case></Switch>",0,0,0
+4291,"Pied du Mons Albus",0,"Pied du Mons Albus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pied du Mons Albus</Case><Case(2)>au pied du Mons Albus</Case><Case(3)>du pied du Mons Albus</Case></Switch>",0,0,0
+4292,"Pied du Mons Albus",0,"Pied du Mons Albus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pied du Mons Albus</Case><Case(2)>au pied du Mons Albus</Case><Case(3)>du pied du Mons Albus</Case></Switch>",0,0,0
+4293,"Khadga",0,"Khadga",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Khadga</Case><Case(2)>au Khadga</Case><Case(3)>du Khadga</Case></Switch>",0,0,0
+4294,"Toit de l'autoneige magitek",0,"Toit de l'autoneige magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le toit de l'autoneige magitek</Case><Case(2)>sur le toit de l'autoneige magitek</Case><Case(3)>du toit de l'autoneige magitek</Case></Switch>",0,0,0
+4295,"Lapis Manalis",0,"Lapis Manalis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Lapis Manalis</Case><Case(2)>à Lapis Manalis</Case><Case(3)>de Lapis Manalis</Case></Switch>",0,0,0
