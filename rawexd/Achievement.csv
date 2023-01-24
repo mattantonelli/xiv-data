@@ -3187,7 +3187,7 @@ int32,AchievementCategory,str,str,AchievementTarget,byte,byte,Title,Item,byte,by
 3159,49,"Mapping the Realm: Euphrosyne","Discover every location within Euphrosyne.",0,0,10,0,0,255,255,0,1001,1,8,811,0,0,0,0,0,0,0,0,1508,65,0
 3160,3,"Ordeal by Fire","Defeat Rubicante on Mount Ordeals (Extreme).",0,0,10,0,0,255,255,0,317,1,14,20087,0,0,0,0,0,0,0,0,38,1,0
 3161,4,"Divine Revelry","Complete Euphrosyne.",0,0,5,0,0,255,255,0,64849,1,14,30125,0,0,0,0,0,0,0,0,0,65,0
-3162,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3162,4,"Heart to Heartless","See Omega's experiment to its ultimate conclusion in the Omega Protocol (Ultimate).",43,90,10,667,0,255,255,0,64855,1,14,30124,0,0,0,0,0,0,0,0,0,1,0
 3163,12,"Satisfaction Guaranteed: Anden I","Achieve a satisfaction level of 1 with Anden.",0,0,5,0,0,255,255,0,25507,1,1,1030,1,0,0,0,0,0,0,0,221,1,0
 3164,12,"Satisfaction Guaranteed: Anden II","Achieve a satisfaction level of 2 with Anden.",0,0,5,0,0,255,255,0,25507,1,1,1030,2,0,0,0,0,0,0,0,222,1,0
 3165,12,"Satisfaction Guaranteed: Anden III","Achieve a satisfaction level of 3 with Anden.",0,0,5,0,0,255,255,0,25507,1,1,1030,3,0,0,0,0,0,0,0,223,1,0

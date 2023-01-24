@@ -668,7 +668,7 @@ int32,str,str,bit&01,uint16
 664,"","",False,0
 665,"","",False,0
 666,"","",False,0
-667,"","",False,0
+667,"Légende Alpha","Légende Alpha",False,1733
 668,"Agoniste","Agoniste",False,1734
 669,"Gymnasiarque","Gymnasiarque",False,1735
 670,"Olympien","Olympienne",False,1736

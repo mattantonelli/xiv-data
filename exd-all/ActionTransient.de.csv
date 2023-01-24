@@ -36986,7 +36986,7 @@ Attacke-Wert: 2000
 Dauer: 10 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tri-Mudra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
-29515,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % Maximal-LP, wird es kampfunfähig.
+29515,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % der Maximal-LP, wird es kampfunfähig.
 Attacke-Wert: 10000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
@@ -36998,7 +36998,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenc
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Aufladedauer: 90 Sekunden
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
-29516,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % Maximal-LP, wird es kampfunfähig.
+29516,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % der Maximal-LP, wird es kampfunfähig.
 Attacke-Wert: 10000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
@@ -37475,7 +37475,7 @@ Zusatzeffekt: Umstehende Gegner werden zu dem anvisierten Ziel hingezogen."
 Attacke-Wert: 4000 bis 8000
 Attacke-Wert umso höher, je niedriger die LP des Ziels sind. Maximalen Wert erreicht er ab 50<Indent/>% Maximal-LP des Ziels.
 Maximale Aufladungen: 2"
-29673,"Du rufst Demi-Bahamut an den von dir bestimmten Punkt, der bei seiner Beschwörung <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Megaflare<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführt, und gewährst dir selbst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bahamut-Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Während Demi-Bahamut beschworen ist, führt er <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Drachenwelle<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aus und priorisiert dabei den Gegner mit den wenigsten verbliebenen Maximal-LP in einem Umkreis von 30y.
+29673,"Du rufst Demi-Bahamut an den von dir bestimmten Punkt, der bei seiner Beschwörung <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Megaflare<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführt, und gewährst dir selbst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bahamut-Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Während Demi-Bahamut beschworen ist, führt er <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Drachenwelle<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aus und priorisiert dabei den Gegner mit den wenigsten verbliebenen LP in einem Umkreis von 30y.
 Dauer der Beschwörung: 20 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bahamut-Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Ruinga<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Lichtimpuls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll
@@ -39806,8 +39806,7 @@ Dauer: 20 Sekunden"
 31783,""
 31784,""
 31785,"Du führst eine Sprung-Attacke auf das Ziel aus.
-Attacke-Wert: 150
-"
+Attacke-Wert: 150"
 31786,""
 31787,""
 31788,""

@@ -3187,7 +3187,7 @@ int32,AchievementCategory,str,str,AchievementTarget,byte,byte,Title,Item,byte,by
 3159,"Duty","Mapping the Realm: Euphrosyne","Discover every location within Euphrosyne.","0",0,10," / ","",255,255,0,"ui/icon/001000/001001.tex",1,8,"z5r2/01",,,,,,,,,1508,65,"AchievementHideCondition#0"
 3160,"Trials","Ordeal by Fire","Defeat Rubicante on Mount Ordeals (Extreme).","0",0,10," / ","",255,255,0,"ui/icon/000000/000317.tex",1,14,"InstanceContent#20087",,,,,,,,,38,1,"AchievementHideCondition#0"
 3161,"Raids","Divine Revelry","Complete Euphrosyne.","0",0,5," / ","",255,255,0,"ui/icon/064000/064849.tex",1,14,"InstanceContent#30125",,,,,,,,,0,65,"AchievementHideCondition#0"
-3162,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
+3162,"Raids","Heart to Heartless","See Omega's experiment to its ultimate conclusion in the Omega Protocol (Ultimate).","34",90,10,"The Alpha Legend / The Alpha Legend","",255,255,0,"ui/icon/064000/064855.tex",1,14,"InstanceContent#30124",,,,,,,,,0,1,"AchievementHideCondition#0"
 3163,"General","Satisfaction Guaranteed: Anden I","Achieve a satisfaction level of 1 with Anden.","0",0,5," / ","",255,255,0,"ui/icon/025000/025507.tex",1,1,,,,,,,,,,221,1,"AchievementHideCondition#0"
 3164,"General","Satisfaction Guaranteed: Anden II","Achieve a satisfaction level of 2 with Anden.","0",0,5," / ","",255,255,0,"ui/icon/025000/025507.tex",1,1,,,,,,,,,,222,1,"AchievementHideCondition#0"
 3165,"General","Satisfaction Guaranteed: Anden III","Achieve a satisfaction level of 3 with Anden.","0",0,5," / ","",255,255,0,"ui/icon/025000/025507.tex",1,1,,,,,,,,,,223,1,"AchievementHideCondition#0"

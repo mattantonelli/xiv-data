@@ -4349,7 +4349,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4285,"Route de montagne XLVII",0,"Route de montagne XLVII",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la route de montagne XLVII</Case><Case(2)>sur la route de montagne XLVII</Case><Case(3)>de la route de montagne XLVII</Case></Switch>",0,0,0
 4286,"Bois du Tyran",0,"Bois du Tyran",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bois du Tyran</Case><Case(2)>dans le bois du Tyran</Case><Case(3)>du bois du Tyran</Case></Switch>",0,0,0
 4287,"Elpis Gymnasion",0,"Elpis Gymnasion",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Elpis Gymnasion</Case><Case(2)>à Elpis Gymnasion</Case><Case(3)>d'Elpis Gymnasion</Case></Switch>",0,0,0
-4288,"",0,"",0,0,0,0,0,"",0,0,0
+4288,"Fissure interdimensionnelle",0,"Fissure interdimensionnelle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la fissure interdimensionnelle</Case><Case(2)>à la fissure interdimensionnelle</Case><Case(3)>de la fissure interdimensionnelle</Case></Switch>",0,0,0
 4289,"Mont du Supplice",0,"Mont du Supplice",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Mont du Supplice</Case><Case(2)>au Mont du Supplice</Case><Case(3)>du Mont du Supplice</Case></Switch>",0,0,0
 4290,"Berceau des espoirs",0,"Berceau des espoirs",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Berceau des espoirs</Case><Case(2)>au Berceau des espoirs</Case><Case(3)>du Berceau des espoirs</Case></Switch>",0,0,0
 4291,"Pied du Mons Albus",0,"Pied du Mons Albus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pied du Mons Albus</Case><Case(2)>au pied du Mons Albus</Case><Case(3)>du pied du Mons Albus</Case></Switch>",0,0,0

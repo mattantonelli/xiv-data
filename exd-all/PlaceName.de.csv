@@ -4313,7 +4313,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4285,"Bergstraße XLVII",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Bergstraße XLVII</Case><Case(2)>auf der Bergstraße XLVII</Case><Case(3)>die Bergstraße XLVII</Case></Switch>",0,0,0
 4286,"Tyrannenwald",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Tyrannenwald</Case><Case(2)>im Tyrannenwald</Case><Case(3)>der Tyrannenwald</Case></Switch>",0,0,0
 4287,"Gymnasion Agonon",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gymnasion Agonon</Case><Case(2)>im Gymnasion Agonon</Case><Case(3)>das Gymnasion Agonon</Case></Switch>",0,0,0
-4288,"",0,"",0,0,0,0,0,"",0,0,0
+4288,"Interdimensionaler Riss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(2)>im Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case><Case(3)>der Zugang zum Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Riss</Case></Switch>",0,0,0
 4289,"Berg der Tortur",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Berg der Tortur</Case><Case(2)>auf dem Berg der Tortur</Case><Case(3)>der Berg der Tortur</Case></Switch>",0,0,0
 4290,"Halle der Heiterkeit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Heiterkeit</Case><Case(2)>in der Halle der Heiterkeit</Case><Case(3)>die Halle der Heiterkeit</Case></Switch>",0,0,0
 4291,"Fuß des Mons Albus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fuß des Mons Albus</Case><Case(2)>am Fuß des Mons Albus</Case><Case(3)>der Fuß des Mons Albus</Case></Switch>",0,0,0

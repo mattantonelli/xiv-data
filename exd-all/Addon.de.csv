@@ -4279,7 +4279,7 @@ Wirklich abliefern?"
 4682,"Inventar: Bauelemente/Ausstattung"
 4683,"ELEMENT"
 4685,"Gehilfeninventar: Ausrüstung"
-4686,"Gehilfeninventar: Bauelemente/Ausstattung"
+4686,"Gehilfeninventar: Bauelem./Ausstattung"
 4687,"Anwenden"
 4688,"Anderer Gegenstand"
 4689,"Bedingung zum Färben: „<Highlight>StringParameter(2)</Highlight>“ abgeschlossen.
@@ -13269,7 +13269,7 @@ Im Vorrat: <Value>IntegerParameter(3)</Value>"
 14368,"<Highlight>StringParameter(1)</Highlight>"
 14369,"Filter-Einstellungen"
 14370,"FILTEREINSTELLUNGEN"
-14371,"Filter-Einstellungen"
+14371,""
 14372,"Filter"
 14373,"Region"
 14374,"Alle Regionen"
@@ -14151,7 +14151,7 @@ oder Handwerker bzw. Sammler "
 15503,"Den Fütterungsplan beenden und <Highlight>StringParameter(1)</Highlight> freilassen?
 Abwurf wird automatisch erhalten, doch Gegenstände über der Obergrenze gehen verloren.
 
-※ Freigelassene Tiere kommen nicht wieder zurück.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Freigelassene Tiere kommen nicht wieder zurück.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 15504,"Alles annehmen"
 15505,"Möchtest du die gesamte Ernte des Saatplans annehmen?
 
@@ -14165,10 +14165,10 @@ Abwurf wird automatisch erhalten, doch Gegenstände über der Obergrenze gehen v
 15512,"Den Fütterungsplan beenden und <SheetDe(BNpcName,2,IntegerParameter(1),1,4,1)/> freilassen?
 Abwurf wird automatisch erhalten, doch Gegenstände über der Obergrenze gehen verloren.
 
-※ Freigelassene Tiere kommen nicht wieder zurück.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Freigelassene Tiere kommen nicht wieder zurück.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 15513,"Im Domizil abspielen"
 15600,"FILTEREINSTELLUNGEN"
-15601,"Filter-Einstellungen"
+15601,""
 15602,"Filter"
 15603,"Aus<SoftHyphen/>rüstungs<SoftHyphen/>stufe"
 15604,"St."
@@ -14715,7 +14715,7 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 102566,"<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Wer andere mit Ausschluss-Abstimmungen schikaniert, muss mit Strafen rechnen.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 102567,"Einstellungen"
 102568,"Portraits zur Wahl anzeigen?
-※ Ab dem nächsten Inhalt gültig, wenn ein Mitglied fehlt."
+※ Ab dem nächsten Inhalt gültig, falls alle Mitglieder bereits die Gruppe verlassen haben."
 102569,"Portraits anzeigen"
 102570,"EHRUNGEN"
 102571,""

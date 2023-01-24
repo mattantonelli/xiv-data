@@ -43909,7 +43909,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1043905,"Lisette de Valention",0,"Lisette de Valention",0,0,1,1,1,"",3,False
 1043906,"Hortefense",0,"Hortefense",0,0,1,0,1,"",3,False
 1043907,"Astrid",0,"Astrid",0,1,1,1,1,"",3,False
-1043908,"Emilie",0,"Emilie",0,1,1,1,1,"Événements saisonniers",3,False
+1043908,"Emilie",0,"Emilie",0,1,1,1,1,"Événements saisonniers",3,True
 1043909,"Pukty Piko",0,"Pukty Piko",0,0,1,0,1,"",3,False
 1043910,"Amour",0,"Amour",0,1,1,0,1,"",3,False
 1043911,"",0,"",0,0,1,0,0,"",5,False
@@ -44654,7 +44654,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1044650,"",0,"",0,0,0,0,0,"",0,False
 1044651,"",0,"",0,0,0,0,0,"",0,False
 1044652,"",0,"",0,0,0,0,0,"",0,False
-1044653,"",0,"",0,0,0,0,0,"",0,False
+1044653,"",0,"",0,0,1,0,0,"",4,False
 1044654,"pêcheur baraqué",0,"pêcheurs baraqués",0,0,1,0,0,"",4,False
 1044655,"sentinelle de l'Ost rayonnant",0,"sentinelles de l'Ost rayonnant",0,0,1,1,0,"",4,False
 1044656,"œil du néant",0,"yeux du néant",0,1,1,0,0,"",4,False

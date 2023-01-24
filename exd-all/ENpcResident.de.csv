@@ -37306,7 +37306,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1037302,"Nesvaaz",3,"NONE",1,0,0,0,1,"Verschiedenes",3,True
 1037303,"Djole",3,"NONE",1,0,0,1,1,"Pandæmonium-Ausrüstung",3,True
 1037304,"Sajareen",3,"NONE",1,0,0,0,1,"FATE-Händler",3,True
-1037305,"Rashti",3,"Rashti",1,0,0,1,1,"Waffen",3,True
+1037305,"Rashti",3,"Rashti",1,0,0,1,1,"Radz-at-Han-Marken",3,True
 1037306,"Begutachter",4,"Begutachter",2,0,1,0,0,"Sammlerstücke",3,True
 1037307,"Scheinewechslerin",3,"Scheinewechslerinnen",1,0,1,1,0,"",3,True
 1037308,"Händlerin",3,"Händlerinnen",1,0,1,1,0,"Wunderwaren",3,True
@@ -43909,7 +43909,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1043905,"Lisette von Valention",3,"NONE",1,0,0,1,1,"",3,False
 1043906,"Hortefense",3,"NONE",1,0,0,0,1,"",3,False
 1043907,"Astrid",3,"NONE",1,0,0,1,1,"",3,False
-1043908,"Emilie",3,"NONE",1,0,0,1,1,"Saisonales Ereignis",3,False
+1043908,"Emilie",3,"NONE",1,0,0,1,1,"Saisonales Ereignis",3,True
 1043909,"Pukty Piko",3,"NONE",1,0,0,1,1,"",3,False
 1043910,"Limobo",3,"NONE",1,0,0,0,1,"",3,False
 1043911,"",0,"",0,0,1,0,0,"",5,False
@@ -44654,7 +44654,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1044650,"",0,"",0,0,0,0,0,"",0,False
 1044651,"",0,"",0,0,0,0,0,"",0,False
 1044652,"",0,"",0,0,0,0,0,"",0,False
-1044653,"",0,"",0,0,0,0,0,"",0,False
+1044653,"",0,"",0,0,1,0,0,"",4,False
 1044654,"kräftig[a] Fischer",4,"kräftig[a] Fischer",2,0,1,0,0,"",4,False
 1044655,"Wachmann[p] des Himmelsheers",4,"Wachmänner[p] des Himmelsheers",2,0,1,0,0,"",4,False
 1044656,"Glotzer",4,"Glotzer",2,0,1,0,0,"",4,False
@@ -44905,7 +44905,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1044901,"",0,"",0,0,1,0,0,"",5,False
 1044902,"",0,"",0,0,1,0,0,"",5,False
 1044903,"",0,"",0,0,1,0,0,"",5,False
-1044904,"kühn[a] Ritter",4,"kühn[a] Ritter",2,0,1,0,0,"",3,False
+1044904,"kühn[a] Ritterin",3,"kühn[a] Ritterinnen",1,0,1,1,0,"",3,False
 1044905,"",0,"",0,0,0,0,0,"",0,False
 1044906,"",0,"",0,0,0,0,0,"",0,False
 1044907,"",0,"",0,0,0,0,0,"",0,False

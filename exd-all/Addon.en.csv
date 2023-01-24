@@ -5218,17 +5218,17 @@ Please remove it from your hotbar."
 <Highlight>StringParameter(1)</Highlight>
  (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete the following duty:
 <Highlight>StringParameter(1)</Highlight></If>"
-5622,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Commence one of the following instanced dungeons:
+5622,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Commence a dungeon in the following category:
 <Highlight>StringParameter(1)</Highlight>
- (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Commence one of the following instanced dungeons:
+ (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Commence a dungeon in the following category:
 <Highlight>StringParameter(1)</Highlight></If>"
 5623,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Participate in the following:
 <Highlight>StringParameter(1)</Highlight>
  (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Participate in the following:
 <Highlight>StringParameter(1)</Highlight></If>"
-5624,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Complete one of the following duties:
+5624,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Complete a duty in the following category:
 <Highlight>StringParameter(1)</Highlight>
- (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete one of the following duties:
+ (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete a duty in the following category:
 <Highlight>StringParameter(1)</Highlight></If>"
 5625,"Second Chance points can be earned by completing select duties with party members who are new to the duty."
 5626,"Second Chance Points: <Value>IntegerParameter(1)</Value>/9"
