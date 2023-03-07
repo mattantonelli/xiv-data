@@ -2852,6 +2852,12 @@ Passe un appel via linkperle.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/appelvialinkperle","/applink","pdamage",0
+653,2,1,2,0,0,"/earwiggle","","/longuesoreillessoyeuses, /longorsoy, /earwiggle
+Utilisation<Indent/>: /longuesoreillessoyeuses [sous-commande]
+Exhibe de longues oreilles soyeuses.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/longuesoreillessoyeuses","/longorsoy","pdamage",0
 657,2,1,2,0,0,"/frighten","","/effrayer, /frighten
 Utilisation<Indent/>: /effrayer [sous-commande]
 Prend un air effrayant.

@@ -36239,7 +36239,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexion<
 Kann nicht im Kommandomenü angelegt werden."
 29264,"Du erhältst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und du oder das anvisierte Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dosis III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eukratische Dosis III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> regenerieren bei dir oder dem Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit aktivem <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> LP."
 29265,""
-29266,"Du erschaffst einen Schild um den anvisierten Bereich. Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in diesem Bereich gewährst du <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mesotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Feinde belegst du hingegen mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lypros<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Während der Effektdauer kannst du das Schild einmalig neu platzieren, wobei die Effektdauer dadurch nicht zurückgesetzt wird.
+29266,"Du erschaffst einen Schild um den anvisierten Bereich. Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in diesem Bereich gewährst du <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mesotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Feinde belegst du hingegen mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lypros<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Während der Effektdauer kannst du den Schild einmalig neu platzieren, wobei die Effektdauer dadurch nicht zurückgesetzt wird.
 Dauer des Schildes: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mesotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Unverwundbar gegen alle Attacken von Gegnern ohne <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lypros<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 5 Sekunden
@@ -36248,7 +36248,7 @@ Attacke-Wert: 8000
 Dauer: 5 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll
 Aufladedauer: 120 Sekunden"
-29267,"Du erschaffst einen Schild um den anvisierten Bereich. Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in diesem Bereich gewährst du <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mesotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Feinde belegst du hingegen mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lypros<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Während der Effektdauer kannst du das Schild einmalig neu platzieren, wobei die Effektdauer dadurch nicht zurückgesetzt wird.
+29267,"Du erschaffst einen Schild um den anvisierten Bereich. Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in diesem Bereich gewährst du <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mesotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, Feinde belegst du hingegen mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lypros<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Während der Effektdauer kannst du den Schild einmalig neu platzieren, wobei die Effektdauer dadurch nicht zurückgesetzt wird.
 Dauer des Schildes: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mesotes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Unverwundbar gegen alle Attacken von Gegnern ohne <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lypros<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 5 Sekunden
@@ -39135,8 +39135,9 @@ Kann nicht im Kommandomenü angelegt werden."
 31113,""
 31114,""
 31115,""
-31116,""
-31117,""
+31116,"Lässt eine schmissige Melodie erklingen."
+31117,"Lässt eine schmissige Melodie erklingen.
+(Nur audiovisueller Effekt, keine Wirkung.)"
 31118,""
 31119,""
 31120,""
@@ -39416,10 +39417,15 @@ Dauer: 20 Sekunden"
 31393,""
 31394,""
 31395,""
-31396,""
-31397,""
-31398,""
-31399,""
+31396,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 1600
+Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Ring frei<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+31397,"Du springst auf dein Ziel zu und fügst allen Gegnern auf dem Weg physischen Schaden zu.
+Attacke-Wert: 900
+Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Ring frei<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+31398,"Du erhöhst deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit auf anmutige Weise.
+Dauer: 15 Sekunden"
+31399,"Du setzt eine mächtige Gentleman-Technik gegen dein Ziel ein."
 31400,""
 31401,""
 31402,""
@@ -40810,8 +40816,8 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%."
 32778,""
 32779,""
 32780,""
-32781,""
-32782,""
+32781,"Fügt dem Ziel Schaden zu."
+32782,"Fügt Gegnern in der Nähe des Ziels Schaden zu und erhöht ihren erlittenen Schaden."
 32783,""
 32784,""
 32785,""

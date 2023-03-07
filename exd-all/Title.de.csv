@@ -662,12 +662,12 @@ int32,str,str,bit&01,uint16
 658,"Fürstenjäger","Fürstenjägerin",True,1724
 659,"Grasflüsterer","Grasflüsterin",True,1725
 660,"der mit dem Schaf tanzt","die mit dem Schaf tanzt",False,1726
-661,"","",False,0
-662,"","",False,0
-663,"","",False,0
-664,"","",False,0
-665,"","",False,0
-666,"","",False,0
+661,"der Dämmerung","der Dämmerung",False,1727
+662,"des Wahren Stahls","des Wahren Stahls",False,1728
+663,"der König auf Eureka","die Königin auf Eureka",False,1729
+664,"Horter verborgener Schätze","Horterin verborgener Schätze",True,1730
+665,"Hoheitlicher Held","Hoheitliche Heldin",True,1731
+666,"Fachmann der Träume","Fachfrau der Träume",True,1732
 667,"die Alpha-Legende","die Alpha-Legende",False,1733
 668,"Agonistes","Agonistes",True,1734
 669,"Gymnasiarch","Gymnasiarchin",True,1735

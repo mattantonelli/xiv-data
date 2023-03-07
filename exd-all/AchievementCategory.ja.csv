@@ -79,4 +79,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 75,"マンダヴィルウェポン","Items",True,False,12
 76,"メインクエスト","Quests",True,False,2
 77,"ジョブ／ロールクエスト","Quests",True,False,3
-78,"","",False,False,0
+78,"モーエンツール","Items",True,False,52

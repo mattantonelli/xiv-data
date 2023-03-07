@@ -79,4 +79,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 75,"Manderville Weapons","Items",True,False,12
 76,"Main Scenario","Quests",True,False,2
 77,"Job/Role Quests","Quests",True,False,3
-78,"","",False,False,0
+78,"Splendorous Tools","Items",True,False,52

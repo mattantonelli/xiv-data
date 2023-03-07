@@ -79,4 +79,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 75,"Manderville-Waffen","Items",True,False,12
 76,"Hauptszenario","Quests",True,False,2
 77,"Job- und Rollenaufträge","Quests",True,False,3
-78,"","",False,False,0
+78,"Mowen-Werkzeuge","Items",True,False,52

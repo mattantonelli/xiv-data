@@ -662,12 +662,12 @@ int32,str,str,bit&01,uint16
 658,"Pourfendeur de démons","Pourfendeuse de démons",False,1724
 659,"Conseiller des enfeuillés","Conseillère des enfeuillés",False,1725
 660,"Faiseur d'homme","Faiseuse d'homme",False,1726
-661,"","",False,0
-662,"","",False,0
-663,"","",False,0
-664,"","",False,0
-665,"","",False,0
-666,"","",False,0
+661,"Précipitateur du crépuscule","Précipitatrice du crépuscule",False,1727
+662,"Lame d'acier","Lame d'acier",False,1728
+663,"Roi d'un jour prochain","Reine d'un jour prochain",False,1729
+664,"Le maudit","La maudite",False,1730
+665,"Héro souverain","Héroine souveraine",False,1731
+666,"Artisan sélène","Artisane sélène",False,1732
 667,"Légende Alpha","Légende Alpha",False,1733
 668,"Agoniste","Agoniste",False,1734
 669,"Gymnasiarque","Gymnasiarque",False,1735
