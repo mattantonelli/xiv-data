@@ -148,7 +148,7 @@ geschwind wie Sausewind.
 55,"Rufe deinen Manaschnitter herbei, das einsitzige Luftschiff der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke.","Dieser Einsitzer ist eine Gemeinschaftsarbeit der Chef-Ingenieure Biggs und Wedge und trägt den ersten Motor auf Basis denaturierter Kristalle unter der Haube.","Mit unserer neuesten Erfindung haben
 wir uns mal wieder selbst übertroffen!
 <Emphasis>Wedge</Emphasis>"
-56,"Rufe deinen Kriegspanther herbei. Dieser lautlose Killer ist darauf abgerichtet, alles und jeden zu zerfleischen - außer dich, versteht sich.","Die schwarzen Raubkatzen sind wesentlich schwieriger abzurichten als ihre nahen Verwandten, die Coeurl, doch verschaffen ihre angeborenen magischen Fähigkeiten dem Reiter einen erheblichen kämpferischen Vorteil.","Ein Jäger ohne Krallen ist nichts weiter als wehrlose Beute.
+56,"Rufe deinen Kriegspanther herbei. Dieser lautlose Killer ist darauf abgerichtet, alles und jeden zu zerfleischen - außer dich, versteht sich.","Die schwarzen Raubkatzen sind wesentlich schwieriger abzurichten als ihre nahen Verwandten, die Coeurl, doch verschaffen ihre angeborenen magischen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten dem Reiter einen erheblichen kämpferischen Vorteil.","Ein Jäger ohne Krallen ist nichts weiter als wehrlose Beute.
 <Emphasis>Pawah Mujuuk</Emphasis>"
 57,"","",""
 58,"Rufe deinen Stampfer herbei, eine dampfbetriebene Kriegsmaschine der berüchtigten Indigohand.","Dieses Modell ist wesentlich zuverlässiger als die ersten Prototypen, die häufig außer Kontrolle gerieten und dabei ganze Werkstätten verwüsteten.","Macht Vielebumm. Muzzu gucken!
@@ -564,9 +564,9 @@ derlich, andererseits angesichts der Genialität seines Schöpfers auch wieder n
 255,"Rufe deine Paradies-Mandragora herbei. Nur im Inselparadies erreichen Mandragoras derart monströse Ausmaße.","Als Spross des sagen<SoftHyphen/>umwobenen Hauses der Paradies-Mandragoras reifte dieses Exemplar dank bester Wetterbedingungen zu gewaltiger Größe heran. Nun bleibt zu hoffen, dass kein Gemüsehändler das Inselparadies entdeckt und sich einfallen lässt, mit der prächtigen Knolle auf dem Markt ein Vermögen zu verdienen.","〇□◎◎▲！"
 256,"Rufe deinen Prinz Paradieszwiebel herbei. Eine Zwiebel, deren Durchmesser ihrem Titel alle Ehre macht.","Aller höfischen Erziehung zum Trotz, machte er seinen Eltern als rebellisches Junggemüse das Leben schwer. So schickten sie ihn fort aus dem komfortablen Inselparadies und verboten ihm zurückzukehren, bis er jemanden gefunden hat, von dessen Heldentaten er lernt, was es bedeutet, eine Zwiebel von wahrer Größe zu sein.","●×▼……！！"
 257,"Rufe deinen Ritter Paradiesaubergine herbei. Der ritterliche Stolz wurde diesem gigantischen Gemüse geradezu ins Beet gelegt.","Diese stattliche Aubergine schlummerte friedlich neben König Tomate in der Kiste eines Frachtschiffs, als die raue See ihn über Bord kullern ließ. Tagelang trieb er über das Meer, bevor er an den Strand einer einsamen Insel gespült wurde und beschloss, dort ein neues Gemüseimperium zu gründen.","◎◎×△□！！！"
-258,"","",""
-259,"","",""
-260,"","",""
+258,"Rufe deinen Sir Paradiesknoblauch herbei, ein wahrlich lustiger Geselle!","Der selbst ernannte „Spaßvogel der Mandragora“ erreichte angeblich Ruhm und Status als Hofnarr im Gemüseimperium, indem er König Paradiestomate, als dieser auf den Wellen des Ozeans am Herumtreiben war, 100 Kurzgeschichten gegen die Langeweile präsentierte.","××◎～！！"
+259,"Rufe deinen König Paradiestomate herbei. Kniet nieder vor der gigantischen Macht des Herrschers des Gemüseimperiums!","Nachdem ein tragisches Unglück dafür sorgte, dass König Tomate nach tagelangem Herumtreiben im Inselparadies strandete, musste er sich nicht nur gegen allerlei Vogelviech behaupten, auch die Liebe seines Lebens war schwer zu ernten. Am Ende seiner Anstrengungen erhob er sich zum Gründer und Herrscher des neuen Gemüseimperiums. ","■＄◎×△□◎◎…♪！"
+260,"Rufe deine Königin Paradies-Mandragora herbei. Die größte Macht im Gemüsebeet?","Nach ihrer schicksalhaften Begegnung mit dem jüngst gestrandeten König Paradiestomate, gibt sie, alles um die Differenzen zwischen ihren Anbaugebieten beiseitezulegen. Ihre Anstrengungen werden schließlich mit der Heirat ihrer großen Liebe und der Errichtung eines neuen Gemüseimperiums belohnt.","×□♪◎×◎…！"
 261,"Rufe deinen Umbral-Luchs herbei, ein geflügeltes Fabelwesen erfüllt mit schattenelementarer Energie.","Diese Kreatur ist von schattenelementarer Energie durchdrungen. Seine geflügelte Gestalt ähnelt Zodiark, dem ältesten und mächtigsten aller Primae, doch die Herkunft des Umbral-Luchses ist ein Rätsel.","Bist du ein Krieger der Dunkelheit?!
 <Emphasis>Mutige Stadtwache</Emphasis>"
 262,"Rufe deinen Astral-Luchs herbei, ein geflügeltes Fabelwesen erfüllt mit lichtelementarer Energie.","Diese Kreatur ist von lichtelementarer Energie durchdrungen. Seine geflügelte Gestalt ähnelt Hydaelyn, der Verkörperung des Planeten, doch die Herkunft des Astral-Luchses ist ein Rätsel.","Diese strahlende, gottgleiche Erscheinung ... muss ein Krieger des Lichts sein!
@@ -581,7 +581,7 @@ derlich, andererseits angesichts der Genialität seines Schöpfers auch wieder n
 <Emphasis>Isarmoix</Emphasis>"
 267,"Rufe Victor herbei, ein großer Canis, der bei so mancher Hundeshow in Garlemald den ersten Preis gewonnen hat.","Niemand Geringeres als Kaiser Varis gehört zu den Bewunderern dieses Canis, der ein Star bei den Hundeshows in Garlemald ist. Er ist darauf trainiert, sich gut zu präsentieren, doch für den Kampf ist der Schönling weniger geeignet.","Hmpf! Hunde, die bellen, beißen nicht. Immer das Gleiche mit diesen kleinen Kläffern!
 <Emphasis>Hundeführer der Tollwütigen Tölen<Emphasis>"
-268,"Rufe einen Monitor herbei. Die mysteriöse Maschine kann deine Fähigkeiten analysieren.","Als der Monitor zum ersten Mal deine Fähigkeiten analysierte, war das Ergebnis „Stufe 90“. Wie die Maschine zu diesem Ergebnis kam, bleibt ihr Geheimnis.","Du beeindruckst mich jedes Mal mehr!
+268,"Rufe einen Monitor herbei. Die mysteriöse Maschine kann deine Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten analysieren.","Als der Monitor zum ersten Mal deine Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten analysierte, war das Ergebnis „Stufe 90“. Wie die Maschine zu diesem Ergebnis kam, bleibt ihr Geheimnis.","Du beeindruckst mich jedes Mal mehr!
 <Emphasis>Kai-Shirr</Emphasis>"
 269,"Rufe Papa Paissa herbei. Dieser außer<SoftHyphen/>ordent<SoftHyphen/>lich große Paissa ist Vater von acht Sprösslingen.","Um seine acht Kinder zu versorgen, verdient sich dieser große Paissa ein Zubrot, indem er Abenteurern als Reittier dient. Wenn du auf ihm reitest, unterstützt du seine ganze Familie.","Es ist bestimmt nicht leicht, so viele Mäuler zu stopfen.
 <Emphasis>Pip</Emphasis>"
@@ -603,7 +603,7 @@ derlich, andererseits angesichts der Genialität seines Schöpfers auch wieder n
 <Emphasis>Ulala</Emphasis>"
 281,"Rufe deinen Alkonost herbei. Ein mystischer Vogel mit Rehhufen.","Dieser im Norden Ilsabards beheimatete Vogel wurde in der Wildnis in Bozja eingefangen. Wegen seiner Zutraulichkeit wird angenommen, dass er einst von einem Bestienbändiger der Kaiserlichen Legion gezähmt wurde.","Diesen Vogel mache ich im Nu zum Piepmatz.
 <Emphasis>Pagaga</Emphasis>"
-282,"","",""
+282,"Rufe deinen Inselbüffel herbei. So einen sanftmütigen Büffel findet man selten.","Dieser Büffel tauchte eines Tages einfach auf und ehe man sichs versah, hatte er sich auch schon im Domizil breitgemacht. Ursprünglich wurde er wohl als Vieh von einer Gruppe Piraten auf die Insel gebracht, doch aus welchem Grund auch immer ist er seitdem verwildert. Solange man ihm Futter gibt, lässt er wirklich jeden aufsitzen. ","Muuuh!"
 283,"","",""
 284,"Rufe deinen Pod 602 herbei.
 Der perfekte Abenteuerbegleiter, wenn er denn ordentlich funktionieren würde. ","Diese weiße Maschine wurde aus einer alten Fabrik-
@@ -630,7 +630,7 @@ wagen. Das Sonnendach soll aus dem gleichen Stoff sein wie die fliegenden Teppic
 <Emphasis>Hundezüchter</Emphasis>"
 295,"","",""
 296,"","",""
-297,"","",""
+297,"Rufe deinen Reise-Support herbei. Die Wunder der Technik!","Diese zweibeinige Maschine ist das Ergebnis von jahrelanger Forschung und der Zusammenkunft von Technik und Handwerk. Es wurde von einem Klauber der Allianz dabei beobachtet, wie es in der Carteneauer Heide umherirrte und prompt eingesammelt. Eine Analyse ergab, dass es eine erstaunliche Ähnlichkeit mit allagischen Maschinensoldaten aufweist, jedoch durch irgendetwas oder irgendwen umgebaut wurde.","Fehler! Fehler!"
 298,"Rufe deine Miw Miisv herbei. Ein glitzernder Beweis dafür, dass Hoffnung unerwartete Formen annehmen kann. ","Das Dynamis kanalisierte die Hoffnungen der Ea auf Elysium und schuf diese quirlige, quallenartige Lebensform. Zwar besitzen sie die Fähigkeit, kräftige Stromstöße auszuteilen, viel lieber jedoch vergnügen sie sich damit, sich die Gedanken und Gefühle anderer Lebewesen im wahrsten Sinne des Wortes einzuverleiben.","Mi-Mimiii～♪"
 299,"Rufe deinen Wunderlanner herbei. Ein stolzer Falke mit einer Vorliebe für fantastische Erzählungen.","Als ehemaliger Gefährte der Händlerin Rowena wurde dieser stolze Falke wie ein Juwel gehegt und gepflegt. Da er der Sprache seiner Halter mächtig ist, lauschte er gerne Khloe Aliapohs Geschichten von tapferen Abenteurern. Es heißt, seither strebe er danach, ein gewisses, weißes Pferd in seiner Rolle als treues Reittier zu übertreffen.","Umsonst bekommst du bei mir nichts.
 <Emphasis>Rowena</Emphasis>"
@@ -667,5 +667,19 @@ wagen. Das Sonnendach soll aus dem gleichen Stoff sein wie die fliegenden Teppic
 <Emphasis>Mädchen aus Namai</Emphasis>"
 317,"Rufe deinen Chrysomallos herbei. Die Widderversion eines Goldesels.","Ein legendärer goldener Widder. Obwohl die Legende nichts von Goldstücken erzählt, die hinten herausfallen ...","Die Inselschäfchen haben mir das Herz wahrlich höherschlagen lassen.
 <Emphasis>Cirina</Emphasis>"
-318,"","",""
-319,"","",""
+318,"Auf deine Garlond GL-IIS aufsteigen. Das Prachtstück der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke jetzt noch prächtiger und sogar für Zwei!","Dieses Modell fügt dem Dauerbrenner unter den zweirädrigen Magitek-Fahrzeugen, dem Garlond GL-II, einen Beiwagen hinzu. Um das erhöhte Gewicht auszugleichen, wurde unter anderem an dem Hubraum des Erdseim-Antriebs geschraubt. Alle, die jetzt zuschlagen erhalten obendrauf auch noch eine Puppe, handgefertigt von niemand geringerem als dem guten Wedge.","Brumm, Brumm! Prächtiger wird's nich mehr!
+<Emphasis>Wedge</Emphasis>"
+319,"Rufe deinen Megalo-Ambystoma herbei. Die können so groß werden?!","Man glaubt fast kaum, dass es sich bei diesem Wesen um ein Ambystoma handelt, so groß ist dieses Exemplar. Da es mit einem Sattel ausgestattet ist, wurde es wohl als Reittier erschaffen. Es wurde im Pandæmonium gefunden, was wiederum bedeutet, dass es sich um das Ergebnis eines fehlgeschlagenen Versuches mit der Schöpfungsmagie handelt.","Lustige Gesichte<Indent/>...
+<Emphasis>Mädchen am Rande des Universums</Emphasis>"
+320,"","",""
+321,"","",""
+322,"","",""
+323,"Rufe deinen Schattenwolf herbei. Die finsterste Mähne unter dem Nachthimmel.","Ein aus dem Dunkel der Schatten geborener Wolf. Man weiß nur, dass er von einem machtgierigen König vergangener Tage zur Verwirklichung dessen Pläne zur Weltherrschaft erschaffen wurde. Allerdings scheint er gegenüber dem Krieger des Lichts weder Hass noch Furcht, sondern nur Gehorsam und Demut zu verspüren.","Wenn das nicht das ideale Reittier für unseren Krieger der Dunkelheit ist!
+<Emphasis>Knappe im Crystarium</Emphasis>"
+324,"Steig auf dein magisches Kinderbett. Das leichte Schaukeln im Flug sorgt für einen tiefen und erholsamen Schlaf.","Ein Bett für Kinder, das auf magische Art und Weise durch die Lüfte fliegt. Der Grund für die Flugeigenschaften dieses Möbelstückes liegt in dem eingebauten Kristall, der auf einer der schwebenden Inseln abgebaut wurde. Das Aussehen erinnert an die Betten in dem Waisenhaus „Menphinas Zuflucht“.","Hätte ich als Kind in so einem Bett geschlafen wäre ich bestimmt auch etwas größer geraten!
+<Emphasis>Tataru</Emphasis>"
+325,"Rufe deinen Dunkelheits-Luchs herbei. Seine Augen sagen mehr als tausend Worte.","Ein mit Schöpfungsmagie aus Äther erschaffener Luchs, der mit dem Element der Dunkelheit versehen wurde. Er strahlt eine traurig wirkende Ent<SoftHyphen/>schlos<SoftHyphen/>sen<SoftHyphen/>heit aus, sein bisheriger Werdegang bleibt aber weiterhin ein Rätsel.","......"
+326,"","",""
+327,"","",""
+328,"","",""
+329,"","",""

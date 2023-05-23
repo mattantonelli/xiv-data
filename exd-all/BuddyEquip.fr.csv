@@ -93,7 +93,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 89,"barde de pionnier insulaire",0,"bardes de pionnier insulaire",0,0,1,1,0,"Barde de pionnier insulaire",65620,65620,65620,"None","ui/icon/058000/058765.tex","ui/icon/058000/058767.tex","ui/icon/058000/058766.tex",75
 90,"barde de Rubicante",0,"bardes de Rubicante",0,0,1,1,0,"Barde de Rubicante",65621,65621,65621,"None","ui/icon/058000/058771.tex","ui/icon/058000/058773.tex","ui/icon/058000/058772.tex",155
 91,"barde allagoise",0,"bardes allagoises",0,0,1,1,0,"Barde allagoise",65622,65622,65622,"None","ui/icon/058000/058774.tex","ui/icon/058000/058776.tex","ui/icon/058000/058775.tex",76
-92,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
-93,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+92,"barde de Golbez",0,"bardes de Golbez",0,0,1,1,0,"Barde de Golbez",65623,65623,65623,"None","ui/icon/058000/058777.tex","ui/icon/058000/058779.tex","ui/icon/058000/058778.tex",156
+93,"barde de Chamoiselle",0,"bardes de Chamoiselle",0,0,1,1,0,"Barde de Chamoiselle",65624,65624,65624,"None","ui/icon/058000/058780.tex","ui/icon/058000/058782.tex","ui/icon/058000/058781.tex",78
 94,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 95,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

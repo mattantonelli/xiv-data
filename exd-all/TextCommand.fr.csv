@@ -269,6 +269,7 @@ Carbuncle
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Eos
 >> Apparences<Indent/>:
 Carbuncle
 Carbuncle émeraude
@@ -277,11 +278,17 @@ Carbuncle rubis
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Selene
 * Aucune apparence spécifiée ou avec ""annuler""<Indent/>:
   Rend au familier son apparence d'origine.
+Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
 >> Exemple
 /miragefamilier ""Garuda-Egi"" ""Carbuncle rubis""
-Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.","/miragefamilier","/mirfam","head",0
+Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.
+/miragefamilier ""Garuda-Egi""
+Rend au familier son apparence d'origine.
+/miragefamilier
+Affiche la liste des apparences actuelles.","/miragefamilier","/mirfam","head",0
 34,3,2,7,2,0,"/petsize","","/taillefamilier, /tfam, /petsize
 Utilisation<Indent/>: /taillefamilier ""[nom du familier]"" ""[taille]""
 Change la taille d'affichage du familier spécifié.
@@ -543,10 +550,10 @@ Ouvre le menu Téléportation.","/téléportation","/télép","on",0
 Utilisation<Indent/>: /marquer [type]  [argument de ciblage]
 Permet de placer un signe sur la cible spécifiée ou le personnage ciblé si aucun argument n'est saisi.
 >> Signes<Indent/>:
-""attaque1"" jusqu'à ""attaque5"" (attack1 à 5)
+""attaque1"" jusqu'à ""attaque8"" (attack1 à 8)
 ""entrave1"" jusqu'à ""entrave3"" (bind1 à 3) 
-""interdit1"" jusqu'à ""interdit2"" (ignore1 à 2)
-* 1 est le numéro par défaut si aucun chiffre n'est spécifié.
+""ignore1"" jusqu'à ""ignore2"" (stop1 à 2)
+* Alterne entre les numéros 1 et 2 si aucun chiffre n'est spécifié.
 cercle (circle)<Indent/>: signe en forme de cercle
 croix (cross ou plus)<Indent/>: signe en forme de croix
 carré (square)<Indent/>: signe en forme de carré
@@ -554,8 +561,8 @@ triangle<Indent/>: signe en forme de triangle
 désactivé (off)<Indent/>: retirer le signe
 * Si aucune sous-commande n'est saisie, ouvre ou ferme le menu des signes.
 >> Exemples<Indent/>:
-/marquer interdit2 <t>
-  La cible reçoit le signe ""2e cible interdite"".
+/marquer ignore2 <t>
+  La cible reçoit le signe ""2e cible à ignorer"".
 /marquer entrave1
   Le personnage ou ennemi ciblé reçoit le signe ""1re cible à entraver"".
 Une fois marquées, les cibles peuvent être désignées par les arguments <stop1>, <ignore1>, etc.","/marquer","/signe","pack",0
@@ -858,7 +865,7 @@ Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/in
 Utilisation<Indent/>: /quitterréseaunovices
 Permet de quitter le réseau des novices.
 * Disponible uniquement pour les novices et rappelés.","/quitterréseaunovices","/quitrdn","oth",1000
-226,3,2,7,15,0,"/egiglamour","","/mirageegi, /miregi, /egimirage
+226,3,2,7,15,0,"/egiglamour","","/mirageegi, /miregi, /egiglamour
 Utilisation<Indent/>: /mirageegi ""[nom d'Egi]"" ""[apparence]""
 Permet de changer l'apparence d'un Egi dès la prochaine invocation.
 Cette commande n'est pas effective dans les instances de combat JcJ.
@@ -867,6 +874,7 @@ Carbuncle
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Eos
 >> Apparences<Indent/>:
 Carbuncle
 Carbuncle émeraude
@@ -875,11 +883,17 @@ Carbuncle rubis
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Selene
 * Aucune apparence spécifiée ou avec ""annuler""<Indent/>:
   Rend à l'Egi son apparence d'origine.
+Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
 >> Exemple
 /mirageegi ""Garuda-Egi"" ""Carbuncle rubis""
-Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.","/mirageegi","/miregi","head",0
+Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.
+/mirageegi ""Garuda-Egi""
+Rend à l'Egi son apparence d'origine.
+/mirageegi
+Affiche la liste des apparences actuelles.","/mirageegi","/miregi","head",0
 227,3,1,2,0,0,"/title","","/titre, /title
 Utilisation<Indent/>: /titre [sous-commande]
 Permet de changer le titre du personnage.
@@ -1156,7 +1170,7 @@ désactivé (off)    Cache les liens de monstres.
 Si aucune sous-commande n'est spécifiée, alterne entre les deux options.","/liensmonstres","/lienmon","head",0
 306,2,1,2,0,0,"/autotarget","","/ciblageauto, /cibauto, /autotarget
 Utilisation<Indent/>: /ciblageauto [sous-commande]
-Active le ciblage automatique si aucune cible n'est sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née.
+Cible au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment les ennemis attaquants.
 >> Sous-commandes<Indent/>:
 activé (on)         Active le ciblage automatique.
 désactivé (off)    Désactive le ciblage automatique.
@@ -2840,6 +2854,12 @@ Apprécie le spectacle.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/apprécierlespectacle","/apprécispectacle","pdamage",0
+650,2,1,2,0,0,"/magictrick","","/tourdemagie, /tourmag, /magictrick
+Utilisation<Indent/>: /tourdemagie [sous-commande]
+Exécute un tour de magie.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/tourdemagie","/tourmag","pdamage",0
 651,2,1,2,0,0,"/littleladiesdance","/ladance","/dansedesprincesses, /dansprinc, /littleladiesdance
 Utilisation<Indent/>: /dansedesprincesses [sous-commande]
 Effectue la danse des princesses.
@@ -2864,3 +2884,39 @@ Prend un air effrayant.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/effrayer","","pdamage",0
+658,2,1,2,0,0,"/adventoflight","/advent","/envolhéroïque, /envhér, /advent
+Utilisation<Indent/>: /envolhéroïque [sous-commande]
+S'envole dans les airs avant de retomber poing en avant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/envolhéroïque","/envhér","pdamage",0
+664,2,1,2,0,0,"/handtoheart","","/mainsurlapoitrine, /mainpoit, /handtoheart
+Utilisation<Indent/>: /mainsurlapoitrine [sous-commande]
+Met sa main sur sa poitrine.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mainsurlapoitrine","/mainpoit","pdamage",0
+665,2,1,2,0,0,"/cheeronbright","/cheerbright","/encouragerblanc, /cheerbright, /cheeronbright
+Utilisation<Indent/>: /encouragerblanc [sous-commande]
+Encourage avec des bâtons lumineux blancs.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/encouragerblanc","","pdamage",0
+666,2,1,2,0,0,"/cheerwaveviolet","/cheerviolet","/encouragerviolet, /cheerviolet, /cheerwaveviolet
+Utilisation<Indent/>: /encouragerviolet [sous-commande]
+Encourage avec des bâtons lumineux violets.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/encouragerviolet","","pdamage",0
+667,2,1,2,0,0,"/cheerjumpgreen","/cheergreen","/encouragervert, /cheergreen, /cheerjumpgreen
+Utilisation<Indent/>: /encouragervert [sous-commande]
+Encourage avec des bâtons lumineux verts.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/encouragervert","","pdamage",0
+668,2,1,2,0,0,"/allsaintscharm","","/sortilègedelaveillée, /sortveillée
+Utilisation<Indent/>: /sortilègedelaveillée [sous-commande]
+Lance un sortilège de la Veillée des saints.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sortilègedelaveillée","/sortveillée","pdamage",0

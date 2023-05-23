@@ -347,7 +347,7 @@ int32,str,str,bit&01,uint16
 343,"Meilleur ami de Gigi","Meilleure amie de Gigi",False,1404
 344,"Dompteur du Hôô","Dompteuse du Hôô",False,1405
 345,"Prédateur invétéré","Prédatrice invétérée",False,1406
-346,"Limier d'Oschon","Limier d'Oschon",False,1407
+346,"Limier de Rhalgr","Limier de Rhalgr",False,1407
 347,"Serveur de festin","Serveuse de festin",False,1408
 348,"Échanson de Halone","Échanson de Halone",False,1409
 349,"Ami de Zhloe","Amie de Zhloe",False,1410
@@ -666,7 +666,7 @@ int32,str,str,bit&01,uint16
 662,"Lame d'acier","Lame d'acier",False,1728
 663,"Roi d'un jour prochain","Reine d'un jour prochain",False,1729
 664,"Le maudit","La maudite",False,1730
-665,"Héro souverain","Héroine souveraine",False,1731
+665,"Héros souverain","Héroïne souveraine",False,1731
 666,"Artisan sélène","Artisane sélène",False,1732
 667,"Légende Alpha","Légende Alpha",False,1733
 668,"Agoniste","Agoniste",False,1734
@@ -678,3 +678,23 @@ int32,str,str,bit&01,uint16
 674,"Légende conflictuelle","Légende conflictuelle",False,1740
 675,"Histoire conflictuelle","Histoire conflictuelle",False,1741
 676,"Parcours conflictuel","Parcours conflictuel",False,1742
+677,"Détrôneur déterminé","Détrôneuse déterminée",False,1743
+678,"Expert du marché","Experte du marché",False,1744
+679,"Terreur des profondeurs","Terreur des profondeurs",False,1745
+680,"Malacologue","Malacologue",False,1746
+681,"Surume dragon","Surume dragon",False,1747
+682,"La crevette","La crevette",False,1748
+683,"Légende conflictuelle","Légende conflictuelle",False,1749
+684,"Histoire conflictuelle","Histoire conflictuelle",False,1750
+685,"Parcours conflictuel","Parcours conflictuel",False,1751
+686,"Légende conflictuelle","Légende conflictuelle",False,1752
+687,"Histoire conflictuelle","Histoire conflictuelle",False,1753
+688,"Parcours conflictuel","Parcours conflictuel",False,1754
+689,"Champion CCRC2023","Championne CCRC2023",False,0
+690,"Finaliste CCRC2023","Finaliste CCRC2023",False,0
+691,"Classé CCRC2023","Classée CCRC2023",False,0
+692,"","",False,0
+693,"","",False,0
+694,"","",False,0
+695,"","",False,0
+696,"","",False,0

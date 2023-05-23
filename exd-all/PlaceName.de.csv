@@ -973,7 +973,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 946,"Mondschatteninsel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mondschatteninsel</Case><Case(2)>auf der Mondschatteninsel</Case><Case(3)>der Zugang zur Mondschatteninsel</Case></Switch>",0,0,0
 947,"Offene See - Handelsfrachter",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Handelsfrachter</Case><Case(2)>auf dem Handelsfrachter</Case><Case(3)>der Handelsfrachter</Case></Switch>",0,0,0
 948,"Offene See - Piratenschiff",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Piratenschiff</Case><Case(2)>auf dem Piratenschiff</Case><Case(3)>das Piratenschiff</Case></Switch>",0,0,0
-949,"Riff der Entsendung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Riff der Entsendung</Case><Case(2)>am Riff der Entsendung</Case><Case(3)>das Riff der Entsendung</Case></Switch>",0,0,0
+949,"Riff der Ent<SoftHyphen/>sen<SoftHyphen/>dung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Riff der Ent<SoftHyphen/>sen<SoftHyphen/>dung</Case><Case(2)>am Riff der Ent<SoftHyphen/>sen<SoftHyphen/>dung</Case><Case(3)>das Riff der Ent<SoftHyphen/>sen<SoftHyphen/>dung</Case></Switch>",0,0,0
 950,"Unerforschter Angelplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu einem unerforschten Angelplatz</Case><Case(2)>an einem unerforschten Angelplatz</Case></Switch>",0,0,0
 951,"Blattader",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Blattader</Case><Case(2)>an der Blattader</Case></Switch>",0,0,0
 952,"Spiegelsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>an den Spiegelsee</Case><Case(2)>am Spiegelsee</Case></Switch>",0,0,0
@@ -4321,3 +4321,90 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4293,"Khadga-Felsen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf den Khadga-Felsen</Case><Case(2)>auf dem Khadga-Felsen</Case><Case(3)>der Khadga-Felsen</Case></Switch>",0,0,0
 4294,"Deck des Schneemobils",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Deck des Schneemobils</Case><Case(2)>auf dem Deck des Schneemobils</Case><Case(3)>das Deck des Schneemobils</Case></Switch>",0,0,0
 4295,"Lapis Manalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Lapis Manalis</Case><Case(2)>in Lapis Manalis</Case><Case(3)>Lapis Manalis</Case></Switch>",0,0,0
+4296,"Krone der Schatten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Krone der Schatten</Case><Case(2)>auf der Krone der Schatten</Case><Case(3)>die Krone der Schatten</Case></Switch>",0,0,0
+4297,"Haam",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Haam</Case><Case(2)>auf Haam</Case><Case(3)>die Insel Haam</Case></Switch>",0,0,0
+4298,"Eisscholl-Atoll",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Eisscholl-Atoll</Case><Case(2)>auf dem Eisscholl-Atoll</Case><Case(3)>das Eisscholl-Atoll</Case></Switch>",0,0,0
+4299,"Haam",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Haam</Case><Case(2)>auf Haam</Case><Case(3)>die Insel Haam</Case></Switch>",0,0,0
+4300,"Geysirgrund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Geysirgrund</Case><Case(2)>am Geysirgrund</Case><Case(3)>der Geysirgrund</Case></Switch>",0,0,0
+4301,"Raureif-Rondell",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Raureif-Rondell</Case><Case(2)>auf dem Raureif-Rondell</Case><Case(3)>das Raureif-Rondell</Case></Switch>",0,0,0
+4302,"Zyanspitze",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Zyanspitze</Case><Case(2)>auf der Zyanspitze</Case><Case(3)>die Zyanspitze</Case></Switch>",0,0,0
+4303,"Ätherpfuhl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ätherpfuhl</Case><Case(2)>am Ätherpfuhl</Case><Case(3)>der Ätherpfuhl</Case></Switch>",0,0,0
+4304,"Eisscholl-Atoll",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Eisscholl-Atoll</Case><Case(2)>auf dem Eisscholl-Atoll</Case><Case(3)>das Eisscholl-Atoll</Case></Switch>",0,0,0
+4305,"Haam",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Haam</Case><Case(2)>auf Haam</Case><Case(3)>die Insel Haam</Case></Switch>",0,0,0
+4306,"Geysirgrund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Geysirgrund</Case><Case(2)>am Geysirgrund</Case><Case(3)>der Geysirgrund</Case></Switch>",0,0,0
+4307,"Halle der Vierzehn Sitze",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Vierzehn Sitze</Case><Case(2)>in der Halle der Vierzehn Sitze</Case><Case(3)>die Halle der Vierzehn Sitze</Case></Switch>",0,0,0
+4308,"",0,"",0,0,0,0,0,"",0,0,0
+4309,"",0,"",0,0,0,0,0,"",0,0,0
+4310,"",0,"",0,0,0,0,0,"",0,0,0
+4311,"",0,"",0,0,0,0,0,"",0,0,0
+4312,"",0,"",0,0,0,0,0,"",0,0,0
+4313,"",0,"",0,0,0,0,0,"",0,0,0
+4314,"",0,"",0,0,0,0,0,"",0,0,0
+4315,"",0,"",0,0,0,0,0,"",0,0,0
+4316,"",0,"",0,0,0,0,0,"",0,0,0
+4317,"",0,"",0,0,0,0,0,"",0,0,0
+4318,"",0,"",0,0,0,0,0,"",0,0,0
+4319,"",0,"",0,0,0,0,0,"",0,0,0
+4320,"",0,"",0,0,0,0,0,"",0,0,0
+4321,"",0,"",0,0,0,0,0,"",0,0,0
+4322,"",0,"",0,0,0,0,0,"",0,0,0
+4323,"",0,"",0,0,0,0,0,"",0,0,0
+4324,"",0,"",0,0,0,0,0,"",0,0,0
+4325,"",0,"",0,0,0,0,0,"",0,0,0
+4326,"",0,"",0,0,0,0,0,"",0,0,0
+4327,"",0,"",0,0,0,0,0,"",0,0,0
+4328,"",0,"",0,0,0,0,0,"",0,0,0
+4329,"",0,"",0,0,0,0,0,"",0,0,0
+4330,"",0,"",0,0,0,0,0,"",0,0,0
+4331,"",0,"",0,0,0,0,0,"",0,0,0
+4332,"",0,"",0,0,0,0,0,"",0,0,0
+4333,"",0,"",0,0,0,0,0,"",0,0,0
+4334,"",0,"",0,0,0,0,0,"",0,0,0
+4335,"",0,"",0,0,0,0,0,"",0,0,0
+4336,"",0,"",0,0,0,0,0,"",0,0,0
+4337,"",0,"",0,0,0,0,0,"",0,0,0
+4338,"",0,"",0,0,0,0,0,"",0,0,0
+4339,"",0,"",0,0,0,0,0,"",0,0,0
+4340,"",0,"",0,0,0,0,0,"",0,0,0
+4341,"",0,"",0,0,0,0,0,"",0,0,0
+4342,"",0,"",0,0,0,0,0,"",0,0,0
+4343,"",0,"",0,0,0,0,0,"",0,0,0
+4344,"",0,"",0,0,0,0,0,"",0,0,0
+4345,"",0,"",0,0,0,0,0,"",0,0,0
+4346,"",0,"",0,0,0,0,0,"",0,0,0
+4347,"",0,"",0,0,0,0,0,"",0,0,0
+4348,"",0,"",0,0,0,0,0,"",0,0,0
+4349,"",0,"",0,0,0,0,0,"",0,0,0
+4350,"",0,"",0,0,0,0,0,"",0,0,0
+4351,"",0,"",0,0,0,0,0,"",0,0,0
+4352,"",0,"",0,0,0,0,0,"",0,0,0
+4353,"",0,"",0,0,0,0,0,"",0,0,0
+4354,"",0,"",0,0,0,0,0,"",0,0,0
+4355,"",0,"",0,0,0,0,0,"",0,0,0
+4356,"",0,"",0,0,0,0,0,"",0,0,0
+4357,"",0,"",0,0,0,0,0,"",0,0,0
+4358,"Sphäre des Pandæmoniums",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Sphäre des Pandæmoniums</Case><Case(2)>in der Sphäre des Pandæmoniums</Case><Case(3)>die Sphäre des Pandæmoniums</Case></Switch>",0,0,0
+4359,"Piz Paradiesgrotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Piz Paradiesgrotte</Case><Case(2)>in der Piz Paradiesgrotte</Case><Case(3)>die Piz Paradiesgrotte</Case></Switch>",0,0,0
+4360,"Inselparadies",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Inselparadies</Case><Case(2)>im Inselparadies</Case><Case(3)>das Inselparadies</Case></Switch>",0,0,0
+4361,"Höhlensystem",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Höhlensystem</Case><Case(2)>im Höhlensystem</Case><Case(3)>das Höhlensystem</Case></Switch>",0,0,0
+4362,"Dæmonisches Nest",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>ins Dæmonische Nest</Case><Case(2)>im Dæmonischen Nest</Case><Case(3)>das Dæmonische Nest</Case></Switch>",0,0,0
+4363,"Sirenen-See",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Sirenen-See</Case><Case(2)>in der Sirenen-See</Case><Case(3)>die Sirenen-See</Case></Switch>",0,0,0
+4364,"Kugane-Gewässer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kugane-Gewässer</Case><Case(2)>im Kugane-Gewässer</Case><Case(3)>das Kugane-Gewässer</Case></Switch>",0,0,0
+4365,"Rubinsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rubinsee</Case><Case(2)>in der Rubinsee</Case><Case(3)>die Rubinsee</Case></Switch>",0,0,0
+4366,"Einzig",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Einzig</Case><Case(2)>im Einzig</Case><Case(3)>der Einzig</Case></Switch>",0,0,0
+4367,"Sirenen-See - Hochsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Sirenen-See - Hochsee</Case><Case(2)>in der Sirenen-See - Hochsee</Case><Case(3)>die Sirenen-See - Hochsee</Case></Switch>",0,0,0
+4368,"Sirenen-See - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Sirenen-See - Phantomströmung</Case><Case(2)>in der Sirenen-See - Phantomströmung</Case><Case(3)>die Sirenen-See - Phantomströmung</Case></Switch>",0,0,0
+4369,"Kugane-Küste",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kugane-Küste</Case><Case(2)>an der Kugane-Küste</Case><Case(3)>die Kugane-Küste</Case></Switch>",0,0,0
+4370,"Kugane-Küste - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kugane-Küste - Phantomströmung</Case><Case(2)>an der Kugane-Küste - Phantomströmung</Case><Case(3)>die Kugane-Küste - Phantomströmung</Case></Switch>",0,0,0
+4371,"Rubinsee - Hochsee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rubinsee - Hochsee</Case><Case(2)>in der Rubinsee - Hochsee</Case><Case(3)>die Rubinsee - Hochsee</Case></Switch>",0,0,0
+4372,"Rubinsee - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Rubinsee - Phantomströmung</Case><Case(2)>in der Rubinsee - Phantomströmung</Case><Case(3)>die Rubinsee - Phantomströmung</Case></Switch>",0,0,0
+4373,"Einzig (Unterlauf)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Einzig (Unterlauf)</Case><Case(2)>im Einzig (Unterlauf)</Case><Case(3)>der Einzig (Unterlauf)</Case></Switch>",0,0,0
+4374,"Einzig - Phantomströmung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Einzig - Phantomströmung</Case><Case(2)>im Einzig - Phantomströmung</Case><Case(3)>der Einzig - Phantomströmung</Case></Switch>",0,0,0
+4375,"Göttlicher Thron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Göttlichen Thron</Case><Case(2)>am Göttlichen Thron</Case><Case(3)>der Göttliche Thron</Case></Switch>",0,0,0
+4376,"Erschaffene Welt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Erschaffene Welt</Case><Case(2)>in der Erschaffenen Welt</Case><Case(3)>die Erschaffene Welt</Case></Switch>",0,0,0
+4377,"Arayas Palast",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Arayas Palast</Case><Case(2)>in Arayas Palast</Case><Case(3)>Arayas Palast</Case></Switch>",0,0,0
+4378,"Funkelsteinstollen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Funkelsteinstollen</Case><Case(2)>im Funkelsteinstollen</Case><Case(3)>der Funkelsteinstollen</Case></Switch>",0,0,0
+4379,"Spitzsteinbau",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Spitzsteinbau</Case><Case(2)>im Spitzsteinbau</Case><Case(3)>der Spitzsteinbau</Case></Switch>",0,0,0
+4380,"Estiniens Räumlichkeiten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Estiniens Räumlichkeiten</Case><Case(2)>in Estiniens Räumlichkeiten</Case><Case(3)>Estiniens Räumlichkeiten</Case></Switch>",0,0,0
+4381,"Senatus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Senatus</Case><Case(2)>im Senatus</Case><Case(3)>der Senatus</Case></Switch>",0,0,0
+4382,"Roter Mond",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Roten Mond</Case><Case(2)>auf dem Roten Mond</Case><Case(3)>der Rote Mond</Case></Switch>",0,0,0

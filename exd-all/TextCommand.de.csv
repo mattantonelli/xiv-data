@@ -288,6 +288,7 @@ VERWENDUNG: /fampro [Familiarname] [Aussehen]→ Ändert deine Anzeigeeinstellun
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 >>Aussehen:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -296,11 +297,17 @@ VERWENDUNG: /fampro [Familiarname] [Aussehen]→ Ändert deine Anzeigeeinstellun
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Bei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.
+Bei fehlendem Unterkommando wird das Menü „Momentanes Aussehen deiner Familiare“ aufgerufen.
 
 >>Beispiel:
 /fampro Garuda-Egi Topas-Karfunkel
-Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.","/familiarprojektion","/fampro","head",0
+Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.
+/fampro Garuda-Egi
+Gibt dem Garuda-Egi sein ursprüngliches Aussehen zurück.
+/fampro
+Ruft das Menü „Momentanes Aussehen deiner Familiare“ auf.","/familiarprojektion","/fampro","head",0
 34,3,2,7,2,0,"/petsize","","/familiargröße, /petsize
 VERWENDUNG: /familiargröße [Familiarname] [Größe]
 → Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.
@@ -595,7 +602,7 @@ VERWENDUNG:
 /mark [Symbol] [Variable zur Zielbestimmung]
 → Markiert ein Ziel mit einem Symbol.
 >>Symbole:
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>att1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>att1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>8<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bind1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ignor1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   Wird keine Ziffer eingegeben, so wird automatisch die niedrigste unzugeordnete verwendet.
@@ -926,6 +933,7 @@ VERWENDUNG: /egipro [Egi-Name] [Aussehen]→ Ändert deine Anzeigeeinstellung f�
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 >>Aussehen:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -934,11 +942,17 @@ VERWENDUNG: /egipro [Egi-Name] [Aussehen]→ Ändert deine Anzeigeeinstellung f�
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Bei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.
+Bei fehlendem Unterkommando wird das Menü „Momentanes Aussehen deiner Familiare“ aufgerufen.
 
 >>Beispiel:
-/egipro Garuda-Egi Topas-Karfunkel
-Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.","/egiprojektion","/egipro","head",0
+/fampro Garuda-Egi Topas-Karfunkel
+Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.
+/fampro Garuda-Egi
+Gibt dem Garuda-Egi sein ursprüngliches Aussehen zurück.
+/fampro
+Ruft das Menü „Momentanes Aussehen deiner Familiare“ auf.","/egiprojektion","/egipro","head",0
 227,3,1,2,0,0,"/title","","/titel, /title
 VERWENDUNG:
 /titel [Unterbefehl] ""[Titel]""
@@ -1232,7 +1246,7 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.","/verbündete","","h
 306,2,1,2,0,0,"/autotarget","","/autoziel, /autotarget
 VERWENDUNG:
 /autoziel [Unterbefehl]
-→ Aktiviert die Einstellung der Charakter<SoftHyphen/>konfiguration „Automatisches Anvisieren, wenn kein Ziel anvisiert ist“.
+→ Aktiviert die Einstellung der Charakter<SoftHyphen/>konfiguration „Automatisches Anvisieren bei erlittener Attacke“.
 >>Unterbefehle:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Aktiviert automatisches Anvisieren.
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Deaktiviert automatisches Anvisieren.
@@ -2994,6 +3008,12 @@ VERWENDUNG:
 → Du gibst motivierende Zurufe von dir.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/oleoleoleole","/ole","pdamage",0
+650,2,1,2,0,0,"/magictrick","","/zaubertrick, /magictrick
+VERWENDUNG:
+/zaubertrick [Unterbefehl]
+→ Du führst einen Zaubertrick vor.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/zaubertrick","","pdamage",0
 651,2,1,2,0,0,"/littleladiesdance","/ladance","/prinzessinnentanz, /littleladiesdance, /ladance
 VERWENDUNG:
 /prinzessinnentanz [Unterbefehl]
@@ -3018,3 +3038,39 @@ VERWENDUNG:
 → Du versuchst, alle um dich herum in Angst und Schrecken zu versetzen.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/angstundschrecken","/schrecken","pdamage",0
+658,2,1,2,0,0,"/adventoflight","/advent","/heldenhafterauftritt, /held, /advent
+VERWENDUNG:
+/heldenhafterauftritt[Unterbefehl]
+→ Du zeigst deiner Umgebung, wer der Held ist.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/heldenhafterauftritt","/held","pdamage",0
+664,2,1,2,0,0,"/handtoheart","","/handaufdiebrust, /handonheart
+VERWENDUNG:
+/handaufdiebrust [Unterbefehl]
+→ Du legst die Hand auf die Brust.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/handaufdiebrust","","pdamage",0
+665,2,1,2,0,0,"/cheeronbright","/cheerbright","/anfeuernweiß, /anweiß, /cheerbright
+VERWENDUNG:
+/anfeuernweiß [Unterbefehl]
+→ Du feuerst mit weiß schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ","/anfeuernweiß","/anweiß","pdamage",0
+666,2,1,2,0,0,"/cheerwaveviolet","/cheerviolet","/anfeuernlila, /anlila, /cheerviolet
+VERWENDUNG:
+/anfeuernlila [Unterbefehl]
+→ Du feuerst mit lila schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ","/anfeuernlila","/anlila","pdamage",0
+667,2,1,2,0,0,"/cheerjumpgreen","/cheergreen","/anfeuerngrün, /angrün, /cheergreen
+VERWENDUNG:
+/anfeuerngrün [Unterbefehl]
+→ Du feuerst mit grün schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ","/anfeuerngrün","/angrün","pdamage",0
+668,2,1,2,0,0,"/allsaintscharm","","/verwandlungsmagie, /verwand, /allsaintscharm
+VERWENDUNG:
+/verwandlungsmagie [Unterbefehl]
+→ Du führst einen Ver<SoftHyphen/>wand<SoftHyphen/>lungszauber aus..
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ","/verwandlungsmagie","/verwand","pdamage",0

@@ -4359,3 +4359,90 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4293,"Khadga",0,"Khadga",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Khadga</Case><Case(2)>au Khadga</Case><Case(3)>du Khadga</Case></Switch>",0,0,0
 4294,"Toit de l'autoneige magitek",0,"Toit de l'autoneige magitek",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le toit de l'autoneige magitek</Case><Case(2)>sur le toit de l'autoneige magitek</Case><Case(3)>du toit de l'autoneige magitek</Case></Switch>",0,0,0
 4295,"Lapis Manalis",0,"Lapis Manalis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Lapis Manalis</Case><Case(2)>à Lapis Manalis</Case><Case(3)>de Lapis Manalis</Case></Switch>",0,0,0
+4296,"Hypercube de Golbez",0,"Hypercube de Golbez",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'hypercube de Golbez</Case><Case(2)>à l'hypercube de Golbez</Case><Case(3)>de l'hypercube de Golbez</Case></Switch>",0,0,0
+4297,"Île de Haam",0,"Île de Haam",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île de Haam</Case><Case(2)>à l'île de Haam</Case><Case(3)>de l'île de Haam</Case></Switch>",0,0,0
+4298,"Banquise de mer",0,"Banquise de mer",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la banquise de mer</Case><Case(2)>à la banquise de mer</Case><Case(3)>de la banquise de mer</Case></Switch>",0,0,0
+4299,"Île de Haam",0,"Île de Haam",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île de Haam</Case><Case(2)>à l'île de Haam</Case><Case(3)>de l'île de Haam</Case></Switch>",0,0,0
+4300,"Geysers d'éther",0,"Geysers d'éther",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les geysers d'éther</Case><Case(2)>aux geysers d'éther</Case><Case(3)>des geysers d'éther</Case></Switch>",0,0,0
+4301,"Cirque glacé",0,"Cirque glacé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cirque glacé</Case><Case(2)>au cirque glacé</Case><Case(3)>du cirque glacé</Case></Switch>",0,0,0
+4302,"Caverne de Cap-cyan",0,"Caverne de Cap-cyan",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la caverne de Cap-cyan</Case><Case(2)>à la caverne de Cap-cyan</Case><Case(3)>de la caverne de Cap-cyan</Case></Switch>",0,0,0
+4303,"Bassin éthéré",0,"Bassin éthéré",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bassin éthéré</Case><Case(2)>au bassin éthéré</Case><Case(3)>du bassin éthéré</Case></Switch>",0,0,0
+4304,"Banquise de mer",0,"Banquise de mer",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la banquise de mer</Case><Case(2)>à la banquise de mer</Case><Case(3)>de la banquise de mer</Case></Switch>",0,0,0
+4305,"Île de Haam",0,"Île de Haam",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île de Haam</Case><Case(2)>à l'île de Haam</Case><Case(3)>de l'île de Haam</Case></Switch>",0,0,0
+4306,"Geysers d'éther",0,"Geysers d'éther",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les geysers d'éther</Case><Case(2)>aux geysers d'éther</Case><Case(3)>des geysers d'éther</Case></Switch>",0,0,0
+4307,"Prétoire des Quatorze",0,"Prétoire des Quatorze",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Prétoire des Quatorze</Case><Case(2)>au Prétoire des Quatorze</Case><Case(3)>du Prétoire des Quatorze</Case></Switch>",0,0,0
+4308,"",0,"",0,0,0,0,0,"",0,0,0
+4309,"",0,"",0,0,0,0,0,"",0,0,0
+4310,"",0,"",0,0,0,0,0,"",0,0,0
+4311,"",0,"",0,0,0,0,0,"",0,0,0
+4312,"",0,"",0,0,0,0,0,"",0,0,0
+4313,"",0,"",0,0,0,0,0,"",0,0,0
+4314,"",0,"",0,0,0,0,0,"",0,0,0
+4315,"",0,"",0,0,0,0,0,"",0,0,0
+4316,"",0,"",0,0,0,0,0,"",0,0,0
+4317,"",0,"",0,0,0,0,0,"",0,0,0
+4318,"",0,"",0,0,0,0,0,"",0,0,0
+4319,"",0,"",0,0,0,0,0,"",0,0,0
+4320,"",0,"",0,0,0,0,0,"",0,0,0
+4321,"",0,"",0,0,0,0,0,"",0,0,0
+4322,"",0,"",0,0,0,0,0,"",0,0,0
+4323,"",0,"",0,0,0,0,0,"",0,0,0
+4324,"",0,"",0,0,0,0,0,"",0,0,0
+4325,"",0,"",0,0,0,0,0,"",0,0,0
+4326,"",0,"",0,0,0,0,0,"",0,0,0
+4327,"",0,"",0,0,0,0,0,"",0,0,0
+4328,"",0,"",0,0,0,0,0,"",0,0,0
+4329,"",0,"",0,0,0,0,0,"",0,0,0
+4330,"",0,"",0,0,0,0,0,"",0,0,0
+4331,"",0,"",0,0,0,0,0,"",0,0,0
+4332,"",0,"",0,0,0,0,0,"",0,0,0
+4333,"",0,"",0,0,0,0,0,"",0,0,0
+4334,"",0,"",0,0,0,0,0,"",0,0,0
+4335,"",0,"",0,0,0,0,0,"",0,0,0
+4336,"",0,"",0,0,0,0,0,"",0,0,0
+4337,"",0,"",0,0,0,0,0,"",0,0,0
+4338,"",0,"",0,0,0,0,0,"",0,0,0
+4339,"",0,"",0,0,0,0,0,"",0,0,0
+4340,"",0,"",0,0,0,0,0,"",0,0,0
+4341,"",0,"",0,0,0,0,0,"",0,0,0
+4342,"",0,"",0,0,0,0,0,"",0,0,0
+4343,"",0,"",0,0,0,0,0,"",0,0,0
+4344,"",0,"",0,0,0,0,0,"",0,0,0
+4345,"",0,"",0,0,0,0,0,"",0,0,0
+4346,"",0,"",0,0,0,0,0,"",0,0,0
+4347,"",0,"",0,0,0,0,0,"",0,0,0
+4348,"",0,"",0,0,0,0,0,"",0,0,0
+4349,"",0,"",0,0,0,0,0,"",0,0,0
+4350,"",0,"",0,0,0,0,0,"",0,0,0
+4351,"",0,"",0,0,0,0,0,"",0,0,0
+4352,"",0,"",0,0,0,0,0,"",0,0,0
+4353,"",0,"",0,0,0,0,0,"",0,0,0
+4354,"",0,"",0,0,0,0,0,"",0,0,0
+4355,"",0,"",0,0,0,0,0,"",0,0,0
+4356,"",0,"",0,0,0,0,0,"",0,0,0
+4357,"",0,"",0,0,0,0,0,"",0,0,0
+4358,"Nappe stagnante",0,"Nappe stagnante",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la nappe stagnante</Case><Case(2)>à la nappe stagnante</Case><Case(3)>de la nappe stagnante</Case></Switch>",0,0,0
+4359,"Caverne du pic acéré",0,"Caverne du pic acéré",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la caverne du pic acéré</Case><Case(2)>à la caverne du pic acéré</Case><Case(3)>de la caverne du pic acéré</Case></Switch>",0,0,0
+4360,"Surface",0,"Surface",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la surface</Case><Case(2)>à la surface</Case><Case(3)>de la surface</Case></Switch>",0,0,0
+4361,"Cavernes",0,"Cavernes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les cavernes</Case><Case(2)>aux cavernes</Case><Case(3)>des cavernes</Case></Switch>",0,0,0
+4362,"Maternité démoniaque",0,"Maternité démoniaque",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Maternité démoniaque</Case><Case(2)>à la Maternité démoniaque</Case><Case(3)>de la Maternité démoniaque</Case></Switch>",0,0,0
+4363,"Mer du Chant des sirènes",0,"Mer du Chant des sirènes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mer du Chant des sirènes</Case><Case(2)>à la Mer du Chant des sirènes</Case><Case(3)>de la Mer du Chant des sirènes</Case></Switch>",0,0,0
+4364,"Baie de Kugane",0,"Baie de Kugane",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la baie de Kugane</Case><Case(2)>à la baie de Kugane</Case><Case(3)>de la baie de Kugane</Case></Switch>",0,0,0
+4365,"Mer de Rubis",0,"Mer de Rubis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mer de Rubis</Case><Case(2)>à la Mer de Rubis</Case><Case(3)>de la Mer de Rubis</Case></Switch>",0,0,0
+4366,"Muni",0,"Muni",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Muni</Case><Case(2)>à la Muni</Case><Case(3)>de la Muni</Case></Switch>",0,0,0
+4367,"Large de la Mer du Chant des sirènes",0,"Large de la Mer du Chant des sirènes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large de la Mer du Chant des sirènes</Case><Case(2)>au large de la Mer du Chant des sirènes</Case><Case(3)>du large de la Mer du Chant des sirènes</Case></Switch>",0,0,0
+4368,"Courant spectral (large de la Mer du Chant des sirènes)",0,"Courant spectral (large de la Mer du Chant des sirènes)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral au large de la Mer du Chant des sirènes</Case><Case(2)>au courant spectral au large de la Mer du Chant des sirènes</Case><Case(3)>du courant spectral au large de la Mer du Chant des sirènes</Case></Switch>",0,0,0
+4369,"Large de la baie de Kugane",0,"Large de la baie de Kugane",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large de la baie de Kugane</Case><Case(2)>au large de la baie de Kugane</Case><Case(3)>du large de la baie de Kugane</Case></Switch>",0,0,0
+4370,"Courant spectral (large de la baie de Kugane)",0,"Courant spectral (large de la baie de Kugane)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral au large de la baie de Kugane</Case><Case(2)>au courant spectral au large de la baie de Kugane</Case><Case(3)>du courant spectral au large de la baie de Kugane</Case></Switch>",0,0,0
+4371,"Large de la Mer de Rubis",0,"Large de la Mer de Rubis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le large de la Mer de Rubis</Case><Case(2)>au large de la Mer de Rubis</Case><Case(3)>du large de la Mer de Rubis</Case></Switch>",0,0,0
+4372,"Courant spectral (large de la Mer de Rubis)",0,"Courant spectral (large de la Mer de Rubis)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral au large de la Mer de Rubis</Case><Case(2)>au courant spectral au large de la Mer de Rubis</Case><Case(3)>du courant spectral au large de la Mer de Rubis</Case></Switch>",0,0,0
+4373,"Aval de la Muni",0,"Aval de la Muni",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'aval de la Muni</Case><Case(2)>en aval de la Muni</Case><Case(3)>de l'aval de la Muni</Case></Switch>",0,0,0
+4374,"Courant spectral (aval de la Muni)",0,"Courant spectral (aval de la Muni)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le courant spectral de l'aval de la Muni</Case><Case(2)>au courant spectral de l'aval de la Muni</Case><Case(3)>du courant spectral de l'aval de la Muni</Case></Switch>",0,0,0
+4375,"Trône divin",0,"Trône divin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Trône divin</Case><Case(2)>au Trône divin</Case><Case(3)>du Trône divin</Case></Switch>",0,0,0
+4376,"Monde fantasmé",0,"Monde fantasmé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Monde fantasmé</Case><Case(2)>au Monde fantasmé</Case><Case(3)>du Monde fantasmé</Case></Switch>",0,0,0
+4377,"Temple d'Araya",0,"Temple d'Araya",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le temple d'Araya</Case><Case(2)>dans le temple d'Araya</Case><Case(3)>du temple d'Araya</Case></Switch>",0,0,0
+4378,"Filon de magilithes",0,"Filon de magilithes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le filon de magilithes</Case><Case(2)>au filon de magilithes</Case><Case(3)>du filon de magilithes</Case></Switch>",0,0,0
+4379,"Grotte aux stalactites",0,"Grotte aux stalactites",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la grotte aux stalactites</Case><Case(2)>à la grotte aux stalactites</Case><Case(3)>de la grotte aux stalactites</Case></Switch>",0,0,0
+4380,"Chambre d'Estinien",0,"Chambre d'Estinien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre d'Estinien</Case><Case(2)>à la chambre d'Estinien</Case><Case(3)>de la chambre d'Estinien</Case></Switch>",0,0,0
+4381,"Gare de Senatus",0,"Gare de Senatus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la lune rouge</Case><Case(2)>à la lune rouge</Case><Case(3)>de la lune rouge</Case></Switch>",0,0,0
+4382,"Lune rouge",0,"Lune rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la gare de Senatus</Case><Case(2)>à la gare de Senatus</Case><Case(3)>de la gare de Senatus</Case></Switch>",0,0,0
