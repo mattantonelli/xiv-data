@@ -7375,7 +7375,7 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions."
 7956,"Format 12h"
 7957,"* L'affichage change dans les instances JcJ"
 7960,"En mode Équiper, griser les objets de l'arsenal ne pouvant être portés"
-7961,"Ranger les objets à la suite du dernier"
+7961,"Ranger les objets depuis le bas"
 7962,"Paramètres du sous-menu"
 7963,"Personnaliser"
 7965,"Tout afficher"
@@ -9435,7 +9435,8 @@ Il est recommandé d'essayer d'autres langues si les délais d'accès aux missio
 <If(Equal(IntegerParameter(1),0))>* “Réussir le raid” n'est sélectionnable que si la récompense hebdomadaire n'a pas encore été obtenue.
 <Else/></If>* Spécifier une phase ne permet pas de sauter celles précédentes.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(IntegerParameter(1),0))>
 <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>* L'enregistrement sera annulé si la remise à zéro hebdomadaire a lieu entre-temps.
-* Un seul coffre si 1 à 4 équipiers ont déjà obtenu leurs récompenses hebdomadaires. Aucun coffre s'ils sont 5 ou plus.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
+* Le contenu du coffre sera minoré si 1 à 4 équipiers ont déjà obtenu leurs récompenses hebdomadaires. Aucun coffre s'ils sont 5 ou plus.
+* En cas de déconnection dans l'instance, l'équipier sera considéré comme ayant déjà obtenu ses récompenses hebdomadaires.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
 10091,"Tout désélectionner"
 10092,"Participer"
 10093,"<If(Equal(IntegerParameter(1),IntegerParameter(2)))><Value>IntegerParameter(1)</Value> joueur<If(LessThanOrEqualTo(IntegerParameter(1),1))><Else/>s</If><Else/><Value>IntegerParameter(1)</Value> à <Value>IntegerParameter(2)</Value> joueur<If(LessThanOrEqualTo(IntegerParameter(2),1))><Else/>s</If></If><If(GreaterThan(IntegerParameter(2),1))> (<Value>IntegerParameter(3)</Value> tank<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If>, <Value>IntegerParameter(4)</Value> soigneur<If(LessThanOrEqualTo(IntegerParameter(4),1))><Else/>s</If>, <Value>IntegerParameter(5)</Value> DPS de mêlée, <Value>IntegerParameter(6)</Value> DPS à distance physique<If(LessThanOrEqualTo(IntegerParameter(6),1))><Else/>s</If>, <Value>IntegerParameter(7)</Value> DPS à distance magique<If(LessThanOrEqualTo(IntegerParameter(7),1))><Else/>s</If>, <Value>IntegerParameter(8)</Value> DPS libre<If(LessThanOrEqualTo(IntegerParameter(8),1))><Else/>s</If>)<Else/></If>"
@@ -13794,19 +13795,19 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès."
 14762,"Vous n'avez aucune tenue sauvegardée."
 14763,"L'apparence d'une ou de plusieurs pièces d'équipement ci-dessous ne correspond pas à celle de votre tenue et de votre planche mirage. Ceci peut empêcher le portrait sélectionné d'être utilisé.
 Veuillez équiper les objets adaptés à votre tenue ou la sauvegarder à nouveau avant de réessayer.<If(IntegerParameter(1))>
-・Main directrice<Else/></If><If(IntegerParameter(2))>
-・Main non directrice<Else/></If><If(IntegerParameter(3))>
-・Tête<Else/></If><If(IntegerParameter(4))>
-・Torse<Else/></If><If(IntegerParameter(5))>
-・Mains<Else/></If><If(IntegerParameter(7))>
-・Jambes<Else/></If><If(IntegerParameter(8))>
-・Pieds<Else/></If><If(IntegerParameter(9))>
-・Boucle d'oreille<Else/></If><If(IntegerParameter(10))>
-・Collier<Else/></If><If(IntegerParameter(11))>
-・Bracelet<Else/></If><If(IntegerParameter(12))>
-・Bague droite<Else/></If><If(IntegerParameter(13))>
-・Bague gauche<Else/></If><If(IntegerParameter(14))>
-・Cristal d'âme<Else/></If>"
+- Main directrice<Else/></If><If(IntegerParameter(2))>
+- Main non directrice<Else/></If><If(IntegerParameter(3))>
+- Tête<Else/></If><If(IntegerParameter(4))>
+- Torse<Else/></If><If(IntegerParameter(5))>
+- Mains<Else/></If><If(IntegerParameter(7))>
+- Jambes<Else/></If><If(IntegerParameter(8))>
+- Pieds<Else/></If><If(IntegerParameter(9))>
+- Boucle d'oreille<Else/></If><If(IntegerParameter(10))>
+- Collier<Else/></If><If(IntegerParameter(11))>
+- Bracelet<Else/></If><If(IntegerParameter(12))>
+- Bague droite<Else/></If><If(IntegerParameter(13))>
+- Bague gauche<Else/></If><If(IntegerParameter(14))>
+- Cristal d'âme<Else/></If>"
 14800,"Accomplir “<Clickable(<Sheet(InstanceContent,IntegerParameter(1),3)/>)/>” avec d'autres joueurs"
 14801,"Accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>” avec des PNJ alliés"
 14802,"Choix des équipiers"
@@ -14585,6 +14586,9 @@ Les objets enregistrés en tant que mobilier insulaire peuvent être placés aut
 15701," Les armes éblouissantes des Manderville [Renforcement]"
 15702," L'intégrité comme outil de persuasion [Phase 1 d'amélioration]"
 15703," Dites-le avec des outils [Phase 2 d'amélioration]"
+15704,"Les armes majestueuses des Manderville [Transmutation]"
+15705," Améliorés et bariolés [Phase 3 d'amélioration]"
+15706," Splendide, tel est son nom [Phase 4 d'amélioration]"
 15730,"Indéterminé"
 15731,"Eau douce"
 15732,"Eau de mer"
@@ -14630,6 +14634,29 @@ Les objets enregistrés en tant que mobilier insulaire peuvent être placés aut
 15834,"Monde"
 15835,"Monde"
 15836,"Monde"
+15840,"Veuillez sélectionner trois attributs différents.
+Le troisième attribut sera moins élevé que les autres."
+15842,"(<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>)"
+15843,"Non sélectionné"
+15844,"Valider"
+15845,"Annuler"
+15846,"Modifier les attributs de<Indent/>: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Sheet(Item,IntegerParameter(1),0)/><UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+15847,"Comparer"
+15848,"<Value>IntegerParameter(2)</Value> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Sheet(Item,IntegerParameter(1),0)/><UIGlow>01</UIGlow><UIForeground>01</UIForeground> sera utilisé.
+Confirmer<Indent/>?"
+15849,"Ceci interrompra l'ajustement des attributs.
+Confirmer<Indent/>?"
+15850,"Valider les attributs et recevoir <SheetFr(Item,1,IntegerParameter(1),1,1)/><Indent/>?"
+15851,"Ceci terminera la modification des attributs de<Indent/>:
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Highlight>StringParameter(1)</Highlight><UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Confirmer<Indent/>?"
+15852,"Critique"
+15853,"Coups nets"
+15854,"Vivacité"
+15855,"Célérité"
+15856,"Ténacité"
+15857,"Détermination"
+15858,"Piété"
 101000,"<CommandIcon(10)/> Sous-menu"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Sélectionner"

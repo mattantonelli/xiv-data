@@ -125,7 +125,7 @@ int32,Image,Image,BannerCondition,uint16,str
 121,"ui/icon/191000/191471.tex","ui/icon/082000/082092.tex","BannerCondition#521",3007,"Nigimitama"
 122,"ui/icon/191000/191320.tex","ui/icon/082000/082092.tex","BannerCondition#522",2019,"Blaumagier"
 123,,,"BannerCondition#0",0,""
-124,,,"BannerCondition#0",0,""
+124,"ui/icon/191000/191711.tex","ui/icon/082000/082092.tex","BannerCondition#528",2401,"Unstetes Gewölbe: Der Rokkon"
 125,"ui/icon/191000/191712.tex","ui/icon/082000/082092.tex","BannerCondition#529",2342,"Fischer auf großer Fahrt"
 126,"ui/icon/191000/191713.tex","ui/icon/082000/082092.tex","BannerCondition#530",2343,"Kapitalbeschaffung"
 127,"ui/icon/191000/191714.tex","ui/icon/082000/082092.tex","BannerCondition#531",2360,"Mahjong-Profi"

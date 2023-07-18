@@ -2601,7 +2601,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2573,"Himmelssäule (Tiefes Gewölbe)",0,"",0,0,1,0,0,"",0,0,0
 2574,"Eureka Orthos (Tiefes Gewölbe)",0,"",0,0,1,0,0,"",0,0,0
 2575,"Unterstadt von Sil'dih (Gewölbesuche)",0,"",0,0,1,0,0,"",0,0,0
-2576,"",0,"",0,0,0,0,0,"",0,0,0
+2576,"Der Rokkon (Gewölbesuche)",0,"",0,0,1,0,0,"",0,0,0
 2577,"",0,"",0,0,0,0,0,"",0,0,0
 2578,"",0,"",0,0,0,0,0,"",0,0,0
 2579,"",0,"",0,0,0,0,0,"",0,0,0
@@ -4322,7 +4322,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4294,"Deck des Schneemobils",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Deck des Schneemobils</Case><Case(2)>auf dem Deck des Schneemobils</Case><Case(3)>das Deck des Schneemobils</Case></Switch>",0,0,0
 4295,"Lapis Manalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Lapis Manalis</Case><Case(2)>in Lapis Manalis</Case><Case(3)>Lapis Manalis</Case></Switch>",0,0,0
 4296,"Krone der Schatten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Krone der Schatten</Case><Case(2)>auf der Krone der Schatten</Case><Case(3)>die Krone der Schatten</Case></Switch>",0,0,0
-4297,"Haam",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Haam</Case><Case(2)>auf Haam</Case><Case(3)>die Insel Haam</Case></Switch>",0,0,0
+4297,"Ätherborn",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ätherborn</Case><Case(2)>im Ätherborn</Case><Case(3)>Ätherborn</Case></Switch>",0,0,0
 4298,"Eisscholl-Atoll",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf das Eisscholl-Atoll</Case><Case(2)>auf dem Eisscholl-Atoll</Case><Case(3)>das Eisscholl-Atoll</Case></Switch>",0,0,0
 4299,"Haam",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Haam</Case><Case(2)>auf Haam</Case><Case(3)>die Insel Haam</Case></Switch>",0,0,0
 4300,"Geysirgrund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Geysirgrund</Case><Case(2)>am Geysirgrund</Case><Case(3)>der Geysirgrund</Case></Switch>",0,0,0
@@ -4333,48 +4333,48 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4305,"Haam",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Haam</Case><Case(2)>auf Haam</Case><Case(3)>die Insel Haam</Case></Switch>",0,0,0
 4306,"Geysirgrund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Geysirgrund</Case><Case(2)>am Geysirgrund</Case><Case(3)>der Geysirgrund</Case></Switch>",0,0,0
 4307,"Halle der Vierzehn Sitze",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Vierzehn Sitze</Case><Case(2)>in der Halle der Vierzehn Sitze</Case><Case(3)>die Halle der Vierzehn Sitze</Case></Switch>",0,0,0
-4308,"",0,"",0,0,0,0,0,"",0,0,0
-4309,"",0,"",0,0,0,0,0,"",0,0,0
-4310,"",0,"",0,0,0,0,0,"",0,0,0
-4311,"",0,"",0,0,0,0,0,"",0,0,0
-4312,"",0,"",0,0,0,0,0,"",0,0,0
-4313,"",0,"",0,0,0,0,0,"",0,0,0
-4314,"",0,"",0,0,0,0,0,"",0,0,0
-4315,"",0,"",0,0,0,0,0,"",0,0,0
-4316,"",0,"",0,0,0,0,0,"",0,0,0
-4317,"",0,"",0,0,0,0,0,"",0,0,0
-4318,"",0,"",0,0,0,0,0,"",0,0,0
-4319,"",0,"",0,0,0,0,0,"",0,0,0
-4320,"",0,"",0,0,0,0,0,"",0,0,0
-4321,"",0,"",0,0,0,0,0,"",0,0,0
-4322,"",0,"",0,0,0,0,0,"",0,0,0
-4323,"",0,"",0,0,0,0,0,"",0,0,0
-4324,"",0,"",0,0,0,0,0,"",0,0,0
-4325,"",0,"",0,0,0,0,0,"",0,0,0
-4326,"",0,"",0,0,0,0,0,"",0,0,0
-4327,"",0,"",0,0,0,0,0,"",0,0,0
-4328,"",0,"",0,0,0,0,0,"",0,0,0
-4329,"",0,"",0,0,0,0,0,"",0,0,0
-4330,"",0,"",0,0,0,0,0,"",0,0,0
-4331,"",0,"",0,0,0,0,0,"",0,0,0
-4332,"",0,"",0,0,0,0,0,"",0,0,0
-4333,"",0,"",0,0,0,0,0,"",0,0,0
-4334,"",0,"",0,0,0,0,0,"",0,0,0
-4335,"",0,"",0,0,0,0,0,"",0,0,0
-4336,"",0,"",0,0,0,0,0,"",0,0,0
-4337,"",0,"",0,0,0,0,0,"",0,0,0
-4338,"",0,"",0,0,0,0,0,"",0,0,0
-4339,"",0,"",0,0,0,0,0,"",0,0,0
-4340,"",0,"",0,0,0,0,0,"",0,0,0
-4341,"",0,"",0,0,0,0,0,"",0,0,0
-4342,"",0,"",0,0,0,0,0,"",0,0,0
-4343,"",0,"",0,0,0,0,0,"",0,0,0
-4344,"",0,"",0,0,0,0,0,"",0,0,0
-4345,"",0,"",0,0,0,0,0,"",0,0,0
-4346,"",0,"",0,0,0,0,0,"",0,0,0
-4347,"",0,"",0,0,0,0,0,"",0,0,0
-4348,"",0,"",0,0,0,0,0,"",0,0,0
-4349,"",0,"",0,0,0,0,0,"",0,0,0
+4308,"Rokkon",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Rokkon</Case><Case(2)>auf dem Rokkon</Case><Case(3)>der Rokkon</Case></Switch>",0,0,0
+4309,"Fuß des Rokkon",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fuß des Rokkon</Case><Case(2)>am Fuß des Rokkon</Case><Case(3)>der Fuß des Rokkon</Case></Switch>",0,0,0
+4310,"Schattiger Aufgang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum schattigen Aufgang</Case><Case(2)>im schattigen Aufgang</Case><Case(3)>der schattige Aufgang</Case></Switch>",0,0,0
+4311,"Untere Pagode",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur unteren Pagode</Case><Case(2)>in der unteren Pagode</Case><Case(3)>die untere Pagode</Case></Switch>",0,0,0
+4312,"Obere Pagode",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur oberen Pagode</Case><Case(2)>in der oberen Pagode</Case><Case(3)>die obere Pagode</Case></Switch>",0,0,0
+4313,"Fünfter Stock",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum fünften Stock</Case><Case(2)>im fünften Stock</Case><Case(3)>der fünfte Stock</Case></Switch>",0,0,0
+4314,"Pilgerweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pilgerweg</Case><Case(2)>auf dem Pilgerweg</Case><Case(3)>der Pilgerweg</Case></Switch>",0,0,0
+4315,"Aufstieg des Asketen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Aufstieg des Asketen</Case><Case(2)>auf dem Aufstieg des Asketen</Case><Case(3)>der Aufstieg des Asketen</Case></Switch>",0,0,0
+4316,"Letzter Blick",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Letzten Blick</Case><Case(2)>im Letzten Blick</Case><Case(3)>der Letzte Blick</Case></Switch>",0,0,0
+4317,"Halle der Versuchungen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Versuchungen</Case><Case(2)>in der Halle der Versuchungen</Case><Case(3)>die Halle der Versuchungen</Case></Switch>",0,0,0
+4318,"Ufer des Herbstflusses",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ufer des Herbstflusses</Case><Case(2)>am Ufer des Herbstflusses</Case><Case(3)>das Ufer des Herbstflusses</Case></Switch>",0,0,0
+4319,"Halle der Verhüllung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle der Verhüllung</Case><Case(2)>in der Halle der Verhüllung</Case><Case(3)>die Halle der Verhüllung</Case></Switch>",0,0,0
+4320,"Halle des Werdens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Halle des Werdens</Case><Case(2)>in der Halle des Werdens</Case><Case(3)>die Halle des Werdens</Case></Switch>",0,0,0
+4321,"Steines Schweigen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Steines Schweigen</Case><Case(2)>an Steines Schweigen</Case><Case(3)>Steines Schweigen</Case></Switch>",0,0,0
+4322,"Teich des Frühlingsregens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Teich des Frühlingsregens</Case><Case(2)>am Teich des Frühlingsregens</Case><Case(3)>der Teich des Frühlingsregens</Case></Switch>",0,0,0
+4323,"Kardinalstor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kardinalstor</Case><Case(2)>am Kardinalstor</Case><Case(3)>das Kardinalstor</Case></Switch>",0,0,0
+4324,"Reiner Quell",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum reinen Quell</Case><Case(2)>am reinen Quell</Case><Case(3)>der reine Quell</Case></Switch>",0,0,0
+4325,"Schrein des Sechsten Sinnes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schrein des Sechsten Sinnes</Case><Case(2)>am Schrein des Sechsten Sinnes</Case><Case(3)>der Schrein des Sechsten Sinnes</Case></Switch>",0,0,0
+4326,"Fuß des Rokkon",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fuß des Rokkon</Case><Case(2)>am Fuß des Rokkon</Case><Case(3)>der Fuß des Rokkon</Case></Switch>",0,0,0
+4327,"Malerischer Pfad",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum malerischen Pfad</Case><Case(2)>auf dem malerischen Pfad</Case><Case(3)>der malerische Pfad</Case></Switch>",0,0,0
+4328,"Untere Pagode",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur unteren Pagode</Case><Case(2)>in der unteren Pagode</Case><Case(3)>die untere Pagode</Case></Switch>",0,0,0
+4329,"Obere Pagode",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur oberen Pagode</Case><Case(2)>in der oberen Pagode</Case><Case(3)>die obere Pagode</Case></Switch>",0,0,0
+4330,"Fünfter Stock",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum fünften Stock</Case><Case(2)>im fünften Stock</Case><Case(3)>der fünfte Stock</Case></Switch>",0,0,0
+4331,"Wald des Wohlgeruchs",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wald des Wohlgeruchs</Case><Case(2)>im Wald des Wohlgeruchs</Case><Case(3)>der Wald des Wohlgeruchs</Case></Switch>",0,0,0
+4332,"Shojo-in Haupthalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Shojo-in Haupthalle</Case><Case(2)>in der Shojo-in Haupthalle</Case><Case(3)>die Shojo-in Haupthalle</Case></Switch>",0,0,0
+4333,"Weg des Nichts",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Weg des Nichts</Case><Case(2)>auf dem Weg des Nichts</Case><Case(3)>der Weg des Nichts</Case></Switch>",0,0,0
+4334,"Geweihte Lager",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den geweihten Lagern</Case><Case(2)>in den geweihten Lagern</Case><Case(3)>die geweihten Lager</Case></Switch>",0,0,0
+4335,"Süßer Pfad",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Süßen Pfad</Case><Case(2)>auf dem Süßen Pfad</Case><Case(3)>der Süße Pfad</Case></Switch>",0,0,0
+4336,"Singender Pfad",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Singenden Pfad</Case><Case(2)>auf dem Singenden Pfad</Case><Case(3)>der Singende Pfad</Case></Switch>",0,0,0
+4337,"Ufer des Weitblicks",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ufer des Weitblicks</Case><Case(2)>am Ufer des Weitblicks</Case><Case(3)>das Ufer des Weitblicks</Case></Switch>",0,0,0
+4338,"Kurioser Rokkon",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum kuriosen Rokkon</Case><Case(2)>auf dem kuriosen Rokkon</Case><Case(3)>der kuriose Rokkon</Case></Switch>",0,0,0
+4339,"Pfad der Ersten Tugend",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Ersten Tugend</Case><Case(2)>auf dem Pfad der Ersten Tugend</Case><Case(3)>der Pfad der Ersten Tugend</Case></Switch>",0,0,0
+4340,"Pfad der Zweiten Tugend",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Zweiten Tugend</Case><Case(2)>auf dem Pfad der Zweiten Tugend</Case><Case(3)>der Pfad der Zweiten Tugend</Case></Switch>",0,0,0
+4341,"Pfad der Dritten Tugend",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Dritten Tugend</Case><Case(2)>auf dem Pfad der Dritten Tugend</Case><Case(3)>der Pfad der Dritten Tugend</Case></Switch>",0,0,0
+4342,"Erster Schritt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ersten Schritt</Case><Case(2)>auf dem Ersten Schritt</Case><Case(3)>der Erste Schritt</Case></Switch>",0,0,0
+4343,"Letzter Schluss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Letzten Schluss</Case><Case(2)>auf dem Letzten Schluss</Case><Case(3)>der Letzte Schluss</Case></Switch>",0,0,0
+4344,"Probe der Güte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Probe der Güte</Case><Case(2)>in der Probe der Güte</Case><Case(3)>die Probe der Güte</Case></Switch>",0,0,0
+4345,"Probe der Weisheit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Probe der Weisheit</Case><Case(2)>in der Probe der Weisheit</Case><Case(3)>die Probe der Weisheit</Case></Switch>",0,0,0
+4346,"Probe der Pflicht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Probe der Pflicht</Case><Case(2)>in der Probe der Pflicht</Case><Case(3)>die Probe der Pflicht</Case></Switch>",0,0,0
+4347,"Pfad der Ersten Tugend",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Ersten Tugend</Case><Case(2)>auf dem Pfad der Ersten Tugend</Case><Case(3)>der Pfad der Ersten Tugend</Case></Switch>",0,0,0
+4348,"Pfad der Zweiten Tugend",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Zweiten Tugend</Case><Case(2)>auf dem Pfad der Zweiten Tugend</Case><Case(3)>der Pfad der Zweiten Tugend</Case></Switch>",0,0,0
+4349,"Pfad der Dritten Tugend",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad der Dritten Tugend</Case><Case(2)>auf dem Pfad der Dritten Tugend</Case><Case(3)>der Pfad der Dritten Tugend</Case></Switch>",0,0,0
 4350,"",0,"",0,0,0,0,0,"",0,0,0
 4351,"",0,"",0,0,0,0,0,"",0,0,0
 4352,"",0,"",0,0,0,0,0,"",0,0,0

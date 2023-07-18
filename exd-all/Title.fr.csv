@@ -693,8 +693,8 @@ int32,str,str,bit&01,uint16
 689,"Champion CCRC2023","Championne CCRC2023",False,0
 690,"Finaliste CCRC2023","Finaliste CCRC2023",False,0
 691,"Classé CCRC2023","Classée CCRC2023",False,0
-692,"","",False,0
-693,"","",False,0
-694,"","",False,0
-695,"","",False,0
-696,"","",False,0
+692,"Bleu cousu d'or","Bleue cousue d'or",False,1755
+693,"Pionnier bleu","Pionnière bleue",False,1756
+694,"Bleu de l'interdit","Bleue de l'interdit",False,1757
+695,"Le réincarné","La réincarnée",False,1758
+696,"Ascète ascendant","Ascète ascendante",False,1759

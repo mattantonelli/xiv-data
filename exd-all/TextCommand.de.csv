@@ -3071,6 +3071,12 @@ VERWENDUNG:
 668,2,1,2,0,0,"/allsaintscharm","","/verwandlungsmagie, /verwand, /allsaintscharm
 VERWENDUNG:
 /verwandlungsmagie [Unterbefehl]
-→ Du führst einen Ver<SoftHyphen/>wand<SoftHyphen/>lungszauber aus..
+→ Du führst einen Ver<SoftHyphen/>wand<SoftHyphen/>lungszauber aus.
 >>Unterbefehl:
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ","/verwandlungsmagie","/verwand","pdamage",0
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/verwandlungsmagie","/verwand","pdamage",0
+671,2,1,2,0,0,"/reference","","/literaturvergleich, /literatur, /reference 
+VERWENDUNG:
+/literaturvergleich [Unterbefehl]
+→ Du vergleichst mit deiner Literatur.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/literaturvergleich","/literatur","pdamage",0

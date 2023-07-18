@@ -2637,7 +2637,9 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 2575,"Canalisations sildiennes
 [Donjons spéciaux]",0,"Canalisations sildiennes
 [Donjons spéciaux]",0,0,1,0,0,"",0,0,0
-2576,"",0,"",0,0,0,0,0,"",0,0,0
+2576,"Mont Rokkon
+[Donjons spéciaux]",0,"Mont Rokkon
+[Donjons spéciaux]",0,0,1,0,0,"",0,0,0
 2577,"",0,"",0,0,0,0,0,"",0,0,0
 2578,"",0,"",0,0,0,0,0,"",0,0,0
 2579,"",0,"",0,0,0,0,0,"",0,0,0
@@ -4371,48 +4373,48 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4305,"Île de Haam",0,"Île de Haam",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île de Haam</Case><Case(2)>à l'île de Haam</Case><Case(3)>de l'île de Haam</Case></Switch>",0,0,0
 4306,"Geysers d'éther",0,"Geysers d'éther",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les geysers d'éther</Case><Case(2)>aux geysers d'éther</Case><Case(3)>des geysers d'éther</Case></Switch>",0,0,0
 4307,"Prétoire des Quatorze",0,"Prétoire des Quatorze",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Prétoire des Quatorze</Case><Case(2)>au Prétoire des Quatorze</Case><Case(3)>du Prétoire des Quatorze</Case></Switch>",0,0,0
-4308,"",0,"",0,0,0,0,0,"",0,0,0
-4309,"",0,"",0,0,0,0,0,"",0,0,0
-4310,"",0,"",0,0,0,0,0,"",0,0,0
-4311,"",0,"",0,0,0,0,0,"",0,0,0
-4312,"",0,"",0,0,0,0,0,"",0,0,0
-4313,"",0,"",0,0,0,0,0,"",0,0,0
-4314,"",0,"",0,0,0,0,0,"",0,0,0
-4315,"",0,"",0,0,0,0,0,"",0,0,0
-4316,"",0,"",0,0,0,0,0,"",0,0,0
-4317,"",0,"",0,0,0,0,0,"",0,0,0
-4318,"",0,"",0,0,0,0,0,"",0,0,0
-4319,"",0,"",0,0,0,0,0,"",0,0,0
-4320,"",0,"",0,0,0,0,0,"",0,0,0
-4321,"",0,"",0,0,0,0,0,"",0,0,0
-4322,"",0,"",0,0,0,0,0,"",0,0,0
-4323,"",0,"",0,0,0,0,0,"",0,0,0
-4324,"",0,"",0,0,0,0,0,"",0,0,0
-4325,"",0,"",0,0,0,0,0,"",0,0,0
-4326,"",0,"",0,0,0,0,0,"",0,0,0
-4327,"",0,"",0,0,0,0,0,"",0,0,0
-4328,"",0,"",0,0,0,0,0,"",0,0,0
-4329,"",0,"",0,0,0,0,0,"",0,0,0
-4330,"",0,"",0,0,0,0,0,"",0,0,0
-4331,"",0,"",0,0,0,0,0,"",0,0,0
-4332,"",0,"",0,0,0,0,0,"",0,0,0
-4333,"",0,"",0,0,0,0,0,"",0,0,0
-4334,"",0,"",0,0,0,0,0,"",0,0,0
-4335,"",0,"",0,0,0,0,0,"",0,0,0
-4336,"",0,"",0,0,0,0,0,"",0,0,0
-4337,"",0,"",0,0,0,0,0,"",0,0,0
-4338,"",0,"",0,0,0,0,0,"",0,0,0
-4339,"",0,"",0,0,0,0,0,"",0,0,0
-4340,"",0,"",0,0,0,0,0,"",0,0,0
-4341,"",0,"",0,0,0,0,0,"",0,0,0
-4342,"",0,"",0,0,0,0,0,"",0,0,0
-4343,"",0,"",0,0,0,0,0,"",0,0,0
-4344,"",0,"",0,0,0,0,0,"",0,0,0
-4345,"",0,"",0,0,0,0,0,"",0,0,0
-4346,"",0,"",0,0,0,0,0,"",0,0,0
-4347,"",0,"",0,0,0,0,0,"",0,0,0
-4348,"",0,"",0,0,0,0,0,"",0,0,0
-4349,"",0,"",0,0,0,0,0,"",0,0,0
+4308,"Mont Rokkon",0,"Mont Rokkon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le mont Rokkon</Case><Case(2)>au mont Rokkon</Case><Case(3)>du mont Rokkon</Case></Switch>",0,0,0
+4309,"Pied du mont Rokkon",0,"Pied du mont Rokkon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pied du mont Rokkon</Case><Case(2)>au pied du mont Rokkon</Case><Case(3)>du pied du mont Rokkon</Case></Switch>",0,0,0
+4310,"Chemin boisé du mont Rokkon",0,"Chemin boisé du mont Rokkon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le chemin boisé du mont Rokkon</Case><Case(2)>au chemin boisé du mont Rokkon</Case><Case(3)>du chemin boisé du mont Rokkon</Case></Switch>",0,0,0
+4311,"Pagode inférieure",0,"Pagode inférieure",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la pagode inférieure</Case><Case(2)>à la pagode inférieure</Case><Case(3)>de la pagode inférieure</Case></Switch>",0,0,0
+4312,"Pagode intermédiaire",0,"Pagode intermédiaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la pagode intermédiaire</Case><Case(2)>à la pagode intermédiaire</Case><Case(3)>de la pagode intermédiaire</Case></Switch>",0,0,0
+4313,"Pagode supérieure",0,"Pagode supérieure",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la pagode supérieure</Case><Case(2)>à la pagode supérieure</Case><Case(3)>de la pagode supérieure</Case></Switch>",0,0,0
+4314,"Parcours des pèlerins",0,"Parcours des pèlerins",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le parcours des pèlerins</Case><Case(2)>au parcours des pèlerins</Case><Case(3)>du parcours des pèlerins</Case></Switch>",0,0,0
+4315,"Parcours des ascètes",0,"Parcours des ascètes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le parcours des ascètes</Case><Case(2)>au parcours des ascètes</Case><Case(3)>du parcours des ascètes</Case></Switch>",0,0,0
+4316,"Clairière du Discernement",0,"Clairière du Discernement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la clairière du Discernement</Case><Case(2)>à la clairière du Discernement</Case><Case(3)>de la clairière du Discernement</Case></Switch>",0,0,0
+4317,"Vestibule doré",0,"Vestibule doré",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Vestibule doré</Case><Case(2)>au Vestibule doré</Case><Case(3)>du Vestibule doré</Case></Switch>",0,0,0
+4318,"Clairière de l'Équinoxe",0,"Clairière de l'Équinoxe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la clairière de l'Équinoxe</Case><Case(2)>à la clairière de l'Équinoxe</Case><Case(3)>de la clairière de l'Équinoxe</Case></Switch>",0,0,0
+4319,"Hall du Discernement",0,"Hall du Discernement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hall du Discernement</Case><Case(2)>au hall du Discernement</Case><Case(3)>du hall du Discernement</Case></Switch>",0,0,0
+4320,"Salle des trésors du Shôjôin",0,"Salle des trésors du Shôjôin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle des trésors du Shôjôin</Case><Case(2)>à la salle des trésors du Shôjôin</Case><Case(3)>de la salle des trésors du Shôjôin</Case></Switch>",0,0,0
+4321,"Jardin des pierres silencieuses",0,"Jardin des pierres silencieuses",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Jardin des pierres silencieuses</Case><Case(2)>au Jardin des pierres silencieuses</Case><Case(3)>du Jardin des pierres silencieuses</Case></Switch>",0,0,0
+4322,"Bassin de la Pureté absolue",0,"Bassin de la Pureté absolue",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Bassin de la Pureté absolue</Case><Case(2)>au Bassin de la Pureté absolue</Case><Case(3)>du Bassin de la Pureté absolue</Case></Switch>",0,0,0
+4323,"Porte cardinale",0,"Porte cardinale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Porte cardinale</Case><Case(2)>à la Porte cardinale</Case><Case(3)>de la Porte cardinale</Case></Switch>",0,0,0
+4324,"Source de l'Étreinte",0,"Source de l'Étreinte",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la source de l'Étreinte</Case><Case(2)>à la source de l'Étreinte</Case><Case(3)>de la source de l'Étreinte</Case></Switch>",0,0,0
+4325,"Asile du Sixième sens",0,"Asile du Sixième sens",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Asile du Sixième sens</Case><Case(2)>à l'Asile du Sixième sens</Case><Case(3)>de l'Asile du Sixième sens</Case></Switch>",0,0,0
+4326,"Pied du mont Rokkon",0,"Pied du mont Rokkon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pied du mont Rokkon</Case><Case(2)>au pied du mont Rokkon</Case><Case(3)>du pied du mont Rokkon</Case></Switch>",0,0,0
+4327,"Sentier du Discernement",0,"Sentier du Discernement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sentier du Discernement</Case><Case(2)>au sentier du Discernement</Case><Case(3)>du sentier du Discernement</Case></Switch>",0,0,0
+4328,"Pagode inférieure",0,"Pagode inférieure",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la pagode inférieure</Case><Case(2)>à la pagode inférieure</Case><Case(3)>de la pagode inférieure</Case></Switch>",0,0,0
+4329,"Pagode intermédiaire",0,"Pagode intermédiaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la pagode intermédiaire</Case><Case(2)>à la pagode intermédiaire</Case><Case(3)>de la pagode intermédiaire</Case></Switch>",0,0,0
+4330,"Pagode supérieure",0,"Pagode supérieure",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la pagode supérieure</Case><Case(2)>à la pagode supérieure</Case><Case(3)>de la pagode supérieure</Case></Switch>",0,0,0
+4331,"Forêt de bambous de l'Émanation",0,"Forêt de bambous de l'Émanation",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la forêt de bambous de l'Émanation</Case><Case(2)>à la forêt de bambous de l'Émanation</Case><Case(3)>de la forêt de bambous de l'Émanation</Case></Switch>",0,0,0
+4332,"Sanctuaire du Shôjôin",0,"Sanctuaire du Shôjôin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sanctuaire du Shôjôin</Case><Case(2)>au sanctuaire du Shôjôin</Case><Case(3)>du sanctuaire du Shôjôin</Case></Switch>",0,0,0
+4333,"Corridor du Shôjôin",0,"Corridor du Shôjôin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le corridor du Shôjôin</Case><Case(2)>au corridor du Shôjôin</Case><Case(3)>du corridor du Shôjôin</Case></Switch>",0,0,0
+4334,"Dôme des trésors du Shôjôin",0,"Dôme des trésors du Shôjôin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Dôme des trésors du Shôjôin</Case><Case(2)>au Dôme des trésors du Shôjôin</Case><Case(3)>du Dôme des trésors du Shôjôin</Case></Switch>",0,0,0
+4335,"Route de l'Appétence",0,"Route de l'Appétence",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la route de l'Appétence</Case><Case(2)>à la route de l'Appétence</Case><Case(3)>de la route de l'Appétence</Case></Switch>",0,0,0
+4336,"Route de la Résonance",0,"Route de la Résonance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la route de la Résonance</Case><Case(2)>à la route de la Résonance</Case><Case(3)>de la route de la Résonance</Case></Switch>",0,0,0
+4337,"Lac des cerisiers",0,"Lac des cerisiers",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Lac des cerisiers</Case><Case(2)>au Lac des cerisiers</Case><Case(3)>du Lac des cerisiers</Case></Switch>",0,0,0
+4338,"Mont Rokkon annexe",0,"Mont Rokkon annexe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le mont Rokkon annexe</Case><Case(2)>au mont Rokkon annexe</Case><Case(3)>du mont Rokkon annexe</Case></Switch>",0,0,0
+4339,"Strate de la Prospérité",0,"Strate de la Prospérité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Strate de la Prospérité</Case><Case(2)>à la Strate de la Prospérité</Case><Case(3)>de la Strate de la Prospérité</Case></Switch>",0,0,0
+4340,"Strate de la Connaissance",0,"Strate de la Connaissance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Strate de la Connaissance</Case><Case(2)>à la Strate de la Connaissance</Case><Case(3)>de la Strate de la Connaissance</Case></Switch>",0,0,0
+4341,"Strate de la Longévité",0,"Strate de la Longévité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Strate de la Longévité</Case><Case(2)>à la Strate de la Longévité</Case><Case(3)>de la Strate de la Longévité</Case></Switch>",0,0,0
+4342,"Passage de la Prospérité",0,"Passage de la Prospérité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Passage de la Prospérité</Case><Case(2)>au Passage de la Prospérité</Case><Case(3)>du Passage de la Prospérité</Case></Switch>",0,0,0
+4343,"Passage de la Connaissance",0,"Passage de la Connaissance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Passage de la Connaissance</Case><Case(2)>au Passage de la Connaissance</Case><Case(3)>du Passage de la Connaissance</Case></Switch>",0,0,0
+4344,"Épreuve de la Prospérité",0,"Épreuve de la Prospérité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Épreuve de la Prospérité</Case><Case(2)>à l'Épreuve de la Prospérité</Case><Case(3)>de l'Épreuve de la Prospérité</Case></Switch>",0,0,0
+4345,"Épreuve de la Connaissance",0,"Épreuve de la Connaissance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Épreuve de la Connaissance</Case><Case(2)>à l'Épreuve de la Connaissance</Case><Case(3)>de l'Épreuve de la Connaissance</Case></Switch>",0,0,0
+4346,"Épreuve de la Longévité",0,"Épreuve de la Longévité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Épreuve de la Longévité</Case><Case(2)>à l'Épreuve de la Longévité</Case><Case(3)>de l'Épreuve de la Longévité</Case></Switch>",0,0,0
+4347,"Voie de la Prospérité",0,"Voie de la Prospérité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Voie de la Prospérité</Case><Case(2)>à la Voie de la Prospérité</Case><Case(3)>de la Voie de la Prospérité</Case></Switch>",0,0,0
+4348,"Voie de la Connaissance",0,"Voie de la Connaissance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Voie de la Connaissance</Case><Case(2)>à la Voie de la Connaissance</Case><Case(3)>de la Voie de la Connaissance</Case></Switch>",0,0,0
+4349,"Voie de la Longévité",0,"Voie de la Longévité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Voie de la Longévité</Case><Case(2)>à la Voie de la Longévité</Case><Case(3)>de la Voie de la Longévité</Case></Switch>",0,0,0
 4350,"",0,"",0,0,0,0,0,"",0,0,0
 4351,"",0,"",0,0,0,0,0,"",0,0,0
 4352,"",0,"",0,0,0,0,0,"",0,0,0

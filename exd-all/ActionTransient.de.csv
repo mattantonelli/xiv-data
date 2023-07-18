@@ -426,7 +426,7 @@ Wirkung von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Virtuose<U
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coda des Weisen<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>"
 115,"Du erhöhst mit diesem Lied den erlittenen Schaden der umstehenden Gegner um 3 % und verbrauchst dafür stetig MP.
 Wirkt auf Gegner nur solange sie in der Nähe sind. Effekt endet bei erneuter Ausführung."
-116,"Du singst die Hymne der Krieger und fügst dem Ziel dabei elementneutralen magischen Schaden zu
+116,"Du singst die Hymne der Krieger und fügst dem Ziel dabei elementneutralen magischen Schaden zu.
 Attacke-Wert: 100
 Zusatzeffekt: Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit eigener direkter Treffer und der von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 50y ist um 3<Indent/>% erhöht.
 Dauer: 45 Sekunden
@@ -14328,6 +14328,7 @@ Effekt endet bei erneuter Ausführung."
 11418,"Wenn du physischen Schaden erleidest, fügst du dem Angreifer eisbasierten magischen Schaden zu.
 Attacke-Wert: 40
 Dauer: 15 Sekunden
+Kann nicht zugleich mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wogenschleier<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Skiltron<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv sein.
 Zusatzeffekt: 50<Indent/>% Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit, dass das Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gemach<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (20<Indent/>%) erleidet.
 Dauer: 15 Sekunden"
 11419,"Du führst eine eisbasierte magische Attacke auf alle umstehenden Gegner aus.
@@ -14367,26 +14368,27 @@ Attacke-Wert: 220
 Zusatzeffekt: Windbasierter Schaden über Zeit
 Attacke-Wert: 40
 Dauer: 6 Sekunden
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eruption<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11427,"Du führst eine feuerbasierte magische Attacke auf den anvisierten Bereich aus.
 Attacke-Wert: 300
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Federregen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11428,"Du führst eine erdbasierte physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 400
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schockschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11429,"Du führst eine blitzbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 400
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bergsprenger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11430,"Du führst eine eisbasierte magische Attacke auf die vor und neben dir stehenden Gegner aus.
 Attacke-Wert: 350
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wogenschleier<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11431,"Wenn du Schaden erleidest, fügst du dem Angreifer wasserbasierten magischen Schaden zu.
 Attacke-Wert: 50
 Dauer: 30 Sekunden
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Kann nicht zugleich mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eisstachel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Skiltron<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv sein.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Gläserner Tanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11432,""
 11433,""
 11434,""
@@ -19141,7 +19143,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75 %.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 2 %
 2 Schritte: 5 %
 Dauer: 60 Sekunden
@@ -19158,7 +19160,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern innerhalb von 30y die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 1 %
 2 Schritte: 2 %
 3 Schritte: 3 %
@@ -19482,7 +19484,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 2 %
 2 Schritte: 5 %
 Dauer: 60 Sekunden
@@ -19497,7 +19499,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied mit dem Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 2 %
 2 Schritte: 5 %
 Dauer: 60 Sekunden
@@ -19514,7 +19516,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern innerhalb von 30y die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 1 %
 2 Schritte: 2 %
 3 Schritte: 3 %
@@ -19535,7 +19537,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern innerhalb von 30y die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 1 %
 2 Schritte: 2 %
 3 Schritte: 3 %
@@ -19556,7 +19558,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern innerhalb von 30y die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 1 %
 2 Schritte: 2 %
 3 Schritte: 3 %
@@ -19577,7 +19579,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern innerhalb von 30y die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 </If><Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-</If>Der Schadensbonus von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
+</If>Der Schadensbonus von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 1 %
 2 Schritte: 2 %
 3 Schritte: 3 %
@@ -22821,7 +22823,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: Verringert INT- und WLK-Werte der Ziele um 10<Indent/>%.
 Dauer: 10 Sekunden
 Zusatzeffekt: Regeneriert 10<Indent/>% der eigenen Maximal-MP.
-Eigener Reaktivierungs-Timer"
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quietschehammer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 18306,"Du überträgst gegen dich gerichtete Attacken auf das von dir ausgewählte Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Manche Attacken können nicht übertragen werden.
 Unwirksam, wenn du dich weiter als 10y vom ausgewählten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied entfernst.
@@ -22848,7 +22850,7 @@ Dauer: 20 Sekunden"
 18312,"Du machst alle umstehenden Ziele kampfunfähig, wenn ihre Stufe ein Vielfaches von 5 beträgt.
 Hat eine geringe Erfolgswahrscheinlichkeit.
 Wirkt nicht bei Gegnern, die eine höhere Stufe als der Wirkende haben.
-Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Ultravibration<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 18313,"Du fügst allen umstehenden Zielen Schaden in Höhe von 50<Indent/>%, 30<Indent/>%, 20<Indent/>% oder 10<Indent/>% ihrer momentanen LP zu.
 Wirkt nicht bei Gegnern, die eine höhere Stufe als der Wirkende haben."
 18314,"Du führst eine elementneutrale magische Attacke aus.
@@ -22902,12 +22904,12 @@ Die Wirkung wird durch andere Kommandos unterbrochen."
 18324,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 300
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Gewissenstritt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 18325,"Du springst zum Ziel und greifst alle umstehenden Gegner mit einer elementneutralen physischen Attacke an.
 Attacke-Wert: 300
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden.
-Teilt sich den Reaktivierungs-Timer mit bestimmten anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quasar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 18326,""
 18327,""
 18328,""
@@ -28482,13 +28484,13 @@ Heilpotenzial: 400
 Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Heiler<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Regeneriert stetig LP des Ziels.
 Heilpotenzial: 200
 Dauer: 15 Sekunden
-Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Drachenkraft<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Matra-Magie<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 23273,"Du errichtest eine Barriere um dich und verringerst deinen erlittenen Schaden um 20<Indent/>%.
 Dauer: 10 Sekunden
 Zusatzeffekt: Gewährt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, wenn Schaden in der Höhe von 30<Indent/>% deiner Maximal-LP erlitten wird.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Barriere<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Effekt endet bei Bewegung, Umdrehen oder Ausführen eines Kommandos. Bei Ende von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Barriere<UIGlow>01</UIGlow><UIForeground>01</UIForeground> endet auch <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zermalmender Geist<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Rubin-Dynamo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Göttlicher Katarakt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Du führst eine wasserbasierte magische Attacke auf alle umstehenden Gegner aus.
@@ -28504,14 +28506,14 @@ Kann nur während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göt
 23275,"Du führst eine elementneutrale magische Attacke aus.
 Attacke-Wert: 400
 Zusatzeffekt: Ziele werden 10y zurückgeschleudert.
-Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Barriere<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Rubin-Dynamo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 23276,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nur wirksam in Inhalten für 2 oder mehr Spieler.
 Nur alleine oder als einzig kampffähiges Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied wirksam.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 Du erhöhst deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit um 30<Indent/>%, deinen ausgeteilten Schaden und die Wirkung deiner Heilmagie um 100<Indent/>% und bist gegen die Schadensreduzierung durch <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totalabwehr<UIGlow>01</UIGlow><UIForeground>01</UIForeground> immun.
 Effekt endet bei erneuter Ausführung und bei Anwesenheit von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern."
 23277,"Du generierst Ultraschallwellen und machst fast alle umstehenden Gegner, die unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tiefkühlung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leiden, sofort kampfunfähig. Wirkt nicht bei Gegnern, die eine höhere Stufe als der Wirkende haben.
-Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Todesstufe 5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 23278,"Du führst eine eisbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 220
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
@@ -28524,7 +28526,7 @@ Dauer: 15 Sekunden"
 23280,"Du verringerst erlittenen Schaden um 20<Indent/>%.
 Dauer: 15 Sekunden
 Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Wirkung der Schadensreduktion erhöht sich auf 40<Indent/>%.
-Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Engelsspeise<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Matra-Magie<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 23281,"Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 50
 Zusatzeffekt: Schaden über Zeit
@@ -28546,7 +28548,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
 23285,"Du führst eine achtfache elementneutrale magische Attacke auf das Ziel aus.
 Attacke-Wert: 50
 Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Angreifer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 100
-Eigener Reaktivierungs-Timer. Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Engelsspeise<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Drachenkraft<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 23286,"Du führst eine elementneutrale physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 220
 Zusatzeffekt: Fügt dem Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auf wackeligen Beinen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu.
@@ -28556,7 +28558,7 @@ Attacke-Wert gegen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auf
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
 23287,"Du führst eine elementneutrale physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 600
-Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Monddämmerung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 23288,"Du fügst den fächerförmig vor dir stehenden Gegnern im Sekundentakt Schaden über Zeit zu.
 Attacke-Wert: 200
 Dauer: 5 Sekunden
@@ -28577,7 +28579,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Zusatzeffekt: Schaden über Zeit
 Attacke-Wert: 75
 Dauer: 60 Sekunden
-Gemeinsamer Reaktivierungs-Timer mit anderen Blauzaubern."
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Beide Enden<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 23291,""
 23292,""
 23293,""
@@ -36481,6 +36483,8 @@ Dauer: 12 Sekunden
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Luftanker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Luftanker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Bioblaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Luftanker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Analyse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert wird verdoppelt und Ziele erleiden 75<Indent/>% <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Dauer: 5 Sekunden
+Die Erhöhung des Attacke-Werts hat keine Auswirkung auf den Schaden über Zeit.
 Maximale Aufladungen: 2
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scharfer Bioblaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Eigener Reaktivierungs-Timer
@@ -37721,13 +37725,13 @@ Heilpotenzial: 14000
 Zusatzeffekt: Regeneriert stetig LP des Ziels.
 Heilpotenzial: 4200
 Dauer: 15 Sekunden
-Zusatzeffekt: Wirkt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rehabilitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dem Ziel, verdoppelt sich das Heilpozenzial.
+Zusatzeffekt: Wirkt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rehabilitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dem Ziel, verdoppelt sich das Heilpotenzial.
 Die Effekte dieses Kommandos werden nicht von Parametern beeinflusst."
 29730,"Du setzt dich an die erste Stelle der Feindseligkeitsliste der umstehenden Gegner und erhöhst die Feindseligkeit gegen dich noch weiter.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 4 Sekunden
 Zusatzeffekt: Erhöht Feindseligkeit gegen dich immens.
-Dauer: 30 Sekunden"
+Dauer: 60 Sekunden"
 29731,"Du belebst das Ziel wieder, wonach es für gewisse Zeit unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwäche<UIGlow>01</UIGlow><UIForeground>01</UIForeground> leidet.
 Eigener Reaktivierungs-Timer, der nicht durch andere Reaktivierungs-Timer beeinflusst wird."
 29732,"Du belegst das Ziel und die Gegner in seiner Nähe mit Schaden über Zeit.
@@ -41904,9 +41908,21 @@ Dauer: 20 Sekunden"
 33859,""
 33860,""
 33861,""
-33862,""
-33863,""
-33864,""
+33862,"Du regenerierst LP des Ziels.
+Heilpotenzial: 16800
+Zusatzeffekt: Regeneriert stetig LP des Ziels.
+Heilpotenzial: 5000
+Dauer: 15 Sekunden
+Zusatzeffekt: Wirkt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rehabilitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dem Ziel, verdoppelt sich das Heilpotenzial.
+Die Effekte dieses Kommandos werden nicht von Parametern beeinflusst."
+33863,"Du belegst das Ziel und die Gegner in seiner Nähe mit Schaden über Zeit.
+Attacke-Wert: 2460
+Dauer: 30 Sekunden
+Der Effekt dieses Kommandos wird nicht von Parametern oder Statuseffekten beeinflusst."
+33864,"Du verringerst deinen erlittenen Schaden um 20<Indent/>%.
+Dauer: 60 Sekunden
+Zusatzeffekt: Errichtet eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 25000 absorbiert.
+Dauer: 8 Sekunden"
 33865,""
 33866,""
 33867,""
@@ -42605,26 +42621,104 @@ Dauer: 20 Sekunden"
 34560,""
 34561,""
 34562,""
-34563,""
-34564,""
-34565,""
-34566,""
-34567,""
-34568,""
-34569,""
-34570,""
-34571,""
-34572,""
-34573,""
-34574,""
-34575,""
-34576,""
-34577,""
-34578,""
-34579,""
-34580,""
-34581,""
-34582,""
+34563,"Du führst eine elementneutrale physische Attacke aus.
+Attacke-Wert: 120
+Von vorne: 220
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totalabwehr<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert erhöht sich auf 220.
+Von vorne: 320"
+34564,"Du führst eine elementneutrale physische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 110
+Zusatzeffekt: Ziele und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder werden um 10 Yalme zurückgeschleudert.
+Bei einigen negativen Status unwirksam."
+34565,"Du schlägst bei jeder erlittenen Attacke mit Attacke-Wert 50 zurück.
+Dauer: 15 Sekunden
+Zusatzeffekt bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Äther-Mimikry: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert erhöht sich auf 100.
+Kann nicht zugleich mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eisstachel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wogenschleier<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv sein."
+34566,"Du regenerierst eigene LP.
+Heilpotenzial: 600"
+34567,"Du fügst den fächerförmig vor dir stehenden Gegnern im Sekundentakt feuer-, eis- und blitzbasierten Schaden über Zeit zu.
+Attacke-Wert: 120
+Dauer: 60 Sekunden
+Dieser Effekt kann nicht gestapelt werden."
+34568,"Du opferst 50<Indent/>% deiner Maximal-LP und führst eine elementneutrale physische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 500
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%."
+34569,"Du führst eine erdbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Attacke-Wert: 100
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drecksspatz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drecksspatz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erdschaden über Zeit.
+Attacke-Wert: 10
+Dauer: 9 Sekunden"
+34570,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 220
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Entfernt den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drecksspatz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vom Ziel und bewirkt den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzblank<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf dich.
+Bis zu 6 Einheiten stapelbar.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blitzblank<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du regenerierst stetig LP.
+Das Heilpotenzial ist von der Anzahl der gestapelten Einheiten abhängig.
+Heilpotenzial: 50 bis 300
+Dauer: 15 Sekunden
+Dauer wird bei Stapelung der Einheiten nicht zurückgesetzt."
+34571,"Du führst eine elementneutrale physische Attacke auf vor dir stehende Gegner aus.
+Attacke-Wert: 220
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Barriere<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zermalmender Geist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+34572,"Du führst eine elementneutrale magische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
+Attacke-Wert: 220
+Zusatzeffekt: MP werden regeneriert."
+34573,"Du fügst allen umstehenden Zielen Schaden in Höhe von 30<Indent/>% ihrer momentanen LP zu.
+Wirkt nicht bei Gegnern, die eine höhere Stufe als der Wirkende haben."
+34574,"Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.
+Attacke-Wert: 220
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Hat der Wirkende den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Segen des Allmächtigen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inne, ist der Attacke-Wert erhöht.
+Attacke-Wert: 440"
+34575,"Erteilt entweder den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verringerte physische Verwundbarkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verringerte Magie-Verwundbarkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Dauer: 10 Sekunden
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verringerte physische Verwundbarkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erlittener physischer Schaden wird um 50<Indent/>% verringert.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Verringerte Magie-Verwundbarkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erlittener magischer Schaden wird um 50<Indent/>% verringert.
+Eigener Reaktivierungs-Timer."
+34576,"Du führst eine elementneutrale physische Attacke auf alle Gegner in gerader Linie vor dir aus.
+Attacke-Wert: 300
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Reaktivierungs-Timer ist sofort zurückgesetzt und gewährt den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwinge des Urteils<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Maximal vier <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwingen des Urteils<UIGlow>01</UIGlow><UIForeground>01</UIForeground> stapelbar.
+Dauer: Fortdauernd
+Wenn der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwinge des Urteils<UIGlow>01</UIGlow><UIForeground>01</UIForeground> drei beträgt, wird mit der nächsten Aktivierung der Reaktivierungstimer nicht zurückgesetzt und der Attacke-Wert auf 400 erhöht.
+Sobald der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwinge des Urteils<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vier beträgt, ändert sich der Status von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwinge des Urteils<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Segen des Allmächtigen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Dauer: 10 Sekunden
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Segen des Allmächtigen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Mette marcato<UIGlow>01</UIGlow><UIForeground>01</UIForeground> erhöht sich.
+Eigener Reaktivierungs-Timer."
+34577,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 220
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Schleudert Ziele im Wir<SoftHyphen/>kungs<SoftHyphen/>be<SoftHyphen/>reich um 5y zurück."
+34578,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+Attacke-Wert: 250
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Zusatzeffekt: Du verringerst STR und GESK des Ziels um 10 %.
+Dauer: 10 Sekunden
+Zusatzeffekt: Regeneriert 10<Indent/>% der eigenen Maximal-MP.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zauberhammer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+34579,"Du fügst dem Ziel feuerbasierten magischen Schaden über Zeit zu.
+Attacke-Wert: 40
+Dauer: Fortdauernd
+Dieser Effekt kann nicht gestapelt werden.
+Nicht ausführbar auf nicht kämpfende Ziele.
+Sobald das Ziel den Kampf verlässt, endet auch der Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ewige Flammen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+34580,"Du führst eine wasserbasierte magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 500
+Zusatzeffekt wenn <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Regnerisch<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wolkenbruch<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewitter<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert steigt.
+Attacke-Wert: 1000"
+34581,"Du fügst allen Gegnern in gerader Linie vor dir im Sekundentakt Schaden über Zeit zu.
+Attacke-Wert: 140
+Dauer: 10 Sekunden
+Effekt endet bei Bewegung, Umdrehen oder Ausführen eines Kommandos.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sterblichkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+34582,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 800
+Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
+Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Apokalypsis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 34583,""
 34584,""
 34585,""
@@ -43046,3 +43140,1003 @@ Kann nicht im Kommandomenü angelegt werden."
 34998,""
 34999,""
 35000,""
+35001,""
+35002,""
+35003,""
+35004,""
+35005,""
+35006,""
+35007,""
+35008,""
+35009,""
+35010,""
+35011,""
+35012,""
+35013,""
+35014,""
+35015,""
+35016,""
+35017,""
+35018,""
+35019,""
+35020,""
+35021,""
+35022,""
+35023,""
+35024,""
+35025,""
+35026,""
+35027,""
+35028,""
+35029,""
+35030,""
+35031,""
+35032,""
+35033,""
+35034,""
+35035,""
+35036,""
+35037,""
+35038,""
+35039,""
+35040,""
+35041,""
+35042,""
+35043,""
+35044,""
+35045,""
+35046,""
+35047,""
+35048,""
+35049,""
+35050,""
+35051,""
+35052,""
+35053,""
+35054,""
+35055,""
+35056,""
+35057,""
+35058,""
+35059,""
+35060,""
+35061,""
+35062,""
+35063,""
+35064,""
+35065,""
+35066,""
+35067,""
+35068,""
+35069,""
+35070,""
+35071,""
+35072,""
+35073,""
+35074,""
+35075,""
+35076,""
+35077,""
+35078,""
+35079,""
+35080,""
+35081,""
+35082,""
+35083,""
+35084,""
+35085,""
+35086,""
+35087,""
+35088,""
+35089,""
+35090,""
+35091,""
+35092,""
+35093,""
+35094,""
+35095,""
+35096,""
+35097,""
+35098,""
+35099,""
+35100,""
+35101,""
+35102,""
+35103,""
+35104,""
+35105,""
+35106,""
+35107,""
+35108,""
+35109,""
+35110,""
+35111,""
+35112,""
+35113,""
+35114,""
+35115,""
+35116,""
+35117,""
+35118,""
+35119,""
+35120,""
+35121,""
+35122,""
+35123,""
+35124,""
+35125,""
+35126,""
+35127,""
+35128,""
+35129,""
+35130,""
+35131,""
+35132,""
+35133,""
+35134,""
+35135,""
+35136,""
+35137,""
+35138,""
+35139,""
+35140,""
+35141,""
+35142,""
+35143,""
+35144,""
+35145,""
+35146,""
+35147,""
+35148,""
+35149,""
+35150,""
+35151,""
+35152,""
+35153,""
+35154,""
+35155,""
+35156,""
+35157,""
+35158,""
+35159,""
+35160,""
+35161,""
+35162,""
+35163,""
+35164,""
+35165,""
+35166,""
+35167,""
+35168,""
+35169,""
+35170,""
+35171,""
+35172,""
+35173,""
+35174,""
+35175,""
+35176,""
+35177,""
+35178,""
+35179,""
+35180,""
+35181,""
+35182,""
+35183,""
+35184,""
+35185,""
+35186,""
+35187,""
+35188,""
+35189,""
+35190,""
+35191,""
+35192,""
+35193,""
+35194,""
+35195,""
+35196,""
+35197,""
+35198,""
+35199,""
+35200,""
+35201,""
+35202,""
+35203,""
+35204,""
+35205,""
+35206,""
+35207,""
+35208,""
+35209,""
+35210,""
+35211,""
+35212,""
+35213,""
+35214,""
+35215,""
+35216,""
+35217,""
+35218,""
+35219,""
+35220,""
+35221,""
+35222,""
+35223,""
+35224,""
+35225,""
+35226,""
+35227,""
+35228,""
+35229,""
+35230,""
+35231,""
+35232,""
+35233,""
+35234,""
+35235,""
+35236,""
+35237,""
+35238,""
+35239,""
+35240,""
+35241,""
+35242,""
+35243,""
+35244,""
+35245,""
+35246,""
+35247,""
+35248,""
+35249,""
+35250,""
+35251,""
+35252,""
+35253,""
+35254,""
+35255,""
+35256,""
+35257,""
+35258,""
+35259,""
+35260,""
+35261,""
+35262,""
+35263,""
+35264,""
+35265,""
+35266,""
+35267,""
+35268,""
+35269,""
+35270,""
+35271,""
+35272,""
+35273,""
+35274,""
+35275,""
+35276,""
+35277,""
+35278,""
+35279,""
+35280,""
+35281,""
+35282,""
+35283,""
+35284,""
+35285,""
+35286,""
+35287,""
+35288,""
+35289,""
+35290,""
+35291,""
+35292,""
+35293,""
+35294,""
+35295,""
+35296,""
+35297,""
+35298,""
+35299,""
+35300,""
+35301,""
+35302,""
+35303,""
+35304,""
+35305,""
+35306,""
+35307,""
+35308,""
+35309,""
+35310,""
+35311,""
+35312,""
+35313,""
+35314,""
+35315,""
+35316,""
+35317,""
+35318,""
+35319,""
+35320,""
+35321,""
+35322,""
+35323,""
+35324,""
+35325,""
+35326,""
+35327,""
+35328,""
+35329,""
+35330,""
+35331,""
+35332,""
+35333,""
+35334,""
+35335,""
+35336,""
+35337,""
+35338,""
+35339,""
+35340,""
+35341,""
+35342,""
+35343,""
+35344,""
+35345,""
+35346,""
+35347,""
+35348,""
+35349,""
+35350,""
+35351,""
+35352,""
+35353,""
+35354,""
+35355,""
+35356,""
+35357,""
+35358,""
+35359,""
+35360,""
+35361,""
+35362,""
+35363,""
+35364,""
+35365,""
+35366,""
+35367,""
+35368,""
+35369,""
+35370,""
+35371,""
+35372,""
+35373,""
+35374,""
+35375,""
+35376,""
+35377,""
+35378,""
+35379,""
+35380,""
+35381,""
+35382,""
+35383,""
+35384,""
+35385,""
+35386,""
+35387,""
+35388,""
+35389,""
+35390,""
+35391,""
+35392,""
+35393,""
+35394,""
+35395,""
+35396,""
+35397,""
+35398,""
+35399,""
+35400,""
+35401,""
+35402,""
+35403,""
+35404,""
+35405,""
+35406,""
+35407,""
+35408,""
+35409,""
+35410,""
+35411,""
+35412,""
+35413,""
+35414,""
+35415,""
+35416,""
+35417,""
+35418,""
+35419,""
+35420,""
+35421,""
+35422,""
+35423,""
+35424,""
+35425,""
+35426,""
+35427,""
+35428,""
+35429,""
+35430,""
+35431,""
+35432,""
+35433,""
+35434,""
+35435,""
+35436,""
+35437,""
+35438,""
+35439,""
+35440,""
+35441,""
+35442,""
+35443,""
+35444,""
+35445,""
+35446,""
+35447,""
+35448,""
+35449,""
+35450,""
+35451,""
+35452,""
+35453,""
+35454,""
+35455,""
+35456,""
+35457,""
+35458,""
+35459,""
+35460,""
+35461,""
+35462,""
+35463,""
+35464,""
+35465,""
+35466,""
+35467,""
+35468,""
+35469,""
+35470,""
+35471,""
+35472,""
+35473,""
+35474,""
+35475,""
+35476,""
+35477,""
+35478,""
+35479,""
+35480,""
+35481,""
+35482,""
+35483,""
+35484,""
+35485,""
+35486,""
+35487,""
+35488,""
+35489,""
+35490,""
+35491,""
+35492,""
+35493,""
+35494,""
+35495,""
+35496,""
+35497,""
+35498,""
+35499,""
+35500,""
+35501,""
+35502,""
+35503,""
+35504,""
+35505,""
+35506,""
+35507,""
+35508,""
+35509,""
+35510,""
+35511,""
+35512,""
+35513,""
+35514,""
+35515,""
+35516,""
+35517,""
+35518,""
+35519,""
+35520,""
+35521,""
+35522,""
+35523,""
+35524,""
+35525,""
+35526,""
+35527,""
+35528,""
+35529,""
+35530,""
+35531,""
+35532,""
+35533,""
+35534,""
+35535,""
+35536,""
+35537,""
+35538,""
+35539,""
+35540,""
+35541,""
+35542,""
+35543,""
+35544,""
+35545,""
+35546,""
+35547,""
+35548,""
+35549,""
+35550,""
+35551,""
+35552,""
+35553,""
+35554,""
+35555,""
+35556,""
+35557,""
+35558,""
+35559,""
+35560,""
+35561,""
+35562,""
+35563,""
+35564,""
+35565,""
+35566,""
+35567,""
+35568,""
+35569,""
+35570,""
+35571,""
+35572,""
+35573,""
+35574,""
+35575,""
+35576,""
+35577,""
+35578,""
+35579,""
+35580,""
+35581,""
+35582,""
+35583,""
+35584,""
+35585,""
+35586,""
+35587,""
+35588,""
+35589,""
+35590,""
+35591,""
+35592,""
+35593,""
+35594,""
+35595,""
+35596,""
+35597,""
+35598,""
+35599,""
+35600,""
+35601,""
+35602,""
+35603,""
+35604,""
+35605,""
+35606,""
+35607,""
+35608,""
+35609,""
+35610,""
+35611,""
+35612,""
+35613,""
+35614,""
+35615,""
+35616,""
+35617,""
+35618,""
+35619,""
+35620,""
+35621,""
+35622,""
+35623,""
+35624,""
+35625,""
+35626,""
+35627,""
+35628,""
+35629,""
+35630,""
+35631,""
+35632,""
+35633,""
+35634,""
+35635,""
+35636,""
+35637,""
+35638,""
+35639,""
+35640,""
+35641,""
+35642,""
+35643,""
+35644,""
+35645,""
+35646,""
+35647,""
+35648,""
+35649,""
+35650,""
+35651,""
+35652,""
+35653,""
+35654,""
+35655,""
+35656,""
+35657,""
+35658,""
+35659,""
+35660,""
+35661,""
+35662,""
+35663,""
+35664,""
+35665,""
+35666,""
+35667,""
+35668,""
+35669,""
+35670,""
+35671,""
+35672,""
+35673,""
+35674,""
+35675,""
+35676,""
+35677,""
+35678,""
+35679,""
+35680,""
+35681,""
+35682,""
+35683,""
+35684,""
+35685,""
+35686,""
+35687,""
+35688,""
+35689,""
+35690,""
+35691,""
+35692,""
+35693,""
+35694,""
+35695,""
+35696,""
+35697,""
+35698,""
+35699,""
+35700,""
+35701,""
+35702,""
+35703,""
+35704,""
+35705,""
+35706,""
+35707,""
+35708,""
+35709,""
+35710,""
+35711,""
+35712,""
+35713,""
+35714,""
+35715,""
+35716,""
+35717,""
+35718,""
+35719,""
+35720,""
+35721,""
+35722,""
+35723,""
+35724,""
+35725,""
+35726,""
+35727,""
+35728,""
+35729,""
+35730,""
+35731,""
+35732,""
+35733,""
+35734,""
+35735,""
+35736,""
+35737,""
+35738,""
+35739,""
+35740,""
+35741,""
+35742,""
+35743,""
+35744,""
+35745,""
+35746,""
+35747,""
+35748,""
+35749,""
+35750,""
+35751,""
+35752,""
+35753,""
+35754,""
+35755,""
+35756,""
+35757,""
+35758,""
+35759,""
+35760,""
+35761,""
+35762,""
+35763,""
+35764,""
+35765,""
+35766,""
+35767,""
+35768,""
+35769,""
+35770,""
+35771,""
+35772,""
+35773,""
+35774,""
+35775,""
+35776,""
+35777,""
+35778,""
+35779,""
+35780,""
+35781,""
+35782,""
+35783,""
+35784,""
+35785,""
+35786,""
+35787,""
+35788,""
+35789,""
+35790,""
+35791,""
+35792,""
+35793,""
+35794,""
+35795,""
+35796,""
+35797,""
+35798,""
+35799,""
+35800,""
+35801,""
+35802,""
+35803,""
+35804,""
+35805,""
+35806,""
+35807,""
+35808,""
+35809,""
+35810,""
+35811,""
+35812,""
+35813,""
+35814,""
+35815,""
+35816,""
+35817,""
+35818,""
+35819,""
+35820,""
+35821,""
+35822,""
+35823,""
+35824,""
+35825,""
+35826,""
+35827,""
+35828,""
+35829,""
+35830,""
+35831,""
+35832,""
+35833,""
+35834,""
+35835,""
+35836,""
+35837,""
+35838,""
+35839,""
+35840,""
+35841,""
+35842,""
+35843,""
+35844,""
+35845,""
+35846,""
+35847,""
+35848,""
+35849,""
+35850,""
+35851,""
+35852,""
+35853,""
+35854,""
+35855,""
+35856,""
+35857,""
+35858,""
+35859,""
+35860,""
+35861,""
+35862,""
+35863,""
+35864,""
+35865,""
+35866,""
+35867,""
+35868,""
+35869,""
+35870,""
+35871,""
+35872,""
+35873,""
+35874,""
+35875,""
+35876,""
+35877,""
+35878,""
+35879,""
+35880,""
+35881,""
+35882,""
+35883,""
+35884,""
+35885,""
+35886,""
+35887,""
+35888,""
+35889,""
+35890,""
+35891,""
+35892,""
+35893,""
+35894,""
+35895,""
+35896,""
+35897,""
+35898,""
+35899,""
+35900,""
+35901,""
+35902,""
+35903,""
+35904,""
+35905,""
+35906,""
+35907,""
+35908,""
+35909,""
+35910,""
+35911,""
+35912,""
+35913,""
+35914,""
+35915,""
+35916,""
+35917,""
+35918,""
+35919,""
+35920,""
+35921,""
+35922,""
+35923,""
+35924,""
+35925,""
+35926,""
+35927,""
+35928,""
+35929,""
+35930,""
+35931,""
+35932,""
+35933,""
+35934,""
+35935,""
+35936,""
+35937,""
+35938,""
+35939,""
+35940,""
+35941,""
+35942,""
+35943,""
+35944,""
+35945,""
+35946,""
+35947,""
+35948,""
+35949,""
+35950,""
+35951,""
+35952,""
+35953,""
+35954,""
+35955,""
+35956,""
+35957,""
+35958,""
+35959,""
+35960,""
+35961,""
+35962,""
+35963,""
+35964,""
+35965,""
+35966,""
+35967,""
+35968,""
+35969,""
+35970,""
+35971,""
+35972,""
+35973,""
+35974,""
+35975,""
+35976,""
+35977,""
+35978,""
+35979,""
+35980,""
+35981,""
+35982,""
+35983,""
+35984,""
+35985,""
+35986,""
+35987,""
+35988,""
+35989,""
+35990,""
+35991,""
+35992,""
+35993,""
+35994,""
+35995,""
+35996,""
+35997,""
+35998,""
+35999,""
+36000,""

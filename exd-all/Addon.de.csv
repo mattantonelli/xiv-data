@@ -9306,7 +9306,8 @@ Auch bei Inhalten ohne Beschränkungen erhält man für das Besiegen von Gegnern
 10090,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Das Suchkriterium „Abgeschlossen“ ist erst verfügbar, wenn der Inhalt einmal abgeschlossen wurde.
 <If(Equal(IntegerParameter(1),0))>※ Das Ziel „Raid abschließen“ ist nur verfügbar, wenn die wöchentliche Vergütung noch nicht erhalten wurde.
 <Else/></If>※ Das Üben einer Phase hat keinen Einfluss auf den tatsächlichen Fortschritt im Raid.
-<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(IntegerParameter(1),0))><UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※ Wenn 1 bis 4 Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder keine wöchentliche Vergütung erhalten können, erscheint 1 Schatztruhe. Sind es mehr als 5 Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, erscheinen keine Schatztruhen.
+<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(IntegerParameter(1),0))><UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※ Wenn 1 bis 4 Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder keine wöchentliche Vergütung erhalten können, wird die Höhe der Belohnung verringert. Sind es mehr als 5 Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, erscheinen keine Schatztruhen.
+※ Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die beim Abschluss des Inhalts offline sind, werden als Mitglieder gewertet, die keine wöchentliche Vergütung erhalten können.
 ※ Die Registrierung wird abgebrochen, wenn der Zeitpunkt für die Zurücksetzung des Wochenlimits überschritten ist.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
 10091,"Auswahl aufheben"
 10092,"Registrieren"
@@ -14347,7 +14348,7 @@ Als Projektion registrierte Objekte können über die Projektionsliste so oft au
 15548,"Alle Saisons"
 15549,"Gibt es für die von dir definierte Zeit einen Mangel an Material, der für die Herstellung im Inselatelier benötigt wird, so wird dir im Inselführer und im Atelierplan ein Warnsymbol angezeigt.
 
-Zusätzlich erhältst du eine Texteinblendung, wenn ein Mangel durch Herstellung im Pionierswerk, den Gebäudebu oder den Materialverkauf entsteht.
+Zusätzlich erhältst du eine Texteinblendung, wenn ein Mangel durch Herstellung im Pionierswerk, den Gebäudebau oder den Materialverkauf entsteht.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Hattest du zuvor schon zu wenig Material, erfolgt keine zusätzliche Warnung.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 15550,"Reihenfolge ändern"
 15551,"Nach Inselbeutel"
@@ -14391,6 +14392,9 @@ Einmal registriert, kann das Objekt so oft aufgestellt werden, wie du möchtest.
 15701," Das Meisterwerk der Mandervilles (Verstärkung)"
 15702," Meisterwerke in neuem Gewand (1. Verbesserung)"
 15703," Werkzeug voller Gefühle (2. Verbesserung)"
+15704," Die Macht der Manderville-Waffen (Verbesserung)"
+15705," Farbenfrohe Verbesserung (3. Verbesserung)"
+15706," Dem Namen gerecht (4. Verbesserung)"
 15730,"Nicht festgelegt"
 15731,"Süßwasser"
 15732,"Salzwasser"
@@ -14436,6 +14440,27 @@ Einmal registriert, kann das Objekt so oft aufgestellt werden, wie du möchtest.
 15834,"Welt"
 15835,"Welt"
 15836,"Welt"
+15840,"Bitte wähle drei Parameter aus.
+Der dritte Parameter wird auf einen niedrigeren Wert gesetzt als die anderen."
+15842,"(<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>)"
+15843,"Nichts ausgewählt"
+15844,"Bestätigen"
+15845,"Abbrechen"
+15846,"Parameter für <SheetDe(Item,2,IntegerParameter(1),1,4,1)/> werden angepasst."
+15847,"Vergleichen"
+15848,"Möchtest du <Value>IntegerParameter(2)</Value> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><If(LessThanOrEqualTo(IntegerParameter(2),1))><SheetDe(Item,5,IntegerParameter(1),1,4,1)/><Else/><SheetDe(Item,5,IntegerParameter(1),2,4,1)/></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbrauchen?"
+15849,"Möchtest du die Parameter-Anpassung abbrechen?"
+15850,"Parameter bestätigen und <SheetDe(Item,2,IntegerParameter(1),1,4,1)/> erhalten?"
+15851,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Highlight>StringParameter(1)</Highlight><UIGlow>01</UIGlow><UIForeground>01</UIForeground>の
+パラメータ調整を完了します。
+よろしいですか？"
+15852,"Kritische Trefferrate"
+15853,"Direkte Trefferrate"
+15854,"Schnelligkeit"
+15855,"Zaubertempo"
+15856,"Unbeugsamkeit"
+15857,"Ent<SoftHyphen/>schlos<SoftHyphen/>sen<SoftHyphen/>heit"
+15858,"Frömmigkeit"
 101000,"<CommandIcon(10)/> Untermenü"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Auswählen"
