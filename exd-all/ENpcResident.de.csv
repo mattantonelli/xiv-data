@@ -44011,7 +44011,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1044007,"Laurenssen",3,"NONE",1,0,0,0,1,"",3,False
 1044008,"Kürbishexe",3,"Kürbishexen",1,0,1,1,0,"",3,False
 1044009,"dubios[a] Imp",4,"dubios[a] Imp",1,0,1,0,0,"Allerschutzheiligen",3,True
-1044010,"dubios[a] Imp",4,"dubios[a] Imp",1,0,1,0,0,"Saisonales Geschäft",3,True
+1044010,"dubios[a] Imp",4,"dubios[a] Imp",1,0,1,0,0,"Allerschutzheiligen",3,True
 1044011,"",0,"",0,0,1,0,0,"",6,True
 1044012,"",0,"",0,0,1,0,0,"",5,True
 1044013,"Gordona-Wächter",4,"Gordona-Wächter",2,0,1,0,0,"",3,False
@@ -45220,11 +45220,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045216,"erfahren[a] Porträtzeichner",4,"erfahren[a] Porträtzeichner",2,0,1,0,0,"",4,False
 1045217,"Nashu Mhakaracca",3,"NONE",1,0,0,0,1,"",4,False
 1045218,"Godbert",3,"NONE",1,0,0,1,1,"",4,False
-1045219,"",0,"",0,0,0,0,0,"",0,False
-1045220,"",0,"",0,0,0,0,0,"",0,False
-1045221,"",0,"",0,0,0,0,0,"",0,False
-1045222,"",0,"",0,0,0,0,0,"",0,False
-1045223,"",0,"",0,0,0,0,0,"",0,False
+1045219,"Naoki Yoshida",3,"NONE",1,0,0,0,1,"",4,False
+1045220,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",4,False
+1045221,"Quiveron-Gehilfe",8,"Quiveron-Gehilfen",1,0,1,0,0,"",4,False
+1045222,"Quiveron-Gehilfe",8,"Quiveron-Gehilfen",1,0,1,0,0,"",4,False
+1045223,"Quiveron-Gehilfe",8,"Quiveron-Gehilfen",1,0,1,0,0,"",4,False
 1045224,"",0,"",0,0,1,0,0,"",2,False
 1045225,"Eo Tyr",3,"NONE",1,0,0,1,1,"",3,False
 1045226,"Y'shtola",3,"Y'shtola",1,0,0,1,1,"",3,False
@@ -45508,62 +45508,62 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045504,"",0,"",0,0,1,0,0,"",2,False
 1045505,"",0,"",0,0,1,0,0,"",2,False
 1045506,"",0,"",0,0,1,0,0,"",2,False
-1045507,"",0,"",0,0,0,0,0,"",0,False
-1045508,"",0,"",0,0,0,0,0,"",0,False
-1045509,"",0,"",0,0,0,0,0,"",0,False
-1045510,"",0,"",0,0,0,0,0,"",0,False
-1045511,"",0,"",0,0,0,0,0,"",0,False
-1045512,"",0,"",0,0,0,0,0,"",0,False
-1045513,"",0,"",0,0,0,0,0,"",0,False
-1045514,"",0,"",0,0,0,0,0,"",0,False
-1045515,"",0,"",0,0,0,0,0,"",0,False
-1045516,"",0,"",0,0,0,0,0,"",0,False
-1045517,"",0,"",0,0,0,0,0,"",0,False
-1045518,"",0,"",0,0,0,0,0,"",0,False
-1045519,"",0,"",0,0,0,0,0,"",0,False
-1045520,"",0,"",0,0,0,0,0,"",0,False
-1045521,"",0,"",0,0,0,0,0,"",0,False
-1045522,"",0,"",0,0,0,0,0,"",0,False
-1045523,"",0,"",0,0,0,0,0,"",0,False
-1045524,"",0,"",0,0,0,0,0,"",0,False
-1045525,"",0,"",0,0,0,0,0,"",0,False
-1045526,"",0,"",0,0,0,0,0,"",0,False
-1045527,"",0,"",0,0,0,0,0,"",0,False
-1045528,"",0,"",0,0,0,0,0,"",0,False
-1045529,"",0,"",0,0,0,0,0,"",0,False
-1045530,"",0,"",0,0,0,0,0,"",0,False
-1045531,"",0,"",0,0,0,0,0,"",0,False
-1045532,"",0,"",0,0,0,0,0,"",0,False
-1045533,"",0,"",0,0,0,0,0,"",0,False
-1045534,"",0,"",0,0,0,0,0,"",0,False
-1045535,"",0,"",0,0,0,0,0,"",0,False
-1045536,"",0,"",0,0,0,0,0,"",0,False
-1045537,"",0,"",0,0,0,0,0,"",0,False
-1045538,"",0,"",0,0,0,0,0,"",0,False
-1045539,"",0,"",0,0,0,0,0,"",0,False
-1045540,"",0,"",0,0,0,0,0,"",0,False
-1045541,"",0,"",0,0,0,0,0,"",0,False
+1045507,"Festverkäuferin",3,"Festverkäuferinnen",1,0,1,1,0,"Saisonales Geschäft",3,True
+1045508,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"",3,True
+1045509,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"",3,True
+1045510,"Festkomiteemitglied",4,"Festkomiteemitglieder",2,0,1,2,0,"",3,True
+1045511,"Nonora",3,"NONE",1,0,0,1,1,"",3,True
+1045512,"Waldhüterin",3,"Waldhüterinnen",1,0,1,1,0,"",3,True
+1045513,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1045514,"",0,"",0,0,1,0,0,"",5,False
+1045515,"",0,"",0,0,1,0,0,"",5,False
+1045516,"",0,"",0,0,1,0,0,"",5,False
+1045517,"",0,"",0,0,1,0,0,"",5,False
+1045518,"",0,"",0,0,1,0,0,"",5,False
+1045519,"",0,"",0,0,1,0,0,"",5,False
+1045520,"",0,"",0,0,1,0,0,"",5,False
+1045521,"",0,"",0,0,1,0,0,"",5,False
+1045522,"",0,"",0,0,1,0,0,"",5,False
+1045523,"",0,"",0,0,1,0,0,"",3,False
+1045524,"",0,"",0,0,1,0,0,"",3,False
+1045525,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",3,False
+1045526,"Kipih Jakkya",3,"NONE",1,0,0,1,1,"",3,False
+1045527,"Hochländer-Abenteurerin",3,"Hochländer-Abenteurerinnen",1,0,1,1,0,"",3,False
+1045528,"Bran",3,"NONE",1,0,0,0,1,"",3,False
+1045529,"Wiesländer-Festkomiteemitglied",4,"Wiesländer-Festkomiteemitglieder",2,0,1,2,0,"",3,False
+1045530,"Kipih Jakkya",3,"NONE",1,0,0,1,1,"",3,False
+1045531,"Kipih Jakkya",3,"NONE",1,0,0,1,1,"",3,False
+1045532,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1045533,"Wiesländer-Kaufmann",2,"Wiesländer-Kaufmänner",2,0,1,0,0,"",3,False
+1045534,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",3,False
+1045535,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
+1045536,"Kipih Jakkya",3,"NONE",1,0,0,1,1,"",3,False
+1045537,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",3,False
+1045538,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",3,False
+1045539,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",3,False
+1045540,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",3,False
+1045541,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
 1045542,"Qeshi-Trao",3,"NONE",1,0,0,1,1,"",4,False
 1045543,"自動人形",0,"",0,0,1,0,0,"",4,False
 1045544,"aufgeregt[a] Handwerker",4,"aufgeregt[a] Handwerker",2,0,1,0,0,"",4,False
 1045545,"モブ職人A",0,"",0,0,1,0,0,"",4,False
 1045546,"モブ職人B",0,"",0,0,1,0,0,"",4,False
 1045547,"モブ職人C",0,"",0,0,1,0,0,"",4,False
-1045548,"",0,"",0,0,0,0,0,"",0,False
-1045549,"",0,"",0,0,0,0,0,"",0,False
-1045550,"",0,"",0,0,0,0,0,"",0,False
-1045551,"",0,"",0,0,0,0,0,"",0,False
-1045552,"",0,"",0,0,0,0,0,"",0,False
+1045548,"aufsteigend[a] Phönix",3,"aufsteigend[a] Phönixe",2,0,1,0,0,"",4,False
+1045549,"Erleuchtet[a] Prior[p] Flutaint",4,"Erleuchtet[a] Priore[p] Flutaint",2,0,1,0,1,"",4,False
+1045550,"Phönixhauptmann[p] Ryder",4,"Phönixhauptmänner[p] Ryder",2,0,1,0,1,"",4,False
+1045551,"Bahamut",3,"NONE",1,0,0,0,1,"",4,False
+1045552,"",0,"",0,0,1,0,0,"",4,False
 1045553,"Athena",3,"NONE",1,0,0,1,1,"",4,False
 1045554,"Alchemist[p] der Mandervilles",6,"Alchemisten[p] der Mandervilles",1,0,1,0,0,"",4,False
 1045555,"",0,"",0,0,0,0,0,"",0,False
 1045556,"jung[a] Elezen",4,"jung[a] Elezen",1,0,1,0,0,"",4,False
 1045557,"jung[a] Au Ra",3,"jung[a] Au Ra",1,0,1,0,0,"",4,False
 1045558,"",0,"",0,0,1,0,0,"",4,False
-1045559,"",0,"",0,0,0,0,0,"",0,False
-1045560,"",0,"",0,0,0,0,0,"",0,False
-1045561,"",0,"",0,0,0,0,0,"",0,False
-1045562,"",0,"",0,0,0,0,0,"",0,False
+1045559,"Nananji",3,"NONE",1,0,0,0,1,"",4,False
+1045560,"Erst[a] Legionsfähnrich[p] Aubrey",4,"Erst[a] Legionsfähnriche[p] Aubrey",2,0,1,0,0,"",4,False
+1045561,"Erst[a] Schlangenpriester[p] Fulke",4,"Erst[a] Schlangenpriester[p] Fulke",2,0,1,0,0,"",4,False
+1045562,"Orn Guincum",3,"NONE",1,0,0,0,1,"",4,False
 1045563,"Emmanellain",3,"NONE",1,0,0,0,1,"",4,False
 1045564,"Sicard",3,"NONE",1,0,0,0,1,"",4,False
 1045565,"Krakobart",3,"NONE",1,0,0,0,1,"",4,False
@@ -45575,10 +45575,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045571,"",0,"",0,0,1,0,0,"",5,False
 1045572,"",0,"",0,0,1,0,0,"",5,False
 1045573,"",0,"",0,0,0,0,0,"",0,False
-1045574,"",0,"",0,0,0,0,0,"",0,False
-1045575,"",0,"",0,0,0,0,0,"",0,False
-1045576,"",0,"",0,0,0,0,0,"",0,False
-1045577,"",0,"",0,0,0,0,0,"",0,False
+1045574,"",0,"",0,0,1,0,0,"",5,False
+1045575,"Kipih Jakkya",3,"NONE",1,0,0,1,1,"",3,False
+1045576,"Kipih Jakkya",3,"NONE",1,0,0,1,1,"",3,False
+1045577,"",0,"",0,0,1,0,0,"",5,False
 1045578,"entspannt[a] Passant",6,"",1,0,1,0,0,"",3,False
 1045579,"streng[a] Passant",6,"",1,0,1,0,0,"",3,False
 1045580,"offenherzig[a] Passant",6,"",1,0,1,0,0,"",3,False
@@ -45616,19 +45616,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045612,"",0,"",0,0,1,0,0,"",5,False
 1045613,"",0,"",0,0,1,0,0,"",5,False
 1045614,"jung[a] Au Ra",3,"jung[a] Au Ra",1,0,1,0,0,"",3,False
-1045615,"",0,"",0,0,0,0,0,"",0,False
-1045616,"",0,"",0,0,0,0,0,"",0,False
-1045617,"",0,"",0,0,0,0,0,"",0,False
-1045618,"",0,"",0,0,0,0,0,"",0,False
-1045619,"",0,"",0,0,0,0,0,"",0,False
-1045620,"",0,"",0,0,0,0,0,"",0,False
-1045621,"",0,"",0,0,0,0,0,"",0,False
-1045622,"",0,"",0,0,0,0,0,"",0,False
-1045623,"",0,"",0,0,0,0,0,"",0,False
-1045624,"",0,"",0,0,0,0,0,"",0,False
-1045625,"",0,"",0,0,0,0,0,"",0,False
-1045626,"",0,"",0,0,0,0,0,"",0,False
-1045627,"",0,"",0,0,0,0,0,"",0,False
+1045615,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045616,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045617,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045618,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045619,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045620,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045621,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045622,"",0,"",0,0,1,0,0,"",5,False
+1045623,"Roegadyn-Träger",4,"Roegadyn-Träger",2,0,1,0,0,"",3,False
+1045624,"Ladenhüterin",3,"Ladenhüterinnen",1,0,1,1,0,"",3,False
+1045625,"erfahren[a] Schiffsbauer",4,"erfahren[a] Schiffsbauer",2,0,1,0,0,"",3,False
+1045626,"Nananji",3,"NONE",1,0,0,0,1,"",3,False
+1045627,"Orn Guincum",3,"NONE",1,0,0,0,1,"",3,False
 1045628,"",0,"",0,0,0,0,0,"",0,False
 1045629,"Emmanellain",3,"NONE",1,0,0,0,1,"",3,False
 1045630,"Sicard",3,"NONE",1,0,0,0,1,"",3,False
@@ -45781,10 +45781,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045777,"ängstlich[a] Kind[p]",2,"ängstlich[a] Kinder ",2,0,1,2,0,"",3,False
 1045778,"",0,"",0,0,1,0,0,"",5,False
 1045779,"",0,"",0,0,1,0,0,"",5,False
-1045780,"selbstsicher[a] Kind[p]",2,"selbsticher[a] Kinder",2,0,1,2,0,"",3,False
+1045780,"selbstsicher[a] Kind[p]",2,"selbstsicher[a] Kinder",2,0,1,2,0,"",3,False
 1045781,"",0,"",0,0,1,0,0,"",5,False
 1045782,"eingeschüchtert[a] Gärtnerin",3,"eingeschüchtert[a] Gärtnerinnen",1,0,1,1,0,"",3,False
-1045783,"Gevatter Pierrot ",3,"NONE",1,0,0,0,1,"",3,False
+1045783,"Gevatter Pierrot",3,"NONE",1,0,0,0,1,"",3,False
 1045784,"Kürbishexe",3,"Kürbishexen",1,0,1,1,0,"",3,False
 1045785,"Gevatter Pierrot",3,"NONE",1,0,0,0,1,"",3,False
 1045786,"frech[a] Nichtsgesandt[a]",3,"frech[a] Nichtsgesandt[a]",1,0,1,0,0,"",3,False
@@ -45840,12 +45840,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045836,"Zero",3,"NONE",1,0,0,1,1,"",4,False
 1045837,"stämmig[a] Pikenier",4,"stämmig[a] Pikeniere",2,0,1,0,0,"",4,False
 1045838,"Sicard",3,"NONE",1,0,0,0,1,"",4,False
-1045839,"",0,"",0,0,0,0,0,"",0,False
+1045839,"",0,"",0,0,1,0,0,"",4,False
 1045840,"Honoroit",3,"NONE",1,0,0,0,1,"",4,False
 1045841,"Sicard",3,"NONE",1,0,0,0,1,"",4,False
 1045842,"",0,"",0,0,1,0,0,"",4,False
 1045843,"",0,"",0,0,1,0,0,"",4,False
-1045844,"",0,"",0,0,0,0,0,"",0,False
+1045844,"Nhagi'a Jakkya",3,"NONE",1,0,0,0,1,"",4,False
 1045845,"Gaius",3,"NONE",1,0,0,0,1,"",4,False
 1045846,"",0,"",0,0,0,0,0,"",0,False
 1045847,"",0,"",0,0,0,0,0,"",0,False

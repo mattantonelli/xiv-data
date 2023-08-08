@@ -31,7 +31,7 @@ int32,Image,Image,byte,byte,byte,byte,BannerCondition,byte,str
 27,"ui/icon/196000/196210.tex","ui/icon/196000/196460.tex",1,0,0,0,"BannerCondition#524",80,"Divine Circle"
 28,"ui/icon/196000/196209.tex","ui/icon/196000/196459.tex",2,0,0,0,"BannerCondition#525",81,"Velodyna Gatekeepers"
 29,"ui/icon/196000/196211.tex","ui/icon/196000/196461.tex",1,0,0,0,"BannerCondition#526",82,"Seven Hundred Seventy-Seven"
-30,,,0,0,0,0,"BannerCondition#0",0,""
+30,"ui/icon/196000/196106.tex",,1,0,0,0,"BannerCondition#523",110,"Ten Year Anniversary"
 31,"ui/icon/196000/196107.tex",,1,0,0,0,"BannerCondition#529",90,"Adventurous Angling"
 32,"ui/icon/196000/196108.tex",,1,0,0,0,"BannerCondition#530",91,"Big Fish"
 33,"ui/icon/196000/196109.tex","ui/icon/196000/196351.tex",1,0,0,0,"BannerCondition#531",92,"Mahjong Mastery"

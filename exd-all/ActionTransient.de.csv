@@ -35552,7 +35552,7 @@ Heilpotenzial: 2000
 Dauer: 10 Sekunden
 Eigener Reaktivierungs-Timer"
 29071,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Leiden die Ziele unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, ist dein Schaden um 50 % erhöht.
-Attacke-Wert: 4000
+Attacke-Wert: 6000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
 Heilpotenzial: 2000
@@ -35561,7 +35561,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der 
 Ändert sich bei Ausführung zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Redlichkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Kann nicht im Kommandomenü angelegt werden."
 29072,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Leiden die Ziele unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, ist dein Schaden um 50 % erhöht.
-Attacke-Wert: 6000
+Attacke-Wert: 7000
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
@@ -35899,9 +35899,10 @@ Dauer: 7 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ohne Gnade<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Dein ausgeteilter Schaden und Heileffekte werden um 20<Indent/>% erhöht, sowie deine Be<SoftHyphen/>we<SoftHyphen/>gungs<SoftHyphen/>ge<SoftHyphen/>schwin<SoftHyphen/>dig<SoftHyphen/>keit um 25<Indent/>%.
 Maximale Aufladungen: 2
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
-29124,"Du ziehst Magie aus einem Gegner und erhältst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Angreifer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Heiler<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, je nach der Rolle des Gegners. Die Status verstärken einige deiner Kommandos.
+29124,"Du ziehst Magie aus dir selbst, einem Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied oder einem Gegner und erhältst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Angreifer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Heiler<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, je nach der Rolle des Ziels. Die Status verstärken einige deiner Kommandos.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erda-Patrone<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 10 Sekunden
+Dieser Zusatzeffekt tritt nur auf, wenn das Ziel ein Gegner ist.
 Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erda-Patrone<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kombo Stahlwalze<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Explosiver Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 29125,"Du führst das deiner momentan aktiven <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda<UIGlow>01</UIGlow><UIForeground>01</UIForeground> entsprechende Kommando aus.
 Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blut-Erda: Verteidiger<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du führst <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nebula<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aus.
@@ -36064,7 +36065,7 @@ Dauer: 2 Sekunden
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Linderung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Linderung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht eigenen ausgeteilten Schaden und das Heilpotenzial eigener Zauber um 10<Indent/>% und regeneriert stetig LP von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 30y.
-Heilpotenzial: 4000
+Heilpotenzial: 3000
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll
 Aufladedauer: 60 Sekunden"
 29231,"Du führst eine magische Attacke aus.
@@ -36141,8 +36142,8 @@ Heilpotenzial: 5000 bis 10000
 Je weniger LP dem Ziel verblieben sind, desto stärker ist der Heileffekt. Maximales Potenzial erreicht er ab 50<Indent/>% Maximal-LP des Ziels.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Harmonischer Orbis (Diurnal)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Harmonischer Orbis (Diurnal)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Regeneriert stetig LP des Ziels.
-Heilpotenzial: 1000
-Dauer: 12 Sekunden
+Heilpotenzial: 2000
+Dauer: 15 Sekunden
 Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer"
 29244,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
@@ -36161,7 +36162,7 @@ Kann nicht im Kommandomenü angelegt werden."
 Heilpotenzial: 5000 bis 10000
 Je weniger LP dem Ziel verblieben sind, desto stärker ist der Heileffekt. Maximales Potenzial erreicht er ab 50<Indent/>% Maximal-LP des Ziels.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Harmonischer Orbis (Nocturnal)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Harmonischer Orbis (Nocturnal)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Errichtet eine Barriere um das Ziel, die Schaden entsprechend einem Heilpotenzial von 4000 absorbiert.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Harmonischer Orbis (Nocturnal)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Errichtet eine Barriere um das Ziel, die Schaden entsprechend einem Heilpotenzial von 5000 absorbiert.
 Dauer: 15 Sekunden
 Eigener Reaktivierungs-Timer
 Kann nicht im Kommandomenü angelegt werden."
@@ -37426,9 +37427,11 @@ Maximale Aufladungen: 2"
 29662,"Du gewährst dir 6 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seelenresonanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seelenresonanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Feuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flare<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Einfrieren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und beide Zauber können sofort gewirkt werden.
 Dauer: 30 Sekunden
-Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Polyglott<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Polyglott<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Apokatastasis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Polyglott<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Kommando ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Moder<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 60 Sekunden
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Apokatastasis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verringert erlittenen Schaden um 10<Indent/>%.
+Dauer: 15 Sekunden
 Zusatzeffekt: Re<SoftHyphen/>ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Supereruption<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 15 Sekunden verkürzt.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll
 Aufladedauer: 60 Sekunden"
@@ -42692,7 +42695,7 @@ Eigener Reaktivierungs-Timer."
 34577,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 220
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
-Zusatzeffekt: Schleudert Ziele im Wir<SoftHyphen/>kungs<SoftHyphen/>be<SoftHyphen/>reich um 5y zurück."
+Zusatzeffekt: Schleudert Ziele im Radius von 8y um 5y zurück."
 34578,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 250
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
@@ -42874,7 +42877,7 @@ Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>
 34735,""
 34736,""
 34737,""
-34738,""
+34738,"Lässt ein feuriges Spektakel in den Farben des Festes der Wiedergeburt erstrahlen. (Nur visueller Effekt, keine Wirkung.)"
 34739,""
 34740,""
 34741,""
