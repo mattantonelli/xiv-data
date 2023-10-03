@@ -17,7 +17,7 @@ ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 070999"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 072200 072652"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 076000 076999"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "ui 082100 082999"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "ui 087000 088999"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 190000 199999"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "uihd 130000 139999"
 for /d %%i in (%DATAPATH%\ui\icon\*) do (cd "%%i" & rmdir /S /Q hq 2>NUL)

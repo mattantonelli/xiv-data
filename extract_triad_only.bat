@@ -11,7 +11,7 @@ COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 ECHO [%TIME%] Extracting game data...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement ContentFinderCondition ENpcBase ENpcResident PlaceName Quest SpecialShop TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Level Map TripleTriad"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "ui 082100 082999"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "ui 087000 088999"
 
 ECHO [%TIME%] Compressing images...
 "C:\Program Files\7-Zip\7z.exe" a %DATAPATH%\ui.zip %DATAPATH%\ui\* > NUL
