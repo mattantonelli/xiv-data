@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3
-#,MenuOrder,Icon,Category,
+#,MenuOrder,HideOrder,Icon,Category,
 int32,byte,Image,Addon,int32
 0,0,0,0,0
 1,1,0,61828,4634
