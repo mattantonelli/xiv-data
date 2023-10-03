@@ -4159,7 +4159,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4091,"Le Cœur volcanique",0,"Le Cœur volcanique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cœur volcanique</Case><Case(2)>au Cœur volcanique</Case><Case(3)>du Cœur volcanique</Case></Switch>",0,0,0
 4092,"Le Petit Nuage",0,"Le Petit Nuage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Petit Nuage</Case><Case(2)>au Petit Nuage</Case><Case(3)>du Petit Nuage</Case></Switch>",0,0,0
 4093,"Le Traquenard oriental",0,"Le Traquenard oriental",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Traquenard oriental</Case><Case(2)>au Traquenard oriental</Case><Case(3)>du Traquenard oriental</Case></Switch>",0,0,0
-4094,"",0,"",0,0,1,0,0,"",0,0,0
+4094,"",0,"",0,0,0,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
 4097,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4348,7 +4348,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4280,"Fons Manalis",0,"Fons Manalis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Fons Manalis</Case><Case(2)>à Fons Manalis</Case><Case(3)>de Fons Manalis</Case></Switch>",0,0,0
 4281,"Sud-ouest de l'île de Ken",0,"Sud-ouest de l'île de Ken",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sud-ouest de l'île de Ken</Case><Case(2)>au sud-ouest de l'île de Ken</Case><Case(3)>du sud-ouest de l'île de Ken</Case></Switch>",0,1,0
 4282,"Alentours de l'Abbaye de l'Aurore",0,"Alentours de l'Abbaye de l'Aurore",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les alentours de l'Abbaye de l'Aurore</Case><Case(2)>aux alentours  de l'Abbaye de l'Aurore</Case><Case(3)>des alentours de l'Abbaye de l'Aurore</Case></Switch>",0,1,0
-4283,"Nord-est du lac d'Airain",0,"Nord-est du lac d'Airain",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord-est du lac d'Airain</Case><Case(2)>au nord-est du lac d'Airain</Case><Case(3)>du nord-est du lac d'Airain</Case></Switch>",0,1,0
+4283,"Fond du lac d'Airin (nord-est)",0,"Fond du lac d'Airin (nord-est)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac d'Airin =nord-est</Case><Case(2)>au fond du lac d'Airin =nord-est</Case><Case(3)>du fond du lac d'Airin =nord-est</Case></Switch>",0,1,0
 4284,"Chambre des lunes jumelles",0,"Chambre des lunes jumelles",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre des lunes jumelles</Case><Case(2)>à la chambre des lunes jumelles</Case><Case(3)>de la chambre des lunes jumelles</Case></Switch>",0,0,0
 4285,"Route de montagne XLVII",0,"Route de montagne XLVII",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la route de montagne XLVII</Case><Case(2)>sur la route de montagne XLVII</Case><Case(3)>de la route de montagne XLVII</Case></Switch>",0,0,0
 4286,"Bois du Tyran",0,"Bois du Tyran",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bois du Tyran</Case><Case(2)>dans le bois du Tyran</Case><Case(3)>du bois du Tyran</Case></Switch>",0,0,0
@@ -4446,5 +4446,117 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4378,"Filon de magilithes",0,"Filon de magilithes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le filon de magilithes</Case><Case(2)>au filon de magilithes</Case><Case(3)>du filon de magilithes</Case></Switch>",0,0,0
 4379,"Grotte aux stalactites",0,"Grotte aux stalactites",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la grotte aux stalactites</Case><Case(2)>à la grotte aux stalactites</Case><Case(3)>de la grotte aux stalactites</Case></Switch>",0,0,0
 4380,"Chambre d'Estinien",0,"Chambre d'Estinien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre d'Estinien</Case><Case(2)>à la chambre d'Estinien</Case><Case(3)>de la chambre d'Estinien</Case></Switch>",0,0,0
-4381,"Gare de Senatus",0,"Gare de Senatus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la lune rouge</Case><Case(2)>à la lune rouge</Case><Case(3)>de la lune rouge</Case></Switch>",0,0,0
-4382,"Lune rouge",0,"Lune rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la gare de Senatus</Case><Case(2)>à la gare de Senatus</Case><Case(3)>de la gare de Senatus</Case></Switch>",0,0,0
+4381,"Gare de Senatus",0,"Gare de Senatus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la gare de Senatus</Case><Case(2)>à la gare de Senatus</Case><Case(3)>de la gare de Senatus</Case></Switch>",0,0,0
+4382,"Lune rouge",0,"Lune rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la lune rouge</Case><Case(2)>à la lune rouge</Case><Case(3)>de la lune rouge</Case></Switch>",0,0,0
+4383,"",0,"",0,0,0,0,0,"",0,0,0
+4384,"",0,"",0,0,0,0,0,"",0,0,0
+4385,"",0,"",0,0,0,0,0,"",0,0,0
+4386,"",0,"",0,0,0,0,0,"",0,0,0
+4387,"",0,"",0,0,0,0,0,"",0,0,0
+4388,"",0,"",0,0,0,0,0,"",0,0,0
+4389,"",0,"",0,0,0,0,0,"",0,0,0
+4390,"",0,"",0,0,0,0,0,"",0,0,0
+4391,"",0,"",0,0,0,0,0,"",0,0,0
+4392,"",0,"",0,0,0,0,0,"",0,0,0
+4393,"",0,"",0,0,0,0,0,"",0,0,0
+4394,"",0,"",0,0,0,0,0,"",0,0,0
+4395,"",0,"",0,0,0,0,0,"",0,0,0
+4396,"",0,"",0,0,0,0,0,"",0,0,0
+4397,"",0,"",0,0,0,0,0,"",0,0,0
+4398,"",0,"",0,0,0,0,0,"",0,0,0
+4399,"",0,"",0,0,0,0,0,"",0,0,0
+4400,"",0,"",0,0,0,0,0,"",0,0,0
+4401,"",0,"",0,0,0,0,0,"",0,0,0
+4402,"",0,"",0,0,0,0,0,"",0,0,0
+4403,"",0,"",0,0,0,0,0,"",0,0,0
+4404,"",0,"",0,0,0,0,0,"",0,0,0
+4405,"",0,"",0,0,0,0,0,"",0,0,0
+4406,"",0,"",0,0,0,0,0,"",0,0,0
+4407,"",0,"",0,0,0,0,0,"",0,0,0
+4408,"",0,"",0,0,0,0,0,"",0,0,0
+4409,"",0,"",0,0,0,0,0,"",0,0,0
+4410,"",0,"",0,0,0,0,0,"",0,0,0
+4411,"",0,"",0,0,0,0,0,"",0,0,0
+4412,"",0,"",0,0,0,0,0,"",0,0,0
+4413,"",0,"",0,0,0,0,0,"",0,0,0
+4414,"",0,"",0,0,0,0,0,"",0,0,0
+4415,"",0,"",0,0,0,0,0,"",0,0,0
+4416,"",0,"",0,0,0,0,0,"",0,0,0
+4417,"",0,"",0,0,0,0,0,"",0,0,0
+4418,"",0,"",0,0,0,0,0,"",0,0,0
+4419,"",0,"",0,0,0,0,0,"",0,0,0
+4420,"",0,"",0,0,0,0,0,"",0,0,0
+4421,"",0,"",0,0,0,0,0,"",0,0,0
+4422,"",0,"",0,0,0,0,0,"",0,0,0
+4423,"",0,"",0,0,0,0,0,"",0,0,0
+4424,"",0,"",0,0,0,0,0,"",0,0,0
+4425,"",0,"",0,0,0,0,0,"",0,0,0
+4426,"",0,"",0,0,0,0,0,"",0,0,0
+4427,"",0,"",0,0,0,0,0,"",0,0,0
+4428,"",0,"",0,0,0,0,0,"",0,0,0
+4429,"Alentours de la grotte de Saibai",0,"Alentours de la grotte de Saibai",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les alentours de la grotte de Saibai</Case><Case(2)>aux alentours de la grotte de Saibai</Case><Case(3)>des alentours de la grotte de Saibai</Case></Switch>",0,1,0
+4430,"Fond du lac d'Airin (nord-ouest)",0,"Fond du lac d'Airin (nord-ouest)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac d'Airin =nord-ouest</Case><Case(2)>au fond du lac d'Airin =nord-ouest</Case><Case(3)>du fond du lac d'Airin =nord-ouest</Case></Switch>",0,1,0
+4431,"Souterrain lunaire",0,"Souterrain lunaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Souterrain lunaire</Case><Case(2)>au Souterrain lunaire</Case><Case(3)>du Souterrain lunaire</Case></Switch>",0,0,0
+4432,"Souterrain lunaire",0,"Souterrain lunaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Souterrain lunaire</Case><Case(2)>au Souterrain lunaire</Case><Case(3)>du Souterrain lunaire</Case></Switch>",0,0,0
+4433,"Ville de Baron",0,"Ville de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la ville de Baron</Case><Case(2)>à la ville de Baron</Case><Case(3)>de la ville de Baron</Case></Switch>",0,0,0
+4434,"Château de Baron",0,"Château de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le château de Baron</Case><Case(2)>au château de Baron</Case><Case(3)>du château de Baron</Case></Switch>",0,0,0
+4435,"Place du cristal",0,"Place du cristal",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la place du cristal</Case><Case(2)>à la place du cristal</Case><Case(3)>de la place du cristal</Case></Switch>",0,0,0
+4436,"Portes du château de Baron",0,"Portes du château de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les portes du château de Baron</Case><Case(2)>aux portes du château de Baron</Case><Case(3)>des portes du château de Baron</Case></Switch>",0,0,0
+4437,"Cour du château de Baron",0,"Cour du château de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la cour du château de Baron</Case><Case(2)>à la cour du château de Baron</Case><Case(3)>de la cour du château de Baron</Case></Switch>",0,0,0
+4438,"Souterrain lunaire",0,"Souterrain lunaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Souterrain lunaire</Case><Case(2)>au Souterrain lunaire</Case><Case(3)>du Souterrain lunaire</Case></Switch>",0,0,0
+4439,"Ville de Baron",0,"Ville de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la ville de Baron</Case><Case(2)>à la ville de Baron</Case><Case(3)>de la ville de Baron</Case></Switch>",0,0,0
+4440,"Château de Baron",0,"Château de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le château de Baron</Case><Case(2)>au château de Baron</Case><Case(3)>du château de Baron</Case></Switch>",0,0,0
+4441,"Cœur de la lune rouge",0,"Cœur de la lune rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cœur de la lune rouge</Case><Case(2)>au cœur de la lune rouge</Case><Case(3)>du cœur de la lune rouge</Case></Switch>",0,0,0
+4442,"",0,"",0,0,0,0,0,"",0,0,0
+4443,"Domaine divin - Thalie",0,"Domaine divin - Thalie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le domaine divin - Thalie</Case><Case(2)>au domaine divin - Thalie</Case><Case(3)>du domaine divin - Thalie</Case></Switch>",0,0,0
+4444,"Voûte de l'eau",0,"Voûte de l'eau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de l'eau</Case><Case(2)>à la voûte de l'eau</Case><Case(3)>de la voûte de l'eau</Case></Switch>",0,0,0
+4445,"Bassin de l'Érudit",0,"Bassin de l'Érudit",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bassin de l'Érudit</Case><Case(2)>au bassin de l'Érudit</Case><Case(3)>du bassin de l'Érudit</Case></Switch>",0,0,0
+4446,"Voûte du vent",0,"Voûte du vent",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte du vent</Case><Case(2)>à la voûte du vent</Case><Case(3)>de la voûte du vent</Case></Switch>",0,0,0
+4447,"Pics sacrés du Vagabond",0,"Pics sacrés du Vagabond",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les pics sacrés du Vagabond</Case><Case(2)>aux pics sacrés du Vagabond</Case><Case(3)>des pics sacrés du Vagabond</Case></Switch>",0,0,0
+4448,"Temple d'Oschon",0,"Temple d'Oschon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le temple d'Oschon</Case><Case(2)>au temple d'Oschon</Case><Case(3)>du temple d'Oschon</Case></Switch>",0,0,0
+4449,"Omphalos",0,"Omphalos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Omphalos</Case><Case(2)>à Omphalos</Case><Case(3)>d'Omphalos</Case></Switch>",0,0,0
+4450,"Voûte astrale",0,"Voûte astrale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte astrale</Case><Case(2)>à la voûte astrale</Case><Case(3)>de la voûte astrale</Case></Switch>",0,0,0
+4451,"Voûte de l'eau",0,"Voûte de l'eau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de l'eau</Case><Case(2)>à la voûte de l'eau</Case><Case(3)>de la voûte de l'eau</Case></Switch>",0,0,0
+4452,"Bassin de l'Érudit",0,"Bassin de l'Érudit",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bassin de l'Érudit</Case><Case(2)>au bassin de l'Érudit</Case><Case(3)>du bassin de l'Érudit</Case></Switch>",0,0,0
+4453,"Voûte du vent",0,"Voûte du vent",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte du vent</Case><Case(2)>à la voûte du vent</Case><Case(3)>de la voûte du vent</Case></Switch>",0,0,0
+4454,"Pics sacrés du Vagabond",0,"Pics sacrés du Vagabond",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les pics sacrés du Vagabond</Case><Case(2)>aux pics sacrés du Vagabond</Case><Case(3)>des pics sacrés du Vagabond</Case></Switch>",0,0,0
+4455,"Omphalos",0,"Omphalos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Omphalos</Case><Case(2)>à Omphalos</Case><Case(3)>d'Omphalos</Case></Switch>",0,0,0
+4456,"Voûte astrale",0,"Voûte astrale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte astrale</Case><Case(2)>à la voûte astrale</Case><Case(3)>de la voûte astrale</Case></Switch>",0,0,0
+4457,"Rivière du savoir",0,"Rivière du savoir",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la rivière du savoir</Case><Case(2)>à la rivière du savoir</Case><Case(3)>de la rivière du savoir</Case></Switch>",0,0,0
+4458,"Œil de l'océan",0,"Œil de l'océan",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'œil de l'océan</Case><Case(2)>à L'œil de l'océan</Case><Case(3)>de L'œil de l'océan</Case></Switch>",0,0,0
+4459,"Voie des vents",0,"Voie des vents",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voie des vents</Case><Case(2)>à la voie des vents</Case><Case(3)>de la voie des vents</Case></Switch>",0,0,0
+4460,"Temple d'Oschon",0,"Temple d'Oschon",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le temple d'Oschon</Case><Case(2)>au temple d'Oschon</Case><Case(3)>du temple d'Oschon</Case></Switch>",0,0,0
+4461,"Sphère céleste de la bénédiction",0,"Sphère céleste de la bénédiction",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la sphère céleste de la bénédiction</Case><Case(2)>à la sphère céleste de la bénédiction</Case><Case(3)>de la sphère céleste de la bénédiction</Case></Switch>",0,0,0
+4462,"Canaux de la con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce",0,"Canaux de la con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les canaux de la con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce</Case><Case(2)>aux canaux de la con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce</Case><Case(3)>des canaux de la con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce</Case></Switch>",0,0,0
+4463,"Porte du firmament",0,"Porte du firmament",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la porte du firmament</Case><Case(2)>à la porte du firmament</Case><Case(3)>de la porte du firmament</Case></Switch>",0,0,0
+4464,"Marches du firmament",0,"Marches du firmament",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les marches du firmament</Case><Case(2)>aux marches du firmament</Case><Case(3)>des marches du firmament</Case></Switch>",0,0,0
+4465,"Souterrain cristallin",0,"Souterrain cristallin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le souterrain cristallin</Case><Case(2)>au souterrain cristallin</Case><Case(3)>du souterrain cristallin</Case></Switch>",0,0,0
+4466,"Souvenirs de Golbez",0,"Souvenirs de Golbez",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les souvenirs de Golbez</Case><Case(2)>dans les souvenirs de Golbez</Case><Case(3)>des souvenirs de Golbez</Case></Switch>",0,0,0
+4467,"Souterrain lunaire",0,"Souterrain lunaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Souterrain lunaire</Case><Case(2)>au Souterrain lunaire</Case><Case(3)>du Souterrain lunaire</Case></Switch>",0,0,0
+4468,"",0,"",0,0,0,0,0,"",0,0,0
+4469,"",0,"",0,0,0,0,0,"",0,0,0
+4470,"",0,"",0,0,0,0,0,"",0,0,0
+4471,"",0,"",0,0,0,0,0,"",0,0,0
+4472,"",0,"",0,0,0,0,0,"",0,0,0
+4473,"",0,"",0,0,0,0,0,"",0,0,0
+4474,"",0,"",0,0,0,0,0,"",0,0,0
+4475,"",0,"",0,0,0,0,0,"",0,0,0
+4476,"",0,"",0,0,0,0,0,"",0,0,0
+4477,"",0,"",0,0,0,0,0,"",0,0,0
+4478,"",0,"",0,0,0,0,0,"",0,0,0
+4479,"",0,"",0,0,0,0,0,"",0,0,0
+4480,"",0,"",0,0,0,0,0,"",0,0,0
+4481,"",0,"",0,0,0,0,0,"",0,0,0
+4482,"",0,"",0,0,0,0,0,"",0,0,0
+4483,"",0,"",0,0,0,0,0,"",0,0,0
+4484,"",0,"",0,0,0,0,0,"",0,0,0
+4485,"",0,"",0,0,0,0,0,"",0,0,0
+4486,"",0,"",0,0,0,0,0,"",0,0,0
+4487,"",0,"",0,0,0,0,0,"",0,0,0
+4488,"",0,"",0,0,0,0,0,"",0,0,0
+4489,"",0,"",0,0,0,0,0,"",0,0,0
+4490,"",0,"",0,0,0,0,0,"",0,0,0
+4491,"",0,"",0,0,0,0,0,"",0,0,0
+4492,"",0,"",0,0,0,0,0,"",0,0,0
+4493,"",0,"",0,0,0,0,0,"",0,0,0
+4494,"",0,"",0,0,0,0,0,"",0,0,0

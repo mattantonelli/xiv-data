@@ -1276,10 +1276,16 @@ Barre de raccourcis spéciale (raccsp)
 Croix de raccourcis (cxracc)
 Guide de l'épopée (Guideépopée)
 Éther compressé (Éthcomp)
-Le Front<Indent/>: jauge de combat (JaugeCombat)
+Ailes rivales - mercenaire gobelin<Indent/>: ARmercenaire (RivalWings:Mercenary)
+Crystalline Conflict - jauge de progression<Indent/>: CConflictProgress (CrystallineConflict:ProgressGauge)
+Crystalline Conflict - alliés<Indent/>: CConflictEqu (CrystallineConflict:AllyInfo)
+Crystalline Conflict - adversaires<Indent/>: CConflictAdv (CrystallineConflict:EnemyInfo)
+Crystalline Conflict - log de combat<Indent/>: CConflictLog (CrystallineConflict:BattleLog)
+Crystalline Conflict - carte<Indent/>: CConflictCarte (CrystallineConflict:Map)
+Le Front - jauge de combat<Indent/>: JaugeCombat (Frontline:BattleGauge)
+Le Front - score<Indent/>: FrontScore (Frontline:Score)
 Ailes rivales - liste d'alliance<Indent/>: ARalliance (RivalWings:Alliance)
 Ailes rivales - gare<Indent/>: ARgare (RivalWings:Station)
-Ailes rivales - mercenaire gobelin<Indent/>: ARmercenaire (RivalWings:Mercenary)
 >> Sous-commandes<Indent/>:
 activé (on)        Affiche le composant spécifié.
 désactivé (off)   Cache le composant spécifié.
@@ -2890,6 +2896,36 @@ S'envole dans les airs avant de retomber poing en avant.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/envolhéroïque","/envhér","pdamage",0
+659,2,1,2,0,0,"/jumpforjoy1","/jj1","/sautdejoie1, /jj1
+Utilisation<Indent/>: /sautdejoie1 [sous-commande]
+Saute de joie avec un air attendrissant.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sautdejoie1","/jj1","pdamage",0
+660,2,1,2,0,0,"/jumpforjoy2","/jj2","/sautdejoie2, /jj2
+Utilisation<Indent/>: /sautdejoie2 [sous-commande]
+Saute de joie avec un air heureux.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sautdejoie2","/jj2","pdamage",0
+661,2,1,2,0,0,"/jumpforjoy3","/jj3","/sautdejoie3, /jj3
+Utilisation<Indent/>: /sautdejoie3 [sous-commande]
+Saute de joie avec un air déterminé.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sautdejoie3","/jj3","pdamage",0
+662,2,1,2,0,0,"/jumpforjoy4","/jj4","/sautdejoie4, /jj4
+Utilisation<Indent/>: /sautdejoie4 [sous-commande]
+Saute de joie avec un air détendu.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sautdejoie4","/jj4","pdamage",0
+663,2,1,2,0,0,"/jumpforjoy5","/jj5","/sautdejoie5, /jj5
+Utilisation<Indent/>: /sautdejoie5 [sous-commande]
+Saute de joie avec un air de pampa.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/sautdejoie5","/jj5","pdamage",0
 664,2,1,2,0,0,"/handtoheart","","/mainsurlapoitrine, /mainpoit, /handtoheart
 Utilisation<Indent/>: /mainsurlapoitrine [sous-commande]
 Met sa main sur sa poitrine.
@@ -2926,3 +2962,27 @@ Consulte un ouvrage de référence.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/seréférer","/référence","pdamage",0
+672,2,1,2,0,0,"/eatchicken","","/mangerdupouletfrit, /mangpoul, /eatchicken
+Utilisation<Indent/>: /mangerdupouletfrit [sous-commande]
+Mange du poulet frit.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mangerdupouletfrit","/mangpoul","pdamage",0
+673,2,1,2,0,0,"/sundering","/exodus","/exode, /sundering, /exodus
+Utilisation<Indent/>: /exode [sous-commande]
+Fait une dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion du sort Exode.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/exode","","pdamage",0
+674,2,1,2,0,0,"/slump","","/êtreaccablé, /accablé, /slump
+Utilisation<Indent/>: /êtreaccablé [sous-commande]
+Est accablé.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/êtreaccablé","/accablé","pdamage",0
+675,2,1,2,0,0,"/loveheart","/heart","/poseencoeur, /coeur, /loveheart, /heart
+Utilisation<Indent/>: /poseencoeur [sous-commande]
+Fait la pose en cœur.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/poseencoeur","/coeur","pdamage",0

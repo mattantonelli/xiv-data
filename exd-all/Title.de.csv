@@ -281,7 +281,7 @@ int32,str,str,bit&01,uint16
 277,"Sonderberater","Sonderberaterin",True,1238
 278,"Notorischer Diademjäger","Notorische Diademjägerin",True,1239
 279,"Rudeltier","Rudeltier",True,1240
-280,"Alpha-Wolf","Alpha-Wölfin",True,1241
+280,"der Verschlinger","die Verschlingerin",False,1241
 281,"der Unbeugsame","die Unbeugsame",False,1242
 282,"der Unnachgiebige","die Unnachgiebige",False,1243
 283,"der Unnahbare","die Unnahbare",False,1244
@@ -437,7 +437,7 @@ int32,str,str,bit&01,uint16
 433,"der Klingentänzer","die Klingentänzerin",False,1509
 434,"Lebendige Erinnerung","Lebendige Erinnerung",True,1510
 435,"Bollwerk zwischen den Welten","Bollwerk zwischen den Welten",True,1511
-436,"der Transzendent","die Transzendentin",False,1512
+436,"der Transzendente","die Transzendente",False,1512
 437,"Weltenspalter","Weltenspalterin",True,1513
 438,"der schwarzen Schwingen","der schwarzen Schwingen",False,1514
 439,"das Lied im Wind","das Lied im Wind",False,1515
@@ -663,7 +663,7 @@ int32,str,str,bit&01,uint16
 659,"Grasflüsterer","Grasflüsterin",True,1725
 660,"der mit dem Schaf tanzt","die mit dem Schaf tanzt",False,1726
 661,"der Dämmerung","der Dämmerung",False,1727
-662,"des Wahren Stahls","des Wahren Stahls",False,1728
+662,"des wahren Stahls","des wahren Stahls",False,1728
 663,"der König auf Eureka","die Königin auf Eureka",False,1729
 664,"Horter verborgener Schätze","Horterin verborgener Schätze",True,1730
 665,"Hoheitlicher Held","Hoheitliche Heldin",True,1731
@@ -698,3 +698,31 @@ int32,str,str,bit&01,uint16
 694,"der verbotene Blaue","die verbotene Blaue",False,1757
 695,"Reinkarnierer","Reinkarniererin",True,1758
 696,"Aszendenter Asket","Aszendente Asketin",True,1759
+697,"","",False,0
+698,"","",False,0
+699,"Schlafloser Forscher","Schlaflose Forscherin",True,1762
+700,"der Tatkräftige","die Tatkräftige",False,1763
+701,"","",False,0
+702,"des unnachgiebigen Hammers","des unnachgiebigen Hammers",False,1765
+703,"des scharfen Beils","des scharfen Beils",False,1766
+704,"des unwiderstehlichen Köders","des unwiderstehlichen Köders",False,1767
+705,"","",False,0
+706,"","",False,0
+707,"Graf von Monte Kauri","Gräfin von Monte Kauri",True,1770
+708,"","",False,0
+709,"Von den Göttern umarmt","Von den Göttern umarmt",True,1772
+710,"","",False,0
+711,"Wyrmflüsterer","Wyrmflüsterin",True,1774
+712,"Wachsendes Licht","Wachsendes Licht",True,1775
+713,"","",False,0
+714,"vom finalen Konflikt","vom finalen Konflikt",False,1777
+715,"vom endlosen Konflikt","vom endlosen Konflikt",False,1778
+716,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1779
+717,"vom finalen Konflikt","vom finalen Konflikt",False,1780
+718,"vom endlosen Konflikt","vom endlosen Konflikt",False,1781
+719,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1782
+720,"vom finalen Konflikt","vom finalen Konflikt",False,1783
+721,"vom endlosen Konflikt","vom endlosen Konflikt",False,1784
+722,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1785
+723,"","",False,0
+724,"","",False,0

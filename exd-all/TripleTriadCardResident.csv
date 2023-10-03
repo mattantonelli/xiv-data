@@ -356,7 +356,7 @@ int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint1
 352,351,8,6,7,1,"TripleTriadCardRarity#3","",500,23,336,0,True,2,"Aglaia",,"The Realm of the Gods"
 353,352,6,8,1,7,"TripleTriadCardRarity#3","",500,23,337,0,True,10,"Triple Triad trader","Level#5581330","The Realm of the Gods"
 354,353,8,9,7,1,"TripleTriadCardRarity#4","",800,32,338,0,True,10,"N-1499","Level#8865563","Endwalker"
-355,354,7,1,9,8,"TripleTriadCardRarity#4","",800,32,339,0,True,10,"Mahveydah","Level#8865409","Endwalker"
+355,354,7,1,9,8,"TripleTriadCardRarity#4","Primal",800,35,339,0,True,10,"Mahveydah","Level#8865409","Endwalker"
 356,355,7,2,9,10,"TripleTriadCardRarity#5","",1500,40,340,0,True,10,"Triple Triad trader","Level#5581330","Endwalker"
 357,356,1,1,6,5,"TripleTriadCardRarity#1","",100,6,349,0,True,10,"N-0598","Level#9308277"," Longing So for All the Fish"
 358,357,2,6,6,4,"TripleTriadCardRarity#2","",300,8,350,0,True,6,"Kilfufu","Level#9405323","A Key to the Past"
@@ -379,14 +379,34 @@ int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint1
 375,374,8,7,7,6,"TripleTriadCardRarity#4","",800,32,358,0,True,3,"Lapis Manalis",,"King of the Mountain"
 376,375,7,6,7,8,"TripleTriadCardRarity#4","",800,32,359,0,True,3,"Mount Ordeals",,"Desires Untold"
 377,376,4,7,10,8,"TripleTriadCardRarity#5","",0,47,363,0,True,11,"Triple-decker XII",,"Triple Triad Trial"
-378,377,4,1,4,5,"TripleTriadCardRarity#1","",100,1,369,0,False,6,"Tokimori","Level#9728781","Mononoke Aware"
-379,378,7,6,4,2,"TripleTriadCardRarity#2","",300,8,370,0,False,2,"Mount Rokkon",,"Mononoke Aware"
-380,379,3,7,3,6,"TripleTriadCardRarity#2","",300,8,371,0,False,2,"Mount Rokkon",,"Mononoke Aware"
-381,380,6,4,5,8,"TripleTriadCardRarity#3","",500,20,364,0,False,3,"the Aetherfont",,"Going Haam"
-382,381,3,5,7,7,"TripleTriadCardRarity#3","",500,20,365,0,False,6,"Ruissenaud","Level#8980103","Guided by the Past"
-383,382,4,8,8,2,"TripleTriadCardRarity#3","",500,20,372,0,False,10,"Maudlin Latool Ja","Level#8157292","The Brave and the Blue"
-384,383,7,2,8,5,"TripleTriadCardRarity#3","",500,20,373,0,False,2,"Mount Rokkon",,"Mononoke Aware"
-385,384,5,9,8,5,"TripleTriadCardRarity#4","",800,39,366,0,False,6,"Ruissenaud","Level#8980103","Guided by the Past"
-386,385,8,5,9,5,"TripleTriadCardRarity#4","",800,32,374,0,False,2,"Mount Rokkon",,"Mononoke Aware"
-387,386,10,2,10,5,"TripleTriadCardRarity#5","",1500,40,367,0,False,3,"The Voidcast Dais",,"Abyssal Dark"
-388,387,9,10,4,5,"TripleTriadCardRarity#5","",1500,40,368,0,False,3,"Anabaseios: The Twelfth Circle",,"A Mother's Touch"
+378,377,4,1,4,5,"TripleTriadCardRarity#1","",100,1,369,0,True,6,"Tokimori","Level#9728781","Mononoke Aware"
+379,378,7,6,4,2,"TripleTriadCardRarity#2","",300,8,370,0,True,2,"Mount Rokkon",,"Mononoke Aware"
+380,379,3,7,3,6,"TripleTriadCardRarity#2","",300,8,371,0,True,2,"Mount Rokkon",,"Mononoke Aware"
+381,380,6,4,5,8,"TripleTriadCardRarity#3","",500,20,364,0,True,3,"the Aetherfont",,"Going Haam"
+382,381,3,5,7,7,"TripleTriadCardRarity#3","",500,20,365,0,True,6,"Ruissenaud","Level#8980103","Guided by the Past"
+383,382,4,8,8,2,"TripleTriadCardRarity#3","",500,20,372,0,True,10,"Maudlin Latool Ja","Level#8157292","The Brave and the Blue"
+384,383,7,2,8,5,"TripleTriadCardRarity#3","",500,20,373,0,True,2,"Mount Rokkon",,"Mononoke Aware"
+385,384,5,9,8,5,"TripleTriadCardRarity#4","",800,39,366,0,True,6,"Ruissenaud","Level#8980103","Guided by the Past"
+386,385,8,5,9,5,"TripleTriadCardRarity#4","",800,32,374,0,True,2,"Mount Rokkon",,"Mononoke Aware"
+387,386,10,2,10,5,"TripleTriadCardRarity#5","",1500,40,367,0,True,3,"The Voidcast Dais",,"Abyssal Dark"
+388,387,9,10,4,5,"TripleTriadCardRarity#5","",1500,40,368,0,True,3,"Anabaseios: The Twelfth Circle",,"A Mother's Touch"
+389,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+390,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+391,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+392,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+393,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+394,393,8,7,1,6,"TripleTriadCardRarity#3","",500,23,375,0,False,6,"Ylaire","Level#10189405","The Secret of the Twelve"
+395,394,1,8,6,7,"TripleTriadCardRarity#3","",500,23,376,0,False,6,"Ylaire","Level#10189405","The Secret of the Twelve"
+396,395,1,6,7,8,"TripleTriadCardRarity#3","",500,23,377,0,False,6,"Ylaire","Level#10189405","The Secret of the Twelve"
+397,396,1,7,6,8,"TripleTriadCardRarity#3","",500,23,378,0,False,10,"Triple Triad trader","Level#5581330","Return to the Phantom Realm"
+398,397,7,6,1,8,"TripleTriadCardRarity#3","",500,23,379,0,False,6,"Maillart","Level#10189407","Embraced by Gods"
+399,398,7,1,6,8,"TripleTriadCardRarity#3","",500,23,380,0,False,6,"Maillart","Level#10189407","Embraced by Gods"
+400,399,7,8,1,6,"TripleTriadCardRarity#3","",500,23,381,0,False,10,"Triple Triad trader","Level#5581330","The Heart of the Myth"
+401,400,7,6,6,6,"TripleTriadCardRarity#3","",500,20,382,0,False,3,"The Lunar Subterrane",,"Back to Action"
+402,401,6,6,7,9,"TripleTriadCardRarity#4","",800,33,383,0,False,2,"Thaleia",,"Embraced by Gods"
+403,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+404,403,9,9,1,9,"TripleTriadCardRarity#5","",1500,40,384,0,False,3,"The Abyssal Fracture",,"Down in the Dark"
+405,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+406,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+407,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+408,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,

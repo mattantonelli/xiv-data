@@ -4119,7 +4119,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4091,"Das Herz des Vulkans",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz des Vulkans</Case><Case(2)>im Herz des Vulkans</Case><Case(3)>das Herz des Vulkans</Case></Switch>",0,0,0
 4092,"Wolke Sieben",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wolke Sieben</Case><Case(2)>auf Wolke Sieben</Case><Case(3)>Wolke Sieben</Case></Switch>",0,0,0
 4093,"Die Mechanische Menagerie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mechanischen Menagerie</Case><Case(2)>in der Mechanischen Menagerie</Case><Case(3)>die Mechanische Menagerie</Case></Switch>",0,0,0
-4094,"",0,"",0,0,1,0,0,"",0,0,0
+4094,"",0,"",0,0,0,0,0,"",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
 4097,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4308,7 +4308,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4280,"Fons Manalis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Fons Manalis</Case><Case(2)>in Fons Manalis</Case><Case(3)>Fons Manalis</Case></Switch>",0,0,0
 4281,"Insel der Erkenntnis (Südwesten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Insel der Erkenntnis =Südwesten</Case><Case(2)>auf der Insel der Erkenntnis =Südwesten</Case><Case(3)>die Insel der Erkenntnis =Südwesten</Case></Switch>",0,1,0
 4282,"Haus des Strahlenden Lichts",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haus des Strahlenden Lichts</Case><Case(2)>am Haus des Strahlenden Lichts</Case><Case(3)>das Haus des Strahlenden Lichts</Case></Switch>",0,1,0
-4283,"Grund des Bronzesees (Nordosten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Grund des Bronzesees =Nordosten</Case><Case(2)>auf dem Grund des Bronzesees =Nordosten</Case><Case(3)>der Grund des Bronzesees =Nordosten</Case></Switch>",0,1,0
+4283,"Bronzesee (Nordosten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Bronzesee =Nordosten</Case><Case(2)>am Bronzesee =Nordosten</Case><Case(3)>der Bronzesee =Nordosten</Case></Switch>",0,1,0
 4284,"Kammer der Zwillingsmonde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kammer der Zwillingsmonde</Case><Case(2)>in der Kammer der Zwillingsmonde</Case><Case(3)>die Kammer der Zwillingsmonde</Case></Switch>",0,0,0
 4285,"Bergstraße XLVII",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>auf die Bergstraße XLVII</Case><Case(2)>auf der Bergstraße XLVII</Case><Case(3)>die Bergstraße XLVII</Case></Switch>",0,0,0
 4286,"Tyrannenwald",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in den Tyrannenwald</Case><Case(2)>im Tyrannenwald</Case><Case(3)>der Tyrannenwald</Case></Switch>",0,0,0
@@ -4408,3 +4408,115 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4380,"Estiniens Räumlichkeiten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Estiniens Räumlichkeiten</Case><Case(2)>in Estiniens Räumlichkeiten</Case><Case(3)>Estiniens Räumlichkeiten</Case></Switch>",0,0,0
 4381,"Senatus",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Senatus</Case><Case(2)>im Senatus</Case><Case(3)>der Senatus</Case></Switch>",0,0,0
 4382,"Roter Mond",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Roten Mond</Case><Case(2)>auf dem Roten Mond</Case><Case(3)>der Rote Mond</Case></Switch>",0,0,0
+4383,"",0,"",0,0,0,0,0,"",0,0,0
+4384,"",0,"",0,0,0,0,0,"",0,0,0
+4385,"",0,"",0,0,0,0,0,"",0,0,0
+4386,"",0,"",0,0,0,0,0,"",0,0,0
+4387,"",0,"",0,0,0,0,0,"",0,0,0
+4388,"",0,"",0,0,0,0,0,"",0,0,0
+4389,"",0,"",0,0,0,0,0,"",0,0,0
+4390,"",0,"",0,0,0,0,0,"",0,0,0
+4391,"",0,"",0,0,0,0,0,"",0,0,0
+4392,"",0,"",0,0,0,0,0,"",0,0,0
+4393,"",0,"",0,0,0,0,0,"",0,0,0
+4394,"",0,"",0,0,0,0,0,"",0,0,0
+4395,"",0,"",0,0,0,0,0,"",0,0,0
+4396,"",0,"",0,0,0,0,0,"",0,0,0
+4397,"",0,"",0,0,0,0,0,"",0,0,0
+4398,"",0,"",0,0,0,0,0,"",0,0,0
+4399,"",0,"",0,0,0,0,0,"",0,0,0
+4400,"",0,"",0,0,0,0,0,"",0,0,0
+4401,"",0,"",0,0,0,0,0,"",0,0,0
+4402,"",0,"",0,0,0,0,0,"",0,0,0
+4403,"",0,"",0,0,0,0,0,"",0,0,0
+4404,"",0,"",0,0,0,0,0,"",0,0,0
+4405,"",0,"",0,0,0,0,0,"",0,0,0
+4406,"",0,"",0,0,0,0,0,"",0,0,0
+4407,"",0,"",0,0,0,0,0,"",0,0,0
+4408,"",0,"",0,0,0,0,0,"",0,0,0
+4409,"",0,"",0,0,0,0,0,"",0,0,0
+4410,"",0,"",0,0,0,0,0,"",0,0,0
+4411,"",0,"",0,0,0,0,0,"",0,0,0
+4412,"",0,"",0,0,0,0,0,"",0,0,0
+4413,"",0,"",0,0,0,0,0,"",0,0,0
+4414,"",0,"",0,0,0,0,0,"",0,0,0
+4415,"",0,"",0,0,0,0,0,"",0,0,0
+4416,"",0,"",0,0,0,0,0,"",0,0,0
+4417,"",0,"",0,0,0,0,0,"",0,0,0
+4418,"",0,"",0,0,0,0,0,"",0,0,0
+4419,"",0,"",0,0,0,0,0,"",0,0,0
+4420,"",0,"",0,0,0,0,0,"",0,0,0
+4421,"",0,"",0,0,0,0,0,"",0,0,0
+4422,"",0,"",0,0,0,0,0,"",0,0,0
+4423,"",0,"",0,0,0,0,0,"",0,0,0
+4424,"",0,"",0,0,0,0,0,"",0,0,0
+4425,"",0,"",0,0,0,0,0,"",0,0,0
+4426,"",0,"",0,0,0,0,0,"",0,0,0
+4427,"",0,"",0,0,0,0,0,"",0,0,0
+4428,"",0,"",0,0,0,0,0,"",0,0,0
+4429,"Saibai-Höhle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Saibai-Höhle</Case><Case(2)>in der Saibai-Höhle</Case><Case(3)>die Saibai-Höhle</Case></Switch>",0,1,0
+4430,"Bronzesee (Nordwesten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Bronzesee =Nordwesten</Case><Case(2)>am Bronzesee =Nordwesten</Case><Case(3)>der Bronzesee =Nordwesten</Case></Switch>",0,1,0
+4431,"Monduntergrund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Monduntergrund</Case><Case(2)>im Monduntergrund</Case><Case(3)>der Monduntergrund</Case></Switch>",0,0,0
+4432,"Tiefen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Tiefen</Case><Case(2)>in den Tiefen</Case><Case(3)>die Tiefen</Case></Switch>",0,0,0
+4433,"Baron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Baron</Case><Case(2)>in Baron</Case><Case(3)>Baron</Case></Switch>",0,0,0
+4434,"Schloss Baron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Schloss Baron</Case><Case(2)>in Schloss Baron</Case><Case(3)>das Schloss Baron</Case></Switch>",0,0,0
+4435,"Kristall-Platz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kristall-Platz</Case><Case(2)>auf dem Kristall-Platz</Case><Case(3)>der Kristall-Platz</Case></Switch>",0,0,0
+4436,"Schlosspforte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu der Schlosspforte</Case><Case(2)>an der Schlosspforte</Case><Case(3)>die Schlosspforte</Case></Switch>",0,0,0
+4437,"Schlossgarten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schlossgarten</Case><Case(2)>im Schlossgarten</Case><Case(3)>der Schlossgarten</Case></Switch>",0,0,0
+4438,"Tiefen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Tiefen</Case><Case(2)>in den Tiefen</Case><Case(3)>die Tiefen</Case></Switch>",0,0,0
+4439,"Baron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Baron</Case><Case(2)>in Baron</Case><Case(3)>Baron</Case></Switch>",0,0,0
+4440,"Schloss Baron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Schloss Baron</Case><Case(2)>in Schloss Baron</Case><Case(3)>das Schloss Baron</Case></Switch>",0,0,0
+4441,"Tiefen des roten Mondes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Tiefen des roten Mondes</Case><Case(2)>in den Tiefen des roten Mondes</Case><Case(3)>die Tiefen des roten Mondes</Case></Switch>",0,0,0
+4442,"",0,"",0,0,0,0,0,"",0,0,0
+4443,"Thaleia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Thaleia</Case><Case(2)>in Thaleia</Case><Case(3)>Thaleia</Case></Switch>",0,0,0
+4444,"Himmel des Wassers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Himmel des Wassers</Case><Case(2)>im Himmel des Wassers</Case><Case(3)>der Himmel des Wassers</Case></Switch>",0,0,0
+4445,"Gelehrtenbecken",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gelehrtenbecken</Case><Case(2)>im Gelehrtenbecken</Case><Case(3)>das Gelehrtenbecken</Case></Switch>",0,0,0
+4446,"Himmel des Windes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Himmel des Windes</Case><Case(2)>im Himmel des Windes</Case><Case(3)>der Himmel des Windes</Case></Switch>",0,0,0
+4447,"Heilige Gipfel des Wanderers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den heiligen Gipfeln des Wanderers</Case><Case(2)>in den heiligen Gipfeln des Wanderers</Case><Case(3)>die heiligen Gipfel des Wanderers</Case></Switch>",0,0,0
+4448,"Tempel des Wanderers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tempel des Wanderers</Case><Case(2)>im Tempel des Wanderers</Case><Case(3)>der Tempel des Wanderers</Case></Switch>",0,0,0
+4449,"Omphalos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Omphalos</Case><Case(2)>im Omphalos</Case><Case(3)>Omphalos</Case></Switch>",0,0,0
+4450,"Sternenhimmel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sternenhimmel</Case><Case(2)>im Sternenhimmel</Case><Case(3)>der Sternenhimmel</Case></Switch>",0,0,0
+4451,"Himmel des Wassers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Himmel des Wassers</Case><Case(2)>im Himmel des Wassers</Case><Case(3)>der Himmel des Wassers</Case></Switch>",0,0,0
+4452,"Gelehrtenbecken",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gelehrtenbecken</Case><Case(2)>im Gelehrtenbecken</Case><Case(3)>das Gelehrtenbecken</Case></Switch>",0,0,0
+4453,"Himmel des Windes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Himmel des Windes</Case><Case(2)>im Himmel des Windes</Case><Case(3)>der Himmel des Windes</Case></Switch>",0,0,0
+4454,"Heilige Gipfel des Wanderers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den heiligen Gipfeln des Wanderers</Case><Case(2)>in den heiligen Gipfeln des Wanderers</Case><Case(3)>die heiligen Gipfel des Wanderers</Case></Switch>",0,0,0
+4455,"Omphalos",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Omphalos</Case><Case(2)>im Omphalos</Case><Case(3)>Omphalos</Case></Switch>",0,0,0
+4456,"Sternenhimmel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sternenhimmel</Case><Case(2)>im Sternenhimmel</Case><Case(3)>der Sternenhimmel</Case></Switch>",0,0,0
+4457,"Fluss der Weisheit",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fluss der Weisheit</Case><Case(2)>am Fluss der Weisheit</Case><Case(3)>der Fluss der Weisheit</Case></Switch>",0,0,0
+4458,"Auge des Meeres",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Auge des Meeres</Case><Case(2)>im Auge des Meeres</Case><Case(3)>das Auge des Meeres</Case></Switch>",0,0,0
+4459,"Pfad des Windes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Pfad des Windes</Case><Case(2)>auf dem Pfad des Windes</Case><Case(3)>der Pfad des Windes</Case></Switch>",0,0,0
+4460,"Tempel des Wanderers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tempel des Wanderers</Case><Case(2)>im Tempel des Wanderers</Case><Case(3)>der Tempel des Wanderers</Case></Switch>",0,0,0
+4461,"Himmlische Sphäre des Segens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur himmlischen Sphäre des Segens</Case><Case(2)>in der himmlischen Sphäre des Segens</Case><Case(3)>die himmlische Sphäre des Segens</Case></Switch>",0,0,0
+4462,"Kanal des Wissens",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kanal des Wissens</Case><Case(2)>beim Kanal des Wissens</Case><Case(3)>der Kanal des Wissens</Case></Switch>",0,0,0
+4463,"Pforte zum Firmament",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Pforte zum Firmament</Case><Case(2)>an der Pforte zum Firmament</Case><Case(3)>die Pforte zum Firmament</Case></Switch>",0,0,0
+4464,"Aufgang zum Firmament",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Aufgang zum Firmament</Case><Case(2)>am Aufgang zum Firmament</Case><Case(3)>der Aufgang zum Firmament</Case></Switch>",0,0,0
+4465,"Kristallkratersee",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kristallkratersee</Case><Case(2)>am Kristallkratersee</Case><Case(3)>der Kristallkratersee</Case></Switch>",0,0,0
+4466,"Golbez' Erinnerungen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Golbez' Erinnerungen</Case><Case(2)>in Golbez' Erinnerungen</Case><Case(3)>Golbez' Erinnerungen</Case></Switch>",0,0,0
+4467,"Kratergrund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kratergrund</Case><Case(2)>auf dem Kratergrund</Case><Case(3)>der Kratergrund</Case></Switch>",0,0,0
+4468,"",0,"",0,0,0,0,0,"",0,0,0
+4469,"",0,"",0,0,0,0,0,"",0,0,0
+4470,"",0,"",0,0,0,0,0,"",0,0,0
+4471,"",0,"",0,0,0,0,0,"",0,0,0
+4472,"",0,"",0,0,0,0,0,"",0,0,0
+4473,"",0,"",0,0,0,0,0,"",0,0,0
+4474,"",0,"",0,0,0,0,0,"",0,0,0
+4475,"",0,"",0,0,0,0,0,"",0,0,0
+4476,"",0,"",0,0,0,0,0,"",0,0,0
+4477,"",0,"",0,0,0,0,0,"",0,0,0
+4478,"",0,"",0,0,0,0,0,"",0,0,0
+4479,"",0,"",0,0,0,0,0,"",0,0,0
+4480,"",0,"",0,0,0,0,0,"",0,0,0
+4481,"",0,"",0,0,0,0,0,"",0,0,0
+4482,"",0,"",0,0,0,0,0,"",0,0,0
+4483,"",0,"",0,0,0,0,0,"",0,0,0
+4484,"",0,"",0,0,0,0,0,"",0,0,0
+4485,"",0,"",0,0,0,0,0,"",0,0,0
+4486,"",0,"",0,0,0,0,0,"",0,0,0
+4487,"",0,"",0,0,0,0,0,"",0,0,0
+4488,"",0,"",0,0,0,0,0,"",0,0,0
+4489,"",0,"",0,0,0,0,0,"",0,0,0
+4490,"",0,"",0,0,0,0,0,"",0,0,0
+4491,"",0,"",0,0,0,0,0,"",0,0,0
+4492,"",0,"",0,0,0,0,0,"",0,0,0
+4493,"",0,"",0,0,0,0,0,"",0,0,0
+4494,"",0,"",0,0,0,0,0,"",0,0,0
