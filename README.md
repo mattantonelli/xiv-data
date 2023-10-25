@@ -10,7 +10,7 @@ This is a collection of CSV and image files used for updating my Final Fantasy X
 
 ### Generating the latest data
 
-1. Download the latest version of SaintCoinach.Cmd from the project's [releases page](https://github.com/ufx/SaintCoinach/releases)
+1. Download the latest version of SaintCoinach.Cmd from the project's [releases page](https://github.com/xivapi/SaintCoinach/releases)
 2. Unzip the archive and navigate into it
 3. Copy `extract.bat` from this repository into the Saint Coinach folder
 4. Edit the paths in the script as necessary
