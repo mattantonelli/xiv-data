@@ -2986,3 +2986,15 @@ Fait la pose en cœur.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/poseencoeur","/coeur","pdamage",0
+676,2,1,2,0,0,"/humbletriumph","/waitforit","/posedufanfaron, /fanfaron, /humbletriumph, /waitforit
+Utilisation<Indent/>: /posedufanfaron [sous-commande]
+Fait la pose du fanfaron.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/posedufanfaron","/fanfaron","pdamage",0
+677,2,1,2,0,0,"/victoryreveal","/vreveal","/célébrationdeharicot, /célébharicot, /victoryreveal, /vreveal
+Utilisation<Indent/>: /célébrationdeharicot [sous-commande]
+Exécute une célébration de haricot.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/célébrationdeharicot","/célébharicot","pdamage",0

@@ -698,8 +698,8 @@ int32,str,str,bit&01,uint16
 694,"der verbotene Blaue","die verbotene Blaue",False,1757
 695,"Reinkarnierer","Reinkarniererin",True,1758
 696,"Aszendenter Asket","Aszendente Asketin",True,1759
-697,"","",False,0
-698,"","",False,0
+697,"vom Finkenlied","vom Finkenlied",False,1760
+698,"die Naturgewalt","die Naturgewalt",False,1761
 699,"Schlafloser Forscher","Schlaflose Forscherin",True,1762
 700,"der Tatkräftige","die Tatkräftige",False,1763
 701,"","",False,0
@@ -709,7 +709,7 @@ int32,str,str,bit&01,uint16
 705,"","",False,0
 706,"","",False,0
 707,"Graf von Monte Kauri","Gräfin von Monte Kauri",True,1770
-708,"","",False,0
+708,"Bohnenkönig","Bohnenkönigin",True,1771
 709,"Von den Göttern umarmt","Von den Göttern umarmt",True,1772
 710,"","",False,0
 711,"Wyrmflüsterer","Wyrmflüsterin",True,1774
@@ -724,5 +724,5 @@ int32,str,str,bit&01,uint16
 720,"vom finalen Konflikt","vom finalen Konflikt",False,1783
 721,"vom endlosen Konflikt","vom endlosen Konflikt",False,1784
 722,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1785
-723,"","",False,0
-724,"","",False,0
+723,"epischer Held","epische Heldin",True,1786
+724,"Meisterperfektionierer","Meisterperfektioniererin",True,1787

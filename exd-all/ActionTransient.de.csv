@@ -35569,14 +35569,14 @@ Aufladedauer: 120 Sekunden
 Attacke-Wert: 8000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
-Heilpotenzial: 2000
+Heilpotenzial: 3000
 Dauer: 10 Sekunden
 Eigener Reaktivierungs-Timer"
 29071,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Leiden die Ziele unter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, ist dein Schaden um 50 % erhöht.
 Attacke-Wert: 6000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
-Heilpotenzial: 2000
+Heilpotenzial: 3000
 Dauer: 10 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Ändert sich bei Ausführung zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Redlichkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -35586,7 +35586,7 @@ Attacke-Wert: 7000
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Frömmigkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
-Heilpotenzial: 2000
+Heilpotenzial: 3000
 Dauer: 10 Sekunden
 Ändert sich bei Ausführung zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Tapferkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Kann nicht im Kommandomenü angelegt werden."
@@ -35595,7 +35595,7 @@ Attacke-Wert: 8000
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Klinge der Redlichkeit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacken auf das mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Recht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> belegte Ziel regenerieren LP.
-Heilpotenzial: 2000
+Heilpotenzial: 3000
 Dauer: 10 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
 29074,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kombo-Kommando<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -36224,8 +36224,9 @@ Aufladedauer: 105 Sekunden"
 Attacke-Wert: 4000
 Zusatzeffekt: Regeneriert LP bei dem Ziel mit von dir gewährtem <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Heilpotenzial: 2000"
-29257,"Du führst eine magische Attacke aus.
+29257,"Du fügst dem Ziel Schaden über Zeit zu.
 Attacke-Wert: 4000
+Dauer: 15 Sekunden
 Zusatzeffekt: Gewährt dem Ziel mit von dir gewährtem <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eukratische Diagnose<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und errichtet damit eine Barriere, die Schaden entsprechend eines Heilpotenzials von 8000 absorbiert.
 Dauer: 15 Sekunden
 Falls die Barriere den vollen Schaden absorbiert, erhältst du <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -36242,10 +36243,10 @@ Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer"
 29260,"Du führst eine magische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 12000
-Zusatzeffekt: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 20y <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haima<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und errichtet damit eine Barriere, die Schaden entsprechend eines Heilpotenzials von 2000 absorbiert. Außerdem werden allen Zielen 5 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährt.
+Zusatzeffekt: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 20y <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haima<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und errichtet damit eine Barriere, die Schaden entsprechend eines Heilpotenzials von 3000 absorbiert. Außerdem werden allen Zielen 4 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährt.
 Dauer: 10 Sekunden
 Falls die Barriere den vollen Schaden absorbiert, wird 1 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und die Barriere erneuert. Bei Ablauf der Wirkungsdauer werden alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und das Ziel geheilt.
-Heilpotenzial: 2000 pro übrigem Stapel
+Heilpotenzial: 3000 pro übrigem Stapel
 Eigener Reaktivierungs-Timer"
 29261,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Maximale Aufladungen: 2
@@ -37008,12 +37009,12 @@ Während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Versteckt<UIG
 Kommando ändert sich bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tri-Mudra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Doton<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29514,"Du schaffst eine Zone, in der allen Gegnern Schaden zugefügt wird.
-Attacke-Wert: 2000
+Attacke-Wert: 3000
 Dauer: 10 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tri-Mudra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29515,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % der Maximal-LP, wird es kampfunfähig.
-Attacke-Wert: 10000
+Attacke-Wert: 12000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Dauer: 4 Sekunden
@@ -37025,7 +37026,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch
 Aufladedauer: 105 Sekunden
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29516,"Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % der Maximal-LP, wird es kampfunfähig.
-Attacke-Wert: 10000
+Attacke-Wert: 12000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Totenbund<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Dauer: 4 Sekunden
@@ -37228,7 +37229,7 @@ Kann nicht im Kommandomenü angelegt werden."
 29557,""
 29558,""
 29559,"Du fügst allen Feinden innerhalb deines eigenen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Doton<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Schaden zu, wenn du innerhalb deines Doton eine Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>keit, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hyosho Ranryu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Goka Mekkyaku<UIGlow>01</UIGlow><UIForeground>01</UIForeground> erfolgreich ausführst.
-Attacke-Wert: 2000
+Attacke-Wert: 3000
 Zusatzeffekt: Ziele erleiden 75<Indent/>% <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 3 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
@@ -41338,9 +41339,9 @@ Dauer: 20 Sekunden"
 33265,""
 33266,""
 33267,""
-33268,"ピティーの芸を披露する。"
-33269,"ピティーの芸を披露する。
-※演出用アクション。特に効果は発生しない。"
+33268,"Lässt Pfirsina ihren Trick ausführen."
+33269,"Lässt Pfirsina ihren Trick ausführen.
+(Nur visueller Effekt, keine Wirkung.)"
 33270,""
 33271,""
 33272,""

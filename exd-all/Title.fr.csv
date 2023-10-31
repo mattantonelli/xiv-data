@@ -698,8 +698,8 @@ int32,str,str,bit&01,uint16
 694,"Bleu de l'interdit","Bleue de l'interdit",False,1757
 695,"Le réincarné","La réincarnée",False,1758
 696,"Ascète ascendant","Ascète ascendante",False,1759
-697,"","",False,0
-698,"","",False,0
+697,"Passereau de l'harmonie","Passe de l'harmonie",False,1760
+698,"Force de la nature","Force de la nature",False,1761
 699,"Dévoué à la science","Dévouée à la science",False,1762
 700,"Plein de ressources","Pleine de ressources",False,1763
 701,"","",False,0
@@ -709,7 +709,7 @@ int32,str,str,bit&01,uint16
 705,"","",False,0
 706,"","",False,0
 707,"Amasseur d'assignats azur","Amasseuse d'assignats azur",False,1770
-708,"","",False,0
+708,"Haricot-roi","Haricot-reine",False,1771
 709,"Béni des Dieux","Bénie des Dieux",False,1772
 710,"","",False,0
 711,"Apocryphe de Bahamut","Apocryphe de Bahamut",False,1774
@@ -724,5 +724,5 @@ int32,str,str,bit&01,uint16
 720,"Légende conflictuelle","Légende conflictuelle",False,1783
 721,"Histoire conflictuelle","Histoire conflictuelle",False,1784
 722,"Parcours conflictuel","Parcours conflictuel",False,1785
-723,"","",False,0
-724,"","",False,0
+723,"Héros épique","Héroïne épique",False,1786
+724,"Innovateur du premier reflet","Innovatrice du premier reflet",False,1787

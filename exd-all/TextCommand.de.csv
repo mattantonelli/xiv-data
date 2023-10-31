@@ -3128,9 +3128,21 @@ VERWENDUNG:
 → Du lässt betrübt den Kopf hängen.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/kopfhängen","","pdamage",0
-675,2,1,2,0,0,"/loveheart","/heart","/herzmachen, /loveheart, /heart
+675,2,1,2,0,0,"/loveheart","/heart","/herzpose, /loveheart, /heart
 VERWENDUNG:
-/herzmachen [Unterbefehl]
+/herzpose [Unterbefehl]
 → Du formst ein Herz mit deinen Händen.
 >>Unterbefehl:
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/herzmachen","","pdamage",0
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/herzpose","","pdamage",0
+676,2,1,2,0,0,"/humbletriumph","/waitforit","/kleinerstolz, /humbletriumph, /waitforit
+VERWENDUNG:
+/kleinerstolz [Unterbefehl]
+→ Du strotzt vor Stolz - ein klein bisschen.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/kleinerstolz","","pdamage",0
+677,2,1,2,0,0,"/victoryreveal","/vreveal","/bohnensieg, /victoryreveal
+VERWENDUNG:
+/bohnensieg [Unterbefehl]
+→ Du feierst deinen Sieg mit einer gebührend bohnigen Pose.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.","/bohnensieg","","pdamage",0

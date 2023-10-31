@@ -2640,7 +2640,9 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 2576,"Mont Rokkon
 [Donjons spéciaux]",0,"Mont Rokkon
 [Donjons spéciaux]",0,0,1,0,0,"",0,0,0
-2577,"",0,"",0,0,0,0,0,"",0,0,0
+2577,"Île d'Aloalo
+[Donjons spéciaux]",0,"Île d'Aloalo
+[Donjons spéciaux]",0,0,1,0,0,"",0,0,0
 2578,"",0,"",0,0,0,0,0,"",0,0,0
 2579,"",0,"",0,0,0,0,0,"",0,0,0
 2580,"",0,"",0,0,0,0,0,"",0,0,0
@@ -4159,7 +4161,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4091,"Le Cœur volcanique",0,"Le Cœur volcanique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cœur volcanique</Case><Case(2)>au Cœur volcanique</Case><Case(3)>du Cœur volcanique</Case></Switch>",0,0,0
 4092,"Le Petit Nuage",0,"Le Petit Nuage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Petit Nuage</Case><Case(2)>au Petit Nuage</Case><Case(3)>du Petit Nuage</Case></Switch>",0,0,0
 4093,"Le Traquenard oriental",0,"Le Traquenard oriental",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Traquenard oriental</Case><Case(2)>au Traquenard oriental</Case><Case(3)>du Traquenard oriental</Case></Switch>",0,0,0
-4094,"",0,"",0,0,0,0,0,"",0,0,0
+4094,"Les Sables sanglants",0,"Les Sables sanglants",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Sables sanglants</Case><Case(2)>aux Sables sanglants</Case><Case(3)>des Sables sanglants</Case></Switch>",0,0,0
 4095,"",0,"",0,0,1,0,0,"",0,0,0
 4096,"",0,"",0,0,1,0,0,"",0,0,0
 4097,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4448,51 +4450,51 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4380,"Chambre d'Estinien",0,"Chambre d'Estinien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre d'Estinien</Case><Case(2)>à la chambre d'Estinien</Case><Case(3)>de la chambre d'Estinien</Case></Switch>",0,0,0
 4381,"Gare de Senatus",0,"Gare de Senatus",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la gare de Senatus</Case><Case(2)>à la gare de Senatus</Case><Case(3)>de la gare de Senatus</Case></Switch>",0,0,0
 4382,"Lune rouge",0,"Lune rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la lune rouge</Case><Case(2)>à la lune rouge</Case><Case(3)>de la lune rouge</Case></Switch>",0,0,0
-4383,"",0,"",0,0,0,0,0,"",0,0,0
-4384,"",0,"",0,0,0,0,0,"",0,0,0
-4385,"",0,"",0,0,0,0,0,"",0,0,0
-4386,"",0,"",0,0,0,0,0,"",0,0,0
-4387,"",0,"",0,0,0,0,0,"",0,0,0
-4388,"",0,"",0,0,0,0,0,"",0,0,0
-4389,"",0,"",0,0,0,0,0,"",0,0,0
-4390,"",0,"",0,0,0,0,0,"",0,0,0
-4391,"",0,"",0,0,0,0,0,"",0,0,0
-4392,"",0,"",0,0,0,0,0,"",0,0,0
-4393,"",0,"",0,0,0,0,0,"",0,0,0
-4394,"",0,"",0,0,0,0,0,"",0,0,0
-4395,"",0,"",0,0,0,0,0,"",0,0,0
-4396,"",0,"",0,0,0,0,0,"",0,0,0
-4397,"",0,"",0,0,0,0,0,"",0,0,0
-4398,"",0,"",0,0,0,0,0,"",0,0,0
-4399,"",0,"",0,0,0,0,0,"",0,0,0
-4400,"",0,"",0,0,0,0,0,"",0,0,0
-4401,"",0,"",0,0,0,0,0,"",0,0,0
-4402,"",0,"",0,0,0,0,0,"",0,0,0
-4403,"",0,"",0,0,0,0,0,"",0,0,0
-4404,"",0,"",0,0,0,0,0,"",0,0,0
-4405,"",0,"",0,0,0,0,0,"",0,0,0
-4406,"",0,"",0,0,0,0,0,"",0,0,0
-4407,"",0,"",0,0,0,0,0,"",0,0,0
-4408,"",0,"",0,0,0,0,0,"",0,0,0
-4409,"",0,"",0,0,0,0,0,"",0,0,0
-4410,"",0,"",0,0,0,0,0,"",0,0,0
-4411,"",0,"",0,0,0,0,0,"",0,0,0
-4412,"",0,"",0,0,0,0,0,"",0,0,0
-4413,"",0,"",0,0,0,0,0,"",0,0,0
-4414,"",0,"",0,0,0,0,0,"",0,0,0
-4415,"",0,"",0,0,0,0,0,"",0,0,0
-4416,"",0,"",0,0,0,0,0,"",0,0,0
-4417,"",0,"",0,0,0,0,0,"",0,0,0
-4418,"",0,"",0,0,0,0,0,"",0,0,0
-4419,"",0,"",0,0,0,0,0,"",0,0,0
-4420,"",0,"",0,0,0,0,0,"",0,0,0
-4421,"",0,"",0,0,0,0,0,"",0,0,0
-4422,"",0,"",0,0,0,0,0,"",0,0,0
-4423,"",0,"",0,0,0,0,0,"",0,0,0
-4424,"",0,"",0,0,0,0,0,"",0,0,0
-4425,"",0,"",0,0,0,0,0,"",0,0,0
-4426,"",0,"",0,0,0,0,0,"",0,0,0
-4427,"",0,"",0,0,0,0,0,"",0,0,0
+4383,"Île d'Aloalo",0,"Île d'Aloalo",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île d'Aloalo</Case><Case(2)>à l'île d'Aloalo</Case><Case(3)>de l'île d'Aloalo</Case></Switch>",0,0,0
+4384,"Abords d'Aloalo",0,"Abords d'Aloalo",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les abords d'Aloalo</Case><Case(2)>aux abords d'Aloalo</Case><Case(3)>des abords d'Aloalo</Case></Switch>",0,0,0
+4385,"Côte d'Aloalo",0,"Côte d'Aloalo",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la côte d'Aloalo</Case><Case(2)>à la côte d'Aloalo</Case><Case(3)>de la côte d'Aloalo</Case></Switch>",0,0,0
+4386,"Chemin de l'Incalculable",0,"Chemin de l'Incalculable",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le chemin de l'Incalculable</Case><Case(2)>au chemin de l'Incalculable</Case><Case(3)>du chemin de l'Incalculable</Case></Switch>",0,0,0
+4387,"Tronc de l'Incalculable",0,"Tronc de l'Incalculable",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le tronc de l'Incalculable</Case><Case(2)>au tronc de l'Incalculable</Case><Case(3)>du tronc de l'Incalculable</Case></Switch>",0,0,0
+4388,"Terres intérieures d'Aloalo",0,"Terres intérieures d'Aloalo",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les terres intérieures d'Aloalo</Case><Case(2)>aux terres intérieures d'Aloalo</Case><Case(3)>des terres intérieures d'Aloalo</Case></Switch>",0,0,0
+4389,"Racines de l'Incalculable",0,"Racines de l'Incalculable",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les racines de l'Incalculable</Case><Case(2)>aux racines de l'Incalculable</Case><Case(3)>des racines de l'Incalculable</Case></Switch>",0,0,0
+4390,"Ruines oubliées",0,"Ruines oubliées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Ruines oubliées</Case><Case(2)>aux Ruines oubliées</Case><Case(3)>des Ruines oubliées</Case></Switch>",0,0,0
+4391,"Sanctuaire oublié",0,"Sanctuaire oublié",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Sanctuaire oublié</Case><Case(2)>au Sanctuaire oublié</Case><Case(3)>du Sanctuaire oublié</Case></Switch>",0,0,0
+4392,"Baie de Ketulu",0,"Baie de Ketulu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la baie de Ketulu</Case><Case(2)>à la baie de Ketulu</Case><Case(3)>de la baie de Ketulu</Case></Switch>",0,0,0
+4393,"Souche du Doyen",0,"Souche du Doyen",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Souche du Doyen</Case><Case(2)>à la Souche du Doyen</Case><Case(3)>de la Souche du Doyen</Case></Switch>",0,0,0
+4394,"Ancienne grand-place",0,"Ancienne grand-place",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Ancienne grand-place</Case><Case(2)>à l'Ancienne grand-place</Case><Case(3)>de l'Ancienne grand-place</Case></Switch>",0,0,0
+4395,"Repos du Chant marin",0,"Repos du Chant marin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Repos du Chant marin</Case><Case(2)>au Repos du Chant marin</Case><Case(3)>du Repos du Chant marin</Case></Switch>",0,0,0
+4396,"Fontaine de l'Origine",0,"Fontaine de l'Origine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la fontaine de l'Origine</Case><Case(2)>à la fontaine de l'Origine</Case><Case(3)>de la fontaine de l'Origine</Case></Switch>",0,0,0
+4397,"Voûte apaisée",0,"Voûte apaisée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Voûte apaisée</Case><Case(2)>à la Voûte apaisée</Case><Case(3)>de la Voûte apaisée</Case></Switch>",0,0,0
+4398,"Kairimai Loquloqai",0,"Kairimai Loquloqai",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Kairimai Loquloqai</Case><Case(2)>à Kairimai Loquloqai</Case><Case(3)>de Kairimai Loquloqai</Case></Switch>",0,0,0
+4399,"Pavillon ancestral",0,"Pavillon ancestral",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Pavillon ancestral</Case><Case(2)>au Pavillon ancestral</Case><Case(3)>du Pavillon ancestral</Case></Switch>",0,0,0
+4400,"Plage anonyme",0,"Plage anonyme",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Plage anonyme</Case><Case(2)>à la Plage anonyme</Case><Case(3)>de la Plage anonyme</Case></Switch>",0,0,0
+4401,"Caverne brise-vagues",0,"Caverne brise-vagues",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Caverne brise-vagues</Case><Case(2)>à la Caverne brise-vagues</Case><Case(3)>de la Caverne brise-vagues</Case></Switch>",0,0,0
+4402,"Baie de Tesata",0,"Baie de Tesata",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la baie de Tesata</Case><Case(2)>à la baie de Tesata</Case><Case(3)>de la baie de Tesata</Case></Switch>",0,0,0
+4403,"Calanque des Naufragés ",0,"Calanque des Naufragés ",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la calanque des Naufragés </Case><Case(2)>à la calanque des Naufragés </Case><Case(3)>de la calanque des Naufragés </Case></Switch>",0,0,0
+4404,"Cap des Fanons",0,"Cap des Fanons",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cap des Fanons</Case><Case(2)>au cap des Fanons</Case><Case(3)>du cap des Fanons</Case></Switch>",0,0,0
+4405,"Marais de la Coche",0,"Marais de la Coche",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les marais de la Coche</Case><Case(2)>aux marais de la Coche</Case><Case(3)>des marais de la Coche</Case></Switch>",0,0,0
+4406,"Pied de l'Incalculable",0,"Pied de l'Incalculable",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pied de l'Incalculable</Case><Case(2)>au pied de l'Incalculable</Case><Case(3)>du pied de l'Incalculable</Case></Switch>",0,0,0
+4407,"Coursive de Branches",0,"Coursive de Branches",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Coursive de Branches</Case><Case(2)>à la Coursive de Branches</Case><Case(3)>de la Coursive de Branches</Case></Switch>",0,0,0
+4408,"Caverne de l'Arithméticien",0,"Caverne de l'Arithméticien",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la caverne de l'Arithméticien</Case><Case(2)>à la caverne de l'Arithméticien</Case><Case(3)>de la caverne de l'Arithméticien</Case></Switch>",0,0,0
+4409,"Hauteurs de l'Incalculable",0,"Hauteurs de l'Incalculable",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les hauteurs de l'Incalculable</Case><Case(2)>aux hauteurs de l'Incalculable</Case><Case(3)>des hauteurs de l'Incalculable</Case></Switch>",0,0,0
+4410,"Bosquet d'Aloqulo",0,"Bosquet d'Aloqulo",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bosquet d'Aloqulo</Case><Case(2)>au bosquet d'Aloqulo</Case><Case(3)>du bosquet d'Aloqulo</Case></Switch>",0,0,0
+4411,"Site du Pèlerinage",0,"Site du Pèlerinage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le site du Pèlerinage</Case><Case(2)>au site du Pèlerinage</Case><Case(3)>du site du Pèlerinage</Case></Switch>",0,0,0
+4412,"Souterrains des Rêves",0,"Souterrains des Rêves",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les souterrains des Rêves</Case><Case(2)>aux souterrains des Rêves</Case><Case(3)>des souterrains des Rêves</Case></Switch>",0,0,0
+4413,"Vieux sentier",0,"Vieux sentier",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Vieux sentier</Case><Case(2)>au Vieux sentier</Case><Case(3)>du Vieux sentier</Case></Switch>",0,0,0
+4414,"Pont embrumé",0,"Pont embrumé",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Pont embrumé</Case><Case(2)>au Pont embrumé</Case><Case(3)>du Pont embrumé</Case></Switch>",0,0,0
+4415,"Autel de l'Icône",0,"Autel de l'Icône",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'autel de l'Icône</Case><Case(2)>à l'autel de l'Icône</Case><Case(3)>de l'autel de l'Icône</Case></Switch>",0,0,0
+4416,"Île d'Aloalo annexe",0,"Île d'Aloalo annexe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'île d'Aloalo annexe</Case><Case(2)>à l'île d'Aloalo annexe</Case><Case(3)>de l'île d'Aloalo annexe</Case></Switch>",0,0,0
+4417,"Dilumu",0,"Dilumu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Dilumu</Case><Case(2)>à Dilumu</Case><Case(3)>de Dilumu</Case></Switch>",0,0,0
+4418,"Qurupe",0,"Qurupe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Qurupe</Case><Case(2)>à Qurupe</Case><Case(3)>de Qurupe</Case></Switch>",0,0,0
+4419,"Nokosero",0,"Nokosero",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Nokosero</Case><Case(2)>à Nokosero</Case><Case(3)>de Nokosero</Case></Switch>",0,0,0
+4420,"Sables de Dilumu",0,"Sables de Dilumu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les sables de Dilumu</Case><Case(2)>aux sables de Dilumu</Case><Case(3)>des sables de Dilumu</Case></Switch>",0,0,0
+4421,"Racines de Qurupe",0,"Racines de Qurupe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les racines de Qurupe</Case><Case(2)>aux racines de Qurupe</Case><Case(3)>des racines de Qurupe</Case></Switch>",0,0,0
+4422,"Épreuve de Dilumu",0,"Épreuve de Dilumu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'épreuve de Dilumu</Case><Case(2)>à l'épreuve de Dilumu</Case><Case(3)>de l'épreuve de Dilumu</Case></Switch>",0,0,0
+4423,"Épreuve de Qurupe",0,"Épreuve de Qurupe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'épreuve de Qurupe</Case><Case(2)>à l'épreuve de Qurupe</Case><Case(3)>de l'épreuve de Qurupe</Case></Switch>",0,0,0
+4424,"Épreuve de Nokosero",0,"Épreuve de Nokosero",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'épreuve de Nokosero</Case><Case(2)>à l'épreuve de Nokosero</Case><Case(3)>de l'épreuve de Nokosero</Case></Switch>",0,0,0
+4425,"Dalu Dilumu",0,"Dalu Dilumu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Dalu Dilumu</Case><Case(2)>à Dalu Dilumu</Case><Case(3)>de Dalu Dilumu</Case></Switch>",0,0,0
+4426,"Dalu Qurupe",0,"Dalu Qurupe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Dalu Qurupe</Case><Case(2)>à Dalu Qurupe</Case><Case(3)>de Dalu Qurupe</Case></Switch>",0,0,0
+4427,"Dalu Nokosero",0,"Dalu Nokosero",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Dalu Nokosero</Case><Case(2)>à Dalu Nokosero</Case><Case(3)>de Dalu Nokosero</Case></Switch>",0,0,0
 4428,"",0,"",0,0,0,0,0,"",0,0,0
 4429,"Alentours de la grotte de Saibai",0,"Alentours de la grotte de Saibai",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les alentours de la grotte de Saibai</Case><Case(2)>aux alentours de la grotte de Saibai</Case><Case(3)>des alentours de la grotte de Saibai</Case></Switch>",0,1,0
 4430,"Fond du lac d'Airin (nord-ouest)",0,"Fond du lac d'Airin (nord-ouest)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac d'Airin =nord-ouest</Case><Case(2)>au fond du lac d'Airin =nord-ouest</Case><Case(3)>du fond du lac d'Airin =nord-ouest</Case></Switch>",0,1,0
@@ -4533,18 +4535,18 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4465,"Souterrain cristallin",0,"Souterrain cristallin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le souterrain cristallin</Case><Case(2)>au souterrain cristallin</Case><Case(3)>du souterrain cristallin</Case></Switch>",0,0,0
 4466,"Souvenirs de Golbez",0,"Souvenirs de Golbez",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les souvenirs de Golbez</Case><Case(2)>dans les souvenirs de Golbez</Case><Case(3)>des souvenirs de Golbez</Case></Switch>",0,0,0
 4467,"Souterrain lunaire",0,"Souterrain lunaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Souterrain lunaire</Case><Case(2)>au Souterrain lunaire</Case><Case(3)>du Souterrain lunaire</Case></Switch>",0,0,0
-4468,"",0,"",0,0,0,0,0,"",0,0,0
-4469,"",0,"",0,0,0,0,0,"",0,0,0
-4470,"",0,"",0,0,0,0,0,"",0,0,0
-4471,"",0,"",0,0,0,0,0,"",0,0,0
-4472,"",0,"",0,0,0,0,0,"",0,0,0
-4473,"",0,"",0,0,0,0,0,"",0,0,0
-4474,"",0,"",0,0,0,0,0,"",0,0,0
-4475,"",0,"",0,0,0,0,0,"",0,0,0
+4468,"Square du Blunderville",0,"Square du Blunderville",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le square du Blunderville</Case><Case(2)>au square du Blunderville</Case><Case(3)>du square du Blunderville</Case></Switch>",0,0,0
+4469,"Blunderville",0,"Blunderville",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Blunderville</Case><Case(2)>au Blunderville</Case><Case(3)>du Blunderville</Case></Switch>",0,0,0
+4470,"Mander-Folie",0,"Mander-Folie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mander-Folie</Case><Case(2)>à la Mander-Folie</Case><Case(3)>de la Mander-Folie</Case></Switch>",0,0,0
+4471,"Mander-Parade",0,"Mander-Parade",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mander-Parade</Case><Case(2)>à la Mander-Parade</Case><Case(3)>de la Mander-Parade</Case></Switch>",0,0,0
+4472,"Mander-Toupie",0,"Mander-Toupie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mander-Toupie</Case><Case(2)>à la Mander-Toupie</Case><Case(3)>de la Mander-Toupie</Case></Switch>",0,0,0
+4473,"Mander-Assaut",0,"Mander-Assaut",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Mander-Assaut</Case><Case(2)>au Mander-Assaut</Case><Case(3)>du Mander-Assaut</Case></Switch>",0,0,0
+4474,"Mander-Grimpette",0,"Mander-Grimpette",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mander-Grimpette</Case><Case(2)>à la Mander-Grimpette</Case><Case(3)>de la Mander-Grimpette</Case></Switch>",0,0,0
+4475,"Zone d'attente du Blunderville",0,"Zone d'attente du Blunderville",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la zone d'attente du Blunderville</Case><Case(2)>à la zone d'attente du Blunderville</Case><Case(3)>de la zone d'attente du Blunderville</Case></Switch>",0,0,0
 4476,"",0,"",0,0,0,0,0,"",0,0,0
-4477,"",0,"",0,0,0,0,0,"",0,0,0
-4478,"",0,"",0,0,0,0,0,"",0,0,0
-4479,"",0,"",0,0,0,0,0,"",0,0,0
+4477,"Plage de Prestepas",0,"Plage de Prestepas",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la plage de Prestepas</Case><Case(2)>à la plage de Prestepas</Case><Case(3)>de la plage de Prestepas</Case></Switch>",0,0,0
+4478,"Chemin oublié",0,"Chemin oublié",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Chemin oublié</Case><Case(2)>au Chemin oublié</Case><Case(3)>du Chemin oublié</Case></Switch>",0,0,0
+4479,"Branches de l'Incalculable",0,"Branches de l'Incalculable",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les branches de l'Incalculable</Case><Case(2)>aux branches de l'Incalculable</Case><Case(3)>des branches de l'Incalculable</Case></Switch>",0,0,0
 4480,"",0,"",0,0,0,0,0,"",0,0,0
 4481,"",0,"",0,0,0,0,0,"",0,0,0
 4482,"",0,"",0,0,0,0,0,"",0,0,0
