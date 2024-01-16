@@ -20265,7 +20265,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lilie<UIGlo
 Attacke-Wert: 1240
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blutlilie<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vollständig geöffnet"
-16536,"Du erhöhst die Wirkung deiner Heilmagie um 20<Indent/>% und verringerst den erlittenen Schaden von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 50y um 10<Indent/>%.
+16536,"Du erhöhst die Wirkung deiner Heilmagie um 20<Indent/>% und verringerst den eigenen erlittenen Schaden sowie den von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 50y um 10<Indent/>%.
 Dauer: 20 Sekunden"
 16537,"Du lässt deine Fee <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Erhebendes Flüstern<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausführen.<If(Equal(PlayerParameter(68),28))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>
 Kommando wird als <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hauch der Seraphim<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt, wenn Seraph anwesend ist.<Else/></If><Else/></If>
@@ -29701,7 +29701,7 @@ Kann nicht im Kommandomenü angelegt werden."
 Dauer: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Soteria<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht das Heilpotenzial der von deinen Zaubern gewährten <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Heilung um 70<Indent/>%.
 Dauer: 15 Sekunden"
-24295,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
+24295,"Du bewegst dich augenblicklich zu deinem anvisierten Gegner oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 24296,"Du regenerierst LP des Ziels.
 Heilpotenzial: 600
@@ -31514,7 +31514,7 @@ Schließt alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatte
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fünftes Schatten-Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und im Kampf
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Heulende Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
-25762,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
+25762,"Du bewegst dich augenblicklich zu deinem anvisierten Gegner oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Maximale Aufladungen: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>3<Else/>2</If><Else/>2</If>
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 25763,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
@@ -34260,7 +34260,7 @@ Du erhältst einen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hum
 Dauer: 15 Sekunden
 Falls die Barriere den vollen Schaden absorbiert, wird 1 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und die Barriere erneuert. Bei Ablauf der Wirkungsdauer werden alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und das Ziel geheilt.
 Heilpotenzial: 1000 pro übrigem Stapel"
-27834,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
+27834,"Du bewegst dich augenblicklich zu deinem anvisierten Gegner oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 27835,"Du erhältst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und du oder das anvisierte Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Gewisse deiner magische Attacken regenerieren beim Ziel mit <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> LP."
 27836,""
@@ -35493,7 +35493,8 @@ Heilpotenzial: 200 pro übrigem Stapel"
 Dauer: 5 Sekunden
 Effekt endet bei erneuter Ausführung oder nächstem Kommando."
 29055,"Du regenerierst alle deine LP und MP. Wirst du dabei unterbrochen, wird auch die Ausführung des Kommandos unterbrochen."
-29056,"Du entfernst alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stumm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlaftrunken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlaf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>- und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tiefkühlung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Effekte von dir. Wird mindestens ein negativer Status entfernt, gewährst du dir selbst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Resilienz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+29056,"Du entfernst alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stumm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlaftrunken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlaf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>- und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tiefkühlung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Effekte von dir.
+Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Resilienz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 5 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Resilienz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Immun gegen alle negativen Status, die von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Purifikation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> entfernt werden können.
 Dieses Kommando kann auch unter Einfluss der meisten negativen Status ausgeführt werden."
@@ -35549,10 +35550,10 @@ Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fe
 29067,"Du gewährst dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Schiltron<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trutz des Ritters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliges Schiltron<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Errichtet eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 12000 absorbiert. Falls die Barriere erst durch das Ende der Effektdauer fällt, erleiden umstehende Gegner magischen Schaden.
 Dauer: 5 Sekunden
-Attacke-Wert: + 100<Indent/>% des verbliebenen Barrierepotenzials
+Attacke-Wert: 100<Indent/>% des verbliebenen Barrierepotenzials
 Zusatzeffekt: Ziele erleiden 75<Indent/>% <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gewicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 5 Sekunden
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trutz des Ritters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verringert erlittenen Schaden um 15<Indent/>%.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Trutz des Ritters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verringert erlittenen Schaden um 20<Indent/>%.
 Dauer: 10 Sekunden"
 29068,""
 29069,"Du gewährst dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heiliger Boden<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phalanx<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -36085,7 +36086,7 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubu
 Dauer: 2 Sekunden
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Linderung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 15 Sekunden
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Linderung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht eigenen ausgeteilten Schaden und das Heilpotenzial eigener Zauber um 10<Indent/>% und regeneriert stetig LP von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 30y.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Linderung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erhöht eigenen ausgeteilten Schaden und das Heilpotenzial eigener Zauber um 10<Indent/>% und regeneriert stetig eigene LP sowie die von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 30y.
 Heilpotenzial: 3000
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Limitrausch-Balken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> voll
 Aufladedauer: 60 Sekunden"
@@ -36248,7 +36249,7 @@ Dauer: 10 Sekunden
 Falls die Barriere den vollen Schaden absorbiert, wird 1 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und die Barriere erneuert. Bei Ablauf der Wirkungsdauer werden alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht und das Ziel geheilt.
 Heilpotenzial: 3000 pro übrigem Stapel
 Eigener Reaktivierungs-Timer"
-29261,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
+29261,"Du bewegst dich augenblicklich zu deinem anvisierten Gegner oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Maximale Aufladungen: 2
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29262,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
@@ -36434,10 +36435,10 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stoßpfeilb
 Dauer: 20 Sekunden
 Eigener Reaktivierungs-Timer"
 29394,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: 8000
+Attacke-Wert: 10000
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Forte der Front<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 10 Sekunden
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Forte der Front<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von eigenen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten sind um 10 % reduziert und der ausgeteilte Schaden von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 30y ist um 5<Indent/>% erhöht.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Forte der Front<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: (Re-)Ak<SoftHyphen/>ti<SoftHyphen/>vie<SoftHyphen/>rungs<SoftHyphen/>zeit von eigenen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten ist um 10 % reduziert und der eigene ausgeteilte Schaden sowie der von Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern im Umkreis von 30y ist um 5<Indent/>% erhöht.
 Kann nicht im Kommandomenü angelegt werden."
 29395,"Du fügst dem Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stumm<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu.
 Dauer: 2 Sekunden
@@ -36445,13 +36446,13 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Virtuose
 Dauer: 10 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Virtuose<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Mächtiger Schuss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Absolutes Gehör<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 29396,"Du verbrauchst alle Aufladungen und führst pro Aufladung eine physische Fernkampfattacke aus.
-Attacke-Wert: 4000
+Attacke-Wert: 3000
 Maximale Aufladungen: 3"
 29397,"Du verbrauchst alle Aufladungen und führst pro Aufladung eine physische Fernkampfattacke aus.
-Attacke-Wert: 4000
+Attacke-Wert: 3000
 Maximale Aufladungen: 3"
 29398,"Du verbrauchst alle Aufladungen und führst pro Aufladung eine physische Fernkampfattacke aus.
-Attacke-Wert: 4000
+Attacke-Wert: 3000
 Maximale Aufladungen: 3"
 29399,"Du führst eine physische Attacke aus und springst dabei 10y zurück.
 Attacke-Wert: 4000
@@ -36459,7 +36460,7 @@ Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fessel<U
 Dauer: 3 Sekunden
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 29400,"Du entfernst einen negativen Statuseffekt von dir oder einem Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied, der auch von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Purifikation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aufgehoben werden kann. Wird bei Ausführung kein negativer Status entfernt, errichtest du stattdessen eine Barriere um das Ziel, die den nächsten von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Purifikation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aufhebbaren negativen Status verhindert.
-Dauer: 10 Sekunden
+Dauer: 8 Sekunden
 Wird ein negativer Status erfolgreich durch die Barriere verhindert, wird dem Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gunst des Hüters<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährt.
 Dauer: 5 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gunst des Hüters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erlittener Schaden ist um 25<Indent/>% verringert und Heileffekte sind um 25<Indent/>% erhöht.
@@ -36608,81 +36609,81 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIG
 Ändert sich bei Ausführung zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Scharfes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 29423,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>:
-0 Stapel: 1000
-1 Stapel: 2000
-2 Stapel: 3000
-3 Stapel: 4000
-4 Stapel: 5000
-Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Die Barrierewirkung verdoppelt sich für Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder im Umkreis von 5y.
-0 Stapel: 1000 Heilpotenzial entsprechend
-1 Stapel: 2000 Heilpotenzial entsprechend
-2 Stapel: 3000 Heilpotenzial entsprechend
-3 Stapel: 4000 Heilpotenzial entsprechend
-4 Stapel: 5000 Heilpotenzial entsprechend
+0 Stapel: 2000
+1 Stapel: 3000
+2 Stapel: 4000
+3 Stapel: 5000
+4 Stapel: 6000
+Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Der Attacke-Wert und die Barrierewirkung verdoppeln sich für Ziele im Umkreis von 5y.
+0 Stapel: 2000 Heilpotenzial entsprechend
+1 Stapel: 3000 Heilpotenzial entsprechend
+2 Stapel: 4000 Heilpotenzial entsprechend
+3 Stapel: 5000 Heilpotenzial entsprechend
+4 Stapel: 6000 Heilpotenzial entsprechend
 Bei Ausführung wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29424,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>:
-0 Stapel: 1000
-1 Stapel: 2000
-2 Stapel: 3000
-3 Stapel: 4000
-4 Stapel: 5000
-Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Die Barrierewirkung verdoppelt sich für Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder im Umkreis von 5y.
-0 Stapel: 1000 Heilpotenzial entsprechend
-1 Stapel: 2000 Heilpotenzial entsprechend
-2 Stapel: 3000 Heilpotenzial entsprechend
-3 Stapel: 4000 Heilpotenzial entsprechend
-4 Stapel: 5000 Heilpotenzial entsprechend
+0 Stapel: 2000
+1 Stapel: 3000
+2 Stapel: 4000
+3 Stapel: 5000
+4 Stapel: 6000
+Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Der Attacke-Wert und die Barrierewirkung verdoppeln sich für Ziele im Umkreis von 5y.
+0 Stapel: 2000 Heilpotenzial entsprechend
+1 Stapel: 3000 Heilpotenzial entsprechend
+2 Stapel: 4000 Heilpotenzial entsprechend
+3 Stapel: 5000 Heilpotenzial entsprechend
+4 Stapel: 6000 Heilpotenzial entsprechend
 Bei Ausführung wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29425,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>:
-0 Stapel: 1000
-1 Stapel: 2000
-2 Stapel: 3000
-3 Stapel: 4000
-4 Stapel: 5000
-Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Die Barrierewirkung verdoppelt sich für Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder im Umkreis von 5y.
-0 Stapel: 1000 Heilpotenzial entsprechend
-1 Stapel: 2000 Heilpotenzial entsprechend
-2 Stapel: 3000 Heilpotenzial entsprechend
-3 Stapel: 4000 Heilpotenzial entsprechend
-4 Stapel: 5000 Heilpotenzial entsprechend
+0 Stapel: 2000
+1 Stapel: 3000
+2 Stapel: 4000
+3 Stapel: 5000
+4 Stapel: 6000
+Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Der Attacke-Wert und die Barrierewirkung verdoppeln sich für Ziele im Umkreis von 5y.
+0 Stapel: 2000 Heilpotenzial entsprechend
+1 Stapel: 3000 Heilpotenzial entsprechend
+2 Stapel: 4000 Heilpotenzial entsprechend
+3 Stapel: 5000 Heilpotenzial entsprechend
+4 Stapel: 6000 Heilpotenzial entsprechend
 Bei Ausführung wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29426,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>:
-0 Stapel: 1000
-1 Stapel: 2000
-2 Stapel: 3000
-3 Stapel: 4000
-4 Stapel: 5000
-Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Die Barrierewirkung verdoppelt sich für Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder im Umkreis von 5y.
-0 Stapel: 1000 Heilpotenzial entsprechend
-1 Stapel: 2000 Heilpotenzial entsprechend
-2 Stapel: 3000 Heilpotenzial entsprechend
-3 Stapel: 4000 Heilpotenzial entsprechend
-4 Stapel: 5000 Heilpotenzial entsprechend
+0 Stapel: 2000
+1 Stapel: 3000
+2 Stapel: 4000
+3 Stapel: 5000
+4 Stapel: 6000
+Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Der Attacke-Wert und die Barrierewirkung verdoppeln sich für Ziele im Umkreis von 5y.
+0 Stapel: 2000 Heilpotenzial entsprechend
+1 Stapel: 3000 Heilpotenzial entsprechend
+2 Stapel: 4000 Heilpotenzial entsprechend
+3 Stapel: 5000 Heilpotenzial entsprechend
+4 Stapel: 6000 Heilpotenzial entsprechend
 Bei Ausführung wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29427,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>:
-0 Stapel: 1000
-1 Stapel: 2000
-2 Stapel: 3000
-3 Stapel: 4000
-4 Stapel: 5000
-Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Die Barrierewirkung verdoppelt sich für Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder im Umkreis von 5y.
-0 Stapel: 1000 Heilpotenzial entsprechend
-1 Stapel: 2000 Heilpotenzial entsprechend
-2 Stapel: 3000 Heilpotenzial entsprechend
-3 Stapel: 4000 Heilpotenzial entsprechend
-4 Stapel: 5000 Heilpotenzial entsprechend
+0 Stapel: 2000
+1 Stapel: 3000
+2 Stapel: 4000
+3 Stapel: 5000
+4 Stapel: 6000
+Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Der Attacke-Wert und die Barrierewirkung verdoppeln sich für Ziele im Umkreis von 5y.
+0 Stapel: 2000 Heilpotenzial entsprechend
+1 Stapel: 3000 Heilpotenzial entsprechend
+2 Stapel: 4000 Heilpotenzial entsprechend
+3 Stapel: 5000 Heilpotenzial entsprechend
+4 Stapel: 6000 Heilpotenzial entsprechend
 Bei Ausführung wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
@@ -36754,17 +36755,17 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Multi<UIGlo
 Kann nicht im Kommandomenü angelegt werden."
 29470,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert variiert mit der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>:
-0 Stapel: 1000
-1 Stapel: 2000
-2 Stapel: 3000
-3 Stapel: 4000
-4 Stapel: 5000
-Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Die Barrierewirkung verdoppelt sich für Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder im Umkreis von 5y.
-0 Stapel: 1000 Heilpotenzial entsprechend
-1 Stapel: 2000 Heilpotenzial entsprechend
-2 Stapel: 3000 Heilpotenzial entsprechend
-3 Stapel: 4000 Heilpotenzial entsprechend
-4 Stapel: 5000 Heilpotenzial entsprechend
+0 Stapel: 2000
+1 Stapel: 3000
+2 Stapel: 4000
+3 Stapel: 5000
+4 Stapel: 6000
+Zusatzeffekt: Errichtet eine Barriere um dich und umstehende Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder, die Schaden entsprechend der Anzahl der Stapel von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beifall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbiert. Der Attacke-Wert und die Barrierewirkung verdoppeln sich für Ziele im Umkreis von 5y.
+0 Stapel: 2000 Heilpotenzial entsprechend
+1 Stapel: 3000 Heilpotenzial entsprechend
+2 Stapel: 4000 Heilpotenzial entsprechend
+3 Stapel: 5000 Heilpotenzial entsprechend
+4 Stapel: 6000 Heilpotenzial entsprechend
 Bei Ausführung wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Klingentanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
@@ -36828,7 +36829,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wesen des F
 Dauer: 10 Sekunden
 Maximale Aufladungen: 2"
 29482,"Du gewährst dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wesen der Erde<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und dieses Kommando ändert sich zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Echo der Erde<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Dauer: 10 Sekunden
+Dauer: 8 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wesen der Erde<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erleidest du während der Wirkungsdauer Schaden, wird dieser angesammelt. Bei Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Echo der Erde<UIGlow>01</UIGlow><UIForeground>01</UIForeground> führst du eine physische Attacke auf alle umstehenden Gegner aus und regenerierst eigene LP.
 Attacke-Wert: 2000 plus 25<Indent/>% des angesammelten Schadens
 Heilpotenzial: 4000 plus 50<Indent/>% des angesammelten Schadens"
@@ -36837,7 +36838,7 @@ Attacke-Wert: 2000 plus 25<Indent/>% des angesammelten Schadens
 Heilpotenzial: 4000 plus 50<Indent/>% des angesammelten Schadens
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wesen der Erde<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
-29484,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied. Visierst du einen Gegner an, errichtest du eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 6000 absorbiert. Visierst du ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied an, errichtest du die Barriere stattdessen um das Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
+29484,"Du bewegst dich augenblicklich zu deinem anvisierten Gegner oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied. Visierst du einen Gegner an, errichtest du eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 6000 absorbiert. Visierst du ein Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied an, errichtest du die Barriere stattdessen um das Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
 Dauer: 10 Sekunden
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wesen des Windes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 10 Sekunden
@@ -37211,7 +37212,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vitalisiere
 Heilpotenzial: 6000
 Dauer: 6 Sekunden"
 29553,"Dein Avatar umhüllt dich und macht dich zu einer <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lemure<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dir 5 Stapel dieses Status gewährend.
-Dauer: 15 Sekunden
+Dauer: 20 Sekunden
 Während der Effektdauer ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nachtschwad<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Lemurensense<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kombo Infernalischer Schlitzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nichtsmäher<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tenebrae Lemurum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Communio<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Zusatzeffekt: Umstehende Gegner erleiden <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Panik<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 2 Sekunden
@@ -37423,7 +37424,7 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlaftrunk
 Dauer: 3 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlaf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Wird der Status durch erlittenen Schaden aufgehoben, wird ein zusätzlicher Schadenseffekt ausgelöst.
 Attacke-Wert: 8000"
-29660,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied. Visierst du dich dabei selbst an, wird nur der Zusatzeffekt ausgelöst.
+29660,"Du bewegst dich augenblicklich zu deinem anvisierten Gegner oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied. Visierst du dich dabei selbst an, wird nur der Zusatzeffekt ausgelöst.
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Spontaneität<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 10 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Spontaneität<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Nächster Zauber kann sofort gewirkt werden.

@@ -96,4 +96,4 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 92,"barde de Golbez",0,"bardes de Golbez",0,0,1,1,0,"Barde de Golbez",65623,65623,65623,"None","ui/icon/058000/058777.tex","ui/icon/058000/058779.tex","ui/icon/058000/058778.tex",156
 93,"barde de Chamoiselle",0,"bardes de Chamoiselle",0,0,1,1,0,"Barde de Chamoiselle",65624,65624,65624,"None","ui/icon/058000/058780.tex","ui/icon/058000/058782.tex","ui/icon/058000/058781.tex",78
 94,"barde de Zeromus",0,"bardes de Zeromus",0,0,1,1,0,"Barde de Zeromus",65625,65625,65625,"None","ui/icon/058000/058783.tex","ui/icon/058000/058785.tex","ui/icon/058000/058784.tex",157
-95,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+95,"barde d'arpenteur",0,"bardes d'arpenteur",0,0,1,1,0,"Barde d'arpenteur",65626,65626,65626,"None","ui/icon/058000/058786.tex","ui/icon/058000/058788.tex","ui/icon/058000/058787.tex",79

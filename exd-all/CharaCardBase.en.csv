@@ -98,7 +98,7 @@ int32,Image,byte,bool,bool,byte,BannerCondition,byte,uint16,str
 94,"ui/icon/193000/193732.tex",1,True,True,0,"BannerCondition#572",3,2261,"Nald'thal's Blessing"
 95,"ui/icon/193000/193733.tex",1,True,True,0,"BannerCondition#572",3,2262,"Nophica's Blessing"
 96,"ui/icon/193000/193734.tex",1,True,True,0,"BannerCondition#572",3,2263,"Althyk's Blessing"
-97,,0,False,False,0,"BannerCondition#0",0,0,""
+97,"ui/icon/193000/193722.tex",1,True,True,0,"BannerCondition#573",3,2242,"Tataru's Bespoke"
 98,"ui/icon/193000/193720.tex",2,True,True,0,"BannerCondition#570",4,2600,"Wondrous Whimsy"
 99,"ui/icon/193000/193721.tex",1,True,True,0,"BannerCondition#571",4,2601,"Fantastic Faux"
 100,"ui/icon/193000/193735.tex",1,True,True,0,"BannerCondition#575",7,2700,"Blunderful"

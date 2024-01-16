@@ -7800,7 +7800,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1007796,"",0,"",0,0,1,0,0,"",5,False
 1007797,"Mitglied[p] der Galgenvögel",4,"Mitglieder[p] der Galgenvögel",2,0,1,2,0,"",3,False
 1007798,"Guillaunaux",3,"NONE",1,0,0,0,1,"",3,False
-1007799,"Pmolminn",3,"NONE",1,0,0,1,1,"",3,False
+1007799,"P'molminn",3,"NONE",1,0,0,1,1,"",3,False
 1007800,"anmutig[a] Dame",3,"anmutig[a] Damen",1,0,1,1,0,"",3,False
 1007801,"grazil[a] Dame",3,"grazil[a] Damen",1,0,1,1,0,"",3,False
 1007802,"Yugiri",3,"NONE",1,0,0,1,1,"",3,False
@@ -7994,7 +7994,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1007990,"fidel[a] Knabe",8,"fidel[a] Knaben",1,0,1,0,0,"",3,False
 1007991,"heiter[a] Mädchen",4,"heiter[a] Mädchen",1,0,1,2,0,"",3,False
 1007992,"munter[a] Bursche",8,"munter[a] Burschen",1,0,1,0,0,"",3,False
-1007993,"Pmolminn",3,"NONE",1,0,0,1,1,"",3,False
+1007993,"P'molminn",3,"NONE",1,0,0,1,1,"",3,False
 1007994,"Sturmmariner",4,"Sturmmariner",2,0,1,0,0,"Fähre",3,True
 1007995,"Novizin",3,"Novizinnen",1,0,1,1,0,"Fähre",3,True
 1007996,"",0,"",0,0,1,0,0,"",4,False
@@ -38332,7 +38332,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038328,"",0,"",0,0,1,0,0,"",4,False
 1038329,"",0,"",0,0,1,0,0,"",4,False
 1038330,"",0,"",0,0,1,0,0,"",4,False
-1038331,"",0,"",0,0,0,0,0,"",0,False
+1038331,"",0,"",0,0,1,0,0,"",4,False
 1038332,"",0,"",0,0,0,0,0,"",0,False
 1038333,"",0,"",0,0,1,0,0,"",4,False
 1038334,"",0,"",0,0,1,0,0,"",4,False
@@ -44752,7 +44752,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1044748,"Godbert",3,"NONE",1,0,0,0,1,"",3,False
 1044749,"Brandihild",3,"NONE",1,0,0,0,1,"",3,False
 1044750,"",0,"",0,0,1,0,0,"",5,False
-1044751,"",0,"",0,0,0,0,0,"",0,False
+1044751,"Vanhudis Diener[p]",3,"NONE",1,0,0,0,1,"",3,False
 1044752,"Hildibrand",3,"NONE",1,0,0,0,1,"",3,False
 1044753,"",0,"",0,0,1,0,0,"",5,False
 1044754,"Delion",3,"NONE",1,0,0,0,1,"",3,False
@@ -44783,7 +44783,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1044779,"Nashu Mhakaracca",3,"NONE",1,0,0,1,1,"",3,False
 1044780,"Delion",3,"NONE",1,0,0,0,1,"",3,False
 1044781,"",0,"",0,0,1,0,0,"",5,False
-1044782,"",0,"",0,0,0,0,0,"",0,False
+1044782,"Koyo-Koyo",3,"NONE",1,0,0,0,1,"",3,False
 1044783,"Hildibrand",3,"NONE",1,0,0,0,1,"",3,False
 1044784,"Nashu Mhakaracca",3,"NONE",1,0,0,1,1,"",3,False
 1044785,"Delion",3,"NONE",1,0,0,0,1,"",3,False
@@ -44816,30 +44816,30 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1044812,"Brandihild",3,"NONE",1,0,0,0,1,"",3,False
 1044813,"Koyo-Koyo",3,"NONE",1,0,0,0,1,"",3,False
 1044814,"",0,"",0,0,1,0,0,"",5,False
-1044815,"",0,"",0,0,0,0,0,"",0,False
-1044816,"",0,"",0,0,0,0,0,"",0,False
-1044817,"",0,"",0,0,0,0,0,"",0,False
-1044818,"",0,"",0,0,0,0,0,"",0,False
-1044819,"",0,"",0,0,0,0,0,"",0,False
-1044820,"",0,"",0,0,0,0,0,"",0,False
-1044821,"",0,"",0,0,0,0,0,"",0,False
-1044822,"",0,"",0,0,0,0,0,"",0,False
-1044823,"",0,"",0,0,0,0,0,"",0,False
-1044824,"",0,"",0,0,0,0,0,"",0,False
-1044825,"",0,"",0,0,0,0,0,"",0,False
-1044826,"",0,"",0,0,0,0,0,"",0,False
-1044827,"",0,"",0,0,0,0,0,"",0,False
-1044828,"",0,"",0,0,0,0,0,"",0,False
-1044829,"",0,"",0,0,0,0,0,"",0,False
-1044830,"",0,"",0,0,0,0,0,"",0,False
-1044831,"",0,"",0,0,0,0,0,"",0,False
-1044832,"",0,"",0,0,0,0,0,"",0,False
-1044833,"",0,"",0,0,0,0,0,"",0,False
-1044834,"",0,"",0,0,0,0,0,"",0,False
-1044835,"",0,"",0,0,0,0,0,"",0,False
-1044836,"",0,"",0,0,0,0,0,"",0,False
-1044837,"",0,"",0,0,0,0,0,"",0,False
-1044838,"",0,"",0,0,0,0,0,"",0,False
+1044815,"Hildibrand",3,"NONE",1,0,0,0,1,"",3,False
+1044816,"Nashu Mhakaracca",3,"NONE",1,0,0,1,1,"",3,False
+1044817,"Brandihild",3,"NONE",1,0,0,0,1,"",3,False
+1044818,"Koyo-Koyo",3,"NONE",1,0,0,0,1,"",3,False
+1044819,"",0,"",0,0,1,0,0,"",5,False
+1044820,"eifrig[a] Fischer",4,"eifrig[a] Fischer",2,0,1,0,0,"",3,False
+1044821,"desillusioniert[a] Bewohnerin",3,"desillusioniert[a] Bewohnerinnen",1,0,1,1,0,"",3,False
+1044822,"stramm[a] Händler",4,"stramm[a] Händler",2,0,1,0,0,"",3,False
+1044823,"",0,"",0,0,1,0,0,"",5,False
+1044824,"Hildibrand",3,"NONE",1,0,0,0,1,"",3,False
+1044825,"Nashu Mhakaracca",3,"NONE",1,0,0,1,1,"",3,False
+1044826,"Delion",3,"NONE",1,0,0,0,1,"",3,False
+1044827,"Brandihild",3,"NONE",1,0,0,0,1,"",3,False
+1044828,"Koyo-Koyo",3,"NONE",1,0,0,0,1,"",3,False
+1044829,"",0,"",0,0,1,0,0,"",5,False
+1044830,"Hildibrand",3,"NONE",1,0,0,0,1,"",3,False
+1044831,"Nashu Mhakaracca",3,"NONE",1,0,0,1,1,"",3,False
+1044832,"Delion",3,"NONE",1,0,0,0,1,"",3,False
+1044833,"Brandihild",3,"NONE",1,0,0,0,1,"",3,False
+1044834,"Koyo-Koyo",3,"NONE",1,0,0,0,1,"",3,False
+1044835,"Godbert",3,"NONE",1,0,0,0,1,"",3,False
+1044836,"Julyan",3,"NONE",1,0,0,1,1,"",3,False
+1044837,"",0,"",0,0,1,0,0,"",5,False
+1044838,"",0,"",0,0,1,0,0,"",5,False
 1044839,"",0,"",0,0,0,0,0,"",0,False
 1044840,"",0,"",0,0,0,0,0,"",0,False
 1044841,"",0,"",0,0,0,0,0,"",0,False
@@ -45158,16 +45158,16 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045154,"",0,"",0,0,1,0,0,"",4,False
 1045155,"Mehryde",3,"NONE",1,0,0,1,1,"",4,False
 1045156,"ratlos[a] Bürger",4,"ratlos[a] Bürger",2,0,1,0,0,"",4,False
-1045157,"",0,"",0,0,0,0,0,"",0,False
-1045158,"",0,"",0,0,0,0,0,"",0,False
-1045159,"",0,"",0,0,0,0,0,"",0,False
-1045160,"",0,"",0,0,0,0,0,"",0,False
-1045161,"",0,"",0,0,0,0,0,"",0,False
+1045157,"Wuk Lamat",3,"NONE",1,0,0,1,1,"",4,False
+1045158,"Krile",3,"NONE",1,0,0,1,1,"",4,False
+1045159,"",0,"",0,0,1,0,0,"",4,False
+1045160,"Riesen-Kolibri",4,"Riesen-Kolibris",1,0,1,0,0,"",4,False
+1045161,"Krile",3,"NONE",1,0,0,1,1,"",4,False
 1045162,"",0,"",0,0,1,0,0,"",4,False
 1045163,"",0,"",0,0,1,0,0,"",4,False
 1045164,"Procopius",3,"NONE",1,0,0,0,1,"",4,False
 1045165,"",0,"",0,0,0,0,0,"",0,False
-1045166,"",0,"",0,0,0,0,0,"",0,False
+1045166,"Rhetkympf",3,"NONE",1,0,0,0,1,"",4,False
 1045167,"neugierig[a] Mann",2,"neugierig[a] Männer",2,0,1,0,0,"",4,False
 1045168,"männlich[a] Arkasodara",4,"männlich[a] Arkasodara",1,0,1,0,0,"",4,False
 1045169,"Estinien",3,"NONE",1,0,0,0,1,"",4,False
@@ -45692,19 +45692,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045688,"Y'shtola",3,"NONE",1,0,0,1,1,"",3,False
 1045689,"Azdaja",3,"NONE",1,0,0,1,1,"",3,False
 1045690,"Ryne",3,"NONE",1,0,0,1,1,"",3,False
-1045691,"",0,"",0,0,0,0,0,"",0,False
-1045692,"",0,"",0,0,0,0,0,"",0,False
-1045693,"",0,"",0,0,0,0,0,"",0,False
-1045694,"",0,"",0,0,0,0,0,"",0,False
-1045695,"",0,"",0,0,0,0,0,"",0,False
-1045696,"",0,"",0,0,0,0,0,"",0,False
-1045697,"",0,"",0,0,0,0,0,"",0,False
-1045698,"",0,"",0,0,0,0,0,"",0,False
-1045699,"",0,"",0,0,0,0,0,"",0,False
-1045700,"",0,"",0,0,0,0,0,"",0,False
-1045701,"",0,"",0,0,0,0,0,"",0,False
-1045702,"",0,"",0,0,0,0,0,"",0,False
-1045703,"",0,"",0,0,0,0,0,"",0,False
+1045691,"Krile",3,"NONE",1,0,0,1,1,"",3,False
+1045692,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
+1045693,"Erenville",3,"NONE",1,0,0,0,1,"",3,False
+1045694,"Wuk Lamat",3,"NONE",1,0,0,1,1,"",3,False
+1045695,"Wuk Lamat",3,"NONE",1,0,0,1,1,"",3,False
+1045696,"Erenville",3,"NONE",1,0,0,0,1,"",3,False
+1045697,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
+1045698,"Krile",3,"NONE",1,0,0,1,1,"",3,False
+1045699,"Erenville",3,"NONE",1,0,0,0,1,"",3,False
+1045700,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
+1045701,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
+1045702,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
+1045703,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
 1045704,"Ringrichter[p] des Duellus Pikenius",4,"Ringrichter[p] des Duellus Pikenius",2,0,0,0,1,"",4,False
 1045705,"aufbrausend[a] Dame",3,"aufbrausend[a] Damen",1,0,1,1,0,"",4,False
 1045706,"",0,"",0,0,1,0,0,"",4,False
@@ -45719,7 +45719,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045715,"Royse",3,"NONE",1,0,0,1,1,"",3,False
 1045716,"Martyn",3,"NONE",1,0,0,0,1,"",3,False
 1045717,"P'yandih",3,"NONE",1,0,0,1,1,"",3,False
-1045718,"",0,"",0,0,0,0,0,"",0,False
+1045718,"",0,"",0,0,1,0,0,"",5,False
 1045719,"",0,"",0,0,1,0,0,"",4,False
 1045720,"",0,"",0,0,1,0,0,"",4,False
 1045721,"",0,"",0,0,1,0,0,"",4,False
@@ -45900,26 +45900,26 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045896,"",0,"",0,0,1,0,0,"",5,False
 1045897,"",0,"",0,0,1,0,0,"",5,False
 1045898,"",0,"",0,0,1,0,0,"",5,False
-1045899,"",0,"",0,0,0,0,0,"",0,False
-1045900,"",0,"",0,0,0,0,0,"",0,False
-1045901,"",0,"",0,0,0,0,0,"",0,False
-1045902,"",0,"",0,0,0,0,0,"",0,False
-1045903,"",0,"",0,0,0,0,0,"",0,False
-1045904,"",0,"",0,0,0,0,0,"",0,False
-1045905,"",0,"",0,0,0,0,0,"",0,False
-1045906,"",0,"",0,0,0,0,0,"",0,False
-1045907,"",0,"",0,0,0,0,0,"",0,False
-1045908,"",0,"",0,0,0,0,0,"",0,False
-1045909,"",0,"",0,0,0,0,0,"",0,False
-1045910,"",0,"",0,0,0,0,0,"",0,False
-1045911,"",0,"",0,0,0,0,0,"",0,False
-1045912,"",0,"",0,0,0,0,0,"",0,False
-1045913,"",0,"",0,0,0,0,0,"",0,False
-1045914,"",0,"",0,0,0,0,0,"",0,False
-1045915,"",0,"",0,0,0,0,0,"",0,False
-1045916,"",0,"",0,0,0,0,0,"",0,False
-1045917,"",0,"",0,0,0,0,0,"",0,False
-1045918,"",0,"",0,0,0,0,0,"",0,False
+1045899,"Jammingway",3,"NONE",1,0,0,0,1,"",3,False
+1045900,"Jammingway",3,"NONE",1,0,0,0,1,"",3,False
+1045901,"Jammingway",3,"NONE",1,0,0,0,1,"",3,False
+1045902,"Acala",3,"NONE",1,0,0,0,1,"",3,False
+1045903,"Dreamingway",3,"NONE",1,0,0,0,1,"",3,False
+1045904,"N-7000",3,"NONE",1,0,0,0,1,"",3,False
+1045905,"Inventingway",3,"NONE",1,0,0,0,1,"",3,False
+1045906,"",0,"",0,0,1,0,0,"",5,False
+1045907,"Trna",3,"NONE",1,0,0,1,1,"",3,False
+1045908,"Acala",3,"NONE",1,0,0,0,1,"",3,False
+1045909,"ヒッポカート_01",0,"",0,0,1,0,0,"",5,False
+1045910,"ヒッポカート_02",0,"",0,0,1,0,0,"",5,False
+1045911,"Trna",3,"NONE",1,0,0,1,1,"",3,False
+1045912,"Acala",3,"NONE",1,0,0,0,1,"",3,False
+1045913,"Acala",3,"NONE",1,0,0,0,1,"",3,False
+1045914,"Jammingway",3,"NONE",1,0,0,0,1,"",3,False
+1045915,"Ogul",3,"NONE",1,0,0,1,1,"",3,False
+1045916,"",0,"",0,0,1,0,0,"",5,False
+1045917,"studentisch[a] Zuhörer",4,"studentisch[a] Zuhörer",2,0,1,0,0,"",3,False
+1045918,"",0,"",0,0,1,0,0,"",5,False
 1045919,"Y'shtola",3,"NONE",1,0,0,1,1,"",3,False
 1045920,"Zero",3,"NONE",1,0,0,1,1,"",3,False
 1045921,"Urianger",3,"NONE",1,0,0,0,1,"",3,False
@@ -45927,10 +45927,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045923,"Nidhana",3,"NONE",1,0,0,1,1,"",3,False
 1045924,"Kalika",3,"NONE",1,0,0,0,1,"",3,False
 1045925,"Kapitänin",3,"Kapitäninnen",1,0,1,1,0,"Unstetes Gewölbe",3,True
-1045926,"",0,"",0,0,0,0,0,"",0,False
-1045927,"",0,"",0,0,0,0,0,"",0,False
-1045928,"",0,"",0,0,0,0,0,"",0,False
-1045929,"",0,"",0,0,0,0,0,"",0,False
+1045926,"",0,"",0,0,1,0,0,"",4,False
+1045927,"",0,"",0,0,1,0,0,"",4,False
+1045928,"",0,"",0,0,1,0,0,"",4,False
+1045929,"",0,"",0,0,1,0,0,"",4,False
 1045930,"Pasasun",3,"NONE",1,0,0,0,1,"",4,False
 1045931,"Kalika",3,"NONE",1,0,0,0,1,"",4,False
 1045932,"tapfer[a] Soldat[p] des Himmelsheers",4,"tapfer[a] Soldaten[p] des Himmelsheers",1,0,1,0,0,"",4,False
@@ -45953,8 +45953,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045949,"Yugiri",3,"NONE",1,0,0,1,1,"",3,False
 1045950,"",0,"",0,0,1,0,0,"",5,False
 1045951,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
-1045952,"",0,"",0,0,0,0,0,"",0,False
-1045953,"",0,"",0,0,0,0,0,"",0,False
+1045952,"auftraggebend[a] Forscherin",3,"auftraggebend[a] Forscherinnen",1,0,1,1,0,"",2,False
+1045953,"nachdenklich[a] Forscher",4,"nachdenklich[a] Forscher",2,0,1,0,0,"",2,False
 1045954,"",0,"",0,0,1,0,0,"",3,False
 1045955,"",0,"",0,0,1,0,0,"",2,False
 1045956,"",0,"",0,0,1,0,0,"",2,False
@@ -46001,36 +46001,36 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1045997,"Opo-Opo-Jungtier",4,"Opo-Opo-Jungtiere",2,0,1,2,0,"",3,False
 1045998,"Deryk",3,"NONE",1,0,0,0,1,"",3,False
 1045999,"Opo-Opo-Jungtier",4,"Opo-Opo-Jungtiere",2,0,1,2,0,"",3,False
-1046000,"",0,"",0,0,0,0,0,"",0,False
+1046000,"",0,"",0,0,1,0,0,"",4,False
 1046001,"Stadtwache",3,"Stadtwachen",1,0,1,1,0,"",4,False
-1046002,"",0,"",0,0,0,0,0,"",0,False
-1046003,"",0,"",0,0,0,0,0,"",0,False
+1046002,"依頼主の研究者",0,"",0,0,1,0,0,"",4,False
+1046003,"調査中の研究者",0,"",0,0,1,0,0,"",4,False
 1046004,"",0,"",0,0,0,0,0,"",0,False
 1046005,"",0,"",0,0,0,0,0,"",0,False
-1046006,"",0,"",0,0,0,0,0,"",0,False
-1046007,"",0,"",0,0,0,0,0,"",0,False
-1046008,"",0,"",0,0,0,0,0,"",0,False
+1046006,"Wachsoldatin[p] des Himmelsheers",3,"Wachsoldatinnen[p] des Himmelsheeres",1,0,1,1,0,"",4,False
+1046007,"Freund",3,"NONE",1,0,0,0,1,"",4,False
+1046008,"rothaarig[a] Fischer",4,"rothaarig[a] Fischer",1,0,1,0,0,"",4,False
 1046009,"Althyk",3,"NONE",1,0,0,0,1,"",4,False
 1046010,"Halone",3,"NONE",1,0,0,1,1,"",4,False
 1046011,"",0,"",0,0,1,0,0,"",4,False
 1046012,"ルビカンテ",0,"",0,0,1,0,0,"",4,False
 1046013,"闇のメモリア使い",0,"",0,0,1,0,0,"",4,False
 1046014,"Rhalgr",3,"NONE",1,0,0,0,1,"",4,False
-1046015,"",0,"",0,0,0,0,0,"",0,False
+1046015,"Hasdahd",3,"NONE",1,0,0,0,1,"",4,False
 1046016,"",0,"",0,0,1,0,0,"",4,False
 1046017,"",0,"",0,0,0,0,0,"",0,False
-1046018,"",0,"",0,0,0,0,0,"",0,False
+1046018,"Verkäuferin[p] der Mandervilles",3,"Verkäuferinnen[p] der Mandervilles",1,0,1,1,0,"",4,False
 1046019,"Byregot",3,"NONE",1,0,0,0,1,"",4,False
-1046020,"",0,"",0,0,0,0,0,"",0,False
-1046021,"",0,"",0,0,0,0,0,"",0,False
-1046022,"",0,"",0,0,0,0,0,"",0,False
-1046023,"",0,"",0,0,0,0,0,"",0,False
+1046020,"",0,"",0,0,1,0,0,"",4,False
+1046021,"Erenville",3,"NONE",1,0,0,0,1,"",4,False
+1046022,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",4,False
+1046023,"Varsarudh",3,"NONE",1,0,0,1,1,"",4,False
 1046024,"",0,"",0,0,1,0,0,"",4,False
-1046025,"",0,"",0,0,0,0,0,"",0,False
-1046026,"",0,"",0,0,0,0,0,"",0,False
-1046027,"",0,"",0,0,0,0,0,"",0,False
-1046028,"",0,"",0,0,0,0,0,"",0,False
-1046029,"",0,"",0,0,0,0,0,"",0,False
+1046025,"Ogul",3,"NONE",1,0,0,1,1,"",3,False
+1046026,"Ogul",3,"NONE",1,0,0,1,1,"",3,False
+1046027,"Inventingway",3,"NONE",1,0,0,0,1,"",3,False
+1046028,"Talkingway",3,"NONE",1,0,0,0,1,"",3,False
+1046029,"Trna",3,"NONE",1,0,0,1,1,"",3,False
 1046030,"",0,"",0,0,0,0,0,"",0,False
 1046031,"",0,"",0,0,1,0,0,"",3,False
 1046032,"Singingway",3,"NONE",1,0,0,0,1,"",3,False
@@ -46041,9 +46041,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046037,"Unterstützungssystem",4,"Unterstützungssysteme",2,0,1,2,0,"",3,False
 1046038,"Singingway",3,"NONE",1,0,0,0,1,"",3,False
 1046039,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
-1046040,"",0,"",0,0,0,0,0,"",0,False
-1046041,"",0,"",0,0,0,0,0,"",0,False
-1046042,"",0,"",0,0,0,0,0,"",0,False
+1046040,"Ogul",3,"NONE",1,0,0,1,1,"",3,False
+1046041,"Dreamingway",3,"NONE",1,0,0,0,1,"",3,False
+1046042,"",0,"",0,0,1,0,0,"",5,False
 1046043,"",0,"",0,0,0,0,0,"",0,False
 1046044,"",0,"",0,0,0,0,0,"",0,False
 1046045,"",0,"",0,0,0,0,0,"",0,False
@@ -46063,17 +46063,17 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046059,"",0,"",0,0,0,0,0,"",0,False
 1046060,"Pfirsina",3,"NONE",1,0,0,1,1,"",3,False
 1046061,"Alisaie",3,"NONE",1,0,0,1,1,"",3,False
-1046062,"",0,"",0,0,0,0,0,"",0,False
-1046063,"",0,"",0,0,0,0,0,"",0,False
-1046064,"",0,"",0,0,0,0,0,"",0,False
-1046065,"",0,"",0,0,0,0,0,"",0,False
+1046062,"",0,"",0,0,1,0,0,"",5,False
+1046063,"",0,"",0,0,1,0,0,"",5,False
+1046064,"Erenville",3,"NONE",1,0,0,0,1,"",3,False
+1046065,"Wuk Lamat",3,"NONE",1,0,0,1,1,"",3,False
 1046066,"",0,"",0,0,1,0,0,"",2,False
 1046067,"",0,"",0,0,1,0,0,"",2,False
 1046068,"",0,"",0,0,1,0,0,"",2,False
 1046069,"",0,"",0,0,1,0,0,"",2,False
-1046070,"",0,"",0,0,0,0,0,"",0,False
-1046071,"",0,"",0,0,0,0,0,"",0,False
-1046072,"",0,"",0,0,0,0,0,"",0,False
+1046070,"Alphinaud",3,"NONE",1,0,0,0,1,"",3,False
+1046071,"Alisaie",3,"NONE",1,0,0,1,1,"",3,False
+1046072,"Krile",3,"NONE",1,0,0,1,1,"",3,False
 1046073,"Margrat",3,"NONE",1,0,0,1,1,"",3,False
 1046074,"",0,"",0,0,1,0,0,"",5,False
 1046075,"",0,"",0,0,1,0,0,"",5,False
@@ -46084,8 +46084,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046080,"",0,"",0,0,1,0,0,"",5,False
 1046081,"",0,"",0,0,1,0,0,"",5,False
 1046082,"",0,"",0,0,0,0,0,"",0,False
-1046083,"",0,"",0,0,0,0,0,"",0,False
-1046084,"",0,"",0,0,0,0,0,"",0,False
+1046083,"",0,"",0,0,1,0,0,"",5,False
+1046084,"",0,"",0,0,1,0,0,"",5,False
 1046085,"Erkundigunde",3,"NONE",1,0,0,1,1,"",3,False
 1046086,"Erkundigunde",3,"NONE",1,0,0,1,1,"",3,False
 1046087,"Bote[p] des königlichen Dieners",8,"Boten[p] des königlichen Dieners",1,0,1,0,0,"",3,True
@@ -46137,15 +46137,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046133,"Gabineaux",3,"NONE",1,0,0,0,1,"",3,False
 1046134,"",0,"",0,0,1,0,0,"",5,False
 1046135,"",0,"",0,0,1,0,0,"",5,False
-1046136,"",0,"",0,0,0,0,0,"",0,False
-1046137,"",0,"",0,0,0,0,0,"",0,False
-1046138,"",0,"",0,0,0,0,0,"",0,False
-1046139,"",0,"",0,0,0,0,0,"",0,False
-1046140,"",0,"",0,0,0,0,0,"",0,False
-1046141,"",0,"",0,0,0,0,0,"",0,False
-1046142,"",0,"",0,0,0,0,0,"",0,False
-1046143,"",0,"",0,0,0,0,0,"",0,False
-1046144,"",0,"",0,0,0,0,0,"",0,False
+1046136,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",3,False
+1046137,"Hasdahd",3,"NONE",1,0,0,0,1,"",3,False
+1046138,"Hasdahd",3,"NONE",1,0,0,0,1,"",3,False
+1046139,"Hasdahd",3,"NONE",1,0,0,0,1,"",3,False
+1046140,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",3,False
+1046141,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",3,False
+1046142,"Hasdahd",3,"NONE",1,0,0,0,1,"",3,False
+1046143,"Hasdahd",3,"NONE",1,0,0,0,1,"",3,False
+1046144,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",3,False
 1046145,"Astrid",3,"NONE",1,0,0,1,1,"",3,False
 1046146,"Emilie",3,"NONE",1,0,0,1,1,"",3,False
 1046147,"Lisette von Valention",3,"NONE",1,0,0,1,1,"",3,False
@@ -46196,22 +46196,22 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046192,"",0,"",0,0,1,0,0,"",4,False
 1046193,"",0,"",0,0,1,0,0,"",4,False
 1046194,"Quevain",3,"NONE",1,0,0,0,1,"",4,False
-1046195,"",0,"",0,0,0,0,0,"",0,False
-1046196,"",0,"",0,0,0,0,0,"",0,False
-1046197,"",0,"",0,0,0,0,0,"",0,False
-1046198,"",0,"",0,0,0,0,0,"",0,False
-1046199,"",0,"",0,0,0,0,0,"",0,False
-1046200,"",0,"",0,0,0,0,0,"",0,False
-1046201,"",0,"",0,0,0,0,0,"",0,False
+1046195,"Jullus",3,"NONE",1,0,0,0,1,"",4,False
+1046196,"",0,"",0,0,1,0,0,"",4,False
+1046197,"aufgeregt[a] Soldat",6,"aufgeregt[a] Soldaten",1,0,1,0,0,"",4,False
+1046198,"ausgelassen[a] Soldatin",3,"ausgelassen[a] Soldatinnen",1,0,1,1,0,"",4,False
+1046199,"Jullus",3,"NONE",1,0,0,0,1,"",4,False
+1046200,"",0,"",0,0,1,0,0,"",4,False
+1046201,"",0,"",0,0,1,0,0,"",5,False
 1046202,"Cid",3,"NONE",1,0,0,0,1,"",3,False
-1046203,"",0,"",0,0,0,0,0,"",0,False
-1046204,"",0,"",0,0,0,0,0,"",0,False
+1046203,"Hasdahd",3,"NONE",1,0,0,0,1,"",3,False
+1046204,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",3,False
 1046205,"",0,"",0,0,1,0,0,"",5,True
 1046206,"",0,"",0,0,1,0,0,"",5,False
 1046207,"",0,"",0,0,1,0,0,"",5,False
 1046208,"Y'shtola",3,"NONE",1,0,0,1,1,"",3,False
 1046209,"Estinien",3,"NONE",1,0,0,0,1,"",3,False
-1046210,"",0,"",0,0,0,0,0,"",0,False
+1046210,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
 1046211,"",0,"",0,0,1,0,0,"",5,False
 1046212,"",0,"",0,0,1,0,0,"",5,False
 1046213,"Hamlyn",3,"NONE",1,0,0,0,1,"",3,False
@@ -46222,7 +46222,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046218,"Wilfsunn",3,"NONE",1,0,0,0,1,"",3,False
 1046219,"Bloewyda",3,"NONE",1,0,0,1,1,"",3,False
 1046220,"Tataru",3,"NONE",1,0,0,1,1,"",3,False
-1046221,"",0,"",0,0,0,0,0,"",0,False
+1046221,"Tataru",3,"NONE",1,0,0,1,1,"",3,False
 1046222,"Schrubbastian",3,"NONE",1,0,0,0,1,"",3,False
 1046223,"Bloewyda",3,"NONE",1,0,0,1,1,"",3,False
 1046224,"Wilfsunn",3,"NONE",1,0,0,0,1,"",3,False
@@ -46251,10 +46251,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046247,"",0,"",0,0,0,0,0,"",0,False
 1046248,"",0,"",0,0,0,0,0,"",0,False
 1046249,"Aldemund",3,"NONE",1,0,0,0,1,"",3,False
-1046250,"",0,"",0,0,0,0,0,"",0,False
-1046251,"",0,"",0,0,0,0,0,"",0,False
-1046252,"",0,"",0,0,0,0,0,"",0,False
-1046253,"",0,"",0,0,0,0,0,"",0,False
+1046250,"",0,"",0,0,1,0,0,"",4,False
+1046251,"",0,"",0,0,1,0,0,"",4,False
+1046252,"",0,"",0,0,1,0,0,"",4,False
+1046253,"stolz[a] Soldat",6,"stolz[a] Soldaten",1,0,1,0,0,"",4,False
 1046254,"Grenoldt",3,"Grenoldt",1,0,0,0,1,"",4,False
 1046255,"Mowen",3,"Mowen",1,0,0,1,1,"",4,False
 1046256,"Margrat",3,"NONE",1,0,0,1,1,"",4,False
@@ -46280,16 +46280,16 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046276,"",0,"",0,0,0,0,0,"",0,False
 1046277,"",0,"",0,0,0,0,0,"",0,False
 1046278,"",0,"",0,0,0,0,0,"",0,False
-1046279,"",0,"",0,0,0,0,0,"",0,False
-1046280,"",0,"",0,0,0,0,0,"",0,False
-1046281,"",0,"",0,0,0,0,0,"",0,False
-1046282,"",0,"",0,0,0,0,0,"",0,False
-1046283,"",0,"",0,0,0,0,0,"",0,False
-1046284,"",0,"",0,0,0,0,0,"",0,False
-1046285,"",0,"",0,0,0,0,0,"",0,False
-1046286,"",0,"",0,0,0,0,0,"",0,False
-1046287,"",0,"",0,0,0,0,0,"",0,False
-1046288,"",0,"",0,0,0,0,0,"",0,False
+1046279,"aufgeregt[a] Soldat",6,"aufgeregt[a] Soldaten",1,0,1,0,0,"",3,False
+1046280,"",0,"",0,0,1,0,0,"",5,False
+1046281,"Jullus",3,"NONE",1,0,0,0,1,"",3,False
+1046282,"",0,"",0,0,1,0,0,"",5,False
+1046283,"",0,"",0,0,1,0,0,"",5,False
+1046284,"Jullus",3,"NONE",1,0,0,0,1,"",3,False
+1046285,"",0,"",0,0,1,0,0,"",5,False
+1046286,"",0,"",0,0,1,0,0,"",5,False
+1046287,"",0,"",0,0,1,0,0,"",5,False
+1046288,"",0,"",0,0,1,0,0,"",5,False
 1046289,"",0,"",0,0,0,0,0,"",0,False
 1046290,"",0,"",0,0,0,0,0,"",0,False
 1046291,"",0,"",0,0,0,0,0,"",0,False
@@ -46329,10 +46329,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046325,"",0,"",0,0,1,0,0,"",5,False
 1046326,"Gelbschnabel-Flusskobold",4,"Gelbschnabel-Flusskobolde",2,0,1,0,0,"",3,False
 1046327,"",0,"",0,0,1,0,0,"",5,False
-1046328,"",0,"",0,0,0,0,0,"",0,False
+1046328,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",3,False
 1046329,"",0,"",0,0,0,0,0,"",0,False
 1046330,"erfahren[a] Abenteurer",4,"erfahren[a] Abenteurer",2,0,1,0,0,"",3,True
-1046331,"erfahren[a] Abenteurer",4,"erfahren[a] Abenteurer",2,0,1,0,0,"",3,True
+1046331,"erfahren[a] Abenteurerin",3,"erfahren[a] Abenteurerinnen",1,0,1,1,0,"",3,True
 1046332,"erfahren[a] Abenteurer",4,"erfahren[a] Abenteurer",2,0,1,0,0,"",3,True
 1046333,"",0,"",0,0,0,0,0,"",0,False
 1046334,"",0,"",0,0,0,0,0,"",0,False
@@ -46430,8 +46430,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046426,"",0,"",0,0,0,0,0,"",0,False
 1046427,"",0,"",0,0,0,0,0,"",0,False
 1046428,"",0,"",0,0,0,0,0,"",0,False
-1046429,"",0,"",0,0,0,0,0,"",0,False
-1046430,"",0,"",0,0,0,0,0,"",0,False
+1046429,"Mehdjina",3,"Mehdjina",1,0,0,1,1,"",4,False
+1046430,"Hasdahd",3,"NONE",1,0,0,0,1,"",4,False
 1046431,"Zeromus",3,"NONE",1,0,1,0,0,"",4,False
 1046432,"",0,"",0,0,1,0,0,"",4,False
 1046433,"バルバリシア",0,"",0,0,1,0,0,"",4,False
@@ -46439,7 +46439,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046435,"Pfirsina",3,"NONE",1,0,0,1,1,"",4,False
 1046436,"",0,"",0,0,0,0,0,"",0,False
 1046437,"",0,"",0,0,0,0,0,"",0,False
-1046438,"",0,"",0,0,0,0,0,"",0,False
+1046438,"Tataru",3,"NONE",1,0,0,1,1,"",3,False
 1046439,"Rezeptionistin",3,"Rezeptionistinnen",1,0,1,1,0,"Stolperville",3,True
 1046440,"Planungs-Beauftragt[a]",3,"Planungs-Beauftragt[a]",1,0,1,0,0,"Stolperville",3,True
 1046441,"Gold Saucer-Dienerin",3,"Gold Saucer-Dienerin",1,0,1,1,0,"Gewinne",3,True
@@ -49576,16 +49576,16 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049572,"",0,"",0,0,0,0,0,"",0,False
 1049573,"",0,"",0,0,0,0,0,"",0,False
 1049574,"",0,"",0,0,0,0,0,"",0,False
-1049575,"",0,"",0,0,0,0,0,"",0,False
-1049576,"",0,"",0,0,0,0,0,"",0,False
-1049577,"",0,"",0,0,0,0,0,"",0,False
-1049578,"",0,"",0,0,0,0,0,"",0,False
-1049579,"",0,"",0,0,0,0,0,"",0,False
-1049580,"",0,"",0,0,0,0,0,"",0,False
-1049581,"",0,"",0,0,0,0,0,"",0,False
-1049582,"",0,"",0,0,0,0,0,"",0,False
-1049583,"",0,"",0,0,0,0,0,"",0,False
-1049584,"",0,"",0,0,0,0,0,"",0,False
+1049575,"",0,"",0,0,1,0,0,"",6,False
+1049576,"",0,"",0,0,1,0,0,"",6,False
+1049577,"",0,"",0,0,1,0,0,"",6,False
+1049578,"",0,"",0,0,1,0,0,"",5,False
+1049579,"",0,"",0,0,1,0,0,"",6,False
+1049580,"",0,"",0,0,1,0,0,"",6,False
+1049581,"",0,"",0,0,1,0,0,"",6,False
+1049582,"",0,"",0,0,1,0,0,"",6,False
+1049583,"",0,"",0,0,1,0,0,"",6,False
+1049584,"",0,"",0,0,1,0,0,"",6,False
 1049585,"",0,"",0,0,1,0,0,"",5,False
 1049586,"",0,"",0,0,0,0,0,"",0,False
 1049587,"",0,"",0,0,0,0,0,"",0,False

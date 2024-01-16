@@ -4453,7 +4453,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4425,"Dalu Dilumu",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dalu Dilumu</Case><Case(2)>in Dalu Dilumu</Case><Case(3)>Dalu Dilumu</Case></Switch>",0,0,0
 4426,"Dalu Kurupe",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dalu Kurupe</Case><Case(2)>in Dalu Kurupe</Case><Case(3)>Dalu Kurupe</Case></Switch>",0,0,0
 4427,"Dalo Nokosero",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Dalu Nokosero</Case><Case(2)>in Dalu Nokosero</Case><Case(3)>Dalu Nokosero</Case></Switch>",0,0,0
-4428,"",0,"",0,0,0,0,0,"",0,0,0
+4428,"Haam-For<SoftHyphen/>schungs<SoftHyphen/>labor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haam-For<SoftHyphen/>schungs<SoftHyphen/>labor</Case><Case(2)>im Haam-For<SoftHyphen/>schungs<SoftHyphen/>labor</Case><Case(3)>das Haam-For<SoftHyphen/>schungs<SoftHyphen/>labor</Case></Switch>",0,0,0
 4429,"Saibai-Höhle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Saibai-Höhle</Case><Case(2)>in der Saibai-Höhle</Case><Case(3)>die Saibai-Höhle</Case></Switch>",0,1,0
 4430,"Bronzesee (Nordwesten)",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Bronzesee =Nordwesten</Case><Case(2)>am Bronzesee =Nordwesten</Case><Case(3)>der Bronzesee =Nordwesten</Case></Switch>",0,1,0
 4431,"Monduntergrund",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Monduntergrund</Case><Case(2)>im Monduntergrund</Case><Case(3)>der Monduntergrund</Case></Switch>",0,0,0

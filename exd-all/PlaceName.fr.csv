@@ -4495,7 +4495,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4425,"Dalu Dilumu",0,"Dalu Dilumu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Dalu Dilumu</Case><Case(2)>à Dalu Dilumu</Case><Case(3)>de Dalu Dilumu</Case></Switch>",0,0,0
 4426,"Dalu Qurupe",0,"Dalu Qurupe",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Dalu Qurupe</Case><Case(2)>à Dalu Qurupe</Case><Case(3)>de Dalu Qurupe</Case></Switch>",0,0,0
 4427,"Dalu Nokosero",0,"Dalu Nokosero",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Dalu Nokosero</Case><Case(2)>à Dalu Nokosero</Case><Case(3)>de Dalu Nokosero</Case></Switch>",0,0,0
-4428,"",0,"",0,0,0,0,0,"",0,0,0
+4428,"●ハーム島研究施設前",0,"",0,0,1,0,0,"",0,0,0
 4429,"Alentours de la grotte de Saibai",0,"Alentours de la grotte de Saibai",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les alentours de la grotte de Saibai</Case><Case(2)>aux alentours de la grotte de Saibai</Case><Case(3)>des alentours de la grotte de Saibai</Case></Switch>",0,1,0
 4430,"Fond du lac d'Airin (nord-ouest)",0,"Fond du lac d'Airin (nord-ouest)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fond du lac d'Airin =nord-ouest</Case><Case(2)>au fond du lac d'Airin =nord-ouest</Case><Case(3)>du fond du lac d'Airin =nord-ouest</Case></Switch>",0,1,0
 4431,"Souterrain lunaire",0,"Souterrain lunaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Souterrain lunaire</Case><Case(2)>au Souterrain lunaire</Case><Case(3)>du Souterrain lunaire</Case></Switch>",0,0,0

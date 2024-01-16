@@ -702,19 +702,19 @@ int32,str,str,bit&01,uint16
 698,"Force de la nature","Force de la nature",False,1761
 699,"Dévoué à la science","Dévouée à la science",False,1762
 700,"Plein de ressources","Pleine de ressources",False,1763
-701,"","",False,0
+701,"Le manderveilleux","La manderveilleuse",False,1764
 702,"Pioche passionnée","Pioche passionnée",False,1765
 703,"Hachette ardente","Hachette ardente",False,1766
 704,"Appât acharné","Appât acharné",False,1767
-705,"","",False,0
-706,"","",False,0
+705,"Arpenteur des vagues","Arpenteuse des vagues",False,1768
+706,"L'ultime pêcheur","L'ultime pêcheuse",False,1769
 707,"Amasseur d'assignats azur","Amasseuse d'assignats azur",False,1770
 708,"Haricot-roi","Haricot-reine",False,1771
 709,"Béni des Dieux","Bénie des Dieux",False,1772
 710,"","",False,0
 711,"Apocryphe de Bahamut","Apocryphe de Bahamut",False,1774
 712,"Nitescence nouvelle","Nitescence nouvelle",False,1775
-713,"","",False,0
+713,"Pérégrin vers l'ouest","Pérégrine vers l'ouest",False,1776
 714,"Légende conflictuelle","Légende conflictuelle",False,1777
 715,"Histoire conflictuelle","Histoire conflictuelle",False,1778
 716,"Parcours conflictuel","Parcours conflictuel",False,1779

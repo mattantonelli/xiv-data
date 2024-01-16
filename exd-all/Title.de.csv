@@ -702,19 +702,19 @@ int32,str,str,bit&01,uint16
 698,"die Naturgewalt","die Naturgewalt",False,1761
 699,"Schlafloser Forscher","Schlaflose Forscherin",True,1762
 700,"der Tatkräftige","die Tatkräftige",False,1763
-701,"","",False,0
+701,"der Mandervillöse","die Mandervillöse",True,1764
 702,"des unnachgiebigen Hammers","des unnachgiebigen Hammers",False,1765
 703,"des scharfen Beils","des scharfen Beils",False,1766
 704,"des unwiderstehlichen Köders","des unwiderstehlichen Köders",False,1767
-705,"","",False,0
-706,"","",False,0
+705,"Wellenwanderer","Wellenwanderin",True,1768
+706,"Fänger des letzten Fischs","Fängerin des letzten Fischs",True,1769
 707,"Graf von Monte Kauri","Gräfin von Monte Kauri",True,1770
 708,"Bohnenkönig","Bohnenkönigin",True,1771
 709,"Von den Göttern umarmt","Von den Göttern umarmt",True,1772
 710,"","",False,0
 711,"Wyrmflüsterer","Wyrmflüsterin",True,1774
 712,"Wachsendes Licht","Wachsendes Licht",True,1775
-713,"","",False,0
+713,"Sonnenanbeter","Sonnenanbeterin",True,1776
 714,"vom finalen Konflikt","vom finalen Konflikt",False,1777
 715,"vom endlosen Konflikt","vom endlosen Konflikt",False,1778
 716,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1779
