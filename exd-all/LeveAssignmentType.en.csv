@@ -1,0 +1,22 @@
+﻿key,0,1,2
+#,IsFaction,Icon,Name
+int32,bit&01,Image,str
+0,False,,""
+1,False,"ui/icon/062000/062501.tex","Battlecraft"
+2,False,"ui/icon/062000/062510.tex","Miner"
+3,False,"ui/icon/062000/062511.tex","Botanist"
+4,False,"ui/icon/062000/062512.tex","Fisher"
+5,False,"ui/icon/062000/062502.tex","Carpenter"
+6,False,"ui/icon/062000/062503.tex","Blacksmith"
+7,False,"ui/icon/062000/062504.tex","Armorer"
+8,False,"ui/icon/062000/062505.tex","Goldsmith"
+9,False,"ui/icon/062000/062506.tex","Leatherworker"
+10,False,"ui/icon/062000/062507.tex","Weaver"
+11,False,"ui/icon/062000/062508.tex","Alchemist"
+12,False,"ui/icon/062000/062509.tex","Culinarian"
+13,True,"ui/icon/061000/061451.tex","Brotherhood of the Broken Blade"
+14,True,"ui/icon/061000/061452.tex","Azeyma's Shields"
+15,True,"ui/icon/061000/061453.tex","The Horn and Hand"
+16,False,"ui/icon/061000/061461.tex","The Maelstrom"
+17,False,"ui/icon/061000/061462.tex","Order of the Twin Adder"
+18,False,"ui/icon/061000/061463.tex","Immortal Flames"
