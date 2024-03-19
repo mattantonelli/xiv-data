@@ -3431,7 +3431,7 @@ d'argent ou supérieur.","34",30,10,"Silver Bearer / Silver Bearer","",255,255,0
 3406,"Gold Saucer","À moi la couronne III","Remporter le Blunderville 50 fois.","0",0,5," / ","",255,255,0,"ui/icon/056000/056611.tex",1,1,,,,,,,,,,1302,1,"AchievementHideCondition#0"
 3407,"Gold Saucer","À moi la couronne IV","Remporter le Blunderville 100 fois.","0",0,10,"Queen Bean / King Bean","",255,255,0,"ui/icon/056000/056611.tex",1,1,,,,,,,,,,1303,1,"AchievementHideCondition#0"
 3408,"Quests","Enfant béni des Dieux","Accomplir la quête “Éorzéa, terre bénie des Dieux”.","34",90,10,"Embraced by Gods / Embraced by Gods","",255,255,0,"ui/icon/026000/026002.tex",1,6,"Embraced by Gods",,,,,,,,,904,65,"AchievementHideCondition#0"
-3409,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
+3409,"Seasonal Events","L'étoile de Valisthéa","Accomplir la quête “Flammes primordiales”.","0",0,10,"Of the Twinned Star / Of the Twinned Star","",255,255,0,"ui/icon/042000/042995.tex",1,6,"The Path Infernal",,,,,,,,,550,1,"AchievementHideCondition#0"
 3410,"Quests","Le dernier coup de collier ?","Accomplir la quête “Longue vie à la Tarufacture<Indent/>!”.","0",0,10," / ","",255,255,0,"ui/icon/026000/026002.tex",1,6,"More Precious than Gil",,,,,,,,,702,1,"AchievementHideCondition#0"
 3411,"Tribal Quests","Les Fous volants","Accomplir la quête “La grande course aux confins de l'univers”.","34",90,20," / ","",255,255,0,"ui/icon/060000/060033.tex",1,6,"A Dream Worth Chasing",,,,,,,,,0,1,"AchievementHideCondition#0"
 3412,"Items","Cantate au clair de lune","Obtenir le cor Bahamut apocryphe.","34",90,20,"Wyrm Whisperer / Wyrm Whisperer","",255,255,0,"ui/icon/026000/026038.tex",1,6,"Wings of Hope",,,,,,,,,1275,1,"AchievementHideCondition#0"

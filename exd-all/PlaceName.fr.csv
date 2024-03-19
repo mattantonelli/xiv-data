@@ -4509,7 +4509,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4439,"Ville de Baron",0,"Ville de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la ville de Baron</Case><Case(2)>à la ville de Baron</Case><Case(3)>de la ville de Baron</Case></Switch>",0,0,0
 4440,"Château de Baron",0,"Château de Baron",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le château de Baron</Case><Case(2)>au château de Baron</Case><Case(3)>du château de Baron</Case></Switch>",0,0,0
 4441,"Cœur de la lune rouge",0,"Cœur de la lune rouge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cœur de la lune rouge</Case><Case(2)>au cœur de la lune rouge</Case><Case(3)>du cœur de la lune rouge</Case></Switch>",0,0,0
-4442,"",0,"",0,0,0,0,0,"",0,0,0
+4442,"Interstice du chant onirique",0,"Interstice du chant onirique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'interstice du chant onirique</Case><Case(2)>à l'interstice du chant onirique</Case><Case(3)>de l'interstice du chant onirique</Case></Switch>",0,0,0
 4443,"Domaine divin - Thalie",0,"Domaine divin - Thalie",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le domaine divin - Thalie</Case><Case(2)>au domaine divin - Thalie</Case><Case(3)>du domaine divin - Thalie</Case></Switch>",0,0,0
 4444,"Voûte de l'eau",0,"Voûte de l'eau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la voûte de l'eau</Case><Case(2)>à la voûte de l'eau</Case><Case(3)>de la voûte de l'eau</Case></Switch>",0,0,0
 4445,"Bassin de l'Érudit",0,"Bassin de l'Érudit",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bassin de l'Érudit</Case><Case(2)>au bassin de l'Érudit</Case><Case(3)>du bassin de l'Érudit</Case></Switch>",0,0,0

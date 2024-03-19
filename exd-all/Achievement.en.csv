@@ -3434,7 +3434,7 @@ int32,AchievementCategory,str,str,AchievementTarget,byte,byte,Title,Item,byte,by
 3406,"Gold Saucer","It's a Blunderful Life III","Place first in Blunderville 50 times.","0",0,5," / ","",255,255,0,"ui/icon/056000/056611.tex",1,1,,,,,,,,,,1302,1,"AchievementHideCondition#0"
 3407,"Gold Saucer","It's a Blunderful Life IV","Place first in Blunderville 100 times.","0",0,10,"Queen Bean / King Bean","",255,255,0,"ui/icon/056000/056611.tex",1,1,,,,,,,,,,1303,1,"AchievementHideCondition#0"
 3408,"Quests","For Eorzea, For Etheirys","Complete the quest “Embraced by Gods.”","34",90,10,"Embraced by Gods / Embraced by Gods","",255,255,0,"ui/icon/026000/026002.tex",1,6,"Embraced by Gods",,,,,,,,,904,65,"AchievementHideCondition#0"
-3409,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
+3409,"Seasonal Events","Found the Flame","Complete the quest “The Path Infernal.”","0",0,10,"Of the Twinned Star / Of the Twinned Star","",255,255,0,"ui/icon/042000/042995.tex",1,6,"The Path Infernal",,,,,,,,,550,1,"AchievementHideCondition#0"
 3410,"Quests","Big Dreams, Found Fortune","Complete the quest “More Precious than Gil.”","0",0,10," / ","",255,255,0,"ui/icon/026000/026002.tex",1,6,"More Precious than Gil",,,,,,,,,702,1,"AchievementHideCondition#0"
 3411,"Tribal Quests","Space Race","Complete the quest “A Dream Worth Chasing.”","34",90,20," / ","",255,255,0,"ui/icon/060000/060033.tex",1,6,"A Dream Worth Chasing",,,,,,,,,0,1,"AchievementHideCondition#0"
 3412,"Items","Dragon-sitting","Obtain an apocryphal Bahamut horn.","34",90,20,"Wyrm Whisperer / Wyrm Whisperer","",255,255,0,"ui/icon/026000/026038.tex",1,6,"Wings of Hope",,,,,,,,,1275,1,"AchievementHideCondition#0"

@@ -4467,7 +4467,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4439,"Baron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Baron</Case><Case(2)>in Baron</Case><Case(3)>Baron</Case></Switch>",0,0,0
 4440,"Schloss Baron",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Schloss Baron</Case><Case(2)>in Schloss Baron</Case><Case(3)>das Schloss Baron</Case></Switch>",0,0,0
 4441,"Tiefen des roten Mondes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Tiefen des roten Mondes</Case><Case(2)>in den Tiefen des roten Mondes</Case><Case(3)>die Tiefen des roten Mondes</Case></Switch>",0,0,0
-4442,"",0,"",0,0,0,0,0,"",0,0,0
+4442,"Lied der Flammen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lied der Flammen</Case><Case(2)>im Lied der Flammen</Case><Case(3)>das Lied der Flammen</Case></Switch>",0,0,0
 4443,"Thaleia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Thaleia</Case><Case(2)>in Thaleia</Case><Case(3)>Thaleia</Case></Switch>",0,0,0
 4444,"Himmel des Wassers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Himmel des Wassers</Case><Case(2)>im Himmel des Wassers</Case><Case(3)>der Himmel des Wassers</Case></Switch>",0,0,0
 4445,"Gelehrtenbecken",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Gelehrtenbecken</Case><Case(2)>im Gelehrtenbecken</Case><Case(3)>das Gelehrtenbecken</Case></Switch>",0,0,0

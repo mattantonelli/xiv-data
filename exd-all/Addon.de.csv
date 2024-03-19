@@ -11757,9 +11757,9 @@ Wirklich fortfahren?"
 Die Reise zwischen den Datenzentren erlaubt es dir, Welten außerhalb deines Datenzentrums zu besuchen und dort auf ihnen zu spielen. Zusätzlich zu den Bedingungen der gewöhnlichen Weltenreise gibt es für die Reise auf ein anderes Datenzentrum einige spezifische Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
 
 <UIForeground>F20202</UIForeground>Wichtige Hinweise<UIForeground>01</UIForeground>:
-- Andere Charaktere auf deiner Stammwelt können weder einloggen noch andere Funktionen nutzen, bis du von der Reise auf ein anderes Datenzentrum zurückgekehrt bist.
+- Andere Charaktere auf deiner Stammwelt können sich weder einloggen noch andere Funktionen nutzen, bis du von der Reise auf ein anderes Datenzentrum zurückgekehrt bist.
 - Charaktere, die sich auf einem anderen Datenzentrum befinden, können nicht direkt zu einem dritten Datenzentrum reisen. Sie müssen vorher auf ihre Stammwelt zurückkehren.
-- Wenn du auf einer anderen Welt ausloggst und dich innerhalb von 30 Tagen nicht abermals einloggst, wirst du automatisch auf deine Stammwelt zurückgebracht. Je nach Zeitpunkt deines letzten Logouts kann die Rückkehr allerdings auch erst nach mehr als 30 erfolgen.
+- Wenn du dich auf einer anderen Welt ausloggst und innerhalb von 30 Tagen nicht abermals einloggst, wirst du automatisch auf deine Stammwelt zurückgebracht. Je nach Zeitpunkt deines letzten Logouts kann die Rückkehr allerdings auch erst nach mehr als 30 erfolgen.
 
 <Else/></If><If(LessThan(IntegerParameter(1),2))><UIForeground>F20202</UIForeground>Weltenreise<UIForeground>01</UIForeground>:
 - <If(Equal(IntegerParameter(1),0))>Von deiner Stammwelt aus<Else/>Von deiner momentanen Welt aus</If> kannst du fremde Welten auf demselben Datenzentrum besuchen und dort wie gewohnt mit Freunden Gruppen bilden, Gegenstände einkaufen und alle Inhalte spielen.
@@ -11768,7 +11768,7 @@ Die Reise zwischen den Datenzentren erlaubt es dir, Welten außerhalb deines Dat
 - Abhängig von der Auslastung der Zielwelt dauert der Wechsel unter Umständen etwas länger.
 - Sobald alles für den Wechsel bereit ist, wird der Teleport durchgeführt. Dabei werden alle laufenden Aktionen abgebrochen.
 - Charaktere, die sich auf einem anderen Datenzentrum befinden, können nicht direkt zu einem dritten Datenzentrum reisen. Sie müssen vorher auf ihre Stammwelt zurückkehren.
-- Wenn du auf einer anderen Welt ausloggst und dich innerhalb von 30 Tagen nicht abermals einloggst, wirst du automatisch auf deine Stammwelt zurückgebracht. Je nach Zeitpunkt deines letzten Logouts kann die Rückkehr allerdings auch erst nach mehr als 30 erfolgen.
+- Wenn du dich auf einer anderen Welt ausloggst und innerhalb von 30 Tagen nicht abermals einloggst, wirst du automatisch auf deine Stammwelt zurückgebracht. Je nach Zeitpunkt deines letzten Logouts kann die Rückkehr allerdings auch erst nach mehr als 30 erfolgen.
 
 <Else/></If><UIForeground>F20202</UIForeground>Ein<SoftHyphen/>schrän<SoftHyphen/>kungen auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If><UIForeground>01</UIForeground>:
 - <If(Equal(IntegerParameter(1),1))>Du befindest dich momentan auf einem anderen Datenzentrum als das deiner Stammwelt. <Else/></If>Auf <If(GreaterThan(IntegerParameter(1),0))>fremden Datenzentren<Else/>fremden Welten</If> gelten folgende Ein<SoftHyphen/>schrän<SoftHyphen/>kungen.
@@ -11776,12 +11776,14 @@ Die Reise zwischen den Datenzentren erlaubt es dir, Welten außerhalb deines Dat
 <If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Freunde<UIForeground>01</UIForeground>:
 - Du kannst nicht mit Freunden sprechen, die sich auf einem anderen Datenzentrum befinden.
 - Du kannst keine Gruppe mit Freunden bilden, die sich auf einem anderen Datenzentrum befinden.
+- Du kannst den Login-Status von Freunden, die sich auf einem Datenzentrum in einer anderen Region befinden, nicht einsehen.
 
 <Else/></If><UIForeground>F20202</UIForeground>Freie Ge<SoftHyphen/>sell<SoftHyphen/>schaften<UIForeground>01</UIForeground>:
 - Besucher können keine Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaften gründen oder ihnen beitreten.
 - Die Informationen der eigenen Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft können nicht abgerufen werden.
 - Auf fremden Welten können keine Ge<SoftHyphen/>sell<SoftHyphen/>schaftstaler gesammelt werden.
 - Wenn der Meister der Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft länger als 35 Tage nicht auf der Stammwelt ist, werden die Rechte des Meisters automatisch auf ein anderes Mitglied übertragen.
+- Du kannst den Login-Status von Mitgliedern, die sich auf einem Datenzentrum in einer anderen Region befinden, nicht einsehen.
 
 <If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Welten-Kontaktkreise<UIForeground>01</UIForeground>:
 - Neue Welten-Kontaktkreise können nicht erstellt werden.

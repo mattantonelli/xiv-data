@@ -1820,7 +1820,7 @@ qui sera alors ajoutée au sous-menu."
 1803,"Réfléchir"
 1804,"Offre de téléportation"
 1805,"<Clickable(<Sheet(PlaceName,<Sheet(Aetheryte,IntegerParameter(1),8)/>,0)/>)/>"
-1806,"Se téléporter à l'éthérite la plus proche"
+1806,"Se téléporter à une éthérite à proximité"
 1807,"Amis"
 1808,"Objets bonus et optionnels"
 1809,"Maîtres de jeu"
@@ -11944,12 +11944,14 @@ Le niveau de fréquentation du Monde choisi au moment de confirmer votre demande
 <If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Liste d'amis<UIForeground>01</UIForeground>
 - Impossible de communiquer avec des amis se trouvant dans un autre centre de traitement de données
 - Impossible de former une équipe avec des amis se trouvant dans un autre centre de traitement de données
+- Impossible d'afficher les activités des amis se trouvant dans un autre centre de traitement de données
 
 <Else/></If><UIForeground>F20202</UIForeground>Compagnies libres<UIForeground>01</UIForeground>
 - Impossible d'en créer ou d'en rejoindre
 - Impossible de consulter les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions de sa compagnie libre
 - Impossible d'augmenter le nombre des crédits de compagnie grâce aux activités dans les Mondes visités
 - Statut de chef au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment cédé à un autre membre après 35 jours d'absence
+- Impossible d'afficher les activités des membres se trouvant dans un autre centre de traitement de données
 
 <If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Linkshells inter-Monde<UIForeground>01</UIForeground>
 - Impossible d'en créer de nouvelles
