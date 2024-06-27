@@ -38,7 +38,7 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 34,"Fisher","Crafting & Gathering",True,False,12
 35,"Quests","Quests",True,False,1
 36,"Levequests","Quests",True,False,4
-37,"Tribal Quests","Quests",True,False,5
+37,"Allied Society Quests","Quests",True,False,5
 38,"Seasonal Events","Quests",True,True,99
 39,"Sightseeing Log","Exploration",True,False,1
 40,"La Noscea","Exploration",True,False,2
@@ -80,3 +80,5 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 76,"Main Scenario","Quests",True,False,2
 77,"Job/Role Quests","Quests",True,False,3
 78,"Splendorous Tools","Items",True,False,52
+79,"Yok Tural","Exploration",True,False,14
+80,"Xak Tural","Exploration",True,False,15

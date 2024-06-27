@@ -451,7 +451,7 @@ Diese magische Barriere ist aus Wasseräther geformt. Sie schwächt eingehende S
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
 ","Ivon Coeurlfausts Spezialtechnik.
-Dieser Zauber imitiert die Blaster-Attacke von wilden Coeurl. Beim Ausführen wird eine Kugel konzentrierten Äthers mit einer Wucht nach vorne geschleudert, die selbst die standhaftesten Gegner umhaut.",4,"The Temple of the Fist",,,True,False,False,False,False,False,False,False,False,False,False,False
+Dieser Zauber imitiert die Blaster-Attacke von wilden Coeurl. Beim Ausführen wird eine Kugel konzentrierten Äthers mit einer Wucht nach vorne geschleudert, die selbst die standhaftesten Gegner umhaut.",4,"the Temple of the Fist",,,True,False,False,False,False,False,False,False,False,False,False,False
 91,91,"ui/icon/072000/072292.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>---
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★
@@ -562,7 +562,7 @@ Erzeugt mit der Hilfe von Äther des Elements Erde eine riesige Kugel aus Schlam
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Das Fegegeschick des Einsiedlers.
-Beschwört Besen zum Saubermachen herbei. Je mehr Dreck ein auf diese Weise beschworener Besen zu fegen bekommt, desto glücklicher wird er.",4,"The Grand Cosmos",,,True,True,False,False,False,False,False,False,False,False,False,False
+Beschwört Besen zum Saubermachen herbei. Je mehr Dreck ein auf diese Weise beschworener Besen zu fegen bekommt, desto glücklicher wird er.",4,"the Grand Cosmos",,,True,True,False,False,False,False,False,False,False,False,False,False
 113,113,"ui/icon/072000/072314.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Physisch/Hieb
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -572,7 +572,7 @@ In dem Original wird die durch den eingebauten Dynamo erzeugte Energie genutzt, 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
 ","Titanias Lieblingsrune.
-Basierend auf Runen, jener magischen Feensprache, wird Äther als Welle freigesetzt. Außerdem kann ein Phänomen beobachtet werden, welches dafür sorgt, dass ausgestoßener Äther des Zieles absorbiert wird.",4,"The Dancing Plague",,,True,True,False,False,False,False,False,False,False,False,False,False
+Basierend auf Runen, jener magischen Feensprache, wird Äther als Welle freigesetzt. Außerdem kann ein Phänomen beobachtet werden, welches dafür sorgt, dass ausgestoßener Äther des Zieles absorbiert wird.",4,"the Dancing Plague",,,True,True,False,False,False,False,False,False,False,False,False,False
 115,115,"ui/icon/072000/072316.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★
@@ -592,7 +592,7 @@ Was im Original als Angriffsmagie verwendet wird, wurde hier in das Gegenteil um
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Die Schwere der Innozenz.
-Eine Barrage aus herabfallenden Lanzen gleißenden Lichtes. Es wird gesagt, dass Lord Vauthry mit dieser Technik Sünden<SoftHyphen/>ver<SoftHyphen/>tilger zu Meol verarbeitete. Je öfter sie verwendet wird, desto näher kommt der Anwender der Allmächtigkeit. ",4,"The Crown of the Immaculate",,,True,False,False,False,False,False,False,False,False,False,False,False
+Eine Barrage aus herabfallenden Lanzen gleißenden Lichtes. Es wird gesagt, dass Lord Vauthry mit dieser Technik Sünden<SoftHyphen/>ver<SoftHyphen/>tilger zu Meol verarbeitete. Je öfter sie verwendet wird, desto näher kommt der Anwender der Allmächtigkeit. ",4,"the Crown of the Immaculate",,,True,False,False,False,False,False,False,False,False,False,False,False
 119,119,"ui/icon/072000/072320.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
@@ -607,7 +607,7 @@ Diese Magie lässt Süßigkeiten vom Himmel regnen, die ebenso süßen Schmerz v
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Feuer
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★
 ","Der ewige Schmerz des Lugus.
-Diese Flammen gehen erst aus, wenn nichts mehr von dem Ziel übrig ist. Bei der Entwicklung dieser Blaumagie wurde etwas an der Stärke der Flammen gedreht, um Stadtbrände zu vermeiden. Für ein kleines Lagerfeuer reicht es aber immer noch.",4,"The Grand Cosmos",,,True,False,False,False,False,False,False,False,False,False,False,False
+Diese Flammen gehen erst aus, wenn nichts mehr von dem Ziel übrig ist. Bei der Entwicklung dieser Blaumagie wurde etwas an der Stärke der Flammen gedreht, um Stadtbrände zu vermeiden. Für ein kleines Lagerfeuer reicht es aber immer noch.",4,"the Grand Cosmos",,,True,False,False,False,False,False,False,False,False,False,False,False
 122,122,"ui/icon/072000/072323.tex","<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Typus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Magie
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Wasser
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★★
@@ -622,4 +622,4 @@ Diese Magie wird weder durch das Sprechen eines Spruches noch durch Runen beschw
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Element: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Neutral
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rang: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>★★★★★
 ","Titanias Fluch und Segen.
-Die Verflechtung von mehreren Ebenen an Runen sorgt für einen Wirbel aus Magie. In der Feensprache wird „Sterblichkeit“ zwar hauptsächlich herabschauend verwendet, Mitleid und Mitgefühl für unsereins schwingen aber auch mit.",4,"The Dancing Plague",,,True,False,False,False,False,False,False,False,False,False,False,False
+Die Verflechtung von mehreren Ebenen an Runen sorgt für einen Wirbel aus Magie. In der Feensprache wird „Sterblichkeit“ zwar hauptsächlich herabschauend verwendet, Mitleid und Mitgefühl für unsereins schwingen aber auch mit.",4,"the Dancing Plague",,,True,False,False,False,False,False,False,False,False,False,False,False

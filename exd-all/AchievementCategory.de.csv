@@ -38,7 +38,7 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 34,"Fischer","Crafting & Gathering",True,False,12
 35,"Aufträge","Quests",True,False,1
 36,"Freibriefe","Quests",True,False,4
-37,"Stammesvölker","Quests",True,False,5
+37,"Freundesvölker","Quests",True,False,5
 38,"Saisonale Ereignisse","Quests",True,True,99
 39,"Eorzea Incognita","Exploration",True,False,1
 40,"La Noscea","Exploration",True,False,2
@@ -80,3 +80,5 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 76,"Hauptszenario","Quests",True,False,2
 77,"Job- und Rollenaufträge","Quests",True,False,3
 78,"Mowen-Werkzeuge","Items",True,False,52
+79,"Yok Tural","Exploration",True,False,14
+80,"Xak Tural","Exploration",True,False,15

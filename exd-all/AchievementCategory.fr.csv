@@ -38,7 +38,7 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 34,"Pêcheur","Crafting & Gathering",True,False,12
 35,"Général","Quests",True,False,1
 36,"Mandats","Quests",True,False,4
-37,"Quêtes tribales","Quests",True,False,5
+37,"Quêtes des peuples alliés","Quests",True,False,5
 38,"Événements saisonniers","Quests",True,True,99
 39,"Carnet d'exploration","Exploration",True,False,1
 40,"Noscea","Exploration",True,False,2
@@ -80,3 +80,5 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 76,"Épopée","Quests",True,False,2
 77,"Quêtes de job/rôle","Quests",True,False,3
 78,"Outils des merveilles","Items",True,False,52
+79,"Yok Tural","Exploration",True,False,14
+80,"Xak Tural","Exploration",True,False,15

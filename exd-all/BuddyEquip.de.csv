@@ -97,3 +97,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 93,"Miaurizius-Rossharnisch",4,"Miaurizius-Rossharnische",2,0,1,0,0,"Miaurizius-Rossharnisch",65624,65624,65624,"None","ui/icon/058000/058780.tex","ui/icon/058000/058782.tex","ui/icon/058000/058781.tex",78
 94,"Zeromus-Rossharnisch",4,"Zeromus-Rossharnische",2,0,1,0,0,"Zeromus-Rossharnisch",65625,65625,65625,"None","ui/icon/058000/058783.tex","ui/icon/058000/058785.tex","ui/icon/058000/058784.tex",157
 95,"Wanderer-Rossharnisch",4,"Wanderer-Rossharnische",2,0,1,0,0,"Wanderer-Rossharnisch",65626,65626,65626,"None","ui/icon/058000/058786.tex","ui/icon/058000/058788.tex","ui/icon/058000/058787.tex",79
+96,"turalisch[a] Rossharnisch",4,"turalisch[a] Rossharnische",2,0,1,0,0,"Turalischer Rossharnisch",65627,65627,65627,"None","ui/icon/058000/058789.tex","ui/icon/058000/058791.tex","ui/icon/058000/058790.tex",80
+97,"Valigarmanda-Rossharnisch",4,"Valigarmanda-Rossharnische",2,0,1,0,0,"Valigarmanda-Rossharnisch",65628,65628,65628,"None","ui/icon/058000/058792.tex","ui/icon/058000/058794.tex","ui/icon/058000/058793.tex",161
+98,"Elektrob-Rossharnisch",4,"Elektrob-Rossharnische",2,0,1,0,0,"Elektrob-Rossharnisch",65629,65629,65629,"None","ui/icon/058000/058795.tex","ui/icon/058000/058797.tex","ui/icon/058000/058796.tex",162
+99,"Wildnis-Rossharnisch",4,"Wildnis-Rossharnische",2,0,1,0,0,"Wildnis-Rossharnisch",65630,65630,65630,"None","ui/icon/058000/058798.tex","ui/icon/058000/058800.tex","ui/icon/058000/058799.tex",83
+100,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+101,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+102,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+103,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

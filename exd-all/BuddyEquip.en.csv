@@ -97,3 +97,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 93,"set of felicitous barding",0,"sets of felicitous barding",0,0,1,0,0,"Felicitous Barding",65624,65624,65624,"None","ui/icon/058000/058780.tex","ui/icon/058000/058782.tex","ui/icon/058000/058781.tex",78
 94,"set of abyssal barding",0,"sets of abyssal barding",0,0,1,0,0,"Abyssal Barding",65625,65625,65625,"None","ui/icon/058000/058783.tex","ui/icon/058000/058785.tex","ui/icon/058000/058784.tex",157
 95,"set of wayfarer's barding",0,"sets of wayfarer's barding",0,0,1,0,0,"Wayfarer's Barding",65626,65626,65626,"None","ui/icon/058000/058786.tex","ui/icon/058000/058788.tex","ui/icon/058000/058787.tex",79
+96,"set of Turali barding",0,"sets of Turali barding",0,0,1,0,0,"Turali Barding",65627,65627,65627,"None","ui/icon/058000/058789.tex","ui/icon/058000/058791.tex","ui/icon/058000/058790.tex",80
+97,"set of Skyruin barding",0,"sets of Skyruin barding",0,0,1,0,0,"Skyruin Barding",65628,65628,65628,"None","ui/icon/058000/058792.tex","ui/icon/058000/058794.tex","ui/icon/058000/058793.tex",161
+98,"set of electrope barding",0,"sets of electrope barding",0,0,1,0,0,"Electrope Barding",65629,65629,65629,"None","ui/icon/058000/058795.tex","ui/icon/058000/058797.tex","ui/icon/058000/058796.tex",162
+99,"set of wild ride barding",0,"sets of wild ride barding",0,0,1,0,0,"Wild Ride Barding",65630,65630,65630,"None","ui/icon/058000/058798.tex","ui/icon/058000/058800.tex","ui/icon/058000/058799.tex",83
+100,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+101,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+102,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+103,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

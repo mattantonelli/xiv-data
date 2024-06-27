@@ -374,10 +374,10 @@ version commerciale."
 364,"<If(Equal(IntegerParameter(1),0))>Activer<Else/>Désactiver</If> le mode de lecture automatique<Indent/>?
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* Utiliser <If(Equal(PlayerParameter(80),0))><If(Equal(PlayerParameter(78),3))>[espace]<Else/>[Espace]</If><Else/><CommandIcon(11)/></If> pour activer/désactiver.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-
-Pour les scènes non doublées, la vitesse de lecture peut être réglée avec les commandes suivantes.
+Commandes de réglage de la vitesse
+de lecture des dialogues non doublés<Indent/>:
   <Gui(6)/> <If(Equal(PlayerParameter(106),99))>BMD<Else/>Touches directionnelles</If>
-　<If(Equal(PlayerParameter(78),3))>[tab][shift + tab]<Else/>[Tab][Shift + Tab]</If>"
+  <If(Equal(PlayerParameter(78),3))>[tab][shift + tab]<Else/>[Tab][Shift + Tab]</If>"
 365,"Vous pouvez racheter les 10 derniers objets que vous avez vendus."
 366,"Au-delà de 10 objets, les plus anciens dis<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent de la liste."
 367,"La liste de rachat de l'échoppe est perdue après un changement de zone."
@@ -996,8 +996,8 @@ au marché."
 964,"(Introuvable)"
 965,"<CommandIcon(8)/><CommandIcon(10)/> Sous-menu  <CommandIcon(11)/> Ajouter"
 966,"<CommandIcon(8)/><CommandIcon(10)/> Sous-menu  <CommandIcon(11)/> Ajouter"
-967,"<Highlight>StringParameter(1)</Highlight>   [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>]"
-968,"<Highlight>StringParameter(1)</Highlight>   [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> Aucun objet en vente]"
+967,"<Highlight>StringParameter(1)</Highlight>   [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>]"
+968,"<Highlight>StringParameter(1)</Highlight>   [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> Aucun objet en vente]"
 969,"Taxe réduite de <Value>IntegerParameter(1)</Value>% jusqu'au <Time(IntegerParameter(2))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> à <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Indent/>!"
 970,"Tous"
 971,"Équipe"
@@ -1180,7 +1180,7 @@ Elle se déclenchera <If(Equal(IntegerParameter(4),1))>1 minute<Else/><Value>Int
 1140,"Butin"
 1141,":"
 1142,"???"
-1143,"<Value>IntegerParameter(1)</Value>,<Value>IntegerParameter(2)</Value>% <If(IntegerParameter(4))><Highlight>StringParameter(5)</Highlight><Else/></If><Highlight>StringParameter(3)</Highlight>"
+1143,"<If(GreaterThan(IntegerParameter(1),0))><ZeroPaddedValue(2)>IntegerParameter(1)</ZeroPaddedValue><Else/><Value>IntegerParameter(1)</Value></If>,<Value>IntegerParameter(2)</Value>% <If(IntegerParameter(4))><Highlight>StringParameter(5)</Highlight><Else/></If><Highlight>StringParameter(3)</Highlight>"
 1144,"Participer"
 1145,"Synchro"
 1146,"<Highlight>StringParameter(3)</Highlight><Indent/>: <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
@@ -1351,6 +1351,10 @@ Elle se déclenchera <If(Equal(IntegerParameter(4),1))>1 minute<Else/><Value>Int
 1321,"Appliquer"
 1322,"Fermer"
 1323,"Activer le mode de discussion directe"
+1324,"Vous avez autrefois obtenu cet objet en tant qu'accessoire de mode.
+Il est possible de l'obtenir à nouveau gratuitement en vous adressant à un PNJ “consigneur”.
+
+Procéder à l'échange<Indent/>?"
 1326,"Manette"
 1327,"Réinitialiser l'attribution des touches<Indent/>?"
 1328,"Oui"
@@ -1420,6 +1424,7 @@ Le personnage se trouve dans un autre monde."
 1396,"Arsenal (poignets/bagues)"
 1397,"Inventaire"
 1398,"Arsenal (non directrice/tête/torse)"
+1399,"En savoir plus sur les fonctions stylistiques"
 1400,"Carnet d'artisanat"
 1401,""
 1402,"<If(IntegerParameter(3))><Emphasis><Gui(62)/>Niveau <Value>IntegerParameter(1)</Value></Emphasis><Else/>Niveau <Value>IntegerParameter(1)</Value></If>"
@@ -2066,10 +2071,17 @@ Utilisez <CommandIcon(5)/> ou les touches directionnelles vers le haut ou le bas
 2054,"Classe/Job"
 2055,"Fermer"
 2056,"???"
-2057,"<If(IntegerParameter(3))><Emphasis><Gui(62)/><Value>IntegerParameter(1)</Value>,<Value>IntegerParameter(2)</Value>%</Emphasis><Else/><Value>IntegerParameter(1)</Value>,<Value>IntegerParameter(2)</Value>%</If>"
+2057,"<If(GreaterThan(IntegerParameter(1),0))><ZeroPaddedValue(2)>IntegerParameter(1)</ZeroPaddedValue><Else/><Value>IntegerParameter(1)</Value></If>,<Value>IntegerParameter(2)</Value>%"
 2058,"<Value>IntegerParameter(1)</Value>-<Value>IntegerParameter(2)</Value>"
 2060,"Achever le rang <Value>IntegerParameter(1)</Value>"
 2061,"<Clickable(<If(IntegerParameter(4))><Switch(IntegerParameter(2))><Case(1)><Sheet(GCRankLimsaFemaleText,IntegerParameter(3),0)/></Case><Case(2)><Sheet(GCRankGridaniaFemaleText,IntegerParameter(3),0)/></Case><Case(3)><Sheet(GCRankUldahFemaleText,IntegerParameter(3),0)/></Case></Switch><Else/><Switch(IntegerParameter(2))><Case(1)><Sheet(GCRankLimsaMaleText,IntegerParameter(3),0)/></Case><Case(2)><Sheet(GCRankGridaniaMaleText,IntegerParameter(3),0)/></Case><Case(3)><Sheet(GCRankUldahMaleText,IntegerParameter(3),0)/></Case></Switch></If>)/> ou plus"
+2063,"Dialogues lus au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment"
+2064,"Tous"
+2065,"Doublés seulement"
+2066,"Dialogues non doublés"
+2067,"Vitesse de lecture auto."
+2068,"<If(GreaterThan(IntegerParameter(1),0))>+<Else/></If><Value>IntegerParameter(1)</Value>"
+2069,"Paramètres"
 2070,"Liste d'envies"
 2071,"Liste d'envies"
 2072,"Vous pouvez enregistrer jusqu'à 10 objets dans votre liste d'envies. Les autres joueurs ne peuvent pas la consulter, mais le total des personnes de votre Monde désirant un objet est affiché dans les résultats de recherche.
@@ -2096,6 +2108,11 @@ Veuillez choisir l'instance de destination.
 (Elles sont toutes identiques en contenu.)"
 2091,"Sélection automatique"
 2092,"<Clickable(<Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(1),5)/>,0)/><If(GreaterThan(IntegerParameter(2),0))><If(GreaterThan(IntegerParameter(2),9))>A<Else/><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case><Case(7)></Case><Case(8)></Case><Case(9)></Case></Switch></If><Else/>0</If>)/> (<Format(IntegerParameter(3),FF05021D0103)/>)"
+2094,"Confirmer"
+2095,"Annuler"
+2096,"Les mo<SoftHyphen/>di<SoftHyphen/>fi<SoftHyphen/>ca<SoftHyphen/>tions seront perdues. Fermer<Indent/>?"
+2097,"Oui"
+2098,"Non"
 2100,"Logement"
 2101,"<Sheet(FCAuthority,43,0)/>"
 2102,"<Sheet(FCAuthority,44,0)/>"
@@ -2295,12 +2312,12 @@ Veuillez choisir l'instance de destination.
 2311,"<Value>IntegerParameter(1)</Value> à <Value>IntegerParameter(2)</Value>"
 2312,"Choisissez une fourchette de niveau."
 2313,"Choisissez une classe."
-2314,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>] [Aucune tâche en cours]"
-2315,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>] [Fin de la tâche dans <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>moins d'une minute</If></If>]"
-2316,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>] [Tâche terminée]"
-2317,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> Aucun objet en vente] [Aucune tâche en cours]"
-2318,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> Aucun objet en vente] [Fin de la tâche dans <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>moins d'une minute</If></If>]"
-2319,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/></If></If></If></If></If></If></If> Aucun objet en vente] [Tâche terminée]"
+2314,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>] [Aucune tâche en cours]"
+2315,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>] [Fin de la tâche dans <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>moins d'une minute</If></If>]"
+2316,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> <Value>IntegerParameter(3)</Value> vente<If(LessThanOrEqualTo(IntegerParameter(3),1))><Else/>s</If> en cours jusqu'au <Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value>] [Tâche terminée]"
+2317,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> Aucun objet en vente] [Aucune tâche en cours]"
+2318,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> Aucun objet en vente] [Fin de la tâche dans <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>moins d'une minute</If></If>]"
+2319,"<Highlight>StringParameter(1)</Highlight> [<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/><If(Equal(IntegerParameter(2),10))><Gui(107)/><Else/><If(Equal(IntegerParameter(2),12))><Gui(113)/><Else/><If(Equal(IntegerParameter(2),14))><Gui(169)/><Else/></If></If></If></If></If></If></If></If> Aucun objet en vente] [Tâche terminée]"
 2320,"Servant"
 2321,""
 2322,"Tâches"
@@ -2387,6 +2404,7 @@ Si vous voulez passer à l'obtention du butin, choisissez “Oui”. Si vous pr�
 * Le nombre de coffres varie selon le nombre d'équipiers y ayant droit.
 * Le nombre de coffres est au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment validé lorsque le temps restant est écoulé."
 2402,"Accepter l'obtention de <Value>IntegerParameter(1)</Value> coffre<If(Equal(IntegerParameter(1),1))><Else/>s</If> sur <Value>IntegerParameter(2)</Value> maximum<Indent/>?"
+2403,"Voir le rapport de la tâche terminée [<Gui(172)/>En attente]"
 2404,"Oui"
 2405,"Non"
 2406,"Appliquer des mirages"
@@ -2486,6 +2504,7 @@ Continuer<Indent/>?"
 2496,"[Cet objet de haute qualité est traité comme s'il était de qualité normale]"
 2497,"Prérequis pour être teint<Indent/>: non rempli"
 2498,"<If(GreaterThan(IntegerParameter(1),0))>[Déjà obtenu ou enregistré]<Else/>[Pas encore obtenu ou enregistré]</If>"
+2499,"[Peut être utilisé pour obtenir<If(GreaterThan(IntegerParameter(1),0))> <Format(IntegerParameter(2),FF05021D0103)/> <SheetFr(Item,12,IntegerParameter(1),IntegerParameter(2),1)/><Else/> un objet particulier</If>]"
 2500,"Outil de mission"
 2501,""
 2502,"Niveau <Value>IntegerParameter(1)</Value>"
@@ -2718,13 +2737,15 @@ Synchronisation au niveau <Value>IntegerParameter(2)</Value>"
 2732,"Fonds actuels<Indent/>: "
 2733,"Coût<Indent/>: "
 2737,""
-2738,""
+2738,"Voir la classification"
 2739,"このゲームは<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>青少年利用不可<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ゲームです。
 満18歳未満の青少年は利用できません。"
 2740,"Licence"
 2741,""
 2742,""
 2743,"Veuillez vous reconnecter à PlayStation™Network."
+2744,"Informations d'installation"
+2745,""
 2750,"Menu principal"
 2751," nouvelles notifications."
 2760,"Notifications"
@@ -2973,9 +2994,9 @@ L'enregistrement ne se fera pas même si les conditions sont remplies."
 3068,"Aide de visionnage"
 3069,""
 3070,"<Value>IntegerParameter(1)</Value>/2"
-3071,"・<Clickable(<Sheet(ContentFinderCondition,295,41)/>)/>"
+3071,"・<Clickable(<Sheet(ContentFinderCondition,295,42)/>)/>"
 3072,"<UIForeground>F20202</UIForeground>Missions enregistrables<UIForeground>01</UIForeground>"
-3073,"・<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>"
+3073,"・<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>)/>"
 3074,"Aucune"
 3075,"・Mission non débloquée"
 3079,"[<Value>IntegerParameter(1)</Value>] <ZeroPaddedValue(2)>IntegerParameter(2)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue> <If(GreaterThan(IntegerParameter(5),0))><Switch(IntegerParameter(5))><Case(1)>Lecture ou reprise</Case><Case(2)>Cinématique</Case></Switch><Else/>Compte à rebours</If>"
@@ -3062,6 +3083,7 @@ Utilisez <CommandIcon(5)/> ou les touches directionnelles vers le haut ou le bas
 3146,"Autres"
 3147,"Norvrandt"
 3148,"Ilsabard"
+3149,"Tural"
 3150,"Vitesse des montures"
 3151,""
 3152,"Zone"
@@ -3106,7 +3128,8 @@ Progression<Indent/>: <Value>IntegerParameter(3)</Value>%"
 3215,"<CommandIcon(23)/> Défiler  <CommandIcon(12)/>+<CommandIcon(23)/> Zoomer  <CommandIcon(13)/> Se téléporter"
 3216,"<If(IntegerParameter(3))><Switch(IntegerParameter(3))><Case(1)><Gui(68)/></Case><Case(2)><Gui(67)/></Case><Case(3)><Gui(120)/></Case><Case(4)><Gui(123)/></Case><Case(5)><Gui(63)/></Case><Case(6)><Gui(121)/></Case><Case(7)><Gui(122)/></Case></Switch><Else/></If><Clickable(<Sheet(PlaceName,<Sheet(Aetheryte,IntegerParameter(1),8)/>,0)/>)/>
 (<Format(IntegerParameter(2),FF05021D0103)/>)"
-3217,"Se téléporter vers “<If(IntegerParameter(3))><Switch(IntegerParameter(3))><Case(1)><Gui(68)/></Case><Case(2)><Gui(67)/></Case><Case(3)><Gui(120)/></Case><Case(4)><Gui(123)/></Case><Case(5)><Gui(63)/></Case><Case(6)><Gui(121)/></Case><Case(7)><Gui(122)/></Case></Switch><Else/></If><Sheet(PlaceName,<Sheet(Aetheryte,IntegerParameter(1),8)/>,0)/>” en payant <Format(IntegerParameter(2),FF05021D0103)/><Indent/>?"
+3217,"Se téléporter vers “<If(IntegerParameter(3))><Switch(IntegerParameter(3))><Case(1)><Gui(68)/></Case><Case(2)><Gui(67)/></Case><Case(3)><Gui(120)/></Case><Case(4)><Gui(123)/></Case><Case(5)><Gui(63)/></Case><Case(6)><Gui(121)/></Case><Case(7)><Gui(122)/></Case></Switch><Else/></If><Sheet(PlaceName,<Sheet(Aetheryte,IntegerParameter(1),8)/>,0)/>”<Indent/>?
+* Montant prélevé en cas de paiement<Indent/>: <Format(IntegerParameter(2),FF05021D0103)/>"
 3218,"<Clickable(<Sheet(PlaceName,<Sheet(Aetheryte,IntegerParameter(1),8)/>,0)/>)/>
 Non harmonisée"
 3219,"<If(IntegerParameter(3))><Switch(IntegerParameter(3))><Case(1)><Gui(68)/></Case><Case(2)><Gui(67)/></Case><Case(3)><Gui(120)/></Case><Case(4)><Gui(123)/></Case><Case(5)><Gui(63)/></Case><Case(6)><Gui(121)/></Case><Case(7)><Gui(122)/></Case></Switch><Else/></If><Clickable(<Sheet(PlaceName,<Sheet(Aetheryte,IntegerParameter(1),8)/>,0)/>)/>"
@@ -3437,6 +3460,7 @@ Les majuscules/minuscules sont prises en compte lors de la recherche."
 3642,"nom de l'expression figée"
 3643,"nom de l'accessoire de mode"
 3644,"cible"
+3645,"nom de l'accessoire de visage"
 3650,"Inventaire"
 3651,"Objets-clefs/Cristaux"
 3652,"Inventaire (1-100)"
@@ -3611,6 +3635,9 @@ Autres conditions：<Switch(IntegerParameter(3))><Case(1)>oui</Case><Case(2)>non
 3846,"Espace"
 3850,"Appâts"
 3851,""
+3852,"Pêche au vif"
+3853,"Ferrage puissant"
+3854,"Ferrage précis"
 3855,"<Highlight>StringParameter(1)</Highlight><If(GreaterThan(IntegerParameter(2),1))> x <Value>IntegerParameter(2)</Value><Else/></If>"
 3856,"<Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case><Case(5)>★★★★★</Case></Switch>"
 3857,"[Énorme]"
@@ -3654,8 +3681,8 @@ Autres conditions：<Switch(IntegerParameter(3))><Case(1)>oui</Case><Case(2)>non
 3911,""
 3912,"Les matérias choisies vont être fusionnées. Confirmer<Indent/>?"
 3913,"<CommandIcon(11)/> Choisir dans l'inventaire"
-3920,"Bonus EXP"
-3921,"[Bonus de points d'expérience ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment accordé]"
+3920,"Bonus"
+3921,"[Bonus actif]"
 3922,"Conquête<Indent/>: <Value>IntegerParameter(1)</Value>%
 Progression<Indent/>: <Value>IntegerParameter(2)</Value>%"
 3923,"Objectif"
@@ -3670,19 +3697,6 @@ Progression<Indent/>: <Value>IntegerParameter(2)</Value>%"
 3932,"Récupération des données..."
 3933,"ALÉA"
 3934,"<Format(IntegerParameter(1),FF05021D0103)/>/<Format(IntegerParameter(2),FF05021D0103)/>"
-3940,"Personnalisés"
-3941,"<If(Equal(PlayerParameter(78),3))>Maximums (Mac)<Else/>Maximums</If>"
-3942,"<If(Equal(PlayerParameter(78),3))>Très élevés (Mac)<Else/>Élevés (PC de bureau)</If>"
-3943,"<If(Equal(PlayerParameter(78),3))>Élevés (Mac)<Else/>Élevés (PC portable)</If>"
-3944,"<If(Equal(PlayerParameter(78),3))>Moyens (Mac)<Else/>Moyens (PC de bureau)</If>"
-3945,"<If(Equal(PlayerParameter(78),3))>Standards (Mac)<Else/>Moyens (PC portable)</If>"
-3950,"Certaines options graphiques ont été personnalisées."
-3951,"<If(Equal(PlayerParameter(78),3))>Les paramètres graphiques les plus élevés.<Else/>Les paramètres graphiques les plus élevés.
-Recommandés uniquement pour les configurations haut de gamme.</If>"
-3952,"<If(Equal(PlayerParameter(78),3))>Paramètres graphiques supérieurs pour les modèles haut de gamme.<Else/>Paramètres graphiques optimisés pour les ordinateurs remplissant les conditions de la configuration recommandée (ordinateurs de bureau).</If>"
-3953,"<If(Equal(PlayerParameter(78),3))>Paramètres graphiques optimisés pour les modèles haut de gamme.<Else/>Paramètres graphiques optimisés pour les machines remplissant les conditions de la configuration recommandée (ordinateurs portables).</If>"
-3954,"<If(Equal(PlayerParameter(78),3))>Paramètres graphiques donnant une meilleure qualité d'image pour les modèles recommandés.<Else/>Paramètres équilibrés, offrant un bon confort de jeu tout en conservant la qualité graphique (ordinateurs de bureau).</If>"
-3955,"<If(Equal(PlayerParameter(78),3))>Paramètres équilibrés, offrant un bon confort de jeu pour les modèles recommandés.<Else/>Paramètres équilibrés, offrant un bon confort de jeu tout en conservant la qualité graphique (ordinateurs portables).</If>"
 3960,"Élevés"
 3961,"Moyens"
 3962,"Désactivés"
@@ -3711,6 +3725,7 @@ Recommandés uniquement pour les configurations haut de gamme.</If>"
 4013,"Souris/clavier"
 4014,"Manette"
 4015,"Langue"
+4019,"Limiter le taux de rafraîchissement à 30 img/s"
 4020,"Paramètres d'écran"
 4021,"Écran principal"
 4022,"* Effectif au prochain démarrage."
@@ -3745,23 +3760,23 @@ Recommandés uniquement pour les configurations haut de gamme.</If>"
 4051,"Sons système"
 4052,"Ambiance sonore"
 4053,"Ambiance sonore des tiers"
-4054,"<Value>IntegerParameter(1)</Value> img/s (taux de rafraîchissement 1/1)"
-4055,"<Value>IntegerParameter(1)</Value> img/s (taux de rafraîchissement 1/2)"
+4054,"Écran principal"
+4055,"60 img/s"
 4056,"Activer le son système de la confirmation de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion"
-4057,"Niveau recommandé<Indent/>: × n'est pas visible / ◯ est visible"
+4057,"Niveau recommandé<Indent/>: × n'est pas visible / ◯ est à peine visible"
 4058,"Correction gamma"
-4059,"<Value>IntegerParameter(1)</Value> img/s (taux de rafraîchissement 1/4)"
+4059,"30 img/s"
 4060,"Préréglages graphiques"
 4061,"Général"
 4062,"Activer l'imagerie à grande gamme dynamique (HDR)"
 4063,"Activer l'élimination des objets cachés"
 4064,"Réduire le niveau de détail des objets distants (LOD)"
-4065,"Conserver le niveau de détail quand nécessaire"
+4065,"Conserver le niveau de détail lorsque possible"
 4066,"Anticrénelage"
 4067,"Qualité lumière transparente"
-4068,"Détail des herbes"
+4068,"Détails de l'herbe"
 4069,"Ombres"
-4070,"Réduire le niveau de détails"
+4070,"Réduire le niveau de détail pour les personnages (LOD)"
 4071,"Affichage des ombres"
 4072,"Résolution"
 4073,"Textures d'ombre en cascade (CSM)"
@@ -3787,7 +3802,7 @@ Recommandés uniquement pour les configurations haut de gamme.</If>"
 4093,"Sensibilité de la caméra à la souris"
 4094,"Centrage automatique sur les choix"
 4095,"Éclairage des personnages"
-4096,"Limiter les images/seconde lorsque absent"
+4096,"Limiter les images/seconde lorsqu'absent"
 4097,"Résolution de l'interface utilisateur"
 4098,"Type d'interface"
 4099,"* Effectif au prochain démarrage."
@@ -3844,8 +3859,6 @@ Recommandés uniquement pour les configurations haut de gamme.</If>"
 4150,"Tous"
 4151,"Simplifiés"
 4152,"Aucun"
-4153,"Standard (HD/Full HD)"
-4154,"Haute définition (WQHD/4k)"
 4155,"Mouvements physiques"
 4156,"Soi"
 4157,"Équipiers"
@@ -3858,6 +3871,9 @@ Recommandés uniquement pour les configurations haut de gamme.</If>"
 4164,"Activer la résolution dynamique"
 4165,"Optimise au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment la résolution.
 <If(Equal(PlayerParameter(78),3))><Gui(63)/>Cette fonction est indisponible sur Mac.<Else/>* Cette fonction est ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment en version bêta.</If>"
+4166,"Seuil d'activation"
+4168,"Résolution des graphismes 3D"
+4169,"Type de conversion ascendante"
 4170,"Paramètres d'affichage"
 4171,"Paramètres de son"
 4172,"Paramètres graphiques"
@@ -3868,6 +3884,7 @@ Recommandés uniquement pour les configurations haut de gamme.</If>"
 4177,"Autres paramètres"
 4178,"Paramètres d'accessibilité"
 4179,"Thème visuel"
+4180,"Quantité d'ombres portées"
 4182,"Réinitialiser la catégorie"
 4183,"Paramètres du thème visuel"
 4184,"Aperçu du thème sombre"
@@ -3895,40 +3912,19 @@ Les paramètres précédents seront rétablis dans <Value>IntegerParameter(1)</V
 4206,"Paramètres graphiques optimisés pour les ordinateurs remplissant les conditions de la configuration recommandée."
 4207,"Paramètres équilibrés, offrant un bon confort de jeu tout en conservant la qualité graphique."
 4208,"Certaines options graphiques ont été personnalisées."
-4210,"Maximum"
-4211,"Moyen"
-4212,"Simplifié"
-4213,"Ne pas afficher"
 4215,"Tout afficher"
 4216,"Seulement soi et le décor"
 4217,"Seulement le décor"
-4220,"Élevée<Indent/>: 2048 pixels"
-4221,"Moyenne<Indent/>: 1024 pixels"
-4222,"Basse<Indent/>: 512 pixels"
-4225,"Optimales"
-4226,"Moyennes"
-4227,"Désactivées"
-4230,"Fort"
-4231,"Faible"
 4232,"Sombre"
 4233,"Clair"
 4234,"FF classique"
 4235,"Bleu clair"
-4236,"Anisotrope"
-4237,"Trilinéaire"
-4238,"Bilinéaire"
-4240,"x16"
-4241,"x8"
-4242,"x4"
 4245,"Tout afficher"
 4246,"Soi uniquement"
 4247,"Ne rien afficher"
 4250,"Élevée"
 4251,"Basse"
 4252,"Désactivée"
-4255,"Moyens"
-4256,"Bas"
-4257,"Désactivés"
 4260,"Lettres 1"
 4261,"Symboles 1"
 4262,"Symboles 2"
@@ -3954,12 +3950,6 @@ Les paramètres précédents seront rétablis dans <Value>IntegerParameter(1)</V
 4287,"Désactivées"
 4290,"Afficher"
 4291,"Cacher"
-4292,"Élevée"
-4293,"Moyenne"
-4295,"4x SSAA"
-4296,"2x SSAA"
-4297,"FXAA"
-4298,"Désactivé"
 4300,"Paramétrer"
 4301,"Annuler"
 4302,"Retour"
@@ -4026,9 +4016,6 @@ Appuyer sur <Gui(12)/> + <Gui(19)/> pour les sauvegarder."
 (<Value>IntegerParameter(1)</Value>/24)"
 4343,"Appuyez sur la touche <Gui(17)/>.
 (<Value>IntegerParameter(1)</Value>/24)"
-4347,"Associer à un portrait"
-4348,"Associer à un autre portrait"
-4349,"Dissocier du portrait"
 4350,"<Value>IntegerParameter(1)</Value>"
 4351,"S'équiper de la tenue"
 4352,"Remplacer par l'équipement actuel"
@@ -5235,9 +5222,9 @@ mode JcJ. Il fait appel à des stratégies différentes des combats
 contre les monstres contrôlés par l'ordinateur (JcE).
 
 
-　　　　　　　　Pour plus de détails sur les combats JcJ et leurs
-　　　　　　　　règles, veuillez consulter les guides disponibles
-　　　　　　　　sur le site The Lodestone."
+Pour plus de détails sur les combats JcJ et leurs
+règles, veuillez consulter les guides disponibles
+sur le site The Lodestone."
 5549,"Accéder aux guides JcJ"
 5550,"Fermer"
 5551,"Mesurez-vous aux autres joueurs<Indent/>!"
@@ -5273,6 +5260,8 @@ Veuillez le retirer de la barre de raccourcis."
 5584,"Costumes"
 5585,"Tenues distinguées"
 5586,"Mascottes"
+5592,"Lieu de récolte"
+5593,"Lieu de livraison"
 5600,"Aventures imaginaires de Khloe"
 5601,""
 5602,"Validité<Indent/>: <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>"
@@ -5426,8 +5415,8 @@ Impossible d'appliquer les changements.<UIGlow>01</UIGlow><UIForeground>01</UIFo
 5748,"Lieu de pêche"
 5749,"<If(Equal(IntegerParameter(2),0))>[Pêche]<Else/>[Pêche au harpon]</If>
 Commandes spéciales<Indent/>: <Sheet(ENpcResident,IntegerParameter(1),0)/>"
-5750,"Tribus"
-5751,"Monnaies tribales"
+5750,"Peuples alliés"
+5751,"Monnaies des peuples alliés"
 5752,"A Realm Reborn"
 5753,"Heavensward"
 5754,"Stormblood"
@@ -6609,7 +6598,8 @@ Jeter l'objet ci-dessous et le remplacer par l'autre<Indent/>?"
 6869,"Type"
 6870,"Adresse"
 6871,"Coût"
-6872,"Aucun logement disponible."
+6872,"Aucun logement disponible.
+Lorsqu'un ami se déplace dans un autre Monde, son logement peut devenir inaccessible."
 6873,"Appartement"
 6874,"Maison (individuelle)"
 6875,"Maison (compagnie)"
@@ -6825,6 +6815,7 @@ Appliquer quand même les changements<Indent/>?
 7053,"Lecture séquentielle"
 7054,"Lecture aléatoire"
 7055,"Morceau unique"
+7056,"Paramètres de l'autorité d'expulsion"
 7060,"Aucun"
 7061,"Liste de lecture"
 7062,"Modifier la liste"
@@ -7325,7 +7316,7 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions."
 7877,"Répartir dans les différents onglets"
 7878,"Directions gauche et droite inversées avec le joystick"
 7879,"Directions haut et bas inversées avec le joystick"
-7880,"Afficher uniquement les effets de ses actions/sorts"
+7880,"N'afficher que ses effets néfastes sur l'ennemi ciblé"
 7881,"Contrôles étendus par maintien (fonction “alterner” in<SoftHyphen/>uti<SoftHyphen/>li<SoftHyphen/>sa<SoftHyphen/>ble)"
 7882,"Activer les contrôles étendus en appuyant simultanément sur <CommandIcon(14)/><CommandIcon(15)/>"
 7883,"Affichage avec<Indent/>: <CommandIcon(15)/>→<CommandIcon(14)/>"
@@ -7614,6 +7605,7 @@ Informer vos équipiers que vous êtes prêt<If(PlayerParameter(4))>e<Else/></If
 8172,"Cette catégorie n'est pas encore disponible."
 8173,"Marques de loup"
 8174,"Expérience élémentaire"
+8175,"Dawntrail"
 8180,"140%"
 8181,"120%"
 8182,"110%"
@@ -7691,7 +7683,7 @@ Continuer<Indent/>?"
 8267,"Limiter le déplacement à l'aire ciblable"
 8268,"Lancer l'action en utilisant une seconde fois son raccourci"
 8269,"GTモードをスキップしてアクションを実行する"
-8270,"<If(Equal(PlayerParameter(75),3))>Standard<Indent/>: résolution Full HD et taux de rafraîchissement élevé<Else/>Standard<Indent/>: résolution Full HD</If>"
+8270,"<If(Equal(PlayerParameter(75),3))>PS4 Standard<Indent/>: résolution Full HD et taux de rafraîchissement élevé<Else/>PS4 Standard<Indent/>: résolution Full HD</If>"
 8271,"Qualité standard<Indent/>: vous pouvez jouer en HD."
 8272,"Taille des éléments ATH et fenêtres"
 8273,"Appliquer pour tout"
@@ -7699,7 +7691,7 @@ Continuer<Indent/>?"
 Continuer<Indent/>?"
 8275,"Appliquer la taille par défaut"
 8276,"Taille par défaut"
-8277,"<If(Equal(PlayerParameter(75),3))>Avancés<Indent/>: résolution WQHD (converti en 4K)<Else/>Avancés<Indent/>: <Gui(63)/> disponibles uniquement pour console “PS4 Pro”</If>"
+8277,"<If(Equal(PlayerParameter(75),3))>PS4 Pro<Indent/>: résolution WQHD (converti en 4K)<Else/>PS4 Pro<Indent/>: <Gui(63)/> disponibles uniquement pour les consoles compatibles</If>"
 8278,"Taille de l'interface utilisateur"
 8279,"100%"
 8280,"150%"
@@ -8075,6 +8067,7 @@ Projeter des mirages n'a jamais été aussi facile<Indent/>!"
 8556,"<Sheet(WeatherPlaceName,<Sheet(TerritoryType,IntegerParameter(1),5)/>,0)/>"
 8557,"<Sheet(Weather,IntegerParameter(1),1)/>  <Sheet(Weather,IntegerParameter(2),1)/>"
 8558,"<Sheet(Weather,IntegerParameter(1),1)/>"
+8559,"Tural"
 8570,"Spécialiste"
 8571,"Nv <Value>IntegerParameter(1)</Value>"
 8572,"Autres"
@@ -8102,6 +8095,13 @@ Veuillez la retirer à l'aide du sous-menu."
 8591,"<Highlight>StringParameter(1)</Highlight>
 <If(IntegerParameter(2))>Nv <Value>IntegerParameter(2)</Value><Else/></If>"
 8592,"Familiers"
+8594,"Liste des actions basiques de combat."
+8596,"Liste des actions se substituant à d'autres, ne pouvant pas être ajoutées aux barres de raccourcis."
+8597,"Liste des actions de familier."
+8598,"Paramètres de substitution"
+8599,"La substitution est <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>activée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> pour les actions ci-dessous.
+<Sheet(Action,IntegerParameter(1),0)/> → <Sheet(Action,IntegerParameter(2),0)/>
+Les paramètres de substitution de l'action <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><Sheet(Action,IntegerParameter(3),0)/><UIGlow>01</UIGlow><UIForeground>01</UIForeground> peuvent être modifiés."
 8600,"Quêtes"
 8601,"ALÉA"
 8602,"Mandats"
@@ -8162,27 +8162,16 @@ Veuillez la retirer à l'aide du sous-menu."
 8678,"Reliefs de l'eau"
 8679,"Réverbération"
 8680,"Ondulations dans l'eau"
+8681,"Activer l'herbe dynamique"
+8682,"Réduire le niveau de détail pour le décor (LOD)"
+8683,"Résolution"
+8684,"* Effectif au prochain démarrage."
 8685,"Actions d'interprétation"
 8686,"Musique"
 8687,"Effets sonores"
 8688,"Voix"
 8689,"Sons système"
 8690,"Ambiance sonore"
-8691,"Élevés"
-8692,"Moyens"
-8696,"Élevés"
-8697,"Moyens"
-8701,"HBAO+<Indent/>: Élevée"
-8702,"HBAO+<Indent/>: Moyenne"
-8703,"Élevée"
-8704,"Basse"
-8705,"Désactivée"
-8706,"Maximums"
-8707,"Élevés"
-8708,"Moyens"
-8709,"Désactivés"
-8712,"Moyenne"
-8713,"Désactivée"
 8715,"Taille de l'interface en haute résolution"
 8716,"Les réglages suivants sont destinés au jeu en haute résolution."
 8717,"100% (standard)<Indent/>: taille normale"
@@ -8192,9 +8181,6 @@ Veuillez la retirer à l'aide du sous-menu."
 8722,"Qualité graphique"
 8723,"Élevée (meilleur rendu des détails des décors, reflets, etc.)"
 8724,"Moyenne"
-8727,"Normales"
-8728,"Basses"
-8729,"Désactivées"
 8732,"Actions d'interprétation"
 8733,"Activer la musique de combat dans les zones publiques"
 8734,"Jouer les musiques des cités associées dans les quartiers résidentiels"
@@ -8262,7 +8248,7 @@ Veillez à ajuster le placement de la position d'écoute selon vos préférences
 8805,"* La cession sera annulée si un pro<SoftHyphen/>prié<SoftHyphen/>taire entre dans la maison."
 8806,"Missions d'exploration disponibles"
 8807,"<If(GreaterThan(IntegerParameter(1),99))>99+<Else/><Value>IntegerParameter(1)</Value></If><If(IntegerParameter(3))>/<If(GreaterThan(IntegerParameter(2),99))>99+<Else/><Value>IntegerParameter(2)</Value></If><Else/></If>"
-8808,"Quota de quêtes tribales quotidiennes"
+8808,"Quota de quêtes quotidiennes"
 8809,"Nombre restant<Indent/>: <Value>IntegerParameter(1)</Value>"
 8810,"Commandes spéciales"
 8811,"Affiche les clients et la liste de leurs commandes."
@@ -9219,9 +9205,9 @@ Continuer<Indent/>?"
 9778,"Cartes non possédées"
 9779,"Aucune carte ne correspond aux critères choisis."
 9780,"Tutoriel de Triple Triade"
-9781,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>"
-9782,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>"
-9783,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(2),41)/>)/>
+9781,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>)/>"
+9782,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>)/>"
+9783,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(2),42)/>)/>
 <Clickable(<Sheet(Fate,IntegerParameter(1),0)/>)/>"
 9784,"<Clickable(<Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(2),5)/>,0)/>)/>
 <Clickable(<Sheet(Fate,IntegerParameter(1),0)/>)/>"
@@ -9236,7 +9222,7 @@ Continuer<Indent/>?"
 <97>E803</97>"
 9790,"Haut fait<Indent/>:
 <Clickable(<Sheet(Achievement,IntegerParameter(1),1)/>)/>"
-9791,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>
+9791,"<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>)/>
 Chasse au trésor du lapin du bonheur"
 9792,"???"
 9793,"RÉSULTATS"
@@ -9772,6 +9758,11 @@ Profitez-en pour créer de nouveaux liens au cours de vos aventures<Indent/>!"
 10327,"Désactiver le ciblage des PNJ par clic droit"
 10328,"Afficher le temps restant des effets bénéfiques/néfastes"
 10329,"Désactiver le ciblage des mascottes par clic droit"
+10330,"Affichage des personnages pendant les quêtes"
+10331,"Cacher les autres joueurs en arrivant à proximité d'un PNJ de quête"
+10332,"Cacher aussi les équipiers"
+10333,"Cacher les autres joueurs lors d'une interaction avec un PNJ de quête"
+10334,"Cacher aussi les équipiers"
 10350,"Médallium des Yo-kai"
 10351,""
 10352,"Ouvre l'encyclopédie des mascottes."
@@ -10172,7 +10163,7 @@ Il suffit qu'un des joueurs adverses quitte l'instance pour mettre fin aux af<So
 10807,"Nombre de batailles restantes du tournoi"
 10808,"Inscription au tournoi"
 10809,"Tournoi en cours"
-10810,"<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>"
+10810,"<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>"
 10811,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* “Déjà terminé” n'est disponible que pour les missions préalablement réussies.
 * Spécifier une phase ne permet pas de sauter celles précédentes.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10812,"Sélection d'autres missions impossible"
@@ -10184,7 +10175,7 @@ Il suffit qu'un des joueurs adverses quitte l'instance pour mettre fin aux af<So
 10817,"Temps écoulé<Indent/>: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>/Délai d'attente moyen<Indent/>: <Highlight>StringParameter(3)</Highlight>"
 10818,"Ordre d'attente pour le rôle choisi<Indent/>: <Highlight>StringParameter(1)</Highlight>"
 10819,"Temps écoulé<Indent/>: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
-10820,"<Sheet(ContentType,IntegerParameter(1),0)/> (ARR à Shadowbringers)"
+10820,"<Sheet(ContentType,IntegerParameter(1),0)/> (ARR à Endwalker)"
 10821,"Missions normales"
 10822,"Missions à difficulté élevée"
 10823,"Impossible de s'enregistrer pour participer à une mission, tout en effectuant un recrutement.
@@ -10343,12 +10334,19 @@ Seuls les 10 premiers résultats sont affichés."
 10955,"
  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* Les noms de personnages des autres Mondes sont sauvegardés dans le client.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10956,"État en ligne inconnu"
+10957,"Le personnage “<Highlight>StringParameter(1)</Highlight>” va être ajouté à votre liste noire. Dorénavant, vous ne le verrez plus dans le jeu et ses messages seront cachés. Ceci s'appliquera également à tous les autres personnages du même compte de service.
+Le nom et le monde d'origine du personnage enregistré seront sauvegardés localement.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Si vous désirez simplement cacher les messages de ce personnage, vous pouvez l'ajouter à votre liste muette.
+(Lorsqu'un personnage présent dans la liste muette est ajouté à la liste noire, il est transféré de la première à la seconde.)
+<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+10958,"Accepter et confirmer"
+10959,"Oui"
 10960,"État en ligne “Rappelé(e)” (<Gui(95)/>)"
 10961,"Cet état en ligne n'est accessible qu'aux personnages inactifs depuis un minimum de 45 jours et ayant au moins une classe à un niveau supérieur ou égal à 50.
 
 Il permet de bénéficier des avantages suivants<Indent/>:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>- Participation au réseau des novices
-  - Bonus de points d'expérience pour chaque classe jusqu'au niveau 80 lorsqu'en équipe avec un “Mentor” (<Gui(78)/>).<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  - Bonus de points d'expérience pour chaque classe jusqu'au niveau 90 lorsqu'en équipe avec un “Mentor” (<Gui(78)/>).<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 L'état en ligne “Rappelé(e)” est retiré après cumulation de 72 heures de jeu ou en cas d'utilisation de la commande texte “<Sheet(TextCommand,238,8)/>”.
 "
@@ -10394,6 +10392,7 @@ Le niveau d'objet de toutes les pièces d'équipement sera synchronisé sur la v
 Le niveau d'objet de toutes les pièces d'équipement sera synchronisé à 150."
 10995,"- Pas de synchronisation des niveaux d'objet
 Toutes les pièces d'équipement auront leurs niveaux d'objet respectifs."
+10996,""
 10997,"Bonus de rôle recherché<Indent/>: tank"
 10998,"Bonus de rôle recherché<Indent/>: soigneur"
 10999,"Bonus de rôle recherché<Indent/>: DPS"
@@ -10428,6 +10427,7 @@ Ce mini-jeu est disponible auprès du “président” une fois le défi termin�
 11019,"Nv 51 à 60"
 11020,"Nv 61 à 70"
 11021,"Nv 71 à 80"
+11022,"Nv 81 à 90"
 11025,"Disponibilité<Indent/>: <Sheet(Action,IntegerParameter(1),0)/>"
 11030,"Salut<Indent/>!<Unknown60>0261</Unknown60>"
 11031,"C'était un beau combat<Indent/>!<Unknown60>0261</Unknown60>"
@@ -10544,8 +10544,12 @@ Ces paramètres sont conservés pendant la durée de la connexion."
 11160,""
 11161,""
 11162,""
-11163,""
-11164,""
+11163,"<If(Equal(IntegerParameter(1),52))>Le <Else/><If(Equal(IntegerParameter(1),79))>Le <Else/><If(Equal(IntegerParameter(1),88))>Le <Else/><If(Equal(IntegerParameter(1),89))>Le <Else/><If(Equal(IntegerParameter(1),80))>L'<Else/><If(Equal(IntegerParameter(1),81))>L'<Else/><If(Equal(IntegerParameter(1),103))>L'<Else/><If(Equal(IntegerParameter(1),104))>L'<Else/><If(Equal(IntegerParameter(1),91))>Les <Else/><If(Equal(IntegerParameter(1),106))>Les <Else/>La </If></If></If></If></If></If></If></If></If></If>“<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>” et
+<If(Equal(IntegerParameter(2),52))>le <Else/><If(Equal(IntegerParameter(2),79))>le <Else/><If(Equal(IntegerParameter(2),88))>le <Else/><If(Equal(IntegerParameter(2),89))>le <Else/><If(Equal(IntegerParameter(2),80))>l'<Else/><If(Equal(IntegerParameter(2),81))>l'<Else/><If(Equal(IntegerParameter(2),103))>l'<Else/><If(Equal(IntegerParameter(2),104))>l'<Else/><If(Equal(IntegerParameter(2),91))>les <Else/><If(Equal(IntegerParameter(2),106))>les <Else/>la </If></If></If></If></If></If></If></If></If></If>“<Sheet(Hud,IntegerParameter(2),ADDONHUD_NAME)/>” ont été enrichi<If(Equal(IntegerParameter(1),52))>s<Else/><If(Equal(IntegerParameter(1),79))>s<Else/><If(Equal(IntegerParameter(1),88))>s<Else/><If(Equal(IntegerParameter(1),89))>s<Else/><If(Equal(IntegerParameter(1),80))>s<Else/><If(Equal(IntegerParameter(1),81))>s<Else/><If(Equal(IntegerParameter(1),103))>s<Else/><If(Equal(IntegerParameter(1),104))>s<Else/><If(Equal(IntegerParameter(1),91))>s<Else/>es</If></If></If></If></If></If></If></If></If><Indent/>!
+Lisez la description pour en savoir plus."
+11164,"<If(Equal(IntegerParameter(1),52))>Le <Else/><If(Equal(IntegerParameter(1),79))>Le <Else/><If(Equal(IntegerParameter(1),88))>Le <Else/><If(Equal(IntegerParameter(1),89))>Le <Else/><If(Equal(IntegerParameter(1),80))>L'<Else/><If(Equal(IntegerParameter(1),81))>L'<Else/><If(Equal(IntegerParameter(1),103))>L'<Else/><If(Equal(IntegerParameter(1),104))>L'<Else/><If(Equal(IntegerParameter(1),91))>Les <Else/><If(Equal(IntegerParameter(1),106))>Les <Else/>La </If></If></If></If></If></If></If></If></If></If>“<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>” et
+<If(Equal(IntegerParameter(2),52))>le <Else/><If(Equal(IntegerParameter(2),79))>le <Else/><If(Equal(IntegerParameter(2),88))>le <Else/><If(Equal(IntegerParameter(2),89))>le <Else/><If(Equal(IntegerParameter(2),80))>l'<Else/><If(Equal(IntegerParameter(2),81))>l'<Else/><If(Equal(IntegerParameter(2),103))>l'<Else/><If(Equal(IntegerParameter(2),104))>l'<Else/><If(Equal(IntegerParameter(2),91))>les <Else/><If(Equal(IntegerParameter(2),106))>les <Else/>la </If></If></If></If></If></If></If></If></If></If>“<Sheet(Hud,IntegerParameter(2),ADDONHUD_NAME)/>” sont disponibles<Indent/>!
+Lisez la description pour en savoir plus."
 11165,"Oui"
 11166,"Non"
 11167,"Pas terminée"
@@ -10562,17 +10566,18 @@ Si l'option “Sans restriction” a été activée, chaque équipe de l'allianc
 11178,"Pas plus d'un joueur par job"
 11179,"Conditions de l'outil de mission [Participer sans le pouvoir de l'Écho]"
 11180,"<Clickable(<Sheet(ClassJob,IntegerParameter(1),0)/>)/>"
-11181,"<If(Equal(IntegerParameter(1),79))>Le <Else/><If(Equal(IntegerParameter(1),52))>Le <Else/><If(Equal(IntegerParameter(1),80))>L'<Else/><If(Equal(IntegerParameter(1),81))>L'<Else/>La </If></If></If></If>“<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>” est disponible<Indent/>!
+11181,"<If(Equal(IntegerParameter(1),52))>Le <Else/><If(Equal(IntegerParameter(1),79))>Le <Else/><If(Equal(IntegerParameter(1),88))>Le <Else/><If(Equal(IntegerParameter(1),89))>Le <Else/><If(Equal(IntegerParameter(1),80))>L'<Else/><If(Equal(IntegerParameter(1),81))>L'<Else/><If(Equal(IntegerParameter(1),103))>L'<Else/><If(Equal(IntegerParameter(1),104))>L'<Else/><If(Equal(IntegerParameter(1),91))>Les <Else/><If(Equal(IntegerParameter(1),106))>Les <Else/>La </If></If></If></If></If></If></If></If></If></If>“<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>” <If(Equal(IntegerParameter(1),91))>sont<Else/><If(Equal(IntegerParameter(1),106))>sont<Else/>est</If></If> disponible<If(Equal(IntegerParameter(1),91))>s<Else/><If(Equal(IntegerParameter(1),106))>s<Else/></If></If><Indent/>!
 Lisez la description pour en savoir plus."
 11182,"Description de l'interface de job"
 11183,""
 11184,"Fermer"
 11185,"La description de votre “<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>” a été enrichie<Indent/>!"
-11186,"<If(Equal(IntegerParameter(1),79))>Le <Else/><If(Equal(IntegerParameter(1),80))>L'<Else/><If(Equal(IntegerParameter(1),81))>L'<Else/>La </If></If></If>“<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>” et
-<If(Equal(IntegerParameter(2),79))>le <Else/><If(Equal(IntegerParameter(2),80))>l'<Else/><If(Equal(IntegerParameter(2),81))>l'<Else/>la </If></If></If>“<Sheet(Hud,IntegerParameter(2),ADDONHUD_NAME)/>” sont disponibles<Indent/>!
+11186,"<If(Equal(IntegerParameter(1),52))>Le <Else/><If(Equal(IntegerParameter(1),79))>Le <Else/><If(Equal(IntegerParameter(1),88))>Le <Else/><If(Equal(IntegerParameter(1),89))>Le <Else/><If(Equal(IntegerParameter(1),80))>L'<Else/><If(Equal(IntegerParameter(1),81))>L'<Else/><If(Equal(IntegerParameter(1),103))>L'<Else/><If(Equal(IntegerParameter(1),104))>L'<Else/><If(Equal(IntegerParameter(1),91))>Les <Else/><If(Equal(IntegerParameter(1),106))>Les <Else/>La </If></If></If></If></If></If></If></If></If></If>“<Sheet(Hud,IntegerParameter(1),ADDONHUD_NAME)/>” et
+<If(Equal(IntegerParameter(2),52))>le <Else/><If(Equal(IntegerParameter(2),79))>le <Else/><If(Equal(IntegerParameter(2),88))>le <Else/><If(Equal(IntegerParameter(2),89))>le <Else/><If(Equal(IntegerParameter(2),80))>l'<Else/><If(Equal(IntegerParameter(2),81))>l'<Else/><If(Equal(IntegerParameter(2),103))>l'<Else/><If(Equal(IntegerParameter(2),104))>l'<Else/><If(Equal(IntegerParameter(2),91))>les <Else/><If(Equal(IntegerParameter(2),106))>les <Else/>la </If></If></If></If></If></If></If></If></If></If>“<Sheet(Hud,IntegerParameter(2),ADDONHUD_NAME)/>” sont disponibles<Indent/>!
 Lisez la description pour en savoir plus."
 11187,"Style de jeu [Visionnage de mission ok]"
 11188,"Condition de recrutement [Déjà terminée sans récomp. hebdo.]"
+11189,"Mis à jour"
 11190,"Échange de devises"
 11191,""
 11192,"Échange d'objets"
@@ -10867,20 +10872,21 @@ projeté depuis un bahut personnel."
 11465," Heure éorzéenne"
 11466,"Répétition"
 11467,"Désactivé"
-11468,"Chaque heure (Temps réel)"
-11469,"Chaque jour (Temps éorzéen)"
+11468,"Chaque heure (temps réel)"
+11469,"Chaque jour (heure éorzéenne)"
 11470,"Heure de l'alerte"
 11471,"Heures (<Value>IntegerParameter(1)</Value> à <Value>IntegerParameter(2)</Value>)"
 11472,"Minutes (0 à 59)"
 11473,"Rappel (minutes en temps réel)"
-11474,"Valider"
+11474,"Sauvegarder"
 11475,"Annuler"
 11476,"/alerte ""<Highlight>StringParameter(4)</Highlight>"" <Switch(IntegerParameter(1))><Case(1)>lt</Case><Case(2)>st</Case><Case(3)>et</Case></Switch> <Switch(IntegerParameter(5))><Case(1)></Case><Case(2)>rp </Case></Switch><Highlight>StringParameter(2)</Highlight> <Value>IntegerParameter(3)</Value>"
 11477,"Copier la commande texte"
 11478,"Éditer"
 11479,"Supprimer"
 11480,"Aucune alerte n'a été réglée."
-11481,"<Gui(104)/>Heure
+11481,"<Gui(104)/><Highlight>StringParameter(3)</Highlight>
+Heure
 <Time(IntegerParameter(1))/> <If(Equal(IntegerParameter(2),0))><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>pm.<Else/>am.</If></If>"
 11482,"<Switch(IntegerParameter(1))><Case(1)></Case><Case(2)></Case><Case(3)></Case></Switch>"
 11483,"<Time(IntegerParameter(1))/><If(Equal(IntegerParameter(2),0))><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>pm<Else/>am</If></If>"
@@ -11899,7 +11905,7 @@ Vous pourrez ensuite les ajouter à vos barres ou à vos croix de raccourcis."
 12490,"Nv <Value>IntegerParameter(1)</Value>"
 12491,"Résultat"
 12492,"Niveau"
-12493,"<TwoDigitValue>IntegerParameter(1)</TwoDigitValue>. <Sheet(ContentFinderCondition,IntegerParameter(2),41)/>"
+12493,"<TwoDigitValue>IntegerParameter(1)</TwoDigitValue>. <Sheet(ContentFinderCondition,IntegerParameter(2),42)/>"
 12494,"Temps"
 12495,"<Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 12496,"Prouesses"
@@ -12095,6 +12101,8 @@ Le niveau de fréquentation du Monde choisi au moment de confirmer votre demande
 12614,""
 12615,"Défis hebdomadaires"
 12616,"Missions normales"
+12617,"Sauvegarder"
+12618,"Charger"
 12624,"Voulez-vous vraiment visiter “<Highlight>StringParameter(1)</Highlight>”<Indent/>?
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Vous ne pouvez pas utiliser le voyage inter-Monde en faisant partie d'une équipe standard.
 Vous pouvez néanmoins faire partie d'une équipe inter-Monde ou être en cours de recherche d'équipe.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -12118,6 +12126,12 @@ Vous pouvez néanmoins faire partie d'une équipe inter-Monde ou être en cours 
 12642,"Contrats d'élite des glaneurs"
 12643,"Collège des glaneurs"
 12644,"<Switch(IntegerParameter(1))><Case(1)>Contrat du collège des glaneurs (débutant)</Case><Case(2)>Contrat du collège des glaneurs (intermédiaire)</Case><Case(3)>Contrat du collège des glaneurs (avancé)</Case><Case(4)>Contrat d'élite du collège des glaneurs</Case></Switch> (<Highlight>StringParameter(2)</Highlight>)"
+12645,"Contrats de la coopérative turalienne (débutant)"
+12646,"Contrats de la coopérative turalienne (intermédiaire)"
+12647,"Contrats de la coopérative turalienne (avancé)"
+12648,"Contrats d'élite de la coopérative turalienne"
+12649,"Coopérative de chasse turalienne"
+12650,"<Switch(IntegerParameter(1))><Case(1)>Contrat de la coopérative turalienne (débutant)</Case><Case(2)>Contrat de la coopérative turalienne (intermédiaire)</Case><Case(3)>Contrat de la coopérative turalienne (avancé)</Case><Case(4)>Contrat d'élite de la coopérative turalienne</Case></Switch> (<Highlight>StringParameter(2)</Highlight>)"
 12670,"Normal"
 12671,"Spécial"
 12672,"<Switch(IntegerParameter(1))><Case(1)>Point de récolte intact</Case><Case(2)>Légende locale</Case><Case(3)>Points de récolte éphémères</Case></Switch>
@@ -12939,6 +12953,8 @@ Gils de votre servant<Indent/>: <Format(IntegerParameter(1),FF05021D0103)/>
 13529,"Interrompre"
 13530,"Quitter"
 13531,"Il est possible de confier au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment à votre servant des objets de votre inventaire déjà en sa possession."
+13532,"<If(GreaterThan(IntegerParameter(2),0))><Gui(172)/><Else/></If><Highlight>StringParameter(1)</Highlight>"
+13533,"(<Gui(172)/>En attente)"
 13550,"Petite image"
 13551,"Rare"
 13552,"Image moyenne"
@@ -13058,6 +13074,11 @@ Chaque image complétée vous fera gagner des “folioles irréelles”."
 13680,"Activer l'ombrelle/le parapluie automatique"
 13681,"Désactiver l'ombrelle/le parapluie automatique"
 13682,"Afficher l'aide des accessoires de mode"
+13736,"Cacher la fenêtre de log"
+13737,"Modes de discussion"
+13738,"Fusionner les onglets"
+13739,"<If(Equal(PlayerParameter(80),0))> Confirmer<Else/><CommandIcon(7)/> Choisir  <CommandIcon(8)/> Confirmer</If>"
+13748,"Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>” obtenu dans la mission “Crystalline Conflict”"
 13751,"Après avoir accompli le haut fait “<Sheet(Achievement,IntegerParameter(1),1)/>”, utiliser l'objet “<Sheet(Item,IntegerParameter(3),9)/>”
 <97>F642040E</97>, Échange de devises<Indent/>: Jonathas"
 13752,"Utiliser l'objet “<Sheet(Item,IntegerParameter(3),9)/>”
@@ -13067,7 +13088,7 @@ Chaque image complétée vous fera gagner des “folioles irréelles”."
 Échange d'objets<Indent/>: Mog voyageur, <97>F64A4818</97></Case><Case(2)>
 Échange d'objets<Indent/>: Mog voyageur, <97>F64A48CB</97></Case><Case(3)>
 Échange d'objets<Indent/>: Mog voyageur, <97>F64A48D6</97></Case></Switch>"
-13754,"Utiliser l'objet “<Sheet(Item,IntegerParameter(3),9)/>” obtenu dans la mission “<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>”"
+13754,"Utiliser l'objet “<Sheet(Item,IntegerParameter(3),9)/>” obtenu dans la mission “<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>”"
 13755,"Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”
 <Switch(PlayerParameter(70))><Case(1)>Échange de devises<Indent/>: Bango Zango
 <97>F63F38E6</97></Case><Case(2)>Échange de devises<Indent/>: Maisenta
@@ -13081,7 +13102,7 @@ Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”"
 13759,"Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”"
 13760,"Disponible de base"
 13761,"Terminer la quête “<Sheet(Quest,IntegerParameter(1),0)/>”"
-13762,"Accomplir la mission “<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>”"
+13762,"Accomplir la mission “<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>”"
 13763,"Utiliser l'objet “<Sheet(Item,IntegerParameter(3),9)/>”
 Échange de devises<Indent/>: <Clickable(<Sheet(ObjStr,IntegerParameter(1),0)/>)/>, <97>E803</97>"
 13764,"Utiliser l'objet “<Sheet(Item,IntegerParameter(1),9)/>”
@@ -13411,7 +13432,7 @@ Le personnage retourne à sa position neutre une fois le mouvement effectué."
 14115,"Jeu de rôle"
 14116,"X<Indent/>: <Value>IntegerParameter(1)</Value><If(IntegerParameter(2))><Switch(IntegerParameter(2))><Case(1)>₁</Case><Case(2)>₂</Case><Case(3)>₃</Case><Case(4)>₄</Case><Case(5)>₅</Case><Case(6)>₆</Case><Case(7)>₇</Case><Case(8)>₈</Case><Case(9)>₉</Case></Switch><Else/>₀</If> Y<Indent/>: <Value>IntegerParameter(3)</Value><If(IntegerParameter(4))><Switch(IntegerParameter(4))><Case(1)>₁</Case><Case(2)>₂</Case><Case(3)>₃</Case><Case(4)>₄</Case><Case(5)>₅</Case><Case(6)>₆</Case><Case(7)>₇</Case><Case(8)>₈</Case><Case(9)>₉</Case></Switch><Else/>₀</If>"
 14117,"X<Indent/>: <Value>IntegerParameter(1)</Value><If(IntegerParameter(2))><Switch(IntegerParameter(2))><Case(1)>₁</Case><Case(2)>₂</Case><Case(3)>₃</Case><Case(4)>₄</Case><Case(5)>₅</Case><Case(6)>₆</Case><Case(7)>₇</Case><Case(8)>₈</Case><Case(9)>₉</Case></Switch><Else/>₀</If> Y<Indent/>: <Value>IntegerParameter(3)</Value><If(IntegerParameter(4))><Switch(IntegerParameter(4))><Case(1)>₁</Case><Case(2)>₂</Case><Case(3)>₃</Case><Case(4)>₄</Case><Case(5)>₅</Case><Case(6)>₆</Case><Case(7)>₇</Case><Case(8)>₈</Case><Case(9)>₉</Case></Switch><Else/>₀</If> Z<Indent/>: <If(LessThan(IntegerParameter(7),0))>-<Else/></If><Value>IntegerParameter(5)</Value><If(IntegerParameter(6))><Switch(IntegerParameter(6))><Case(1)>₁</Case><Case(2)>₂</Case><Case(3)>₃</Case><Case(4)>₄</Case><Case(5)>₅</Case><Case(6)>₆</Case><Case(7)>₇</Case><Case(8)>₈</Case><Case(9)>₉</Case></Switch><Else/>₀</If>"
-14118,"© SQUARE ENIX CO., LTD. All Rights Reserved."
+14118,"© SQUARE ENIX"
 14119,"Titre"
 14120,"Classe/Job"
 14121,"Coordonnées"
@@ -13431,8 +13452,8 @@ Le personnage retourne à sa position neutre une fois le mouvement effectué."
 14159,"Actions et effets bonus"
 14160,"Œil vif
 Sélection instinctive et Sélection méthodique augmentent encore plus la valeur de collection."
-14161,"Œil vif
-<If(GreaterThan(IntegerParameter(1),0))>actif<Else/>inactif</If>"
+14161,"<If(Equal(IntegerParameter(1),2))>Œil vif puissant<Else/>Œil vif
+<If(Equal(IntegerParameter(1),1))>actif<Else/>inactif</If></If>"
 14162,"Intuition
 Augmente les gains de valeur de collection lorsque vous utilisez une action de type Sélection.
 Les chances de bénéficier de ce bonus dépendent de votre Savoir-faire."
@@ -13459,6 +13480,8 @@ Les chances de bénéficier de ce bonus dépendent de votre Savoir-faire."
 14181," <Value>IntegerParameter(1)</Value>"
 14182,"Éthérolyse rapide"
 14183,""
+14184,"Œil vif puissant
+Sélection instinctive augmente la valeur de collection d'un montant égal à 150% de celui octroyé par Sélection, et les chances pour que Sélection méthodique ne coûte aucune tentative de récolte sont augmentées de 40%."
 14200,"La qualité augmente normalement."
 14201,"Les gains en qualité sont multipliés par <38>E80265FF022E01</38>."
 14202,"Les gains en qualité sont multipliés par 4."
@@ -13476,6 +13499,7 @@ Les chances de bénéficier de ce bonus dépendent de votre Savoir-faire."
 L'état des matériaux deviendra bon au prochain tour."
 14214,"Bon présage"
 14215,"L'état des matériaux deviendra bon au prochain tour."
+14216,"Aucun objet de cette recette ne requiert d'expertise."
 14250,"Mode"
 14251,"Objet"
 14252,"Rang de félicité"
@@ -13660,7 +13684,7 @@ Utilisez les touches directionnelles vers le haut ou le bas pour voir l'historiq
 14412,"Utilisable assis sur une chaise"
 14413,"Utilisable en chevauchant une monture"
 14414,"Utilisable avec les ombrelles"
-14415,"Utilisable avec des ailes et des lunettes"
+14415,"Utilisable avec un sac à dos ou des ailes"
 14416,"Utilisable en pêchant"
 14417,"Fermer"
 14418,"Afficher la légende"
@@ -13689,12 +13713,16 @@ Utilisez les touches directionnelles vers le haut ou le bas pour voir l'historiq
 14440,"Livraisons de l'académie"
 14441,""
 14442,"Table des ré<SoftHyphen/>mu<SoftHyphen/>né<SoftHyphen/>ra<SoftHyphen/>tions"
-14443,"Valeur de collection minimum"
+14443,"Valeur de collection"
 14444,"<Value>IntegerParameter(1)</Value> à <Value>IntegerParameter(2)</Value>"
 14445,"<Value>IntegerParameter(1)</Value> ou plus"
 14446,"<Switch(IntegerParameter(1))><Case(1)>Département d'archéologie</Case><Case(2)>Département d'astronomie</Case><Case(3)>Département de médecine</Case><Case(4)>Département d'anthropologie</Case><Case(5)>Département d'éthérologie</Case></Switch><Indent/>: <Highlight>StringParameter(2)</Highlight>"
 14447," <Value>IntegerParameter(1)</Value>"
 14448,"Afficher l'aide des livraisons de l'académie"
+14449,"Livraisons"
+14450,"Bazar aux Mille Perles"
+14451,"<Switch(IntegerParameter(1))><Case(1)>Quincaillerie</Case><Case(2)>Scriptorium</Case><Case(3)>Bar à jus</Case><Case(4)>Pharmacie</Case><Case(5)>Poissonnerie</Case></Switch><Indent/>: <Highlight>StringParameter(2)</Highlight>"
+14452,"Afficher l'aide"
 14460,"Techniques d'arme en posture"
 14461,"Chaque posture possède ses propres conditions d'activation et effets additionnels."
 14462,"Posture de l'opo-opo"
@@ -13705,8 +13733,9 @@ Utilisez les touches directionnelles vers le haut ou le bas pour voir l'historiq
 14470,"Sans prisme mirage"
 14471,"Prisme mirage 1"
 14472,"Prisme mirage 2"
-14475,"Nv. <Value>IntegerParameter(1)</Value> et moins"
-14476,"Nv. <Value>IntegerParameter(1)</Value> et plus"
+14473,"Prisme mirage 3"
+14475,"Nv <Value>IntegerParameter(1)</Value> et moins"
+14476,"Nv <Value>IntegerParameter(1)</Value> et plus"
 14483,"Techniques d'arme en combo"
 14484,"Techniques d'arme"
 14485,"Aptitudes"
@@ -13889,9 +13918,10 @@ Veuillez équiper les objets adaptés à votre tenue ou la sauvegarder à nouvea
 - Bracelet<Else/></If><If(IntegerParameter(12))>
 - Bague droite<Else/></If><If(IntegerParameter(13))>
 - Bague gauche<Else/></If><If(IntegerParameter(14))>
-- Cristal d'âme<Else/></If>"
+- Cristal d'âme<Else/></If><If(IntegerParameter(15))>
+- Accessoire de visage<Else/></If>"
 14800,"Accomplir “<Clickable(<Sheet(InstanceContent,IntegerParameter(1),3)/>)/>” avec d'autres joueurs"
-14801,"Accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>” avec des PNJ alliés"
+14801,"Accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>)/>” avec des PNJ alliés"
 14802,"Choix des équipiers"
 14803,"<If(GreaterThan(IntegerParameter(1),0))>Nv. d'objet moyen<Indent/>: <Value>IntegerParameter(1)</Value> ou plus<Else/></If><If(GreaterThan(IntegerParameter(2),0))>
 Nv. d'objet synchronisé<Indent/>: <Value>IntegerParameter(2)</Value><Else/></If>"
@@ -13906,8 +13936,34 @@ Veuillez équiper les objets adaptés à votre tenue ou la sauvegarder à nouvea
 14812,""
 14813,"Afficher l'aide"
 14814,"Équipe personnalisable"
-14815,"Des PNJ alliés pourront pro<SoftHyphen/>chai<SoftHyphen/>ne<SoftHyphen/>ment être utilisés pour accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),41)/>)/>”"
+14815,"Des PNJ alliés pourront pro<SoftHyphen/>chai<SoftHyphen/>ne<SoftHyphen/>ment être utilisés pour accomplir “<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),42)/>)/>”"
 14816,"Le système de renforts sera disponible dans une prochaine mise à jour."
+14820,"Monde d'origine"
+14821,"(Nom de personnage introuvable)"
+14822,"Compte bloqué"
+14823,"Modifier le commentaire"
+14824,"Nom du personnage<Indent/>:
+<Highlight>StringParameter(1)</Highlight>"
+14825,"Commentaire (sauvegardé localement)<Indent/>:"
+14826,"Enregistrer"
+14827,"Annuler"
+14828,"(Message d'un personnage de la liste noire)"
+14829,"Afficher temporairement"
+14830,"Cacher à nouveau"
+14831,"Inconnu<If(GreaterThan(IntegerParameter(1),0))><ZeroPaddedValue(2)>IntegerParameter(1)</ZeroPaddedValue><Else/></If>"
+14832,"(Message d'un personnage de la liste muette)"
+14833,"Ajouter à la liste muette"
+14834,"Enlever de la liste muette"
+14835,"Le personnage “<Highlight>StringParameter(1)</Highlight>” va être ajouté à votre liste muette. Dorénavant, ses messages seront cachés. Ceci s'appliquera également à tous les autres personnages du même compte de service.
+Le nom et le monde d'origine du personnage enregistré seront sauvegardés localement.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Si vous désirez également ne plus voir ce personnage dans le jeu, vous pouvez l'ajouter à votre liste noire.
+(Lorsqu'un personnage présent dans la liste muette est ajouté à la liste noire, il est transféré de la première à la seconde.)
+<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+14836,"Enlever <Highlight>StringParameter(1)</Highlight> de votre liste muette<Indent/>?"
+14837,"Liste muette"
+14838,""
+14839,"Les messages des personnages enregistrés dans la liste muette sont cachés."
+14840,"Les personnages enregistrés dans la liste noire n'ap<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent plus dans le jeu, et leurs messages sont cachés."
 14851,"Compendium"
 14852,""
 14853,"Tout"
@@ -14542,10 +14598,10 @@ Il vous reste des récompenses de rang de la saison dernière à récupérer. Po
 15477,"Paramètres"
 15488,"Transfert des paramètres de barres de raccourcis"
 15489,""
-15490,"En changeant votre job en <Sheet(ClassJob,IntegerParameter(1),0)/>, vous avez la possibilité de transférer les paramètres des barres et croix de raccourcis de la classe <Sheet(ClassJob,<Sheet(ClassJob,IntegerParameter(1),26)/>,0)/>."
+15490,"En changeant votre job en <Sheet(ClassJob,IntegerParameter(1),0)/>, vous avez la possibilité de transférer les paramètres des barres et croix de raccourcis de la classe <Sheet(ClassJob,<Sheet(ClassJob,IntegerParameter(1),28)/>,0)/>."
 15491,"Transférer"
 15492,"Ne pas transférer"
-15493,"Le job <Sheet(ClassJob,IntegerParameter(1),0)/> utilisant les mêmes actions que la classe <Sheet(ClassJob,<Sheet(ClassJob,IntegerParameter(1),26)/>,0)/>, transférer les paramètres vous permettrait de le jouer de la même façon.
+15493,"Le job <Sheet(ClassJob,IntegerParameter(1),0)/> utilisant les mêmes actions que la classe <Sheet(ClassJob,<Sheet(ClassJob,IntegerParameter(1),28)/>,0)/>, transférer les paramètres vous permettrait de le jouer de la même façon.
 
 Le transfert est recommandé si vous avez peu d'expérience en <Sheet(ClassJob,IntegerParameter(1),0)/>.
 
@@ -14680,6 +14736,9 @@ Les objets enregistrés en tant que mobilier insulaire peuvent être placés aut
 15583,"Explorer la caverne croulante"
 15584,"Sublimer votre Félicité insulaire"
 15585,"Livrés"
+15586,"Affichage initial lors de la planification"
+15587,"Planification"
+15588,"Besoins"
 15600,"Paramètres du filtre"
 15601,""
 15602,"Critères"
@@ -14711,6 +14770,18 @@ Les objets enregistrés en tant que mobilier insulaire peuvent être placés aut
 15732,"Eau de mer"
 15733,"Milieu choisi"
 15780,"Voir le profil <If(Equal(PlayerParameter(78),99))>PlayStation™Network<Else/>Xbox</If>"
+15781,"<If(GreaterThan(IntegerParameter(1),1))>=<Value>IntegerParameter(1)</Value><Else/></If>"
+15782,"Paramètres de substitution des actions"
+15783,""
+15784,"Vous pouvez sélectionner le com<SoftHyphen/>por<SoftHyphen/>te<SoftHyphen/>ment des actions lorsque les conditions de substitution sont réunies."
+15785,"Activer la substitution des actions"
+15786,"Activer le délai pour éviter une utilisation involontaire"
+15787,"Confirmer"
+15788,"Annuler"
+15789,"Quitter sans sauvegarder les changements<Indent/>?"
+15790,"Liste des actions basiques de récolte."
+15791,"Liste des actions basiques de synthèse."
+15792,"Un délai après la substitution empêchera une utilisation involontaire de l'action en cas d'appuis répétés."
 15800,"Affichage des noms"
 15801,""
 15802,"Général"
@@ -14787,14 +14858,14 @@ Confirmer<Indent/>?"
 15879,"Challenge Mog hebdomadaire"
 15880,"Challenge Mog Mog"
 15881,"Contenu qui peut être répété plusieurs fois pendant toute la durée de l'événement.
-Les mémoquartz allagois inhabituels sont reçus au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment à l'accomplissement de la mission."
+Les mémoquartz inhabituels sont reçus au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment à l'accomplissement de la mission."
 15882,"Contenu bonus qui ne peut être effectué qu'une fois par semaine.
 Chaque joueur se voit attribué un objectif différent.
-Les mémoquartz allagois inhabituels doivent être récupérés depuis le Guide Mog Mog."
+Les mémoquartz inhabituels doivent être récupérés depuis le Guide Mog Mog."
 15883,"Prochaine mise à jour<Indent/>: <Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>"
 15884,"Challenge qui ne peut être effectué qu'une fois par semaine.
 Il n'est nécessaire d'accomplir qu'un des deux objectifs.
-Les mémoquartz allagois inhabituels doivent être récupérés depuis le Guide Mog Mog."
+Les mémoquartz inhabituels doivent être récupérés depuis le Guide Mog Mog."
 15885,"Challenge qui ne peut être effectué qu'une fois pendant la durée de l'événement.
 Les mémoquartz allagois inhabituels doivent être récupérés depuis le Guide Mog Mog."
 15886,"Date limite"
@@ -14804,7 +14875,7 @@ Les mémoquartz allagois inhabituels doivent être récupérés depuis le Guide 
 15890,"Ouvrir l'outil de mission"
 15891,"Carte"
 15892,"Détails des récompenses"
-15893,"Mémoquartz allagois inhabituels disponibles"
+15893,"Mémoquartz inhabituels disponibles"
 15894,"Actuellement"
 15895,"Récompense reçue / expirée"
 15896,"Semaine <Value>IntegerParameter(1)</Value>"
@@ -14827,9 +14898,9 @@ Veuillez patienter jusqu'au prochain événement, kupo."
 15914,"Récompenses disponibles"
 15915,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>L'événement touche à sa fin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 15916,"<If(GreaterThan(IntegerParameter(3),0))><Clickable(<Sheet(InstanceContent,IntegerParameter(5),3)/>)/><Else/>???</If>
-Nv. <Value>IntegerParameter(7)</Value> <If(GreaterThan(IntegerParameter(1),0))><Clickable(<Sheet(ContentType,IntegerParameter(2),0)/>)/><Else/>???</If>"
+Nv <Value>IntegerParameter(7)</Value> <If(GreaterThan(IntegerParameter(1),0))><Clickable(<Sheet(ContentType,IntegerParameter(2),0)/>)/><Else/>???</If>"
 15917,"<Clickable(<SheetFr(Item,12,IntegerParameter(1),1,1)/>)/>"
-15918,"Nv.<Value>IntegerParameter(1)</Value> <Highlight>StringParameter(2)</Highlight>"
+15918,"Nv <Value>IntegerParameter(1)</Value> <Highlight>StringParameter(2)</Highlight>"
 15919,"Jusqu'à la fin de la <Sheet(CSBonusTextData,<Sheet(CSBonusSeason,IntegerParameter(1),10)/>,0)/>, <Sheet(CSBonusTextData,<Sheet(CSBonusSeason,IntegerParameter(1),11)/>,0)/>."
 15920,"<Time(IntegerParameter(1))/><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>"
 15921,"???"
@@ -14843,7 +14914,7 @@ ou “<Sheet(Quest,IntegerParameter(3),0)/>”."
 15927,"<If(Equal(IntegerParameter(4),2))>Accomplir <Value>IntegerParameter(8)</Value> <Sheet(ContentType,IntegerParameter(2),0)/> (<Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(5),5)/>,0)/> ou <Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(6),5)/>,0)/>).<Else/>Accomplir <Value>IntegerParameter(8)</Value> <Sheet(ContentType,IntegerParameter(2),0)/> (<Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(5),5)/>,0)/>).</If>"
 15928,"Remporter une partie de <Sheet(ContentType,IntegerParameter(2),0)/> contre <Sheet(ENpcResident,IntegerParameter(5),0)/> (<Sheet(PlaceName,<Sheet(TerritoryType,<Sheet(Level,IntegerParameter(10),9)/>,5)/>,0)/>)."
 15929,"Terminer un <Sheet(EventItem,<Sheet(MobHuntOrderType,IntegerParameter(5),2)/>,0)/>."
-15930,"Pêcher une prise (<Sheet(Item,<Sheet(FishParameter,IntegerParameter(5),1)/>,0)/>)."
+15930,"Pêcher une prise (<Sheet(Item,<Sheet(FishParameter,IntegerParameter(5),4)/>,0)/>)."
 15931,"<Clickable(<Sheet(PlaceName,<Sheet(TerritoryType,<Sheet(ContentFinderCondition,<Sheet(InstanceContent,IntegerParameter(5),8)/>,1)/>,5)/>,0)/>)/><Indent/>: Conquérir le <If(Equal(IntegerParameter(14),0))><Value>IntegerParameter(12)</Value>e sous-sol<Else/><Value>IntegerParameter(12)</Value>e étage</If>."
 15932,"Débloqué après avoir terminé la quête<Indent/>: “<Sheet(Quest,IntegerParameter(1),0)/>”."
 15933,"<If(Equal(IntegerParameter(4),2))>Débloqué après avoir atteint <Sheet(PlaceName,IntegerParameter(5),0)/> ou <Sheet(PlaceName,IntegerParameter(6),0)/>.<Else/>Débloqué après avoir atteint <If(GreaterThan(IntegerParameter(3),0))><Sheet(PlaceName,IntegerParameter(5),0)/><Else/>???</If>.</If>"
@@ -14857,10 +14928,39 @@ Voulez-vous afficher l'aide<Indent/>?
 15937,"Déchiffrer une <Sheet(Item,<Sheet(TreasureHuntRank,IntegerParameter(5),2)/>,0)/> et ouvrir le coffre auquel elle conduit."
 15938,"<If(GreaterThan(IntegerParameter(3),0))><Clickable(<Sheet(InstanceContent,IntegerParameter(5),3)/>)/><Else/>???</If>"
 15939,"<If(GreaterThan(IntegerParameter(1),0))><Sheet(ContentType,IntegerParameter(2),0)/><Else/>???</If>
-Nv. <Value>IntegerParameter(7)</Value>"
+Nv <Value>IntegerParameter(7)</Value>"
 15940,"Catégories"
 15941,"Accès au site promotionnel"
 15942,"Description"
+15943,"Pénétrer dans la cache au trésor en passant par le portail magique <Value>IntegerParameter(8)</Value> fois.
+* La chasse au trésor ne sera pas comptée si vous abandonnez en cours de route."
+15944,"Chasse aux trésors<Indent/>: cache au trésor"
+15945,"Chasse aux trésors<Indent/>: cache au trésor
+Nv <Value>IntegerParameter(7)</Value>"
+15946,"Déchiffrer n'importe quelle carte au trésor et ouvrir le coffre auquel elle conduit."
+15970,"Teinture 1"
+15971,"Teinture 2"
+15972,"Couleur sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née précédente<If(GreaterThan(IntegerParameter(1),0))><Indent/>: <Highlight>StringParameter(2)</Highlight><Else/></If>"
+15973,"Couleur sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née suivante<If(GreaterThan(IntegerParameter(1),0))><Indent/>: <Highlight>StringParameter(2)</Highlight><Else/></If>"
+15974,"Utiliser les teintures précédentes comme teintures 1 et 2"
+15975,"Inverser les teintures 1 et 2 actuelles"
+15976,""
+15977,"Choisir comme teinture favorite 1"
+15978,"Choisir comme teinture favorite 2"
+15979,"Utiliser comme teinture 1"
+15980,"Utiliser comme teinture 2"
+15981,"Aperçu de l'équipement avec la teinture 1 comme couleur principale"
+15982,"Aperçu de l'équipement avec la teinture 2 comme couleur principale"
+15983,"Aperçu de l'équipement avec la même couleur comme couleur secondaire"
+15984,"Teindre l'objet avec les couleurs sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>nées<Indent/>?"
+15985,"Teinture 1<Indent/>: <Highlight>StringParameter(1)</Highlight>"
+15986,"Teinture 2<Indent/>: <Highlight>StringParameter(1)</Highlight>"
+15987,"Les teintures suivantes seront utilisées."
+15988,"Rétablir l'apparence d'origine"
+15989,"Teintures précédentes"
+15990,"Teintures favorites"
+15991,"Utiliser les teintures favorites"
+15992,"Choix de la couleur"
 16001,""
 16002,""
 16003,""
@@ -14889,6 +14989,336 @@ Dans une manche de type survie, affiche dans l'ordre les joueurs éliminés."
 16024,"Quitter"
 16025,"Passer"
 16026,"Vous êtes <If(PlayerParameter(4))>éliminée<Else/>éliminé</If> et participez en mode spectateur. Étudiez le terrain pour faire mieux la prochaine fois<Indent/>!"
+16040,"Voir les variantes de couleur"
+16041,"Variantes de couleur"
+16042,""
+16043,"Essayer"
+16044,"Annuler"
+16050,"Accessoires de visage"
+16051,"Accessoires de visage"
+16052,""
+16053,"Style"
+16054,"Couleur"
+16055,"Total<Indent/>: <Value>IntegerParameter(1)</Value>"
+16060,"Ajouter au filtre de mots"
+16061,"Fonctions de blocage"
+16062,"Filtre de mots"
+16063,"Ajout"
+16064,"Mot filtré"
+16065,"<If(GreaterThan(IntegerParameter(1),IntegerParameter(2)))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><Else/></If><If(LessThan(IntegerParameter(1),IntegerParameter(3)))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><Else/></If><Value>IntegerParameter(1)</Value><If(GreaterThan(IntegerParameter(1),IntegerParameter(2)))><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(LessThan(IntegerParameter(1),IntegerParameter(3)))><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>/<Value>IntegerParameter(2)</Value>"
+16066,"Messages concernés"
+16067,"Enregistrer"
+16068,"Confirmer"
+16069,"Annuler"
+16070,"Filtre de mots"
+16071,"Liste"
+16072,"Le filtre de mots permet de cacher des messages contenant des mots déterminés."
+16073,"Supprimer"
+16074,"Appliqué à <Highlight>StringParameter(1)</Highlight>"
+16075,"Activer le filtre de mots"
+16076,"Paramètres"
+16077,"Filtre de mots"
+16078,"Paramètres"
+16079,"Effet en cas de message filtré"
+16080,"Remplacer le message par une notification"
+16081,"Cacher le message"
+16082,"Confirmer"
+16083,"Annuler"
+16084,"Le filtre <Value>IntegerParameter(1)</Value> (<Highlight>StringParameter(2)</Highlight>) sera supprimé. Continuer<Indent/>?"
+16085,"(Message masqué par le filtre <Value>IntegerParameter(1)</Value>)"
+16086,"Ajouter"
+16087,"Modifier"
+16100,"Règle la résolution de l'interface utilisateur.
+Selon le réglage choisi, l'apparence de l'ATH, des fenêtres, des icones d'actions et d'autres éléments de l'interface est modifiée.
+* La modification de ce paramètre nécessite de redémarrer le jeu.
+
+Standard (HD/Full HD)
+Réglage recommandé pour les résolutions 720p et 1080p.
+
+Haute définition (WQHD/4K)
+Réglage recommandé pour les résolutions 1440p et 2160p."
+16101,"Adapte au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment la résolution lorsque l'affichage des graphismes 3D exige des ressources trop importantes, dans le but de stabiliser le taux de rafraîchissement.<If(Equal(PlayerParameter(78),2))>
+* Lorsque le type de conversion ascendante choisi est “NVIDIA DLSS”, la résolution dynamique est gérée nativement et la présente option est sans effet.
+
+Le taux de rafraîchissement souhaité peut être déterminé en changeant le seuil d'activation de la résolution dynamique.<Else/></If><If(Equal(PlayerParameter(78),3))>
+Le taux de rafraîchissement souhaité peut être déterminé en changeant le seuil d'activation de la résolution dynamique.<Else/></If>"
+16102,"Règle la qualité d'affichage des graphismes 3D.
+Une valeur entre 50 et 100% peut être choisie afin d'influencer les performances.<If(Equal(PlayerParameter(78),2))>
+* Lorsque le type de conversion ascendante choisi est “NVIDIA DLSS”, la résolution des graphismes 3D est gérée nativement et la présente option est sans effet.<Else/></If>"
+16103,"Sélectionne la technologie de conversion ascendante utilisée.
+
+NVIDIA DLSS (Deep Learning Super Sampling)
+Technologie permettant de générer des images en haute résolution à partir d'images en basse résolution grâce à l'ap<SoftHyphen/>pren<SoftHyphen/>tis<SoftHyphen/>sage profond.
+* Une carte graphique GeForce RTX est nécessaire pour activer cette option.
+
+AMD FSR (FidelityFX Super Resolution)
+Technologie permettant de générer des images en haute résolution à partir d'images en basse résolution à l'aide d'une mise à l'échelle."
+16104,"Réduit le niveau de détail des objets 3D selon leur éloignement du point de vision.
+L'affichage des personnages et des éléments du décor éloignés est simplifié afin de conserver une certaine qualité visuelle tout en améliorant les performances."
+16105,"Détermine si l'herbe réagit au contact des personnages ou si elle reste figée."
+16106,"Détermine la quantité de reflets des objets ou des sources de lumière sur le sol ou les surfaces aquatiques."
+16107,"Active ou désactive l'anticrénelage et sélectionne la technologie utilisée le cas échéant.
+L'anticrénelage est une fonction permettant d'atténuer les effets d'escalier en corrigeant les contours des objets afin qu'ils s'intègrent na<SoftHyphen/>tu<SoftHyphen/>rel<SoftHyphen/>le<SoftHyphen/>ment à l'arrière-plan."
+16108,"Ajuste la qualité de l'éclairage.
+Lorsque l'option “Moyenne” est sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née, le traitement de certains effets de lumière est simplifié afin d'améliorer les performances."
+16109,"Active ou désactive l'affichage des détails de l'herbe, et détermine la quantité de détails le cas échéant."
+16110,"Ajuste la qualité des détails du décor.
+Grâce à une technologie communément appelée “parallax mapping”, les reliefs du décor peuvent être accentués pour obtenir un rendu plus réaliste."
+16111,"Ajuste la qualité des reliefs de l'eau.
+Grâce à une technologie communément appelée “tessellation”, les reliefs des surfaces aquatiques peuvent être accentués pour obtenir un rendu plus réaliste."
+16112,"Active ou désactive la réverbération sur les surfaces aquatiques."
+16113,"Active ou désactive l'affichage des ombres pour le personnage joueur, les équipiers, les autres personnages et les ennemis. Les réglages peuvent être effectués indépendamment pour influer sur les performances."
+16114,"Réduit le niveau de détail des ombres des personnages selon leur éloignement du point de vision.
+L'affichage des ombres des personnages éloignés est simplifié afin de conserver une certaine qualité visuelle tout en améliorant les performances."
+16115,"Réduit le niveau de détail des ombres du décor selon leur éloignement du point de vision.
+L'affichage des ombres du décor éloigné est simplifié afin de conserver une certaine qualité visuelle tout en améliorant les performances."
+16116,"Règle la résolution des textures dédiées à l'affichage des ombres.
+Plus la résolution est élevée, plus les ombres s'affichent de manière détaillée."
+16117,"Règle la distance d'affichage des ombres.
+Plus le paramètre est élevé, plus les ombres à distance s'affichent de manière réaliste, mais l'impact sur la performance augmente en conséquence."
+16118,"Applique un floutage aux bords des ombres.
+Cette option permet de rendre les ombres plus naturelles et réalistes."
+16119,"Règle la résolution des textures dédiées à l'affichage des graphismes 3D des personnages et des décors.
+* La modification de ce paramètre nécessite de redémarrer le jeu."
+16120,"Règle le filtre de textures des graphismes 3D.
+
+Anisotrope
+Les textures sont échantillonnées pour être clairement visibles en fonction de l'angle de vision.
+
+Trilinéaire
+Les transitions entre objets distants sont réduites.
+
+Bilinéaire
+Ajuste la couleur des pixels adjacents pour appliquer un effet naturel aux textures."
+16121,"Définit la précision du filtrage anisotrope qui échantillonne les textures afin qu'elles soient clairement visibles en fonction de l'angle de vision.
+Plus le chiffre est élevé, plus les textures sont lisses."
+16122,"Détermine la quantité de mouvements des éléments physiques.
+Les catégories peuvent être modifiées séparément en fonction de leur impact sur la performance."
+16123,"Assombrit les bords de l'écran.
+Cette option permet de réduire graduellement la luminosité entre le centre et les extrémités de l'écran."
+16124,"Crée un effet de flou sur les radiations à l'écran.
+Cette option augmente le flou du centre de l'écran vers les bords lors d'effets visuels tels que les explosions."
+16125,"Règle la qualité de l'occlusion ambiante d'espace d'écran (SSAO).
+Cette option crée des ombres naturelles lorsque les éléments du jeu se rapprochent de la caméra, ce qui crée un effet tridimensionnel."
+16126,"Règle l'effet d'éblouissement des reflets lumineux.
+Cette option agit sur la diffusion naturelle de la lumière réfléchie."
+16127,"Règle l'affichage des paysages sous-marins en fonction du mouvement de l'eau."
+16128,"Crée un effet de profondeur de champ.
+Cette option utilise les paramètres de l'appareil photo et de l'objectif pour flouter les zones extérieures à la mise au point.
+* La profondeur de champ est uniquement appliquée durant les scènes cinématiques et la pose de groupe."
+16129,"Règle la qualité graphique.
+Une qualité graphique élevée permet de représenter des détails réalistes tels que des aspérités en arrière-plan et des reflets lumineux sur les surfaces."
+16130,"Sélectionne l'écran principal.
+Si plusieurs moniteurs sont connectés, cette option permet d'afficher prioritairement le jeu sur l'écran principal.
+* La modification de ce paramètre nécessite de redémarrer le jeu."
+16131,"Règle le mode d'affichage.
+
+Fenêtre
+Affiche le jeu dans une fenêtre.
+
+Fenêtre sans bords
+Affiche le jeu en plein écran dans une fenêtre sans bords.
+
+Plein écran
+Affiche le jeu en plein écran sans fenêtre."
+16132,"Règle la résolution.
+
+Prédéfinie
+Les options dépendent des résolutions prises en charge par l'écran défini comme affichage principal.
+En mode plein écran, les options dépendent du taux de rafraîchissement (en hertz) de l'écran.
+
+Personnalisée
+La largeur et la hauteur peuvent être librement ajustées.
+* Ce paramètre s'applique uniquement au mode fenêtre."
+16133,"Règle la taille des éléments de l'interface utilisateur.
+Plus la résolution est élevée, plus la taille de l'interface utilisateur diminue. Cette option permet de redimensionner l'interface utilisateur quelle que soit la résolution.
+* Lorsque la résolution est inférieure à celle réglée par défaut, celle de l'interface utilisateur s'adapte au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment."
+16134,"Règle la taille par défaut de tous les éléments de l'interface utilisateur du jeu.
+Cette option sert de paramètre par défaut pour l'interface utilisateur standard, bien que la taille de chaque élément puisse être réglée individuellement.
+Suite au réglage, chaque élément s'ouvre en conséquence dans cette taille.
+En cas de disparité, l'option “Appliquer pour tout” peut être sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>née pour appliquer le réglage défini à tous les éléments."
+16135,"La correction gamma est une fonction qui ajuste le niveau de luminosité, variable selon les différents types d'écran, pour vous permettre d'obtenir un rendu plus fidèle."
+16136,"Cette fonction permet de régler le niveau de luminosité appliqué à votre personnage."
+16137,"Règle le nombre maximum d'images par seconde générées par le jeu.
+
+Sans limite
+Le taux de rafraîchissement est libre, pouvant atteindre le maximum que votre machine peut afficher.
+
+Écran principal
+Accorde le nombre maximum d'images par seconde du jeu avec celui de votre écran principal.
+
+60 img/s
+Bloque le taux de rafraîchissement à 60 images par seconde.
+Il s'agit du mode par défaut de FINAL FANTASY XIV
+
+30 img/s
+Bloque le taux de rafraîchissement à 30 images par seconde."
+16138,"Définit une limite du nombre d'images par seconde lorsque le jeu est inactif. Cette fonction permet de réduire la charge de calcul de votre machine lorsque différentes applications sont utilisées en parallèle du jeu."
+16139,"Limite le nombre d'images par seconde lorsque le jeu est actif, mais que votre personnage est en état “Absent(e)”. Cette fonction permet de réduire la charge de calcul de votre machine."
+16140,"Règle la résolution d'affichage du jeu.
+
+<If(Equal(PlayerParameter(75),4))>FullHD
+Règle la résolution à 1920x1080.
+Ce mode est recommandé pour obtenir les meilleures performances.
+
+WQHD
+Règle la résolution à 2560x1440.
+Ce mode présente un bon équilibre entre performance et qualité visuelle.
+
+4K
+Règle la résolution à 3840x2160.
+Ce mode privilégie la qualité visuelle sur la rapidité du taux de rafraîchissement.<Else/></If><If(Equal(PlayerParameter(106),99))>FullHD
+Règle la résolution à 1920x1080.
+Ce mode est recommandé pour obtenir les meilleures performances.
+WQHD
+Règle la résolution à 2560x1440.
+Ce mode présente un bon équilibre entre performance et qualité visuelle.
+
+4K
+Règle la résolution à 3840x2160.
+Ce mode privilégie la qualité visuelle sur la rapidité du taux de rafraîchissement.<Else/></If><If(Equal(PlayerParameter(78),99))><If(Equal(PlayerParameter(75),4))><Else/>PS4 Standard
+Règle la résolution à 1920x1080 (Full HD).
+
+PS4 Pro
+Règle la résolution à 2560x1440 (WQHD).</If><Else/></If>"
+16141,"Règle la taille des éléments de l'interface utilisateur.
+Plus la résolution est élevée, plus la taille de l'interface utilisateur diminue. Cette option permet de redimensionner l'interface utilisateur quelle que soit la résolution.
+* Lorsque la résolution est inférieure à celle réglée par défaut, celle de l'interface utilisateur s'adapte au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment."
+16142,"Définit la mise à l'échelle automatique de l'interface utilisateur avec la résolution d'affichage. En choisissant une résolution élevée, il se peut que l'interface utilisateur soit trop réduite pour être lisible. En activant cette option, votre interface conservera la même proportion lorsque vous changez de résolution."
+16143,"Règle le nombre d'ombres générées dynamiquement par les lumières.
+Les ombres sont au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment générées lorsque le personnage est éclairé, ce qui offre un rendu plus réaliste."
+16144,"Limite le taux de rafraîchissement à 30 img/s."
+16200,"Autorité des occupants"
+16201,""
+16202,"Permet d'attribuer les droits d'expulsion de votre logement, et de consulter les mesures en place.
+Pour plus d'in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions, sélectionner le bouton d'aide sur la droite."
+16203,"Explications"
+16204,"Paramètres de l'autorité d'expulsion"
+16205,"Autorité principale"
+16206,"Autorité secondaire"
+16207,"Décocher la case permet de désactiver l'application de la liste noire du personnage correspondant."
+16208,"Retire l'autortié secondaire du personnage sélectionné."
+16209,"Ajouter des autorités secondaires"
+16210,"Personnages expulsés"
+16211,"Confirmer"
+16212,"Annuler"
+16213,"Appliquer les changements<Indent/>?"
+16214,"Quitter sans sauvegarder les changements<Indent/>?"
+16215,"Autorité des occupants"
+16216,""
+16217,"Membres de la compagnie libre"
+16218,"Cohabitant de la maison"
+16219,"Personnages expulsés"
+16220,""
+16221,"Nom"
+16222,"Monde"
+16223,"Temps restant"
+16224,"<If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>jour<Else/>jours</If><Else/>Moins d'un jour</If>"
+16225,"Retirer <Highlight>StringParameter(1)</Highlight> de la liste des expulsés et l'autoriser à entrer dans votre logement<Indent/>?"
+16226,"Retirer de la liste"
+16227,"Gestion des invités indésirables"
+16228,"Ajouter à la liste des expulsés"
+16229,"Tous les personnages enregistrés sur ce compte seront interdits d'accès au logement pendant 10 jours. Êtes-vous sûr de vouloir les ajouter à la liste des expulsés<Indent/>?
+
+* Seule l'autorité principale peut lever l'expulsion via la fenêtre “Communication” du menu principal."
+16230,"Enregistrer dans la liste d'expulsion"
+16231,"Autorité des occupants"
+16232,""
+16233,"Aucun paramètre"
+16234,"Aucun"
+16235,"Cette liste est vide."
+16280,"Afficher les paramètres avancés"
+16281,"Sons"
+16282,"Sonnerie"
+16283,"Cliquer pour copier"
+16284,"Ne pas jouer pendant une mission"
+16285,"Rappel (minutes en temps réel)"
+16286,"Fermer sans sauvegarder<Indent/>?"
+16287,"Oui"
+16288,"Non"
+16290,"Boîte à musique"
+16291,"Prélude"
+16292,"Chocobo"
+16293,"La Noscea"
+16294,"Festival"
+16300,"Personnalisée"
+16301,"<If(Equal(PlayerParameter(78),3))>Maximums (Mac)<Else/>Maximums</If>"
+16302,"<If(Equal(PlayerParameter(78),3))>Très élevés (Mac)<Else/>Élevés (PC de bureau)</If>"
+16303,"<If(Equal(PlayerParameter(78),3))>Élevés (Mac)<Else/>Élevés (PC portable)</If>"
+16304,"<If(Equal(PlayerParameter(78),3))>Moyens (Mac)<Else/>Moyens (PC de bureau)</If>"
+16305,"<If(Equal(PlayerParameter(78),3))>Standards (Mac)<Else/>Moyens (PC portable)</If>"
+16306,"Certaines options graphiques ont été personnalisées."
+16307,"<If(Equal(PlayerParameter(78),3))>Les paramètres graphiques les plus élevés.<Else/>Les paramètres graphiques les plus élevés.
+Recommandés uniquement pour les configurations haut de gamme.</If>"
+16308,"<If(Equal(PlayerParameter(78),3))>Paramètres graphiques supérieurs pour les modèles haut de gamme.<Else/>Paramètres graphiques optimisés pour les ordinateurs remplissant les conditions de la configuration recommandée (ordinateurs de bureau).</If>"
+16309,"<If(Equal(PlayerParameter(78),3))>Paramètres graphiques optimisés pour les modèles haut de gamme.<Else/>Paramètres graphiques optimisés pour les machines remplissant les conditions de la configuration recommandée (ordinateurs portables).</If>"
+16310,"<If(Equal(PlayerParameter(78),3))>Paramètres graphiques donnant une meilleure qualité d'image pour les modèles recommandés.<Else/>Paramètres équilibrés, offrant un bon confort de jeu tout en conservant la qualité graphique (ordinateurs de bureau).</If>"
+16311,"<If(Equal(PlayerParameter(78),3))>Paramètres équilibrés, offrant un bon confort de jeu pour les modèles recommandés.<Else/>Paramètres équilibrés, offrant un bon confort de jeu tout en conservant la qualité graphique (ordinateurs portables).</If>"
+16312,"Standard (HD/Full HD)"
+16313,"Haute définition (WQHD/4K)"
+16314,"NVIDIA DLSS"
+16315,"AMD FSR"
+16316,"Sous 30 img/s"
+16317,"Sous 60 img/s"
+16318,"Toujours activée"
+16319,"Maximums"
+16320,"Élevés"
+16321,"Moyens"
+16322,"Désactivés"
+16323,"TSCMAA"
+16324,"TSCMAA + caméra instable"
+16325,"FXAA"
+16326,"Désactivé"
+16327,"Élevée"
+16328,"Moyenne"
+16329,"Maximums"
+16330,"Moyens"
+16331,"Simplifiés"
+16332,"Ne pas afficher"
+16333,"Élevés"
+16334,"Moyens"
+16335,"Élevés"
+16336,"Moyens"
+16337,"Moyenne"
+16338,"Désactivée"
+16339,"Élevée<Indent/>: 2048 pixels"
+16340,"Moyenne<Indent/>: 1024 pixels"
+16341,"Basse<Indent/>: 512 pixels"
+16342,"Optimales"
+16343,"Moyennes"
+16344,"Désactivées"
+16345,"Maximum"
+16346,"Fort"
+16347,"Faible"
+16348,"Maximum"
+16349,"Moyenne"
+16350,"Faible"
+16351,"Détaillée"
+16352,"Normale"
+16353,"Anisotrope"
+16354,"Trilinéaire"
+16355,"Bilinéaire"
+16356,"x16"
+16357,"x8"
+16358,"x4"
+16359,"GTAO<Indent/>: Élevée"
+16360,"GTAO<Indent/>: Moyenne"
+16361,"HBAO+<Indent/>: Élevée"
+16362,"HBAO+<Indent/>: Moyenne"
+16363,"Élevée"
+16364,"Basse"
+16365,"Désactivée"
+16366,"Moyens"
+16367,"Bas"
+16368,"Désactivés"
+16369,"Normales"
+16370,"Basses"
+16371,"Désactivées"
+16372,"GTAO<Indent/>: Élevée"
+16373,"GTAO<Indent/>: Moyenne"
+16374,"Élevée"
+16375,"Basse"
+16376,"Désactivée"
 101000,"<CommandIcon(10)/> Sous-menu"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Sélectionner"
@@ -14906,8 +15336,6 @@ Dans une manche de type survie, affiche dans l'ordre les joueurs éliminés."
 101033,"<CommandIcon(10)/> Sous-menu  <CommandIcon(1)/> Sélection du log   <CommandIcon(2)/> Sélection de l'onglet <CommandIcon(11)/> Agrandissement du log"
 101034,"<CommandIcon(10)/> Sous-menu  <CommandIcon(9)/> Discussion  <CommandIcon(11)/> Agrandissement du log"
 101035,"<CommandIcon(10)/> Sous-menu  <CommandIcon(9)/> Discussion  <CommandIcon(11)/> Réinitialise la taille du log"
-101036,"<CommandIcon(5)/> Historique  <CommandIcon(10)/> Effacer  <CommandIcon(13)/> Traduction automatique  <If(PlayerParameter(94))><If(Equal(PlayerParameter(78),99))><CommandIcon(11)/> Clavier virtuel<Else/><CommandIcon(11)/> Clavier visuel</If><Else/><Indent/></If>"
-101037,"<CommandIcon(3)/> Précédent  <CommandIcon(4)/> Suivant  <CommandIcon(13)/> Traduction automatique  <If(PlayerParameter(94))><If(Equal(PlayerParameter(78),99))><CommandIcon(11)/> Clavier virtuel<Else/><CommandIcon(11)/> Clavier visuel</If><Else/><Indent/></If>"
 101038,"<CommandIcon(10)/> Sous-menu  <CommandIcon(11)/> Appliquer"
 101039,"<CommandIcon(11)/> Appliquer  <CommandIcon(10)/> Supprimer les paramètres"
 101040,"<CommandIcon(11)/> Sauvegarder les paramètres"
@@ -15218,8 +15646,8 @@ Dans une manche de type survie, affiche dans l'ordre les joueurs éliminés."
 102259,"Classe/job requis<Indent/>: <Sheet(ClassJobCategory,IntegerParameter(1),0)/>"
 102260,"niveau <Value>IntegerParameter(1)</Value>"
 102261,"Mission requise<Indent/>: <Sheet(InstanceContent,IntegerParameter(1),3)/>"
-102262,"Aucune quête tribale quotidienne acceptée avant aujourd'hui ne doit être en cours"
-102263,"Quota de quêtes tribales quotidiennes du jour"
+102262,"Aucune quête quotidienne des peuples alliés acceptée avant aujourd'hui ne doit être en cours"
+102263,"Quota de quêtes quotidiennes du jour"
 102264,"Effectuer la quête pendant l'événement saisonnier correspondant"
 102265,"Avoir une maison ou un appartement, ou bien bénéficier d'un partage de maison.
 
@@ -15301,16 +15729,16 @@ Continuer<Indent/>?"
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* Cette bataille est sujette à la synchronisation de quête.
 Si les ca<SoftHyphen/>rac<SoftHyphen/>té<SoftHyphen/>ris<SoftHyphen/>ti<SoftHyphen/>ques de votre personnage dépassent un certain niveau, elles seront ajustées de la façon suivante<Indent/>:
-Niveau<Indent/>: <Sheet(QuestBattle,IntegerParameter(2),3)/><If(GreaterThan(IntegerParameter(3),0))>
-Niveau d'objet moyen<Indent/>: <Value>IntegerParameter(3)</Value><Else/></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+ Niveau<Indent/>: <Sheet(QuestBattle,IntegerParameter(2),3)/><If(GreaterThan(IntegerParameter(3),0))>
+ Niveau d'objet moyen<Indent/>: <Value>IntegerParameter(3)</Value><Else/></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 102422,"Continuer"
 102423,"Annuler"
 102424,"Commencer la bataille de la quête “<Highlight>StringParameter(1)</Highlight>”<Indent/>?
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>* Cette bataille est sujette à la synchronisation de quête.
 Si les ca<SoftHyphen/>rac<SoftHyphen/>té<SoftHyphen/>ris<SoftHyphen/>ti<SoftHyphen/>ques de votre personnage dépassent un certain niveau, elles seront ajustées de la façon suivante<Indent/>:
-Niveau<Indent/>: <Value>IntegerParameter(2)</Value><If(GreaterThan(IntegerParameter(3),0))>
-Niveau d'objet moyen<Indent/>: <Value>IntegerParameter(3)</Value><Else/></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+ Niveau<Indent/>: <Value>IntegerParameter(2)</Value><If(GreaterThan(IntegerParameter(3),0))>
+ Niveau d'objet moyen<Indent/>: <Value>IntegerParameter(3)</Value><Else/></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 102425,"Continuer"
 102426,"Annuler"
 102429,"Le niveau recommandé pour la bataille de la quête “<Highlight>StringParameter(1)</Highlight>” est supérieur au vôtre. Êtes-vous sûr<If(PlayerParameter(4))>e<Else/></If> de vouloir lancer le combat<Indent/>?"
@@ -15319,7 +15747,7 @@ Si les ca<SoftHyphen/>rac<SoftHyphen/>té<SoftHyphen/>ris<SoftHyphen/>ti<SoftHyp
 102433,"L'objet échangé est serti d'une ou plusieurs matérias qui ne seront pas restituées. Continuer<Indent/>?"
 102434,"Un ou plusieurs objets échangés sont de haute qualité. Voulez-vous vraiment continuer<Indent/>?"
 102441,"Annuler"
-102442,"Quêtes tribales"
+102442,"Quêtes quotidiennes"
 102443,""
 102444,"Quota quotidien restant<Indent/>: <Value>IntegerParameter(1)</Value>"
 102445,"Voulez-vous commencer l'ALÉA “<Sheet(Fate,IntegerParameter(1),0)/>”<Indent/>?"
@@ -15393,7 +15821,7 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 102512,"Réputation"
 102513,"Honneurs"
 102514,"<Value>IntegerParameter(1)</Value>"
-102515,"Rapport avec les tribus"
+102515,"Rapport avec les peuples alliés"
 102516,"<Highlight>StringParameter(1)</Highlight>"
 102517,"<Sheet(BeastTribe,IntegerParameter(1),10)/>"
 102518,"<UIForeground>E803</UIForeground><Value>IntegerParameter(1)</Value>.<If(Equal(IntegerParameter(3),0))> <Sheet(BeastReputationRank,IntegerParameter(1),1)/><Else/> <Sheet(BeastReputationRank,IntegerParameter(1),2)/></If><UIForeground>01</UIForeground>"

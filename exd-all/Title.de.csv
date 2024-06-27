@@ -724,5 +724,36 @@ int32,str,str,bit&01,uint16
 720,"vom finalen Konflikt","vom finalen Konflikt",False,1783
 721,"vom endlosen Konflikt","vom endlosen Konflikt",False,1784
 722,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1785
-723,"epischer Held","epische Heldin",True,1786
+723,"Epischer Held","Epische Heldin",True,1786
 724,"Meisterperfektionierer","Meisterperfektioniererin",True,1787
+725,"Richter des Krieges","Richterin des Krieges",True,1788
+726,"Richter der Magie","Richterin der Magie",True,1789
+727,"Richter des Handwerks","Richterin des Handwerks",True,1790
+728,"Richter des Landes","Richterin des Landes",True,1791
+729,"auf neuen Pfaden","auf neuen Pfaden",False,1792
+730,"Friedenssucher","Friedenssucherin",True,1793
+731,"Sonnenkrone","Sonnenkrone",True,1794
+732,"Kuppelbrecher","Kuppelbrecherin",True,1795
+733,"Rittermeister Alexandrias","Rittermeisterin Alexandrias",False,1796
+734,"der Morgendämmerung","der Morgendämmerung",False,1797
+735,"Zwillingsfang","Zwillingsfang",True,1798
+736,"Pikto-Virtuose","Pikto-Virtuosin",False,1799
+737,"der tausend Essen","der tausend Essen",False,1800
+738,"der tausend Werke","der tausend Werke",False,1801
+739,"der tausend Tropfen","der tausend Tropfen",False,1802
+740,"der tausend Schätze","der tausend Schätze",False,1803
+741,"der tausend Netze","der tausend Netze",False,1804
+742,"Goldherz","Goldherz",True,1805
+743,"des edlen Eides","des edlen Eides",False,1806
+744,"des edlen Willens","des edlen Willens",False,1807
+745,"der edlen Schwärze","der edlen Schwärze",False,1808
+746,"des edlen Herzens","des edlen Herzens",False,1809
+747,"von der bunten Feder","von der bunten Feder",False,1810
+748,"Todesschwinge","Todesschwinge",True,1811
+749,"","",False,0
+750,"","",False,0
+751,"","",False,0
+752,"Praktisch Pelupelu","Praktisch Pelupelu",True,1815
+753,"vom finalen Konflikt","vom finalen Konflikt",False,1816
+754,"vom endlosen Konflikt","vom endlosen Konflikt",False,1817
+755,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1818

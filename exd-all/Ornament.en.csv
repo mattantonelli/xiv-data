@@ -23,22 +23,30 @@ int32,uint16,byte,byte,byte,uint16,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,
 19,3428,3,0,2,0,18,"ui/icon/008000/008019.tex",101,"Diabolos Wings",0,"Diabolos Wings",0,0,1,0,1
 20,3429,6,0,2,0,19,"ui/icon/008000/008020.tex",102,"Pixie Wings",0,"Pixie Wings",0,0,1,0,1
 21,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
-22,3431,5,0,2,0,21,"ui/icon/008000/008022.tex",200,"False Spectacles",0,"False Spectacles",0,0,1,0,1
+22,3431,5,0,2,0,21,"ui/icon/000000/000786.tex",200,"False Spectacles",0,"False Spectacles",0,0,1,0,1
 23,3611,1,1,1,2,22,"ui/icon/008000/008023.tex",16,"White Lace Parasol",0,"White Lace Parasols",0,0,1,0,0
 24,3612,1,1,1,2,23,"ui/icon/008000/008024.tex",17,"Blue Blossom Parasol",0,"Blue Blossom Parasols",0,0,1,0,0
-25,3613,5,0,2,0,24,"ui/icon/008000/008025.tex",201,"False Shaded Spectacles",0,"False Shaded Spectacles",0,0,1,0,1
-26,3614,7,0,2,0,25,"ui/icon/008000/008026.tex",202,"False Classic Spectacles",0,"False Classic Spectacles",0,0,1,0,1
+25,3613,5,0,2,0,24,"ui/icon/000000/000786.tex",201,"False Shaded Spectacles",0,"False Shaded Spectacles",0,0,1,0,1
+26,3614,7,0,2,0,25,"ui/icon/000000/000786.tex",202,"False Classic Spectacles",0,"False Classic Spectacles",0,0,1,0,1
 27,3701,1,1,1,2,26,"ui/icon/008000/008027.tex",18,"Sabotender Parasol",0,"Sabotender Parasols",0,0,1,0,1
 28,3702,6,0,2,0,27,"ui/icon/008000/008028.tex",102,"Bluepowder Pixie Wings",0,"Bluepowder Pixie Wings",0,0,1,0,1
 29,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
 30,3815,1,1,1,2,28,"ui/icon/008000/008029.tex",19,"Felicitous Furball Umbrella",0,"Felicitous Furball Umbrellas",0,0,1,0,0
 31,3816,1,1,1,2,29,"ui/icon/008000/008030.tex",20,"Raindrop Defense System",0,"Raindrop Defense Systems",0,0,1,0,0
-32,3884,8,0,2,0,30,"ui/icon/008000/008033.tex",203,"Rose-colored Spectacles",0,"Rose-colored Spectacles",0,0,1,0,0
+32,3884,8,0,2,0,30,"ui/icon/000000/000786.tex",203,"Rose-colored Spectacles",0,"Rose-colored Spectacles",0,0,1,0,0
 33,3885,1,1,1,2,31,"ui/icon/008000/008031.tex",22,"Tsukumogami Parasol",0,"Tsukumogami Parasols",0,0,1,0,0
 34,3886,1,1,1,2,32,"ui/icon/008000/008032.tex",21,"Tactful Taskmaster Umbrella",0,"Tactful Taskmaster Umbrellas",0,0,1,0,0
 35,3928,9,0,2,0,33,"ui/icon/008000/008037.tex",300,"Knapsack",0,"Knapsacks",0,0,1,0,0
 36,4016,6,0,2,0,34,"ui/icon/008000/008034.tex",103,"Statice's Wings",0,"Statice's Wings",0,0,1,0,0
 37,4017,1,1,1,2,35,"ui/icon/008000/008035.tex",24,"Giant Leaf Parasol",0,"Giant Leaf Parasols",0,0,1,0,0
 38,4018,1,1,1,2,36,"ui/icon/008000/008036.tex",23,"Colorful Carrotsol",0,"Colorful Carrotsols",0,0,1,0,0
-39,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+39,4240,1,1,1,2,37,"ui/icon/008000/008038.tex",25,"Neon Parasol",0,"Neon Parasols",0,0,1,0,0
 40,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+41,4242,1,1,1,2,39,"ui/icon/008000/008040.tex",27,"Bomb Parasol",0,"Bomb Parasols",0,0,1,0,0
+42,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+43,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+44,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+45,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+46,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+47,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+48,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0

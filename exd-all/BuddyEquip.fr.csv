@@ -97,3 +97,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 93,"barde de Chamoiselle",0,"bardes de Chamoiselle",0,0,1,1,0,"Barde de Chamoiselle",65624,65624,65624,"None","ui/icon/058000/058780.tex","ui/icon/058000/058782.tex","ui/icon/058000/058781.tex",78
 94,"barde de Zeromus",0,"bardes de Zeromus",0,0,1,1,0,"Barde de Zeromus",65625,65625,65625,"None","ui/icon/058000/058783.tex","ui/icon/058000/058785.tex","ui/icon/058000/058784.tex",157
 95,"barde d'arpenteur",0,"bardes d'arpenteur",0,0,1,1,0,"Barde d'arpenteur",65626,65626,65626,"None","ui/icon/058000/058786.tex","ui/icon/058000/058788.tex","ui/icon/058000/058787.tex",79
+96,"barde turalienne",0,"bardes turaliennes",0,0,1,1,0,"Barde turalienne",65627,65627,65627,"None","ui/icon/058000/058789.tex","ui/icon/058000/058791.tex","ui/icon/058000/058790.tex",80
+97,"barde de Valigarmanda",0,"bardes de Valigarmanda",0,0,1,1,0,"Barde de Valigarmanda",65628,65628,65628,"None","ui/icon/058000/058792.tex","ui/icon/058000/058794.tex","ui/icon/058000/058793.tex",161
+98,"barde en électrope",0,"bardes en électrope",0,0,1,1,0,"Barde en électrope",65629,65629,65629,"None","ui/icon/058000/058795.tex","ui/icon/058000/058797.tex","ui/icon/058000/058796.tex",162
+99,"barde des contrées sauvages",0,"bardes des contrées sauvages",0,0,1,1,0,"Barde des contrées sauvages",65630,65630,65630,"None","ui/icon/058000/058798.tex","ui/icon/058000/058800.tex","ui/icon/058000/058799.tex",83
+100,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+101,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+102,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+103,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
