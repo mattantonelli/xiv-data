@@ -10,8 +10,8 @@ ECHO Setting SC definition to the latest game version...
 COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 
 ECHO [%TIME%] Extracting game data...
-.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BannerBg BannerDecoration BannerFrame BuddyEquip CharaCardBase CharaCardDecoration CharaCardHeader Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory ENpcBase ENpcResident Item Leve LeveAssignmentType MinionRace MinionSkillType Mount MountTransient MYCWarResultNotebook Orchestrion OrchestrionCategory Ornament PlaceName Quest SpecialShop TextCommand Title TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule VVDNotebookContents VVDNotebookSeries"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction BannerCondition Cabinet CabinetCategory CharaMakeCustomize CraftLeve Emote GCScripShopItem GilShopItem InstanceContent Item ItemAction Level Map OrchestrionPath OrchestrionUiParam PvPSeries Recipe SpecialShop TripleTriad VVDNotebookSeries"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BannerBg BannerDecoration BannerFrame BuddyEquip CharaCardBase CharaCardDecoration CharaCardHeader Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory ENpcBase ENpcResident GlassesStyle Item Leve LeveAssignmentType MinionRace MinionSkillType Mount MountTransient MYCWarResultNotebook Orchestrion OrchestrionCategory Ornament PlaceName Quest SpecialShop TextCommand Title TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule VVDNotebookContents VVDNotebookSeries"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction BannerCondition Cabinet CabinetCategory CharaMakeCustomize CraftLeve Emote GCScripShopItem GilShopItem Glasses InstanceContent Item ItemAction Level Map OrchestrionPath OrchestrionUiParam PvPSeries Recipe SpecialShop TripleTriad VVDNotebookSeries"
 
 ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 070999"
@@ -20,6 +20,7 @@ ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 087000 088999"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 190000 199999"
 .\SaintCoinach.Cmd.exe %GAMEPATH% "uihd 130000 139999"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "uihd 200001 200999"
 for /d %%i in (%DATAPATH%\ui\icon\*) do (cd "%%i" & rmdir /S /Q hq 2>NUL)
 CD "%DATAPATH%\.."
 
