@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13
-#,,,Icon,,Singular,,Plural,,,,,,Description,Name
+#,,GlassesStyle,Icon,,Singular,,Plural,,,,,,Description,Name
 int32,uint32,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,str
 0,0,-1,0,0,"",0,"",0,0,1,0,0,"",""
 1,71037,0,200049,0,"pair of oval spectacles",0,"pairs of oval spectacles",0,0,1,0,0,"A piece of undyed facewear.","Oval Spectacles"
