@@ -5127,9 +5127,9 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5099,"",0,"",0,0,1,0,0,"",0,0,0
 5100,"",0,"",0,0,1,0,0,"",0,0,0
 5101,"Vurgar-Waffenlager",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Vurgar-Waffenlager</Case><Case(2)>im Vurgar-Waffenlager</Case><Case(3)>das Vurgar-Waffenlager</Case></Switch>",0,0,0
-5102,"",0,"",0,0,0,0,0,"",0,0,0
-5103,"",0,"",0,0,0,0,0,"",0,0,0
-5104,"",0,"",0,0,0,0,0,"",0,0,0
+5102,"Liebesring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Liebesring</Case><Case(2)>im Liebesring</Case><Case(3)>der Liebesring</Case></Switch>",0,0,0
+5103,"Donnerring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Donnerring</Case><Case(2)>im Donnerring</Case><Case(3)>der Donnerring</Case></Switch>",0,0,0
+5104,"Katzenring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Katzenring</Case><Case(2)>im Katzenring</Case><Case(3)>der Katzenring</Case></Switch>",0,0,0
 5105,"Mahrlingen-Promenade",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mahrlingen-Promenade</Case><Case(2)>auf der Mahrlingen-Promenade</Case><Case(3)>die Mahrlingen-Promenade</Case></Switch>",0,0,0
 5106,"Runde der Freund<SoftHyphen/>schaft",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Runde der Freund<SoftHyphen/>schaft</Case><Case(2)>auf der Runde der Freund<SoftHyphen/>schaft</Case><Case(3)>die Runde der Freund<SoftHyphen/>schaft</Case></Switch>",0,0,0
 5107,"Teekreisel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Teekreisel</Case><Case(2)>auf dem Teekreisel</Case><Case(3)>der Teekreisel</Case></Switch>",0,0,0
@@ -5139,7 +5139,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5111,"Birnengarten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Birnengarten</Case><Case(2)>im Birnengarten</Case><Case(3)>der Birnengarten</Case></Switch>",0,0,0
 5112,"Frohlockpark",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Frohlockpark</Case><Case(2)>im Frohlockpark</Case><Case(3)>der Frohlockpark</Case></Switch>",0,0,0
 5113,"Endloses Anwesen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tor der Torheit</Case><Case(2)>am Tor der Torheit</Case><Case(3)>das Tor der Torheit</Case></Switch>",0,0,0
-5114,"",0,"",0,0,0,0,0,"",0,0,0
+5114,"Bombenring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Bombenring</Case><Case(2)>im Bombenring</Case><Case(3)>der Bombenring</Case></Switch>",0,0,0
 5115,"Worqor Lar Dor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Worqor Lar Dor</Case><Case(2)>in Worqor Lar Dor</Case><Case(3)>Worqor Lar Dor</Case></Switch>",0,0,0
 5116,"Interdimensionale Ekliptik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Ekliptik</Case><Case(2)>in der Inter<SoftHyphen/>dimen<SoftHyphen/>sio<SoftHyphen/>nalen Ekliptik</Case><Case(3)>die Interdimensionale Ekliptik</Case></Switch>",0,0,0
 5117,"Immerspitze",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Immerspitze</Case><Case(2)>auf der Immerspitze</Case><Case(3)>die Immerspitze</Case></Switch>",0,0,0

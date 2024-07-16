@@ -5169,9 +5169,9 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5099,"",0,"",0,0,1,0,0,"",0,0,0
 5100,"",0,"",0,0,1,0,0,"",0,0,0
 5101,"Armurerie de Vurgar",0,"Armurerie de Vurgar",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'armurerie de Vurgar</Case><Case(2)>à l'armurerie de Vurgar</Case><Case(3)>de l'armurerie de Vurgar</Case></Switch>",0,0,0
-5102,"",0,"",0,0,0,0,0,"",0,0,0
-5103,"",0,"",0,0,0,0,0,"",0,0,0
-5104,"",0,"",0,0,0,0,0,"",0,0,0
+5102,"Ring de l'Amour mielleux",0,"Ring de l'Amour mielleux",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring de l'Amour mielleux</Case><Case(2)>au ring de l'Amour mielleux</Case><Case(3)>du ring de l'Amour mielleux</Case></Switch>",0,0,0
+5103,"Ring du Tonnerre terrifiant",0,"Ring du Tonnerre terrifiant",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring du Tonnerre terrifiant</Case><Case(2)>au ring du Tonnerre terrifiant</Case><Case(3)>du ring du Tonnerre terrifiant</Case></Switch>",0,0,0
+5104,"Ring des Griffes félines",0,"Ring des Griffes félines",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring des Griffes félines</Case><Case(2)>au ring des Griffes félines</Case><Case(3)>du ring des Griffes félines</Case></Switch>",0,0,0
 5105,"Parc-aux-Errants",0,"Parc-aux-Errants",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Parc-aux-Errants</Case><Case(2)>au Parc-aux-Errants</Case><Case(3)>du Parc-aux-Errants</Case></Switch>",0,0,0
 5106,"Cercle de l'Amitié",0,"Cercle de l'Amitié",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Cercle de l'Amitié</Case><Case(2)>au Cercle de l'Amitié</Case><Case(3)>du Cercle de l'Amitié</Case></Switch>",0,0,0
 5107,"Place de la Festivité",0,"Place de la Festivité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la place de la Festivité</Case><Case(2)>à la place de la Festivité</Case><Case(3)>de la place de la Festivité</Case></Switch>",0,0,0
@@ -5181,7 +5181,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5111,"Jardin de Sa Cabochesté",0,"Jardin de Sa Cabochesté",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le jardin de Sa Cabochesté</Case><Case(2)>au jardin de Sa Cabochesté</Case><Case(3)>du jardin de Sa Cabochesté</Case></Switch>",0,0,0
 5112,"Promenade des Guillerets",0,"Promenade des Guillerets",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la promenade des Guillerets</Case><Case(2)>à la promenade des Guillerets</Case><Case(3)>de la promenade des Guillerets</Case></Switch>",0,0,0
 5113,"Manoir sans fin",0,"Manoir sans fin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Manoir sans fin</Case><Case(2)>au Manoir sans fin</Case><Case(3)>du Manoir sans fin</Case></Switch>",0,0,0
-5114,"",0,"",0,0,0,0,0,"",0,0,0
+5114,"Ring du Bombardement brutal",0,"Ring du Bombardement brutal",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring du Bombardement brutal</Case><Case(2)>au ring du Bombardement brutal</Case><Case(3)>du ring du Bombardement brutal</Case></Switch>",0,0,0
 5115,"Worqor Lar Dor",0,"Worqor Lar Dor",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Worqor Lar Dor</Case><Case(2)>à Worqor Lar Dor</Case><Case(3)>de Worqor Lar Dor</Case></Switch>",0,0,0
 5116,"Écliptique dimensionnelle",0,"Écliptique dimensionnelle",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Écliptique dimensionnelle</Case><Case(2)>à l'Écliptique dimensionnelle</Case><Case(3)>de l'Écliptique dimensionnelle</Case></Switch>",0,0,0
 5117,"Sommet de la Gardienne de l'Éternité",0,"Sommet de la Gardienne de l'Éternité",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sommet de la Gardienne de l'Éternité</Case><Case(2)>au sommet de la Gardienne de l'Éternité</Case><Case(3)>du sommet de la Gardienne de l'Éternité</Case></Switch>",0,0,0

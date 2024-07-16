@@ -159,7 +159,7 @@ Beispiel:
 Sendet die Chat-Nachricht „Guten Morgen!“ an alle Mitglieder des Welten-Kontaktkreises 8.
 /wkk8
 Wechselt den aktiven Reiter des Chatlogs zu „Welten-Kontaktkreis 8“.","/weltenkontaktkreis8","/wkk8","<reply>",0
-21,2,0,0,0,0,"/graphicpresets","/gpresets","/grafikeinstellungen (/grafikein), /graphicpresets(/gpresets)
+21,2,0,0,0,0,"/graphicpresets","/gpresets","/grafikeinstellungen (/grafikein), /graphicpresets (/gpresets)
 VERWENDUNG:
 /grafikein [Nummer]
 Wechselt die Grafikeinstellungen zu der entsprechenden Voreinstellung.
@@ -382,7 +382,7 @@ VERWENDUNG:
 → Legt das ausgewählte Gesichtsaccessoire an.
 
 Beispiel:
-/gesichtsaccessoire „Ovale Brille“
+/gesichtsaccessoire ""Ovale Brille""
 → Legt die ovale Brille an.","/gesichtsaccessoire","","head",0
 43,1,0,0,0,0,"/mutelist","","/stummeliste, /mutelist
 → Öffnet die Stumme Liste.","/stummeliste","","pack",0
@@ -1012,8 +1012,11 @@ VERWENDUNG:
 /alarm [Unterbefehl]
 → Richtet einen Alarm ein.
 Beispiel:
-/alarm Feierabend oz wh 1920 15 ton04
-Richtet einen Alarm mit dem Namen „Feierabend“ für 19:20 Uhr Ortszeit (oz) ein, der täglich wiederholt (wh), 15 Minuten vorher angekündigt wird und mit dem Alarmton 4 (ton04) klingelt. Wiederholung und Ankündigung können ausgelassen werden. Eine Zeitangabe ist von 0000 bis 2400 möglich. Die Ankündigung kann zwischen 1 und 60 Minuten vor dem Termin liegen. Die Alarmtöne reichen von ton00 bis ton05, und falls er zusätzlich als stumm (mute) definiert ist, klingelt er nicht in Inhalten. Alarmton und Stummschaltung können ausgelassen werden.
+/alarm Feierabend oz 1920 15 ton04
+Richtet einen Alarm mit dem Namen „Feierabend“ für 19:20 Uhr Ortszeit (oz) ein, der 15 Minuten vorher angekündigt wird und mit dem Alarmton 4 (ton04) klingelt.
+/alarm Unternehmung oz wh 00 5 ton04
+Richtet einen Alarm mit dem Namen „Unternehmung“ ein, der sich stündlich 5 Minuten nach der vollen Stunde wiederholt und mit dem Alarmton 4 (ton04) klingelt.
+Wiederholung und Ankündigung können ausgelassen werden. Eine Zeitangabe ist von 0000 bis 2400 möglich. Die Ankündigung kann zwischen 1 und 60 Minuten vor dem Termin liegen. Bei einem Alarm zu einer festgelegten Uhrzeit ist die wh Funktion nicht möglich. Die Alarmtöne reichen von ton00 bis ton05, und falls er zusätzlich als stumm (mute) definiert ist, klingelt er nicht in Inhalten. Alarmton und Stummschaltung können ausgelassen werden.
 >>Unterbefehle
  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>oz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>lt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Ortszeit
  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>st<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Serverzeit

@@ -48377,8 +48377,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048373,"Tepeke",0,"Tepeke",0,0,1,1,1,"",3,False
 1048374,"Tepeke",0,"Tepeke",0,0,1,1,1,"",3,False
 1048375,"Peshekwa",0,"Peshekwa",0,0,1,1,1,"Auberge",3,True
-1048376,"Mewazunte",0,"Mewazunte",0,0,1,0,1,"",3,True
-1048377,"Br'uk Ogaw",0,"Br'uk Ogaw",0,0,1,0,1,"Armes",3,True
+1048376,"Mewazunte",0,"Mewazunte",0,0,1,0,1,"Équipements de job",3,True
+1048377,"Br'uk Ogaw",0,"Br'uk Ogaw",0,0,1,0,1,"Équipements",3,True
 1048378,"Veegal Ja",0,"Veegal Ja",0,0,1,0,1,"Outils",3,True
 1048379,"Packapik",0,"Packapik",0,0,1,0,1,"Réparations",3,True
 1048380,"spécialiste ès matérias",0,"spécialistes ès matérias",0,0,1,0,0,"Sertissage",3,True
@@ -48551,7 +48551,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048547,"Tonakwe",0,"Tonakwe",0,0,1,0,1,"",3,False
 1048548,"ménestrel errant",0,"ménestrel errant",0,0,1,0,0,"",3,False
 1048549,"Nyikweni",0,"Nyikweni",0,0,1,1,1,"",3,True
-1048550,"Kanilokka",0,"Kanilokka",0,0,1,0,1,"",3,True
+1048550,"Gavoll Ja",0,"Gavoll Ja",0,0,1,0,1,"",3,True
 1048551,"dresseur d'alpagas",0,"dresseurs d'alpagas",0,0,1,0,0,"Alpagas de relais",3,True
 1048552,"",0,"",0,0,1,0,0,"",5,False
 1048553,"dresseur d'alpagas",0,"dresseurs d'alpagas",0,0,1,0,0,"Alpagas de relais",3,True
@@ -48766,7 +48766,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048762,"",0,"",0,0,1,0,0,"",5,False
 1048763,"Sopli",0,"Sopli",0,0,1,1,1,"",3,False
 1048764,"Hluplu",0,"Hluplu",0,0,1,0,1,"",3,False
-1048765,"Yavli",0,"Yavli",0,0,1,1,1,"",3,False
+1048765,"Yavli",0,"Yavli",0,0,1,0,1,"",3,False
 1048766,"Ravlu",0,"Ravlu",0,0,1,0,1,"",3,False
 1048767,"",0,"",0,0,1,0,0,"",5,False
 1048768,"",0,"",0,0,1,0,0,"",5,False
@@ -49082,7 +49082,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049078,"",0,"",0,0,0,0,0,"",0,False
 1049079,"Zircon",0,"Zircon",0,0,1,0,1,"Équipements",3,True
 1049080,"Uah'shepya",0,"Uah'shepya",0,1,1,1,1,"Divers",3,True
-1049081,"",0,"",0,0,0,0,0,"",0,False
+1049081,"Hhihwi",0,"Hhihwi",0,0,1,0,1,"Équipements de l'Arcadion",3,True
 1049082,"Beryl",0,"Beryl",0,0,1,1,1,"Articles locaux (ALÉA)",3,True
 1049083,"Eirene",0,"Eirene",0,1,1,1,1,"",3,True
 1049084,"expert en objets collectionnables",0,"experts en objets collectionnables",0,1,1,0,0,"",3,True
@@ -49743,7 +49743,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049739,"",0,"",0,0,1,0,0,"",4,False
 1049740,"",0,"",0,0,0,0,0,"",0,False
 1049741,"Beruru",0,"Beruru",0,0,1,1,1,"",4,False
-1049742,"",0,"",0,0,0,0,0,"",0,False
+1049742,"",0,"",0,0,1,0,0,"",4,False
 1049743,"marchand itinérant",0,"marchands itinérants",0,0,1,0,0,"",4,False
 1049744,"garde du corps sérieux",0,"gardes du corps sérieux",0,0,1,0,0,"",4,False
 1049745,"Chalteaufite",0,"Chalteaufite",0,0,1,0,1,"",4,False
@@ -49763,9 +49763,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049759,"",0,"",0,0,1,0,0,"",4,False
 1049760,"",0,"",0,0,1,0,0,"",4,False
 1049761,"",0,"",0,0,1,0,0,"",4,False
-1049762,"",0,"",0,0,0,0,0,"",0,False
-1049763,"",0,"",0,0,0,0,0,"",0,False
-1049764,"",0,"",0,0,0,0,0,"",0,False
+1049762,"",0,"",0,0,1,0,0,"",4,False
+1049763,"Wicked Thunder",0,"Wicked Thunder",0,0,1,1,1,"",4,False
+1049764,"",0,"",0,0,1,0,0,"",4,False
 1049765,"Virazahn",0,"Virazahn",0,0,1,0,1,"",4,False
 1049766,"Virazahn",0,"Virazahn",0,0,1,0,1,"",4,False
 1049767,"soldat de l'Ost rayonnant inquiet",0,"soldats de l'Ost rayonnant inquiets",0,0,1,0,0,"",4,False
@@ -49787,14 +49787,14 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049783,"Tiisol Ja",0,"Tiisol Ja",0,0,1,1,1,"",4,False
 1049784,"commerçant pelupelu",0,"commerçants pelupelu",0,0,1,0,0,"",4,False
 1049785,"",0,"",0,0,1,0,0,"",4,False
-1049786,"",0,"",0,0,0,0,0,"",0,False
-1049787,"",0,"",0,0,0,0,0,"",0,False
-1049788,"",0,"",0,0,0,0,0,"",0,False
-1049789,"",0,"",0,0,0,0,0,"",0,False
-1049790,"",0,"",0,0,0,0,0,"",0,False
-1049791,"",0,"",0,0,0,0,0,"",0,False
-1049792,"",0,"",0,0,0,0,0,"",0,False
-1049793,"",0,"",0,0,0,0,0,"",0,False
+1049786,"homme au chapeau de cow-boy",0,"hommes aux chapeaux de cow-boy",0,1,1,0,0,"",3,False
+1049787,"employé de l'Arcadion",0,"employés de l'Arcadion",0,1,1,0,0,"Portier",3,False
+1049788,"Metem",0,"Metem",0,0,1,0,1,"",3,False
+1049789,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
+1049790,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
+1049791,"Neyuni",0,"Neyuni",0,0,1,1,1,"",3,False
+1049792,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
+1049793,"employé de l'Arcadion",0,"employés de l'Arcadion",0,1,1,0,0,"Portier",3,False
 1049794,"mage embêté",0,"mages embêtés",0,0,1,0,0,"",3,False
 1049795,"Kupopo",0,"Kupopo",0,0,1,0,1,"",3,False
 1049796,"Kupopo",0,"Kupopo",0,0,1,0,1,"",3,False
@@ -50118,7 +50118,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050114,"",0,"",0,0,1,0,0,"",4,False
 1050115,"",0,"",0,0,1,0,0,"",4,False
 1050116,"",0,"",0,0,1,0,0,"",4,False
-1050117,"",0,"",0,0,0,0,0,"",0,False
+1050117,"",0,"",0,0,1,0,0,"",4,False
 1050118,"",0,"",0,0,1,0,0,"",4,False
 1050119,"",0,"",0,0,1,0,0,"",4,False
 1050120,"",0,"",0,0,1,0,0,"",4,False
@@ -50216,7 +50216,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050212,"jeune shetona",0,"jeunes shetona",0,0,1,0,0,"",4,False
 1050213,"marchand pelupelu",0,"marchands pelupelu",0,0,1,0,0,"",4,False
 1050214,"jeune tonawawta",0,"jeunes tonawawta",0,0,1,0,0,"",4,False
-1050215,"Boonewa âgé",0,"Boonewa âgés",0,0,1,0,0,"",4,False
+1050215,"Boonewa âgée",0,"Boonewa âgées",0,0,1,1,0,"",4,False
 1050216,"Hanu Hanu âgé",0,"Hanu Hanu âgés",0,1,1,0,0,"",4,False
 1050217,"jeune femme hoobigo",0,"jeunes femmes hoobigo",0,0,1,1,0,"",4,False
 1050218,"jeune femme shetona",0,"jeunes femmes shetona",0,0,1,1,0,"",4,False
@@ -50250,8 +50250,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050246,"",0,"",0,0,1,0,0,"",4,False
 1050247,"Genolt",0,"Genolt",0,0,1,0,1,"",4,False
 1050248,"Shale",0,"Shale",0,0,1,1,1,"",4,False
-1050249,"",0,"",0,0,0,0,0,"",0,False
-1050250,"",0,"",0,0,0,0,0,"",0,False
+1050249,"",0,"",0,0,1,0,0,"",4,False
+1050250,"",0,"",0,0,1,0,0,"",4,False
 1050251,"",0,"",0,0,1,0,0,"",5,False
 1050252,"",0,"",0,0,0,0,0,"",0,False
 1050253,"Kuiyki",0,"Kuiyki",0,0,1,1,1,"",3,False
@@ -50430,8 +50430,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050426,"",0,"",0,0,1,0,0,"",4,False
 1050427,"",0,"",0,0,1,0,0,"",4,False
 1050428,"Metem",0,"Metem",0,0,1,0,1,"",4,False
-1050429,"",0,"",0,0,0,0,0,"",0,False
-1050430,"",0,"",0,0,0,0,0,"",0,False
+1050429,"Yaana",0,"Yaana",0,0,1,1,1,"",4,False
+1050430,"Neyuni",0,"Neyuni",0,0,1,1,1,"",4,False
 1050431,"Ayoyo",0,"Ayoyo",0,1,1,1,1,"",4,False
 1050432,"Otis",0,"Otis",0,1,1,0,1,"",4,False
 1050433,"",0,"",0,0,1,0,0,"",4,False
@@ -50448,37 +50448,37 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050444,"",0,"",0,0,1,0,0,"",4,False
 1050445,"Otis",0,"Otis",0,1,1,0,1,"",4,False
 1050446,"",0,"",0,0,1,0,0,"",4,False
-1050447,"",0,"",0,0,0,0,0,"",0,False
-1050448,"",0,"",0,0,0,0,0,"",0,False
-1050449,"",0,"",0,0,0,0,0,"",0,False
-1050450,"",0,"",0,0,0,0,0,"",0,False
-1050451,"",0,"",0,0,0,0,0,"",0,False
+1050447,"Honey B. Lovely",0,"Honey B. Lovely",0,0,1,1,1,"",4,False
+1050448,"Brute Bomber",0,"Brute Bomber",0,0,1,0,1,"",4,False
+1050449,"homme excité",0,"hommes excités",0,1,1,0,0,"",4,False
+1050450,"garçon emballé",0,"garçons emballés",0,0,1,0,0,"",4,False
+1050451,"",0,"",0,0,1,0,0,"",4,False
 1050452,"Zemoweni",0,"Zemoweni",0,0,1,0,1,"",4,False
-1050453,"",0,"",0,0,0,0,0,"",0,False
-1050454,"",0,"",0,0,0,0,0,"",0,False
-1050455,"",0,"",0,0,0,0,0,"",0,False
-1050456,"",0,"",0,0,0,0,0,"",0,False
-1050457,"",0,"",0,0,0,0,0,"",0,False
-1050458,"",0,"",0,0,0,0,0,"",0,False
+1050453,"homme aux traits fins",0,"hommes aux traits fins",0,1,1,0,0,"",4,False
+1050454,"homme rustre",0,"hommes rustres",0,1,1,0,0,"",4,False
+1050455,"Gabbro",0,"Gabbro",0,0,1,0,1,"",4,False
+1050456,"homme mécontent",0,"hommes mécontents",0,1,1,0,0,"",4,False
+1050457,"Brute Bomber",0,"Brute Bomber",0,0,1,0,1,"",4,False
+1050458,"Eutrope",0,"Eutrope",0,1,1,1,1,"",4,False
 1050459,"Pameka",0,"Pameka",0,0,1,1,1,"",4,False
 1050460,"Zemoweni",0,"Zemoweni",0,0,1,0,1,"",4,False
 1050461,"Firmalbert",0,"Firmalbert",0,0,1,0,1,"",3,False
-1050462,"",0,"",0,0,0,0,0,"",0,False
-1050463,"",0,"",0,0,0,0,0,"",0,False
-1050464,"",0,"",0,0,0,0,0,"",0,False
-1050465,"",0,"",0,0,0,0,0,"",0,False
+1050462,"Black Cat",0,"Black Cat",0,0,1,1,1,"",3,False
+1050463,"",0,"",0,0,1,0,0,"",2,False
+1050464,"",0,"",0,0,1,0,0,"",2,False
+1050465,"",0,"",0,0,1,0,0,"",2,False
 1050466,"",0,"",0,0,0,0,0,"",0,False
-1050467,"",0,"",0,0,0,0,0,"",0,False
+1050467,"Gabbro",0,"Gabbro",0,0,1,0,1,"",3,False
 1050468,"",0,"",0,0,0,0,0,"",0,False
 1050469,"",0,"",0,0,0,0,0,"",0,False
 1050470,"",0,"",0,0,0,0,0,"",0,False
-1050471,"",0,"",0,0,0,0,0,"",0,False
+1050471,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
 1050472,"",0,"",0,0,1,0,0,"",3,False
 1050473,"",0,"",0,0,1,0,0,"",3,False
 1050474,"",0,"",0,0,1,0,0,"",3,False
 1050475,"Krile",0,"Krile",0,0,1,1,1,"",3,False
-1050476,"",0,"",0,0,0,0,0,"",0,False
-1050477,"",0,"",0,0,0,0,0,"",0,False
+1050476,"Metem",0,"Metem",0,0,1,0,1,"",3,False
+1050477,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
 1050478,"冒険者ギルドの調査員",0,"",0,0,1,0,0,"",3,False
 1050479,"パパ・ブルーセ",0,"",0,0,1,0,0,"",3,False
 1050480,"",0,"",0,0,1,0,0,"",5,False
@@ -50802,7 +50802,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050798,"Nakente",0,"Nakente",0,0,1,1,1,"",4,False
 1050799,"",0,"",0,0,1,0,0,"",4,False
 1050800,"marchand loquace",0,"marchands loquaces",0,0,1,0,0,"",3,False
-1050801,"",0,"",0,0,0,0,0,"",0,False
+1050801,"employé de l'Arcadion",0,"employés de l'Arcadion",0,1,1,0,0,"",3,False
 1050802,"Nakente",0,"Nakente",0,0,1,1,1,"",3,False
 1050803,"Shaloaci",0,"Shaloaci",0,0,1,1,1,"",3,False
 1050804,"",0,"",0,0,1,0,0,"",5,False
@@ -50859,19 +50859,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050855,"",0,"",0,0,1,0,0,"",4,False
 1050856,"Rral Majun",0,"Rral Majun",0,0,1,1,1,"",4,False
 1050857,"Apyaahi",0,"Apyaahi",0,1,1,1,1,"",4,False
-1050858,"",0,"",0,0,0,0,0,"",0,False
-1050859,"",0,"",0,0,0,0,0,"",0,False
-1050860,"",0,"",0,0,0,0,0,"",0,False
-1050861,"",0,"",0,0,0,0,0,"",0,False
-1050862,"",0,"",0,0,0,0,0,"",0,False
-1050863,"",0,"",0,0,0,0,0,"",0,False
-1050864,"",0,"",0,0,0,0,0,"",0,False
-1050865,"",0,"",0,0,0,0,0,"",0,False
-1050866,"",0,"",0,0,0,0,0,"",0,False
-1050867,"",0,"",0,0,0,0,0,"",0,False
-1050868,"",0,"",0,0,0,0,0,"",0,False
-1050869,"",0,"",0,0,0,0,0,"",0,False
-1050870,"",0,"",0,0,0,0,0,"",0,False
+1050858,"arbitre de l'Arcadion",0,"arbitres de l'Arcadion",0,1,1,0,0,"",4,False
+1050859,"",0,"",0,0,1,0,0,"",4,False
+1050860,"",0,"",0,0,1,0,0,"",4,False
+1050861,"",0,"",0,0,1,0,0,"",4,False
+1050862,"",0,"",0,0,1,0,0,"",4,False
+1050863,"",0,"",0,0,1,0,0,"",4,False
+1050864,"",0,"",0,0,1,0,0,"",4,False
+1050865,"",0,"",0,0,1,0,0,"",4,False
+1050866,"",0,"",0,0,1,0,0,"",4,False
+1050867,"",0,"",0,0,1,0,0,"",4,False
+1050868,"",0,"",0,0,1,0,0,"",4,False
+1050869,"",0,"",0,0,1,0,0,"",4,False
+1050870,"",0,"",0,0,1,0,0,"",4,False
 1050871,"Rral Majun",0,"Rral Majun",0,0,1,1,1,"",3,False
 1050872,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",3,False
 1050873,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",3,False
@@ -50907,9 +50907,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050903,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",3,False
 1050904,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",3,False
 1050905,"Gotoll Ja",0,"Gotoll Ja",0,0,1,0,1,"",3,False
-1050906,"",0,"",0,0,0,0,0,"",0,False
-1050907,"",0,"",0,0,0,0,0,"",0,False
-1050908,"",0,"",0,0,0,0,0,"",0,False
+1050906,"",0,"",0,0,1,0,0,"",4,False
+1050907,"",0,"",0,0,1,0,0,"",4,False
+1050908,"",0,"",0,0,1,0,0,"",4,False
 1050909,"P'obyano",0,"P'obyano",0,0,1,1,1,"",4,False
 1050910,"Memeja",0,"Memeja",0,0,1,1,1,"",4,False
 1050911,"Raholl Ja",0,"Raholl Ja",0,0,1,0,1,"",4,False
@@ -51149,10 +51149,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051145,"怪しげなインプ",0,"",0,0,1,0,0,"SEASONAL EVENT",3,True
 1051146,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",3,False
 1051147,"Gotoll Ja",0,"Gotoll Ja",0,0,1,0,1,"",3,False
-1051148,"",0,"",0,0,0,0,0,"",0,False
-1051149,"",0,"",0,0,0,0,0,"",0,False
-1051150,"",0,"",0,0,0,0,0,"",0,False
-1051151,"",0,"",0,0,0,0,0,"",0,False
+1051148,"homme excité",0,"hommes excités",0,1,1,0,0,"",3,False
+1051149,"homme mécontent",0,"hommes mécontents",0,1,1,0,0,"",3,False
+1051150,"homme rustre",0,"hommes rustres",0,1,1,0,0,"",3,False
+1051151,"homme aux traits fins",0,"hommes aux traits fins",0,1,1,0,0,"",3,False
 1051152,"",0,"",0,0,1,0,0,"",5,False
 1051153,"",0,"",0,0,1,0,0,"",5,False
 1051154,"",0,"",0,0,1,0,0,"",5,False
@@ -51627,7 +51627,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051623,"",0,"",0,0,1,0,0,"",3,False
 1051624,"",0,"",0,0,1,0,0,"",5,False
 1051625,"",0,"",0,0,1,0,0,"",5,False
-1051626,"",0,"",0,0,0,0,0,"",0,False
+1051626,"bête ailée",0,"bêtes ailées",0,0,1,1,0,"",3,False
 1051627,"",0,"",0,0,0,0,0,"",0,False
 1051628,"",0,"",0,0,0,0,0,"",0,False
 1051629,"",0,"",0,0,0,0,0,"",0,False

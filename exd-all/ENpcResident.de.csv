@@ -47159,7 +47159,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1047155,"Uvlo",3,"NONE",1,0,0,0,1,"",3,False
 1047156,"müßig[a] Boonewa",3,"müßig[a] Boonewa",1,0,1,0,0,"",3,False
 1047157,"spazierend[a] Hoobigo",3,"spazierend[a] Hoobigo",1,0,1,0,0,"",3,False
-1047158,"gärtnernd[a] Hoobigo",3,"gärtnernd[a] Hoobigo",1,0,1,0,0,"",3,False
+1047158,"gärtnernd[a] Hoobigo",3,"gärtnernd[a] Hoobigo",1,0,1,1,0,"",3,False
 1047159,"Gosaal Ja",3,"NONE",1,0,0,0,1,"",3,False
 1047160,"Uvlo",3,"NONE",1,0,0,0,1,"",3,False
 1047161,"Shunye",3,"NONE",1,0,0,0,1,"",3,False
@@ -47994,7 +47994,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1047990,"G'raha Tia",3,"NONE",1,0,0,0,1,"",3,False
 1047991,"naturliebend[a] Endlos[a]",3,"naturliebend[a] Endlose",2,0,1,1,0,"",3,False
 1047992,"wasserliebend[a] Endlos[a]",3,"wasserliebend[a] Endlose",2,0,1,1,0,"",3,False
-1047993,"remimniszierend[a] Endlos[a]",3,"remimniszierend[a] Endlose",2,0,1,0,0,"",3,False
+1047993,"reminiszierend[a] Endlos[a]",3,"reminiszierend[a] Endlose",2,0,1,0,0,"",3,False
 1047994,"Cahciua",3,"NONE",1,0,0,1,1,"",3,False
 1047995,"Erenville",3,"NONE",1,0,0,0,1,"",3,False
 1047996,"Krile",3,"NONE",1,0,0,1,1,"",3,False
@@ -48381,7 +48381,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048377,"Br'uk Ogaw",3,"NONE",1,0,0,0,1,"Waffen",3,True
 1048378,"Veegal Ja",3,"NONE",1,0,0,0,1,"Werkzeuge",3,True
 1048379,"Packapik",3,"NONE",1,0,0,0,1,"Reparatur",3,True
-1048380,"Materia-Einsetzer",4,"Materia-Einsetzer",2,0,1,0,0,"",3,True
+1048380,"Materia-Einsetzerin",3,"Materia-Einsetzerinnen",1,0,1,1,0,"",3,True
 1048381,"Shemapi",3,"NONE",1,0,0,1,1,"Materia",3,True
 1048382,"Goplu",3,"NONE",1,0,0,1,1,"Verschiedenes",3,True
 1048383,"Kajeel Ja",3,"NONE",1,0,0,0,1,"FATE-Händler",3,True
@@ -48551,7 +48551,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048547,"Tonakwe",3,"NONE",1,0,0,1,1,"",3,False
 1048548,"Fahrend[a] Sänger",4,"Fahrend[a] Sänger",2,0,1,0,0,"",3,False
 1048549,"Nyikweni",3,"NONE",1,0,0,1,1,"",3,True
-1048550,"Kanilokka",3,"NONE",1,0,0,0,1,"",3,True
+1048550,"Gavoll Ja",3,"NONE",1,0,0,0,1,"",3,True
 1048551,"Alpakaführer",4,"Alpakaführer",2,0,1,0,0,"Transport",3,True
 1048552,"",0,"",0,0,1,0,0,"",5,False
 1048553,"Alpakaführer",4,"Alpakaführer",2,0,1,0,0,"Transport",3,True
@@ -49082,7 +49082,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049078,"",0,"",0,0,0,0,0,"",0,False
 1049079,"Zircon",3,"NONE",1,0,0,0,1,"Allagische Steine",3,True
 1049080,"Uah'shepya",3,"NONE",1,0,0,1,1,"Verschiedenes",3,True
-1049081,"",0,"",0,0,0,0,0,"",0,False
+1049081,"Hhihwi",3,"NONE",1,0,0,0,1,"Arkadion-Ausrüstung",3,True
 1049082,"Bery",3,"NONE",1,0,0,1,1,"FATE-Händlerin",3,True
 1049083,"Eirene",3,"NONE",1,0,0,1,1,"",3,True
 1049084,"Begutachter",4,"Begutachter",2,0,1,0,0,"Sammlerstücke",3,True
@@ -49664,7 +49664,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049660,"resolut[a] Tempelritter",4,"resolut[a] Tempelritter",2,0,1,0,0,"",4,False
 1049661,"",0,"",0,0,1,0,0,"",4,False
 1049662,"",0,"",0,0,1,0,0,"",4,False
-1049663,"Punutyi",3,"Punutyi",1,0,1,2,0,"",4,False
+1049663,"Punutiy",3,"Punutiy",1,0,1,2,0,"",4,False
 1049664,"Gurfurlur",3,"NONE",1,0,0,0,1,"",4,False
 1049665,"Zurmurwur",3,"NONE",1,0,0,0,1,"",4,False
 1049666,"Vorporlor",3,"NONE",1,0,0,0,1,"",4,False
@@ -49743,7 +49743,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049739,"",0,"",0,0,1,0,0,"",4,False
 1049740,"",0,"",0,0,0,0,0,"",0,False
 1049741,"Beruru",3,"NONE",1,0,0,1,1,"",4,False
-1049742,"",0,"",0,0,0,0,0,"",0,False
+1049742,"",0,"",0,0,1,0,0,"",4,False
 1049743,"überfallen[a] Händler",4,"überfallen[a] Händler",2,0,1,0,0,"",4,False
 1049744,"ernsthaft[a] Leibwächter",4,"ernsthaft[a] Leibwächter",2,0,1,0,0,"",4,False
 1049745,"Chalteaufite",3,"NONE",1,0,0,0,1,"",4,False
@@ -49763,9 +49763,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049759,"",0,"",0,0,1,0,0,"",4,False
 1049760,"",0,"",0,0,1,0,0,"",4,False
 1049761,"",0,"",0,0,1,0,0,"",4,False
-1049762,"",0,"",0,0,0,0,0,"",0,False
-1049763,"",0,"",0,0,0,0,0,"",0,False
-1049764,"",0,"",0,0,0,0,0,"",0,False
+1049762,"",0,"",0,0,1,0,0,"",4,False
+1049763,"Tosender Donner",3,"NONE",1,0,0,1,1,"",4,False
+1049764,"",0,"",0,0,1,0,0,"",4,False
 1049765,"Virazahn",3,"NONE",1,0,0,0,1,"",4,False
 1049766,"Virazahn",3,"NONE",1,0,0,0,1,"",4,False
 1049767,"panisch[a] Krieger[p] des Himmelsheers",4,"panisch[a] Krieger[p] des Himmelsheers",2,0,1,0,0,"",4,False
@@ -49787,14 +49787,14 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049783,"Tiisol Ja",3,"NONE",1,0,0,1,1,"",4,False
 1049784,"Pelupelu-Händlerin",3,"Pelupelu-Händlerinnen",1,0,1,1,0,"",4,False
 1049785,"",0,"",0,0,1,0,0,"",4,False
-1049786,"",0,"",0,0,0,0,0,"",0,False
-1049787,"",0,"",0,0,0,0,0,"",0,False
-1049788,"",0,"",0,0,0,0,0,"",0,False
-1049789,"",0,"",0,0,0,0,0,"",0,False
-1049790,"",0,"",0,0,0,0,0,"",0,False
-1049791,"",0,"",0,0,0,0,0,"",0,False
-1049792,"",0,"",0,0,0,0,0,"",0,False
-1049793,"",0,"",0,0,0,0,0,"",0,False
+1049786,"Mann[p] mit Cowboy-Hut",2,"Männer[p] mit Cowboy-Hut",2,0,1,0,0,"",3,False
+1049787,"Arkadion-Pförtner",4,"Arkadion-Pförtner",2,0,1,0,0,"Empfang",3,False
+1049788,"Metem",3,"NONE",1,0,0,0,1,"",3,False
+1049789,"Yaana",3,"NONE",1,0,0,1,1,"",3,False
+1049790,"Yaana",3,"NONE",1,0,0,1,1,"",3,False
+1049791,"Neyuni",3,"NONE",1,0,0,1,1,"",3,False
+1049792,"Yaana",3,"NONE",1,0,0,1,1,"",3,False
+1049793,"Arkadion-Pförtner",4,"Arkadion-Pförtner",2,0,1,0,0,"Empfang",3,False
 1049794,"aufgewühlt[a] Magier",4,"aufgewühlt[a] Magier",2,0,1,0,0,"",3,False
 1049795,"Kupopo",3,"NONE",1,0,0,0,1,"",3,False
 1049796,"Kupopo",3,"NONE",1,0,0,0,1,"",3,False
@@ -50118,7 +50118,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050114,"",0,"",0,0,1,0,0,"",4,False
 1050115,"",0,"",0,0,1,0,0,"",4,False
 1050116,"",0,"",0,0,1,0,0,"",4,False
-1050117,"",0,"",0,0,0,0,0,"",0,False
+1050117,"",0,"",0,0,1,0,0,"",4,False
 1050118,"",0,"",0,0,1,0,0,"",4,False
 1050119,"",0,"",0,0,1,0,0,"",4,False
 1050120,"",0,"",0,0,1,0,0,"",4,False
@@ -50250,8 +50250,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050246,"",0,"",0,0,1,0,0,"",4,False
 1050247,"Genolt",3,"NONE",1,0,0,0,1,"",4,False
 1050248,"Shale",3,"NONE",1,0,0,2,1,"",4,False
-1050249,"",0,"",0,0,0,0,0,"",0,False
-1050250,"",0,"",0,0,0,0,0,"",0,False
+1050249,"",0,"",0,0,1,0,0,"",4,False
+1050250,"",0,"",0,0,1,0,0,"",4,False
 1050251,"",0,"",0,0,1,0,0,"",5,False
 1050252,"",0,"",0,0,0,0,0,"",0,False
 1050253,"Kuiyki",3,"NONE",1,0,0,1,1,"",3,False
@@ -50430,8 +50430,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050426,"",0,"",0,0,1,0,0,"",4,False
 1050427,"",0,"",0,0,1,0,0,"",4,False
 1050428,"Metem",3,"NONE",1,0,0,0,1,"",4,False
-1050429,"",0,"",0,0,0,0,0,"",0,False
-1050430,"",0,"",0,0,0,0,0,"",0,False
+1050429,"Yaana",3,"NONE",1,0,0,1,1,"",4,False
+1050430,"Neyuni",3,"NONE",1,0,0,1,1,"",4,False
 1050431,"Ayoyo",3,"NONE",1,0,0,1,1,"",4,False
 1050432,"Otis",3,"NONE",1,0,0,0,1,"",4,False
 1050433,"",0,"",0,0,1,0,0,"",4,False
@@ -50448,37 +50448,37 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050444,"",0,"",0,0,1,0,0,"",4,False
 1050445,"Otis",3,"NONE",1,0,0,0,1,"",4,False
 1050446,"",0,"",0,0,1,0,0,"",4,False
-1050447,"",0,"",0,0,0,0,0,"",0,False
-1050448,"",0,"",0,0,0,0,0,"",0,False
-1050449,"",0,"",0,0,0,0,0,"",0,False
-1050450,"",0,"",0,0,0,0,0,"",0,False
-1050451,"",0,"",0,0,0,0,0,"",0,False
+1050447,"Suzie Summ Honigsüß",3,"NONE",1,0,0,1,1,"",4,False
+1050448,"Brutalo Bomber",3,"NONE",1,0,0,0,1,"",4,False
+1050449,"begeistert[a] Mann",2,"begeistert[a] Männer",2,0,1,0,0,"",4,False
+1050450,"aufgeregt[a] Junge",8,"aufgeregt[a] Jungen",1,0,1,0,0,"",4,False
+1050451,"",0,"",0,0,1,0,0,"",4,False
 1050452,"Zemoweni",3,"NONE",1,0,0,0,1,"",4,False
-1050453,"",0,"",0,0,0,0,0,"",0,False
-1050454,"",0,"",0,0,0,0,0,"",0,False
-1050455,"",0,"",0,0,0,0,0,"",0,False
-1050456,"",0,"",0,0,0,0,0,"",0,False
-1050457,"",0,"",0,0,0,0,0,"",0,False
-1050458,"",0,"",0,0,0,0,0,"",0,False
+1050453,"weinerlich[a] Mann",2,"weinerlich[a] Männer",2,0,1,0,0,"",4,False
+1050454,"rau[a] Mann",2,"rau[a] Männer",2,0,1,0,0,"",4,False
+1050455,"Gabbro",3,"NONE",1,0,0,0,1,"",4,False
+1050456,"verärgert[a] Mann",2,"verärgert[a] Männer",2,0,1,0,0,"",4,False
+1050457,"Brutalo Bomber",3,"NONE",1,0,0,0,1,"",4,False
+1050458,"Eutrope",3,"NONE",1,0,0,1,1,"",4,False
 1050459,"Pameka",3,"NONE",1,0,0,1,1,"",4,False
 1050460,"Zemoweni",3,"NONE",1,0,0,0,1,"",4,False
 1050461,"Firmalbert",3,"NONE",1,0,0,0,1,"",3,False
-1050462,"",0,"",0,0,0,0,0,"",0,False
-1050463,"",0,"",0,0,0,0,0,"",0,False
-1050464,"",0,"",0,0,0,0,0,"",0,False
-1050465,"",0,"",0,0,0,0,0,"",0,False
+1050462,"Schwarze Katze",3,"NONE",1,0,0,1,1,"",3,False
+1050463,"",0,"",0,0,1,0,0,"",2,False
+1050464,"",0,"",0,0,1,0,0,"",2,False
+1050465,"",0,"",0,0,1,0,0,"",2,False
 1050466,"",0,"",0,0,0,0,0,"",0,False
-1050467,"",0,"",0,0,0,0,0,"",0,False
+1050467,"Gabbro",3,"NONE",1,0,0,0,1,"",3,False
 1050468,"",0,"",0,0,0,0,0,"",0,False
 1050469,"",0,"",0,0,0,0,0,"",0,False
 1050470,"",0,"",0,0,0,0,0,"",0,False
-1050471,"",0,"",0,0,0,0,0,"",0,False
+1050471,"Yaana",3,"NONE",1,0,0,1,1,"",3,False
 1050472,"",0,"",0,0,1,0,0,"",3,False
 1050473,"",0,"",0,0,1,0,0,"",3,False
 1050474,"",0,"",0,0,1,0,0,"",3,False
 1050475,"Krile",3,"NONE",1,0,0,1,1,"",3,False
-1050476,"",0,"",0,0,0,0,0,"",0,False
-1050477,"",0,"",0,0,0,0,0,"",0,False
+1050476,"Metem",3,"NONE",1,0,0,0,1,"",3,False
+1050477,"Yaana",3,"NONE",1,0,0,1,1,"",3,False
 1050478,"Aben<SoftHyphen/>teurer<SoftHyphen/>gilden-Gesandt[a]",3,"Abenteurergilden-Gesandt[a]",1,0,1,0,0,"",3,False
 1050479,"Gevatter Pierrot",3,"NONE",1,0,0,0,1,"",3,False
 1050480,"",0,"",0,0,1,0,0,"",5,False
@@ -50653,7 +50653,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050649,"besorgt[a] Tonawawta",3,"besorgt[a] Tonawawta",1,0,1,0,0,"",3,False
 1050650,"besorgt[a] Arbeiter",4,"besorgt[a] Arbeiter",2,0,1,0,0,"",3,False
 1050651,"Bahnstreckeninspektor",4,"Bahnstreckeninspektoren",1,0,1,0,0,"",3,False
-1050652,"ratlos[a] Hhetsarro ",3,"ratlos[a] Hhetsarro ",1,0,1,0,0,"",3,False
+1050652,"ratlos[a] Hhetsarro",3,"ratlos[a] Hhetsarro",1,0,1,0,0,"",3,False
 1050653,"Bahnbauleiter",4,"Bahnbauleiter",2,0,1,0,0,"",3,False
 1050654,"Bahntechnikerin",3,"Bahntechnikerinnen",1,0,1,1,0,"",3,False
 1050655,"Hhetsarro-Hirte",8,"Hhetsarro-Hirten",1,0,1,0,0,"",3,False
@@ -50684,7 +50684,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050680,"Mamool Ja-Stinker",4,"Mamool Ja-Stinker",2,0,1,0,0,"",3,False
 1050681,"",0,"",0,0,1,0,0,"",5,False
 1050682,"",0,"",0,0,1,0,0,"",5,False
-1050683,"Bergbär",4,"Bergbären",1,0,1,0,0,"",3,False
+1050683,"Bergbär",6,"Bergbären",1,0,1,0,0,"",3,False
 1050684,"panisch[a] Pelupelu",3,"panisch[a] Pelupelu",1,0,1,1,0,"",3,False
 1050685,"jung[a] Mamool Ja-Söldner",4,"jung[a] Mamool Ja-Söldner",2,0,1,0,0,"",3,False
 1050686,"",0,"",0,0,1,0,0,"",5,False
@@ -50802,7 +50802,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050798,"Nakente",3,"NONE",1,0,0,1,1,"",4,False
 1050799,"",0,"",0,0,1,0,0,"",4,False
 1050800,"geschwätzig[a] Händler",4,"geschwätzig[a] Händler",2,0,1,0,0,"",3,False
-1050801,"",0,"",0,0,0,0,0,"",0,False
+1050801,"Arkadion-Pförtner",4,"Arkadion-Pförtner",2,0,1,0,0,"",3,False
 1050802,"Nakente",3,"NONE",1,0,0,1,1,"",3,False
 1050803,"Shaloaci",3,"NONE",1,0,0,1,1,"",3,False
 1050804,"",0,"",0,0,1,0,0,"",5,False
@@ -50859,19 +50859,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050855,"",0,"",0,0,1,0,0,"",4,False
 1050856,"Rral Majun",3,"NONE",1,0,0,1,1,"",4,False
 1050857,"Apyaahi",3,"NONE",1,0,0,1,1,"",4,False
-1050858,"",0,"",0,0,0,0,0,"",0,False
-1050859,"",0,"",0,0,0,0,0,"",0,False
-1050860,"",0,"",0,0,0,0,0,"",0,False
-1050861,"",0,"",0,0,0,0,0,"",0,False
-1050862,"",0,"",0,0,0,0,0,"",0,False
-1050863,"",0,"",0,0,0,0,0,"",0,False
-1050864,"",0,"",0,0,0,0,0,"",0,False
-1050865,"",0,"",0,0,0,0,0,"",0,False
-1050866,"",0,"",0,0,0,0,0,"",0,False
-1050867,"",0,"",0,0,0,0,0,"",0,False
-1050868,"",0,"",0,0,0,0,0,"",0,False
-1050869,"",0,"",0,0,0,0,0,"",0,False
-1050870,"",0,"",0,0,0,0,0,"",0,False
+1050858,"Arkadion-Ringrichter",4,"Arkadion-Ringrichter",2,0,1,0,0,"",4,False
+1050859,"",0,"",0,0,1,0,0,"",4,False
+1050860,"",0,"",0,0,1,0,0,"",4,False
+1050861,"",0,"",0,0,1,0,0,"",4,False
+1050862,"",0,"",0,0,1,0,0,"",4,False
+1050863,"",0,"",0,0,1,0,0,"",4,False
+1050864,"",0,"",0,0,1,0,0,"",4,False
+1050865,"",0,"",0,0,1,0,0,"",4,False
+1050866,"",0,"",0,0,1,0,0,"",4,False
+1050867,"",0,"",0,0,1,0,0,"",4,False
+1050868,"",0,"",0,0,1,0,0,"",4,False
+1050869,"",0,"",0,0,1,0,0,"",4,False
+1050870,"",0,"",0,0,1,0,0,"",4,False
 1050871,"Rral Majun",3,"NONE",1,0,0,1,1,"",3,False
 1050872,"Ty'at Roh",3,"Ty'at Roh",1,0,0,0,1,"",3,False
 1050873,"Ty'at Roh",3,"Ty'at Roh",1,0,0,0,1,"",3,False
@@ -50907,9 +50907,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050903,"Ty'at Roh",3,"Ty'at Roh",1,0,0,0,1,"",3,False
 1050904,"Ty'at Roh",3,"Ty'at Roh",1,0,0,0,1,"",3,False
 1050905,"Gotoll Ja",3,"Gotoll Ja",1,0,0,0,1,"",3,False
-1050906,"",0,"",0,0,0,0,0,"",0,False
-1050907,"",0,"",0,0,0,0,0,"",0,False
-1050908,"",0,"",0,0,0,0,0,"",0,False
+1050906,"",0,"",0,0,1,0,0,"",4,False
+1050907,"",0,"",0,0,1,0,0,"",4,False
+1050908,"",0,"",0,0,1,0,0,"",4,False
 1050909,"P'obyano",3,"NONE",1,0,0,1,1,"",4,False
 1050910,"Memeja",3,"NONE",1,0,0,1,1,"",4,False
 1050911,"Raholl Ja",3,"NONE",1,0,0,0,1,"",4,False
@@ -51038,7 +51038,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051034,"Pelupelu-Straßenhändler",4,"Pelupelu-Straßenhändler",2,0,1,0,0,"",3,False
 1051035,"elegant[a] Hanuhanu",3,"elegant[a] Hanuhanu",1,0,1,0,0,"",3,False
 1051036,"verfressen[a] Moblin",4,"verfressen[a] Moblins",1,0,1,0,0,"",3,False
-1051037,"Küchenhelfer",4,"Küchenhelfer",2,0,1,0,0,"",3,False
+1051037,"Küchenhelferin",3,"Küchenhelferinnen",1,0,1,1,0,"",3,False
 1051038,"maiskolbig[a] Wesen",4,"maiskolbig[a] Wesen",1,0,1,2,0,"",3,False
 1051039,"entschlossen[a] Naturforscher",4,"entschlossen[a] Naturforscher",2,0,1,0,0,"",3,False
 1051040,"lautstark[a] Nager",4,"lautstark[a] Nager",2,0,1,0,0,"",3,False
@@ -51057,7 +51057,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051053,"mysteriös[a] Erscheinung",3,"mysteriös[a] Erscheinungen",2,0,1,1,0,"",3,False
 1051054,"mysteriös[a] Erscheinung",3,"mysteriös[a] Erscheinungen",2,0,1,1,0,"",3,False
 1051055,"Boonewa-Ehefrau",3,"Boonewa-Ehefrauen",1,0,1,1,0,"",3,False
-1051056,"Hoobigo-Ehemann",3,"Hoobigo-Ehemänner",2,0,1,0,0,"",3,False
+1051056,"Hoobigo-Ehemann",4,"Hoobigo-Ehemänner",2,0,1,0,0,"",3,False
 1051057,"besorgt[a] Dorfbewohnerin",3,"besorgt[a] Dorfbewohnerinnen",1,0,1,1,0,"",3,False
 1051058,"jung[a] Fischer",4,"jung[a] Fischer",2,0,1,0,0,"",3,False
 1051059,"",0,"",0,0,1,0,0,"",5,False
@@ -51149,10 +51149,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051145,"verdächtig[a] Imp",4,"verdächtig[a] Imps",1,0,1,0,0,"Ver<SoftHyphen/>wand<SoftHyphen/>lungszauber",3,True
 1051146,"Ty'at Roh",3,"Ty'at Roh",1,0,0,0,1,"",3,False
 1051147,"Gotoll Ja",3,"Gotoll Ja",1,0,0,0,1,"",3,False
-1051148,"",0,"",0,0,0,0,0,"",0,False
-1051149,"",0,"",0,0,0,0,0,"",0,False
-1051150,"",0,"",0,0,0,0,0,"",0,False
-1051151,"",0,"",0,0,0,0,0,"",0,False
+1051148,"begeistert[a] Mann",2,"begeistert[a] Männer",2,0,1,0,0,"",3,False
+1051149,"verärgert[a] Mann",2,"verärgert[a] Männer",2,0,1,0,0,"",3,False
+1051150,"rau[a] Mann",2,"rau[a] Männer",2,0,1,0,0,"",3,False
+1051151,"weinerlich[a] Mann",2,"weinerlich[a] Männer",2,0,1,0,0,"",3,False
 1051152,"",0,"",0,0,1,0,0,"",5,False
 1051153,"",0,"",0,0,1,0,0,"",5,False
 1051154,"",0,"",0,0,1,0,0,"",5,False
@@ -51368,7 +51368,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051364,"reisekrank[a] Pelupelu",3,"reisekrank[a] Pelupelu",1,0,1,0,0,"",3,False
 1051365,"Schmiedelehrling",4,"Schmiedelehrlinge",2,0,1,0,0,"",3,False
 1051366,"Meister Mais",3,"NONE",1,0,0,0,1,"",3,False
-1051367,"hungrig[a] Xbr'aal ",3,"hungrig[a] Xbr'aal ",1,0,1,0,0,"",3,False
+1051367,"hungrig[a] Xbr'aal",3,"hungrig[a] Xbr'aal",1,0,1,0,0,"",3,False
 1051368,"Meister Mais",3,"NONE",1,0,0,0,1,"",3,False
 1051369,"Meister Mais",3,"NONE",1,0,0,0,1,"",3,False
 1051370,"hungrig[a] Pelupelu",3,"hungrig[a] Pelupelu",1,0,1,0,0,"",3,False
@@ -51627,7 +51627,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051623,"",0,"",0,0,1,0,0,"",3,False
 1051624,"",0,"",0,0,1,0,0,"",5,False
 1051625,"",0,"",0,0,1,0,0,"",5,False
-1051626,"",0,"",0,0,0,0,0,"",0,False
+1051626,"Flugtier",4,"Flugtiere",2,0,1,2,0,"",3,False
 1051627,"",0,"",0,0,0,0,0,"",0,False
 1051628,"",0,"",0,0,0,0,0,"",0,False
 1051629,"",0,"",0,0,0,0,0,"",0,False

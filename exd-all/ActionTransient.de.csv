@@ -125,7 +125,8 @@ Dauer bei <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>PvP<UIGlow>0
 <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))>Zusatzeffekt: Heilmagie auf dich ist um 20 % erhöht.
 <Else/></If><Else/></If>Dauer: 10 Sekunden"
 41,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 110"
+Attacke-Wert: 110
+Zusatzeffekt: Erhöhte Feindseligkeit"
 42,"Du führst eine physische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>200<Else/><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>160<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>160<Else/>100</If><Else/>100</If></If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Verstümmelung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -187,21 +188,21 @@ Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, 
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
 54,"Du führst eine physische Attacke aus. 
-Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>290<Else/>250</If><Else/>250</If>
-<If(GreaterThanOrEqualTo(PlayerParameter(72),18))><If(Equal(PlayerParameter(68),2))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>440<Else/>400</If><Else/>400</If>
-<Else/><If(Equal(PlayerParameter(68),20))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>440<Else/>400</If><Else/>400</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If>
+<If(GreaterThanOrEqualTo(PlayerParameter(72),18))><If(Equal(PlayerParameter(68),2))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>500<Else/>460</If><Else/>460</If>
+<Else/><If(Equal(PlayerParameter(68),20))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>500<Else/>460</If><Else/>460</If>
 <Else/></If></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
 55,"Deine Ausweichrate ist um <If(GreaterThanOrEqualTo(PlayerParameter(72),14))><If(Equal(PlayerParameter(68),2))>20<Else/><If(Equal(PlayerParameter(68),20))>20<Else/>12</If></If><Else/>12</If> % erhöht.
 Dauer: 15 Sekunden"
 56,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If>
-Von der Seite: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If>
-<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),2))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>360</If><Else/>360</If>
-Von der Seite und bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>460<Else/>420</If><Else/>420</If>
-<Else/><If(Equal(PlayerParameter(68),20))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>360</If><Else/>360</If>
-Von der Seite und bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>460<Else/>420</If><Else/>420</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>270<Else/>230</If><Else/>230</If>
+Von der Seite: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>330<Else/>290</If><Else/>290</If>
+<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),2))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/>380</If><Else/>380</If>
+Von der Seite und bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>480<Else/>440</If><Else/>440</If>
+<Else/><If(Equal(PlayerParameter(68),20))>Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/>380</If><Else/>380</If>
+Von der Seite und bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>480<Else/>440</If><Else/>440</If>
 <Else/></If></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Zusatzeffekt: Du wechselst zurück in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
@@ -219,15 +220,15 @@ Dauer: 15 Sekunden"
 Kann nicht zusammen mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sengende Aura<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beflügelnde Aura<UIGlow>01</UIGlow><UIForeground>01</UIForeground> eingesetzt werden. Alle drei haben einen gemeinsamen Reaktivierungs-Timer.
 Effekt endet bei erneuter Ausführung."
 61,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>380<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>300</If><Else/>300</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>300</If><Else/>300</If></If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>420<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>300</If><Else/>300</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>300</If><Else/>300</If></If>
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-Zusatzeffekt: Gewährt dir zwei Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Raptor-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Raptor-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert von <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Drachenkieferschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wahrer Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wahrer Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ist um 150 erhöht.
+Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Raptor-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Raptor-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert von <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Drachenkieferschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wahrer Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wahrer Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ist um 200 erhöht.
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
 62,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 100
-Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 110
+Attacke-Wert: 110
+Attacke-Wert bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 120
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden"
 63,"Du erhöhst den ausgeteilten Schaden um <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>10<Else/>5</If><Else/>5</If> %.
@@ -238,10 +239,10 @@ Attacke-Wert: 150"
 65,"Du erhöhst LP-Regenerationseffekte auf dich und die Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder in der Nähe um 10 %.
 Dauer: 15 Sekunden"
 66,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>340<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If></If>
-Von hinten: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>400<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If></If>
-Zusatzeffekt: Gewährt dir drei Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Coeurl-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Coeurl-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert von <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tigerpeitschenhieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Peitschenhieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Peitschenhieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ist um 100 erhöht.
+Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>360<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If></If>
+Von hinten: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>420<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If></If>
+Zusatzeffekt: Gewährt dir zwei Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Coeurl-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Coeurl-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert von <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tigerpeitschenhieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Peitschenhieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Peitschenhieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ist um 150 erhöht.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Dauer: 30 Sekunden"
@@ -258,7 +259,7 @@ Dauer: 20 Sekunden
 <Else/></If><Else/></If>Maximale Aufladungen: 2
 <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>Bedingung: Im Kampf und kein <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tier-Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv<Else/>Nur im Kampf wirksam.</If><Else/>Nur im Kampf wirksam.</If>"
 70,"Du führst eine physische Attacke auf umstehende Gegner aus.
-Attacke-Wert: 130
+Attacke-Wert: 150
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
@@ -279,7 +280,7 @@ Kann nicht zusammen mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlo
 Effekt endet bei erneuter Ausführung."
 74,"Du führst eine physische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>320<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>240</If><Else/>240</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>240</If><Else/>240</If></If>
-Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Opo-Opo-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Opo-Opo-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Opo-Opo-Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert von <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Affenprankenhieb<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schlag auf Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schlag auf Schlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> ist um 200 erhöht.
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
@@ -294,7 +295,7 @@ Dauer bei <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>PvP<UIGlow>0
 Dauer: 20 Sekunden"
 78,"Du führst eine physische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>130<Else/>100</If><Else/>100</If>
-Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Kombo-Bedingung: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Überfallsstoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 Attacke-Wert: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>280<Else/>250</If><Else/>250</If>"
 79,"Du führst eine physische Attacke aus.
 Attacke-Wert: 150
@@ -324,7 +325,7 @@ Dauer: 20 Sekunden"
 Attacke-Wert: 110"
 87,"Du führst eine physische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>140<Else/>100</If><Else/>100</If>
-Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Kombo-Bedingung: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Überfallsstoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 Attacke-Wert: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>250<Else/>210</If><Else/>210</If>
 Bonus: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachenklaue<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
@@ -447,7 +448,7 @@ Maximal vier <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Virtuose<
 117,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 100
 Maximale Aufladungen: <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>3<Else/>2</If><Else/>2</If>
-Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Aderlass<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+Gemeinsamer Reaktivierungs-Timer mit <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Herzeleid<Else/>Aderlass</If><Else/>Aderlass</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 118,"Du erhöhst deine Rate direkter Treffer und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern um 20 %.
 Dauer: 20 Sekunden"
 119,"Du fügst dem Ziel erdbasierten magischen Schaden zu.
@@ -600,7 +601,8 @@ Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UI
 Dauer: 30 Sekunden
 <If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),58))>Zusatzeffekt: Gewährt dir 3 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verhindert die Erhöhung der MP-Kosten für Feuer-Zauber bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lichtfeuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<Else/></If><Else/></If><If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Paradoxie<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Außerdem werden bei Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flare<UIGlow>01</UIGlow><UIForeground>01</UIForeground> alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherzen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht, dafür aber die MP-Kosten um 1/3 reduziert.<Else/></If><Else/></If>
+<If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Paradoxie<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lichtfeuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv"
 159,"Du führst eine eisbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 120
@@ -4658,8 +4660,7 @@ Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UI
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Freie Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Du kannst alle Form-Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten ausführen, ohne dich in der dem<SoftHyphen/>ent<SoftHyphen/>spre<SoftHyphen/>chenden Form zu befinden. Jegliche Zusatzeffekte werden dabei ebenfalls ausgelöst.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sonnennadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mondnadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv sowie 3 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tier-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> geöffnet
-Kann nicht im Kommandomenü angelegt werden. Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blitzkünste<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tornadotritt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-"
+Kann nicht im Kommandomenü angelegt werden. Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blitzkünste<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tornadotritt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 3544,"Du regenerierst 300 TP und Schatten-Chakra wird beendet.
 Zusatzeffekt: Halbiert Feindseligkeit.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fünftes Schatten-Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -4908,7 +4909,8 @@ Effekt endet bei erneuter Ausführung.
 Kann nicht zugleich mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Diurnal<UIGlow>01</UIGlow><UIForeground>01</UIForeground> eingesetzt werden. Beide haben einen gemeinsamen Reaktivierungs-Timer.
 Im Kampf kann Nocturnal nicht beendet oder zu Diurnal gewechselt werden."
 3606,"Du kannst Zauber um 2,5 Sekunden schneller wirken.
-Dauer: 15 Sekunden "
+Dauer: 15 Sekunden
+Maximale Aufladungen: 2 "
 3607,"Du generierst weniger Feindseligkeit.
 Zusatzeffekt: MP-Regeneration über Zeit
 Regenerationswirkung: <If(GreaterThanOrEqualTo(PlayerParameter(72),48))><If(Equal(PlayerParameter(68),33))>80<Else/>60</If><Else/>60</If>
@@ -4958,7 +4960,8 @@ Zusatzeffekt: Schaden über Zeit
 Attacke-Wert: 40
 Dauer: <If(GreaterThanOrEqualTo(PlayerParameter(72),32))><If(Equal(PlayerParameter(68),32))>30<Else/>18</If><Else/>18</If> Sekunden"
 3621,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 120"
+Attacke-Wert: 120
+Zusatzeffekt: Erhöhte Feindseligkeit"
 3622,"Du führst eine physische Attacke aus.
 Attacke-Wert: 100
 Zusatzeffekt: Fügt dem Ziel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Betäubung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu.
@@ -8929,7 +8932,8 @@ Bedingung: Eine Wirkung von Königsweg ist aktiv."
 7379,""
 7380,""
 7381,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 100"
+Attacke-Wert: 100
+Zusatzeffekt: Erhöhte Feindseligkeit"
 7382,"Du verringerst den erlittenen Schaden des Ziels um 10<Indent/>%.
 Dauer: <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>8<Else/>6</If><Else/>6</If> Sekunden
 Zusatzeffekt: Die Wirkung ist um weitere 10<Indent/>% erhöht, falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schutzwall<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heilige Wacht<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sentinel<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sentinel<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> bei dir aktiv ist.
@@ -8990,7 +8994,7 @@ Dauer: 30 Sekunden
 Bei 3 Stapeln ändert sich <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inneres Zittern<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inneres Beben<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urbefreiung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urbeben<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
 7390,"Du gewährst dir drei Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blutdelirium<UIGlow>01</UIGlow><UIForeground>01</UIForeground> sowie drei Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blutwaffe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blutdelirium<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutdelirium<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Rotes Delirium<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quietus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutige Pfählung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quietus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutvergießen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> können ohne Blutbalken-Kosten ausgeführt werden.</If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quietus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutvergießen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> können ohne Blutbalken-Kosten ausgeführt werden.</If> Wenn diese Kommandos treffen, regenerierst du MP.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blutdelirium<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutvergießen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Rotes Delirium<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quietus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutige Pfählung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quietus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutvergießen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> können ohne Blutbalken-Kosten ausgeführt werden.</If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Quietus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blutvergießen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> können ohne Blutbalken-Kosten ausgeführt werden.</If> Wenn diese Kommandos treffen, regenerierst du MP.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blutwaffe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Regeneriert bei einem erfolgreichen Treffer deiner Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten oder Zauber MP und füllt den Blutbalken um 10.
 Bei Attacken auf mehrere Ziele ist der Effekt nur einmalig wirksam."
 7391,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
@@ -9025,7 +9029,7 @@ Dauer: 20 Sekunden
 Weiterhin steigt die maximale Stapelanzahl von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatten-Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf 10."
 7397,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 100
-Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schicksalsdorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Kombo-Bedingung: <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schicksalsdorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Groll des Drachen<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schicksalsdorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schicksalsdorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 Attacke-Wert: 120
 Bonus: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachenklaue<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
@@ -9516,7 +9520,7 @@ Dauer: 30 Sekunden<Else/></If><Else/></If>"
 Dauer: 15 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Manafizierte Klinge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Erlaubt die Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Magische Riposte<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Magischer Zwerchhau<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Magisches Redoublement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Magischer Moulinet Un<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Magischer Moulinet Deux<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Magischer Moulinet Trois<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, ohne Schwarzes Mana oder Weißes Mana zu verwenden.
 <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))>Zusatzeffekt: Gewährt <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>6<Else/>5</If><Else/>5</If> Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Manafizierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Dauer: 15 Sekunden
+Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Manafizierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden ist um 5<Indent/>% erhöht.
 <Else/></If><Else/></If><If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerParameter(72),100))>Zusatzeffekt: Verleiht <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kristallglanz-bereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, wenn 6 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Manafizierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aufgebraucht worden sind.
 Dauer: 30 Sekunden
@@ -19254,7 +19258,7 @@ Attacke-Wert variiert mit der Anzahl der Tanzschritte:
 1 Schritt: 540
 2 Schritte: 720
 3 Schritte: 900
-4 Schritte: <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>1300<Else/>1200</If><Else/>1200</If>
+4 Schritte: <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>1.300<Else/>1.200</If><Else/>1.200</If>
 Attacke-Wert verringert sich ab dem zweiten Gegner um 75<Indent/>%.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern innerhalb von 30y die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzfieber<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/>Tanzschritt-Bonus: Gewährt dir und Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in deiner Nähe den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Komplexes Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -19277,7 +19281,7 @@ Kann nicht im Kommandomenü angelegt werden."
 16005,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
 Attacke-Wert: <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>520<Else/>500</If><Else/>500</If>
 Tanzfieberkosten: 50"
-16006,"Gewährt dir den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Damit können die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Todestango<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und der Effekt von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Heilender Walzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> mit diesem geteilt werden.
+16006,"Gewährt dir den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und dem von dir bestimmten Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auserwählter Tanzpartner<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Damit können die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Einfaches Finale<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Todestango<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Finalhaltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Todestango<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Todestango<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> und der Effekt von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Heilender Walzer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),62))>sowie <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Todestango<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <Else/></If><Else/></If>mit diesem geteilt werden.
 Effekt endet bei erneuter Ausführung."
 16007,"Du führst eine physische Attacke aus.
 Attacke-Wert: 150
@@ -19304,7 +19308,7 @@ Dauer: 20 Sekunden<Else/></If><Else/></If>"
 16012,"Du verringerst erlittenen Schaden bei dir und den Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern in der Nähe um <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),98))>15<Else/>10</If><Else/>10</If><Indent/>%.
 Dauer: 15 Sekunden
 Kann nicht gleichzeitig mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Troubadour<UIGlow>01</UIGlow><UIForeground>01</UIForeground> des Barden oder <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Taktiker<UIGlow>01</UIGlow><UIForeground>01</UIForeground> des Maschinisten aktiv sein."
-16013,"Du gewährst dir die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Synchrone Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Asynchrone Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Finalhaltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If><If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz IV<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz III<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz III<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
+16013,"Du gewährst dir die Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Synchrone Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Asynchrone Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Finalhaltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If><If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz IV<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz III<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fächertanz III<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
 Dauer: 30 Sekunden
 Nur im Kampf wirksam."
 16014,"Deiner Intuition folgend, tanzt du den Kriegstanz und wirst eins mit dem Schlachtfeld. Er gewährt dir den Status <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzekstase<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und du erhältst alle 3 Sekunden eine Intensitätsstufe <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tanzekstase<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, bis zu 4 maximal.
@@ -19455,7 +19459,8 @@ Dauer: 30 Sekunden<Else/></If><Else/></If>"
 16140,"Du erhöhst die Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit, gegnerische Attacken zu parieren, um 50 % und verringerst erlittenen Schaden um 10 %.
 Dauer: 20 Sekunden"
 16141,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 100"
+Attacke-Wert: 100
+Zusatzeffekt: Erhöhte Feindseligkeit"
 16142,"Du erhöhst die Feindseligkeit von Gegnern, mit denen du dich im Kampf befindest, gegen dich immens.
 Effekt endet bei erneuter Ausführung."
 16143,"Du führst eine physische Fernkampfattacke aus.
@@ -19490,6 +19495,7 @@ Dauer: 15 Sekunden"
 Attacke-Wert: 100
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Dämonenschnitter<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Attacke-Wert: 160
+Zusatzeffekt: Erhöhte Feindseligkeit
 Bonus: Du erhältst eine Erda-Patrone."
 16150,"Du führst eine physische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>620<Else/>540</If><Else/>540</If>
@@ -20007,7 +20013,8 @@ Löst den Status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gesch
 16457,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 100
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eklipse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Attacke-Wert: 170<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
+Attacke-Wert: 170
+Zusatzeffekt: Erhöhte Feindseligkeit<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
 Bonus: MP-Regeneration
 Bonus: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Göttliche Gunst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
@@ -20040,6 +20047,7 @@ Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fe
 Attacke-Wert: 100
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kahlrodung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Attacke-Wert: 140
+Zusatzeffekt: Erhöhte Feindseligkeit
 Bonus: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tosender Sturm<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Ausgeteilter Schaden ist um 10 % erhöht.
@@ -20091,6 +20099,7 @@ Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>
 Attacke-Wert: <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>120<Else/>100</If><Else/>100</If>
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Entfesselung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Attacke-Wert: <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>160<Else/>140</If><Else/>140</If>
+Zusatzeffekt: Erhöhte Feindseligkeit
 Bonus: MP-Regeneration<If(GreaterThanOrEqualTo(PlayerParameter(72),62))><If(Equal(PlayerParameter(68),32))>
 Bonus: Blutbalken füllt sich um 20.<Else/></If><Else/></If>"
 16469,"Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.
@@ -20117,14 +20126,13 @@ Dauer: 30 Sekunden
 <Else/></If><Else/></If>Attacke-Wert verringert sich ab dem zweiten Gegner um 25<Indent/>%.
 Beide haben einen eigenen Reaktivierungs-Timer.<Else/></If><Else/></If>"
 16473,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 120
+Attacke-Wert: 140
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
 16474,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 170
-Bedingung: 5 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatten-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und im Kampf
-"
+Bedingung: 5 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatten-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und im Kampf"
 16475,"Du verlängerst den Timer der Wirkungsdauer deiner momentanen Form und von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf das Maximum und hältst ihn an.
 Dauer: 30 Sekunden
 Effekt endet bei Bewegung, Umdrehen oder Ausführen eines Kommandos.
@@ -20294,10 +20302,12 @@ Attacke-Wert: 340
 Zusatzeffekt: Gewährt dir die Maximalstapelzahl von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lichtfeuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lichtfeuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv"
-16506,"Du erhältst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatteneis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> sowie ein <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+16506,"<If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),58))>Du erhältst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatteneis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> sowie ein <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Verhindert die Erhöhung der MP-Kosten für Feuer-Zauber bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lichtfeuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Außerdem werden bei Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flare<UIGlow>01</UIGlow><UIForeground>01</UIForeground> alle <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherzen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> verbraucht, dafür aber die MP-Kosten um 1/3 reduziert.
-Zusatzeffekt: Regeneriert pro gewährten Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> eigene MP.
+<Else/>Gewährt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatteneis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+</If><Else/>Gewährt <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatteneis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+</If>Zusatzeffekt: Regeneriert pro gewährten Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> eigene MP.
 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 2.500 MP
 2 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherzen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 5.000 MP
 3 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schattenherzen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 10.000 MP
@@ -20506,7 +20516,7 @@ Dauer: 20 Sekunden
 Kann nicht zugleich mit der <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Illumination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> einer Fee aktiv sein.
 Kann nicht im Kommandomenü angelegt werden."
 16552,"Du erhöhst den ausgeteilten Schaden von dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern um 6<Indent/>%
-Dauer: 15 Sekunden<If(Equal(PlayerParameter(68),33))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>
+Dauer: 20 Sekunden<If(Equal(PlayerParameter(68),33))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auge des Orakels<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden<Else/></If><Else/></If>"
 16553,"Du regenerierst eigene LP und die von umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern.
@@ -31705,7 +31715,7 @@ Attacke-Wert: 700
 Attacke-Wert verringert sich ab dem zweiten Gegner um 70<Indent/>%.
 Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),100))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruinator<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Dauer: 30 Sekunden
+Dauer: 20 Sekunden
 <Else/></If><Else/></If>Bedingung: Durch <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urbefreiung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährte <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Brachiale Gewalt<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 25754,"Du verringerst deinen erlittenen Schaden oder den des Ziels um 10<Indent/>%.
@@ -31746,7 +31756,7 @@ Eigener Reaktivierungs-Timer"
 Attacke-Wert: 180
 Bedingung: 5 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatten-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und im Kampf"
 25762,"Du bewegst dich augenblicklich zu deinem anvisierten Gegner oder Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glied.
-Maximale Aufladungen: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>3<Else/>2</If><Else/>2</If>
+Maximale Aufladungen: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>3<Else/>2</If><Else/>2</If>
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 25763,"Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 100
@@ -31757,7 +31767,7 @@ Bedingung: 5 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatten-
 3 Arten <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tier-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Phönixtanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zündschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zündschlag<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 Bei 3 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tier-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> sowie <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sonnennadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mondnadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv: <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Phantomstoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tornadotritt<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tornadotritt<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>"
 25765,"Du führst eine physische Attacke aus.
-Attacke-Wert: 450
+Attacke-Wert: 600
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mondnadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Ist <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mondnadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> bereits aktiv, wird <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sonnennadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährt.
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Freie Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -31766,12 +31776,12 @@ Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Freie Form<
 Bedingung: 3 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tier-Chakren<UIGlow>01</UIGlow><UIForeground>01</UIForeground> geöffnet
 Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Blitzkünste<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
-25766,"Du verringerst die Verzögerung deiner Auto-Attacken um 50<Indent/>%.
+25766,"Du verkürzt dein Auto-Attacke-Intervall um 50<Indent/>%.
 Dauer: 15 Sekunden<If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Himmelbrecher<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden<Else/></If><Else/></If>"
 25767,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 110
+Attacke-Wert: 120
 Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Zusatzeffekt während <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: trifft kritisch.
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -32301,7 +32311,7 @@ Attacke-Wert: 130"
 Heilpotenzial: 500
 Dauer: 8 Sekunden"
 25874,"Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 250
+Attacke-Wert: <If(Equal(PlayerParameter(68),33))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>270<Else/>250</If><Else/>250</If>
 Attacke-Wert verringert sich ab dem zweiten Gegner um 40<Indent/>%.
 Zusatzeffekt: Gewährt dir und umstehenden Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>gliedern <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Makrokosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
@@ -32323,7 +32333,7 @@ Dauer: 30 Sekunden
 Unterbindet Auto-Attacke."
 25881,""
 25882,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 600
+Attacke-Wert: 800
 Attacke-Wert verringert sich ab dem zweiten Gegner um 70<Indent/>%.
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sonnennadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Freie Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -37050,7 +37060,7 @@ Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Doppe
 Zusatzeffekt: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wesen des Windes<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 5 Sekunden verlängert (maximal 15 Sekunden).
 Kann nicht im Kommandomenü angelegt werden."
 29478,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kombo-Kommando<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Du führst eine physische Attacke aus.
+Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 12.000
 Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Demolieren<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Kann nicht im Kommandomenü angelegt werden."
@@ -43269,16 +43279,18 @@ Attacke-Wert: 600
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.
 <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fiederfänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 60 Sekunden
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fiederfänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flug der Zwillingsfänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 50 erhöht
+Bei erfolgreicher Ausführung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zwillingsfänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flug der Zwillingsfänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Zwillingsschuppen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flug der Zwillingsschuppen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und können zweimal ausgeführt werden.
 <Else/></If><Else/></If><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schlangenseele<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Kosten: 1
 Eigener Reaktivierungs-Timer"
 34634,"Du führst eine physische Attacke aus.
 Attacke-Wert: 250
-Bedingung: Erfolgreiche Kombo mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flankenbiss<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flankenreißer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nackenbiss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nackenreißer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Bedingung: Erfolgreiche Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flankenbiss<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Flankenreißer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nackenbiss<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Nackenreißer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Serpentiner Schwanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34635,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 100
-Bedingung: Erfolgreiche Kombo mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hungernde Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schlingende Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Bedingung: Erfolgreiche Ausführung von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hungernde Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Schlingende Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Serpentiner Schwanz<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34636,"Du führst eine physische Attacke aus.
@@ -43364,14 +43376,15 @@ Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fe
 34650,"Du führst eine feuerbasierte magische Attacke aus.
 Attacke-Wert: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>440<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If></If>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Dauer: 30 Sekunden<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
+Dauer: 30 Sekunden
+Bedingung: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
 34651,"Du führst eine windbasierte magische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>480<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If></If>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Feuer in Rot<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34652,"Du führst eine wasserbasierte magische Attacke aus.
@@ -43379,8 +43392,8 @@ Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(Player
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>Zusatzeffekt: Palettenbalken füllt sich um 25.
 <Else/></If><Else/></If><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weiße Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Maximalstapelzahl: 5
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Wind in Grün<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34653,"Du führst eine eisbasierte magische Attacke aus.
@@ -43388,34 +43401,35 @@ Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(Player
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
+Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
 34654,"Du führst eine erdbasierte magische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>840<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>740<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>740<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If></If>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eis in Cyan<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34655,"Du führst eine blitzbasierte magische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>880<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>780<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>780<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If></If>
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weiße Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Maximalstapelzahl: 5
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Stein in Gelb<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34656,"Du führst eine feuerbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>120<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>100<Else/>80</If><Else/>80</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>100<Else/>80</If><Else/>80</If></If>
-Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Dauer: 30 Sekunden<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
+Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Dauer: 30 Sekunden
+Bedingung: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
 34657,"Du führst eine windbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>140<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>120<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>120<Else/>100</If><Else/>100</If></If>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Feura in Rot<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34658,"Du führst eine wasserbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
@@ -43423,8 +43437,8 @@ Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(Player
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>Zusatzeffekt: Palettenbalken füllt sich um 25.
 <Else/></If><Else/></If><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weiße Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Maximalstapelzahl: 5
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv und <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Windra in Grün<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34659,"Du führst eine eisbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
@@ -43432,15 +43446,15 @@ Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(Player
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Eigener Reaktivierungs-Timer
 Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet."
 34660,"Du führst eine erdbasierte magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>260<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>240<Else/>200</If><Else/>200</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>240<Else/>200</If><Else/>200</If></If>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
-Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Zweite Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Eigener Reaktivierungs-Timer
 Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
 Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Eisra in Cyan<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
@@ -43449,22 +43463,22 @@ Kann nicht im Kommandomenü angelegt werden."
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>280<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>260<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>260<Else/>220</If><Else/>220</If></If>
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weiße Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Maximalstapelzahl: 5
-<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.
+<Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dritte Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.
 <Else/></If><Else/></If>Eigener Reaktivierungs-Timer
 Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waf<SoftHyphen/>fen<SoftHyphen/>fer<SoftHyphen/>tig<SoftHyphen/>kei<SoftHyphen/>ten und Magie angewendet.
-Bei Erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Steinra in Gelb<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
+Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Steinra in Gelb<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 34662,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>520<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>460<Else/>420</If><Else/>420</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>460<Else/>420</If><Else/>420</If></If>
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weiße Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf der Palette und <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Invertierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> nicht aktiv<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
+Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
 34663,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>880<Else/>780</If><Else/>780</If>
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwarze Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> auf der Palette und <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Invertierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
+Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
 34664,"Du malst einen piktomantischen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bommel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Außerhalb des Kampfes kann der Zauber sofort gewirkt werden.
 Bedingung: Leere <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kreaturen-Leinwand<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -43600,7 +43614,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 60<Indent/>%.
 Zusatzeffekt: Regeneriert LP der Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder in einem Umkreis von 30y des Ziels.
 Heilpotenzial: 400
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sternenfunkeln<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
+Falls <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inszenierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv ist und du dich innerhalb des Wirkradius befindest, wird 1 Stapel verbraucht.<Else/></If><Else/></If>"
 34682,""
 34683,"Du gewährst dir drei Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))> sowie <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Invertierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Invertierung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 1 Stapel <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weiße Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwarze Pikto-Farbe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> umgewandelt<Else/></If><Else/></If>.
@@ -44299,7 +44313,7 @@ Kann nicht im Kommandomenü angelegt werden."
 35344,""
 35345,""
 35346,""
-35347,"Du materialisierst das Element deiner piktomantische <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kreatur<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+35347,"Du materialisierst das Element deiner piktomantischen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kreatur<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Bei bemalter <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kreaturen-Leinwand<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ändert sich dieses Kommando entsprechend zu <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Muse mit Bommel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Beschwingte Muse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Kratzende Muse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Beißende Muse<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Muse mit Bommel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Beschwingte Muse<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Muse mit Bommel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Beschwingte Muse<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
 Maximale Aufladungen: <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>3<Else/>2</If><Else/>2</If>
 Bedingung: Gemaltes <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kreaturen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-Element"
@@ -45925,7 +45939,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inneres Beb
 Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Urbefreiung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 36925,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus, die direkt und kritisch trifft.
-Attacke-Wert: 740
+Attacke-Wert: 780
 Attacke-Wert verringert sich ab dem zweiten Gegner um 70<Indent/>％.
 Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruinator<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
@@ -45972,6 +45986,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lied des Antihelden<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv"
 36933,""
 36934,"Du bewegst dich augenblicklich vor deinen anvisierten Gegner.
+Zusatzeffekt: Erhöhte Feindseligkeit
 Maximale Aufladungen: 2
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 36935,"Du verringerst deinen erlittenen Schaden um 40<Indent/>% und erhöhst deine maximalen LP um 20<Indent/>%. Dabei werden sie um diesen Betrag auch aufgefüllt.
@@ -46025,16 +46040,16 @@ Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, 
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
 36946,"Du führst eine physische Attacke aus.
-Attacke-Wert: 330
-Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 480
+Attacke-Wert: 340
+Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 540
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
 36947,"Du führst eine physische Attacke aus.
-Attacke-Wert: 340
-Von der Seite: 400
-Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 440
-Von der Seit und bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 500
+Attacke-Wert: 310
+Von der Seite: 370
+Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 460
+Von der Seite und bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rechtschaffene Faust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: 520
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Zusatzeffekt: Du wechselst in die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-Opo-Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden"
@@ -46075,11 +46090,11 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50<Indent/>%.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aufstiegsbereit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv"
 36954,"Du führst eine physische Attacke aus.
 Attacke-Wert: 130
-Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Überfallsstoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Attacke-Wert: 340"
 36955,"Du führst eine physische Attacke aus.
 Attacke-Wert: 140
-Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Kombo-Bedingung: <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Sauberer Stoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Überfallsstoß<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Attacke-Wert: 300
 Bonus: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachenklaue<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 30 Sekunden
@@ -46153,7 +46168,6 @@ Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UI
 Maximalstapelzahl: 3
 Dauer: Fortdauernd
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tendo<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und 3 verschiedene Symbole sind aktiv
-Eigener Reaktivierungs-Timer
 Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Iaijutsu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 36967,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
@@ -46163,7 +46177,6 @@ Kann nicht im Kommandomenü angelegt werden."
 36968,"Du führst eine physische Attacke aus, die kritisch trifft.
 Attacke-Wert: 1.020
 Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.
-Eigener Reaktivierungs-Timer
 Bei erfüllter Bedingung ändert sich <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tsubamegaeshi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden."
 36969,"Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
@@ -46297,6 +46310,7 @@ Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwarze Fu
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schwarze Funken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird gewährt, wenn du in keinem Zustand bist und dir entweder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lichtfeuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> oder <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatteneis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> gewährt wird, oder du aber von aktivem <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lichtfeuer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> zu <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Schatteneis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (und umgekehrt) wechselst.
 Dauer: 30 Sekunden"
 36988,"Du ziehst das schwarzmagische Muster um dich abermals nach.
+Die verbleibende Wirkungsdauer der ursprünglichen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ley-Linien<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wird übernommen.
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ley-Linien<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv"
 36989,"Du fügst dem Ziel und den Gegnern in seiner Nähe feuerbasierten magischen Schaden zu.
 Attacke-Wert: 400
@@ -48999,7 +49013,7 @@ Falls die Barriere den vollen Schaden absorbiert, verkürzt sich die Re<SoftHyph
 Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tempera-Schicht<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht im Kommandomenü angelegt werden."
 39213,"Du gewährst dir selbst <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Effekt endet bei erneuter Ausführung."
-39214,"Du beendest  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+39214,"Du beendest <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtraktive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 39215,"Du manifestierst den mächtigen <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Chocomoppel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> und schleuderst alle Gegner in deiner Nähe um 10y zurück.
 Zusatzeffekt: Manifestiert die <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mächtige Moppelmauer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 15 Sekunden
