@@ -22850,7 +22850,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1022846,"Schlüsselmeisterin",3,"Schlüsselmeisterinnen",1,0,1,1,0,"",3,True
 1022847,"",0,"",0,0,1,0,0,"",5,False
 1022848,"",0,"",0,0,1,0,0,"",5,False
-1022849,"kampferprobt[a] Veteran",6,"kampferprobt[a] Veteranen",1,0,1,0,0,"TRAINING",3,True
+1022849,"kampferprobt[a] Veteran",6,"kampferprobt[a] Veteranen",1,0,1,0,0,"Steinpuppentraining",3,True
 1022850,"Hewe",3,"Hewe",1,0,0,0,1,"",3,True
 1022851,"",0,"",0,0,1,0,0,"",5,False
 1022852,"Hanzo",3,"NONE",1,0,0,0,1,"",4,False
@@ -30410,7 +30410,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1030406,"Jamial",3,"NONE",1,0,0,0,1,"",3,False
 1030407,"Ghun Gun",3,"NONE",1,0,0,0,1,"",3,False
 1030408,"ärmlich[a] Arbeiter",4,"ärmlich[a] Arbeiter",2,0,1,0,0,"",3,False
-1030409,"sanft[a] Veteran",6,"sanft[a] Veteranen",1,0,1,0,0,"TRAINING",3,True
+1030409,"sanft[a] Veteran",6,"sanft[a] Veteranen",1,0,1,0,0,"Steinpuppentraining",3,True
 1030410,"wissend[a] Veteran",6,"wissend[a] Veteranen",1,0,1,0,0,"",3,True
 1030411,"",0,"",0,0,1,0,0,"",5,False
 1030412,"Feo Ul",3,"NONE",1,0,0,0,1,"",3,False
@@ -40742,7 +40742,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1040738,"Estinien",3,"NONE",1,0,1,0,1,"",3,False
 1040739,"Estinien",3,"NONE",1,0,1,0,1,"",3,False
 1040740,"Estinien",3,"NONE",1,0,1,0,1,"",3,False
-1040741,"scharfsichtig[a] Soldat[p] des Himmelsheers ",6,"scharfsichtig[a] Soldaten[p] des Himmelsheers ",1,0,1,0,0,"TRAINING",3,True
+1040741,"scharfsichtig[a] Soldat[p] des Himmelsheers ",6,"scharfsichtig[a] Soldaten[p] des Himmelsheers ",1,0,1,0,0,"Steinpuppentraining",3,True
 1040742,"Namono Tayamono",3,"NONE",1,0,0,0,1,"",3,False
 1040743,"",0,"",0,0,1,0,0,"",3,False
 1040744,"",0,"",0,0,1,0,0,"",2,False
@@ -46314,7 +46314,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046310,"Loashkana",3,"NONE",1,0,0,1,1,"",3,False
 1046311,"Loashkana",3,"NONE",1,0,0,1,1,"",3,False
 1046312,"erschöpft[a] Lalafell",3,"erschöpft[a] Lalafell",1,0,1,0,0,"",3,False
-1046313,"belustigt[a] Miquote",3,"belustigt[a] Miquote",1,0,1,1,0,"",3,False
+1046313,"belustigt[a] Miqo'te",3,"belustigt[a] Miqo'te",1,0,1,1,0,"",3,False
 1046314,"verwirrt[a] Hyuran",3,"verwirrt[a] Hyuran",1,0,1,1,0,"",3,False
 1046315,"",0,"",0,0,1,0,0,"",5,False
 1046316,"Loashkana",3,"NONE",1,0,0,1,1,"",3,False
@@ -48052,7 +48052,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048048,"Erenville",3,"NONE",1,0,0,0,1,"",3,False
 1048049,"Wuk Lamat",3,"NONE",1,0,0,1,1,"",3,False
 1048050,"Wayakkwe",3,"NONE",1,0,0,1,1,"",3,False
-1048051,"Nostaliga",3,"NONE",1,0,0,1,1,"",3,False
+1048051,"Nostalgia",3,"NONE",1,0,0,1,1,"",3,False
 1048052,"Geode",3,"NONE",1,0,0,0,1,"",3,False
 1048053,"Cahciua",3,"NONE",1,0,0,1,1,"",3,False
 1048054,"Gulool Ja",3,"NONE",1,0,0,0,1,"",3,False
@@ -49079,7 +49079,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049075,"",0,"",0,0,0,0,0,"",0,False
 1049076,"Mogry-Postbote",5,"Mogry-Postboten",1,0,1,0,0,"",3,True
 1049077,"Ketek",3,"NONE",1,0,0,0,1,"Reparatur",3,True
-1049078,"",0,"",0,0,0,0,0,"",0,False
+1049078,"Theone",3,"NONE",1,0,0,1,1,"Ausrüstungsverstärkung",3,True
 1049079,"Zircon",3,"NONE",1,0,0,0,1,"Allagische Steine",3,True
 1049080,"Uah'shepya",3,"NONE",1,0,0,1,1,"Verschiedenes",3,True
 1049081,"Hhihwi",3,"NONE",1,0,0,0,1,"Arkadion-Ausrüstung",3,True
@@ -49467,7 +49467,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049463,"",0,"",0,0,1,0,0,"",5,False
 1049464,"",0,"",0,0,1,0,0,"",5,False
 1049465,"Pawkwena",3,"NONE",1,0,0,1,1,"",3,False
-1049466,"exzentrisch[a] Wissenschaftlerin",3,"exzentrisch[a] Wissenschaftlerinnen",1,0,1,1,0,"TRAINING",3,True
+1049466,"exzentrisch[a] Wissenschaftlerin",3,"exzentrisch[a] Wissenschaftlerinnen",1,0,1,1,0,"Steinpuppentraining",3,True
 1049467,"",0,"",0,0,1,0,0,"",5,False
 1049468,"",0,"",0,0,1,0,0,"",5,False
 1049469,"Uataaye",3,"NONE",1,0,0,0,1,"",3,True
@@ -50954,7 +50954,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050950,"",0,"",0,0,0,0,0,"",0,False
 1050951,"",0,"",0,0,0,0,0,"",0,False
 1050952,"",0,"",0,0,0,0,0,"",0,False
-1050953,"Festverkäuferin",3,"Festverkäuferinnen",1,0,1,1,0,"Saisonales Geschäft",3,False
+1050953,"Festverkäuferin",3,"Festverkäuferinnen",1,0,1,1,0,"Saisonales Geschäft",3,True
 1050954,"Feuermondreigen-Verkäuferin",3,"Feuermondreigen-Verkäuferinnen",1,0,1,1,0,"Saisonales Geschäft",3,True
 1050955,"",0,"",0,0,1,0,0,"",5,False
 1050956,"",0,"",0,0,1,0,0,"",5,False

@@ -49079,7 +49079,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1049075,"",0,"",0,0,0,0,0,"",0,False
 1049076,"Mog postier",0,"Mogs postiers",0,0,1,0,0,"",3,True
 1049077,"Ketek",0,"Ketek",0,0,1,0,1,"Équipements et réparations",3,True
-1049078,"",0,"",0,0,0,0,0,"",0,False
+1049078,"Theone",0,"Theone",0,0,1,1,1,"Équipements",3,True
 1049079,"Zircon",0,"Zircon",0,0,1,0,1,"Équipements",3,True
 1049080,"Uah'shepya",0,"Uah'shepya",0,1,1,1,1,"Divers",3,True
 1049081,"Hhihwi",0,"Hhihwi",0,0,1,0,1,"Équipements de l'Arcadion",3,True
@@ -50479,19 +50479,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050475,"Krile",0,"Krile",0,0,1,1,1,"",3,False
 1050476,"Metem",0,"Metem",0,0,1,0,1,"",3,False
 1050477,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
-1050478,"冒険者ギルドの調査員",0,"",0,0,1,0,0,"",3,False
-1050479,"パパ・ブルーセ",0,"",0,0,1,0,0,"",3,False
+1050478,"enquêteur",0,"enquêteurs",0,1,1,0,0,"",3,False
+1050479,"Paparlequin",0,"Paparlequin",0,0,1,0,1,"",3,False
 1050480,"",0,"",0,0,1,0,0,"",5,False
 1050481,"",0,"",0,0,1,0,0,"",5,False
 1050482,"",0,"",0,0,1,0,0,"",5,False
-1050483,"フィルコックス",0,"",0,0,1,0,0,"",3,False
-1050484,"パンプキンヘッドの女",0,"",0,0,1,0,0,"",3,False
-1050485,"フィルコックス",0,"",0,0,1,0,0,"",3,False
-1050486,"フィルコックス",0,"",0,0,1,0,0,"",3,False
+1050483,"Philcox",0,"Philcox",0,0,1,0,1,"",3,False
+1050484,"femme à tête de citrouille",0,"femmes à tête de citrouille",0,0,1,1,0,"",3,False
+1050485,"Philcox",0,"Philcox",0,0,1,0,1,"",3,False
+1050486,"Philcox",0,"Philcox",0,0,1,0,1,"",3,False
 1050487,"",0,"",0,0,1,0,0,"",5,False
-1050488,"焦っている男性",0,"",0,0,1,0,0,"",3,False
-1050489,"悲しんでいる女の子",0,"",0,0,1,0,0,"",3,False
-1050490,"パパ・ブルーセ",0,"",0,0,1,0,0,"",3,False
+1050488,"homme paniqué",0,"hommes paniqués",0,1,1,0,0,"",3,False
+1050489,"demoiselle en détresse",0,"demoiselles en détresse",0,0,1,1,0,"",3,False
+1050490,"Paparlequin",0,"Paparlequin",0,0,1,0,1,"",3,False
 1050491,"",0,"",0,0,1,0,0,"",5,False
 1050492,"sentinelle P5-0910",0,"sentinelles P5-0910",0,0,1,1,0,"",3,False
 1050493,"sentinelle P7-1091",0,"sentinelles P7-1091",0,0,1,1,0,"",3,False
@@ -50847,9 +50847,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050843,"",0,"",0,0,0,0,0,"",0,False
 1050844,"",0,"",0,0,0,0,0,"",0,False
 1050845,"",0,"",0,0,1,0,0,"",4,False
-1050846,"フィルコックス",0,"",0,0,1,0,0,"",4,False
-1050847,"女の子の母親",0,"",0,0,1,0,0,"",4,False
-1050848,"フィルコックス",0,"",0,0,1,0,0,"",4,False
+1050846,"Philcox",0,"Philcox",0,0,1,0,1,"",4,False
+1050847,"mère inquiète",0,"mères inquiètes",0,0,1,1,0,"",4,False
+1050848,"Philcox",0,"Philcox",0,0,1,0,1,"",4,False
 1050849,"",0,"",0,0,1,0,0,"",4,False
 1050850,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",4,False
 1050851,"Rral Vaw",0,"Rral Vaw",0,0,1,0,1,"",4,False
@@ -50921,8 +50921,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050917,"",0,"",0,0,1,0,0,"",4,False
 1050918,"",0,"",0,0,1,0,0,"",4,False
 1050919,"",0,"",0,0,1,0,0,"",4,False
-1050920,"フィルコックス",0,"",0,0,1,0,0,"",4,False
-1050921,"悲しんでいる女の子",0,"",0,0,1,0,0,"",4,False
+1050920,"Philcox",0,"Philcox",0,0,1,0,1,"",4,False
+1050921,"demoiselle en détresse",0,"demoiselles en détresse",0,0,1,1,0,"",4,False
 1050922,"habitant xbr'aal",0,"habitants xbr'aal",0,1,1,0,0,"",4,False
 1050923,"",0,"",0,0,1,0,0,"",4,False
 1050924,"habitante xbr'aal",0,"habitantes xbr'aal",0,1,1,1,0,"",4,False
@@ -50950,11 +50950,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050946,"Nakente",0,"Nakente",0,0,1,1,1,"",3,False
 1050947,"",0,"",0,0,1,0,0,"",5,False
 1050948,"",0,"",0,0,1,0,0,"",5,False
-1050949,"守護天節の売り子",0,"",0,0,1,0,0,"SEASONAL",3,True
+1050949,"vendeuse de la Veillée des saints",0,"vendeuses de la Veillée des saints",0,0,1,1,0,"Saisonnière",3,True
 1050950,"",0,"",0,0,0,0,0,"",0,False
 1050951,"",0,"",0,0,0,0,0,"",0,False
 1050952,"",0,"",0,0,0,0,0,"",0,False
-1050953,"vendeuse de la Commémoration",0,"vendeuses de la Commémoration",0,0,1,1,0,"Saisonnière",3,False
+1050953,"vendeuse de la Commémoration",0,"vendeuses de la Commémoration",0,0,1,1,0,"Saisonnière",3,True
 1050954,"vendeuse des Feux de la Mort",0,"vendeuses des Feux de la Mort",0,0,1,1,0,"Saisonnière",3,True
 1050955,"",0,"",0,0,1,0,0,"",5,False
 1050956,"",0,"",0,0,1,0,0,"",5,False
@@ -50974,7 +50974,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050970,"",0,"",0,0,1,0,0,"",5,False
 1050971,"",0,"",0,0,1,0,0,"",5,False
 1050972,"Hoobigo inquiet",0,"Hoobigo inquiets",0,0,1,0,0,"",5,False
-1050973,"フィルコックス",0,"",0,0,1,0,0,"",3,False
+1050973,"Philcox",0,"Philcox",0,0,1,0,1,"",3,False
 1050974,"Kaahe",0,"Kaahe",0,0,1,0,1,"",3,False
 1050975,"",0,"",0,0,1,0,0,"",5,False
 1050976,"",0,"",0,0,1,0,0,"",5,False
@@ -51076,19 +51076,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051072,"assistant mécanicien",0,"assistants mécaniciens",0,1,1,0,0,"",3,False
 1051073,"jeune Xbr'aal",0,"jeunes Xbr'aal",0,0,1,1,0,"",3,False
 1051074,"Xbr'aal âgé",0,"Xbr'aal âgés",0,0,1,0,0,"",3,False
-1051075,"パパ・ブルーセ",0,"",0,0,1,0,0,"",3,False
+1051075,"Paparlequin",0,"Paparlequin",0,0,1,0,1,"",3,False
 1051076,"",0,"",0,0,1,0,0,"",5,False
 1051077,"",0,"",0,0,1,0,0,"",5,False
 1051078,"",0,"",0,0,1,0,0,"",5,False
 1051079,"",0,"",0,0,1,0,0,"",5,False
 1051080,"",0,"",0,0,1,0,0,"",5,False
 1051081,"",0,"",0,0,1,0,0,"",5,False
-1051082,"守護天節の広報係",0,"",0,0,1,0,0,"",3,True
-1051083,"守護天節の広報係",0,"",0,0,1,0,0,"",3,True
-1051084,"守護天節の広報係",0,"",0,0,1,0,0,"",3,True
-1051085,"不思議な案内人",0,"",0,0,1,0,0,"GATEKEEPER",3,True
-1051086,"フィルコックス",0,"",0,0,1,0,0,"",3,False
-1051087,"仮装パーティーの招待係",0,"",0,0,1,0,0,"GATEKEEPER",3,True
+1051082,"démarcheur de la Veillée des saints",0,"démarcheur de la Veillée des saints",0,0,1,0,0,"",3,True
+1051083,"démarcheur de la Veillée des saints",0,"démarcheur de la Veillée des saints",0,0,1,0,0,"",3,True
+1051084,"démarcheur de la Veillée des saints",0,"démarcheur de la Veillée des saints",0,0,1,0,0,"",3,True
+1051085,"guide étrange",0,"guides étranges",0,0,1,0,0,"Gardien",3,True
+1051086,"Philcox",0,"Philcox",0,0,1,0,1,"",3,False
+1051087,"guide du bal costumé",0,"guides du bal costumé",0,0,1,0,0,"Gardien",3,True
 1051088,"",0,"",0,0,1,0,0,"",5,False
 1051089,"Cahciua",0,"Cahciua",0,0,1,1,1,"",4,False
 1051090,"Cahciua",0,"Cahciua",0,0,1,1,1,"",4,False
@@ -51145,8 +51145,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051141,"",0,"",0,0,1,0,0,"",5,False
 1051142,"",0,"",0,0,1,0,0,"",5,False
 1051143,"",0,"",0,0,1,0,0,"",5,False
-1051144,"怪しげなインプ",0,"",0,0,1,0,0,"SEASONAL EVENT",3,True
-1051145,"怪しげなインプ",0,"",0,0,1,0,0,"SEASONAL EVENT",3,True
+1051144,"imp suspect",0,"imps suspects",0,1,1,0,0,"Saisonnier",3,True
+1051145,"imp suspect",0,"imps suspects",0,1,1,0,0,"Saisonnier",3,True
 1051146,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",3,False
 1051147,"Gotoll Ja",0,"Gotoll Ja",0,0,1,0,1,"",3,False
 1051148,"homme excité",0,"hommes excités",0,1,1,0,0,"",3,False

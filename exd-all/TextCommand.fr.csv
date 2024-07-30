@@ -853,12 +853,12 @@ Fait une pose de groupe avec votre personnage et ceux d'autres joueurs.
 >> Fonctions<Indent/>:
 R, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.
 <If(Equal(PlayerParameter(78),3))>espace<Else/>Espace</If>/<CommandIcon(11)/>    Active/désactive l'orientation du regard vers la caméra.
-X/<CommandIcon(13)/>    Éclaire la position de la caméra.
+X/<CommandIcon(13)/>    Inverse la position de la caméra.
 1/<CommandIcon(14)/>    Arrête tous les mouvements.
 2/<CommandIcon(15)/>    Arrête les mouvements de la cible.
 <If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>/<CommandIcon(6)/>    Change le personnage central.
-Z,Q,S,D,A,E/<CommandIcon(20)/>    Ajuste la position du cadre.
-W/<Gui(16)/>    Réinitialise la position du cadre.
+Z,Q,S,D,A,E/<CommandIcon(20)/>    Ajuste l'orientation de la caméra.
+W/<Gui(16)/>    Réinitialise l'orientation de la caméra.
 (Touches par défaut)","/posegroupe","/posegr","RAU",0
 220,2,0,0,0,0,"/itemsearch","/isearch","/rechercheobjet, /rechobj, /itemsearch, /isearch
 Utilisation<Indent/>: /rechercheobjet ""Terme""

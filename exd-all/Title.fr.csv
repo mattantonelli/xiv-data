@@ -750,9 +750,9 @@ int32,str,str,bit&01,uint16
 746,"Loyauté immaculée","Loyauté immaculée",False,1809
 747,"Plume claire","Plume claire",False,1810
 748,"Mort ailée","Mort ailée",False,1811
-749,"","",False,0
-750,"","",False,0
-751,"","",False,0
+749,"Cénote caché","Cénote caché",False,1812
+750,"Fraternel","Fraternelle",False,1813
+751,"Profondeurs resplendissantes","Profondeurs resplendissantes",False,1814
 752,"Pratiquement Pelupelu","Pratiquement Pelupelu",False,1815
 753,"Légende conflictuelle","Légende conflictuelle",False,1816
 754,"Histoire conflictuelle","Histoire conflictuelle",False,1817
