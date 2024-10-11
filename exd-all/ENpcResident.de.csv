@@ -48378,7 +48378,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048374,"Tepeke",3,"NONE",1,0,0,1,1,"",3,False
 1048375,"Peshekwa",3,"NONE",1,0,0,1,1,"Gästezimmer",3,True
 1048376,"Mewazunte",3,"NONE",1,0,0,0,1,"Händler",3,True
-1048377,"Br'uk Ogaw",3,"NONE",1,0,0,0,1,"Waffen",3,True
+1048377,"Br'uk Ogaw",3,"NONE",1,0,0,0,1,"Ausrüstung",3,True
 1048378,"Veegal Ja",3,"NONE",1,0,0,0,1,"Werkzeuge",3,True
 1048379,"Packapik",3,"NONE",1,0,0,0,1,"Reparatur",3,True
 1048380,"Materia-Einsetzerin",3,"Materia-Einsetzerinnen",1,0,1,1,0,"",3,True

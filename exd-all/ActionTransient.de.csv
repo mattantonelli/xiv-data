@@ -20173,7 +20173,7 @@ Läuft <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachengeist<UI
 <Else/></If><Else/></If>Bedingung: <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drachengeist<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv
 Kann nicht während <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fessel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ausgeführt werden."
 16481,"Du führst eine physische Attacke aus.
-Attacke-Wert: 860
+Attacke-Wert: 800
 Kenki-Balken-Kosten: 25
 Gemeinsamer Reaktivierungs-Timer mit <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Hissatsu: Guren<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 16482,"Du füllst den Kenki-Balken um 50.
@@ -43055,14 +43055,14 @@ Attacke-Wert: <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(Player
 Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tödliche Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>300<Else/>280</If><Else/>280</If>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tückische Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 60 Sekunden
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tückische Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Der Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tückische Fänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 100 und der von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow> Tückische Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 20 erhöht.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tückische Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Der Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tückische Fänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 100 und der von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tückische Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 20 erhöht.
 Kann nicht gleichzeitig mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tödliche Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv sein."
 34607,"Du führst eine physische Attacke aus.
-Attacke-Wert: <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>140<Else/>120</If><Else/>120</If>
+Attacke-Wert: <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>200<Else/>180</If><Else/>180</If>
 Bei <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tückische Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>300<Else/>280</If><Else/>280</If>
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tödliche Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Dauer: 60 Sekunden
-Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tödliche Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Der Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tödliche Fänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 100 und der von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow> Tödliche Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 20 erhöht.
+Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tödliche Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Der Attacke-Wert von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tödliche Fänge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ist um 100 und der von <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Tödliche Kiefer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> um 20 erhöht.
 Kann nicht gleichzeitig mit <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tückische Haltung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aktiv sein."
 34608,"Du führst eine physische Attacke aus.
 Attacke-Wert: <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>300<Else/>280</If><Else/>280</If>
@@ -45945,7 +45945,7 @@ Kann nicht im Kommandomenü angelegt werden."
 Dauer: 15 Sekunden
 Zusatzeffekt: Gewährt dir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erlöst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, sobald du Schaden nimmst oder der Effekt ausläuft.
 Effekt von <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Erlöst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>: Regeneriert stetig LP.
-Heilpotenzial: 400
+Heilpotenzial: 300
 Dauer: 15 Sekunden"
 36924,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 700

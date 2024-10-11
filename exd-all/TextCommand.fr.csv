@@ -3051,6 +3051,12 @@ Exécute une célébration de haricot.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/célébrationdeharicot","/célébharicot","pdamage",0
+678,2,1,2,0,0,"/fryegg","","/cuisinerunoeufauplat, /cuisoeuf, /fryegg
+Utilisation<Indent/>: /cuisinerunoeufauplat [sous-commande]
+Cuisine un œuf au plat.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/cuisinerunoeufauplat","/cuisoeuf","pdamage",0
 679,2,1,2,0,0,"/uchiwasshoi","/bigfan","/grandéventail, /géventail, /uchiwasshoi, /bigfan
 Utilisation<Indent/>: /grandéventail [sous-commande]
 Évente avec un grand éventail.

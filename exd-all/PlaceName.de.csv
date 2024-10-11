@@ -5031,7 +5031,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5003,"Zweite Kammer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Zweiten Kammer</Case><Case(2)>in der Zweiten Kammer</Case><Case(3)>die Zweite Kammer</Case></Switch>",0,0,0
 5004,"Dritte Kammer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Dritten Kammer</Case><Case(2)>in der Dritten Kammer</Case><Case(3)>die Dritte Kammer</Case></Switch>",0,0,0
 5005,"Vierte Kammer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Vierten Kammer</Case><Case(2)>in der Vierten Kammer</Case><Case(3)>die Vierte Kammer</Case></Switch>",0,0,0
-5006,"Thron der Fülle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur prunkvollen Thronkammer</Case><Case(2)>in der prunkvollen Thronkammer</Case><Case(3)>die prunkvolle Thronkammer</Case></Switch>",0,0,0
+5006,"Prunkvolle Thronkammer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur prunkvollen Thronkammer</Case><Case(2)>in der prunkvollen Thronkammer</Case><Case(3)>die prunkvolle Thronkammer</Case></Switch>",0,0,0
 5007,"Origenik",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Origenik</Case><Case(2)>in der Origenik</Case><Case(3)>die Origenik</Case></Switch>",0,0,0
 5008,"Lieferhafen ",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lieferhafen</Case><Case(2)>im Lieferhafen</Case><Case(3)>der Lieferhafen</Case></Switch>",0,0,0
 5009,"Untere Ebenen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Unteren Ebenen</Case><Case(2)>in den Unteren Ebenen</Case><Case(3)>die Unteren Ebenen</Case></Switch>",0,0,0
