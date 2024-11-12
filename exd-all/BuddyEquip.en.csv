@@ -101,7 +101,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 97,"set of Skyruin barding",0,"sets of Skyruin barding",0,0,1,0,0,"Skyruin Barding",65628,65628,65628,"None","ui/icon/058000/058792.tex","ui/icon/058000/058794.tex","ui/icon/058000/058793.tex",161
 98,"set of electrope barding",0,"sets of electrope barding",0,0,1,0,0,"Electrope Barding",65629,65629,65629,"None","ui/icon/058000/058795.tex","ui/icon/058000/058797.tex","ui/icon/058000/058796.tex",162
 99,"set of wild ride barding",0,"sets of wild ride barding",0,0,1,0,0,"Wild Ride Barding",65630,65630,65630,"None","ui/icon/058000/058798.tex","ui/icon/058000/058800.tex","ui/icon/058000/058799.tex",83
-100,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
-101,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+100,"set of eternal barding",0,"sets of eternal barding",0,0,1,0,0,"Eternal Barding",65631,65631,65631,"None","ui/icon/058000/058801.tex","ui/icon/058000/058803.tex","ui/icon/058000/058802.tex",163
+101,"set of Starlight Stalls barding",0,"sets of Starlight Stalls barding",0,0,1,0,0,"Starlight Stalls Barding",65632,65632,65632,"None","ui/icon/058000/058804.tex","ui/icon/058000/058806.tex","ui/icon/058000/058805.tex",108
 102,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 103,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

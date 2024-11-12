@@ -43,9 +43,9 @@ int32,uint16,byte,byte,byte,uint16,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,
 39,4240,1,1,1,2,37,"ui/icon/008000/008038.tex",25,"Neon Parasol",0,"Neon Parasols",0,0,1,0,0
 40,4241,1,1,1,2,38,"ui/icon/008000/008039.tex",26,"Ribboned Parasol",0,"Ribboned Parasols",0,0,1,0,0
 41,4242,1,1,1,2,39,"ui/icon/008000/008040.tex",27,"Bomb Parasol",0,"Bomb Parasols",0,0,1,0,0
-42,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
-43,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
-44,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+42,4406,1,1,1,2,40,"ui/icon/008000/008041.tex",28,"Mandragora Parasol",0,"Mandragora Parasols",0,0,1,0,0
+43,4407,1,1,1,2,41,"ui/icon/008000/008042.tex",29,"Archon Egg Parasol",0,"Archon Egg Parasols",0,1,1,0,0
+44,4408,9,0,2,0,42,"ui/icon/008000/008043.tex",301,"Pelupack",0,"Pelupacks",0,0,1,0,0
 45,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
 46,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
 47,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0

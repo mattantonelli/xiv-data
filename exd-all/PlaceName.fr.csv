@@ -4821,8 +4821,8 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4751,"Profondeurs du cénote des Cieux infinis",0,"Profondeurs du cénote des Cieux infinis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les profondeurs du cénote des Cieux infinis</Case><Case(2)>dans les profondeurs du cénote des Cieux infinis</Case><Case(3)>des profondeurs du cénote des Cieux infinis</Case></Switch>",0,0,0
 4752,"Antre sablonneux",0,"Antre sablonneux",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Antre sablonneux</Case><Case(2)>dans l'Antre sablonneux</Case><Case(3)>de l'Antre sablonneux</Case></Switch>",0,0,0
 4753,"Tour du mu",0,"Tour du mu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Tour du mu</Case><Case(2)>dans la Tour du mu</Case><Case(3)>de la Tour du mu</Case></Switch>",0,0,0
-4754,"",0,"",0,0,1,0,0,"",0,0,0
-4755,"",0,"",0,0,1,0,0,"",0,0,0
+4754,"Marché des étoiles",0,"Marché des étoiles",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le marché des étoiles</Case><Case(2)>au marché des étoiles</Case><Case(3)>du marché des étoiles</Case></Switch>",0,0,0
+4755,"",0,"",0,0,0,0,0,"",0,0,0
 4756,"",0,"",0,0,1,0,0,"",0,0,0
 4757,"",0,"",0,0,1,0,0,"",0,0,0
 4758,"",0,"",0,0,1,0,0,"",0,0,0
@@ -5192,36 +5192,36 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5122,"Galerie imaginée",0,"Galerie imaginée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la galerie imaginée</Case><Case(2)>à la galerie imaginée</Case><Case(3)>de la galerie imaginée</Case></Switch>",0,0,0
 5123,"Antichambre imaginée",0,"Antichambre imaginée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'antichambre imaginée</Case><Case(2)>à l'antichambre imaginée</Case><Case(3)>de l'antichambre imaginée</Case></Switch>",0,0,0
 5124,"Salle d'audience imaginée",0,"Salle d'audience imaginée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle d'audience imaginée</Case><Case(2)>à la salle d'audience imaginée</Case><Case(3)>de la salle d'audience imaginée</Case></Switch>",0,0,0
-5125,"",0,"",0,0,0,0,0,"",0,0,0
-5126,"",0,"",0,0,0,0,0,"",0,0,0
-5127,"",0,"",0,0,0,0,0,"",0,0,0
-5128,"",0,"",0,0,0,0,0,"",0,0,0
-5129,"",0,"",0,0,0,0,0,"",0,0,0
-5130,"",0,"",0,0,0,0,0,"",0,0,0
-5131,"",0,"",0,0,0,0,0,"",0,0,0
-5132,"",0,"",0,0,0,0,0,"",0,0,0
-5133,"",0,"",0,0,0,0,0,"",0,0,0
-5134,"",0,"",0,0,0,0,0,"",0,0,0
-5135,"",0,"",0,0,0,0,0,"",0,0,0
-5136,"",0,"",0,0,0,0,0,"",0,0,0
+5125,"La Louverie (The Fold)",0,"La Louverie (The Fold)",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Louverie (The Fold)</Case><Case(2)>à La Louverie (The Fold)</Case><Case(3)>de La Louverie (The Fold)</Case></Switch>",0,0,0
+5126,"Yuweyawata",0,"Yuweyawata",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Yuweyawata</Case><Case(2)>à Yuweyawata</Case><Case(3)>de Yuweyawata</Case></Switch>",0,0,0
+5127,"Wawsatenyazeto",0,"Wawsatenyazeto",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Wawsatenyazeto</Case><Case(2)>à Wawsatenyazeto</Case><Case(3)>de Wawsatenyazeto</Case></Switch>",0,0,0
+5128,"Carrière de cristal",0,"Carrière de cristal",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la carrière de cristal</Case><Case(2)>à la carrière de cristal</Case><Case(3)>de la carrière de cristal</Case></Switch>",0,0,0
+5129,"Centre de gestion des âmes",0,"Centre de gestion des âmes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le centre de gestion des âmes</Case><Case(2)>au centre de gestion des âmes</Case><Case(3)>du centre de gestion des âmes</Case></Switch>",0,0,0
+5130,"Clapier tempétueux",0,"Clapier tempétueux",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Clapier tempétueux</Case><Case(2)>au Clapier tempétueux</Case><Case(3)>du Clapier tempétueux</Case></Switch>",0,0,0
+5131,"Forêt du crépuscule",0,"Forêt du crépuscule",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la forêt du crépuscule</Case><Case(2)>à la forêt du crépuscule</Case><Case(3)>de la forêt du crépuscule</Case></Switch>",0,0,0
+5132,"Ruines de Yuweyawata",0,"Ruines de Yuweyawata",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les ruines de Yuweyawata</Case><Case(2)>aux ruines de Yuweyawata</Case><Case(3)>des ruines de Yuweyawata</Case></Switch>",0,0,0
+5133,"Institut Kanilokka",0,"Institut Kanilokka",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Institut Kanilokka</Case><Case(2)>à l'Institut Kanilokka</Case><Case(3)>de l'Institut Kanilokka</Case></Switch>",0,0,0
+5134,"Furie de l'Oreillard",0,"Furie de l'Oreillard",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Furie de l'Oreillard</Case><Case(2)>à la Furie de l'Oreillard</Case><Case(3)>de la Furie de l'Oreillard</Case></Switch>",0,0,0
+5135,"Laboratoire secret",0,"Laboratoire secret",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le laboratoire secret</Case><Case(2)>au laboratoire secret</Case><Case(3)>du laboratoire secret</Case></Switch>",0,0,0
+5136,"Sous-sol du laboratoire secret",0,"Sous-sol du laboratoire secret",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sous-sol du laboratoire secret</Case><Case(2)>au sous-sol du laboratoire secret</Case><Case(3)>du sous-sol du laboratoire secret</Case></Switch>",0,0,0
 5137,"",0,"",0,0,0,0,0,"",0,0,0
-5138,"",0,"",0,0,0,0,0,"",0,0,0
-5139,"",0,"",0,0,0,0,0,"",0,0,0
-5140,"",0,"",0,0,0,0,0,"",0,0,0
-5141,"",0,"",0,0,0,0,0,"",0,0,0
-5142,"",0,"",0,0,0,0,0,"",0,0,0
-5143,"",0,"",0,0,0,0,0,"",0,0,0
-5144,"",0,"",0,0,0,0,0,"",0,0,0
-5145,"",0,"",0,0,0,0,0,"",0,0,0
-5146,"",0,"",0,0,0,0,0,"",0,0,0
-5147,"",0,"",0,0,0,0,0,"",0,0,0
-5148,"",0,"",0,0,0,0,0,"",0,0,0
-5149,"",0,"",0,0,0,0,0,"",0,0,0
-5150,"",0,"",0,0,0,0,0,"",0,0,0
-5151,"",0,"",0,0,0,0,0,"",0,0,0
-5152,"",0,"",0,0,0,0,0,"",0,0,0
+5138,"Jeuno - La première perambulation",0,"Jeuno - La première perambulation",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Jeuno - La première perambulation</Case><Case(2)>à Jeuno - La première perambulation</Case><Case(3)>de Jeuno - La première perambulation</Case></Switch>",0,0,0
+5139,"Bas Jeuno",0,"Bas Jeuno",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Bas Jeuno</Case><Case(2)>au Bas Jeuno</Case><Case(3)>du Bas Jeuno</Case></Switch>",0,0,0
+5140,"Arbre de Boyahda",0,"Arbre de Boyahda",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Arbre de Boyahda</Case><Case(2)>à l'Arbre de Boyahda</Case><Case(3)>de l'Arbre de Boyahda</Case></Switch>",0,0,0
+5141,"Jardins de Ru'Aun",0,"Jardins de Ru'Aun",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Jardins de Ru'Aun</Case><Case(2)>aux Jardins de Ru'Aun</Case><Case(3)>des Jardins de Ru'Aun</Case></Switch>",0,0,0
+5142,"Amphithéâtre de La'Loff",0,"Amphithéâtre de La'Loff",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Amphithéâtre de La'Loff</Case><Case(2)>à l'Amphithéâtre de La'Loff</Case><Case(3)>de l'Amphithéâtre de La'Loff</Case></Switch>",0,0,0
+5143,"Château Zvahl",0,"Château Zvahl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Château Zvahl</Case><Case(2)>au Château Zvahl</Case><Case(3)>du Château Zvahl</Case></Switch>",0,0,0
+5144,"Salle du trône",0,"Salle du trône",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle du trône</Case><Case(2)>à la salle du trône</Case><Case(3)>de la salle du trône</Case></Switch>",0,0,0
+5145,"Bas Jeuno",0,"Bas Jeuno",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Bas Jeuno</Case><Case(2)>au Bas Jeuno</Case><Case(3)>du Bas Jeuno</Case></Switch>",0,0,0
+5146,"Arbre de Boyahda",0,"Arbre de Boyahda",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Arbre de Boyahda</Case><Case(2)>à l'Arbre de Boyahda</Case><Case(3)>de l'Arbre de Boyahda</Case></Switch>",0,0,0
+5147,"Jardins de Ru'Aun",0,"Jardins de Ru'Aun",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Jardins de Ru'Aun</Case><Case(2)>aux Jardins de Ru'Aun</Case><Case(3)>des Jardins de Ru'Aun</Case></Switch>",0,0,0
+5148,"Château Zvahl",0,"Château Zvahl",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Château Zvahl</Case><Case(2)>au Château Zvahl</Case><Case(3)>du Château Zvahl</Case></Switch>",0,0,0
+5149,"Pont du marché",0,"Pont du marché",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le pont du marché</Case><Case(2)>au pont du marché</Case><Case(3)>du pont du marché</Case></Switch>",0,0,0
+5150,"Estrade des guerriers",0,"Estrade des guerriers",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Estrade des guerriers</Case><Case(2)>à l'Estrade des guerriers</Case><Case(3)>de l'Estrade des guerriers</Case></Switch>",0,0,0
+5151,"Volière aux dragons",0,"Volière aux dragons",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Volière aux dragons</Case><Case(2)>à la Volière aux dragons</Case><Case(3)>de la Volière aux dragons</Case></Switch>",0,0,0
+5152,"Amphithéâtre de La'Loff",0,"Amphithéâtre de La'Loff",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Amphithéâtre de La'Loff</Case><Case(2)>à l'Amphithéâtre de La'Loff</Case><Case(3)>de l'Amphithéâtre de La'Loff</Case></Switch>",0,0,0
 5153,"",0,"",0,0,0,0,0,"",0,0,0
-5154,"",0,"",0,0,0,0,0,"",0,0,0
+5154,"Yuweyawata",0,"Yuweyawata",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Yuweyawata</Case><Case(2)>à Yuweyawata</Case><Case(3)>de Yuweyawata</Case></Switch>",0,0,0
 5155,"",0,"",0,0,0,0,0,"",0,0,0
 5156,"",0,"",0,0,0,0,0,"",0,0,0
 5157,"",0,"",0,0,0,0,0,"",0,0,0

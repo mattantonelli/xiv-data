@@ -101,7 +101,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 97,"Valigarmanda-Rossharnisch",4,"Valigarmanda-Rossharnische",2,0,1,0,0,"Valigarmanda-Rossharnisch",65628,65628,65628,"None","ui/icon/058000/058792.tex","ui/icon/058000/058794.tex","ui/icon/058000/058793.tex",161
 98,"Elektrob-Rossharnisch",4,"Elektrob-Rossharnische",2,0,1,0,0,"Elektrob-Rossharnisch",65629,65629,65629,"None","ui/icon/058000/058795.tex","ui/icon/058000/058797.tex","ui/icon/058000/058796.tex",162
 99,"Wildnis-Rossharnisch",4,"Wildnis-Rossharnische",2,0,1,0,0,"Wildnis-Rossharnisch",65630,65630,65630,"None","ui/icon/058000/058798.tex","ui/icon/058000/058800.tex","ui/icon/058000/058799.tex",83
-100,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
-101,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+100,"endlos[a] Rossharnisch",4,"endlos[a] Rossharnische",2,0,1,0,0,"Endloser Rossharnisch",65631,65631,65631,"None","ui/icon/058000/058801.tex","ui/icon/058000/058803.tex","ui/icon/058000/058802.tex",163
+101,"Sternenlicht-Stände-Rossharnisch",4,"Sternenlicht-Stände-Rossharnische",2,0,1,0,0,"Sternenlicht-Stände-Rossharnisch",65632,65632,65632,"None","ui/icon/058000/058804.tex","ui/icon/058000/058806.tex","ui/icon/058000/058805.tex",108
 102,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
 103,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
