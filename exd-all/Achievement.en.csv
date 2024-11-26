@@ -3646,4 +3646,4 @@ int32,AchievementCategory,str,str,AchievementTarget,byte,byte,Title,Item,byte,by
 3614,"Seasonal Events","傘が彩る雨模様","クエスト「エッグハントと集う傘」をコンプリートする","0",0,10," / ","",255,255,0,"ui/icon/058000/058042.tex",1,6,"エッグハントと集う傘",,,,,,,,,145,1,"AchievementHideCondition#0"
 3615,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
 3616,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
-3617,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
+3617,"Raids","Alternative Destiny","Bear witness to a different future for the Oracles of Light and Darkness.","34",100,10,"Genesis of Legends / Genesis of Legends","",255,255,0,"ui/icon/000000/000317.tex",1,14,"InstanceContent#30143",,,,,,,,,0,1,"AchievementHideCondition#0"

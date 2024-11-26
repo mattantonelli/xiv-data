@@ -5204,7 +5204,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5134,"Furie de l'Oreillard",0,"Furie de l'Oreillard",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Furie de l'Oreillard</Case><Case(2)>à la Furie de l'Oreillard</Case><Case(3)>de la Furie de l'Oreillard</Case></Switch>",0,0,0
 5135,"Laboratoire secret",0,"Laboratoire secret",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le laboratoire secret</Case><Case(2)>au laboratoire secret</Case><Case(3)>du laboratoire secret</Case></Switch>",0,0,0
 5136,"Sous-sol du laboratoire secret",0,"Sous-sol du laboratoire secret",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sous-sol du laboratoire secret</Case><Case(2)>au sous-sol du laboratoire secret</Case><Case(3)>du sous-sol du laboratoire secret</Case></Switch>",0,0,0
-5137,"",0,"",0,0,0,0,0,"",0,0,0
+5137,"Avenirs réécrits",0,"Avenirs réécrits",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Avenirs réécrits</Case><Case(2)>aux Avenirs réécrits</Case><Case(3)>des Avenirs réécrits</Case></Switch>",0,0,0
 5138,"Jeuno - La première perambulation",0,"Jeuno - La première perambulation",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Jeuno - La première perambulation</Case><Case(2)>à Jeuno - La première perambulation</Case><Case(3)>de Jeuno - La première perambulation</Case></Switch>",0,0,0
 5139,"Bas Jeuno",0,"Bas Jeuno",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Bas Jeuno</Case><Case(2)>au Bas Jeuno</Case><Case(3)>du Bas Jeuno</Case></Switch>",0,0,0
 5140,"Arbre de Boyahda",0,"Arbre de Boyahda",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Arbre de Boyahda</Case><Case(2)>à l'Arbre de Boyahda</Case><Case(3)>de l'Arbre de Boyahda</Case></Switch>",0,0,0
