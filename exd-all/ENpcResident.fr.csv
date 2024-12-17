@@ -47150,8 +47150,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1047146,"Pameka",0,"Pameka",0,0,1,1,1,"",3,False
 1047147,"Zemoweni",0,"Zemoweni",0,0,1,0,1,"",3,False
 1047148,"Rral Soj",0,"Rral Soj",0,0,1,1,1,"",3,False
-1047149,"",0,"",0,0,0,0,0,"",0,False
-1047150,"",0,"",0,0,0,0,0,"",0,False
+1047149,"Uvlo",0,"Uvlo",0,1,1,0,1,"",3,False
+1047150,"Pashenine",0,"Pashenine",0,0,1,0,1,"",3,False
 1047151,"récolteur d'âge mûr",0,"récolteurs d'âge mûr",0,0,1,0,0,"",3,False
 1047152,"Uvlo",0,"Uvlo",0,1,1,0,1,"",3,False
 1047153,"Uapyota",0,"Uapyota",0,1,1,1,1,"",3,False
@@ -47173,19 +47173,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1047169,"Zemoweni",0,"Zemoweni",0,0,1,0,1,"",3,False
 1047170,"Uvlo",0,"Uvlo",0,1,1,0,1,"",3,False
 1047171,"Halnaruk",0,"Halnaruk",0,1,1,0,1,"",3,False
-1047172,"",0,"",0,0,0,0,0,"",0,False
-1047173,"",0,"",0,0,0,0,0,"",0,False
-1047174,"",0,"",0,0,0,0,0,"",0,False
-1047175,"",0,"",0,0,0,0,0,"",0,False
-1047176,"",0,"",0,0,0,0,0,"",0,False
-1047177,"",0,"",0,0,0,0,0,"",0,False
-1047178,"",0,"",0,0,0,0,0,"",0,False
-1047179,"",0,"",0,0,0,0,0,"",0,False
-1047180,"",0,"",0,0,0,0,0,"",0,False
-1047181,"",0,"",0,0,0,0,0,"",0,False
-1047182,"",0,"",0,0,0,0,0,"",0,False
-1047183,"",0,"",0,0,0,0,0,"",0,False
-1047184,"",0,"",0,0,0,0,0,"",0,False
+1047172,"",0,"",0,0,1,0,0,"",5,False
+1047173,"Donuhanu",0,"Donuhanu",0,0,1,0,1,"",3,False
+1047174,"Shunye",0,"Shunye",0,0,1,0,1,"",3,False
+1047175,"Uvlo",0,"Uvlo",0,1,1,0,1,"",3,False
+1047176,"habitante des Faubourgs",0,"habitantes des Faubourgs",0,1,1,1,0,"",3,False
+1047177,"Pameka",0,"Pameka",0,0,1,1,1,"",3,False
+1047178,"Zemoweni",0,"Zemoweni",0,0,1,0,1,"",3,False
+1047179,"Xeerol Ja",0,"Xeerol Ja",0,0,1,1,1,"",3,False
+1047180,"Halnaruk",0,"Halnaruk",0,1,1,0,1,"",3,False
+1047181,"Pashenine",0,"Pashenine",0,0,1,0,1,"",3,False
+1047182,"Pashenine",0,"Pashenine",0,0,1,0,1,"",3,False
+1047183,"Donuhanu",0,"Donuhanu",0,0,1,0,1,"",3,False
+1047184,"Shunye",0,"Shunye",0,0,1,0,1,"",3,False
 1047185,"",0,"",0,0,1,0,0,"",4,False
 1047186,"",0,"",0,0,1,0,0,"",4,False
 1047187,"",0,"",0,0,1,0,0,"",4,False
@@ -48605,11 +48605,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1048601,"Baitabrik",0,"Baitabrik",0,0,1,0,1,"",3,False
 1048602,"",0,"",0,0,1,0,0,"",5,False
 1048603,"",0,"",0,0,1,0,0,"",5,False
-1048604,"",0,"",0,0,0,0,0,"",0,False
-1048605,"",0,"",0,0,0,0,0,"",0,False
-1048606,"",0,"",0,0,0,0,0,"",0,False
-1048607,"",0,"",0,0,0,0,0,"",0,False
-1048608,"",0,"",0,0,0,0,0,"",0,False
+1048604,"employée du chemin de fer",0,"employées du chemin de fer",0,1,1,1,0,"",3,False
+1048605,"Nitowikwe",0,"Nitowikwe",0,0,1,1,1,"",3,False
+1048606,"Peyapewi",0,"Peyapewi",0,0,1,0,1,"Divers",3,True
+1048607,"Kenawna",0,"Kenawna",0,0,1,1,1,"Échange d'assignats",3,True
+1048608,"Nitowikwe",0,"Nitowikwe",0,0,1,1,1,"",3,False
 1048609,"chercheur hyurois",0,"chercheurs hyurois",0,0,1,0,0,"",3,False
 1048610,"Hégémone",0,"Hégémone",0,1,1,1,1,"",3,False
 1048611,"",0,"",0,0,0,0,0,"",0,False
@@ -50150,7 +50150,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050146,"",0,"",0,0,1,0,0,"",4,False
 1050147,"",0,"",0,0,1,0,0,"",4,False
 1050148,"",0,"",0,0,1,0,0,"",4,False
-1050149,"",0,"",0,0,0,0,0,"",0,False
+1050149,"",0,"",0,0,1,0,0,"",4,False
 1050150,"",0,"",0,0,0,0,0,"",0,False
 1050151,"",0,"",0,0,0,0,0,"",0,False
 1050152,"",0,"",0,0,0,0,0,"",0,False
@@ -50357,10 +50357,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050353,"",0,"",0,0,1,0,0,"",5,False
 1050354,"",0,"",0,0,1,0,0,"",5,False
 1050355,"",0,"",0,0,1,0,0,"",5,False
-1050356,"",0,"",0,0,0,0,0,"",0,False
-1050357,"",0,"",0,0,0,0,0,"",0,False
-1050358,"",0,"",0,0,0,0,0,"",0,False
-1050359,"",0,"",0,0,0,0,0,"",0,False
+1050356,"maréchale des serpents",0,"maréchales des serpents",0,0,1,1,0,"",3,False
+1050357,"générale bleue des serpents",0,"générales bleues des serpents",0,0,1,1,0,"",3,False
+1050358,"générale dorée des serpents",0,"générales dorées des serpents",0,0,1,1,0,"",3,False
+1050359,"générale rouge des serpents",0,"générales rouges des serpents",0,0,1,1,0,"",3,False
 1050360,"",0,"",0,0,1,0,0,"",5,False
 1050361,"",0,"",0,0,1,0,0,"",4,False
 1050362,"Zereel Ja",0,"Zereel Ja",0,0,1,0,1,"",4,False
@@ -50469,9 +50469,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050465,"",0,"",0,0,1,0,0,"",2,False
 1050466,"",0,"",0,0,0,0,0,"",0,False
 1050467,"Gabbro",0,"Gabbro",0,0,1,0,1,"",3,False
-1050468,"",0,"",0,0,0,0,0,"",0,False
-1050469,"",0,"",0,0,0,0,0,"",0,False
-1050470,"",0,"",0,0,0,0,0,"",0,False
+1050468,"",0,"",0,0,1,0,0,"",5,False
+1050469,"",0,"",0,0,1,0,0,"",5,False
+1050470,"",0,"",0,0,1,0,0,"",5,False
 1050471,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
 1050472,"",0,"",0,0,1,0,0,"",3,False
 1050473,"",0,"",0,0,1,0,0,"",3,False
@@ -50893,7 +50893,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050889,"Gotoll Ja",0,"Gotoll Ja",0,0,1,0,1,"",3,False
 1050890,"Shiidil Ja",0,"Shiidil Ja",0,0,1,1,1,"",3,False
 1050891,"Gotoll Ja",0,"Gotoll Ja",0,0,1,0,1,"",3,False
-1050892,"",0,"",0,0,0,0,0,"",0,False
+1050892,"",0,"",0,0,1,0,0,"",5,False
 1050893,"",0,"",0,0,1,0,0,"",5,False
 1050894,"",0,"",0,0,1,0,0,"",5,False
 1050895,"",0,"",0,0,1,0,0,"",5,False
@@ -50951,9 +50951,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050947,"",0,"",0,0,1,0,0,"",5,False
 1050948,"",0,"",0,0,1,0,0,"",5,False
 1050949,"vendeuse de la Veillée des saints",0,"vendeuses de la Veillée des saints",0,0,1,1,0,"Saisonnière",3,True
-1050950,"",0,"",0,0,0,0,0,"",0,False
-1050951,"",0,"",0,0,0,0,0,"",0,False
-1050952,"",0,"",0,0,0,0,0,"",0,False
+1050950,"marchande des serpents",0,"marchandes des serpents",0,0,1,1,0,"Saisonnière",3,True
+1050951,"marchande des serpents",0,"marchandes des serpents",0,0,1,1,0,"Saisonnière",3,True
+1050952,"marchande des serpents",0,"marchandes des serpents",0,0,1,1,0,"Saisonnière",3,True
 1050953,"vendeuse de la Commémoration",0,"vendeuses de la Commémoration",0,0,1,1,0,"Saisonnière",3,True
 1050954,"vendeuse des Feux de la Mort",0,"vendeuses des Feux de la Mort",0,0,1,1,0,"Saisonnière",3,True
 1050955,"",0,"",0,0,1,0,0,"",5,False
@@ -51124,7 +51124,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051120,"petite Mamool Ja",0,"petites Mamool Ja",0,0,1,1,0,"",4,False
 1051121,"créature mystérieuse",0,"créatures mystérieuses",0,0,1,1,0,"",4,False
 1051122,"",0,"",0,0,1,0,0,"",4,False
-1051123,"",0,"",0,0,0,0,0,"",0,False
+1051123,"tsuchinoko blanc",0,"tsuchinoko blancs",0,0,1,0,0,"",4,False
 1051124,"Isadora",0,"Isadora",0,1,1,1,1,"",4,False
 1051125,"Milos",0,"Milos",0,0,1,0,1,"",4,False
 1051126,"",0,"",0,0,1,0,0,"",4,False
@@ -51350,19 +51350,19 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051346,"Wuk Lamat",0,"Wuk Lamat",0,0,1,1,1,"",3,False
 1051347,"Wuk Lamat",0,"Wuk Lamat",0,0,1,1,1,"",3,False
 1051348,"Alisaie",0,"Alisaie",0,1,1,1,1,"",3,False
-1051349,"",0,"",0,0,0,0,0,"",0,False
-1051350,"",0,"",0,0,0,0,0,"",0,False
-1051351,"",0,"",0,0,0,0,0,"",0,False
-1051352,"",0,"",0,0,0,0,0,"",0,False
-1051353,"",0,"",0,0,0,0,0,"",0,False
-1051354,"",0,"",0,0,0,0,0,"",0,False
-1051355,"",0,"",0,0,0,0,0,"",0,False
-1051356,"",0,"",0,0,0,0,0,"",0,False
-1051357,"",0,"",0,0,0,0,0,"",0,False
-1051358,"",0,"",0,0,0,0,0,"",0,False
-1051359,"",0,"",0,0,0,0,0,"",0,False
-1051360,"",0,"",0,0,0,0,0,"",0,False
-1051361,"",0,"",0,0,0,0,0,"",0,False
+1051349,"divinateur oriental",0,"divinateurs orientaux",0,0,1,0,0,"",3,True
+1051350,"lieutenant des serpents",0,"lieutenants des serpents",0,0,1,0,0,"",3,True
+1051351,"lieutenant des serpents",0,"lieutenants des serpents",0,0,1,0,0,"",3,True
+1051352,"lieutenante des serpents",0,"lieutenantes des serpents",0,0,1,1,0,"",3,True
+1051353,"",0,"",0,0,1,0,0,"",5,False
+1051354,"",0,"",0,0,1,0,0,"",5,False
+1051355,"",0,"",0,0,1,0,0,"",5,False
+1051356,"lapin au pelage outremer",0,"lapins au pelage outremer",0,0,1,0,0,"",3,False
+1051357,"",0,"",0,0,1,0,0,"",5,False
+1051358,"lapin au pelage argenté",0,"lapins au pelage argenté",0,0,1,0,0,"",3,False
+1051359,"",0,"",0,0,1,0,0,"",5,False
+1051360,"Khloe Aliapoh",0,"Khloe Aliapoh",0,0,1,1,1,"",3,False
+1051361,"Rowena",0,"Rowena",0,0,1,1,1,"",3,False
 1051362,"Xbr'aal âgé",0,"Xbr'aal âgés",0,0,1,0,0,"",3,False
 1051363,"",0,"",0,0,1,0,0,"",5,False
 1051364,"Pelupelu patraque",0,"Pelupelu patraques",0,0,1,0,0,"",3,False
@@ -51422,14 +51422,14 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051418,"",0,"",0,0,0,0,0,"",0,False
 1051419,"",0,"",0,0,0,0,0,"",0,False
 1051420,"vigile de la compagnie de chemin de fer",0,"vigiles de la compagnie de chemin de fer",0,0,1,0,0,"",3,False
-1051421,"",0,"",0,0,0,0,0,"",0,False
-1051422,"",0,"",0,0,0,0,0,"",0,False
-1051423,"",0,"",0,0,0,0,0,"",0,False
-1051424,"",0,"",0,0,0,0,0,"",0,False
-1051425,"",0,"",0,0,0,0,0,"",0,False
-1051426,"",0,"",0,0,0,0,0,"",0,False
-1051427,"",0,"",0,0,0,0,0,"",0,False
-1051428,"",0,"",0,0,0,0,0,"",0,False
+1051421,"maître du mochi",0,"maîtres du mochi",0,0,1,0,0,"",3,False
+1051422,"",0,"",0,0,1,0,0,"",5,False
+1051423,"",0,"",0,0,1,0,0,"",5,False
+1051424,"",0,"",0,0,1,0,0,"",5,False
+1051425,"",0,"",0,0,1,0,0,"",5,False
+1051426,"Puddingway",0,"Puddingway",0,0,1,0,1,"",3,False
+1051427,"",0,"",0,0,1,0,0,"",5,False
+1051428,"",0,"",0,0,1,0,0,"",5,False
 1051429,"",0,"",0,0,0,0,0,"",0,False
 1051430,"",0,"",0,0,0,0,0,"",0,False
 1051431,"Peshekwa",0,"Peshekwa",0,0,1,1,1,"",3,False
@@ -51543,9 +51543,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051539,"",0,"",0,0,0,0,0,"",0,False
 1051540,"",0,"",0,0,0,0,0,"",0,False
 1051541,"capitaine des Deux Vipères",0,"capitaines des Deux Vipères",0,0,1,0,0,"",4,False
-1051542,"",0,"",0,0,0,0,0,"",0,False
-1051543,"",0,"",0,0,0,0,0,"",0,False
-1051544,"",0,"",0,0,0,0,0,"",0,False
+1051542,"générale bleue des serpents",0,"générales bleues des serpents",0,0,1,1,0,"",4,False
+1051543,"générale dorée des serpents",0,"générales dorées des serpents",0,0,1,1,0,"",4,False
+1051544,"générale rouge des serpents",0,"générales rouges des serpents",0,0,1,1,0,"",4,False
 1051545,"intrépide d'âge mûr",0,"intrépides d'âge mûr",0,1,1,0,0,"",4,False
 1051546,"",0,"",0,0,1,0,0,"",4,False
 1051547,"",0,"",0,0,1,0,0,"",4,False
@@ -51636,13 +51636,13 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051632,"fleuriste",0,"fleuristes",0,0,1,1,0,"Objets",3,True
 1051633,"quincailler",0,"quincaillers",0,0,1,0,0,"Objets",3,True
 1051634,"cuisinier",0,"cuisiniers",0,0,1,0,0,"Objets",3,True
-1051635,"",0,"",0,0,0,0,0,"",0,False
-1051636,"",0,"",0,0,0,0,0,"",0,False
-1051637,"",0,"",0,0,0,0,0,"",0,False
-1051638,"",0,"",0,0,0,0,0,"",0,False
-1051639,"",0,"",0,0,0,0,0,"",0,False
-1051640,"",0,"",0,0,0,0,0,"",0,False
-1051641,"",0,"",0,0,0,0,0,"",0,False
+1051635,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",4,False
+1051636,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",4,False
+1051637,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",4,False
+1051638,"",0,"",0,0,1,0,0,"",4,False
+1051639,"",0,"",0,0,1,0,0,"",4,False
+1051640,"tavernier",0,"taverniers",0,0,1,0,0,"",4,False
+1051641,"employé de la taverne",0,"employés de la taverne",0,1,1,0,0,"",4,False
 1051642,"Liplu",0,"Liplu",0,0,1,1,1,"",4,False
 1051643,"Yubli",0,"Yubli",0,0,1,0,1,"",4,False
 1051644,"employé hanu hanu",0,"employés hanu hanu",0,1,1,0,0,"",4,False
@@ -51695,22 +51695,22 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051691,"",0,"",0,0,0,0,0,"",0,False
 1051692,"",0,"",0,0,0,0,0,"",0,False
 1051693,"",0,"",0,0,0,0,0,"",0,False
-1051694,"",0,"",0,0,0,0,0,"",0,False
-1051695,"",0,"",0,0,0,0,0,"",0,False
-1051696,"",0,"",0,0,0,0,0,"",0,False
-1051697,"",0,"",0,0,0,0,0,"",0,False
-1051698,"",0,"",0,0,0,0,0,"",0,False
-1051699,"",0,"",0,0,0,0,0,"",0,False
-1051700,"",0,"",0,0,0,0,0,"",0,False
-1051701,"",0,"",0,0,0,0,0,"",0,False
-1051702,"",0,"",0,0,0,0,0,"",0,False
-1051703,"",0,"",0,0,0,0,0,"",0,False
-1051704,"",0,"",0,0,0,0,0,"",0,False
-1051705,"",0,"",0,0,0,0,0,"",0,False
-1051706,"",0,"",0,0,0,0,0,"",0,False
-1051707,"",0,"",0,0,0,0,0,"",0,False
-1051708,"",0,"",0,0,0,0,0,"",0,False
-1051709,"",0,"",0,0,0,0,0,"",0,False
+1051694,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1051695,"",0,"",0,0,1,0,0,"",5,False
+1051696,"",0,"",0,0,1,0,0,"",5,False
+1051697,"",0,"",0,0,1,0,0,"",5,False
+1051698,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1051699,"",0,"",0,0,1,0,0,"",5,False
+1051700,"habitant des Faubourgs",0,"habitants des Faubourgs",0,1,1,0,0,"",3,False
+1051701,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1051702,"",0,"",0,0,1,0,0,"",5,False
+1051703,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1051704,"Milalla placide",0,"Milalla placides",0,0,1,0,0,"",3,False
+1051705,"Hyune à l'air digne",0,"Hyunes à l'air digne",0,0,1,1,0,"",3,False
+1051706,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1051707,"",0,"",0,0,1,0,0,"",5,False
+1051708,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1051709,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
 1051710,"Liplu",0,"Liplu",0,0,1,1,1,"",3,False
 1051711,"Yubli",0,"Yubli",0,0,1,0,1,"",3,False
 1051712,"Pelupelu vêtue de bleue",0,"Pelupelu vêtues de bleue",0,0,1,1,0,"",3,False
@@ -51779,8 +51779,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051775,"",0,"",0,0,1,0,0,"",5,False
 1051776,"",0,"",0,0,1,0,0,"",5,False
 1051777,"",0,"",0,0,1,0,0,"",5,False
-1051778,"",0,"",0,0,0,0,0,"",0,False
-1051779,"",0,"",0,0,0,0,0,"",0,False
+1051778,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",4,False
+1051779,"",0,"",0,0,1,0,0,"",4,False
 1051780,"Teeshal Ja",0,"Teeshal Ja",0,0,1,1,1,"",4,False
 1051781,"Kanilokka",0,"Kanilokka",0,0,1,0,1,"",4,False
 1051782,"",0,"",0,0,1,0,0,"",4,False
@@ -51906,10 +51906,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051902,"",0,"",0,0,1,0,0,"",5,False
 1051903,"",0,"",0,0,1,0,0,"",5,False
 1051904,"",0,"",0,0,1,0,0,"",5,False
-1051905,"",0,"",0,0,1,0,0,"",6,False
-1051906,"",0,"",0,0,1,0,0,"",6,False
-1051907,"",0,"",0,0,1,0,0,"",6,False
-1051908,"",0,"",0,0,1,0,0,"",6,False
+1051905,"",0,"",0,0,1,0,0,"",6,True
+1051906,"",0,"",0,0,1,0,0,"",6,True
+1051907,"",0,"",0,0,1,0,0,"",6,True
+1051908,"",0,"",0,0,1,0,0,"",6,True
 1051909,"",0,"",0,0,1,0,0,"",5,False
 1051910,"",0,"",0,0,1,0,0,"",5,False
 1051911,"",0,"",0,0,1,0,0,"",5,False
@@ -52018,9 +52018,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052014,"",0,"",0,0,0,0,0,"",0,False
 1052015,"",0,"",0,0,0,0,0,"",0,False
 1052016,"",0,"",0,0,0,0,0,"",0,False
-1052017,"",0,"",0,0,0,0,0,"",0,False
-1052018,"",0,"",0,0,0,0,0,"",0,False
-1052019,"",0,"",0,0,0,0,0,"",0,False
+1052017,"Peyapewi",0,"Peyapewi",0,0,1,0,1,"Divers",4,False
+1052018,"Kenawna",0,"Kenawna",0,0,1,1,1,"Échange d'assignats",4,False
+1052019,"diplomate des Faubourgs",0,"diplomates des Faubourgs",0,0,1,1,0,"",4,False
 1052020,"",0,"",0,0,0,0,0,"",0,False
 1052021,"",0,"",0,0,0,0,0,"",0,False
 1052022,"",0,"",0,0,0,0,0,"",0,False
@@ -52064,26 +52064,32 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052060,"",0,"",0,0,1,0,0,"",5,False
 1052061,"",0,"",0,0,1,0,0,"",5,False
 1052062,"",0,"",0,0,1,0,0,"",5,False
-1052063,"ジリ・アリアポー",0,"",0,0,1,0,0,"",3,False
-1052064,"ノノッタ",0,"",0,0,1,0,0,"",3,False
-1052065,"ゼーヴォルフ族の商人",0,"",0,0,1,0,0,"",3,False
-1052066,"ノノッタ",0,"",0,0,1,0,0,"",3,False
-1052067,"ノノッタ",0,"",0,0,1,0,0,"",3,False
-1052068,"ノノッタ",0,"",0,0,1,0,0,"",3,False
-1052069,"ジリ・アリアポー",0,"",0,0,1,0,0,"",3,False
-1052070,"タマゴ品評家の男性",0,"",0,0,1,0,0,"",3,False
-1052071,"タマゴ鑑定家の女性",0,"",0,0,1,0,0,"",3,False
-1052072,"タマゴ愛好家の女性",0,"",0,0,1,0,0,"",3,False
+1052063,"Jihli Aliapoh",0,"Jihli Aliapoh",0,0,1,1,1,"",3,False
+1052064,"Nonotta",0,"Nonotta",0,0,1,1,1,"",3,False
+1052065,"marchand du Clan de la Mer",0,"marchands du Clan de la Mer",0,0,1,0,0,"",3,False
+1052066,"Nonotta",0,"Nonotta",0,0,1,1,1,"",3,False
+1052067,"Nonotta",0,"Nonotta",0,0,1,1,1,"",3,False
+1052068,"Nonotta",0,"Nonotta",0,0,1,1,1,"",3,False
+1052069,"Jihli Aliapoh",0,"Jihli Aliapoh",0,0,1,1,1,"",3,False
+1052070,"appréciateur des Prœufs",0,"appréciateurs des Prœufs
+",0,1,1,0,0,"",3,False
+1052071,"connaisseuse des Prœufs",0,"connaisseuses des Prœufs
+",0,0,1,1,0,"",3,False
+1052072,"amatrice de Prœufs",0,"amatrices de Prœufs
+",0,1,1,1,0,"",3,False
 1052073,"",0,"",0,0,0,0,0,"",0,False
-1052074,"タマゴ品評家の男性",0,"",0,0,1,0,0,"",3,False
-1052075,"タマゴ鑑定家の女性",0,"",0,0,1,0,0,"",3,False
-1052076,"タマゴ愛好家の女性",0,"",0,0,1,0,0,"",3,False
+1052074,"appréciateur des Prœufs",0,"appréciateurs des Prœufs
+",0,1,1,0,0,"",3,False
+1052075,"connaisseuse des Prœufs",0,"connaisseuses des Prœufs
+",0,0,1,1,0,"",3,False
+1052076,"amatrice de Prœufs",0,"amatrices de Prœufs
+",0,1,1,1,0,"",3,False
 1052077,"",0,"",0,0,1,0,0,"",5,False
 1052078,"",0,"",0,0,1,0,0,"",5,False
 1052079,"",0,"",0,0,1,0,0,"",5,False
 1052080,"",0,"",0,0,1,0,0,"",5,False
-1052081,"ジリ・アリアポー",0,"",0,0,1,0,0,"",3,False
-1052082,"ノノッタ",0,"",0,0,1,0,0,"",3,False
+1052081,"Jihli Aliapoh",0,"Jihli Aliapoh",0,0,1,1,1,"",3,False
+1052082,"Nonotta",0,"Nonotta",0,0,1,1,1,"",3,False
 1052083,"",0,"",0,0,0,0,0,"",0,False
 1052084,"",0,"",0,0,1,0,0,"",5,False
 1052085,"",0,"",0,0,1,0,0,"",5,False
@@ -52097,10 +52103,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052093,"",0,"",0,0,1,0,0,"",5,False
 1052094,"",0,"",0,0,1,0,0,"",5,False
 1052095,"",0,"",0,0,1,0,0,"",5,False
-1052096,"エッグドリーマー",0,"",0,0,1,0,0,"SEASONAL",3,True
-1052097,"丁寧なエッグコレクター",0,"",0,0,1,0,0,"",3,True
-1052098,"丁寧なエッグコレクター",0,"",0,0,1,0,0,"",3,True
-1052099,"丁寧なエッグコレクター",0,"",0,0,1,0,0,"",3,True
+1052096,"Rêveuse",0,"Rêveuses",0,0,1,1,0,"Saisonnière",3,True
+1052097,"féru des Prœufs courtois",0,"férus des Prœufs courtois",0,0,1,0,0,"",3,True
+1052098,"féru des Prœufs courtois",0,"férus des Prœufs courtois",0,0,1,0,0,"",3,True
+1052099,"féru des Prœufs courtois",0,"férus des Prœufs courtois",0,0,1,0,0,"",3,True
 1052100,"",0,"",0,0,1,0,0,"",4,False
 1052101,"",0,"",0,0,1,0,0,"",4,False
 1052102,"fan des Églantines",0,"fans des Églantines",0,0,1,0,0,"",4,False
@@ -52111,15 +52117,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052107,"",0,"",0,0,1,0,0,"",4,False
 1052108,"",0,"",0,0,1,0,0,"",4,False
 1052109,"",0,"",0,0,1,0,0,"",4,False
-1052110,"",0,"",0,0,0,0,0,"",0,False
-1052111,"",0,"",0,0,0,0,0,"",0,False
-1052112,"",0,"",0,0,0,0,0,"",0,False
-1052113,"",0,"",0,0,0,0,0,"",0,False
-1052114,"",0,"",0,0,0,0,0,"",0,False
-1052115,"",0,"",0,0,0,0,0,"",0,False
-1052116,"ローロヴィック",0,"",0,0,1,0,0,"",4,False
-1052117,"シルジニー",0,"",0,0,1,0,0,"",4,False
-1052118,"ティトゥアン",0,"",0,0,1,0,0,"",4,False
+1052110,"",0,"",0,0,1,0,0,"",4,False
+1052111,"",0,"",0,0,1,0,0,"",4,False
+1052112,"",0,"",0,0,1,0,0,"",4,False
+1052113,"",0,"",0,0,1,0,0,"",4,False
+1052114,"",0,"",0,0,1,0,0,"",4,False
+1052115,"voyageur inquiet",0,"voyageur inquiet",0,0,1,0,0,"",4,False
+1052116,"Laurovic",0,"Laurovic",0,0,1,0,1,"",4,False
+1052117,"Sylginie",0,"Sylginie",0,0,1,1,1,"",4,False
+1052118,"Titouan",0,"Titouan",0,0,1,0,1,"",4,False
 1052119,"",0,"",0,0,0,0,0,"",0,False
 1052120,"",0,"",0,0,0,0,0,"",0,False
 1052121,"",0,"",0,0,0,0,0,"",0,False
@@ -52128,8 +52134,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052124,"",0,"",0,0,0,0,0,"",0,False
 1052125,"",0,"",0,0,0,0,0,"",0,False
 1052126,"",0,"",0,0,0,0,0,"",0,False
-1052127,"",0,"",0,0,0,0,0,"",0,False
-1052128,"ジリ・アリアポー",0,"",0,0,1,0,0,"",4,False
+1052127,"●暗闇の雲",0,"",0,0,1,0,0,"",4,False
+1052128,"Jihli Aliapoh",0,"Jihli Aliapoh",0,0,1,1,1,"",4,False
 1052129,"",0,"",0,0,1,0,0,"",4,False
 1052130,"Bakool Ja Ja",0,"Bakool Ja Ja",0,0,1,0,1,"",3,False
 1052131,"brigand xbr'aal",0,"brigands xbr'aal",0,0,1,0,0,"",3,False
@@ -52352,42 +52358,42 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052348,"Alisaie",0,"Alisaie",0,1,1,1,1,"",3,False
 1052349,"Krile",0,"Krile",0,0,1,1,1,"",3,False
 1052350,"G'raha Tia",0,"G'raha Tia",0,0,1,0,1,"",3,False
-1052351,"アストリド",0,"",0,0,1,0,0,"",3,False
-1052352,"エミリエ",0,"",0,0,1,0,0,"",3,False
-1052353,"ヴァレンティオン家のメイド",0,"",0,0,1,0,0,"SEASONAL",3,True
-1052354,"ヴァレンティオン家の執事",0,"",0,0,1,0,0,"",3,True
-1052355,"ヴァレンティオン家の執事",0,"",0,0,1,0,0,"",3,True
-1052356,"ヴァレンティオン家の執事",0,"",0,0,1,0,0,"",3,True
-1052357,"リゼット・ド・ヴァレンティオン",0,"",0,0,1,0,0,"",3,False
-1052358,"オルトファンス",0,"",0,0,1,0,0,"",3,False
+1052351,"Astrid",0,"Astrid",0,1,1,1,1,"",3,False
+1052352,"Emilie",0,"Emilie",0,1,1,1,1,"",3,False
+1052353,"soubrette des Valention",0,"soubrettes des Valention",0,0,1,1,0,"Saisonnière",3,True
+1052354,"majordome des Valention",0,"majordomes des Valention",0,0,1,0,0,"",3,True
+1052355,"majordome des Valention",0,"majordomes des Valention",0,0,1,0,0,"",3,True
+1052356,"majordome des Valention",0,"majordomes des Valention",0,0,1,0,0,"",3,True
+1052357,"Lisette de Valention",0,"Lisette de Valention",0,0,1,1,1,"",3,False
+1052358,"Hortefense",0,"Hortefense",0,0,1,0,1,"",3,False
 1052359,"",0,"",0,0,0,0,0,"",0,False
-1052360,"ロドリゴ",0,"",0,0,1,0,0,"",3,False
-1052361,"バート",0,"",0,0,1,0,0,"",3,False
+1052360,"Rodrigault",0,"Rodrigault",0,0,1,0,1,"",3,False
+1052361,"Bert",0,"Bert",0,0,1,0,1,"",3,False
 1052362,"",0,"",0,0,1,0,0,"",5,False
 1052363,"",0,"",0,0,1,0,0,"",5,False
 1052364,"",0,"",0,0,1,0,0,"",6,False
 1052365,"",0,"",0,0,1,0,0,"",6,False
 1052366,"",0,"",0,0,1,0,0,"",6,False
 1052367,"",0,"",0,0,1,0,0,"",6,False
-1052368,"ローロヴィック",0,"",0,0,1,0,0,"",3,False
-1052369,"薔薇の耳飾りの女性",0,"",0,0,1,0,0,"",3,False
-1052370,"薔薇の髪飾りの女性",0,"",0,0,1,0,0,"",3,False
-1052371,"胡蝶蘭の耳飾りの女性",0,"",0,0,1,0,0,"",3,False
-1052372,"ローロヴィック",0,"",0,0,1,0,0,"",3,False
+1052368,"Laurovic",0,"Laurovic",0,0,1,0,1,"",3,False
+1052369,"femme aux boucles d'oreilles en rose",0,"femmes aux boucles d'oreilles en rose",0,0,1,1,0,"",3,False
+1052370,"femme avec une barrette en rose",0,"femmes avec une barrette en rose",0,0,1,1,0,"",3,False
+1052371,"femme à la boucle d'oreille en orchidées",0,"femmes à la boucle d'oreille en orchidées",0,0,1,1,0,"",3,False
+1052372,"Laurovic",0,"Laurovic",0,0,1,0,1,"",3,False
 1052373,"",0,"",0,0,0,0,0,"",0,False
 1052374,"",0,"",0,0,0,0,0,"",0,False
-1052375,"雑談中の市民",0,"",0,0,1,0,0,"",3,False
+1052375,"Gridanienne en pleine con<SoftHyphen/>ver<SoftHyphen/>sa<SoftHyphen/>tion",0,"Gridaniennes en pleine conversation",0,0,1,1,0,"",3,False
 1052376,"",0,"",0,0,1,0,0,"",5,False
-1052377,"噂好きの市民",0,"",0,0,1,0,0,"",3,False
+1052377,"Gridanienne indiscrète",0,"Gridaniennes indiscrètes",0,0,1,1,0,"",3,False
 1052378,"",0,"",0,0,1,0,0,"",5,False
 1052379,"",0,"",0,0,1,0,0,"",5,False
-1052380,"おしゃべりな市民",0,"",0,0,1,0,0,"",3,False
+1052380,"Gridanienne bavarde",0,"Gridaniennes bavardes",0,0,1,1,0,"",3,False
 1052381,"",0,"",0,0,1,0,0,"",5,False
-1052382,"ローロヴィック",0,"",0,0,1,0,0,"",3,False
-1052383,"ティトゥアン",0,"",0,0,1,0,0,"",3,False
-1052384,"シルジニー",0,"",0,0,1,0,0,"",3,False
-1052385,"ローロヴィック",0,"",0,0,1,0,0,"",3,False
-1052386,"シルジニー",0,"",0,0,1,0,0,"",3,False
+1052382,"Laurovic",0,"Laurovic",0,0,1,0,1,"",3,False
+1052383,"Titouan",0,"Titouan",0,0,1,0,1,"",3,False
+1052384,"Sylginie",0,"Sylginie",0,0,1,1,1,"",3,False
+1052385,"Laurovic",0,"Laurovic",0,0,1,0,1,"",3,False
+1052386,"Sylginie",0,"Sylginie",0,0,1,1,1,"",3,False
 1052387,"",0,"",0,0,0,0,0,"",0,False
 1052388,"",0,"",0,0,0,0,0,"",0,False
 1052389,"",0,"",0,0,0,0,0,"",0,False
@@ -52416,12 +52422,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052412,"",0,"",0,0,0,0,0,"",0,False
 1052413,"travailleuse fatiguée",0,"travailleuses fatiguées",0,0,1,1,0,"",4,False
 1052414,"",0,"",0,0,1,0,0,"",4,False
-1052415,"",0,"",0,0,0,0,0,"",0,False
-1052416,"",0,"",0,0,0,0,0,"",0,False
-1052417,"",0,"",0,0,0,0,0,"",0,False
-1052418,"",0,"",0,0,0,0,0,"",0,False
+1052415,"",0,"",0,0,1,0,0,"",4,False
+1052416,"",0,"",0,0,1,0,0,"",4,False
+1052417,"",0,"",0,0,1,0,0,"",4,False
+1052418,"",0,"",0,0,1,0,0,"",4,False
 1052419,"",0,"",0,0,0,0,0,"",0,False
-1052420,"",0,"",0,0,0,0,0,"",0,False
+1052420,"",0,"",0,0,1,0,0,"",4,False
 1052421,"",0,"",0,0,1,0,0,"",4,False
 1052422,"",0,"",0,0,1,0,0,"",4,False
 1052423,"",0,"",0,0,1,0,0,"",4,False
@@ -52477,9 +52483,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052473,"",0,"",0,0,1,0,0,"",5,False
 1052474,"",0,"",0,0,1,0,0,"",5,False
 1052475,"Mog bourlingueur",0,"Mogs bourlingueurs",0,0,1,0,0,"",3,True
-1052476,"",0,"",0,0,0,0,0,"",0,False
-1052477,"",0,"",0,0,0,0,0,"",0,False
-1052478,"",0,"",0,0,0,0,0,"",0,False
+1052476,"Shunye",0,"Shunye",0,0,1,0,1,"",3,False
+1052477,"",0,"",0,0,1,0,0,"",5,False
+1052478,"Donuhanu",0,"Donuhanu",0,0,1,0,1,"",3,False
 1052479,"",0,"",0,0,1,0,0,"",5,False
 1052480,"",0,"",0,0,1,0,0,"",5,False
 1052481,"fan des Églantines",0,"fans des Églantines",0,0,1,0,0,"",3,False
@@ -52488,7 +52494,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052484,"G'raha Tia",0,"G'raha Tia",0,0,1,0,1,"",3,False
 1052485,"Erenville",0,"Erenville",0,1,1,0,1,"",3,False
 1052486,"Wuk Lamat",0,"Wuk Lamat",0,0,1,1,1,"",3,False
-1052487,"",0,"",0,0,0,0,0,"",0,False
+1052487,"",0,"",0,0,1,0,0,"",5,False
 1052488,"",0,"",0,0,0,0,0,"",0,False
 1052489,"",0,"",0,0,0,0,0,"",0,False
 1052490,"",0,"",0,0,0,0,0,"",0,False

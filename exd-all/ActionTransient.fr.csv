@@ -36249,10 +36249,10 @@ Lorsque l'effet prend fin avant l'absorption totale, inflige des dégâts magiqu
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 150% de la capacité restante de la barrière
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Pesanteur 75%.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Serment de l'épée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% vos dégâts infligés.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Serment de l'épée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 15% vos dégâts infligés.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8s
 Vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Serment du bouclier<UIGlow>01</UIGlow><UIForeground>01</UIForeground> quand la barrière a absorbé son montant de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Serment du bouclier<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 20% les dégâts subis.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Serment du bouclier<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 15% les dégâts subis.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8s"
 29068,""
 29069,"Vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Invincible<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, et octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phalanx<UIGlow>01</UIGlow><UIForeground>01</UIForeground> aux équipiers alentour.
@@ -36414,11 +36414,11 @@ Vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Arts tén
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Arts ténébreux<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> le prochain <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Porteur d'ombre<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ne consomme aucun PV.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2"
-29094,"Attire les ennemis alentour près de vous et fait apparaître à vos pieds un cercle de Terre salée.
+29094,"Attire près de vous les ennemis dans un rayon de 10 yalms et fait apparaître à vos pieds un cercle de Terre salée d'une portée de 5 yalms.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
-Dans la zone, restaure périodiquement vos PV et réduit de 20% vos dégâts subis.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet de Terre salée sur vous<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement vos PV et réduit de 20% vos dégâts subis dans l'aire d'effet.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000
-Les ennemis dans la zone subissent des dégâts périodiques.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet de Terre salée sur vos ennemis<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige des dégâts périodiques dans l'aire d'effet.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000
 Cette action devient Sel et Ténèbres après utilisation."
 29095,"Effectue une attaque magique neutre sur les ennemis se trouvant dans votre cercle de Terre salée.
@@ -36836,8 +36836,8 @@ La puissance de la barrière est doublée si vous êtes sous l'effet <UIForegrou
 Ce sort a un temps de recharge indépendant."
 29233,"Inflige <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Loi de l'infection<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Intoxication<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Loi de l'infection<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige des dégâts périodiques à la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12s
-La puissance est doublée si vous êtes sous l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Récitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12s
+La puissance est augmentée de 50% si vous êtes sous l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Récitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Intoxication<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 20% la puissance des effets curatifs que reçoit la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12s
 Ce sort a un temps de recharge indépendant."
@@ -36895,20 +36895,21 @@ Restaure les PV des équipiers alentour.
 Lorsque cette action est répétée par Double incantation, réduit de 6s le temps de recharge de la prochaine Double incantation."
 29243,"Restaure les PV de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 6000 à 9000
-La puissance augmente plus il manque des PV à la cible. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.
+La puissance augmente d'autant plus que les PV restants de la cible sont bas. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bienfaisance aspectée (diurne)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bienfaisance aspectée (diurne)<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement les PV de la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
 Lorsque cette action est répétée par Double incantation, octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bienfaisance aspectée (nocturne)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bienfaisance aspectée (nocturne)<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie une barrière absorbant un certain montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2
 Ce sort a un temps de recharge indépendant."
 29244,"Effectue une attaque magique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Pesanteur 75%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7500
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Pesanteur 75% à la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2s
-Lorsque cette action est répétée par Double incantation, augmente la durée de Pesanteur 75% à 3s.
+Lorsque cette action est répétée par Double incantation, inflige Entrave à la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s
 Ce sort a un temps de recharge indépendant."
 29245,"Répète le sort Malfaisance en chute, Bienfaisance aspectée ou Extra Gravité précédemment lancé.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2
@@ -36918,20 +36919,21 @@ Ce sort a un temps de recharge indépendant."
 Lorsque cette action est répétée par Double incantation, réduit de 6s le temps de recharge de la prochaine Double incantation."
 29247,"Restaure les PV de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> de 6000 à 9000
-La puissance augmente plus il manque des PV à la cible. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.
+La puissance augmente d'autant plus que les PV restants de la cible sont bas. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bienfaisance aspectée (diurne)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bienfaisance aspectée (diurne)<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure périodiquement les PV de la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
 Lorsque cette action est répétée par Double incantation, octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bienfaisance aspectée (nocturne)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> à la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bienfaisance aspectée (nocturne)<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie une barrière absorbant un certain montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2
 Ce sort a un temps de recharge indépendant."
 29248,"Effectue une attaque magique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Pesanteur 75%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 7500
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Pesanteur 75% à la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2s
-Lorsque cette action est répétée par Double incantation, augmente la durée de Pesanteur 75% à 3s.
+Lorsque cette action est répétée par Double incantation, inflige Entrave à la cible.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s
 Ce sort a un temps de recharge indépendant."
 29249,"Tire un arcane au hasard entre <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>la Balance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>le Tronc<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>la Flèche<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, puis déclenche l'effet de la carte obtenue.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
@@ -36993,10 +36995,10 @@ Ce sort a un temps de recharge indépendant."
 29260,"Effectue une attaque magique en ligne droite vers la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Haima<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, une barrière sur vous et vos équipiers dans un rayon de 20 yalms, absorbant un certain montant de dégâts, et octroie 3 degrés de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Haimatinon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 Quand la barrière a absorbé son montant de dégâts, elle est réappliquée en échange d'un degré de Haimatinon.
 Haimatinon restaure des PV à la cible lorsque l'effet prend fin.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000 par degré restant.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 par degré restant.
 Ce sort a un temps de recharge indépendant."
 29261,"Vous déplace rapidement vers l'ennemi ou l'équipier ciblé.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
@@ -37008,7 +37010,7 @@ Ne peut pas être utilisé sous l'effet Entrave."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2"
 29263,"Effectue une attaque magique sur la cible et les ennemis autour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
-La puissance est réduite à 2000 au-delà du premier ennemi touché.
+La puissance est réduite à 4000 au-delà du premier ennemi touché.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% les dégâts subis par la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Croc de vipère<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -37174,8 +37176,8 @@ Il n'est possible de déplacer le bouclier à un autre endroit qu'une seule fois
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 4s le temps de recharge de Flèche harmonique.
 Cette action autorise le déplacement pendant le temps de lancement."
 29392,"Effectue une attaque physique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
-La puissance est réduite à 4000 au-delà du premier ennemi touché.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 9000
+La puissance est réduite à 4500 au-delà du premier ennemi touché.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> réduit de 4s le temps de recharge de Flèche harmonique.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inspiration poétique<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
@@ -37216,7 +37218,7 @@ Consomme toutes les charges accumulées.
 Plus le nombre de charges consommées est élevé, plus le nombre de coups portés est grand.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3"
 29399,"Effectue une attaque physique sur la cible et vous fait sauter 10 yalms en arrière.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4500
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Entrave.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inspiration poétique<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -37259,7 +37261,7 @@ Les dégâts sont infligés deux fois de suite en cas de cible unique.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> projette la cible 10 yalms en arrière.
 Cette action a un temps de recharge indépendant."
 29405,"Effectue une attaque physique à distance sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 9000
 La défense de la cible n'a aucune influence sur les dégâts infligés par cette action.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Lance-toxine amorcée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lance-toxine amorcée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Foreuse devient Lance-toxine.
@@ -37605,12 +37607,12 @@ Rose de la conviction devient Réaction du feu pendant la durée de l'effet.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Quintessence de terre<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> les dégâts reçus sont cumulés à chaque fois que vous subissez une attaque.
 Cette action devient Cercles de terre après utilisation.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8s
-L'activation de Cercles de terre inflige des dégâts physiques sur les ennemis autour et restaure vos PV.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance de l'attaque<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000 + 25% des dégâts encaissés pendant la durée de l'effet.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du soin<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 + 50% des dégâts encaissés pendant la durée de l'effet."
-29483,"Met fin à <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Quintessence de terre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, inflige des dégâts physiques sur les ennemis autour et restaure vos PV.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance de l'attaque<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2000 + 25% des dégâts encaissés pendant la durée de l'effet.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du soin<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000 + 50% des dégâts encaissés pendant la durée de l'effet.
+L'activation de Cercles de terre inflige des dégâts physiques sur les ennemis alentour et restaure vos PV.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance de l'attaque<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000 + 25% des dégâts encaissés pendant la durée de l'effet.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du soin<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000 + 50% des dégâts encaissés pendant la durée de l'effet."
+29483,"Met fin à <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Quintessence de terre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, inflige des dégâts physiques sur les ennemis alentour et restaure vos PV.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance de l'attaque<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000 + 25% des dégâts encaissés pendant la durée de l'effet.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance du soin<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000 + 50% des dégâts encaissés pendant la durée de l'effet.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow> Quintessence de terre<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -37673,7 +37675,7 @@ Met fin à <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vie du drag
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 29493,"Saute vers la cible et effectue une attaque physique sur elle.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Percée céleste préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 Le combo Fléau du dragon devient Percée céleste pendant la durée de l'effet.
@@ -37897,7 +37899,7 @@ La puissance est réduite à 8000 en cas de cibles multiples.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 29532,"Vous déplace rapidement en passant à travers la cible, et effectue des attaques physiques sur les ennemis situés sur votre trajectoire.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Hissatsu<Indent/>: Kaiten<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hissatsu<Indent/>: Kaiten<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Yukikaze devient Hyosetsu, Gekkô devient Mangetsu, Kasha devient Ôka.
@@ -37905,7 +37907,7 @@ La puissance est réduite à 8000 en cas de cibles multiples.
 Ne peut pas être utilisé sous l'effet Entrave."
 29533,"Réduit de 25% vos dégâts subis et inflige des dégâts à l'attaquant pour chaque attaque que vous recevez.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bonus de contre<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow> Kuzushi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kuzushi<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente les dégâts infligés à la cible par le personnage à l'origine de l'effet de 20%.
@@ -38221,6 +38223,7 @@ Ne peut être cumulé avec l'effet <UIForeground>F201F4</UIForeground><UIGlow>F2
 Ce sort a un temps de recharge indépendant."
 29658,"Effectue une attaque magique sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbe en PV 50% des dégâts infligés.
 Si vos PV restants sont inférieurs à 50% du maximum, la puissance est réduite à 8000, et l'attaque absorbe en PV 200% des dégâts infligés.
 Ce sort a un temps de recharge indépendant.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Maximum de charges<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2"
@@ -38254,7 +38257,7 @@ Ne peut pas être utilisé sous l'effet Entrave."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>jauge de Transcendance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> pleine.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Temps de charge<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s"
 29663,"Effectue une attaque magique sur la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 9000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> votre effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Feu astral<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ou <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Glace ombrale<UIGlow>01</UIGlow><UIForeground>01</UIForeground> atteint son degré maximum.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Symbole paradoxal<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 29664,"Effectue une attaque magique sur la cible.
@@ -38293,7 +38296,7 @@ La puissance est réduite à 8000 au-delà du premier ennemi touché.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet sur les équipiers<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 25% la vitesse de déplacement.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6s
 Ce sort a un temps de recharge indépendant."
-29670,"Réduit de 20% les dégâts subis et crée une barrière sur vous ou l'équipier ciblé, absorbant un certain montant de dégâts.
+29670,"Réduit de 25% les dégâts subis et crée une barrière sur vous ou l'équipier ciblé, absorbant un certain montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
 29671,"Effectue une attaque magique dans une zone en éventail vers la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 000
@@ -49574,7 +49577,7 @@ Met fin aux effets <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Éc
 39187,""
 39188,""
 39189,"Réinitialise le temps de recharge d'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Assaut ophidien<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et d'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Écailles inflexibles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Le temps de recharge est réduit de 10s si vous comptabilisez une proie ou un soutien."
+Le temps de recharge est réduit de 15s si vous comptabilisez une proie ou un soutien."
 39190,"Saute sur la cible et porte une attaque physique sur elle et les ennemis alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Réminiscence<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -49583,7 +49586,7 @@ Augmente aussi de 25% votre vitesse de déplacement.
 Le combo Posture des crochets devient Première ère, Anneaux du saigneur devient Esprit du Serpent-Monde.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mortification<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mortification<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente les dégâts infligés à la cible par le lanceur de 20%.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mortification<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente les dégâts infligés à la cible par le lanceur de 25%.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> inflige Pesanteur 75%.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>jauge de Transcendance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> pleine.
@@ -49728,12 +49731,12 @@ Ne peut pas être utilisé sous l'effet Entrave."
 39211,"Vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Enduit a tempera<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enduit a tempera<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> crée une barrière absorbant un certain montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
-Le temps de recharge de ce sort est réduit de 8s quand la barrière a absorbé son montant de dégâts.
+Le temps de recharge de ce sort est réduit de 5s quand la barrière a absorbé son montant de dégâts.
 Cette action devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tempera grassa<UIGlow>01</UIGlow><UIForeground>01</UIForeground> après utilisation."
 39212,"Met fin à votre <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Enduit a tempera<UIGlow>01</UIGlow><UIForeground>01</UIForeground> et vous octroie ainsi qu'aux équipiers alentour l'effet <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tempera grassa<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tempera grassa<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> crée une barrière absorbant un certain montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
-Le temps de recharge d'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Enduit a tempera<UIGlow>01</UIGlow><UIForeground>01</UIForeground> est réduit de 8s quand votre barrière a absorbé son montant de dégâts.
+Le temps de recharge d'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Enduit a tempera<UIGlow>01</UIGlow><UIForeground>01</UIForeground> est réduit de 5s quand votre barrière a absorbé son montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Enduit a tempera<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -49754,7 +49757,7 @@ Cette action devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>P
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> restaure vos PV et ceux des équipiers dans un rayon de 30 yalms autour de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 16 000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 10% vos dégâts infligés et ceux des équipiers dans un rayon de 30 yalms autour de la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 39217,""
@@ -52105,7 +52108,7 @@ Cette technique d'arme a un temps de recharge indépendant."
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41450,"Effectue une attaque physique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Traversée céleste préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -52382,7 +52385,7 @@ Les cibles se trouvant au centre de la croix reçoivent ces effets deux fois.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41500,"Effectue une attaque magique sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 9000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Séraphisme<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>* Cette action ne peut pas être ajoutée aux barres de raccourcis.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -52407,7 +52410,7 @@ Les cibles se trouvant au centre de la croix reçoivent ces effets deux fois.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Temps de charge<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 90s
 Cette action devient Accession après utilisation."
 41503,"Tire la carte <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Roi des couronnes<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ou <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Reine des couronnes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 Permet ensuite de déclencher l'effet de la carte obtenue."
 41504,"Restaure vos PV et ceux des équipiers alentour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000
@@ -52426,7 +52429,7 @@ Permet ensuite de déclencher l'effet de la carte obtenue."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> crée une <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Étoile polaire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> où vous vous trouvez au moment de lancer l'action et vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rétrogradation préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie une barrière absorbant un certain montant de dégâts.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
 Ne peut pas être utilisé sous l'effet Entrave.
 Cette action devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rétrogradation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> après utilisation."
 41507,"Vous déplace rapidement vers l'<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Étoile polaire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> que vous avez créée.
@@ -52447,10 +52450,10 @@ Ne peut pas être utilisé sous l'effet Entrave.
 Inflige <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Point vital<UIGlow>01</UIGlow><UIForeground>01</UIForeground> en cas de réussite de la projection.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Point vital<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> votre prochaine technique d'arme inflige des dégâts sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res à la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 000
 L'effet de Point vital est annulé lorsque des dégâts sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res sont infligés.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Quintessence de vent<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Quintessence de vent<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Augmente de 50% votre vitesse de déplacement.
 Cette technique d'arme a un temps de recharge indépendant."
 41510,"Réduit de 25% les dégâts infligés par la cible.
@@ -52533,7 +52536,7 @@ Cette technique d'arme a un temps de recharge indépendant."
 41575,""
 41576,""
 41577,"Effectue une attaque physique dans une zone en éventail vers la cible.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 6000
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> absorbe en PV 100% des dégâts infligés.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Zanshin préparé<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
@@ -52618,8 +52621,8 @@ Cette technique d'arme a un temps de recharge indépendant."
 41655,""
 41656,""
 41657,""
-41658,"Effectue une attaque magique neutre sur la cible et les ennemis autour.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 000
+41658,"Effectue une attaque magique sur la cible et les ennemis autour.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 000
 La puissance est diminuée de moitié pour les ennemis situés à plus de 3y de la cible principale.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Combo<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Phlegma III
 
@@ -52991,7 +52994,7 @@ Plus le nombre de charges consommées est élevé, plus le nombre de coups port�
 42016,""
 42017,""
 42018,""
-42019,""
+42019,"Le sol du domaine disparaît sous vos pieds, vous faisant descendre de la monture."
 42020,""
 42021,""
 42022,""

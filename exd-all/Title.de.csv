@@ -764,9 +764,9 @@ int32,str,str,bit&01,uint16
 760,"vom endlosen Konflikt","vom endlosen Konflikt",False,1823
 761,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1824
 762,"Experte für Urlaubsreisen","Expertin für Urlaubsreisen",True,1825
-763,"","",False,0
-764,"","",False,0
+763,"Schienenleger","Schienenlegerin",True,1826
+764,"Transkontinentaler Träumer","Transkontinentale Träumerin",True,1827
 765,"von neonfarbenen Horizonten","von neonfarbenen Horizonten",False,1828
 766,"","",False,0
-767,"","",False,0
+767,"Knüpfer von Verbindungen","Knüpferin von Verbindungen",True,1830
 768,"Quell der Legenden","Quell der Legenden",True,1831

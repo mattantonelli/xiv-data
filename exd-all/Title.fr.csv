@@ -764,9 +764,9 @@ int32,str,str,bit&01,uint16
 760,"Histoire conflictuelle","Histoire conflictuelle",False,1823
 761,"Parcours conflictuel","Parcours conflictuel",False,1824
 762,"Touriste expert","Touriste experte",False,1825
-763,"","",False,0
-764,"","",False,0
+763,"Le cheminot","La cheminote",False,1826
+764,"Le poinçonneur des reflets","La poinçonneuse des reflets",False,1827
 765,"À la croisée des chemins","À la croisée des chemins",False,1828
 766,"","",False,0
-767,"","",False,0
+767,"Tisseur de liens","Tisseuse de liens",False,1830
 768,"À la genèse de légendes","À la genèse de légendes",False,1831

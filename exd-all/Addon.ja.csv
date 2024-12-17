@@ -16942,8 +16942,13 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
 16456,"<If(IntegerParameter(1))> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><Value>IntegerParameter(2)</Value><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><Value>IntegerParameter(2)</Value></If>/<Value>IntegerParameter(3)</Value>"
 16459,"INTERIOR RENOVATION HELP"
 16460,"内装のリフォーム解説"
+16461,"※アライアンスの場合は各パーティ最低1人、<Value>IntegerParameter(1)</Value>人以上で申請できます。規定人数(24人)未満のアライアンスで申請した場合、マッチングは行われません。"
 16462,"※アライアンスの場合は規定人数(24人)で申請できます。"
+16464,"Limited-time Bonus"
+16465,"コンテンツコンプリート時の宝箱に、
+特定アイテムが排出される確率が上昇します。"
 16466,"ホームワールドのある物理データセンターからの参加申請"
+16467,"リミテッドタイムボーナス"
 16481,"現在のクラス・ジョブではこの訓練は挑戦できません"
 101000,"<CommandIcon(10)/>サブコマンド"
 101001,"<CommandIcon(11)/>"

@@ -12964,9 +12964,9 @@ Kehre zum Titelbildschirm zurück und wähle in der Charakterauswahl, wer die Re
 13726,"Ziehe die Mitglieder deiner Gruppe per Maus an die von dir gewünschte Position."
 13727,"Gruppensortierung
 Die Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder ordnen sich entsprechend deiner Einstellungen der Anzeige-Reihenfolge (Charakter<SoftHyphen/>konfiguration) an."
-13728,"Gruppenart zu gleiche Welt ändern
+13728,"Gruppenart zu „gleiche Welt“ ändern
 Ändere deine Gruppe von einer weltenübergreifenden zu einer Gruppe von Mitgliedern der gleichen Welt."
-13729,"Die Gruppenart ändert sich von weltenübergreifend zu gleiche Welt.
+13729,"Die Gruppenart ändert sich von „weltenübergreifend“ zu „gleiche Welt“.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Bitte führe dies nur aus, wenn sich alle Grup<SoftHyphen/>pen<SoftHyphen/>mit<SoftHyphen/>glieder im selben Areal befinden.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 13730,"Ausführen"
 13731,"Abbrechen"
@@ -14870,7 +14870,7 @@ St. <Value>IntegerParameter(7)</Value>"
 15946,"Eine beliebige vergilbte Karte entziffern und die zugehörige Schatztruhe öffnen."
 15947,"Eine Vorstellung in der Großen Maskerade erfolgreich abschließen."
 15948,"<If(Equal(IntegerParameter(8),1))>Ein Notorisches<Else/><Value>IntegerParameter(8)</Value> Notorische</If> Monster auf Eureka besiegen."
-15949,"<If(Equal(IntegerParameter(8),1))>Ein kritisches Gefecht<Else/><Value>IntegerParameter(8)</Value> kritische Gefechte</If> Monster <If(Equal(IntegerParameter(5),735))>an der Südfront von Bozja<Else/>in Zadnor</If> besiegen."
+15949,"<If(Equal(IntegerParameter(8),1))>Ein kritisches Gefecht<Else/><Value>IntegerParameter(8)</Value> kritische Gefechte</If> <If(Equal(IntegerParameter(5),735))>an der Südfront von Bozja<Else/>in Zadnor</If> abschließen."
 15950,"<Value>IntegerParameter(8)</Value> Mal Material in „<Sheet(ContentType,IntegerParameter(2),0)/>“ sammeln."
 15953,"<If(GreaterThan(IntegerParameter(1),0))>Große Maskerade<Else/>???</If>"
 15954,"<If(GreaterThan(IntegerParameter(1),0))>Große Maskerade<Else/>???</If>
@@ -15261,8 +15261,13 @@ Einstellungen wirklich schließen?"
 16456,"<If(IntegerParameter(1))> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><Value>IntegerParameter(2)</Value><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><Value>IntegerParameter(2)</Value></If>/<Value>IntegerParameter(3)</Value>"
 16459,"ERKLÄRUNGEN ZUR INNENRAUM-RENOVIERUNG"
 16460,""
+16461,"※ Allianz-Registrierung ist ab <Value>IntegerParameter(1)</Value> Spielern (pro Gruppe min. 1 Spieler) möglich.
+※ Befinden sich zum Zeitpunkt der Registrierung nicht die vorgegebene Anzahl an Spielern in der Allianz (24 Spieler), so wird nicht nach weiteren Spielern gesucht."
 16462,"※ Allianz-Registrierung ist nur mit der vorgegebenen Anzahl an Spielern möglich (24 Spieler). "
+16464,"Kurzzeitbonus"
+16465,"Erhöhte Chance auf besondere Gegenstände in den Schatzkisten, wenn der Inhalt erfolgreich abgeschlossen wird."
 16466,"Teilnahme nur vom physischen Datenzentrum der Stammwelt möglich"
+16467,""
 16481,"Diese Übungen können mit deiner momentanen Klasse/deinem momentanen Job nicht bestritten werden"
 101000,"<CommandIcon(10)/> Untermenü"
 101001,"<CommandIcon(11)/>"
