@@ -11,7 +11,7 @@ COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
 
 ECHO [%TIME%] Extracting game data...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BannerBg BannerDecoration BannerFrame BuddyEquip CharaCardBase CharaCardDecoration CharaCardHeader Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory ENpcBase ENpcResident GlassesStyle Item Leve LeveAssignmentType MinionRace MinionSkillType Mount MountTransient MYCWarResultNotebook Orchestrion OrchestrionCategory Ornament PlaceName Quest SpecialShop TextCommand Title TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule VVDNotebookContents VVDNotebookSeries"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction BannerCondition Cabinet CabinetCategory CharaMakeCustomize CraftLeve Emote GCScripShopItem GilShopItem Glasses InstanceContent Item ItemAction Level Map OrchestrionPath OrchestrionUiParam PvPSeries Recipe SpecialShop TripleTriad VVDNotebookSeries"
+.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction BannerCondition Cabinet CabinetCategory CharaMakeCustomize CraftLeve Emote GCScripShopItem GilShopItem Glasses InstanceContent Item ItemAction Level Map MirageStoreSetItem OrchestrionPath OrchestrionUiParam PvPSeries Recipe SpecialShop TripleTriad VVDNotebookSeries"
 
 ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 070999"
