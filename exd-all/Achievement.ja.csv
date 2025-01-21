@@ -3637,7 +3637,7 @@ int32,AchievementCategory,str,str,AchievementTarget,byte,byte,Title,Item,byte,by
 3605,"Trials","永久なる女王を狩りし者","極エターナルクイーン討滅戦で、エターナルクイーンを討伐する","0",0,10," / ","",255,255,0,"ui/icon/000000/000317.tex",1,14,"InstanceContent#20099",,,,,,,,,42,1,"AchievementHideCondition#0"
 3606,"Raids","ジュノ：ザ・ファーストウォークを制覇せし者","ジュノ：ザ・ファーストウォークを攻略する","0",0,5," / ","",255,255,0,"ui/icon/064000/064875.tex",1,14,"InstanceContent#30144",,,,,,,,,0,1,"AchievementHideCondition#0"
 3607,"Main Scenario","未知との邂逅","クエスト「未知との邂逅」をコンプリートする","34",100,20,"Of Neon Horizons / Of Neon Horizons","",255,255,0,"ui/icon/026000/026002.tex",1,6,"Crossroads",,,,,,,,,93,1,"AchievementHideCondition#0"
-3608,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
+3608,"Job/Role Quests","「自由の扉」よ、永遠に","クエスト「決戦、ゾーゴー永結橋」をコンプリートする","34",100,10,"Sweet Justice / Sweet Justice","",255,255,0,"ui/icon/002000/002698.tex",1,6,"Bar the Passage",,,,,,,,,817,1,"AchievementHideCondition#0"
 3609,"Job/Role Quests","みんなでワチュメキメキ！","クエスト「ワチュメキメキ大感謝祭」をコンプリートする","35",100,10,"Beader of Bonds / Beader of Bonds","",255,255,0,"ui/icon/001000/001901.tex",2,6,"Appreciated Value",,,,,,,,,917,1,"AchievementHideCondition#0"
 3610,"Fisher","黄金の太公望：ランク1","黄金のレガシーのエリアにいるヌシを8種類、釣り上げる","0",0,10," / ","",255,255,0,"ui/icon/001000/001102.tex",1,1,,,,,,,,,,110,1,"AchievementHideCondition#0"
 3611,"Seasonal Events","ホッとあたたまるマーケット","クエスト「星芒祭と小さな従者たち」をコンプリートする","0",0,10," / ","",255,255,0,"ui/icon/058000/058804.tex",1,6,"Spreading the Warmth and Cheer",,,,,,,,,141,1,"AchievementHideCondition#0"

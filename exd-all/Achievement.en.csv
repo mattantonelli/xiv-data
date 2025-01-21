@@ -3637,7 +3637,7 @@ int32,AchievementCategory,str,str,AchievementTarget,byte,byte,Title,Item,byte,by
 3605,"Trials","Long Lived the Queen","Defeat Queen Eternal in the Minstrel's Ballad: Sphene's Burden.","0",0,10," / ","",255,255,0,"ui/icon/000000/000317.tex",1,14,"InstanceContent#20099",,,,,,,,,42,1,"AchievementHideCondition#0"
 3606,"Raids","Home Away from Home","Complete Jeuno: The First Walk.","0",0,5," / ","",255,255,0,"ui/icon/064000/064875.tex",1,14,"InstanceContent#30144",,,,,,,,,0,1,"AchievementHideCondition#0"
 3607,"Main Scenario","Crossroads","Complete the main scenario quest “Crossroads.”","34",100,20,"Of Neon Horizons / Of Neon Horizons","",255,255,0,"ui/icon/026000/026002.tex",1,6,"Crossroads",,,,,,,,,93,1,"AchievementHideCondition#0"
-3608,"","","","0",0,0," / ","",0,0,0,,0,0,,,,,,,,,,0,0,"AchievementHideCondition#0"
+3608,"Job/Role Quests","A Passage Rebound","Complete the quest “Bar the Passage.”","34",100,10,"Sweet Justice / Sweet Justice","",255,255,0,"ui/icon/002000/002698.tex",1,6,"Bar the Passage",,,,,,,,,817,1,"AchievementHideCondition#0"
 3609,"Job/Role Quests","Trade and True","Complete the quest “Appreciated Value.”","35",100,10,"Beader of Bonds / Beader of Bonds","",255,255,0,"ui/icon/001000/001901.tex",2,6,"Appreciated Value",,,,,,,,,917,1,"AchievementHideCondition#0"
 3610,"Fisher","Go Big on the Trail I","Catch 8 different varieties of big fish in areas explored during Dawntrail.","0",0,10," / ","",255,255,0,"ui/icon/001000/001102.tex",1,1,,,,,,,,,,110,1,"AchievementHideCondition#0"
 3611,"Seasonal Events","Punch in Every Stall","Complete the quest “Spreading the Warmth and Cheer.”","0",0,10," / ","",255,255,0,"ui/icon/058000/058804.tex",1,6,"Spreading the Warmth and Cheer",,,,,,,,,141,1,"AchievementHideCondition#0"

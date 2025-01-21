@@ -3081,6 +3081,12 @@ Mélange un cocktail.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/mélangercocktail","/cocktail","pdamage",0
+683,2,1,2,0,0,"/poseoftheunbound","/unbound","/poseaffranchis, /affranchis, /poseoftheunbound, /unbound
+Utilisation<Indent/>: /poseaffranchis [sous-commande]
+Prend la pose des Affranchis.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/poseaffranchis","/affranchis","pdamage",0
 684,2,1,2,0,0,"/bouquet","","/offrirfleurs, /fleurs, /bouquet
 Utilisation<Indent/>: /offrirfleurs [sous-commande]
 Offre des fleurs.

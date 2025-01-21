@@ -35302,7 +35302,7 @@ int32,str
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 29096,""
 29097,"自身の前後直線範囲に対して範囲魔法攻撃。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000～16000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10000～20000
 自身の残りＨＰが高いほど威力が上昇する。
 実行時に自身のＨＰが1になる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンデッド・リデンプション」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
@@ -35485,7 +35485,7 @@ int32,str
 29123,"対象に急接近して物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ノー・マーシー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>7秒
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ノーマーシー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージと回復効果を10％上昇させ、自身の移動速度を25％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ノー・マーシー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージと回復効果を10％上昇させ、自身の移動速度を25％上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 バインド中は実行不可。"
 29124,"対象の与ダメージと回復力を25％減少させる。
@@ -35616,7 +35616,8 @@ int32,str
 29220,""
 29221,""
 29222,""
-29223,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000"
+29223,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「グレアジャ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果中はグレアジャに変化する。"
 29224,"対象のＨＰを回復する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12000
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ケアルガ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果中はケアルガに変化する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
@@ -35644,17 +35645,17 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に3スタックの<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「グレアジャ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20秒
+効果中はグレアガがグレアジャに変化する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ケアルガ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20秒
 効果中はケアルラがケアルガに変化する。
-バインド中は実行不可。
-このアクションを実行するとグレアジャに変化する。"
+バインド中は実行不可。"
 29230,"対象に向かって前方直線範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象をスタンさせる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「テンパランス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>テンパランス効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身と周囲30m以内にいるパーティメンバーのＨＰを継続回復する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>4000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「リミットゲージ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>最大
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>蓄積時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>60秒"
 29231,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000"
@@ -35690,7 +35691,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>秘策効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「鼓舞激励の策」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「蠱毒法」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果が強化される。"
 29237,"指定地点にセラフィムを召喚する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>召喚時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20秒
 セラフィムは周囲15m以内にいるパーティメンバーに<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「セラフィックイルミネーション」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与し続ける。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>セラフィックイルミネーション効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>受けるＨＰ回復効果を20％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>セラフィックイルミネーション効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>受けるＨＰ回復効果を10％上昇させる。
 また、セラフィムは周囲30m以内にいるＨＰが減少したパーティメンバーを優先対象としてセラフィックヴェールを実行する。"
 29238,"召喚しているセラフィムに<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「コンソレイション」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を実行させる。
 
@@ -35777,10 +35778,10 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 効果中に対象がダメージを受けるとそのダメージを蓄積する。
 効果時間が経過するか、効果時間中に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ミクロコスモス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を実行すると、対象のＨＰを回復する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力5000相当＋蓄積されたダメージの25％分
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力4000相当＋蓄積されたダメージの20％分
 この魔法は固有のリキャストタイマーを持つ。"
 29254,"自身が付与した<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「マクロコスモス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果を終了させて対象のＨＰを回復する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力5000相当＋蓄積されたダメージの25％分
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力4000相当＋蓄積されたダメージの20％分
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 29255,"自身と周囲のパーティメンバーの与ダメージと回復効果を30％上昇させ、さらに自身の周囲の敵の与ダメージと回復効果を30％減少させる。
@@ -36556,7 +36557,7 @@ int32,str
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「三印自在」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中は土遁の術に変化する。"
 29514,"自身の足元に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「土遁の術」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を生成する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>土遁の術の自身への効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>範囲内にいる自身の被ダメージを25％軽減する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>土遁の術の自身への効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>範囲内にいる自身の被ダメージを20％軽減する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>土遁の術の敵への効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>範囲内に入った敵に継続ダメージを与える。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「三印自在」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
@@ -36922,9 +36923,9 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソウルレゾナンス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-29657,"自身の周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12000
+29657,"自身の周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に一定量のダメージを防ぐバリアを張る。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>バリア量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力12000相当　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>バリア量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力15000相当　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 この魔法は固有のリキャストタイマーを持つ。"
 29658,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えたダメージの50％分のＨＰを吸収する。
@@ -36987,13 +36988,13 @@ int32,str
 29669,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>敵への追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象に継続ダメージを与える。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>4000　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>味方への追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>攻撃範囲内にいるパーティメンバーの移動速度を25％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>味方への追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身および攻撃範囲内にいるパーティメンバーの移動速度を25％上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
 この魔法は固有のリキャストタイマーを持つ。"
 29670,"自身またはパーティメンバーひとりを対象とする。
 対象に被ダメージを25％軽減し、かつ一定量のダメージを防ぐバリアを張る。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>バリア量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力10000相当　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
-29671,"対象に向かって前方扇範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10000
+29671,"対象に向かって前方扇範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象をスタンさせる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2秒
 この魔法は固有のリキャストタイマーを持つ。"
 29672,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>4000～8000
@@ -47973,22 +47974,22 @@ int32,str
 対象が2体以上の場合は、威力が4000に減少する。
 このウェポンスキルは固有のリキャストタイマーを持つ。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2"
-39169,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000
+39169,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>大空喰らう蛇
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「祖霊降ろし」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-39170,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000
+39170,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>祖霊の牙【壱】
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「祖霊降ろし」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-39171,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000
+39171,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>祖霊の牙【弐】
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「祖霊降ろし」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-39172,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6000
+39172,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>祖霊の牙【参】
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「祖霊降ろし」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
@@ -50675,7 +50676,7 @@ int32,str
 このウェポンスキルは固有のリキャストタイマーを持つ。
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-41469,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000
+41469,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10000
 メインターゲットには2回命中するが、2回目は威力が半減する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「オーバーヒート」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒
@@ -50841,7 +50842,7 @@ int32,str
 直線が重なる地点にいる対象には2回分の効果を与える。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「リミットゲージ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>最大
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>蓄積時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>90秒"
-41499,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8000
+41499,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>9000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「グレアジャ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"

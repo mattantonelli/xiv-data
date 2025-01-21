@@ -50145,7 +50145,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050141,"",0,"",0,0,1,0,0,"",4,False
 1050142,"",0,"",0,0,1,0,0,"",4,False
 1050143,"",0,"",0,0,1,0,0,"",4,False
-1050144,"",0,"",0,0,0,0,0,"",0,False
+1050144,"",0,"",0,0,1,0,0,"",4,False
 1050145,"",0,"",0,0,1,0,0,"",4,False
 1050146,"",0,"",0,0,1,0,0,"",4,False
 1050147,"",0,"",0,0,1,0,0,"",4,False
@@ -51649,52 +51649,52 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051645,"Tseeya",0,"Tseeya",0,0,1,0,1,"",4,False
 1051646,"Tseeya",0,"Tseeya",0,0,1,0,1,"",4,False
 1051647,"Rasafbaht",0,"Rasafbaht",0,0,1,1,1,"",4,False
-1051648,"",0,"",0,0,0,0,0,"",0,False
-1051649,"",0,"",0,0,0,0,0,"",0,False
-1051650,"",0,"",0,0,0,0,0,"",0,False
-1051651,"",0,"",0,0,0,0,0,"",0,False
-1051652,"",0,"",0,0,0,0,0,"",0,False
-1051653,"",0,"",0,0,0,0,0,"",0,False
-1051654,"",0,"",0,0,0,0,0,"",0,False
-1051655,"",0,"",0,0,0,0,0,"",0,False
-1051656,"",0,"",0,0,0,0,0,"",0,False
-1051657,"",0,"",0,0,0,0,0,"",0,False
-1051658,"",0,"",0,0,0,0,0,"",0,False
-1051659,"",0,"",0,0,0,0,0,"",0,False
-1051660,"",0,"",0,0,0,0,0,"",0,False
-1051661,"",0,"",0,0,0,0,0,"",0,False
-1051662,"",0,"",0,0,0,0,0,"",0,False
-1051663,"",0,"",0,0,0,0,0,"",0,False
-1051664,"",0,"",0,0,0,0,0,"",0,False
-1051665,"",0,"",0,0,0,0,0,"",0,False
-1051666,"",0,"",0,0,0,0,0,"",0,False
-1051667,"",0,"",0,0,0,0,0,"",0,False
-1051668,"",0,"",0,0,0,0,0,"",0,False
-1051669,"",0,"",0,0,0,0,0,"",0,False
-1051670,"",0,"",0,0,0,0,0,"",0,False
-1051671,"",0,"",0,0,0,0,0,"",0,False
-1051672,"",0,"",0,0,0,0,0,"",0,False
-1051673,"",0,"",0,0,0,0,0,"",0,False
-1051674,"",0,"",0,0,0,0,0,"",0,False
-1051675,"",0,"",0,0,0,0,0,"",0,False
-1051676,"",0,"",0,0,0,0,0,"",0,False
-1051677,"",0,"",0,0,0,0,0,"",0,False
-1051678,"",0,"",0,0,0,0,0,"",0,False
-1051679,"",0,"",0,0,0,0,0,"",0,False
-1051680,"",0,"",0,0,0,0,0,"",0,False
-1051681,"",0,"",0,0,0,0,0,"",0,False
-1051682,"",0,"",0,0,0,0,0,"",0,False
-1051683,"",0,"",0,0,0,0,0,"",0,False
-1051684,"",0,"",0,0,0,0,0,"",0,False
-1051685,"",0,"",0,0,0,0,0,"",0,False
-1051686,"",0,"",0,0,0,0,0,"",0,False
-1051687,"",0,"",0,0,0,0,0,"",0,False
-1051688,"",0,"",0,0,0,0,0,"",0,False
-1051689,"",0,"",0,0,0,0,0,"",0,False
-1051690,"",0,"",0,0,0,0,0,"",0,False
-1051691,"",0,"",0,0,0,0,0,"",0,False
-1051692,"",0,"",0,0,0,0,0,"",0,False
-1051693,"",0,"",0,0,0,0,0,"",0,False
+1051648,"",0,"",0,0,1,0,0,"",4,False
+1051649,"homme louche",0,"hommes louches",0,1,1,0,0,"",4,False
+1051650,"examinateur narquois",0,"examinateurs narquois",0,1,1,0,0,"",4,False
+1051651,"examinatrice fruste",0,"examinatrices frustes",0,1,1,1,0,"",4,False
+1051652,"examinateur glouton",0,"examinateurs gloutons",0,1,1,0,0,"",4,False
+1051653,"",0,"",0,0,1,0,0,"",4,False
+1051654,"membre des Affranchis",0,"membres des Affranchis",0,0,1,0,0,"",4,False
+1051655,"femme contrariée",0,"femmes contrariées",0,0,1,1,0,"",3,False
+1051656,"membre des Affranchis",0,"membres des Affranchis",0,0,1,0,0,"",3,False
+1051657,"",0,"",0,0,1,0,0,"",3,False
+1051658,"examinateur glouton",0,"examinateurs gloutons",0,1,1,0,0,"",3,False
+1051659,"examinateur narquois",0,"examinateurs narquois",0,1,1,0,0,"",3,False
+1051660,"examinatrice fruste",0,"examinatrices frustes",0,1,1,1,0,"",3,False
+1051661,"Apyaahi",0,"Apyaahi",0,1,1,1,1,"",3,False
+1051662,"",0,"",0,0,1,0,0,"",5,False
+1051663,"Apyaahi",0,"Apyaahi",0,1,1,1,1,"",3,False
+1051664,"",0,"",0,0,1,0,0,"",5,False
+1051665,"",0,"",0,0,1,0,0,"",5,False
+1051666,"",0,"",0,0,1,0,0,"",5,False
+1051667,"",0,"",0,0,1,0,0,"",5,False
+1051668,"Apyaahi",0,"Apyaahi",0,1,1,1,1,"",3,False
+1051669,"",0,"",0,0,1,0,0,"",5,False
+1051670,"Kuiyki",0,"Kuiyki",0,0,1,1,1,"",3,False
+1051671,"Ceetol Ja",0,"Ceetol Ja",0,0,1,1,1,"",3,False
+1051672,"Tentoawa",0,"Tentoawa",0,0,1,0,1,"",3,False
+1051673,"Loashkana",0,"Loashkana",0,0,1,1,1,"",3,False
+1051674,"Tepeke",0,"Tepeke",0,0,1,1,1,"",3,False
+1051675,"Kuiyki",0,"Kuiyki",0,0,1,1,1,"",3,False
+1051676,"Ceetol Ja",0,"Ceetol Ja",0,0,1,1,1,"",3,False
+1051677,"mercenaire espiègle",0,"mercenaires espiègles",0,0,1,0,0,"",3,False
+1051678,"",0,"",0,0,1,0,0,"",5,False
+1051679,"",0,"",0,0,1,0,0,"",5,False
+1051680,"Apyaahi",0,"Apyaahi",0,1,1,1,1,"",3,False
+1051681,"",0,"",0,0,1,0,0,"",5,False
+1051682,"Ceetol Ja",0,"Ceetol Ja",0,0,1,1,1,"",3,False
+1051683,"Kuiyki",0,"Kuiyki",0,0,1,1,1,"",3,False
+1051684,"Tentoawa",0,"Tentoawa",0,0,1,0,1,"",3,False
+1051685,"Loashkana",0,"Loashkana",0,0,1,1,1,"",3,False
+1051686,"Tepeke",0,"Tepeke",0,0,1,1,1,"",3,False
+1051687,"Kuiyki",0,"Kuiyki",0,0,1,1,1,"",3,False
+1051688,"Ceetol Ja",0,"Ceetol Ja",0,0,1,1,1,"",3,False
+1051689,"Loashkana",0,"Loashkana",0,0,1,1,1,"",3,False
+1051690,"Kuiyki",0,"Kuiyki",0,0,1,1,1,"",3,False
+1051691,"Ceetol Ja",0,"Ceetol Ja",0,0,1,1,1,"",3,False
+1051692,"Tentoawa",0,"Tentoawa",0,0,1,0,1,"",3,False
+1051693,"Tepeke",0,"Tepeke",0,0,1,1,1,"",3,False
 1051694,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
 1051695,"",0,"",0,0,1,0,0,"",5,False
 1051696,"",0,"",0,0,1,0,0,"",5,False
@@ -51925,28 +51925,28 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051921,"",0,"",0,0,1,0,0,"",4,False
 1051922,"",0,"",0,0,1,0,0,"",4,False
 1051923,"",0,"",0,0,1,0,0,"",4,False
-1051924,"",0,"",0,0,0,0,0,"",0,False
-1051925,"",0,"",0,0,0,0,0,"",0,False
-1051926,"",0,"",0,0,0,0,0,"",0,False
-1051927,"",0,"",0,0,0,0,0,"",0,False
-1051928,"",0,"",0,0,0,0,0,"",0,False
-1051929,"",0,"",0,0,0,0,0,"",0,False
-1051930,"",0,"",0,0,0,0,0,"",0,False
-1051931,"",0,"",0,0,0,0,0,"",0,False
-1051932,"",0,"",0,0,0,0,0,"",0,False
-1051933,"",0,"",0,0,0,0,0,"",0,False
-1051934,"",0,"",0,0,0,0,0,"",0,False
-1051935,"",0,"",0,0,0,0,0,"",0,False
+1051924,"mercenaire nigaud",0,"mercenaires nigauds",0,0,1,0,0,"",4,False
+1051925,"mercenaire balourd",0,"mercenaires balourds",0,0,1,0,0,"",4,False
+1051926,"mercenaire espiègle",0,"mercenaires espiègles",0,0,1,0,0,"",4,False
+1051927,"Maahwi",0,"Maahwi",0,0,1,0,1,"",4,False
+1051928,"guetteur de la Légion de l'Aurore",0,"guetteurs de la Légion de l'Aurore",0,0,1,0,0,"",4,False
+1051929,"guetteur de la Légion de l'Aurore",0,"guetteurs de la Légion de l'Aurore",0,0,1,0,0,"",4,False
+1051930,"",0,"",0,0,1,0,0,"",4,False
+1051931,"lieutenant des Affranchis roegadyn",0,"lieutenants des Affranchis roegadyns",0,0,1,0,0,"",4,False
+1051932,"lieutenante des Affranchis lalafelle",0,"lieutenantes des Affranchis lalafelles",0,0,1,1,0,"",4,False
+1051933,"lieutenant des Affranchis miqo'te",0,"lieutenants des Affranchis miqo'tes",0,0,1,0,0,"",4,False
+1051934,"lieutenant des Affranchis aoran",0,"lieutenants des Affranchis aorans",0,0,1,0,0,"",4,False
+1051935,"",0,"",0,0,1,0,0,"",4,False
 1051936,"",0,"",0,0,1,0,0,"",4,False
 1051937,"",0,"",0,0,1,0,0,"",4,False
-1051938,"",0,"",0,0,0,0,0,"",0,False
-1051939,"",0,"",0,0,0,0,0,"",0,False
-1051940,"",0,"",0,0,0,0,0,"",0,False
-1051941,"",0,"",0,0,0,0,0,"",0,False
-1051942,"",0,"",0,0,0,0,0,"",0,False
-1051943,"",0,"",0,0,0,0,0,"",0,False
-1051944,"",0,"",0,0,0,0,0,"",0,False
-1051945,"",0,"",0,0,0,0,0,"",0,False
+1051938,"",0,"",0,0,1,0,0,"",4,False
+1051939,"",0,"",0,0,1,0,0,"",4,False
+1051940,"",0,"",0,0,1,0,0,"",4,False
+1051941,"",0,"",0,0,1,0,0,"",4,False
+1051942,"",0,"",0,0,1,0,0,"",4,False
+1051943,"",0,"",0,0,1,0,0,"",4,False
+1051944,"",0,"",0,0,1,0,0,"",4,False
+1051945,"",0,"",0,0,1,0,0,"",4,False
 1051946,"Pawkukwe",0,"Pawkukwe",0,0,1,0,1,"",3,False
 1051947,"Miitso",0,"Miitso",0,0,1,1,1,"",3,False
 1051948,"voleur tonawawta",0,"voleurs tonawawta",0,0,1,0,0,"",3,False
@@ -52014,10 +52014,10 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052010,"",0,"",0,0,1,0,0,"",6,False
 1052011,"",0,"",0,0,1,0,0,"",5,False
 1052012,"",0,"",0,0,1,0,0,"",5,False
-1052013,"",0,"",0,0,0,0,0,"",0,False
-1052014,"",0,"",0,0,0,0,0,"",0,False
-1052015,"",0,"",0,0,0,0,0,"",0,False
-1052016,"",0,"",0,0,0,0,0,"",0,False
+1052013,"",0,"",0,0,1,0,0,"",4,False
+1052014,"",0,"",0,0,1,0,0,"",4,False
+1052015,"",0,"",0,0,1,0,0,"",4,False
+1052016,"",0,"",0,0,1,0,0,"",4,False
 1052017,"Peyapewi",0,"Peyapewi",0,0,1,0,1,"Divers",4,False
 1052018,"Kenawna",0,"Kenawna",0,0,1,1,1,"Échange d'assignats",4,False
 1052019,"diplomate des Faubourgs",0,"diplomates des Faubourgs",0,0,1,1,0,"",4,False
@@ -52292,7 +52292,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052282,"",0,"",0,0,1,0,0,"",5,False
 1052283,"",0,"",0,0,1,0,0,"",5,False
 1052284,"",0,"",0,0,1,0,0,"",5,False
-1052285,"",0,"",0,0,0,0,0,"",0,False
+1052285,"Tentoawa",0,"Tentoawa",0,0,1,0,1,"",3,False
 1052286,"",0,"",0,0,0,0,0,"",0,False
 1052287,"",0,"",0,0,0,0,0,"",0,False
 1052288,"",0,"",0,0,0,0,0,"",0,False
@@ -52413,8 +52413,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052403,"exploratrice tonawawta",0,"exploratrices tonawawta",0,1,1,1,0,"",4,False
 1052404,"Bakool Ja Ja",0,"Bakool Ja Ja",0,0,1,0,1,"",4,False
 1052405,"",0,"",0,0,0,0,0,"",0,False
-1052406,"",0,"",0,0,0,0,0,"",0,False
-1052407,"",0,"",0,0,0,0,0,"",0,False
+1052406,"",0,"",0,0,1,0,0,"",4,False
+1052407,"",0,"",0,0,1,0,0,"",4,False
 1052408,"",0,"",0,0,0,0,0,"",0,False
 1052409,"",0,"",0,0,0,0,0,"",0,False
 1052410,"",0,"",0,0,0,0,0,"",0,False
@@ -52473,7 +52473,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052463,"",0,"",0,0,1,0,0,"",5,False
 1052464,"",0,"",0,0,1,0,0,"",5,False
 1052465,"",0,"",0,0,1,0,0,"",5,False
-1052466,"",0,"",0,0,0,0,0,"",0,False
+1052466,"",0,"",0,0,1,0,0,"",5,False
 1052467,"",0,"",0,0,0,0,0,"",0,False
 1052468,"",0,"",0,0,0,0,0,"",0,False
 1052469,"travailleuse fatiguée",0,"travailleuses fatiguées",0,0,1,1,0,"",3,False

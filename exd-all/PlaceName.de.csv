@@ -4780,7 +4780,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4752,"Nest der Sandsäufer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nest der Sandsäufer</Case><Case(2)>im Nest der Sandsäufer</Case><Case(3)>das Nest der Sandsäufer</Case></Switch>",0,0,0
 4753,"Spitze der Mu",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Spitze der Mu</Case><Case(2)>auf der Spitze der Mu</Case><Case(3)>die Spitze der Mu</Case></Switch>",0,0,0
 4754,"Sternenlicht-Stände",0,"",0,0,1,0,0,"",0,0,0
-4755,"",0,"",0,0,0,0,0,"",0,0,0
+4755,"Audienzsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Audienzsaal</Case><Case(2)>im Audienzsaal</Case><Case(3)>der Audienzsaal</Case></Switch>",0,0,0
 4756,"",0,"",0,0,1,0,0,"",0,0,0
 4757,"",0,"",0,0,1,0,0,"",0,0,0
 4758,"",0,"",0,0,1,0,0,"",0,0,0
