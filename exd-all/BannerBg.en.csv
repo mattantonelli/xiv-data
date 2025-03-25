@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3,4,5,6,7,8
-#,Image,Icon,,UnlockCondition,,,SortKey,Name,
+#,Image,Icon,,UnlockCondition,,,,SortKey,Name
 int32,Image,Image,byte,BannerCondition,uint16,uint16,uint16,uint16,str
 0,,"ui/icon/082000/082091.tex",0,"BannerCondition#0",0,0,0,0,"None"
 1,"ui/icon/190000/190002.tex","ui/icon/082000/082091.tex",1,"BannerCondition#1",0,0,0,1,"Solid Grey"
