@@ -1872,7 +1872,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 1844,"Indigopolis - Bezirk 11",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Bezirk 11 der Indigopolis</Case><Case(2)>in Bezirk 11 der Indigopolis</Case><Case(3)>der Zugang zu Bezirk 11 der Indigopolis</Case></Switch>",0,0,0
 1845,"Rutschenweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Rutschenweg</Case><Case(2)>im Rutschenweg</Case><Case(3)>der Zugang zum Rutschenweg</Case></Switch>",0,0,0
 1846,"Multi-Martyrium",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Multi-Martyrium</Case><Case(2)>im Multi-Martyrium</Case><Case(3)>der Zugang zum Multi-Martyrium</Case></Switch>",0,0,0
-1847,"Herz des Schöpfers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz des Schöpfers</Case><Case(2)>im Herz des Schöpfers</Case><Case(3)>der Zugang zum Herz des Schöpfers</Case></Switch>",0,0,0
+1847,"Herz des Schöpfers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen des Schöpfers</Case><Case(2)>im Herzen des Schöpfers</Case><Case(3)>der Zugang zum Herzen des Schöpfers</Case></Switch>",0,0,0
 1848,"Obere Rumpf-Ebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur oberen Rumpf-Ebene</Case><Case(2)>auf der oberen Rumpf-Ebene</Case><Case(3)>der Zugang zur oberen Rumpf-Ebene</Case></Switch>",0,0,0
 1849,"Untere Rumpf-Ebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur unteren Rumpf-Ebene</Case><Case(2)>auf der unteren Rumpf-Ebene</Case><Case(3)>der Zugang zur unteren Rumpf-Ebene</Case></Switch>",0,0,0
 1850,"Kern-Fertigungsanlage",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kern-Fertigungsanlage</Case><Case(2)>in der Kern-Fertigungsanlage</Case><Case(3)>der Zugang zur Kern-Fertigungsanlage</Case></Switch>",0,0,0
@@ -1881,7 +1881,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 1853,"Seele des Schöpfers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Seele des Schöpfers</Case><Case(2)>in der Seele des Schöpfers</Case><Case(3)>der Zugang zur Seele des Schöpfers</Case></Switch>",0,0,0
 1854,"Entropie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Entropie</Case><Case(2)>in der Entropie</Case><Case(3)>der Zugang zur Entropie</Case></Switch>",0,0,0
 1855,"Zentraler Steuerraum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum zentralen Steuerraum</Case><Case(2)>im zentralen Steuerraum</Case><Case(3)>der Zugang zum zentralen Steuerraum</Case></Switch>",0,0,0
-1856,"Herz des Schöpfers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz des Schöpfers</Case><Case(2)>im Herz des Schöpfers</Case><Case(3)>der Zugang zum Herz des Schöpfers</Case></Switch>",0,0,0
+1856,"Herz des Schöpfers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen des Schöpfers</Case><Case(2)>im Herzen des Schöpfers</Case><Case(3)>der Zugang zum Herzen des Schöpfers</Case></Switch>",0,0,0
 1857,"Baelsar-Wall",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Baelsar-Wall</Case><Case(2)>auf dem Baelsar-Wall</Case><Case(3)>der Baelsar-Wall</Case></Switch>",0,0,0
 1858,"Unterer Wall",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum unteren Wall</Case><Case(2)>auf dem unteren Wall</Case><Case(3)>der untere Wall</Case></Switch>",0,0,0
 1859,"Äußerer Wall",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum äußeren Wall</Case><Case(2)>auf dem äußeren Wall</Case><Case(3)>der äußere Wall</Case></Switch>",0,0,0
@@ -1914,10 +1914,10 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 1886,"Fängekäfig",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fängekäfig</Case><Case(2)>im Fängekäfig</Case><Case(3)>der Zugang zum Fängekäfig</Case></Switch>",0,0,0
 1887,"Omega-Kontrollraum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Omega-Kontrollraum</Case><Case(2)>im Omega-Kontrollraum</Case><Case(3)>der Omega-Kontrollraum</Case></Switch>",0,0,0
 1888,"Sohm Al (schwer)",0,"",0,0,1,0,0,"",0,0,0
-1889,"Sohm Al: Das Herz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz</Case><Case(2)>im Herz</Case><Case(3)>der Zugang zum Herz</Case></Switch>",0,0,0
+1889,"Sohm Al: Das Herz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen</Case><Case(2)>im Herzen</Case><Case(3)>der Zugang zum Herzen</Case></Switch>",0,0,0
 1890,"Das Fieber",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fieber</Case><Case(2)>im Fieber</Case><Case(3)>der Zugang zum Fieber</Case></Switch>",0,0,0
 1891,"Lavagrotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Lavagrotte</Case><Case(2)>in der Lavagrotte</Case><Case(3)>der Zugang zur Lavagrotte</Case></Switch>",0,0,0
-1892,"Das Herz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz</Case><Case(2)>im Herz</Case><Case(3)>der Zugang zum Herz</Case></Switch>",0,0,0
+1892,"Das Herz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen</Case><Case(2)>im Herzen</Case><Case(3)>der Zugang zum Herzen</Case></Switch>",0,0,0
 1893,"Privathütte (Shirogane)",0,"",0,0,1,0,0,"",0,0,0
 1894,"Privathaus (Shirogane)",0,"",0,0,1,0,0,"",0,0,0
 1895,"Privatresidenz (Shirogane)",0,"",0,0,1,0,0,"",0,0,0
@@ -2468,7 +2468,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2440,"Herz des Wassers",0,"",0,0,1,0,0,"",0,0,0
 2441,"Herz der Erde",0,"",0,0,1,0,0,"",0,0,0
 2442,"Herz des Windes",0,"",0,0,1,0,0,"",0,0,0
-2443,"Herz des Drachen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz des Drachen</Case><Case(2)>im Herz des Drachen</Case><Case(3)>das Herz des Drachen</Case></Switch>",0,0,0
+2443,"Herz des Drachen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen des Drachen</Case><Case(2)>im Herzen des Drachen</Case><Case(3)>das Herzen des Drachen</Case></Switch>",0,0,0
 2444,"Sanfter Strom",0,"",0,0,1,0,0,"",0,0,0
 2445,"Reißender Strom",0,"",0,0,1,0,0,"",0,0,0
 2446,"Maul des Drachen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Maul des Drachen</Case><Case(2)>im Maul des Drachen</Case><Case(3)>das Maul des Drachen</Case></Switch>",0,0,0
@@ -2603,12 +2603,12 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2575,"Unterstadt von Sil'dih (Gewölbesuche)",0,"",0,0,1,0,0,"",0,0,0
 2576,"Der Rokkon (Gewölbesuche)",0,"",0,0,1,0,0,"",0,0,0
 2577,"Aloalo (Gewölbesuche)",0,"",0,0,1,0,0,"",0,0,0
-2578,"",0,"",0,0,0,0,0,"",0,0,0
-2579,"",0,"",0,0,0,0,0,"",0,0,0
-2580,"",0,"",0,0,0,0,0,"",0,0,0
-2581,"",0,"",0,0,0,0,0,"",0,0,0
-2582,"",0,"",0,0,0,0,0,"",0,0,0
-2583,"",0,"",0,0,0,0,0,"",0,0,0
+2578,"Nördlicher Allagischer Marktplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum nördlichen Allagischen Marktplatz</Case><Case(2)>auf dem nördlichen Allagischen Marktplatz</Case><Case(3)>der nördliche Allagische Marktplatz</Case></Switch>",0,0,0
+2579,"Südlicher Allagischer Marktplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum südlichen Allagischen Marktplatz</Case><Case(2)>auf dem südlichen Allagischen Marktplatz</Case><Case(3)>der südliche Allagische Marktplatz</Case></Switch>",0,0,0
+2580,"Östlicher Allagischer Sonnentempel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum östlichen Allagischen Sonnentempel</Case><Case(2)>am östlichen Allagischen Sonnentempel</Case><Case(3)>der östliche Allagische Sonnentempel</Case></Switch>",0,0,0
+2581,"Westlicher Allagischer Sonnentempel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum westlichen Allagischen Sonnentempel</Case><Case(2)>am westlichen Allagischen Sonnentempel</Case><Case(3)>der westliche Allagische Sonnentempel</Case></Switch>",0,0,0
+2582,"Südlicher Allagischer Wohnbezirk",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum südlichen Allagischen Wohnbezirk</Case><Case(2)>am südlichen Allagischen Wohnbezirk</Case><Case(3)>der südliche Allagische Wohnbezirk</Case></Switch>",0,0,0
+2583,"Nördlicher Allagischer Wohnbezirk",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum nördlichen Allagischen Wohnbezirk</Case><Case(2)>am nördlichen Allagischen Wohnbezirk</Case><Case(3)>der nördliche Allagische Wohnbezirk</Case></Switch>",0,0,0
 2584,"",0,"",0,0,0,0,0,"",0,0,0
 2585,"",0,"",0,0,0,0,0,"",0,0,0
 2586,"Ghimlyt-Finsternis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Ghimlyt-Finsternis</Case><Case(2)>in der Ghimlyt-Finsternis</Case><Case(3)>Ghimlyt-Finsternis</Case></Switch>",0,0,0
@@ -4022,7 +4022,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 3994,"Wirbelstrom",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wirbelstrom</Case><Case(2)>am Wirbelstrom</Case><Case(3)>der Wirbelstrom</Case></Switch>",0,0,0
 3995,"Auge der Linse",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Auge der Linse</Case><Case(2)>am Auge der Linse</Case><Case(3)>das Auge der Linse</Case></Switch>",0,0,0
 3996,"Der Abyss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Abyss</Case><Case(2)>im Abyss</Case><Case(3)>der Abyss</Case></Switch>",0,0,0
-3997,"Das Herz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz</Case><Case(2)>im Herz</Case><Case(3)>das Herz</Case></Switch>",0,0,0
+3997,"Das Herz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen</Case><Case(2)>im Herzen</Case><Case(3)>das Herz</Case></Switch>",0,0,0
 3998,"Magieakademie von Sharlayan",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Magieakademie von Sharlayan</Case><Case(2)>an der Magieakademie von Sharlayan</Case><Case(3)>die Magieakademie von Sharlayan</Case></Switch>",0,0,0
 3999,"An Baldesions Annex",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Baldesions Annex</Case><Case(2)>an Baldesions Annex</Case><Case(3)>Baldesions Annex</Case></Switch>",0,0,0
 4000,"Forum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in das Forum</Case><Case(2)>im Forum</Case><Case(3)>das Forum</Case></Switch>",0,0,0
@@ -4116,7 +4116,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4088,"Vergnügungssektor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Vergnügungssektor</Case><Case(2)>im Vergnügungssektor</Case><Case(3)>der Vergnügungssektor</Case></Switch>",0,0,0
 4089,"Waldsektor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Waldsektor</Case><Case(2)>im Waldsektor</Case><Case(3)>der Waldsektor</Case></Switch>",0,0,0
 4090,"Die Palästra",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Palästra</Case><Case(2)>in der Palästra</Case><Case(3)>die Palästra</Case></Switch>",0,0,0
-4091,"Das Herz des Vulkans",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz des Vulkans</Case><Case(2)>im Herz des Vulkans</Case><Case(3)>das Herz des Vulkans</Case></Switch>",0,0,0
+4091,"Das Herz des Vulkans",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen des Vulkans</Case><Case(2)>im Herzen des Vulkans</Case><Case(3)>das Herz des Vulkans</Case></Switch>",0,0,0
 4092,"Wolke Sieben",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Wolke Sieben</Case><Case(2)>auf Wolke Sieben</Case><Case(3)>Wolke Sieben</Case></Switch>",0,0,0
 4093,"Die Mechanische Menagerie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mechanischen Menagerie</Case><Case(2)>in der Mechanischen Menagerie</Case><Case(3)>die Mechanische Menagerie</Case></Switch>",0,0,0
 4094,"Die Roten Sande",0,"",0,0,1,0,0,"",0,0,0
@@ -4635,7 +4635,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4607,"Zollamt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zollamt</Case><Case(2)>im Zollamt</Case><Case(3)>das Zollamt</Case></Switch>",0,2132,0
 4608,"Horizont von Ut'ohmu",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Horizont von Ut'ohmu</Case><Case(2)>im Horizont von Ut'ohmu</Case><Case(3)>der Horizont von Ut'ohmu</Case></Switch>",0,2200,0
 4609,"Aschenfront von Xobr'it",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Aschenfront von Xobr'it</Case><Case(2)>auf der Aschenfront von Xobr'it</Case><Case(3)>die Aschenfront von Xobr'it</Case></Switch>",0,2201,0
-4610,"Herz von Ja Tiika",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herz von Ja Tiika</Case><Case(2)>im Herz von Ja Tiika</Case><Case(3)>das Herz von Ja Tiika</Case></Switch>",0,2202,0
+4610,"Herz von Ja Tiika",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Herzen von Ja Tiika</Case><Case(2)>im Herzen von Ja Tiika</Case><Case(3)>das Herz von Ja Tiika</Case></Switch>",0,2202,0
 4611,"Schwarzblauer Cexudross",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Schwarzblauen Cexudross</Case><Case(2)>im Schwarzblauen Cexudross</Case><Case(3)>der Schwarzblaue Cexudross</Case></Switch>",0,2203,0
 4612,"Ballonplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ballonplatz</Case><Case(2)>am Ballonplatz</Case><Case(3)>der Ballonplatz</Case></Switch>",0,2204,0
 4613,"Yak Awak Tsoly",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Yak Awak Tsoly</Case><Case(2)>an Yak Awak Tsoly</Case><Case(3)>Yak Awak Tsoly</Case></Switch>",0,2205,0
@@ -4781,12 +4781,12 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4753,"Spitze der Mu",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Spitze der Mu</Case><Case(2)>auf der Spitze der Mu</Case><Case(3)>die Spitze der Mu</Case></Switch>",0,0,0
 4754,"Sternenlicht-Stände",0,"",0,0,1,0,0,"",0,0,0
 4755,"Audienzsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Audienzsaal</Case><Case(2)>im Audienzsaal</Case><Case(3)>der Audienzsaal</Case></Switch>",0,0,0
-4756,"",0,"",0,0,1,0,0,"",0,0,0
-4757,"",0,"",0,0,1,0,0,"",0,0,0
-4758,"",0,"",0,0,1,0,0,"",0,0,0
-4759,"",0,"",0,0,1,0,0,"",0,0,0
-4760,"",0,"",0,0,1,0,0,"",0,0,0
-4761,"",0,"",0,0,1,0,0,"",0,0,0
+4756,"",0,"",0,0,0,0,0,"",0,0,0
+4757,"",0,"",0,0,0,0,0,"",0,0,0
+4758,"",0,"",0,0,0,0,0,"",0,0,0
+4759,"Ruheraum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ruheraum</Case><Case(2)>im Ruheraum</Case><Case(3)>der Ruheraum</Case></Switch>",0,0,0
+4760,"Audienzhalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Audienzhalle</Case><Case(2)>in der Audienzhalle</Case><Case(3)>die Audienzhalle</Case></Switch>",0,0,0
+4761,"",0,"",0,0,0,0,0,"",0,0,0
 4762,"",0,"",0,0,1,0,0,"",0,0,0
 4763,"",0,"",0,0,1,0,0,"",0,0,0
 4764,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4952,27 +4952,27 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4924,"Sagenhafter Speicher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sagenhaften Speicher</Case><Case(2)>am Sagenhafter Speicher</Case><Case(3)>der Sagenhafte Speicher</Case></Switch>",0,0,0
 4925,"Altar der Schlängelnden Urne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Altar der Schlängelnden Urne</Case><Case(2)>am Altar der Schlängelnden Urne</Case><Case(3)>der Altar der Schlängelnden Urne</Case></Switch>",0,0,0
 4926,"Kaktorsenke",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kaktorsenke</Case><Case(2)>in der Kaktorsenke</Case><Case(3)>die Kaktorsenke</Case></Switch>",0,0,0
-4927,"",0,"",0,0,1,0,0,"",0,0,0
-4928,"",0,"",0,0,1,0,0,"",0,0,0
-4929,"",0,"",0,0,1,0,0,"",0,0,0
-4930,"",0,"",0,0,1,0,0,"",0,0,0
-4931,"",0,"",0,0,1,0,0,"",0,0,0
-4932,"",0,"",0,0,1,0,0,"",0,0,0
-4933,"",0,"",0,0,1,0,0,"",0,0,0
-4934,"",0,"",0,0,1,0,0,"",0,0,0
-4935,"",0,"",0,0,1,0,0,"",0,0,0
-4936,"",0,"",0,0,1,0,0,"",0,0,0
-4937,"",0,"",0,0,1,0,0,"",0,0,0
-4938,"",0,"",0,0,1,0,0,"",0,0,0
-4939,"",0,"",0,0,1,0,0,"",0,0,0
-4940,"",0,"",0,0,1,0,0,"",0,0,0
-4941,"",0,"",0,0,1,0,0,"",0,0,0
-4942,"",0,"",0,0,1,0,0,"",0,0,0
-4943,"",0,"",0,0,1,0,0,"",0,0,0
-4944,"",0,"",0,0,1,0,0,"",0,0,0
-4945,"",0,"",0,0,1,0,0,"",0,0,0
-4946,"",0,"",0,0,1,0,0,"",0,0,0
-4947,"",0,"",0,0,1,0,0,"",0,0,0
+4927,"",0,"",0,0,0,0,0,"",0,0,0
+4928,"",0,"",0,0,0,0,0,"",0,0,0
+4929,"",0,"",0,0,0,0,0,"",0,0,0
+4930,"",0,"",0,0,0,0,0,"",0,0,0
+4931,"",0,"",0,0,0,0,0,"",0,0,0
+4932,"",0,"",0,0,0,0,0,"",0,0,0
+4933,"",0,"",0,0,0,0,0,"",0,0,0
+4934,"",0,"",0,0,0,0,0,"",0,0,0
+4935,"",0,"",0,0,0,0,0,"",0,0,0
+4936,"",0,"",0,0,0,0,0,"",0,0,0
+4937,"",0,"",0,0,0,0,0,"",0,0,0
+4938,"",0,"",0,0,0,0,0,"",0,0,0
+4939,"",0,"",0,0,0,0,0,"",0,0,0
+4940,"",0,"",0,0,0,0,0,"",0,0,0
+4941,"",0,"",0,0,0,0,0,"",0,0,0
+4942,"",0,"",0,0,0,0,0,"",0,0,0
+4943,"",0,"",0,0,0,0,0,"",0,0,0
+4944,"",0,"",0,0,0,0,0,"",0,0,0
+4945,"",0,"",0,0,0,0,0,"",0,0,0
+4946,"",0,"",0,0,0,0,0,"",0,0,0
+4947,"",0,"",0,0,0,0,0,"",0,0,0
 4948,"",0,"",0,0,1,0,0,"",0,0,0
 4949,"",0,"",0,0,1,0,0,"",0,0,0
 4950,"",0,"",0,0,1,0,0,"",0,0,0
@@ -5178,32 +5178,32 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5150,"Kampfplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kampfplatz</Case><Case(2)>auf dem Kampfplatz</Case><Case(3)>der Kampfplatz</Case></Switch>",0,0,0
 5151,"Drachen-Nest",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Drachen-Nest</Case><Case(2)>im Drachen-Nest</Case><Case(3)>das Drachen-Nest</Case></Switch>",0,0,0
 5152,"La'Loff-Amphitheater",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum La'Loff-Amphitheater</Case><Case(2)>im La'Loff-Amphitheater</Case><Case(3)>das La'Loff-Amphitheater</Case></Switch>",0,0,0
-5153,"",0,"",0,0,0,0,0,"",0,0,0
+5153,"Audienzhalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Audienzhalle</Case><Case(2)>in der Audienzhalle</Case><Case(3)>die Audienzhalle</Case></Switch>",0,0,0
 5154,"Yuweyawata",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Yuweyawata</Case><Case(2)>in Yuweyawata</Case><Case(3)>Yuweyawata</Case></Switch>",0,0,0
-5155,"",0,"",0,0,0,0,0,"",0,0,0
-5156,"",0,"",0,0,0,0,0,"",0,0,0
-5157,"",0,"",0,0,0,0,0,"",0,0,0
-5158,"",0,"",0,0,0,0,0,"",0,0,0
-5159,"",0,"",0,0,0,0,0,"",0,0,0
-5160,"",0,"",0,0,0,0,0,"",0,0,0
-5161,"",0,"",0,0,0,0,0,"",0,0,0
-5162,"",0,"",0,0,0,0,0,"",0,0,0
-5163,"",0,"",0,0,0,0,0,"",0,0,0
-5164,"",0,"",0,0,0,0,0,"",0,0,0
-5165,"",0,"",0,0,0,0,0,"",0,0,0
-5166,"",0,"",0,0,0,0,0,"",0,0,0
-5167,"",0,"",0,0,0,0,0,"",0,0,0
-5168,"",0,"",0,0,0,0,0,"",0,0,0
-5169,"",0,"",0,0,0,0,0,"",0,0,0
-5170,"",0,"",0,0,0,0,0,"",0,0,0
-5171,"",0,"",0,0,0,0,0,"",0,0,0
-5172,"",0,"",0,0,0,0,0,"",0,0,0
-5173,"",0,"",0,0,0,0,0,"",0,0,0
-5174,"",0,"",0,0,0,0,0,"",0,0,0
-5175,"",0,"",0,0,0,0,0,"",0,0,0
-5176,"",0,"",0,0,0,0,0,"",0,0,0
-5177,"",0,"",0,0,0,0,0,"",0,0,0
-5178,"",0,"",0,0,0,0,0,"",0,0,0
+5155,"Neubaugebiet der achten Ebene",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Neubaugebiet der achten Ebene</Case><Case(2)>im Neubaugebiet der achten Ebene</Case><Case(3)>das Neubaugebiet der achten Ebene</Case></Switch>",0,0,0
+5156,"Unterfried",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Unterfried</Case><Case(2)>im Unterfried</Case><Case(3)>der Unterfried</Case></Switch>",0,0,0
+5157,"Sockel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sockel</Case><Case(2)>im Sockel</Case><Case(3)>der Sockel</Case></Switch>",0,0,0
+5158,"Außenbereich der Burg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Außenbereich der Burg</Case><Case(2)>im Außenbereich der Burg</Case><Case(3)>der Außenbereich der Burg</Case></Switch>",0,0,0
+5159,"Erster Innenbereich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum ersten Innenbereich</Case><Case(2)>im ersten Innenbereich</Case><Case(3)>der erste Innenbereich</Case></Switch>",0,0,0
+5160,"Zweiter Innenbereich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum zweiten Innenbereich</Case><Case(2)>im zweiten Innenbereich</Case><Case(3)>der zweite Innenbereich</Case></Switch>",0,0,0
+5161,"Dritter Innenbereich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum dritten Innenbereich</Case><Case(2)>im dritten Innenbereich</Case><Case(3)>der dritte Innenbereich</Case></Switch>",0,0,0
+5162,"Umgebung des Sockels",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Umgebung des Sockels</Case><Case(2)>in der Umgebung des Sockels</Case><Case(3)>die Umgebung des Sockels</Case></Switch>",0,0,0
+5163,"Wartungsgang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wartungsgang</Case><Case(2)>auf dem Wartungsgang</Case><Case(3)>der Wartungsgang</Case></Switch>",0,0,0
+5164,"Kiesgrube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kiesgrube</Case><Case(2)>in der Kiesgrube</Case><Case(3)>die Kiesgrube</Case></Switch>",0,0,0
+5165,"Flüchtlingssiedlung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Flüchtlingssiedlung</Case><Case(2)>in der Flüchtlingssiedlung</Case><Case(3)>die Flüchtlingssiedlung</Case></Switch>",0,0,0
+5166,"Förderbandrutsche",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Förderbandrutsche</Case><Case(2)>auf der Förderbandrutsche</Case><Case(3)>die Förderbandrutsche</Case></Switch>",0,0,0
+5167,"Haupttor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Haupttor</Case><Case(2)>am Haupttor</Case><Case(3)>das Haupttor</Case></Switch>",0,0,0
+5168,"Hauptsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hauptsaal</Case><Case(2)>im Hauptsaal</Case><Case(3)>der Hauptsaal</Case></Switch>",0,0,0
+5169,"Verbindungsfahrstuhl",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Verbindungsfahrstuhl</Case><Case(2)>im Verbindungsfahrstuhl</Case><Case(3)>der Verbindungsfahrstuhl</Case></Switch>",0,0,0
+5170,"Ablaufschacht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ablaufschacht</Case><Case(2)>im Ablaufschacht</Case><Case(3)>der Ablaufschacht</Case></Switch>",0,0,0
+5171,"Wartungsschacht",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wartungsschacht</Case><Case(2)>im Wartungsschacht</Case><Case(3)>der Wartungsschacht</Case></Switch>",0,0,0
+5172,"Wareneingang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wareneingang</Case><Case(2)>am Wareneingang</Case><Case(3)>der Wareneingang</Case></Switch>",0,0,0
+5173,"Empfangszimmer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Empfangszimmer</Case><Case(2)>im Empfangszimmer</Case><Case(3)>das Empfangszimmer</Case></Switch>",0,0,0
+5174,"Vorzimmer zur Audienzhalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Vorzimmer zur Audienzhalle</Case><Case(2)>im Vorzimmer zur Audienzhalle</Case><Case(3)>das Vorzimmer zur Audienzhalle</Case></Switch>",0,0,0
+5175,"Kunstring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kunstring</Case><Case(2)>im Kunstring</Case><Case(3)>der Kunstring</Case></Switch>",0,0,0
+5176,"Tanzring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tanzring</Case><Case(2)>im Tanzring</Case><Case(3)>der Tanzring</Case></Switch>",0,0,0
+5177,"Wolfsring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wolfsring</Case><Case(2)>im Wolfsring</Case><Case(3)>der Wolfsring</Case></Switch>",0,0,0
+5178,"Jagdring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Jagdring</Case><Case(2)>im Jagdring</Case><Case(3)>der Jagdring</Case></Switch>",0,0,0
 5179,"",0,"",0,0,0,0,0,"",0,0,0
 5180,"",0,"",0,0,0,0,0,"",0,0,0
 5181,"",0,"",0,0,0,0,0,"",0,0,0
@@ -5226,3 +5226,303 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5198,"",0,"",0,0,0,0,0,"",0,0,0
 5199,"",0,"",0,0,0,0,0,"",0,0,0
 5200,"",0,"",0,0,0,0,0,"",0,0,0
+5201,"",0,"",0,0,0,0,0,"",0,0,0
+5202,"",0,"",0,0,0,0,0,"",0,0,0
+5203,"",0,"",0,0,0,0,0,"",0,0,0
+5204,"",0,"",0,0,0,0,0,"",0,0,0
+5205,"",0,"",0,0,0,0,0,"",0,0,0
+5206,"",0,"",0,0,0,0,0,"",0,0,0
+5207,"",0,"",0,0,0,0,0,"",0,0,0
+5208,"",0,"",0,0,0,0,0,"",0,0,0
+5209,"",0,"",0,0,0,0,0,"",0,0,0
+5210,"",0,"",0,0,0,0,0,"",0,0,0
+5211,"",0,"",0,0,0,0,0,"",0,0,0
+5212,"",0,"",0,0,0,0,0,"",0,0,0
+5213,"",0,"",0,0,0,0,0,"",0,0,0
+5214,"",0,"",0,0,0,0,0,"",0,0,0
+5215,"Wohnradius 8-71",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wohnradius 8-71</Case><Case(2)>im Wohnradius 8-71</Case><Case(3)>der Wohnradius 8-71</Case></Switch>",0,0,0
+5216,"Wohnradius 8-72",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wohnradius 8-72</Case><Case(2)>im Wohnradius 8-72</Case><Case(3)>der Wohnradius 8-72</Case></Switch>",0,0,0
+5217,"Innerer Wohnradius 8-72",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum inneren Wohnradius 8-72</Case><Case(2)>im inneren Wohnradius 8-72</Case><Case(3)>der innere Wohnradius 8-72</Case></Switch>",0,0,0
+5218,"",0,"",0,0,0,0,0,"",0,0,0
+5219,"",0,"",0,0,0,0,0,"",0,0,0
+5220,"",0,"",0,0,0,0,0,"",0,0,0
+5221,"",0,"",0,0,0,0,0,"",0,0,0
+5222,"",0,"",0,0,0,0,0,"",0,0,0
+5223,"",0,"",0,0,0,0,0,"",0,0,0
+5224,"",0,"",0,0,0,0,0,"",0,0,0
+5225,"",0,"",0,0,0,0,0,"",0,0,0
+5226,"",0,"",0,0,0,0,0,"",0,0,0
+5227,"",0,"",0,0,0,0,0,"",0,0,0
+5228,"",0,"",0,0,0,0,0,"",0,0,0
+5229,"",0,"",0,0,0,0,0,"",0,0,0
+5230,"",0,"",0,0,0,0,0,"",0,0,0
+5231,"",0,"",0,0,0,0,0,"",0,0,0
+5232,"",0,"",0,0,0,0,0,"",0,0,0
+5233,"",0,"",0,0,0,0,0,"",0,0,0
+5234,"",0,"",0,0,0,0,0,"",0,0,0
+5235,"",0,"",0,0,0,0,0,"",0,0,0
+5236,"",0,"",0,0,0,0,0,"",0,0,0
+5237,"",0,"",0,0,0,0,0,"",0,0,0
+5238,"",0,"",0,0,0,0,0,"",0,0,0
+5239,"",0,"",0,0,0,0,0,"",0,0,0
+5240,"",0,"",0,0,0,0,0,"",0,0,0
+5241,"",0,"",0,0,0,0,0,"",0,0,0
+5242,"",0,"",0,0,0,0,0,"",0,0,0
+5243,"",0,"",0,0,0,0,0,"",0,0,0
+5244,"",0,"",0,0,0,0,0,"",0,0,0
+5245,"",0,"",0,0,0,0,0,"",0,0,0
+5246,"",0,"",0,0,0,0,0,"",0,0,0
+5247,"",0,"",0,0,0,0,0,"",0,0,0
+5248,"",0,"",0,0,0,0,0,"",0,0,0
+5249,"",0,"",0,0,0,0,0,"",0,0,0
+5250,"",0,"",0,0,0,0,0,"",0,0,0
+5251,"",0,"",0,0,0,0,0,"",0,0,0
+5252,"",0,"",0,0,0,0,0,"",0,0,0
+5253,"",0,"",0,0,0,0,0,"",0,0,0
+5254,"",0,"",0,0,0,0,0,"",0,0,0
+5255,"",0,"",0,0,0,0,0,"",0,0,0
+5256,"",0,"",0,0,0,0,0,"",0,0,0
+5257,"",0,"",0,0,0,0,0,"",0,0,0
+5258,"",0,"",0,0,0,0,0,"",0,0,0
+5259,"",0,"",0,0,0,0,0,"",0,0,0
+5260,"",0,"",0,0,0,0,0,"",0,0,0
+5261,"",0,"",0,0,0,0,0,"",0,0,0
+5262,"",0,"",0,0,0,0,0,"",0,0,0
+5263,"",0,"",0,0,0,0,0,"",0,0,0
+5264,"",0,"",0,0,0,0,0,"",0,0,0
+5265,"",0,"",0,0,0,0,0,"",0,0,0
+5266,"",0,"",0,0,0,0,0,"",0,0,0
+5267,"",0,"",0,0,0,0,0,"",0,0,0
+5268,"",0,"",0,0,0,0,0,"",0,0,0
+5269,"",0,"",0,0,0,0,0,"",0,0,0
+5270,"",0,"",0,0,0,0,0,"",0,0,0
+5271,"",0,"",0,0,0,0,0,"",0,0,0
+5272,"",0,"",0,0,0,0,0,"",0,0,0
+5273,"",0,"",0,0,0,0,0,"",0,0,0
+5274,"",0,"",0,0,0,0,0,"",0,0,0
+5275,"",0,"",0,0,0,0,0,"",0,0,0
+5276,"",0,"",0,0,0,0,0,"",0,0,0
+5277,"",0,"",0,0,0,0,0,"",0,0,0
+5278,"",0,"",0,0,0,0,0,"",0,0,0
+5279,"",0,"",0,0,0,0,0,"",0,0,0
+5280,"",0,"",0,0,0,0,0,"",0,0,0
+5281,"",0,"",0,0,0,0,0,"",0,0,0
+5282,"",0,"",0,0,0,0,0,"",0,0,0
+5283,"",0,"",0,0,0,0,0,"",0,0,0
+5284,"",0,"",0,0,0,0,0,"",0,0,0
+5285,"",0,"",0,0,0,0,0,"",0,0,0
+5286,"",0,"",0,0,0,0,0,"",0,0,0
+5287,"",0,"",0,0,0,0,0,"",0,0,0
+5288,"",0,"",0,0,0,0,0,"",0,0,0
+5289,"",0,"",0,0,0,0,0,"",0,0,0
+5290,"",0,"",0,0,0,0,0,"",0,0,0
+5291,"",0,"",0,0,0,0,0,"",0,0,0
+5292,"",0,"",0,0,0,0,0,"",0,0,0
+5293,"",0,"",0,0,0,0,0,"",0,0,0
+5294,"",0,"",0,0,0,0,0,"",0,0,0
+5295,"",0,"",0,0,0,0,0,"",0,0,0
+5296,"",0,"",0,0,0,0,0,"",0,0,0
+5297,"",0,"",0,0,0,0,0,"",0,0,0
+5298,"",0,"",0,0,0,0,0,"",0,0,0
+5299,"",0,"",0,0,0,0,0,"",0,0,0
+5300,"",0,"",0,0,0,0,0,"",0,0,0
+5301,"",0,"",0,0,0,0,0,"",0,0,0
+5302,"",0,"",0,0,0,0,0,"",0,0,0
+5303,"",0,"",0,0,0,0,0,"",0,0,0
+5304,"",0,"",0,0,0,0,0,"",0,0,0
+5305,"",0,"",0,0,0,0,0,"",0,0,0
+5306,"",0,"",0,0,0,0,0,"",0,0,0
+5307,"",0,"",0,0,0,0,0,"",0,0,0
+5308,"",0,"",0,0,0,0,0,"",0,0,0
+5309,"",0,"",0,0,0,0,0,"",0,0,0
+5310,"",0,"",0,0,0,0,0,"",0,0,0
+5311,"",0,"",0,0,0,0,0,"",0,0,0
+5312,"",0,"",0,0,0,0,0,"",0,0,0
+5313,"",0,"",0,0,0,0,0,"",0,0,0
+5314,"",0,"",0,0,0,0,0,"",0,0,0
+5315,"",0,"",0,0,0,0,0,"",0,0,0
+5316,"",0,"",0,0,0,0,0,"",0,0,0
+5317,"",0,"",0,0,0,0,0,"",0,0,0
+5318,"",0,"",0,0,0,0,0,"",0,0,0
+5319,"",0,"",0,0,0,0,0,"",0,0,0
+5320,"",0,"",0,0,0,0,0,"",0,0,0
+5321,"",0,"",0,0,0,0,0,"",0,0,0
+5322,"",0,"",0,0,0,0,0,"",0,0,0
+5323,"",0,"",0,0,0,0,0,"",0,0,0
+5324,"",0,"",0,0,0,0,0,"",0,0,0
+5325,"",0,"",0,0,0,0,0,"",0,0,0
+5326,"",0,"",0,0,0,0,0,"",0,0,0
+5327,"",0,"",0,0,0,0,0,"",0,0,0
+5328,"",0,"",0,0,0,0,0,"",0,0,0
+5329,"",0,"",0,0,0,0,0,"",0,0,0
+5330,"",0,"",0,0,0,0,0,"",0,0,0
+5331,"",0,"",0,0,0,0,0,"",0,0,0
+5332,"",0,"",0,0,0,0,0,"",0,0,0
+5333,"",0,"",0,0,0,0,0,"",0,0,0
+5334,"",0,"",0,0,0,0,0,"",0,0,0
+5335,"",0,"",0,0,0,0,0,"",0,0,0
+5336,"",0,"",0,0,0,0,0,"",0,0,0
+5337,"",0,"",0,0,0,0,0,"",0,0,0
+5338,"",0,"",0,0,0,0,0,"",0,0,0
+5339,"",0,"",0,0,0,0,0,"",0,0,0
+5340,"",0,"",0,0,0,0,0,"",0,0,0
+5341,"",0,"",0,0,0,0,0,"",0,0,0
+5342,"",0,"",0,0,0,0,0,"",0,0,0
+5343,"",0,"",0,0,0,0,0,"",0,0,0
+5344,"",0,"",0,0,0,0,0,"",0,0,0
+5345,"",0,"",0,0,0,0,0,"",0,0,0
+5346,"",0,"",0,0,0,0,0,"",0,0,0
+5347,"",0,"",0,0,0,0,0,"",0,0,0
+5348,"",0,"",0,0,0,0,0,"",0,0,0
+5349,"",0,"",0,0,0,0,0,"",0,0,0
+5350,"",0,"",0,0,0,0,0,"",0,0,0
+5351,"",0,"",0,0,0,0,0,"",0,0,0
+5352,"",0,"",0,0,0,0,0,"",0,0,0
+5353,"",0,"",0,0,0,0,0,"",0,0,0
+5354,"",0,"",0,0,0,0,0,"",0,0,0
+5355,"",0,"",0,0,0,0,0,"",0,0,0
+5356,"",0,"",0,0,0,0,0,"",0,0,0
+5357,"",0,"",0,0,0,0,0,"",0,0,0
+5358,"",0,"",0,0,0,0,0,"",0,0,0
+5359,"",0,"",0,0,0,0,0,"",0,0,0
+5360,"",0,"",0,0,0,0,0,"",0,0,0
+5361,"",0,"",0,0,0,0,0,"",0,0,0
+5362,"",0,"",0,0,0,0,0,"",0,0,0
+5363,"",0,"",0,0,0,0,0,"",0,0,0
+5364,"",0,"",0,0,0,0,0,"",0,0,0
+5365,"",0,"",0,0,0,0,0,"",0,0,0
+5366,"",0,"",0,0,0,0,0,"",0,0,0
+5367,"",0,"",0,0,0,0,0,"",0,0,0
+5368,"",0,"",0,0,0,0,0,"",0,0,0
+5369,"",0,"",0,0,0,0,0,"",0,0,0
+5370,"",0,"",0,0,0,0,0,"",0,0,0
+5371,"",0,"",0,0,0,0,0,"",0,0,0
+5372,"",0,"",0,0,0,0,0,"",0,0,0
+5373,"",0,"",0,0,0,0,0,"",0,0,0
+5374,"",0,"",0,0,0,0,0,"",0,0,0
+5375,"",0,"",0,0,0,0,0,"",0,0,0
+5376,"",0,"",0,0,0,0,0,"",0,0,0
+5377,"",0,"",0,0,0,0,0,"",0,0,0
+5378,"",0,"",0,0,0,0,0,"",0,0,0
+5379,"",0,"",0,0,0,0,0,"",0,0,0
+5380,"",0,"",0,0,0,0,0,"",0,0,0
+5381,"",0,"",0,0,0,0,0,"",0,0,0
+5382,"",0,"",0,0,0,0,0,"",0,0,0
+5383,"",0,"",0,0,0,0,0,"",0,0,0
+5384,"",0,"",0,0,0,0,0,"",0,0,0
+5385,"",0,"",0,0,0,0,0,"",0,0,0
+5386,"",0,"",0,0,0,0,0,"",0,0,0
+5387,"",0,"",0,0,0,0,0,"",0,0,0
+5388,"",0,"",0,0,0,0,0,"",0,0,0
+5389,"",0,"",0,0,0,0,0,"",0,0,0
+5390,"",0,"",0,0,0,0,0,"",0,0,0
+5391,"",0,"",0,0,0,0,0,"",0,0,0
+5392,"",0,"",0,0,0,0,0,"",0,0,0
+5393,"",0,"",0,0,0,0,0,"",0,0,0
+5394,"",0,"",0,0,0,0,0,"",0,0,0
+5395,"",0,"",0,0,0,0,0,"",0,0,0
+5396,"",0,"",0,0,0,0,0,"",0,0,0
+5397,"",0,"",0,0,0,0,0,"",0,0,0
+5398,"",0,"",0,0,0,0,0,"",0,0,0
+5399,"",0,"",0,0,0,0,0,"",0,0,0
+5400,"",0,"",0,0,0,0,0,"",0,0,0
+5401,"",0,"",0,0,0,0,0,"",0,0,0
+5402,"",0,"",0,0,0,0,0,"",0,0,0
+5403,"",0,"",0,0,0,0,0,"",0,0,0
+5404,"",0,"",0,0,0,0,0,"",0,0,0
+5405,"",0,"",0,0,0,0,0,"",0,0,0
+5406,"",0,"",0,0,0,0,0,"",0,0,0
+5407,"",0,"",0,0,0,0,0,"",0,0,0
+5408,"",0,"",0,0,0,0,0,"",0,0,0
+5409,"",0,"",0,0,0,0,0,"",0,0,0
+5410,"",0,"",0,0,0,0,0,"",0,0,0
+5411,"",0,"",0,0,0,0,0,"",0,0,0
+5412,"",0,"",0,0,0,0,0,"",0,0,0
+5413,"",0,"",0,0,0,0,0,"",0,0,0
+5414,"",0,"",0,0,0,0,0,"",0,0,0
+5415,"",0,"",0,0,0,0,0,"",0,0,0
+5416,"",0,"",0,0,0,0,0,"",0,0,0
+5417,"",0,"",0,0,0,0,0,"",0,0,0
+5418,"",0,"",0,0,0,0,0,"",0,0,0
+5419,"",0,"",0,0,0,0,0,"",0,0,0
+5420,"",0,"",0,0,0,0,0,"",0,0,0
+5421,"",0,"",0,0,0,0,0,"",0,0,0
+5422,"",0,"",0,0,0,0,0,"",0,0,0
+5423,"",0,"",0,0,0,0,0,"",0,0,0
+5424,"",0,"",0,0,0,0,0,"",0,0,0
+5425,"",0,"",0,0,0,0,0,"",0,0,0
+5426,"",0,"",0,0,0,0,0,"",0,0,0
+5427,"",0,"",0,0,0,0,0,"",0,0,0
+5428,"",0,"",0,0,0,0,0,"",0,0,0
+5429,"",0,"",0,0,0,0,0,"",0,0,0
+5430,"",0,"",0,0,0,0,0,"",0,0,0
+5431,"",0,"",0,0,0,0,0,"",0,0,0
+5432,"",0,"",0,0,0,0,0,"",0,0,0
+5433,"",0,"",0,0,0,0,0,"",0,0,0
+5434,"",0,"",0,0,0,0,0,"",0,0,0
+5435,"",0,"",0,0,0,0,0,"",0,0,0
+5436,"",0,"",0,0,0,0,0,"",0,0,0
+5437,"",0,"",0,0,0,0,0,"",0,0,0
+5438,"",0,"",0,0,0,0,0,"",0,0,0
+5439,"",0,"",0,0,0,0,0,"",0,0,0
+5440,"",0,"",0,0,0,0,0,"",0,0,0
+5441,"",0,"",0,0,0,0,0,"",0,0,0
+5442,"",0,"",0,0,0,0,0,"",0,0,0
+5443,"",0,"",0,0,0,0,0,"",0,0,0
+5444,"",0,"",0,0,0,0,0,"",0,0,0
+5445,"",0,"",0,0,0,0,0,"",0,0,0
+5446,"",0,"",0,0,0,0,0,"",0,0,0
+5447,"",0,"",0,0,0,0,0,"",0,0,0
+5448,"",0,"",0,0,0,0,0,"",0,0,0
+5449,"",0,"",0,0,0,0,0,"",0,0,0
+5450,"",0,"",0,0,0,0,0,"",0,0,0
+5451,"",0,"",0,0,0,0,0,"",0,0,0
+5452,"",0,"",0,0,0,0,0,"",0,0,0
+5453,"",0,"",0,0,0,0,0,"",0,0,0
+5454,"",0,"",0,0,0,0,0,"",0,0,0
+5455,"",0,"",0,0,0,0,0,"",0,0,0
+5456,"",0,"",0,0,0,0,0,"",0,0,0
+5457,"",0,"",0,0,0,0,0,"",0,0,0
+5458,"",0,"",0,0,0,0,0,"",0,0,0
+5459,"",0,"",0,0,0,0,0,"",0,0,0
+5460,"",0,"",0,0,0,0,0,"",0,0,0
+5461,"",0,"",0,0,0,0,0,"",0,0,0
+5462,"",0,"",0,0,0,0,0,"",0,0,0
+5463,"",0,"",0,0,0,0,0,"",0,0,0
+5464,"",0,"",0,0,0,0,0,"",0,0,0
+5465,"",0,"",0,0,0,0,0,"",0,0,0
+5466,"",0,"",0,0,0,0,0,"",0,0,0
+5467,"",0,"",0,0,0,0,0,"",0,0,0
+5468,"",0,"",0,0,0,0,0,"",0,0,0
+5469,"",0,"",0,0,0,0,0,"",0,0,0
+5470,"",0,"",0,0,0,0,0,"",0,0,0
+5471,"",0,"",0,0,0,0,0,"",0,0,0
+5472,"",0,"",0,0,0,0,0,"",0,0,0
+5473,"",0,"",0,0,0,0,0,"",0,0,0
+5474,"",0,"",0,0,0,0,0,"",0,0,0
+5475,"",0,"",0,0,0,0,0,"",0,0,0
+5476,"",0,"",0,0,0,0,0,"",0,0,0
+5477,"",0,"",0,0,0,0,0,"",0,0,0
+5478,"",0,"",0,0,0,0,0,"",0,0,0
+5479,"",0,"",0,0,0,0,0,"",0,0,0
+5480,"",0,"",0,0,0,0,0,"",0,0,0
+5481,"",0,"",0,0,0,0,0,"",0,0,0
+5482,"",0,"",0,0,0,0,0,"",0,0,0
+5483,"",0,"",0,0,0,0,0,"",0,0,0
+5484,"",0,"",0,0,0,0,0,"",0,0,0
+5485,"",0,"",0,0,0,0,0,"",0,0,0
+5486,"",0,"",0,0,0,0,0,"",0,0,0
+5487,"",0,"",0,0,0,0,0,"",0,0,0
+5488,"",0,"",0,0,0,0,0,"",0,0,0
+5489,"",0,"",0,0,0,0,0,"",0,0,0
+5490,"",0,"",0,0,0,0,0,"",0,0,0
+5491,"",0,"",0,0,0,0,0,"",0,0,0
+5492,"",0,"",0,0,0,0,0,"",0,0,0
+5493,"",0,"",0,0,0,0,0,"",0,0,0
+5494,"",0,"",0,0,0,0,0,"",0,0,0
+5495,"",0,"",0,0,0,0,0,"",0,0,0
+5496,"",0,"",0,0,0,0,0,"",0,0,0
+5497,"",0,"",0,0,0,0,0,"",0,0,0
+5498,"",0,"",0,0,0,0,0,"",0,0,0
+5499,"",0,"",0,0,0,0,0,"",0,0,0
+5500,"",0,"",0,0,0,0,0,"",0,0,0

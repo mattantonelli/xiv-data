@@ -103,5 +103,5 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,int32,int32,int32,GrandCom
 99,"barde des contrées sauvages",0,"bardes des contrées sauvages",0,0,1,1,0,"Barde des contrées sauvages",65630,65630,65630,"None","ui/icon/058000/058798.tex","ui/icon/058000/058800.tex","ui/icon/058000/058799.tex",83
 100,"barde éternelle",0,"bardes éternelles",0,0,1,1,0,"Barde éternelle",65631,65631,65631,"None","ui/icon/058000/058801.tex","ui/icon/058000/058803.tex","ui/icon/058000/058802.tex",163
 101,"barde à tonnelet",0,"bardes à tonnelet",0,0,1,1,0,"Barde à tonnelet",65632,65632,65632,"None","ui/icon/058000/058804.tex","ui/icon/058000/058806.tex","ui/icon/058000/058805.tex",108
-102,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0
+102,"barde chevaleresque",0,"bardes chevaleresques",0,0,1,1,0,"Barde chevaleresque",65633,65633,65633,"None","ui/icon/058000/058807.tex","ui/icon/058000/058809.tex","ui/icon/058000/058808.tex",164
 103,"",0,"",0,0,0,0,0,"",0,0,0,"None",,,,0

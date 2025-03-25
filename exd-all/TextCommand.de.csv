@@ -1126,7 +1126,7 @@ Wählt den zweiten Charakter in der Gruppenliste als Ziel aus.","/ziel","","head
 254,1,0,0,0,0,"/targetpc","/tpc","/zielpc, /targetpc, /tpc
 → Der nächste PC im Umkreis wird als Ziel ausgewählt.","/zielpc","","head",0
 255,1,0,0,0,0,"/targetnpc","/tnpc","/zielnpc, /targetnpc, /tnpc
-→ Der nächste NPC im Umkreis wird als Ziel ausgewählt.","/zielnpc","","head",0
+→ Der nächste NPC oder das nächste Objekt im Umkreis wird als Ziel ausgewählt.","/zielnpc","","head",0
 256,1,0,0,0,0,"/targetenemy","/tenemy","/zielgeg, /targetenemy, /tenemy
 → Der nächste Gegner im Umkreis wird als Ziel ausgewählt.","/zielgeg","","head",0
 257,1,0,0,0,0,"/battletarget","/bt","/zielfeind, /battletarget, /bt
@@ -1375,7 +1375,7 @@ VERWENDUNG:
 /hud [Element] [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 >>HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
 >>Unterbefehle:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element anzeigen
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element ausblenden
@@ -1933,12 +1933,12 @@ VERWENDUNG:
 → Du besänftigst jemanden.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/ruhig","","pdamage",0
-437,2,1,2,0,0,"/stagger","","/taumel, /stagger
+437,2,1,2,0,0,"/stagger","","/torkel, /stagger
 VERWENDUNG:
-/taumel [Unterbefehl]
-→ Du taumelst einen Augenblick.
+/torkel [Unterbefehl]
+→ Du torkelst einen Augenblick.
 >>Unterbefehl:
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/taumel","","pdamage",0
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/torkel","","pdamage",0
 438,2,1,2,0,0,"/stretch","","/streck, /stretch
 VERWENDUNG:
 /streck [Unterbefehl]
@@ -3256,3 +3256,27 @@ VERWENDUNG:
 → Du machst ein Foto.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/foto","","pdamage",0
+692,2,1,2,0,0,"/overreact","","/socken, /overreact
+VERWENDUNG:
+/socken [Unterbefehl]
+→ Du bist vollkommen von den Socken.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/socken","","pdamage",0
+694,2,1,2,0,0,"/dazed","","/taumeln, /dazed
+VERWENDUNG:
+/taumeln [Unterbefehl]
+→ Du taumelst benommen.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/taumeln","","pdamage",0
+696,2,1,2,0,0,"/tomescroll","","/steinstarren, /tomescroll
+VERWENDUNG:
+/steinstarren [Unterbefehl]
+→ Du hörst nicht auf, auf deinen Allagischen Stein zu starren.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/steinstarren","","pdamage",0
+697,2,1,2,0,0,"/study","","/schmökern, /study
+VERWENDUNG:
+/schmökern [Unterbefehl]
+→ Du hörst nicht auf, konzentriert zu lesen.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/schmökern","","pdamage",0

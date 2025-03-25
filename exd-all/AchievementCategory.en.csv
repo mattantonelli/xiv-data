@@ -82,3 +82,5 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 78,"Splendorous Tools","Items",True,False,52
 79,"Yok Tural","Exploration",True,False,14
 80,"Xak Tural","Exploration",True,False,15
+81,"","",False,False,0
+82,"","",False,False,0

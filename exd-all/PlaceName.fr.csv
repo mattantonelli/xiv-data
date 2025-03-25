@@ -2643,12 +2643,12 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 2577,"Île d'Aloalo
 [Donjons spéciaux]",0,"Île d'Aloalo
 [Donjons spéciaux]",0,0,1,0,0,"",0,0,0
-2578,"",0,"",0,0,0,0,0,"",0,0,0
-2579,"",0,"",0,0,0,0,0,"",0,0,0
-2580,"",0,"",0,0,0,0,0,"",0,0,0
-2581,"",0,"",0,0,0,0,0,"",0,0,0
-2582,"",0,"",0,0,0,0,0,"",0,0,0
-2583,"",0,"",0,0,0,0,0,"",0,0,0
+2578,"Marchés allagois nord",0,"Marchés allagois nord",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les marchés allagois nord</Case><Case(2)>aux marchés allagois nord</Case><Case(3)>des marchés allagois nord</Case></Switch>",0,0,0
+2579,"Marchés allagois sud",0,"Marchés allagois sud",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les marchés allagois sud</Case><Case(2)>aux marchés allagois sud</Case><Case(3)>des marchés allagois sud</Case></Switch>",0,0,0
+2580,"Temple allagois du Soleil est",0,"Temple allagois du Soleil est",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le temple allagois du Soleil est</Case><Case(2)>au temple allagois du Soleil est</Case><Case(3)>du temple allagois du Soleil est</Case></Switch>",0,0,0
+2581,"Temple allagois du Soleil ouest",0,"Temple allagois du Soleil ouest",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le temple allagois du Soleil ouest</Case><Case(2)>au temple allagois du Soleil ouest</Case><Case(3)>du temple allagois du Soleil ouest</Case></Switch>",0,0,0
+2582,"Habitations allagoises sud",0,"Habitations allagoises sud",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les habitations allagoises sud</Case><Case(2)>aux habitations allagoises sud</Case><Case(3)>des habitations allagoises sud</Case></Switch>",0,0,0
+2583,"Habitations allagoises nord",0,"Habitations allagoises nord",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les habitations allagoises nord</Case><Case(2)>aux habitations allagoises nord</Case><Case(3)>des habitations allagoises nord</Case></Switch>",0,0,0
 2584,"",0,"",0,0,0,0,0,"",0,0,0
 2585,"",0,"",0,0,0,0,0,"",0,0,0
 2586,"Les Ténèbres de Ghimlyt",0,"Les Ténèbres de Ghimlyt",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Ténèbres de Ghimlyt</Case><Case(2)>aux Ténèbres de Ghimlyt</Case><Case(3)>des Ténèbres de Ghimlyt</Case></Switch>",0,0,0
@@ -4823,12 +4823,12 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4753,"Tour du mu",0,"Tour du mu",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Tour du mu</Case><Case(2)>dans la Tour du mu</Case><Case(3)>de la Tour du mu</Case></Switch>",0,0,0
 4754,"Marché des étoiles",0,"Marché des étoiles",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le marché des étoiles</Case><Case(2)>au marché des étoiles</Case><Case(3)>du marché des étoiles</Case></Switch>",0,0,0
 4755,"Salle d'audition des Affranchis",0,"Salle d'audition des Affranchis",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle d'audition des Affranchis</Case><Case(2)>à la salle d'audition des Affranchis</Case><Case(3)>de la salle d'audition des Affranchis</Case></Switch>",0,0,0
-4756,"",0,"",0,0,1,0,0,"",0,0,0
-4757,"",0,"",0,0,1,0,0,"",0,0,0
-4758,"",0,"",0,0,1,0,0,"",0,0,0
-4759,"",0,"",0,0,1,0,0,"",0,0,0
-4760,"",0,"",0,0,1,0,0,"",0,0,0
-4761,"",0,"",0,0,1,0,0,"",0,0,0
+4756,"",0,"",0,0,0,0,0,"",0,0,0
+4757,"",0,"",0,0,0,0,0,"",0,0,0
+4758,"",0,"",0,0,0,0,0,"",0,0,0
+4759,"Salle de repos",0,"Salle de repos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle de repos</Case><Case(2)>à la salle de repos</Case><Case(3)>de la salle de repos</Case></Switch>",0,0,0
+4760,"Salle du trône séculaire",0,"Salle du trône séculaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle du trône séculaire</Case><Case(2)>à la salle du trône séculaire</Case><Case(3)>de la salle du trône séculaire</Case></Switch>",0,0,0
+4761,"",0,"",0,0,0,0,0,"",0,0,0
 4762,"",0,"",0,0,1,0,0,"",0,0,0
 4763,"",0,"",0,0,1,0,0,"",0,0,0
 4764,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4994,27 +4994,27 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 4924,"Citerne colossale",0,"Citerne colossale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Citerne colossale</Case><Case(2)>à la Citerne colossale</Case><Case(3)>de la Citerne colossale</Case></Switch>",0,0,0
 4925,"Autel de l'Urne serpentine",0,"Autel de l'Urne serpentine",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Autel de l'Urne serpentine</Case><Case(2)>à l'Autel de l'Urne serpentine</Case><Case(3)>de l'Autel de l'Urne serpentine</Case></Switch>",0,0,0
 4926,"Vallée des Pampas",0,"Vallée des Pampas",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Vallée des Pampas</Case><Case(2)>à la Vallée des Pampas</Case><Case(3)>de la Vallée des Pampas</Case></Switch>",0,0,0
-4927,"",0,"",0,0,1,0,0,"",0,0,0
-4928,"",0,"",0,0,1,0,0,"",0,0,0
-4929,"",0,"",0,0,1,0,0,"",0,0,0
-4930,"",0,"",0,0,1,0,0,"",0,0,0
-4931,"",0,"",0,0,1,0,0,"",0,0,0
-4932,"",0,"",0,0,1,0,0,"",0,0,0
-4933,"",0,"",0,0,1,0,0,"",0,0,0
-4934,"",0,"",0,0,1,0,0,"",0,0,0
-4935,"",0,"",0,0,1,0,0,"",0,0,0
-4936,"",0,"",0,0,1,0,0,"",0,0,0
-4937,"",0,"",0,0,1,0,0,"",0,0,0
-4938,"",0,"",0,0,1,0,0,"",0,0,0
-4939,"",0,"",0,0,1,0,0,"",0,0,0
-4940,"",0,"",0,0,1,0,0,"",0,0,0
-4941,"",0,"",0,0,1,0,0,"",0,0,0
-4942,"",0,"",0,0,1,0,0,"",0,0,0
-4943,"",0,"",0,0,1,0,0,"",0,0,0
-4944,"",0,"",0,0,1,0,0,"",0,0,0
-4945,"",0,"",0,0,1,0,0,"",0,0,0
-4946,"",0,"",0,0,1,0,0,"",0,0,0
-4947,"",0,"",0,0,1,0,0,"",0,0,0
+4927,"",0,"",0,0,0,0,0,"",0,0,0
+4928,"",0,"",0,0,0,0,0,"",0,0,0
+4929,"",0,"",0,0,0,0,0,"",0,0,0
+4930,"",0,"",0,0,0,0,0,"",0,0,0
+4931,"",0,"",0,0,0,0,0,"",0,0,0
+4932,"",0,"",0,0,0,0,0,"",0,0,0
+4933,"",0,"",0,0,0,0,0,"",0,0,0
+4934,"",0,"",0,0,0,0,0,"",0,0,0
+4935,"",0,"",0,0,0,0,0,"",0,0,0
+4936,"",0,"",0,0,0,0,0,"",0,0,0
+4937,"",0,"",0,0,0,0,0,"",0,0,0
+4938,"",0,"",0,0,0,0,0,"",0,0,0
+4939,"",0,"",0,0,0,0,0,"",0,0,0
+4940,"",0,"",0,0,0,0,0,"",0,0,0
+4941,"",0,"",0,0,0,0,0,"",0,0,0
+4942,"",0,"",0,0,0,0,0,"",0,0,0
+4943,"",0,"",0,0,0,0,0,"",0,0,0
+4944,"",0,"",0,0,0,0,0,"",0,0,0
+4945,"",0,"",0,0,0,0,0,"",0,0,0
+4946,"",0,"",0,0,0,0,0,"",0,0,0
+4947,"",0,"",0,0,0,0,0,"",0,0,0
 4948,"",0,"",0,0,1,0,0,"",0,0,0
 4949,"",0,"",0,0,1,0,0,"",0,0,0
 4950,"",0,"",0,0,1,0,0,"",0,0,0
@@ -5121,7 +5121,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5051,"Xd'aa Talat Tsoly",0,"Xd'aa Talat Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Xd'aa Talat Tsoly</Case><Case(2)>au Xd'aa Talat Tsoly</Case><Case(3)>du Xd'aa Talat Tsoly</Case></Switch>",0,0,0
 5052,"Réservoir d'Iq Br'aax",0,"Réservoirs d'Iq Br'aax",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le réservoir d'Iq Br'aax</Case><Case(2)>au réservoir d'Iq Br'aax</Case><Case(3)>du réservoir d'Iq Br'aax</Case></Switch>",0,0,0
 5053,"Yak Awak Tsoly",0,"Yak Awak Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Yak Awak Tsoly</Case><Case(2)>au Yak Awak Tsoly</Case><Case(3)>du Yak Awak Tsoly</Case></Switch>",0,0,0
-5054,"Iq Rrax Tsoly",0,"Iq Rrax Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Iq Rrax Tsoly</Case><Case(2)>au Iq Rrax Tsoly</Case><Case(3)>de l'Iq Rrax Tsoly</Case></Switch>",0,0,0
+5054,"Iq Rrax Tsoly",0,"Iq Rrax Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Iq Rrax Tsoly</Case><Case(2)>à l'Iq Rrax Tsoly</Case><Case(3)>de l'Iq Rrax Tsoly</Case></Switch>",0,0,0
 5055,"Xobr'it Tsoly",0,"Xobr'it Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Xobr'it Tsoly</Case><Case(2)>au Xobr'it Tsoly</Case><Case(3)>du Xobr'it Tsoly</Case></Switch>",0,0,0
 5056,"Trempecheville",0,"Trempecheville",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Trempecheville</Case><Case(2)>à Trempecheville</Case><Case(3)>de Trempecheville</Case></Switch>",0,0,0
 5057,"Cénote de Moxutural",0,"Cénote de Moxutural",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le cénote de Moxutural</Case><Case(2)>au cénote de Moxutural</Case><Case(3)>du cénote de Moxutural</Case></Switch>",0,0,0
@@ -5151,7 +5151,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5081,"Xd'aa Talat Tsoly",0,"Xd'aa Talat Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Xd'aa Talat Tsoly</Case><Case(2)>au Xd'aa Talat Tsoly</Case><Case(3)>du Xd'aa Talat Tsoly</Case></Switch>",0,1,0
 5082,"Ouest de l'Iq Rrax Tsoly",0,"Ouest de l'Iq Rrax Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'ouest de l'Iq Rrax Tsoly</Case><Case(2)>à l'ouest de l'Iq Rrax Tsoly</Case><Case(3)>de l'ouest de l'Iq Rrax Tsoly</Case></Switch>",0,1,0
 5083,"Est de l'Iq Rrax Tsoly",0,"Est de l'Iq Rrax Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'est de l'Iq Rrax Tsoly</Case><Case(2)>à l'est de l'Iq Rrax Tsoly</Case><Case(3)>de l'est de l'Iq Rrax Tsoly</Case></Switch>",0,1,0
-5084,"Profondeurs de l'Iq Rrax Tsoly",0,"Profondeurs de l'Iq Rrax Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les profondeurs de l'Iq Rrax Tsoly</Case><Case(2)>dans les profondeurs de l'Iq Rrax Tsoly</Case><Case(3)>des Profondeurs de l'Iq Rrax Tsoly</Case></Switch>",0,1,0
+5084,"Profondeurs de l'Iq Rrax Tsoly",0,"Profondeurs de l'Iq Rrax Tsoly",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les profondeurs de l'Iq Rrax Tsoly</Case><Case(2)>dans les profondeurs de l'Iq Rrax Tsoly</Case><Case(3)>des profondeurs de l'Iq Rrax Tsoly</Case></Switch>",0,1,0
 5085,"Nord du lac Toari",0,"Nord du lac Toari",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le nord du lac Toari</Case><Case(2)>au nord du lac Toari</Case><Case(3)>du nord du lac Toari</Case></Switch>",0,1,0
 5086,"",0,"",0,0,1,0,0,"",0,0,0
 5087,"",0,"",0,0,1,0,0,"",0,0,0
@@ -5220,32 +5220,32 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5150,"Estrade des guerriers",0,"Estrade des guerriers",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Estrade des guerriers</Case><Case(2)>à l'Estrade des guerriers</Case><Case(3)>de l'Estrade des guerriers</Case></Switch>",0,0,0
 5151,"Volière aux dragons",0,"Volière aux dragons",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Volière aux dragons</Case><Case(2)>à la Volière aux dragons</Case><Case(3)>de la Volière aux dragons</Case></Switch>",0,0,0
 5152,"Amphithéâtre de La'Loff",0,"Amphithéâtre de La'Loff",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'Amphithéâtre de La'Loff</Case><Case(2)>à l'Amphithéâtre de La'Loff</Case><Case(3)>de l'Amphithéâtre de La'Loff</Case></Switch>",0,0,0
-5153,"",0,"",0,0,0,0,0,"",0,0,0
+5153,"Salle du trône séculaire",0,"Salle du trône séculaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle du trône séculaire</Case><Case(2)>à la salle du trône séculaire</Case><Case(3)>de la salle du trône séculaire</Case></Switch>",0,0,0
 5154,"Yuweyawata",0,"Yuweyawata",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Yuweyawata</Case><Case(2)>à Yuweyawata</Case><Case(3)>de Yuweyawata</Case></Switch>",0,0,0
-5155,"",0,"",0,0,0,0,0,"",0,0,0
-5156,"",0,"",0,0,0,0,0,"",0,0,0
-5157,"",0,"",0,0,0,0,0,"",0,0,0
-5158,"",0,"",0,0,0,0,0,"",0,0,0
-5159,"",0,"",0,0,0,0,0,"",0,0,0
-5160,"",0,"",0,0,0,0,0,"",0,0,0
-5161,"",0,"",0,0,0,0,0,"",0,0,0
-5162,"",0,"",0,0,0,0,0,"",0,0,0
-5163,"",0,"",0,0,0,0,0,"",0,0,0
-5164,"",0,"",0,0,0,0,0,"",0,0,0
-5165,"",0,"",0,0,0,0,0,"",0,0,0
-5166,"",0,"",0,0,0,0,0,"",0,0,0
-5167,"",0,"",0,0,0,0,0,"",0,0,0
-5168,"",0,"",0,0,0,0,0,"",0,0,0
-5169,"",0,"",0,0,0,0,0,"",0,0,0
-5170,"",0,"",0,0,0,0,0,"",0,0,0
-5171,"",0,"",0,0,0,0,0,"",0,0,0
-5172,"",0,"",0,0,0,0,0,"",0,0,0
-5173,"",0,"",0,0,0,0,0,"",0,0,0
-5174,"",0,"",0,0,0,0,0,"",0,0,0
-5175,"",0,"",0,0,0,0,0,"",0,0,0
-5176,"",0,"",0,0,0,0,0,"",0,0,0
-5177,"",0,"",0,0,0,0,0,"",0,0,0
-5178,"",0,"",0,0,0,0,0,"",0,0,0
+5155,"Site de con<SoftHyphen/>struc<SoftHyphen/>tion du huitième étage",0,"Site de con<SoftHyphen/>struc<SoftHyphen/>tion du huitième étage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le site de con<SoftHyphen/>struc<SoftHyphen/>tion du huitième étage</Case><Case(2)>au site de con<SoftHyphen/>struc<SoftHyphen/>tion du huitième étage</Case><Case(3)>du site de con<SoftHyphen/>struc<SoftHyphen/>tion du huitième étage</Case></Switch>",0,0,0
+5156,"Gardienne de l'Immémorial",0,"Gardienne de l'Immémorial",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Gardienne de l'Immémorial</Case><Case(2)>à la Gardienne de l'Immémorial</Case><Case(3)>de la Gardienne de l'Immémorial</Case></Switch>",0,0,0
+5157,"Périmètre structurel",0,"Périmètre structurel",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le périmètre structurel</Case><Case(2)>au périmètre structurel</Case><Case(3)>du périmètre structurel</Case></Switch>",0,0,0
+5158,"Alentours du château",0,"Alentours du château",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les alentours du château</Case><Case(2)>aux alentours du château</Case><Case(3)>des alentours du château</Case></Switch>",0,0,0
+5159,"Premier étage",0,"Premier étage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le premier étage</Case><Case(2)>au premier étage</Case><Case(3)>du premier étage</Case></Switch>",0,0,0
+5160,"Second étage",0,"Second étage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le second étage</Case><Case(2)>au second étage</Case><Case(3)>du second étage</Case></Switch>",0,0,0
+5161,"Troisième étage",0,"Troisième étage",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le troisième étage</Case><Case(2)>au troisième étage</Case><Case(3)>du troisième étage</Case></Switch>",0,0,0
+5162,"Alentours du périmètre structurel",0,"Alentours du périmètre structurel",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les alentours du périmètre structurel</Case><Case(2)>aux alentours du périmètre structurel</Case><Case(3)>des alentours du périmètre structurel</Case></Switch>",0,0,0
+5163,"Coursive de maintenance",0,"Coursive de maintenance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la coursive de maintenance</Case><Case(2)>à la coursive de maintenance</Case><Case(3)>de la coursive de maintenance</Case></Switch>",0,0,0
+5164,"Niveau des alluvions",0,"Niveau des alluvions",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le niveau des alluvions</Case><Case(2)>au niveau des alluvions</Case><Case(3)>du niveau des alluvions</Case></Switch>",0,0,0
+5165,"Quartier de refuge",0,"Quartier de refuge",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le quartier de refuge</Case><Case(2)>au quartier de refuge</Case><Case(3)>du quartier de refuge</Case></Switch>",0,0,0
+5166,"Couloir d'approvisionnement",0,"Couloir d'approvisionnement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le couloir d'approvisionnement</Case><Case(2)>au couloir d'approvisionnement</Case><Case(3)>du couloir d'approvisionnement</Case></Switch>",0,0,0
+5167,"Entrée principale",0,"Entrée principale",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'entrée principale</Case><Case(2)>à l'entrée principale</Case><Case(3)>de l'entrée principale</Case></Switch>",0,0,0
+5168,"Grand vestibule",0,"Grand vestibule",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le grand vestibule</Case><Case(2)>au grand vestibule</Case><Case(3)>du grand vestibule</Case></Switch>",0,0,0
+5169,"Ascenseur intermédiaire",0,"Ascenseur intermédiaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'ascenseur intermédiaire</Case><Case(2)>à l'ascenseur intermédiaire</Case><Case(3)>de l'ascenseur intermédiaire</Case></Switch>",0,0,0
+5170,"Vanne d'expulsion",0,"Vanne d'expulsion",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la vanne d'expulsion</Case><Case(2)>à la vanne d'expulsion</Case><Case(3)>de la vanne d'expulsion</Case></Switch>",0,0,0
+5171,"Accès de maintenance",0,"Accès de maintenance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'accès de maintenance</Case><Case(2)>à l'accès de maintenance</Case><Case(3)>de l'accès de maintenance</Case></Switch>",0,0,0
+5172,"Sas d'approvisionnement",0,"Sas d'approvisionnement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le sas d'approvisionnement</Case><Case(2)>au sas d'approvisionnement</Case><Case(3)>du sas d'approvisionnement</Case></Switch>",0,0,0
+5173,"Salle de réception",0,"Salle de réception",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la salle de réception</Case><Case(2)>à la salle de réception</Case><Case(3)>de la salle de réception</Case></Switch>",0,0,0
+5174,"Antichambre du trône séculaire",0,"Antichambre du trône séculaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'antichambre du trône séculaire</Case><Case(2)>à l'antichambre du trône séculaire</Case><Case(3)>de l'antichambre du trône séculaire</Case></Switch>",0,0,0
+5175,"Ring de l'Inspiration artistique",0,"Ring de l'Inspiration artistique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring de l'Inspiration artistique</Case><Case(2)>au ring de l'Inspiration artistique</Case><Case(3)>du ring de l'Inspiration artistique</Case></Switch>",0,0,0
+5176,"Ring des Chorégraphies endiablées",0,"Ring des Chorégraphies endiablées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring des Chorégraphies endiablées</Case><Case(2)>au ring des Chorégraphies endiablées</Case><Case(3)>du ring des Chorégraphies endiablées</Case></Switch>",0,0,0
+5177,"Ring du Champion lupin",0,"Ring du Champion lupin",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring du Champion lupin</Case><Case(2)>au ring du Champion lupin</Case><Case(3)>du ring du Champion lupin</Case></Switch>",0,0,0
+5178,"Ring de la Chasse",0,"Ring de la Chasse",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le ring de la Chasse</Case><Case(2)>au ring de la Chasse</Case><Case(3)>du ring de la Chasse</Case></Switch>",0,0,0
 5179,"",0,"",0,0,0,0,0,"",0,0,0
 5180,"",0,"",0,0,0,0,0,"",0,0,0
 5181,"",0,"",0,0,0,0,0,"",0,0,0
@@ -5268,3 +5268,303 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5198,"",0,"",0,0,0,0,0,"",0,0,0
 5199,"",0,"",0,0,0,0,0,"",0,0,0
 5200,"",0,"",0,0,0,0,0,"",0,0,0
+5201,"",0,"",0,0,0,0,0,"",0,0,0
+5202,"",0,"",0,0,0,0,0,"",0,0,0
+5203,"",0,"",0,0,0,0,0,"",0,0,0
+5204,"",0,"",0,0,0,0,0,"",0,0,0
+5205,"",0,"",0,0,0,0,0,"",0,0,0
+5206,"",0,"",0,0,0,0,0,"",0,0,0
+5207,"",0,"",0,0,0,0,0,"",0,0,0
+5208,"",0,"",0,0,0,0,0,"",0,0,0
+5209,"",0,"",0,0,0,0,0,"",0,0,0
+5210,"",0,"",0,0,0,0,0,"",0,0,0
+5211,"",0,"",0,0,0,0,0,"",0,0,0
+5212,"",0,"",0,0,0,0,0,"",0,0,0
+5213,"",0,"",0,0,0,0,0,"",0,0,0
+5214,"",0,"",0,0,0,0,0,"",0,0,0
+5215,"Division résidentielle 8-71",0,"Division résidentielle 8-71",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la division résidentielle 8-71</Case><Case(2)>à la division résidentielle 8-71</Case><Case(3)>de la division résidentielle 8-71</Case></Switch>",0,0,0
+5216,"Division résidentielle 8-72",0,"Division résidentielle 8-72",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la division résidentielle 8-72</Case><Case(2)>à la division résidentielle 8-72</Case><Case(3)>de la division résidentielle 8-72</Case></Switch>",0,0,0
+5217,"Intérieur de la division résidentielle 8-72",0,"Intérieur de la division résidentielle 8-72",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'intérieur de la division résidentielle 8-72</Case><Case(2)>à l'intérieur de la division résidentielle 8-72</Case><Case(3)>de l'intérieur de la division résidentielle 8-72</Case></Switch>",0,0,0
+5218,"",0,"",0,0,0,0,0,"",0,0,0
+5219,"",0,"",0,0,0,0,0,"",0,0,0
+5220,"",0,"",0,0,0,0,0,"",0,0,0
+5221,"",0,"",0,0,0,0,0,"",0,0,0
+5222,"",0,"",0,0,0,0,0,"",0,0,0
+5223,"",0,"",0,0,0,0,0,"",0,0,0
+5224,"",0,"",0,0,0,0,0,"",0,0,0
+5225,"",0,"",0,0,0,0,0,"",0,0,0
+5226,"",0,"",0,0,0,0,0,"",0,0,0
+5227,"",0,"",0,0,0,0,0,"",0,0,0
+5228,"",0,"",0,0,0,0,0,"",0,0,0
+5229,"",0,"",0,0,0,0,0,"",0,0,0
+5230,"",0,"",0,0,0,0,0,"",0,0,0
+5231,"",0,"",0,0,0,0,0,"",0,0,0
+5232,"",0,"",0,0,0,0,0,"",0,0,0
+5233,"",0,"",0,0,0,0,0,"",0,0,0
+5234,"",0,"",0,0,0,0,0,"",0,0,0
+5235,"",0,"",0,0,0,0,0,"",0,0,0
+5236,"",0,"",0,0,0,0,0,"",0,0,0
+5237,"",0,"",0,0,0,0,0,"",0,0,0
+5238,"",0,"",0,0,0,0,0,"",0,0,0
+5239,"",0,"",0,0,0,0,0,"",0,0,0
+5240,"",0,"",0,0,0,0,0,"",0,0,0
+5241,"",0,"",0,0,0,0,0,"",0,0,0
+5242,"",0,"",0,0,0,0,0,"",0,0,0
+5243,"",0,"",0,0,0,0,0,"",0,0,0
+5244,"",0,"",0,0,0,0,0,"",0,0,0
+5245,"",0,"",0,0,0,0,0,"",0,0,0
+5246,"",0,"",0,0,0,0,0,"",0,0,0
+5247,"",0,"",0,0,0,0,0,"",0,0,0
+5248,"",0,"",0,0,0,0,0,"",0,0,0
+5249,"",0,"",0,0,0,0,0,"",0,0,0
+5250,"",0,"",0,0,0,0,0,"",0,0,0
+5251,"",0,"",0,0,0,0,0,"",0,0,0
+5252,"",0,"",0,0,0,0,0,"",0,0,0
+5253,"",0,"",0,0,0,0,0,"",0,0,0
+5254,"",0,"",0,0,0,0,0,"",0,0,0
+5255,"",0,"",0,0,0,0,0,"",0,0,0
+5256,"",0,"",0,0,0,0,0,"",0,0,0
+5257,"",0,"",0,0,0,0,0,"",0,0,0
+5258,"",0,"",0,0,0,0,0,"",0,0,0
+5259,"",0,"",0,0,0,0,0,"",0,0,0
+5260,"",0,"",0,0,0,0,0,"",0,0,0
+5261,"",0,"",0,0,0,0,0,"",0,0,0
+5262,"",0,"",0,0,0,0,0,"",0,0,0
+5263,"",0,"",0,0,0,0,0,"",0,0,0
+5264,"",0,"",0,0,0,0,0,"",0,0,0
+5265,"",0,"",0,0,0,0,0,"",0,0,0
+5266,"",0,"",0,0,0,0,0,"",0,0,0
+5267,"",0,"",0,0,0,0,0,"",0,0,0
+5268,"",0,"",0,0,0,0,0,"",0,0,0
+5269,"",0,"",0,0,0,0,0,"",0,0,0
+5270,"",0,"",0,0,0,0,0,"",0,0,0
+5271,"",0,"",0,0,0,0,0,"",0,0,0
+5272,"",0,"",0,0,0,0,0,"",0,0,0
+5273,"",0,"",0,0,0,0,0,"",0,0,0
+5274,"",0,"",0,0,0,0,0,"",0,0,0
+5275,"",0,"",0,0,0,0,0,"",0,0,0
+5276,"",0,"",0,0,0,0,0,"",0,0,0
+5277,"",0,"",0,0,0,0,0,"",0,0,0
+5278,"",0,"",0,0,0,0,0,"",0,0,0
+5279,"",0,"",0,0,0,0,0,"",0,0,0
+5280,"",0,"",0,0,0,0,0,"",0,0,0
+5281,"",0,"",0,0,0,0,0,"",0,0,0
+5282,"",0,"",0,0,0,0,0,"",0,0,0
+5283,"",0,"",0,0,0,0,0,"",0,0,0
+5284,"",0,"",0,0,0,0,0,"",0,0,0
+5285,"",0,"",0,0,0,0,0,"",0,0,0
+5286,"",0,"",0,0,0,0,0,"",0,0,0
+5287,"",0,"",0,0,0,0,0,"",0,0,0
+5288,"",0,"",0,0,0,0,0,"",0,0,0
+5289,"",0,"",0,0,0,0,0,"",0,0,0
+5290,"",0,"",0,0,0,0,0,"",0,0,0
+5291,"",0,"",0,0,0,0,0,"",0,0,0
+5292,"",0,"",0,0,0,0,0,"",0,0,0
+5293,"",0,"",0,0,0,0,0,"",0,0,0
+5294,"",0,"",0,0,0,0,0,"",0,0,0
+5295,"",0,"",0,0,0,0,0,"",0,0,0
+5296,"",0,"",0,0,0,0,0,"",0,0,0
+5297,"",0,"",0,0,0,0,0,"",0,0,0
+5298,"",0,"",0,0,0,0,0,"",0,0,0
+5299,"",0,"",0,0,0,0,0,"",0,0,0
+5300,"",0,"",0,0,0,0,0,"",0,0,0
+5301,"",0,"",0,0,0,0,0,"",0,0,0
+5302,"",0,"",0,0,0,0,0,"",0,0,0
+5303,"",0,"",0,0,0,0,0,"",0,0,0
+5304,"",0,"",0,0,0,0,0,"",0,0,0
+5305,"",0,"",0,0,0,0,0,"",0,0,0
+5306,"",0,"",0,0,0,0,0,"",0,0,0
+5307,"",0,"",0,0,0,0,0,"",0,0,0
+5308,"",0,"",0,0,0,0,0,"",0,0,0
+5309,"",0,"",0,0,0,0,0,"",0,0,0
+5310,"",0,"",0,0,0,0,0,"",0,0,0
+5311,"",0,"",0,0,0,0,0,"",0,0,0
+5312,"",0,"",0,0,0,0,0,"",0,0,0
+5313,"",0,"",0,0,0,0,0,"",0,0,0
+5314,"",0,"",0,0,0,0,0,"",0,0,0
+5315,"",0,"",0,0,0,0,0,"",0,0,0
+5316,"",0,"",0,0,0,0,0,"",0,0,0
+5317,"",0,"",0,0,0,0,0,"",0,0,0
+5318,"",0,"",0,0,0,0,0,"",0,0,0
+5319,"",0,"",0,0,0,0,0,"",0,0,0
+5320,"",0,"",0,0,0,0,0,"",0,0,0
+5321,"",0,"",0,0,0,0,0,"",0,0,0
+5322,"",0,"",0,0,0,0,0,"",0,0,0
+5323,"",0,"",0,0,0,0,0,"",0,0,0
+5324,"",0,"",0,0,0,0,0,"",0,0,0
+5325,"",0,"",0,0,0,0,0,"",0,0,0
+5326,"",0,"",0,0,0,0,0,"",0,0,0
+5327,"",0,"",0,0,0,0,0,"",0,0,0
+5328,"",0,"",0,0,0,0,0,"",0,0,0
+5329,"",0,"",0,0,0,0,0,"",0,0,0
+5330,"",0,"",0,0,0,0,0,"",0,0,0
+5331,"",0,"",0,0,0,0,0,"",0,0,0
+5332,"",0,"",0,0,0,0,0,"",0,0,0
+5333,"",0,"",0,0,0,0,0,"",0,0,0
+5334,"",0,"",0,0,0,0,0,"",0,0,0
+5335,"",0,"",0,0,0,0,0,"",0,0,0
+5336,"",0,"",0,0,0,0,0,"",0,0,0
+5337,"",0,"",0,0,0,0,0,"",0,0,0
+5338,"",0,"",0,0,0,0,0,"",0,0,0
+5339,"",0,"",0,0,0,0,0,"",0,0,0
+5340,"",0,"",0,0,0,0,0,"",0,0,0
+5341,"",0,"",0,0,0,0,0,"",0,0,0
+5342,"",0,"",0,0,0,0,0,"",0,0,0
+5343,"",0,"",0,0,0,0,0,"",0,0,0
+5344,"",0,"",0,0,0,0,0,"",0,0,0
+5345,"",0,"",0,0,0,0,0,"",0,0,0
+5346,"",0,"",0,0,0,0,0,"",0,0,0
+5347,"",0,"",0,0,0,0,0,"",0,0,0
+5348,"",0,"",0,0,0,0,0,"",0,0,0
+5349,"",0,"",0,0,0,0,0,"",0,0,0
+5350,"",0,"",0,0,0,0,0,"",0,0,0
+5351,"",0,"",0,0,0,0,0,"",0,0,0
+5352,"",0,"",0,0,0,0,0,"",0,0,0
+5353,"",0,"",0,0,0,0,0,"",0,0,0
+5354,"",0,"",0,0,0,0,0,"",0,0,0
+5355,"",0,"",0,0,0,0,0,"",0,0,0
+5356,"",0,"",0,0,0,0,0,"",0,0,0
+5357,"",0,"",0,0,0,0,0,"",0,0,0
+5358,"",0,"",0,0,0,0,0,"",0,0,0
+5359,"",0,"",0,0,0,0,0,"",0,0,0
+5360,"",0,"",0,0,0,0,0,"",0,0,0
+5361,"",0,"",0,0,0,0,0,"",0,0,0
+5362,"",0,"",0,0,0,0,0,"",0,0,0
+5363,"",0,"",0,0,0,0,0,"",0,0,0
+5364,"",0,"",0,0,0,0,0,"",0,0,0
+5365,"",0,"",0,0,0,0,0,"",0,0,0
+5366,"",0,"",0,0,0,0,0,"",0,0,0
+5367,"",0,"",0,0,0,0,0,"",0,0,0
+5368,"",0,"",0,0,0,0,0,"",0,0,0
+5369,"",0,"",0,0,0,0,0,"",0,0,0
+5370,"",0,"",0,0,0,0,0,"",0,0,0
+5371,"",0,"",0,0,0,0,0,"",0,0,0
+5372,"",0,"",0,0,0,0,0,"",0,0,0
+5373,"",0,"",0,0,0,0,0,"",0,0,0
+5374,"",0,"",0,0,0,0,0,"",0,0,0
+5375,"",0,"",0,0,0,0,0,"",0,0,0
+5376,"",0,"",0,0,0,0,0,"",0,0,0
+5377,"",0,"",0,0,0,0,0,"",0,0,0
+5378,"",0,"",0,0,0,0,0,"",0,0,0
+5379,"",0,"",0,0,0,0,0,"",0,0,0
+5380,"",0,"",0,0,0,0,0,"",0,0,0
+5381,"",0,"",0,0,0,0,0,"",0,0,0
+5382,"",0,"",0,0,0,0,0,"",0,0,0
+5383,"",0,"",0,0,0,0,0,"",0,0,0
+5384,"",0,"",0,0,0,0,0,"",0,0,0
+5385,"",0,"",0,0,0,0,0,"",0,0,0
+5386,"",0,"",0,0,0,0,0,"",0,0,0
+5387,"",0,"",0,0,0,0,0,"",0,0,0
+5388,"",0,"",0,0,0,0,0,"",0,0,0
+5389,"",0,"",0,0,0,0,0,"",0,0,0
+5390,"",0,"",0,0,0,0,0,"",0,0,0
+5391,"",0,"",0,0,0,0,0,"",0,0,0
+5392,"",0,"",0,0,0,0,0,"",0,0,0
+5393,"",0,"",0,0,0,0,0,"",0,0,0
+5394,"",0,"",0,0,0,0,0,"",0,0,0
+5395,"",0,"",0,0,0,0,0,"",0,0,0
+5396,"",0,"",0,0,0,0,0,"",0,0,0
+5397,"",0,"",0,0,0,0,0,"",0,0,0
+5398,"",0,"",0,0,0,0,0,"",0,0,0
+5399,"",0,"",0,0,0,0,0,"",0,0,0
+5400,"",0,"",0,0,0,0,0,"",0,0,0
+5401,"",0,"",0,0,0,0,0,"",0,0,0
+5402,"",0,"",0,0,0,0,0,"",0,0,0
+5403,"",0,"",0,0,0,0,0,"",0,0,0
+5404,"",0,"",0,0,0,0,0,"",0,0,0
+5405,"",0,"",0,0,0,0,0,"",0,0,0
+5406,"",0,"",0,0,0,0,0,"",0,0,0
+5407,"",0,"",0,0,0,0,0,"",0,0,0
+5408,"",0,"",0,0,0,0,0,"",0,0,0
+5409,"",0,"",0,0,0,0,0,"",0,0,0
+5410,"",0,"",0,0,0,0,0,"",0,0,0
+5411,"",0,"",0,0,0,0,0,"",0,0,0
+5412,"",0,"",0,0,0,0,0,"",0,0,0
+5413,"",0,"",0,0,0,0,0,"",0,0,0
+5414,"",0,"",0,0,0,0,0,"",0,0,0
+5415,"",0,"",0,0,0,0,0,"",0,0,0
+5416,"",0,"",0,0,0,0,0,"",0,0,0
+5417,"",0,"",0,0,0,0,0,"",0,0,0
+5418,"",0,"",0,0,0,0,0,"",0,0,0
+5419,"",0,"",0,0,0,0,0,"",0,0,0
+5420,"",0,"",0,0,0,0,0,"",0,0,0
+5421,"",0,"",0,0,0,0,0,"",0,0,0
+5422,"",0,"",0,0,0,0,0,"",0,0,0
+5423,"",0,"",0,0,0,0,0,"",0,0,0
+5424,"",0,"",0,0,0,0,0,"",0,0,0
+5425,"",0,"",0,0,0,0,0,"",0,0,0
+5426,"",0,"",0,0,0,0,0,"",0,0,0
+5427,"",0,"",0,0,0,0,0,"",0,0,0
+5428,"",0,"",0,0,0,0,0,"",0,0,0
+5429,"",0,"",0,0,0,0,0,"",0,0,0
+5430,"",0,"",0,0,0,0,0,"",0,0,0
+5431,"",0,"",0,0,0,0,0,"",0,0,0
+5432,"",0,"",0,0,0,0,0,"",0,0,0
+5433,"",0,"",0,0,0,0,0,"",0,0,0
+5434,"",0,"",0,0,0,0,0,"",0,0,0
+5435,"",0,"",0,0,0,0,0,"",0,0,0
+5436,"",0,"",0,0,0,0,0,"",0,0,0
+5437,"",0,"",0,0,0,0,0,"",0,0,0
+5438,"",0,"",0,0,0,0,0,"",0,0,0
+5439,"",0,"",0,0,0,0,0,"",0,0,0
+5440,"",0,"",0,0,0,0,0,"",0,0,0
+5441,"",0,"",0,0,0,0,0,"",0,0,0
+5442,"",0,"",0,0,0,0,0,"",0,0,0
+5443,"",0,"",0,0,0,0,0,"",0,0,0
+5444,"",0,"",0,0,0,0,0,"",0,0,0
+5445,"",0,"",0,0,0,0,0,"",0,0,0
+5446,"",0,"",0,0,0,0,0,"",0,0,0
+5447,"",0,"",0,0,0,0,0,"",0,0,0
+5448,"",0,"",0,0,0,0,0,"",0,0,0
+5449,"",0,"",0,0,0,0,0,"",0,0,0
+5450,"",0,"",0,0,0,0,0,"",0,0,0
+5451,"",0,"",0,0,0,0,0,"",0,0,0
+5452,"",0,"",0,0,0,0,0,"",0,0,0
+5453,"",0,"",0,0,0,0,0,"",0,0,0
+5454,"",0,"",0,0,0,0,0,"",0,0,0
+5455,"",0,"",0,0,0,0,0,"",0,0,0
+5456,"",0,"",0,0,0,0,0,"",0,0,0
+5457,"",0,"",0,0,0,0,0,"",0,0,0
+5458,"",0,"",0,0,0,0,0,"",0,0,0
+5459,"",0,"",0,0,0,0,0,"",0,0,0
+5460,"",0,"",0,0,0,0,0,"",0,0,0
+5461,"",0,"",0,0,0,0,0,"",0,0,0
+5462,"",0,"",0,0,0,0,0,"",0,0,0
+5463,"",0,"",0,0,0,0,0,"",0,0,0
+5464,"",0,"",0,0,0,0,0,"",0,0,0
+5465,"",0,"",0,0,0,0,0,"",0,0,0
+5466,"",0,"",0,0,0,0,0,"",0,0,0
+5467,"",0,"",0,0,0,0,0,"",0,0,0
+5468,"",0,"",0,0,0,0,0,"",0,0,0
+5469,"",0,"",0,0,0,0,0,"",0,0,0
+5470,"",0,"",0,0,0,0,0,"",0,0,0
+5471,"",0,"",0,0,0,0,0,"",0,0,0
+5472,"",0,"",0,0,0,0,0,"",0,0,0
+5473,"",0,"",0,0,0,0,0,"",0,0,0
+5474,"",0,"",0,0,0,0,0,"",0,0,0
+5475,"",0,"",0,0,0,0,0,"",0,0,0
+5476,"",0,"",0,0,0,0,0,"",0,0,0
+5477,"",0,"",0,0,0,0,0,"",0,0,0
+5478,"",0,"",0,0,0,0,0,"",0,0,0
+5479,"",0,"",0,0,0,0,0,"",0,0,0
+5480,"",0,"",0,0,0,0,0,"",0,0,0
+5481,"",0,"",0,0,0,0,0,"",0,0,0
+5482,"",0,"",0,0,0,0,0,"",0,0,0
+5483,"",0,"",0,0,0,0,0,"",0,0,0
+5484,"",0,"",0,0,0,0,0,"",0,0,0
+5485,"",0,"",0,0,0,0,0,"",0,0,0
+5486,"",0,"",0,0,0,0,0,"",0,0,0
+5487,"",0,"",0,0,0,0,0,"",0,0,0
+5488,"",0,"",0,0,0,0,0,"",0,0,0
+5489,"",0,"",0,0,0,0,0,"",0,0,0
+5490,"",0,"",0,0,0,0,0,"",0,0,0
+5491,"",0,"",0,0,0,0,0,"",0,0,0
+5492,"",0,"",0,0,0,0,0,"",0,0,0
+5493,"",0,"",0,0,0,0,0,"",0,0,0
+5494,"",0,"",0,0,0,0,0,"",0,0,0
+5495,"",0,"",0,0,0,0,0,"",0,0,0
+5496,"",0,"",0,0,0,0,0,"",0,0,0
+5497,"",0,"",0,0,0,0,0,"",0,0,0
+5498,"",0,"",0,0,0,0,0,"",0,0,0
+5499,"",0,"",0,0,0,0,0,"",0,0,0
+5500,"",0,"",0,0,0,0,0,"",0,0,0
