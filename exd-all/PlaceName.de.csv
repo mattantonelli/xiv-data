@@ -2592,9 +2592,9 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2564,"Informationen",0,"",0,0,1,0,0,"",0,0,0
 2565,"Ruheräume",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Ruheräumen</Case><Case(2)>in den Ruheräumen</Case><Case(3)>die Ruheräume</Case></Switch>",0,0,0
 2566,"Inselparadies",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Inselparadies</Case><Case(2)>im Inselparadies</Case><Case(3)>das Inselparadies</Case></Switch>",0,0,0
-2567,"",0,"",0,0,0,0,0,"",0,0,0
-2568,"",0,"",0,0,0,0,0,"",0,0,0
-2569,"",0,"",0,0,0,0,0,"",0,0,0
+2567,"Anzeige der Außerordentlichen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Anzeige der Außerordentlichen</Case><Case(2)>an der Anzeige der Außerordentlichen</Case><Case(3)>die Anzeige der Außerordentlichen</Case></Switch>",0,0,0
+2568,"Kosmo-Glück",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Kosmo-Glück</Case><Case(2)>am Kosmo-Glück</Case><Case(3)>das Kosmo-Glück</Case></Switch>",0,0,0
+2569,"Kosmo-Forschung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kosmo-Forschung</Case><Case(2)>in der Kosmo-Forschung</Case><Case(3)>die Kosmo-Forschung</Case></Switch>",0,0,0
 2570,"Das Verbotene Land Eureka (Feldexkursion)",0,"",0,0,1,0,0,"",0,0,0
 2571,"Die Königinnenwache (Feldexkursion)",0,"",0,0,1,0,0,"",0,0,0
 2572,"Palast der Toten (Tiefes Gewölbe)",0,"",0,0,1,0,0,"",0,0,0
@@ -5231,40 +5231,40 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5203,"",0,"",0,0,0,0,0,"",0,0,0
 5204,"",0,"",0,0,0,0,0,"",0,0,0
 5205,"",0,"",0,0,0,0,0,"",0,0,0
-5206,"",0,"",0,0,0,0,0,"",0,0,0
-5207,"",0,"",0,0,0,0,0,"",0,0,0
-5208,"",0,"",0,0,0,0,0,"",0,0,0
-5209,"",0,"",0,0,0,0,0,"",0,0,0
-5210,"",0,"",0,0,0,0,0,"",0,0,0
-5211,"",0,"",0,0,0,0,0,"",0,0,0
-5212,"",0,"",0,0,0,0,0,"",0,0,0
-5213,"",0,"",0,0,0,0,0,"",0,0,0
-5214,"",0,"",0,0,0,0,0,"",0,0,0
+5206,"Heulbecken",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Heulbecken</Case><Case(2)>am Heulbecken</Case><Case(3)>das Heulbecken</Case></Switch>",0,0,0
+5207,"Nördliches Pfötchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nördlichen Pfötchen</Case><Case(2)>am Nördlichen Pfötchen</Case><Case(3)>das Nördliche Pfötchen</Case></Switch>",0,0,0
+5208,"Westliches Pfötchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Westlichen Pfötchen</Case><Case(2)>am Westlichen Pfötchen</Case><Case(3)>das Westliche Pfötchen</Case></Switch>",0,0,0
+5209,"Südöstliches Pfützchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Südöstlichen Pfützchen</Case><Case(2)>am Südöstlichen Pfützchen</Case><Case(3)>das Südöstliche Pfützchen</Case></Switch>",0,0,0
+5210,"Leere Löcher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Leeren Löchern</Case><Case(2)>an den Leeren Löchern</Case><Case(3)>die Leeren Löcher</Case></Switch>",0,0,0
+5211,"Palus Arsenici",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Palus Arsenici</Case><Case(2)>am Palus Arsenici</Case><Case(3)>der Palus Arsenici</Case></Switch>",0,0,0
+5212,"Glimmpfuhl Alpha",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glimmpfuhl Alpha</Case><Case(2)>am Glimmpfuhl Alpha</Case><Case(3)>der Glimmpfuhl Alpha</Case></Switch>",0,0,0
+5213,"Glimmpfuhl Beta",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glimmpfuhl Beta</Case><Case(2)>am Glimmpfuhl Beta</Case><Case(3)>der Glimmpfuhl Beta</Case></Switch>",0,0,0
+5214,"Ätherfälle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Ätherfällen</Case><Case(2)>an den Ätherfällen</Case><Case(3)>die Ätherfälle</Case></Switch>",0,0,0
 5215,"Wohnradius 8-71",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wohnradius 8-71</Case><Case(2)>im Wohnradius 8-71</Case><Case(3)>der Wohnradius 8-71</Case></Switch>",0,0,0
 5216,"Wohnradius 8-72",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wohnradius 8-72</Case><Case(2)>im Wohnradius 8-72</Case><Case(3)>der Wohnradius 8-72</Case></Switch>",0,0,0
 5217,"Innerer Wohnradius 8-72",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum inneren Wohnradius 8-72</Case><Case(2)>im inneren Wohnradius 8-72</Case><Case(3)>der innere Wohnradius 8-72</Case></Switch>",0,0,0
 5218,"",0,"",0,0,0,0,0,"",0,0,0
-5219,"",0,"",0,0,0,0,0,"",0,0,0
-5220,"",0,"",0,0,0,0,0,"",0,0,0
-5221,"",0,"",0,0,0,0,0,"",0,0,0
-5222,"",0,"",0,0,0,0,0,"",0,0,0
-5223,"",0,"",0,0,0,0,0,"",0,0,0
-5224,"",0,"",0,0,0,0,0,"",0,0,0
-5225,"",0,"",0,0,0,0,0,"",0,0,0
-5226,"",0,"",0,0,0,0,0,"",0,0,0
-5227,"",0,"",0,0,0,0,0,"",0,0,0
-5228,"",0,"",0,0,0,0,0,"",0,0,0
-5229,"",0,"",0,0,0,0,0,"",0,0,0
-5230,"",0,"",0,0,0,0,0,"",0,0,0
-5231,"",0,"",0,0,0,0,0,"",0,0,0
-5232,"",0,"",0,0,0,0,0,"",0,0,0
-5233,"",0,"",0,0,0,0,0,"",0,0,0
-5234,"",0,"",0,0,0,0,0,"",0,0,0
-5235,"",0,"",0,0,0,0,0,"",0,0,0
-5236,"",0,"",0,0,0,0,0,"",0,0,0
-5237,"",0,"",0,0,0,0,0,"",0,0,0
-5238,"",0,"",0,0,0,0,0,"",0,0,0
-5239,"",0,"",0,0,0,0,0,"",0,0,0
+5219,"Sinus Ardorum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Sinus Ardorum</Case><Case(2)>in Sinus Ardorum</Case><Case(3)>Sinus Ardorum</Case></Switch>",0,0,0
+5220,"Kosmopforte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kosmopforte</Case><Case(2)>an der Kosmopforte</Case><Case(3)>die Kosmopforte</Case></Switch>",0,0,0
+5221,"Kalabassenbucht ",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kalabassenbucht</Case><Case(2)>in der Kalabassenbucht</Case><Case(3)>die Kalabassenbucht </Case></Switch>",0,0,0
+5222,"Weddingways Traugarten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Weddingways Traugarten</Case><Case(2)>in Weddingways Traugarten</Case><Case(3)>Weddingways Traugarten</Case></Switch>",0,0,0
+5223,"Glimmberg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glimmberg</Case><Case(2)>im Glimmberg</Case><Case(3)>der Glimmberg</Case></Switch>",0,0,0
+5224,"Lunarer Nadir",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Lunaren Nadir</Case><Case(2)>im Lunaren Nadir</Case><Case(3)>der Lunare Nadir</Case></Switch>",0,0,0
+5225,"Mondtor-Station",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mondtor-Station</Case><Case(2)>in der Mondtor-Station</Case><Case(3)>die Mondtor-Station</Case></Switch>",0,0,0
+5226,"Falltränen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Falltränen</Case><Case(2)>in den Falltränen</Case><Case(3)>die Falltränen</Case></Switch>",0,0,0
+5227,"Blühbetten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Blühbetten</Case><Case(2)>in den Blühbetten</Case><Case(3)>die Blühbetten</Case></Switch>",0,0,0
+5228,"Pilzstube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zurPilzstube</Case><Case(2)>in derPilzstube</Case><Case(3)>die Pilzstube</Case></Switch>",0,0,0
+5229,"Erdrutschloch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Erdrutschloch</Case><Case(2)>im Erdrutschloch</Case><Case(3)>das Erdrutschloch</Case></Switch>",0,0,0
+5230,"Glimmspalt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glimmspalt</Case><Case(2)>im Glimmspalt</Case><Case(3)>der Glimmspalt</Case></Switch>",0,0,0
+5231,"Schreiende Krümel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Schreienden Krümeln</Case><Case(2)>in den Schreienden Krümeln</Case><Case(3)>die Schreienden Krümel</Case></Switch>",0,0,0
+5232,"Leere Löcher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Leeren Löchern</Case><Case(2)>in den Leeren Löchern</Case><Case(3)>die Leeren Löcher</Case></Switch>",0,0,0
+5233,"Heimdalls Trümmer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Heimdalls Trümmern</Case><Case(2)>an Heimdalls Trümmern</Case><Case(3)>Heimdalls Trümmer</Case></Switch>",0,0,0
+5234,"Frostdornen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Frostdornen</Case><Case(2)>an den Frostdornen</Case><Case(3)>die Frostdornen</Case></Switch>",0,0,0
+5235,"Chlorophos-Gewölbe",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Chlorophos-Gewölbe</Case><Case(2)>im Chlorophos-Gewölbe</Case><Case(3)>das Chlorophos-Gewölbe</Case></Switch>",0,0,0
+5236,"Fluffigplatz",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fluffigplatz</Case><Case(2)>auf dem Fluffigplatz</Case><Case(3)>der Fluffigplatz</Case></Switch>",0,0,0
+5237,"Ätherfälle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Ätherfällen</Case><Case(2)>in den Ätherfällen</Case><Case(3)>die Ätherfälle</Case></Switch>",0,0,0
+5238,"Piercingways Tunnel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu Piercingways Tunnel</Case><Case(2)>in Piercingways Tunnel</Case><Case(3)>Piercingways Tunnel</Case></Switch>",0,0,0
+5239,"Nadir-Lift",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nadir-Lift</Case><Case(2)>im Nadir-Lift</Case><Case(3)>der Nadir-Lift</Case></Switch>",0,0,0
 5240,"",0,"",0,0,0,0,0,"",0,0,0
 5241,"",0,"",0,0,0,0,0,"",0,0,0
 5242,"",0,"",0,0,0,0,0,"",0,0,0
@@ -5325,7 +5325,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5297,"",0,"",0,0,0,0,0,"",0,0,0
 5298,"",0,"",0,0,0,0,0,"",0,0,0
 5299,"",0,"",0,0,0,0,0,"",0,0,0
-5300,"",0,"",0,0,0,0,0,"",0,0,0
+5300,"Mecha-Einsatz",0,"",0,0,1,0,0,"",0,0,0
 5301,"",0,"",0,0,0,0,0,"",0,0,0
 5302,"",0,"",0,0,0,0,0,"",0,0,0
 5303,"",0,"",0,0,0,0,0,"",0,0,0

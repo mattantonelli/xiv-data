@@ -328,7 +328,7 @@ int32,str
 107,"自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「乱れ撃ち」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>乱れ撃ち効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),70))>リフルジェントアロー<Else/>ストレートショット</If><Else/>ストレートショット</If>および<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>シャドウバイト<Else/>ワイドボレー</If><Else/>ワイドボレー</If>を実行できる。
 さらに、<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),70))>リフルジェントアロー<Else/>ストレートショット</If><Else/>ストレートショット</If>を実行すると3回分のダメージを与える。
-<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>シャドウバイト<Else/>ワイドボレー</If><Else/>ワイドボレー</If>を実行する場合はその威力を<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>270<Else/>220</If><Else/>220</If>に上昇させる。<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>
+<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>シャドウバイト<Else/>ワイドボレー</If><Else/>ワイドボレー</If>を実行する場合はその威力を<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>280<Else/>220</If><Else/>220</If>に上昇させる。<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「レゾナンスアロー実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒<Else/></If><Else/></If>"
 108,"対象にバインドを付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
@@ -50335,7 +50335,9 @@ int32,str
 41266,""
 41267,""
 41268,""
-41269,""
+41269,"ターン経過によって変化する状態が「高品質」「頑丈」「安定」「高能率」「長持続」「高進捗」のいずれかになる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>45秒
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>[このアクションは、コスモミッションの製作でのみ使用可能]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41270,""
 41271,""
 41272,""
@@ -50344,7 +50346,10 @@ int32,str
 41275,""
 41276,""
 41277,""
-41278,""
+41278,"華麗な竿捌きにより、
+ステータス「フッキング成功率低下」の効果を打ち消して魚をフッキングする。
+さらに、魚を傷つけずに釣りあげることで評価値を上昇させる。
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>[このアクションは、コスモミッションの釣りでのみ使用可能]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41279,""
 41280,""
 41281,""
@@ -50373,7 +50378,9 @@ int32,str
 41304,""
 41305,""
 41306,""
-41307,""
+41307,"次に使用する大胆純化の、収集価値上昇値が必ず最大になる。
+次に使用する慎重純化の、耐久を消費しなくなる追加効果の発生率を40％アップする。
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>[このアクションは、コスモミッションの採掘・園芸でのみ使用可能]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41308,""
 41309,""
 41310,""
@@ -51462,8 +51469,11 @@ int32,str
 42033,""
 42034,""
 42035,""
-42036,""
-42037,""
+42036,"キャロット粒子弾を三連射する。
+自動ターゲット機能により、自動で対象を選択できる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果（発動確率10％）：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エンパワーメント」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与される。"
+42037,"巨大偏属性クリスタルを一撃で破砕することが可能な高出力キャロット粒子弾を発射する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エンパワーメント」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中"
 42038,""
 42039,""
 42040,""
@@ -51498,7 +51508,7 @@ int32,str
 42068,""
 42069,""
 42070,""
-42071,""
+42071,"前方に突進し、範囲内の異常菌床をローダー先端部のブレードで粉砕する。"
 42072,""
 42073,""
 42074,""
@@ -51576,9 +51586,11 @@ int32,str
 42146,""
 42147,""
 42148,""
-42149,""
-42150,""
-42151,""
+42149,"現在いる探索フィールドのセントラルクリスタルまで転移する。"
+42150,"ルナアダマン製のドリルで、前方の偏属性クリスタルを破砕する。
+ただし、巨大偏属性クリスタルには効果がない。"
+42151,"ハピネス粒子による信号弾を発射する
+※演出用アクション。特に効果は発生しない。"
 42152,""
 42153,""
 42154,""
@@ -51689,10 +51701,11 @@ int32,str
 42255,""
 42256,""
 42257,""
-42258,""
+42258,"液体燃料を利用した火炎放射器で、前方扇範囲内の小さな異常菌床を焼却する。
+ただし、巨大な菌床には効果がない。"
 42259,""
 42260,""
-42261,""
+42261,"風属性の衝撃波を発生させ、ローダー周辺の異常菌床を破砕する。"
 42262,""
 42263,""
 42264,""
@@ -52806,7 +52819,8 @@ int32,str
 43354,""
 43355,""
 43356,""
-43357,""
+43357,"自身の移動速度を50％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>永続"
 43358,""
 43359,""
 43360,""
@@ -52814,8 +52828,8 @@ int32,str
 43362,""
 43363,""
 43364,""
-43365,""
-43366,""
+43365,"キャロットガンの自動ターゲット選択機能を有効にする。"
+43366,"キャロットガンの自動ターゲット選択機能を無効にする。"
 43367,""
 43368,""
 43369,""

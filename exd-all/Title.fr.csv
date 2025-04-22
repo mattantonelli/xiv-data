@@ -782,18 +782,18 @@ int32,str,str,bit&01,uint16
 778,"","",False,0
 779,"","",False,0
 780,"","",False,0
-781,"","",False,0
-782,"","",False,0
-783,"","",False,0
-784,"","",False,0
-785,"","",False,0
-786,"","",False,0
-787,"","",False,0
-788,"","",False,0
-789,"","",False,0
-790,"","",False,0
-791,"","",False,0
-792,"","",False,0
-793,"","",False,0
-794,"","",False,0
-795,"","",False,0
+781,"Paré au décollage","Parée au décollage",False,1844
+782,"Menuisier des étoiles","Menuisière des étoiles",False,1845
+783,"Forgeron des étoiles","Forgeronne des étoiles",False,1846
+784,"Armurier des étoiles","Armurière des étoiles",False,1847
+785,"Orfèvre des étoiles","Orfèvre des étoiles",False,1848
+786,"Tanneur des étoiles","Tanneuse des étoiles",False,1849
+787,"Couturier des étoiles","Couturière des étoiles",False,1850
+788,"Alchimiste des étoiles","Alchimiste des étoiles",False,1851
+789,"Cuisinier des étoiles","Cuisinière des étoiles",False,1852
+790,"Mineur des étoiles","Mineuse des étoiles",False,1853
+791,"Botaniste des étoiles","Botaniste des étoiles",False,1854
+792,"Pêcheur des étoiles","Pêcheuse des étoiles",False,1855
+793,"Faiseur d'étoiles","Faiseuse d'étoiles",False,1856
+794,"Chercheur d'étoiles","Chercheuse d'étoiles",False,1857
+795,"Béni par les étoiles","Bénie par les étoiles",False,1858

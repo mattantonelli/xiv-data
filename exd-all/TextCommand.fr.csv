@@ -1318,6 +1318,7 @@ Barre de raccourcis spéciale (raccsp)
 Croix de raccourcis (cxracc)
 Guide de l'épopée (Guideépopée)
 Éther compressé (Éthcomp)
+Exploration cosmique<Indent/>: planètes (ECplanètes)
 Crystalline Conflict - jauge de progression<Indent/>: CConflictProgress (CrystallineConflict:ProgressGauge)
 Crystalline Conflict - alliés<Indent/>: CConflictEqu (CrystallineConflict:AllyInfo)
 Crystalline Conflict - adversaires<Indent/>: CConflictAdv (CrystallineConflict:EnemyInfo)
@@ -3106,6 +3107,12 @@ Salue à la manière des Hanu Hanu.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/ohokaliy","/hanuhanu","pdamage",0
+687,2,1,2,0,0,"/visage","","/immortaliserportrait, /selfie, /visage
+Utilisation<Indent/>: /immortaliserportrait [sous-commande]
+Immortalise son portrait.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/immortaliserportrait","/selfie","pdamage",0
 689,2,1,2,0,0,"/photograph","","/photographier, /photo, /photograph
 Utilisation<Indent/>: /photographier [sous-commande]
 Prend une photo.
@@ -3124,6 +3131,12 @@ Chancelle.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/chanceler","","pdamage",0
+695,2,1,2,0,0,"/rage","","/frémirderage, /frémirrage, /rage
+Utilisation<Indent/>: /frémirderage [sous-commande]
+Frémit de rage.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/frémirderage","/frémirrage","pdamage",0
 696,2,1,2,0,0,"/tomescroll","","/mémoquartzcontinu, /mémoquartzcont, /tomescroll
 Utilisation<Indent/>: /mémoquartzcontinu [sous-commande]
 Utilise son mémoquartz en continu.

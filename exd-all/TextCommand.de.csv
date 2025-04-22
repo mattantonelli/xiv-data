@@ -1120,7 +1120,8 @@ Bei fehlendem Unterbefehl wird in den jeweils anderen Zustand gewechselt.","/kam
 253,2,0,0,0,0,"/target","/ta","/ziel, /target, /ta
 VERWENDUNG:
 /ziel [Variable zur Zielbestimmung]
-→ Wählt einen Charakter als Ziel aus. Der Charakter muss sich in Reichweite befinden.>>Beispiel:
+→ Wählt einen Charakter als Ziel aus. Der Charakter muss sich in Reichweite befinden.
+>>Beispiel:
 /ziel <2>
 Wählt den zweiten Charakter in der Gruppenliste als Ziel aus.","/ziel","","head",0
 254,1,0,0,0,0,"/targetpc","/tpc","/zielpc, /targetpc, /tpc
@@ -1375,7 +1376,7 @@ VERWENDUNG:
 /hud [Element] [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 >>HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kosmo-Erkundung: Gestirne (KosGest), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
 >>Unterbefehle:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element anzeigen
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element ausblenden
@@ -3250,6 +3251,12 @@ VERWENDUNG:
 → Du zeigst den Ohokaliy-Gruß.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/ohokaliy","","pdamage",0
+687,2,1,2,0,0,"/visage","","/schönheit, /visage
+VERWENDUNG:
+/schönheit [Unterbefehl]
+→ Du hast ein Selbstportrait auf dem Exotablet gespeichert.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/schönheit","","pdamage",0
 689,2,1,2,0,0,"/photograph","","/foto, /photograph
 VERWENDUNG:
 /foto [Unterbefehl]
@@ -3268,6 +3275,12 @@ VERWENDUNG:
 → Du taumelst benommen.
 >>Unterbefehl:
   <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/taumeln","","pdamage",0
+695,2,1,2,0,0,"/rage","","/wut, /rage
+VERWENDUNG:
+/wut [Unterbefehl]
+→ Du zitterst vor Wut.
+>>Unterbefehl:
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.","/wut","","pdamage",0
 696,2,1,2,0,0,"/tomescroll","","/steinstarren, /tomescroll
 VERWENDUNG:
 /steinstarren [Unterbefehl]

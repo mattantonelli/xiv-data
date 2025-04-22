@@ -83,4 +83,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 79,"Yok Tural","Exploration",True,False,14
 80,"Xak Tural","Exploration",True,False,15
 81,"","",False,False,0
-82,"","",False,False,0
+82,"Cosmic Tools","Items",True,False,53

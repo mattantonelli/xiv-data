@@ -314,7 +314,7 @@ int32,Image,Image,byte,BannerCondition,uint16,uint16,uint16,uint16,str
 310,"ui/icon/190000/190709.tex","ui/icon/082000/082091.tex",4,"BannerCondition#876",0,0,0,2356,"Victory-on-High"
 311,"ui/icon/190000/190710.tex","ui/icon/082000/082091.tex",4,"BannerCondition#877",0,0,0,2357,"Ascension-on-High"
 312,,,0,"BannerCondition#0",0,0,0,0,""
-313,,,0,"BannerCondition#0",0,0,0,0,""
+313,"ui/icon/190000/190732.tex","ui/icon/082000/082091.tex",8,"BannerCondition#878",0,0,0,2342,"Cosmic Exploration"
 314,,,0,"BannerCondition#0",0,0,0,0,""
 315,,,0,"BannerCondition#0",0,0,0,0,""
 316,,,0,"BannerCondition#0",0,0,0,0,""

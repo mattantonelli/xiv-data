@@ -2616,9 +2616,9 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 2564,"Guide de la résistance",0,"Guide de la résistance",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le guide de la résistance</Case><Case(2)>auprès du guide de la résistance</Case><Case(3)>du guide de la résistance</Case></Switch>",0,0,0
 2565,"Chambre à coucher",0,"Chambre à coucher",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la chambre à coucher</Case><Case(2)>dans la chambre à coucher</Case><Case(3)>de la chambre à coucher</Case></Switch>",0,0,0
 2566,"Félicité insulaire",0,"Félicité insulaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Félicité insulaire</Case><Case(2)>sur la Félicité insulaire</Case><Case(3)>de la Félicité insulaire</Case></Switch>",0,0,0
-2567,"",0,"",0,0,0,0,0,"",0,0,0
-2568,"",0,"",0,0,0,0,0,"",0,0,0
-2569,"",0,"",0,0,0,0,0,"",0,0,0
+2567,"Tableau des con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tions",0,"Tableaux des con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tions",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le tableau des con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tions</Case><Case(2)>près du tableau des con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tions</Case><Case(3)>du tableau des con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tions</Case></Switch>",0,0,0
+2568,"Guichet de la Roue de la fortune cosmique",0,"Guichets de la Roue de la fortune cosmiques",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le guichet de la Roue de la fortune cosmique</Case><Case(2)>au guichet de la Roue de la fortune cosmique</Case><Case(3)> du guichet de la Roue de la fortune cosmique</Case></Switch>",0,0,0
+2569,"Centre de recherche cosmique",0,"Centres de recherche cosmique",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le centre de recherche cosmique</Case><Case(2)>au centre de recherche cosmique</Case><Case(3)>du centre de recherche cosmique</Case></Switch>",0,0,0
 2570,"Eurêka, la terre interdite
 [Missions d'exploration]",0,"Eurêka, la terre interdite
 [Missions d'exploration]",0,0,1,0,0,"",0,0,0
@@ -5273,40 +5273,40 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5203,"",0,"",0,0,0,0,0,"",0,0,0
 5204,"",0,"",0,0,0,0,0,"",0,0,0
 5205,"",0,"",0,0,0,0,0,"",0,0,0
-5206,"",0,"",0,0,0,0,0,"",0,0,0
-5207,"",0,"",0,0,0,0,0,"",0,0,0
-5208,"",0,"",0,0,0,0,0,"",0,0,0
-5209,"",0,"",0,0,0,0,0,"",0,0,0
-5210,"",0,"",0,0,0,0,0,"",0,0,0
-5211,"",0,"",0,0,0,0,0,"",0,0,0
-5212,"",0,"",0,0,0,0,0,"",0,0,0
-5213,"",0,"",0,0,0,0,0,"",0,0,0
-5214,"",0,"",0,0,0,0,0,"",0,0,0
+5206,"Étang des Larmes",0,"Étang des Larmes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'étang des Larmes</Case><Case(2)>à l'étang des Larmes</Case><Case(3)>de l'étang des Larmes</Case></Switch>",0,0,0
+5207,"Saut du Lapin nord",0,"Saut du Lapin nord",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Saut du Lapin nord</Case><Case(2)>au Saut du Lapin nord</Case><Case(3)>du Saut du Lapin nord</Case></Switch>",0,0,0
+5208,"Saut du Lapin ouest",0,"Saut du Lapin ouest",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Saut du Lapin ouest</Case><Case(2)>au Saut du Lapin ouest</Case><Case(3)>du Saut du Lapin ouest</Case></Switch>",0,0,0
+5209,"Bassin sud-est",0,"Bassin sud-est",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le bassin sud-est</Case><Case(2)>au bassin sud-est</Case><Case(3)>du bassin sud-est</Case></Switch>",0,0,0
+5210,"Creux de La Gourde",0,"Creux de La Gourde",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Creux de La Gourde</Case><Case(2)>au Creux de La Gourde</Case><Case(3)>du Creux de La Gourde</Case></Switch>",0,0,0
+5211,"Palus Arsenici",0,"Palus Arsenici",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Palus Arsenici</Case><Case(2)>à Palus Arsenici</Case><Case(3)>de Palus Arsenici</Case></Switch>",0,0,0
+5212,"Mare scintillante alpha",0,"Mare scintillante alpha",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mare scintillante alpha</Case><Case(2)>à la Mare scintillante alpha</Case><Case(3)>de la Mare scintillante alpha</Case></Switch>",0,0,0
+5213,"Mare scintillante bêta",0,"Mare scintillante bêta",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Mare scintillante bêta</Case><Case(2)>à la Mare scintillante bêta</Case><Case(3)>de la Mare scintillante bêta</Case></Switch>",0,0,0
+5214,"Chutes éthérées",0,"Chutes éthérées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Chutes éthérées</Case><Case(2)>aux Chutes éthérées</Case><Case(3)>des Chutes éthérées</Case></Switch>",0,0,0
 5215,"Division résidentielle 8-71",0,"Division résidentielle 8-71",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la division résidentielle 8-71</Case><Case(2)>à la division résidentielle 8-71</Case><Case(3)>de la division résidentielle 8-71</Case></Switch>",0,0,0
 5216,"Division résidentielle 8-72",0,"Division résidentielle 8-72",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la division résidentielle 8-72</Case><Case(2)>à la division résidentielle 8-72</Case><Case(3)>de la division résidentielle 8-72</Case></Switch>",0,0,0
 5217,"Intérieur de la division résidentielle 8-72",0,"Intérieur de la division résidentielle 8-72",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'intérieur de la division résidentielle 8-72</Case><Case(2)>à l'intérieur de la division résidentielle 8-72</Case><Case(3)>de l'intérieur de la division résidentielle 8-72</Case></Switch>",0,0,0
 5218,"",0,"",0,0,0,0,0,"",0,0,0
-5219,"",0,"",0,0,0,0,0,"",0,0,0
-5220,"",0,"",0,0,0,0,0,"",0,0,0
-5221,"",0,"",0,0,0,0,0,"",0,0,0
-5222,"",0,"",0,0,0,0,0,"",0,0,0
-5223,"",0,"",0,0,0,0,0,"",0,0,0
-5224,"",0,"",0,0,0,0,0,"",0,0,0
-5225,"",0,"",0,0,0,0,0,"",0,0,0
-5226,"",0,"",0,0,0,0,0,"",0,0,0
-5227,"",0,"",0,0,0,0,0,"",0,0,0
-5228,"",0,"",0,0,0,0,0,"",0,0,0
-5229,"",0,"",0,0,0,0,0,"",0,0,0
-5230,"",0,"",0,0,0,0,0,"",0,0,0
-5231,"",0,"",0,0,0,0,0,"",0,0,0
-5232,"",0,"",0,0,0,0,0,"",0,0,0
-5233,"",0,"",0,0,0,0,0,"",0,0,0
-5234,"",0,"",0,0,0,0,0,"",0,0,0
-5235,"",0,"",0,0,0,0,0,"",0,0,0
-5236,"",0,"",0,0,0,0,0,"",0,0,0
-5237,"",0,"",0,0,0,0,0,"",0,0,0
-5238,"",0,"",0,0,0,0,0,"",0,0,0
-5239,"",0,"",0,0,0,0,0,"",0,0,0
+5219,"Sinus Ardorum",0,"Sinus Ardorum",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Sinus Ardorum</Case><Case(2)>à Sinus Ardorum</Case><Case(3)>de Sinus Ardorum</Case></Switch>",0,0,0
+5220,"Portail du Cosmos",0,"Portail du Cosmos",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Portail du Cosmos</Case><Case(2)>au Portail du Cosmos</Case><Case(3)>du Portail du Cosmos</Case></Switch>",0,0,0
+5221,"La Gourde",0,"La Gourde",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Gourde</Case><Case(2)>à La Gourde</Case><Case(3)>de La Gourde</Case></Switch>",0,0,0
+5222,"Pépinière de Weddingway",0,"Pépinière de Weddingway",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la pépinière de Weddingway</Case><Case(2)>à la pépinière de Weddingway</Case><Case(3)>de la pépinière de Weddingway</Case></Switch>",0,0,0
+5223,"Mont scintillant",0,"Mont scintillant",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Mont scintillant</Case><Case(2)>au Mont scintillant</Case><Case(3)>du Mont scintillant</Case></Switch>",0,0,0
+5224,"Nadir lunaire",0,"Nadir lunaire",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Nadir lunaire</Case><Case(2)>au Nadir lunaire</Case><Case(3)>du Nadir lunaire</Case></Switch>",0,0,0
+5225,"Station sélénienne",0,"Station sélénienne",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la station sélénienne</Case><Case(2)>à la station sélénienne</Case><Case(3)>de la station sélénienne</Case></Switch>",0,0,0
+5226,"Sillage des Larmes",0,"Sillage des Larmes",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Sillage des Larmes</Case><Case(2)>au Sillage des Larmes</Case><Case(3)>du Sillage des Larmes</Case></Switch>",0,0,0
+5227,"Champs florissants",0,"Champs florissants",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Champs florissants</Case><Case(2)>aux Champs florissants</Case><Case(3)>des Champs florissants</Case></Switch>",0,0,0
+5228,"Champignonnière",0,"Champignonnière",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Champignonnière</Case><Case(2)>à la Champignonnière</Case><Case(3)>de la Champignonnière</Case></Switch>",0,0,0
+5229,"L'Écroulement",0,"L'Écroulement",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>L'Écroulement</Case><Case(2)>à L'Écroulement</Case><Case(3)>de L'Écroulement</Case></Switch>",0,0,0
+5230,"Faille scintillante",0,"Faille scintillante",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>la Faille scintillante</Case><Case(2)>à la Faille scintillante</Case><Case(3)>de la Faille scintillante</Case></Switch>",0,0,0
+5231,"La Pâte brisée",0,"La Pâte brisée",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>La Pâte brisée</Case><Case(2)>à La Pâte brisée</Case><Case(3)>de La Pâte brisée</Case></Switch>",0,0,0
+5232,"Creux de La Gourde",0,"Creux de La Gourde",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le Creux de La Gourde</Case><Case(2)>au Creux de La Gourde</Case><Case(3)>du Creux de La Gourde</Case></Switch>",0,0,0
+5233,"Fragment d'épave",0,"Fragment d'épave",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le fragment d'épave</Case><Case(2)>au fragment d'épave</Case><Case(3)>du fragment d'épave</Case></Switch>",0,0,0
+5234,"Ronces gelées",0,"Ronces gelées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Ronces gelées</Case><Case(2)>aux Ronces gelées</Case><Case(3)>des Ronces gelées</Case></Switch>",0,0,0
+5235,"Hall aux chlorophoi",0,"Hall aux chlorophoi",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le hall aux chlorophoi</Case><Case(2)>au hall aux chlorophoi</Case><Case(3)>du hall aux chlorophoi</Case></Switch>",0,0,0
+5236,"Le Doux Manteau",0,"Le Doux Manteau",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>Le Doux Manteau</Case><Case(2)>au Doux Manteau</Case><Case(3)>du Doux Manteau</Case></Switch>",0,0,0
+5237,"Chutes éthérées",0,"Chutes éthérées",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>les Chutes éthérées</Case><Case(2)>aux Chutes éthérées</Case><Case(3)>des Chutes éthérées</Case></Switch>",0,0,0
+5238,"Tunnel de Piercingway",0,"Tunnel de Piercingway",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le tunnel de Piercingway</Case><Case(2)>au tunnel de Piercingway</Case><Case(3)>du tunnel de Piercingway</Case></Switch>",0,0,0
+5239,"Ascenseur nadiral",0,"Ascenseur nadiral",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>l'ascenseur nadiral</Case><Case(2)>à l'ascenseur nadiral</Case><Case(3)>de l'ascenseur nadiral</Case></Switch>",0,0,0
 5240,"",0,"",0,0,0,0,0,"",0,0,0
 5241,"",0,"",0,0,0,0,0,"",0,0,0
 5242,"",0,"",0,0,0,0,0,"",0,0,0
@@ -5367,7 +5367,7 @@ Guilde des surineurs",0,0,1,0,0,"",0,0,0
 5297,"",0,"",0,0,0,0,0,"",0,0,0
 5298,"",0,"",0,0,0,0,0,"",0,0,0
 5299,"",0,"",0,0,0,0,0,"",0,0,0
-5300,"",0,"",0,0,0,0,0,"",0,0,0
+5300,"Interventions mécaniques",0,"Interventions mécaniques",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>le guichet des in<SoftHyphen/>ter<SoftHyphen/>ven<SoftHyphen/>tions mécaniques</Case><Case(2)>au guichet des in<SoftHyphen/>ter<SoftHyphen/>ven<SoftHyphen/>tions mécaniques</Case><Case(3)>du guichet des in<SoftHyphen/>ter<SoftHyphen/>ven<SoftHyphen/>tions mécaniques</Case></Switch>",0,0,0
 5301,"",0,"",0,0,0,0,0,"",0,0,0
 5302,"",0,"",0,0,0,0,0,"",0,0,0
 5303,"",0,"",0,0,0,0,0,"",0,0,0

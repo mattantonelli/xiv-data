@@ -548,7 +548,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,ModelChara,byte,byte,byte,byte
 544,"oppresseur mécanique",0,"oppresseurs mécaniques",0,1,1,0,0,"ModelChara#4486",100,10,0,0,0,"Obedient",0,0,0,8,537,False,True,False,True,False,0,False,True,"ui/icon/004000/004943.tex",11034,False,0,30,660,35,360,25,2,634,"Gadget"
 545,"",0,"",0,0,0,0,0,"ModelChara#0",0,0,0,0,0,"",0,0,0,0,0,False,False,False,False,False,0,False,False,,0,False,0,0,0,0,0,0,0,0,""
 546,"",0,"",0,0,0,0,0,"ModelChara#0",0,0,0,0,0,"",0,0,0,0,0,False,False,False,False,False,0,False,False,,0,False,0,0,0,0,0,0,0,0,""
-547,"",0,"",0,0,0,0,0,"ModelChara#0",0,0,0,0,0,"",0,0,0,0,0,False,False,False,False,False,0,False,False,,0,False,0,0,0,0,0,0,0,0,""
+547,"mini-ouvrier cosmique",0,"mini-ouvriers cosmiques",0,0,1,0,0,"ModelChara#4437",100,10,0,0,0,"Obedient",0,0,0,8,540,False,True,False,True,False,0,False,True,"ui/icon/004000/004948.tex",11035,False,0,15,390,26,120,20,1,622,"Gadget"
 548,"",0,"",0,0,0,0,0,"ModelChara#0",0,0,0,0,0,"",0,0,0,0,0,False,False,False,False,False,0,False,False,,0,False,0,0,0,0,0,0,0,0,""
 549,"limier royal",0,"limiers royaux",0,0,1,0,0,"ModelChara#4491",100,10,0,0,0,"Independent",0,0,0,8,542,True,False,True,False,True,0,False,True,"ui/icon/004000/004953.tex",3045,False,0,15,400,21,0,20,1,620,"Critter"
 550,"",0,"",0,0,0,0,0,"ModelChara#0",0,0,0,0,0,"",0,0,0,0,0,False,False,False,False,False,0,False,False,,0,False,0,0,0,0,0,0,0,0,""

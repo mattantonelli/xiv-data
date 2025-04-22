@@ -83,4 +83,4 @@ int32,str,AchievementKind,bit&01,bit&02,byte
 79,"ヨカ・トラル","Exploration",True,False,14
 80,"サカ・トラル","Exploration",True,False,15
 81,"","",False,False,0
-82,"","",False,False,0
+82,"コスモツール","Items",True,False,53

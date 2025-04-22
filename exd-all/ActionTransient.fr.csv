@@ -415,7 +415,7 @@ Ne peut pas être utilisé en combat ou en même temps que d'autres chants."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rafale de coups<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> permet de lancer <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),70))>Flèche rayonnante<Else/>Tir droit</If><Else/>Tir droit</If><If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))> et Morsure de l'ombre<Else/> et Rafale impitoyable</If><Else/> et Rafale impitoyable</If>.
 En outre, <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),70))>Flèche rayonnante<Else/>Tir droit</If><Else/>Tir droit</If> infligera 3 fois le montant normal de dégâts en un seul coup.
-Si <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>Morsure de l'ombre<Else/>Rafale impitoyable</If><Else/>Rafale impitoyable</If> est lancée, sa puissance est augmentée à <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>270<Else/>220</If><Else/>220</If>.<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>
+Si <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>Morsure de l'ombre<Else/>Rafale impitoyable</If><Else/>Rafale impitoyable</If> est lancée, sa puissance est augmentée à <If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>280<Else/>220</If><Else/>220</If>.<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flèche résonante préparée<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s<Else/></If><Else/></If>"
 108,"Inflige Entrave à la cible.
@@ -590,7 +590,6 @@ Ne peut pas être utilisé sous l'effet Entrave."
 158,"Restaure l'intégralité de vos PM.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Feu astral<UIGlow>01</UIGlow><UIForeground>01</UIForeground> au plus haut degré.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Électrifié<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Les effets prennet fin en relançant l'action.
 <If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),58))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie 3 degrés de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cœur ombral<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cœur ombral<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> annule l'augmentation du coût en PM des sorts de feu sous <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Feu astral<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 De plus, réduit d'un tiers le coût en PM de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Brasier<UIGlow>01</UIGlow><UIForeground>01</UIForeground> en échange de tous les degrés restants de <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cœur ombral<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -51808,7 +51807,9 @@ Cette action devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>P
 41266,""
 41267,""
 41268,""
-41269,""
+41269,"Prend l'un des états suivants en fonction du nombre de tours passés : bon, robuste, stable, modulable, apprêté ou malléable.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 45s
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cette action ne peut être utilisée qu'au cours d'une synthèse lors d'une mission cosmique.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41270,""
 41271,""
 41272,""
@@ -51817,7 +51818,9 @@ Cette action devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>P
 41275,""
 41276,""
 41277,""
-41278,""
+41278,"Ignore l'état Chances de ferrage réduites et ferre votre prise grâce à un maniement gracieux de votre canne à pêche.
+Cette technique de pêche évite également de blesser le poisson et augmente les chances d'obtenir une prise de haute qualité.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cette action ne peut être utilisée qu'au cours d'une pêche lors d'une mission cosmique.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41279,""
 41280,""
 41281,""
@@ -51846,7 +51849,8 @@ Cette action devient <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>P
 41304,""
 41305,""
 41306,""
-41307,""
+41307,"Augmente avec efficacité maximale la valeur de collection obtenue par la prochaine <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sélection instinctive<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, et augmente de 40% les chances pour que <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Sélection méthodique<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ne coûte aucune tentative de récolte.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cette action ne peut être utilisée qu'au cours d'une récolte lors d'une mission cosmique.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 41308,""
 41309,""
 41310,""
@@ -52986,8 +52990,11 @@ Plus le nombre de charges consommées est élevé, plus le nombre de coups port�
 42033,""
 42034,""
 42035,""
-42036,""
-42037,""
+42036,"Tire trois graines de carottes à la suite.
+La sélection de la cible se fait au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment lorsque le ciblage automatique est activé.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> vous octroie <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gain de puissance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (10% de chances d'activation)."
+42037,"Effectue un puissant tir de particules de carotte en ligne droite vers l'avant capable de détruire d'un seul coup tous les grands cristaux corrompus sur la trajectoire.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Condition<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gain de puissance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 42038,""
 42039,""
 42040,""
@@ -53022,7 +53029,7 @@ Plus le nombre de charges consommées est élevé, plus le nombre de coups port�
 42068,""
 42069,""
 42070,""
-42071,""
+42071,"Se rue en avant et balaye les grosses excroissances fongiques d'un grand coup de lame frontale."
 42072,""
 42073,""
 42074,""
@@ -53100,9 +53107,11 @@ Plus le nombre de charges consommées est élevé, plus le nombre de coups port�
 42146,""
 42147,""
 42148,""
-42149,""
-42150,""
-42151,""
+42149,"Vous téléporte au cristal central de la zone actuelle."
+42150,"Démolit les cristaux corrompus en ligne droite devant vous grâce à une puissante foreuse en adamantium sélénien.
+Ne fonctionne pas sur les grands cristaux corrompus."
+42151,"Projette une fusée éclairante conçue à partir d'une graine du bonheur.
+* Effet spécial. N'inflige aucun dégât."
 42152,""
 42153,""
 42154,""
@@ -53215,10 +53224,11 @@ Plus le nombre de charges consommées est élevé, plus le nombre de coups port�
 42255,""
 42256,""
 42257,""
-42258,""
+42258,"Brûle les excroissances fongiques dans une zone en éventail devant vous à l'aide d'un lance-flammes.
+Ne fonctionne pas sur les grosses excroissances fongiques."
 42259,""
 42260,""
-42261,""
+42261,"Génère une onde de choc autour de la déblayeuse cosmique qui détruit les grosses excroissances fongiques."
 42262,""
 42263,""
 42264,""
@@ -54205,8 +54215,7 @@ Plus le nombre de charges consommées est élevé, plus le nombre de coups port�
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> augmente de 25% les dégâts subis par les ennemis.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
 43244,"Réduit de 50% vos dégâts subis et augmente de 25% les effets de récupération de PV sur vous.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
-"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 43245,"Effectue une attaque physique sur la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Effet additionnel<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> projette la cible 30 yalms en arrière.
@@ -54238,7 +54247,7 @@ Pendant l'incantation, il est impossible de se déplacer ou d'interrompre le lan
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
 43255,"Restaure les PV de la cible.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 12 000"
-43256,"Crée une barrière sur vous et les équipiers alentour, absorbant les dégâts subis.
+43256,"Crée une barrière sur vous et les équipiers alentour, absorbant un certain montant de dégâts.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10 000 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Durée<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
 43257,"Effectue une attaque magique sur la cible et les ennemis autour.
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Puissance<Indent/>:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 8000
@@ -54347,7 +54356,8 @@ Assauts à grande échelle (Front et Ailes rivales) uniquement."
 43354,""
 43355,""
 43356,""
-43357,""
+43357,"Augmente de 50% votre vitesse de déplacement.
+Dure indéfiniment."
 43358,""
 43359,""
 43360,""
@@ -54355,8 +54365,8 @@ Assauts à grande échelle (Front et Ailes rivales) uniquement."
 43362,""
 43363,""
 43364,""
-43365,""
-43366,""
+43365,"Active la fonction de ciblage automatique du Carotto-flingue."
+43366,"Désactive la fonction de ciblage automatique du Carotto-flingue."
 43367,""
 43368,""
 43369,""

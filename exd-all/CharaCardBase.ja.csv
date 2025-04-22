@@ -138,7 +138,7 @@ int32,Image,byte,bool,bool,byte,BannerCondition,uint16,uint16,uint16,byte,uint16
 134,"ui/icon/193000/193708.tex",1,True,True,0,"BannerCondition#876",0,0,0,4,2356,"ディープダンジョン：アメノミハシラ1"
 135,"ui/icon/193000/193709.tex",1,True,True,0,"BannerCondition#877",0,0,0,4,2357,"ディープダンジョン：アメノミハシラ2"
 136,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-137,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
+137,"ui/icon/193000/193741.tex",1,True,True,0,"BannerCondition#878",0,0,0,8,2342,"コスモエクスプローラー"
 138,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
 139,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
 140,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
