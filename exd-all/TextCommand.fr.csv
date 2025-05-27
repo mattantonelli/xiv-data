@@ -3125,6 +3125,12 @@ Exprime sa stupeur de façon exagérée.
 >> Sous-commande<Indent/>:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/stupeurexagérée","/stupeurex","pdamage",0
+693,2,1,2,0,0,"/twirl","","/pirouette, /twirl
+Utilisation<Indent/>: /pirouette [sous-commande]
+Fait une pirouette.
+>> Sous-commande<Indent/>:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.","/pirouette","","pdamage",0
 694,2,1,2,0,0,"/dazed","","/chanceler, /dazed
 Utilisation<Indent/>: /chanceler [sous-commande]
 Chancelle.

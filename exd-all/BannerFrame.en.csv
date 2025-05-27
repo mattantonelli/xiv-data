@@ -232,7 +232,7 @@ int32,Image,Image,byte,BannerCondition,uint16,uint16,uint16,uint16,str
 228,"ui/icon/191000/191538.tex","ui/icon/082000/082092.tex",5,"BannerCondition#870",0,0,0,3324,"Silver Conflict 14"
 229,"ui/icon/191000/191537.tex","ui/icon/082000/082092.tex",5,"BannerCondition#871",0,0,0,3325,"Bronze Conflict 14"
 230,"ui/icon/191000/191724.tex","ui/icon/082000/082092.tex",4,"BannerCondition#872",0,0,0,2505,"Futures Rewritten"
-231,,,0,"BannerCondition#0",0,0,0,0,""
+231,"ui/icon/191000/191725.tex","ui/icon/082000/082092.tex",4,"BannerCondition#879",0,0,0,2403,"Occult Crescent"
 232,"ui/icon/191000/191726.tex","ui/icon/082000/082092.tex",8,"BannerCondition#878",0,0,0,2342,"Cosmic Exploration"
 233,,,0,"BannerCondition#0",0,0,0,0,""
 234,,,0,"BannerCondition#0",0,0,0,0,""

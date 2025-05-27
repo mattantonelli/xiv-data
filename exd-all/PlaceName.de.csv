@@ -2609,7 +2609,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 2581,"Westlicher Allagischer Sonnentempel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum westlichen Allagischen Sonnentempel</Case><Case(2)>am westlichen Allagischen Sonnentempel</Case><Case(3)>der westliche Allagische Sonnentempel</Case></Switch>",0,0,0
 2582,"Südlicher Allagischer Wohnbezirk",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum südlichen Allagischen Wohnbezirk</Case><Case(2)>am südlichen Allagischen Wohnbezirk</Case><Case(3)>der südliche Allagische Wohnbezirk</Case></Switch>",0,0,0
 2583,"Nördlicher Allagischer Wohnbezirk",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum nördlichen Allagischen Wohnbezirk</Case><Case(2)>am nördlichen Allagischen Wohnbezirk</Case><Case(3)>der nördliche Allagische Wohnbezirk</Case></Switch>",0,0,0
-2584,"",0,"",0,0,0,0,0,"",0,0,0
+2584,"Kreszentia (Feldexkursion)",0,"",0,0,1,0,0,"",0,0,0
 2585,"",0,"",0,0,0,0,0,"",0,0,0
 2586,"Ghimlyt-Finsternis",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>in die Ghimlyt-Finsternis</Case><Case(2)>in der Ghimlyt-Finsternis</Case><Case(3)>Ghimlyt-Finsternis</Case></Switch>",0,0,0
 2587,"Söldnerlager Nord",0,"",0,0,1,0,0,"",0,0,0
@@ -4781,12 +4781,12 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4753,"Spitze der Mu",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Spitze der Mu</Case><Case(2)>auf der Spitze der Mu</Case><Case(3)>die Spitze der Mu</Case></Switch>",0,0,0
 4754,"Sternenlicht-Stände",0,"",0,0,1,0,0,"",0,0,0
 4755,"Audienzsaal",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Audienzsaal</Case><Case(2)>im Audienzsaal</Case><Case(3)>der Audienzsaal</Case></Switch>",0,0,0
-4756,"",0,"",0,0,0,0,0,"",0,0,0
-4757,"",0,"",0,0,0,0,0,"",0,0,0
-4758,"",0,"",0,0,0,0,0,"",0,0,0
+4756,"Gok Golma",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Gok Golma</Case><Case(2)>in Gok Golma</Case><Case(3)>Gok Golma</Case></Switch>",0,0,0
+4757,"Trugstadt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Trugstadt</Case><Case(2)>in der Trugstadt</Case><Case(3)>die Trugstadt</Case></Switch>",0,0,0
+4758,"Auf hoher See",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Hohen See</Case><Case(2)>auf Hoher See</Case><Case(3)>die Hohe See</Case></Switch>",0,0,0
 4759,"Ruheraum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Ruheraum</Case><Case(2)>im Ruheraum</Case><Case(3)>der Ruheraum</Case></Switch>",0,0,0
 4760,"Audienzhalle",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Audienzhalle</Case><Case(2)>in der Audienzhalle</Case><Case(3)>die Audienzhalle</Case></Switch>",0,0,0
-4761,"",0,"",0,0,0,0,0,"",0,0,0
+4761,"<Emphasis>FF Lhaminn</Emphasis>",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur <Emphasis>FF Lhaminn</Emphasis></Case><Case(2)>in der <Emphasis>FF Lhaminn</Emphasis></Case><Case(3)>die <Emphasis>FF Lhaminn</Emphasis></Case></Switch>",0,0,0
 4762,"",0,"",0,0,1,0,0,"",0,0,0
 4763,"",0,"",0,0,1,0,0,"",0,0,0
 4764,"",0,"",0,0,1,0,0,"",0,0,0
@@ -4952,27 +4952,27 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 4924,"Sagenhafter Speicher",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Sagenhaften Speicher</Case><Case(2)>am Sagenhafter Speicher</Case><Case(3)>der Sagenhafte Speicher</Case></Switch>",0,0,0
 4925,"Altar der Schlängelnden Urne",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Altar der Schlängelnden Urne</Case><Case(2)>am Altar der Schlängelnden Urne</Case><Case(3)>der Altar der Schlängelnden Urne</Case></Switch>",0,0,0
 4926,"Kaktorsenke",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kaktorsenke</Case><Case(2)>in der Kaktorsenke</Case><Case(3)>die Kaktorsenke</Case></Switch>",0,0,0
-4927,"",0,"",0,0,0,0,0,"",0,0,0
-4928,"",0,"",0,0,0,0,0,"",0,0,0
-4929,"",0,"",0,0,0,0,0,"",0,0,0
-4930,"",0,"",0,0,0,0,0,"",0,0,0
-4931,"",0,"",0,0,0,0,0,"",0,0,0
-4932,"",0,"",0,0,0,0,0,"",0,0,0
-4933,"",0,"",0,0,0,0,0,"",0,0,0
-4934,"",0,"",0,0,0,0,0,"",0,0,0
-4935,"",0,"",0,0,0,0,0,"",0,0,0
-4936,"",0,"",0,0,0,0,0,"",0,0,0
-4937,"",0,"",0,0,0,0,0,"",0,0,0
-4938,"",0,"",0,0,0,0,0,"",0,0,0
-4939,"",0,"",0,0,0,0,0,"",0,0,0
-4940,"",0,"",0,0,0,0,0,"",0,0,0
-4941,"",0,"",0,0,0,0,0,"",0,0,0
-4942,"",0,"",0,0,0,0,0,"",0,0,0
-4943,"",0,"",0,0,0,0,0,"",0,0,0
-4944,"",0,"",0,0,0,0,0,"",0,0,0
-4945,"",0,"",0,0,0,0,0,"",0,0,0
-4946,"",0,"",0,0,0,0,0,"",0,0,0
-4947,"",0,"",0,0,0,0,0,"",0,0,0
+4927,"Basislager der Expedition",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Basislager der Expedition</Case><Case(2)>im Basislager der Expedition</Case><Case(3)>das Basislager der Expedition</Case></Switch>",0,0,0
+4928,"Zuflucht des Wanderers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Zuflucht des Wanderers</Case><Case(2)>in der Zuflucht des Wanderers</Case><Case(3)>die Zuflucht des Wanderers</Case></Switch>",0,0,0
+4929,"Kristallgrotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kristallgrotte</Case><Case(2)>in der Kristallgrotte</Case><Case(3)>die Kristallgrotte</Case></Switch>",0,0,0
+4930,"Holderwuchs",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Holderwuchs</Case><Case(2)>am Holderwuchs</Case><Case(3)>der Holderwuchs</Case></Switch>",0,0,0
+4931,"Kreszentia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Kreszentia</Case><Case(2)>auf Kreszentia</Case><Case(3)>Kreszentia</Case></Switch>",0,0,0
+4932,"Südliches Kreszentia",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum südlichen Kreszentia</Case><Case(2)>im südlichen Kreszentia</Case><Case(3)>das südliche Kreszentia</Case></Switch>",0,0,39
+4933,"Turm des Blutes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Turm des Blutes</Case><Case(2)>im Turm des Blutes</Case><Case(3)>der Turm des Blutes</Case></Switch>",0,0,0
+4934,"Südheide",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Südheide</Case><Case(2)>auf der Südheide</Case><Case(3)>die Südheide</Case></Switch>",0,0,0
+4935,"Trughalde",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Trughalde</Case><Case(2)>auf der Trughalde</Case><Case(3)>die Trughalde</Case></Switch>",0,0,0
+4936,"Zuflucht des Wanderers",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Zuflucht des Wanderers</Case><Case(2)>in der Zuflucht des Wanderers</Case><Case(3)>die Zuflucht des Wanderers</Case></Switch>",0,0,0
+4937,"Verlorene Festung",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Verlorenen Festung</Case><Case(2)>in der Verlorenen Festung</Case><Case(3)>die Verlorene Festung</Case></Switch>",0,0,0
+4938,"Heidklipp",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Heidklipp</Case><Case(2)>an der Heidklipp</Case><Case(3)>die Heidklipp</Case></Switch>",0,0,0
+4939,"Kristallgrotte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kristallgrotte</Case><Case(2)>in der Kristallgrotte</Case><Case(3)>die Kristallgrotte</Case></Switch>",0,0,0
+4940,"Holderwuchs",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Holderwuchs</Case><Case(2)>am Holderwuchs</Case><Case(3)>der Holderwuchs</Case></Switch>",0,0,0
+4941,"Stadt der Schemen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Stadt der Schemen</Case><Case(2)>in der Stadt der Schemen</Case><Case(3)>die Stadt der Schemen</Case></Switch>",0,0,0
+4942,"Felsfenn",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Felsfenn</Case><Case(2)>im Felsfenn</Case><Case(3)>das Felsfenn</Case></Switch>",0,0,0
+4943,"Leere Stufen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Leeren Stufen</Case><Case(2)>auf den Leeren Stufen</Case><Case(3)>die Leeren Stufen</Case></Switch>",0,0,0
+4944,"Basislager der Expedition",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Basislager der Expedition</Case><Case(2)>im Basislager der Expedition</Case><Case(3)>das Basislager der Expedition</Case></Switch>",0,0,0
+4945,"Stille Laube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Stillen Laube</Case><Case(2)>in der Stillen Laube</Case><Case(3)>die Stille Laube</Case></Switch>",0,0,0
+4946,"Falscher Kreuzgang",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Falschen Kreuzgang</Case><Case(2)>im Falschen Kreuzgang</Case><Case(3)>der Falsche Kreuzgang</Case></Switch>",0,0,0
+4947,"Felsfenn",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Felsfenn</Case><Case(2)>im Felsfenn</Case><Case(3)>das Felsfenn</Case></Switch>",0,0,0
 4948,"",0,"",0,0,1,0,0,"",0,0,0
 4949,"",0,"",0,0,1,0,0,"",0,0,0
 4950,"",0,"",0,0,1,0,0,"",0,0,0
@@ -5204,33 +5204,33 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5176,"Tanzring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Tanzring</Case><Case(2)>im Tanzring</Case><Case(3)>der Tanzring</Case></Switch>",0,0,0
 5177,"Wolfsring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wolfsring</Case><Case(2)>im Wolfsring</Case><Case(3)>der Wolfsring</Case></Switch>",0,0,0
 5178,"Jagdring",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Jagdring</Case><Case(2)>im Jagdring</Case><Case(3)>der Jagdring</Case></Switch>",0,0,0
-5179,"",0,"",0,0,0,0,0,"",0,0,0
-5180,"",0,"",0,0,0,0,0,"",0,0,0
-5181,"",0,"",0,0,0,0,0,"",0,0,0
-5182,"",0,"",0,0,0,0,0,"",0,0,0
-5183,"",0,"",0,0,0,0,0,"",0,0,0
-5184,"",0,"",0,0,0,0,0,"",0,0,0
-5185,"",0,"",0,0,0,0,0,"",0,0,0
-5186,"",0,"",0,0,0,0,0,"",0,0,0
-5187,"",0,"",0,0,0,0,0,"",0,0,0
-5188,"",0,"",0,0,0,0,0,"",0,0,0
-5189,"",0,"",0,0,0,0,0,"",0,0,0
-5190,"",0,"",0,0,0,0,0,"",0,0,0
-5191,"",0,"",0,0,0,0,0,"",0,0,0
-5192,"",0,"",0,0,0,0,0,"",0,0,0
-5193,"",0,"",0,0,0,0,0,"",0,0,0
-5194,"",0,"",0,0,0,0,0,"",0,0,0
-5195,"",0,"",0,0,0,0,0,"",0,0,0
-5196,"",0,"",0,0,0,0,0,"",0,0,0
-5197,"",0,"",0,0,0,0,0,"",0,0,0
-5198,"",0,"",0,0,0,0,0,"",0,0,0
-5199,"",0,"",0,0,0,0,0,"",0,0,0
-5200,"",0,"",0,0,0,0,0,"",0,0,0
-5201,"",0,"",0,0,0,0,0,"",0,0,0
-5202,"",0,"",0,0,0,0,0,"",0,0,0
-5203,"",0,"",0,0,0,0,0,"",0,0,0
-5204,"",0,"",0,0,0,0,0,"",0,0,0
-5205,"",0,"",0,0,0,0,0,"",0,0,0
+5179,"Turm des Blutes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Turm des Blutes</Case><Case(2)>im Turm des Blutes</Case><Case(3)>der Turm des Blutes</Case></Switch>",0,0,0
+5180,"Fuß des Turmes",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Fuß des Turmes</Case><Case(2)>am Fuß des Turmes</Case><Case(3)>der Fuß des Turmes</Case></Switch>",0,0,0
+5181,"Zentrale Galerie",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur zentralen Galerie</Case><Case(2)>in der zentralen Galerie</Case><Case(3)>die zentrale Galerie</Case></Switch>",0,0,0
+5182,"Zentraler Westkorridor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum zentralen Westkorridor</Case><Case(2)>im zentralen Westkorridor</Case><Case(3)>der zentrale Westkorridor</Case></Switch>",0,0,0
+5183,"Zentraler Ostkorridor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum zentralen Ostkorridor</Case><Case(2)>im zentralen Ostkorridor</Case><Case(3)>der zentrale Ostkorridor</Case></Switch>",0,0,0
+5184,"Geheimer Winkel 1",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 1</Case><Case(2)>im geheimen Winkel 1</Case><Case(3)>der geheime Winkel 1</Case></Switch>",0,0,0
+5185,"Geheimer Winkel 2",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 2</Case><Case(2)>im geheimen Winkel 2</Case><Case(3)>der geheime Winkel 2</Case></Switch>",0,0,0
+5186,"Geheimer Winkel 3",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 3</Case><Case(2)>im geheimen Winkel 3</Case><Case(3)>der geheime Winkel 3</Case></Switch>",0,0,0
+5187,"Geheimer Winkel 4",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 4</Case><Case(2)>im geheimen Winkel 4</Case><Case(3)>der geheime Winkel 4</Case></Switch>",0,0,0
+5188,"Geheimer Winkel 5",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 5</Case><Case(2)>im geheimen Winkel 5</Case><Case(3)>der geheime Winkel 5</Case></Switch>",0,0,0
+5189,"Geheimer Winkel 6",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 6</Case><Case(2)>im geheimen Winkel 6</Case><Case(3)>der geheime Winkel 6</Case></Switch>",0,0,0
+5190,"Geheimer Winkel 7",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 7</Case><Case(2)>im geheimen Winkel 7</Case><Case(3)>der geheime Winkel 7</Case></Switch>",0,0,0
+5191,"Geheimer Winkel 8",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum geheimen Winkel 8</Case><Case(2)>im geheimen Winkel 8</Case><Case(3)>der geheime Winkel 8</Case></Switch>",0,0,0
+5192,"Oberer Außenbereich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum oberen Außenbereich</Case><Case(2)>im oberen Außenbereich</Case><Case(3)>der obere Außenbereich</Case></Switch>",0,0,0
+5193,"Oberer Innenbereich",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum oberen Innenbereich</Case><Case(2)>im oberen Innenbereich</Case><Case(3)>der obere Innenbereich</Case></Switch>",0,0,0
+5194,"Turmhöhen-Tor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Turmhöhen-Tor</Case><Case(2)>am Turmhöhen-Tor</Case><Case(3)>das Turmhöhen-Tor</Case></Switch>",0,0,0
+5195,"Turmhöhen-Korridor",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Turmhöhen-Korridor</Case><Case(2)>im Turmhöhen-Korridor</Case><Case(3)>der Turmhöhen-Korridor</Case></Switch>",0,0,0
+5196,"Eremitage der Seiten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Eremitage der Seiten</Case><Case(2)>in der Eremitage der Seiten</Case><Case(3)>die Eremitage der Seiten</Case></Switch>",0,0,0
+5197,"Streng geheimer Winkel 1",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum streng geheimen Winkel 1</Case><Case(2)>im streng geheimen Winkel 1</Case><Case(3)>der streng geheime Winkel 1</Case></Switch>",0,0,0
+5198,"Streng geheimer Winkel 2",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum streng geheimen Winkel 2</Case><Case(2)>im streng geheimen Winkel 2</Case><Case(3)>der streng geheime Winkel 2</Case></Switch>",0,0,0
+5199,"Streng geheimer Winkel 3",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum streng geheimen Winkel 3</Case><Case(2)>im streng geheimen Winkel 3</Case><Case(3)>der streng geheime Winkel 3</Case></Switch>",0,0,0
+5200,"Paläografiezimmer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Paläografiezimmer</Case><Case(2)>im Paläografiezimmer</Case><Case(3)>das Paläografiezimmer</Case></Switch>",0,0,0
+5201,"Astronomiezimmer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Astronomiezimmer</Case><Case(2)>im Astronomiezimmer</Case><Case(3)>das Astronomiezimmer</Case></Switch>",0,0,0
+5202,"Glaziologiezimmer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glaziologiezimmer</Case><Case(2)>im Glaziologiezimmer</Case><Case(3)>das Glaziologiezimmer</Case></Switch>",0,0,0
+5203,"Hämatologiezimmer",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Hämatologiezimmer</Case><Case(2)>im Hämatologiezimmer</Case><Case(3)>das Hämatologiezimmer</Case></Switch>",0,0,0
+5204,"Zinkenweg",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Zinkenweg</Case><Case(2)>auf dem Zinkenweg</Case><Case(3)>der Zinkenweg</Case></Switch>",0,0,0
+5205,"Riegelschloss",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Riegelschloss</Case><Case(2)>am Riegelschloss</Case><Case(3)>das Riegelschloss</Case></Switch>",0,0,0
 5206,"Heulbecken",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Heulbecken</Case><Case(2)>am Heulbecken</Case><Case(3)>das Heulbecken</Case></Switch>",0,0,0
 5207,"Nördliches Pfötchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Nördlichen Pfötchen</Case><Case(2)>am Nördlichen Pfötchen</Case><Case(3)>das Nördliche Pfötchen</Case></Switch>",0,0,0
 5208,"Westliches Pfötchen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Westlichen Pfötchen</Case><Case(2)>am Westlichen Pfötchen</Case><Case(3)>das Westliche Pfötchen</Case></Switch>",0,0,0
@@ -5243,7 +5243,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5215,"Wohnradius 8-71",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wohnradius 8-71</Case><Case(2)>im Wohnradius 8-71</Case><Case(3)>der Wohnradius 8-71</Case></Switch>",0,0,0
 5216,"Wohnradius 8-72",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Wohnradius 8-72</Case><Case(2)>im Wohnradius 8-72</Case><Case(3)>der Wohnradius 8-72</Case></Switch>",0,0,0
 5217,"Innerer Wohnradius 8-72",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum inneren Wohnradius 8-72</Case><Case(2)>im inneren Wohnradius 8-72</Case><Case(3)>der innere Wohnradius 8-72</Case></Switch>",0,0,0
-5218,"",0,"",0,0,0,0,0,"",0,0,0
+5218,"Yuweyawata",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Yuweyawata</Case><Case(2)>in Yuweyawata</Case><Case(3)>Yuweyawata</Case></Switch>",0,0,0
 5219,"Sinus Ardorum",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>nach Sinus Ardorum</Case><Case(2)>in Sinus Ardorum</Case><Case(3)>Sinus Ardorum</Case></Switch>",0,0,0
 5220,"Kosmopforte",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kosmopforte</Case><Case(2)>an der Kosmopforte</Case><Case(3)>die Kosmopforte</Case></Switch>",0,0,0
 5221,"Kalabassenbucht ",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Kalabassenbucht</Case><Case(2)>in der Kalabassenbucht</Case><Case(3)>die Kalabassenbucht </Case></Switch>",0,0,0
@@ -5253,7 +5253,7 @@ Fähre zum Ostwald",0,"",0,0,1,0,0,"",0,0,0
 5225,"Mondtor-Station",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Mondtor-Station</Case><Case(2)>in der Mondtor-Station</Case><Case(3)>die Mondtor-Station</Case></Switch>",0,0,0
 5226,"Falltränen",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Falltränen</Case><Case(2)>in den Falltränen</Case><Case(3)>die Falltränen</Case></Switch>",0,0,0
 5227,"Blühbetten",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Blühbetten</Case><Case(2)>in den Blühbetten</Case><Case(3)>die Blühbetten</Case></Switch>",0,0,0
-5228,"Pilzstube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zurPilzstube</Case><Case(2)>in derPilzstube</Case><Case(3)>die Pilzstube</Case></Switch>",0,0,0
+5228,"Pilzstube",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zur Pilzstube</Case><Case(2)>in der Pilzstube</Case><Case(3)>die Pilzstube</Case></Switch>",0,0,0
 5229,"Erdrutschloch",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Erdrutschloch</Case><Case(2)>im Erdrutschloch</Case><Case(3)>das Erdrutschloch</Case></Switch>",0,0,0
 5230,"Glimmspalt",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zum Glimmspalt</Case><Case(2)>im Glimmspalt</Case><Case(3)>der Glimmspalt</Case></Switch>",0,0,0
 5231,"Schreiende Krümel",0,"",0,0,1,0,0,"<Switch(IntegerParameter(1))><Case(1)>zu den Schreienden Krümeln</Case><Case(2)>in den Schreienden Krümeln</Case><Case(3)>die Schreienden Krümel</Case></Switch>",0,0,0

@@ -38914,9 +38914,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038910,"Y'shtola",0,"Y'shtola",0,0,1,1,1,"",3,False
 1038911,"Urianger",0,"Urianger",0,1,1,0,1,"",3,False
 1038912,"Cookingway",0,"Cookingway",0,0,1,0,1,"",3,False
-1038913,"",0,"",0,0,0,0,0,"",0,False
-1038914,"",0,"",0,0,0,0,0,"",0,False
-1038915,"",0,"",0,0,0,0,0,"",0,False
+1038913,"artisane de l'expédition",0,"artisanes de l'expédition",0,1,1,1,0,"Réparations",3,True
+1038914,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
+1038915,"messager de l'expédition",0,"messagers de l'expédition",0,0,1,0,0,"",3,False
 1038916,"Thancred",0,"Thancred",0,0,1,0,1,"",3,False
 1038917,"Y'shtola",0,"Y'shtola",0,0,1,1,1,"",3,False
 1038918,"Urianger",0,"Urianger",0,1,1,0,1,"",3,False
@@ -38968,7 +38968,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1038964,"Maxima",0,"Maxima",0,0,1,0,1,"",3,False
 1038965,"Krile",0,"Krile",0,0,1,1,1,"",3,False
 1038966,"Tataru",0,"Tataru",0,0,1,1,1,"",3,False
-1038967,"",0,"",0,0,0,0,0,"",0,False
+1038967,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
 1038968,"Tataru",0,"Tataru",0,0,1,1,1,"",3,False
 1038969,"Tataru",0,"Tataru",0,0,1,1,1,"",3,False
 1038970,"Alphinaud",0,"Alphinaud",0,1,1,0,1,"",3,False
@@ -39457,8 +39457,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1039453,"",0,"",0,0,1,0,0,"",4,False
 1039454,"jeune Ao Ra",0,"jeunes Ao Ra",0,0,1,0,0,"",4,False
 1039455,"petit Hyur",0,"petits Hyurs",0,0,1,0,0,"",4,False
-1039456,"",0,"",0,0,0,0,0,"",0,False
-1039457,"",0,"",0,0,0,0,0,"",0,False
+1039456,"Gerolt",0,"Gerolt",0,0,1,0,1,"",3,False
+1039457,"Lydirceil",0,"Lydirceil",0,0,1,0,1,"",3,False
 1039458,"",0,"",0,0,0,0,0,"",0,False
 1039459,"",0,"",0,0,0,0,0,"",0,False
 1039460,"",0,"",0,0,0,0,0,"",0,False
@@ -39721,7 +39721,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1039717,"G'raha Tia",0,"G'raha Tia",0,0,1,0,1,"",3,False
 1039718,"Estinien",0,"Estinien",0,1,1,0,1,"",3,False
 1039719,"Krile",0,"Krile",0,0,1,1,1,"",3,False
-1039720,"",0,"",0,0,0,0,0,"",0,False
+1039720,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
 1039721,"Hester",0,"Hester",0,1,1,1,1,"Liftière",3,False
 1039722,"Fourchenault",0,"Fourchenault",0,0,1,0,1,"",3,False
 1039723,"Alphinaud",0,"Alphinaud",0,1,1,0,1,"",3,False
@@ -42455,7 +42455,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1042451,"lapine des prés",0,"lapines des prés",0,0,1,0,0,"",4,False
 1042452,"Aunillie",0,"Aunillie",0,1,1,1,1,"",4,False
 1042453,"lapin en caleçon",0,"lapins en caleçon",0,0,1,0,0,"",3,False
-1042454,"",0,"",0,0,0,0,0,"",0,False
+1042454,"observateur de l'expédition",0,"observateurs de l'expédition",0,1,1,0,0,"",3,False
 1042455,"lapin étrangement suspect",0,"lapins étrangement suspects",0,0,1,0,0,"",4,False
 1042456,"",0,"",0,0,1,0,0,"",5,False
 1042457,"",0,"",0,0,1,0,0,"",5,False
@@ -42895,7 +42895,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1042891,"",0,"",0,0,1,0,0,"",5,False
 1042892,"botaniste interloquée",0,"botanistes interloquées",0,0,1,1,0,"",3,False
 1042893,"Y'mhitra",0,"Y'mhitra",0,0,1,1,1,"",4,False
-1042894,"",0,"",0,0,0,0,0,"",0,False
+1042894,"scribe de l'expédition",0,"scribes de l'expédition",0,0,1,1,0,"",3,False
 1042895,"Maisenta",0,"Maisenta",0,0,0,1,1,"",4,False
 1042896,"Geva",0,"Geva",0,0,1,1,1,"",4,False
 1042897,"Vorsaile Heuloix",0,"Vorsaile Heuloix",0,0,1,0,1,"",4,False
@@ -46342,7 +46342,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046338,"aventurier averti",0,"aventuriers avertis",0,1,1,0,0,"",3,False
 1046339,"Keshkwa",0,"Keshkwa",0,0,1,0,1,"",3,False
 1046340,"jeune garçon effrayé",0,"jeunes garçons effrayés",0,0,1,0,0,"",3,False
-1046341,"",0,"",0,0,0,0,0,"",0,False
+1046341,"mineur de l'expédition",0,"mineurs de l'expédition",0,0,1,0,0,"",3,False
 1046342,"",0,"",0,0,1,0,0,"",5,False
 1046343,"",0,"",0,0,1,0,0,"",5,False
 1046344,"Keshkwa",0,"Keshkwa",0,0,1,0,1,"",3,False
@@ -46351,7 +46351,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046347,"Golias",0,"Golias",0,0,1,0,1,"",3,False
 1046348,"Keshkwa",0,"Keshkwa",0,0,1,0,1,"",3,False
 1046349,"Innocent Storck",0,"Innocent Storck",0,1,1,1,1,"",3,False
-1046350,"",0,"",0,0,0,0,0,"",0,False
+1046350,"magasinier de l'expédition",0,"magasiniers de l'expédition",0,0,1,0,0,"",3,False
 1046351,"capitaine des traqueurs",0,"capitaines des traqueurs",0,0,1,0,0,"",3,False
 1046352,"",0,"",0,0,1,0,0,"",5,False
 1046353,"",0,"",0,0,1,0,0,"",5,False
@@ -46370,7 +46370,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1046366,"",0,"",0,0,1,0,0,"",5,False
 1046367,"",0,"",0,0,1,0,0,"",5,False
 1046368,"Innocent Storck",0,"Innocent Storck",0,1,1,1,1,"",3,False
-1046369,"",0,"",0,0,0,0,0,"",0,False
+1046369,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
 1046370,"",0,"",0,0,1,0,0,"",5,False
 1046371,"Keshkwa",0,"Keshkwa",0,0,1,0,1,"",3,False
 1046372,"Golias",0,"Golias",0,0,1,0,1,"",3,False
@@ -50151,8 +50151,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1050147,"",0,"",0,0,1,0,0,"",4,False
 1050148,"",0,"",0,0,1,0,0,"",4,False
 1050149,"",0,"",0,0,1,0,0,"",4,False
-1050150,"",0,"",0,0,0,0,0,"",0,False
-1050151,"",0,"",0,0,0,0,0,"",0,False
+1050150,"",0,"",0,0,1,0,0,"",4,False
+1050151,"",0,"",0,0,1,0,0,"",4,False
 1050152,"",0,"",0,0,1,0,0,"",4,False
 1050153,"",0,"",0,0,1,0,0,"",4,False
 1050154,"",0,"",0,0,1,0,0,"",4,False
@@ -51598,9 +51598,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1051594,"",0,"",0,0,1,0,0,"",5,False
 1051595,"",0,"",0,0,1,0,0,"",5,False
 1051596,"",0,"",0,0,1,0,0,"",5,False
-1051597,"",0,"",0,0,0,0,0,"",0,False
-1051598,"",0,"",0,0,0,0,0,"",0,False
-1051599,"",0,"",0,0,0,0,0,"",0,False
+1051597,"",0,"",0,0,1,0,0,"",5,False
+1051598,"",0,"",0,0,1,0,0,"",5,False
+1051599,"Haermaga",0,"Haermaga",0,0,1,0,1,"Organisateur en chef des Feux de la Mort",3,False
 1051600,"apothicaire suspect",0,"apothicaires suspects",0,1,1,0,0,"",3,False
 1051601,"épéiste lalafell",0,"épéistes lalafells",0,1,1,0,0,"",3,False
 1051602,"",0,"",0,0,1,0,0,"",4,False
@@ -52332,12 +52332,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052322,"touriste affairé",0,"touristes affairés",0,0,1,0,0,"",3,False
 1052323,"guide désireux d'apprendre",0,"guides désireux d'apprendre",0,0,1,0,0,"",3,False
 1052324,"guide mobelin",0,"guides mobelins",0,0,1,0,0,"",3,False
-1052325,"",0,"",0,0,0,0,0,"",0,False
+1052325,"batelier",0,"bateliers",0,0,1,0,0,"",3,False
 1052326,"guide mobelin",0,"guides mobelins",0,0,1,0,0,"",3,False
 1052327,"amoureuse des punutiy",0,"amoureuses des punutiy",0,1,1,1,0,"",3,False
 1052328,"admirateur des punutiy",0,"admirateurs des punutiy",0,1,1,0,0,"",3,False
 1052329,"fan des punutiy",0,"fans des punutiy",0,0,1,1,0,"",3,False
-1052330,"",0,"",0,0,0,0,0,"",0,False
+1052330,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
 1052331,"soigneur hanu hanu",0,"soigneurs hanu hanu",0,0,1,0,0,"",3,False
 1052332,"punutiy affamé",0,"punutiy affamés",0,0,1,0,0,"",3,False
 1052333,"bébé alpaga espiègle",0,"bébés alpagas espiègles",0,0,1,0,0,"",3,False
@@ -52457,9 +52457,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052447,"",0,"",0,0,1,0,0,"",5,False
 1052448,"",0,"",0,0,1,0,0,"",5,False
 1052449,"pâtre pelupelu",0,"pâtres pelupelu",0,0,1,0,0,"",3,False
-1052450,"",0,"",0,0,0,0,0,"",0,False
-1052451,"",0,"",0,0,0,0,0,"",0,False
-1052452,"",0,"",0,0,0,0,0,"",0,False
+1052450,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
+1052451,"",0,"",0,0,1,0,0,"",5,False
+1052452,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
 1052453,"",0,"",0,0,0,0,0,"",0,False
 1052454,"",0,"",0,0,1,0,0,"",2,False
 1052455,"",0,"",0,0,1,0,0,"",2,False
@@ -52553,41 +52553,41 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052543,"Namingway",0,"Namingway",0,0,1,0,1,"",4,False
 1052544,"Searchingway",0,"Searchingway",0,0,1,0,1,"",4,False
 1052545,"Drivingway",0,"Drivingway",0,0,1,0,1,"",4,False
-1052546,"",0,"",0,0,0,0,0,"",0,False
-1052547,"",0,"",0,0,0,0,0,"",0,False
-1052548,"",0,"",0,0,0,0,0,"",0,False
-1052549,"",0,"",0,0,0,0,0,"",0,False
-1052550,"",0,"",0,0,0,0,0,"",0,False
-1052551,"",0,"",0,0,0,0,0,"",0,False
-1052552,"",0,"",0,0,0,0,0,"",0,False
-1052553,"",0,"",0,0,0,0,0,"",0,False
-1052554,"",0,"",0,0,0,0,0,"",0,False
-1052555,"",0,"",0,0,0,0,0,"",0,False
+1052546,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",4,False
+1052547,"monocle chapardeur",0,"monocles chapardeurs",0,0,1,0,0,"",4,False
+1052548,"chercheur mystérieux",0,"chercheurs mystérieux",0,0,1,0,0,"",4,False
+1052549,"employé des mines d'électrope",0,"employés des mines d'électrope",0,1,1,0,0,"",4,False
+1052550,"",0,"",0,0,1,0,0,"",4,False
+1052551,"",0,"",0,0,1,0,0,"",4,False
+1052552,"",0,"",0,0,1,0,0,"",4,False
+1052553,"",0,"",0,0,1,0,0,"",4,False
+1052554,"",0,"",0,0,1,0,0,"",4,False
+1052555,"",0,"",0,0,1,0,0,"",4,False
 1052556,"",0,"",0,0,1,0,0,"",2,False
 1052557,"",0,"",0,0,1,0,0,"",2,False
 1052558,"",0,"",0,0,1,0,0,"",2,False
 1052559,"",0,"",0,0,1,0,0,"",2,False
-1052560,"",0,"",0,0,0,0,0,"",0,False
-1052561,"",0,"",0,0,0,0,0,"",0,False
-1052562,"",0,"",0,0,0,0,0,"",0,False
-1052563,"",0,"",0,0,0,0,0,"",0,False
-1052564,"",0,"",0,0,0,0,0,"",0,False
-1052565,"",0,"",0,0,0,0,0,"",0,False
-1052566,"",0,"",0,0,0,0,0,"",0,False
-1052567,"",0,"",0,0,0,0,0,"",0,False
-1052568,"",0,"",0,0,0,0,0,"",0,False
-1052569,"",0,"",0,0,0,0,0,"",0,False
-1052570,"",0,"",0,0,0,0,0,"",0,False
+1052560,"Kageel Ja",0,"Kageel Ja",0,0,1,0,1,"",3,False
+1052561,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1052562,"Ziraal Ja",0,"Ziraal Ja",0,0,1,0,1,"",3,False
+1052563,"Veerul Ja",0,"Veerul Ja",0,0,1,1,1,"Objets spéciaux",3,False
+1052564,"Rikoll Ja",0,"Rikoll Ja",0,0,1,0,1,"Réparations",3,False
+1052565,"Gotoll Ja",0,"Gotoll Ja",0,0,1,0,1,"",3,False
+1052566,"Anggir",0,"Anggir",0,1,1,1,1,"",3,False
+1052567,"Gotoll Ja",0,"Gotoll Ja",0,0,1,0,1,"",3,False
+1052568,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1052569,"Doppro perplexe",0,"Doppro perplexes",0,0,1,0,0,"",3,False
+1052570,"Kubeel Ja",0,"Kubeel Ja",0,0,1,0,1,"",3,False
 1052571,"",0,"",0,0,0,0,0,"",0,False
-1052572,"",0,"",0,0,0,0,0,"",0,False
-1052573,"",0,"",0,0,0,0,0,"",0,False
-1052574,"",0,"",0,0,0,0,0,"",0,False
-1052575,"",0,"",0,0,0,0,0,"",0,False
-1052576,"",0,"",0,0,0,0,0,"",0,False
-1052577,"",0,"",0,0,0,0,0,"",0,False
-1052578,"",0,"",0,0,0,0,0,"",0,False
-1052579,"",0,"",0,0,0,0,0,"",0,False
-1052580,"",0,"",0,0,0,0,0,"",0,False
+1052572,"Hoobigo bavarde",0,"Hoobigo bavardes",0,0,1,1,0,"",3,False
+1052573,"Boonewa rêveur",0,"Boonewa rêveurs",0,0,1,0,0,"",3,False
+1052574,"Doppro fatigué",0,"Doppro fatigués",0,0,1,0,0,"",3,False
+1052575,"",0,"",0,0,1,0,0,"",5,False
+1052576,"",0,"",0,0,1,0,0,"",5,False
+1052577,"Xbr'aal aimable",0,"Xbr'aal aimables",0,0,1,0,0,"",3,False
+1052578,"Hoobigo placide",0,"Hoobigo placides",0,0,1,0,0,"",3,False
+1052579,"Boonewa renfrogné",0,"Boonewa renfrognés",0,0,1,0,0,"",3,False
+1052580,"Doppro exalté",0,"Doppro exaltés",0,0,1,0,0,"",3,False
 1052581,"Drivingway",0,"Drivingway",0,0,1,0,1,"Explorateur cosmique",3,True
 1052582,"Drivingway",0,"Drivingway",0,0,1,0,1,"Conducteur",3,True
 1052583,"Researchingway",0,"Researchingway",0,0,1,0,1,"Chercheur",3,True
@@ -52595,7 +52595,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052585,"Alerot",0,"Alerot",0,1,1,0,1,"Interventions mécaniques",3,True
 1052586,"Researchingway",0,"Researchingway",0,0,1,0,1,"Chercheur",3,True
 1052587,"Scanningway",0,"Scanningway",0,0,1,0,1,"Analyste",3,True
-1052588,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits lunaires",3,True
+1052588,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits",3,True
 1052589,"Godgyth",0,"Godgyth",0,0,1,1,1,"Équipements et réparations",3,True
 1052590,"Orbitingway",0,"Orbitingway",0,1,1,0,1,"Roue de la fortune cosmique",3,True
 1052591,"Namingway",0,"Namingway",0,0,1,0,1,"",3,False
@@ -52607,15 +52607,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1052597,"Alerot",0,"Alerot",0,1,1,0,1,"Interventions mécaniques",3,True
 1052598,"Researchingway",0,"Researchingway",0,0,1,0,1,"Chercheur",3,True
 1052599,"Scanningway",0,"Scanningway",0,0,1,0,1,"Analyste",3,True
-1052600,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits lunaires",3,True
+1052600,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits",3,True
 1052601,"Godgyth",0,"Godgyth",0,0,1,1,1,"Équipements et réparations",3,True
 1052602,"Orbitingway",0,"Orbitingway",0,1,1,0,1,"Roue de la fortune cosmique",3,True
 1052603,"Alerot",0,"Alerot",0,1,1,0,1,"Interventions mécaniques",3,True
 1052604,"Alerot",0,"Alerot",0,1,1,0,1,"Interventions mécaniques",3,True
 1052605,"Researchingway",0,"Researchingway",0,0,1,0,1,"Chercheur",3,True
 1052606,"Scanningway",0,"Scanningway",0,0,1,0,1,"Analyste",3,True
-1052607,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits lunaires",3,True
-1052608,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits lunaires",3,True
+1052607,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits",3,True
+1052608,"Mesouaidonque",0,"Mesouaidonque",0,0,1,0,1,"Échange de crédits",3,True
 1052609,"Godgyth",0,"Godgyth",0,0,1,1,1,"Équipements et réparations",3,True
 1052610,"Godgyth",0,"Godgyth",0,0,1,1,1,"Équipements et réparations",3,True
 1052611,"Orbitingway",0,"Orbitingway",0,1,1,0,1,"Roue de la fortune cosmique",3,True
@@ -53618,51 +53618,51 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1053608,"",0,"",0,0,0,0,0,"",0,False
 1053609,"",0,"",0,0,0,0,0,"",0,False
 1053610,"",0,"",0,0,0,0,0,"",0,False
-1053611,"",0,"",0,0,0,0,0,"",0,False
-1053612,"",0,"",0,0,0,0,0,"",0,False
-1053613,"",0,"",0,0,0,0,0,"",0,False
-1053614,"",0,"",0,0,0,0,0,"",0,False
-1053615,"",0,"",0,0,0,0,0,"",0,False
-1053616,"",0,"",0,0,0,0,0,"",0,False
-1053617,"",0,"",0,0,0,0,0,"",0,False
-1053618,"",0,"",0,0,0,0,0,"",0,False
-1053619,"",0,"",0,0,0,0,0,"",0,False
-1053620,"",0,"",0,0,0,0,0,"",0,False
-1053621,"",0,"",0,0,0,0,0,"",0,False
-1053622,"",0,"",0,0,0,0,0,"",0,False
-1053623,"",0,"",0,0,0,0,0,"",0,False
-1053624,"",0,"",0,0,0,0,0,"",0,False
-1053625,"",0,"",0,0,0,0,0,"",0,False
-1053626,"",0,"",0,0,0,0,0,"",0,False
-1053627,"",0,"",0,0,0,0,0,"",0,False
-1053628,"",0,"",0,0,0,0,0,"",0,False
-1053629,"",0,"",0,0,0,0,0,"",0,False
-1053630,"",0,"",0,0,0,0,0,"",0,False
-1053631,"",0,"",0,0,0,0,0,"",0,False
-1053632,"",0,"",0,0,0,0,0,"",0,False
-1053633,"",0,"",0,0,0,0,0,"",0,False
-1053634,"",0,"",0,0,0,0,0,"",0,False
-1053635,"",0,"",0,0,0,0,0,"",0,False
-1053636,"",0,"",0,0,0,0,0,"",0,False
-1053637,"",0,"",0,0,0,0,0,"",0,False
-1053638,"",0,"",0,0,0,0,0,"",0,False
-1053639,"",0,"",0,0,0,0,0,"",0,False
-1053640,"",0,"",0,0,0,0,0,"",0,False
-1053641,"",0,"",0,0,0,0,0,"",0,False
-1053642,"",0,"",0,0,0,0,0,"",0,False
-1053643,"",0,"",0,0,0,0,0,"",0,False
-1053644,"",0,"",0,0,0,0,0,"",0,False
-1053645,"",0,"",0,0,0,0,0,"",0,False
-1053646,"",0,"",0,0,0,0,0,"",0,False
-1053647,"",0,"",0,0,0,0,0,"",0,False
-1053648,"",0,"",0,0,0,0,0,"",0,False
-1053649,"",0,"",0,0,0,0,0,"",0,False
-1053650,"",0,"",0,0,0,0,0,"",0,False
-1053651,"",0,"",0,0,0,0,0,"",0,False
-1053652,"",0,"",0,0,0,0,0,"",0,False
-1053653,"",0,"",0,0,0,0,0,"",0,False
-1053654,"",0,"",0,0,0,0,0,"",0,False
-1053655,"",0,"",0,0,0,0,0,"",0,False
+1053611,"Jeffroy",0,"Jeffroy",0,0,1,0,1,"Guide",3,True
+1053612,"équipementier de l'expédition",0,"équipementiers de l'expédition",0,1,1,0,0,"Améliorations",3,True
+1053613,"ravitailleuse de l'expédition",0,"ravitailleuses de l'expédition",0,0,1,1,0,"Objets et réparations",3,True
+1053614,"numismate de l'expédition",0,"numismates de l'expédition",0,0,1,1,0,"Échanges",3,True
+1053615,"météorologue de l'expédition",0,"météorologues de l'expédition",0,0,1,1,0,"",3,True
+1053616,"fournisseur de l'expédition",0,"fournisseurs de l'expédition",0,0,1,0,0,"Échanges",3,True
+1053617,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053618,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053619,"Hhetsarro entre deux âges",0,"Hhetsarro entre deux âges",0,0,1,0,0,"",3,False
+1053620,"Hyune d'âge mûr",0,"Hyunes d'âge mûr",0,0,1,1,0,"",3,False
+1053621,"Hyune âgé",0,"Hyunes âgés",0,0,1,0,0,"",3,False
+1053622,"",0,"",0,0,1,0,0,"",5,False
+1053623,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053624,"",0,"",0,0,1,0,0,"",5,False
+1053625,"",0,"",0,0,1,0,0,"",5,False
+1053626,"Shetona décontracté",0,"Shetona décontractés",0,0,1,0,0,"",3,False
+1053627,"détectrice hyune",0,"détectrices hyunes",0,0,1,1,0,"",3,False
+1053628,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053629,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053630,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053631,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053632,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053633,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053634,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053635,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1053636,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053637,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053638,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1053639,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053640,"",0,"",0,0,1,0,0,"",5,False
+1053641,"employé des mines d'électrope",0,"employés des mines d'électrope",0,1,1,0,0,"",3,False
+1053642,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053643,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1053644,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053645,"",0,"",0,0,1,0,0,"",5,False
+1053646,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1053647,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
+1053648,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053649,"Nv 98 Monocle<Indent/>?",0,"Nv 98 Monocles ?",0,0,1,0,0,"",3,False
+1053650,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053651,"",0,"",0,0,1,0,0,"",5,False
+1053652,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1053653,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1053654,"",0,"",0,0,1,0,0,"",5,False
+1053655,"Hildibrut",0,"Hildibrut",0,0,1,0,1,"",3,False
 1053656,"",0,"",0,0,0,0,0,"",0,False
 1053657,"",0,"",0,0,0,0,0,"",0,False
 1053658,"",0,"",0,0,0,0,0,"",0,False
@@ -53694,12 +53694,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1053684,"",0,"",0,0,0,0,0,"",0,False
 1053685,"",0,"",0,0,0,0,0,"",0,False
 1053686,"",0,"",0,0,1,0,0,"",4,False
-1053687,"",0,"",0,0,0,0,0,"",0,False
-1053688,"",0,"",0,0,0,0,0,"",0,False
-1053689,"",0,"",0,0,0,0,0,"",0,False
-1053690,"",0,"",0,0,0,0,0,"",0,False
-1053691,"",0,"",0,0,0,0,0,"",0,False
-1053692,"",0,"",0,0,0,0,0,"",0,False
+1053687,"Archive",0,"Archive",0,1,1,0,1,"",4,False
+1053688,"Iris",0,"Iris",0,1,1,1,1,"",4,False
+1053689,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",4,False
+1053690,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",4,False
+1053691,"vigie de l'expédition",0,"vigies de l'expédition",0,0,1,1,0,"",4,False
+1053692,"timonier de l'expédition",0,"timoniers de l'expédition",0,0,1,0,0,"",4,False
 1053693,"●駆除人1",0,"",0,0,1,0,0,"",4,False
 1053694,"●駆除人2",0,"",0,0,1,0,0,"",4,False
 1053695,"●駆除人3",0,"",0,0,1,0,0,"",4,False
@@ -53709,18 +53709,18 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1053699,"●ノスタルジアに介抱される市民",0,"",0,0,1,0,0,"",4,False
 1053700,"●グルージャに介抱される市民",0,"",0,0,1,0,0,"",4,False
 1053701,"●介抱される市民",0,"",0,0,1,0,0,"",4,False
-1053702,"",0,"",0,0,0,0,0,"",0,False
-1053703,"",0,"",0,0,0,0,0,"",0,False
-1053704,"",0,"",0,0,0,0,0,"",0,False
+1053702,"",0,"",0,0,1,0,0,"",4,False
+1053703,"",0,"",0,0,1,0,0,"",4,False
+1053704,"",0,"",0,0,1,0,0,"",4,False
 1053705,"sire Sacrifice",0,"sire Sacrifice",0,0,1,0,1,"",4,False
-1053706,"",0,"",0,0,0,0,0,"",0,False
-1053707,"",0,"",0,0,0,0,0,"",0,False
-1053708,"",0,"",0,0,0,0,0,"",0,False
-1053709,"",0,"",0,0,0,0,0,"",0,False
-1053710,"",0,"",0,0,0,0,0,"",0,False
+1053706,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",4,False
+1053707,"Anggir",0,"Anggir",0,1,1,1,1,"",4,False
+1053708,"Kageel Ja",0,"Kageel Ja",0,0,1,0,1,"",4,False
+1053709,"sylveplume",0,"sylveplumes",0,0,1,1,0,"",4,False
+1053710,"Bol Tst'ei",0,"Bol Tst'ei",0,0,1,0,1,"",4,False
 1053711,"",0,"",0,0,1,0,0,"",4,False
 1053712,"",0,"",0,0,1,0,0,"",4,False
-1053713,"",0,"",0,0,0,0,0,"",0,False
+1053713,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",4,False
 1053714,"",0,"",0,0,0,0,0,"",0,False
 1053715,"",0,"",0,0,0,0,0,"",0,False
 1053716,"",0,"",0,0,0,0,0,"",0,False
@@ -53731,14 +53731,14 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1053721,"Packingway",0,"Packingway",0,0,1,0,1,"",4,False
 1053722,"Justa",0,"Justa",0,0,1,1,1,"",4,False
 1053723,"",0,"",0,0,1,0,0,"",4,False
-1053724,"",0,"",0,0,0,0,0,"",0,False
-1053725,"",0,"",0,0,0,0,0,"",0,False
+1053724,"volontaire Doppro",0,"volontaires Doppro",0,0,1,0,0,"",4,False
+1053725,"Mireel Ja",0,"Mireel Ja",0,0,1,0,1,"",4,False
 1053726,"Retsarra",0,"Retsarra",0,0,1,0,1,"",4,False
-1053727,"",0,"",0,0,0,0,0,"",0,False
-1053728,"",0,"",0,0,0,0,0,"",0,False
-1053729,"",0,"",0,0,0,0,0,"",0,False
+1053727,"Lydirceil",0,"Lydirceil",0,0,1,0,1,"",4,False
+1053728,"Ermina",0,"Ermina",0,1,1,1,1,"",4,False
+1053729,"Dodokkuli",0,"Dodokkuli",0,0,1,0,1,"",4,False
 1053730,"Calyx",0,"Calyx",0,0,1,0,1,"",4,False
-1053731,"",0,"",0,0,0,0,0,"",0,False
+1053731,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
 1053732,"sire Épidemaïs",0,"sire Épidemaïs",0,0,1,0,1,"",3,False
 1053733,"jeune homme affamé",0,"jeunes hommes affamés",0,0,1,0,0,"",3,False
 1053734,"vieille dame affamée",0,"vieilles dames affamées",0,0,1,1,0,"",3,False
@@ -53761,61 +53761,61 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1053751,"Honey B. Lovely",0,"Honey B. Lovely",0,0,1,1,1,"",3,False
 1053752,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
 1053753,"Retsarra",0,"Retsarra",0,0,1,0,1,"",3,False
-1053754,"",0,"",0,0,0,0,0,"",0,False
-1053755,"",0,"",0,0,0,0,0,"",0,False
-1053756,"",0,"",0,0,0,0,0,"",0,False
-1053757,"",0,"",0,0,0,0,0,"",0,False
-1053758,"",0,"",0,0,0,0,0,"",0,False
-1053759,"",0,"",0,0,0,0,0,"",0,False
-1053760,"",0,"",0,0,0,0,0,"",0,False
-1053761,"",0,"",0,0,0,0,0,"",0,False
-1053762,"",0,"",0,0,0,0,0,"",0,False
-1053763,"",0,"",0,0,0,0,0,"",0,False
-1053764,"",0,"",0,0,0,0,0,"",0,False
-1053765,"",0,"",0,0,0,0,0,"",0,False
-1053766,"",0,"",0,0,0,0,0,"",0,False
-1053767,"",0,"",0,0,0,0,0,"",0,False
-1053768,"",0,"",0,0,0,0,0,"",0,False
-1053769,"",0,"",0,0,0,0,0,"",0,False
-1053770,"",0,"",0,0,0,0,0,"",0,False
-1053771,"",0,"",0,0,0,0,0,"",0,False
-1053772,"",0,"",0,0,0,0,0,"",0,False
-1053773,"",0,"",0,0,0,0,0,"",0,False
-1053774,"",0,"",0,0,0,0,0,"",0,False
-1053775,"",0,"",0,0,0,0,0,"",0,False
-1053776,"",0,"",0,0,0,0,0,"",0,False
-1053777,"",0,"",0,0,0,0,0,"",0,False
-1053778,"",0,"",0,0,0,0,0,"",0,False
-1053779,"",0,"",0,0,0,0,0,"",0,False
-1053780,"",0,"",0,0,0,0,0,"",0,False
-1053781,"",0,"",0,0,0,0,0,"",0,False
-1053782,"",0,"",0,0,0,0,0,"",0,False
-1053783,"",0,"",0,0,0,0,0,"",0,False
-1053784,"",0,"",0,0,0,0,0,"",0,False
-1053785,"",0,"",0,0,0,0,0,"",0,False
-1053786,"",0,"",0,0,0,0,0,"",0,False
-1053787,"",0,"",0,0,0,0,0,"",0,False
-1053788,"",0,"",0,0,0,0,0,"",0,False
-1053789,"",0,"",0,0,0,0,0,"",0,False
-1053790,"",0,"",0,0,0,0,0,"",0,False
-1053791,"",0,"",0,0,0,0,0,"",0,False
+1053754,"Doppro indécis",0,"Doppro indécis",0,0,1,0,0,"",3,False
+1053755,"Doppro sceptique",0,"Doppro sceptiques",0,0,1,0,0,"",3,False
+1053756,"Kageel Ja",0,"Kageel Ja",0,0,1,0,1,"",3,False
+1053757,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053758,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053759,"Kageel Ja",0,"Kageel Ja",0,0,1,0,1,"",3,False
+1053760,"Anggir",0,"Anggir",0,1,1,1,1,"",3,False
+1053761,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053762,"sylveplume",0,"sylveplumes",0,0,1,1,0,"",3,False
+1053763,"Anggir",0,"Anggir",0,1,1,1,1,"",3,False
+1053764,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053765,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053766,"Xbr'aal amical",0,"Xbr'aal amicaux",0,0,1,0,0,"",3,False
+1053767,"Mireel Ja",0,"Mireel Ja",0,0,1,0,1,"",3,False
+1053768,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053769,"Hiiral Ja",0,"Hiiral Ja",0,0,1,1,1,"",3,False
+1053770,"Mireel Ja",0,"Mireel Ja",0,0,1,0,1,"",3,False
+1053771,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053772,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053773,"agronome en pleine inspection",0,"agronomes en pleine inspection",0,1,1,0,0,"",3,False
+1053774,"agronome effectuant des relevés",0,"agronomes effectuant des relevés",0,1,1,0,0,"",3,False
+1053775,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053776,"Ty'at Roh",0,"Ty'at Roh",0,0,1,0,1,"",3,False
+1053777,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053778,"Bol Tst'ei",0,"Bol Tst'ei",0,0,1,0,1,"",3,False
+1053779,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053780,"Bol Tst'ei",0,"Bol Tst'ei",0,0,1,0,1,"",3,False
+1053781,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053782,"Hoobigo revenu de Tuliyollal",0,"Hoobigo revenus de Tuliyollal",0,0,1,0,0,"",3,False
+1053783,"Boonewa âgé",0,"Boonewa âgés",0,0,1,0,0,"",3,False
+1053784,"Doppro jovial",0,"Doppro joviaux",0,0,1,0,0,"",3,False
+1053785,"Bol Tst'ei",0,"Bol Tst'ei",0,0,1,0,1,"",3,False
+1053786,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053787,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053788,"Anggir",0,"Anggir",0,1,1,1,1,"",3,False
+1053789,"Ruvoll Ja",0,"Ruvoll Ja",0,0,1,0,1,"",3,False
+1053790,"Anggir",0,"Anggir",0,1,1,1,1,"",3,False
+1053791,"météorologue de l'expédition",0,"météorologues de l'expédition",0,0,1,1,0,"",3,True
 1053792,"Yaana",0,"Yaana",0,0,1,1,1,"",3,False
-1053793,"",0,"",0,0,0,0,0,"",0,False
-1053794,"",0,"",0,0,0,0,0,"",0,False
-1053795,"",0,"",0,0,0,0,0,"",0,False
-1053796,"",0,"",0,0,0,0,0,"",0,False
-1053797,"",0,"",0,0,0,0,0,"",0,False
-1053798,"",0,"",0,0,0,0,0,"",0,False
-1053799,"",0,"",0,0,0,0,0,"",0,False
-1053800,"",0,"",0,0,0,0,0,"",0,False
-1053801,"",0,"",0,0,0,0,0,"",0,False
-1053802,"",0,"",0,0,0,0,0,"",0,False
-1053803,"",0,"",0,0,0,0,0,"",0,False
-1053804,"",0,"",0,0,0,0,0,"",0,False
-1053805,"",0,"",0,0,0,0,0,"",0,False
-1053806,"",0,"",0,0,0,0,0,"",0,False
-1053807,"",0,"",0,0,0,0,0,"",0,False
-1053808,"",0,"",0,0,0,0,0,"",0,False
+1053793,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
+1053794,"Archive",0,"Archive",0,1,1,0,1,"",3,False
+1053795,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
+1053796,"Archive",0,"Archive",0,1,1,0,1,"",3,False
+1053797,"Jeffroy",0,"Jeffroy",0,0,1,0,1,"",3,False
+1053798,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
+1053799,"Archive",0,"Archive",0,1,1,0,1,"",3,False
+1053800,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
+1053801,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
+1053802,"Archive",0,"Archive",0,1,1,0,1,"",3,False
+1053803,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
+1053804,"Archive",0,"Archive",0,1,1,0,1,"",3,False
+1053805,"messager de l'expédition",0,"messagers de l'expédition",0,0,1,0,0,"",3,False
+1053806,"Archive",0,"Archive",0,1,1,0,1,"",3,False
+1053807,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
+1053808,"Ketenramm",0,"Ketenramm",0,0,1,0,1,"",3,False
 1053809,"G'raha Tia",0,"G'raha Tia",0,0,1,0,1,"",3,False
 1053810,"Sphene",0,"Sphene",0,0,1,1,1,"",3,False
 1053811,"Wuk Lamat",0,"Wuk Lamat",0,0,1,1,1,"",3,False
@@ -53911,18 +53911,18 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1053901,"Gulool Ja",0,"Gulool Ja",0,0,1,0,1,"",3,False
 1053902,"Milos",0,"Milos",0,0,1,0,1,"",3,False
 1053903,"Shale",0,"Shale",0,0,1,1,1,"",3,False
-1053904,"",0,"",0,0,0,0,0,"",0,False
-1053905,"",0,"",0,0,0,0,0,"",0,False
-1053906,"",0,"",0,0,0,0,0,"",0,False
-1053907,"",0,"",0,0,0,0,0,"",0,False
-1053908,"",0,"",0,0,0,0,0,"",0,False
-1053909,"",0,"",0,0,0,0,0,"",0,False
+1053904,"Ermina",0,"Ermina",0,1,1,1,1,"Matériaux",3,True
+1053905,"Dodokkuli",0,"Dodokkuli",0,0,1,0,1,"Armes fantômes",3,True
+1053906,"Lydirceil",0,"Lydirceil",0,0,1,0,1,"",3,False
+1053907,"Gerolt",0,"Gerolt",0,0,1,0,1,"",3,False
+1053908,"Gerolt",0,"Gerolt",0,0,1,0,1,"",3,False
+1053909,"Dodokkuli",0,"Dodokkuli",0,0,1,0,1,"",3,False
 1053910,"",0,"",0,0,1,0,0,"",2,False
 1053911,"",0,"",0,0,1,0,0,"",2,False
 1053912,"",0,"",0,0,1,0,0,"",2,False
 1053913,"",0,"",0,0,1,0,0,"",2,False
 1053914,"",0,"",0,0,1,0,0,"",5,False
-1053915,"",0,"",0,0,0,0,0,"",0,False
+1053915,"Archive",0,"Archive",0,1,1,0,1,"",3,False
 1053916,"",0,"",0,0,0,0,0,"",0,False
 1053917,"",0,"",0,0,0,0,0,"",0,False
 1053918,"",0,"",0,0,0,0,0,"",0,False
@@ -53941,114 +53941,114 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1053931,"",0,"",0,0,0,0,0,"",0,False
 1053932,"",0,"",0,0,0,0,0,"",0,False
 1053933,"",0,"",0,0,0,0,0,"",0,False
-1053934,"",0,"",0,0,0,0,0,"",0,False
-1053935,"",0,"",0,0,0,0,0,"",0,False
-1053936,"",0,"",0,0,0,0,0,"",0,False
-1053937,"",0,"",0,0,0,0,0,"",0,False
-1053938,"",0,"",0,0,0,0,0,"",0,False
-1053939,"",0,"",0,0,0,0,0,"",0,False
-1053940,"",0,"",0,0,0,0,0,"",0,False
-1053941,"",0,"",0,0,0,0,0,"",0,False
-1053942,"",0,"",0,0,0,0,0,"",0,False
-1053943,"",0,"",0,0,0,0,0,"",0,False
-1053944,"",0,"",0,0,0,0,0,"",0,False
-1053945,"",0,"",0,0,0,0,0,"",0,False
-1053946,"",0,"",0,0,0,0,0,"",0,False
-1053947,"",0,"",0,0,0,0,0,"",0,False
-1053948,"",0,"",0,0,0,0,0,"",0,False
-1053949,"",0,"",0,0,0,0,0,"",0,False
-1053950,"",0,"",0,0,0,0,0,"",0,False
-1053951,"",0,"",0,0,0,0,0,"",0,False
-1053952,"",0,"",0,0,0,0,0,"",0,False
-1053953,"",0,"",0,0,0,0,0,"",0,False
-1053954,"",0,"",0,0,0,0,0,"",0,False
-1053955,"",0,"",0,0,0,0,0,"",0,False
+1053934,"Anggir",0,"Anggir",0,1,1,1,1,"",3,False
+1053935,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
+1053936,"vendeuse des Feux de la Mort",0,"vendeuses des Feux de la Mort",0,0,1,1,0,"Saisonnière",3,True
+1053937,"Ethelia",0,"Ethelia",0,1,1,1,1,"Organisatrice des Feux de la Mort",3,True
+1053938,"démarcheuse des Feux de la Mort",0,"démarcheuses des Feux de la Mort",0,0,1,1,0,"",3,True
+1053939,"démarcheuse des Feux de la Mort",0,"démarcheuses des Feux de la Mort",0,0,1,1,0,"",3,True
+1053940,"démarcheuse des Feux de la Mort",0,"démarcheuses des Feux de la Mort",0,0,1,1,0,"",3,True
+1053941,"Mayaru Moyaru",0,"Mayaru Moyaru",0,0,1,0,1,"Organisateur des Feux de la Mort",3,False
+1053942,"Haermaga",0,"Haermaga",0,0,1,0,1,"Organisateur en chef des Feux de la Mort",3,False
+1053943,"Haermaga",0,"Haermaga",0,0,1,0,1,"Organisateur en chef des Feux de la Mort",3,False
+1053944,"P'obyano",0,"P'obyano",0,0,1,1,1,"",3,False
+1053945,"visiteur fébrile",0,"visiteurs fébriles",0,0,1,0,0,"",3,False
+1053946,"Beaudefoin",0,"Beaudefoin",0,0,1,0,1,"",3,False
+1053947,"Hildelana",0,"Hildelana",0,0,1,1,1,"",3,False
+1053948,"visiteur inquiet",0,"visiteurs inquiets",0,0,1,0,0,"",3,False
+1053949,"R'fhul Tia",0,"R'fhul Tia",0,0,1,0,1,"",3,False
+1053950,"R'majha",0,"R'majha",0,0,1,1,1,"",3,False
+1053951,"",0,"",0,0,1,0,0,"",5,False
+1053952,"visiteuse patiente",0,"visiteuses patientes",0,0,1,1,0,"",3,False
+1053953,"Haermaga",0,"Haermaga",0,0,1,0,1,"Organisateur en chef des Feux de la Mort",3,False
+1053954,"Haermaga",0,"Haermaga",0,0,1,0,1,"Organisateur en chef des Feux de la Mort",3,False
+1053955,"baigneuse sauvée",0,"baigneuses sauvées",0,0,1,1,0,"",3,False
 1053956,"",0,"",0,0,0,0,0,"",0,False
 1053957,"",0,"",0,0,0,0,0,"",0,False
-1053958,"",0,"",0,0,0,0,0,"",0,False
-1053959,"",0,"",0,0,0,0,0,"",0,False
-1053960,"",0,"",0,0,0,0,0,"",0,False
-1053961,"",0,"",0,0,0,0,0,"",0,False
-1053962,"",0,"",0,0,0,0,0,"",0,False
-1053963,"",0,"",0,0,0,0,0,"",0,False
-1053964,"",0,"",0,0,0,0,0,"",0,False
-1053965,"",0,"",0,0,0,0,0,"",0,False
-1053966,"",0,"",0,0,0,0,0,"",0,False
-1053967,"",0,"",0,0,0,0,0,"",0,False
-1053968,"",0,"",0,0,0,0,0,"",0,False
-1053969,"",0,"",0,0,0,0,0,"",0,False
-1053970,"",0,"",0,0,0,0,0,"",0,False
-1053971,"",0,"",0,0,0,0,0,"",0,False
-1053972,"",0,"",0,0,0,0,0,"",0,False
-1053973,"",0,"",0,0,0,0,0,"",0,False
-1053974,"",0,"",0,0,0,0,0,"",0,False
-1053975,"",0,"",0,0,0,0,0,"",0,False
-1053976,"",0,"",0,0,0,0,0,"",0,False
-1053977,"",0,"",0,0,0,0,0,"",0,False
-1053978,"",0,"",0,0,0,0,0,"",0,False
-1053979,"",0,"",0,0,0,0,0,"",0,False
-1053980,"",0,"",0,0,0,0,0,"",0,False
-1053981,"",0,"",0,0,0,0,0,"",0,False
-1053982,"",0,"",0,0,0,0,0,"",0,False
-1053983,"",0,"",0,0,0,0,0,"",0,False
-1053984,"",0,"",0,0,0,0,0,"",0,False
-1053985,"",0,"",0,0,0,0,0,"",0,False
-1053986,"",0,"",0,0,0,0,0,"",0,False
-1053987,"",0,"",0,0,0,0,0,"",0,False
-1053988,"",0,"",0,0,0,0,0,"",0,False
-1053989,"",0,"",0,0,0,0,0,"",0,False
-1053990,"",0,"",0,0,0,0,0,"",0,False
-1053991,"",0,"",0,0,0,0,0,"",0,False
-1053992,"",0,"",0,0,0,0,0,"",0,False
+1053958,"",0,"",0,0,1,0,0,"",7,False
+1053959,"",0,"",0,0,1,0,0,"",5,False
+1053960,"",0,"",0,0,1,0,0,"",6,False
+1053961,"",0,"",0,0,1,0,0,"",6,False
+1053962,"",0,"",0,0,1,0,0,"",5,False
+1053963,"",0,"",0,0,1,0,0,"",6,False
+1053964,"",0,"",0,0,1,0,0,"",5,False
+1053965,"",0,"",0,0,1,0,0,"",5,False
+1053966,"",0,"",0,0,1,0,0,"",5,False
+1053967,"",0,"",0,0,1,0,0,"",5,False
+1053968,"",0,"",0,0,1,0,0,"",5,False
+1053969,"",0,"",0,0,1,0,0,"",5,False
+1053970,"",0,"",0,0,1,0,0,"",5,False
+1053971,"",0,"",0,0,1,0,0,"",5,False
+1053972,"",0,"",0,0,1,0,0,"",5,False
+1053973,"",0,"",0,0,1,0,0,"",6,False
+1053974,"",0,"",0,0,1,0,0,"",6,False
+1053975,"",0,"",0,0,1,0,0,"",5,False
+1053976,"",0,"",0,0,1,0,0,"",5,False
+1053977,"",0,"",0,0,1,0,0,"",6,False
+1053978,"",0,"",0,0,1,0,0,"",6,False
+1053979,"",0,"",0,0,1,0,0,"",5,False
+1053980,"",0,"",0,0,1,0,0,"",5,False
+1053981,"",0,"",0,0,1,0,0,"",6,False
+1053982,"",0,"",0,0,1,0,0,"",6,False
+1053983,"",0,"",0,0,1,0,0,"",5,False
+1053984,"",0,"",0,0,1,0,0,"",5,False
+1053985,"",0,"",0,0,1,0,0,"",6,False
+1053986,"",0,"",0,0,1,0,0,"",6,False
+1053987,"",0,"",0,0,1,0,0,"",5,False
+1053988,"",0,"",0,0,1,0,0,"",5,False
+1053989,"",0,"",0,0,1,0,0,"",6,False
+1053990,"",0,"",0,0,1,0,0,"",5,False
+1053991,"",0,"",0,0,1,0,0,"",6,False
+1053992,"",0,"",0,0,1,0,0,"",6,False
 1053993,"",0,"",0,0,0,0,0,"",0,False
 1053994,"",0,"",0,0,0,0,0,"",0,False
 1053995,"",0,"",0,0,0,0,0,"",0,False
 1053996,"",0,"",0,0,0,0,0,"",0,False
-1053997,"",0,"",0,0,0,0,0,"",0,False
-1053998,"",0,"",0,0,0,0,0,"",0,False
-1053999,"",0,"",0,0,0,0,0,"",0,False
-1054000,"",0,"",0,0,0,0,0,"",0,False
-1054001,"",0,"",0,0,0,0,0,"",0,False
-1054002,"",0,"",0,0,0,0,0,"",0,False
-1054003,"",0,"",0,0,0,0,0,"",0,False
-1054004,"",0,"",0,0,0,0,0,"",0,False
-1054005,"",0,"",0,0,0,0,0,"",0,False
-1054006,"",0,"",0,0,0,0,0,"",0,False
-1054007,"",0,"",0,0,0,0,0,"",0,False
-1054008,"",0,"",0,0,0,0,0,"",0,False
-1054009,"",0,"",0,0,0,0,0,"",0,False
-1054010,"",0,"",0,0,0,0,0,"",0,False
-1054011,"",0,"",0,0,0,0,0,"",0,False
-1054012,"",0,"",0,0,0,0,0,"",0,False
-1054013,"",0,"",0,0,0,0,0,"",0,False
-1054014,"",0,"",0,0,0,0,0,"",0,False
-1054015,"",0,"",0,0,0,0,0,"",0,False
-1054016,"",0,"",0,0,0,0,0,"",0,False
-1054017,"",0,"",0,0,0,0,0,"",0,False
-1054018,"",0,"",0,0,0,0,0,"",0,False
-1054019,"",0,"",0,0,0,0,0,"",0,False
-1054020,"",0,"",0,0,0,0,0,"",0,False
-1054021,"",0,"",0,0,0,0,0,"",0,False
-1054022,"",0,"",0,0,0,0,0,"",0,False
-1054023,"",0,"",0,0,0,0,0,"",0,False
-1054024,"",0,"",0,0,0,0,0,"",0,False
-1054025,"",0,"",0,0,0,0,0,"",0,False
-1054026,"",0,"",0,0,0,0,0,"",0,False
-1054027,"",0,"",0,0,0,0,0,"",0,False
-1054028,"",0,"",0,0,0,0,0,"",0,False
-1054029,"",0,"",0,0,0,0,0,"",0,False
+1053997,"garde de l'expédition",0,"gardes de l'expédition",0,0,1,1,0,"",3,False
+1053998,"",0,"",0,0,1,0,0,"",5,False
+1053999,"",0,"",0,0,1,0,0,"",5,False
+1054000,"",0,"",0,0,1,0,0,"",5,False
+1054001,"",0,"",0,0,1,0,0,"",6,False
+1054002,"",0,"",0,0,1,0,0,"",6,False
+1054003,"",0,"",0,0,1,0,0,"",5,False
+1054004,"métallurgiste de l'expédition",0,"métallurgistes de l'expédition",0,0,1,0,0,"",3,False
+1054005,"",0,"",0,0,1,0,0,"",6,False
+1054006,"",0,"",0,0,1,0,0,"",5,False
+1054007,"",0,"",0,0,1,0,0,"",5,False
+1054008,"",0,"",0,0,1,0,0,"",5,False
+1054009,"soigneur de l'expédition",0,"soigneurs de l'expédition",0,0,1,0,0,"",3,False
+1054010,"",0,"",0,0,1,0,0,"",5,False
+1054011,"garde de l'expédition",0,"gardes de l'expédition",0,0,1,1,0,"",3,False
+1054012,"combattante de l'expédition",0,"combattantes de l'expédition",0,0,1,1,0,"",3,False
+1054013,"",0,"",0,0,1,0,0,"",5,False
+1054014,"",0,"",0,0,1,0,0,"",5,False
+1054015,"",0,"",0,0,1,0,0,"",5,False
+1054016,"",0,"",0,0,1,0,0,"",5,False
+1054017,"",0,"",0,0,1,0,0,"",5,False
+1054018,"botaniste de l'expédition",0,"botanistes de l'expédition",0,0,1,1,0,"",3,False
+1054019,"",0,"",0,0,1,0,0,"",5,False
+1054020,"personne en détresse",0,"personnes en détresse",0,0,1,1,0,"",4,False
+1054021,"Haermaga",0,"Haermaga",0,0,1,0,1,"Organisateur en chef des Feux de la Mort",4,False
+1054022,"visiteurs flottants",0,"visiteurs flottants",0,0,1,0,1,"",4,False
+1054023,"",0,"",0,0,1,0,0,"",4,False
+1054024,"",0,"",0,0,1,0,0,"",4,False
+1054025,"visiteurs enjoués",0,"visiteurs enjoués",0,0,1,0,1,"",4,False
+1054026,"",0,"",0,0,1,0,0,"",4,False
+1054027,"",0,"",0,0,1,0,0,"",4,False
+1054028,"",0,"",0,0,1,0,0,"",4,False
+1054029,"",0,"",0,0,1,0,0,"",4,False
 1054030,"",0,"",0,0,1,0,0,"",4,False
 1054031,"",0,"",0,0,0,0,0,"",0,False
-1054032,"",0,"",0,0,0,0,0,"",0,False
-1054033,"",0,"",0,0,0,0,0,"",0,False
-1054034,"",0,"",0,0,0,0,0,"",0,False
-1054035,"",0,"",0,0,0,0,0,"",0,False
-1054036,"",0,"",0,0,0,0,0,"",0,False
-1054037,"",0,"",0,0,0,0,0,"",0,False
-1054038,"",0,"",0,0,0,0,0,"",0,False
+1054032,"sylveplume",0,"sylveplumes",0,0,1,1,0,"",4,False
+1054033,"T'zanza",0,"T'zanza",0,0,1,1,1,"",4,False
+1054034,"Beaudefoin",0,"Beaudefoin",0,0,1,0,1,"",4,False
+1054035,"Hildelana",0,"Hildelana",0,0,1,1,1,"",4,False
+1054036,"R'fhul Tia",0,"R'fhul Tia",0,0,1,0,1,"",4,False
+1054037,"Mamool Ja revenu de Tuliyollal",0,"Mamool Ja revenus de Tuliyollal",0,0,1,0,0,"",4,False
+1054038,"",0,"",0,0,1,0,0,"",4,False
 1054039,"",0,"",0,0,0,0,0,"",0,False
 1054040,"",0,"",0,0,0,0,0,"",0,False
-1054041,"",0,"",0,0,0,0,0,"",0,False
+1054041,"",0,"",0,0,1,0,0,"",4,False
 1054042,"",0,"",0,0,0,0,0,"",0,False
 1054043,"",0,"",0,0,0,0,0,"",0,False
 1054044,"",0,"",0,0,0,0,0,"",0,False
@@ -54065,15 +54065,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1054055,"",0,"",0,0,0,0,0,"",0,False
 1054056,"",0,"",0,0,0,0,0,"",0,False
 1054057,"",0,"",0,0,0,0,0,"",0,False
-1054058,"",0,"",0,0,0,0,0,"",0,False
-1054059,"",0,"",0,0,0,0,0,"",0,False
-1054060,"",0,"",0,0,0,0,0,"",0,False
-1054061,"",0,"",0,0,0,0,0,"",0,False
-1054062,"",0,"",0,0,0,0,0,"",0,False
-1054063,"",0,"",0,0,0,0,0,"",0,False
-1054064,"",0,"",0,0,0,0,0,"",0,False
-1054065,"",0,"",0,0,0,0,0,"",0,False
-1054066,"",0,"",0,0,0,0,0,"",0,False
+1054058,"",0,"",0,0,1,0,0,"",5,False
+1054059,"",0,"",0,0,1,0,0,"",5,False
+1054060,"",0,"",0,0,1,0,0,"",5,False
+1054061,"T'zanza",0,"T'zanza",0,0,1,1,1,"",3,False
+1054062,"R'fhul Tia",0,"R'fhul Tia",0,0,1,0,1,"",3,False
+1054063,"R'majha",0,"R'majha",0,0,1,1,1,"",3,False
+1054064,"Beaudefoin",0,"Beaudefoin",0,0,1,0,1,"",3,False
+1054065,"Hildelana",0,"Hildelana",0,0,1,1,1,"",3,False
+1054066,"Mayaru Moyaru",0,"Mayaru Moyaru",0,0,1,0,1,"Organisateur des Feux de la Mort",3,False
 1054067,"",0,"",0,0,1,0,0,"",5,False
 1054068,"",0,"",0,0,1,0,0,"",5,False
 1054069,"femme à la tenue colorée",0,"femmes aux tenues colorées",0,0,1,1,0,"",3,False
@@ -54084,97 +54084,97 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1054074,"",0,"",0,0,1,0,0,"",2,False
 1054075,"",0,"",0,0,1,0,0,"",2,False
 1054076,"",0,"",0,0,1,0,0,"",2,False
-1054077,"",0,"",0,0,0,0,0,"",0,False
-1054078,"",0,"",0,0,0,0,0,"",0,False
-1054079,"",0,"",0,0,0,0,0,"",0,False
-1054080,"",0,"",0,0,0,0,0,"",0,False
-1054081,"",0,"",0,0,0,0,0,"",0,False
-1054082,"",0,"",0,0,0,0,0,"",0,False
-1054083,"",0,"",0,0,0,0,0,"",0,False
-1054084,"",0,"",0,0,0,0,0,"",0,False
-1054085,"",0,"",0,0,0,0,0,"",0,False
-1054086,"",0,"",0,0,0,0,0,"",0,False
-1054087,"",0,"",0,0,0,0,0,"",0,False
-1054088,"",0,"",0,0,0,0,0,"",0,False
-1054089,"",0,"",0,0,0,0,0,"",0,False
-1054090,"",0,"",0,0,0,0,0,"",0,False
-1054091,"",0,"",0,0,0,0,0,"",0,False
-1054092,"",0,"",0,0,0,0,0,"",0,False
-1054093,"",0,"",0,0,0,0,0,"",0,False
-1054094,"",0,"",0,0,0,0,0,"",0,False
-1054095,"",0,"",0,0,0,0,0,"",0,False
-1054096,"",0,"",0,0,0,0,0,"",0,False
-1054097,"",0,"",0,0,0,0,0,"",0,False
-1054098,"",0,"",0,0,0,0,0,"",0,False
-1054099,"",0,"",0,0,0,0,0,"",0,False
-1054100,"",0,"",0,0,0,0,0,"",0,False
-1054101,"",0,"",0,0,0,0,0,"",0,False
-1054102,"",0,"",0,0,0,0,0,"",0,False
-1054103,"",0,"",0,0,0,0,0,"",0,False
-1054104,"",0,"",0,0,0,0,0,"",0,False
-1054105,"",0,"",0,0,0,0,0,"",0,False
-1054106,"",0,"",0,0,0,0,0,"",0,False
-1054107,"",0,"",0,0,0,0,0,"",0,False
-1054108,"",0,"",0,0,0,0,0,"",0,False
-1054109,"",0,"",0,0,0,0,0,"",0,False
-1054110,"",0,"",0,0,0,0,0,"",0,False
-1054111,"",0,"",0,0,0,0,0,"",0,False
-1054112,"",0,"",0,0,0,0,0,"",0,False
-1054113,"",0,"",0,0,0,0,0,"",0,False
-1054114,"",0,"",0,0,0,0,0,"",0,False
-1054115,"",0,"",0,0,0,0,0,"",0,False
-1054116,"",0,"",0,0,0,0,0,"",0,False
-1054117,"",0,"",0,0,0,0,0,"",0,False
-1054118,"",0,"",0,0,0,0,0,"",0,False
-1054119,"",0,"",0,0,0,0,0,"",0,False
-1054120,"",0,"",0,0,0,0,0,"",0,False
-1054121,"",0,"",0,0,0,0,0,"",0,False
-1054122,"",0,"",0,0,0,0,0,"",0,False
-1054123,"",0,"",0,0,0,0,0,"",0,False
-1054124,"",0,"",0,0,0,0,0,"",0,False
-1054125,"",0,"",0,0,0,0,0,"",0,False
-1054126,"",0,"",0,0,0,0,0,"",0,False
-1054127,"",0,"",0,0,0,0,0,"",0,False
-1054128,"",0,"",0,0,0,0,0,"",0,False
-1054129,"",0,"",0,0,0,0,0,"",0,False
-1054130,"",0,"",0,0,0,0,0,"",0,False
-1054131,"",0,"",0,0,0,0,0,"",0,False
-1054132,"",0,"",0,0,0,0,0,"",0,False
-1054133,"",0,"",0,0,0,0,0,"",0,False
-1054134,"",0,"",0,0,0,0,0,"",0,False
-1054135,"",0,"",0,0,0,0,0,"",0,False
-1054136,"",0,"",0,0,0,0,0,"",0,False
+1054077,"",0,"",0,0,1,0,0,"",5,False
+1054078,"",0,"",0,0,1,0,0,"",5,False
+1054079,"",0,"",0,0,1,0,0,"",5,False
+1054080,"",0,"",0,0,1,0,0,"",5,False
+1054081,"",0,"",0,0,1,0,0,"",5,False
+1054082,"",0,"",0,0,1,0,0,"",5,False
+1054083,"",0,"",0,0,1,0,0,"",5,False
+1054084,"",0,"",0,0,1,0,0,"",5,False
+1054085,"",0,"",0,0,1,0,0,"",5,False
+1054086,"",0,"",0,0,1,0,0,"",5,False
+1054087,"",0,"",0,0,1,0,0,"",6,False
+1054088,"",0,"",0,0,1,0,0,"",6,False
+1054089,"",0,"",0,0,1,0,0,"",6,False
+1054090,"",0,"",0,0,1,0,0,"",6,False
+1054091,"",0,"",0,0,1,0,0,"",6,False
+1054092,"",0,"",0,0,1,0,0,"",6,False
+1054093,"",0,"",0,0,1,0,0,"",6,False
+1054094,"",0,"",0,0,1,0,0,"",6,False
+1054095,"",0,"",0,0,1,0,0,"",6,False
+1054096,"",0,"",0,0,1,0,0,"",6,False
+1054097,"",0,"",0,0,1,0,0,"",6,False
+1054098,"",0,"",0,0,1,0,0,"",5,False
+1054099,"",0,"",0,0,1,0,0,"",5,False
+1054100,"",0,"",0,0,1,0,0,"",5,False
+1054101,"",0,"",0,0,1,0,0,"",5,False
+1054102,"",0,"",0,0,1,0,0,"",5,False
+1054103,"",0,"",0,0,1,0,0,"",5,False
+1054104,"",0,"",0,0,1,0,0,"",5,False
+1054105,"",0,"",0,0,1,0,0,"",5,False
+1054106,"",0,"",0,0,1,0,0,"",5,False
+1054107,"",0,"",0,0,1,0,0,"",5,False
+1054108,"",0,"",0,0,1,0,0,"",5,False
+1054109,"",0,"",0,0,1,0,0,"",5,False
+1054110,"",0,"",0,0,1,0,0,"",5,False
+1054111,"",0,"",0,0,1,0,0,"",5,False
+1054112,"",0,"",0,0,1,0,0,"",5,False
+1054113,"",0,"",0,0,1,0,0,"",5,False
+1054114,"",0,"",0,0,1,0,0,"",5,False
+1054115,"",0,"",0,0,1,0,0,"",5,False
+1054116,"",0,"",0,0,1,0,0,"",6,False
+1054117,"",0,"",0,0,1,0,0,"",5,False
+1054118,"",0,"",0,0,1,0,0,"",5,False
+1054119,"",0,"",0,0,1,0,0,"",5,False
+1054120,"",0,"",0,0,1,0,0,"",5,False
+1054121,"",0,"",0,0,1,0,0,"",5,False
+1054122,"",0,"",0,0,1,0,0,"",5,False
+1054123,"",0,"",0,0,1,0,0,"",5,False
+1054124,"",0,"",0,0,1,0,0,"",5,False
+1054125,"",0,"",0,0,1,0,0,"",5,False
+1054126,"",0,"",0,0,1,0,0,"",5,False
+1054127,"",0,"",0,0,1,0,0,"",5,False
+1054128,"",0,"",0,0,1,0,0,"",5,False
+1054129,"",0,"",0,0,1,0,0,"",5,False
+1054130,"",0,"",0,0,1,0,0,"",5,False
+1054131,"",0,"",0,0,1,0,0,"",5,False
+1054132,"",0,"",0,0,1,0,0,"",5,False
+1054133,"",0,"",0,0,1,0,0,"",5,False
+1054134,"",0,"",0,0,1,0,0,"",5,False
+1054135,"",0,"",0,0,1,0,0,"",5,False
+1054136,"",0,"",0,0,1,0,0,"",5,False
 1054137,"",0,"",0,0,0,0,0,"",0,False
 1054138,"",0,"",0,0,0,0,0,"",0,False
 1054139,"",0,"",0,0,0,0,0,"",0,False
 1054140,"Sphene",0,"Sphene",0,0,1,1,1,"",3,False
 1054141,"guide d'Oblivion",0,"guides d'Oblivion",0,0,1,0,0,"",3,False
-1054142,"",0,"",0,0,0,0,0,"",0,False
-1054143,"",0,"",0,0,0,0,0,"",0,False
-1054144,"",0,"",0,0,0,0,0,"",0,False
-1054145,"",0,"",0,0,0,0,0,"",0,False
+1054142,"Pisteur br'aax gourmand",0,"Pisteur br'aax gourmands",0,0,1,0,0,"",3,False
+1054143,"Boonewa exténuée",0,"Boonewa exténuées",0,0,1,1,0,"",3,False
+1054144,"Doppro toussotant",0,"Doppro toussotants",0,0,1,0,0,"",3,False
+1054145,"Hoobigo peiné",0,"Hoobigo peinés",0,0,1,0,0,"",3,False
 1054146,"",0,"",0,0,0,0,0,"",0,False
 1054147,"",0,"",0,0,0,0,0,"",0,False
-1054148,"",0,"",0,0,0,0,0,"",0,False
-1054149,"",0,"",0,0,0,0,0,"",0,False
+1054148,"Pudeel Ja",0,"Pudeel Ja",0,0,1,0,1,"",3,True
+1054149,"Mireel Ja",0,"Mireel Ja",0,0,1,0,1,"",3,False
 1054150,"Shale",0,"Shale",0,0,1,1,1,"",3,False
-1054151,"",0,"",0,0,0,0,0,"",0,False
-1054152,"",0,"",0,0,0,0,0,"",0,False
-1054153,"",0,"",0,0,0,0,0,"",0,False
-1054154,"",0,"",0,0,0,0,0,"",0,False
+1054151,"mycologue doppro",0,"mycologues doppro",0,0,1,0,0,"",3,False
+1054152,"",0,"",0,0,1,0,0,"",5,False
+1054153,"",0,"",0,0,1,0,0,"",5,False
+1054154,"",0,"",0,0,1,0,0,"",5,False
 1054155,"habitant inquiet",0,"habitants inquiets",0,1,1,0,0,"",3,False
 1054156,"",0,"",0,0,1,0,0,"",5,False
 1054157,"habitant nerveux",0,"habitants nerveux",0,1,1,0,0,"",3,False
 1054158,"habitante mé<SoftHyphen/>lan<SoftHyphen/>co<SoftHyphen/>li<SoftHyphen/>que",0,"habitantes mélancoliques",0,1,1,1,0,"",3,False
-1054159,"",0,"",0,0,0,0,0,"",0,False
+1054159,"Jeffroy",0,"Jeffroy",0,0,1,0,1,"",3,True
 1054160,"Gulool Ja",0,"Gulool Ja",0,0,1,0,1,"",3,False
 1054161,"Sphene",0,"Sphene",0,0,1,1,1,"",3,False
 1054162,"Krile",0,"Krile",0,0,1,1,1,"",3,False
 1054163,"Erenville",0,"Erenville",0,1,1,0,1,"",3,False
-1054164,"",0,"",0,0,0,0,0,"",0,False
+1054164,"conseillère de l'expédition",0,"conseillères de l'expédition",0,0,1,1,0,"Guide",3,True
 1054165,"",0,"",0,0,1,0,0,"",5,False
-1054166,"",0,"",0,0,0,0,0,"",0,False
-1054167,"",0,"",0,0,0,0,0,"",0,False
+1054166,"",0,"",0,0,1,0,0,"",4,False
+1054167,"",0,"",0,0,1,0,0,"",4,False
 1054168,"",0,"",0,0,0,0,0,"",0,False
 1054169,"",0,"",0,0,0,0,0,"",0,False
 1054170,"",0,"",0,0,0,0,0,"",0,False
@@ -54190,9 +54190,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1054180,"",0,"",0,0,0,0,0,"",0,False
 1054181,"",0,"",0,0,0,0,0,"",0,False
 1054182,"",0,"",0,0,0,0,0,"",0,False
-1054183,"",0,"",0,0,0,0,0,"",0,False
-1054184,"",0,"",0,0,0,0,0,"",0,False
-1054185,"",0,"",0,0,0,0,0,"",0,False
+1054183,"",0,"",0,0,1,0,0,"",4,False
+1054184,"",0,"",0,0,1,0,0,"",4,False
+1054185,"",0,"",0,0,1,0,0,"",4,False
 1054186,"",0,"",0,0,0,0,0,"",0,False
 1054187,"",0,"",0,0,0,0,0,"",0,False
 1054188,"",0,"",0,0,0,0,0,"",0,False
@@ -54302,12 +54302,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,byte,bit&01
 1054292,"",0,"",0,0,0,0,0,"",0,False
 1054293,"",0,"",0,0,0,0,0,"",0,False
 1054294,"",0,"",0,0,0,0,0,"",0,False
-1054295,"",0,"",0,0,0,0,0,"",0,False
-1054296,"",0,"",0,0,0,0,0,"",0,False
-1054297,"",0,"",0,0,0,0,0,"",0,False
-1054298,"",0,"",0,0,0,0,0,"",0,False
-1054299,"",0,"",0,0,0,0,0,"",0,False
-1054300,"",0,"",0,0,0,0,0,"",0,False
+1054295,"Ofangeim",0,"Ofangeim",0,1,1,1,1,"",3,False
+1054296,"",0,"",0,0,1,0,0,"",5,False
+1054297,"messager de l'expédition",0,"messagers de l'expédition",0,0,1,0,0,"",3,False
+1054298,"",0,"",0,0,1,0,0,"",5,False
+1054299,"",0,"",0,0,1,0,0,"",5,False
+1054300,"",0,"",0,0,1,0,0,"",5,False
 1054301,"",0,"",0,0,0,0,0,"",0,False
 1054302,"",0,"",0,0,0,0,0,"",0,False
 1054303,"",0,"",0,0,0,0,0,"",0,False

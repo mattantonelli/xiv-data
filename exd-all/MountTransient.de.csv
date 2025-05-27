@@ -749,8 +749,10 @@ Ein Abbild des gefürchteten Königs.","Nachdem Shishio besiegt wurde, spaltete 
 369,"","",""
 370,"","",""
 371,"","",""
-372,"","",""
-373,"","",""
+372,"Rufe deine Dämonentafel herbei und lasse dich von ihrer amdaporschen Magie beschützen.","In Blut geschriebene Inschriften erweckten diese unbewegte Steintafel zum Leben. Einst diente sie einzig und allein als Wächter des Turms des Blutes, doch seit ihr der Kern entnommen wurde, lässt es sich wunderbar auf ihr reiten - abgesehen von dem steinharten Sitzgefühl, natürlich.","Ach, da fällt mir ein Stein vom Herzen<Indent/>...
+<Emphasis>N'welhi Tia</Emphasis>"
+373,"Rufe deinen Petalodus herbei, den laufenden Haifisch, der dich ganz sicher nicht auf seiner Speisekarte hat. Hoffentlich ...","In den Legenden Nyms wird an einigen Stellen von Meeresräubern mit Gliedmaßen gesprochen, ob es sich dabei allerdings um dieses bestimmte Exemplar handelt, ist ungewiss. Und obwohl Petalodus als äußerst aggressiv und brutal gelten, scheint dich dein neues Reittier als guten Freund anzusehen.","Ah, riechst du das? Der Duft des Meeres!
+<Emphasis>Jammingway</Emphasis> "
 374,"Rufe deinen Schneefluenzer herbei. Keine Sorge, der ist widerstandsfähiger, als es den Anschein hat.","Der Frühling kann kommen, denn dieser hohle Schneemann besteht aus Immerfrost-Kristallen, denen selbst sengende Hitze nichts anhaben kann. Gerüchten zufolge erfreut sich der frostige Freund seit Neuestem gerade bei solchen äußerster Beliebtheit, die ihre Abenteuer mit anderen teilen, oder solchen, die dabei gerne mitfiebern.","Füüühle den Schneeeeee ... Spüüüre die frostige Seite der Maaacht ...
 <Emphasis>Schneemann</Emphasis>"
 375,"","",""
@@ -759,10 +761,12 @@ Ein Abbild des gefürchteten Königs.","Nachdem Shishio besiegt wurde, spaltete 
 378,"","",""
 379,"","",""
 380,"","",""
-381,"","",""
+381,"Rufe deinen Zweigträger herbei, welcher vogelähnlicher nicht sein könnte. Aber eben nur ähnlich, nicht mehr.","Als Begleitpflanze hilft der Zweigträger in Gok Golma mithilfe seiner ätherischen Strahlungen bei der Schädlings<SoftHyphen/>bekämpfung. Wäre diese Pflanze nicht von den Doppro gezähmt worden, würde sie auch heute noch Tiere und wilde Bestien zur Nah<SoftHyphen/>rungs<SoftHyphen/>auf<SoftHyphen/>nahme jagen.","Ach, verdammt, ich komm auf keinen grünen Zweig.
+<Emphasis>Hilda</Emphasis>"
 382,"Rufe deinen Luftraser C9 herbei und manövriere mit der Speerspitze der mobilen Elektrobtechnologie Neu-Alexandrias die Lüfte.","Das Allerneueste, was es auf dem von der Elektrobtechnologie Neu-Alexandrias dominierten Markt für Schwebemobilität so gibt. Dieses Hybridmobil brilliert mit seinem Sechsradantrieb sowohl auf Land als auch in der Luft, was es schnell zum Statussymbol vieler junger Leute in Lösung Neun gemacht hat.","Der ist wirklich 'ne Wucht.
 <Emphasis>Einsames Kind</Emphasis>"
-383,"","",""
+383,"Rufe dein antikes Luftschiff herbei, welches mit seinen magischen Flugfähigkeiten dich und drei weitere Verbündete transportieren kann.","Die Insel Kreszentia beherbergte dieses Schiff scheinbar für Jahrtausende. Und anders als moderne Luftschiffe wird es nicht von konventionellem Treibstoff wie Erdseim angetrieben, sondern nutzt windaspektierten Äther zur Fortbewegung. Da es diesen aber von seinen Passagieren abzweigt, wird empfohlen, als Gruppe zu reisen und somit plötzlichen Schwächeanfällen vorzubeugen. Sicherheit geht eben vor.","Flieg wie der Wind!
+<Emphasis>Deryk</Emphasis>"
 384,"","",""
 385,"Steige in deinen hochmobilen Sternenläufer ein und mache die Oberflächen fremder Planeten mit seiner unbändigen Schubkraft unsicher.","Dieses Sondermodell des Sternenläufers wird nur den Besten der Besten von Projekt Kosmo-Erkundung zuteil. Im Vergleich zum Standardmodell wurde das Gewicht seines Gehäuses wesentlich überarbeitet, was in deutlich höherer Mobilität resultiert. Das bedeutet aber auch, dass es äußerst empfindlich auf Steuereingaben reagiert. Für Profipiloten ist das jedoch nur ein weiterer Grund, es in den Sternenhimmel zu loben.","Klar wie Möhrenbrühe, Chef!
 <Emphasis>Drivingway</Emphasis>"

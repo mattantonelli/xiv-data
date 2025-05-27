@@ -441,8 +441,8 @@ int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint1
 437,436,8,6,3,5,"TripleTriadCardRarity#3","",500,31,422,0,False,6,"Malevolent Weasel","Level#11738323","Triple Triad Trial"
 438,437,7,7,7,7,"TripleTriadCardRarity#4","",800,32,423,0,False,3,"Recollection",,"Descent to the Foundation"
 439,438,7,1,10,9,"TripleTriadCardRarity#5","",1500,40,424,0,False,3,"AAC Cruiserweight M4",,"The Lone Wolf"
-440,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-441,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-442,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-443,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+440,439,8,5,8,6,"TripleTriadCardRarity#4","",800,32,425,0,False,14,,,"Past and Crescent"
+441,440,2,3,7,5,"TripleTriadCardRarity#2","",300,8,426,0,False,10,"Veerul Ja","Level#11537749"," The Pride of Mamook"
+442,441,7,6,2,2,"TripleTriadCardRarity#2","",300,8,427,0,False,6,"Pudeel Ja","Level#11704272"," The Pride of Mamook"
+443,442,2,4,8,7,"TripleTriadCardRarity#3","Society",500,24,428,0,False,6,"Pudeel Ja","Level#11704272"," The Pride of Mamook"
 444,443,7,7,9,4,"TripleTriadCardRarity#4","",0,39,9999,0,False,13,,,"Royal Rumblings"

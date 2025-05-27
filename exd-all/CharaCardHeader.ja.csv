@@ -73,6 +73,6 @@ int32,Image,Image,byte,byte,byte,byte,BannerCondition,uint16,uint16,uint16,byte,
 69,"ui/icon/196000/196061.tex",,1,0,0,0,"BannerCondition#782",0,0,0,9,1034,"ラザハン1"
 70,"ui/icon/196000/196067.tex",,1,0,0,0,"BannerCondition#783",0,0,0,9,1035,"ラザハン2"
 71,"ui/icon/196000/196118.tex",,1,0,0,0,"BannerCondition#872",0,0,0,4,2505,"絶もうひとつの未来"
-72,,,0,0,0,0,"BannerCondition#0",0,0,0,0,0,""
-73,,,0,0,0,0,"BannerCondition#0",0,0,0,0,0,""
+72,"ui/icon/196000/196219.tex","ui/icon/196000/196469.tex",1,0,0,0,"BannerCondition#873",0,0,0,3,2318,"友好部族クエスト：マムージャ族"
+73,"ui/icon/196000/196119.tex",,1,0,0,0,"BannerCondition#879",0,0,0,4,2403,"蜃気楼の島 クレセントアイル "
 74,"ui/icon/196000/196120.tex",,1,0,0,0,"BannerCondition#878",0,0,0,8,2342,"コスモエクスプローラー"

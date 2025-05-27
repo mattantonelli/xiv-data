@@ -773,27 +773,28 @@ int32,str,str,bit&01,uint16
 769,"vom finalen Konflikt","vom finalen Konflikt",False,1832
 770,"vom endlosen Konflikt","vom endlosen Konflikt",False,1833
 771,"vom zunehmenden Konflikt","vom zunehmenden Konflikt",False,1834
-772,"","",False,0
+772,"Bauer","Bäuerin",True,1835
 773,"auf der Suche nach Endlosigkeit","auf der Suche nach Endlosigkeit",False,1836
-774,"","",False,0
-775,"","",False,0
-776,"","",False,0
-777,"","",False,0
-778,"","",False,0
-779,"","",False,0
-780,"","",False,0
-781,"Kosmischer Wegbereiter","Kosmische Wegbereiterin",True,1844
-782,"Entwerfer der Sterne","Entwerferin der Sterne",True,1845
-783,"Bearbeiter der Sterne","Bearbeiterin der Sterne",True,1846
-784,"Härter der Sterne","Härterin der Sterne",True,1847
-785,"Gießer der Sterne","Gießerin der Sterne",True,1848
-786,"Flicker der Sterne","Flickerin der Sterne",True,1849
-787,"Weber der Sterne","Weberin der Sterne",True,1850
-788,"Sublimierer der Sterne","Sublimiererin der Sterne",True,1851
-789,"Schmecker der Sterne","Schmeckerin der Sterne",True,1852
-790,"Ausgräber der Sterne","Ausgräberin der Sterne",True,1853
-791,"Pflücker der Sterne","Pflückerin der Sterne",True,1854
-792,"Angler der Sterne","Anglerin der Sterne",True,1855
-793,"Sternenleuchter","Sternenleuchterin",True,1856
-794,"Sternenfinder","Sternenfinderin",True,1857
-795,"des Sternenglücks","des Sternenglücks",False,1858
+774,"Zufallsbegegnung","Zufallsbegegnung",True,1837
+775,"Fatale Wissbegier","Fatale Wissbegier",True,1838
+776,"Wächter des Blutes","Wächterin des Blutes",True,1839
+777,"auf des toten Manns Kiste","auf des toten Manns Kiste",False,1840
+778,"schiffbrüchiger Schatz<SoftHyphen/>sucher","schiffbrüchige Schatz<SoftHyphen/>sucherin",True,1842
+779,"Bettelkönig","Bettelkönigin",True,1843
+780,"Hasenpfote","Hasenpfote",True,1844
+781,"Kosmischer Wegbereiter","Kosmische Wegbereiterin",True,1845
+782,"Entwerfer der Sterne","Entwerferin der Sterne",True,1846
+783,"Bearbeiter der Sterne","Bearbeiterin der Sterne",True,1847
+784,"Härter der Sterne","Härterin der Sterne",True,1848
+785,"Gießer der Sterne","Gießerin der Sterne",True,1849
+786,"Flicker der Sterne","Flickerin der Sterne",True,1850
+787,"Weber der Sterne","Weberin der Sterne",True,1851
+788,"Sublimierer der Sterne","Sublimiererin der Sterne",True,1852
+789,"Schmecker der Sterne","Schmeckerin der Sterne",True,1853
+790,"Ausgräber der Sterne","Ausgräberin der Sterne",True,1854
+791,"Pflücker der Sterne","Pflückerin der Sterne",True,1855
+792,"Angler der Sterne","Anglerin der Sterne",True,1856
+793,"Sternenleuchter","Sternenleuchterin",True,1857
+794,"Sternenfinder","Sternenfinderin",True,1858
+795,"des Sternenglücks","des Sternenglücks",False,1859
+796,"Tausendsassa","Tausendsassa",True,1841

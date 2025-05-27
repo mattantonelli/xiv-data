@@ -773,27 +773,28 @@ int32,str,str,bit&01,uint16
 769,"Légende conflictuelle","Légende conflictuelle",False,1832
 770,"Histoire conflictuelle","Histoire conflictuelle",False,1833
 771,"Parcours conflictuel","Parcours conflictuel",False,1834
-772,"","",False,0
+772,"Agriculteur, ja","Agricultrice, ja",False,1835
 773,"Explorateur de l'éternité","Exploratrice de l'éternité",False,1836
-774,"","",False,0
-775,"","",False,0
-776,"","",False,0
-777,"","",False,0
-778,"","",False,0
-779,"","",False,0
-780,"","",False,0
-781,"Paré au décollage","Parée au décollage",False,1844
-782,"Menuisier des étoiles","Menuisière des étoiles",False,1845
-783,"Forgeron des étoiles","Forgeronne des étoiles",False,1846
-784,"Armurier des étoiles","Armurière des étoiles",False,1847
-785,"Orfèvre des étoiles","Orfèvre des étoiles",False,1848
-786,"Tanneur des étoiles","Tanneuse des étoiles",False,1849
-787,"Couturier des étoiles","Couturière des étoiles",False,1850
-788,"Alchimiste des étoiles","Alchimiste des étoiles",False,1851
-789,"Cuisinier des étoiles","Cuisinière des étoiles",False,1852
-790,"Mineur des étoiles","Mineuse des étoiles",False,1853
-791,"Botaniste des étoiles","Botaniste des étoiles",False,1854
-792,"Pêcheur des étoiles","Pêcheuse des étoiles",False,1855
-793,"Faiseur d'étoiles","Faiseuse d'étoiles",False,1856
-794,"Chercheur d'étoiles","Chercheuse d'étoiles",False,1857
-795,"Béni par les étoiles","Bénie par les étoiles",False,1858
+774,"Belligérant critique","Belligérante critique",False,1837
+775,"Amateur d'aléatoire","Amatrice d'aléatoire",False,1838
+776,"Forte tête de la Tour","Forte tête de la Tour",False,1839
+777,"Secouriste fantôme","Secouriste fantôme",False,1840
+778,"Trésorier du croissant","Trésorière du croissant",False,1842
+779,"Pote persistant","Pote persistante",False,1843
+780,"Carotteur du bonheur","Carotteuse du bonheur",False,1844
+781,"Paré au décollage","Parée au décollage",False,1845
+782,"Menuisier des étoiles","Menuisière des étoiles",False,1846
+783,"Forgeron des étoiles","Forgeronne des étoiles",False,1847
+784,"Armurier des étoiles","Armurière des étoiles",False,1848
+785,"Orfèvre des étoiles","Orfèvre des étoiles",False,1849
+786,"Tanneur des étoiles","Tanneuse des étoiles",False,1850
+787,"Couturier des étoiles","Couturière des étoiles",False,1851
+788,"Alchimiste des étoiles","Alchimiste des étoiles",False,1852
+789,"Cuisinier des étoiles","Cuisinière des étoiles",False,1853
+790,"Mineur des étoiles","Mineuse des étoiles",False,1854
+791,"Botaniste des étoiles","Botaniste des étoiles",False,1855
+792,"Pêcheur des étoiles","Pêcheuse des étoiles",False,1856
+793,"Faiseur d'étoiles","Faiseuse d'étoiles",False,1857
+794,"Chercheur d'étoiles","Chercheuse d'étoiles",False,1858
+795,"Béni par les étoiles","Bénie par les étoiles",False,1859
+796,"Grand maître fantôme","Grande maîtresse fantôme",False,1841
