@@ -1,8 +1,6 @@
-﻿key,0
 #,Name
-int32,str
-0,""
-1,"Primae"
-2,"Bund"
-3,"Wilde Stämme"
-4,"Garlear"
+0,
+1,Primae
+2,Bund
+3,Wilde Stämme
+4,Garlear

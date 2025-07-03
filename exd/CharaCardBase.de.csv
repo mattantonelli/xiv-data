@@ -1,144 +1,142 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10,11
-#,Image,FontColor,,,,UnlockCondition,,,,SortKey,Name,
-int32,Image,byte,bool,bool,byte,BannerCondition,uint16,uint16,uint16,byte,uint16,str
-0,,0,True,True,0,"BannerCondition#0",0,0,0,0,0,"Nichts"
-1,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-2,"ui/icon/193000/193002.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,1,"Schwarz"
-3,"ui/icon/193000/193003.tex",2,True,True,0,"BannerCondition#1",0,0,0,1,2,"Weiß"
-4,"ui/icon/193000/193004.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,5,"Violett"
-5,"ui/icon/193000/193005.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,6,"Abgestufter Verteidiger"
-6,"ui/icon/193000/193006.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,8,"Abgestufter Angreifer"
-7,"ui/icon/193000/193007.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,7,"Abgestufter Heiler"
-8,"ui/icon/193000/193008.tex",2,True,True,0,"BannerCondition#1",0,0,0,1,4,"Elfenbein"
-9,"ui/icon/193000/193009.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,10,"Transparent"
-10,"ui/icon/193000/193010.tex",2,True,True,0,"BannerCondition#1",0,0,0,1,3,"Beige"
-11,"ui/icon/193000/193011.tex",2,True,True,0,"BannerCondition#1",0,0,0,1,9,"Angestuftes Rosa"
-12,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-13,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-14,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-15,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-16,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-17,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-18,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-19,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-20,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-21,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-22,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-23,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-24,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-25,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-26,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-27,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-28,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-29,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-30,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-31,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-32,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-33,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-34,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-35,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-36,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-37,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-38,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-39,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-40,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-41,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-42,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-43,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-44,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-45,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-46,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-47,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-48,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-49,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-50,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-51,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-52,"ui/icon/193000/193901.tex",1,True,True,0,"BannerCondition#154",0,0,0,7,4000,"Companion-App 1"
-53,"ui/icon/193000/193902.tex",1,True,True,0,"BannerCondition#155",0,0,0,7,4001,"Companion-App 2"
-54,"ui/icon/193000/193701.tex",1,True,True,0,"BannerCondition#319",0,0,0,4,2500,"Schatten von Bahamut (fatal)"
-55,"ui/icon/193000/193702.tex",1,True,True,0,"BannerCondition#320",0,0,0,4,2501,"Heldenlied von Ultima (fatal)"
-56,"ui/icon/193000/193703.tex",2,True,True,0,"BannerCondition#321",0,0,0,4,2502,"Alexander (fatal)"
-57,"ui/icon/193000/193704.tex",1,True,True,0,"BannerCondition#322",0,0,0,4,2503,"Drachenkrieg (fatal)"
-58,"ui/icon/193000/193966.tex",1,True,True,0,"BannerCondition#344",0,0,0,3,2315,"Aufträge der Omikron"
-59,"ui/icon/193000/193012.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,11,"Kaffeepause"
-60,"ui/icon/193000/193013.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,12,"Geometrisch: Kreise"
-61,"ui/icon/193000/193014.tex",1,True,True,0,"BannerCondition#347",0,0,0,7,13,"Musik"
-62,"ui/icon/193000/193015.tex",1,True,True,0,"BannerCondition#1",0,0,0,1,14,"Fernöstlich"
-63,"ui/icon/193000/193962.tex",1,True,True,0,"BannerCondition#429",0,0,0,3,2311,"Aufträge der Pixies"
-64,"ui/icon/193000/193963.tex",1,True,True,0,"BannerCondition#430",0,0,0,3,2312,"Aufträge der Qitari"
-65,"ui/icon/193000/193964.tex",1,True,True,0,"BannerCondition#431",0,0,0,3,2313,"Aufträge der Zwerge"
-66,"ui/icon/193000/193965.tex",1,True,True,0,"BannerCondition#432",0,0,0,3,2314,"Aufträge der Arkasodara"
-67,"ui/icon/193000/193967.tex",1,True,True,0,"BannerCondition#433",0,0,0,3,2316,"Aufträge der Loporrit"
-68,"ui/icon/193000/193705.tex",1,True,True,0,"BannerCondition#434",0,0,0,4,2504,"Omega (fatal)"
-69,"ui/icon/193000/193710.tex",1,True,True,0,"BannerCondition#465",0,0,0,4,2358,"Tiefes Gewölbe: Eureka Orthos 1"
-70,"ui/icon/193000/193711.tex",1,True,True,0,"BannerCondition#466",0,0,0,4,2359,"Tiefes Gewölbe: Eureka Orthos 2"
-71,"ui/icon/193000/193712.tex",2,True,True,0,"BannerCondition#467",0,0,0,3,2251,"Die vier Tierheiligen"
-72,"ui/icon/193000/193713.tex",2,True,True,0,"BannerCondition#468",0,0,0,8,2340,"Inselparadies 1"
-73,"ui/icon/193000/193714.tex",1,True,True,0,"BannerCondition#469",0,0,0,8,2341,"Inselparadies 2"
-74,"ui/icon/193000/193960.tex",1,True,True,0,"BannerCondition#524",0,0,0,3,2308,"Aufträge der Kojin"
-75,"ui/icon/193000/193959.tex",1,True,True,0,"BannerCondition#525",0,0,0,3,2309,"Aufträge der Ananta"
-76,"ui/icon/193000/193961.tex",1,True,True,0,"BannerCondition#526",0,0,0,3,2310,"Aufträge der Namazuo"
-77,"ui/icon/193000/193715.tex",1,True,True,0,"BannerCondition#527",0,0,0,3,2250,"Das Ende einer Ära"
-78,"ui/icon/193000/193716.tex",1,True,True,0,"BannerCondition#523",0,0,0,7,3950,"10. Jubiläum"
-79,"ui/icon/193000/193717.tex",1,True,True,0,"BannerCondition#529",0,0,0,8,2343,"Fischer auf großer Fahrt"
-80,"ui/icon/193000/193718.tex",1,True,True,0,"BannerCondition#530",0,0,0,8,2344,"Kapitalbeschaffung"
-81,"ui/icon/193000/193719.tex",1,True,True,0,"BannerCondition#531",0,0,0,8,2350,"Mahjong-Profi"
-82,"ui/icon/193000/193956.tex",1,True,True,0,"BannerCondition#567",0,0,0,3,2305,"Aufträge der Vanu Vanu"
-83,"ui/icon/193000/193957.tex",1,True,True,0,"BannerCondition#568",0,0,0,3,2306,"Aufträge der Gnath"
-84,"ui/icon/193000/193958.tex",1,True,True,0,"BannerCondition#569",0,0,0,3,2307,"Aufträge der Mogrys"
-85,"ui/icon/193000/193723.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2252,"Mythen Eorzeas: Halone"
-86,"ui/icon/193000/193724.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2253,"Mythen Eorzeas: Menphina"
-87,"ui/icon/193000/193725.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2254,"Mythen Eorzeas: Thaliak"
-88,"ui/icon/193000/193726.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2255,"Mythen Eorzeas: Nymeia"
-89,"ui/icon/193000/193727.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2256,"Mythen Eorzeas: Llymlaen"
-90,"ui/icon/193000/193728.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2257,"Mythen Eorzeas: Oschon"
-91,"ui/icon/193000/193729.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2258,"Mythen Eorzeas: Byregot"
-92,"ui/icon/193000/193730.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2259,"Mythen Eorzeas: Rhalgr"
-93,"ui/icon/193000/193731.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2260,"Mythen Eorzeas: Azeyma"
-94,"ui/icon/193000/193732.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2261,"Mythen Eorzeas: Nald'thal"
-95,"ui/icon/193000/193733.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2262,"Mythen Eorzeas: Nophica"
-96,"ui/icon/193000/193734.tex",2,True,True,0,"BannerCondition#572",0,0,0,3,2263,"Mythen Eorzeas: Althyk"
-97,"ui/icon/193000/193722.tex",1,True,True,0,"BannerCondition#573",0,0,0,3,2242,"Tatarus Wohlstandsmanufaktur"
-98,"ui/icon/193000/193720.tex",2,True,True,0,"BannerCondition#570",0,0,0,8,2351,"Khloes Abenteueralbum"
-99,"ui/icon/193000/193721.tex",1,True,True,0,"BannerCondition#571",0,0,0,8,2352,"Traumtafel"
-100,"ui/icon/193000/193735.tex",1,True,True,0,"BannerCondition#575",0,0,0,7,3951,"Stolperville 1"
-101,"ui/icon/193000/193736.tex",1,True,True,0,"BannerCondition#576",0,0,0,7,3952,"Stolperville 2"
-102,"ui/icon/193000/193737.tex",1,True,True,0,"BannerCondition#577",0,0,0,7,3953,"Stolperville 3"
-103,"ui/icon/193000/193738.tex",1,True,True,0,"BannerCondition#607",0,0,0,7,3954,"Yo-kai Watch"
-104,"ui/icon/193000/193954.tex",1,True,True,0,"BannerCondition#694",0,0,0,3,2302,"Aufträge der Kobolde"
-105,"ui/icon/193000/193952.tex",1,True,True,0,"BannerCondition#695",0,0,0,3,2301,"Aufträge der Sylphen"
-106,"ui/icon/193000/193951.tex",1,True,True,0,"BannerCondition#696",0,0,0,3,2300,"Aufträge der Amalj'aa"
-107,"ui/icon/193000/193955.tex",1,True,True,0,"BannerCondition#697",0,0,0,3,2303,"Aufträge der Sahagin"
-108,"ui/icon/193000/193953.tex",1,True,True,0,"BannerCondition#698",0,0,0,3,2304,"Aufträge der Ixal"
-109,"ui/icon/193000/193662.tex",1,True,True,0,"BannerCondition#701",0,0,0,9,1036,"Tuliyollal 1"
-110,"ui/icon/193000/193663.tex",1,True,True,0,"BannerCondition#702",0,0,0,9,1037,"Tuliyollal 2"
-111,"ui/icon/193000/193664.tex",1,True,True,0,"BannerCondition#699",0,0,0,9,1038,"Lösung Neun 1"
-112,"ui/icon/193000/193665.tex",2,True,True,0,"BannerCondition#700",0,0,0,9,1039,"Lösung Neun 2"
-113,"ui/icon/193000/193968.tex",1,True,True,0,"BannerCondition#767",0,0,0,3,2317,"Aufträge der Pelupelu"
-114,"ui/icon/193000/193654.tex",2,True,True,0,"BannerCondition#768",0,0,0,9,1020,"Ishgard 1"
-115,"ui/icon/193000/193672.tex",1,True,True,0,"BannerCondition#769",0,0,0,9,1021,"Ishgard 2"
-116,"ui/icon/193000/193655.tex",2,True,True,0,"BannerCondition#770",0,0,0,9,1022,"Frohehalde 1"
-117,"ui/icon/193000/193673.tex",1,True,True,0,"BannerCondition#771",0,0,0,9,1023,"Frohehalde 2"
-118,"ui/icon/193000/193656.tex",1,True,True,0,"BannerCondition#772",0,0,0,9,1024,"Kugane 1"
-119,"ui/icon/193000/193668.tex",2,True,True,0,"BannerCondition#773",0,0,0,9,1025,"Kugane 2"
-120,"ui/icon/193000/193657.tex",1,True,True,0,"BannerCondition#774",0,0,0,9,1026,"Rhalgrs Wacht 1"
-121,"ui/icon/193000/193669.tex",2,True,True,0,"BannerCondition#775",0,0,0,9,1027,"Rhalgrs Wacht 2"
-122,"ui/icon/193000/193658.tex",2,True,True,0,"BannerCondition#776",0,0,0,9,1028,"Crystarium 1"
-123,"ui/icon/193000/193670.tex",1,True,True,0,"BannerCondition#777",0,0,0,9,1029,"Crystarium 2"
-124,"ui/icon/193000/193659.tex",1,True,True,0,"BannerCondition#778",0,0,0,9,1030,"Eulmore 1"
-125,"ui/icon/193000/193671.tex",1,True,True,0,"BannerCondition#779",0,0,0,9,1031,"Eulmore 2"
-126,"ui/icon/193000/193660.tex",1,True,True,0,"BannerCondition#780",0,0,0,9,1032,"Alt-Sharlayan 1"
-127,"ui/icon/193000/193666.tex",2,True,True,0,"BannerCondition#781",0,0,0,9,1033,"Alt-Sharlayan 2"
-128,"ui/icon/193000/193661.tex",1,True,True,0,"BannerCondition#782",0,0,0,9,1034,"Radz-at-Han 1"
-129,"ui/icon/193000/193667.tex",1,True,True,0,"BannerCondition#783",0,0,0,9,1035,"Radz-at-Han 2"
-130,"ui/icon/193000/193739.tex",2,True,True,0,"BannerCondition#872",0,0,0,4,2505,"Eine zweite Zukunft"
-131,"ui/icon/193000/193969.tex",1,True,True,0,"BannerCondition#873",0,0,0,3,2318,"Aufträge der Mamool Ja"
-132,"ui/icon/193000/193706.tex",1,True,True,0,"BannerCondition#874",0,0,0,4,2354,"Tiefes Gewölbe: Palast der Toten 1"
-133,"ui/icon/193000/193707.tex",2,True,True,0,"BannerCondition#875",0,0,0,4,2355,"Tiefes Gewölbe: Palast der Toten 2"
-134,"ui/icon/193000/193708.tex",1,True,True,0,"BannerCondition#876",0,0,0,4,2356,"Tiefes Gewölbe: Himmelssäule 1"
-135,"ui/icon/193000/193709.tex",1,True,True,0,"BannerCondition#877",0,0,0,4,2357,"Tiefes Gewölbe: Himmelssäule 2"
-136,"ui/icon/193000/193740.tex",1,True,True,0,"BannerCondition#879",0,0,0,4,2403,"Kreszentia"
-137,"ui/icon/193000/193741.tex",1,True,True,0,"BannerCondition#878",0,0,0,8,2342,"Kosmo-Erkundung"
-138,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-139,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
-140,,0,False,False,0,"BannerCondition#0",0,0,0,0,0,""
+#,Name,Image,UnlockCondition,Unknown_70_1,Unknown_70_2,Unknown4,SortKey,FontColor,Unknown3,Unknown0,Unknown1,Unknown2
+0,Nichts,0,0,0,0,0,0,0,0,0,True,True
+1,,0,0,0,0,0,0,0,0,0,False,False
+2,Schwarz,193002,1,0,0,0,1,1,0,1,True,True
+3,Weiß,193003,1,0,0,0,2,2,0,1,True,True
+4,Violett,193004,1,0,0,0,5,1,0,1,True,True
+5,Abgestufter Verteidiger,193005,1,0,0,0,6,1,0,1,True,True
+6,Abgestufter Angreifer,193006,1,0,0,0,8,1,0,1,True,True
+7,Abgestufter Heiler,193007,1,0,0,0,7,1,0,1,True,True
+8,Elfenbein,193008,1,0,0,0,4,2,0,1,True,True
+9,Transparent,193009,1,0,0,0,10,1,0,1,True,True
+10,Beige,193010,1,0,0,0,3,2,0,1,True,True
+11,Angestuftes Rosa,193011,1,0,0,0,9,2,0,1,True,True
+12,,0,0,0,0,0,0,0,0,0,False,False
+13,,0,0,0,0,0,0,0,0,0,False,False
+14,,0,0,0,0,0,0,0,0,0,False,False
+15,,0,0,0,0,0,0,0,0,0,False,False
+16,,0,0,0,0,0,0,0,0,0,False,False
+17,,0,0,0,0,0,0,0,0,0,False,False
+18,,0,0,0,0,0,0,0,0,0,False,False
+19,,0,0,0,0,0,0,0,0,0,False,False
+20,,0,0,0,0,0,0,0,0,0,False,False
+21,,0,0,0,0,0,0,0,0,0,False,False
+22,,0,0,0,0,0,0,0,0,0,False,False
+23,,0,0,0,0,0,0,0,0,0,False,False
+24,,0,0,0,0,0,0,0,0,0,False,False
+25,,0,0,0,0,0,0,0,0,0,False,False
+26,,0,0,0,0,0,0,0,0,0,False,False
+27,,0,0,0,0,0,0,0,0,0,False,False
+28,,0,0,0,0,0,0,0,0,0,False,False
+29,,0,0,0,0,0,0,0,0,0,False,False
+30,,0,0,0,0,0,0,0,0,0,False,False
+31,,0,0,0,0,0,0,0,0,0,False,False
+32,,0,0,0,0,0,0,0,0,0,False,False
+33,,0,0,0,0,0,0,0,0,0,False,False
+34,,0,0,0,0,0,0,0,0,0,False,False
+35,,0,0,0,0,0,0,0,0,0,False,False
+36,,0,0,0,0,0,0,0,0,0,False,False
+37,,0,0,0,0,0,0,0,0,0,False,False
+38,,0,0,0,0,0,0,0,0,0,False,False
+39,,0,0,0,0,0,0,0,0,0,False,False
+40,,0,0,0,0,0,0,0,0,0,False,False
+41,,0,0,0,0,0,0,0,0,0,False,False
+42,,0,0,0,0,0,0,0,0,0,False,False
+43,,0,0,0,0,0,0,0,0,0,False,False
+44,,0,0,0,0,0,0,0,0,0,False,False
+45,,0,0,0,0,0,0,0,0,0,False,False
+46,,0,0,0,0,0,0,0,0,0,False,False
+47,,0,0,0,0,0,0,0,0,0,False,False
+48,,0,0,0,0,0,0,0,0,0,False,False
+49,,0,0,0,0,0,0,0,0,0,False,False
+50,,0,0,0,0,0,0,0,0,0,False,False
+51,,0,0,0,0,0,0,0,0,0,False,False
+52,Companion-App 1,193901,154,0,0,0,4000,1,0,7,True,True
+53,Companion-App 2,193902,155,0,0,0,4001,1,0,7,True,True
+54,Schatten von Bahamut (fatal),193701,319,0,0,0,2500,1,0,4,True,True
+55,Heldenlied von Ultima (fatal),193702,320,0,0,0,2501,1,0,4,True,True
+56,Alexander (fatal),193703,321,0,0,0,2502,2,0,4,True,True
+57,Drachenkrieg (fatal),193704,322,0,0,0,2503,1,0,4,True,True
+58,Aufträge der Omikron,193966,344,0,0,0,2315,1,0,3,True,True
+59,Kaffeepause,193012,1,0,0,0,11,1,0,1,True,True
+60,Geometrisch: Kreise,193013,1,0,0,0,12,1,0,1,True,True
+61,Musik,193014,347,0,0,0,13,1,0,7,True,True
+62,Fernöstlich,193015,1,0,0,0,14,1,0,1,True,True
+63,Aufträge der Pixies,193962,429,0,0,0,2311,1,0,3,True,True
+64,Aufträge der Qitari,193963,430,0,0,0,2312,1,0,3,True,True
+65,Aufträge der Zwerge,193964,431,0,0,0,2313,1,0,3,True,True
+66,Aufträge der Arkasodara,193965,432,0,0,0,2314,1,0,3,True,True
+67,Aufträge der Loporrit,193967,433,0,0,0,2316,1,0,3,True,True
+68,Omega (fatal),193705,434,0,0,0,2504,1,0,4,True,True
+69,Tiefes Gewölbe: Eureka Orthos 1,193710,465,0,0,0,2358,1,0,4,True,True
+70,Tiefes Gewölbe: Eureka Orthos 2,193711,466,0,0,0,2359,1,0,4,True,True
+71,Die vier Tierheiligen,193712,467,0,0,0,2251,2,0,3,True,True
+72,Inselparadies 1,193713,468,0,0,0,2340,2,0,8,True,True
+73,Inselparadies 2,193714,469,0,0,0,2341,1,0,8,True,True
+74,Aufträge der Kojin,193960,524,0,0,0,2308,1,0,3,True,True
+75,Aufträge der Ananta,193959,525,0,0,0,2309,1,0,3,True,True
+76,Aufträge der Namazuo,193961,526,0,0,0,2310,1,0,3,True,True
+77,Das Ende einer Ära,193715,527,0,0,0,2250,1,0,3,True,True
+78,10. Jubiläum,193716,523,0,0,0,3950,1,0,7,True,True
+79,Fischer auf großer Fahrt,193717,529,0,0,0,2343,1,0,8,True,True
+80,Kapitalbeschaffung,193718,530,0,0,0,2344,1,0,8,True,True
+81,Mahjong-Profi,193719,531,0,0,0,2350,1,0,8,True,True
+82,Aufträge der Vanu Vanu,193956,567,0,0,0,2305,1,0,3,True,True
+83,Aufträge der Gnath,193957,568,0,0,0,2306,1,0,3,True,True
+84,Aufträge der Mogrys,193958,569,0,0,0,2307,1,0,3,True,True
+85,Mythen Eorzeas: Halone,193723,572,0,0,0,2252,2,0,3,True,True
+86,Mythen Eorzeas: Menphina,193724,572,0,0,0,2253,2,0,3,True,True
+87,Mythen Eorzeas: Thaliak,193725,572,0,0,0,2254,2,0,3,True,True
+88,Mythen Eorzeas: Nymeia,193726,572,0,0,0,2255,2,0,3,True,True
+89,Mythen Eorzeas: Llymlaen,193727,572,0,0,0,2256,2,0,3,True,True
+90,Mythen Eorzeas: Oschon,193728,572,0,0,0,2257,2,0,3,True,True
+91,Mythen Eorzeas: Byregot,193729,572,0,0,0,2258,2,0,3,True,True
+92,Mythen Eorzeas: Rhalgr,193730,572,0,0,0,2259,2,0,3,True,True
+93,Mythen Eorzeas: Azeyma,193731,572,0,0,0,2260,2,0,3,True,True
+94,Mythen Eorzeas: Nald'thal,193732,572,0,0,0,2261,2,0,3,True,True
+95,Mythen Eorzeas: Nophica,193733,572,0,0,0,2262,2,0,3,True,True
+96,Mythen Eorzeas: Althyk,193734,572,0,0,0,2263,2,0,3,True,True
+97,Tatarus Wohlstandsmanufaktur,193722,573,0,0,0,2242,1,0,3,True,True
+98,Khloes Abenteueralbum,193720,570,0,0,0,2351,2,0,8,True,True
+99,Traumtafel,193721,571,0,0,0,2352,1,0,8,True,True
+100,Stolperville 1,193735,575,0,0,0,3951,1,0,7,True,True
+101,Stolperville 2,193736,576,0,0,0,3952,1,0,7,True,True
+102,Stolperville 3,193737,577,0,0,0,3953,1,0,7,True,True
+103,Yo-kai Watch,193738,607,0,0,0,3954,1,0,7,True,True
+104,Aufträge der Kobolde,193954,694,0,0,0,2302,1,0,3,True,True
+105,Aufträge der Sylphen,193952,695,0,0,0,2301,1,0,3,True,True
+106,Aufträge der Amalj'aa,193951,696,0,0,0,2300,1,0,3,True,True
+107,Aufträge der Sahagin,193955,697,0,0,0,2303,1,0,3,True,True
+108,Aufträge der Ixal,193953,698,0,0,0,2304,1,0,3,True,True
+109,Tuliyollal 1,193662,701,0,0,0,1036,1,0,9,True,True
+110,Tuliyollal 2,193663,702,0,0,0,1037,1,0,9,True,True
+111,Lösung Neun 1,193664,699,0,0,0,1038,1,0,9,True,True
+112,Lösung Neun 2,193665,700,0,0,0,1039,2,0,9,True,True
+113,Aufträge der Pelupelu,193968,767,0,0,0,2317,1,0,3,True,True
+114,Ishgard 1,193654,768,0,0,0,1020,2,0,9,True,True
+115,Ishgard 2,193672,769,0,0,0,1021,1,0,9,True,True
+116,Frohehalde 1,193655,770,0,0,0,1022,2,0,9,True,True
+117,Frohehalde 2,193673,771,0,0,0,1023,1,0,9,True,True
+118,Kugane 1,193656,772,0,0,0,1024,1,0,9,True,True
+119,Kugane 2,193668,773,0,0,0,1025,2,0,9,True,True
+120,Rhalgrs Wacht 1,193657,774,0,0,0,1026,1,0,9,True,True
+121,Rhalgrs Wacht 2,193669,775,0,0,0,1027,2,0,9,True,True
+122,Crystarium 1,193658,776,0,0,0,1028,2,0,9,True,True
+123,Crystarium 2,193670,777,0,0,0,1029,1,0,9,True,True
+124,Eulmore 1,193659,778,0,0,0,1030,1,0,9,True,True
+125,Eulmore 2,193671,779,0,0,0,1031,1,0,9,True,True
+126,Alt-Sharlayan 1,193660,780,0,0,0,1032,1,0,9,True,True
+127,Alt-Sharlayan 2,193666,781,0,0,0,1033,2,0,9,True,True
+128,Radz-at-Han 1,193661,782,0,0,0,1034,1,0,9,True,True
+129,Radz-at-Han 2,193667,783,0,0,0,1035,1,0,9,True,True
+130,Eine zweite Zukunft,193739,872,0,0,0,2505,2,0,4,True,True
+131,Aufträge der Mamool Ja,193969,873,0,0,0,2318,1,0,3,True,True
+132,Tiefes Gewölbe: Palast der Toten 1,193706,874,0,0,0,2354,1,0,4,True,True
+133,Tiefes Gewölbe: Palast der Toten 2,193707,875,0,0,0,2355,2,0,4,True,True
+134,Tiefes Gewölbe: Himmelssäule 1,193708,876,0,0,0,2356,1,0,4,True,True
+135,Tiefes Gewölbe: Himmelssäule 2,193709,877,0,0,0,2357,1,0,4,True,True
+136,Kreszentia,193740,879,0,0,0,2403,1,0,4,True,True
+137,Kosmo-Erkundung,193741,878,0,0,0,2342,1,0,8,True,True
+138,,0,0,0,0,0,0,0,0,0,False,False
+139,,0,0,0,0,0,0,0,0,0,False,False
+140,,0,0,0,0,0,0,0,0,0,False,False

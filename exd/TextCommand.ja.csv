@@ -1,36 +1,34 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10,11
-#,,,,,,Command,ShortCommand,Description,Alias,ShortAlias,Param,
-int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
-1,1,0,0,0,0,"/record","","/replay(/record)
-コンテンツリプレイのメニューを開く。","/replay","","pack",0
-2,2,1,0,0,0,"/recordready","","/replayready(/recordready) サブコマンド
+#,Description,Alias,ShortAlias,Command,ShortCommand,Unknown0,Param,Unknown1,Unknown2,Unknown3,Unknown4,Unknown5
+1,"/replay(/record)
+コンテンツリプレイのメニューを開く。",/replay,,/record,,0,32,1,0,0,0,0
+2,"/replayready(/recordready) サブコマンド
 リプレイレディチェックの操作を行う。
 >>サブコマンド
 “秒数(5-30)”
 　…リプレイレディチェックを実行し、全員が「はい」を押したら指定した秒数で戦闘開始カウントを実行する。リプレイ記録の確認完了後に使用した場合は、基本の「レディチェック＋戦闘開始カウント」として機能する。
 ※サブコマンド省略
-　…リプレイレディチェックのメニューを開く。","/replayready","","on",0
-3,1,0,0,0,0,"/pvpteamcmd","","/pvpteamcmd
-PvPチームのメニューを開く。","","","on",0
-4,1,0,0,0,0,"/saddlebag","","/chocobobag(/saddlebag)
-チョコボかばんのメニューを開く。","/chocobobag","","on",0
-5,1,0,0,0,0,"/magiaright","","/magiaright
+　…リプレイレディチェックのメニューを開く。",/replayready,,/recordready,,0,0,2,1,0,0,0
+3,"/pvpteamcmd
+PvPチームのメニューを開く。",,,/pvpteamcmd,,0,0,1,0,0,0,0
+4,"/chocobobag(/saddlebag)
+チョコボかばんのメニューを開く。",/chocobobag,,/saddlebag,,0,0,1,0,0,0,0
+5,"/magiaright
 マギアボードを時計回りに回転する。
-","","","on",0
-6,1,0,0,0,0,"/magialeft","","/magialeft
+",,,/magiaright,,0,0,1,0,0,0,0
+6,"/magialeft
 マギアボードを反時計回りに回転する。
-","","","on",0
-7,1,0,0,0,0,"/cwlinkshellcmd","/cwlcmd","/cwlinkshellcmd(/cwlcmd)
-クロスワールドリンクシェルのメニューを開く。","","","on",0
-8,3,1,17,0,0,"/quickchat","/qchat","/quickchat(/qchat) クイックチャット 代名詞
+",,,/magialeft,,0,0,1,0,0,0,0
+7,"/cwlinkshellcmd(/cwlcmd)
+クロスワールドリンクシェルのメニューを開く。",,,/cwlinkshellcmd,/cwlcmd,0,0,1,0,0,0,0
+8,"/quickchat(/qchat) クイックチャット 代名詞
 クイックチャットを送信する。
 ※クリスタルコンフリクト内でのみ送信可能。
 実行例
 /quickchat 号令：攻撃
 　…クイックチャット「号令：攻撃」を送信する。
 /quickchat 攻撃：ターゲット <t>
-　…ターゲット中のキャラクターを対象としてクイックチャット「攻撃：ターゲット」を送信する。","","","<reply>",0
-9,4,3,2,18,2,"/bluespellbook","","/bluespellbook サブコマンド
+　…ターゲット中のキャラクターを対象としてクイックチャット「攻撃：ターゲット」を送信する。",,,/quickchat,/qchat,0,1021,3,1,17,0,0
+9,"/bluespellbook サブコマンド
 青魔法のアクティブアクションの設定を行う。
 >>サブコマンド
 set 青魔法名 on
@@ -48,20 +46,20 @@ clear
 /bluespellbook set 水鉄砲
 　…青魔法「水鉄砲」をアクティブアクションに登録／解除する。
 /bluespellbook preset 2
-　…アクティブアクションをアクティブセット2に置き換える。","","","head",0
-10,2,1,2,0,0,"/magiaattack","","/magiaattack 代名詞
+　…アクティブアクションをアクティブセット2に置き換える。",,,/bluespellbook,,0,36,4,3,2,18,2
+10,"/magiaattack 代名詞
 マギアボードの属性を選択対象の「反属性」に切り替える。代名詞は省略可能。
 
 実行例
 /magiaattack <t>
-　…マギアボードをターゲット対象の反属性に切り替える。","","","on",0
-11,2,1,2,0,0,"/magiadefense","","/magiadefense 代名詞
+　…マギアボードをターゲット対象の反属性に切り替える。",,,/magiaattack,,0,0,2,1,2,0,0
+11,"/magiadefense 代名詞
 マギアボードの属性を選択対象と「同属性」に切り替える。代名詞は省略可能。
 
 実行例
 /magiadefense <t>
-　…マギアボードをターゲット対象の同属性に切り替える。","","","on",0
-12,2,1,2,0,0,"/magiaauto","","/magiaauto サブコマンド
+　…マギアボードをターゲット対象の同属性に切り替える。",,,/magiadefense,,0,0,2,1,2,0,0
+12,"/magiaauto サブコマンド
 マギアボードの自動調整の設定を行う。自動調整が有効になっている場合、ターゲット選択を行った際、自動的にマギアボードの属性を切り替える。
 >>サブコマンド
 attack(atk)
@@ -75,8 +73,8 @@ off
 
 実行例
 /magiaauto attack
-　…マギアボードを「攻撃タイプ」に自動調整する。","","","on",0
-13,1,0,0,0,0,"/cwlinkshell1","/cwl1","/cwlinkshell1(/cwl1) 文章
+　…マギアボードを「攻撃タイプ」に自動調整する。",,,/magiaauto,,0,0,2,1,2,0,0
+13,"/cwlinkshell1(/cwl1) 文章
 クロスワールドリンクシェル：チャンネル1に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell1のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル1に切り替え、アクティブにする。
 
@@ -84,8 +82,8 @@ off
 /cwlinkshell1 こんにちは。
 　…クロスワールドリンクシェル：チャンネル1に「こんにちは。」という発言をする。
 /cwlinkshell1
-　…デフォルトの会話モードをCWLS-1に変更する。","","","<reply>",0
-14,1,0,0,0,0,"/cwlinkshell2","/cwl2","/cwlinkshell2(/cwl2) 文章
+　…デフォルトの会話モードをCWLS-1に変更する。",,,/cwlinkshell1,/cwl1,0,1021,1,0,0,0,0
+14,"/cwlinkshell2(/cwl2) 文章
 クロスワールドリンクシェル：チャンネル2に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell2のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル2に切り替え、アクティブにする。
 
@@ -93,8 +91,8 @@ off
 /cwlinkshell2 こんにちは。
 　…クロスワールドリンクシェル：チャンネル2に「こんにちは。」という発言をする。
 /cwlinkshell2
-　…デフォルトの会話モードをCWLS-2に変更する。","","","<reply>",0
-15,1,0,0,0,0,"/cwlinkshell3","/cwl3","/cwlinkshell3(/cwl3) 文章
+　…デフォルトの会話モードをCWLS-2に変更する。",,,/cwlinkshell2,/cwl2,0,1021,1,0,0,0,0
+15,"/cwlinkshell3(/cwl3) 文章
 クロスワールドリンクシェル：チャンネル3に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell3のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル3に切り替え、アクティブにする。
 
@@ -102,8 +100,8 @@ off
 /cwlinkshell3 こんにちは。
 　…クロスワールドリンクシェル：チャンネル3に「こんにちは。」という発言をする。
 /cwlinkshell3
-　…デフォルトの会話モードをCWLS-3に変更する。","","","<reply>",0
-16,1,0,0,0,0,"/cwlinkshell4","/cwl4","/cwlinkshell4(/cwl4) 文章
+　…デフォルトの会話モードをCWLS-3に変更する。",,,/cwlinkshell3,/cwl3,0,1021,1,0,0,0,0
+16,"/cwlinkshell4(/cwl4) 文章
 クロスワールドリンクシェル：チャンネル4に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell4のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル4に切り替え、アクティブにする。
 
@@ -111,8 +109,8 @@ off
 /cwlinkshell4 こんにちは。
 　…クロスワールドリンクシェル：チャンネル4に「こんにちは。」という発言をする。
 /cwlinkshell4
-　…デフォルトの会話モードをCWLS-4に変更する。","","","<reply>",0
-17,1,0,0,0,0,"/cwlinkshell5","/cwl5","/cwlinkshell5(/cwl5) 文章
+　…デフォルトの会話モードをCWLS-4に変更する。",,,/cwlinkshell4,/cwl4,0,1021,1,0,0,0,0
+17,"/cwlinkshell5(/cwl5) 文章
 クロスワールドリンクシェル：チャンネル5に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell5のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル5に切り替え、アクティブにする。
 
@@ -120,8 +118,8 @@ off
 /cwlinkshell5 こんにちは。
 　…クロスワールドリンクシェル：チャンネル5に「こんにちは。」という発言をする。
 /cwlinkshell5
-　…デフォルトの会話モードをCWLS-5に変更する。","","","<reply>",0
-18,1,0,0,0,0,"/cwlinkshell6","/cwl6","/cwlinkshell6(/cwl6) 文章
+　…デフォルトの会話モードをCWLS-5に変更する。",,,/cwlinkshell5,/cwl5,0,1021,1,0,0,0,0
+18,"/cwlinkshell6(/cwl6) 文章
 クロスワールドリンクシェル：チャンネル6に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell6のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル6に切り替え、アクティブにする。
 
@@ -129,8 +127,8 @@ off
 /cwlinkshell6 こんにちは。
 　…クロスワールドリンクシェル：チャンネル6に「こんにちは。」という発言をする。
 /cwlinkshell6
-　…デフォルトの会話モードをCWLS-6に変更する。","","","<reply>",0
-19,1,0,0,0,0,"/cwlinkshell7","/cwl7","/cwlinkshell7(/cwl7) 文章
+　…デフォルトの会話モードをCWLS-6に変更する。",,,/cwlinkshell6,/cwl6,0,1021,1,0,0,0,0
+19,"/cwlinkshell7(/cwl7) 文章
 クロスワールドリンクシェル：チャンネル7に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell7のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル7に切り替え、アクティブにする。
 
@@ -138,8 +136,8 @@ off
 /cwlinkshell7 こんにちは。
 　…クロスワールドリンクシェル：チャンネル7に「こんにちは。」という発言をする。
 /cwlinkshell7
-　…デフォルトの会話モードをCWLS-7に変更する。","","","<reply>",0
-20,1,0,0,0,0,"/cwlinkshell8","/cwl8","/cwlinkshell8(/cwl8) 文章
+　…デフォルトの会話モードをCWLS-7に変更する。",,,/cwlinkshell7,/cwl7,0,1021,1,0,0,0,0
+20,"/cwlinkshell8(/cwl8) 文章
 クロスワールドリンクシェル：チャンネル8に参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshell8のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル8に切り替え、アクティブにする。
 
@@ -147,12 +145,12 @@ off
 /cwlinkshell8 こんにちは。
 　…クロスワールドリンクシェル：チャンネル8に「こんにちは。」という発言をする。
 /cwlinkshell8
-　…デフォルトの会話モードをCWLS-8に変更する。","","","<reply>",0
-21,2,0,0,0,0,"/graphicpresets","/gpresets","/graphicpresets(/gpresets) プリセット番号
+　…デフォルトの会話モードをCWLS-8に変更する。",,,/cwlinkshell8,/cwl8,0,1021,1,0,0,0,0
+21,"/graphicpresets(/gpresets) プリセット番号
 グラフィック設定を指定したプリセットに切り替える。
 
 >>プリセット番号(1-5)
-<If(Equal(PlayerParameter(78),3))>1:Standard (Mac)
+1:Standard (Mac)
 2:Middle (Mac)
 3:High (Mac)
 4:Extra-High (Mac)
@@ -162,26 +160,16 @@ off
 /graphicpresets 1
 　…グラフィック設定を「Standard (Mac)」に変更する。
 /graphicpresets 3
-　…グラフィック設定を「High (Mac)」に変更する。<Else/>1:標準品質（ノートPC）
-2:標準品質（デスクトップPC）
-3:高品質（ノートPC）
-4:高品質（デスクトップPC）
-5:最高品質
-
-実行例
-/graphicpresets 1
-　…グラフィック設定を「標準品質（ノートPC）」に変更する。
-/graphicpresets 5
-　…グラフィック設定を「最高品質」に変更する。</If>","","",,0
-22,1,0,0,0,0,"/fellowship","/fs","/fellowship(/fs)
-フェローシップリストのメニューを開く。","","","pack",0
-23,1,0,0,0,0,"/fellowshipfinder","/fsfinder","/fellowshipfinder(/fsfinder)
-フェローシップ募集のメニューを開く。","","","pack",0
-24,1,0,0,0,0,"/collection","/coll","/collection(/coll)
-だいじなもののメニューを開く。","","","pack",0
-25,1,0,0,0,0,"/newgame+","/ng+","/newgame+(/ng+)
-つよくてニューゲームのメニューを開く。","","","pack",0
-26,2,1,2,0,0,"/dice","","/dice 会話モード 上限値
+　…グラフィック設定を「High (Mac)」に変更する。",,,/graphicpresets,/gpresets,0,993,2,0,0,0,0
+22,"/fellowship(/fs)
+フェローシップリストのメニューを開く。",,,/fellowship,/fs,0,32,1,0,0,0,0
+23,"/fellowshipfinder(/fsfinder)
+フェローシップ募集のメニューを開く。",,,/fellowshipfinder,/fsfinder,0,32,1,0,0,0,0
+24,"/collection(/coll)
+だいじなもののメニューを開く。",,,/collection,/coll,0,32,1,0,0,0,0
+25,"/newgame+(/ng+)
+つよくてニューゲームのメニューを開く。",,,/newgame+,/ng+,0,32,1,0,0,0,0
+26,"/dice 会話モード 上限値
 0～999の数字の1つをランダムに抽選して、現在アクティブな会話モード、もしくは指定した会話モードに発言する。
 >>指定可能な会話モード
 party(p)
@@ -204,8 +192,8 @@ cwlinkshell[1-8](cwl1-cwl8)
 /dice cwl1
 　…クロスワールドリンクシェル1にダイスメッセージを発言する。
 /dice cwl1 16
-　…クロスワールドリンクシェル1に1～16の間でランダムな数字のダイスメッセージを発言する。","","","head",1000
-27,3,1,2,0,0,"/nameplatetype","","/nameplatetype 対象 設定番号
+　…クロスワールドリンクシェル1に1～16の間でランダムな数字のダイスメッセージを発言する。",,,/dice,,1000,36,2,1,2,0,0
+27,"/nameplatetype 対象 設定番号
 PCの「ネームプレートの名前の表示タイプ」を設定する。
 >>対象
 all
@@ -231,8 +219,8 @@ feast
 
 実行例
 /nameplatetype all 4
-　…「すべてのPC」の名前の表示タイプを「姓名ともにイニシャル」に設定する。","","","head",0
-28,3,1,2,0,0,"/nameplatedisp","","/nameplatedisp 対象 設定番号
+　…「すべてのPC」の名前の表示タイプを「姓名ともにイニシャル」に設定する。",,,/nameplatetype,,0,36,3,1,2,0,0
+28,"/nameplatedisp 対象 設定番号
 PCの「ネームプレートの表示設定」を設定する。
 >>対象
 all
@@ -258,21 +246,21 @@ feast
 
 実行例
 /nameplatedisp all 4
-　…「すべてのPC」のネームプレートの表示設定を「表示しない」に設定する。","","","head",0
-29,2,1,20,0,0,"/fashion","","/fashion “ファッションアクセサリー名”
+　…「すべてのPC」のネームプレートの表示設定を「表示しない」に設定する。",,,/nameplatedisp,,0,36,3,1,2,0,0
+29,"/fashion “ファッションアクセサリー名”
 指定したファッションアクセサリーを実行する。
 
 実行例
 /fashion パラソル
-　…ファッションアクセサリー「パラソル」を実行する。","","","head",0
-30,1,0,0,0,0,"/fashionguide","","/fashionlist(/fashionguide)
-ファッションアクセサリーのメニューを開く。","/fashionlist","","pack",0
-31,1,0,0,0,0,"/officialsite","/site","/officialsite(/site)
-公式Webサイトのメニューを開く。","","","pack",0
-32,1,0,0,0,0,"//setGearset","","//setGearset
+　…ファッションアクセサリー「パラソル」を実行する。",,,/fashion,,0,36,2,1,20,0,0
+30,"/fashionlist(/fashionguide)
+ファッションアクセサリーのメニューを開く。",/fashionlist,,/fashionguide,,0,32,1,0,0,0,0
+31,"/officialsite(/site)
+公式Webサイトのメニューを開く。",,,/officialsite,/site,0,32,1,0,0,0,0
+32,"//setGearset
 リアルイベント用コマンド。
-アーマリーチェスト内のアイテムをもとに、自動的にバトルジョブのギアセットを生成する。","","","pack",0
-33,3,2,7,15,0,"/petmirage","","/petmirage(/egimirage) ペットの名前 見た目
+アーマリーチェスト内のアイテムをもとに、自動的にバトルジョブのギアセットを生成する。",,,//setGearset,,0,32,1,0,0,0,0
+33,"/petmirage(/egimirage) ペットの名前 見た目
 次以降に召喚するペットの見た目を変更する。
 ただし、PvPコンテンツ内では無効。
 >>ペットの名前
@@ -301,8 +289,8 @@ feast
 /petmirage ガルーダ・エギ
 　…ガルーダ・エギの見た目を元に戻す。
 /petmirage
-　…ペットの見た目の設定リストを出力する。","/petmirage","","head",0
-34,3,2,7,2,0,"/petsize","","/petsize ペットの名前 サイズ
+　…ペットの見た目の設定リストを出力する。",/petmirage,,/petmirage,,0,36,3,2,7,15,0
+34,"/petsize ペットの名前 サイズ
 特定のペットの表示サイズを変更する。
 ただし、PvPコンテンツ内では無効。
 また、自分のみ対象で他人には反映されない。
@@ -330,8 +318,8 @@ small
 /petsize デミ・バハムート medium
 　…デミ・バハムートの表示サイズを『中』に変更する。
 /petsize all small
-　…すべてのペットの表示サイズを『小』に変更する。","","","head",0
-35,3,0,0,0,0,"/ridepillion","","/ridepillion 代名詞 座席番号
+　…すべてのペットの表示サイズを『小』に変更する。",,,/petsize,,0,36,3,2,7,2,0
+35,"/ridepillion 代名詞 座席番号
 選択したパーティメンバーのマウントに相乗りする。
 
 >>座席番号(1-7)
@@ -339,15 +327,15 @@ small
 
 実行例
 /ridepillion <2> 1
-　…識別番号2のパーティメンバーが乗るマウントの座席1に座る。","","","head",0
-36,1,0,0,0,0,"/patchnote","","/patchnote
+　…識別番号2のパーティメンバーが乗るマウントの座席1に座る。",,,/ridepillion,,0,36,3,0,0,0,0
+36,"/patchnote
 公式Webサイト『Lodestone』内のパッチノートのページを開く。
-※ブラウザを起動します。","","","pack",1000
-37,1,0,0,0,0,"/portrait","","/portrait
-ポートレートの編集メニューを開く。","","","pack",0
-38,1,0,0,0,0,"/adventurerplate","/myplate","/adventurerplate(/myplate)
-自分のアドベンチャラープレートを開く。","","","pack",0
-39,2,1,2,0,0,"/rclickpc","","/rclickpc サブコマンド
+※ブラウザを起動します。",,,/patchnote,,1000,32,1,0,0,0,0
+37,"/portrait
+ポートレートの編集メニューを開く。",,,/portrait,,0,32,1,0,0,0,0
+38,"/adventurerplate(/myplate)
+自分のアドベンチャラープレートを開く。",,,/adventurerplate,/myplate,0,32,1,0,0,0,0
+39,"/rclickpc サブコマンド
 キャラクターコンフィグ「右クリックでのPC選択を除外する」を設定する。
 >>サブコマンド
 on
@@ -355,8 +343,8 @@ on
 off
 　…除外設定を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-40,2,1,2,0,0,"/rclickbattlenpc","","/rclickbattlenpc サブコマンド
+　…有効／無効のスイッチ切り替え",,,/rclickpc,,0,36,2,1,2,0,0
+40,"/rclickbattlenpc サブコマンド
 キャラクターコンフィグ「右クリックでの敵・味方NPC選択を除外する」を設定する。
 >>サブコマンド
 on
@@ -364,8 +352,8 @@ on
 off
 　…除外設定を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-41,2,1,2,0,0,"/rclickminion","","/rclickminion サブコマンド
+　…有効／無効のスイッチ切り替え",,,/rclickbattlenpc,,0,36,2,1,2,0,0
+41,"/rclickminion サブコマンド
 キャラクターコンフィグ「右クリックでのミニオン選択を除外する」を設定する。
 >>サブコマンド
 on
@@ -373,20 +361,20 @@ on
 off
 　…除外設定を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-42,2,1,21,0,0,"/facewear","","/faceaccessory(/facewear) “フェイスアクセサリー名”
+　…有効／無効のスイッチ切り替え",,,/rclickminion,,0,36,2,1,2,0,0
+42,"/faceaccessory(/facewear) “フェイスアクセサリー名”
 指定したフェイスアクセサリーを装備する。
 
 実行例
 /faceaccessory オーバルグラス
-　…フェイスアクセサリー「オーバルグラス」を装備する。","/faceaccessory","","head",0
-43,1,0,0,0,0,"/mutelist","","/mutelist
-ミュートリストのメニューを開く。","","","pack",0
-44,1,0,0,0,0,"/termfilter","","/wordfilter(/termfilter)
-ワードフィルターのメニューを開く。","/wordfilter","","pack",0
-45,1,0,0,0,0,"/facewearlist","","/faceaccessorylist(/facewearlist)
-フェイスアクセサリーのメニューを開く。","/faceaccessorylist","","pack",0
-46,2,1,2,0,0,"/visualalerts","","/visualalerts サブコマンド
+　…フェイスアクセサリー「オーバルグラス」を装備する。",/faceaccessory,,/facewear,,0,36,2,1,21,0,0
+43,"/mutelist
+ミュートリストのメニューを開く。",,,/mutelist,,0,32,1,0,0,0,0
+44,"/wordfilter(/termfilter)
+ワードフィルターのメニューを開く。",/wordfilter,,/termfilter,,0,32,1,0,0,0,0
+45,"/faceaccessorylist(/facewearlist)
+フェイスアクセサリーのメニューを開く。",/faceaccessorylist,,/facewearlist,,0,32,1,0,0,0,0
+46,"/visualalerts サブコマンド
 システムコンフィグ「サウンドの視覚表現」を設定する。
 ※Windows／Mac版のみ有効。
 >>サブコマンド
@@ -395,8 +383,8 @@ on
 off
 　…視覚表現を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","",,0
-47,2,1,2,0,0,"/colorfiltering","","/colorfiltering サブコマンド
+　…有効／無効のスイッチ切り替え",,,/visualalerts,,0,509,2,1,2,0,0
+47,"/colorfiltering サブコマンド
 システムコンフィグ「色覚多様性設定：色補正」を設定する。
 ※Windows／Mac版のみ有効。
 >>サブコマンド
@@ -405,8 +393,8 @@ on
 off
 　…色補正を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","",,0
-48,2,1,2,0,0,"/autotargetpriority","","/autotargetpriority サブコマンド
+　…有効／無効のスイッチ切り替え",,,/colorfiltering,,0,509,2,1,2,0,0
+48,"/autotargetpriority サブコマンド
 キャラクターコンフィグ「敵対アクション実行時にターゲットを自動選択して実行する」を設定する。
 >>サブコマンド
 on
@@ -414,8 +402,8 @@ on
 off
 　…ターゲットの自動選択を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-91,1,0,0,0,0,"/pvpteam","/pt","/pvpteam(/pt) 文章
+　…有効／無効のスイッチ切り替え",,,/autotargetpriority,,0,36,2,1,2,0,0
+91,"/pvpteam(/pt) 文章
 PvPチームに参加中のPCに距離、エリアを問わず文章を送信する。
 /pvpteamのみを入力した場合は、デフォルトの会話モードをPvPTeamにする。
 
@@ -423,8 +411,8 @@ PvPチームに参加中のPCに距離、エリアを問わず文章を送信す
 /pvpteam こんにちは。
 　…PvPチームに「こんにちは。」という発言をする。
 /pvpteam
-　…デフォルトの会話モードをPvPTeamに変更する。","","","<reply>",0
-92,1,0,0,0,0,"/cwlinkshell","/cwl","/cwlinkshell(/cwl) 文章
+　…デフォルトの会話モードをPvPTeamに変更する。",,,/pvpteam,/pt,0,1021,1,0,0,0,0
+92,"/cwlinkshell(/cwl) 文章
 アクティブなクロスワールドリンクシェルチャンネルに参加中のPCに距離、エリアを問わず文章を送信する。
 /cwlinkshellのみを入力した場合は、デフォルトの会話モードをアクティブなクロスワールドリンクシェルチャンネルに切り替える。
 
@@ -432,8 +420,8 @@ PvPチームに参加中のPCに距離、エリアを問わず文章を送信す
 /cwlinkshell こんにちは。
 　…アクティブなクロスワールドリンクシェルチャンネルに「こんにちは。」という発言をする。
 /cwlinkshell
-　…デフォルトの会話モードをアクティブなCWLSに変更する。","","","<reply>",0
-101,1,0,0,0,0,"/beginner","/b","/beginner(/b) 文章
+　…デフォルトの会話モードをアクティブなCWLSに変更する。",,,/cwlinkshell,/cwl,0,1021,1,0,0,0,0
+101,"/beginner(/b) 文章
 ビギナーチャンネルに参加中のPCに距離、エリアを問わず文章を送信する。
 /beginner(/b)のみを入力した場合は、デフォルトの会話モードをBeginnerにする。
 
@@ -441,13 +429,13 @@ PvPチームに参加中のPCに距離、エリアを問わず文章を送信す
 /beginner こんにちは。
 　…ビギナーチャンネルに「こんにちは。」という発言をする。
 /beginner
-　…デフォルトの会話モードをBeginnerに変更する。","","","<reply>",0
-102,1,0,0,0,0,"/say","/s","/say(/s) 文章
+　…デフォルトの会話モードをBeginnerに変更する。",,,/beginner,/b,0,1021,1,0,0,0,0
+102,"/say(/s) 文章
 自分の周囲の狭い範囲にいる人に文章を送信する。 
-/say(/s)のみを入力した場合は、デフォルトの会話モードをSayに変更する。","","","<lst>",0
-103,1,0,0,0,0,"/shout","/sh","/shout(/sh) 文章
-自分が現在いるエリアで、エリアにいるPC全員へ文章を送信。","","","<reply>",0
-104,3,0,0,0,0,"/tell","/t","/tell(/t) PC名@ワールド名 文章
+/say(/s)のみを入力した場合は、デフォルトの会話モードをSayに変更する。",,,/say,/s,0,1023,1,0,0,0,0
+103,"/shout(/sh) 文章
+自分が現在いるエリアで、エリアにいるPC全員へ文章を送信。",,,/shout,/sh,0,1021,1,0,0,0,0
+104,"/tell(/t) PC名@ワールド名 文章
 同一ワールド内の指定したPCに文章を送信する。
 他ワールドのPCにはフレンドかパーティ募集中のリーダーのみ送信が可能。
 /tell(/t) 相手のPC名@ワールド名のみを入力した場合は、デフォルトの会話モードを相手PCへのTellに変更する。
@@ -455,59 +443,59 @@ PvPチームに参加中のPCに距離、エリアを問わず文章を送信す
 実行例
 /tell Square Enix@World こんにちは。
 　…Worldワールド内のプレイヤーのSquare Enixに「こんにちは。」と送信する。
-","","","<reply>",0
-105,1,0,0,0,0,"/party","/p","/party(/p) 文章
+",,,/tell,/t,0,1021,3,0,0,0,0
+105,"/party(/p) 文章
 同じパーティメンバー全員に、距離、エリアを問わず文章を送信する。
-/party(/p)のみを入力した場合は、デフォルトの会話モードをPartyに変更する。","","","<reply>",0
-106,1,0,0,0,0,"/linkshell","/l","/linkshell(/l) 文章
+/party(/p)のみを入力した場合は、デフォルトの会話モードをPartyに変更する。",,,/party,/p,0,1021,1,0,0,0,0
+106,"/linkshell(/l) 文章
 現在設定中のカレントリンクシェルに属するPC全員に距離、エリアを問わず文章を送信する。
-/linkshell(/l)のみを入力した場合は、デフォルトの会話モードをLinkshellに変更する。","","","<reply>",0
-107,1,0,0,0,0,"/linkshell1","/l1","/linkshell1(/l1) 文章
-1番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-108,1,0,0,0,0,"/linkshell2","/l2","/linkshell2(/l2) 文章
-2番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-109,1,0,0,0,0,"/linkshell3","/l3","/linkshell3(/l3) 文章
-3番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-110,1,0,0,0,0,"/linkshell4","/l4","/linkshell4(/l4) 文章
-4番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-111,1,0,0,0,0,"/linkshell5","/l5","/linkshell5(/l5) 文章
-5番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-112,1,0,0,0,0,"/linkshell6","/l6","/linkshell6(/l6) 文章
-6番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-113,1,0,0,0,0,"/linkshell7","/l7","/linkshell7(/l7) 文章
-7番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-114,1,0,0,0,0,"/linkshell8","/l8","/linkshell8(/l8) 文章
-8番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。","","","<reply>",0
-115,1,0,0,0,0,"/freecompany","/fc","/freecompany(/fc) 文章
+/linkshell(/l)のみを入力した場合は、デフォルトの会話モードをLinkshellに変更する。",,,/linkshell,/l,0,1021,1,0,0,0,0
+107,"/linkshell1(/l1) 文章
+1番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell1,/l1,0,1021,1,0,0,0,0
+108,"/linkshell2(/l2) 文章
+2番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell2,/l2,0,1021,1,0,0,0,0
+109,"/linkshell3(/l3) 文章
+3番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell3,/l3,0,1021,1,0,0,0,0
+110,"/linkshell4(/l4) 文章
+4番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell4,/l4,0,1021,1,0,0,0,0
+111,"/linkshell5(/l5) 文章
+5番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell5,/l5,0,1021,1,0,0,0,0
+112,"/linkshell6(/l6) 文章
+6番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell6,/l6,0,1021,1,0,0,0,0
+113,"/linkshell7(/l7) 文章
+7番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell7,/l7,0,1021,1,0,0,0,0
+114,"/linkshell8(/l8) 文章
+8番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。",,,/linkshell8,/l8,0,1021,1,0,0,0,0
+115,"/freecompany(/fc) 文章
 自分が所属しているフリーカンパニーのメンバーであるPCに距離、エリアを問わず文章を送信する。
-/freecompany(/fc)のみを入力した場合は、デフォルトの会話モードをFreeCompanyに変更する。","","","<reply>",0
-116,1,0,0,0,0,"/echo","/e","/echo(/e) 文章
-自分だけに見える文章を表示する。","","","<reply>",0
-117,1,0,0,0,0,"/yell","/y","/yell(/y) 文章
+/freecompany(/fc)のみを入力した場合は、デフォルトの会話モードをFreeCompanyに変更する。",,,/freecompany,/fc,0,1021,1,0,0,0,0
+116,"/echo(/e) 文章
+自分だけに見える文章を表示する。",,,/echo,/e,0,1021,1,0,0,0,0
+117,"/yell(/y) 文章
 自分の周囲の広い範囲にいる人に文章を送信する。 
-/yell(/y)のみを入力した場合は、デフォルトの会話モードをYellに変更する。","","","<reply>",0
-118,1,0,0,0,0,"/reply","/r","/reply(/r) 文章
-最後に着信したTellの相手PCに文章を送信する。","","","<reply>",0
-119,1,0,0,0,0,"/alliance","/a","/alliance(/a) 文章
+/yell(/y)のみを入力した場合は、デフォルトの会話モードをYellに変更する。",,,/yell,/y,0,1021,1,0,0,0,0
+118,"/reply(/r) 文章
+最後に着信したTellの相手PCに文章を送信する。",,,/reply,/r,0,1021,1,0,0,0,0
+119,"/alliance(/a) 文章
 同じアライアンスメンバー全員に、距離、エリアを問わず文章を送信する。
-/alliance(/a)のみを入力した場合は、デフォルトの会話モードをAllianceに変更する。","","","<reply>",0
-121,1,0,0,0,0,"/join","","/join
-パーティへの招待を承諾する。","","","add",0
-122,1,0,0,0,0,"/decline","","/decline
-パーティへの招待を辞退する。","","","add",0
-123,2,0,0,0,0,"/invite","","/invite 代名詞
-指定したPCをパーティに招待する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。","","","add",0
-124,2,0,0,0,0,"/kick","","/kick 代名詞
-指定したPCをパーティから除外する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。","","","add",0
-125,2,0,0,0,0,"/leader","","/leader 代名詞
-指定したPCへパーティリーダーを委譲する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。","","","add",0
-126,2,0,0,0,0,"/leave","","/leave
-パーティから離脱する。","","","add",0
-131,2,0,0,0,0,"/check","/c","/check(/c) 代名詞
-指定したPCを調べる。代名詞を省略した場合は、現在ターゲット中のPCを調べる。","","","RAU",0
-132,2,0,0,0,0,"/trade","","/trade 代名詞
-指定したPCにトレードを申し込む。代名詞を省略した場合は、現在ターゲットしているPCにトレードを申し込む。","","","pack",0
-133,2,1,2,0,0,"/automove","","/automove サブコマンド
+/alliance(/a)のみを入力した場合は、デフォルトの会話モードをAllianceに変更する。",,,/alliance,/a,0,1021,1,0,0,0,0
+121,"/join
+パーティへの招待を承諾する。",,,/join,,0,4,1,0,0,0,0
+122,"/decline
+パーティへの招待を辞退する。",,,/decline,,0,4,1,0,0,0,0
+123,"/invite 代名詞
+指定したPCをパーティに招待する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。",,,/invite,,0,4,2,0,0,0,0
+124,"/kick 代名詞
+指定したPCをパーティから除外する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。",,,/kick,,0,4,2,0,0,0,0
+125,"/leader 代名詞
+指定したPCへパーティリーダーを委譲する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。",,,/leader,,0,4,2,0,0,0,0
+126,"/leave
+パーティから離脱する。",,,/leave,,0,4,2,0,0,0,0
+131,"/check(/c) 代名詞
+指定したPCを調べる。代名詞を省略した場合は、現在ターゲット中のPCを調べる。",,,/check,/c,0,160,2,0,0,0,0
+132,"/trade 代名詞
+指定したPCにトレードを申し込む。代名詞を省略した場合は、現在ターゲットしているPCにトレードを申し込む。",,,/trade,,0,32,2,0,0,0,0
+133,"/automove サブコマンド
 自動移動の設定を行う。
 >>サブコマンド
 on 
@@ -515,30 +503,30 @@ on
 off 
 　…自動移動を解除する。
 ※サブコマンド省略
-　…自動移動状態のスイッチ切り替え。","","","head",0
-134,2,0,0,0,0,"/follow","","/follow 代名詞
-指定したPCを自動追尾する。代名詞を省略した場合は、現在ターゲットしているPCを自動追尾する。 ","","","head",0
-136,2,0,0,0,0,"/meldrequest","","/meldrequest 代名詞
-指定したPCにマテリア装着依頼をする。代名詞を省略した場合は、現在ターゲットしているPCにマテリア装着依頼をする。","","","pack",0
-141,1,0,0,0,0,"/character","/gear","/character(/gear)
-キャラクターのメニューを開く。","","","pack",0
-142,1,0,0,0,0,"/journal","","/journal
-ジャーナルのメニューを開く。","","","pack",0
-143,1,0,0,0,0,"/dutyfinder","/dfinder","/contentsfinder(/cfinder,/dutyfinder,/dfinder)
-コンテンツファインダーのメニューを開く。","/contentsfinder","/cfinder",,0
-144,1,0,0,0,0,"/armourychest","/armoury","/armourychest(/armoury)
-アーマリーチェストのメニューを開く。","","","pack",0
-145,1,0,0,0,0,"/huntinglog","/hlog","/huntinglog(/hlog)
-討伐手帳のメニューを開く。","","","pack",0
-146,1,0,0,0,0,"/craftinglog","/clog","/craftinglog(/clog)
-製作手帳のメニューを開く。","","","on",0
-147,1,0,0,0,0,"/gatheringlog","/glog","/gatheringlog(/glog)
-採集手帳のメニューを開く。","","","on",0
-148,1,0,0,0,0,"/fishinglog","/flog","/fishinglog(/flog)
-釣り手帳のメニューを開く。","","","pack",0
-149,1,0,0,0,0,"/achievements","","/achievements
-アチーブメントリストのメニューを開く。","","","pack",0
-150,3,1,2,0,0,"/partycmd","/pcmd","/partycmd(/pcmd) サブコマンド
+　…自動移動状態のスイッチ切り替え。",,,/automove,,0,36,2,1,2,0,0
+134,"/follow 代名詞
+指定したPCを自動追尾する。代名詞を省略した場合は、現在ターゲットしているPCを自動追尾する。 ",,,/follow,,0,36,2,0,0,0,0
+136,"/meldrequest 代名詞
+指定したPCにマテリア装着依頼をする。代名詞を省略した場合は、現在ターゲットしているPCにマテリア装着依頼をする。",,,/meldrequest,,0,32,2,0,0,0,0
+141,"/character(/gear)
+キャラクターのメニューを開く。",,,/character,/gear,0,32,1,0,0,0,0
+142,"/journal
+ジャーナルのメニューを開く。",,,/journal,,0,32,1,0,0,0,0
+143,"/contentsfinder(/cfinder,/dutyfinder,/dfinder)
+コンテンツファインダーのメニューを開く。",/contentsfinder,/cfinder,/dutyfinder,/dfinder,0,800,1,0,0,0,0
+144,"/armourychest(/armoury)
+アーマリーチェストのメニューを開く。",,,/armourychest,/armoury,0,32,1,0,0,0,0
+145,"/huntinglog(/hlog)
+討伐手帳のメニューを開く。",,,/huntinglog,/hlog,0,32,1,0,0,0,0
+146,"/craftinglog(/clog)
+製作手帳のメニューを開く。",,,/craftinglog,/clog,0,0,1,0,0,0,0
+147,"/gatheringlog(/glog)
+採集手帳のメニューを開く。",,,/gatheringlog,/glog,0,0,1,0,0,0,0
+148,"/fishinglog(/flog)
+釣り手帳のメニューを開く。",,,/fishinglog,/flog,0,32,1,0,0,0,0
+149,"/achievements
+アチーブメントリストのメニューを開く。",,,/achievements,,0,32,1,0,0,0,0
+150,"/partycmd(/pcmd) サブコマンド
 パーティに関するコマンドを実行する。
 ※クロスワールドパーティ中はメニュー表示、add指定のみ可能。
 >>サブコマンド
@@ -557,8 +545,8 @@ kick 代名詞
 breakup(disband)
 　…パーティを解散する。
 ※サブコマンド省略
-　…ソーシャル（パーティメンバー）を開く。","","","pack",0
-151,3,1,2,0,0,"/friendlist","/flist","/friendlist(/flist) サブコマンド
+　…ソーシャル（パーティメンバー）を開く。",,,/partycmd,/pcmd,0,32,3,1,2,0,0
+151,"/friendlist(/flist) サブコマンド
 フレンドリストに関するコマンドを実行する。
 >>サブコマンド
 add 代名詞
@@ -570,8 +558,8 @@ deny 代名詞
 remove 代名詞
 　…指定したPCをフレンドリストから外す。
 ※サブコマンド省略
-　…フレンドリストのメニューを開く。","","","create",0
-152,3,1,2,0,0,"/blacklist","/blist","/blacklist(/blist) サブコマンド
+　…フレンドリストのメニューを開く。",,,/friendlist,/flist,0,128,3,1,2,0,0
+152,"/blacklist(/blist) サブコマンド
 ブラックリストに関するコマンドを実行する。
 >>サブコマンド
 add 代名詞
@@ -579,8 +567,8 @@ add 代名詞
 remove 代名詞
 　…指定したPCに紐づくアカウントをブラックリストから外す。
 ※サブコマンド省略
-　…ブラックリストのメニューを開く。","","","on",0
-153,20,0,0,0,0,"/search","/sea","/search(/sea) 条件
+　…ブラックリストのメニューを開く。",,,/blacklist,/blist,0,0,3,1,2,0,0
+153,"/search(/sea) 条件
 指定した条件でPCをサーチして、結果をPCサーチのメニューで表示する。
 >>条件（※順不同で複数指定可能。地名などの単語にスペースを含む場合はダブルコーテーションで囲む。）
 【PC名指定】
@@ -610,12 +598,12 @@ familyname(姓) PC姓
 
 実行例
 /search GLA 20-30 ラノシア
-　…現在ラノシアにいる剣術士レベル20～30のPCを検索する。","","","on",0
-154,1,0,0,0,0,"/map","","/map
-マップのメニューを開く。","","","ignore2",0
-155,1,0,0,0,0,"/teleport","","/teleport
-テレポのメニューを開く。","","","on",0
-156,3,1,2,0,0,"/marking","/mk","/marking(/mk) タイプ 代名詞
+　…現在ラノシアにいる剣術士レベル20～30のPCを検索する。",,,/search,/sea,0,0,20,0,0,0,0
+154,"/map
+マップのメニューを開く。",,,/map,,0,104,1,0,0,0,0
+155,"/teleport
+テレポのメニューを開く。",,,/teleport,,0,0,1,0,0,0,0
+156,"/marking(/mk) タイプ 代名詞
 指定したキャラクターに指定したタイプのマーカーを設定する。代名詞を省略した場合は、現在ターゲット中のキャラクターを指定する。
 >>タイプ
 攻撃1～8(attack1～8)
@@ -639,36 +627,36 @@ clear(off)
 
 実行例
 /marking 攻撃3 <t>
-　…選択した対象に「攻撃3」のマーカーを設定する。","","","pack",0
-157,1,0,0,0,0,"/actionlist","/alist","/actionlist(/alist)
-アクションリストのメニューを開く。","","","pack",0
-158,1,0,0,0,0,"/timers","","/timers
-コンテンツ情報一覧のメニューを開く。","","","pack",0
-159,1,0,0,0,0,"/recommended","","/recommended
-おすすめコンテンツのメニューを開く。","","","pack",0
-160,2,1,0,0,0,"/inventory","/bag","/inventory(/bag)
-所持品のメニューを開く。","","","pack",0
-161,3,1,2,0,0,"/freecompanycmd","/fccmd","/freecompanycmd(/fccmd)
-フリーカンパニーのメニューを開く。","","","on",0
-162,4,2,0,2,0,"/linkshellcmd","/lcmd","/linkshellcmd(/lcmd)
-リンクシェルのメニューを開く。","","","create",0
-163,1,0,0,0,0,"/return","","/return
-デジョンのメニューを開く。","","","pack",0
-164,1,0,0,0,0,"/emotelist","/elist","/emotelist(/elist)
-エモートリストのメニューを開く。","","","Pack",0
-165,1,0,0,0,0,"/activehelp","","/howtolist(/activehelp)
-HowToリストのメニューを開く。","/howtolist","","pack",0
-166,1,0,0,0,0,"/supportdesk","/support","/supportdesk(/support)
-サポートデスクのメニューを開く。","","","pack",0
-167,1,0,0,0,0,"/characterconfig","/cconfig","/characterconfig(/cconfig)
-キャラクターコンフィグのメニューを開く。","","","pack",0
-168,1,0,0,0,0,"/systemconfig","/sconfig","/systemconfig(/sconfig)
-システムコンフィグのメニューを開く。","","","pack",0
-169,1,0,0,0,0,"/keybind","/keyconfig","/keybind(/keyconfig)
-キーバインドのメニューを開く。","","","pack",0
-170,1,0,0,0,0,"/macros","","/macros
-マクロ管理のメニューを開く。","","","pack",0
-171,2,0,0,0,0,"/hudlayout","","/hudlayout サブコマンド
+　…選択した対象に「攻撃3」のマーカーを設定する。",,,/marking,/mk,0,32,3,1,2,0,0
+157,"/actionlist(/alist)
+アクションリストのメニューを開く。",,,/actionlist,/alist,0,32,1,0,0,0,0
+158,"/timers
+コンテンツ情報一覧のメニューを開く。",,,/timers,,0,32,1,0,0,0,0
+159,"/recommended
+おすすめコンテンツのメニューを開く。",,,/recommended,,0,32,1,0,0,0,0
+160,"/inventory(/bag)
+所持品のメニューを開く。",,,/inventory,/bag,0,32,2,1,0,0,0
+161,"/freecompanycmd(/fccmd)
+フリーカンパニーのメニューを開く。",,,/freecompanycmd,/fccmd,0,0,3,1,2,0,0
+162,"/linkshellcmd(/lcmd)
+リンクシェルのメニューを開く。",,,/linkshellcmd,/lcmd,0,128,4,2,0,2,0
+163,"/return
+デジョンのメニューを開く。",,,/return,,0,32,1,0,0,0,0
+164,"/emotelist(/elist)
+エモートリストのメニューを開く。",,,/emotelist,/elist,0,33,1,0,0,0,0
+165,"/howtolist(/activehelp)
+HowToリストのメニューを開く。",/howtolist,,/activehelp,,0,32,1,0,0,0,0
+166,"/supportdesk(/support)
+サポートデスクのメニューを開く。",,,/supportdesk,/support,0,32,1,0,0,0,0
+167,"/characterconfig(/cconfig)
+キャラクターコンフィグのメニューを開く。",,,/characterconfig,/cconfig,0,32,1,0,0,0,0
+168,"/systemconfig(/sconfig)
+システムコンフィグのメニューを開く。",,,/systemconfig,/sconfig,0,32,1,0,0,0,0
+169,"/keybind(/keyconfig)
+キーバインドのメニューを開く。",,,/keybind,/keyconfig,0,32,1,0,0,0,0
+170,"/macros
+マクロ管理のメニューを開く。",,,/macros,,0,32,1,0,0,0,0
+171,"/hudlayout サブコマンド
 HUDレイアウトに関する操作を行う。
 >>サブコマンド
 “レイアウト番号(1-4)”
@@ -678,12 +666,12 @@ HUDレイアウトに関する操作を行う。
 
 実行例
 /hudlayout 3
-　…レイアウト3に切り替える。","","","pack",0
-172,1,0,0,0,0,"/logout","","/logout
-ログアウトして、タイトル画面へ戻る。","","","pack",0
-173,1,0,0,0,0,"/shutdown","","/shutdown
-ログアウトして、ゲームを終了する。","","","pack",0
-174,3,0,0,0,0,"/partysort","/psort","/partysort(/psort) サブコマンド
+　…レイアウト3に切り替える。",,,/hudlayout,,0,32,2,0,0,0,0
+172,"/logout
+ログアウトして、タイトル画面へ戻る。",,,/logout,,0,32,1,0,0,0,0
+173,"/shutdown
+ログアウトして、ゲームを終了する。",,,/shutdown,,0,32,1,0,0,0,0
+174,"/partysort(/psort) サブコマンド
 パーティリストを指定した順番に並び替える。
 >>サブコマンド
 番号1 番号2
@@ -693,14 +681,14 @@ HUDレイアウトに関する操作を行う。
 
 実行例
 /partysort 2 3
-　…パーティリストの2番目と3番目のメンバーを入れ替える。","","","head",0
-175,1,0,0,0,0,"/readycheck","/rcheck","/readycheck(/rcheck)
-レディチェックを開始する。","","","pack",0
-176,1,0,0,0,0,"/ready","/rd","/readyok(/rok,/ready,/rd)
-レディチェックが行われている場合、「OK」と回答する。","/readyok","/rok","head",0
-177,1,0,0,0,0,"/notready","/nr","/readyng(/rng,/notready,/nr)
-レディチェックが行われている場合、「NG」と回答する。","/readyng","/rng","head",0
-178,3,2,2,2,0,"/waymark","/wmark","/fieldmarking(/fmk,/waymark,/wmark) サブコマンド
+　…パーティリストの2番目と3番目のメンバーを入れ替える。",,,/partysort,/psort,0,36,3,0,0,0,0
+175,"/readycheck(/rcheck)
+レディチェックを開始する。",,,/readycheck,/rcheck,0,32,1,0,0,0,0
+176,"/readyok(/rok,/ready,/rd)
+レディチェックが行われている場合、「OK」と回答する。",/readyok,/rok,/ready,/rd,0,36,1,0,0,0,0
+177,"/readyng(/rng,/notready,/nr)
+レディチェックが行われている場合、「NG」と回答する。",/readyng,/rng,/notready,/nr,0,36,1,0,0,0,0
+178,"/fieldmarking(/fmk,/waymark,/wmark) サブコマンド
 フィールドマーカーを設置する。
 
 >>サブコマンド
@@ -725,48 +713,48 @@ preset スロット番号(1-30)
 /fieldmarking A <t>
 　…「マーカーA」を選択した対象の位置に設置する。
 /fieldmarking A gtoff
-　…「マーカーA」を現在のカーソル位置に設置する。","/fieldmarking","/fmk","pack",0
-179,1,0,0,0,0,"/fishguide","/fg","/fishguide(/fg)
-魚類図鑑のメニューを開く。","","","pack",0
-180,1,0,0,0,0,"/housing","/hou","/housing(/hou)
-ハウジングのメニューを開く。","","","pack",0
-181,1,0,0,0,0,"/minionguide","","/minionlist(/minionguide)
-ミニオンリストのメニューを開く。ロード・オブ・ヴァーミニオン対戦中はLoVMリストを開く。","/minionlist","","feet",0
-182,1,0,0,0,0,"/mountguide","","/mountlist(/mountguide)
-マウントリストのメニューを開く。","/mountlist","","pack",0
-183,1,0,0,0,0,"/partyfinder","/pfinder","/partyfinder(/pfinder)
-パーティ募集のメニューを開く。","","","on",0
-184,1,0,0,0,0,"/pvpprofile","/pvppro","/pvpprofile(/pvppro)
-PvPプロフィールのメニューを開く。","","","on",0
-185,1,0,0,0,0,"/companion","/comp","/buddy(/companion,/comp)
-バディのメニューを開く。","/buddy","","pack",0
-186,1,0,0,0,0,"/keyitem","/kitem","/eventitem(/eitem,/keyitem,/kitem)
-イベントアイテムのメニューを開く。","/eventitem","/eitem","pack",0
-187,1,0,0,0,0,"/challengelog","","/challengelog
-攻略手帳のメニューを開く。","","","pack",0
-188,1,0,0,0,0,"/sightseeinglog","","/sightseeinglog
-探検手帳のメニューを開く。","","","pack",0
-189,1,0,0,0,0,"/goldsaucer","/saucer","/goldsaucer(/saucer)
-ゴールドソーサーのメニューを開く。","","","pack",0
-190,1,0,0,0,0,"/currency","","/currency
-通貨リストのメニューを開く。","","","pack",0
-191,1,0,0,0,0,"/aethercurrent","/acurrent","/aethercurrent(/acurrent)
-風脈の泉交感情報のメニューを開く。","","","pack",0
-192,1,0,0,0,0,"/logcolor","/lcolor","/logcolor(/lcolor)
-ログカラー設定のメニューを開く。","","","pack",0
-193,1,0,0,0,0,"/playguide","/pguide","/playguide(/pguide)
-プレイガイドメニューを開く。","","","pack",0
-194,1,0,0,0,0,"/generaldutykey","/gdutykey","/contentskey(/generaldutykey,/gdutykey)
+　…「マーカーA」を現在のカーソル位置に設置する。",/fieldmarking,/fmk,/waymark,/wmark,0,32,3,2,2,2,0
+179,"/fishguide(/fg)
+魚類図鑑のメニューを開く。",,,/fishguide,/fg,0,32,1,0,0,0,0
+180,"/housing(/hou)
+ハウジングのメニューを開く。",,,/housing,/hou,0,32,1,0,0,0,0
+181,"/minionlist(/minionguide)
+ミニオンリストのメニューを開く。ロード・オブ・ヴァーミニオン対戦中はLoVMリストを開く。",/minionlist,,/minionguide,,0,48,1,0,0,0,0
+182,"/mountlist(/mountguide)
+マウントリストのメニューを開く。",/mountlist,,/mountguide,,0,32,1,0,0,0,0
+183,"/partyfinder(/pfinder)
+パーティ募集のメニューを開く。",,,/partyfinder,/pfinder,0,0,1,0,0,0,0
+184,"/pvpprofile(/pvppro)
+PvPプロフィールのメニューを開く。",,,/pvpprofile,/pvppro,0,0,1,0,0,0,0
+185,"/buddy(/companion,/comp)
+バディのメニューを開く。",/buddy,,/companion,/comp,0,32,1,0,0,0,0
+186,"/eventitem(/eitem,/keyitem,/kitem)
+イベントアイテムのメニューを開く。",/eventitem,/eitem,/keyitem,/kitem,0,32,1,0,0,0,0
+187,"/challengelog
+攻略手帳のメニューを開く。",,,/challengelog,,0,32,1,0,0,0,0
+188,"/sightseeinglog
+探検手帳のメニューを開く。",,,/sightseeinglog,,0,32,1,0,0,0,0
+189,"/goldsaucer(/saucer)
+ゴールドソーサーのメニューを開く。",,,/goldsaucer,/saucer,0,32,1,0,0,0,0
+190,"/currency
+通貨リストのメニューを開く。",,,/currency,,0,32,1,0,0,0,0
+191,"/aethercurrent(/acurrent)
+風脈の泉交感情報のメニューを開く。",,,/aethercurrent,/acurrent,0,32,1,0,0,0,0
+192,"/logcolor(/lcolor)
+ログカラー設定のメニューを開く。",,,/logcolor,/lcolor,0,32,1,0,0,0,0
+193,"/playguide(/pguide)
+プレイガイドメニューを開く。",,,/playguide,/pguide,0,32,1,0,0,0,0
+194,"/contentskey(/generaldutykey,/gdutykey)
 コンテンツ汎用キーを実行する。
 
 実行例
 F.A.T.E.範囲内
-　…レベルシンクの切り替え。","/contentskey","","body",0
-195,1,0,0,0,0,"/raidfinder","/rfinder","/raidfinder(/rfinder)
-レイドファインダーのメニューを開く。","","","on",0
-196,1,0,0,0,0,"/orchestrion","","/orchestrion
-オーケストリオン譜面帳を開く。","","","pack",0
-197,2,1,0,0,0,"/countdown","/cd","/countdown(/cd) サブコマンド
+　…レベルシンクの切り替え。",/contentskey,,/generaldutykey,/gdutykey,0,40,1,0,0,0,0
+195,"/raidfinder(/rfinder)
+レイドファインダーのメニューを開く。",,,/raidfinder,/rfinder,0,0,1,0,0,0,0
+196,"/orchestrion
+オーケストリオン譜面帳を開く。",,,/orchestrion,,0,32,1,0,0,0,0
+197,"/countdown(/cd) サブコマンド
 戦闘開始カウントの操作を行う。
 >>サブコマンド
 “秒数(5-30)”
@@ -776,16 +764,16 @@ F.A.T.E.範囲内
 
 実行例
 /countdown 10
-　…10秒指定で戦闘開始カウントを実行する。","","","pack",0
-198,1,0,0,0,0,"/contactlist","","/contactlist
-コンタクトリストのメニューを開く。","","","pack",0
-199,1,0,0,0,0,"/mountspeed","","/mountspeed
-マウントスピードのメニューを開く。","","","pack",0
-201,2,1,1,0,0,"/?","","/? コマンド名
-指定したコマンドの説明文を表示する。","","","oth",0
-202,2,1,0,0,0,"/wait","","/wait 時間
-マクロ専用。指定した時間だけマクロの実行を一時停止する。時間「1」は、約1秒に相当する。整数のみ指定可能。最大で60で、それを超える値は60とみなされる。","","","l",0
-204,2,1,2,0,0,"/legacymark","/lmark","/legacymark(/lmark) サブコマンド
+　…10秒指定で戦闘開始カウントを実行する。",,,/countdown,/cd,0,32,2,1,0,0,0
+198,"/contactlist
+コンタクトリストのメニューを開く。",,,/contactlist,,0,32,1,0,0,0,0
+199,"/mountspeed
+マウントスピードのメニューを開く。",,,/mountspeed,,0,32,1,0,0,0,0
+201,"/? コマンド名
+指定したコマンドの説明文を表示する。",,,/?,,0,189,2,1,1,0,0
+202,"/wait 時間
+マクロ専用。指定した時間だけマクロの実行を一時停止する。時間「1」は、約1秒に相当する。整数のみ指定可能。最大で60で、それを超える値は60とみなされる。",,,/wait,,0,181,2,1,0,0,0
+204,"/legacymark(/lmark) サブコマンド
 自分に十二神の印を表示するかを設定する。
 >>サブコマンド
 on 
@@ -793,15 +781,15 @@ on
 off 
 　…十二神の印を表示しない。
 ※サブコマンド省略
-　…表示状態のスイッチ切り替え。","","","L.wrist",0
-206,2,1,2,0,0,"/gcsalute","","/gcsalute サブコマンド
+　…表示状態のスイッチ切り替え。",,,/legacymark,/lmark,0,60,2,1,2,0,0
+206,"/gcsalute サブコマンド
 所属グランドカンパニーの敬礼をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-207,3,3,0,2,7,"/macroicon","/micon","/macroicon(/micon) アイコン名 カテゴリー名
+　…モーションと感情表現テキストを表示する。",,,/gcsalute,,0,293,2,1,2,0,0
+207,"/macroicon(/micon) アイコン名 カテゴリー名
 マクロ専用。指定したアイコン名をホットバー上のアイコンとして表示する。同じマクロ内に2回以上、このコマンドが使われている場合、最初の指定のみが有効になる。
 >>カテゴリー名
 action
@@ -835,14 +823,14 @@ classjob
 quickchat
 　…アイコン名に、クイックチャット名を指定すると、そのアイコンを表示する。
 ※カテゴリー省略
-　…アクション（action）のカテゴリーとして扱う。","","","head",0
-208,2,1,3,0,0,"/recast","","/recast “アクション名”
+　…アクション（action）のカテゴリーとして扱う。",,,/macroicon,/micon,0,36,3,3,0,2,7
+208,"/recast “アクション名”
 指定したアクションが使用可能になるまでの残り時間をログに表示する。
 
 実行例
 /recast エーテルフロー
-　…「エーテルフロー」の再使用可能までの時間を表示する。","","","head",0
-209,4,1,2,0,0,"/gearset","/gs","/gearset(/gs) サブコマンド
+　…「エーテルフロー」の再使用可能までの時間を表示する。",,,/recast,,0,36,2,1,3,0,0
+209,"/gearset(/gs) サブコマンド
 ギアセットに関する操作を行う。
 >>サブコマンド
 change ギアセット名／番号 ミラージュプレート番号(1-20)
@@ -861,8 +849,8 @@ delete ギアセット名／番号
 /gearset change 1 1
 　…ギアセット1に装備変更し、ミラージュプレート1を投影する。
 /gearset change 戦士 1
-　…「戦士」と記載のあるギアセットに変更し、ミラージュプレート1を投影する。","","","pack",0
-210,4,2,2,2,0,"/itemsort","/isort","/itemsort(/isort) サブコマンド
+　…「戦士」と記載のあるギアセットに変更し、ミラージュプレート1を投影する。",,,/gearset,/gs,0,32,4,1,2,0,0
+210,"/itemsort(/isort) サブコマンド
 所持品などのアイテムを「せいとん」よりも、さらに細かく並び替えの条件を設定して、アイテムの並び替えを実行する。このコマンドで設定した条件は、通常の「せいとん」には影響せず、このコマンドでのアイテムの並び替え実行のみに影響する。
 
 >>サブコマンド
@@ -890,8 +878,8 @@ clear 対象
 /itemsort condition メインアーム 錬精度 昇順
 /itemsort condition メインアーム アイテムレベル 降順
 /itemsort execute メインアーム
-　…メインアームの並び替えの条件を、錬精度で昇順、アイテムレベルで降順にする設定で並び替えを実行する。","","","head",0
-211,2,1,2,0,0,"/random","","/random 上限値
+　…メインアームの並び替えの条件を、錬精度で昇順、アイテムレベルで降順にする設定で並び替えを実行する。",,,/itemsort,/isort,0,36,4,2,2,2,0
+211,"/random 上限値
 0～999の数字の1つをランダムに抽選して、ログに表示する。この表示はSayの範囲のPCに届く。
 >>上限値(2-999)
 ランダムな数字を抽選する際の上限値を指定する。上限値が指定された場合、値の範囲は「1～上限値」の範囲になる。省略した場合は「0～999」の範囲での抽選となる。
@@ -900,14 +888,14 @@ clear 対象
 /random
 　…0～999の間でランダムな数字のダイスメッセージを発言する。
 /random 16
-　…1～16の間でランダムな数字のダイスメッセージを発言する。","","","head",0
-212,1,0,0,0,0,"/instance","","/instance
-自分が現在いるエリアがインスタンスエリアかどうかをログに表示する。","","","L.wrist",0
-213,1,0,0,0,0,"/cleartellhistory","/cth","/cleartellhistory(/cth)
-Tellのリプライをする宛先履歴を全件消去する。","","","L.wrist",0
-214,1,0,0,0,0,"/macrolock","/mlock","/macrolock(/mlock)
-マクロ専用。これを実行した行以降、マクロの実行が終わるまで、他のマクロの実行を禁止する。","","","head",0
-215,2,1,2,0,0,"/macroerror","/merror","/macroerror(/merror) サブコマンド
+　…1～16の間でランダムな数字のダイスメッセージを発言する。",,,/random,,0,36,2,1,2,0,0
+212,"/instance
+自分が現在いるエリアがインスタンスエリアかどうかをログに表示する。",,,/instance,,0,60,1,0,0,0,0
+213,"/cleartellhistory(/cth)
+Tellのリプライをする宛先履歴を全件消去する。",,,/cleartellhistory,/cth,0,60,1,0,0,0,0
+214,"/macrolock(/mlock)
+マクロ専用。これを実行した行以降、マクロの実行が終わるまで、他のマクロの実行を禁止する。",,,/macrolock,/mlock,0,36,1,0,0,0,0
+215,"/macroerror(/merror) サブコマンド
 マクロ専用。テキストコマンドの記述の間違いなどで発生するエラー表示の状態を設定する。マクロ実行開始時は表示する状態。マクロ実行終了後、非表示にする状態であっても、自動的に表示する状態へ戻る。
 サブコマンド
 on 
@@ -915,63 +903,63 @@ on
 off 
 　…エラーを非表示にする。
 ※サブコマンド省略
-　…エラー表示状態のスイッチ切り替え。","","","head",0
-216,1,0,0,0,0,"/clearlog","/cl","/clearlog(/cl)
-ログの内容をすべて消去する。","","",,0
-217,0,0,0,0,0,"/macrocancel","/mcancel","/macrocancel(/mcancel)
-チャット入力欄からの実行専用。実行中のマクロを停止する。","","","RA4",0
-218,1,0,0,0,0,"/playtime","/ptime","/playtime(/ptime)
-現在のキャラクターの累積プレイ時間を表示する。","","","L.wrist",0
-219,1,0,0,0,0,"/grouppose","/gpose","/grouppose(/gpose)
+　…エラー表示状態のスイッチ切り替え。",,,/macroerror,/merror,0,36,2,1,2,0,0
+216,"/clearlog(/cl)
+ログの内容をすべて消去する。",,,/clearlog,/cl,0,509,1,0,0,0,0
+217,"/macrocancel(/mcancel)
+チャット入力欄からの実行専用。実行中のマクロを停止する。",,,/macrocancel,/mcancel,0,165,0,0,0,0,0
+218,"/playtime(/ptime)
+現在のキャラクターの累積プレイ時間を表示する。",,,/playtime,/ptime,0,60,1,0,0,0,0
+219,"/grouppose(/gpose)
 グループポーズ（フォトモード）を実行する。
 
 >>機能内操作
 カメラ設定ウィンドウの表示
-　…<CommandIcon(10)/>／【R】キー、テンキー【*】／ホイールボタン
+　…／【R】キー、テンキー【*】／ホイールボタン
 カメラ方向への視線送りON/OFF
-　…<CommandIcon(11)/>／【<If(Equal(PlayerParameter(78),3))>space<Else/>Space</If>】キー
+　…／【space】キー
 カメラ位置に照明を設置
-　…<CommandIcon(13)/>／【X】キー
+　…／【X】キー
 モーションストップ（全体）
-　…<CommandIcon(14)/>／【1】キー
+　…／【1】キー
 モーションストップ（選択対象）
-　…<CommandIcon(15)/>／【2】キー
+　…／【2】キー
 注視キャラクターの切り替え
-　…<CommandIcon(6)/>／【<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>】キー
+　…／【tab,shift+tab】キー
 カメラの操作
-　…<CommandIcon(20)/>／【W,A,S,D,Q,E】キー
+　…／【W,A,S,D,Q,E】キー
 カメラリセット
-　…<Gui(16)/>／【Z】キー ","","","RAU",0
-220,2,0,0,0,0,"/itemsearch","/isearch","/itemsearch(/isearch) 文章
+　…／【Z】キー ",,,/grouppose,/gpose,0,160,1,0,0,0,0
+220,"/itemsearch(/isearch) 文章
 入力された文章から所持品検索を実行する。チャット入力欄からの実行専用。
 検索の対象は装備中のアイテム、所持品、アーマリーチェスト、チョコボかばん、リテイナー所持品、リテイナー装備品、愛蔵品キャビネット、ミラージュドレッサー。
 
 実行例
 /itemsearch ポーション
-　…所持品に「ポーション」が含まれるアイテムがあるか検索する。","","","pack",3000
-221,2,0,0,0,0,"/idlingcamera","/icam","/idlingcamera(/icam) 代名詞
+　…所持品に「ポーション」が含まれるアイテムがあるか検索する。",,,/itemsearch,/isearch,3000,32,2,0,0,0,0
+221,"/idlingcamera(/icam) 代名詞
 景観カメラを実行する。
 代名詞は省略可能。
 代名詞を指定した場合は、被写体を指定したキャラクターに絞ってカメラアングルを切り替える。指定したキャラクターが被写体指定できない対象だった場合は被写体をランダムに選択する。
 
 >>機能内操作
 カメラ設定ウィンドウの表示
-　…<CommandIcon(10)/>／【R】キー、テンキー【*】／ホイールボタン
+　…／【R】キー、テンキー【*】／ホイールボタン
 カメラアングル切り替え一時停止・再開
-　…<CommandIcon(8)/>／テンキー【0】／左クリック 
+　…／テンキー【0】／左クリック 
 シーンスキップ
-　…<CommandIcon(6)/>／【<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>】キー
+　…／【tab,shift+tab】キー
 カメラの操作
-　…<CommandIcon(20)/>／【W,A,S,D,Q,E】キー
+　…／【W,A,S,D,Q,E】キー
 カメラリセット
-　…<Gui(16)/>／【Z】キー
+　…／【Z】キー
 
 実行例
 /idlingcamera
 　…被写体をランダムに選択して実行する。
 /idlingcamera <t>
-　…被写体を指定した対象に絞って実行する。","","","body",0
-223,2,1,2,0,0,"/duelswitch","","/duelswitch サブコマンド
+　…被写体を指定した対象に絞って実行する。",,,/idlingcamera,/icam,0,40,2,0,0,0,0
+223,"/duelswitch サブコマンド
 デュエル申請の受付設定を変更する。
 本設定はデュエル申請可能エリアでのみ有効。
 >>サブコマンド
@@ -984,8 +972,8 @@ off
 
 実行例
 /duelswitch on
-　…デュエルの申請を強制的に断る。","","","add",0
-224,2,1,2,0,0,"/beginnerchannelinvitation","/bchannelinvitation","/beginnerchannelinvitation(/bchannelinvitation) サブコマンド
+　…デュエルの申請を強制的に断る。",,,/duelswitch,,0,4,2,1,2,0,0
+224,"/beginnerchannelinvitation(/bchannelinvitation) サブコマンド
 ビギナーチャンネル勧誘の受付設定を変更する。
 >>サブコマンド
 on
@@ -997,11 +985,11 @@ off
 
 実行例
 /beginnerchannelinvitation on
-　…勧誘を受け付ける。","/beginnerchannelinvitation","/bchannelinvitation","oth",1000
-225,1,0,0,0,0,"/beginnerchannelleave","/bchannelleave","/beginnerchannelleave(/bchannelleave)
+　…勧誘を受け付ける。",/beginnerchannelinvitation,/bchannelinvitation,/beginnerchannelinvitation,/bchannelinvitation,1000,189,2,1,2,0,0
+225,"/beginnerchannelleave(/bchannelleave)
 ビギナーチャンネルから退室する。
-※ビギナー・リターナー専用。","/beginnerchannelleave","/bchannelleave","oth",1000
-226,3,2,7,15,0,"/egiglamour","","/egimirage(/petmirage) ペットの名前 見た目
+※ビギナー・リターナー専用。",/beginnerchannelleave,/bchannelleave,/beginnerchannelleave,/bchannelleave,1000,189,1,0,0,0,0
+226,"/egimirage(/petmirage) ペットの名前 見た目
 次以降に召喚するペットの見た目を変更する。
 ただし、PvPコンテンツ内では無効。
 >>ペットの名前
@@ -1030,8 +1018,8 @@ off
 /egimirage ガルーダ・エギ
 　…ガルーダ・エギの見た目を元に戻す。
 /egimirage
-　…ペットの見た目の設定リストを出力する。","/egimirage","","head",0
-227,3,1,2,0,0,"/title","","/title サブコマンド
+　…ペットの見た目の設定リストを出力する。",/egimirage,,/egiglamour,,0,36,3,2,7,15,0
+227,"/title サブコマンド
 称号を変更する。
 >>サブコマンド
 set “称号名”
@@ -1043,11 +1031,11 @@ clear
 
 実行例
 /title set ""Heart of the Party""
-　…称号を『Heart of the Party』に切り替える。","","","head",1000
-228,2,1,2,0,0,"/bahamutsize","","/bahamutsize
+　…称号を『Heart of the Party』に切り替える。",,,/title,,1000,36,3,1,2,0,0
+228,"/bahamutsize
 デミ・バハムートの表示サイズを変更できると信じられていた機能。
-※本コマンドは/petsizeに統合されたため、今後はそちらをご利用ください。","","","head",0
-229,8,3,2,2,2,"/alarm","","/alarm サブコマンド
+※本コマンドは/petsizeに統合されたため、今後はそちらをご利用ください。",,,/bahamutsize,,0,36,2,1,2,0,0
+229,"/alarm サブコマンド
 アラームの設定をする。
 >>サブコマンド
 ""アラーム名"" 時間タイプ(lt,st,et) 繰り返し設定(repeat,rp) 時間(0000-2400) 何分前(0-60) SE番号(se00-se05) コンテンツ中SEミュート(mute)
@@ -1066,8 +1054,8 @@ et エオルゼア時間
 /alarm ""集合時間"" lt 2000 10 se04
 　…ローカル時間の20時の10分前に実行する「集合時間」のアラームを設定する。
 /alarm ""休憩"" lt rp 30 se05
-　…ローカル時間の毎時30分に実行する「休憩」のアラームを設定する。","","","pack",0
-231,2,1,2,0,0,"/busy","","/busy サブコマンド
+　…ローカル時間の毎時30分に実行する「休憩」のアラームを設定する。",,,/alarm,,0,32,8,3,2,2,2
+231,"/busy サブコマンド
 オンラインステータスを「取り込み中(Busy)」に設定する。
 >>サブコマンド
 on 
@@ -1075,8 +1063,8 @@ on
 off 
 　…「オンライン」にする。
 ※サブコマンド省略
-　…「取り込み中(Busy)」と「オンライン」のスイッチ切り替え。","","","head",0
-232,2,1,2,0,0,"/away","/afk","/away(/afk) サブコマンド
+　…「取り込み中(Busy)」と「オンライン」のスイッチ切り替え。",,,/busy,,0,36,2,1,2,0,0
+232,"/away(/afk) サブコマンド
 オンラインステータスを「離席」に設定する。
 >>サブコマンド
 on 
@@ -1084,8 +1072,8 @@ on
 off 
 　…「オンライン」にする
 ※サブコマンド省略
-　…「離席」と「オンライン」のスイッチ切り替え。","","","head",0
-233,1,0,0,0,0,"/lookingforparty","/lfp","/lookingforparty(/lfp) サブコマンド クラス・ジョブ
+　…「離席」と「オンライン」のスイッチ切り替え。",,,/away,/afk,0,36,2,1,2,0,0
+233,"/lookingforparty(/lfp) サブコマンド クラス・ジョブ
 指定したクラス・ジョブで、オンラインステータスを「パーティ希望」に設定する。
 >>サブコマンド
 on 
@@ -1096,8 +1084,8 @@ off
 　…「パーティ希望」と「オンライン」のスイッチ切り替え。
 >>クラス・ジョブ（※順不同で複数指定可能）
 ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　ヴァイパー(VPR)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　ピクトマンサー(PCT)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
-※省略した場合は、現在のクラス・ジョブを指定。","","","head",0
-234,2,1,2,0,0,"/lookingformeld","/lfm","/lookingformeld(/lfm) サブコマンド
+※省略した場合は、現在のクラス・ジョブを指定。",,,/lookingforparty,/lfp,0,36,1,0,0,0,0
+234,"/lookingformeld(/lfm) サブコマンド
 オンラインステータスを「マテリア装着請負中」に設定する。
 >>サブコマンド
 on 
@@ -1106,10 +1094,10 @@ off
 　…「オンライン」にする
 指定なし
 ※サブコマンド省略
-　…「マテリア装着請負中」と「オンライン」のスイッチ切り替え。","","","head",0
-235,1,0,0,0,0,"/searchcomment","/scomment","/searchcomment(/scomment) 文章
-指定した文章をサーチコメントとして設定する。","","","head",0
-236,2,1,2,0,0,"/beginnerstatus","/bstatus","/beginnerstatus(/bstatus) サブコマンド
+　…「マテリア装着請負中」と「オンライン」のスイッチ切り替え。",,,/lookingformeld,/lfm,0,36,2,1,2,0,0
+235,"/searchcomment(/scomment) 文章
+指定した文章をサーチコメントとして設定する。",,,/searchcomment,/scomment,0,36,1,0,0,0,0
+236,"/beginnerstatus(/bstatus) サブコマンド
 ビギナーステータスを変更する。
 >>サブコマンド
 on
@@ -1122,8 +1110,8 @@ off
 実行例
 /beginnerstatus on
 　…ビギナーステータスを有効にする。
-","","","head",1000
-237,2,1,2,0,0,"/beginnerchannel","/bchannel","/beginnerchannel(/bchannel) サブコマンド
+",,,/beginnerstatus,/bstatus,1000,36,2,1,2,0,0
+237,"/beginnerchannel(/bchannel) サブコマンド
 メンターのビギナーチャンネルへの自動参加設定を変更する。
 >>サブコマンド
 on
@@ -1136,10 +1124,10 @@ off
 実行例
 /beginnerchannel on
 　…自動参加設定を有効にする。
-","/beginnerchannel","/bchannel","head",1000
-238,1,0,0,0,0,"/returnerstatusoff","","/returnerstatusoff
-リターナーステータスを無効にする。","/returnerstatusoff","","head",1000
-239,2,1,2,0,0,"/roleplaying","","/roleplaying サブコマンド
+",/beginnerchannel,/bchannel,/beginnerchannel,/bchannel,1000,36,2,1,2,0,0
+238,"/returnerstatusoff
+リターナーステータスを無効にする。",/returnerstatusoff,,/returnerstatusoff,,1000,36,1,0,0,0,0
+239,"/roleplaying サブコマンド
 オンラインステータスを「ロールプレイ中」に設定する。
 >>サブコマンド
 on
@@ -1147,8 +1135,8 @@ on
 off
 　…「オンライン」にする。
 ※サブコマンド省略
-　…「ロールプレイ中」と「オンライン」のスイッチ切り替え。","","","head",0
-251,3,2,3,2,0,"/action","/ac","/action(/ac) “アクション名” 代名詞
+　…「ロールプレイ中」と「オンライン」のスイッチ切り替え。",,,/roleplaying,,0,36,2,1,2,0,0
+251,"/action(/ac) “アクション名” 代名詞
 指定したキャラクターに指定したアクションを実行する。アクションが行えない環境のとき、あるいは覚えていないアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
@@ -1165,8 +1153,8 @@ gtoff
 /action 縮地 <t>
 　…選択した対象の位置に「縮地」を実行する。
 /action 縮地 gtoff
-　…カーソルの位置に対して「縮地」を直接実行する。","","","head",0
-252,2,1,2,0,0,"/battlemode","/bm","/battlemode(/bm) サブコマンド
+　…カーソルの位置に対して「縮地」を直接実行する。",,,/action,/ac,0,36,3,2,3,2,0
+252,"/battlemode(/bm) サブコマンド
 武器を納刀／抜刀する。
 >>サブコマンド
 on 
@@ -1174,40 +1162,40 @@ on
 off 
 　…武器を納刀する。
 ※サブコマンド省略
-　…武器の納刀／抜刀をスイッチ切り替え。","","","head",0
-253,2,0,0,0,0,"/target","/ta","/target(/ta) 代名詞
+　…武器の納刀／抜刀をスイッチ切り替え。",,,/battlemode,/bm,0,36,2,1,2,0,0
+253,"/target(/ta) 代名詞
 指定したキャラクターをターゲットする。一定範囲に存在しない場合はターゲットできない。
 
 実行例
 /target <2>
-　…パーティリストの2番目のPCをターゲットする。","","","head",0
-254,1,0,0,0,0,"/targetpc","/tpc","/targetpc(/tpc)
-ターゲット可能範囲にいるPCで、一番近い位置にいるPCをターゲットする。","","","head",0
-255,1,0,0,0,0,"/targetnpc","/tnpc","/targetnpc(/tnpc)
-ターゲット可能範囲にいるNPCで、一番近い位置にいるキャラクター・オブジェクトをターゲットする。","","","head",0
-256,1,0,0,0,0,"/targetenemy","/tenemy","/targetenemy(/tenemy)
-ターゲット可能範囲にいる敵で、一番近い位置にいるキャラクターをターゲットする。","","","head",0
-257,1,0,0,0,0,"/battletarget","/bt","/battletarget(/bt)
-自分を敵視している敵で、一番近い位置にいるキャラクターをターゲットする。","","","head",0
-258,2,0,0,0,0,"/assist","/as","/assist(/as) 代名詞
+　…パーティリストの2番目のPCをターゲットする。",,,/target,/ta,0,36,2,0,0,0,0
+254,"/targetpc(/tpc)
+ターゲット可能範囲にいるPCで、一番近い位置にいるPCをターゲットする。",,,/targetpc,/tpc,0,36,1,0,0,0,0
+255,"/targetnpc(/tnpc)
+ターゲット可能範囲にいるNPCで、一番近い位置にいるキャラクター・オブジェクトをターゲットする。",,,/targetnpc,/tnpc,0,36,1,0,0,0,0
+256,"/targetenemy(/tenemy)
+ターゲット可能範囲にいる敵で、一番近い位置にいるキャラクターをターゲットする。",,,/targetenemy,/tenemy,0,36,1,0,0,0,0
+257,"/battletarget(/bt)
+自分を敵視している敵で、一番近い位置にいるキャラクターをターゲットする。",,,/battletarget,/bt,0,36,1,0,0,0,0
+258,"/assist(/as) 代名詞
 指定したキャラクターが現在ターゲットしているキャラクターを、自分のターゲットにする。
 
 実行例
 /assist <t>
 　…選択中の対象がターゲットしている対象をターゲットする。
 /assist <2>
-　…パーティリストの2番目のPCがターゲットしている対象をターゲットする。","","","head",0
-259,1,0,0,0,0,"/facetarget","/ft","/facetarget(/ft)
-自分の向いている方向を、ターゲットしているキャラクターへ向ける。","","","head",0
-260,1,0,0,0,0,"/nexttarget","/nt","/nexttarget(/nt)
-自分から画面右側の敵を順番にターゲットする。","","","head",0
-261,1,0,0,0,0,"/previoustarget","","/previoustarget
-自分から画面左側の敵を順番にターゲットする。","","","head",0
-262,1,0,0,0,0,"/targetlasttarget","/tlt","/targetlasttarget(/tlt)
-最後にターゲットしたキャラクターをターゲットする。","","","head",0
-263,1,0,0,0,0,"/targetlastenemy","/tle","/targetlastenemy(/tle)
-最後にターゲットした敵をターゲットする。","","","head",0
-264,2,1,2,0,0,"/lockon","/lo","/lockon(/lo) サブコマンド
+　…パーティリストの2番目のPCがターゲットしている対象をターゲットする。",,,/assist,/as,0,36,2,0,0,0,0
+259,"/facetarget(/ft)
+自分の向いている方向を、ターゲットしているキャラクターへ向ける。",,,/facetarget,/ft,0,36,1,0,0,0,0
+260,"/nexttarget(/nt)
+自分から画面右側の敵を順番にターゲットする。",,,/nexttarget,/nt,0,36,1,0,0,0,0
+261,"/previoustarget
+自分から画面左側の敵を順番にターゲットする。",,,/previoustarget,,0,36,1,0,0,0,0
+262,"/targetlasttarget(/tlt)
+最後にターゲットしたキャラクターをターゲットする。",,,/targetlasttarget,/tlt,0,36,1,0,0,0,0
+263,"/targetlastenemy(/tle)
+最後にターゲットした敵をターゲットする。",,,/targetlastenemy,/tle,0,36,1,0,0,0,0
+264,"/lockon(/lo) サブコマンド
 ターゲットしているキャラクターをロックオン／ロックオン解除する。
 >>サブコマンド
 on 
@@ -1215,28 +1203,28 @@ on
 off 
 　…ロックオンを解除する。
 ※サブコマンド省略
-　…ロックオンの設定／解除をスイッチ切り替え。","","","head",0
-265,2,0,0,0,0,"/focustarget","","/focustarget 代名詞
+　…ロックオンの設定／解除をスイッチ切り替え。",,,/lockon,/lo,0,36,2,1,2,0,0
+265,"/focustarget 代名詞
 指定したキャラクターをフォーカスターゲットする。代名詞を省略した場合は、ターゲットしたキャラクターをフォーカスターゲットにする。
 
 実行例
 /focustarget <t>
-　…選択した対象をフォーカスターゲットに設定する。","","","head",0
-267,3,2,5,2,0,"/petaction","/pac","/petaction(/pac) “ペットアクション名” 代名詞
+　…選択した対象をフォーカスターゲットに設定する。",,,/focustarget,,0,36,2,0,0,0,0
+267,"/petaction(/pac) “ペットアクション名” 代名詞
 指定したキャラクターに指定したペットアクションを実行する。自分、またはペットを対象にできるアクションの場合は、代名詞を省略可能。ペットアクションが行えない環境のとき、ペットアクション以外を指定したとき、あるいは修得していないペットアクションのときは実行できない。
 
 実行例
 /petaction ピース
-　…ペットに「ピース」の命令をする。","","","head",0
-268,2,1,6,0,0,"/companionaction","/cac","/buddyaction(/bac,/companionaction,/cac) “バディアクション名”
+　…ペットに「ピース」の命令をする。",,,/petaction,/pac,0,36,3,2,5,2,0
+268,"/buddyaction(/bac,/companionaction,/cac) “バディアクション名”
 指定したバディアクションを実行する。バディアクションは対象のキャラクターの指定が不要。バディアクションが行えない環境のとき、バディアクション以外を指定したとき、あるいは修得していないバディアクションのときは実行できない。
 
 実行例
 /buddyaction フリーファイト
-　…バディに「フリーファイト」の命令をする。","/buddyaction","/bac","head",0
-269,1,0,0,0,0,"/facecamera","/fcam","/facecamera(/fcam)
-カメラ目線をし続ける。もう一度実行すると解除する。","","","head",0
-270,2,1,2,0,0,"/levelsync","/lsync","/levelsync(/lsync) サブコマンド
+　…バディに「フリーファイト」の命令をする。",/buddyaction,/bac,/companionaction,/cac,0,36,2,1,6,0,0
+269,"/facecamera(/fcam)
+カメラ目線をし続ける。もう一度実行すると解除する。",,,/facecamera,/fcam,0,36,1,0,0,0,0
+270,"/levelsync(/lsync) サブコマンド
 F.A.T.E.などのコンテンツで、レベルシンク可能な状況のとき、レベルシンクを実行する。
 >>サブコマンド
 on 
@@ -1244,18 +1232,18 @@ on
 off 
 　…レベルシンクを解除する。
 ※サブコマンド省略
-　…レベルシンクの実行／解除をスイッチ切り替え。","","","head",0
-271,2,1,9,0,0,"/mount","","/mount “マウント名”
+　…レベルシンクの実行／解除をスイッチ切り替え。",,,/levelsync,/lsync,0,36,2,1,2,0,0
+271,"/mount “マウント名”
 指定したマウントに騎乗する。
 騎乗中の場合は、騎乗を止める。マウント名を省略した場合も、騎乗を止める。飛行中の場合は、急降下を実行する。
 
 実行例
 /mount マイチョコボ
-　…マウント「マイチョコボ」に騎乗する。","","","head",0
-272,3,2,3,2,0,"/additionalaction","/aaction","/additionalaction(/aaction)
+　…マウント「マイチョコボ」に騎乗する。",,,/mount,,0,36,2,1,9,0,0
+272,"/additionalaction(/aaction)
 アディショナルアクションを設定できると信じられていた機能。
-※システム改修により現在は利用できません。","","","head",1000
-273,3,2,10,2,0,"/generalaction","/gaction","/generalaction(/gaction) “ジェネラルアクション名” 代名詞
+※システム改修により現在は利用できません。",,,/additionalaction,/aaction,1000,36,3,2,3,2,0
+273,"/generalaction(/gaction) “ジェネラルアクション名” 代名詞
 指定したキャラクターに指定したジェネラルアクションを実行する。ジェネラルアクションが行えない環境のとき、あるいは覚えていないジェネラルアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
@@ -1268,23 +1256,23 @@ gtoff
 /generalaction マウント・ルーレット
 　…「マウント・ルーレット」を実行する。
 /generalaction コンテンツアクション1 <t>
-　…選択した対象に「コンテンツアクション1」を実行する。","","","head",0
-274,2,1,8,0,0,"/minion","","/minion “ミニオン名”
+　…選択した対象に「コンテンツアクション1」を実行する。",,,/generalaction,/gaction,0,36,3,2,10,2,0
+274,"/minion “ミニオン名”
 指定したミニオンを呼び出す。すでに呼び出しているミニオンを指定した場合、またはミニオン名を省略した場合、そのミニオンを帰す。
 
 実行例
 /minion チョコチョコボ
-　…ミニオン「チョコチョコボ」を呼び出す。","","","head",0
-275,2,0,0,0,0,"/statusoff","","/statusoff “バフステータス名”
+　…ミニオン「チョコチョコボ」を呼び出す。",,,/minion,,0,36,2,1,8,0,0
+275,"/statusoff “バフステータス名”
 指定したバフステータスを解除する。
 
 実行例
 /statusoff 捨身
-　…バフステータス「捨身」を解除する。","","","head",0
-276,3,0,0,0,0,"/addpvpaction","/apa","/addpvpaction(/apa) 
+　…バフステータス「捨身」を解除する。",,,/statusoff,,0,36,2,0,0,0,0
+276,"/addpvpaction(/apa) 
 PvPアディショナルアクションを設定できると信じられていた機能。
-※システム改修により現在は利用できません。","","","head",1000
-277,3,2,16,2,0,"/pvpaction","/pvpac","/pvpaction(/pvpac) “PvPアクション名” 代名詞
+※システム改修により現在は利用できません。",,,/addpvpaction,/apa,1000,36,3,0,0,0,0
+277,"/pvpaction(/pvpac) “PvPアクション名” 代名詞
 指定したキャラクターに指定したPvPアクションを実行する。アクションが行えない環境のとき、あるいは修得していないアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
@@ -1299,8 +1287,8 @@ gtoff
 /pvpaction 縮地 <t>
 　…選択した対象の位置に「縮地」を実行する。
 /pvpaction 縮地 gtoff
-　…カーソルの位置に対して「縮地」を直接実行する。","","","add",0
-279,3,2,18,2,0,"/blueaction","","/blueaction “青魔法名” 代名詞
+　…カーソルの位置に対して「縮地」を直接実行する。",,,/pvpaction,/pvpac,0,4,3,2,16,2,0
+279,"/blueaction “青魔法名” 代名詞
 指定したキャラクターに指定した青魔法を実行する。アクションが行えない環境のとき、あるいはラーニングしていないアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
@@ -1311,8 +1299,8 @@ gtoff
 
 実行例
 /blueaction 水鉄砲 <t>
-　…選択した対象に「水鉄砲」を実行する。","","","head",0
-301,2,1,2,0,0,"/autolockon","","/autolockon サブコマンド
+　…選択した対象に「水鉄砲」を実行する。",,,/blueaction,,0,36,3,2,18,2,0
+301,"/autolockon サブコマンド
 キャラクターコンフィグ「オートアタック開始時に自動ロックオンを有効にする」を設定する。
 >>サブコマンド
 on 
@@ -1320,8 +1308,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-302,2,1,2,0,0,"/autofacetarget","","/autofacetarget サブコマンド
+　…有効／無効のスイッチ切り替え",,,/autolockon,,0,36,2,1,2,0,0
+302,"/autofacetarget サブコマンド
 キャラクターコンフィグ「アクション実行時にフェイスターゲットを実行する」を設定する。
 >>サブコマンド
 on 
@@ -1329,8 +1317,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-303,2,1,2,0,0,"/targetring","","/targetring サブコマンド
+　…有効／無効のスイッチ切り替え",,,/autofacetarget,,0,36,2,1,2,0,0
+303,"/targetring サブコマンド
 キャラクターコンフィグ「ターゲットリングを表示する」を設定する。
 >>サブコマンド
 on 
@@ -1338,8 +1326,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-304,2,1,2,0,0,"/targetline","","/targetline サブコマンド
+　…有効／無効のスイッチ切り替え",,,/targetring,,0,36,2,1,2,0,0
+304,"/targetline サブコマンド
 キャラクターコンフィグ「ターゲットラインを表示する」を設定する。
 >>サブコマンド
 on 
@@ -1347,8 +1335,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-305,2,1,2,0,0,"/linkline","","/linkline サブコマンド
+　…有効／無効のスイッチ切り替え",,,/targetline,,0,36,2,1,2,0,0
+305,"/linkline サブコマンド
 キャラクターコンフィグ「リンクラインを表示する」を設定する。
 >>サブコマンド
 on 
@@ -1356,8 +1344,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-306,2,1,2,0,0,"/autotarget","","/autotarget サブコマンド
+　…有効／無効のスイッチ切り替え",,,/linkline,,0,36,2,1,2,0,0
+306,"/autotarget サブコマンド
 キャラクターコンフィグ「敵対アクションを実行された時に実行対象を自動選択する」を設定する。
 >>サブコマンド
 on 
@@ -1365,8 +1353,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-307,2,1,2,0,0,"/displayhead","","/displayhead サブコマンド
+　…有効／無効のスイッチ切り替え",,,/autotarget,,0,36,2,1,2,0,0
+307,"/displayhead サブコマンド
 キャラクターコンフィグ「自分の頭装備を表示する」を設定する。
 >>サブコマンド
 on 
@@ -1374,8 +1362,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-308,2,1,2,0,0,"/displayarms","","/displayarms サブコマンド
+　…有効／無効のスイッチ切り替え",,,/displayhead,,0,36,2,1,2,0,0
+308,"/displayarms サブコマンド
 キャラクターコンフィグ「納刀時にメイン＆サブアームを表示する」を設定する。
 >>サブコマンド
 on 
@@ -1383,8 +1371,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-309,2,1,2,0,0,"/autosheathe","/ashathe","/autosheathe(/ashathe) サブコマンド
+　…有効／無効のスイッチ切り替え",,,/displayarms,,0,36,2,1,2,0,0
+309,"/autosheathe(/ashathe) サブコマンド
 キャラクターコンフィグ「メインアームの自動納刀を有効にする」を設定する。
 >>サブコマンド
 on 
@@ -1392,8 +1380,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-310,2,1,2,0,0,"/targetself","","/targetself サブコマンド
+　…有効／無効のスイッチ切り替え",,,/autosheathe,/ashathe,0,36,2,1,2,0,0
+310,"/targetself サブコマンド
 キャラクターコンフィグ「自分をクリックして選択することを有効にする」を設定する。
 >>サブコマンド
 on 
@@ -1401,8 +1389,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-311,2,1,2,0,0,"/groundclick","","/groundclick サブコマンド
+　…有効／無効のスイッチ切り替え",,,/targetself,,0,36,2,1,2,0,0
+311,"/groundclick サブコマンド
 キャラクターコンフィグ「フィールドをクリックしてターゲットキャンセルを有効にする」を設定する。
 >>サブコマンド
 on 
@@ -1410,8 +1398,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","head",0
-312,4,3,2,2,2,"/chatlog","","/chatlog サブコマンド
+　…有効／無効のスイッチ切り替え",,,/groundclick,,0,36,2,1,2,0,0
+312,"/chatlog サブコマンド
 キャラクターコンフィグのチャットログ設定関連を設定する。
 >>サブコマンド
 name 数値(0～3)
@@ -1442,8 +1430,8 @@ call チャットチャンネル名 SE番号
 call チャットチャンネル名
 　…指定したチャットチャンネルへ着信時にSEを鳴らす／鳴らさないのスイッチ切り替え。チャットチャンネル名を省略した場合、Tellとして扱う。
 【チャットチャンネル名指定】
-　…自分へのエモート(emote) Tell(t) パーティ(party,p) アライアンス(alliance,al) フリーカンパニー(freecompany,fc) PvPチーム(pvpteam) リンクシェル1～8(linkshell1～8,l1～8) ビギナー(beginner) クロスワールドリンクシェル(cwlinkshell1～8,cwl1～8)","","","head",0
-313,3,2,2,2,0,"/battleeffect","","/battleeffect 対象 タイプ
+　…自分へのエモート(emote) Tell(t) パーティ(party,p) アライアンス(alliance,al) フリーカンパニー(freecompany,fc) PvPチーム(pvpteam) リンクシェル1～8(linkshell1～8,l1～8) ビギナー(beginner) クロスワールドリンクシェル(cwlinkshell1～8,cwl1～8)",,,/chatlog,,0,36,4,3,2,2,2
+313,"/battleeffect 対象 タイプ
 キャラクターコンフィグ「バトルエフェクト設定」を設定する。
 >>対象
 self
@@ -1462,8 +1450,8 @@ simple
 off 
 　…「表示しない」に設定する。
 ※タイプ指定省略
-　…「すべて表示」と「表示しない」のスイッチ切り替え","","","repeat",0
-314,3,2,4,2,0,"/hud","","/hud “HUD名” サブコマンド
+　…「すべて表示」と「表示しない」のスイッチ切り替え",,,/battleeffect,,0,228,3,2,2,2,0
+314,"/hud “HUD名” サブコマンド
 指定したHUDの表示／非表示を設定する。
 >>HUD名
 ターゲット情報(TargetInfo,target)
@@ -1526,8 +1514,8 @@ off
 
 実行例
 /hud 基本情報
-　…基本情報の表示／非表示を切り替える。","","","pack",0
-315,6,3,2,3,7,"/hotbar","","/hotbar サブコマンド
+　…基本情報の表示／非表示を切り替える。",,,/hud,,0,32,3,2,4,2,0
+315,"/hotbar サブコマンド
 ホットバーを操作、設定する。PvEエリアでのみ実行可能。
 >>サブコマンド
 set(action) “アクション名” 番号1 番号2
@@ -1575,8 +1563,8 @@ remove 番号1 番号2
 /hotbar set マウント・ルーレット 1 1
 　…ホットバーセット1のスロット1に「マウント・ルーレット」を設定する。
 /hotbar change 2
-　…ホットバー1にセット2の内容を表示する。","","","head",0
-316,6,3,2,3,7,"/crosshotbar","/chotbar","/crosshotbar(/chotbar,/xhb) サブコマンド
+　…ホットバー1にセット2の内容を表示する。",,,/hotbar,,0,36,6,3,2,3,7
+316,"/crosshotbar(/chotbar,/xhb) サブコマンド
 クロスホットバーセットを操作、設定する。PvEエリアでのみ実行可能。
 >>サブコマンド
 set(action) “アクション名” セット番号 スロット名
@@ -1614,19 +1602,19 @@ share セット番号
 remove セット番号 スロット名
 　…指定したセット番号のクロスホットバーの指定したスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。スロット名に“all”で指定した場合、すべてのスロットを解除する。
 >>スロット名の指定
-<Gui(14)/>＋<Gui(3)/> … LDL(LD1)　<Gui(15)/>＋<Gui(3)/> … RDL(RD1)
-<Gui(14)/>＋<Gui(1)/> … LDU(LD2)　<Gui(15)/>＋<Gui(1)/> … RDU(RD2)
-<Gui(14)/>＋<Gui(4)/> … LDR(LD3)　<Gui(15)/>＋<Gui(4)/> … RDR(RD3)
-<Gui(14)/>＋<Gui(2)/> … LDD(LD4)　<Gui(15)/>＋<Gui(2)/> … RDD(RD4)
-<Gui(14)/>＋<Gui(10)/> … LAL(LA1)　<Gui(15)/>＋<Gui(10)/> … RAL(RA1)
-<Gui(14)/>＋<Gui(11)/> … LAU(LA2)　<Gui(15)/>＋<Gui(11)/> … RAU(RA2)
-<Gui(14)/>＋<Gui(8)/> … LAR(LA3)　<Gui(15)/>＋<Gui(8)/> … RAR(RA3)
-<Gui(14)/>＋<Gui(9)/> … LAD(LA4)　<Gui(15)/>＋<Gui(9)/> … RAD(RA4)","","/xhb","head",0
-317,1,0,0,0,0,"/hudreset","","/hudreset
-現在のレイアウトのHUDの位置と拡大率と透過度を初期化する。","","","pack",0
-318,1,0,0,0,0,"/uireset","","/uireset
-すべてのHUDレイアウト(1-4)とウィンドウの位置と拡大率と透過度を初期化する。","","","pack",0
-319,2,1,0,0,0,"/uiscale","","/uiscale サブコマンド
+＋ … LDL(LD1)　＋ … RDL(RD1)
+＋ … LDU(LD2)　＋ … RDU(RD2)
+＋ … LDR(LD3)　＋ … RDR(RD3)
+＋ … LDD(LD4)　＋ … RDD(RD4)
+＋ … LAL(LA1)　＋ … RAL(RA1)
+＋ … LAU(LA2)　＋ … RAU(RA2)
+＋ … LAR(LA3)　＋ … RAR(RA3)
+＋ … LAD(LA4)　＋ … RAD(RA4)",,/xhb,/crosshotbar,/chotbar,0,36,6,3,2,3,7
+317,"/hudreset
+現在のレイアウトのHUDの位置と拡大率と透過度を初期化する。",,,/hudreset,,0,32,1,0,0,0,0
+318,"/uireset
+すべてのHUDレイアウト(1-4)とウィンドウの位置と拡大率と透過度を初期化する。",,,/uireset,,0,32,1,0,0,0,0
+319,"/uiscale サブコマンド
 現在のレイアウトのHUDとウィンドウの拡大率を変更する。
 >>サブコマンド
 数値
@@ -1638,8 +1626,8 @@ reset
 /uiscale 140
 　…HUDとウィンドウの拡大率を140%に変更する。
 /uiscale reset
-　…HUDとウィンドウの拡大率を初期化する。","","","pack",0
-320,2,1,2,0,0,"/actionerror","/aerror","/actionerror(/aerror) サブコマンド
+　…HUDとウィンドウの拡大率を初期化する。",,,/uiscale,,0,32,2,1,0,0,0
+320,"/actionerror(/aerror) サブコマンド
 キャラクターコンフィグ「アクション実行時のスクリーンエラーを表示する」を設定する。
 >>サブコマンド
 on 
@@ -1647,8 +1635,8 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え。","","","head",0
-321,2,1,2,0,0,"/recasterror","/rerror","/recasterror(/rerror) サブコマンド
+　…有効／無効のスイッチ切り替え。",,,/actionerror,/aerror,0,36,2,1,2,0,0
+321,"/recasterror(/rerror) サブコマンド
 キャラクターコンフィグ「アクション実行時のリキャストエラーを表示する」を設定する。
 >>サブコマンド
 on 
@@ -1656,11 +1644,11 @@ on
 off 
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え。","","","head",0
-322,1,0,0,0,0,"//eventReset","","//eventReset
+　…有効／無効のスイッチ切り替え。",,,/recasterror,/rerror,0,36,2,1,2,0,0
+322,"//eventReset
 リアルイベント用コマンド。
-ゲーム内の設定をリアルイベント用に初期化する。","","","pack",0
-323,2,1,2,0,0,"/crosshotbartype","/chotbartype","/crosshotbartype(/chotbartype)  サブコマンド
+ゲーム内の設定をリアルイベント用に初期化する。",,,//eventReset,,0,32,1,0,0,0,0
+323,"/crosshotbartype(/chotbartype)  サブコマンド
 キャラクターコンフィグ「クロスホットバー操作タイプ設定」を設定する。
 >>サブコマンド
 hold
@@ -1668,8 +1656,8 @@ hold
 toggle
 　…操作タイプをトグルにする。
 mix
-　…操作タイプをミックスにする。","","","head",0
-324,2,1,2,0,0,"/crosshotbardisplay","/chotbardisplay","/crosshotbardisplay(/chotbardisplay) サブコマンド
+　…操作タイプをミックスにする。",,,/crosshotbartype,/chotbartype,0,36,2,1,2,0,0
+324,"/crosshotbardisplay(/chotbardisplay) サブコマンド
 キャラクターコンフィグ「クロスホットバーを常時表示する」を設定する。
 >>サブコマンド
 on
@@ -1677,8 +1665,8 @@ on
 off
 　…常時表示を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え。","","","head",0
-325,6,3,2,16,7,"/pvphotbar","","/pvphotbar サブコマンド
+　…有効／無効のスイッチ切り替え。",,,/crosshotbardisplay,/chotbardisplay,0,36,2,1,2,0,0
+325,"/pvphotbar サブコマンド
 PvP専用ホットバーを操作、設定する。PvPエリアでのみ実行可能。
 >>サブコマンド
 set(action) “PvPアクション名” 番号1 番号2
@@ -1724,8 +1712,8 @@ remove 番号1 番号2
 /pvphotbar action 浄化 1 1
 　…ホットバーセット1のスロット1に「浄化」を設定する。
 /pvphotbar change 2
-　…ホットバー1にセット2の内容を表示する。","","","head",0
-326,6,3,2,16,7,"/pvpcrosshotbar","/pvpchotbar","/pvpcrosshotbar(/pvpchotbar,/pvpxhb) サブコマンド
+　…ホットバー1にセット2の内容を表示する。",,,/pvphotbar,,0,36,6,3,2,16,7
+326,"/pvpcrosshotbar(/pvpchotbar,/pvpxhb) サブコマンド
 PvP専用クロスホットバーセットを操作、設定する。PvPエリアでのみ実行可能。
 >>サブコマンド
 set(action) “PvPアクション名” セット番号 スロット名
@@ -1761,15 +1749,15 @@ share セット番号
 remove セット番号 スロット名
 　…指定したセット番号のクロスホットバーの指定したスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。スロット名に“all”で指定した場合、すべてのスロットを解除する。
 >>スロット名の指定
-<Gui(14)/>＋<Gui(3)/> … LDL(LD1)　<Gui(15)/>＋<Gui(3)/> … RDL(RD1)
-<Gui(14)/>＋<Gui(1)/> … LDU(LD2)　<Gui(15)/>＋<Gui(1)/> … RDU(RD2)
-<Gui(14)/>＋<Gui(4)/> … LDR(LD3)　<Gui(15)/>＋<Gui(4)/> … RDR(RD3)
-<Gui(14)/>＋<Gui(2)/> … LDD(LD4)　<Gui(15)/>＋<Gui(2)/> … RDD(RD4)
-<Gui(14)/>＋<Gui(10)/> … LAL(LA1)　<Gui(15)/>＋<Gui(10)/> … RAL(RA1)
-<Gui(14)/>＋<Gui(11)/> … LAU(LA2)　<Gui(15)/>＋<Gui(11)/> … RAU(RA2)
-<Gui(14)/>＋<Gui(8)/> … LAR(LA3)　<Gui(15)/>＋<Gui(8)/> … RAR(RA3)
-<Gui(14)/>＋<Gui(9)/> … LAD(LA4)　<Gui(15)/>＋<Gui(9)/> … RAD(RA4)","","/pvpxhb","head",0
-327,2,1,2,0,0,"/emotelog","","/emotelog サブコマンド
+＋ … LDL(LD1)　＋ … RDL(RD1)
+＋ … LDU(LD2)　＋ … RDU(RD2)
+＋ … LDR(LD3)　＋ … RDR(RD3)
+＋ … LDD(LD4)　＋ … RDD(RD4)
+＋ … LAL(LA1)　＋ … RAL(RA1)
+＋ … LAU(LA2)　＋ … RAU(RA2)
+＋ … LAR(LA3)　＋ … RAR(RA3)
+＋ … LAD(LA4)　＋ … RAD(RA4)",,/pvpxhb,/pvpcrosshotbar,/pvpchotbar,0,36,6,3,2,16,7
+327,"/emotelog サブコマンド
 エモート実行時の感情表現テキストのログ表示の設定を行う。
 >>サブコマンド
 on
@@ -1777,8 +1765,8 @@ on
 off
 　…ログ表示を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え。","","","head",0
-328,2,0,0,0,0,"/jobhudmode","","/jobhudmode サブコマンド
+　…有効／無効のスイッチ切り替え。",,,/emotelog,,0,36,2,1,2,0,0
+328,"/jobhudmode サブコマンド
 現在のジョブHUDの表示モード（ノーマル／シンプル）を変更する。
 >>サブコマンド
 1
@@ -1790,78 +1778,78 @@ off
 
 実行例
 /jobhudmode 1
-　…1つ目のジョブHUDの表示モードを切り替える。","","","head",0
-329,2,0,0,0,0,"/mastervolume","","/mastervolume サブコマンド
+　…1つ目のジョブHUDの表示モードを切り替える。",,,/jobhudmode,,0,36,2,0,0,0,0
+329,"/mastervolume サブコマンド
 マスターボリュームの音量を変更する。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え。","","","rp",0
-330,2,0,0,0,0,"/bgm","","/bgm サブコマンド
+　…ミュートのスイッチ切り替え。",,,/mastervolume,,0,229,2,0,0,0,0
+330,"/bgm サブコマンド
 BGMの音量を変更する。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え。","","","rp",0
-331,2,0,0,0,0,"/soundeffects","","/soundeffects サブコマンド
+　…ミュートのスイッチ切り替え。",,,/bgm,,0,229,2,0,0,0,0
+331,"/soundeffects サブコマンド
 効果音の音量を変更する。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え。","","","rp",0
-332,2,0,0,0,0,"/voice","","/voice サブコマンド
+　…ミュートのスイッチ切り替え。",,,/soundeffects,,0,229,2,0,0,0,0
+332,"/voice サブコマンド
 ボイスの音量を変更する。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え。","","","rp",0
-333,2,0,0,0,0,"/systemsounds","","/systemsounds サブコマンド
+　…ミュートのスイッチ切り替え。",,,/voice,,0,229,2,0,0,0,0
+333,"/systemsounds サブコマンド
 システム音の音量を変更する。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え。","","","rp",0
-334,2,0,0,0,0,"/ambientsounds","","/ambientsounds サブコマンド
+　…ミュートのスイッチ切り替え。",,,/systemsounds,,0,229,2,0,0,0,0
+334,"/ambientsounds サブコマンド
 環境音の音量を変更する。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え。","","","rp",0
-335,2,0,0,0,0,"/soundeffectsself","","/soundeffectsself サブコマンド
+　…ミュートのスイッチ切り替え。",,,/ambientsounds,,0,229,2,0,0,0,0
+335,"/soundeffectsself サブコマンド
 自分の効果音の音量を変更する。
 >>サブコマンド
 数値(0-100)
-　…指定した数値に音量を変更する。","","","rp",0
-336,2,0,0,0,0,"/soundeffectsparty","","/soundeffectsparty サブコマンド
+　…指定した数値に音量を変更する。",,,/soundeffectsself,,0,229,2,0,0,0,0
+336,"/soundeffectsparty サブコマンド
 パーティメンバーの効果音の音量を変更する。
 >>サブコマンド
 数値(0-100)
-　…指定した数値に音量を変更する。","","","rp",0
-337,2,0,0,0,0,"/soundeffectsother","","/soundeffectsother サブコマンド
+　…指定した数値に音量を変更する。",,,/soundeffectsparty,,0,229,2,0,0,0,0
+337,"/soundeffectsother サブコマンド
 他人の効果音の音量を変更する。
 >>サブコマンド
 数値(0-100)
-　…指定した数値に音量を変更する。","","","rp",0
-338,2,0,0,0,0,"/systemsoundsspeaker","","/systemsoundsspeaker サブコマンド
+　…指定した数値に音量を変更する。",,,/soundeffectsother,,0,229,2,0,0,0,0
+338,"/systemsoundsspeaker サブコマンド
 ワイヤレスコントローラーのスピーカーからのシステム音の音量を変更する。
 ※PlayStation®4／PlayStation®5／Windows版のみ有効。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え。","","","rp",0
-339,2,0,0,0,0,"/tiltcamera","","/tiltcamera サブコマンド
+　…ミュートのスイッチ切り替え。",,,/systemsoundsspeaker,,0,229,2,0,0,0,0
+339,"/tiltcamera サブコマンド
 キャラクターコンフィグ「カメラの注視角度設定（チルトカメラ）」を変更する。
 >>サブコマンド
 数値(0-100)
-　…指定した数値に設定を変更する。","","","head",0
-340,2,1,2,0,0,"/mountbgm","","/mountbgm サブコマンド
+　…指定した数値に設定を変更する。",,,/tiltcamera,,0,36,2,0,0,0,0
+340,"/mountbgm サブコマンド
 システムコンフィグ「騎乗中のBGM再生を有効にする」を設定する。
 >>サブコマンド
 on
@@ -1869,1800 +1857,1800 @@ on
 off
 　…無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え","","","ignore",0
-341,2,0,0,0,0,"/performsounds","","/performsounds サブコマンド
+　…有効／無効のスイッチ切り替え",,,/mountbgm,,0,100,2,1,2,0,0
+341,"/performsounds サブコマンド
 楽器演奏の音量を変更する。
 >>サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
 ※サブコマンド省略
-　…ミュートのスイッチ切り替え","","","rp",0
-401,1,0,0,0,0,"/emote","/em","/emote(/em) 文章
-自分の名の後ろに指定した文章を直接つなぎ、感情表現としてSayの範囲のPCに送信する。 ","","","physicaldamage",0
-402,2,1,2,0,0,"/surprised","","/surprised サブコマンド
+　…ミュートのスイッチ切り替え",,,/performsounds,,0,229,2,0,0,0,0
+401,"/emote(/em) 文章
+自分の名の後ろに指定した文章を直接つなぎ、感情表現としてSayの範囲のPCに送信する。 ",,,/emote,/em,0,292,1,0,0,0,0
+402,"/surprised サブコマンド
 おどろく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-403,2,1,2,0,0,"/angry","","/angry サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/surprised,,0,293,2,1,2,0,0
+403,"/angry サブコマンド
 不満を表す。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-404,2,1,2,0,0,"/furious","","/furious サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/angry,,0,293,2,1,2,0,0
+404,"/furious サブコマンド
 怒る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-405,2,1,2,0,0,"/blush","","/blush サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/furious,,0,293,2,1,2,0,0
+405,"/blush サブコマンド
 照れる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-406,2,1,2,0,0,"/bow","","/bow サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/blush,,0,293,2,1,2,0,0
+406,"/bow サブコマンド
 お辞儀する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-407,2,1,2,0,0,"/cheer","","/cheer サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/bow,,0,293,2,1,2,0,0
+407,"/cheer サブコマンド
 応援する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-408,2,1,2,0,0,"/clap","","/clap サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cheer,,0,293,2,1,2,0,0
+408,"/clap サブコマンド
 拍手する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-409,2,1,2,0,0,"/beckon","","/beckon サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/clap,,0,293,2,1,2,0,0
+409,"/beckon サブコマンド
 手まねきする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-410,2,1,2,0,0,"/comfort","","/comfort サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/beckon,,0,293,2,1,2,0,0
+410,"/comfort サブコマンド
 なぐさめる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-411,2,1,2,0,0,"/cry","","/cry サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/comfort,,0,293,2,1,2,0,0
+411,"/cry サブコマンド
 泣く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-412,2,1,2,0,0,"/dance","","/dance サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cry,,0,293,2,1,2,0,0
+412,"/dance サブコマンド
 踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-413,2,1,2,0,0,"/doubt","","/doubt サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/dance,,0,293,2,1,2,0,0
+413,"/doubt サブコマンド
 問い詰める。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-414,2,1,2,0,0,"/doze","","/doze サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/doubt,,0,293,2,1,2,0,0
+414,"/doze サブコマンド
 居眠りする。ベッドが近くにある場合は、ベッドで寝る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-415,2,1,2,0,0,"/fume","","/fume サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/doze,,0,293,2,1,2,0,0
+415,"/fume サブコマンド
 悔しがる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-416,2,1,2,0,0,"/goodbye","","/goodbye サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/fume,,0,293,2,1,2,0,0
+416,"/goodbye サブコマンド
 さようなら。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-417,2,1,2,0,0,"/wave","","/wave サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/goodbye,,0,293,2,1,2,0,0
+417,"/wave サブコマンド
 手を振る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-418,2,1,2,0,0,"/huh","","/huh サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/wave,,0,293,2,1,2,0,0
+418,"/huh サブコマンド
 呆れる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-419,2,1,2,0,0,"/joy","","/joy サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/huh,,0,293,2,1,2,0,0
+419,"/joy サブコマンド
 喜ぶ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-420,2,1,2,0,0,"/kneel","","/kneel サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/joy,,0,293,2,1,2,0,0
+420,"/kneel サブコマンド
 ひざまずく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-421,2,1,2,0,0,"/chuckle","","/chuckle サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/kneel,,0,293,2,1,2,0,0
+421,"/chuckle サブコマンド
 笑う。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-422,2,1,2,0,0,"/laugh","","/laugh サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/chuckle,,0,293,2,1,2,0,0
+422,"/laugh サブコマンド
 大笑いする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-423,2,1,2,0,0,"/lookout","","/lookout サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/laugh,,0,293,2,1,2,0,0
+423,"/lookout サブコマンド
 見わたす。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-424,2,1,2,0,0,"/me","","/me サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/lookout,,0,293,2,1,2,0,0
+424,"/me サブコマンド
 アピールする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-425,2,1,2,0,0,"/no","","/no サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/me,,0,293,2,1,2,0,0
+425,"/no サブコマンド
 首を横に振る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-426,2,1,2,0,0,"/deny","","/deny サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/no,,0,293,2,1,2,0,0
+426,"/deny サブコマンド
 否定する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-427,2,1,2,0,0,"/panic","","/panic サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/deny,,0,293,2,1,2,0,0
+427,"/panic サブコマンド
 慌てる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-428,2,1,2,0,0,"/point","","/point サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/panic,,0,293,2,1,2,0,0
+428,"/point サブコマンド
 指さす。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-429,2,1,2,0,0,"/poke","","/poke サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/point,,0,293,2,1,2,0,0
+429,"/poke サブコマンド
 つつく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-430,2,1,2,0,0,"/congratulate","","/congratulate サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/poke,,0,293,2,1,2,0,0
+430,"/congratulate サブコマンド
 称賛する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-431,2,1,2,0,0,"/psych","","/psych サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/congratulate,,0,293,2,1,2,0,0
+431,"/psych サブコマンド
 活を入れる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-432,2,1,2,0,0,"/salute","","/salute サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/psych,,0,293,2,1,2,0,0
+432,"/salute サブコマンド
 敬礼する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-433,2,1,2,0,0,"/shocked","","/shocked サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/salute,,0,293,2,1,2,0,0
+433,"/shocked サブコマンド
 動転する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-434,2,1,2,0,0,"/shrug","","/shrug サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/shocked,,0,293,2,1,2,0,0
+434,"/shrug サブコマンド
 肩をすくめる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-435,2,1,2,0,0,"/rally","","/rally サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/shrug,,0,293,2,1,2,0,0
+435,"/rally サブコマンド
 励ます。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-436,2,1,2,0,0,"/soothe","","/soothe サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/rally,,0,293,2,1,2,0,0
+436,"/soothe サブコマンド
 なだめる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-437,2,1,2,0,0,"/stagger","","/stagger サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/soothe,,0,293,2,1,2,0,0
+437,"/stagger サブコマンド
 よろめく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-438,2,1,2,0,0,"/stretch","","/stretch サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/stagger,,0,293,2,1,2,0,0
+438,"/stretch サブコマンド
 伸びをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-439,2,1,2,0,0,"/sulk","","/sulk サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/stretch,,0,293,2,1,2,0,0
+439,"/sulk サブコマンド
 すねる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-440,2,1,2,0,0,"/think","","/think サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sulk,,0,293,2,1,2,0,0
+440,"/think サブコマンド
 考える。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-441,2,1,2,0,0,"/upset","","/upset サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/think,,0,293,2,1,2,0,0
+441,"/upset サブコマンド
 がっかりする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-442,2,1,2,0,0,"/welcome","","/welcome サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/upset,,0,293,2,1,2,0,0
+442,"/welcome サブコマンド
 歓迎する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-443,2,1,2,0,0,"/yes","","/yes サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/welcome,,0,293,2,1,2,0,0
+443,"/yes サブコマンド
 うなずく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-444,2,1,2,0,0,"/thumbsup","","/thumbsup サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/yes,,0,293,2,1,2,0,0
+444,"/thumbsup サブコマンド
 肯定する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-445,2,1,2,0,0,"/examineself","","/examineself サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/thumbsup,,0,293,2,1,2,0,0
+445,"/examineself サブコマンド
 自分を見る・見せる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-446,2,1,2,0,0,"/pose","","/pose サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/examineself,,0,293,2,1,2,0,0
+446,"/pose サブコマンド
 ポーズをとる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-447,2,1,2,0,0,"/blowkiss","","/blowkiss サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/pose,,0,293,2,1,2,0,0
+447,"/blowkiss サブコマンド
 投げキッスをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-448,2,1,2,0,0,"/grovel","","/grovel サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/blowkiss,,0,293,2,1,2,0,0
+448,"/grovel サブコマンド
 土下座をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-449,2,1,2,0,0,"/happy","","/happy サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/grovel,,0,293,2,1,2,0,0
+449,"/happy サブコマンド
 すごく喜ぶ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-450,2,1,2,0,0,"/disappointed","","/disappointed サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/happy,,0,293,2,1,2,0,0
+450,"/disappointed サブコマンド
 すごくがっかりする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-451,1,0,0,0,0,"/lounge","/sit","/sit(/lounge)
-地面に座る。自分の近くに腰掛ける場所があれば、そこに座る。すでに座っている場合は、立ち上がる。座った状態で、一部の感情表現を固有モーションで実行できる。","/sit","/lounge","Head",0
-453,1,0,0,0,0,"/groundsit","","/groundsit
-地面に座る。すでに座っている場合は、立ち上がる。座った状態で、一部の感情表現を固有モーションで実行できる。","","","Head",0
-455,2,1,2,0,0,"/airquotes","","/airquotes
+　…モーションと感情表現テキストを表示する。",,,/disappointed,,0,293,2,1,2,0,0
+451,"/sit(/lounge)
+地面に座る。自分の近くに腰掛ける場所があれば、そこに座る。すでに座っている場合は、立ち上がる。座った状態で、一部の感情表現を固有モーションで実行できる。",/sit,/lounge,/lounge,/sit,0,37,1,0,0,0,0
+453,"/groundsit
+地面に座る。すでに座っている場合は、立ち上がる。座った状態で、一部の感情表現を固有モーションで実行できる。",,,/groundsit,,0,37,1,0,0,0,0
+455,"/airquotes
 発言中に行う仕草。
 両手の指を引用符に見立て、発言を「引用」したことを示すが、多くの場合、皮肉や揶揄として使用される。
-※この感情表現は、モーションのみでテキストは表示しない。","","","pdamage",0
-456,2,1,2,0,0,"/gcsalute","","/gcsalute サブコマンド
+※この感情表現は、モーションのみでテキストは表示しない。",,,/airquotes,,0,293,2,1,2,0,0
+456,"/gcsalute サブコマンド
 黒渦団の敬礼をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-457,2,1,2,0,0,"/gcsalute","","/gcsalute サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/gcsalute,,0,293,2,1,2,0,0
+457,"/gcsalute サブコマンド
 双蛇党の敬礼をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-458,2,1,2,0,0,"/gcsalute","","/gcsalute サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/gcsalute,,0,293,2,1,2,0,0
+458,"/gcsalute サブコマンド
 不滅隊の敬礼をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-459,2,1,2,0,0,"/pray","","/pray サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/gcsalute,,0,293,2,1,2,0,0
+459,"/pray サブコマンド
 祈る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-460,2,1,2,0,0,"/imperialsalute","","/imperialsalute サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/pray,,0,293,2,1,2,0,0
+460,"/imperialsalute サブコマンド
 帝国式敬礼。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-461,2,1,2,0,0,"/visor","","/visor
+　…モーションと感情表現テキストを表示する。",,,/imperialsalute,,0,293,2,1,2,0,0
+461,"/visor
 頭装備の操作を行う。
-※装備の開閉や明滅表現などの機能を持つ装備に対して反映される。","","","blockrate",0
-463,2,1,2,0,0,"/megaflare","","/megaflare サブコマンド
+※装備の開閉や明滅表現などの機能を持つ装備に対して反映される。",,,/visor,,0,301,2,1,2,0,0
+463,"/megaflare サブコマンド
 メガフレアの如き光を放つ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-464,2,1,2,0,0,"/crimsonlotus","","/crimsonlotus サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/megaflare,,0,293,2,1,2,0,0
+464,"/crimsonlotus サブコマンド
 演舞をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-465,2,1,2,0,0,"/charmed","","/charmed サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/crimsonlotus,,0,293,2,1,2,0,0
+465,"/charmed サブコマンド
 魅惑の抱擁で魅了される。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-466,2,1,2,0,0,"/cheeron","","/cheeron サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/charmed,,0,293,2,1,2,0,0
+466,"/cheeron サブコマンド
 声援（青）を送る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-467,2,1,2,0,0,"/cheerwave","","/cheerwave サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cheeron,,0,293,2,1,2,0,0
+467,"/cheerwave サブコマンド
 声援（黄）を送る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-468,2,1,2,0,0,"/cheerjump","","/cheerjump サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cheerwave,,0,293,2,1,2,0,0
+468,"/cheerjump サブコマンド
 声援（赤）を送る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-469,2,1,2,0,0,"/straightface","/straight","/straightface(/straight) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cheerjump,,0,293,2,1,2,0,0
+469,"/straightface(/straight) サブコマンド
 素の表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-470,2,1,2,0,0,"/smile","","/smile サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/straightface,/straight,0,293,2,1,2,0,0
+470,"/smile サブコマンド
 微笑を浮かべる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-471,2,1,2,0,0,"/grin","","/grin サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/smile,,0,293,2,1,2,0,0
+471,"/grin サブコマンド
 笑顔になる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-472,2,1,2,0,0,"/smirk","","/smirk サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/grin,,0,293,2,1,2,0,0
+472,"/smirk サブコマンド
 自信に溢れる表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-473,2,1,2,0,0,"/taunt","","/taunt サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/smirk,,0,293,2,1,2,0,0
+473,"/taunt サブコマンド
 不敵な表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-474,2,1,2,0,0,"/shuteyes","/shut","/shuteyes(/shut) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/taunt,,0,293,2,1,2,0,0
+474,"/shuteyes(/shut) サブコマンド
 目を閉ざす。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-475,2,1,2,0,0,"/sad","","/sad サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/shuteyes,/shut,0,293,2,1,2,0,0
+475,"/sad サブコマンド
 泣顔になる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-476,2,1,2,0,0,"/scared","/fear","/scared(/fear) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sad,,0,293,2,1,2,0,0
+476,"/scared(/fear) サブコマンド
 恐怖を感じた表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-477,2,1,2,0,0,"/amazed","/awe","/amazed(/awe) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/scared,/fear,0,293,2,1,2,0,0
+477,"/amazed(/awe) サブコマンド
 呆然とした表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-478,2,1,2,0,0,"/ouch","/ow","/ouch(/ow) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/amazed,/awe,0,293,2,1,2,0,0
+478,"/ouch(/ow) サブコマンド
 痛そうな表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-479,2,1,2,0,0,"/annoyed","/annoy","/annoyed(/annoy) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/ouch,/ow,0,293,2,1,2,0,0
+479,"/annoyed(/annoy) サブコマンド
 不機嫌そうな表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-480,2,1,2,0,0,"/alert","","/alert サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/annoyed,/annoy,0,293,2,1,2,0,0
+480,"/alert サブコマンド
 何かに気づいた表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-481,2,1,2,0,0,"/worried","/worry","/worried(/worry) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/alert,,0,293,2,1,2,0,0
+481,"/worried(/worry) サブコマンド
 心配そうな表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-482,2,1,2,0,0,"/biggrin","","/biggrin サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/worried,/worry,0,293,2,1,2,0,0
+482,"/biggrin サブコマンド
 破顔する表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-483,2,1,2,0,0,"/reflect","","/reflect サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/biggrin,,0,293,2,1,2,0,0
+483,"/reflect サブコマンド
 熟考する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-484,2,1,2,0,0,"/furrow","","/furrow サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/reflect,,0,293,2,1,2,0,0
+484,"/furrow サブコマンド
 眉をひそめる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-485,2,1,2,0,0,"/scoff","","/scoff サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/furrow,,0,293,2,1,2,0,0
+485,"/scoff サブコマンド
 苦笑いをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-486,2,1,2,0,0,"/throw","","/throw サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/scoff,,0,293,2,1,2,0,0
+486,"/throw サブコマンド
 投げる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-491,2,1,2,0,0,"/changepose","/cpose","/changepose(/cpose)
+　…モーションと感情表現テキストを表示する。",,,/throw,,0,293,2,1,2,0,0
+491,"/changepose(/cpose)
 ポーズを変える。
-※この感情表現は、モーションのみでテキストは表示しない。","","","Head",0
-502,2,1,2,0,0,"/stepdance","/sdance","/stepdance(/sdance) サブコマンド
+※この感情表現は、モーションのみでテキストは表示しない。",,,/changepose,/cpose,0,37,2,1,2,0,0
+502,"/stepdance(/sdance) サブコマンド
 ステップダンスを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-503,2,1,2,0,0,"/harvestdance","/hdance","/harvestdance(/hdance) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/stepdance,/sdance,0,293,2,1,2,0,0
+503,"/harvestdance(/hdance) サブコマンド
 豊穣の舞を踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-504,2,1,2,0,0,"/balldance","/bdance","/balldance(/bdance) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/harvestdance,/hdance,0,293,2,1,2,0,0
+504,"/balldance(/bdance) サブコマンド
 宮廷の舞を踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-505,2,1,2,0,0,"/mandervilledance","/mdance","/mandervilledance(/mdance) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/balldance,/bdance,0,293,2,1,2,0,0
+505,"/mandervilledance(/mdance) サブコマンド
 紳士の舞を踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-506,2,1,2,0,0,"/stroke","","/stroke サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/mandervilledance,/mdance,0,293,2,1,2,0,0
+506,"/stroke サブコマンド
 なでる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-507,2,1,2,0,0,"/handover","","/handover サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/stroke,,0,293,2,1,2,0,0
+507,"/handover サブコマンド
 わたす。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-510,2,1,2,0,0,"/bombdance","","/bombdance サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/handover,,0,293,2,1,2,0,0
+510,"/bombdance サブコマンド
 ボム踊りを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-511,2,1,2,0,0,"/hurray","","/hurray サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/bombdance,,0,293,2,1,2,0,0
+511,"/hurray サブコマンド
 勝ちどきをあげる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-512,2,1,2,0,0,"/slap","","/slap サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/hurray,,0,293,2,1,2,0,0
+512,"/slap サブコマンド
 平手打ちをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-513,2,1,2,0,0,"/hug","","/hug サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/slap,,0,293,2,1,2,0,0
+513,"/hug サブコマンド
 ハグする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-514,2,1,2,0,0,"/embrace","","/embrace サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/hug,,0,293,2,1,2,0,0
+514,"/embrace サブコマンド
 抱き合う。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-515,2,1,2,0,0,"/hildibrand","/hildy","/hildibrand(/hildy) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/embrace,,0,293,2,1,2,0,0
+515,"/hildibrand(/hildy) サブコマンド
 事件屋の決めポーズをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-516,2,1,2,0,0,"/fistbump","/fist","/fistbump(/fist) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/hildibrand,/hildy,0,293,2,1,2,0,0
+516,"/fistbump(/fist) サブコマンド
 拳を突き出す。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-519,2,1,2,0,0,"/thavdance","/tdance","/thavdance(/tdance) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/fistbump,/fist,0,293,2,1,2,0,0
+519,"/thavdance(/tdance) サブコマンド
 サベネアンダンスを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-520,2,1,2,0,0,"/golddance","/gdance","/golddance(/gdance) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/thavdance,/tdance,0,293,2,1,2,0,0
+520,"/golddance(/gdance) サブコマンド
 ゴールデンダンスを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-521,2,1,2,0,0,"/sundance","","/sundance サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/golddance,/gdance,0,293,2,1,2,0,0
+521,"/sundance サブコマンド
 太陽の舞を踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-522,2,1,2,0,0,"/battlestance","/bstance","/battlestance(/bstance) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sundance,,0,293,2,1,2,0,0
+522,"/battlestance(/bstance) サブコマンド
 戦いに備える。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-523,2,1,2,0,0,"/victorypose","/vpose","/victorypose(/vpose) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/battlestance,/bstance,0,293,2,1,2,0,0
+523,"/victorypose(/vpose) サブコマンド
 勝利を喜ぶ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-524,2,1,2,0,0,"/backflip","/bflip","/backflip(/bflip) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/victorypose,/vpose,0,293,2,1,2,0,0
+524,"/backflip(/bflip) サブコマンド
 宙返りをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-525,2,1,2,0,0,"/easterngreeting","/egreeting","/easterngreeting(/egreeting) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/backflip,/bflip,0,293,2,1,2,0,0
+525,"/easterngreeting(/egreeting) サブコマンド
 抱拳礼をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-526,2,1,2,0,0,"/eureka","","/eureka サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/easterngreeting,/egreeting,0,293,2,1,2,0,0
+526,"/eureka サブコマンド
 閃く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-527,2,1,2,0,0,"/mogdance","","/mogdance サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eureka,,0,293,2,1,2,0,0
+527,"/mogdance サブコマンド
 モグモグダンスを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-528,2,1,2,0,0,"/haurchefant","/hknight","/haurchefant(/hknight) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/mogdance,,0,293,2,1,2,0,0
+528,"/haurchefant(/hknight) サブコマンド
 「イイ！」をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-529,2,1,2,0,0,"/easternstretch","/estretch","/warmup(/easternstretch,/estretch) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/haurchefant,/hknight,0,293,2,1,2,0,0
+529,"/warmup(/easternstretch,/estretch) サブコマンド
 ウォームアップをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/warmup","","pdamage",0
-530,2,1,2,0,0,"/easterndance","/edance","/easterndance(/edance) サブコマンド
+　…モーションと感情表現テキストを表示する。",/warmup,,/easternstretch,/estretch,0,293,2,1,2,0,0
+530,"/easterndance(/edance) サブコマンド
 東方の伝統舞踊を踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-531,2,1,2,0,0,"/rangerpose1r","/rpose1r","/rangerposered1(/rposered1,/rangerpose1r,/rpose1r) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/easterndance,/edance,0,293,2,1,2,0,0
+531,"/rangerposered1(/rposered1,/rangerpose1r,/rpose1r) サブコマンド
 戦士の演武：壱をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/rangerposered1","/rposered1","pdamage",0
-532,2,1,2,0,0,"/rangerpose2r","/rpose2r","/rangerposeblack1(/rposeblack1,/rangerpose2r,/rpose2r) サブコマンド
+　…モーションと感情表現テキストを表示する。",/rangerposered1,/rposered1,/rangerpose1r,/rpose1r,0,293,2,1,2,0,0
+532,"/rangerposeblack1(/rposeblack1,/rangerpose2r,/rpose2r) サブコマンド
 戦士の演武：弐をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/rangerposeblack1","/rposeblack1","pdamage",0
-533,2,1,2,0,0,"/rangerpose3r","/rpose3r","/rangerposeyellow1(/rposeyellow1,/rangerpose3r,/rpose3r) サブコマンド
+　…モーションと感情表現テキストを表示する。",/rangerposeblack1,/rposeblack1,/rangerpose2r,/rpose2r,0,293,2,1,2,0,0
+533,"/rangerposeyellow1(/rposeyellow1,/rangerpose3r,/rpose3r) サブコマンド
 戦士の演武：参をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/rangerposeyellow1","/rposeyellow1","pdamage",0
-534,2,1,2,0,0,"/wink","/rightwink","/rightwink(/wink) サブコマンド
+　…モーションと感情表現テキストを表示する。",/rangerposeyellow1,/rposeyellow1,/rangerpose3r,/rpose3r,0,293,2,1,2,0,0
+534,"/rightwink(/wink) サブコマンド
 ウィンク（右）をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/rightwink","/wink","pdamage",0
-535,2,1,2,0,0,"/rangerpose1l","/rpose1l","/rangerposered2(/rposered2,/rangerpose1l,/rpose1l) サブコマンド
+　…モーションと感情表現テキストを表示する。",/rightwink,/wink,/wink,/rightwink,0,293,2,1,2,0,0
+535,"/rangerposered2(/rposered2,/rangerpose1l,/rpose1l) サブコマンド
 戦士の演武：壱ノ裏をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/rangerposered2","/rposered2","pdamage",0
-536,2,1,2,0,0,"/rangerpose2l","/rpose2l","/rangerposeblack2(/rposeblack2,/rangerpose2l,/rpose2l) サブコマンド
+　…モーションと感情表現テキストを表示する。",/rangerposered2,/rposered2,/rangerpose1l,/rpose1l,0,293,2,1,2,0,0
+536,"/rangerposeblack2(/rposeblack2,/rangerpose2l,/rpose2l) サブコマンド
 戦士の演武：弐ノ裏をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/rangerposeblack2","/rposeblack2","pdamage",0
-537,2,1,2,0,0,"/rangerpose3l","/rpose3l","/rangerposeyellow2(/rposeyellow2,/rangerpose3l,/rpose3l) サブコマンド
+　…モーションと感情表現テキストを表示する。",/rangerposeblack2,/rposeblack2,/rangerpose2l,/rpose2l,0,293,2,1,2,0,0
+537,"/rangerposeyellow2(/rposeyellow2,/rangerpose3l,/rpose3l) サブコマンド
 戦士の演武：参ノ裏をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","/rangerposeyellow2","/rposeyellow2","pdamage",0
-538,2,1,2,0,0,"/facepalm","","/facepalm サブコマンド
+　…モーションと感情表現テキストを表示する。",/rangerposeyellow2,/rposeyellow2,/rangerpose3l,/rpose3l,0,293,2,1,2,0,0
+538,"/facepalm サブコマンド
 顔を覆う。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-539,2,1,2,0,0,"/zantetsuken","/ztk","/zantetsuken(/ztk) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/facepalm,,0,293,2,1,2,0,0
+539,"/zantetsuken(/ztk) サブコマンド
 空間を斬り裂く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-540,2,1,2,0,0,"/flex","","/flex サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/zantetsuken,/ztk,0,293,2,1,2,0,0
+540,"/flex サブコマンド
 肉体美を誇る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-541,2,1,2,0,0,"/respect","","/respect サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/flex,,0,293,2,1,2,0,0
+541,"/respect サブコマンド
 黙祷を捧げる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-542,2,1,2,0,0,"/sneer","","/sneer サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/respect,,0,293,2,1,2,0,0
+542,"/sneer サブコマンド
 あくどそうな表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-543,2,1,2,0,0,"/prettyplease","/pplease","/prettyplease(/pplease) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sneer,,0,293,2,1,2,0,0
+543,"/prettyplease(/pplease) サブコマンド
 おねだりをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-544,2,1,2,0,0,"/playdead","/pdead","/playdead(/pdead) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/prettyplease,/pplease,0,293,2,1,2,0,0
+544,"/playdead(/pdead) サブコマンド
 死んだふりをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-545,2,1,2,0,0,"/iceheart","","/iceheart サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/playdead,/pdead,0,293,2,1,2,0,0
+545,"/iceheart サブコマンド
 氷とともに舞う。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-546,2,1,2,0,0,"/moonlift","","/moonlift サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/iceheart,,0,293,2,1,2,0,0
+546,"/moonlift サブコマンド
 太陽と月の舞を踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-547,2,1,2,0,0,"/dote","","/dote サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/moonlift,,0,293,2,1,2,0,0
+547,"/dote サブコマンド
 愛を表現する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-549,2,1,2,0,0,"/spectacles","","/spectacles サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/dote,,0,293,2,1,2,0,0
+549,"/spectacles サブコマンド
 眼鏡を正す。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-550,2,1,2,0,0,"/songbird","","/songbird サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/spectacles,,0,293,2,1,2,0,0
+550,"/songbird サブコマンド
 歌姫を真似る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-551,2,1,2,0,0,"/waterfloat","","/waterfloat
+　…モーションと感情表現テキストを表示する。",,,/songbird,,0,293,2,1,2,0,0
+551,"/waterfloat
 水面に浮く。
-※この感情表現は、モーションのみでテキストは表示しない。","","","pdamage",0
-552,2,1,2,0,0,"/waterflip","","/waterflip
+※この感情表現は、モーションのみでテキストは表示しない。",,,/waterfloat,,0,293,2,1,2,0,0
+552,"/waterflip
 水中宙返りをする。
-※この感情表現は、モーションのみでテキストは表示しない。","","","pdamage",0
-553,2,1,2,0,0,"/puckerup","","/puckerup サブコマンド
+※この感情表現は、モーションのみでテキストは表示しない。",,,/waterflip,,0,293,2,1,2,0,0
+553,"/puckerup サブコマンド
 口をすぼめる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-554,2,1,2,0,0,"/powerup","","/powerup サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/puckerup,,0,293,2,1,2,0,0
+554,"/powerup サブコマンド
 力を高める。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-555,2,1,2,0,0,"/easternbow","/ebow","/easternbow(/ebow) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/powerup,,0,293,2,1,2,0,0
+555,"/easternbow(/ebow) サブコマンド
 東方風のお辞儀をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-556,2,1,2,0,0,"/squats","","/squats サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/easternbow,/ebow,0,293,2,1,2,0,0
+556,"/squats サブコマンド
 スクワットをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-557,2,1,2,0,0,"/pushups","","/pushups サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/squats,,0,293,2,1,2,0,0
+557,"/pushups サブコマンド
 腕立て伏せをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-558,2,1,2,0,0,"/situps","","/situps サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/pushups,,0,293,2,1,2,0,0
+558,"/situps サブコマンド
 腹筋運動をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-559,2,1,2,0,0,"/breathcontrol","","/breathcontrol サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/situps,,0,293,2,1,2,0,0
+559,"/breathcontrol サブコマンド
 深呼吸をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-560,2,1,2,0,0,"/converse","","/converse サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/breathcontrol,,0,293,2,1,2,0,0
+560,"/converse サブコマンド
 話をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-561,2,1,2,0,0,"/concentrate","","/concentrate サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/converse,,0,293,2,1,2,0,0
+561,"/concentrate サブコマンド
 真剣な表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-562,2,1,2,0,0,"/disturbed","","/disturbed サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/concentrate,,0,293,2,1,2,0,0
+562,"/disturbed サブコマンド
 困惑した表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-563,2,1,2,0,0,"/simper","","/simper サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/disturbed,,0,293,2,1,2,0,0
+563,"/simper サブコマンド
 柔和に微笑む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-564,2,1,2,0,0,"/beam","","/beam サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/simper,,0,293,2,1,2,0,0
+564,"/beam サブコマンド
 満ち足りた表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-565,2,1,2,0,0,"/attention","","/attention サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/beam,,0,293,2,1,2,0,0
+565,"/attention サブコマンド
 気をつけの姿勢をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-566,2,1,2,0,0,"/atease","","/atease サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/attention,,0,293,2,1,2,0,0
+566,"/atease サブコマンド
 休めの姿勢をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-567,2,1,2,0,0,"/box","","/box サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/atease,,0,293,2,1,2,0,0
+567,"/box サブコマンド
 格闘訓練をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-568,2,1,2,0,0,"/ritualprayer","","/ritualprayer サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/box,,0,293,2,1,2,0,0
+568,"/ritualprayer サブコマンド
 おまじないをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-570,2,1,2,0,0,"/tremble","","/tremble サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/ritualprayer,,0,293,2,1,2,0,0
+570,"/tremble サブコマンド
 怯える。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-571,2,1,2,0,0,"/winded","","/winded サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/tremble,,0,293,2,1,2,0,0
+571,"/winded サブコマンド
 膝を突く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-572,2,1,2,0,0,"/aback","","/aback サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/winded,,0,293,2,1,2,0,0
+572,"/aback サブコマンド
 仰天する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-573,2,1,2,0,0,"/greet","","/greet サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/aback,,0,293,2,1,2,0,0
+573,"/greet サブコマンド
 挨拶する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-574,2,1,2,0,0,"/boxstep","","/boxstep サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/greet,,0,293,2,1,2,0,0
+574,"/boxstep サブコマンド
 ボックスステップを踏む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-575,2,1,2,0,0,"/sidestep","","/sidestep サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/boxstep,,0,293,2,1,2,0,0
+575,"/sidestep サブコマンド
 サイドステップを踏む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-576,2,1,2,0,0,"/ultima","","/ultima サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sidestep,,0,293,2,1,2,0,0
+576,"/ultima サブコマンド
 アルテマの如き光を放つ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-577,2,1,2,0,0,"/yoldance","","/yoldance サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/ultima,,0,293,2,1,2,0,0
+577,"/yoldance サブコマンド
 ヨルダンスを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-579,2,1,2,0,0,"/splash","","/splash サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/yoldance,,0,293,2,1,2,0,0
+579,"/splash サブコマンド
 水をかける。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-581,2,1,2,0,0,"/sweat","","/sweat サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/splash,,0,293,2,1,2,0,0
+581,"/sweat サブコマンド
 暑がる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-582,2,1,2,0,0,"/shiver","","/shiver サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sweat,,0,293,2,1,2,0,0
+582,"/shiver サブコマンド
 寒がる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-583,2,1,2,0,0,"/elucidate","","/elucidate サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/shiver,,0,293,2,1,2,0,0
+583,"/elucidate サブコマンド
 説明する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-584,2,1,2,0,0,"/ponder","","/ponder サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/elucidate,,0,293,2,1,2,0,0
+584,"/ponder サブコマンド
 空想するような表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-585,2,1,2,0,0,"/leftwink","","/leftwink サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/ponder,,0,293,2,1,2,0,0
+585,"/leftwink サブコマンド
 ウィンク（左）をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-586,2,1,2,0,0,"/getfantasy","","/getfantasy サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/leftwink,,0,293,2,1,2,0,0
+586,"/getfantasy サブコマンド
 ゲットファンタジーを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-587,2,1,2,0,0,"/popotostep","","/popotostep サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/getfantasy,,0,293,2,1,2,0,0
+587,"/popotostep サブコマンド
 ポポトステップを踏む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-588,2,1,2,0,0,"/hum","","/hum サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/popotostep,,0,293,2,1,2,0,0
+588,"/hum サブコマンド
 鼻歌を歌う。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-589,2,1,2,0,0,"/confirm","","/confirm サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/hum,,0,293,2,1,2,0,0
+589,"/confirm サブコマンド
 確認する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-590,2,1,2,0,0,"/scheme","","/scheme サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/confirm,,0,293,2,1,2,0,0
+590,"/scheme サブコマンド
 企みを話す。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-591,2,1,2,0,0,"/endure","","/endure サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/scheme,,0,293,2,1,2,0,0
+591,"/endure サブコマンド
 忍耐するような表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-592,2,1,2,0,0,"/tomestone","","/tomestone サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/endure,,0,293,2,1,2,0,0
+592,"/tomestone サブコマンド
 トームストーンを愛でる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-593,2,1,2,0,0,"/heeltoe","","/heeltoe サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/tomestone,,0,293,2,1,2,0,0
+593,"/heeltoe サブコマンド
 ヒールトーを踏む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-594,2,1,2,0,0,"/goobbuedo","","/goobbuedo サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/heeltoe,,0,293,2,1,2,0,0
+594,"/goobbuedo サブコマンド
 グゥーブー・ドゥを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-595,2,1,2,0,0,"/gratuity","","/gratuity サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/goobbuedo,,0,293,2,1,2,0,0
+595,"/gratuity サブコマンド
 心づけをばらまく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-596,2,1,2,0,0,"/fistpump","","/fistpump サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/gratuity,,0,293,2,1,2,0,0
+596,"/fistpump サブコマンド
 ガッツポーズをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-597,2,1,2,0,0,"/reprimand","","/reprimand サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/fistpump,,0,293,2,1,2,0,0
+597,"/reprimand サブコマンド
 注意をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-598,2,1,2,0,0,"/sabotender","","/sabotender サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/reprimand,,0,293,2,1,2,0,0
+598,"/sabotender サブコマンド
 サボテンダーポーズを決める。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-599,2,1,2,0,0,"/mandervillemambo","/mmambo","/mandervillemambo(/mmambo) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sabotender,,0,293,2,1,2,0,0
+599,"/mandervillemambo(/mmambo) サブコマンド
 事件屋のマンボを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-600,2,1,2,0,0,"/laliho","","/laliho サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/mandervillemambo,/mmambo,0,293,2,1,2,0,0
+600,"/laliho サブコマンド
 ラリホーをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-601,2,1,2,0,0,"/simulationm","","/simulationm サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/laliho,,0,293,2,1,2,0,0
+601,"/simulationm サブコマンド
 オメガMの構えをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-602,2,1,2,0,0,"/simulationf","","/simulationf サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/simulationm,,0,293,2,1,2,0,0
+602,"/simulationf サブコマンド
 オメガFの構えをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-603,2,1,2,0,0,"/toast","","/toast サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/simulationf,,0,293,2,1,2,0,0
+603,"/toast サブコマンド
 乾杯する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-604,2,1,2,0,0,"/lean","","/lean
+　…モーションと感情表現テキストを表示する。",,,/toast,,0,293,2,1,2,0,0
+604,"/lean
 斜め立ちをする。
-※この感情表現は、モーションのみでテキストは表示しない。","","","pdamage",0
-605,2,1,2,0,0,"/headache","","/headache サブコマンド
+※この感情表現は、モーションのみでテキストは表示しない。",,,/lean,,0,293,2,1,2,0,0
+605,"/headache サブコマンド
 頭痛で苦しむ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-606,2,1,2,0,0,"/snap","","/snap サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/headache,,0,293,2,1,2,0,0
+606,"/snap サブコマンド
 フィンガースナップをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-607,2,1,2,0,0,"/breakfast","/bread","/breakfast(/bread) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/snap,,0,293,2,1,2,0,0
+607,"/breakfast(/bread) サブコマンド
 パンを食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-608,2,1,2,0,0,"/read","","/read サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/breakfast,/bread,0,293,2,1,2,0,0
+608,"/read サブコマンド
 本を読む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-609,2,1,2,0,0,"/insist","","/insist サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/read,,0,293,2,1,2,0,0
+609,"/insist サブコマンド
 主張する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-610,2,1,2,0,0,"/consider","/hmm","/consider(/hmm) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/insist,,0,293,2,1,2,0,0
+610,"/consider(/hmm) サブコマンド
 疑問を抱く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-611,2,1,2,0,0,"/wasshoi","","/wasshoi サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/consider,/hmm,0,293,2,1,2,0,0
+611,"/wasshoi サブコマンド
 わっしょいする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-612,2,1,2,0,0,"/flowershower","/petals","/flowershower(/petals) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/wasshoi,,0,293,2,1,2,0,0
+612,"/flowershower(/petals) サブコマンド
 フラワーシャワーを浴びせる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-613,2,1,2,0,0,"/flamedance","","/flamedance サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/flowershower,/petals,0,293,2,1,2,0,0
+613,"/flamedance サブコマンド
 フレイムダンスを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-614,2,1,2,0,0,"/highfive","/hifive","/highfive(/hifive) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/flamedance,,0,293,2,1,2,0,0
+614,"/highfive(/hifive) サブコマンド
 ハイタッチをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-615,2,1,2,0,0,"/guard","","/guard サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/highfive,/hifive,0,293,2,1,2,0,0
+615,"/guard サブコマンド
 警備をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-616,2,1,2,0,0,"/malevolence","","/malevolence サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/guard,,0,293,2,1,2,0,0
+616,"/malevolence サブコマンド
 呪う。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-617,2,1,2,0,0,"/beesknees","","/beesknees サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/malevolence,,0,293,2,1,2,0,0
+617,"/beesknees サブコマンド
 ビーステップを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-618,2,1,2,0,0,"/lalihop","","/lalihop サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/beesknees,,0,293,2,1,2,0,0
+618,"/lalihop サブコマンド
 ラリホップを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-621,2,1,2,0,0,"/eatriceball","/riceball","/eatriceball(/riceball) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/lalihop,,0,293,2,1,2,0,0
+621,"/eatriceball(/riceball) サブコマンド
 おにぎりを食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-622,2,1,2,0,0,"/eatapple","/apple","/eatapple(/apple) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eatriceball,/riceball,0,293,2,1,2,0,0
+622,"/eatapple(/apple) サブコマンド
 リンゴを食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-623,2,1,2,0,0,"/wringhands","","/wringhands サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eatapple,/apple,0,293,2,1,2,0,0
+623,"/wringhands サブコマンド
 もみ手をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-624,2,1,2,0,0,"/sweep","/broom","/sweep(/broom) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/wringhands,,0,293,2,1,2,0,0
+624,"/sweep(/broom) サブコマンド
 ホウキで掃く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-625,2,1,2,0,0,"/paintblack","","/paintblack サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sweep,/broom,0,293,2,1,2,0,0
+625,"/paintblack サブコマンド
 足元を黒く塗る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-626,2,1,2,0,0,"/paintred","","/paintred サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/paintblack,,0,293,2,1,2,0,0
+626,"/paintred サブコマンド
 足元を赤く塗る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-627,2,1,2,0,0,"/paintyellow","","/paintyellow サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/paintred,,0,293,2,1,2,0,0
+627,"/paintyellow サブコマンド
 足元を黄色く塗る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-628,2,1,2,0,0,"/paintblue","","/paintblue サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/paintyellow,,0,293,2,1,2,0,0
+628,"/paintblue サブコマンド
 足元を青く塗る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-629,2,1,2,0,0,"/fakesmile","","/fakesmile サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/paintblue,,0,293,2,1,2,0,0
+629,"/fakesmile サブコマンド
 作り笑いの表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-630,2,1,2,0,0,"/pantomime","/mime","/pantomime(/mime) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/fakesmile,,0,293,2,1,2,0,0
+630,"/pantomime(/mime) サブコマンド
 パントマイムを演じる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-631,2,1,2,0,0,"/vexed","","/vexed サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/pantomime,/mime,0,293,2,1,2,0,0
+631,"/vexed サブコマンド
 困惑する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-632,2,1,2,0,0,"/shush","/shh","/shush(/shh) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/vexed,,0,293,2,1,2,0,0
+632,"/shush(/shh) サブコマンド
 静寂を促す。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-633,2,1,2,0,0,"/eatpizza","/pizza","/eatpizza(/pizza) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/shush,/shh,0,293,2,1,2,0,0
+633,"/eatpizza(/pizza) サブコマンド
 ピザを食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-634,2,1,2,0,0,"/clutchhead","","/clutchhead サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eatpizza,/pizza,0,293,2,1,2,0,0
+634,"/clutchhead サブコマンド
 頭を抱える。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-635,2,1,2,0,0,"/eatchocolate","/choco","/eatchocolate(/choco) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/clutchhead,,0,293,2,1,2,0,0
+635,"/eatchocolate(/choco) サブコマンド
 ヴァレンティオンチョコを食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-636,2,1,2,0,0,"/eategg","/egg","/eategg(/egg) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eatchocolate,/choco,0,293,2,1,2,0,0
+636,"/eategg(/egg) サブコマンド
 ゆで卵を食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-637,2,1,2,0,0,"/content","","/content サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eategg,/egg,0,293,2,1,2,0,0
+637,"/content サブコマンド
 幸福そうな表情をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-638,2,1,2,0,0,"/sheathe","","/sheathe サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/content,,0,293,2,1,2,0,0
+638,"/sheathe サブコマンド
 武器を収める。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-639,2,1,2,0,0,"/draw","","/draw サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sheathe,,0,293,2,1,2,0,0
+639,"/draw サブコマンド
 武器を構える。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-640,2,1,2,0,0,"/tea","","/tea サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/draw,,0,293,2,1,2,0,0
+640,"/tea サブコマンド
 紅茶を飲む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-641,2,1,2,0,0,"/determined","","/determined サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/tea,,0,293,2,1,2,0,0
+641,"/determined サブコマンド
 意気込む。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-642,2,1,2,0,0,"/showright","","/showright サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/determined,,0,293,2,1,2,0,0
+642,"/showright サブコマンド
 右のものを見せつける。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-643,2,1,2,0,0,"/showleft","","/showleft サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/showright,,0,293,2,1,2,0,0
+643,"/showleft サブコマンド
 左のものを見せつける。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-646,2,1,2,0,0,"/deride","/pagaga","/deride(/pagaga) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/showleft,,0,293,2,1,2,0,0
+646,"/deride(/pagaga) サブコマンド
 反骨精神を示す。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-647,2,1,2,0,0,"/wow","","/wow サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/deride,/pagaga,0,293,2,1,2,0,0
+647,"/wow サブコマンド
 目を輝かせる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-648,2,1,2,0,0,"/eatpumpkincookie","/cookie","/eatpumpkincookie(/cookie) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/wow,,0,293,2,1,2,0,0
+648,"/eatpumpkincookie(/cookie) サブコマンド
 パンプキンクッキーを食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-649,2,1,2,0,0,"/spirit","","/spirit サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eatpumpkincookie,/cookie,0,293,2,1,2,0,0
+649,"/spirit サブコマンド
 観戦する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-650,2,1,2,0,0,"/magictrick","","/magictrick サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/spirit,,0,293,2,1,2,0,0
+650,"/magictrick サブコマンド
 手品をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-651,2,1,2,0,0,"/littleladiesdance","/ladance","/littleladiesdance(/ladance) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/magictrick,,0,293,2,1,2,0,0
+651,"/littleladiesdance(/ladance) サブコマンド
 姫の舞踊を踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-652,2,1,2,0,0,"/linkpearl","","/linkpearl サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/littleladiesdance,/ladance,0,293,2,1,2,0,0
+652,"/linkpearl サブコマンド
 リンクパール通信をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-653,2,1,2,0,0,"/earwiggle","","/earwiggle サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/linkpearl,,0,293,2,1,2,0,0
+653,"/earwiggle サブコマンド
 おみみをピコピコする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-657,2,1,2,0,0,"/frighten","","/frighten サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/earwiggle,,0,293,2,1,2,0,0
+657,"/frighten サブコマンド
 驚かす。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-658,2,1,2,0,0,"/adventoflight","/advent","/adventoflight(/advent) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/frighten,,0,293,2,1,2,0,0
+658,"/adventoflight(/advent) サブコマンド
 勇ましく降臨する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-659,2,1,2,0,0,"/jumpforjoy1","/jj1","/jumpforjoy1(/jj1) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/adventoflight,/advent,0,293,2,1,2,0,0
+659,"/jumpforjoy1(/jj1) サブコマンド
 かわいらしくハッピージャンプする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-660,2,1,2,0,0,"/jumpforjoy2","/jj2","/jumpforjoy2(/jj2) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/jumpforjoy1,/jj1,0,293,2,1,2,0,0
+660,"/jumpforjoy2(/jj2) サブコマンド
 嬉しそうにハッピージャンプする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-661,2,1,2,0,0,"/jumpforjoy3","/jj3","/jumpforjoy3(/jj3) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/jumpforjoy2,/jj2,0,293,2,1,2,0,0
+661,"/jumpforjoy3(/jj3) サブコマンド
 力強くハッピージャンプする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-662,2,1,2,0,0,"/jumpforjoy4","/jj4","/jumpforjoy4(/jj4) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/jumpforjoy3,/jj3,0,293,2,1,2,0,0
+662,"/jumpforjoy4(/jj4) サブコマンド
 のびのびとハッピージャンプする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-663,2,1,2,0,0,"/jumpforjoy5","/jj5","/jumpforjoy5(/jj5) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/jumpforjoy4,/jj4,0,293,2,1,2,0,0
+663,"/jumpforjoy5(/jj5) サブコマンド
 サボテンダー風にハッピージャンプする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-664,2,1,2,0,0,"/handtoheart","","/handtoheart サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/jumpforjoy5,/jj5,0,293,2,1,2,0,0
+664,"/handtoheart サブコマンド
 胸に手をあてる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-665,2,1,2,0,0,"/cheeronbright","/cheerbright","/cheeronbright(/cheerbright) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/handtoheart,,0,293,2,1,2,0,0
+665,"/cheeronbright(/cheerbright) サブコマンド
 声援（白）を送る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-666,2,1,2,0,0,"/cheerwaveviolet","/cheerviolet","/cheerwaveviolet(/cheerviolet) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cheeronbright,/cheerbright,0,293,2,1,2,0,0
+666,"/cheerwaveviolet(/cheerviolet) サブコマンド
 声援（紫）を送る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-667,2,1,2,0,0,"/cheerjumpgreen","/cheergreen","/cheerjumpgreen(/cheergreen) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cheerwaveviolet,/cheerviolet,0,293,2,1,2,0,0
+667,"/cheerjumpgreen(/cheergreen) サブコマンド
 声援（緑）を送る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-668,2,1,2,0,0,"/allsaintscharm","","/allsaintscharm サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/cheerjumpgreen,/cheergreen,0,293,2,1,2,0,0
+668,"/allsaintscharm サブコマンド
 守護天節のおまじないをかける。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-670,2,1,2,0,0,"/lophop","","/lophop サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/allsaintscharm,,0,293,2,1,2,0,0
+670,"/lophop サブコマンド
 レポリットダンスを踊る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-671,2,1,2,0,0,"/reference","","/reference サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/lophop,,0,293,2,1,2,0,0
+671,"/reference サブコマンド
 文献を見比べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-672,2,1,2,0,0,"/eatchicken","","/eatchicken サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/reference,,0,293,2,1,2,0,0
+672,"/eatchicken サブコマンド
 フライドチキンを食べる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-673,2,1,2,0,0,"/sundering","/exodus","/sundering(/exodus) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/eatchicken,,0,293,2,1,2,0,0
+673,"/sundering(/exodus) サブコマンド
 エクソダスを放つ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-674,2,1,2,0,0,"/slump","","/slump サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/sundering,/exodus,0,293,2,1,2,0,0
+674,"/slump サブコマンド
 うなだれる。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-675,2,1,2,0,0,"/loveheart","/heart","/loveheart(/heart) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/slump,,0,293,2,1,2,0,0
+675,"/loveheart(/heart) サブコマンド
 ハートポーズをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-676,2,1,2,0,0,"/humbletriumph","/waitforit","/humbletriumph(/waitforit) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/loveheart,/heart,0,293,2,1,2,0,0
+676,"/humbletriumph(/waitforit) サブコマンド
 自慢げなポーズをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-677,2,1,2,0,0,"/victoryreveal","/vreveal","/victoryreveal(/vreveal) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/humbletriumph,/waitforit,0,293,2,1,2,0,0
+677,"/victoryreveal(/vreveal) サブコマンド
 ビーンズ・ビクトリーを誇る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-678,2,1,2,0,0,"/fryegg","","/fryegg サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/victoryreveal,/vreveal,0,293,2,1,2,0,0
+678,"/fryegg サブコマンド
 目玉焼きを作る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-679,2,1,2,0,0,"/uchiwasshoi","/bigfan","/uchiwasshoi(/bigfan) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/fryegg,,0,293,2,1,2,0,0
+679,"/uchiwasshoi(/bigfan) サブコマンド
 大うちわで扇ぐ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-680,2,1,2,0,0,"/attend","","/attend サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/uchiwasshoi,/bigfan,0,293,2,1,2,0,0
+680,"/attend サブコマンド
 指示を待つ。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-681,2,1,2,0,0,"/water","","/water サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/attend,,0,293,2,1,2,0,0
+681,"/water サブコマンド
 水をまく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-682,2,1,2,0,0,"/shakedrink","","/shakedrink サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/water,,0,293,2,1,2,0,0
+682,"/shakedrink サブコマンド
 シェイカーを振る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-683,2,1,2,0,0,"/poseoftheunbound","/unbound","/poseoftheunbound(/unbound) サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/shakedrink,,0,293,2,1,2,0,0
+683,"/poseoftheunbound(/unbound) サブコマンド
 自由のポーズをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-684,2,1,2,0,0,"/bouquet","","/bouquet サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/poseoftheunbound,/unbound,0,293,2,1,2,0,0
+684,"/bouquet サブコマンド
 花束を贈る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-685,2,1,2,0,0,"/blowbubbles","","/blowbubbles サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/bouquet,,0,293,2,1,2,0,0
+685,"/blowbubbles サブコマンド
 シャボン玉を吹く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-686,2,1,2,0,0,"/ohokaliy","","/ohokaliy サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/blowbubbles,,0,293,2,1,2,0,0
+686,"/ohokaliy サブコマンド
 オフォカリーをする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-687,2,1,2,0,0,"/visage","","/visage サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/ohokaliy,,0,293,2,1,2,0,0
+687,"/visage サブコマンド
 タブレットで自分の姿を記録する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-689,2,1,2,0,0,"/photograph","","/photograph サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/visage,,0,293,2,1,2,0,0
+689,"/photograph サブコマンド
 撮影する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-692,2,1,2,0,0,"/overreact","","/overreact サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/photograph,,0,293,2,1,2,0,0
+692,"/overreact サブコマンド
 大げさに驚く。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-693,2,1,2,0,0,"/twirl","","/twirl サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/overreact,,0,293,2,1,2,0,0
+693,"/twirl サブコマンド
 くるっと回る。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-694,2,1,2,0,0,"/dazed","","/dazed サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/twirl,,0,293,2,1,2,0,0
+694,"/dazed サブコマンド
 ふらつく。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-695,2,1,2,0,0,"/rage","","/rage サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/dazed,,0,293,2,1,2,0,0
+695,"/rage サブコマンド
 怒りに震える。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-696,2,1,2,0,0,"/tomescroll","","/tomescroll サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/rage,,0,293,2,1,2,0,0
+696,"/tomescroll サブコマンド
 トームストーンを愛で続ける。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
-697,2,1,2,0,0,"/study","","/study サブコマンド
+　…モーションと感情表現テキストを表示する。",,,/tomescroll,,0,293,2,1,2,0,0
+697,"/study サブコマンド
 本を熟読する。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。","","","pdamage",0
+　…モーションと感情表現テキストを表示する。",,,/study,,0,293,2,1,2,0,0

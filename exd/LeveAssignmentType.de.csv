@@ -1,19 +1,17 @@
-﻿key,0,1
-#,Icon,Name
-int32,Image,str
-0,,""
-1,"ui/icon/062000/062501.tex","Söldner"
-2,"ui/icon/062000/062510.tex","Minenarbeiter"
-3,"ui/icon/062000/062511.tex","Gärtner"
-4,"ui/icon/062000/062512.tex","Fischer"
-5,"ui/icon/062000/062502.tex","Zimmerer"
-6,"ui/icon/062000/062503.tex","Grobschmied"
-7,"ui/icon/062000/062504.tex","Plattner"
-8,"ui/icon/062000/062505.tex","Goldschmied"
-9,"ui/icon/062000/062506.tex","Gerber"
-10,"ui/icon/062000/062507.tex","Weber"
-11,"ui/icon/062000/062508.tex","Alchemist"
-12,"ui/icon/062000/062509.tex","Gourmet"
-13,"ui/icon/061000/061461.tex","Der Mahlstrom"
-14,"ui/icon/061000/061462.tex","Bruderschaft der Morgenviper"
-15,"ui/icon/061000/061463.tex","Legion der Unsterblichen"
+#,Name,Icon
+0,,0
+1,Söldner,62501
+2,Minenarbeiter,62510
+3,Gärtner,62511
+4,Fischer,62512
+5,Zimmerer,62502
+6,Grobschmied,62503
+7,Plattner,62504
+8,Goldschmied,62505
+9,Gerber,62506
+10,Weber,62507
+11,Alchemist,62508
+12,Gourmet,62509
+13,Der Mahlstrom,61461
+14,Bruderschaft der Morgenviper,61462
+15,Legion der Unsterblichen,61463

@@ -1,274 +1,272 @@
-﻿key,0,1,2,3,4,5,6,7,8
-#,Image,Icon,,UnlockCondition,,,SortKey,Name,
-int32,Image,Image,byte,BannerCondition,uint16,uint16,uint16,uint16,str
-0,,"ui/icon/082000/082093.tex",0,"BannerCondition#0",0,0,0,0,"None"
-1,"ui/icon/192000/192001.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,1,"None"
-2,"ui/icon/192000/192002.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,2,"Laurels"
-3,"ui/icon/192000/192003.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,10,"Hearts"
-4,"ui/icon/192000/192004.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,11,"Stars"
-5,"ui/icon/192000/192005.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,12,"Tank Emblem"
-6,"ui/icon/192000/192006.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,14,"DPS Emblem"
-7,"ui/icon/192000/192007.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,13,"Healer Emblem"
-8,"ui/icon/192000/192008.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,32,"Sparkles"
-9,"ui/icon/192000/192009.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,16,"Pawprints"
-10,"ui/icon/192000/192010.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,17,"Exclamation Mark"
-11,"ui/icon/192000/192011.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,18,"Question Mark"
-12,"ui/icon/192000/192301.tex","ui/icon/082000/082093.tex",2,"BannerCondition#124",0,0,0,2150,"Paladin Emblem"
-13,"ui/icon/192000/192302.tex","ui/icon/082000/082093.tex",2,"BannerCondition#125",0,0,0,2151,"Warrior Emblem"
-14,"ui/icon/192000/192303.tex","ui/icon/082000/082093.tex",2,"BannerCondition#126",0,0,0,2152,"Dark Knight Emblem"
-15,"ui/icon/192000/192304.tex","ui/icon/082000/082093.tex",2,"BannerCondition#127",0,0,0,2153,"Gunbreaker Emblem"
-16,"ui/icon/192000/192305.tex","ui/icon/082000/082093.tex",2,"BannerCondition#128",0,0,0,2154,"White Mage Emblem"
-17,"ui/icon/192000/192306.tex","ui/icon/082000/082093.tex",2,"BannerCondition#129",0,0,0,2155,"Scholar Emblem"
-18,"ui/icon/192000/192307.tex","ui/icon/082000/082093.tex",2,"BannerCondition#130",0,0,0,2156,"Astrologian Emblem"
-19,"ui/icon/192000/192308.tex","ui/icon/082000/082093.tex",2,"BannerCondition#131",0,0,0,2157,"Sage Emblem"
-20,"ui/icon/192000/192309.tex","ui/icon/082000/082093.tex",2,"BannerCondition#132",0,0,0,2158,"Monk Emblem"
-21,"ui/icon/192000/192310.tex","ui/icon/082000/082093.tex",2,"BannerCondition#133",0,0,0,2159,"Dragoon Emblem"
-22,"ui/icon/192000/192311.tex","ui/icon/082000/082093.tex",2,"BannerCondition#134",0,0,0,2160,"Ninja Emblem"
-23,"ui/icon/192000/192312.tex","ui/icon/082000/082093.tex",2,"BannerCondition#135",0,0,0,2161,"Samurai Emblem"
-24,"ui/icon/192000/192313.tex","ui/icon/082000/082093.tex",2,"BannerCondition#136",0,0,0,2162,"Reaper Emblem"
-25,"ui/icon/192000/192314.tex","ui/icon/082000/082093.tex",2,"BannerCondition#137",0,0,0,2164,"Bard Emblem"
-26,"ui/icon/192000/192315.tex","ui/icon/082000/082093.tex",2,"BannerCondition#138",0,0,0,2165,"Machinist Emblem"
-27,"ui/icon/192000/192316.tex","ui/icon/082000/082093.tex",2,"BannerCondition#139",0,0,0,2166,"Dancer Emblem"
-28,"ui/icon/192000/192317.tex","ui/icon/082000/082093.tex",2,"BannerCondition#140",0,0,0,2167,"Black Mage Emblem"
-29,"ui/icon/192000/192318.tex","ui/icon/082000/082093.tex",2,"BannerCondition#141",0,0,0,2168,"Summoner Emblem"
-30,"ui/icon/192000/192319.tex","ui/icon/082000/082093.tex",2,"BannerCondition#142",0,0,0,2169,"Red Mage Emblem"
-31,"ui/icon/192000/192401.tex","ui/icon/082000/082093.tex",10,"BannerCondition#143",0,0,0,3000,"Astra Emblem"
-32,"ui/icon/192000/192402.tex","ui/icon/082000/082093.tex",10,"BannerCondition#144",0,0,0,3001,"Umbra Emblem"
-33,"ui/icon/192000/192403.tex","ui/icon/082000/082093.tex",5,"BannerCondition#145",0,0,0,3200,"Final Conflict Crystal 1"
-34,"ui/icon/192000/192404.tex","ui/icon/082000/082093.tex",5,"BannerCondition#146",0,0,0,3201,"Endless Conflict Blades 1"
-35,"ui/icon/192000/192405.tex","ui/icon/082000/082093.tex",5,"BannerCondition#147",0,0,0,3202,"Rising Conflict Blades 1"
-36,"ui/icon/192000/192406.tex","ui/icon/082000/082093.tex",5,"BannerCondition#148",0,0,0,3208,"Bronze Conflict Arms 1"
-37,"ui/icon/192000/192407.tex","ui/icon/082000/082093.tex",5,"BannerCondition#149",0,0,0,3207,"Silver Conflict Arms 1"
-38,"ui/icon/192000/192408.tex","ui/icon/082000/082093.tex",5,"BannerCondition#150",0,0,0,3206,"Gold Conflict Arms 1"
-39,"ui/icon/192000/192409.tex","ui/icon/082000/082093.tex",5,"BannerCondition#151",0,0,0,3205,"Platinum Conflict Arms 1"
-40,"ui/icon/192000/192410.tex","ui/icon/082000/082093.tex",5,"BannerCondition#152",0,0,0,3204,"Diamond Conflict Arms 1"
-41,"ui/icon/192000/192411.tex","ui/icon/082000/082093.tex",5,"BannerCondition#153",0,0,0,3203,"Crystal Conflict Arms 1"
-42,"ui/icon/192000/192901.tex","ui/icon/082000/082093.tex",7,"BannerCondition#154",0,0,0,4000,"Companion Buttons 1"
-43,"ui/icon/192000/192902.tex","ui/icon/082000/082093.tex",7,"BannerCondition#155",0,0,0,4001,"Companion Buttons 2"
-44,"ui/icon/192000/192701.tex","ui/icon/082000/082093.tex",4,"BannerCondition#319",0,0,0,2500,"Unending Coil of Bahamut"
-45,"ui/icon/192000/192702.tex","ui/icon/082000/082093.tex",4,"BannerCondition#320",0,0,0,2501,"Weapon's Refrain"
-46,"ui/icon/192000/192703.tex","ui/icon/082000/082093.tex",4,"BannerCondition#321",0,0,0,2502,"Epic of Alexander"
-47,"ui/icon/192000/192704.tex","ui/icon/082000/082093.tex",4,"BannerCondition#322",0,0,0,2503,"Dragonsong's Reprise"
-48,"ui/icon/192000/192412.tex","ui/icon/082000/082093.tex",5,"BannerCondition#323",0,0,0,3209,"Final Conflict Crystal 2"
-49,"ui/icon/192000/192413.tex","ui/icon/082000/082093.tex",5,"BannerCondition#324",0,0,0,3210,"Endless Conflict Blades 2"
-50,"ui/icon/192000/192414.tex","ui/icon/082000/082093.tex",5,"BannerCondition#325",0,0,0,3211,"Rising Conflict Blades 2"
-51,"ui/icon/192000/192415.tex","ui/icon/082000/082093.tex",5,"BannerCondition#326",0,0,0,3217,"Bronze Conflict Arms 2"
-52,"ui/icon/192000/192416.tex","ui/icon/082000/082093.tex",5,"BannerCondition#327",0,0,0,3216,"Silver Conflict Arms 2"
-53,"ui/icon/192000/192417.tex","ui/icon/082000/082093.tex",5,"BannerCondition#328",0,0,0,3215,"Gold Conflict Arms 2"
-54,"ui/icon/192000/192418.tex","ui/icon/082000/082093.tex",5,"BannerCondition#329",0,0,0,3214,"Platinum Conflict Arms 2"
-55,"ui/icon/192000/192419.tex","ui/icon/082000/082093.tex",5,"BannerCondition#330",0,0,0,3213,"Diamond Conflict Arms 2"
-56,"ui/icon/192000/192420.tex","ui/icon/082000/082093.tex",5,"BannerCondition#331",0,0,0,3212,"Crystal Conflict Arms 2"
-57,"ui/icon/192000/192421.tex","ui/icon/082000/082093.tex",5,"BannerCondition#332",0,0,0,3218,"Final Conflict Crystal 3"
-58,"ui/icon/192000/192422.tex","ui/icon/082000/082093.tex",5,"BannerCondition#333",0,0,0,3219,"Endless Conflict Blades 3"
-59,"ui/icon/192000/192423.tex","ui/icon/082000/082093.tex",5,"BannerCondition#334",0,0,0,3220,"Rising Conflict Blades 3"
-60,"ui/icon/192000/192424.tex","ui/icon/082000/082093.tex",5,"BannerCondition#335",0,0,0,3226,"Bronze Conflict Arms 3"
-61,"ui/icon/192000/192425.tex","ui/icon/082000/082093.tex",5,"BannerCondition#336",0,0,0,3225,"Silver Conflict Arms 3"
-62,"ui/icon/192000/192426.tex","ui/icon/082000/082093.tex",5,"BannerCondition#337",0,0,0,3224,"Gold Conflict Arms 3"
-63,"ui/icon/192000/192427.tex","ui/icon/082000/082093.tex",5,"BannerCondition#338",0,0,0,3223,"Platinum Conflict Arms 3"
-64,"ui/icon/192000/192428.tex","ui/icon/082000/082093.tex",5,"BannerCondition#339",0,0,0,3222,"Diamond Conflict Arms 3"
-65,"ui/icon/192000/192429.tex","ui/icon/082000/082093.tex",5,"BannerCondition#340",0,0,0,3221,"Crystal Conflict Arms 3"
-66,"ui/icon/192000/192430.tex","ui/icon/082000/082093.tex",10,"BannerCondition#341",0,0,0,3002,"Azure Conflict Emblem"
-67,"ui/icon/192000/192431.tex","ui/icon/082000/082093.tex",10,"BannerCondition#342",0,0,0,3003,"Crimson Conflict Emblem"
-68,"ui/icon/192000/192705.tex","ui/icon/082000/082093.tex",4,"BannerCondition#343",0,0,0,2400,"Sil'dihn Emblem"
-69,"ui/icon/192000/192966.tex","ui/icon/082000/082093.tex",3,"BannerCondition#344",0,0,0,2315,"Omicron Matrices"
-70,"ui/icon/192000/192601.tex","ui/icon/082000/082093.tex",9,"BannerCondition#346",0,0,0,1010,"Lominsan Flag"
-71,"ui/icon/192000/192602.tex","ui/icon/082000/082093.tex",9,"BannerCondition#346",0,0,0,1011,"Gridanian Flag"
-72,"ui/icon/192000/192603.tex","ui/icon/082000/082093.tex",9,"BannerCondition#346",0,0,0,1012,"Ul'dahn Flag"
-73,"ui/icon/192000/192015.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,3,"Floral Embellishment"
-74,"ui/icon/192000/192016.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,21,"Balloon"
-75,"ui/icon/192000/192019.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,30,"Particles"
-76,"ui/icon/192000/192018.tex","ui/icon/082000/082093.tex",7,"BannerCondition#347",0,0,0,31,"Music"
-77,"ui/icon/192000/192012.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,20,"Nameday"
-78,"ui/icon/192000/192013.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,19,"New Adventurer"
-79,"ui/icon/192000/192014.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,33,"Luster"
-80,"ui/icon/192000/192017.tex","ui/icon/082000/082093.tex",1,"BannerCondition#1",0,0,0,34,"Roses"
-81,"ui/icon/192000/192432.tex","ui/icon/082000/082093.tex",5,"BannerCondition#409",0,0,0,3227,"Final Conflict Crystal 4"
-82,"ui/icon/192000/192433.tex","ui/icon/082000/082093.tex",5,"BannerCondition#410",0,0,0,3228,"Endless Conflict Blades 4"
-83,"ui/icon/192000/192434.tex","ui/icon/082000/082093.tex",5,"BannerCondition#411",0,0,0,3229,"Rising Conflict Blades 4"
-84,"ui/icon/192000/192440.tex","ui/icon/082000/082093.tex",5,"BannerCondition#412",0,0,0,3230,"Crystal Conflict Arms 4"
-85,"ui/icon/192000/192439.tex","ui/icon/082000/082093.tex",5,"BannerCondition#413",0,0,0,3231,"Diamond Conflict Arms 4"
-86,"ui/icon/192000/192438.tex","ui/icon/082000/082093.tex",5,"BannerCondition#414",0,0,0,3232,"Platinum Conflict Arms 4"
-87,"ui/icon/192000/192437.tex","ui/icon/082000/082093.tex",5,"BannerCondition#415",0,0,0,3233,"Gold Conflict Arms 4"
-88,"ui/icon/192000/192436.tex","ui/icon/082000/082093.tex",5,"BannerCondition#416",0,0,0,3234,"Silver Conflict Arms 4"
-89,"ui/icon/192000/192435.tex","ui/icon/082000/082093.tex",5,"BannerCondition#417",0,0,0,3235,"Bronze Conflict Arms 4"
-90,"ui/icon/192000/192441.tex","ui/icon/082000/082093.tex",5,"BannerCondition#418",0,0,0,3236,"Final Conflict Crystal 5"
-91,"ui/icon/192000/192442.tex","ui/icon/082000/082093.tex",5,"BannerCondition#419",0,0,0,3237,"Endless Conflict Blades 5"
-92,"ui/icon/192000/192443.tex","ui/icon/082000/082093.tex",5,"BannerCondition#420",0,0,0,3238,"Rising Conflict Blades 5"
-93,"ui/icon/192000/192449.tex","ui/icon/082000/082093.tex",5,"BannerCondition#421",0,0,0,3239,"Crystal Conflict Arms 5"
-94,"ui/icon/192000/192448.tex","ui/icon/082000/082093.tex",5,"BannerCondition#422",0,0,0,3240,"Diamond Conflict Arms 5"
-95,"ui/icon/192000/192447.tex","ui/icon/082000/082093.tex",5,"BannerCondition#423",0,0,0,3241,"Platinum Conflict Arms 5"
-96,"ui/icon/192000/192446.tex","ui/icon/082000/082093.tex",5,"BannerCondition#424",0,0,0,3242,"Gold Conflict Arms 5"
-97,"ui/icon/192000/192445.tex","ui/icon/082000/082093.tex",5,"BannerCondition#425",0,0,0,3243,"Silver Conflict Arms 5"
-98,"ui/icon/192000/192444.tex","ui/icon/082000/082093.tex",5,"BannerCondition#426",0,0,0,3244,"Bronze Conflict Arms 5"
-99,"ui/icon/192000/192450.tex","ui/icon/082000/082093.tex",10,"BannerCondition#427",0,0,0,3004,"Falcons"
-100,"ui/icon/192000/192451.tex","ui/icon/082000/082093.tex",10,"BannerCondition#428",0,0,0,3005,"Ravens"
-101,"ui/icon/192000/192962.tex","ui/icon/082000/082093.tex",3,"BannerCondition#429",0,0,0,2311,"Pixie Rainbows"
-102,"ui/icon/192000/192963.tex","ui/icon/082000/082093.tex",3,"BannerCondition#430",0,0,0,2312,"Qitari Rope"
-103,"ui/icon/192000/192964.tex","ui/icon/082000/082093.tex",3,"BannerCondition#431",0,0,0,2313,"Dwarven Blocks"
-104,"ui/icon/192000/192965.tex","ui/icon/082000/082093.tex",3,"BannerCondition#432",0,0,0,2314,"Arkasodara Charms"
-105,"ui/icon/192000/192967.tex","ui/icon/082000/082093.tex",3,"BannerCondition#433",0,0,0,2316,"Loporrit Stars"
-106,"ui/icon/192000/192706.tex","ui/icon/082000/082093.tex",4,"BannerCondition#434",0,0,0,2504,"Omega Protocol"
-107,"ui/icon/192000/192711.tex","ui/icon/082000/082093.tex",4,"BannerCondition#465",0,0,0,2358,"Eureka Orthos"
-108,"ui/icon/192000/192712.tex","ui/icon/082000/082093.tex",4,"BannerCondition#466",0,0,0,2359,"Enaretos"
-109,"ui/icon/192000/192713.tex","ui/icon/082000/082093.tex",8,"BannerCondition#468",0,0,0,2340,"Island Vacation"
-110,"ui/icon/192000/192714.tex","ui/icon/082000/082093.tex",8,"BannerCondition#469",0,0,0,2341,"Island Memories"
-111,"ui/icon/192000/192452.tex","ui/icon/082000/082093.tex",5,"BannerCondition#502",0,0,0,3245,"Final Conflict Crystal 6"
-112,"ui/icon/192000/192453.tex","ui/icon/082000/082093.tex",5,"BannerCondition#503",0,0,0,3246,"Endless Conflict Blades 6"
-113,"ui/icon/192000/192454.tex","ui/icon/082000/082093.tex",5,"BannerCondition#504",0,0,0,3247,"Rising Conflict Blades 6"
-114,"ui/icon/192000/192460.tex","ui/icon/082000/082093.tex",5,"BannerCondition#505",0,0,0,3248,"Crystal Conflict Arms 6"
-115,"ui/icon/192000/192459.tex","ui/icon/082000/082093.tex",5,"BannerCondition#506",0,0,0,3249,"Diamond Conflict Arms 6"
-116,"ui/icon/192000/192458.tex","ui/icon/082000/082093.tex",5,"BannerCondition#507",0,0,0,3250,"Platinum Conflict Arms 6"
-117,"ui/icon/192000/192457.tex","ui/icon/082000/082093.tex",5,"BannerCondition#508",0,0,0,3251,"Gold Conflict Arms 6"
-118,"ui/icon/192000/192456.tex","ui/icon/082000/082093.tex",5,"BannerCondition#509",0,0,0,3252,"Silver Conflict Arms 6"
-119,"ui/icon/192000/192455.tex","ui/icon/082000/082093.tex",5,"BannerCondition#510",0,0,0,3253,"Bronze Conflict Arms 6"
-120,"ui/icon/192000/192461.tex","ui/icon/082000/082093.tex",5,"BannerCondition#511",0,0,0,3254,"Final Conflict Crystal 7"
-121,"ui/icon/192000/192462.tex","ui/icon/082000/082093.tex",5,"BannerCondition#512",0,0,0,3255,"Endless Conflict Blades 7"
-122,"ui/icon/192000/192463.tex","ui/icon/082000/082093.tex",5,"BannerCondition#513",0,0,0,3256,"Rising Conflict Blades 7"
-123,"ui/icon/192000/192469.tex","ui/icon/082000/082093.tex",5,"BannerCondition#514",0,0,0,3257,"Crystal Conflict Arms 7"
-124,"ui/icon/192000/192468.tex","ui/icon/082000/082093.tex",5,"BannerCondition#515",0,0,0,3258,"Diamond Conflict Arms 7"
-125,"ui/icon/192000/192467.tex","ui/icon/082000/082093.tex",5,"BannerCondition#516",0,0,0,3259,"Platinum Conflict Arms 7"
-126,"ui/icon/192000/192466.tex","ui/icon/082000/082093.tex",5,"BannerCondition#517",0,0,0,3260,"Gold Conflict Arms 7"
-127,"ui/icon/192000/192465.tex","ui/icon/082000/082093.tex",5,"BannerCondition#518",0,0,0,3261,"Silver Conflict Arms 7"
-128,"ui/icon/192000/192464.tex","ui/icon/082000/082093.tex",5,"BannerCondition#519",0,0,0,3262,"Bronze Conflict Arms 7"
-129,"ui/icon/192000/192470.tex","ui/icon/082000/082093.tex",10,"BannerCondition#520",0,0,0,3006,"Aramitama Kimen"
-130,"ui/icon/192000/192471.tex","ui/icon/082000/082093.tex",10,"BannerCondition#521",0,0,0,3007,"Nigimitama Okinamen"
-131,"ui/icon/192000/192960.tex","ui/icon/082000/082093.tex",3,"BannerCondition#524",0,0,0,2308,"Kojin Buoys"
-132,"ui/icon/192000/192959.tex","ui/icon/082000/082093.tex",3,"BannerCondition#525",0,0,0,2309,"Ananta Hearts"
-133,"ui/icon/192000/192961.tex","ui/icon/082000/082093.tex",3,"BannerCondition#526",0,0,0,2310,"Namazu Lanterns"
-134,"ui/icon/192000/192320.tex","ui/icon/082000/082093.tex",2,"BannerCondition#522",0,0,0,2171,"Blue Mage Emblem"
-135,"ui/icon/192000/192715.tex","ui/icon/082000/082093.tex",7,"BannerCondition#523",0,0,0,3950,"Ten Year Anniversary Logo"
-136,"ui/icon/192000/192716.tex","ui/icon/082000/082093.tex",4,"BannerCondition#528",0,0,0,2401,"Rokkon Emblem"
-137,"ui/icon/192000/192717.tex","ui/icon/082000/082093.tex",8,"BannerCondition#529",0,0,0,2343,"Dolphins"
-138,"ui/icon/192000/192718.tex","ui/icon/082000/082093.tex",8,"BannerCondition#530",0,0,0,2344,"Hooked a Big 'Un!"
-139,"ui/icon/192000/192719.tex","ui/icon/082000/082093.tex",8,"BannerCondition#531",0,0,0,2350,"Mahjong Tiles"
-140,"ui/icon/192000/192490.tex","ui/icon/082000/082093.tex",10,"BannerCondition#578",0,0,0,3008,"Palaistra Ribbons"
-141,"ui/icon/192000/192491.tex","ui/icon/082000/082093.tex",10,"BannerCondition#579",0,0,0,3009,"Cloud Nine Ivy"
-142,"ui/icon/192000/192472.tex","ui/icon/082000/082093.tex",5,"BannerCondition#580",0,0,0,3263,"Final Conflict Crystal 8"
-143,"ui/icon/192000/192473.tex","ui/icon/082000/082093.tex",5,"BannerCondition#581",0,0,0,3264,"Endless Conflict Blades 8"
-144,"ui/icon/192000/192474.tex","ui/icon/082000/082093.tex",5,"BannerCondition#582",0,0,0,3265,"Rising Conflict Blades 8"
-145,"ui/icon/192000/192480.tex","ui/icon/082000/082093.tex",5,"BannerCondition#583",0,0,0,3266,"Crystal Conflict Arms 8"
-146,"ui/icon/192000/192479.tex","ui/icon/082000/082093.tex",5,"BannerCondition#584",0,0,0,3267,"Diamond Conflict Arms 8"
-147,"ui/icon/192000/192478.tex","ui/icon/082000/082093.tex",5,"BannerCondition#585",0,0,0,3268,"Platinum Conflict Arms 8"
-148,"ui/icon/192000/192477.tex","ui/icon/082000/082093.tex",5,"BannerCondition#586",0,0,0,3269,"Gold Conflict Arms 8"
-149,"ui/icon/192000/192476.tex","ui/icon/082000/082093.tex",5,"BannerCondition#587",0,0,0,3270,"Silver Conflict Arms 8"
-150,"ui/icon/192000/192475.tex","ui/icon/082000/082093.tex",5,"BannerCondition#588",0,0,0,3271,"Bronze Conflict Arms 8"
-151,"ui/icon/192000/192481.tex","ui/icon/082000/082093.tex",5,"BannerCondition#589",0,0,0,3272,"Final Conflict Crystal 9"
-152,"ui/icon/192000/192482.tex","ui/icon/082000/082093.tex",5,"BannerCondition#590",0,0,0,3273,"Endless Conflict Blades 9"
-153,"ui/icon/192000/192483.tex","ui/icon/082000/082093.tex",5,"BannerCondition#591",0,0,0,3274,"Rising Conflict Blades 9"
-154,"ui/icon/192000/192489.tex","ui/icon/082000/082093.tex",5,"BannerCondition#592",0,0,0,3275,"Crystal Conflict Arms 9"
-155,"ui/icon/192000/192488.tex","ui/icon/082000/082093.tex",5,"BannerCondition#593",0,0,0,3276,"Diamond Conflict Arms 9"
-156,"ui/icon/192000/192487.tex","ui/icon/082000/082093.tex",5,"BannerCondition#594",0,0,0,3277,"Platinum Conflict Arms 9"
-157,"ui/icon/192000/192486.tex","ui/icon/082000/082093.tex",5,"BannerCondition#595",0,0,0,3278,"Gold Conflict Arms 9"
-158,"ui/icon/192000/192485.tex","ui/icon/082000/082093.tex",5,"BannerCondition#596",0,0,0,3279,"Silver Conflict Arms 9"
-159,"ui/icon/192000/192484.tex","ui/icon/082000/082093.tex",5,"BannerCondition#597",0,0,0,3280,"Bronze Conflict Arms 9"
-160,"ui/icon/192000/192492.tex","ui/icon/082000/082093.tex",5,"BannerCondition#598",0,0,0,3281,"Final Conflict Crystal 10"
-161,"ui/icon/192000/192493.tex","ui/icon/082000/082093.tex",5,"BannerCondition#599",0,0,0,3282,"Endless Conflict Blades 10"
-162,"ui/icon/192000/192494.tex","ui/icon/082000/082093.tex",5,"BannerCondition#600",0,0,0,3283,"Rising Conflict Blades 10"
-163,"ui/icon/192000/192500.tex","ui/icon/082000/082093.tex",5,"BannerCondition#601",0,0,0,3284,"Crystal Conflict Arms 10"
-164,"ui/icon/192000/192499.tex","ui/icon/082000/082093.tex",5,"BannerCondition#602",0,0,0,3285,"Diamond Conflict Arms 10"
-165,"ui/icon/192000/192498.tex","ui/icon/082000/082093.tex",5,"BannerCondition#603",0,0,0,3286,"Platinum Conflict Arms 10"
-166,"ui/icon/192000/192497.tex","ui/icon/082000/082093.tex",5,"BannerCondition#604",0,0,0,3287,"Gold Conflict Arms 10"
-167,"ui/icon/192000/192496.tex","ui/icon/082000/082093.tex",5,"BannerCondition#605",0,0,0,3288,"Silver Conflict Arms 10"
-168,"ui/icon/192000/192495.tex","ui/icon/082000/082093.tex",5,"BannerCondition#606",0,0,0,3289,"Bronze Conflict Arms 10"
-169,"ui/icon/192000/192956.tex","ui/icon/082000/082093.tex",3,"BannerCondition#567",0,0,0,2305,"Vanu Vanu Cords"
-170,"ui/icon/192000/192957.tex","ui/icon/082000/082093.tex",3,"BannerCondition#568",0,0,0,2306,"Vath Vents"
-171,"ui/icon/192000/192958.tex","ui/icon/082000/082093.tex",3,"BannerCondition#569",0,0,0,2307,"Moogle Lamps"
-172,"ui/icon/192000/192722.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2252,"Symbol of the Fury"
-173,"ui/icon/192000/192723.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2253,"Symbol of the Lover"
-174,"ui/icon/192000/192724.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2254,"Symbol of the Scholar"
-175,"ui/icon/192000/192725.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2255,"Symbol of the Spinner"
-176,"ui/icon/192000/192726.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2256,"Symbol of the Navigator"
-177,"ui/icon/192000/192727.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2257,"Symbol of the Wanderer"
-178,"ui/icon/192000/192728.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2258,"Symbol of the Builder"
-179,"ui/icon/192000/192729.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2259,"Symbol of the Destroyer"
-180,"ui/icon/192000/192730.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2260,"Symbol of the Warden"
-181,"ui/icon/192000/192731.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2261,"Symbol of the Traders"
-182,"ui/icon/192000/192732.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2262,"Symbol of the Matron"
-183,"ui/icon/192000/192733.tex","ui/icon/082000/082093.tex",3,"BannerCondition#572",0,0,0,2263,"Symbol of the Keeper"
-184,"ui/icon/192000/192734.tex","ui/icon/082000/082093.tex",4,"BannerCondition#574",0,0,0,2402,"Aloalo Emblem"
-185,"ui/icon/192000/192720.tex","ui/icon/082000/082093.tex",8,"BannerCondition#570",0,0,0,2351,"Wondrous Seals"
-186,"ui/icon/192000/192721.tex","ui/icon/082000/082093.tex",8,"BannerCondition#571",0,0,0,2352,"Faux Panels"
-187,"ui/icon/192000/192735.tex","ui/icon/082000/082093.tex",7,"BannerCondition#575",0,0,0,3951,"Blunderful Bean"
-188,"ui/icon/192000/192736.tex","ui/icon/082000/082093.tex",7,"BannerCondition#576",0,0,0,3952,"Blunderous Gemstone"
-189,"ui/icon/192000/192737.tex","ui/icon/082000/082093.tex",7,"BannerCondition#577",0,0,0,3953,"Blunder-villed Crown"
-190,"ui/icon/192000/192738.tex","ui/icon/082000/082093.tex",7,"BannerCondition#607",0,0,0,3954,"Yo-kai Stars"
-191,"ui/icon/192000/192321.tex","ui/icon/082000/082093.tex",2,"BannerCondition#681",0,0,0,2163,"Viper Emblem"
-192,"ui/icon/192000/192322.tex","ui/icon/082000/082093.tex",2,"BannerCondition#682",0,0,0,2170,"Pictomancer Emblem"
-193,"ui/icon/192000/192501.tex","ui/icon/082000/082093.tex",10,"BannerCondition#683",0,0,0,3010,"Volcanic Flames"
-194,"ui/icon/192000/192502.tex","ui/icon/082000/082093.tex",10,"BannerCondition#684",0,0,0,3011,"Clockwork Clouds"
-195,"ui/icon/192000/192503.tex","ui/icon/082000/082093.tex",5,"BannerCondition#685",0,0,0,3290,"Final Conflict Crystal 11"
-196,"ui/icon/192000/192504.tex","ui/icon/082000/082093.tex",5,"BannerCondition#686",0,0,0,3291,"Endless Conflict Blades 11"
-197,"ui/icon/192000/192505.tex","ui/icon/082000/082093.tex",5,"BannerCondition#687",0,0,0,3292,"Rising Conflict Blades 11"
-198,"ui/icon/192000/192511.tex","ui/icon/082000/082093.tex",5,"BannerCondition#688",0,0,0,3293,"Crystal Conflict Arms 11"
-199,"ui/icon/192000/192510.tex","ui/icon/082000/082093.tex",5,"BannerCondition#689",0,0,0,3294,"Diamond Conflict Arms 11"
-200,"ui/icon/192000/192509.tex","ui/icon/082000/082093.tex",5,"BannerCondition#690",0,0,0,3295,"Platinum Conflict Arms 11"
-201,"ui/icon/192000/192508.tex","ui/icon/082000/082093.tex",5,"BannerCondition#691",0,0,0,3296,"Gold Conflict Arms 11"
-202,"ui/icon/192000/192507.tex","ui/icon/082000/082093.tex",5,"BannerCondition#692",0,0,0,3297,"Silver Conflict Arms 11"
-203,"ui/icon/192000/192506.tex","ui/icon/082000/082093.tex",5,"BannerCondition#693",0,0,0,3298,"Bronze Conflict Arms 11"
-204,"ui/icon/192000/192954.tex","ui/icon/082000/082093.tex",3,"BannerCondition#694",0,0,0,2302,"Kobold Bricks"
-205,"ui/icon/192000/192952.tex","ui/icon/082000/082093.tex",3,"BannerCondition#695",0,0,0,2301,"Sylph Lanterns"
-206,"ui/icon/192000/192951.tex","ui/icon/082000/082093.tex",3,"BannerCondition#696",0,0,0,2300,"Amalj'aa Lanterns"
-207,"ui/icon/192000/192955.tex","ui/icon/082000/082093.tex",3,"BannerCondition#697",0,0,0,2303,"Sahagin Pods"
-208,"ui/icon/192000/192953.tex","ui/icon/082000/082093.tex",3,"BannerCondition#698",0,0,0,2304,"Ixal Wood"
-209,"ui/icon/192000/192662.tex","ui/icon/082000/082093.tex",9,"BannerCondition#701",0,0,0,1036,"Dawn's Pennant"
-210,"ui/icon/192000/192663.tex","ui/icon/082000/082093.tex",9,"BannerCondition#702",0,0,0,1037,"Dawn's Feathers"
-211,"ui/icon/192000/192664.tex","ui/icon/082000/082093.tex",9,"BannerCondition#699",0,0,0,1038,"Solution Blocks"
-212,"ui/icon/192000/192665.tex","ui/icon/082000/082093.tex",9,"BannerCondition#700",0,0,0,1039,"Solution Distortion"
-213,"ui/icon/192000/192512.tex","ui/icon/082000/082093.tex",10,"BannerCondition#756",0,0,0,3013,"Seal Rock"
-214,"ui/icon/192000/192513.tex","ui/icon/082000/082093.tex",10,"BannerCondition#757",0,0,0,3012,"Red Sands"
-215,"ui/icon/192000/192514.tex","ui/icon/082000/082093.tex",5,"BannerCondition#758",0,0,0,3299,"Final Conflict Crystal 12"
-216,"ui/icon/192000/192515.tex","ui/icon/082000/082093.tex",5,"BannerCondition#759",0,0,0,3300,"Endless Conflict Blades 12"
-217,"ui/icon/192000/192516.tex","ui/icon/082000/082093.tex",5,"BannerCondition#760",0,0,0,3301,"Rising Conflict Blades 12"
-218,"ui/icon/192000/192522.tex","ui/icon/082000/082093.tex",5,"BannerCondition#761",0,0,0,3302,"Crystal Conflict Arms 12"
-219,"ui/icon/192000/192521.tex","ui/icon/082000/082093.tex",5,"BannerCondition#762",0,0,0,3303,"Diamond Conflict Arms 12"
-220,"ui/icon/192000/192520.tex","ui/icon/082000/082093.tex",5,"BannerCondition#763",0,0,0,3304,"Platinum Conflict Arms 12"
-221,"ui/icon/192000/192519.tex","ui/icon/082000/082093.tex",5,"BannerCondition#764",0,0,0,3305,"Gold Conflict Arms 12"
-222,"ui/icon/192000/192518.tex","ui/icon/082000/082093.tex",5,"BannerCondition#765",0,0,0,3306,"Silver Conflict Arms 12"
-223,"ui/icon/192000/192517.tex","ui/icon/082000/082093.tex",5,"BannerCondition#766",0,0,0,3307,"Bronze Conflict Arms 12"
-224,"ui/icon/192000/192968.tex","ui/icon/082000/082093.tex",3,"BannerCondition#767",0,0,0,2317,"Pelupelu Pennants"
-225,"ui/icon/192000/192654.tex","ui/icon/082000/082093.tex",9,"BannerCondition#768",0,0,0,1020,"Heavens' Orthodoxy"
-226,"ui/icon/192000/192672.tex","ui/icon/082000/082093.tex",9,"BannerCondition#769",0,0,0,1021,"Heavens' Heresy"
-227,"ui/icon/192000/192655.tex","ui/icon/082000/082093.tex",9,"BannerCondition#770",0,0,0,1022,"Idyll Wisdom"
-228,"ui/icon/192000/192673.tex","ui/icon/082000/082093.tex",9,"BannerCondition#771",0,0,0,1023,"Idyll Industry"
-229,"ui/icon/192000/192656.tex","ui/icon/082000/082093.tex",9,"BannerCondition#772",0,0,0,1024,"Kugane Commerce"
-230,"ui/icon/192000/192668.tex","ui/icon/082000/082093.tex",9,"BannerCondition#773",0,0,0,1025,"Kugane Leisure"
-231,"ui/icon/192000/192657.tex","ui/icon/082000/082093.tex",9,"BannerCondition#774",0,0,0,1026,"Western Reach"
-232,"ui/icon/192000/192669.tex","ui/icon/082000/082093.tex",9,"BannerCondition#775",0,0,0,1027,"Eastern Reach"
-233,"ui/icon/192000/192658.tex","ui/icon/082000/082093.tex",9,"BannerCondition#776",0,0,0,1028,"Exarchic Dome"
-234,"ui/icon/192000/192670.tex","ui/icon/082000/082093.tex",9,"BannerCondition#777",0,0,0,1029,"Exarchic Tower"
-235,"ui/icon/192000/192659.tex","ui/icon/082000/082093.tex",9,"BannerCondition#778",0,0,0,1030,"Eulmoran Comfort"
-236,"ui/icon/192000/192671.tex","ui/icon/082000/082093.tex",9,"BannerCondition#779",0,0,0,1031,"Eulmoran Glory"
-237,"ui/icon/192000/192660.tex","ui/icon/082000/082093.tex",9,"BannerCondition#780",0,0,0,1032,"Sharlayan Stoa"
-238,"ui/icon/192000/192666.tex","ui/icon/082000/082093.tex",9,"BannerCondition#781",0,0,0,1033,"Sharlayan Agora"
-239,"ui/icon/192000/192661.tex","ui/icon/082000/082093.tex",9,"BannerCondition#782",0,0,0,1034,"Hannish Radiance"
-240,"ui/icon/192000/192667.tex","ui/icon/082000/082093.tex",9,"BannerCondition#783",0,0,0,1035,"Hannish Wonders"
-241,"ui/icon/192000/192523.tex","ui/icon/082000/082093.tex",10,"BannerCondition#852",0,0,0,3014,"Crystals of Glory"
-242,"ui/icon/192000/192524.tex","ui/icon/082000/082093.tex",10,"BannerCondition#853",0,0,0,3015,"Onsal Hakair Banners"
-243,"ui/icon/192000/192525.tex","ui/icon/082000/082093.tex",5,"BannerCondition#854",0,0,0,3308,"Final Conflict Crystal 13"
-244,"ui/icon/192000/192526.tex","ui/icon/082000/082093.tex",5,"BannerCondition#855",0,0,0,3309,"Endless Conflict Blades 13"
-245,"ui/icon/192000/192527.tex","ui/icon/082000/082093.tex",5,"BannerCondition#856",0,0,0,3310,"Rising Conflict Blades 13"
-246,"ui/icon/192000/192533.tex","ui/icon/082000/082093.tex",5,"BannerCondition#857",0,0,0,3311,"Crystal Conflict Arms 13"
-247,"ui/icon/192000/192532.tex","ui/icon/082000/082093.tex",5,"BannerCondition#858",0,0,0,3312,"Diamond Conflict Arms 13"
-248,"ui/icon/192000/192531.tex","ui/icon/082000/082093.tex",5,"BannerCondition#859",0,0,0,3313,"Platinum Conflict Arms 13"
-249,"ui/icon/192000/192530.tex","ui/icon/082000/082093.tex",5,"BannerCondition#860",0,0,0,3314,"Gold Conflict Arms 13"
-250,"ui/icon/192000/192529.tex","ui/icon/082000/082093.tex",5,"BannerCondition#861",0,0,0,3315,"Silver Conflict Arms 13"
-251,"ui/icon/192000/192528.tex","ui/icon/082000/082093.tex",5,"BannerCondition#862",0,0,0,3316,"Bronze Conflict Arms 13"
-252,"ui/icon/192000/192534.tex","ui/icon/082000/082093.tex",5,"BannerCondition#863",0,0,0,3317,"Final Conflict Crystal 14"
-253,"ui/icon/192000/192535.tex","ui/icon/082000/082093.tex",5,"BannerCondition#864",0,0,0,3318,"Endless Conflict Blades 14"
-254,"ui/icon/192000/192536.tex","ui/icon/082000/082093.tex",5,"BannerCondition#865",0,0,0,3319,"Rising Conflict Blades 14"
-255,"ui/icon/192000/192542.tex","ui/icon/082000/082093.tex",5,"BannerCondition#866",0,0,0,3320,"Crystal Conflict Arms 14"
-256,"ui/icon/192000/192541.tex","ui/icon/082000/082093.tex",5,"BannerCondition#867",0,0,0,3321,"Diamond Conflict Arms 14"
-257,"ui/icon/192000/192540.tex","ui/icon/082000/082093.tex",5,"BannerCondition#868",0,0,0,3322,"Platinum Conflict Arms 14"
-258,"ui/icon/192000/192539.tex","ui/icon/082000/082093.tex",5,"BannerCondition#869",0,0,0,3323,"Gold Conflict Arms 14"
-259,"ui/icon/192000/192538.tex","ui/icon/082000/082093.tex",5,"BannerCondition#870",0,0,0,3324,"Silver Conflict Arms 14"
-260,"ui/icon/192000/192537.tex","ui/icon/082000/082093.tex",5,"BannerCondition#871",0,0,0,3325,"Bronze Conflict Arms 14"
-261,"ui/icon/192000/192739.tex","ui/icon/082000/082093.tex",4,"BannerCondition#872",0,0,0,2505,"Futures Rewritten"
-262,"ui/icon/192000/192969.tex","ui/icon/082000/082093.tex",3,"BannerCondition#873",0,0,0,2318,"Mamool Ja Lights"
-263,"ui/icon/192000/192707.tex","ui/icon/082000/082093.tex",4,"BannerCondition#874",0,0,0,2354,"Deadly Candles"
-264,"ui/icon/192000/192708.tex","ui/icon/082000/082093.tex",4,"BannerCondition#875",0,0,0,2355,"Deadly Orbs"
-265,"ui/icon/192000/192709.tex","ui/icon/082000/082093.tex",4,"BannerCondition#876",0,0,0,2356,"Heavenly Branches"
-266,"ui/icon/192000/192710.tex","ui/icon/082000/082093.tex",4,"BannerCondition#877",0,0,0,2357,"Heavenly Towers"
-267,"ui/icon/192000/192740.tex","ui/icon/082000/082093.tex",4,"BannerCondition#879",0,0,0,2403,"Occult Emblem"
-268,"ui/icon/192000/192741.tex","ui/icon/082000/082093.tex",8,"BannerCondition#878",0,0,0,2342,"Cosmic Exploration"
-269,,,0,"BannerCondition#0",0,0,0,0,""
-270,,,0,"BannerCondition#0",0,0,0,0,""
+#,Name,Image,Icon,UnlockCondition,Unknown_70_1,Unknown_70_2,Unknown0,SortKey,Unknown_70_3
+0,None,0,82093,0,0,0,0,0,0
+1,None,192001,82093,1,0,0,0,1,1
+2,Laurels,192002,82093,1,0,0,0,2,1
+3,Hearts,192003,82093,1,0,0,0,10,1
+4,Stars,192004,82093,1,0,0,0,11,1
+5,Tank Emblem,192005,82093,1,0,0,0,12,1
+6,DPS Emblem,192006,82093,1,0,0,0,14,1
+7,Healer Emblem,192007,82093,1,0,0,0,13,1
+8,Sparkles,192008,82093,1,0,0,0,32,1
+9,Pawprints,192009,82093,1,0,0,0,16,1
+10,Exclamation Mark,192010,82093,1,0,0,0,17,1
+11,Question Mark,192011,82093,1,0,0,0,18,1
+12,Paladin Emblem,192301,82093,124,0,0,0,2150,2
+13,Warrior Emblem,192302,82093,125,0,0,0,2151,2
+14,Dark Knight Emblem,192303,82093,126,0,0,0,2152,2
+15,Gunbreaker Emblem,192304,82093,127,0,0,0,2153,2
+16,White Mage Emblem,192305,82093,128,0,0,0,2154,2
+17,Scholar Emblem,192306,82093,129,0,0,0,2155,2
+18,Astrologian Emblem,192307,82093,130,0,0,0,2156,2
+19,Sage Emblem,192308,82093,131,0,0,0,2157,2
+20,Monk Emblem,192309,82093,132,0,0,0,2158,2
+21,Dragoon Emblem,192310,82093,133,0,0,0,2159,2
+22,Ninja Emblem,192311,82093,134,0,0,0,2160,2
+23,Samurai Emblem,192312,82093,135,0,0,0,2161,2
+24,Reaper Emblem,192313,82093,136,0,0,0,2162,2
+25,Bard Emblem,192314,82093,137,0,0,0,2164,2
+26,Machinist Emblem,192315,82093,138,0,0,0,2165,2
+27,Dancer Emblem,192316,82093,139,0,0,0,2166,2
+28,Black Mage Emblem,192317,82093,140,0,0,0,2167,2
+29,Summoner Emblem,192318,82093,141,0,0,0,2168,2
+30,Red Mage Emblem,192319,82093,142,0,0,0,2169,2
+31,Astra Emblem,192401,82093,143,0,0,0,3000,10
+32,Umbra Emblem,192402,82093,144,0,0,0,3001,10
+33,Final Conflict Crystal 1,192403,82093,145,0,0,0,3200,5
+34,Endless Conflict Blades 1,192404,82093,146,0,0,0,3201,5
+35,Rising Conflict Blades 1,192405,82093,147,0,0,0,3202,5
+36,Bronze Conflict Arms 1,192406,82093,148,0,0,0,3208,5
+37,Silver Conflict Arms 1,192407,82093,149,0,0,0,3207,5
+38,Gold Conflict Arms 1,192408,82093,150,0,0,0,3206,5
+39,Platinum Conflict Arms 1,192409,82093,151,0,0,0,3205,5
+40,Diamond Conflict Arms 1,192410,82093,152,0,0,0,3204,5
+41,Crystal Conflict Arms 1,192411,82093,153,0,0,0,3203,5
+42,Companion Buttons 1,192901,82093,154,0,0,0,4000,7
+43,Companion Buttons 2,192902,82093,155,0,0,0,4001,7
+44,Unending Coil of Bahamut,192701,82093,319,0,0,0,2500,4
+45,Weapon's Refrain,192702,82093,320,0,0,0,2501,4
+46,Epic of Alexander,192703,82093,321,0,0,0,2502,4
+47,Dragonsong's Reprise,192704,82093,322,0,0,0,2503,4
+48,Final Conflict Crystal 2,192412,82093,323,0,0,0,3209,5
+49,Endless Conflict Blades 2,192413,82093,324,0,0,0,3210,5
+50,Rising Conflict Blades 2,192414,82093,325,0,0,0,3211,5
+51,Bronze Conflict Arms 2,192415,82093,326,0,0,0,3217,5
+52,Silver Conflict Arms 2,192416,82093,327,0,0,0,3216,5
+53,Gold Conflict Arms 2,192417,82093,328,0,0,0,3215,5
+54,Platinum Conflict Arms 2,192418,82093,329,0,0,0,3214,5
+55,Diamond Conflict Arms 2,192419,82093,330,0,0,0,3213,5
+56,Crystal Conflict Arms 2,192420,82093,331,0,0,0,3212,5
+57,Final Conflict Crystal 3,192421,82093,332,0,0,0,3218,5
+58,Endless Conflict Blades 3,192422,82093,333,0,0,0,3219,5
+59,Rising Conflict Blades 3,192423,82093,334,0,0,0,3220,5
+60,Bronze Conflict Arms 3,192424,82093,335,0,0,0,3226,5
+61,Silver Conflict Arms 3,192425,82093,336,0,0,0,3225,5
+62,Gold Conflict Arms 3,192426,82093,337,0,0,0,3224,5
+63,Platinum Conflict Arms 3,192427,82093,338,0,0,0,3223,5
+64,Diamond Conflict Arms 3,192428,82093,339,0,0,0,3222,5
+65,Crystal Conflict Arms 3,192429,82093,340,0,0,0,3221,5
+66,Azure Conflict Emblem,192430,82093,341,0,0,0,3002,10
+67,Crimson Conflict Emblem,192431,82093,342,0,0,0,3003,10
+68,Sil'dihn Emblem,192705,82093,343,0,0,0,2400,4
+69,Omicron Matrices,192966,82093,344,0,0,0,2315,3
+70,Lominsan Flag,192601,82093,346,0,0,0,1010,9
+71,Gridanian Flag,192602,82093,346,0,0,0,1011,9
+72,Ul'dahn Flag,192603,82093,346,0,0,0,1012,9
+73,Floral Embellishment,192015,82093,1,0,0,0,3,1
+74,Balloon,192016,82093,1,0,0,0,21,1
+75,Particles,192019,82093,1,0,0,0,30,1
+76,Music,192018,82093,347,0,0,0,31,7
+77,Nameday,192012,82093,1,0,0,0,20,1
+78,New Adventurer,192013,82093,1,0,0,0,19,1
+79,Luster,192014,82093,1,0,0,0,33,1
+80,Roses,192017,82093,1,0,0,0,34,1
+81,Final Conflict Crystal 4,192432,82093,409,0,0,0,3227,5
+82,Endless Conflict Blades 4,192433,82093,410,0,0,0,3228,5
+83,Rising Conflict Blades 4,192434,82093,411,0,0,0,3229,5
+84,Crystal Conflict Arms 4,192440,82093,412,0,0,0,3230,5
+85,Diamond Conflict Arms 4,192439,82093,413,0,0,0,3231,5
+86,Platinum Conflict Arms 4,192438,82093,414,0,0,0,3232,5
+87,Gold Conflict Arms 4,192437,82093,415,0,0,0,3233,5
+88,Silver Conflict Arms 4,192436,82093,416,0,0,0,3234,5
+89,Bronze Conflict Arms 4,192435,82093,417,0,0,0,3235,5
+90,Final Conflict Crystal 5,192441,82093,418,0,0,0,3236,5
+91,Endless Conflict Blades 5,192442,82093,419,0,0,0,3237,5
+92,Rising Conflict Blades 5,192443,82093,420,0,0,0,3238,5
+93,Crystal Conflict Arms 5,192449,82093,421,0,0,0,3239,5
+94,Diamond Conflict Arms 5,192448,82093,422,0,0,0,3240,5
+95,Platinum Conflict Arms 5,192447,82093,423,0,0,0,3241,5
+96,Gold Conflict Arms 5,192446,82093,424,0,0,0,3242,5
+97,Silver Conflict Arms 5,192445,82093,425,0,0,0,3243,5
+98,Bronze Conflict Arms 5,192444,82093,426,0,0,0,3244,5
+99,Falcons,192450,82093,427,0,0,0,3004,10
+100,Ravens,192451,82093,428,0,0,0,3005,10
+101,Pixie Rainbows,192962,82093,429,0,0,0,2311,3
+102,Qitari Rope,192963,82093,430,0,0,0,2312,3
+103,Dwarven Blocks,192964,82093,431,0,0,0,2313,3
+104,Arkasodara Charms,192965,82093,432,0,0,0,2314,3
+105,Loporrit Stars,192967,82093,433,0,0,0,2316,3
+106,Omega Protocol,192706,82093,434,0,0,0,2504,4
+107,Eureka Orthos,192711,82093,465,0,0,0,2358,4
+108,Enaretos,192712,82093,466,0,0,0,2359,4
+109,Island Vacation,192713,82093,468,0,0,0,2340,8
+110,Island Memories,192714,82093,469,0,0,0,2341,8
+111,Final Conflict Crystal 6,192452,82093,502,0,0,0,3245,5
+112,Endless Conflict Blades 6,192453,82093,503,0,0,0,3246,5
+113,Rising Conflict Blades 6,192454,82093,504,0,0,0,3247,5
+114,Crystal Conflict Arms 6,192460,82093,505,0,0,0,3248,5
+115,Diamond Conflict Arms 6,192459,82093,506,0,0,0,3249,5
+116,Platinum Conflict Arms 6,192458,82093,507,0,0,0,3250,5
+117,Gold Conflict Arms 6,192457,82093,508,0,0,0,3251,5
+118,Silver Conflict Arms 6,192456,82093,509,0,0,0,3252,5
+119,Bronze Conflict Arms 6,192455,82093,510,0,0,0,3253,5
+120,Final Conflict Crystal 7,192461,82093,511,0,0,0,3254,5
+121,Endless Conflict Blades 7,192462,82093,512,0,0,0,3255,5
+122,Rising Conflict Blades 7,192463,82093,513,0,0,0,3256,5
+123,Crystal Conflict Arms 7,192469,82093,514,0,0,0,3257,5
+124,Diamond Conflict Arms 7,192468,82093,515,0,0,0,3258,5
+125,Platinum Conflict Arms 7,192467,82093,516,0,0,0,3259,5
+126,Gold Conflict Arms 7,192466,82093,517,0,0,0,3260,5
+127,Silver Conflict Arms 7,192465,82093,518,0,0,0,3261,5
+128,Bronze Conflict Arms 7,192464,82093,519,0,0,0,3262,5
+129,Aramitama Kimen,192470,82093,520,0,0,0,3006,10
+130,Nigimitama Okinamen,192471,82093,521,0,0,0,3007,10
+131,Kojin Buoys,192960,82093,524,0,0,0,2308,3
+132,Ananta Hearts,192959,82093,525,0,0,0,2309,3
+133,Namazu Lanterns,192961,82093,526,0,0,0,2310,3
+134,Blue Mage Emblem,192320,82093,522,0,0,0,2171,2
+135,Ten Year Anniversary Logo,192715,82093,523,0,0,0,3950,7
+136,Rokkon Emblem,192716,82093,528,0,0,0,2401,4
+137,Dolphins,192717,82093,529,0,0,0,2343,8
+138,Hooked a Big 'Un!,192718,82093,530,0,0,0,2344,8
+139,Mahjong Tiles,192719,82093,531,0,0,0,2350,8
+140,Palaistra Ribbons,192490,82093,578,0,0,0,3008,10
+141,Cloud Nine Ivy,192491,82093,579,0,0,0,3009,10
+142,Final Conflict Crystal 8,192472,82093,580,0,0,0,3263,5
+143,Endless Conflict Blades 8,192473,82093,581,0,0,0,3264,5
+144,Rising Conflict Blades 8,192474,82093,582,0,0,0,3265,5
+145,Crystal Conflict Arms 8,192480,82093,583,0,0,0,3266,5
+146,Diamond Conflict Arms 8,192479,82093,584,0,0,0,3267,5
+147,Platinum Conflict Arms 8,192478,82093,585,0,0,0,3268,5
+148,Gold Conflict Arms 8,192477,82093,586,0,0,0,3269,5
+149,Silver Conflict Arms 8,192476,82093,587,0,0,0,3270,5
+150,Bronze Conflict Arms 8,192475,82093,588,0,0,0,3271,5
+151,Final Conflict Crystal 9,192481,82093,589,0,0,0,3272,5
+152,Endless Conflict Blades 9,192482,82093,590,0,0,0,3273,5
+153,Rising Conflict Blades 9,192483,82093,591,0,0,0,3274,5
+154,Crystal Conflict Arms 9,192489,82093,592,0,0,0,3275,5
+155,Diamond Conflict Arms 9,192488,82093,593,0,0,0,3276,5
+156,Platinum Conflict Arms 9,192487,82093,594,0,0,0,3277,5
+157,Gold Conflict Arms 9,192486,82093,595,0,0,0,3278,5
+158,Silver Conflict Arms 9,192485,82093,596,0,0,0,3279,5
+159,Bronze Conflict Arms 9,192484,82093,597,0,0,0,3280,5
+160,Final Conflict Crystal 10,192492,82093,598,0,0,0,3281,5
+161,Endless Conflict Blades 10,192493,82093,599,0,0,0,3282,5
+162,Rising Conflict Blades 10,192494,82093,600,0,0,0,3283,5
+163,Crystal Conflict Arms 10,192500,82093,601,0,0,0,3284,5
+164,Diamond Conflict Arms 10,192499,82093,602,0,0,0,3285,5
+165,Platinum Conflict Arms 10,192498,82093,603,0,0,0,3286,5
+166,Gold Conflict Arms 10,192497,82093,604,0,0,0,3287,5
+167,Silver Conflict Arms 10,192496,82093,605,0,0,0,3288,5
+168,Bronze Conflict Arms 10,192495,82093,606,0,0,0,3289,5
+169,Vanu Vanu Cords,192956,82093,567,0,0,0,2305,3
+170,Vath Vents,192957,82093,568,0,0,0,2306,3
+171,Moogle Lamps,192958,82093,569,0,0,0,2307,3
+172,Symbol of the Fury,192722,82093,572,0,0,0,2252,3
+173,Symbol of the Lover,192723,82093,572,0,0,0,2253,3
+174,Symbol of the Scholar,192724,82093,572,0,0,0,2254,3
+175,Symbol of the Spinner,192725,82093,572,0,0,0,2255,3
+176,Symbol of the Navigator,192726,82093,572,0,0,0,2256,3
+177,Symbol of the Wanderer,192727,82093,572,0,0,0,2257,3
+178,Symbol of the Builder,192728,82093,572,0,0,0,2258,3
+179,Symbol of the Destroyer,192729,82093,572,0,0,0,2259,3
+180,Symbol of the Warden,192730,82093,572,0,0,0,2260,3
+181,Symbol of the Traders,192731,82093,572,0,0,0,2261,3
+182,Symbol of the Matron,192732,82093,572,0,0,0,2262,3
+183,Symbol of the Keeper,192733,82093,572,0,0,0,2263,3
+184,Aloalo Emblem,192734,82093,574,0,0,0,2402,4
+185,Wondrous Seals,192720,82093,570,0,0,0,2351,8
+186,Faux Panels,192721,82093,571,0,0,0,2352,8
+187,Blunderful Bean,192735,82093,575,0,0,0,3951,7
+188,Blunderous Gemstone,192736,82093,576,0,0,0,3952,7
+189,Blunder-villed Crown,192737,82093,577,0,0,0,3953,7
+190,Yo-kai Stars,192738,82093,607,0,0,0,3954,7
+191,Viper Emblem,192321,82093,681,0,0,0,2163,2
+192,Pictomancer Emblem,192322,82093,682,0,0,0,2170,2
+193,Volcanic Flames,192501,82093,683,0,0,0,3010,10
+194,Clockwork Clouds,192502,82093,684,0,0,0,3011,10
+195,Final Conflict Crystal 11,192503,82093,685,0,0,0,3290,5
+196,Endless Conflict Blades 11,192504,82093,686,0,0,0,3291,5
+197,Rising Conflict Blades 11,192505,82093,687,0,0,0,3292,5
+198,Crystal Conflict Arms 11,192511,82093,688,0,0,0,3293,5
+199,Diamond Conflict Arms 11,192510,82093,689,0,0,0,3294,5
+200,Platinum Conflict Arms 11,192509,82093,690,0,0,0,3295,5
+201,Gold Conflict Arms 11,192508,82093,691,0,0,0,3296,5
+202,Silver Conflict Arms 11,192507,82093,692,0,0,0,3297,5
+203,Bronze Conflict Arms 11,192506,82093,693,0,0,0,3298,5
+204,Kobold Bricks,192954,82093,694,0,0,0,2302,3
+205,Sylph Lanterns,192952,82093,695,0,0,0,2301,3
+206,Amalj'aa Lanterns,192951,82093,696,0,0,0,2300,3
+207,Sahagin Pods,192955,82093,697,0,0,0,2303,3
+208,Ixal Wood,192953,82093,698,0,0,0,2304,3
+209,Dawn's Pennant,192662,82093,701,0,0,0,1036,9
+210,Dawn's Feathers,192663,82093,702,0,0,0,1037,9
+211,Solution Blocks,192664,82093,699,0,0,0,1038,9
+212,Solution Distortion,192665,82093,700,0,0,0,1039,9
+213,Seal Rock,192512,82093,756,0,0,0,3013,10
+214,Red Sands,192513,82093,757,0,0,0,3012,10
+215,Final Conflict Crystal 12,192514,82093,758,0,0,0,3299,5
+216,Endless Conflict Blades 12,192515,82093,759,0,0,0,3300,5
+217,Rising Conflict Blades 12,192516,82093,760,0,0,0,3301,5
+218,Crystal Conflict Arms 12,192522,82093,761,0,0,0,3302,5
+219,Diamond Conflict Arms 12,192521,82093,762,0,0,0,3303,5
+220,Platinum Conflict Arms 12,192520,82093,763,0,0,0,3304,5
+221,Gold Conflict Arms 12,192519,82093,764,0,0,0,3305,5
+222,Silver Conflict Arms 12,192518,82093,765,0,0,0,3306,5
+223,Bronze Conflict Arms 12,192517,82093,766,0,0,0,3307,5
+224,Pelupelu Pennants,192968,82093,767,0,0,0,2317,3
+225,Heavens' Orthodoxy,192654,82093,768,0,0,0,1020,9
+226,Heavens' Heresy,192672,82093,769,0,0,0,1021,9
+227,Idyll Wisdom,192655,82093,770,0,0,0,1022,9
+228,Idyll Industry,192673,82093,771,0,0,0,1023,9
+229,Kugane Commerce,192656,82093,772,0,0,0,1024,9
+230,Kugane Leisure,192668,82093,773,0,0,0,1025,9
+231,Western Reach,192657,82093,774,0,0,0,1026,9
+232,Eastern Reach,192669,82093,775,0,0,0,1027,9
+233,Exarchic Dome,192658,82093,776,0,0,0,1028,9
+234,Exarchic Tower,192670,82093,777,0,0,0,1029,9
+235,Eulmoran Comfort,192659,82093,778,0,0,0,1030,9
+236,Eulmoran Glory,192671,82093,779,0,0,0,1031,9
+237,Sharlayan Stoa,192660,82093,780,0,0,0,1032,9
+238,Sharlayan Agora,192666,82093,781,0,0,0,1033,9
+239,Hannish Radiance,192661,82093,782,0,0,0,1034,9
+240,Hannish Wonders,192667,82093,783,0,0,0,1035,9
+241,Crystals of Glory,192523,82093,852,0,0,0,3014,10
+242,Onsal Hakair Banners,192524,82093,853,0,0,0,3015,10
+243,Final Conflict Crystal 13,192525,82093,854,0,0,0,3308,5
+244,Endless Conflict Blades 13,192526,82093,855,0,0,0,3309,5
+245,Rising Conflict Blades 13,192527,82093,856,0,0,0,3310,5
+246,Crystal Conflict Arms 13,192533,82093,857,0,0,0,3311,5
+247,Diamond Conflict Arms 13,192532,82093,858,0,0,0,3312,5
+248,Platinum Conflict Arms 13,192531,82093,859,0,0,0,3313,5
+249,Gold Conflict Arms 13,192530,82093,860,0,0,0,3314,5
+250,Silver Conflict Arms 13,192529,82093,861,0,0,0,3315,5
+251,Bronze Conflict Arms 13,192528,82093,862,0,0,0,3316,5
+252,Final Conflict Crystal 14,192534,82093,863,0,0,0,3317,5
+253,Endless Conflict Blades 14,192535,82093,864,0,0,0,3318,5
+254,Rising Conflict Blades 14,192536,82093,865,0,0,0,3319,5
+255,Crystal Conflict Arms 14,192542,82093,866,0,0,0,3320,5
+256,Diamond Conflict Arms 14,192541,82093,867,0,0,0,3321,5
+257,Platinum Conflict Arms 14,192540,82093,868,0,0,0,3322,5
+258,Gold Conflict Arms 14,192539,82093,869,0,0,0,3323,5
+259,Silver Conflict Arms 14,192538,82093,870,0,0,0,3324,5
+260,Bronze Conflict Arms 14,192537,82093,871,0,0,0,3325,5
+261,Futures Rewritten,192739,82093,872,0,0,0,2505,4
+262,Mamool Ja Lights,192969,82093,873,0,0,0,2318,3
+263,Deadly Candles,192707,82093,874,0,0,0,2354,4
+264,Deadly Orbs,192708,82093,875,0,0,0,2355,4
+265,Heavenly Branches,192709,82093,876,0,0,0,2356,4
+266,Heavenly Towers,192710,82093,877,0,0,0,2357,4
+267,Occult Emblem,192740,82093,879,0,0,0,2403,4
+268,Cosmic Exploration,192741,82093,878,0,0,0,2342,8
+269,,0,0,0,0,0,0,0,0
+270,,0,0,0,0,0,0,0,0

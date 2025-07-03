@@ -1,19 +1,17 @@
-﻿key,0,1
-#,Icon,Name
-int32,Image,str
-0,,""
-1,"ui/icon/062000/062501.tex","Mercenariat"
-2,"ui/icon/062000/062510.tex","Mineur"
-3,"ui/icon/062000/062511.tex","Botaniste"
-4,"ui/icon/062000/062512.tex","Pêcheur"
-5,"ui/icon/062000/062502.tex","Menuisier"
-6,"ui/icon/062000/062503.tex","Forgeron"
-7,"ui/icon/062000/062504.tex","Armurier"
-8,"ui/icon/062000/062505.tex","Orfèvre"
-9,"ui/icon/062000/062506.tex","Tanneur"
-10,"ui/icon/062000/062507.tex","Couturier"
-11,"ui/icon/062000/062508.tex","Alchimiste"
-12,"ui/icon/062000/062509.tex","Cuisinier"
-13,"ui/icon/061000/061461.tex","Le Maelstrom"
-14,"ui/icon/061000/061462.tex","L'ordre des Deux Vipères"
-15,"ui/icon/061000/061463.tex","Les Immortels"
+#,Name,Icon
+0,,0
+1,Mercenariat,62501
+2,Mineur,62510
+3,Botaniste,62511
+4,Pêcheur,62512
+5,Menuisier,62502
+6,Forgeron,62503
+7,Armurier,62504
+8,Orfèvre,62505
+9,Tanneur,62506
+10,Couturier,62507
+11,Alchimiste,62508
+12,Cuisinier,62509
+13,Le Maelstrom,61461
+14,L'ordre des Deux Vipères,61462
+15,Les Immortels,61463

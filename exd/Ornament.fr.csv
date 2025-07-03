@@ -1,52 +1,50 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
-#,Model,,,,,Order,Icon,Transient,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,,Pronoun,Article
-int32,uint16,byte,byte,byte,uint16,int16,Image,uint16,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte
-0,0,0,0,0,0,-1,,0,"",0,"",0,0,1,0,0
-1,2939,1,1,1,2,0,"ui/icon/008000/008001.tex",1,"Ombrelle",0,"Ombrelles",0,1,1,1,0
-2,2940,1,1,1,2,1,"ui/icon/008000/008002.tex",2,"Ombrelle d'azur",0,"Ombrelles d'azur",0,1,1,1,0
-3,3007,1,1,1,2,2,"ui/icon/008000/008003.tex",3,"Parapluie pourpre laqué",0,"Parapluies pourpres laqués",0,0,1,0,0
-4,3008,1,1,1,2,3,"ui/icon/008000/008004.tex",4,"Parapluie mauve laqué",0,"Parapluies mauves laqués",0,0,1,0,0
-5,3009,1,1,1,2,4,"ui/icon/008000/008005.tex",5,"Parapluie doré laqué",0,"Parapluies dorés laqués",0,0,1,0,0
-6,3010,1,1,1,2,5,"ui/icon/008000/008006.tex",6,"Ombrelle à carreaux bleue",0,"Ombrelles à carreaux bleues",0,1,1,1,0
-7,3011,1,1,1,2,6,"ui/icon/008000/008007.tex",7,"Ombrelle à carreaux rouge",0,"Ombrelles à carreaux rouges",0,1,1,1,0
-8,3012,1,1,1,2,7,"ui/icon/008000/008008.tex",8,"Ombrelle à carreaux noire",0,"Ombrelles à carreaux noires",0,1,1,1,0
-9,3042,2,0,2,0,8,"ui/icon/008000/008013.tex",100,"Ailes angéliques",0,"Ailes angéliques",0,1,1,1,0
-10,3169,1,1,1,2,9,"ui/icon/008000/008012.tex",9,"Ombrelle du Gold Saucer",0,"Ombrelles du Gold Saucer",0,1,1,1,0
-11,3166,1,1,1,2,10,"ui/icon/008000/008009.tex",10,"Ombrelle bleue à pois",0,"Ombrelles bleue à pois",0,1,1,1,0
-12,3167,1,1,1,2,11,"ui/icon/008000/008010.tex",11,"Ombrelle rose à pois",0,"Ombrelles rose à pois",0,1,1,1,0
-13,3168,1,1,1,2,12,"ui/icon/008000/008011.tex",12,"Ombrelle vert d'eau à pois",0,"Ombrelles vert d'eau à pois",0,1,1,1,0
-14,3286,1,1,1,2,13,"ui/icon/008000/008014.tex",13,"Ombrelle gros minou",0,"Ombrelles gros minou",0,1,1,1,0
-15,3287,1,1,1,2,14,"ui/icon/008000/008015.tex",14,"Parapluie Serpent marin de Ronka ?",0,"Parapluies Serpent marin de Ronka ?",0,0,1,0,0
-16,3288,1,1,1,2,15,"ui/icon/008000/008016.tex",15,"Parapluie Dalamud",0,"Parapluie Dalamud",0,0,1,0,0
-17,3426,2,0,2,0,16,"ui/icon/008000/008017.tex",100,"Ailes d'ange déchu",0,"Ailes d'ange déchu",0,1,1,1,0
-18,3427,2,0,2,0,17,"ui/icon/008000/008018.tex",100,"Ailes d'archange",0,"Ailes d'archange",0,1,1,1,0
-19,3428,3,0,2,0,18,"ui/icon/008000/008019.tex",101,"Ailes de Diabolos",0,"Ailes de Diabolos",0,1,1,1,0
-20,3429,6,0,2,0,19,"ui/icon/008000/008020.tex",102,"Ailes de Pixie",0,"Ailes de Pixie",0,1,1,1,0
-21,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
-22,3431,5,0,2,0,21,"ui/icon/000000/000786.tex",200,"Mirage de lunettes ovales",0,"Mirages de lunettes ovales",0,0,1,0,0
-23,3611,1,1,1,2,22,"ui/icon/008000/008023.tex",16,"Ombrelle à dentelle blanche",0,"Ombrelles à dentelle blanche",0,1,1,1,0
-24,3612,1,1,1,2,23,"ui/icon/008000/008024.tex",17,"Ombrelle à fleurs bleues",0,"Ombrelles à fleurs bleues",0,1,1,1,0
-25,3613,5,0,2,0,24,"ui/icon/000000/000786.tex",201,"Mirage de lunettes teintées",0,"Mirages de lunettes teintées",0,0,1,0,0
-26,3614,7,0,2,0,25,"ui/icon/000000/000786.tex",202,"Mirage de lunettes classiques",0,"Mirages de lunettes classiques",0,0,1,0,0
-27,3701,1,1,1,2,26,"ui/icon/008000/008027.tex",18,"Ombrelle pampa",0,"Ombrelles pampa",0,1,1,1,0
-28,3702,6,0,2,0,27,"ui/icon/008000/008028.tex",102,"Ailes de Pixie bleues",0,"Ailes de Pixie bleues",0,1,1,1,0
-29,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
-30,3815,1,1,1,2,28,"ui/icon/008000/008029.tex",19,"Parapluie Chamoiselle",0,"Parapluies Chamoiselle",0,0,1,0,0
-31,3816,1,1,1,2,29,"ui/icon/008000/008030.tex",20,"Système de protection anti-gouttes",0,"Systèmes de protection anti-gouttes",0,0,1,0,0
-32,3884,8,0,2,0,30,"ui/icon/000000/000786.tex",203,"Mirage de lunettes roses",0,"Mirages de lunettes roses",0,0,1,0,0
-33,3885,1,1,1,2,31,"ui/icon/008000/008031.tex",22,"Parapluie Tsukumogami",0,"Parapluies Tsukumogami",0,0,1,0,0
-34,3886,1,1,1,2,32,"ui/icon/008000/008032.tex",21,"Parapluie Bernartisan",0,"Parapluies Bernartisan",0,0,1,0,0
-35,3928,9,0,2,0,33,"ui/icon/008000/008037.tex",300,"Sac d'explorateur",0,"Sacs d'explorateur",0,0,1,0,0
-36,4016,6,0,2,0,34,"ui/icon/008000/008034.tex",103,"Ailes de Statice",0,"Ailes de Statice",0,1,1,1,0
-37,4017,1,1,1,2,35,"ui/icon/008000/008035.tex",24,"Parapluie feuille",0,"Parapluies feuille",0,0,1,0,0
-38,4018,1,1,1,2,36,"ui/icon/008000/008036.tex",23,"Ombrelle carotte",0,"Ombrelles carotte",0,1,1,1,0
-39,4240,1,1,1,2,37,"ui/icon/008000/008038.tex",25,"Ombrelle à néons",0,"Ombrelles à néons",0,1,1,1,0
-40,4241,1,1,1,2,38,"ui/icon/008000/008039.tex",26,"Ombrelle à rubans",0,"Ombrelles à rubans",0,1,1,1,0
-41,4242,1,1,1,2,39,"ui/icon/008000/008040.tex",27,"Ombrelle bombo",0,"Ombrelles bombo",0,1,1,1,0
-42,4406,1,1,1,2,40,"ui/icon/008000/008041.tex",28,"Ombrelle mandragore",0,"Ombrelles mandragore",0,1,1,1,0
-43,4407,1,1,1,2,41,"ui/icon/008000/008042.tex",29,"Paraplœuf",0,"Paraplœufs",0,0,1,0,0
-44,4408,9,0,2,0,42,"ui/icon/008000/008043.tex",301,"Sac de voyage pelupelu",0,"Sacs de voyage pelupelu",0,0,1,0,0
-45,4512,1,1,1,2,43,"ui/icon/008000/008044.tex",30,"Ombrelle à dentelles noire",0,"Ombrelles à dentelles noires",0,1,1,1,0
-46,4511,1,1,1,2,44,"ui/icon/008000/008045.tex",31,"Ombrelle à dentelles blanche",0,"Ombrelles à dentelles blanches",0,1,1,1,0
-47,4513,1,1,1,2,45,"ui/icon/008000/008046.tex",32,"Ombrelle loporrite",0,"Ombrelles loporrites",0,1,1,1,0
-48,0,0,0,0,0,0,,0,"",0,"",0,0,0,0,0
+#,Singular,Plural,Adjective,PossessivePronoun,StartsWithVowel,Unknown0,Pronoun,Article,Model,Action,Icon,Transient,Order,AttachmentPoint,Unknown3,Unknown4
+0,,,0,0,0,1,0,0,0,0,0,0,-1,0,0,0
+1,Ombrelle,Ombrelles,0,0,1,1,1,0,2939,2,8001,1,0,1,1,1
+2,Ombrelle d'azur,Ombrelles d'azur,0,0,1,1,1,0,2940,2,8002,2,1,1,1,1
+3,Parapluie pourpre laqué,Parapluies pourpres laqués,0,0,0,1,0,0,3007,2,8003,3,2,1,1,1
+4,Parapluie mauve laqué,Parapluies mauves laqués,0,0,0,1,0,0,3008,2,8004,4,3,1,1,1
+5,Parapluie doré laqué,Parapluies dorés laqués,0,0,0,1,0,0,3009,2,8005,5,4,1,1,1
+6,Ombrelle à carreaux bleue,Ombrelles à carreaux bleues,0,0,1,1,1,0,3010,2,8006,6,5,1,1,1
+7,Ombrelle à carreaux rouge,Ombrelles à carreaux rouges,0,0,1,1,1,0,3011,2,8007,7,6,1,1,1
+8,Ombrelle à carreaux noire,Ombrelles à carreaux noires,0,0,1,1,1,0,3012,2,8008,8,7,1,1,1
+9,Ailes angéliques,Ailes angéliques,0,0,1,1,1,0,3042,0,8013,100,8,2,0,2
+10,Ombrelle du Gold Saucer,Ombrelles du Gold Saucer,0,0,1,1,1,0,3169,2,8012,9,9,1,1,1
+11,Ombrelle bleue à pois,Ombrelles bleue à pois,0,0,1,1,1,0,3166,2,8009,10,10,1,1,1
+12,Ombrelle rose à pois,Ombrelles rose à pois,0,0,1,1,1,0,3167,2,8010,11,11,1,1,1
+13,Ombrelle vert d'eau à pois,Ombrelles vert d'eau à pois,0,0,1,1,1,0,3168,2,8011,12,12,1,1,1
+14,Ombrelle gros minou,Ombrelles gros minou,0,0,1,1,1,0,3286,2,8014,13,13,1,1,1
+15,Parapluie Serpent marin de Ronka ?,Parapluies Serpent marin de Ronka ?,0,0,0,1,0,0,3287,2,8015,14,14,1,1,1
+16,Parapluie Dalamud,Parapluie Dalamud,0,0,0,1,0,0,3288,2,8016,15,15,1,1,1
+17,Ailes d'ange déchu,Ailes d'ange déchu,0,0,1,1,1,0,3426,0,8017,100,16,2,0,2
+18,Ailes d'archange,Ailes d'archange,0,0,1,1,1,0,3427,0,8018,100,17,2,0,2
+19,Ailes de Diabolos,Ailes de Diabolos,0,0,1,1,1,0,3428,0,8019,101,18,3,0,2
+20,Ailes de Pixie,Ailes de Pixie,0,0,1,1,1,0,3429,0,8020,102,19,6,0,2
+21,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+22,Mirage de lunettes ovales,Mirages de lunettes ovales,0,0,0,1,0,0,3431,0,786,200,21,5,0,2
+23,Ombrelle à dentelle blanche,Ombrelles à dentelle blanche,0,0,1,1,1,0,3611,2,8023,16,22,1,1,1
+24,Ombrelle à fleurs bleues,Ombrelles à fleurs bleues,0,0,1,1,1,0,3612,2,8024,17,23,1,1,1
+25,Mirage de lunettes teintées,Mirages de lunettes teintées,0,0,0,1,0,0,3613,0,786,201,24,5,0,2
+26,Mirage de lunettes classiques,Mirages de lunettes classiques,0,0,0,1,0,0,3614,0,786,202,25,7,0,2
+27,Ombrelle pampa,Ombrelles pampa,0,0,1,1,1,0,3701,2,8027,18,26,1,1,1
+28,Ailes de Pixie bleues,Ailes de Pixie bleues,0,0,1,1,1,0,3702,0,8028,102,27,6,0,2
+29,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,Parapluie Chamoiselle,Parapluies Chamoiselle,0,0,0,1,0,0,3815,2,8029,19,28,1,1,1
+31,Système de protection anti-gouttes,Systèmes de protection anti-gouttes,0,0,0,1,0,0,3816,2,8030,20,29,1,1,1
+32,Mirage de lunettes roses,Mirages de lunettes roses,0,0,0,1,0,0,3884,0,786,203,30,8,0,2
+33,Parapluie Tsukumogami,Parapluies Tsukumogami,0,0,0,1,0,0,3885,2,8031,22,31,1,1,1
+34,Parapluie Bernartisan,Parapluies Bernartisan,0,0,0,1,0,0,3886,2,8032,21,32,1,1,1
+35,Sac d'explorateur,Sacs d'explorateur,0,0,0,1,0,0,3928,0,8037,300,33,9,0,2
+36,Ailes de Statice,Ailes de Statice,0,0,1,1,1,0,4016,0,8034,103,34,6,0,2
+37,Parapluie feuille,Parapluies feuille,0,0,0,1,0,0,4017,2,8035,24,35,1,1,1
+38,Ombrelle carotte,Ombrelles carotte,0,0,1,1,1,0,4018,2,8036,23,36,1,1,1
+39,Ombrelle à néons,Ombrelles à néons,0,0,1,1,1,0,4240,2,8038,25,37,1,1,1
+40,Ombrelle à rubans,Ombrelles à rubans,0,0,1,1,1,0,4241,2,8039,26,38,1,1,1
+41,Ombrelle bombo,Ombrelles bombo,0,0,1,1,1,0,4242,2,8040,27,39,1,1,1
+42,Ombrelle mandragore,Ombrelles mandragore,0,0,1,1,1,0,4406,2,8041,28,40,1,1,1
+43,Paraplœuf,Paraplœufs,0,0,0,1,0,0,4407,2,8042,29,41,1,1,1
+44,Sac de voyage pelupelu,Sacs de voyage pelupelu,0,0,0,1,0,0,4408,0,8043,301,42,9,0,2
+45,Ombrelle à dentelles noire,Ombrelles à dentelles noires,0,0,1,1,1,0,4512,2,8044,30,43,1,1,1
+46,Ombrelle à dentelles blanche,Ombrelles à dentelles blanches,0,0,1,1,1,0,4511,2,8045,31,44,1,1,1
+47,Ombrelle loporrite,Ombrelles loporrites,0,0,1,1,1,0,4513,2,8046,32,45,1,1,1
+48,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0

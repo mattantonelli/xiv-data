@@ -1,594 +1,592 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10
-#,Category,SubType,Image,,UnlockCondition,,,,SortKey,Name,
-int32,byte,byte,Image,byte,BannerCondition,uint16,uint16,uint16,byte,uint16,str
-0,0,0,,0,"BannerCondition#1",0,0,0,0,0,"Nichts"
-1,2,0,"ui/icon/194000/194002.tex",0,"BannerCondition#1",0,0,0,1,1,"Glanz"
-2,2,0,"ui/icon/194000/194003.tex",0,"BannerCondition#1",0,0,0,1,6,"Vierecke"
-3,2,0,"ui/icon/194000/194004.tex",0,"BannerCondition#1",0,0,0,1,7,"Wassertropfen"
-4,2,0,"ui/icon/194000/194005.tex",0,"BannerCondition#1",0,0,0,1,8,"Schachbrett"
-5,2,0,"ui/icon/194000/194006.tex",0,"BannerCondition#1",0,0,0,1,2,"Gittermuster"
-6,2,0,"ui/icon/194000/194007.tex",0,"BannerCondition#1",0,0,0,1,3,"Schrägstriche"
-7,2,0,"ui/icon/194000/194008.tex",0,"BannerCondition#1",0,0,0,1,4,"Diagonale Trennung"
-8,2,0,"ui/icon/194000/194009.tex",0,"BannerCondition#1",0,0,0,1,5,"Dreiecke"
-9,2,0,"ui/icon/194000/194010.tex",0,"BannerCondition#1",0,0,0,1,10,"Pergament"
-10,2,0,"ui/icon/194000/194011.tex",0,"BannerCondition#1",0,0,0,1,9,"Verzierte Ecken"
-11,1,0,"ui/icon/195000/195002.tex",0,"BannerCondition#1",0,0,0,1,1,"Schattierung"
-12,1,0,"ui/icon/195000/195003.tex",0,"BannerCondition#1",0,0,0,1,2,"Leuchtender Rand"
-13,1,0,"ui/icon/195000/195004.tex",0,"BannerCondition#1",0,0,0,1,3,"Violette Tupfen"
-14,1,0,"ui/icon/195000/195005.tex",0,"BannerCondition#1",0,0,0,1,4,"Notizbuch"
-15,1,0,"ui/icon/195000/195006.tex",0,"BannerCondition#1",0,0,0,1,5,"Unordnung"
-16,1,0,"ui/icon/195000/195007.tex",0,"BannerCondition#1",0,0,0,1,6,"Äthergramme"
-17,1,0,"ui/icon/195000/195008.tex",0,"BannerCondition#1",0,0,0,1,7,"Pergament"
-18,1,0,"ui/icon/195000/195009.tex",0,"BannerCondition#1",0,0,0,1,8,"Pinselstriche"
-19,1,0,"ui/icon/195000/195010.tex",0,"BannerCondition#1",0,0,0,1,9,"Metallplatte"
-20,1,0,"ui/icon/195000/195011.tex",0,"BannerCondition#1",0,0,0,1,10,"Schriften"
-21,3,0,"ui/icon/197000/197002.tex",0,"BannerCondition#1",0,0,0,1,3,"Banner"
-22,3,0,"ui/icon/197000/197003.tex",0,"BannerCondition#1",0,0,0,1,4,"Erinnerung"
-23,3,0,"ui/icon/197000/197004.tex",0,"BannerCondition#1",0,0,0,1,5,"Metallkreis"
-24,3,0,"ui/icon/197000/197005.tex",0,"BannerCondition#1",0,0,0,1,6,"Verteidiger-Banner"
-25,3,0,"ui/icon/197000/197006.tex",0,"BannerCondition#1",0,0,0,1,8,"Angreifer-Banner"
-26,3,0,"ui/icon/197000/197007.tex",0,"BannerCondition#1",0,0,0,1,7,"Heiler-Banner"
-27,3,0,"ui/icon/197000/197008.tex",0,"BannerCondition#1",0,0,0,1,1,"Brauner Rahmen"
-28,3,0,"ui/icon/197000/197009.tex",0,"BannerCondition#1",0,0,0,1,2,"Geprägter Rahmen"
-29,3,0,"ui/icon/197000/197010.tex",0,"BannerCondition#1",0,0,0,1,9,"Memo"
-30,3,0,"ui/icon/197000/197011.tex",0,"BannerCondition#1",0,0,0,1,10,"Unordnung"
-31,4,0,"ui/icon/198000/198002.tex",0,"BannerCondition#1",0,0,0,1,3,"Schwarz"
-32,4,0,"ui/icon/198000/198003.tex",0,"BannerCondition#1",0,0,0,1,2,"Weiß"
-33,4,0,"ui/icon/198000/198004.tex",0,"BannerCondition#1",0,0,0,1,5,"Geprägte Edelsteine"
-34,4,0,"ui/icon/198000/198005.tex",0,"BannerCondition#1",0,0,0,1,4,"Einfache Edelsteine"
-35,4,0,"ui/icon/198000/198006.tex",0,"BannerCondition#1",0,0,0,1,6,"Limsa Lominsa"
-36,4,0,"ui/icon/198000/198007.tex",0,"BannerCondition#1",0,0,0,1,7,"Gridania"
-37,4,0,"ui/icon/198000/198008.tex",0,"BannerCondition#1",0,0,0,1,8,"Ul'dah"
-38,4,0,"ui/icon/198000/198009.tex",0,"BannerCondition#1",0,0,0,1,1,"Metall"
-39,4,0,"ui/icon/198000/198010.tex",0,"BannerCondition#298",0,0,0,1,10,"Triple Triad EX"
-40,4,0,"ui/icon/198000/198011.tex",0,"BannerCondition#298",0,0,0,1,9,"Triple Triad"
-41,5,0,"ui/icon/199000/199002.tex",0,"BannerCondition#1",0,0,0,1,1,"Gil"
-42,5,0,"ui/icon/199000/199003.tex",0,"BannerCondition#1",0,0,0,1,2,"Feder"
-43,5,0,"ui/icon/199000/199004.tex",0,"BannerCondition#1",0,0,0,1,3,"Aufkleber"
-44,5,0,"ui/icon/199000/199005.tex",0,"BannerCondition#1",0,0,0,1,4,"Karte"
-45,5,0,"ui/icon/199000/199006.tex",0,"BannerCondition#1",0,0,0,1,5,"Schleife"
-46,5,0,"ui/icon/199000/199007.tex",0,"BannerCondition#1",0,0,0,1,6,"Brief"
-47,5,0,"ui/icon/199000/199008.tex",0,"BannerCondition#1",0,0,0,1,7,"Musiknote"
-48,5,0,"ui/icon/199000/199009.tex",0,"BannerCondition#1",0,0,0,1,8,"Blumenstrauß"
-49,5,0,"ui/icon/199000/199010.tex",0,"BannerCondition#1",0,0,0,1,9,"Memo"
-50,5,0,"ui/icon/199000/199011.tex",0,"BannerCondition#1",0,0,0,1,10,"Briefmarke"
-51,2,0,"ui/icon/194000/194201.tex",0,"BannerCondition#156",0,0,0,2,2000,"Gladiator"
-52,2,0,"ui/icon/194000/194202.tex",0,"BannerCondition#157",0,0,0,2,2001,"Marodeur"
-53,2,0,"ui/icon/194000/194203.tex",0,"BannerCondition#158",0,0,0,2,2002,"Druide"
-54,2,0,"ui/icon/194000/194204.tex",0,"BannerCondition#159",0,0,0,2,2003,"Faustkämpfer"
-55,2,0,"ui/icon/194000/194205.tex",0,"BannerCondition#160",0,0,0,2,2004,"Pikenier"
-56,2,0,"ui/icon/194000/194206.tex",0,"BannerCondition#161",0,0,0,2,2005,"Schurke"
-57,2,0,"ui/icon/194000/194207.tex",0,"BannerCondition#162",0,0,0,2,2006,"Waldläufer"
-58,2,0,"ui/icon/194000/194208.tex",0,"BannerCondition#163",0,0,0,2,2007,"Thaumaturg"
-59,2,0,"ui/icon/194000/194209.tex",0,"BannerCondition#164",0,0,0,2,2008,"Hermetiker"
-60,2,0,"ui/icon/194000/194210.tex",0,"BannerCondition#300",0,0,0,2,2050,"Paladin"
-61,2,0,"ui/icon/194000/194211.tex",0,"BannerCondition#301",0,0,0,2,2051,"Krieger"
-62,2,0,"ui/icon/194000/194212.tex",0,"BannerCondition#302",0,0,0,2,2052,"Dunkelritter"
-63,2,0,"ui/icon/194000/194213.tex",0,"BannerCondition#303",0,0,0,2,2053,"Revolverklinge"
-64,2,0,"ui/icon/194000/194214.tex",0,"BannerCondition#304",0,0,0,2,2054,"Weißmagier"
-65,2,0,"ui/icon/194000/194215.tex",0,"BannerCondition#305",0,0,0,2,2055,"Gelehrter"
-66,2,0,"ui/icon/194000/194216.tex",0,"BannerCondition#306",0,0,0,2,2056,"Astrologe"
-67,2,0,"ui/icon/194000/194217.tex",0,"BannerCondition#307",0,0,0,2,2057,"Weiser"
-68,2,0,"ui/icon/194000/194218.tex",0,"BannerCondition#308",0,0,0,2,2058,"Mönch"
-69,2,0,"ui/icon/194000/194219.tex",0,"BannerCondition#309",0,0,0,2,2059,"Dragoon"
-70,2,0,"ui/icon/194000/194220.tex",0,"BannerCondition#310",0,0,0,2,2060,"Ninja"
-71,2,0,"ui/icon/194000/194221.tex",0,"BannerCondition#311",0,0,0,2,2061,"Samurai"
-72,2,0,"ui/icon/194000/194222.tex",0,"BannerCondition#312",0,0,0,2,2062,"Schnitter"
-73,2,0,"ui/icon/194000/194223.tex",0,"BannerCondition#313",0,0,0,2,2064,"Barde"
-74,2,0,"ui/icon/194000/194224.tex",0,"BannerCondition#314",0,0,0,2,2065,"Maschinist"
-75,2,0,"ui/icon/194000/194225.tex",0,"BannerCondition#315",0,0,0,2,2066,"Tänzer"
-76,2,0,"ui/icon/194000/194226.tex",0,"BannerCondition#316",0,0,0,2,2067,"Schwarzmagier"
-77,2,0,"ui/icon/194000/194227.tex",0,"BannerCondition#317",0,0,0,2,2068,"Beschwörer"
-78,2,0,"ui/icon/194000/194228.tex",0,"BannerCondition#318",0,0,0,2,2069,"Rotmagier"
-79,2,0,"ui/icon/194000/194229.tex",0,"BannerCondition#232",0,0,0,2,2071,"Blaumagier"
-80,2,0,"ui/icon/194000/194230.tex",0,"BannerCondition#268",0,0,0,2,2100,"Zimmerer"
-81,2,0,"ui/icon/194000/194231.tex",0,"BannerCondition#269",0,0,0,2,2101,"Grobschmied"
-82,2,0,"ui/icon/194000/194232.tex",0,"BannerCondition#270",0,0,0,2,2102,"Plattner"
-83,2,0,"ui/icon/194000/194233.tex",0,"BannerCondition#271",0,0,0,2,2103,"Goldschmied"
-84,2,0,"ui/icon/194000/194234.tex",0,"BannerCondition#272",0,0,0,2,2104,"Gerber"
-85,2,0,"ui/icon/194000/194235.tex",0,"BannerCondition#273",0,0,0,2,2105,"Weber"
-86,2,0,"ui/icon/194000/194236.tex",0,"BannerCondition#274",0,0,0,2,2106,"Alchemist"
-87,2,0,"ui/icon/194000/194237.tex",0,"BannerCondition#275",0,0,0,2,2107,"Gourmet"
-88,2,0,"ui/icon/194000/194238.tex",0,"BannerCondition#285",0,0,0,2,2108,"Minenarbeiter"
-89,2,0,"ui/icon/194000/194239.tex",0,"BannerCondition#286",0,0,0,2,2109,"Gärtner"
-90,2,0,"ui/icon/194000/194240.tex",0,"BannerCondition#287",0,0,0,2,2110,"Fischer"
-91,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-92,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-93,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-94,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-95,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-96,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-97,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-98,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-99,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-100,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-101,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-102,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-103,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-104,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-105,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-106,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-107,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-108,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-109,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-110,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-111,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-112,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-113,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-114,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-115,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-116,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-117,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-118,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-119,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-120,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-121,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-122,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-123,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-124,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-125,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-126,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-127,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-128,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-129,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-130,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-131,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-132,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-133,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-134,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-135,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-136,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-137,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-138,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-139,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-140,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-141,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-142,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-143,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-144,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-145,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-146,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-147,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-148,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-149,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-150,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-151,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-152,3,0,"ui/icon/197000/197901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Companion-App 1"
-153,3,0,"ui/icon/197000/197902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Companion-App 2"
-154,4,0,"ui/icon/198000/198901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Companion-App 1"
-155,4,0,"ui/icon/198000/198902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Companion-App 2"
-156,5,0,"ui/icon/199000/199901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Companion-App 1"
-157,5,0,"ui/icon/199000/199902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Companion-App 2"
-158,1,0,"ui/icon/195000/195901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Companion-App 1"
-159,1,0,"ui/icon/195000/195902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Companion-App 2"
-160,1,0,"ui/icon/195000/195701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Schatten von Bahamut (fatal)"
-161,3,0,"ui/icon/197000/197701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Schatten von Bahamut (fatal)"
-162,4,0,"ui/icon/198000/198701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Schatten von Bahamut (fatal)"
-163,5,0,"ui/icon/199000/199701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Schatten von Bahamut (fatal)"
-164,1,0,"ui/icon/195000/195702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Heldenlied von Ultima (fatal)"
-165,3,0,"ui/icon/197000/197702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Heldenlied von Ultima (fatal)"
-166,4,0,"ui/icon/198000/198702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Heldenlied von Ultima (fatal)"
-167,5,0,"ui/icon/199000/199702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Heldenlied von Ultima (fatal)"
-168,1,0,"ui/icon/195000/195703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Alexander (fatal)"
-169,3,0,"ui/icon/197000/197703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Alexander (fatal)"
-170,4,0,"ui/icon/198000/198703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Alexander (fatal)"
-171,5,0,"ui/icon/199000/199703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Alexander (fatal)"
-172,1,0,"ui/icon/195000/195704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Drachenkrieg (fatal)"
-173,3,0,"ui/icon/197000/197704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Drachenkrieg (fatal)"
-174,4,0,"ui/icon/198000/198704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Drachenkrieg (fatal)"
-175,5,0,"ui/icon/199000/199704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Drachenkrieg (fatal)"
-176,2,0,"ui/icon/194000/194701.tex",0,"BannerCondition#343",0,0,0,4,2400,"Unstetes Gewölbe: Die Unterstadt von Sil'dih"
-177,3,0,"ui/icon/197000/197705.tex",0,"BannerCondition#343",0,0,0,4,2400,"Unstetes Gewölbe: Die Unterstadt von Sil'dih"
-178,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-179,5,0,"ui/icon/199000/199966.tex",0,"BannerCondition#344",0,0,0,3,2315,"Aufträge der Omikron"
-180,2,0,"ui/icon/194000/194012.tex",0,"BannerCondition#1",0,0,0,1,11,"Café"
-181,2,0,"ui/icon/194000/194013.tex",0,"BannerCondition#1",0,0,0,1,12,"Karo"
-182,2,0,"ui/icon/194000/194014.tex",0,"BannerCondition#1",0,0,0,1,13,"Funkelnd"
-183,2,0,"ui/icon/194000/194015.tex",0,"BannerCondition#1",0,0,0,1,14,"Vertikale Streifen"
-184,2,0,"ui/icon/194000/194016.tex",0,"BannerCondition#1",0,0,0,1,15,"Horizontale Streifen"
-185,2,0,"ui/icon/194000/194017.tex",0,"BannerCondition#1",0,0,0,1,16,"Herzen"
-186,2,0,"ui/icon/194000/194018.tex",0,"BannerCondition#1",0,0,0,1,17,"Chevronstreifen "
-187,2,0,"ui/icon/194000/194019.tex",0,"BannerCondition#1",0,0,0,1,18,"Hanfblattmuster"
-188,2,0,"ui/icon/194000/194020.tex",0,"BannerCondition#1",0,0,0,1,19,"Gingham-Muster "
-189,2,0,"ui/icon/194000/194021.tex",0,"BannerCondition#1",0,0,0,1,20,"Kristall"
-190,1,0,"ui/icon/195000/195012.tex",0,"BannerCondition#1",0,0,0,1,11,"Fernöstlich"
-191,4,0,"ui/icon/198000/198012.tex",0,"BannerCondition#1",0,0,0,1,11,"Zickzack"
-192,4,0,"ui/icon/198000/198013.tex",0,"BannerCondition#1",0,0,0,1,12,"Deko-Tape: Warme Farbtöne"
-193,4,0,"ui/icon/198000/198014.tex",0,"BannerCondition#1",0,0,0,1,13,"Deko-Tape: Kalte Farbtöne"
-194,5,0,"ui/icon/199000/199012.tex",0,"BannerCondition#1",0,0,0,1,11,"Café"
-195,5,0,"ui/icon/199000/199013.tex",0,"BannerCondition#347",0,0,0,7,13,"Plektren"
-196,5,0,"ui/icon/199000/199014.tex",0,"BannerCondition#347",0,0,0,7,12,"Geige"
-197,5,1,"ui/icon/234000/234401.tex",0,"BannerCondition#348",0,0,0,6,5600,"Marionette Nr. 001"
-198,5,1,"ui/icon/234000/234402.tex",0,"BannerCondition#349",0,0,0,6,5000,"Chocobo-Küken"
-199,5,1,"ui/icon/234000/234403.tex",0,"BannerCondition#350",0,0,0,6,5050,"Kirschbomber"
-200,5,1,"ui/icon/234000/234405.tex",0,"BannerCondition#351",608,0,793,6,5051,"Baby-Behemoth"
-201,5,1,"ui/icon/234000/234412.tex",0,"BannerCondition#352",0,0,0,6,5052,"Morbol-Knolle"
-202,5,1,"ui/icon/234000/234424.tex",0,"BannerCondition#353",0,0,0,6,5061,"Staubhäschen"
-203,5,1,"ui/icon/234000/234429.tex",0,"BannerCondition#354",0,0,0,6,5062,"Kaktorfigur"
-204,5,1,"ui/icon/234000/234430.tex",0,"BannerCondition#355",0,0,0,6,5063,"Mini-Krabbe"
-205,5,1,"ui/icon/234000/234436.tex",0,"BannerCondition#356",0,0,0,6,5075,"Baby-Goobbue"
-206,5,1,"ui/icon/234000/234439.tex",0,"BannerCondition#357",0,0,0,6,5076,"Dämonenwürfel"
-207,5,1,"ui/icon/234000/234444.tex",0,"BannerCondition#358",609,0,794,6,5654,"Zeigerhändchen"
-208,5,1,"ui/icon/234000/234446.tex",0,"BannerCondition#359",0,0,0,6,5350,"Qiqirn-Stofftier"
-209,5,1,"ui/icon/234000/234450.tex",0,"BannerCondition#360",0,0,0,6,5064,"Wolfshundwelpe"
-210,5,1,"ui/icon/234000/234452.tex",0,"BannerCondition#361",0,0,0,6,5056,"Mini-Coeurl"
-211,5,1,"ui/icon/234000/234453.tex",0,"BannerCondition#362",0,0,0,6,5059,"Tomberry-Stofftier"
-212,5,1,"ui/icon/234000/234471.tex",0,"BannerCondition#363",0,0,0,6,5655,"Emsiger Besen"
-213,5,1,"ui/icon/234000/234472.tex",0,"BannerCondition#364",610,0,795,6,5002,"Mogry-Stofftier"
-214,5,1,"ui/icon/234000/234487.tex",0,"BannerCondition#365",0,0,0,6,5201,"Nussfresser"
-215,5,1,"ui/icon/234000/234507.tex",0,"BannerCondition#366",0,0,0,6,5202,"Dicke Katze"
-216,5,1,"ui/icon/234000/234511.tex",0,"BannerCondition#367",0,0,0,6,5750,"Flusskobold"
-217,5,1,"ui/icon/234000/234542.tex",0,"BannerCondition#368",0,0,0,6,5650,"Begleitmodul"
-218,5,1,"ui/icon/234000/234558.tex",0,"BannerCondition#369",0,0,0,6,5088,"Paissa-Fratz"
-219,5,1,"ui/icon/234000/234566.tex",0,"BannerCondition#370",0,0,0,6,5090,"Korpokkur-Pflänzchen"
-220,5,1,"ui/icon/234000/234641.tex",0,"BannerCondition#371",0,0,0,6,5251,"Obskurer Otter"
-221,5,1,"ui/icon/234000/234653.tex",0,"BannerCondition#372",0,0,0,6,5351,"Aufzieh-Namazuo"
-222,5,1,"ui/icon/234000/234660.tex",0,"BannerCondition#373",0,0,0,6,5542,"Khloe-Puppe"
-223,5,1,"ui/icon/234000/234667.tex",0,"BannerCondition#374",0,0,0,6,5210,"Mameshiba"
-224,5,1,"ui/icon/234000/234737.tex",0,"BannerCondition#375",0,0,0,6,5216,"Kleine Schlange von Ronka"
-225,5,1,"ui/icon/234000/234742.tex",0,"BannerCondition#376",0,0,0,6,5352,"Riesenbiber"
-226,5,1,"ui/icon/234000/234775.tex",0,"BannerCondition#377",0,0,0,6,5258,"Haikrieger"
-227,5,1,"ui/icon/234000/234404.tex",0,"BannerCondition#378",611,0,796,6,5601,"Cait Sith-Puppe"
-228,5,1,"ui/icon/234000/234416.tex",0,"BannerCondition#379",0,0,0,6,5300,"Blaues Vögelchen"
-229,5,1,"ui/icon/234000/234432.tex",0,"BannerCondition#380",0,0,0,6,5065,"Dodo-Küken"
-230,5,1,"ui/icon/234000/234435.tex",0,"BannerCondition#381",0,0,0,6,5074,"Apkallu-Küken"
-231,5,1,"ui/icon/234000/234441.tex",0,"BannerCondition#382",0,0,0,6,5077,"Schäfchen"
-232,5,1,"ui/icon/234000/234442.tex",0,"BannerCondition#383",0,0,0,6,5066,"Kindragora"
-233,5,1,"ui/icon/234000/234462.tex",0,"BannerCondition#384",0,0,0,6,5080,"Schnatterfauler Kolibri"
-234,5,1,"ui/icon/234000/234475.tex",0,"BannerCondition#385",0,0,0,6,5082,"Sukkubus-Puppe"
-235,5,1,"ui/icon/234000/234476.tex",0,"BannerCondition#386",612,624,797,6,5566,"Aufzieh-Gilgamesch"
-236,5,1,"ui/icon/234000/234477.tex",0,"BannerCondition#387",0,0,0,6,5067,"Prinz Zwiebel"
-237,5,1,"ui/icon/234000/234478.tex",0,"BannerCondition#388",0,0,0,6,5068,"Ritter Aubergine"
-238,5,1,"ui/icon/234000/234479.tex",0,"BannerCondition#389",0,0,0,6,5069,"Sir Knoblauch"
-239,5,1,"ui/icon/234000/234480.tex",0,"BannerCondition#390",0,0,0,6,5070,"König Tomate"
-240,5,1,"ui/icon/234000/234481.tex",0,"BannerCondition#391",0,0,0,6,5071,"Königin Mandragora"
-241,5,1,"ui/icon/234000/234504.tex",0,"BannerCondition#392",0,0,0,6,5568,"Aufzieh-Ultros"
-242,5,1,"ui/icon/234000/234521.tex",0,"BannerCondition#393",0,0,0,6,5567,"Aufzieh-Enkidu"
-243,5,1,"ui/icon/234000/234529.tex",0,"BannerCondition#394",0,0,0,6,5085,"Mini-Atomos"
-244,5,1,"ui/icon/234000/234532.tex",0,"BannerCondition#395",0,0,0,6,5086,"Geira-Kätzchen"
-245,5,1,"ui/icon/234000/234534.tex",0,"BannerCondition#396",0,0,0,6,5204,"Rotpanda-Stofftier"
-246,5,1,"ui/icon/234000/234564.tex",0,"BannerCondition#397",0,0,0,6,5304,"Pinguinprinz"
-247,5,1,"ui/icon/234000/234600.tex",0,"BannerCondition#398",0,0,0,6,5751,"Ferkelchen"
-248,5,1,"ui/icon/234000/234616.tex",0,"BannerCondition#399",0,0,0,6,5095,"Frischling"
-249,5,1,"ui/icon/234000/234647.tex",0,"BannerCondition#400",0,0,0,6,5305,"Straßenspatz"
-250,5,1,"ui/icon/234000/234655.tex",0,"BannerCondition#401",0,0,0,6,5602,"Aufzieh-Chimära"
-251,5,1,"ui/icon/234000/234719.tex",0,"BannerCondition#402",0,0,0,6,5096,"Schnee-Korpokkur"
-252,5,1,"ui/icon/234000/234642.tex",0,"BannerCondition#403",0,0,0,6,5207,"Fuchswelpe"
-253,5,1,"ui/icon/234000/234749.tex",0,"BannerCondition#404",0,0,0,6,5306,"Schuhschnäbelchen"
-254,5,1,"ui/icon/234000/234753.tex",0,"BannerCondition#405",0,0,0,6,5097,"Mini-Quiexie"
-255,5,1,"ui/icon/234000/234787.tex",0,"BannerCondition#406",0,0,0,6,5220,"Sandfuchs"
-256,5,1,"ui/icon/234000/234796.tex",0,"BannerCondition#407",0,0,0,6,5260,"Anhänglicher Momora Mora"
-257,5,0,"ui/icon/199000/199962.tex",0,"BannerCondition#429",0,0,0,3,2311,"Aufträge der Pixies"
-258,5,0,"ui/icon/199000/199963.tex",0,"BannerCondition#430",0,0,0,3,2312,"Aufträge der Qitari"
-259,5,0,"ui/icon/199000/199964.tex",0,"BannerCondition#431",0,0,0,3,2313,"Aufträge der Zwerge"
-260,5,0,"ui/icon/199000/199965.tex",0,"BannerCondition#432",0,0,0,3,2314,"Aufträge der Arkasodara"
-261,5,0,"ui/icon/199000/199967.tex",0,"BannerCondition#433",0,0,0,3,2316,"Aufträge der Loporrit"
-262,1,0,"ui/icon/195000/195705.tex",0,"BannerCondition#434",0,0,0,4,2504,"Omega (fatal)"
-263,3,0,"ui/icon/197000/197706.tex",0,"BannerCondition#434",0,0,0,4,2504,"Omega (fatal)"
-264,4,0,"ui/icon/198000/198705.tex",0,"BannerCondition#434",0,0,0,4,2504,"Omega (fatal)"
-265,5,0,"ui/icon/199000/199705.tex",0,"BannerCondition#434",0,0,0,4,2504,"Omega (fatal)"
-266,5,1,"ui/icon/234000/234506.tex",0,"BannerCondition#435",0,0,0,6,5001,"Chocopummelchen"
-267,5,1,"ui/icon/234000/234451.tex",0,"BannerCondition#436",0,0,0,6,5078,"Schleimpfütze"
-268,5,1,"ui/icon/234000/234470.tex",0,"BannerCondition#437",0,0,0,6,5081,"Stoff-Opo-Opo"
-269,5,1,"ui/icon/234000/234508.tex",0,"BannerCondition#438",0,0,0,6,5083,"Kleinfuß"
-270,5,1,"ui/icon/234000/234563.tex",0,"BannerCondition#439",0,0,0,6,5089,"Stumpfauge"
-271,5,1,"ui/icon/234000/234579.tex",0,"BannerCondition#440",0,0,0,6,5091,"Morpho"
-272,5,1,"ui/icon/234000/234580.tex",0,"BannerCondition#441",0,0,0,6,5092,"Poro Roggo"
-273,5,1,"ui/icon/234000/234805.tex",0,"BannerCondition#442",0,0,0,6,5099,"Tröpfel"
-274,5,1,"ui/icon/234000/234646.tex",0,"BannerCondition#443",0,0,0,6,5209,"Bom Boko"
-275,5,1,"ui/icon/234000/234730.tex",0,"BannerCondition#444",0,0,0,6,5214,"Igel"
-276,5,1,"ui/icon/234000/234862.tex",0,"BannerCondition#445",0,0,0,6,5227,"Flughörnchen"
-277,5,1,"ui/icon/234000/234658.tex",0,"BannerCondition#446",0,0,0,6,5252,"Ghido"
-278,5,1,"ui/icon/234000/234672.tex",0,"BannerCondition#447",0,0,0,6,5253,"Gomashio-Seehund"
-279,5,1,"ui/icon/234000/234673.tex",0,"BannerCondition#448",0,0,0,6,5254,"Axolotl-Molch"
-280,5,1,"ui/icon/234000/234740.tex",0,"BannerCondition#449",0,0,0,6,5256,"Baby-Schnabeltier"
-281,5,1,"ui/icon/234000/234531.tex",0,"BannerCondition#450",0,0,0,6,5302,"Hässliches Entlein"
-282,5,1,"ui/icon/234000/234684.tex",0,"BannerCondition#451",0,0,0,6,5461,"Byakko-Jungtier"
-283,5,1,"ui/icon/234000/234703.tex",0,"BannerCondition#452",0,0,0,6,5462,"Feuerpfau"
-284,5,1,"ui/icon/234000/234727.tex",0,"BannerCondition#453",0,0,0,6,5464,"Seitei"
-285,5,1,"ui/icon/234000/234500.tex",0,"BannerCondition#454",0,0,0,6,5500,"Y'shtola-Puppe"
-286,5,1,"ui/icon/234000/234488.tex",0,"BannerCondition#455",0,0,0,6,5503,"Minfilia-Puppe"
-287,5,1,"ui/icon/234000/234489.tex",0,"BannerCondition#456",0,0,0,6,5504,"Thancred-Puppe"
-288,5,1,"ui/icon/234000/234501.tex",0,"BannerCondition#457",0,0,0,6,5506,"Yda-Puppe"
-289,5,1,"ui/icon/234000/234502.tex",0,"BannerCondition#458",0,0,0,6,5508,"Papalymo-Puppe"
-290,5,1,"ui/icon/234000/234503.tex",0,"BannerCondition#459",0,0,0,6,5509,"Urianger-Puppe"
-291,5,1,"ui/icon/234000/234519.tex",0,"BannerCondition#460",0,0,0,6,5513,"Aufzieh-Alphinaud"
-292,5,1,"ui/icon/234000/234520.tex",0,"BannerCondition#461",0,0,0,6,5514,"Aufzieh-Alisaie"
-293,5,1,"ui/icon/234000/234526.tex",0,"BannerCondition#462",0,0,0,6,5516,"Tataru-Puppe"
-294,5,1,"ui/icon/234000/234527.tex",0,"BannerCondition#463",0,0,0,6,5518,"Cid-Puppe"
-295,5,1,"ui/icon/234000/234856.tex",0,"BannerCondition#464",0,0,0,6,5603,"Miaurizius-Puppe"
-296,3,0,"ui/icon/197000/197711.tex",0,"BannerCondition#465",0,0,0,4,2358,"Tiefes Gewölbe: Eureka Orthos 1"
-297,3,0,"ui/icon/197000/197712.tex",0,"BannerCondition#466",0,0,0,4,2359,"Tiefes Gewölbe: Eureka Orthos 2"
-298,4,0,"ui/icon/198000/198706.tex",0,"BannerCondition#467",0,0,0,3,2251,"Die vier Tierheiligen"
-299,4,0,"ui/icon/198000/198707.tex",0,"BannerCondition#468",0,0,0,8,2340,"Inselparadies 1"
-300,4,0,"ui/icon/198000/198708.tex",0,"BannerCondition#469",0,0,0,8,2341,"Inselparadies 2"
-301,5,0,"ui/icon/199000/199706.tex",0,"BannerCondition#468",0,0,0,8,2340,"Inselparadies 1"
-302,5,0,"ui/icon/199000/199707.tex",0,"BannerCondition#469",0,0,0,8,2341,"Inselparadies 2"
-303,5,1,"ui/icon/234000/234863.tex",0,"BannerCondition#472",0,0,0,6,5103,"Silkie-Schwämmchen"
-304,5,1,"ui/icon/234000/234848.tex",0,"BannerCondition#473",0,0,0,6,5228,"Chiwauwau"
-305,5,1,"ui/icon/234000/234784.tex",0,"BannerCondition#474",0,0,0,6,5087,"Geira-Flauschekatze"
-306,5,1,"ui/icon/234000/234485.tex",0,"BannerCondition#475",0,0,0,6,5200,"Nana-Stoffbär"
-307,5,1,"ui/icon/234000/234733.tex",0,"BannerCondition#476",0,0,0,6,5211,"Schwarzer Shiba-Welpe"
-308,5,1,"ui/icon/234000/234671.tex",0,"BannerCondition#477",0,0,0,6,5212,"Koala-Bärchen"
-309,5,1,"ui/icon/234000/234716.tex",0,"BannerCondition#478",0,0,0,6,5213,"Capybara-Jungtier"
-310,5,1,"ui/icon/234000/234822.tex",0,"BannerCondition#479",0,0,0,6,5222,"Fähnchen"
-311,5,1,"ui/icon/234000/234867.tex",0,"BannerCondition#480",0,0,0,6,5229,"Corgi"
-312,5,1,"ui/icon/234000/234771.tex",0,"BannerCondition#481",0,0,0,6,5307,"Langschwanzmeise"
-313,5,1,"ui/icon/234000/234838.tex",0,"BannerCondition#482",0,0,0,6,5102,"Laub-Klauber"
-314,5,1,"ui/icon/234000/234844.tex",0,"BannerCondition#483",0,0,0,6,5400,"Arkasodara-Puppe"
-315,5,1,"ui/icon/234000/234839.tex",0,"BannerCondition#484",0,0,0,6,5353,"Grebuloff-Puppe"
-316,5,1,"ui/icon/234000/234872.tex",0,"BannerCondition#485",0,0,0,6,5354,"Findingway"
-317,5,1,"ui/icon/234000/234825.tex",0,"BannerCondition#486",0,0,0,6,5651,"Optimus Omikron"
-318,5,1,"ui/icon/234000/234744.tex",0,"BannerCondition#487",0,0,0,6,5151,"Männliche Omega-Puppe"
-319,5,1,"ui/icon/234000/234745.tex",0,"BannerCondition#488",0,0,0,6,5152,"Weibliche Omega-Puppe"
-320,5,1,"ui/icon/234000/234705.tex",0,"BannerCondition#489",0,0,0,6,5150,"Mini-Omega"
-321,5,1,"ui/icon/234000/234704.tex",0,"BannerCondition#490",0,0,0,6,5573,"Alpha-Puppe"
-322,5,1,"ui/icon/234000/234605.tex",0,"BannerCondition#491",0,0,0,6,5519,"Krile-Puppe"
-323,5,1,"ui/icon/234000/234624.tex",0,"BannerCondition#492",0,0,0,6,5521,"Moenbryda-Puppe"
-324,5,1,"ui/icon/234000/234515.tex",0,"BannerCondition#493",0,0,0,6,5522,"Hildibrand-Puppe"
-325,5,1,"ui/icon/234000/234499.tex",0,"BannerCondition#494",613,625,798,6,5528,"Nanamo-Puppe"
-326,5,1,"ui/icon/234000/234568.tex",0,"BannerCondition#495",0,0,0,6,5532,"Haurchefant-Puppe"
-327,5,1,"ui/icon/234000/234606.tex",0,"BannerCondition#496",0,0,0,6,5534,"Aymeric-Puppe"
-328,5,1,"ui/icon/234000/234628.tex",0,"BannerCondition#497",0,0,0,6,5536,"Estinien-Puppe"
-329,5,1,"ui/icon/234000/234575.tex",0,"BannerCondition#498",0,0,0,6,5533,"Nero-Puppe"
-330,5,1,"ui/icon/234000/234555.tex",0,"BannerCondition#499",614,621,799,6,5526,"Aufzieh-Raubahn"
-331,5,1,"ui/icon/234000/234553.tex",0,"BannerCondition#500",615,622,800,6,5525,"Aufzieh-Kan-E"
-332,5,1,"ui/icon/234000/234554.tex",0,"BannerCondition#501",616,623,801,6,5524,"Aufzieh-Merlwyb"
-333,5,0,"ui/icon/199000/199960.tex",0,"BannerCondition#524",0,0,0,3,2308,"Aufträge der Kojin"
-334,5,0,"ui/icon/199000/199959.tex",0,"BannerCondition#525",0,0,0,3,2309,"Aufträge der Ananta"
-335,5,0,"ui/icon/199000/199961.tex",0,"BannerCondition#526",0,0,0,3,2310,"Aufträge der Namazuo"
-336,3,0,"ui/icon/197000/197713.tex",0,"BannerCondition#527",0,0,0,3,2250,"Das Ende einer Ära"
-337,4,0,"ui/icon/198000/198709.tex",0,"BannerCondition#527",0,0,0,3,2250,"Das Ende einer Ära"
-338,5,0,"ui/icon/199000/199708.tex",0,"BannerCondition#527",0,0,0,3,2250,"Das Ende einer Ära"
-339,4,0,"ui/icon/198000/198710.tex",0,"BannerCondition#523",0,0,0,7,3950,"10. Jubiläum"
-340,5,0,"ui/icon/199000/199709.tex",0,"BannerCondition#523",0,0,0,7,3950,"10. Jubiläum"
-341,2,0,"ui/icon/194000/194702.tex",0,"BannerCondition#528",0,0,0,4,2401,"Unstetes Gewölbe: Der Rokkon"
-342,3,0,"ui/icon/197000/197714.tex",0,"BannerCondition#528",0,0,0,4,2401,"Unstetes Gewölbe: Der Rokkon"
-343,1,0,"ui/icon/195000/195706.tex",0,"BannerCondition#529",0,0,0,8,2343,"Fischer auf großer Fahrt"
-344,3,0,"ui/icon/197000/197715.tex",0,"BannerCondition#529",0,0,0,8,2343,"Fischer auf großer Fahrt"
-345,4,0,"ui/icon/198000/198711.tex",0,"BannerCondition#529",0,0,0,8,2343,"Fischer auf großer Fahrt"
-346,5,0,"ui/icon/199000/199710.tex",0,"BannerCondition#529",0,0,0,8,2343,"Fischer auf großer Fahrt"
-347,1,0,"ui/icon/195000/195707.tex",0,"BannerCondition#530",0,0,0,8,2344,"Kapitalbeschaffung"
-348,3,0,"ui/icon/197000/197716.tex",0,"BannerCondition#530",0,0,0,8,2344,"Kapitalbeschaffung"
-349,4,0,"ui/icon/198000/198712.tex",0,"BannerCondition#530",0,0,0,8,2344,"Kapitalbeschaffung"
-350,5,0,"ui/icon/199000/199711.tex",0,"BannerCondition#530",0,0,0,8,2344,"Kapitalbeschaffung"
-351,1,0,"ui/icon/195000/195708.tex",0,"BannerCondition#531",0,0,0,8,2350,"Mahjong-Profi"
-352,4,0,"ui/icon/198000/198713.tex",0,"BannerCondition#531",0,0,0,8,2350,"Mahjong-Profi"
-353,5,0,"ui/icon/199000/199712.tex",0,"BannerCondition#531",0,0,0,8,2350,"Mahjong-Profi"
-354,1,0,"ui/icon/195000/195709.tex",0,"BannerCondition#527",0,0,0,3,2250,"Das Ende einer Ära"
-355,5,1,"ui/icon/234000/234873.tex",0,"BannerCondition#534",0,0,0,6,5072,"Privat-Pachypodium"
-356,5,1,"ui/icon/234000/234886.tex",0,"BannerCondition#535",0,0,0,6,5231,"Shiromaru"
-357,5,1,"ui/icon/234000/234890.tex",0,"BannerCondition#536",0,0,0,6,5232,"Kuromaru"
-358,5,1,"ui/icon/234000/234678.tex",0,"BannerCondition#537",0,0,0,6,5656,"Moai-Statuette"
-359,5,1,"ui/icon/234000/234851.tex",0,"BannerCondition#538",0,0,0,6,5154,"Azeyma-Puppe"
-360,5,1,"ui/icon/234000/234874.tex",0,"BannerCondition#539",0,0,0,6,5155,"Aufzieh-Halone"
-361,5,1,"ui/icon/234000/234894.tex",0,"BannerCondition#540",0,0,0,6,5156,"Aufzieh-Oschon"
-362,5,1,"ui/icon/234000/234419.tex",0,"BannerCondition#541",0,0,0,6,5058,"Kiesgolem"
-363,5,1,"ui/icon/234000/234509.tex",0,"BannerCondition#542",0,0,0,6,5084,"Mini-Mumie"
-364,5,1,"ui/icon/234000/234582.tex",0,"BannerCondition#543",0,0,0,6,5093,"Fenrir-Welpe"
-365,5,1,"ui/icon/234000/234761.tex",0,"BannerCondition#544",0,0,0,6,5098,"Kleine Leanan"
-366,5,1,"ui/icon/234000/234609.tex",0,"BannerCondition#545",0,0,0,6,5206,"Zwergkaninchen"
-367,5,1,"ui/icon/234000/234756.tex",0,"BannerCondition#546",0,0,0,6,5219,"Erdmännchen"
-368,5,1,"ui/icon/234000/234510.tex",0,"BannerCondition#547",0,0,0,6,5250,"Fliegender Kampffisch"
-369,5,1,"ui/icon/234000/234530.tex",0,"BannerCondition#548",0,0,0,6,5301,"Eulette"
-370,5,1,"ui/icon/234000/234562.tex",0,"BannerCondition#549",0,0,0,6,5303,"Jagdfalke"
-371,5,1,"ui/icon/234000/234853.tex",0,"BannerCondition#550",0,0,0,6,5308,"Blaufußtölpel"
-372,5,1,"ui/icon/234000/234596.tex",0,"BannerCondition#551",0,0,0,6,5501,"Neue Y'shtola-Puppe"
-373,5,1,"ui/icon/234000/234617.tex",0,"BannerCondition#552",0,0,0,6,5505,"Neue Thancred-Puppe"
-374,5,1,"ui/icon/234000/234512.tex",0,"BannerCondition#553",0,0,0,6,5511,"Aufzieh-Louisoix"
-375,5,1,"ui/icon/234000/234618.tex",0,"BannerCondition#554",0,0,0,6,5515,"Neue Alisaie-Puppe"
-376,5,1,"ui/icon/234000/234876.tex",0,"BannerCondition#555",0,0,0,6,5523,"Aufzieh-Godbert"
-377,5,1,"ui/icon/234000/234538.tex",0,"BannerCondition#556",617,0,802,6,5529,"Eisherz-Puppe"
-378,5,1,"ui/icon/234000/234543.tex",0,"BannerCondition#557",618,0,803,6,5530,"Yugiri-Puppe"
-379,5,1,"ui/icon/234000/234619.tex",0,"BannerCondition#558",0,0,0,6,5535,"Edda-Puppe"
-380,5,1,"ui/icon/234000/234698.tex",0,"BannerCondition#559",0,0,0,6,5541,"Zhloe-Puppe"
-381,5,1,"ui/icon/234000/234706.tex",0,"BannerCondition#560",0,0,0,6,5547,"G'raha Tia-Puppe"
-382,5,1,"ui/icon/234000/234518.tex",0,"BannerCondition#561",0,0,0,6,5569,"Midgardsormr"
-383,5,1,"ui/icon/234000/234629.tex",0,"BannerCondition#562",619,626,804,6,5570,"Hraesvelgr-Stofftier"
-384,5,1,"ui/icon/234000/234633.tex",0,"BannerCondition#563",620,0,805,6,5571,"Nidhogg-Stofftier"
-385,5,1,"ui/icon/234000/234899.tex",0,"BannerCondition#564",0,0,0,6,5800,"Pinke Bohne"
-386,5,1,"ui/icon/234000/234900.tex",0,"BannerCondition#565",0,0,0,6,5801,"Pegwin"
-387,5,1,"ui/icon/234000/234898.tex",0,"BannerCondition#566",0,0,0,6,5701,"Kleiner Torgal"
-388,5,0,"ui/icon/199000/199956.tex",0,"BannerCondition#567",0,0,0,3,2305,"Aufträge der Vanu Vanu"
-389,5,0,"ui/icon/199000/199957.tex",0,"BannerCondition#568",0,0,0,3,2306,"Aufträge der Gnath"
-390,5,0,"ui/icon/199000/199958.tex",0,"BannerCondition#569",0,0,0,3,2307,"Aufträge der Mogrys"
-391,3,0,"ui/icon/197000/197720.tex",0,"BannerCondition#572",0,0,0,3,2252,"Mythen Eorzeas"
-392,4,0,"ui/icon/198000/198717.tex",0,"BannerCondition#572",0,0,0,3,2252,"Mythen Eorzeas"
-393,5,0,"ui/icon/199000/199715.tex",0,"BannerCondition#572",0,0,0,3,2252,"Mythen Eorzeas"
-394,3,0,"ui/icon/197000/197719.tex",0,"BannerCondition#573",0,0,0,3,2242,"Tatarus Wohlstandsmanufaktur"
-395,4,0,"ui/icon/198000/198716.tex",0,"BannerCondition#573",0,0,0,3,2242,"Tatarus Wohlstandsmanufaktur"
-396,2,0,"ui/icon/194000/194703.tex",0,"BannerCondition#574",0,0,0,4,2402,"Unstetes Gewölbe: Aloalo"
-397,3,0,"ui/icon/197000/197721.tex",0,"BannerCondition#574",0,0,0,4,2402,"Unstetes Gewölbe: Aloalo"
-398,1,0,"ui/icon/195000/195710.tex",0,"BannerCondition#570",0,0,0,8,2351,"Khloes Abenteueralbum"
-399,3,0,"ui/icon/197000/197717.tex",0,"BannerCondition#570",0,0,0,8,2351,"Khloes Abenteueralbum"
-400,4,0,"ui/icon/198000/198714.tex",0,"BannerCondition#570",0,0,0,8,2351,"Khloes Abenteueralbum"
-401,5,0,"ui/icon/199000/199713.tex",0,"BannerCondition#570",0,0,0,8,2351,"Khloes Abenteueralbum"
-402,1,0,"ui/icon/195000/195711.tex",0,"BannerCondition#571",0,0,0,8,2352,"Traumtafel"
-403,3,0,"ui/icon/197000/197718.tex",0,"BannerCondition#571",0,0,0,8,2352,"Traumtafel"
-404,4,0,"ui/icon/198000/198715.tex",0,"BannerCondition#571",0,0,0,8,2352,"Traumtafel"
-405,5,0,"ui/icon/199000/199714.tex",0,"BannerCondition#571",0,0,0,8,2352,"Traumtafel"
-406,1,0,"ui/icon/195000/195712.tex",0,"BannerCondition#575",0,0,0,7,3951,"Stolperville 1"
-407,1,0,"ui/icon/195000/195713.tex",0,"BannerCondition#576",0,0,0,7,3952,"Stolperville 2"
-408,1,0,"ui/icon/195000/195714.tex",0,"BannerCondition#577",0,0,0,7,3953,"Stolperville 3"
-409,1,0,"ui/icon/195000/195715.tex",0,"BannerCondition#607",0,0,0,7,3954,"Yo-kai Watch"
-410,4,0,"ui/icon/198000/198718.tex",0,"BannerCondition#607",0,0,0,7,3954,"Yo-kai Watch"
-411,5,0,"ui/icon/199000/199716.tex",0,"BannerCondition#607",0,0,0,7,3954,"Yo-kai Watch"
-412,5,1,"ui/icon/234000/234906.tex",0,"BannerCondition#643",0,0,0,6,5215,"Repulu"
-413,5,1,"ui/icon/234000/234891.tex",0,"BannerCondition#644",0,0,0,6,5310,"Uolosapa"
-414,5,1,"ui/icon/234000/234433.tex",0,"BannerCondition#645",0,0,0,6,5073,"Kobalos-Larve"
-415,5,1,"ui/icon/234000/234895.tex",0,"BannerCondition#646",0,0,0,6,5658,"Kydonias Ausgang"
-416,5,1,"ui/icon/234000/234854.tex",0,"BannerCondition#647",0,0,0,6,5700,"Aufzieh-Koyo-Koyo"
-417,5,1,"ui/icon/234000/234878.tex",0,"BannerCondition#648",0,0,0,6,5309,"Papageientaucher"
-418,5,1,"ui/icon/234000/234883.tex",0,"BannerCondition#649",0,0,0,6,5230,"Schimpanse"
-419,5,1,"ui/icon/234000/234648.tex",0,"BannerCondition#658",0,0,0,6,5507,"Lyse-Puppe"
-420,5,1,"ui/icon/234000/234664.tex",0,"BannerCondition#659",0,0,0,6,5540,"Hien-Puppe"
-421,5,1,"ui/icon/234000/234649.tex",0,"BannerCondition#660",0,0,0,6,5531,"Neue Yugiri-Puppe"
-422,5,1,"ui/icon/234000/234650.tex",0,"BannerCondition#661",0,0,0,6,5538,"Gosetsu-Puppe"
-423,5,1,"ui/icon/234000/234651.tex",0,"BannerCondition#662",708,714,806,6,5539,"Yotsuyu-Puppe"
-424,5,1,"ui/icon/234000/234652.tex",0,"BannerCondition#663",0,0,0,6,5546,"Aufzieh-Grynewaht"
-425,5,1,"ui/icon/234000/234676.tex",0,"BannerCondition#664",0,0,0,6,5527,"Neue Raubahn-Puppe"
-426,5,1,"ui/icon/234000/234682.tex",0,"BannerCondition#665",0,0,0,6,5544,"Magnai-Puppe"
-427,5,1,"ui/icon/234000/234697.tex",0,"BannerCondition#666",0,0,0,6,5543,"Cirina-Puppe"
-428,5,1,"ui/icon/234000/234696.tex",0,"BannerCondition#667",0,0,0,6,5545,"Sadu-Puppe"
-429,5,1,"ui/icon/234000/234720.tex",0,"BannerCondition#668",709,715,807,6,5517,"Neue Tataru-Puppe"
-430,5,1,"ui/icon/234000/234743.tex",0,"BannerCondition#669",710,716,808,6,5463,"Aufzieh-Suzaku"
-431,5,1,"ui/icon/234000/234731.tex",0,"BannerCondition#670",0,0,0,6,5502,"Splitterwelt-Y'shtola"
-432,5,1,"ui/icon/234000/234829.tex",0,"BannerCondition#671",0,0,0,6,5510,"Neue Urianger-Puppe"
-433,5,1,"ui/icon/234000/234760.tex",0,"BannerCondition#672",0,0,0,6,5537,"Neue Estinien-Puppe"
-434,5,1,"ui/icon/234000/234816.tex",0,"BannerCondition#673",711,717,809,6,5553,"Lyna-Puppe"
-435,5,1,"ui/icon/234000/234817.tex",0,"BannerCondition#674",712,718,810,6,5554,"Runar-Puppe"
-436,5,1,"ui/icon/234000/234776.tex",0,"BannerCondition#675",713,719,811,6,5549,"Dulia-Chai-Puppe"
-437,5,1,"ui/icon/234000/234732.tex",0,"BannerCondition#676",0,0,0,6,5548,"Ryne-Puppe"
-438,5,1,"ui/icon/234000/234798.tex",0,"BannerCondition#677",0,0,0,6,5552,"Gaia-Puppe"
-439,5,1,"ui/icon/234000/234781.tex",0,"BannerCondition#678",0,0,0,6,5550,"Mystel-Puppe"
-440,5,1,"ui/icon/234000/234782.tex",0,"BannerCondition#679",0,0,0,6,5551,"Aufzieh-Ardbert"
-441,5,1,"ui/icon/234000/234855.tex",0,"BannerCondition#680",0,0,0,6,5556,"Aufzieh-Solus"
-442,5,1,"ui/icon/234000/234413.tex",0,"BannerCondition#650",0,0,0,6,5053,"Kleine Ratte"
-443,5,1,"ui/icon/234000/234414.tex",0,"BannerCondition#651",0,0,0,6,5054,"Mini-Pilz"
-444,5,1,"ui/icon/234000/234415.tex",0,"BannerCondition#652",0,0,0,6,5055,"Stechmücken-Larve"
-445,5,1,"ui/icon/234000/234514.tex",0,"BannerCondition#653",0,0,0,6,5057,"Schwarzer Coeurl"
-446,5,1,"ui/icon/234000/234421.tex",0,"BannerCondition#654",0,0,0,6,5060,"Baby-Raptor"
-447,5,1,"ui/icon/234000/234461.tex",0,"BannerCondition#655",0,0,0,6,5079,"Mini-Gedankenschinder"
-448,5,1,"ui/icon/234000/234528.tex",0,"BannerCondition#656",0,0,0,6,5203,"Kleinhorn"
-449,5,1,"ui/icon/234000/234539.tex",0,"BannerCondition#657",0,0,0,6,5205,"Gestahl-Schoßhund"
-450,2,0,"ui/icon/194000/194241.tex",0,"BannerCondition#705",0,0,0,2,2063,"Viper"
-451,2,0,"ui/icon/194000/194242.tex",0,"BannerCondition#706",0,0,0,2,2070,"Piktomant"
-452,5,0,"ui/icon/199000/199954.tex",0,"BannerCondition#694",0,0,0,3,2302,"Aufträge der Kobolde"
-453,5,0,"ui/icon/199000/199952.tex",0,"BannerCondition#695",0,0,0,3,2301,"Aufträge der Sylphen"
-454,5,0,"ui/icon/199000/199951.tex",0,"BannerCondition#696",0,0,0,3,2300,"Aufträge der Amalj'aa"
-455,5,0,"ui/icon/199000/199955.tex",0,"BannerCondition#697",0,0,0,3,2303,"Aufträge der Sahagin"
-456,5,0,"ui/icon/199000/199953.tex",0,"BannerCondition#698",0,0,0,3,2304,"Aufträge der Ixal"
-457,1,0,"ui/icon/195000/195662.tex",0,"BannerCondition#701",0,0,0,9,1036,"Tuliyollal 1"
-458,3,0,"ui/icon/197000/197662.tex",0,"BannerCondition#701",0,0,0,9,1036,"Tuliyollal 1"
-459,4,0,"ui/icon/198000/198662.tex",0,"BannerCondition#701",0,0,0,9,1036,"Tuliyollal 1"
-460,1,0,"ui/icon/195000/195663.tex",0,"BannerCondition#702",0,0,0,9,1037,"Tuliyollal 2"
-461,3,0,"ui/icon/197000/197663.tex",0,"BannerCondition#702",0,0,0,9,1037,"Tuliyollal 2"
-462,4,0,"ui/icon/198000/198663.tex",0,"BannerCondition#702",0,0,0,9,1037,"Tuliyollal 2"
-463,1,0,"ui/icon/195000/195664.tex",0,"BannerCondition#699",0,0,0,9,1038,"Lösung Neun 1"
-464,3,0,"ui/icon/197000/197664.tex",0,"BannerCondition#699",0,0,0,9,1038,"Lösung Neun 1"
-465,4,0,"ui/icon/198000/198664.tex",0,"BannerCondition#699",0,0,0,9,1038,"Lösung Neun 1"
-466,1,0,"ui/icon/195000/195665.tex",0,"BannerCondition#700",0,0,0,9,1039,"Lösung Neun 2"
-467,3,0,"ui/icon/197000/197665.tex",0,"BannerCondition#700",0,0,0,9,1039,"Lösung Neun 2"
-468,4,0,"ui/icon/198000/198665.tex",0,"BannerCondition#700",0,0,0,9,1039,"Lösung Neun 2"
-469,5,1,"ui/icon/234000/234810.tex",0,"BannerCondition#729",0,0,0,6,5261,"Delphinkalb"
-470,5,1,"ui/icon/234000/234827.tex",0,"BannerCondition#730",0,0,0,6,5574,"Sternenvogel"
-471,5,1,"ui/icon/234000/234828.tex",0,"BannerCondition#731",0,0,0,6,5223,"Nagxianische Katze"
-472,5,1,"ui/icon/234000/234830.tex",0,"BannerCondition#732",0,0,0,6,5572,"Aufzieh-Vrtra"
-473,5,1,"ui/icon/234000/234832.tex",0,"BannerCondition#733",0,0,0,6,5225,"Krabbenkrebs"
-474,5,1,"ui/icon/234000/234833.tex",0,"BannerCondition#734",0,0,0,6,5100,"Lunatender-Prinz"
-475,5,1,"ui/icon/234000/234841.tex",0,"BannerCondition#735",0,0,0,6,5555,"Heroische Puppe"
-476,5,1,"ui/icon/234000/234843.tex",0,"BannerCondition#736",0,0,0,6,5101,"Königlicher Lunatender"
-477,5,1,"ui/icon/234000/234865.tex",0,"BannerCondition#737",0,0,0,6,5558,"Philos-Puppe"
-478,5,1,"ui/icon/234000/234866.tex",0,"BannerCondition#738",0,0,0,6,5559,"Erichthonios-Puppe"
-479,5,1,"ui/icon/234000/234877.tex",0,"BannerCondition#739",0,0,0,6,5557,"Aufzieh-Aidoneus"
-480,5,1,"ui/icon/234000/234887.tex",0,"BannerCondition#740",0,0,0,6,5560,"Aufzieh-Athena"
-481,5,1,"ui/icon/234000/234896.tex",0,"BannerCondition#741",0,0,0,6,5604,"Badesion"
-482,5,1,"ui/icon/234000/234901.tex",0,"BannerCondition#742",784,788,812,6,5564,"Hydaelyn-Götze"
-483,5,1,"ui/icon/234000/234902.tex",0,"BannerCondition#743",785,789,813,6,5565,"Zodiark-Götze"
-484,5,1,"ui/icon/234000/234903.tex",0,"BannerCondition#744",786,790,814,6,5512,"Aufzieh-Fourchenault"
-485,5,1,"ui/icon/234000/234909.tex",0,"BannerCondition#745",0,0,0,6,5233,"Alpaka-Cria"
-486,5,1,"ui/icon/234000/234912.tex",0,"BannerCondition#746",0,0,0,6,5234,"Ilyikty'i"
-487,5,1,"ui/icon/234000/234913.tex",0,"BannerCondition#747",0,0,0,6,5311,"Quetzal"
-488,5,1,"ui/icon/234000/234914.tex",0,"BannerCondition#748",0,0,0,6,5235,"Kurzbeiniger Kojote"
-489,5,1,"ui/icon/234000/234916.tex",0,"BannerCondition#749",0,0,0,6,5659,"Meister Mais"
-490,5,1,"ui/icon/234000/234917.tex",0,"BannerCondition#750",0,0,0,6,5104,"Murmelkaktor"
-491,5,1,"ui/icon/234000/234918.tex",0,"BannerCondition#751",0,0,0,6,5236,"Blaugraue Katze"
-492,5,1,"ui/icon/234000/234922.tex",0,"BannerCondition#752",0,0,0,6,5652,"Zinnwächter T1"
-493,5,1,"ui/icon/234000/234925.tex",0,"BannerCondition#753",0,0,0,6,5520,"Neue Krile-Puppe"
-494,5,1,"ui/icon/234000/234926.tex",0,"BannerCondition#754",787,791,815,6,5562,"Zero-Puppe"
-495,5,1,"ui/icon/234000/234927.tex",0,"BannerCondition#755",0,0,0,6,5563,"Aufzieh-Erenville"
-496,5,0,"ui/icon/199000/199968.tex",0,"BannerCondition#767",0,0,0,3,2317,"Aufträge der Pelupelu"
-497,1,0,"ui/icon/195000/195654.tex",0,"BannerCondition#768",0,0,0,9,1020,"Ishgard 1"
-498,3,0,"ui/icon/197000/197654.tex",0,"BannerCondition#768",0,0,0,9,1020,"Ishgard 1"
-499,4,0,"ui/icon/198000/198654.tex",0,"BannerCondition#768",0,0,0,9,1020,"Ishgard 1"
-500,1,0,"ui/icon/195000/195672.tex",0,"BannerCondition#769",0,0,0,9,1021,"Ishgard 2"
-501,3,0,"ui/icon/197000/197672.tex",0,"BannerCondition#769",0,0,0,9,1021,"Ishgard 2"
-502,4,0,"ui/icon/198000/198672.tex",0,"BannerCondition#769",0,0,0,9,1021,"Ishgard 2"
-503,1,0,"ui/icon/195000/195655.tex",0,"BannerCondition#770",0,0,0,9,1022,"Frohehalde 1"
-504,3,0,"ui/icon/197000/197655.tex",0,"BannerCondition#770",0,0,0,9,1022,"Frohehalde 1"
-505,4,0,"ui/icon/198000/198655.tex",0,"BannerCondition#770",0,0,0,9,1022,"Frohehalde 1"
-506,1,0,"ui/icon/195000/195673.tex",0,"BannerCondition#771",0,0,0,9,1023,"Frohehalde 2"
-507,3,0,"ui/icon/197000/197673.tex",0,"BannerCondition#771",0,0,0,9,1023,"Frohehalde 2"
-508,4,0,"ui/icon/198000/198673.tex",0,"BannerCondition#771",0,0,0,9,1023,"Frohehalde 2"
-509,1,0,"ui/icon/195000/195656.tex",0,"BannerCondition#772",0,0,0,9,1024,"Kugane 1"
-510,3,0,"ui/icon/197000/197656.tex",0,"BannerCondition#772",0,0,0,9,1024,"Kugane 1"
-511,4,0,"ui/icon/198000/198656.tex",0,"BannerCondition#772",0,0,0,9,1024,"Kugane 1"
-512,1,0,"ui/icon/195000/195668.tex",0,"BannerCondition#773",0,0,0,9,1025,"Kugane 2"
-513,3,0,"ui/icon/197000/197666.tex",0,"BannerCondition#773",0,0,0,9,1025,"Kugane 2"
-514,4,0,"ui/icon/198000/198666.tex",0,"BannerCondition#773",0,0,0,9,1025,"Kugane 2"
-515,1,0,"ui/icon/195000/195657.tex",0,"BannerCondition#774",0,0,0,9,1026,"Rhalgrs Wacht 1"
-516,3,0,"ui/icon/197000/197657.tex",0,"BannerCondition#774",0,0,0,9,1026,"Rhalgrs Wacht 1"
-517,4,0,"ui/icon/198000/198657.tex",0,"BannerCondition#774",0,0,0,9,1026,"Rhalgrs Wacht 1"
-518,1,0,"ui/icon/195000/195669.tex",0,"BannerCondition#775",0,0,0,9,1027,"Rhalgrs Wacht 2"
-519,3,0,"ui/icon/197000/197667.tex",0,"BannerCondition#775",0,0,0,9,1027,"Rhalgrs Wacht 2"
-520,4,0,"ui/icon/198000/198667.tex",0,"BannerCondition#775",0,0,0,9,1027,"Rhalgrs Wacht 2"
-521,1,0,"ui/icon/195000/195658.tex",0,"BannerCondition#776",0,0,0,9,1028,"Crystarium 1"
-522,3,0,"ui/icon/197000/197658.tex",0,"BannerCondition#776",0,0,0,9,1028,"Crystarium 1"
-523,4,0,"ui/icon/198000/198658.tex",0,"BannerCondition#776",0,0,0,9,1028,"Crystarium 1"
-524,1,0,"ui/icon/195000/195670.tex",0,"BannerCondition#777",0,0,0,9,1029,"Crystarium 2"
-525,3,0,"ui/icon/197000/197670.tex",0,"BannerCondition#777",0,0,0,9,1029,"Crystarium 2"
-526,4,0,"ui/icon/198000/198670.tex",0,"BannerCondition#777",0,0,0,9,1029,"Crystarium 2"
-527,1,0,"ui/icon/195000/195659.tex",0,"BannerCondition#778",0,0,0,9,1030,"Eulmore 1"
-528,3,0,"ui/icon/197000/197659.tex",0,"BannerCondition#778",0,0,0,9,1030,"Eulmore 1"
-529,4,0,"ui/icon/198000/198659.tex",0,"BannerCondition#778",0,0,0,9,1030,"Eulmore 1"
-530,1,0,"ui/icon/195000/195671.tex",0,"BannerCondition#779",0,0,0,9,1031,"Eulmore 2"
-531,3,0,"ui/icon/197000/197671.tex",0,"BannerCondition#779",0,0,0,9,1031,"Eulmore 2"
-532,4,0,"ui/icon/198000/198671.tex",0,"BannerCondition#779",0,0,0,9,1031,"Eulmore 2"
-533,1,0,"ui/icon/195000/195660.tex",0,"BannerCondition#780",0,0,0,9,1032,"Alt-Sharlayan 1"
-534,3,0,"ui/icon/197000/197660.tex",0,"BannerCondition#780",0,0,0,9,1032,"Alt-Sharlayan 1"
-535,4,0,"ui/icon/198000/198660.tex",0,"BannerCondition#780",0,0,0,9,1032,"Alt-Sharlayan 1"
-536,1,0,"ui/icon/195000/195666.tex",0,"BannerCondition#781",0,0,0,9,1033,"Alt-Sharlayan 2"
-537,3,0,"ui/icon/197000/197668.tex",0,"BannerCondition#781",0,0,0,9,1033,"Alt-Sharlayan 2"
-538,4,0,"ui/icon/198000/198668.tex",0,"BannerCondition#781",0,0,0,9,1033,"Alt-Sharlayan 2"
-539,1,0,"ui/icon/195000/195661.tex",0,"BannerCondition#782",0,0,0,9,1034,"Radz-at-Han 1"
-540,3,0,"ui/icon/197000/197661.tex",0,"BannerCondition#782",0,0,0,9,1034,"Radz-at-Han 1"
-541,4,0,"ui/icon/198000/198661.tex",0,"BannerCondition#782",0,0,0,9,1034,"Radz-at-Han 1"
-542,1,0,"ui/icon/195000/195667.tex",0,"BannerCondition#783",0,0,0,9,1035,"Radz-at-Han 2"
-543,3,0,"ui/icon/197000/197669.tex",0,"BannerCondition#783",0,0,0,9,1035,"Radz-at-Han 2"
-544,4,0,"ui/icon/198000/198669.tex",0,"BannerCondition#783",0,0,0,9,1035,"Radz-at-Han 2"
-545,5,1,"ui/icon/234000/234608.tex",0,"BannerCondition#822",0,0,0,6,5094,"Sasquatch-Stofftier"
-546,5,1,"ui/icon/234000/234924.tex",0,"BannerCondition#823",0,0,0,6,5153,"Schwarzes Kätzchen"
-547,5,1,"ui/icon/234000/234643.tex",0,"BannerCondition#824",0,0,0,6,5208,"Tora-jiro"
-548,5,1,"ui/icon/234000/234769.tex",0,"BannerCondition#825",0,0,0,6,5217,"Wasserschlange des Hopl"
-549,5,1,"ui/icon/234000/234770.tex",0,"BannerCondition#826",0,0,0,6,5218,"Wasserschlange der Qitari"
-550,5,1,"ui/icon/234000/234809.tex",0,"BannerCondition#827",0,0,0,6,5221,"Ameisenbär"
-551,5,1,"ui/icon/234000/234831.tex",0,"BannerCondition#828",0,0,0,6,5224,"Flusspferdkalb"
-552,5,1,"ui/icon/234000/234845.tex",0,"BannerCondition#829",0,0,0,6,5226,"Aufzieh-Känguru"
-553,5,1,"ui/icon/234000/234932.tex",0,"BannerCondition#830",0,0,0,6,5237,"Shshuye"
-554,5,1,"ui/icon/234000/234683.tex",0,"BannerCondition#831",0,0,0,6,5255,"Aurelia-Polyp"
-555,5,1,"ui/icon/234000/234759.tex",0,"BannerCondition#832",0,0,0,6,5257,"Domakin"
-556,5,1,"ui/icon/234000/234778.tex",0,"BannerCondition#833",0,0,0,6,5259,"Laladil"
-557,5,1,"ui/icon/234000/234907.tex",0,"BannerCondition#834",0,0,0,6,5262,"Mini-Punutiy"
-558,5,1,"ui/icon/234000/234931.tex",0,"BannerCondition#835",0,0,0,6,5312,"Tuka-Tukitu"
-559,5,1,"ui/icon/234000/234567.tex",0,"BannerCondition#836",0,0,0,6,5450,"Mini-Ifrit"
-560,5,1,"ui/icon/234000/234572.tex",0,"BannerCondition#837",0,0,0,6,5451,"Mini-Garuda"
-561,5,1,"ui/icon/234000/234573.tex",0,"BannerCondition#838",0,0,0,6,5452,"Mini-Titan"
-562,5,1,"ui/icon/234000/234574.tex",0,"BannerCondition#839",0,0,0,6,5453,"Mini-Leviathan"
-563,5,1,"ui/icon/234000/234598.tex",0,"BannerCondition#840",0,0,0,6,5454,"Mini-Ramuh"
-564,5,1,"ui/icon/234000/234599.tex",0,"BannerCondition#841",0,0,0,6,5455,"Mini-Shiva"
-565,5,1,"ui/icon/234000/234468.tex",0,"BannerCondition#842",0,0,0,6,5456,"Mini-Odin"
-566,5,1,"ui/icon/234000/234663.tex",0,"BannerCondition#843",0,0,0,6,5457,"Aufzieh-Bismarck"
-567,5,1,"ui/icon/234000/234665.tex",0,"BannerCondition#844",0,0,0,6,5458,"Mini-Ravana"
-568,5,1,"ui/icon/234000/234661.tex",0,"BannerCondition#845",0,0,0,6,5459,"Susano-Puppe"
-569,5,1,"ui/icon/234000/234662.tex",0,"BannerCondition#846",0,0,0,6,5460,"Lakshmi-Puppe"
-570,5,1,"ui/icon/234000/234938.tex",0,"BannerCondition#847",0,0,0,6,5561,"Themis-Puppe"
-571,5,1,"ui/icon/234000/234934.tex",0,"BannerCondition#848",0,0,0,6,5605,"Pelupelu-Puppe"
-572,5,1,"ui/icon/234000/234935.tex",0,"BannerCondition#849",0,0,0,6,5653,"Spielzeugsoldat S3"
-573,5,1,"ui/icon/234000/234786.tex",0,"BannerCondition#850",0,0,0,6,5657,"Allagische Melone"
-574,5,1,"ui/icon/234000/234936.tex",0,"BannerCondition#851",0,0,0,6,5660,"Meister Messer"
-575,1,0,"ui/icon/195000/195716.tex",0,"BannerCondition#872",0,0,0,4,2505,"Eine zweite Zukunft"
-576,3,0,"ui/icon/197000/197722.tex",0,"BannerCondition#872",0,0,0,4,2505,"Eine zweite Zukunft"
-577,4,0,"ui/icon/198000/198719.tex",0,"BannerCondition#872",0,0,0,4,2505,"Eine zweite Zukunft"
-578,5,0,"ui/icon/199000/199717.tex",0,"BannerCondition#872",0,0,0,4,2505,"Eine zweite Zukunft"
-579,5,0,"ui/icon/199000/199969.tex",0,"BannerCondition#873",0,0,0,3,2318,"Aufträge der Mamool Ja"
-580,3,0,"ui/icon/197000/197707.tex",0,"BannerCondition#874",0,0,0,4,2354,"Tiefes Gewölbe: Palast der Toten 1"
-581,3,0,"ui/icon/197000/197708.tex",0,"BannerCondition#875",0,0,0,4,2355,"Tiefes Gewölbe: Palast der Toten 2"
-582,3,0,"ui/icon/197000/197709.tex",0,"BannerCondition#876",0,0,0,4,2356,"Tiefes Gewölbe: Himmelssäule 1"
-583,3,0,"ui/icon/197000/197710.tex",0,"BannerCondition#877",0,0,0,4,2357,"Tiefes Gewölbe: Himmelssäule 2"
-584,1,0,"ui/icon/195000/195717.tex",0,"BannerCondition#879",0,0,0,4,2403,"Kreszentia"
-585,3,0,"ui/icon/197000/197723.tex",0,"BannerCondition#879",0,0,0,4,2403,"Kreszentia"
-586,4,0,"ui/icon/198000/198720.tex",0,"BannerCondition#879",0,0,0,4,2403,"Kreszentia"
-587,1,0,"ui/icon/195000/195718.tex",0,"BannerCondition#878",0,0,0,8,2342,"Kosmo-Erkundung"
-588,4,0,"ui/icon/198000/198721.tex",0,"BannerCondition#878",0,0,0,8,2342,"Kosmo-Erkundung"
-589,5,0,"ui/icon/199000/199718.tex",0,"BannerCondition#878",0,0,0,8,2342,"Kosmo-Erkundung"
-590,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
+#,Name,Image,UnlockCondition,Unknown_70_1,Unknown_70_2,Unknown3,SortKey,Category,Subtype,Unknown1,Unknown2
+0,Nichts,0,1,0,0,0,0,0,0,0,0
+1,Glanz,194002,1,0,0,0,1,2,0,0,1
+2,Vierecke,194003,1,0,0,0,6,2,0,0,1
+3,Wassertropfen,194004,1,0,0,0,7,2,0,0,1
+4,Schachbrett,194005,1,0,0,0,8,2,0,0,1
+5,Gittermuster,194006,1,0,0,0,2,2,0,0,1
+6,Schrägstriche,194007,1,0,0,0,3,2,0,0,1
+7,Diagonale Trennung,194008,1,0,0,0,4,2,0,0,1
+8,Dreiecke,194009,1,0,0,0,5,2,0,0,1
+9,Pergament,194010,1,0,0,0,10,2,0,0,1
+10,Verzierte Ecken,194011,1,0,0,0,9,2,0,0,1
+11,Schattierung,195002,1,0,0,0,1,1,0,0,1
+12,Leuchtender Rand,195003,1,0,0,0,2,1,0,0,1
+13,Violette Tupfen,195004,1,0,0,0,3,1,0,0,1
+14,Notizbuch,195005,1,0,0,0,4,1,0,0,1
+15,Unordnung,195006,1,0,0,0,5,1,0,0,1
+16,Äthergramme,195007,1,0,0,0,6,1,0,0,1
+17,Pergament,195008,1,0,0,0,7,1,0,0,1
+18,Pinselstriche,195009,1,0,0,0,8,1,0,0,1
+19,Metallplatte,195010,1,0,0,0,9,1,0,0,1
+20,Schriften,195011,1,0,0,0,10,1,0,0,1
+21,Banner,197002,1,0,0,0,3,3,0,0,1
+22,Erinnerung,197003,1,0,0,0,4,3,0,0,1
+23,Metallkreis,197004,1,0,0,0,5,3,0,0,1
+24,Verteidiger-Banner,197005,1,0,0,0,6,3,0,0,1
+25,Angreifer-Banner,197006,1,0,0,0,8,3,0,0,1
+26,Heiler-Banner,197007,1,0,0,0,7,3,0,0,1
+27,Brauner Rahmen,197008,1,0,0,0,1,3,0,0,1
+28,Geprägter Rahmen,197009,1,0,0,0,2,3,0,0,1
+29,Memo,197010,1,0,0,0,9,3,0,0,1
+30,Unordnung,197011,1,0,0,0,10,3,0,0,1
+31,Schwarz,198002,1,0,0,0,3,4,0,0,1
+32,Weiß,198003,1,0,0,0,2,4,0,0,1
+33,Geprägte Edelsteine,198004,1,0,0,0,5,4,0,0,1
+34,Einfache Edelsteine,198005,1,0,0,0,4,4,0,0,1
+35,Limsa Lominsa,198006,1,0,0,0,6,4,0,0,1
+36,Gridania,198007,1,0,0,0,7,4,0,0,1
+37,Ul'dah,198008,1,0,0,0,8,4,0,0,1
+38,Metall,198009,1,0,0,0,1,4,0,0,1
+39,Triple Triad EX,198010,298,0,0,0,10,4,0,0,1
+40,Triple Triad,198011,298,0,0,0,9,4,0,0,1
+41,Gil,199002,1,0,0,0,1,5,0,0,1
+42,Feder,199003,1,0,0,0,2,5,0,0,1
+43,Aufkleber,199004,1,0,0,0,3,5,0,0,1
+44,Karte,199005,1,0,0,0,4,5,0,0,1
+45,Schleife,199006,1,0,0,0,5,5,0,0,1
+46,Brief,199007,1,0,0,0,6,5,0,0,1
+47,Musiknote,199008,1,0,0,0,7,5,0,0,1
+48,Blumenstrauß,199009,1,0,0,0,8,5,0,0,1
+49,Memo,199010,1,0,0,0,9,5,0,0,1
+50,Briefmarke,199011,1,0,0,0,10,5,0,0,1
+51,Gladiator,194201,156,0,0,0,2000,2,0,0,2
+52,Marodeur,194202,157,0,0,0,2001,2,0,0,2
+53,Druide,194203,158,0,0,0,2002,2,0,0,2
+54,Faustkämpfer,194204,159,0,0,0,2003,2,0,0,2
+55,Pikenier,194205,160,0,0,0,2004,2,0,0,2
+56,Schurke,194206,161,0,0,0,2005,2,0,0,2
+57,Waldläufer,194207,162,0,0,0,2006,2,0,0,2
+58,Thaumaturg,194208,163,0,0,0,2007,2,0,0,2
+59,Hermetiker,194209,164,0,0,0,2008,2,0,0,2
+60,Paladin,194210,300,0,0,0,2050,2,0,0,2
+61,Krieger,194211,301,0,0,0,2051,2,0,0,2
+62,Dunkelritter,194212,302,0,0,0,2052,2,0,0,2
+63,Revolverklinge,194213,303,0,0,0,2053,2,0,0,2
+64,Weißmagier,194214,304,0,0,0,2054,2,0,0,2
+65,Gelehrter,194215,305,0,0,0,2055,2,0,0,2
+66,Astrologe,194216,306,0,0,0,2056,2,0,0,2
+67,Weiser,194217,307,0,0,0,2057,2,0,0,2
+68,Mönch,194218,308,0,0,0,2058,2,0,0,2
+69,Dragoon,194219,309,0,0,0,2059,2,0,0,2
+70,Ninja,194220,310,0,0,0,2060,2,0,0,2
+71,Samurai,194221,311,0,0,0,2061,2,0,0,2
+72,Schnitter,194222,312,0,0,0,2062,2,0,0,2
+73,Barde,194223,313,0,0,0,2064,2,0,0,2
+74,Maschinist,194224,314,0,0,0,2065,2,0,0,2
+75,Tänzer,194225,315,0,0,0,2066,2,0,0,2
+76,Schwarzmagier,194226,316,0,0,0,2067,2,0,0,2
+77,Beschwörer,194227,317,0,0,0,2068,2,0,0,2
+78,Rotmagier,194228,318,0,0,0,2069,2,0,0,2
+79,Blaumagier,194229,232,0,0,0,2071,2,0,0,2
+80,Zimmerer,194230,268,0,0,0,2100,2,0,0,2
+81,Grobschmied,194231,269,0,0,0,2101,2,0,0,2
+82,Plattner,194232,270,0,0,0,2102,2,0,0,2
+83,Goldschmied,194233,271,0,0,0,2103,2,0,0,2
+84,Gerber,194234,272,0,0,0,2104,2,0,0,2
+85,Weber,194235,273,0,0,0,2105,2,0,0,2
+86,Alchemist,194236,274,0,0,0,2106,2,0,0,2
+87,Gourmet,194237,275,0,0,0,2107,2,0,0,2
+88,Minenarbeiter,194238,285,0,0,0,2108,2,0,0,2
+89,Gärtner,194239,286,0,0,0,2109,2,0,0,2
+90,Fischer,194240,287,0,0,0,2110,2,0,0,2
+91,,0,0,0,0,0,0,0,0,0,0
+92,,0,0,0,0,0,0,0,0,0,0
+93,,0,0,0,0,0,0,0,0,0,0
+94,,0,0,0,0,0,0,0,0,0,0
+95,,0,0,0,0,0,0,0,0,0,0
+96,,0,0,0,0,0,0,0,0,0,0
+97,,0,0,0,0,0,0,0,0,0,0
+98,,0,0,0,0,0,0,0,0,0,0
+99,,0,0,0,0,0,0,0,0,0,0
+100,,0,0,0,0,0,0,0,0,0,0
+101,,0,0,0,0,0,0,0,0,0,0
+102,,0,0,0,0,0,0,0,0,0,0
+103,,0,0,0,0,0,0,0,0,0,0
+104,,0,0,0,0,0,0,0,0,0,0
+105,,0,0,0,0,0,0,0,0,0,0
+106,,0,0,0,0,0,0,0,0,0,0
+107,,0,0,0,0,0,0,0,0,0,0
+108,,0,0,0,0,0,0,0,0,0,0
+109,,0,0,0,0,0,0,0,0,0,0
+110,,0,0,0,0,0,0,0,0,0,0
+111,,0,0,0,0,0,0,0,0,0,0
+112,,0,0,0,0,0,0,0,0,0,0
+113,,0,0,0,0,0,0,0,0,0,0
+114,,0,0,0,0,0,0,0,0,0,0
+115,,0,0,0,0,0,0,0,0,0,0
+116,,0,0,0,0,0,0,0,0,0,0
+117,,0,0,0,0,0,0,0,0,0,0
+118,,0,0,0,0,0,0,0,0,0,0
+119,,0,0,0,0,0,0,0,0,0,0
+120,,0,0,0,0,0,0,0,0,0,0
+121,,0,0,0,0,0,0,0,0,0,0
+122,,0,0,0,0,0,0,0,0,0,0
+123,,0,0,0,0,0,0,0,0,0,0
+124,,0,0,0,0,0,0,0,0,0,0
+125,,0,0,0,0,0,0,0,0,0,0
+126,,0,0,0,0,0,0,0,0,0,0
+127,,0,0,0,0,0,0,0,0,0,0
+128,,0,0,0,0,0,0,0,0,0,0
+129,,0,0,0,0,0,0,0,0,0,0
+130,,0,0,0,0,0,0,0,0,0,0
+131,,0,0,0,0,0,0,0,0,0,0
+132,,0,0,0,0,0,0,0,0,0,0
+133,,0,0,0,0,0,0,0,0,0,0
+134,,0,0,0,0,0,0,0,0,0,0
+135,,0,0,0,0,0,0,0,0,0,0
+136,,0,0,0,0,0,0,0,0,0,0
+137,,0,0,0,0,0,0,0,0,0,0
+138,,0,0,0,0,0,0,0,0,0,0
+139,,0,0,0,0,0,0,0,0,0,0
+140,,0,0,0,0,0,0,0,0,0,0
+141,,0,0,0,0,0,0,0,0,0,0
+142,,0,0,0,0,0,0,0,0,0,0
+143,,0,0,0,0,0,0,0,0,0,0
+144,,0,0,0,0,0,0,0,0,0,0
+145,,0,0,0,0,0,0,0,0,0,0
+146,,0,0,0,0,0,0,0,0,0,0
+147,,0,0,0,0,0,0,0,0,0,0
+148,,0,0,0,0,0,0,0,0,0,0
+149,,0,0,0,0,0,0,0,0,0,0
+150,,0,0,0,0,0,0,0,0,0,0
+151,,0,0,0,0,0,0,0,0,0,0
+152,Companion-App 1,197901,154,0,0,0,4000,3,0,0,7
+153,Companion-App 2,197902,155,0,0,0,4001,3,0,0,7
+154,Companion-App 1,198901,154,0,0,0,4000,4,0,0,7
+155,Companion-App 2,198902,155,0,0,0,4001,4,0,0,7
+156,Companion-App 1,199901,154,0,0,0,4000,5,0,0,7
+157,Companion-App 2,199902,155,0,0,0,4001,5,0,0,7
+158,Companion-App 1,195901,154,0,0,0,4000,1,0,0,7
+159,Companion-App 2,195902,155,0,0,0,4001,1,0,0,7
+160,Schatten von Bahamut (fatal),195701,319,0,0,0,2500,1,0,0,4
+161,Schatten von Bahamut (fatal),197701,319,0,0,0,2500,3,0,0,4
+162,Schatten von Bahamut (fatal),198701,319,0,0,0,2500,4,0,0,4
+163,Schatten von Bahamut (fatal),199701,319,0,0,0,2500,5,0,0,4
+164,Heldenlied von Ultima (fatal),195702,320,0,0,0,2501,1,0,0,4
+165,Heldenlied von Ultima (fatal),197702,320,0,0,0,2501,3,0,0,4
+166,Heldenlied von Ultima (fatal),198702,320,0,0,0,2501,4,0,0,4
+167,Heldenlied von Ultima (fatal),199702,320,0,0,0,2501,5,0,0,4
+168,Alexander (fatal),195703,321,0,0,0,2502,1,0,0,4
+169,Alexander (fatal),197703,321,0,0,0,2502,3,0,0,4
+170,Alexander (fatal),198703,321,0,0,0,2502,4,0,0,4
+171,Alexander (fatal),199703,321,0,0,0,2502,5,0,0,4
+172,Drachenkrieg (fatal),195704,322,0,0,0,2503,1,0,0,4
+173,Drachenkrieg (fatal),197704,322,0,0,0,2503,3,0,0,4
+174,Drachenkrieg (fatal),198704,322,0,0,0,2503,4,0,0,4
+175,Drachenkrieg (fatal),199704,322,0,0,0,2503,5,0,0,4
+176,Unstetes Gewölbe: Die Unterstadt von Sil'dih,194701,343,0,0,0,2400,2,0,0,4
+177,Unstetes Gewölbe: Die Unterstadt von Sil'dih,197705,343,0,0,0,2400,3,0,0,4
+178,,0,0,0,0,0,0,0,0,0,0
+179,Aufträge der Omikron,199966,344,0,0,0,2315,5,0,0,3
+180,Café,194012,1,0,0,0,11,2,0,0,1
+181,Karo,194013,1,0,0,0,12,2,0,0,1
+182,Funkelnd,194014,1,0,0,0,13,2,0,0,1
+183,Vertikale Streifen,194015,1,0,0,0,14,2,0,0,1
+184,Horizontale Streifen,194016,1,0,0,0,15,2,0,0,1
+185,Herzen,194017,1,0,0,0,16,2,0,0,1
+186,Chevronstreifen ,194018,1,0,0,0,17,2,0,0,1
+187,Hanfblattmuster,194019,1,0,0,0,18,2,0,0,1
+188,Gingham-Muster ,194020,1,0,0,0,19,2,0,0,1
+189,Kristall,194021,1,0,0,0,20,2,0,0,1
+190,Fernöstlich,195012,1,0,0,0,11,1,0,0,1
+191,Zickzack,198012,1,0,0,0,11,4,0,0,1
+192,Deko-Tape: Warme Farbtöne,198013,1,0,0,0,12,4,0,0,1
+193,Deko-Tape: Kalte Farbtöne,198014,1,0,0,0,13,4,0,0,1
+194,Café,199012,1,0,0,0,11,5,0,0,1
+195,Plektren,199013,347,0,0,0,13,5,0,0,7
+196,Geige,199014,347,0,0,0,12,5,0,0,7
+197,Marionette Nr. 001,234401,348,0,0,0,5600,5,1,0,6
+198,Chocobo-Küken,234402,349,0,0,0,5000,5,1,0,6
+199,Kirschbomber,234403,350,0,0,0,5050,5,1,0,6
+200,Baby-Behemoth,234405,351,608,0,793,5051,5,1,0,6
+201,Morbol-Knolle,234412,352,0,0,0,5052,5,1,0,6
+202,Staubhäschen,234424,353,0,0,0,5061,5,1,0,6
+203,Kaktorfigur,234429,354,0,0,0,5062,5,1,0,6
+204,Mini-Krabbe,234430,355,0,0,0,5063,5,1,0,6
+205,Baby-Goobbue,234436,356,0,0,0,5075,5,1,0,6
+206,Dämonenwürfel,234439,357,0,0,0,5076,5,1,0,6
+207,Zeigerhändchen,234444,358,609,0,794,5654,5,1,0,6
+208,Qiqirn-Stofftier,234446,359,0,0,0,5350,5,1,0,6
+209,Wolfshundwelpe,234450,360,0,0,0,5064,5,1,0,6
+210,Mini-Coeurl,234452,361,0,0,0,5056,5,1,0,6
+211,Tomberry-Stofftier,234453,362,0,0,0,5059,5,1,0,6
+212,Emsiger Besen,234471,363,0,0,0,5655,5,1,0,6
+213,Mogry-Stofftier,234472,364,610,0,795,5002,5,1,0,6
+214,Nussfresser,234487,365,0,0,0,5201,5,1,0,6
+215,Dicke Katze,234507,366,0,0,0,5202,5,1,0,6
+216,Flusskobold,234511,367,0,0,0,5750,5,1,0,6
+217,Begleitmodul,234542,368,0,0,0,5650,5,1,0,6
+218,Paissa-Fratz,234558,369,0,0,0,5088,5,1,0,6
+219,Korpokkur-Pflänzchen,234566,370,0,0,0,5090,5,1,0,6
+220,Obskurer Otter,234641,371,0,0,0,5251,5,1,0,6
+221,Aufzieh-Namazuo,234653,372,0,0,0,5351,5,1,0,6
+222,Khloe-Puppe,234660,373,0,0,0,5542,5,1,0,6
+223,Mameshiba,234667,374,0,0,0,5210,5,1,0,6
+224,Kleine Schlange von Ronka,234737,375,0,0,0,5216,5,1,0,6
+225,Riesenbiber,234742,376,0,0,0,5352,5,1,0,6
+226,Haikrieger,234775,377,0,0,0,5258,5,1,0,6
+227,Cait Sith-Puppe,234404,378,611,0,796,5601,5,1,0,6
+228,Blaues Vögelchen,234416,379,0,0,0,5300,5,1,0,6
+229,Dodo-Küken,234432,380,0,0,0,5065,5,1,0,6
+230,Apkallu-Küken,234435,381,0,0,0,5074,5,1,0,6
+231,Schäfchen,234441,382,0,0,0,5077,5,1,0,6
+232,Kindragora,234442,383,0,0,0,5066,5,1,0,6
+233,Schnatterfauler Kolibri,234462,384,0,0,0,5080,5,1,0,6
+234,Sukkubus-Puppe,234475,385,0,0,0,5082,5,1,0,6
+235,Aufzieh-Gilgamesch,234476,386,612,624,797,5566,5,1,0,6
+236,Prinz Zwiebel,234477,387,0,0,0,5067,5,1,0,6
+237,Ritter Aubergine,234478,388,0,0,0,5068,5,1,0,6
+238,Sir Knoblauch,234479,389,0,0,0,5069,5,1,0,6
+239,König Tomate,234480,390,0,0,0,5070,5,1,0,6
+240,Königin Mandragora,234481,391,0,0,0,5071,5,1,0,6
+241,Aufzieh-Ultros,234504,392,0,0,0,5568,5,1,0,6
+242,Aufzieh-Enkidu,234521,393,0,0,0,5567,5,1,0,6
+243,Mini-Atomos,234529,394,0,0,0,5085,5,1,0,6
+244,Geira-Kätzchen,234532,395,0,0,0,5086,5,1,0,6
+245,Rotpanda-Stofftier,234534,396,0,0,0,5204,5,1,0,6
+246,Pinguinprinz,234564,397,0,0,0,5304,5,1,0,6
+247,Ferkelchen,234600,398,0,0,0,5751,5,1,0,6
+248,Frischling,234616,399,0,0,0,5095,5,1,0,6
+249,Straßenspatz,234647,400,0,0,0,5305,5,1,0,6
+250,Aufzieh-Chimära,234655,401,0,0,0,5602,5,1,0,6
+251,Schnee-Korpokkur,234719,402,0,0,0,5096,5,1,0,6
+252,Fuchswelpe,234642,403,0,0,0,5207,5,1,0,6
+253,Schuhschnäbelchen,234749,404,0,0,0,5306,5,1,0,6
+254,Mini-Quiexie,234753,405,0,0,0,5097,5,1,0,6
+255,Sandfuchs,234787,406,0,0,0,5220,5,1,0,6
+256,Anhänglicher Momora Mora,234796,407,0,0,0,5260,5,1,0,6
+257,Aufträge der Pixies,199962,429,0,0,0,2311,5,0,0,3
+258,Aufträge der Qitari,199963,430,0,0,0,2312,5,0,0,3
+259,Aufträge der Zwerge,199964,431,0,0,0,2313,5,0,0,3
+260,Aufträge der Arkasodara,199965,432,0,0,0,2314,5,0,0,3
+261,Aufträge der Loporrit,199967,433,0,0,0,2316,5,0,0,3
+262,Omega (fatal),195705,434,0,0,0,2504,1,0,0,4
+263,Omega (fatal),197706,434,0,0,0,2504,3,0,0,4
+264,Omega (fatal),198705,434,0,0,0,2504,4,0,0,4
+265,Omega (fatal),199705,434,0,0,0,2504,5,0,0,4
+266,Chocopummelchen,234506,435,0,0,0,5001,5,1,0,6
+267,Schleimpfütze,234451,436,0,0,0,5078,5,1,0,6
+268,Stoff-Opo-Opo,234470,437,0,0,0,5081,5,1,0,6
+269,Kleinfuß,234508,438,0,0,0,5083,5,1,0,6
+270,Stumpfauge,234563,439,0,0,0,5089,5,1,0,6
+271,Morpho,234579,440,0,0,0,5091,5,1,0,6
+272,Poro Roggo,234580,441,0,0,0,5092,5,1,0,6
+273,Tröpfel,234805,442,0,0,0,5099,5,1,0,6
+274,Bom Boko,234646,443,0,0,0,5209,5,1,0,6
+275,Igel,234730,444,0,0,0,5214,5,1,0,6
+276,Flughörnchen,234862,445,0,0,0,5227,5,1,0,6
+277,Ghido,234658,446,0,0,0,5252,5,1,0,6
+278,Gomashio-Seehund,234672,447,0,0,0,5253,5,1,0,6
+279,Axolotl-Molch,234673,448,0,0,0,5254,5,1,0,6
+280,Baby-Schnabeltier,234740,449,0,0,0,5256,5,1,0,6
+281,Hässliches Entlein,234531,450,0,0,0,5302,5,1,0,6
+282,Byakko-Jungtier,234684,451,0,0,0,5461,5,1,0,6
+283,Feuerpfau,234703,452,0,0,0,5462,5,1,0,6
+284,Seitei,234727,453,0,0,0,5464,5,1,0,6
+285,Y'shtola-Puppe,234500,454,0,0,0,5500,5,1,0,6
+286,Minfilia-Puppe,234488,455,0,0,0,5503,5,1,0,6
+287,Thancred-Puppe,234489,456,0,0,0,5504,5,1,0,6
+288,Yda-Puppe,234501,457,0,0,0,5506,5,1,0,6
+289,Papalymo-Puppe,234502,458,0,0,0,5508,5,1,0,6
+290,Urianger-Puppe,234503,459,0,0,0,5509,5,1,0,6
+291,Aufzieh-Alphinaud,234519,460,0,0,0,5513,5,1,0,6
+292,Aufzieh-Alisaie,234520,461,0,0,0,5514,5,1,0,6
+293,Tataru-Puppe,234526,462,0,0,0,5516,5,1,0,6
+294,Cid-Puppe,234527,463,0,0,0,5518,5,1,0,6
+295,Miaurizius-Puppe,234856,464,0,0,0,5603,5,1,0,6
+296,Tiefes Gewölbe: Eureka Orthos 1,197711,465,0,0,0,2358,3,0,0,4
+297,Tiefes Gewölbe: Eureka Orthos 2,197712,466,0,0,0,2359,3,0,0,4
+298,Die vier Tierheiligen,198706,467,0,0,0,2251,4,0,0,3
+299,Inselparadies 1,198707,468,0,0,0,2340,4,0,0,8
+300,Inselparadies 2,198708,469,0,0,0,2341,4,0,0,8
+301,Inselparadies 1,199706,468,0,0,0,2340,5,0,0,8
+302,Inselparadies 2,199707,469,0,0,0,2341,5,0,0,8
+303,Silkie-Schwämmchen,234863,472,0,0,0,5103,5,1,0,6
+304,Chiwauwau,234848,473,0,0,0,5228,5,1,0,6
+305,Geira-Flauschekatze,234784,474,0,0,0,5087,5,1,0,6
+306,Nana-Stoffbär,234485,475,0,0,0,5200,5,1,0,6
+307,Schwarzer Shiba-Welpe,234733,476,0,0,0,5211,5,1,0,6
+308,Koala-Bärchen,234671,477,0,0,0,5212,5,1,0,6
+309,Capybara-Jungtier,234716,478,0,0,0,5213,5,1,0,6
+310,Fähnchen,234822,479,0,0,0,5222,5,1,0,6
+311,Corgi,234867,480,0,0,0,5229,5,1,0,6
+312,Langschwanzmeise,234771,481,0,0,0,5307,5,1,0,6
+313,Laub-Klauber,234838,482,0,0,0,5102,5,1,0,6
+314,Arkasodara-Puppe,234844,483,0,0,0,5400,5,1,0,6
+315,Grebuloff-Puppe,234839,484,0,0,0,5353,5,1,0,6
+316,Findingway,234872,485,0,0,0,5354,5,1,0,6
+317,Optimus Omikron,234825,486,0,0,0,5651,5,1,0,6
+318,Männliche Omega-Puppe,234744,487,0,0,0,5151,5,1,0,6
+319,Weibliche Omega-Puppe,234745,488,0,0,0,5152,5,1,0,6
+320,Mini-Omega,234705,489,0,0,0,5150,5,1,0,6
+321,Alpha-Puppe,234704,490,0,0,0,5573,5,1,0,6
+322,Krile-Puppe,234605,491,0,0,0,5519,5,1,0,6
+323,Moenbryda-Puppe,234624,492,0,0,0,5521,5,1,0,6
+324,Hildibrand-Puppe,234515,493,0,0,0,5522,5,1,0,6
+325,Nanamo-Puppe,234499,494,613,625,798,5528,5,1,0,6
+326,Haurchefant-Puppe,234568,495,0,0,0,5532,5,1,0,6
+327,Aymeric-Puppe,234606,496,0,0,0,5534,5,1,0,6
+328,Estinien-Puppe,234628,497,0,0,0,5536,5,1,0,6
+329,Nero-Puppe,234575,498,0,0,0,5533,5,1,0,6
+330,Aufzieh-Raubahn,234555,499,614,621,799,5526,5,1,0,6
+331,Aufzieh-Kan-E,234553,500,615,622,800,5525,5,1,0,6
+332,Aufzieh-Merlwyb,234554,501,616,623,801,5524,5,1,0,6
+333,Aufträge der Kojin,199960,524,0,0,0,2308,5,0,0,3
+334,Aufträge der Ananta,199959,525,0,0,0,2309,5,0,0,3
+335,Aufträge der Namazuo,199961,526,0,0,0,2310,5,0,0,3
+336,Das Ende einer Ära,197713,527,0,0,0,2250,3,0,0,3
+337,Das Ende einer Ära,198709,527,0,0,0,2250,4,0,0,3
+338,Das Ende einer Ära,199708,527,0,0,0,2250,5,0,0,3
+339,10. Jubiläum,198710,523,0,0,0,3950,4,0,0,7
+340,10. Jubiläum,199709,523,0,0,0,3950,5,0,0,7
+341,Unstetes Gewölbe: Der Rokkon,194702,528,0,0,0,2401,2,0,0,4
+342,Unstetes Gewölbe: Der Rokkon,197714,528,0,0,0,2401,3,0,0,4
+343,Fischer auf großer Fahrt,195706,529,0,0,0,2343,1,0,0,8
+344,Fischer auf großer Fahrt,197715,529,0,0,0,2343,3,0,0,8
+345,Fischer auf großer Fahrt,198711,529,0,0,0,2343,4,0,0,8
+346,Fischer auf großer Fahrt,199710,529,0,0,0,2343,5,0,0,8
+347,Kapitalbeschaffung,195707,530,0,0,0,2344,1,0,0,8
+348,Kapitalbeschaffung,197716,530,0,0,0,2344,3,0,0,8
+349,Kapitalbeschaffung,198712,530,0,0,0,2344,4,0,0,8
+350,Kapitalbeschaffung,199711,530,0,0,0,2344,5,0,0,8
+351,Mahjong-Profi,195708,531,0,0,0,2350,1,0,0,8
+352,Mahjong-Profi,198713,531,0,0,0,2350,4,0,0,8
+353,Mahjong-Profi,199712,531,0,0,0,2350,5,0,0,8
+354,Das Ende einer Ära,195709,527,0,0,0,2250,1,0,0,3
+355,Privat-Pachypodium,234873,534,0,0,0,5072,5,1,0,6
+356,Shiromaru,234886,535,0,0,0,5231,5,1,0,6
+357,Kuromaru,234890,536,0,0,0,5232,5,1,0,6
+358,Moai-Statuette,234678,537,0,0,0,5656,5,1,0,6
+359,Azeyma-Puppe,234851,538,0,0,0,5154,5,1,0,6
+360,Aufzieh-Halone,234874,539,0,0,0,5155,5,1,0,6
+361,Aufzieh-Oschon,234894,540,0,0,0,5156,5,1,0,6
+362,Kiesgolem,234419,541,0,0,0,5058,5,1,0,6
+363,Mini-Mumie,234509,542,0,0,0,5084,5,1,0,6
+364,Fenrir-Welpe,234582,543,0,0,0,5093,5,1,0,6
+365,Kleine Leanan,234761,544,0,0,0,5098,5,1,0,6
+366,Zwergkaninchen,234609,545,0,0,0,5206,5,1,0,6
+367,Erdmännchen,234756,546,0,0,0,5219,5,1,0,6
+368,Fliegender Kampffisch,234510,547,0,0,0,5250,5,1,0,6
+369,Eulette,234530,548,0,0,0,5301,5,1,0,6
+370,Jagdfalke,234562,549,0,0,0,5303,5,1,0,6
+371,Blaufußtölpel,234853,550,0,0,0,5308,5,1,0,6
+372,Neue Y'shtola-Puppe,234596,551,0,0,0,5501,5,1,0,6
+373,Neue Thancred-Puppe,234617,552,0,0,0,5505,5,1,0,6
+374,Aufzieh-Louisoix,234512,553,0,0,0,5511,5,1,0,6
+375,Neue Alisaie-Puppe,234618,554,0,0,0,5515,5,1,0,6
+376,Aufzieh-Godbert,234876,555,0,0,0,5523,5,1,0,6
+377,Eisherz-Puppe,234538,556,617,0,802,5529,5,1,0,6
+378,Yugiri-Puppe,234543,557,618,0,803,5530,5,1,0,6
+379,Edda-Puppe,234619,558,0,0,0,5535,5,1,0,6
+380,Zhloe-Puppe,234698,559,0,0,0,5541,5,1,0,6
+381,G'raha Tia-Puppe,234706,560,0,0,0,5547,5,1,0,6
+382,Midgardsormr,234518,561,0,0,0,5569,5,1,0,6
+383,Hraesvelgr-Stofftier,234629,562,619,626,804,5570,5,1,0,6
+384,Nidhogg-Stofftier,234633,563,620,0,805,5571,5,1,0,6
+385,Pinke Bohne,234899,564,0,0,0,5800,5,1,0,6
+386,Pegwin,234900,565,0,0,0,5801,5,1,0,6
+387,Kleiner Torgal,234898,566,0,0,0,5701,5,1,0,6
+388,Aufträge der Vanu Vanu,199956,567,0,0,0,2305,5,0,0,3
+389,Aufträge der Gnath,199957,568,0,0,0,2306,5,0,0,3
+390,Aufträge der Mogrys,199958,569,0,0,0,2307,5,0,0,3
+391,Mythen Eorzeas,197720,572,0,0,0,2252,3,0,0,3
+392,Mythen Eorzeas,198717,572,0,0,0,2252,4,0,0,3
+393,Mythen Eorzeas,199715,572,0,0,0,2252,5,0,0,3
+394,Tatarus Wohlstandsmanufaktur,197719,573,0,0,0,2242,3,0,0,3
+395,Tatarus Wohlstandsmanufaktur,198716,573,0,0,0,2242,4,0,0,3
+396,Unstetes Gewölbe: Aloalo,194703,574,0,0,0,2402,2,0,0,4
+397,Unstetes Gewölbe: Aloalo,197721,574,0,0,0,2402,3,0,0,4
+398,Khloes Abenteueralbum,195710,570,0,0,0,2351,1,0,0,8
+399,Khloes Abenteueralbum,197717,570,0,0,0,2351,3,0,0,8
+400,Khloes Abenteueralbum,198714,570,0,0,0,2351,4,0,0,8
+401,Khloes Abenteueralbum,199713,570,0,0,0,2351,5,0,0,8
+402,Traumtafel,195711,571,0,0,0,2352,1,0,0,8
+403,Traumtafel,197718,571,0,0,0,2352,3,0,0,8
+404,Traumtafel,198715,571,0,0,0,2352,4,0,0,8
+405,Traumtafel,199714,571,0,0,0,2352,5,0,0,8
+406,Stolperville 1,195712,575,0,0,0,3951,1,0,0,7
+407,Stolperville 2,195713,576,0,0,0,3952,1,0,0,7
+408,Stolperville 3,195714,577,0,0,0,3953,1,0,0,7
+409,Yo-kai Watch,195715,607,0,0,0,3954,1,0,0,7
+410,Yo-kai Watch,198718,607,0,0,0,3954,4,0,0,7
+411,Yo-kai Watch,199716,607,0,0,0,3954,5,0,0,7
+412,Repulu,234906,643,0,0,0,5215,5,1,0,6
+413,Uolosapa,234891,644,0,0,0,5310,5,1,0,6
+414,Kobalos-Larve,234433,645,0,0,0,5073,5,1,0,6
+415,Kydonias Ausgang,234895,646,0,0,0,5658,5,1,0,6
+416,Aufzieh-Koyo-Koyo,234854,647,0,0,0,5700,5,1,0,6
+417,Papageientaucher,234878,648,0,0,0,5309,5,1,0,6
+418,Schimpanse,234883,649,0,0,0,5230,5,1,0,6
+419,Lyse-Puppe,234648,658,0,0,0,5507,5,1,0,6
+420,Hien-Puppe,234664,659,0,0,0,5540,5,1,0,6
+421,Neue Yugiri-Puppe,234649,660,0,0,0,5531,5,1,0,6
+422,Gosetsu-Puppe,234650,661,0,0,0,5538,5,1,0,6
+423,Yotsuyu-Puppe,234651,662,708,714,806,5539,5,1,0,6
+424,Aufzieh-Grynewaht,234652,663,0,0,0,5546,5,1,0,6
+425,Neue Raubahn-Puppe,234676,664,0,0,0,5527,5,1,0,6
+426,Magnai-Puppe,234682,665,0,0,0,5544,5,1,0,6
+427,Cirina-Puppe,234697,666,0,0,0,5543,5,1,0,6
+428,Sadu-Puppe,234696,667,0,0,0,5545,5,1,0,6
+429,Neue Tataru-Puppe,234720,668,709,715,807,5517,5,1,0,6
+430,Aufzieh-Suzaku,234743,669,710,716,808,5463,5,1,0,6
+431,Splitterwelt-Y'shtola,234731,670,0,0,0,5502,5,1,0,6
+432,Neue Urianger-Puppe,234829,671,0,0,0,5510,5,1,0,6
+433,Neue Estinien-Puppe,234760,672,0,0,0,5537,5,1,0,6
+434,Lyna-Puppe,234816,673,711,717,809,5553,5,1,0,6
+435,Runar-Puppe,234817,674,712,718,810,5554,5,1,0,6
+436,Dulia-Chai-Puppe,234776,675,713,719,811,5549,5,1,0,6
+437,Ryne-Puppe,234732,676,0,0,0,5548,5,1,0,6
+438,Gaia-Puppe,234798,677,0,0,0,5552,5,1,0,6
+439,Mystel-Puppe,234781,678,0,0,0,5550,5,1,0,6
+440,Aufzieh-Ardbert,234782,679,0,0,0,5551,5,1,0,6
+441,Aufzieh-Solus,234855,680,0,0,0,5556,5,1,0,6
+442,Kleine Ratte,234413,650,0,0,0,5053,5,1,0,6
+443,Mini-Pilz,234414,651,0,0,0,5054,5,1,0,6
+444,Stechmücken-Larve,234415,652,0,0,0,5055,5,1,0,6
+445,Schwarzer Coeurl,234514,653,0,0,0,5057,5,1,0,6
+446,Baby-Raptor,234421,654,0,0,0,5060,5,1,0,6
+447,Mini-Gedankenschinder,234461,655,0,0,0,5079,5,1,0,6
+448,Kleinhorn,234528,656,0,0,0,5203,5,1,0,6
+449,Gestahl-Schoßhund,234539,657,0,0,0,5205,5,1,0,6
+450,Viper,194241,705,0,0,0,2063,2,0,0,2
+451,Piktomant,194242,706,0,0,0,2070,2,0,0,2
+452,Aufträge der Kobolde,199954,694,0,0,0,2302,5,0,0,3
+453,Aufträge der Sylphen,199952,695,0,0,0,2301,5,0,0,3
+454,Aufträge der Amalj'aa,199951,696,0,0,0,2300,5,0,0,3
+455,Aufträge der Sahagin,199955,697,0,0,0,2303,5,0,0,3
+456,Aufträge der Ixal,199953,698,0,0,0,2304,5,0,0,3
+457,Tuliyollal 1,195662,701,0,0,0,1036,1,0,0,9
+458,Tuliyollal 1,197662,701,0,0,0,1036,3,0,0,9
+459,Tuliyollal 1,198662,701,0,0,0,1036,4,0,0,9
+460,Tuliyollal 2,195663,702,0,0,0,1037,1,0,0,9
+461,Tuliyollal 2,197663,702,0,0,0,1037,3,0,0,9
+462,Tuliyollal 2,198663,702,0,0,0,1037,4,0,0,9
+463,Lösung Neun 1,195664,699,0,0,0,1038,1,0,0,9
+464,Lösung Neun 1,197664,699,0,0,0,1038,3,0,0,9
+465,Lösung Neun 1,198664,699,0,0,0,1038,4,0,0,9
+466,Lösung Neun 2,195665,700,0,0,0,1039,1,0,0,9
+467,Lösung Neun 2,197665,700,0,0,0,1039,3,0,0,9
+468,Lösung Neun 2,198665,700,0,0,0,1039,4,0,0,9
+469,Delphinkalb,234810,729,0,0,0,5261,5,1,0,6
+470,Sternenvogel,234827,730,0,0,0,5574,5,1,0,6
+471,Nagxianische Katze,234828,731,0,0,0,5223,5,1,0,6
+472,Aufzieh-Vrtra,234830,732,0,0,0,5572,5,1,0,6
+473,Krabbenkrebs,234832,733,0,0,0,5225,5,1,0,6
+474,Lunatender-Prinz,234833,734,0,0,0,5100,5,1,0,6
+475,Heroische Puppe,234841,735,0,0,0,5555,5,1,0,6
+476,Königlicher Lunatender,234843,736,0,0,0,5101,5,1,0,6
+477,Philos-Puppe,234865,737,0,0,0,5558,5,1,0,6
+478,Erichthonios-Puppe,234866,738,0,0,0,5559,5,1,0,6
+479,Aufzieh-Aidoneus,234877,739,0,0,0,5557,5,1,0,6
+480,Aufzieh-Athena,234887,740,0,0,0,5560,5,1,0,6
+481,Badesion,234896,741,0,0,0,5604,5,1,0,6
+482,Hydaelyn-Götze,234901,742,784,788,812,5564,5,1,0,6
+483,Zodiark-Götze,234902,743,785,789,813,5565,5,1,0,6
+484,Aufzieh-Fourchenault,234903,744,786,790,814,5512,5,1,0,6
+485,Alpaka-Cria,234909,745,0,0,0,5233,5,1,0,6
+486,Ilyikty'i,234912,746,0,0,0,5234,5,1,0,6
+487,Quetzal,234913,747,0,0,0,5311,5,1,0,6
+488,Kurzbeiniger Kojote,234914,748,0,0,0,5235,5,1,0,6
+489,Meister Mais,234916,749,0,0,0,5659,5,1,0,6
+490,Murmelkaktor,234917,750,0,0,0,5104,5,1,0,6
+491,Blaugraue Katze,234918,751,0,0,0,5236,5,1,0,6
+492,Zinnwächter T1,234922,752,0,0,0,5652,5,1,0,6
+493,Neue Krile-Puppe,234925,753,0,0,0,5520,5,1,0,6
+494,Zero-Puppe,234926,754,787,791,815,5562,5,1,0,6
+495,Aufzieh-Erenville,234927,755,0,0,0,5563,5,1,0,6
+496,Aufträge der Pelupelu,199968,767,0,0,0,2317,5,0,0,3
+497,Ishgard 1,195654,768,0,0,0,1020,1,0,0,9
+498,Ishgard 1,197654,768,0,0,0,1020,3,0,0,9
+499,Ishgard 1,198654,768,0,0,0,1020,4,0,0,9
+500,Ishgard 2,195672,769,0,0,0,1021,1,0,0,9
+501,Ishgard 2,197672,769,0,0,0,1021,3,0,0,9
+502,Ishgard 2,198672,769,0,0,0,1021,4,0,0,9
+503,Frohehalde 1,195655,770,0,0,0,1022,1,0,0,9
+504,Frohehalde 1,197655,770,0,0,0,1022,3,0,0,9
+505,Frohehalde 1,198655,770,0,0,0,1022,4,0,0,9
+506,Frohehalde 2,195673,771,0,0,0,1023,1,0,0,9
+507,Frohehalde 2,197673,771,0,0,0,1023,3,0,0,9
+508,Frohehalde 2,198673,771,0,0,0,1023,4,0,0,9
+509,Kugane 1,195656,772,0,0,0,1024,1,0,0,9
+510,Kugane 1,197656,772,0,0,0,1024,3,0,0,9
+511,Kugane 1,198656,772,0,0,0,1024,4,0,0,9
+512,Kugane 2,195668,773,0,0,0,1025,1,0,0,9
+513,Kugane 2,197666,773,0,0,0,1025,3,0,0,9
+514,Kugane 2,198666,773,0,0,0,1025,4,0,0,9
+515,Rhalgrs Wacht 1,195657,774,0,0,0,1026,1,0,0,9
+516,Rhalgrs Wacht 1,197657,774,0,0,0,1026,3,0,0,9
+517,Rhalgrs Wacht 1,198657,774,0,0,0,1026,4,0,0,9
+518,Rhalgrs Wacht 2,195669,775,0,0,0,1027,1,0,0,9
+519,Rhalgrs Wacht 2,197667,775,0,0,0,1027,3,0,0,9
+520,Rhalgrs Wacht 2,198667,775,0,0,0,1027,4,0,0,9
+521,Crystarium 1,195658,776,0,0,0,1028,1,0,0,9
+522,Crystarium 1,197658,776,0,0,0,1028,3,0,0,9
+523,Crystarium 1,198658,776,0,0,0,1028,4,0,0,9
+524,Crystarium 2,195670,777,0,0,0,1029,1,0,0,9
+525,Crystarium 2,197670,777,0,0,0,1029,3,0,0,9
+526,Crystarium 2,198670,777,0,0,0,1029,4,0,0,9
+527,Eulmore 1,195659,778,0,0,0,1030,1,0,0,9
+528,Eulmore 1,197659,778,0,0,0,1030,3,0,0,9
+529,Eulmore 1,198659,778,0,0,0,1030,4,0,0,9
+530,Eulmore 2,195671,779,0,0,0,1031,1,0,0,9
+531,Eulmore 2,197671,779,0,0,0,1031,3,0,0,9
+532,Eulmore 2,198671,779,0,0,0,1031,4,0,0,9
+533,Alt-Sharlayan 1,195660,780,0,0,0,1032,1,0,0,9
+534,Alt-Sharlayan 1,197660,780,0,0,0,1032,3,0,0,9
+535,Alt-Sharlayan 1,198660,780,0,0,0,1032,4,0,0,9
+536,Alt-Sharlayan 2,195666,781,0,0,0,1033,1,0,0,9
+537,Alt-Sharlayan 2,197668,781,0,0,0,1033,3,0,0,9
+538,Alt-Sharlayan 2,198668,781,0,0,0,1033,4,0,0,9
+539,Radz-at-Han 1,195661,782,0,0,0,1034,1,0,0,9
+540,Radz-at-Han 1,197661,782,0,0,0,1034,3,0,0,9
+541,Radz-at-Han 1,198661,782,0,0,0,1034,4,0,0,9
+542,Radz-at-Han 2,195667,783,0,0,0,1035,1,0,0,9
+543,Radz-at-Han 2,197669,783,0,0,0,1035,3,0,0,9
+544,Radz-at-Han 2,198669,783,0,0,0,1035,4,0,0,9
+545,Sasquatch-Stofftier,234608,822,0,0,0,5094,5,1,0,6
+546,Schwarzes Kätzchen,234924,823,0,0,0,5153,5,1,0,6
+547,Tora-jiro,234643,824,0,0,0,5208,5,1,0,6
+548,Wasserschlange des Hopl,234769,825,0,0,0,5217,5,1,0,6
+549,Wasserschlange der Qitari,234770,826,0,0,0,5218,5,1,0,6
+550,Ameisenbär,234809,827,0,0,0,5221,5,1,0,6
+551,Flusspferdkalb,234831,828,0,0,0,5224,5,1,0,6
+552,Aufzieh-Känguru,234845,829,0,0,0,5226,5,1,0,6
+553,Shshuye,234932,830,0,0,0,5237,5,1,0,6
+554,Aurelia-Polyp,234683,831,0,0,0,5255,5,1,0,6
+555,Domakin,234759,832,0,0,0,5257,5,1,0,6
+556,Laladil,234778,833,0,0,0,5259,5,1,0,6
+557,Mini-Punutiy,234907,834,0,0,0,5262,5,1,0,6
+558,Tuka-Tukitu,234931,835,0,0,0,5312,5,1,0,6
+559,Mini-Ifrit,234567,836,0,0,0,5450,5,1,0,6
+560,Mini-Garuda,234572,837,0,0,0,5451,5,1,0,6
+561,Mini-Titan,234573,838,0,0,0,5452,5,1,0,6
+562,Mini-Leviathan,234574,839,0,0,0,5453,5,1,0,6
+563,Mini-Ramuh,234598,840,0,0,0,5454,5,1,0,6
+564,Mini-Shiva,234599,841,0,0,0,5455,5,1,0,6
+565,Mini-Odin,234468,842,0,0,0,5456,5,1,0,6
+566,Aufzieh-Bismarck,234663,843,0,0,0,5457,5,1,0,6
+567,Mini-Ravana,234665,844,0,0,0,5458,5,1,0,6
+568,Susano-Puppe,234661,845,0,0,0,5459,5,1,0,6
+569,Lakshmi-Puppe,234662,846,0,0,0,5460,5,1,0,6
+570,Themis-Puppe,234938,847,0,0,0,5561,5,1,0,6
+571,Pelupelu-Puppe,234934,848,0,0,0,5605,5,1,0,6
+572,Spielzeugsoldat S3,234935,849,0,0,0,5653,5,1,0,6
+573,Allagische Melone,234786,850,0,0,0,5657,5,1,0,6
+574,Meister Messer,234936,851,0,0,0,5660,5,1,0,6
+575,Eine zweite Zukunft,195716,872,0,0,0,2505,1,0,0,4
+576,Eine zweite Zukunft,197722,872,0,0,0,2505,3,0,0,4
+577,Eine zweite Zukunft,198719,872,0,0,0,2505,4,0,0,4
+578,Eine zweite Zukunft,199717,872,0,0,0,2505,5,0,0,4
+579,Aufträge der Mamool Ja,199969,873,0,0,0,2318,5,0,0,3
+580,Tiefes Gewölbe: Palast der Toten 1,197707,874,0,0,0,2354,3,0,0,4
+581,Tiefes Gewölbe: Palast der Toten 2,197708,875,0,0,0,2355,3,0,0,4
+582,Tiefes Gewölbe: Himmelssäule 1,197709,876,0,0,0,2356,3,0,0,4
+583,Tiefes Gewölbe: Himmelssäule 2,197710,877,0,0,0,2357,3,0,0,4
+584,Kreszentia,195717,879,0,0,0,2403,1,0,0,4
+585,Kreszentia,197723,879,0,0,0,2403,3,0,0,4
+586,Kreszentia,198720,879,0,0,0,2403,4,0,0,4
+587,Kosmo-Erkundung,195718,878,0,0,0,2342,1,0,0,8
+588,Kosmo-Erkundung,198721,878,0,0,0,2342,4,0,0,8
+589,Kosmo-Erkundung,199718,878,0,0,0,2342,5,0,0,8
+590,,0,0,0,0,0,0,0,0,0,0

@@ -1,594 +1,592 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10
-#,Category,SubType,Image,,UnlockCondition,,,,SortKey,Name,
-int32,byte,byte,Image,byte,BannerCondition,uint16,uint16,uint16,byte,uint16,str
-0,0,0,,0,"BannerCondition#1",0,0,0,0,0,"Aucun"
-1,2,0,"ui/icon/194000/194002.tex",0,"BannerCondition#1",0,0,0,1,1,"Brillant"
-2,2,0,"ui/icon/194000/194003.tex",0,"BannerCondition#1",0,0,0,1,6,"Carrés"
-3,2,0,"ui/icon/194000/194004.tex",0,"BannerCondition#1",0,0,0,1,7,"Pointillés"
-4,2,0,"ui/icon/194000/194005.tex",0,"BannerCondition#1",0,0,0,1,8,"Damier"
-5,2,0,"ui/icon/194000/194006.tex",0,"BannerCondition#1",0,0,0,1,2,"Quadrillage"
-6,2,0,"ui/icon/194000/194007.tex",0,"BannerCondition#1",0,0,0,1,3,"Traits diagonaux"
-7,2,0,"ui/icon/194000/194008.tex",0,"BannerCondition#1",0,0,0,1,4,"Séparation diagonale"
-8,2,0,"ui/icon/194000/194009.tex",0,"BannerCondition#1",0,0,0,1,5,"Triangles"
-9,2,0,"ui/icon/194000/194010.tex",0,"BannerCondition#1",0,0,0,1,10,"Parchemin"
-10,2,0,"ui/icon/194000/194011.tex",0,"BannerCondition#1",0,0,0,1,9,"Coins décorés"
-11,1,0,"ui/icon/195000/195002.tex",0,"BannerCondition#1",0,0,0,1,1,"Ombre portée"
-12,1,0,"ui/icon/195000/195003.tex",0,"BannerCondition#1",0,0,0,1,2,"Liseré lumineux"
-13,1,0,"ui/icon/195000/195004.tex",0,"BannerCondition#1",0,0,0,1,3,"Violet à pois"
-14,1,0,"ui/icon/195000/195005.tex",0,"BannerCondition#1",0,0,0,1,4,"Carnet"
-15,1,0,"ui/icon/195000/195006.tex",0,"BannerCondition#1",0,0,0,1,5,"Fouillis"
-16,1,0,"ui/icon/195000/195007.tex",0,"BannerCondition#1",0,0,0,1,6,"Cercles magiques"
-17,1,0,"ui/icon/195000/195008.tex",0,"BannerCondition#1",0,0,0,1,7,"Parchemin"
-18,1,0,"ui/icon/195000/195009.tex",0,"BannerCondition#1",0,0,0,1,8,"Coups de pinceau"
-19,1,0,"ui/icon/195000/195010.tex",0,"BannerCondition#1",0,0,0,1,9,"Panneau métallique"
-20,1,0,"ui/icon/195000/195011.tex",0,"BannerCondition#1",0,0,0,1,10,"Livre"
-21,3,0,"ui/icon/197000/197002.tex",0,"BannerCondition#1",0,0,0,1,3,"Bannière"
-22,3,0,"ui/icon/197000/197003.tex",0,"BannerCondition#1",0,0,0,1,4,"Rappelé"
-23,3,0,"ui/icon/197000/197004.tex",0,"BannerCondition#1",0,0,0,1,5,"Cercle de métal"
-24,3,0,"ui/icon/197000/197005.tex",0,"BannerCondition#1",0,0,0,1,6,"Bannière tank"
-25,3,0,"ui/icon/197000/197006.tex",0,"BannerCondition#1",0,0,0,1,8,"Bannière DPS"
-26,3,0,"ui/icon/197000/197007.tex",0,"BannerCondition#1",0,0,0,1,7,"Bannière soigneur"
-27,3,0,"ui/icon/197000/197008.tex",0,"BannerCondition#1",0,0,0,1,1,"Beige"
-28,3,0,"ui/icon/197000/197009.tex",0,"BannerCondition#1",0,0,0,1,2,"En relief"
-29,3,0,"ui/icon/197000/197010.tex",0,"BannerCondition#1",0,0,0,1,9,"Mémos"
-30,3,0,"ui/icon/197000/197011.tex",0,"BannerCondition#1",0,0,0,1,10,"Fouillis"
-31,4,0,"ui/icon/198000/198002.tex",0,"BannerCondition#1",0,0,0,1,3,"Noir"
-32,4,0,"ui/icon/198000/198003.tex",0,"BannerCondition#1",0,0,0,1,2,"Blanc"
-33,4,0,"ui/icon/198000/198004.tex",0,"BannerCondition#1",0,0,0,1,5,"Gemmes en relief"
-34,4,0,"ui/icon/198000/198005.tex",0,"BannerCondition#1",0,0,0,1,4,"Gemmes simples"
-35,4,0,"ui/icon/198000/198006.tex",0,"BannerCondition#1",0,0,0,1,6,"Limsa Lominsa"
-36,4,0,"ui/icon/198000/198007.tex",0,"BannerCondition#1",0,0,0,1,7,"Gridania"
-37,4,0,"ui/icon/198000/198008.tex",0,"BannerCondition#1",0,0,0,1,8,"Ul'dah"
-38,4,0,"ui/icon/198000/198009.tex",0,"BannerCondition#1",0,0,0,1,1,"Métallique"
-39,4,0,"ui/icon/198000/198010.tex",0,"BannerCondition#298",0,0,0,1,10,"Triple Triade EX"
-40,4,0,"ui/icon/198000/198011.tex",0,"BannerCondition#298",0,0,0,1,9,"Triple Triade"
-41,5,0,"ui/icon/199000/199002.tex",0,"BannerCondition#1",0,0,0,1,1,"Gils"
-42,5,0,"ui/icon/199000/199003.tex",0,"BannerCondition#1",0,0,0,1,2,"Plume et encrier"
-43,5,0,"ui/icon/199000/199004.tex",0,"BannerCondition#1",0,0,0,1,3,"Autocollants"
-44,5,0,"ui/icon/199000/199005.tex",0,"BannerCondition#1",0,0,0,1,4,"Carte"
-45,5,0,"ui/icon/199000/199006.tex",0,"BannerCondition#1",0,0,0,1,5,"Ruban"
-46,5,0,"ui/icon/199000/199007.tex",0,"BannerCondition#1",0,0,0,1,6,"Lettres"
-47,5,0,"ui/icon/199000/199008.tex",0,"BannerCondition#1",0,0,0,1,7,"Notes de musique"
-48,5,0,"ui/icon/199000/199009.tex",0,"BannerCondition#1",0,0,0,1,8,"Bouquet de fleurs"
-49,5,0,"ui/icon/199000/199010.tex",0,"BannerCondition#1",0,0,0,1,9,"Mémos"
-50,5,0,"ui/icon/199000/199011.tex",0,"BannerCondition#1",0,0,0,1,10,"Timbres"
-51,2,0,"ui/icon/194000/194201.tex",0,"BannerCondition#156",0,0,0,2,2000,"Gladiateur"
-52,2,0,"ui/icon/194000/194202.tex",0,"BannerCondition#157",0,0,0,2,2001,"Maraudeur"
-53,2,0,"ui/icon/194000/194203.tex",0,"BannerCondition#158",0,0,0,2,2002,"Élémentaliste"
-54,2,0,"ui/icon/194000/194204.tex",0,"BannerCondition#159",0,0,0,2,2003,"Pugiliste"
-55,2,0,"ui/icon/194000/194205.tex",0,"BannerCondition#160",0,0,0,2,2004,"Maître d'hast"
-56,2,0,"ui/icon/194000/194206.tex",0,"BannerCondition#161",0,0,0,2,2005,"Surineur"
-57,2,0,"ui/icon/194000/194207.tex",0,"BannerCondition#162",0,0,0,2,2006,"Archer"
-58,2,0,"ui/icon/194000/194208.tex",0,"BannerCondition#163",0,0,0,2,2007,"Occultiste"
-59,2,0,"ui/icon/194000/194209.tex",0,"BannerCondition#164",0,0,0,2,2008,"Arcaniste"
-60,2,0,"ui/icon/194000/194210.tex",0,"BannerCondition#300",0,0,0,2,2050,"Paladin"
-61,2,0,"ui/icon/194000/194211.tex",0,"BannerCondition#301",0,0,0,2,2051,"Guerrier"
-62,2,0,"ui/icon/194000/194212.tex",0,"BannerCondition#302",0,0,0,2,2052,"Chevalier noir"
-63,2,0,"ui/icon/194000/194213.tex",0,"BannerCondition#303",0,0,0,2,2053,"Pistosabreur"
-64,2,0,"ui/icon/194000/194214.tex",0,"BannerCondition#304",0,0,0,2,2054,"Mage blanc"
-65,2,0,"ui/icon/194000/194215.tex",0,"BannerCondition#305",0,0,0,2,2055,"Érudit"
-66,2,0,"ui/icon/194000/194216.tex",0,"BannerCondition#306",0,0,0,2,2056,"Astromancien"
-67,2,0,"ui/icon/194000/194217.tex",0,"BannerCondition#307",0,0,0,2,2057,"Sage"
-68,2,0,"ui/icon/194000/194218.tex",0,"BannerCondition#308",0,0,0,2,2058,"Moine"
-69,2,0,"ui/icon/194000/194219.tex",0,"BannerCondition#309",0,0,0,2,2059,"Chevalier dragon"
-70,2,0,"ui/icon/194000/194220.tex",0,"BannerCondition#310",0,0,0,2,2060,"Ninja"
-71,2,0,"ui/icon/194000/194221.tex",0,"BannerCondition#311",0,0,0,2,2061,"Samouraï"
-72,2,0,"ui/icon/194000/194222.tex",0,"BannerCondition#312",0,0,0,2,2062,"Faucheur"
-73,2,0,"ui/icon/194000/194223.tex",0,"BannerCondition#313",0,0,0,2,2064,"Barde"
-74,2,0,"ui/icon/194000/194224.tex",0,"BannerCondition#314",0,0,0,2,2065,"Machiniste"
-75,2,0,"ui/icon/194000/194225.tex",0,"BannerCondition#315",0,0,0,2,2066,"Danseur"
-76,2,0,"ui/icon/194000/194226.tex",0,"BannerCondition#316",0,0,0,2,2067,"Mage noir"
-77,2,0,"ui/icon/194000/194227.tex",0,"BannerCondition#317",0,0,0,2,2068,"Invocateur"
-78,2,0,"ui/icon/194000/194228.tex",0,"BannerCondition#318",0,0,0,2,2069,"Mage rouge"
-79,2,0,"ui/icon/194000/194229.tex",0,"BannerCondition#232",0,0,0,2,2071,"Mage bleu"
-80,2,0,"ui/icon/194000/194230.tex",0,"BannerCondition#268",0,0,0,2,2100,"Menuisier"
-81,2,0,"ui/icon/194000/194231.tex",0,"BannerCondition#269",0,0,0,2,2101,"Forgeron"
-82,2,0,"ui/icon/194000/194232.tex",0,"BannerCondition#270",0,0,0,2,2102,"Armurier"
-83,2,0,"ui/icon/194000/194233.tex",0,"BannerCondition#271",0,0,0,2,2103,"Orfèvre"
-84,2,0,"ui/icon/194000/194234.tex",0,"BannerCondition#272",0,0,0,2,2104,"Tanneur"
-85,2,0,"ui/icon/194000/194235.tex",0,"BannerCondition#273",0,0,0,2,2105,"Couturier"
-86,2,0,"ui/icon/194000/194236.tex",0,"BannerCondition#274",0,0,0,2,2106,"Alchimiste"
-87,2,0,"ui/icon/194000/194237.tex",0,"BannerCondition#275",0,0,0,2,2107,"Cuisinier"
-88,2,0,"ui/icon/194000/194238.tex",0,"BannerCondition#285",0,0,0,2,2108,"Mineur"
-89,2,0,"ui/icon/194000/194239.tex",0,"BannerCondition#286",0,0,0,2,2109,"Botaniste"
-90,2,0,"ui/icon/194000/194240.tex",0,"BannerCondition#287",0,0,0,2,2110,"Pêcheur"
-91,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-92,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-93,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-94,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-95,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-96,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-97,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-98,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-99,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-100,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-101,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-102,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-103,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-104,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-105,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-106,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-107,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-108,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-109,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-110,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-111,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-112,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-113,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-114,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-115,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-116,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-117,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-118,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-119,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-120,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-121,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-122,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-123,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-124,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-125,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-126,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-127,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-128,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-129,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-130,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-131,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-132,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-133,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-134,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-135,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-136,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-137,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-138,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-139,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-140,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-141,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-142,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-143,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-144,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-145,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-146,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-147,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-148,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-149,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-150,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-151,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-152,3,0,"ui/icon/197000/197901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Compagnon 1"
-153,3,0,"ui/icon/197000/197902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Compagnon 2"
-154,4,0,"ui/icon/198000/198901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Compagnon 1"
-155,4,0,"ui/icon/198000/198902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Compagnon 2"
-156,5,0,"ui/icon/199000/199901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Compagnon 1"
-157,5,0,"ui/icon/199000/199902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Compagnon 2"
-158,1,0,"ui/icon/195000/195901.tex",0,"BannerCondition#154",0,0,0,7,4000,"Compagnon 1"
-159,1,0,"ui/icon/195000/195902.tex",0,"BannerCondition#155",0,0,0,7,4001,"Compagnon 2"
-160,1,0,"ui/icon/195000/195701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Abîme infini de Bahamut (fatal)"
-161,3,0,"ui/icon/197000/197701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Abîme infini de Bahamut (fatal)"
-162,4,0,"ui/icon/198000/198701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Abîme infini de Bahamut (fatal)"
-163,5,0,"ui/icon/199000/199701.tex",0,"BannerCondition#319",0,0,0,4,2500,"Abîme infini de Bahamut (fatal)"
-164,1,0,"ui/icon/195000/195702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Fantasmagorie d'Ultima (fatal)"
-165,3,0,"ui/icon/197000/197702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Fantasmagorie d'Ultima (fatal)"
-166,4,0,"ui/icon/198000/198702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Fantasmagorie d'Ultima (fatal)"
-167,5,0,"ui/icon/199000/199702.tex",0,"BannerCondition#320",0,0,0,4,2501,"Fantasmagorie d'Ultima (fatal)"
-168,1,0,"ui/icon/195000/195703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Odyssée d'Alexander (fatal)"
-169,3,0,"ui/icon/197000/197703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Odyssée d'Alexander (fatal)"
-170,4,0,"ui/icon/198000/198703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Odyssée d'Alexander (fatal)"
-171,5,0,"ui/icon/199000/199703.tex",0,"BannerCondition#321",0,0,0,4,2502,"Odyssée d'Alexander (fatal)"
-172,1,0,"ui/icon/195000/195704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Guerre du chant des dragons (fatal)"
-173,3,0,"ui/icon/197000/197704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Guerre du chant des dragons (fatal)"
-174,4,0,"ui/icon/198000/198704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Guerre du chant des dragons (fatal)"
-175,5,0,"ui/icon/199000/199704.tex",0,"BannerCondition#322",0,0,0,4,2503,"Guerre du chant des dragons (fatal)"
-176,2,0,"ui/icon/194000/194701.tex",0,"BannerCondition#343",0,0,0,4,2400,"Donjon à embranchements : Les canalisations sildiennes"
-177,3,0,"ui/icon/197000/197705.tex",0,"BannerCondition#343",0,0,0,4,2400,"Donjon à embranchements : Les canalisations sildiennes"
-178,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
-179,5,0,"ui/icon/199000/199966.tex",0,"BannerCondition#344",0,0,0,3,2315,"Quêtes des Omicrons"
-180,2,0,"ui/icon/194000/194012.tex",0,"BannerCondition#1",0,0,0,1,11,"Salon de thé"
-181,2,0,"ui/icon/194000/194013.tex",0,"BannerCondition#1",0,0,0,1,12,"Échiquier"
-182,2,0,"ui/icon/194000/194014.tex",0,"BannerCondition#1",0,0,0,1,13,"Étincelles"
-183,2,0,"ui/icon/194000/194015.tex",0,"BannerCondition#1",0,0,0,1,14,"Rayures verticales"
-184,2,0,"ui/icon/194000/194016.tex",0,"BannerCondition#1",0,0,0,1,15,"Lignes horizontales"
-185,2,0,"ui/icon/194000/194017.tex",0,"BannerCondition#1",0,0,0,1,16,"Cœurs"
-186,2,0,"ui/icon/194000/194018.tex",0,"BannerCondition#1",0,0,0,1,17,"Chevrons horizontaux"
-187,2,0,"ui/icon/194000/194019.tex",0,"BannerCondition#1",0,0,0,1,18,"Feuilles de chanvre"
-188,2,0,"ui/icon/194000/194020.tex",0,"BannerCondition#1",0,0,0,1,19,"Carreaux"
-189,2,0,"ui/icon/194000/194021.tex",0,"BannerCondition#1",0,0,0,1,20,"Cristaux"
-190,1,0,"ui/icon/195000/195012.tex",0,"BannerCondition#1",0,0,0,1,11,"Style oriental"
-191,4,0,"ui/icon/198000/198012.tex",0,"BannerCondition#1",0,0,0,1,11,"Zigzags"
-192,4,0,"ui/icon/198000/198013.tex",0,"BannerCondition#1",0,0,0,1,12,"Rubans décoratifs à tons chauds"
-193,4,0,"ui/icon/198000/198014.tex",0,"BannerCondition#1",0,0,0,1,13,"Rubans décoratifs à tons froids"
-194,5,0,"ui/icon/199000/199012.tex",0,"BannerCondition#1",0,0,0,1,11,"Salon de thé"
-195,5,0,"ui/icon/199000/199013.tex",0,"BannerCondition#347",0,0,0,7,13,"Médiators"
-196,5,0,"ui/icon/199000/199014.tex",0,"BannerCondition#347",0,0,0,7,12,"Violon"
-197,5,1,"ui/icon/234000/234401.tex",0,"BannerCondition#348",0,0,0,6,5600,"Pantin P001"
-198,5,1,"ui/icon/234000/234402.tex",0,"BannerCondition#349",0,0,0,6,5000,"Bébé chocobo"
-199,5,1,"ui/icon/234000/234403.tex",0,"BannerCondition#350",0,0,0,6,5050,"Bombino"
-200,5,1,"ui/icon/234000/234405.tex",0,"BannerCondition#351",608,0,793,6,5051,"Bébéhémoth"
-201,5,1,"ui/icon/234000/234412.tex",0,"BannerCondition#352",0,0,0,6,5052,"Bulbe de morbol"
-202,5,1,"ui/icon/234000/234424.tex",0,"BannerCondition#353",0,0,0,6,5061,"Lapin mutin"
-203,5,1,"ui/icon/234000/234429.tex",0,"BannerCondition#354",0,0,0,6,5062,"Mini-pampa"
-204,5,1,"ui/icon/234000/234430.tex",0,"BannerCondition#355",0,0,0,6,5063,"Coquépique"
-205,5,1,"ui/icon/234000/234436.tex",0,"BannerCondition#356",0,0,0,6,5075,"Goobbue goulu"
-206,5,1,"ui/icon/234000/234439.tex",0,"BannerCondition#357",0,0,0,6,5076,"Bloc démonique"
-207,5,1,"ui/icon/234000/234444.tex",0,"BannerCondition#358",609,0,794,6,5654,"Curseur flottant"
-208,5,1,"ui/icon/234000/234446.tex",0,"BannerCondition#359",0,0,0,6,5350,"Qiqirn mécanique"
-209,5,1,"ui/icon/234000/234450.tex",0,"BannerCondition#360",0,0,0,6,5064,"Bébé chacal"
-210,5,1,"ui/icon/234000/234452.tex",0,"BannerCondition#361",0,0,0,6,5056,"Joli coeurl"
-211,5,1,"ui/icon/234000/234453.tex",0,"BannerCondition#362",0,0,0,6,5059,"Tomberry mécanique"
-212,5,1,"ui/icon/234000/234471.tex",0,"BannerCondition#363",0,0,0,6,5655,"Balai enchanté"
-213,5,1,"ui/icon/234000/234472.tex",0,"BannerCondition#364",610,0,795,6,5002,"Poupée mog"
-214,5,1,"ui/icon/234000/234487.tex",0,"BannerCondition#365",0,0,0,6,5201,"Écureuil grignoteur"
-215,5,1,"ui/icon/234000/234507.tex",0,"BannerCondition#366",0,0,0,6,5202,"Gros minou"
-216,5,1,"ui/icon/234000/234511.tex",0,"BannerCondition#367",0,0,0,6,5750,"Petit kappa"
-217,5,1,"ui/icon/234000/234542.tex",0,"BannerCondition#368",0,0,0,6,5650,"Sphère de guidage"
-218,5,1,"ui/icon/234000/234558.tex",0,"BannerCondition#369",0,0,0,6,5088,"Petiot païssa"
-219,5,1,"ui/icon/234000/234566.tex",0,"BannerCondition#370",0,0,0,6,5090,"Pon-korpokkur"
-220,5,1,"ui/icon/234000/234641.tex",0,"BannerCondition#371",0,0,0,6,5251,"Loutre choute"
-221,5,1,"ui/icon/234000/234653.tex",0,"BannerCondition#372",0,0,0,6,5351,"Namazu mécanique"
-222,5,1,"ui/icon/234000/234660.tex",0,"BannerCondition#373",0,0,0,6,5542,"Khloe miniature"
-223,5,1,"ui/icon/234000/234667.tex",0,"BannerCondition#374",0,0,0,6,5210,"Mame shiba"
-224,5,1,"ui/icon/234000/234737.tex",0,"BannerCondition#375",0,0,0,6,5216,"Serpent marin de Ronka ?"
-225,5,1,"ui/icon/234000/234742.tex",0,"BannerCondition#376",0,0,0,6,5352,"Castor géant"
-226,5,1,"ui/icon/234000/234775.tex",0,"BannerCondition#377",0,0,0,6,5258,"Requin commandeur"
-227,5,1,"ui/icon/234000/234404.tex",0,"BannerCondition#378",611,0,796,6,5601,"Poupée Cait Sith"
-228,5,1,"ui/icon/234000/234416.tex",0,"BannerCondition#379",0,0,0,6,5300,"Oiseau bleu"
-229,5,1,"ui/icon/234000/234432.tex",0,"BannerCondition#380",0,0,0,6,5065,"Dodu dodo"
-230,5,1,"ui/icon/234000/234435.tex",0,"BannerCondition#381",0,0,0,6,5074,"Apkallu nain"
-231,5,1,"ui/icon/234000/234441.tex",0,"BannerCondition#382",0,0,0,6,5077,"Belin bêlant"
-232,5,1,"ui/icon/234000/234442.tex",0,"BannerCondition#383",0,0,0,6,5066,"Mini-mini-mandragore"
-233,5,1,"ui/icon/234000/234462.tex",0,"BannerCondition#384",0,0,0,6,5080,"Perroquet taciturne"
-234,5,1,"ui/icon/234000/234475.tex",0,"BannerCondition#385",0,0,0,6,5082,"Poupée succube"
-235,5,1,"ui/icon/234000/234476.tex",0,"BannerCondition#386",612,624,797,6,5566,"Pantin Gilgamesh"
-236,5,1,"ui/icon/234000/234477.tex",0,"BannerCondition#387",0,0,0,6,5067,"Prince oignon"
-237,5,1,"ui/icon/234000/234478.tex",0,"BannerCondition#388",0,0,0,6,5068,"Chevalier aubergine"
-238,5,1,"ui/icon/234000/234479.tex",0,"BannerCondition#389",0,0,0,6,5069,"Baron ail"
-239,5,1,"ui/icon/234000/234480.tex",0,"BannerCondition#390",0,0,0,6,5070,"Roi tomate"
-240,5,1,"ui/icon/234000/234481.tex",0,"BannerCondition#391",0,0,0,6,5071,"Reine mandragore"
-241,5,1,"ui/icon/234000/234504.tex",0,"BannerCondition#392",0,0,0,6,5568,"Orthros articulé"
-242,5,1,"ui/icon/234000/234521.tex",0,"BannerCondition#393",0,0,0,6,5567,"Enkidu"
-243,5,1,"ui/icon/234000/234529.tex",0,"BannerCondition#394",0,0,0,6,5085,"Atomos atrophié"
-244,5,1,"ui/icon/234000/234532.tex",0,"BannerCondition#395",0,0,0,6,5086,"Gaélichaton"
-245,5,1,"ui/icon/234000/234534.tex",0,"BannerCondition#396",0,0,0,6,5204,"Petit panda roux"
-246,5,1,"ui/icon/234000/234564.tex",0,"BannerCondition#397",0,0,0,6,5304,"Manchot prince"
-247,5,1,"ui/icon/234000/234600.tex",0,"BannerCondition#398",0,0,0,6,5751,"Porcelet promeneur"
-248,5,1,"ui/icon/234000/234616.tex",0,"BannerCondition#399",0,0,0,6,5095,"Marcassin"
-249,5,1,"ui/icon/234000/234647.tex",0,"BannerCondition#400",0,0,0,6,5305,"Moineau voyageur"
-250,5,1,"ui/icon/234000/234655.tex",0,"BannerCondition#401",0,0,0,6,5602,"Chimère mécanique"
-251,5,1,"ui/icon/234000/234719.tex",0,"BannerCondition#402",0,0,0,6,5096,"Ko-yukinko"
-252,5,1,"ui/icon/234000/234642.tex",0,"BannerCondition#403",0,0,0,6,5207,"Bébé renard"
-253,5,1,"ui/icon/234000/234749.tex",0,"BannerCondition#404",0,0,0,6,5306,"Bec-en-sabot"
-254,5,1,"ui/icon/234000/234753.tex",0,"BannerCondition#405",0,0,0,6,5097,"Bout-de-cochon"
-255,5,1,"ui/icon/234000/234787.tex",0,"BannerCondition#406",0,0,0,6,5220,"Renard des sables"
-256,5,1,"ui/icon/234000/234796.tex",0,"BannerCondition#407",0,0,0,6,5260,"Momo Ramora"
-257,5,0,"ui/icon/199000/199962.tex",0,"BannerCondition#429",0,0,0,3,2311,"Quêtes des Pixies"
-258,5,0,"ui/icon/199000/199963.tex",0,"BannerCondition#430",0,0,0,3,2312,"Quêtes des Qitari"
-259,5,0,"ui/icon/199000/199964.tex",0,"BannerCondition#431",0,0,0,3,2313,"Quêtes des Nains"
-260,5,0,"ui/icon/199000/199965.tex",0,"BannerCondition#432",0,0,0,3,2314,"Quêtes des Arkasodaras"
-261,5,0,"ui/icon/199000/199967.tex",0,"BannerCondition#433",0,0,0,3,2316,"Quêtes des Loporrites"
-262,1,0,"ui/icon/195000/195705.tex",0,"BannerCondition#434",0,0,0,4,2504,"Protocole Oméga (fatal)"
-263,3,0,"ui/icon/197000/197706.tex",0,"BannerCondition#434",0,0,0,4,2504,"Protocole Oméga (fatal)"
-264,4,0,"ui/icon/198000/198705.tex",0,"BannerCondition#434",0,0,0,4,2504,"Protocole Oméga (fatal)"
-265,5,0,"ui/icon/199000/199705.tex",0,"BannerCondition#434",0,0,0,4,2504,"Protocole Oméga (fatal)"
-266,5,1,"ui/icon/234000/234506.tex",0,"BannerCondition#435",0,0,0,6,5001,"Bébé chocobo grassouillet"
-267,5,1,"ui/icon/234000/234451.tex",0,"BannerCondition#436",0,0,0,6,5078,"Mini-gluant"
-268,5,1,"ui/icon/234000/234470.tex",0,"BannerCondition#437",0,0,0,6,5081,"Bébé opo-opo"
-269,5,1,"ui/icon/234000/234508.tex",0,"BannerCondition#438",0,0,0,6,5083,"Petit yéti"
-270,5,1,"ui/icon/234000/234563.tex",0,"BannerCondition#439",0,0,0,6,5089,"Poussin oculus"
-271,5,1,"ui/icon/234000/234579.tex",0,"BannerCondition#440",0,0,0,6,5091,"Morpho"
-272,5,1,"ui/icon/234000/234580.tex",0,"BannerCondition#441",0,0,0,6,5092,"Poro Roggo"
-273,5,1,"ui/icon/234000/234805.tex",0,"BannerCondition#442",0,0,0,6,5099,"Drippy"
-274,5,1,"ui/icon/234000/234646.tex",0,"BannerCondition#443",0,0,0,6,5209,"Bunbuku"
-275,5,1,"ui/icon/234000/234730.tex",0,"BannerCondition#444",0,0,0,6,5214,"Hérisson mignon"
-276,5,1,"ui/icon/234000/234862.tex",0,"BannerCondition#445",0,0,0,6,5227,"Momonga"
-277,5,1,"ui/icon/234000/234658.tex",0,"BannerCondition#446",0,0,0,6,5252,"Ghido"
-278,5,1,"ui/icon/234000/234672.tex",0,"BannerCondition#447",0,0,0,6,5253,"Bébé phoque"
-279,5,1,"ui/icon/234000/234673.tex",0,"BannerCondition#448",0,0,0,6,5254,"Axolotl"
-280,5,1,"ui/icon/234000/234740.tex",0,"BannerCondition#449",0,0,0,6,5256,"Ornithorynque nain"
-281,5,1,"ui/icon/234000/234531.tex",0,"BannerCondition#450",0,0,0,6,5302,"Vilain petit canard"
-282,5,1,"ui/icon/234000/234684.tex",0,"BannerCondition#451",0,0,0,6,5461,"Bébé Byakko"
-283,5,1,"ui/icon/234000/234703.tex",0,"BannerCondition#452",0,0,0,6,5462,"Paonne vermillon"
-284,5,1,"ui/icon/234000/234727.tex",0,"BannerCondition#453",0,0,0,6,5464,"Dragonnet azur"
-285,5,1,"ui/icon/234000/234500.tex",0,"BannerCondition#454",0,0,0,6,5500,"Y'shtola miniature"
-286,5,1,"ui/icon/234000/234488.tex",0,"BannerCondition#455",0,0,0,6,5503,"Minfilia miniature"
-287,5,1,"ui/icon/234000/234489.tex",0,"BannerCondition#456",0,0,0,6,5504,"Thancred miniature"
-288,5,1,"ui/icon/234000/234501.tex",0,"BannerCondition#457",0,0,0,6,5506,"Yda miniature"
-289,5,1,"ui/icon/234000/234502.tex",0,"BannerCondition#458",0,0,0,6,5508,"Papalymo miniature"
-290,5,1,"ui/icon/234000/234503.tex",0,"BannerCondition#459",0,0,0,6,5509,"Urianger miniature"
-291,5,1,"ui/icon/234000/234519.tex",0,"BannerCondition#460",0,0,0,6,5513,"Alphinaud miniature"
-292,5,1,"ui/icon/234000/234520.tex",0,"BannerCondition#461",0,0,0,6,5514,"Alisaie miniature"
-293,5,1,"ui/icon/234000/234526.tex",0,"BannerCondition#462",0,0,0,6,5516,"Tataru miniature"
-294,5,1,"ui/icon/234000/234527.tex",0,"BannerCondition#463",0,0,0,6,5518,"Cid miniature"
-295,5,1,"ui/icon/234000/234856.tex",0,"BannerCondition#464",0,0,0,6,5603,"Madmiaouselle"
-296,3,0,"ui/icon/197000/197711.tex",0,"BannerCondition#465",0,0,0,4,2358,"Eurêka Orthos"
-297,3,0,"ui/icon/197000/197712.tex",0,"BannerCondition#466",0,0,0,4,2359,"Enaretos"
-298,4,0,"ui/icon/198000/198706.tex",0,"BannerCondition#467",0,0,0,3,2251,"Conte des quatre animaux sacrés"
-299,4,0,"ui/icon/198000/198707.tex",0,"BannerCondition#468",0,0,0,8,2340,"Félicité insulaire 1"
-300,4,0,"ui/icon/198000/198708.tex",0,"BannerCondition#469",0,0,0,8,2341,"Félicité insulaire 2"
-301,5,0,"ui/icon/199000/199706.tex",0,"BannerCondition#468",0,0,0,8,2340,"Félicité insulaire 1"
-302,5,0,"ui/icon/199000/199707.tex",0,"BannerCondition#469",0,0,0,8,2341,"Félicité insulaire 2"
-303,5,1,"ui/icon/234000/234863.tex",0,"BannerCondition#472",0,0,0,6,5103,"Silkie-éponge"
-304,5,1,"ui/icon/234000/234848.tex",0,"BannerCondition#473",0,0,0,6,5228,"Chihuaouaf"
-305,5,1,"ui/icon/234000/234784.tex",0,"BannerCondition#474",0,0,0,6,5087,"Gaélichat emmitouflé"
-306,5,1,"ui/icon/234000/234485.tex",0,"BannerCondition#475",0,0,0,6,5200,"Ourson de Nanakko"
-307,5,1,"ui/icon/234000/234733.tex",0,"BannerCondition#476",0,0,0,6,5211,"Kuro shiba"
-308,5,1,"ui/icon/234000/234671.tex",0,"BannerCondition#477",0,0,0,6,5212,"Bébé koala"
-309,5,1,"ui/icon/234000/234716.tex",0,"BannerCondition#478",0,0,0,6,5213,"Bébé cabiaï"
-310,5,1,"ui/icon/234000/234822.tex",0,"BannerCondition#479",0,0,0,6,5222,"Drapo"
-311,5,1,"ui/icon/234000/234867.tex",0,"BannerCondition#480",0,0,0,6,5229,"Corgi"
-312,5,1,"ui/icon/234000/234771.tex",0,"BannerCondition#481",0,0,0,6,5307,"Mésange à longue queue"
-313,5,1,"ui/icon/234000/234838.tex",0,"BannerCondition#482",0,0,0,6,5102,"Glaneur vert"
-314,5,1,"ui/icon/234000/234844.tex",0,"BannerCondition#483",0,0,0,6,5400,"Arkasodara miniature"
-315,5,1,"ui/icon/234000/234839.tex",0,"BannerCondition#484",0,0,0,6,5353,"Grébuloff miniature"
-316,5,1,"ui/icon/234000/234872.tex",0,"BannerCondition#485",0,0,0,6,5354,"Findingway"
-317,5,1,"ui/icon/234000/234825.tex",0,"BannerCondition#486",0,0,0,6,5651,"Omicron Optimus"
-318,5,1,"ui/icon/234000/234744.tex",0,"BannerCondition#487",0,0,0,6,5151,"Oméga-M miniature"
-319,5,1,"ui/icon/234000/234745.tex",0,"BannerCondition#488",0,0,0,6,5152,"Oméga-F miniature"
-320,5,1,"ui/icon/234000/234705.tex",0,"BannerCondition#489",0,0,0,6,5150,"Mini-Oméga"
-321,5,1,"ui/icon/234000/234704.tex",0,"BannerCondition#490",0,0,0,6,5573,"Alpha mécanique"
-322,5,1,"ui/icon/234000/234605.tex",0,"BannerCondition#491",0,0,0,6,5519,"Krile miniature"
-323,5,1,"ui/icon/234000/234624.tex",0,"BannerCondition#492",0,0,0,6,5521,"Moenbryda miniature"
-324,5,1,"ui/icon/234000/234515.tex",0,"BannerCondition#493",0,0,0,6,5522,"Hildibrand miniature"
-325,5,1,"ui/icon/234000/234499.tex",0,"BannerCondition#494",613,625,798,6,5528,"Nanamo miniature"
-326,5,1,"ui/icon/234000/234568.tex",0,"BannerCondition#495",0,0,0,6,5532,"Haurchefant miniature"
-327,5,1,"ui/icon/234000/234606.tex",0,"BannerCondition#496",0,0,0,6,5534,"Aymeric miniature"
-328,5,1,"ui/icon/234000/234628.tex",0,"BannerCondition#497",0,0,0,6,5536,"Estinien miniature"
-329,5,1,"ui/icon/234000/234575.tex",0,"BannerCondition#498",0,0,0,6,5533,"Nero tol Scaeva miniature"
-330,5,1,"ui/icon/234000/234555.tex",0,"BannerCondition#499",614,621,799,6,5526,"Raubahn miniature"
-331,5,1,"ui/icon/234000/234553.tex",0,"BannerCondition#500",615,622,800,6,5525,"Kan-E miniature"
-332,5,1,"ui/icon/234000/234554.tex",0,"BannerCondition#501",616,623,801,6,5524,"Merlwyb miniature"
-333,5,0,"ui/icon/199000/199960.tex",0,"BannerCondition#524",0,0,0,3,2308,"Quêtes des Kojin"
-334,5,0,"ui/icon/199000/199959.tex",0,"BannerCondition#525",0,0,0,3,2309,"Quêtes des Anantas"
-335,5,0,"ui/icon/199000/199961.tex",0,"BannerCondition#526",0,0,0,3,2310,"Quêtes des Namazu"
-336,3,0,"ui/icon/197000/197713.tex",0,"BannerCondition#527",0,0,0,3,2250,"La fin d'une ère"
-337,4,0,"ui/icon/198000/198709.tex",0,"BannerCondition#527",0,0,0,3,2250,"La fin d'une ère"
-338,5,0,"ui/icon/199000/199708.tex",0,"BannerCondition#527",0,0,0,3,2250,"La fin d'une ère"
-339,4,0,"ui/icon/198000/198710.tex",0,"BannerCondition#523",0,0,0,7,3950,"10e anniversaire"
-340,5,0,"ui/icon/199000/199709.tex",0,"BannerCondition#523",0,0,0,7,3950,"10e anniversaire"
-341,2,0,"ui/icon/194000/194702.tex",0,"BannerCondition#528",0,0,0,4,2401,"Donjon à embranchements : Le mont Rokkon"
-342,3,0,"ui/icon/197000/197714.tex",0,"BannerCondition#528",0,0,0,4,2401,"Donjon à embranchements : Le mont Rokkon"
-343,1,0,"ui/icon/195000/195706.tex",0,"BannerCondition#529",0,0,0,8,2343,"Grand pêcheur"
-344,3,0,"ui/icon/197000/197715.tex",0,"BannerCondition#529",0,0,0,8,2343,"Grand pêcheur"
-345,4,0,"ui/icon/198000/198711.tex",0,"BannerCondition#529",0,0,0,8,2343,"Grand pêcheur"
-346,5,0,"ui/icon/199000/199710.tex",0,"BannerCondition#529",0,0,0,8,2343,"Grand pêcheur"
-347,1,0,"ui/icon/195000/195707.tex",0,"BannerCondition#530",0,0,0,8,2344,"Pêcheur de légendes"
-348,3,0,"ui/icon/197000/197716.tex",0,"BannerCondition#530",0,0,0,8,2344,"Pêcheur de légendes"
-349,4,0,"ui/icon/198000/198712.tex",0,"BannerCondition#530",0,0,0,8,2344,"Pêcheur de légendes"
-350,5,0,"ui/icon/199000/199711.tex",0,"BannerCondition#530",0,0,0,8,2344,"Pêcheur de légendes"
-351,1,0,"ui/icon/195000/195708.tex",0,"BannerCondition#531",0,0,0,8,2350,"Tuiles essentielles"
-352,4,0,"ui/icon/198000/198713.tex",0,"BannerCondition#531",0,0,0,8,2350,"Tuiles essentielles"
-353,5,0,"ui/icon/199000/199712.tex",0,"BannerCondition#531",0,0,0,8,2350,"Tuiles essentielles"
-354,1,0,"ui/icon/195000/195709.tex",0,"BannerCondition#527",0,0,0,3,2250,"La fin d'une ère"
-355,5,1,"ui/icon/234000/234873.tex",0,"BannerCondition#534",0,0,0,6,5072,"Soldate pachypodium"
-356,5,1,"ui/icon/234000/234886.tex",0,"BannerCondition#535",0,0,0,6,5231,"Shiromaru"
-357,5,1,"ui/icon/234000/234890.tex",0,"BannerCondition#536",0,0,0,6,5232,"Kuromaru"
-358,5,1,"ui/icon/234000/234678.tex",0,"BannerCondition#537",0,0,0,6,5656,"Mini-moai"
-359,5,1,"ui/icon/234000/234851.tex",0,"BannerCondition#538",0,0,0,6,5154,"Azeyma miniature"
-360,5,1,"ui/icon/234000/234874.tex",0,"BannerCondition#539",0,0,0,6,5155,"Halone miniature"
-361,5,1,"ui/icon/234000/234894.tex",0,"BannerCondition#540",0,0,0,6,5156,"Oschon miniature"
-362,5,1,"ui/icon/234000/234419.tex",0,"BannerCondition#541",0,0,0,6,5058,"Golem graveleux"
-363,5,1,"ui/icon/234000/234509.tex",0,"BannerCondition#542",0,0,0,6,5084,"Mini-momie"
-364,5,1,"ui/icon/234000/234582.tex",0,"BannerCondition#543",0,0,0,6,5093,"Bébé Fenrir"
-365,5,1,"ui/icon/234000/234761.tex",0,"BannerCondition#544",0,0,0,6,5098,"Mini-Leannan Sith"
-366,5,1,"ui/icon/234000/234609.tex",0,"BannerCondition#545",0,0,0,6,5206,"Lapin nain"
-367,5,1,"ui/icon/234000/234756.tex",0,"BannerCondition#546",0,0,0,6,5219,"Suricate"
-368,5,1,"ui/icon/234000/234510.tex",0,"BannerCondition#547",0,0,0,6,5250,"Fretin assassin"
-369,5,1,"ui/icon/234000/234530.tex",0,"BannerCondition#548",0,0,0,6,5301,"Bébé hibou"
-370,5,1,"ui/icon/234000/234562.tex",0,"BannerCondition#549",0,0,0,6,5303,"Buse chasseuse"
-371,5,1,"ui/icon/234000/234853.tex",0,"BannerCondition#550",0,0,0,6,5308,"Fou à pattes bleues"
-372,5,1,"ui/icon/234000/234596.tex",0,"BannerCondition#551",0,0,0,6,5501,"Nouvelle Y'shtola miniature"
-373,5,1,"ui/icon/234000/234617.tex",0,"BannerCondition#552",0,0,0,6,5505,"Nouveau Thancred miniature"
-374,5,1,"ui/icon/234000/234512.tex",0,"BannerCondition#553",0,0,0,6,5511,"Louisoix miniature"
-375,5,1,"ui/icon/234000/234618.tex",0,"BannerCondition#554",0,0,0,6,5515,"Nouvelle Alisaie miniature"
-376,5,1,"ui/icon/234000/234876.tex",0,"BannerCondition#555",0,0,0,6,5523,"Godbert miniature"
-377,5,1,"ui/icon/234000/234538.tex",0,"BannerCondition#556",617,0,802,6,5529,"Ysayle miniature"
-378,5,1,"ui/icon/234000/234543.tex",0,"BannerCondition#557",618,0,803,6,5530,"Yugiri miniature"
-379,5,1,"ui/icon/234000/234619.tex",0,"BannerCondition#558",0,0,0,6,5535,"Edda miniature"
-380,5,1,"ui/icon/234000/234698.tex",0,"BannerCondition#559",0,0,0,6,5541,"Zhloe miniature"
-381,5,1,"ui/icon/234000/234706.tex",0,"BannerCondition#560",0,0,0,6,5547,"G'raha Tia miniature"
-382,5,1,"ui/icon/234000/234518.tex",0,"BannerCondition#561",0,0,0,6,5569,"Midgardsormr"
-383,5,1,"ui/icon/234000/234629.tex",0,"BannerCondition#562",619,626,804,6,5570,"Hraesvelgr miniature"
-384,5,1,"ui/icon/234000/234633.tex",0,"BannerCondition#563",620,0,805,6,5571,"Nidhogg miniature"
-385,5,1,"ui/icon/234000/234899.tex",0,"BannerCondition#564",0,0,0,6,5800,"Haricot rose"
-386,5,1,"ui/icon/234000/234900.tex",0,"BannerCondition#565",0,0,0,6,5801,"Pegwin"
-387,5,1,"ui/icon/234000/234898.tex",0,"BannerCondition#566",0,0,0,6,5701,"Talgor louveteau"
-388,5,0,"ui/icon/199000/199956.tex",0,"BannerCondition#567",0,0,0,3,2305,"Quêtes des Vanu Vanu"
-389,5,0,"ui/icon/199000/199957.tex",0,"BannerCondition#568",0,0,0,3,2306,"Quêtes des Gnathes"
-390,5,0,"ui/icon/199000/199958.tex",0,"BannerCondition#569",0,0,0,3,2307,"Quêtes des Mogs"
-391,3,0,"ui/icon/197000/197720.tex",0,"BannerCondition#572",0,0,0,3,2252,"Le Mythe éorzéen"
-392,4,0,"ui/icon/198000/198717.tex",0,"BannerCondition#572",0,0,0,3,2252,"Le Mythe éorzéen"
-393,5,0,"ui/icon/199000/199715.tex",0,"BannerCondition#572",0,0,0,3,2252,"Le Mythe éorzéen"
-394,3,0,"ui/icon/197000/197719.tex",0,"BannerCondition#573",0,0,0,3,2242,"La Tarufacture de Tataru"
-395,4,0,"ui/icon/198000/198716.tex",0,"BannerCondition#573",0,0,0,3,2242,"La Tarufacture de Tataru"
-396,2,0,"ui/icon/194000/194703.tex",0,"BannerCondition#574",0,0,0,4,2402,"Donjon à embranchements : L'île d'Aloalo"
-397,3,0,"ui/icon/197000/197721.tex",0,"BannerCondition#574",0,0,0,4,2402,"Donjon à embranchements : L'île d'Aloalo"
-398,1,0,"ui/icon/195000/195710.tex",0,"BannerCondition#570",0,0,0,8,2351,"Aventures imaginaires de Khloe"
-399,3,0,"ui/icon/197000/197717.tex",0,"BannerCondition#570",0,0,0,8,2351,"Aventures imaginaires de Khloe"
-400,4,0,"ui/icon/198000/198714.tex",0,"BannerCondition#570",0,0,0,8,2351,"Aventures imaginaires de Khloe"
-401,5,0,"ui/icon/199000/199713.tex",0,"BannerCondition#570",0,0,0,8,2351,"Aventures imaginaires de Khloe"
-402,1,0,"ui/icon/195000/195711.tex",0,"BannerCondition#571",0,0,0,8,2352,"Touché-tourné"
-403,3,0,"ui/icon/197000/197718.tex",0,"BannerCondition#571",0,0,0,8,2352,"Touché-tourné"
-404,4,0,"ui/icon/198000/198715.tex",0,"BannerCondition#571",0,0,0,8,2352,"Touché-tourné"
-405,5,0,"ui/icon/199000/199714.tex",0,"BannerCondition#571",0,0,0,8,2352,"Touché-tourné"
-406,1,0,"ui/icon/195000/195712.tex",0,"BannerCondition#575",0,0,0,7,3951,"Blunderville 1"
-407,1,0,"ui/icon/195000/195713.tex",0,"BannerCondition#576",0,0,0,7,3952,"Blunderville 2"
-408,1,0,"ui/icon/195000/195714.tex",0,"BannerCondition#577",0,0,0,7,3953,"Blunderville 3"
-409,1,0,"ui/icon/195000/195715.tex",0,"BannerCondition#607",0,0,0,7,3954,"Yo-kai Watch"
-410,4,0,"ui/icon/198000/198718.tex",0,"BannerCondition#607",0,0,0,7,3954,"Yo-kai Watch"
-411,5,0,"ui/icon/199000/199716.tex",0,"BannerCondition#607",0,0,0,7,3954,"Yo-kai Watch"
-412,5,1,"ui/icon/234000/234906.tex",0,"BannerCondition#643",0,0,0,6,5215,"Repulu"
-413,5,1,"ui/icon/234000/234891.tex",0,"BannerCondition#644",0,0,0,6,5310,"Uolosapa"
-414,5,1,"ui/icon/234000/234433.tex",0,"BannerCondition#645",0,0,0,6,5073,"Larve de coblyn"
-415,5,1,"ui/icon/234000/234895.tex",0,"BannerCondition#646",0,0,0,6,5658,"Rocher de Cydonia"
-416,5,1,"ui/icon/234000/234854.tex",0,"BannerCondition#647",0,0,0,6,5700,"Koyo K miniature"
-417,5,1,"ui/icon/234000/234878.tex",0,"BannerCondition#648",0,0,0,6,5309,"Macareux"
-418,5,1,"ui/icon/234000/234883.tex",0,"BannerCondition#649",0,0,0,6,5230,"Chimpanzé"
-419,5,1,"ui/icon/234000/234648.tex",0,"BannerCondition#658",0,0,0,6,5507,"Lyse miniature"
-420,5,1,"ui/icon/234000/234664.tex",0,"BannerCondition#659",0,0,0,6,5540,"Hien miniature"
-421,5,1,"ui/icon/234000/234649.tex",0,"BannerCondition#660",0,0,0,6,5531,"Yugiri miniature revisitée"
-422,5,1,"ui/icon/234000/234650.tex",0,"BannerCondition#661",0,0,0,6,5538,"Gosetsu miniature"
-423,5,1,"ui/icon/234000/234651.tex",0,"BannerCondition#662",708,714,806,6,5539,"Yotsuyu miniature"
-424,5,1,"ui/icon/234000/234652.tex",0,"BannerCondition#663",0,0,0,6,5546,"Grynewaht miniature"
-425,5,1,"ui/icon/234000/234676.tex",0,"BannerCondition#664",0,0,0,6,5527,"Nouveau Raubahn miniature"
-426,5,1,"ui/icon/234000/234682.tex",0,"BannerCondition#665",0,0,0,6,5544,"Magnai miniature"
-427,5,1,"ui/icon/234000/234697.tex",0,"BannerCondition#666",0,0,0,6,5543,"Cirina miniature"
-428,5,1,"ui/icon/234000/234696.tex",0,"BannerCondition#667",0,0,0,6,5545,"Sadu miniature"
-429,5,1,"ui/icon/234000/234720.tex",0,"BannerCondition#668",709,715,807,6,5517,"Nouvelle Tataru miniature"
-430,5,1,"ui/icon/234000/234743.tex",0,"BannerCondition#669",710,716,808,6,5463,"Suzaku mécanique"
-431,5,1,"ui/icon/234000/234731.tex",0,"BannerCondition#670",0,0,0,6,5502,"Y'shtola miniature (premier reflet)"
-432,5,1,"ui/icon/234000/234829.tex",0,"BannerCondition#671",0,0,0,6,5510,"Nouvel Urianger miniature"
-433,5,1,"ui/icon/234000/234760.tex",0,"BannerCondition#672",0,0,0,6,5537,"Nouvel Estinien miniature"
-434,5,1,"ui/icon/234000/234816.tex",0,"BannerCondition#673",711,717,809,6,5553,"Lyna miniature"
-435,5,1,"ui/icon/234000/234817.tex",0,"BannerCondition#674",712,718,810,6,5554,"Runar miniature"
-436,5,1,"ui/icon/234000/234776.tex",0,"BannerCondition#675",713,719,811,6,5549,"Dulia-Chai miniature"
-437,5,1,"ui/icon/234000/234732.tex",0,"BannerCondition#676",0,0,0,6,5548,"Ryne miniature"
-438,5,1,"ui/icon/234000/234798.tex",0,"BannerCondition#677",0,0,0,6,5552,"Gaïa miniature"
-439,5,1,"ui/icon/234000/234781.tex",0,"BannerCondition#678",0,0,0,6,5550,"Mystel miniature"
-440,5,1,"ui/icon/234000/234782.tex",0,"BannerCondition#679",0,0,0,6,5551,"Ardbert miniature"
-441,5,1,"ui/icon/234000/234855.tex",0,"BannerCondition#680",0,0,0,6,5556,"Solus mécanique"
-442,5,1,"ui/icon/234000/234413.tex",0,"BannerCondition#650",0,0,0,6,5053,"Écureuil nain"
-443,5,1,"ui/icon/234000/234414.tex",0,"BannerCondition#651",0,0,0,6,5054,"Fungus miniature"
-444,5,1,"ui/icon/234000/234415.tex",0,"BannerCondition#652",0,0,0,6,5055,"Chigoe apprivoisé"
-445,5,1,"ui/icon/234000/234514.tex",0,"BannerCondition#653",0,0,0,6,5057,"Coeurl noir"
-446,5,1,"ui/icon/234000/234421.tex",0,"BannerCondition#654",0,0,0,6,5060,"Bébé raptor"
-447,5,1,"ui/icon/234000/234461.tex",0,"BannerCondition#655",0,0,0,6,5079,"Gentil flagelleur"
-448,5,1,"ui/icon/234000/234528.tex",0,"BannerCondition#656",0,0,0,6,5203,"Bébé licorne"
-449,5,1,"ui/icon/234000/234539.tex",0,"BannerCondition#657",0,0,0,6,5205,"Gestahl"
-450,2,0,"ui/icon/194000/194241.tex",0,"BannerCondition#705",0,0,0,2,2063,"Rôdeur vipère"
-451,2,0,"ui/icon/194000/194242.tex",0,"BannerCondition#706",0,0,0,2,2070,"Pictomancien"
-452,5,0,"ui/icon/199000/199954.tex",0,"BannerCondition#694",0,0,0,3,2302,"Quêtes des Kobolds"
-453,5,0,"ui/icon/199000/199952.tex",0,"BannerCondition#695",0,0,0,3,2301,"Quêtes des Sylphes"
-454,5,0,"ui/icon/199000/199951.tex",0,"BannerCondition#696",0,0,0,3,2300,"Quêtes des Amalj'aa"
-455,5,0,"ui/icon/199000/199955.tex",0,"BannerCondition#697",0,0,0,3,2303,"Quêtes des Sahuagins"
-456,5,0,"ui/icon/199000/199953.tex",0,"BannerCondition#698",0,0,0,3,2304,"Quêtes des Ixali"
-457,1,0,"ui/icon/195000/195662.tex",0,"BannerCondition#701",0,0,0,9,1036,"Tuliyollal 1"
-458,3,0,"ui/icon/197000/197662.tex",0,"BannerCondition#701",0,0,0,9,1036,"Tuliyollal 1"
-459,4,0,"ui/icon/198000/198662.tex",0,"BannerCondition#701",0,0,0,9,1036,"Tuliyollal 1"
-460,1,0,"ui/icon/195000/195663.tex",0,"BannerCondition#702",0,0,0,9,1037,"Tuliyollal 2"
-461,3,0,"ui/icon/197000/197663.tex",0,"BannerCondition#702",0,0,0,9,1037,"Tuliyollal 2"
-462,4,0,"ui/icon/198000/198663.tex",0,"BannerCondition#702",0,0,0,9,1037,"Tuliyollal 2"
-463,1,0,"ui/icon/195000/195664.tex",0,"BannerCondition#699",0,0,0,9,1038,"Solution Neuf 1"
-464,3,0,"ui/icon/197000/197664.tex",0,"BannerCondition#699",0,0,0,9,1038,"Solution Neuf 1"
-465,4,0,"ui/icon/198000/198664.tex",0,"BannerCondition#699",0,0,0,9,1038,"Solution Neuf 1"
-466,1,0,"ui/icon/195000/195665.tex",0,"BannerCondition#700",0,0,0,9,1039,"Solution Neuf 2"
-467,3,0,"ui/icon/197000/197665.tex",0,"BannerCondition#700",0,0,0,9,1039,"Solution Neuf 2"
-468,4,0,"ui/icon/198000/198665.tex",0,"BannerCondition#700",0,0,0,9,1039,"Solution Neuf 2"
-469,5,1,"ui/icon/234000/234810.tex",0,"BannerCondition#729",0,0,0,6,5261,"Bébé dauphin"
-470,5,1,"ui/icon/234000/234827.tex",0,"BannerCondition#730",0,0,0,6,5574,"Oiseau stellaire"
-471,5,1,"ui/icon/234000/234828.tex",0,"BannerCondition#731",0,0,0,6,5223,"Chat nagxien"
-472,5,1,"ui/icon/234000/234830.tex",0,"BannerCondition#732",0,0,0,6,5572,"Vrtra miniature"
-473,5,1,"ui/icon/234000/234832.tex",0,"BannerCondition#733",0,0,0,6,5225,"Crabe du crabe"
-474,5,1,"ui/icon/234000/234833.tex",0,"BannerCondition#734",0,0,0,6,5100,"Prince pampa sélénien"
-475,5,1,"ui/icon/234000/234841.tex",0,"BannerCondition#735",0,0,0,6,5555,"Héroïne miniature"
-476,5,1,"ui/icon/234000/234843.tex",0,"BannerCondition#736",0,0,0,6,5101,"Roi pampa sélénien"
-477,5,1,"ui/icon/234000/234865.tex",0,"BannerCondition#737",0,0,0,6,5558,"Ami miniature"
-478,5,1,"ui/icon/234000/234866.tex",0,"BannerCondition#738",0,0,0,6,5559,"Érichthonios miniature"
-479,5,1,"ui/icon/234000/234877.tex",0,"BannerCondition#739",0,0,0,6,5557,"Aidoneus miniature"
-480,5,1,"ui/icon/234000/234887.tex",0,"BannerCondition#740",0,0,0,6,5560,"Athéna miniature"
-481,5,1,"ui/icon/234000/234896.tex",0,"BannerCondition#741",0,0,0,6,5604,"Barnabaigneur"
-482,5,1,"ui/icon/234000/234901.tex",0,"BannerCondition#742",784,788,812,6,5564,"Idole Hydaelyn"
-483,5,1,"ui/icon/234000/234902.tex",0,"BannerCondition#743",785,789,813,6,5565,"Idole Zordiarche"
-484,5,1,"ui/icon/234000/234903.tex",0,"BannerCondition#744",786,790,814,6,5512,"Fourchenault miniature"
-485,5,1,"ui/icon/234000/234909.tex",0,"BannerCondition#745",0,0,0,6,5233,"Cria alpaga"
-486,5,1,"ui/icon/234000/234912.tex",0,"BannerCondition#746",0,0,0,6,5234,"Ilyikty'i"
-487,5,1,"ui/icon/234000/234913.tex",0,"BannerCondition#747",0,0,0,6,5311,"Quetzal resplendissant"
-488,5,1,"ui/icon/234000/234914.tex",0,"BannerCondition#748",0,0,0,6,5235,"Coyote court sur pattes"
-489,5,1,"ui/icon/234000/234916.tex",0,"BannerCondition#749",0,0,0,6,5659,"Sire Épidemaïs"
-490,5,1,"ui/icon/234000/234917.tex",0,"BannerCondition#750",0,0,0,6,5104,"Biscoto-pampa"
-491,5,1,"ui/icon/234000/234918.tex",0,"BannerCondition#751",0,0,0,6,5236,"Chat gris bleuté"
-492,5,1,"ui/icon/234000/234922.tex",0,"BannerCondition#752",0,0,0,6,5652,"Sentinelle de plomb T1"
-493,5,1,"ui/icon/234000/234925.tex",0,"BannerCondition#753",0,0,0,6,5520,"Nouvelle Krile miniature"
-494,5,1,"ui/icon/234000/234926.tex",0,"BannerCondition#754",787,791,815,6,5562,"Zero miniature"
-495,5,1,"ui/icon/234000/234927.tex",0,"BannerCondition#755",0,0,0,6,5563,"Erenville miniature"
-496,5,0,"ui/icon/199000/199968.tex",0,"BannerCondition#767",0,0,0,3,2317,"Quêtes des Pelupelu"
-497,1,0,"ui/icon/195000/195654.tex",0,"BannerCondition#768",0,0,0,9,1020,"Ishgard 1"
-498,3,0,"ui/icon/197000/197654.tex",0,"BannerCondition#768",0,0,0,9,1020,"Ishgard 1"
-499,4,0,"ui/icon/198000/198654.tex",0,"BannerCondition#768",0,0,0,9,1020,"Ishgard 1"
-500,1,0,"ui/icon/195000/195672.tex",0,"BannerCondition#769",0,0,0,9,1021,"Ishgard 2"
-501,3,0,"ui/icon/197000/197672.tex",0,"BannerCondition#769",0,0,0,9,1021,"Ishgard 2"
-502,4,0,"ui/icon/198000/198672.tex",0,"BannerCondition#769",0,0,0,9,1021,"Ishgard 2"
-503,1,0,"ui/icon/195000/195655.tex",0,"BannerCondition#770",0,0,0,9,1022,"Idyllée 1"
-504,3,0,"ui/icon/197000/197655.tex",0,"BannerCondition#770",0,0,0,9,1022,"Idyllée 1"
-505,4,0,"ui/icon/198000/198655.tex",0,"BannerCondition#770",0,0,0,9,1022,"Idyllée 1"
-506,1,0,"ui/icon/195000/195673.tex",0,"BannerCondition#771",0,0,0,9,1023,"Idyllée 2"
-507,3,0,"ui/icon/197000/197673.tex",0,"BannerCondition#771",0,0,0,9,1023,"Idyllée 2"
-508,4,0,"ui/icon/198000/198673.tex",0,"BannerCondition#771",0,0,0,9,1023,"Idyllée 2"
-509,1,0,"ui/icon/195000/195656.tex",0,"BannerCondition#772",0,0,0,9,1024,"Kugane 1"
-510,3,0,"ui/icon/197000/197656.tex",0,"BannerCondition#772",0,0,0,9,1024,"Kugane 1"
-511,4,0,"ui/icon/198000/198656.tex",0,"BannerCondition#772",0,0,0,9,1024,"Kugane 1"
-512,1,0,"ui/icon/195000/195668.tex",0,"BannerCondition#773",0,0,0,9,1025,"Kugane 2"
-513,3,0,"ui/icon/197000/197666.tex",0,"BannerCondition#773",0,0,0,9,1025,"Kugane 2"
-514,4,0,"ui/icon/198000/198666.tex",0,"BannerCondition#773",0,0,0,9,1025,"Kugane 2"
-515,1,0,"ui/icon/195000/195657.tex",0,"BannerCondition#774",0,0,0,9,1026,"L'Étendue de Rhalgr 1"
-516,3,0,"ui/icon/197000/197657.tex",0,"BannerCondition#774",0,0,0,9,1026,"L'Étendue de Rhalgr 1"
-517,4,0,"ui/icon/198000/198657.tex",0,"BannerCondition#774",0,0,0,9,1026,"L'Étendue de Rhalgr 1"
-518,1,0,"ui/icon/195000/195669.tex",0,"BannerCondition#775",0,0,0,9,1027,"L'Étendue de Rhalgr 2"
-519,3,0,"ui/icon/197000/197667.tex",0,"BannerCondition#775",0,0,0,9,1027,"L'Étendue de Rhalgr 2"
-520,4,0,"ui/icon/198000/198667.tex",0,"BannerCondition#775",0,0,0,9,1027,"L'Étendue de Rhalgr 2"
-521,1,0,"ui/icon/195000/195658.tex",0,"BannerCondition#776",0,0,0,9,1028,"Cristarium 1"
-522,3,0,"ui/icon/197000/197658.tex",0,"BannerCondition#776",0,0,0,9,1028,"Cristarium 1"
-523,4,0,"ui/icon/198000/198658.tex",0,"BannerCondition#776",0,0,0,9,1028,"Cristarium 1"
-524,1,0,"ui/icon/195000/195670.tex",0,"BannerCondition#777",0,0,0,9,1029,"Cristarium 2"
-525,3,0,"ui/icon/197000/197670.tex",0,"BannerCondition#777",0,0,0,9,1029,"Cristarium 2"
-526,4,0,"ui/icon/198000/198670.tex",0,"BannerCondition#777",0,0,0,9,1029,"Cristarium 2"
-527,1,0,"ui/icon/195000/195659.tex",0,"BannerCondition#778",0,0,0,9,1030,"Eulmore 1"
-528,3,0,"ui/icon/197000/197659.tex",0,"BannerCondition#778",0,0,0,9,1030,"Eulmore 1"
-529,4,0,"ui/icon/198000/198659.tex",0,"BannerCondition#778",0,0,0,9,1030,"Eulmore 1"
-530,1,0,"ui/icon/195000/195671.tex",0,"BannerCondition#779",0,0,0,9,1031,"Eulmore 2"
-531,3,0,"ui/icon/197000/197671.tex",0,"BannerCondition#779",0,0,0,9,1031,"Eulmore 2"
-532,4,0,"ui/icon/198000/198671.tex",0,"BannerCondition#779",0,0,0,9,1031,"Eulmore 2"
-533,1,0,"ui/icon/195000/195660.tex",0,"BannerCondition#780",0,0,0,9,1032,"Vieille Sharlayan 1"
-534,3,0,"ui/icon/197000/197660.tex",0,"BannerCondition#780",0,0,0,9,1032,"Vieille Sharlayan 1"
-535,4,0,"ui/icon/198000/198660.tex",0,"BannerCondition#780",0,0,0,9,1032,"Vieille Sharlayan 1"
-536,1,0,"ui/icon/195000/195666.tex",0,"BannerCondition#781",0,0,0,9,1033,"Vieille Sharlayan 2"
-537,3,0,"ui/icon/197000/197668.tex",0,"BannerCondition#781",0,0,0,9,1033,"Vieille Sharlayan 2"
-538,4,0,"ui/icon/198000/198668.tex",0,"BannerCondition#781",0,0,0,9,1033,"Vieille Sharlayan 2"
-539,1,0,"ui/icon/195000/195661.tex",0,"BannerCondition#782",0,0,0,9,1034,"Radz-at-Han 1"
-540,3,0,"ui/icon/197000/197661.tex",0,"BannerCondition#782",0,0,0,9,1034,"Radz-at-Han 1"
-541,4,0,"ui/icon/198000/198661.tex",0,"BannerCondition#782",0,0,0,9,1034,"Radz-at-Han 1"
-542,1,0,"ui/icon/195000/195667.tex",0,"BannerCondition#783",0,0,0,9,1035,"Radz-at-Han 2"
-543,3,0,"ui/icon/197000/197669.tex",0,"BannerCondition#783",0,0,0,9,1035,"Radz-at-Han 2"
-544,4,0,"ui/icon/198000/198669.tex",0,"BannerCondition#783",0,0,0,9,1035,"Radz-at-Han 2"
-545,5,1,"ui/icon/234000/234608.tex",0,"BannerCondition#822",0,0,0,6,5094,"Mini-sasquatch"
-546,5,1,"ui/icon/234000/234924.tex",0,"BannerCondition#823",0,0,0,6,5153,"Black Kitten"
-547,5,1,"ui/icon/234000/234643.tex",0,"BannerCondition#824",0,0,0,6,5208,"Tora-jiro"
-548,5,1,"ui/icon/234000/234769.tex",0,"BannerCondition#825",0,0,0,6,5217,"Grand Serpent de Hopl ?"
-549,5,1,"ui/icon/234000/234770.tex",0,"BannerCondition#826",0,0,0,6,5218,"Grand Serpent des Qitari ?"
-550,5,1,"ui/icon/234000/234809.tex",0,"BannerCondition#827",0,0,0,6,5221,"Tamandua"
-551,5,1,"ui/icon/234000/234831.tex",0,"BannerCondition#828",0,0,0,6,5224,"Bébé hippo"
-552,5,1,"ui/icon/234000/234845.tex",0,"BannerCondition#829",0,0,0,6,5226,"Kangourou miniature"
-553,5,1,"ui/icon/234000/234932.tex",0,"BannerCondition#830",0,0,0,6,5237,"Shshuye"
-554,5,1,"ui/icon/234000/234683.tex",0,"BannerCondition#831",0,0,0,6,5255,"Aurélie polype"
-555,5,1,"ui/icon/234000/234759.tex",0,"BannerCondition#832",0,0,0,6,5257,"Domakin"
-556,5,1,"ui/icon/234000/234778.tex",0,"BannerCondition#833",0,0,0,6,5259,"Laladile"
-557,5,1,"ui/icon/234000/234907.tex",0,"BannerCondition#834",0,0,0,6,5262,"Mini-punutiy"
-558,5,1,"ui/icon/234000/234931.tex",0,"BannerCondition#835",0,0,0,6,5312,"Toucancan"
-559,5,1,"ui/icon/234000/234567.tex",0,"BannerCondition#836",0,0,0,6,5450,"Petit Ifrit"
-560,5,1,"ui/icon/234000/234572.tex",0,"BannerCondition#837",0,0,0,6,5451,"Petite Garuda"
-561,5,1,"ui/icon/234000/234573.tex",0,"BannerCondition#838",0,0,0,6,5452,"Petit Titan"
-562,5,1,"ui/icon/234000/234574.tex",0,"BannerCondition#839",0,0,0,6,5453,"Petit Léviathan"
-563,5,1,"ui/icon/234000/234598.tex",0,"BannerCondition#840",0,0,0,6,5454,"Petit Ramuh"
-564,5,1,"ui/icon/234000/234599.tex",0,"BannerCondition#841",0,0,0,6,5455,"Petite Shiva"
-565,5,1,"ui/icon/234000/234468.tex",0,"BannerCondition#842",0,0,0,6,5456,"Odin mécanique"
-566,5,1,"ui/icon/234000/234663.tex",0,"BannerCondition#843",0,0,0,6,5457,"Petit Bismarck"
-567,5,1,"ui/icon/234000/234665.tex",0,"BannerCondition#844",0,0,0,6,5458,"Petit Ravana"
-568,5,1,"ui/icon/234000/234661.tex",0,"BannerCondition#845",0,0,0,6,5459,"Petit Susano"
-569,5,1,"ui/icon/234000/234662.tex",0,"BannerCondition#846",0,0,0,6,5460,"Petite Lakshmi"
-570,5,1,"ui/icon/234000/234938.tex",0,"BannerCondition#847",0,0,0,6,5561,"Thémis miniature"
-571,5,1,"ui/icon/234000/234934.tex",0,"BannerCondition#848",0,0,0,6,5605,"Pelupelu miniature"
-572,5,1,"ui/icon/234000/234935.tex",0,"BannerCondition#849",0,0,0,6,5653,"Soldat d'étain S3"
-573,5,1,"ui/icon/234000/234786.tex",0,"BannerCondition#850",0,0,0,6,5657,"Melon allagois"
-574,5,1,"ui/icon/234000/234936.tex",0,"BannerCondition#851",0,0,0,6,5660,"Sire Sacrifice"
-575,1,0,"ui/icon/195000/195716.tex",0,"BannerCondition#872",0,0,0,4,2505,"Futures Rewritten"
-576,3,0,"ui/icon/197000/197722.tex",0,"BannerCondition#872",0,0,0,4,2505,"Futures Rewritten"
-577,4,0,"ui/icon/198000/198719.tex",0,"BannerCondition#872",0,0,0,4,2505,"Futures Rewritten"
-578,5,0,"ui/icon/199000/199717.tex",0,"BannerCondition#872",0,0,0,4,2505,"Futures Rewritten"
-579,5,0,"ui/icon/199000/199969.tex",0,"BannerCondition#873",0,0,0,3,2318,"Quêtes des Mamool Ja"
-580,3,0,"ui/icon/197000/197707.tex",0,"BannerCondition#874",0,0,0,4,2354,"Palais des morts 1"
-581,3,0,"ui/icon/197000/197708.tex",0,"BannerCondition#875",0,0,0,4,2355,"Palais des morts 2"
-582,3,0,"ui/icon/197000/197709.tex",0,"BannerCondition#876",0,0,0,4,2356,"Pilier des Cieux 1"
-583,3,0,"ui/icon/197000/197710.tex",0,"BannerCondition#877",0,0,0,4,2357,"Pilier des Cieux 2"
-584,1,0,"ui/icon/195000/195717.tex",0,"BannerCondition#879",0,0,0,4,2403,"Île de Lunule"
-585,3,0,"ui/icon/197000/197723.tex",0,"BannerCondition#879",0,0,0,4,2403,"Île de Lunule"
-586,4,0,"ui/icon/198000/198720.tex",0,"BannerCondition#879",0,0,0,4,2403,"Île de Lunule"
-587,1,0,"ui/icon/195000/195718.tex",0,"BannerCondition#878",0,0,0,8,2342,"Exploration cosmique"
-588,4,0,"ui/icon/198000/198721.tex",0,"BannerCondition#878",0,0,0,8,2342,"Exploration cosmique"
-589,5,0,"ui/icon/199000/199718.tex",0,"BannerCondition#878",0,0,0,8,2342,"Exploration cosmique"
-590,0,0,,0,"BannerCondition#0",0,0,0,0,0,""
+#,Name,Image,UnlockCondition,Unknown_70_1,Unknown_70_2,Unknown3,SortKey,Category,Subtype,Unknown1,Unknown2
+0,Aucun,0,1,0,0,0,0,0,0,0,0
+1,Brillant,194002,1,0,0,0,1,2,0,0,1
+2,Carrés,194003,1,0,0,0,6,2,0,0,1
+3,Pointillés,194004,1,0,0,0,7,2,0,0,1
+4,Damier,194005,1,0,0,0,8,2,0,0,1
+5,Quadrillage,194006,1,0,0,0,2,2,0,0,1
+6,Traits diagonaux,194007,1,0,0,0,3,2,0,0,1
+7,Séparation diagonale,194008,1,0,0,0,4,2,0,0,1
+8,Triangles,194009,1,0,0,0,5,2,0,0,1
+9,Parchemin,194010,1,0,0,0,10,2,0,0,1
+10,Coins décorés,194011,1,0,0,0,9,2,0,0,1
+11,Ombre portée,195002,1,0,0,0,1,1,0,0,1
+12,Liseré lumineux,195003,1,0,0,0,2,1,0,0,1
+13,Violet à pois,195004,1,0,0,0,3,1,0,0,1
+14,Carnet,195005,1,0,0,0,4,1,0,0,1
+15,Fouillis,195006,1,0,0,0,5,1,0,0,1
+16,Cercles magiques,195007,1,0,0,0,6,1,0,0,1
+17,Parchemin,195008,1,0,0,0,7,1,0,0,1
+18,Coups de pinceau,195009,1,0,0,0,8,1,0,0,1
+19,Panneau métallique,195010,1,0,0,0,9,1,0,0,1
+20,Livre,195011,1,0,0,0,10,1,0,0,1
+21,Bannière,197002,1,0,0,0,3,3,0,0,1
+22,Rappelé,197003,1,0,0,0,4,3,0,0,1
+23,Cercle de métal,197004,1,0,0,0,5,3,0,0,1
+24,Bannière tank,197005,1,0,0,0,6,3,0,0,1
+25,Bannière DPS,197006,1,0,0,0,8,3,0,0,1
+26,Bannière soigneur,197007,1,0,0,0,7,3,0,0,1
+27,Beige,197008,1,0,0,0,1,3,0,0,1
+28,En relief,197009,1,0,0,0,2,3,0,0,1
+29,Mémos,197010,1,0,0,0,9,3,0,0,1
+30,Fouillis,197011,1,0,0,0,10,3,0,0,1
+31,Noir,198002,1,0,0,0,3,4,0,0,1
+32,Blanc,198003,1,0,0,0,2,4,0,0,1
+33,Gemmes en relief,198004,1,0,0,0,5,4,0,0,1
+34,Gemmes simples,198005,1,0,0,0,4,4,0,0,1
+35,Limsa Lominsa,198006,1,0,0,0,6,4,0,0,1
+36,Gridania,198007,1,0,0,0,7,4,0,0,1
+37,Ul'dah,198008,1,0,0,0,8,4,0,0,1
+38,Métallique,198009,1,0,0,0,1,4,0,0,1
+39,Triple Triade EX,198010,298,0,0,0,10,4,0,0,1
+40,Triple Triade,198011,298,0,0,0,9,4,0,0,1
+41,Gils,199002,1,0,0,0,1,5,0,0,1
+42,Plume et encrier,199003,1,0,0,0,2,5,0,0,1
+43,Autocollants,199004,1,0,0,0,3,5,0,0,1
+44,Carte,199005,1,0,0,0,4,5,0,0,1
+45,Ruban,199006,1,0,0,0,5,5,0,0,1
+46,Lettres,199007,1,0,0,0,6,5,0,0,1
+47,Notes de musique,199008,1,0,0,0,7,5,0,0,1
+48,Bouquet de fleurs,199009,1,0,0,0,8,5,0,0,1
+49,Mémos,199010,1,0,0,0,9,5,0,0,1
+50,Timbres,199011,1,0,0,0,10,5,0,0,1
+51,Gladiateur,194201,156,0,0,0,2000,2,0,0,2
+52,Maraudeur,194202,157,0,0,0,2001,2,0,0,2
+53,Élémentaliste,194203,158,0,0,0,2002,2,0,0,2
+54,Pugiliste,194204,159,0,0,0,2003,2,0,0,2
+55,Maître d'hast,194205,160,0,0,0,2004,2,0,0,2
+56,Surineur,194206,161,0,0,0,2005,2,0,0,2
+57,Archer,194207,162,0,0,0,2006,2,0,0,2
+58,Occultiste,194208,163,0,0,0,2007,2,0,0,2
+59,Arcaniste,194209,164,0,0,0,2008,2,0,0,2
+60,Paladin,194210,300,0,0,0,2050,2,0,0,2
+61,Guerrier,194211,301,0,0,0,2051,2,0,0,2
+62,Chevalier noir,194212,302,0,0,0,2052,2,0,0,2
+63,Pistosabreur,194213,303,0,0,0,2053,2,0,0,2
+64,Mage blanc,194214,304,0,0,0,2054,2,0,0,2
+65,Érudit,194215,305,0,0,0,2055,2,0,0,2
+66,Astromancien,194216,306,0,0,0,2056,2,0,0,2
+67,Sage,194217,307,0,0,0,2057,2,0,0,2
+68,Moine,194218,308,0,0,0,2058,2,0,0,2
+69,Chevalier dragon,194219,309,0,0,0,2059,2,0,0,2
+70,Ninja,194220,310,0,0,0,2060,2,0,0,2
+71,Samouraï,194221,311,0,0,0,2061,2,0,0,2
+72,Faucheur,194222,312,0,0,0,2062,2,0,0,2
+73,Barde,194223,313,0,0,0,2064,2,0,0,2
+74,Machiniste,194224,314,0,0,0,2065,2,0,0,2
+75,Danseur,194225,315,0,0,0,2066,2,0,0,2
+76,Mage noir,194226,316,0,0,0,2067,2,0,0,2
+77,Invocateur,194227,317,0,0,0,2068,2,0,0,2
+78,Mage rouge,194228,318,0,0,0,2069,2,0,0,2
+79,Mage bleu,194229,232,0,0,0,2071,2,0,0,2
+80,Menuisier,194230,268,0,0,0,2100,2,0,0,2
+81,Forgeron,194231,269,0,0,0,2101,2,0,0,2
+82,Armurier,194232,270,0,0,0,2102,2,0,0,2
+83,Orfèvre,194233,271,0,0,0,2103,2,0,0,2
+84,Tanneur,194234,272,0,0,0,2104,2,0,0,2
+85,Couturier,194235,273,0,0,0,2105,2,0,0,2
+86,Alchimiste,194236,274,0,0,0,2106,2,0,0,2
+87,Cuisinier,194237,275,0,0,0,2107,2,0,0,2
+88,Mineur,194238,285,0,0,0,2108,2,0,0,2
+89,Botaniste,194239,286,0,0,0,2109,2,0,0,2
+90,Pêcheur,194240,287,0,0,0,2110,2,0,0,2
+91,,0,0,0,0,0,0,0,0,0,0
+92,,0,0,0,0,0,0,0,0,0,0
+93,,0,0,0,0,0,0,0,0,0,0
+94,,0,0,0,0,0,0,0,0,0,0
+95,,0,0,0,0,0,0,0,0,0,0
+96,,0,0,0,0,0,0,0,0,0,0
+97,,0,0,0,0,0,0,0,0,0,0
+98,,0,0,0,0,0,0,0,0,0,0
+99,,0,0,0,0,0,0,0,0,0,0
+100,,0,0,0,0,0,0,0,0,0,0
+101,,0,0,0,0,0,0,0,0,0,0
+102,,0,0,0,0,0,0,0,0,0,0
+103,,0,0,0,0,0,0,0,0,0,0
+104,,0,0,0,0,0,0,0,0,0,0
+105,,0,0,0,0,0,0,0,0,0,0
+106,,0,0,0,0,0,0,0,0,0,0
+107,,0,0,0,0,0,0,0,0,0,0
+108,,0,0,0,0,0,0,0,0,0,0
+109,,0,0,0,0,0,0,0,0,0,0
+110,,0,0,0,0,0,0,0,0,0,0
+111,,0,0,0,0,0,0,0,0,0,0
+112,,0,0,0,0,0,0,0,0,0,0
+113,,0,0,0,0,0,0,0,0,0,0
+114,,0,0,0,0,0,0,0,0,0,0
+115,,0,0,0,0,0,0,0,0,0,0
+116,,0,0,0,0,0,0,0,0,0,0
+117,,0,0,0,0,0,0,0,0,0,0
+118,,0,0,0,0,0,0,0,0,0,0
+119,,0,0,0,0,0,0,0,0,0,0
+120,,0,0,0,0,0,0,0,0,0,0
+121,,0,0,0,0,0,0,0,0,0,0
+122,,0,0,0,0,0,0,0,0,0,0
+123,,0,0,0,0,0,0,0,0,0,0
+124,,0,0,0,0,0,0,0,0,0,0
+125,,0,0,0,0,0,0,0,0,0,0
+126,,0,0,0,0,0,0,0,0,0,0
+127,,0,0,0,0,0,0,0,0,0,0
+128,,0,0,0,0,0,0,0,0,0,0
+129,,0,0,0,0,0,0,0,0,0,0
+130,,0,0,0,0,0,0,0,0,0,0
+131,,0,0,0,0,0,0,0,0,0,0
+132,,0,0,0,0,0,0,0,0,0,0
+133,,0,0,0,0,0,0,0,0,0,0
+134,,0,0,0,0,0,0,0,0,0,0
+135,,0,0,0,0,0,0,0,0,0,0
+136,,0,0,0,0,0,0,0,0,0,0
+137,,0,0,0,0,0,0,0,0,0,0
+138,,0,0,0,0,0,0,0,0,0,0
+139,,0,0,0,0,0,0,0,0,0,0
+140,,0,0,0,0,0,0,0,0,0,0
+141,,0,0,0,0,0,0,0,0,0,0
+142,,0,0,0,0,0,0,0,0,0,0
+143,,0,0,0,0,0,0,0,0,0,0
+144,,0,0,0,0,0,0,0,0,0,0
+145,,0,0,0,0,0,0,0,0,0,0
+146,,0,0,0,0,0,0,0,0,0,0
+147,,0,0,0,0,0,0,0,0,0,0
+148,,0,0,0,0,0,0,0,0,0,0
+149,,0,0,0,0,0,0,0,0,0,0
+150,,0,0,0,0,0,0,0,0,0,0
+151,,0,0,0,0,0,0,0,0,0,0
+152,Compagnon 1,197901,154,0,0,0,4000,3,0,0,7
+153,Compagnon 2,197902,155,0,0,0,4001,3,0,0,7
+154,Compagnon 1,198901,154,0,0,0,4000,4,0,0,7
+155,Compagnon 2,198902,155,0,0,0,4001,4,0,0,7
+156,Compagnon 1,199901,154,0,0,0,4000,5,0,0,7
+157,Compagnon 2,199902,155,0,0,0,4001,5,0,0,7
+158,Compagnon 1,195901,154,0,0,0,4000,1,0,0,7
+159,Compagnon 2,195902,155,0,0,0,4001,1,0,0,7
+160,Abîme infini de Bahamut (fatal),195701,319,0,0,0,2500,1,0,0,4
+161,Abîme infini de Bahamut (fatal),197701,319,0,0,0,2500,3,0,0,4
+162,Abîme infini de Bahamut (fatal),198701,319,0,0,0,2500,4,0,0,4
+163,Abîme infini de Bahamut (fatal),199701,319,0,0,0,2500,5,0,0,4
+164,Fantasmagorie d'Ultima (fatal),195702,320,0,0,0,2501,1,0,0,4
+165,Fantasmagorie d'Ultima (fatal),197702,320,0,0,0,2501,3,0,0,4
+166,Fantasmagorie d'Ultima (fatal),198702,320,0,0,0,2501,4,0,0,4
+167,Fantasmagorie d'Ultima (fatal),199702,320,0,0,0,2501,5,0,0,4
+168,Odyssée d'Alexander (fatal),195703,321,0,0,0,2502,1,0,0,4
+169,Odyssée d'Alexander (fatal),197703,321,0,0,0,2502,3,0,0,4
+170,Odyssée d'Alexander (fatal),198703,321,0,0,0,2502,4,0,0,4
+171,Odyssée d'Alexander (fatal),199703,321,0,0,0,2502,5,0,0,4
+172,Guerre du chant des dragons (fatal),195704,322,0,0,0,2503,1,0,0,4
+173,Guerre du chant des dragons (fatal),197704,322,0,0,0,2503,3,0,0,4
+174,Guerre du chant des dragons (fatal),198704,322,0,0,0,2503,4,0,0,4
+175,Guerre du chant des dragons (fatal),199704,322,0,0,0,2503,5,0,0,4
+176,Donjon à embranchements : Les canalisations sildiennes,194701,343,0,0,0,2400,2,0,0,4
+177,Donjon à embranchements : Les canalisations sildiennes,197705,343,0,0,0,2400,3,0,0,4
+178,,0,0,0,0,0,0,0,0,0,0
+179,Quêtes des Omicrons,199966,344,0,0,0,2315,5,0,0,3
+180,Salon de thé,194012,1,0,0,0,11,2,0,0,1
+181,Échiquier,194013,1,0,0,0,12,2,0,0,1
+182,Étincelles,194014,1,0,0,0,13,2,0,0,1
+183,Rayures verticales,194015,1,0,0,0,14,2,0,0,1
+184,Lignes horizontales,194016,1,0,0,0,15,2,0,0,1
+185,Cœurs,194017,1,0,0,0,16,2,0,0,1
+186,Chevrons horizontaux,194018,1,0,0,0,17,2,0,0,1
+187,Feuilles de chanvre,194019,1,0,0,0,18,2,0,0,1
+188,Carreaux,194020,1,0,0,0,19,2,0,0,1
+189,Cristaux,194021,1,0,0,0,20,2,0,0,1
+190,Style oriental,195012,1,0,0,0,11,1,0,0,1
+191,Zigzags,198012,1,0,0,0,11,4,0,0,1
+192,Rubans décoratifs à tons chauds,198013,1,0,0,0,12,4,0,0,1
+193,Rubans décoratifs à tons froids,198014,1,0,0,0,13,4,0,0,1
+194,Salon de thé,199012,1,0,0,0,11,5,0,0,1
+195,Médiators,199013,347,0,0,0,13,5,0,0,7
+196,Violon,199014,347,0,0,0,12,5,0,0,7
+197,Pantin P001,234401,348,0,0,0,5600,5,1,0,6
+198,Bébé chocobo,234402,349,0,0,0,5000,5,1,0,6
+199,Bombino,234403,350,0,0,0,5050,5,1,0,6
+200,Bébéhémoth,234405,351,608,0,793,5051,5,1,0,6
+201,Bulbe de morbol,234412,352,0,0,0,5052,5,1,0,6
+202,Lapin mutin,234424,353,0,0,0,5061,5,1,0,6
+203,Mini-pampa,234429,354,0,0,0,5062,5,1,0,6
+204,Coquépique,234430,355,0,0,0,5063,5,1,0,6
+205,Goobbue goulu,234436,356,0,0,0,5075,5,1,0,6
+206,Bloc démonique,234439,357,0,0,0,5076,5,1,0,6
+207,Curseur flottant,234444,358,609,0,794,5654,5,1,0,6
+208,Qiqirn mécanique,234446,359,0,0,0,5350,5,1,0,6
+209,Bébé chacal,234450,360,0,0,0,5064,5,1,0,6
+210,Joli coeurl,234452,361,0,0,0,5056,5,1,0,6
+211,Tomberry mécanique,234453,362,0,0,0,5059,5,1,0,6
+212,Balai enchanté,234471,363,0,0,0,5655,5,1,0,6
+213,Poupée mog,234472,364,610,0,795,5002,5,1,0,6
+214,Écureuil grignoteur,234487,365,0,0,0,5201,5,1,0,6
+215,Gros minou,234507,366,0,0,0,5202,5,1,0,6
+216,Petit kappa,234511,367,0,0,0,5750,5,1,0,6
+217,Sphère de guidage,234542,368,0,0,0,5650,5,1,0,6
+218,Petiot païssa,234558,369,0,0,0,5088,5,1,0,6
+219,Pon-korpokkur,234566,370,0,0,0,5090,5,1,0,6
+220,Loutre choute,234641,371,0,0,0,5251,5,1,0,6
+221,Namazu mécanique,234653,372,0,0,0,5351,5,1,0,6
+222,Khloe miniature,234660,373,0,0,0,5542,5,1,0,6
+223,Mame shiba,234667,374,0,0,0,5210,5,1,0,6
+224,Serpent marin de Ronka ?,234737,375,0,0,0,5216,5,1,0,6
+225,Castor géant,234742,376,0,0,0,5352,5,1,0,6
+226,Requin commandeur,234775,377,0,0,0,5258,5,1,0,6
+227,Poupée Cait Sith,234404,378,611,0,796,5601,5,1,0,6
+228,Oiseau bleu,234416,379,0,0,0,5300,5,1,0,6
+229,Dodu dodo,234432,380,0,0,0,5065,5,1,0,6
+230,Apkallu nain,234435,381,0,0,0,5074,5,1,0,6
+231,Belin bêlant,234441,382,0,0,0,5077,5,1,0,6
+232,Mini-mini-mandragore,234442,383,0,0,0,5066,5,1,0,6
+233,Perroquet taciturne,234462,384,0,0,0,5080,5,1,0,6
+234,Poupée succube,234475,385,0,0,0,5082,5,1,0,6
+235,Pantin Gilgamesh,234476,386,612,624,797,5566,5,1,0,6
+236,Prince oignon,234477,387,0,0,0,5067,5,1,0,6
+237,Chevalier aubergine,234478,388,0,0,0,5068,5,1,0,6
+238,Baron ail,234479,389,0,0,0,5069,5,1,0,6
+239,Roi tomate,234480,390,0,0,0,5070,5,1,0,6
+240,Reine mandragore,234481,391,0,0,0,5071,5,1,0,6
+241,Orthros articulé,234504,392,0,0,0,5568,5,1,0,6
+242,Enkidu,234521,393,0,0,0,5567,5,1,0,6
+243,Atomos atrophié,234529,394,0,0,0,5085,5,1,0,6
+244,Gaélichaton,234532,395,0,0,0,5086,5,1,0,6
+245,Petit panda roux,234534,396,0,0,0,5204,5,1,0,6
+246,Manchot prince,234564,397,0,0,0,5304,5,1,0,6
+247,Porcelet promeneur,234600,398,0,0,0,5751,5,1,0,6
+248,Marcassin,234616,399,0,0,0,5095,5,1,0,6
+249,Moineau voyageur,234647,400,0,0,0,5305,5,1,0,6
+250,Chimère mécanique,234655,401,0,0,0,5602,5,1,0,6
+251,Ko-yukinko,234719,402,0,0,0,5096,5,1,0,6
+252,Bébé renard,234642,403,0,0,0,5207,5,1,0,6
+253,Bec-en-sabot,234749,404,0,0,0,5306,5,1,0,6
+254,Bout-de-cochon,234753,405,0,0,0,5097,5,1,0,6
+255,Renard des sables,234787,406,0,0,0,5220,5,1,0,6
+256,Momo Ramora,234796,407,0,0,0,5260,5,1,0,6
+257,Quêtes des Pixies,199962,429,0,0,0,2311,5,0,0,3
+258,Quêtes des Qitari,199963,430,0,0,0,2312,5,0,0,3
+259,Quêtes des Nains,199964,431,0,0,0,2313,5,0,0,3
+260,Quêtes des Arkasodaras,199965,432,0,0,0,2314,5,0,0,3
+261,Quêtes des Loporrites,199967,433,0,0,0,2316,5,0,0,3
+262,Protocole Oméga (fatal),195705,434,0,0,0,2504,1,0,0,4
+263,Protocole Oméga (fatal),197706,434,0,0,0,2504,3,0,0,4
+264,Protocole Oméga (fatal),198705,434,0,0,0,2504,4,0,0,4
+265,Protocole Oméga (fatal),199705,434,0,0,0,2504,5,0,0,4
+266,Bébé chocobo grassouillet,234506,435,0,0,0,5001,5,1,0,6
+267,Mini-gluant,234451,436,0,0,0,5078,5,1,0,6
+268,Bébé opo-opo,234470,437,0,0,0,5081,5,1,0,6
+269,Petit yéti,234508,438,0,0,0,5083,5,1,0,6
+270,Poussin oculus,234563,439,0,0,0,5089,5,1,0,6
+271,Morpho,234579,440,0,0,0,5091,5,1,0,6
+272,Poro Roggo,234580,441,0,0,0,5092,5,1,0,6
+273,Drippy,234805,442,0,0,0,5099,5,1,0,6
+274,Bunbuku,234646,443,0,0,0,5209,5,1,0,6
+275,Hérisson mignon,234730,444,0,0,0,5214,5,1,0,6
+276,Momonga,234862,445,0,0,0,5227,5,1,0,6
+277,Ghido,234658,446,0,0,0,5252,5,1,0,6
+278,Bébé phoque,234672,447,0,0,0,5253,5,1,0,6
+279,Axolotl,234673,448,0,0,0,5254,5,1,0,6
+280,Ornithorynque nain,234740,449,0,0,0,5256,5,1,0,6
+281,Vilain petit canard,234531,450,0,0,0,5302,5,1,0,6
+282,Bébé Byakko,234684,451,0,0,0,5461,5,1,0,6
+283,Paonne vermillon,234703,452,0,0,0,5462,5,1,0,6
+284,Dragonnet azur,234727,453,0,0,0,5464,5,1,0,6
+285,Y'shtola miniature,234500,454,0,0,0,5500,5,1,0,6
+286,Minfilia miniature,234488,455,0,0,0,5503,5,1,0,6
+287,Thancred miniature,234489,456,0,0,0,5504,5,1,0,6
+288,Yda miniature,234501,457,0,0,0,5506,5,1,0,6
+289,Papalymo miniature,234502,458,0,0,0,5508,5,1,0,6
+290,Urianger miniature,234503,459,0,0,0,5509,5,1,0,6
+291,Alphinaud miniature,234519,460,0,0,0,5513,5,1,0,6
+292,Alisaie miniature,234520,461,0,0,0,5514,5,1,0,6
+293,Tataru miniature,234526,462,0,0,0,5516,5,1,0,6
+294,Cid miniature,234527,463,0,0,0,5518,5,1,0,6
+295,Madmiaouselle,234856,464,0,0,0,5603,5,1,0,6
+296,Eurêka Orthos,197711,465,0,0,0,2358,3,0,0,4
+297,Enaretos,197712,466,0,0,0,2359,3,0,0,4
+298,Conte des quatre animaux sacrés,198706,467,0,0,0,2251,4,0,0,3
+299,Félicité insulaire 1,198707,468,0,0,0,2340,4,0,0,8
+300,Félicité insulaire 2,198708,469,0,0,0,2341,4,0,0,8
+301,Félicité insulaire 1,199706,468,0,0,0,2340,5,0,0,8
+302,Félicité insulaire 2,199707,469,0,0,0,2341,5,0,0,8
+303,Silkie-éponge,234863,472,0,0,0,5103,5,1,0,6
+304,Chihuaouaf,234848,473,0,0,0,5228,5,1,0,6
+305,Gaélichat emmitouflé,234784,474,0,0,0,5087,5,1,0,6
+306,Ourson de Nanakko,234485,475,0,0,0,5200,5,1,0,6
+307,Kuro shiba,234733,476,0,0,0,5211,5,1,0,6
+308,Bébé koala,234671,477,0,0,0,5212,5,1,0,6
+309,Bébé cabiaï,234716,478,0,0,0,5213,5,1,0,6
+310,Drapo,234822,479,0,0,0,5222,5,1,0,6
+311,Corgi,234867,480,0,0,0,5229,5,1,0,6
+312,Mésange à longue queue,234771,481,0,0,0,5307,5,1,0,6
+313,Glaneur vert,234838,482,0,0,0,5102,5,1,0,6
+314,Arkasodara miniature,234844,483,0,0,0,5400,5,1,0,6
+315,Grébuloff miniature,234839,484,0,0,0,5353,5,1,0,6
+316,Findingway,234872,485,0,0,0,5354,5,1,0,6
+317,Omicron Optimus,234825,486,0,0,0,5651,5,1,0,6
+318,Oméga-M miniature,234744,487,0,0,0,5151,5,1,0,6
+319,Oméga-F miniature,234745,488,0,0,0,5152,5,1,0,6
+320,Mini-Oméga,234705,489,0,0,0,5150,5,1,0,6
+321,Alpha mécanique,234704,490,0,0,0,5573,5,1,0,6
+322,Krile miniature,234605,491,0,0,0,5519,5,1,0,6
+323,Moenbryda miniature,234624,492,0,0,0,5521,5,1,0,6
+324,Hildibrand miniature,234515,493,0,0,0,5522,5,1,0,6
+325,Nanamo miniature,234499,494,613,625,798,5528,5,1,0,6
+326,Haurchefant miniature,234568,495,0,0,0,5532,5,1,0,6
+327,Aymeric miniature,234606,496,0,0,0,5534,5,1,0,6
+328,Estinien miniature,234628,497,0,0,0,5536,5,1,0,6
+329,Nero tol Scaeva miniature,234575,498,0,0,0,5533,5,1,0,6
+330,Raubahn miniature,234555,499,614,621,799,5526,5,1,0,6
+331,Kan-E miniature,234553,500,615,622,800,5525,5,1,0,6
+332,Merlwyb miniature,234554,501,616,623,801,5524,5,1,0,6
+333,Quêtes des Kojin,199960,524,0,0,0,2308,5,0,0,3
+334,Quêtes des Anantas,199959,525,0,0,0,2309,5,0,0,3
+335,Quêtes des Namazu,199961,526,0,0,0,2310,5,0,0,3
+336,La fin d'une ère,197713,527,0,0,0,2250,3,0,0,3
+337,La fin d'une ère,198709,527,0,0,0,2250,4,0,0,3
+338,La fin d'une ère,199708,527,0,0,0,2250,5,0,0,3
+339,10e anniversaire,198710,523,0,0,0,3950,4,0,0,7
+340,10e anniversaire,199709,523,0,0,0,3950,5,0,0,7
+341,Donjon à embranchements : Le mont Rokkon,194702,528,0,0,0,2401,2,0,0,4
+342,Donjon à embranchements : Le mont Rokkon,197714,528,0,0,0,2401,3,0,0,4
+343,Grand pêcheur,195706,529,0,0,0,2343,1,0,0,8
+344,Grand pêcheur,197715,529,0,0,0,2343,3,0,0,8
+345,Grand pêcheur,198711,529,0,0,0,2343,4,0,0,8
+346,Grand pêcheur,199710,529,0,0,0,2343,5,0,0,8
+347,Pêcheur de légendes,195707,530,0,0,0,2344,1,0,0,8
+348,Pêcheur de légendes,197716,530,0,0,0,2344,3,0,0,8
+349,Pêcheur de légendes,198712,530,0,0,0,2344,4,0,0,8
+350,Pêcheur de légendes,199711,530,0,0,0,2344,5,0,0,8
+351,Tuiles essentielles,195708,531,0,0,0,2350,1,0,0,8
+352,Tuiles essentielles,198713,531,0,0,0,2350,4,0,0,8
+353,Tuiles essentielles,199712,531,0,0,0,2350,5,0,0,8
+354,La fin d'une ère,195709,527,0,0,0,2250,1,0,0,3
+355,Soldate pachypodium,234873,534,0,0,0,5072,5,1,0,6
+356,Shiromaru,234886,535,0,0,0,5231,5,1,0,6
+357,Kuromaru,234890,536,0,0,0,5232,5,1,0,6
+358,Mini-moai,234678,537,0,0,0,5656,5,1,0,6
+359,Azeyma miniature,234851,538,0,0,0,5154,5,1,0,6
+360,Halone miniature,234874,539,0,0,0,5155,5,1,0,6
+361,Oschon miniature,234894,540,0,0,0,5156,5,1,0,6
+362,Golem graveleux,234419,541,0,0,0,5058,5,1,0,6
+363,Mini-momie,234509,542,0,0,0,5084,5,1,0,6
+364,Bébé Fenrir,234582,543,0,0,0,5093,5,1,0,6
+365,Mini-Leannan Sith,234761,544,0,0,0,5098,5,1,0,6
+366,Lapin nain,234609,545,0,0,0,5206,5,1,0,6
+367,Suricate,234756,546,0,0,0,5219,5,1,0,6
+368,Fretin assassin,234510,547,0,0,0,5250,5,1,0,6
+369,Bébé hibou,234530,548,0,0,0,5301,5,1,0,6
+370,Buse chasseuse,234562,549,0,0,0,5303,5,1,0,6
+371,Fou à pattes bleues,234853,550,0,0,0,5308,5,1,0,6
+372,Nouvelle Y'shtola miniature,234596,551,0,0,0,5501,5,1,0,6
+373,Nouveau Thancred miniature,234617,552,0,0,0,5505,5,1,0,6
+374,Louisoix miniature,234512,553,0,0,0,5511,5,1,0,6
+375,Nouvelle Alisaie miniature,234618,554,0,0,0,5515,5,1,0,6
+376,Godbert miniature,234876,555,0,0,0,5523,5,1,0,6
+377,Ysayle miniature,234538,556,617,0,802,5529,5,1,0,6
+378,Yugiri miniature,234543,557,618,0,803,5530,5,1,0,6
+379,Edda miniature,234619,558,0,0,0,5535,5,1,0,6
+380,Zhloe miniature,234698,559,0,0,0,5541,5,1,0,6
+381,G'raha Tia miniature,234706,560,0,0,0,5547,5,1,0,6
+382,Midgardsormr,234518,561,0,0,0,5569,5,1,0,6
+383,Hraesvelgr miniature,234629,562,619,626,804,5570,5,1,0,6
+384,Nidhogg miniature,234633,563,620,0,805,5571,5,1,0,6
+385,Haricot rose,234899,564,0,0,0,5800,5,1,0,6
+386,Pegwin,234900,565,0,0,0,5801,5,1,0,6
+387,Talgor louveteau,234898,566,0,0,0,5701,5,1,0,6
+388,Quêtes des Vanu Vanu,199956,567,0,0,0,2305,5,0,0,3
+389,Quêtes des Gnathes,199957,568,0,0,0,2306,5,0,0,3
+390,Quêtes des Mogs,199958,569,0,0,0,2307,5,0,0,3
+391,Le Mythe éorzéen,197720,572,0,0,0,2252,3,0,0,3
+392,Le Mythe éorzéen,198717,572,0,0,0,2252,4,0,0,3
+393,Le Mythe éorzéen,199715,572,0,0,0,2252,5,0,0,3
+394,La Tarufacture de Tataru,197719,573,0,0,0,2242,3,0,0,3
+395,La Tarufacture de Tataru,198716,573,0,0,0,2242,4,0,0,3
+396,Donjon à embranchements : L'île d'Aloalo,194703,574,0,0,0,2402,2,0,0,4
+397,Donjon à embranchements : L'île d'Aloalo,197721,574,0,0,0,2402,3,0,0,4
+398,Aventures imaginaires de Khloe,195710,570,0,0,0,2351,1,0,0,8
+399,Aventures imaginaires de Khloe,197717,570,0,0,0,2351,3,0,0,8
+400,Aventures imaginaires de Khloe,198714,570,0,0,0,2351,4,0,0,8
+401,Aventures imaginaires de Khloe,199713,570,0,0,0,2351,5,0,0,8
+402,Touché-tourné,195711,571,0,0,0,2352,1,0,0,8
+403,Touché-tourné,197718,571,0,0,0,2352,3,0,0,8
+404,Touché-tourné,198715,571,0,0,0,2352,4,0,0,8
+405,Touché-tourné,199714,571,0,0,0,2352,5,0,0,8
+406,Blunderville 1,195712,575,0,0,0,3951,1,0,0,7
+407,Blunderville 2,195713,576,0,0,0,3952,1,0,0,7
+408,Blunderville 3,195714,577,0,0,0,3953,1,0,0,7
+409,Yo-kai Watch,195715,607,0,0,0,3954,1,0,0,7
+410,Yo-kai Watch,198718,607,0,0,0,3954,4,0,0,7
+411,Yo-kai Watch,199716,607,0,0,0,3954,5,0,0,7
+412,Repulu,234906,643,0,0,0,5215,5,1,0,6
+413,Uolosapa,234891,644,0,0,0,5310,5,1,0,6
+414,Larve de coblyn,234433,645,0,0,0,5073,5,1,0,6
+415,Rocher de Cydonia,234895,646,0,0,0,5658,5,1,0,6
+416,Koyo K miniature,234854,647,0,0,0,5700,5,1,0,6
+417,Macareux,234878,648,0,0,0,5309,5,1,0,6
+418,Chimpanzé,234883,649,0,0,0,5230,5,1,0,6
+419,Lyse miniature,234648,658,0,0,0,5507,5,1,0,6
+420,Hien miniature,234664,659,0,0,0,5540,5,1,0,6
+421,Yugiri miniature revisitée,234649,660,0,0,0,5531,5,1,0,6
+422,Gosetsu miniature,234650,661,0,0,0,5538,5,1,0,6
+423,Yotsuyu miniature,234651,662,708,714,806,5539,5,1,0,6
+424,Grynewaht miniature,234652,663,0,0,0,5546,5,1,0,6
+425,Nouveau Raubahn miniature,234676,664,0,0,0,5527,5,1,0,6
+426,Magnai miniature,234682,665,0,0,0,5544,5,1,0,6
+427,Cirina miniature,234697,666,0,0,0,5543,5,1,0,6
+428,Sadu miniature,234696,667,0,0,0,5545,5,1,0,6
+429,Nouvelle Tataru miniature,234720,668,709,715,807,5517,5,1,0,6
+430,Suzaku mécanique,234743,669,710,716,808,5463,5,1,0,6
+431,Y'shtola miniature (premier reflet),234731,670,0,0,0,5502,5,1,0,6
+432,Nouvel Urianger miniature,234829,671,0,0,0,5510,5,1,0,6
+433,Nouvel Estinien miniature,234760,672,0,0,0,5537,5,1,0,6
+434,Lyna miniature,234816,673,711,717,809,5553,5,1,0,6
+435,Runar miniature,234817,674,712,718,810,5554,5,1,0,6
+436,Dulia-Chai miniature,234776,675,713,719,811,5549,5,1,0,6
+437,Ryne miniature,234732,676,0,0,0,5548,5,1,0,6
+438,Gaïa miniature,234798,677,0,0,0,5552,5,1,0,6
+439,Mystel miniature,234781,678,0,0,0,5550,5,1,0,6
+440,Ardbert miniature,234782,679,0,0,0,5551,5,1,0,6
+441,Solus mécanique,234855,680,0,0,0,5556,5,1,0,6
+442,Écureuil nain,234413,650,0,0,0,5053,5,1,0,6
+443,Fungus miniature,234414,651,0,0,0,5054,5,1,0,6
+444,Chigoe apprivoisé,234415,652,0,0,0,5055,5,1,0,6
+445,Coeurl noir,234514,653,0,0,0,5057,5,1,0,6
+446,Bébé raptor,234421,654,0,0,0,5060,5,1,0,6
+447,Gentil flagelleur,234461,655,0,0,0,5079,5,1,0,6
+448,Bébé licorne,234528,656,0,0,0,5203,5,1,0,6
+449,Gestahl,234539,657,0,0,0,5205,5,1,0,6
+450,Rôdeur vipère,194241,705,0,0,0,2063,2,0,0,2
+451,Pictomancien,194242,706,0,0,0,2070,2,0,0,2
+452,Quêtes des Kobolds,199954,694,0,0,0,2302,5,0,0,3
+453,Quêtes des Sylphes,199952,695,0,0,0,2301,5,0,0,3
+454,Quêtes des Amalj'aa,199951,696,0,0,0,2300,5,0,0,3
+455,Quêtes des Sahuagins,199955,697,0,0,0,2303,5,0,0,3
+456,Quêtes des Ixali,199953,698,0,0,0,2304,5,0,0,3
+457,Tuliyollal 1,195662,701,0,0,0,1036,1,0,0,9
+458,Tuliyollal 1,197662,701,0,0,0,1036,3,0,0,9
+459,Tuliyollal 1,198662,701,0,0,0,1036,4,0,0,9
+460,Tuliyollal 2,195663,702,0,0,0,1037,1,0,0,9
+461,Tuliyollal 2,197663,702,0,0,0,1037,3,0,0,9
+462,Tuliyollal 2,198663,702,0,0,0,1037,4,0,0,9
+463,Solution Neuf 1,195664,699,0,0,0,1038,1,0,0,9
+464,Solution Neuf 1,197664,699,0,0,0,1038,3,0,0,9
+465,Solution Neuf 1,198664,699,0,0,0,1038,4,0,0,9
+466,Solution Neuf 2,195665,700,0,0,0,1039,1,0,0,9
+467,Solution Neuf 2,197665,700,0,0,0,1039,3,0,0,9
+468,Solution Neuf 2,198665,700,0,0,0,1039,4,0,0,9
+469,Bébé dauphin,234810,729,0,0,0,5261,5,1,0,6
+470,Oiseau stellaire,234827,730,0,0,0,5574,5,1,0,6
+471,Chat nagxien,234828,731,0,0,0,5223,5,1,0,6
+472,Vrtra miniature,234830,732,0,0,0,5572,5,1,0,6
+473,Crabe du crabe,234832,733,0,0,0,5225,5,1,0,6
+474,Prince pampa sélénien,234833,734,0,0,0,5100,5,1,0,6
+475,Héroïne miniature,234841,735,0,0,0,5555,5,1,0,6
+476,Roi pampa sélénien,234843,736,0,0,0,5101,5,1,0,6
+477,Ami miniature,234865,737,0,0,0,5558,5,1,0,6
+478,Érichthonios miniature,234866,738,0,0,0,5559,5,1,0,6
+479,Aidoneus miniature,234877,739,0,0,0,5557,5,1,0,6
+480,Athéna miniature,234887,740,0,0,0,5560,5,1,0,6
+481,Barnabaigneur,234896,741,0,0,0,5604,5,1,0,6
+482,Idole Hydaelyn,234901,742,784,788,812,5564,5,1,0,6
+483,Idole Zordiarche,234902,743,785,789,813,5565,5,1,0,6
+484,Fourchenault miniature,234903,744,786,790,814,5512,5,1,0,6
+485,Cria alpaga,234909,745,0,0,0,5233,5,1,0,6
+486,Ilyikty'i,234912,746,0,0,0,5234,5,1,0,6
+487,Quetzal resplendissant,234913,747,0,0,0,5311,5,1,0,6
+488,Coyote court sur pattes,234914,748,0,0,0,5235,5,1,0,6
+489,Sire Épidemaïs,234916,749,0,0,0,5659,5,1,0,6
+490,Biscoto-pampa,234917,750,0,0,0,5104,5,1,0,6
+491,Chat gris bleuté,234918,751,0,0,0,5236,5,1,0,6
+492,Sentinelle de plomb T1,234922,752,0,0,0,5652,5,1,0,6
+493,Nouvelle Krile miniature,234925,753,0,0,0,5520,5,1,0,6
+494,Zero miniature,234926,754,787,791,815,5562,5,1,0,6
+495,Erenville miniature,234927,755,0,0,0,5563,5,1,0,6
+496,Quêtes des Pelupelu,199968,767,0,0,0,2317,5,0,0,3
+497,Ishgard 1,195654,768,0,0,0,1020,1,0,0,9
+498,Ishgard 1,197654,768,0,0,0,1020,3,0,0,9
+499,Ishgard 1,198654,768,0,0,0,1020,4,0,0,9
+500,Ishgard 2,195672,769,0,0,0,1021,1,0,0,9
+501,Ishgard 2,197672,769,0,0,0,1021,3,0,0,9
+502,Ishgard 2,198672,769,0,0,0,1021,4,0,0,9
+503,Idyllée 1,195655,770,0,0,0,1022,1,0,0,9
+504,Idyllée 1,197655,770,0,0,0,1022,3,0,0,9
+505,Idyllée 1,198655,770,0,0,0,1022,4,0,0,9
+506,Idyllée 2,195673,771,0,0,0,1023,1,0,0,9
+507,Idyllée 2,197673,771,0,0,0,1023,3,0,0,9
+508,Idyllée 2,198673,771,0,0,0,1023,4,0,0,9
+509,Kugane 1,195656,772,0,0,0,1024,1,0,0,9
+510,Kugane 1,197656,772,0,0,0,1024,3,0,0,9
+511,Kugane 1,198656,772,0,0,0,1024,4,0,0,9
+512,Kugane 2,195668,773,0,0,0,1025,1,0,0,9
+513,Kugane 2,197666,773,0,0,0,1025,3,0,0,9
+514,Kugane 2,198666,773,0,0,0,1025,4,0,0,9
+515,L'Étendue de Rhalgr 1,195657,774,0,0,0,1026,1,0,0,9
+516,L'Étendue de Rhalgr 1,197657,774,0,0,0,1026,3,0,0,9
+517,L'Étendue de Rhalgr 1,198657,774,0,0,0,1026,4,0,0,9
+518,L'Étendue de Rhalgr 2,195669,775,0,0,0,1027,1,0,0,9
+519,L'Étendue de Rhalgr 2,197667,775,0,0,0,1027,3,0,0,9
+520,L'Étendue de Rhalgr 2,198667,775,0,0,0,1027,4,0,0,9
+521,Cristarium 1,195658,776,0,0,0,1028,1,0,0,9
+522,Cristarium 1,197658,776,0,0,0,1028,3,0,0,9
+523,Cristarium 1,198658,776,0,0,0,1028,4,0,0,9
+524,Cristarium 2,195670,777,0,0,0,1029,1,0,0,9
+525,Cristarium 2,197670,777,0,0,0,1029,3,0,0,9
+526,Cristarium 2,198670,777,0,0,0,1029,4,0,0,9
+527,Eulmore 1,195659,778,0,0,0,1030,1,0,0,9
+528,Eulmore 1,197659,778,0,0,0,1030,3,0,0,9
+529,Eulmore 1,198659,778,0,0,0,1030,4,0,0,9
+530,Eulmore 2,195671,779,0,0,0,1031,1,0,0,9
+531,Eulmore 2,197671,779,0,0,0,1031,3,0,0,9
+532,Eulmore 2,198671,779,0,0,0,1031,4,0,0,9
+533,Vieille Sharlayan 1,195660,780,0,0,0,1032,1,0,0,9
+534,Vieille Sharlayan 1,197660,780,0,0,0,1032,3,0,0,9
+535,Vieille Sharlayan 1,198660,780,0,0,0,1032,4,0,0,9
+536,Vieille Sharlayan 2,195666,781,0,0,0,1033,1,0,0,9
+537,Vieille Sharlayan 2,197668,781,0,0,0,1033,3,0,0,9
+538,Vieille Sharlayan 2,198668,781,0,0,0,1033,4,0,0,9
+539,Radz-at-Han 1,195661,782,0,0,0,1034,1,0,0,9
+540,Radz-at-Han 1,197661,782,0,0,0,1034,3,0,0,9
+541,Radz-at-Han 1,198661,782,0,0,0,1034,4,0,0,9
+542,Radz-at-Han 2,195667,783,0,0,0,1035,1,0,0,9
+543,Radz-at-Han 2,197669,783,0,0,0,1035,3,0,0,9
+544,Radz-at-Han 2,198669,783,0,0,0,1035,4,0,0,9
+545,Mini-sasquatch,234608,822,0,0,0,5094,5,1,0,6
+546,Black Kitten,234924,823,0,0,0,5153,5,1,0,6
+547,Tora-jiro,234643,824,0,0,0,5208,5,1,0,6
+548,Grand Serpent de Hopl ?,234769,825,0,0,0,5217,5,1,0,6
+549,Grand Serpent des Qitari ?,234770,826,0,0,0,5218,5,1,0,6
+550,Tamandua,234809,827,0,0,0,5221,5,1,0,6
+551,Bébé hippo,234831,828,0,0,0,5224,5,1,0,6
+552,Kangourou miniature,234845,829,0,0,0,5226,5,1,0,6
+553,Shshuye,234932,830,0,0,0,5237,5,1,0,6
+554,Aurélie polype,234683,831,0,0,0,5255,5,1,0,6
+555,Domakin,234759,832,0,0,0,5257,5,1,0,6
+556,Laladile,234778,833,0,0,0,5259,5,1,0,6
+557,Mini-punutiy,234907,834,0,0,0,5262,5,1,0,6
+558,Toucancan,234931,835,0,0,0,5312,5,1,0,6
+559,Petit Ifrit,234567,836,0,0,0,5450,5,1,0,6
+560,Petite Garuda,234572,837,0,0,0,5451,5,1,0,6
+561,Petit Titan,234573,838,0,0,0,5452,5,1,0,6
+562,Petit Léviathan,234574,839,0,0,0,5453,5,1,0,6
+563,Petit Ramuh,234598,840,0,0,0,5454,5,1,0,6
+564,Petite Shiva,234599,841,0,0,0,5455,5,1,0,6
+565,Odin mécanique,234468,842,0,0,0,5456,5,1,0,6
+566,Petit Bismarck,234663,843,0,0,0,5457,5,1,0,6
+567,Petit Ravana,234665,844,0,0,0,5458,5,1,0,6
+568,Petit Susano,234661,845,0,0,0,5459,5,1,0,6
+569,Petite Lakshmi,234662,846,0,0,0,5460,5,1,0,6
+570,Thémis miniature,234938,847,0,0,0,5561,5,1,0,6
+571,Pelupelu miniature,234934,848,0,0,0,5605,5,1,0,6
+572,Soldat d'étain S3,234935,849,0,0,0,5653,5,1,0,6
+573,Melon allagois,234786,850,0,0,0,5657,5,1,0,6
+574,Sire Sacrifice,234936,851,0,0,0,5660,5,1,0,6
+575,Futures Rewritten,195716,872,0,0,0,2505,1,0,0,4
+576,Futures Rewritten,197722,872,0,0,0,2505,3,0,0,4
+577,Futures Rewritten,198719,872,0,0,0,2505,4,0,0,4
+578,Futures Rewritten,199717,872,0,0,0,2505,5,0,0,4
+579,Quêtes des Mamool Ja,199969,873,0,0,0,2318,5,0,0,3
+580,Palais des morts 1,197707,874,0,0,0,2354,3,0,0,4
+581,Palais des morts 2,197708,875,0,0,0,2355,3,0,0,4
+582,Pilier des Cieux 1,197709,876,0,0,0,2356,3,0,0,4
+583,Pilier des Cieux 2,197710,877,0,0,0,2357,3,0,0,4
+584,Île de Lunule,195717,879,0,0,0,2403,1,0,0,4
+585,Île de Lunule,197723,879,0,0,0,2403,3,0,0,4
+586,Île de Lunule,198720,879,0,0,0,2403,4,0,0,4
+587,Exploration cosmique,195718,878,0,0,0,2342,1,0,0,8
+588,Exploration cosmique,198721,878,0,0,0,2342,4,0,0,8
+589,Exploration cosmique,199718,878,0,0,0,2342,5,0,0,8
+590,,0,0,0,0,0,0,0,0,0,0

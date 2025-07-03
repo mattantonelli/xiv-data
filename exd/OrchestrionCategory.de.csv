@@ -1,17 +1,15 @@
-﻿key,0,1,2,3,4
-#,Name,HideOrder,Icon,Order,
-int32,str,byte,Image,byte,bit&01
-0,"",0,,0,False
-1,"Alle",0,,0,False
-2,"Orte I",0,"ui/icon/082000/082022.tex",1,False
-3,"Dungeons I",0,"ui/icon/082000/082024.tex",11,False
-4,"Primae",0,"ui/icon/082000/082027.tex",21,False
-5,"Raids I",0,"ui/icon/082000/082025.tex",31,False
-6,"Andere",0,"ui/icon/082000/082029.tex",52,False
-7,"Saisonales Ereignis",1,"ui/icon/082000/082030.tex",61,False
-8,"Online Store oder Bonusgegenstand",1,"ui/icon/082000/082031.tex",71,True
-9,"Orte II",0,"ui/icon/082000/082023.tex",2,False
-10,"Raids II",0,"ui/icon/082000/082026.tex",32,False
-11,"Umgebung",0,"ui/icon/082000/082028.tex",41,False
-12,"Dungeons II",0,"ui/icon/082000/082033.tex",12,False
-13,"Aufträge",0,"ui/icon/082000/082036.tex",51,False
+#,Name,Icon,HideOrder,Order,Unknown0
+0,,0,0,0,False
+1,Alle,0,0,0,False
+2,Orte I,82022,0,1,False
+3,Dungeons I,82024,0,11,False
+4,Primae,82027,0,21,False
+5,Raids I,82025,0,31,False
+6,Andere,82029,0,52,False
+7,Saisonales Ereignis,82030,1,61,False
+8,Online Store oder Bonusgegenstand,82031,1,71,True
+9,Orte II,82023,0,2,False
+10,Raids II,82026,0,32,False
+11,Umgebung,82028,0,41,False
+12,Dungeons II,82033,0,12,False
+13,Aufträge,82036,0,51,False
