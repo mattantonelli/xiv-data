@@ -1,6 +1,6 @@
 @echo off
 
-SET GAMEPATH="C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online"
+SET GAMEPATH="D:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn"
 SET REPOPATH="C:\Users\Matt\Documents\Code\xiv-data"
 SET FFMPEG="C:\Users\Matt\Documents\Code\xiv-data\ffmpeg.exe"
 SET /p VERSION=<%GAMEPATH%\game\ffxivgame.ver
@@ -8,10 +8,6 @@ SET DATAPATH="%CD%\%VERSION%"
 
 ECHO Setting SC definition to the latest game version...
 COPY %GAMEPATH%\game\ffxivgame.ver Definitions\game.ver
-
-ECHO [%TIME%] Extracting game data...
-.\SaintCoinach.Cmd.exe %GAMEPATH% "allexd Achievement AchievementCategory AchievementKind Action ActionTransient Addon AozActionTransient BannerBg BannerDecoration BannerFrame BuddyEquip CharaCardBase CharaCardDecoration CharaCardHeader Companion CompanionMove CompanionTransient ContentFinderCondition Emote EmoteCategory ENpcBase ENpcResident GlassesStyle Item Leve LeveAssignmentType MinionRace MinionSkillType MKDLore Mount MountTransient MYCWarResultNotebook Orchestrion OrchestrionCategory Ornament PlaceName Quest SpecialShop TextCommand Title TripleTriad TripleTriadCard TripleTriadCardResident TripleTriadCardType TripleTriadRule VVDNotebookContents VVDNotebookSeries"
-.\SaintCoinach.Cmd.exe %GAMEPATH% "rawexd Achievement AozAction BannerCondition Cabinet CabinetCategory CharaMakeCustomize CraftLeve Emote GCScripShopItem GilShopItem Glasses InstanceContent Item ItemAction Level Map MirageStoreSetItem OrchestrionPath OrchestrionUiParam PvPSeries Recipe SpecialShop TripleTriad VVDNotebookSeries"
 
 ECHO [%TIME%] Extracting images...
 .\SaintCoinach.Cmd.exe %GAMEPATH% "ui 000000 070999"
@@ -49,8 +45,6 @@ ECHO [%TIME%] Compressing music...
 "C:\Program Files\7-Zip\7z.exe" a %DATAPATH%\music.zip %DATAPATH%\music\* > NUL
 
 ECHO [%TIME%] Copying game data to the local repository...
-XCOPY /S /Y /Q %DATAPATH%\exd-all %REPOPATH%\exd-all
-XCOPY /S /Y /Q %DATAPATH%\rawexd %REPOPATH%\rawexd
 MOVE /Y %DATAPATH%\ui.zip %REPOPATH%
 MOVE /Y %DATAPATH%\music.zip %REPOPATH%
 
