@@ -4,17 +4,12 @@ This is a collection of CSV and image files used for updating my Final Fantasy X
 
 ## Requirements
 * [7-Zip](https://www.7-zip.org/)
-* [FFmpeg](https://ffmpeg.org/download.html) (FFXIV Collect Music Samples)
-* [Vorbis](https://xiph.org/vorbis/) (FFXIV Collect Music Samples)
-
 
 ### Generating the latest data
 
-1. Download the latest version of SaintCoinach.Cmd from the project's [releases page](https://github.com/xivapi/SaintCoinach/releases)
-2. Unzip the archive and navigate into it
-3. Copy `extract.bat` from this repository into the Saint Coinach folder
-4. Edit the paths in the script as necessary
-5. Run the script and check the changes into GitHub (Note: Windows has a serious fear of bats)
+To generate the latest CSV data, see the instructions for [XIVData Oxidizer](https://github.com/mattantonelli/xiv-data-oxidizer).
+
+The `extract.bat` script (which is soon to be obsolete) can be used to extract images.
 
 ### Images
 
@@ -31,15 +26,7 @@ rm ui.zip
 
 ### Music Samples
 
-A similar script can be used for processing music samples for FFXIV Collect:
-
-```sh
-mv music.zip /var/rails/music/ffxiv
-cd /var/rails/music/ffxiv
-unzip -oq music.zip
-find . -type f -exec chmod 664 {} \;
-rm music.zip
-```
+Music samples are no longer supported.
 
 ---
 
