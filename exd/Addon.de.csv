@@ -1287,6 +1287,9 @@ Du erhältst zur gleichen Zeit eine Benachrichtigung."
 1261,Typ 20
 1262,Namensanzeige
 1263,Namensanzeige
+1264,Transparenz der Chat-Eingabe
+1265,Chat-Sprechblasen
+1266,Einstellungen
 1270,Für welche Inhalte soll der Filter des Reiters optimiert sein?
 1271,Die neuen Einstellungen wurden noch nicht übernommen. Wirklich verwerfen?
 1272,Die Filtereinstellungen wirklich löschen?
@@ -1745,8 +1748,8 @@ Damit kannst du andere Spieler zur Zeremonie einladen."
 1727,9999+
 1728,/9999+
 1729,Erhöhte Chance auf seltene Gegenstände.
-1730,Zur Merkliste hinzufügen （UNKNOWN/UNKNOWN）
-1731,Von Merkliste löschen （UNKNOWN/UNKNOWN）
+1730,Zur Merkliste hinzufügen (UNKNOWN/UNKNOWN)
+1731,Von Merkliste löschen (UNKNOWN/UNKNOWN)
 1732,Nur Rezepte mit Eintrag anzeigen
 1733,Bereits synthetisierte Rezepte ausblenden
 1748,Verkaufen / Spenden
@@ -2081,8 +2084,8 @@ Mit den Oben-/Unten-Tasten oder  lassen sich vergangene Eingaben anzeigen."
 2079,In derselben Kategorie suchen
 2080,Merkliste
 2081,Merkliste
-2082,Zur Merkliste hinzufügen （UNKNOWN/UNKNOWN）
-2083,Von Merkliste löschen （UNKNOWN/UNKNOWN
+2082,Zur Merkliste hinzufügen (UNKNOWN/UNKNOWN)
+2083,Von Merkliste löschen (UNKNOWN/UNKNOWN)
 2084,In diese Liste kannst du bis zu einhundert Gegenstände deines Interesses aufnehmen. Die Liste kann von anderen Spielern nicht eingesehen werden und du kannst sie auch außerhalb deiner Stammwelt nutzen.
 2085,Noch nicht erhalten/registriert
 2086,Auf dieser Seite sind keine nicht erhaltene oder registrierte Gegenstände vorhanden.
@@ -2292,6 +2295,7 @@ Einstellungen wirklich schließen?"
 2306,Sammeln
 2307,Feldexkursion
 2308,GATEs
+2309,
 2310,UNKNOWN (Vertrag ausgelaufen)
 2311,UNKNOWN - UNKNOWN
 2312,Wähle einen Stufenbereich der Unternehmung.
@@ -2432,6 +2436,8 @@ Wähle „Warten“, um auf abwesende Mitglieder zu warten.**
 2438,Kaufen
 2439,Gehilfen-Anprobe
 2440,Zurück
+2441,VERWANDLUNG
+2442,
 2445,WINDÄTHERQUELLEN
 2446,
 2447,Keine Informationen verfügbar.
@@ -3075,6 +3081,8 @@ Mit den Oben-/Unten-Tasten oder  lassen sich vergangene Eingaben anzeigen."
 3165,GILDENGEHEISSE
 3166,
 3167,Gildengeheiße
+3176,Schließen
+3177,Erklärung anzeigen
 3180,PVP-CHARAKTER
 3181,
 3185,Pro­jektions­platte
@@ -3257,7 +3265,7 @@ um den Fortschritt leichter im Auge behalten zu können."
 3390,TUTORIALTEXTE
 3391,
 3392,Maus/Tastatur
-3393,Controller
+3393,
 3394,Keine Einträge vorhanden.
 3395,※ Texte für Steuerung mit dem Controller
 3396,UNKNOWN-UNKNOWN
@@ -3273,6 +3281,7 @@ um den Fortschritt leichter im Auge behalten zu können."
 3412,Abbrechen
 3415,Nur neu hinzugefügte anzeigen
 3416,Keine Artikel vorhanden
+3417,Gegenstände für momentane Klasse/Job anzeigen
 3420,Dein Rang in der Ge­sell­schaft ist nicht hoch genug. 
 3421,Du hast nicht genügend Ge­sell­schaftstaler.
 3422,Das Kommando „“ für 0 Taler kaufen?
@@ -3869,7 +3878,7 @@ Nicht für Mac-Version verfügbar"
 4171,Sound
 4172,Grafik
 4173,Maus
-4174,Gamepad
+4174,
 4175,Sprache
 4176,Wireless Controller
 4177,Anderes
@@ -5228,7 +5237,9 @@ UNKNOWN"
 「セカンドチャンス」を実行できます。
 列を揃いやすくするように積極的に実行してみましょう。"
 5607,"Wähle einen abgeschlossenen Inhalt, um einen Aufkleber zu bekommen."
-5608,"Schließe einen Inhalt ab, um einen Aufkleber zu bekommen."
+5608,"Schließe einen Inhalt ab, um einen Aufkleber zu bekommen.
+
+※ Über das Untermenü können die entsprechenden Inhalte eingesehen werden."
 5609,Vergütungen
 5610,Komplett
 5611,1 Reihe
@@ -5465,6 +5476,10 @@ Trotzdem fortfahren?"
 Fortfahren?"
 5843,"Wenn du dein Aben­teuer­album mit weniger als neun Aufklebern abgibst, erhältst du weder eine zusätzliche Belohnung noch Bonus-Routine. Möchtest du trotzdem fortfahren?"
 5844,Das Album dennoch abgeben
+5845,Inhaltsliste
+5846,
+5847,Zielinhalte öffnen
+5848,Zielinhalte
 5860,Anzahl
 5861,Anzahl: UNKNOWN
 5862,Weiter
@@ -5561,8 +5576,10 @@ Controller: "
 5932,Rot
 5933,Grün
 5934,Blau
-5935,Winkel
-5936,Drehung
+5935,"Die Kameraentfernung funktioniert ähnlich wie der Zoom.
+Eine geringere Entfernung kann dabei helfen, das Objekt in den Fokus zu setzen, während größere Entfernung den Schwerpunkt auf Perspektive und Tiefe der Komposition legt."
+5936,"Mit dem Verstellen des Rollwinkels wird die Kamera horizontal gedreht.
+Mit dieser Funktion kann das Bild so adjustiert werden, dass besonders dynamische Kompositionen entstehen."
 5937,Rot
 5938,Grün
 5939,Blau
@@ -5616,8 +5633,8 @@ Controller: "
 5981,Anvisierter NPC
 5982,"※ Starte den Gruppenfotomodus erneut, um Änderungen anzuwenden.
 ※ Kann unter Umständen nicht auf alle NPCs angewendet werden."
-5983,Allgemein
-5984,Effekte und Rahmen
+5983,Kameraeinstellungen
+5984,Bildschirmeinstellungen
 5985,Beleuchtung
 5986,Spannende Szenen
 5987,"※ Gruppenfotomodus neu starten, um die Änderungen anzuwenden.
@@ -6893,7 +6910,7 @@ Löscht alle vorhandenen Themen und verteilt dafür neue."
 7513,Kommandomenü
 7514,Chatlog
 7515,Maus
-7516,Controller
+7516,
 7517,Gegenstände und Inventar
 7518,Einstellungen für „automatisches Anvisieren”
 7519,Wenn kein Ziel ausgewählt ist
@@ -7348,10 +7365,12 @@ Löscht alle vorhandenen Themen und verteilt dafür neue."
 7980,Am Cursor
 7981,Fix (gegenüber)
 7982,Fix
-7984,Sofort schließen
-7985,"Nur schließen, wenn Karte aktiv"
-7987,Standard
-7988,Linksbündig (nach Relevanz)
+7983,Sofort schließen
+7984,"Nur schließen, wenn Karte aktiv"
+7985,Standard
+7986,Linksbündig (nach Relevanz)
+7987,Feinde
+7988,Fortschrittsbalken anzeigen (Nur für Bosse und starke Gegner)
 7990,Ton 0
 7991,Ton 1
 7992,Ton 2
@@ -7541,6 +7560,9 @@ Hast du alle Vor­bereitungen getroffen?
 8184,90 %
 8185,80 %
 8186,60 %
+8187,Maximal
+8188,Weit
+8189,Standard
 8190,Bildschirm-Layout kopieren
 8191,Quelle
 8192,Aktuelles Layout kopieren
@@ -7552,6 +7574,7 @@ Momentane Einstellungen des Ziels überschreiben?"
 8196,Nein
 8197,Spielbildschirm (PS3)
 8198,Remote Play-Bildschirm
+8199,Anzeigedistanz für Charaktere
 8200,Nasseffekt anzeigen
 8201,Gamepad
 8202,Systemtöne über Lautsprecher
@@ -7575,6 +7598,7 @@ Momentane Einstellungen des Ziels überschreiben?"
 8220,Alle Systemtöne
 8221,Nur Benachrichtigungen
 8222,Keine Systemtöne
+8224,Automatisch
 8225,Maximal
 8226,Hoch
 8227,Normal
@@ -9208,9 +9232,9 @@ Die Ergebnisse werden berechnet."
 9863,Runde UNKNOWN
 9864,Punkte +UNKNOWN　Eroberungen +UNKNOWN
 9865,Ok
-9866,Vertonte Spielbegleiter
-9867,
-9868,Gesprochene Kommentare im Spiel aktivieren
+9866,Einstellungen
+9867,Ton
+9868,Vertonte Kommentare im Spiel aktivieren
 9869,Ausgewählter Begleiter
 9870,
 9871,Charakterwahl
@@ -9239,6 +9263,8 @@ Die Ergebnisse werden berechnet."
 9893,Erhalten durch saisonales Ereignis
 9894,"
 "
+9895,Anzeige
+9896,--/--/----
 9979,PREIS
 9980,Mini-Glückskaktor
 9981,Jumbo-Glückskaktor
@@ -9466,7 +9492,7 @@ Eine Sperre in einem Raid wirkt sich auch auf andere Inhalte aus."
 10161,Schließen
 10162,Nur für Mitglieder einer Staatlichen Ge­sell­schaft.
 10163,"Leg fest, ob du Gruppen bei einem bereits laufenden Einsatz beitreten willst (sofern die Aufnahme von Ersatzmitgliedern in dem Inhalt erlaubt ist). Diese Einstellung gilt auch für Inhalte, die nicht über die Inhaltssuche betreten werden.
-**※ Nur verfügbar, wenn du aktuell nicht in einer Gruppe bist.**"
+**※ Nur verfügbar, wenn du aktuell nicht in einer Gruppe bist und alle ausgewählten Inhalte bereits abgeschlossen hast.**"
 10165,"Du überspringst nun einen Teil des normalen Spielverlaufs.
 **Die wöchentliche Vergütung für den übersprungenen Teil kann erst wieder nach der nächsten Zurücksetzung erhalten werden.**"
 10166,Status
@@ -9742,6 +9768,8 @@ Es ist möglich, mit Freunden eine Gruppe zu bilden, die den gleichen Fortschrit
 
 **- In zufälligen Gruppen werden keine Punkte gezählt.**
 
+**- Konvertierung von Speicherdaten von Fortschritt bis Ebenen, die nur bestehende Gruppen betreten können, die noch nie komplett kampfunfähig geworden sind, ist nicht möglich.**
+
 **※ Achtung! Der Vorgang kann nicht rückgängig gemacht werden!**"
 10411,Speicherdaten konvertieren
 10412,"Möchtest du die Speicherdaten löschen und das Tiefe Gewölbe von Neuem beginnen?
@@ -9804,15 +9832,11 @@ Die erreichte Ebene und deine Stufe werden auf 1 zurückgesetzt. Die Verstärkun
 10464,Fortschritt zurücksetzen: Wähle einen Speicherplatz.
 10465,Bestehende Gruppe auflösen: Wähle einen Speicherplatz.
 10466,Wertung ansehen
-10467,https://sqex.to/fkM
-10468,https://sqex.to/Bry
 10469, / 
 10470,Keine verborgenen Schätze gefunden.
 10471,"Die aktuellen Ranglisten können auf dem Lodestone eingesehen werden.
 UNKNOWN"
 10472,UNKNOWN
-10473,https://sqex.to/C_D
-10474,https://sqex.to/J43
 10475,Zaubersteine
 10476,"Dein Gespür sagt dir, dass auf dieser Ebene noch ein Schatz verborgen ist."
 10477,Totenlaterne
@@ -10105,52 +10129,11 @@ Zuschauer: 1 bis 8 Spieler (wenn gestattet)"
 10830,Von Stammwelt aus teilnehmen
 10831,1. Dan oder höher
 10832,"Das PvP-System wird großflächig umgestaltet, daher ist dieser Inhalt momentan nicht verfügbar. Kommende Patchnotes werden darüber informieren, wann er wieder zugänglich ist."
-10834,
-10835,"Die folgenden Änderungen wurden an epischen Inhalten vorgenommen:
-- Keine Speicherung des Fortschritts für einzelne Inhalte.
-- Die Option „Fortschritt“ ist nicht länger verfügbar.
-- Bei Abschluss erscheinen immer zwei Schatztruhen.
-- Kein Wochenlimit für Gegenstände aus Schatztruhen.
-"
-10836,Suchkriterien
-10837,"**Suchkriterien**
-Das Suchkriterium „Abgeschlossen“ ist erst verfügbar, wenn der Inhalt einmal abgeschlossen wurde.
-
-**Ziel**
-Das Ziel „Raid abschließen“ ist nur verfügbar, wenn die wöchentliche Vergütung noch nicht erhalten wurde.
-
-**Fokus der Übung**
-Dies ist nur verfügbar, wenn „Raid üben“ als „Ziel“ ausgewählt ist. Durch die Wahl eines Übungsfokus werden keine Phasen übersprungen.
-
-Die Registrierung wird abgebrochen, wenn der Zeitpunkt für die Zurücksetzung des Wochenlimits überschritten ist."
-10838,Spielfortschritt
-10839,"Der Fortschritt in den neuesten epischen Raids wird an bestimmten Stellen gespeichert, um ein späteres Weiterspielen zu ermöglichen.
-
-Der Fortschritt wird jeweils am Dienstag um 17:00 Uhr (Erdenzeit) zurückgesetzt.
-"
-10840,Vergütung
-10841,"Spieler, die weiter fortgeschritten sind als der Gruppenanführer, erhalten für bereits abgeschlossene Abschnitte keine Vergütung.
-
-Die Anzahl der erscheinenden Schatztruhen kann sich also von Gruppe zu Gruppe unterscheiden.
-　・1-4 Spieler = 1 Schatztruhe
-　・5 oder mehr = Keine Schatztruhen
- 
-In Gruppen, die über die Raid-Suche zu­sammen­gestellt wurden, können die Belohnungen je nach Spielfortschritt der Spieler abweichen."
-10842,Rollenverteilung
-10843,"In Gruppen, die über die Raid-Suche zu­sammen­gestellt wurden, können zwei Spieler nicht den gleichen Job spielen, es sei denn, es liegen besondere Bedingungen vor.
-Es gibt drei Arten von Angreifern (Nahkampf, physischer Fernkampf, magischer Fernkampf) und „Nicht festgelegt“.
-
-Ist das Ziel des Raids „Raid abschließen“, dann müssen die Jobs unter „Nicht festgelegt“ andere sein, als die in den anderen drei Kategorien. Ist das Ziel des Raids „Raid üben“, dann dürfen die Jobs frei gewählt werden.
-
-Bei epischen Inhalten sind nur Gruppen zugelassen, **die über jeweils einen Heiler der Kategorien „Primär-Heiler“ und „Barriere-Heiler“ verfügen.**
-・ Primär-Heiler: Weißmagier, Astrologe
-※ Jobs, die den Fokus auf das Heilen von Grup­pen­mit­gliedern haben.
-・ Barriere-Heiler: Gelehrter, Weiser
-※ Jobs, die neben dem Heilen von Grup­pen­mit­gliedern auch Schaden von diesen abwenden und schützende Barriere-Effekte nutzen können.
-
-"
-10844,Spielfortschritt in Gruppen
-10845,"Der Startpunkt bestimmt sich nach dem Fortschritt des Gruppenanführers. Alle Mitglieder können von diesem Punkt aus teilnehmen. Der Fortschritt von Mitgliedern, die weiter als der Anführer fortgeschritten sind, wird nicht überschrieben."
+10841,
+10842,
+10843,
+10844,
+10845,
 10846,※ Nicht alle unerfüllten Bedingungen sind angezeigt.
 10847,G.-Stufe UNKNOWN
 10848,Mentoren (Magier/Krieger) mit aktuellem Mentoren-Status
@@ -10250,7 +10233,7 @@ Statuseffekte, die normalerweise die ganze Gruppe betreffen, nur auf den Wirkend
 ※ Die Namen von Charakteren auf anderen Welten werden lokal gespeichert.**"
 10956,Online-Status unbekannt
 10957,"UNKNOWN wird auf die Schwarze Liste gesetzt. Ab jetzt werden sowohl dieser Charakter selbst als auch alle seine Nachrichten nicht mehr angezeigt. Auch werden alle anderen Charaktere dieses Spielers der Schwarzen Liste hinzugefügt. Name und Stammwelt des Charakters zur Zeit der Registrierung auf der Schwarzen Liste werden lokal gespeichert.
-**Willst du nur die Nachrichten eines Charakters stummschalten, kannst du ihn über das Untermenü auch auf die Stumme Liste setzen. Befindet sich der Charakter bereits auf der Stummen Liste, wird er über diesen Befehl auch auf die Schwarze Liste gesetzt.**"
+**Willst du nur die Nachrichten eines Charakters stummschalten, kannst du ihn über das Untermenü auch auf die Stumme Liste setzen.**"
 10958,Ich bin einverstanden.
 10959,Registrieren
 10960,Online-Status Rückkehrer
@@ -11286,6 +11269,7 @@ UNKNOWN  verbrauchen und fortfahren, um die ausgewählten Gegenstände gemeinsam
 11996,Ja
 11997,**Einige Gegenstände können im Kostbarkeitenkabinett gelagert werden.**
 11998,**Einige Gegenstände sind Teil eines Ausrüstungssets.**
+11999,Farbe und Wappen werden ebenfalls entfernt.
 12002,C
 12003,D
 12004,E
@@ -11541,6 +11525,8 @@ Rufe deinen Gehilfen noch einmal über die Klingel herbei, um die Suchergebnisse
 Öffne das entsprechende Fenster (Inventar, Satteltasche o.ä.) noch einmal, um die Suchergebnisse auf den neuesten Stand zu bringen."
 12242,Die Suchergebnisse wurden aktualisiert.
 12243,---
+12244,"Einige Suchergebnisse müssen vom Spieler geprüft werden.
+Mit **?** markierte Ergebnisse basieren auf der Information des letzten Client-Zugriffs. Mit erneutem Login werden die Informationen aktualisiert."
 12245,
 12246,Aktive Kommandos
 12247,Leer
@@ -11712,7 +11698,7 @@ Rufe deinen Gehilfen noch einmal über die Klingel herbei, um die Suchergebnisse
 12413,8. Dan
 12414,9. Dan
 12415,10. Dan
-12416,Mahjong-Einstellungen
+12416,Mahjong-Anzeigeeinstellungen
 12417,Ziegelset
 12418,Domanisch
 12419,●002 クガネ式麻雀牌
@@ -12402,7 +12388,7 @@ Bei der Erkundung stehen folgende Funktionen zur Verfügung:
 **※ Nur bei bestimmten bereits abgeschlossenen Inhalten möglich.
 ※ Bei der Teilnahme als Gruppe gelten die Einstellungen des Gruppenanführers.
 ※ Die Aktivierung des Erkundungsmodus deaktiviert alle anderen Teilnahmevoraussetzungen für die Inhaltssuche.**"
-13040,Erkundungsmodus nicht verfügbar
+13040,Erkundungsmodus nicht verfügbar.
 13041,Erkundungsmodus ist nur bei bereits abgeschlossenen Inhalten verfügbar.
 13042,Klang ändern (nur E-Gitarre)
 13043,Klang ändern: vor
@@ -13280,6 +13266,23 @@ Die gespeicherte Bewegung wird für eine gewisse Zeit mehrfach wiederholt."
 14011,Typ 3
 14012,"Bewegungswiederholung: Aus
 Nach Ausführung der festgelegten Bewegung kehrt die Figur zurück in die Grundhaltung."
+14013,Zoom (Kameraentfernung)
+14014,Rollwinkel
+14015,Chromatische Aberration
+14016,Portrait-Vorschau
+14017,Portrait-Modus
+14018,Effekteinstellungen
+14019,Generelle Einstellungen
+14020,Steuerungseinstellungen
+14021,Bei Aktivierung zur Kamera blicken
+14022,Korrektur des Rotationswinkels
+14023,Portrait-Modus-Einstellungen
+14024,Bildschirmrotation
+14025,Links
+14026,Rechts
+14027,Filterstärke
+14028,"Chromatische Aberration beschreibt die Farbverzerrung, die entstehen kann, wenn sich Licht in einer Linse bricht.
+Dieser Effekt kreiert einen markanten roten, blauen und grünen Farbverlauf an den Rändern des Bildschirms."
 14050,Aufklebermodus
 14051,Icons
 14052,Text
@@ -13757,7 +13760,7 @@ Es werden maximal 10 Ergebnisse angezeigt."
 14708,Kamera zurücksetzen
 14709,Kopf zurücksetzen
 14710,Blick zurücksetzen
-14711,Zoom
+14711,Kameraentfernung
 14712,Rotation
 14713,Liste aller Hintergründe 
 14714,Liste aller Rahmen 
@@ -13878,13 +13881,13 @@ UNKNOWN"
 14832,(auf Stummer Liste registriert)
 14833,Auf die Stumme Liste
 14834,Von Stummer Liste entfernen
-14835,"UNKNOWN wird auf die Stumme Liste gesetzt. Ab jetzt werden alle Nachrichten aller Charaktere dieses Spielers ausgeblendet.
+14835,"UNKNOWN wird auf die Stumme Liste gesetzt. Ab jetzt werden alle Nachrichten dieses Charakters ausgeblendet.
 **※ Die Stumme Liste wird nicht auf dem Spiel-Server, sondern auf deinem Gerät gespeichert.
-※ Wenn du auch die Charaktere selbst ausblenden willst, nutze bitte die Schwarze Liste.**"
+※ Wenn du auch den Charakter selbst ausblenden willst, nutze bitte die Schwarze Liste.**"
 14836,UNKNOWN von der Stummen Liste entfernen?
 14837,STUMME LISTE
 14838,
-14839,"Nachrichten von allen Charakteren eines Spielers, der auf der Stummen Liste registriert ist, werden nicht mehr angezeigt."
+14839,"Nachrichten eines Charakters, der auf der Stummen Liste registriert ist, werden nicht mehr angezeigt."
 14840,"Nachrichten und Charaktere eines Spielers, der auf der Schwarzen Liste registriert ist, werden nicht mehr angezeigt."
 14851,REISEKODEX
 14852,
@@ -14646,6 +14649,9 @@ Einmal registriert, kann das Objekt so oft aufgestellt werden, wie du möchtest.
 15586,Standardanzeige bei Planerstellung
 15587,Plan aufstellen
 15588,Aus Angebot und Nachfrage aufstellen
+15589,Maximale Dauer
+15590,"Stellt die Dauer der Expeditionen auf die maximal möglichen Tage, ohne das Ziel zu verändern. Nur möglich, wenn alle Funde entgegengenommen worden sind."
+15591,"UNKNOWN blaue Cieldaläen-Kauri ausgeben, um die Expedition auf die maximale Dauer zu verlängern?"
 15600,FILTEREINSTELLUNGEN
 15601,
 15602,Filter
@@ -14833,6 +14839,7 @@ Bitte habe noch ein wenig Geduld!"
 15910,Mogpendium
 15911,Kuriositäten
 15912,Laufend
+15913,An einem freien Spiel des Crystalline Conflict teilnehmen.
 15914,Belohnung ausstehend
 15915,**Läuft bald ab**
 15916,"
@@ -14877,7 +14884,7 @@ St. UNKNOWN"
 St. UNKNOWN"
 15946,Eine beliebige vergilbte Karte entziffern und die zugehörige Schatztruhe öffnen.
 15947,Eine Vorstellung in der Großen Maskerade erfolgreich abschließen.
-15948,Ein Notorisches Monster auf Eureka besiegen.
+15948,Ein Notorisches Monster in  besiegen.
 15949,Ein kritisches Gefecht an der Südfront von Bozja abschließen.
 15950,UNKNOWN Mal Material in „“ sammeln.
 15953,Große Maskerade
@@ -14897,6 +14904,8 @@ LvUNKNOWN"
 15965,Durch den Nebenauftrag nach „“ freigeschaltet.
 15966,Beliebige Nebenaufträge der Freundesvölker UNKNOWN Mal abschließen.
 15967,Beliebige Wunschlieferungen UNKNOWN Mal abschließen.
+15968,UNKNOWN Aufkleber in Khloes Aben­teuer­album kleben.
+15969,An UNKNOWN Chocobo-Rennen teilnehmen.
 15970,Farbe 1
 15971,Farbe 2
 15972,Auf ursprüngliche Farbe zurücksetzen: UNKNOWN
@@ -14947,6 +14956,12 @@ LvUNKNOWN"
 16025,Überspringen
 16026,Leider bist du bereits ausgeschieden und kannst daher nicht am folgenden Wettkampf teilnehmen. Dein Status wird automatisch auf „Zuschauer“ gesetzt.
 16027,Zuletzt verwendet: UNKNOWN
+16030,Projektionen
+16031,Ausrüstung
+16032,Die auf die Ausrüstung projizierten Gegenstände ansehen.
+16033,Die angelegten Ausrüstungstücke ansehen.
+16034,
+16035,PROJEKTIONEN
 16040,Verschiedene Farben anprobieren
 16041,Verschiedene Farben anprobieren
 16042,
@@ -15128,6 +15143,8 @@ Genaueres findest du in der Hilfe."
 16234,Nicht registriert
 16235,Keine Hausverbote erteilt.
 16236,In Zimmern und Wohnungen sind Umzüge und Renovierungen nicht möglich.
+16237,Zur Merkliste hinzufügen (UNKNOWN/UNKNOWN)
+16238,Von Merkliste löschen (UNKNOWN/UNKNOWN)
 16280,Erweiterte Einstellungen
 16281,Ton
 16282,Glocke
@@ -15288,6 +15305,7 @@ Einstellungen wirklich schließen?"
 16466,Teilnahme nur vom physischen Datenzentrum der Stammwelt möglich
 16467,
 16481,Diese Übungen können mit deiner momentanen Klasse/deinem momentanen Job nicht bestritten werden
+16482,FORTSCHRITT
 16580,
 16581,
 16582,
@@ -15298,6 +15316,12 @@ Einstellungen wirklich schließen?"
 16588,Wissen
 16589,Phantomroutine
 16590,Schließen
+16591,"Bietest du jetzt ein Siegel dar, erhältst du einen Platz mit Priorität."
+16592,"Bietest du 99 Siegel dar, erhältst du einen Losplatz."
+16593,Es gibt leider keine Losplätze mehr.
+16594,Du bist auf einem Losplatz.
+16595,Du bist auf einem Platz mit Priorität.
+16596,**UNKNOWN**/UNKNOWN
 16597,Zwölfstadt-Silber
 16598,Zwölfstadt-Gold
 16599,Arkansiegel des Blutes
@@ -15315,15 +15339,12 @@ Einstellungen wirklich schließen?"
 16611,Phantomjob
 16612,--
 16613,/
-16614,"クリティカルエンカウント
-『UNKNOWN』
-が発生しました！ あなたはこの発生に貢献したため、直接突入が可能です。今すぐ移動しますか？
-**※一度突入すると、デジョン以外での退出はできません。**"
-16615,はい
-16616,いいえ
-16617,保留
+16614,
+16615,
+16616,
+16617,
 16618,Phantomroutine
-16619,クリティカルエンカウント
+16619,
 16620,Wissensstufe synchronisieren
 16621,Synchronisierung aufheben
 16622,"Kritische Begegnung!
@@ -15332,6 +15353,9 @@ Beginnt in UNKNOWN"
 16624,Teilnahmeschluss in UNKNOWN:00
 16625,Beginnt in UNKNOWN:00
 16626,Kampf läuft noch UNKNOWN:00
+16627,Plätze mit Priorität
+16628,Bewerber / Übrige Plätze
+16629,Siegel zur Losteilnahme
 16630,Erhaltbares Wissen und Phantomroutine werden im entsprechenden Gebiet angezeigt.
 16631, St. UNKNOWN
 16632,Wissensstufe
@@ -15359,6 +15383,7 @@ Auswählen zum Aufheben."
 **Kann das Transport-Äthergramm nicht aktiviert werden oder wirst du nicht zur Teilnahme ausgelost, erhältst du die verwendeten Arkansiegel wieder. Verpasst du die Frist zum Betreten, sind sie allerdings verloren."
 16653,Phantomkommandos
 16654,Phantomeigenschaften
+16655,※ Daten werden in Intervallen aktualisiert. Abweichungen möglich.
 16656,Einstellungen
 16657,Erklärung zu Phantomjobs und Kreszentia anzeigen
 16658,LISTE DER PHANTOMJOBS
@@ -15374,8 +15399,7 @@ Auswählen zum Aufheben."
 16668,Kreszentia-Eintrag #UNKNOWN
 16669,"Du hast den Eintrag „“
 in die Chronik geschrieben!"
-16670,"Wähle, wie viele  du darbieten möchtest.
-**Gibt es mehr Teilnehmer als Plätze, werden die Teilnehmer mit den meisten Siegeln priorisiert.**"
+16670,"Wähle, wie viele  du hinzufügen möchtest. Wenn mindestens 24 Spieler ein Arkansiegel darbieten, wird das Transport-Äthergramm aktiviert. **Es gibt Plätze für maximal 48 Spieler. Teilnehmer mit den meisten dargebotenen Siegeln werden priorisiert.**"
 16671,Selbst dargeboten
 16672,Aktuelle Teilnehmer
 16673,Bestätigen
@@ -15400,10 +15424,13 @@ in die Chronik geschrieben!"
 16692,Controller-Einstellungen
 16693,"Wähle die Richtung, in die sich der Phantomkommando-Ring beim Auswählen eines Kommandos dreht."
 16694,"Wenn diese Einstellung aktiv ist, wird die ursprüngliche Reihenfolge nach Ausführung eines Phantomkommandos wieder­her­gestellt."
-16695,"Lege fest, welche Kombination auf deinem Controller für Ausführung und Auswahl deiner Phantomkommandos verwendet werden soll."
+16695,"Lege fest, welche Kombination auf deinem Controller für Ausführung und Auswahl deiner Phantomkommandos verwendet werden soll.
+※ Bei nur einem Phantomkommando wird es durch beide Kombinationen ausgeführt."
 16696,Änderungen verwerfen und Fenster schließen?
 16697,
 16698,
+16699,"Die Fork-Türme sind **die schwierigsten Raid-Inhalte** auf Kreszentia.
+Eine gute Zusammenarbeit und die clevere Anwendung von Phantomjobs sind ausschlaggebend, um sie erfolgreich zu stürmen."
 16716,Anzeige der Außerordentlichen
 16717,Projektbeste
 16718,Welt: UNKNOWN
@@ -15411,6 +15438,7 @@ in die Chronik geschrieben!"
 16720,Aktualisierung: 27.8.2013 8:00
 16721,Über Projektbeiträge
 16722,Kein Teilnehmer vorhanden
+16724,Mecha-Einsätze
 16729,"UNKNOWN hat keine Mühen gescheut und mit unnachgiebigem Fleiß und Fingerfertigkeit zur Kosmo-Erkundung beigetragen.
 Solch Hingabe und Können sollen hier verewigt werden!"
 16730,Außerordentlich
@@ -15441,8 +15469,9 @@ Solch Hingabe und Können sollen hier verewigt werden!"
 16756,Freischaltbedingungen (Klasse B-Missionen):
 16757,Freischaltbedingungen (Klasse A-Missionen):
 16758,St. UNKNOWN
-16759,"Abgabefrist bis
-UNKNOWN Min UNKNOWN Sek"
+16759,"Fortführende Missionen werden unter den folgenden Bedingungen nicht mehr angezeigt:
+・Eine andere Mission wurde angenommen
+・Die fortführende Mission wurde abgebrochen"
 16760,Vergütung
 16761,Missionsspezifisches Kommando
 16762,Übersicht
@@ -15498,7 +15527,7 @@ Abschließen anderer Mission zuvor erforderlich."
 16811,ABGESCHLOSSEN
 16812,KOSMO-HANDWERKER-NOTIZBUCH
 16813,
-16814,Die Kosmo-Forschung wird bei Researchingway in der Mondtor-Station freigeschaltet.
+16814,Die Kosmo-Forschung wird bei  in der  freigeschaltet.
 16815,Alarmstufe Rot
 16816,  
 16817,Verbleibende Zeit: UNKNOWN:00
@@ -15550,8 +15579,8 @@ Ende in UNKNOWN:00"
 16861,Arme an die Hüfte
 16862,UNKNOWN abschließen UNKNOWN/UNKNOWN
 16863,UNKNOWN mit Goldwertung abschließen UNKNOWN/UNKNOWN
-16864,Bestimmte UNKNOWN mit Goldwertung abschließen:
-16865,UNKNOWN
+16864,Fortführende Mission verfügbar
+16865,Mission aufgrund von unzureichendem Projektfortschritt nicht verfügbar.
 16866,Sammlerstücke und Sonderkomponenten
 16867,**Schwierigkeitsanpassung**
 16868,"Ausgewählte Mission wird gestartet.
@@ -15590,8 +15619,7 @@ Möchtest du trotzdem fortfahren?"
 **※ Sollte während der Videosequenz ein Gemeinschaftsprojekt Fortschritt verzeichnen, kann es vorkommen, dass dennoch nur der alte Projektstand angezeigt wird.**"
 16897,Ja
 16898,Nein
-16899,Aktuell: 0 / Silber: 0
-16900,Aktuell: 0 / Gold: 0
+16899,Aktuell: 0 / Silber: 0 / Gold: 0
 16901,Silberwertung: Mindestens 00:00 Min. übrig
 16902,Goldwertung: Mindestens 00:00 Min. übrig
 16903,???
@@ -15603,7 +15631,7 @@ Möchtest du trotzdem fortfahren?"
 16912,Galaktische Gelegenheit
 16913,Bestätigen
 16914,Start
-16915,"UNKNOWN  verwenden, um dich noch einmal am Kosmo-Glück zu versuchen?
+16915,"0  verwenden, um dich noch einmal am Kosmo-Glück zu versuchen?
 [ in Besitz: 0]"
 16916,Ja
 16917,Nein
@@ -15628,7 +15656,6 @@ Möchtest du trotzdem fortfahren?"
 16935,KOSMO-FORSCHUNG
 16936,Datenbank
 16937,Forschungsabhandlungen (abgegeben)
-16938,Keine
 16939,Datenanalyseeffizienz bis UNKNOWN aller Klassen +UNKNOWN %
 16940,Spezialroulette
 16941,Klasse
@@ -15648,7 +15675,7 @@ Möchtest du trotzdem fortfahren?"
 16961,Über Wertungen
 16962,Keine Mission verfügbar.
 16963,Keine Notfallmission verfügbar.
-16964,"Antragstickets können bei  (UNKNOWN, UNKNOWN) im Tausch für  erhalten werden."
+16964,Antragstickets können bei  (X:UNKNOWN Y:UNKNOWN) im Tausch für  erhalten werden.
 16965,Aktuelle Mission abbrechen?
 16966,Vergütung
 16967,Überspringen
@@ -15690,13 +15717,79 @@ Erkundungsgrundlagen anzeigen?"
 Erkundungsgrundlagen anzeigen?"
 16998,"Die durchschnittliche Stufe deiner Aus­rüstungs­gegen­stände ist unter den Voraus­setzungen für diese Mission.
 
-Für die Höchstwertung wird empfohlen, von Godgyth in der Mondtor-Station Ausrüstung mit der benötigten Stufe zu erwerben."
+Für die Höchstwertung wird empfohlen, von  in der  Ausrüstung mit der benötigten Stufe zu erwerben."
 16999,Während dieser Sitzung nicht mehr anzeigen.
 17000,Benötigte Menge: UNKNOWN
 17001,Mecha-Einsätze: 
 17002, Klasse D-Missionen
 17003, Klasse C-Missionen
 17004, Klasse B-Missionen
+17011,Bewertung:
+17012,NQ = UNKNOWN Pkt
+17013,Normal = UNKNOWN Pkt
+17014,Verbleibende Annahmezeit:  UNKNOWN Min. UNKNOWN Sek.
+17018,Einstellungen
+17019,Nachricht vom Projektkomitee
+17020,Schließen
+17021,Nächste: UNKNOWN/UNKNOWN
+17022,Omega
+17023,Ultima
+17024,Nächste Kampfklasse:
+17025,- Keine Phönixfedern
+17026,Aktuell
+17027,UNKNOWN
+17028,UNKNOWN
+17029,UNKNOWN
+17030,Khloes Aben­teuer­album öffnen
+17031,Chocobo-Rennen
+17032,"Chocobo-Rennen
+St. UNKNOWN"
+17033,Crystalline Conflict
+17034,"Crystalline Conflict
+St. UNKNOWN"
+17050,Freundesvölker-Vollmachten
+17051,UNKNOWN/UNKNOWN
+17052, 
+17053,Einstellungen für Ausrüstung am Kopf
+17054,Ohren trotz Kopfbedeckung anzeigen (wenn möglich)
+17110,Einstellungen für Chat-Sprechblasen
+17111,
+17112,Einstellungen nach Modus
+17113,Allgemeine Einstellungen
+17114,Chat-Sprechblasen aktivieren
+17115,"Ist diese Option aktiviert, so werden bestimmte Chatnachrichten über den Köpfen der jeweiligen Spieler angezeigt."
+17116,Anwenden
+17117,Schließen
+17118,Zurücksetzen
+17119,Allgemeine Einstellungen
+17120,Maximale Anzahl angezeigter Sprechblasen
+17121,Eigene Nachrichten anzeigen
+17122,Im Kampf anzeigen
+17123,Größe der Sprechblasen
+17124,Standard
+17125,Groß
+17126,Maximal
+17127,Anzeige in Inhalten
+17128,Große PvP-Inhalte (Carteneauer Front und Stahlschwingen)
+17129,Crystalline Conflict: Schnellchat
+17130,Welche Einstellungen sollen zurückgesetzt werden?
+17131,Änderungen verwerfen und Fenster schließen?
+17132,Einstellungen nach Modus
+17133,Hintergrund- und Textfarbe nach Modus
+17134,Allgemeine Einstellungen
+17135,Format der Sprechblasen
+17136,Eine Zeile
+17137,Zwei Zeilen
+17150,Einstellungen zur Kosmo-Erkundung
+17151,
+17152,HUD-Anzeige der Kosmo-Erkundung
+17153,Fortschrittsbalken für aktive Areale anzeigen
+17154,Anzeigeeinstellungen des Infrastruktur-Index
+17155,Nach Abschluss eines Projekts automatisch anzeigen
+17156,Änderungen verwerfen und Fenster schließen?
+17157,Anwenden
+17158,Schließen
+17200,Doppelte Jobs nicht möglich.
 101000, Untermenü
 101001,
 101002, Auswählen

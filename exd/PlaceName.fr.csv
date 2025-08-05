@@ -2611,7 +2611,7 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 2561,Comptoir de Touché-tourné,Comptoir de Touché-tourné,le comptoir de Touché-tourné,0,0,0,1,0,0,0,0,0
 2562,Commise aux objets de classe/job,Commises aux objets de classe/job,la commise aux objets de classe/job,0,0,0,1,0,0,0,0,0
 2563,Malle du rappel,Malle du rappel,la malle du rappel,0,0,0,1,0,0,0,0,0
-2564,Guide de la résistance,Guide de la résistance,le guide de la résistance,0,0,0,1,0,0,0,0,0
+2564,Guide,Guide,le guide,0,0,0,1,0,0,0,0,0
 2565,Chambre à coucher,Chambre à coucher,la chambre à coucher,0,0,0,1,0,0,0,0,0
 2566,Félicité insulaire,Félicité insulaire,la Félicité insulaire,0,0,0,1,0,0,0,0,0
 2567,Tableau des con­tri­bu­tions,Tableaux des con­tri­bu­tions,le tableau des con­tri­bu­tions,0,0,0,1,0,0,0,0,0
@@ -4161,7 +4161,7 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 4092,Le Petit Nuage,Le Petit Nuage,le Petit Nuage,0,0,0,1,0,0,0,0,0
 4093,Le Traquenard oriental,Le Traquenard oriental,le Traquenard oriental,0,0,0,1,0,0,0,0,0
 4094,Les Sables sanglants,Les Sables sanglants,les Sables sanglants,0,0,0,1,0,0,0,0,0
-4095,,,,0,0,0,1,0,0,0,0,0
+4095,Le Rivage redoutable,Le Rivage redoutable,le Rivage redoutable,0,0,0,1,0,0,0,0,0
 4096,,,,0,0,0,1,0,0,0,0,0
 4097,,,,0,0,0,1,0,0,0,0,0
 4098,Interstice du chant onirique,Interstice du chant onirique,l'interstice du chant onirique,0,0,0,1,0,0,0,0,0
@@ -4760,7 +4760,7 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 4691,Gouffre grondant,Gouffre grondant,le Gouffre grondant,0,0,0,1,0,0,2417,0,0
 4692,Rive noyée,Rive noyée,la Rive noyée,0,0,0,1,0,0,2418,0,0
 4693,Cimetière des Patronymes,Cimetière des Patronymes,le cimetière des Patronymes,0,0,0,1,0,0,2419,0,0
-4694,Mines d'Électrope,Mines d'Électrope,les mines d'Électrope,0,0,0,1,0,0,2420,0,0
+4694,Mines d'électrope,Mines d'électrope,les mines d'électrope,0,0,0,1,0,0,2420,0,0
 4695,Porte du Souvenir,Porte du Souvenir,la porte du Souvenir,0,0,0,1,0,0,2500,0,0
 4696,Cité lacustre,Cité lacustre,la Cité lacustre,0,0,0,1,0,0,2501,0,0
 4697,Terre d'hier,Terre d'hier,Terre d'hier,0,0,0,1,0,0,2502,0,0
@@ -5014,20 +5014,20 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 4945,Pavillon solitaire,Pavillon solitaire,le Pavillon solitaire,0,0,0,1,0,0,0,0,0
 4946,Cloître occulte,Cloître occulte,le Cloître occulte,0,0,0,1,0,0,0,0,0
 4947,Lagune lapidaire,Lagune lapidaire,la Lagune lapidaire,0,0,0,1,0,0,0,0,0
-4948,,,,0,0,0,1,0,0,0,0,0
-4949,,,,0,0,0,1,0,0,0,0,0
-4950,,,,0,0,0,1,0,0,0,0,0
-4951,,,,0,0,0,1,0,0,0,0,0
-4952,,,,0,0,0,1,0,0,0,0,0
-4953,,,,0,0,0,1,0,0,0,0,0
-4954,,,,0,0,0,1,0,0,0,0,0
-4955,,,,0,0,0,1,0,0,0,0,0
-4956,,,,0,0,0,1,0,0,0,0,0
-4957,,,,0,0,0,1,0,0,0,0,0
-4958,,,,0,0,0,1,0,0,0,0,0
-4959,,,,0,0,0,1,0,0,0,0,0
-4960,,,,0,0,0,1,0,0,0,0,0
-4961,,,,0,0,0,1,0,0,0,0,0
+4948,Division d'entreposage 10-29,Division d'entreposage 10-29,la division d'entreposage 10-29,0,0,0,1,0,0,0,0,0
+4949,,,,0,0,0,0,0,0,0,0,0
+4950,Salle polyvalente,Salle polyvalente,la salle polyvalente,0,0,0,1,0,0,0,0,0
+4951,Pièce centrale,Pièce centrale,la pièce centrale,0,0,0,1,0,0,0,0,0
+4952,Salle d'ex­pé­ri­men­ta­tion n°1,Salle d'ex­pé­ri­men­ta­tion n°1,la salle d'ex­pé­ri­men­ta­tion n°1,0,0,0,1,0,0,0,0,0
+4953,Salle d'ex­pé­ri­men­ta­tion n°2,Salle d'ex­pé­ri­men­ta­tion n°2,la salle d'ex­pé­ri­men­ta­tion n°2,0,0,0,1,0,0,0,0,0
+4954,Bureau de maintenance,Bureau de maintenance,le bureau de maintenance,0,0,0,1,0,0,0,0,0
+4955,Bureau du directeur,Bureau du directeur,le bureau du directeur,0,0,0,1,0,0,0,0,0
+4956,,,,0,0,0,0,0,0,0,0,0
+4957,,,,0,0,0,0,0,0,0,0,0
+4958,,,,0,0,0,0,0,0,0,0,0
+4959,,,,0,0,0,0,0,0,0,0,0
+4960,,,,0,0,0,0,0,0,0,0,0
+4961,,,,0,0,0,0,0,0,0,0,0
 4962,,,,0,0,0,1,0,0,0,0,0
 4963,,,,0,0,0,1,0,0,0,0,0
 4964,,,,0,0,0,1,0,0,0,0,0
@@ -5306,42 +5306,42 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5237,Chutes éthérées,Chutes éthérées,les Chutes éthérées,0,0,0,1,0,0,0,0,0
 5238,Tunnel de Piercingway,Tunnel de Piercingway,le tunnel de Piercingway,0,0,0,1,0,0,0,0,0
 5239,Ascenseur nadiral,Ascenseur nadiral,l'ascenseur nadiral,0,0,0,1,0,0,0,0,0
-5240,,,,0,0,0,0,0,0,0,0,0
-5241,,,,0,0,0,0,0,0,0,0,0
-5242,,,,0,0,0,0,0,0,0,0,0
-5243,,,,0,0,0,0,0,0,0,0,0
-5244,,,,0,0,0,0,0,0,0,0,0
-5245,,,,0,0,0,0,0,0,0,0,0
-5246,,,,0,0,0,0,0,0,0,0,0
-5247,,,,0,0,0,0,0,0,0,0,0
-5248,,,,0,0,0,0,0,0,0,0,0
-5249,,,,0,0,0,0,0,0,0,0,0
-5250,,,,0,0,0,0,0,0,0,0,0
-5251,,,,0,0,0,0,0,0,0,0,0
-5252,,,,0,0,0,0,0,0,0,0,0
-5253,,,,0,0,0,0,0,0,0,0,0
-5254,,,,0,0,0,0,0,0,0,0,0
-5255,,,,0,0,0,0,0,0,0,0,0
-5256,,,,0,0,0,0,0,0,0,0,0
-5257,,,,0,0,0,0,0,0,0,0,0
-5258,,,,0,0,0,0,0,0,0,0,0
-5259,,,,0,0,0,0,0,0,0,0,0
-5260,,,,0,0,0,0,0,0,0,0,0
-5261,,,,0,0,0,0,0,0,0,0,0
-5262,,,,0,0,0,0,0,0,0,0,0
-5263,,,,0,0,0,0,0,0,0,0,0
-5264,,,,0,0,0,0,0,0,0,0,0
-5265,,,,0,0,0,0,0,0,0,0,0
-5266,,,,0,0,0,0,0,0,0,0,0
-5267,,,,0,0,0,0,0,0,0,0,0
-5268,,,,0,0,0,0,0,0,0,0,0
-5269,,,,0,0,0,0,0,0,0,0,0
-5270,,,,0,0,0,0,0,0,0,0,0
-5271,,,,0,0,0,0,0,0,0,0,0
-5272,,,,0,0,0,0,0,0,0,0,0
-5273,,,,0,0,0,0,0,0,0,0,0
-5274,,,,0,0,0,0,0,0,0,0,0
-5275,,,,0,0,0,0,0,0,0,0,0
+5240,San d'Oria - La deuxième perambulation,San d'Oria - La deuxième perambulation,San d'Oria - La deuxième perambulation,0,0,0,1,0,0,0,0,0
+5241,San d'Oria,San d'Oria,San d'Oria,0,0,0,1,0,0,0,0,0
+5242,Ronfaure,Ronfaure,le Ronfaure,0,0,0,1,0,0,0,0,0
+5243,Pic de Horlais,Pic de Horlais,le Pic de Horlais,0,0,0,1,0,0,0,0,0
+5244,Pont d'aéronef,Pont d'aéronef,le pont d'aéronef,0,0,0,1,0,0,0,0,0
+5245,Pont d'aéronef II,Pont d'aéronef II,le pont d'aéronef II,0,0,0,1,0,0,0,0,0
+5246,Pont d'aéronef III,Pont d'aéronef III,le pont d'aéronef III,0,0,0,1,0,0,0,0,0
+5247,Pont d'aéronef IV,Pont d'aéronef IV,le pont d'aéronef IV,0,0,0,1,0,0,0,0,0
+5248,Qufim,Qufim,Qufim,0,0,0,1,0,0,0,0,0
+5249,Axe stellaire,Axe stellaire,l'Axe stellaire,0,0,0,1,0,0,0,0,0
+5250,Tombeau de Ru'Avitau,Tombeau de Ru'Avitau,le Tombeau de Ru'Avitau,0,0,0,1,0,0,0,0,0
+5251,Nœud céleste,Nœud céleste,le Nœud céleste,0,0,0,1,0,0,0,0,0
+5252,San d'Oria,San d'Oria,San d'Oria,0,0,0,1,0,0,0,0,0
+5253,Ronfaure,Ronfaure,le Ronfaure,0,0,0,1,0,0,0,0,0
+5254,Pic de Horlais,Pic de Horlais,le Pic de Horlais,0,0,0,1,0,0,0,0,0
+5255,Qufim,Qufim,Qufim,0,0,0,1,0,0,0,0,0
+5256,Axe stellaire,Axe stellaire,l'Axe stellaire,0,0,0,1,0,0,0,0,0
+5257,Tombeau de Ru'Avitau,Tombeau de Ru'Avitau,le Tombeau de Ru'Avitau,0,0,0,1,0,0,0,0,0
+5258,Nœud céleste,Nœud céleste,le Nœud céleste,0,0,0,1,0,0,0,0,0
+5259,Château d'Oraguille,Château d'Oraguille,le Château d'Oraguille,0,0,0,1,0,0,0,0,0
+5260,Arène des divinités,Arène des divinités,l'arène des divinités,0,0,0,1,0,0,0,0,0
+5261,Pont d'aéronef,Pont d'aéronef,le pont d'aéronef,0,0,0,1,0,0,0,0,0
+5262,Pont d'aéronef II,Pont d'aéronef II,le pont d'aéronef II,0,0,0,1,0,0,0,0,0
+5263,Pont d'aéronef III,Pont d'aéronef III,le pont d'aéronef III,0,0,0,1,0,0,0,0,0
+5264,Pont d'aéronef IV,Pont d'aéronef IV,le pont d'aéronef IV,0,0,0,1,0,0,0,0,0
+5265,Tour de Delkfutt,Tour de Delkfutt,la Tour de Delkfutt,0,0,0,1,0,0,0,0,0
+5266,Mésoterminal,Mésoterminal,le mésoterminal,0,0,0,1,0,0,0,0,0
+5267,Étage inférieur,Étage inférieur,l'étage inférieur,0,0,0,1,0,0,0,0,0
+5268,Étage intermédiaire,Étage intermédiaire,l'étage intermédiaire,0,0,0,1,0,0,0,0,0
+5269,Étage supérieur,Étage supérieur,l'étage supérieur,0,0,0,1,0,0,0,0,0
+5270,Place polyvalente inférieure,Place polyvalente inférieure,la place polyvalente inférieure,0,0,0,1,0,0,0,0,0
+5271,Hall intermédiaire,Hall intermédiaire,le hall intermédiaire,0,0,0,1,0,0,0,0,0
+5272,Chambre des souvenirs de haute importance,Chambre des souvenirs de haute importance,la chambre des souvenirs de haute importance,0,0,0,1,0,0,0,0,0
+5273,Aile médicale reconstituée,Aile médicale reconstituée,l'aile médicale reconstituée,0,0,0,1,0,0,0,0,0
+5274,Aile carcérale reconstituée,Aile carcérale reconstituée,l'aile carcérale reconstituée,0,0,0,1,0,0,0,0,0
+5275,Ville royale reconstituée,Ville royale reconstituée,la ville royale reconstituée,0,0,0,1,0,0,0,0,0
 5276,,,,0,0,0,0,0,0,0,0,0
 5277,,,,0,0,0,0,0,0,0,0,0
 5278,,,,0,0,0,0,0,0,0,0,0
@@ -5350,8 +5350,8 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5281,,,,0,0,0,0,0,0,0,0,0
 5282,,,,0,0,0,0,0,0,0,0,0
 5283,,,,0,0,0,0,0,0,0,0,0
-5284,,,,0,0,0,0,0,0,0,0,0
-5285,,,,0,0,0,0,0,0,0,0,0
+5284,Nécropole intemporelle,Nécropole intemporelle,la Nécropole intemporelle,0,0,0,1,0,0,0,0,0
+5285,Abîme d'Obscurité,Abîme d'Obscurité,l'abîme d'Obscurité,0,0,0,1,0,0,0,0,0
 5286,,,,0,0,0,0,0,0,0,0,0
 5287,,,,0,0,0,0,0,0,0,0,0
 5288,,,,0,0,0,0,0,0,0,0,0
@@ -5363,8 +5363,8 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5294,,,,0,0,0,0,0,0,0,0,0
 5295,,,,0,0,0,0,0,0,0,0,0
 5296,,,,0,0,0,0,0,0,0,0,0
-5297,,,,0,0,0,0,0,0,0,0,0
-5298,,,,0,0,0,0,0,0,0,0,0
+5297,Coffre d'Oneiron,Coffre d'Oneiron,le coffre d'Oneiron,0,0,0,1,0,0,0,0,0
+5298,Pont d'aéronef,Pont d'aéronef,le pont d'aéronef,0,0,0,1,0,0,0,0,0
 5299,,,,0,0,0,0,0,0,0,0,0
 5300,Interventions mécaniques,Interventions mécaniques,le guichet des in­ter­ven­tions mécaniques,0,0,0,1,0,0,0,0,0
 5301,,,,0,0,0,0,0,0,0,0,0
@@ -5386,7 +5386,7 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5317,,,,0,0,0,0,0,0,0,0,0
 5318,,,,0,0,0,0,0,0,0,0,0
 5319,,,,0,0,0,0,0,0,0,0,0
-5320,,,,0,0,0,0,0,0,0,0,0
+5320,Voyages interstations,Voyages interstations,le guichet des voyages interstations,0,0,0,1,0,0,0,0,0
 5321,,,,0,0,0,0,0,0,0,0,0
 5322,,,,0,0,0,0,0,0,0,0,0
 5323,,,,0,0,0,0,0,0,0,0,0

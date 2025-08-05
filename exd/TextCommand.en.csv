@@ -527,6 +527,22 @@ Toggles between on and off when no subcommand is specified.",,,/colorfiltering,,
 　　Disable auto-target priority.
 
 Toggles between on and off when no subcommand is specified.",,,/autotargetpriority,,0,36,2,1,2,0,0
+49,"ALIASES:
+　/vieraears, /vears
+USAGE:
+　/vieraears, /vears [subcommand]
+
+→Toggle the display of Viera ears on or off.
+※Only reflected on applicable headgear.
+
+>>Subcommands:
+**1**
+Display ears.
+
+**0**
+Hide ears.
+
+Toggles between on and off when no subcommand is specified.",,,/vieraears,/vears,0,36,2,1,2,0,0
 91,"ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -2126,8 +2142,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 →Removes designated beneficial status.
 
 >>Example:
-　/statusoff ""Bloodbath""
-　(Removes Bloodbath.)",,,/statusoff,,0,36,2,0,0,0,0
+　/statusoff ""Rampart""
+　(Removes Rampart.)",,,/statusoff,,0,36,2,0,0,0,0
 276,"ALIASES:
 　/addpvpaction, /apa
 A command previously believed to set specified actions as additional PvP actions.
@@ -5411,3 +5427,66 @@ Both text and motion will be displayed when no subcommand is specified.",,,/tome
  　**motion**    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.",,,/study,,0,293,2,1,2,0,0
+699,"USAGE:
+　/gridaniansip [subcommand]
+
+→Take a brief draught from a decorative mug of mulled Gridanian punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gridaniansip,,0,293,2,1,2,0,0
+700,"USAGE:
+　/uldahnsip [subcommand]
+
+→Take a brief draught from a decorative mug of mulled Ul'dahn punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/uldahnsip,,0,293,2,1,2,0,0
+701,"USAGE:
+　/lominsansip [subcommand]
+
+→Take a brief draught from a decorative mug of mulled Lominsan punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/lominsansip,,0,293,2,1,2,0,0
+702,"USAGE:
+　/gridaniangulp [subcommand]
+
+→Continuously sip at a serving of mulled Gridanian punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gridaniangulp,,0,293,2,1,2,0,0
+703,"USAGE:
+　/uldahngulp [subcommand]
+
+→Continuously sip at a serving of mulled Ul'dahn punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/uldahngulp,,0,293,2,1,2,0,0
+704,"USAGE:
+　/lominsangulp [subcommand]
+
+→Continuously sip at a serving of mulled Lominsan punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/lominsangulp,,0,293,2,1,2,0,0
+708,"USAGE:
+　/pen [subcommand]
+
+→Scrawl down some notes with a quill pen.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/pen,,0,293,2,1,2,0,0

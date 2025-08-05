@@ -22,7 +22,7 @@
 20,Ailes de Pixie,Ailes de Pixie,0,0,1,1,1,0,3429,0,8020,102,19,6,0,2
 21,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 22,Mirage de lunettes ovales,Mirages de lunettes ovales,0,0,0,1,0,0,3431,0,786,200,21,5,0,2
-23,Ombrelle à dentelle blanche,Ombrelles à dentelle blanche,0,0,1,1,1,0,3611,2,8023,16,22,1,1,1
+23,Ombrelle à collerette blanche,Ombrelles à collerette blanche,0,0,1,1,1,0,3611,2,8023,16,22,1,1,1
 24,Ombrelle à fleurs bleues,Ombrelles à fleurs bleues,0,0,1,1,1,0,3612,2,8024,17,23,1,1,1
 25,Mirage de lunettes teintées,Mirages de lunettes teintées,0,0,0,1,0,0,3613,0,786,201,24,5,0,2
 26,Mirage de lunettes classiques,Mirages de lunettes classiques,0,0,0,1,0,0,3614,0,786,202,25,7,0,2
@@ -47,4 +47,7 @@
 45,Ombrelle à dentelles noire,Ombrelles à dentelles noires,0,0,1,1,1,0,4512,2,8044,30,43,1,1,1
 46,Ombrelle à dentelles blanche,Ombrelles à dentelles blanches,0,0,1,1,1,0,4511,2,8045,31,44,1,1,1
 47,Ombrelle loporrite,Ombrelles loporrites,0,0,1,1,1,0,4513,2,8046,32,45,1,1,1
-48,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,Torche,Torches,0,0,0,1,1,0,4577,3,8047,400,46,10,2,0
+49,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+51,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1664,8 +1664,8 @@
 1662,Exhumation profonde II,Découvrir 100 trésors cachés.,0,539,100,0,0,0,0,0,0,0,0,60035,36,2,0,0,5,255,255,0,1,1,1,0
 1663,Exhumation profonde III,Découvrir 1 000 trésors cachés.,0,539,1000,0,0,0,0,0,0,0,322,60035,37,2,43,60,10,255,255,0,1,1,1,0
 1664,Exhumation profonde IV,Découvrir 5 000 trésors cachés.,0,539,5000,0,0,0,0,0,0,0,0,60035,38,2,0,0,20,255,255,0,1,1,1,0
-1665,Flair sans fond I,Découvrir un trésor caché dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.,0,540,1,0,0,0,0,0,0,0,0,60035,41,2,0,0,10,255,255,0,1,1,1,0
-1666,Flair sans fond II,Découvrir 100 trésors cachés dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.,0,540,100,0,0,0,0,0,0,0,323,60035,42,2,43,60,20,255,255,0,1,1,1,0
+1665,Flair sans fond I,Découvrir un trésor caché dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.,0,540,1,0,0,0,0,0,0,0,0,60035,51,2,0,0,10,255,255,0,1,1,1,0
+1666,Flair sans fond II,Découvrir 100 trésors cachés dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.,0,540,100,0,0,0,0,0,0,0,323,60035,52,2,43,60,20,255,255,0,1,1,1,0
 1667,Armes anima : épée et bouclier des Thanes jumeaux vivifiés,Obtenir l'épée et le bouclier des Thanes jumeaux vivifiés.,0,67915,19,0,0,0,0,0,0,0,0,30545,103,64,0,0,20,255,255,0,1,24,1,0
 1668,Armes anima : poings du Sultan vivifiés,Obtenir les poings du Sultan vivifiés.,0,67915,20,0,0,0,0,0,0,0,0,31113,203,64,0,0,20,255,255,0,1,24,1,0
 1669,Armes anima : hache de l'Empereur sanguinaire vivifiée,Obtenir la hache de l'Empereur sanguinaire vivifiée.,0,67915,21,0,0,0,0,0,0,0,0,31517,303,64,0,0,20,255,255,0,1,24,1,0
@@ -3065,16 +3065,16 @@
 3043,Soif de victoire III,Triompher 100 fois à Crystalline Conflict.,0,988,100,0,0,0,0,0,0,0,0,2555,1303,9,43,30,10,255,255,0,1,1,1,0
 3044,Soif de victoire IV,Triompher 500 fois à Crystalline Conflict.,0,988,500,0,0,0,0,0,0,0,0,2555,1304,9,43,30,10,255,255,0,1,1,1,0
 3045,Soif de victoire V,Triompher 1 000 fois à Crystalline Conflict.,0,988,1000,0,0,0,0,0,0,0,623,2555,1305,9,43,30,20,255,255,0,1,1,1,0
-3046,Siège de cristal : bronze,Terminer une saison de Crystalline Conflict à l'échelon de bronze ou supérieur.,0,989,1,0,0,0,0,0,0,0,624,821,0,8,43,30,10,255,255,0,1,1,1,0
+3046,Siège de cristal : bronze,Terminer une saison de Crystalline Conflict à l'échelon de bronze ou supérieur.,0,989,1,0,0,0,0,0,0,0,624,821,1000,8,43,30,10,255,255,0,1,1,1,0
 3047,Siège de cristal : argent,"Terminer une saison de Crystalline Conflict à l'échelon
-d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,1,1,0
-3048,Siège de cristal : or,Terminer une saison de Crystalline Conflict à l'échelon d'or ou supérieur.,0,991,1,0,0,0,0,0,0,0,626,821,0,8,43,30,10,255,255,0,1,1,1,0
-3049,Siège de cristal : platine,Terminer une saison de Crystalline Conflict à l'échelon de platine ou supérieur.,0,992,1,0,0,0,0,0,0,0,627,821,0,8,43,30,10,255,255,0,1,1,1,0
-3050,Siège de cristal : diamant,Terminer une saison de Crystalline Conflict à l'échelon de diamant ou supérieur.,0,993,1,0,0,0,0,0,0,0,628,821,0,8,43,30,10,255,255,0,1,1,1,0
-3051,Siège de cristal : cristal,Terminer une saison de Crystalline Conflict à l'échelon de cristal.,0,994,1,0,0,0,0,0,0,0,629,821,0,8,43,30,20,255,255,0,1,1,1,0
-3052,Roi du conflit,Terminer la saison 1 de Crystalline Conflict à la 1re place du classement.,0,995,1,0,0,0,0,0,0,0,630,210,0,8,43,30,20,255,255,0,1,1,1,0
-3053,Prince du conflit,Terminer la saison 1 de Crystalline Conflict dans les 30 premières places du classement.,0,996,1,0,0,0,0,0,0,0,631,210,0,8,43,30,20,255,255,0,1,1,1,0
-3054,As du conflit,Terminer la saison 1 de Crystalline Conflict dans les 100 premières places du classement.,0,997,1,0,0,0,0,0,0,0,632,210,0,8,43,30,20,255,255,0,1,1,1,0
+d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3048,Siège de cristal : or,Terminer une saison de Crystalline Conflict à l'échelon d'or ou supérieur.,0,991,1,0,0,0,0,0,0,0,626,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3049,Siège de cristal : platine,Terminer une saison de Crystalline Conflict à l'échelon de platine ou supérieur.,0,992,1,0,0,0,0,0,0,0,627,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3050,Siège de cristal : diamant,Terminer une saison de Crystalline Conflict à l'échelon de diamant ou supérieur.,0,993,1,0,0,0,0,0,0,0,628,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3051,Siège de cristal : cristal,Terminer une saison de Crystalline Conflict à l'échelon de cristal ou supérieur.,0,994,1,0,0,0,0,0,0,0,629,821,1000,8,43,30,20,255,255,0,1,1,1,0
+3052,Roi du conflit,Terminer la saison 1 de Crystalline Conflict à la 1re place du classement.,0,995,1,0,0,0,0,0,0,0,630,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3053,Prince du conflit,Terminer la saison 1 de Crystalline Conflict dans les 30 premières places du classement.,0,996,1,0,0,0,0,0,0,0,631,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3054,As du conflit,Terminer la saison 1 de Crystalline Conflict dans les 100 premières places du classement.,0,997,1,0,0,0,0,0,0,0,632,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3055,Les livreurs de Thavnair I,Atteindre le rang 3 (Ami) de réputation auprès des Hippotracteurs.,0,15,3,0,0,0,0,0,0,0,0,62975,0,37,0,0,5,255,255,0,1,15,1,0
 3056,Les livreurs de Thavnair II,Atteindre le rang 4 (Estimé) de réputation auprès des Hippotracteurs.,0,15,4,0,0,0,0,0,0,0,0,62975,0,37,0,0,5,255,255,0,1,15,1,0
 3057,Les livreurs de Thavnair III,Atteindre le rang 6 (Émérite) de réputation auprès des Hippotracteurs.,0,15,6,0,0,0,0,0,0,0,0,62975,0,37,0,0,10,255,255,0,1,15,1,0
@@ -3134,12 +3134,12 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3111,Une purge infernale I,Finir le Purgatoire du Pandæmonium (sadique) 1 fois.,0,1018,1,0,0,0,0,0,0,0,0,64848,0,4,0,0,5,255,255,0,1,1,64,0
 3112,Une purge infernale II,Finir le Purgatoire du Pandæmonium (sadique) 5 fois.,0,1018,5,0,0,0,0,0,0,0,0,64848,0,4,0,0,10,255,255,0,1,1,64,0
 3113,Une purge infernale III,Finir le Purgatoire du Pandæmonium (sadique) 10 fois.,0,1018,10,0,0,0,0,0,0,0,0,64848,0,4,0,0,20,255,255,0,1,1,64,0
-3114,Roi du conflit : saison 2,Terminer la saison 2 de Crystalline Conflict à la 1re place du classement.,0,1019,1,0,0,0,0,0,0,0,649,210,0,8,43,30,20,255,255,0,1,1,1,0
-3115,Prince du conflit : saison 2,Terminer la saison 2 de Crystalline Conflict dans les 30 premières places du classement.,0,1020,1,0,0,0,0,0,0,0,650,210,0,8,43,30,20,255,255,0,1,1,1,0
-3116,As du conflit : saison 2,Terminer la saison 2 de Crystalline Conflict dans les 100 premières places du classement.,0,1021,1,0,0,0,0,0,0,0,651,210,0,8,43,30,20,255,255,0,1,1,1,0
-3117,Roi du conflit : saison 3,Terminer la saison 3 de Crystalline Conflict à la 1re place du classement.,0,1022,1,0,0,0,0,0,0,0,652,210,0,8,43,30,20,255,255,0,1,1,1,0
-3118,Prince du conflit : saison 3,Terminer la saison 3 de Crystalline Conflict dans les 30 premières places du classement.,0,1023,1,0,0,0,0,0,0,0,653,210,0,8,43,30,20,255,255,0,1,1,1,0
-3119,As du conflit : saison 3,Terminer la saison 3 de Crystalline Conflict dans les 100 premières places du classement.,0,1024,1,0,0,0,0,0,0,0,654,210,0,8,43,30,20,255,255,0,1,1,1,0
+3114,Roi du conflit : saison 2,Terminer la saison 2 de Crystalline Conflict à la 1re place du classement.,0,1019,1,0,0,0,0,0,0,0,649,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3115,Prince du conflit : saison 2,Terminer la saison 2 de Crystalline Conflict dans les 30 premières places du classement.,0,1020,1,0,0,0,0,0,0,0,650,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3116,As du conflit : saison 2,Terminer la saison 2 de Crystalline Conflict dans les 100 premières places du classement.,0,1021,1,0,0,0,0,0,0,0,651,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3117,Roi du conflit : saison 3,Terminer la saison 3 de Crystalline Conflict à la 1re place du classement.,0,1022,1,0,0,0,0,0,0,0,652,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3118,Prince du conflit : saison 3,Terminer la saison 3 de Crystalline Conflict dans les 30 premières places du classement.,0,1023,1,0,0,0,0,0,0,0,653,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3119,As du conflit : saison 3,Terminer la saison 3 de Crystalline Conflict dans les 100 premières places du classement.,0,1024,1,0,0,0,0,0,0,0,654,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3120,Le remède de la savante,Accomplir la quête “La parade de tous les dangers”.,0,70191,0,0,0,0,0,0,0,0,0,41996,123,38,0,0,10,255,255,0,1,6,1,0
 3121,Le renne du pouvoir,Accomplir la quête “Illusions et célébrations”.,0,70195,0,0,0,0,0,0,0,0,0,59240,124,38,0,0,10,255,255,0,1,6,1,0
 3122,Décomplexé,Accomplir la quête “Valention et l'amour sous toutes ses formes”.,0,70190,0,0,0,0,0,0,0,0,0,41998,126,38,0,0,10,255,255,0,1,6,1,0
@@ -3238,12 +3238,12 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3215,Maître du gymnase II,Conquérir 5 fois Elpis Gymnasion.,0,1044,5,0,0,0,0,0,0,0,0,116,93,6,0,0,10,255,255,0,1,1,1,0
 3216,Maître du gymnase III,Conquérir 10 fois Elpis Gymnasion.,0,1044,10,0,0,0,0,0,0,0,0,116,94,6,0,0,10,255,255,0,1,1,1,0
 3217,Maître du gymnase IV,Conquérir 20 fois Elpis Gymnasion.,0,1044,20,0,0,0,0,0,0,0,670,116,95,6,43,90,20,255,255,0,1,1,1,0
-3218,Roi du conflit : saison 4,Terminer la saison 4 de Crystalline Conflict à la 1re place du classement.,0,1045,1,0,0,0,0,0,0,0,671,210,0,8,43,30,20,255,255,0,1,1,1,0
-3219,Prince du conflit : saison 4,Terminer la saison 4 de Crystalline Conflict dans les 30 premières places du classement.,0,1046,1,0,0,0,0,0,0,0,672,210,0,8,43,30,20,255,255,0,1,1,1,0
-3220,As du conflit : saison 4,Terminer la saison 4 de Crystalline Conflict dans les 100 premières places du classement.,0,1047,1,0,0,0,0,0,0,0,673,210,0,8,43,30,20,255,255,0,1,1,1,0
-3221,Roi du conflit : saison 5,Terminer la saison 5 de Crystalline Conflict à la 1re place du classement.,0,1048,1,0,0,0,0,0,0,0,674,210,0,8,43,30,20,255,255,0,1,1,1,0
-3222,Prince du conflit : saison 5,Terminer la saison 5 de Crystalline Conflict dans les 30 premières places du classement.,0,1049,1,0,0,0,0,0,0,0,675,210,0,8,43,30,20,255,255,0,1,1,1,0
-3223,As du conflit : saison 5,Terminer la saison 5 de Crystalline Conflict dans les 100 premières places du classement.,0,1050,1,0,0,0,0,0,0,0,676,210,0,8,43,30,20,255,255,0,1,1,1,0
+3218,Roi du conflit : saison 4,Terminer la saison 4 de Crystalline Conflict à la 1re place du classement.,0,1045,1,0,0,0,0,0,0,0,671,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3219,Prince du conflit : saison 4,Terminer la saison 4 de Crystalline Conflict dans les 30 premières places du classement.,0,1046,1,0,0,0,0,0,0,0,672,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3220,As du conflit : saison 4,Terminer la saison 4 de Crystalline Conflict dans les 100 premières places du classement.,0,1047,1,0,0,0,0,0,0,0,673,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3221,Roi du conflit : saison 5,Terminer la saison 5 de Crystalline Conflict à la 1re place du classement.,0,1048,1,0,0,0,0,0,0,0,674,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3222,Prince du conflit : saison 5,Terminer la saison 5 de Crystalline Conflict dans les 30 premières places du classement.,0,1049,1,0,0,0,0,0,0,0,675,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3223,As du conflit : saison 5,Terminer la saison 5 de Crystalline Conflict dans les 100 premières places du classement.,0,1050,1,0,0,0,0,0,0,0,676,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3224,Armes des Manderville : épée éblouissante et écu mandorle éblouissant,Obtenir l'épée éblouissante et l'écu mandorle éblouissant des Manderville.,0,70261,70262,19,0,0,0,0,0,0,0,30660,101,75,0,0,10,255,255,0,1,24,1,3
 3225,Armes des Manderville : hache éblouissante,Obtenir la hache éblouissante des Manderville.,0,70261,70262,21,0,0,0,0,0,0,0,31234,301,75,0,0,10,255,255,0,1,24,1,3
 3226,Armes des Manderville : espadon éblouissant,Obtenir l'espadon éblouissant des Manderville.,0,70261,70262,32,0,0,0,0,0,0,0,34388,1101,75,0,0,10,255,255,0,1,24,1,3
@@ -3290,12 +3290,12 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3267,Malacologue,Obtenir le bonus Malacologie au cours d'une expédition de pêche en mer (haute mer).,0,1058,1,0,0,0,0,0,0,0,680,28090,251,34,19,1,10,255,255,0,1,1,1,0
 3268,Surume dragon,Obtenir le bonus Surume dragon au cours d'une expédition de pêche en mer (haute mer).,0,1059,1,0,0,0,0,0,0,0,681,29932,252,34,19,1,10,255,255,0,1,1,1,0
 3269,La crevette,Obtenir le bonus Banc de crevettes au cours d'une expédition de pêche en mer (haute mer).,0,1060,1,0,0,0,0,0,0,0,682,29145,253,34,19,1,10,255,255,0,1,1,1,0
-3270,Roi du conflit : saison 6,Terminer la saison 6 de Crystalline Conflict à la 1re place du classement.,0,1061,1,0,0,0,0,0,0,0,683,210,0,8,43,30,20,255,255,0,1,1,1,0
-3271,Prince du conflit : saison 6,Terminer la saison 6 de Crystalline Conflict dans les 30 premières places du classement.,0,1062,1,0,0,0,0,0,0,0,684,210,0,8,43,30,20,255,255,0,1,1,1,0
-3272,As du conflit : saison 6,Terminer la saison 6 de Crystalline Conflict dans les 100 premières places du classement.,0,1063,1,0,0,0,0,0,0,0,685,210,0,8,43,30,20,255,255,0,1,1,1,0
-3273,Roi du conflit : saison 7,Terminer la saison 7 de Crystalline Conflict à la 1re place du classement.,0,1064,1,0,0,0,0,0,0,0,686,210,0,8,43,30,20,255,255,0,1,1,1,0
-3274,Prince du conflit : saison 7,Terminer la saison 7 de Crystalline Conflict dans les 30 premières places du classement.,0,1065,1,0,0,0,0,0,0,0,687,210,0,8,43,30,20,255,255,0,1,1,1,0
-3275,As du conflit : saison 7,Terminer la saison 7 de Crystalline Conflict dans les 100 premières places du classement.,0,1066,1,0,0,0,0,0,0,0,688,210,0,8,43,30,20,255,255,0,1,1,1,0
+3270,Roi du conflit : saison 6,Terminer la saison 6 de Crystalline Conflict à la 1re place du classement.,0,1061,1,0,0,0,0,0,0,0,683,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3271,Prince du conflit : saison 6,Terminer la saison 6 de Crystalline Conflict dans les 30 premières places du classement.,0,1062,1,0,0,0,0,0,0,0,684,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3272,As du conflit : saison 6,Terminer la saison 6 de Crystalline Conflict dans les 100 premières places du classement.,0,1063,1,0,0,0,0,0,0,0,685,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3273,Roi du conflit : saison 7,Terminer la saison 7 de Crystalline Conflict à la 1re place du classement.,0,1064,1,0,0,0,0,0,0,0,686,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3274,Prince du conflit : saison 7,Terminer la saison 7 de Crystalline Conflict dans les 30 premières places du classement.,0,1065,1,0,0,0,0,0,0,0,687,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3275,As du conflit : saison 7,Terminer la saison 7 de Crystalline Conflict dans les 100 premières places du classement.,0,1066,1,0,0,0,0,0,0,0,688,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3276,Belligérant régional 2023,Sortir vainqueur du championnat “Crystalline Conflict Regional Championship 2023” de la zone Japon.,0,1067,1,0,0,0,0,0,0,0,689,62968,6,9,0,0,0,255,255,0,0,1,1,1
 3277,Belligérant régional 2023,Sortir vainqueur du championnat “Crystalline Conflict Regional Championship 2023” de la zone Amérique du Nord.,0,1068,1,0,0,0,0,0,0,0,689,62968,7,9,0,0,0,255,255,0,0,1,1,1
 3278,Belligérant régional 2023,Sortir vainqueur du championnat “Crystalline Conflict Regional Championship 2023” de la zone Europe/Pacifique.,0,1069,1,0,0,0,0,0,0,0,689,62968,8,9,0,0,0,255,255,0,0,1,1,1
@@ -3439,15 +3439,15 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3416,Tout un symbole,Accomplir la quête “Le symbole de l'amour”.,0,70345,0,0,0,0,0,0,0,0,0,52793,135,38,0,0,10,255,255,0,1,6,1,0
 3417,Miragœufs et demoiselles,Accomplir la quête “Princesse pêche”.,0,70347,0,0,0,0,0,0,0,0,0,4276,136,38,0,0,10,255,255,0,1,6,1,0
 3418,La kappattitude,Accomplir la quête “Les petits hommes verts du Gold Saucer”.,0,70350,0,0,0,0,0,0,0,0,0,56635,137,38,0,0,10,255,255,0,1,6,1,0
-3419,Roi du conflit : saison 8,Terminer la saison 8 de Crystalline Conflict à la 1re place du classement.,0,1111,1,0,0,0,0,0,0,0,714,210,0,8,43,30,20,255,255,0,1,1,1,0
-3420,Prince du conflit : saison 8,Terminer la saison 8 de Crystalline Conflict dans les 30 premières places du classement.,0,1112,1,0,0,0,0,0,0,0,715,210,0,8,43,30,20,255,255,0,1,1,1,0
-3421,As du conflit : saison 8,Terminer la saison 8 de Crystalline Conflict dans les 100 premières places du classement.,0,1113,1,0,0,0,0,0,0,0,716,210,0,8,43,30,20,255,255,0,1,1,1,0
-3422,Roi du conflit : saison 9,Terminer la saison 9 de Crystalline Conflict à la 1re place du classement.,0,1114,1,0,0,0,0,0,0,0,717,210,0,8,43,30,20,255,255,0,1,1,1,0
-3423,Prince du conflit : saison 9,Terminer la saison 9 de Crystalline Conflict dans les 30 premières places du classement.,0,1115,1,0,0,0,0,0,0,0,718,210,0,8,43,30,20,255,255,0,1,1,1,0
-3424,As du conflit : saison 9,Terminer la saison 9 de Crystalline Conflict dans les 100 premières places du classement.,0,1116,1,0,0,0,0,0,0,0,719,210,0,8,43,30,20,255,255,0,1,1,1,0
-3425,Roi du conflit : saison 10,Terminer la saison 10 de Crystalline Conflict à la 1re place du classement.,0,1117,1,0,0,0,0,0,0,0,720,210,0,8,43,30,20,255,255,0,1,1,1,0
-3426,Prince du conflit : saison 10,Terminer la saison 10 de Crystalline Conflict dans les 30 premières places du classement.,0,1118,1,0,0,0,0,0,0,0,721,210,0,8,43,30,20,255,255,0,1,1,1,0
-3427,As du conflit : saison 10,Terminer la saison 10 de Crystalline Conflict dans les 100 premières places du classement.,0,1119,1,0,0,0,0,0,0,0,722,210,0,8,43,30,20,255,255,0,1,1,1,0
+3419,Roi du conflit : saison 8,Terminer la saison 8 de Crystalline Conflict à la 1re place du classement.,0,1111,1,0,0,0,0,0,0,0,714,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3420,Prince du conflit : saison 8,Terminer la saison 8 de Crystalline Conflict dans les 30 premières places du classement.,0,1112,1,0,0,0,0,0,0,0,715,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3421,As du conflit : saison 8,Terminer la saison 8 de Crystalline Conflict dans les 100 premières places du classement.,0,1113,1,0,0,0,0,0,0,0,716,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3422,Roi du conflit : saison 9,Terminer la saison 9 de Crystalline Conflict à la 1re place du classement.,0,1114,1,0,0,0,0,0,0,0,717,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3423,Prince du conflit : saison 9,Terminer la saison 9 de Crystalline Conflict dans les 30 premières places du classement.,0,1115,1,0,0,0,0,0,0,0,718,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3424,As du conflit : saison 9,Terminer la saison 9 de Crystalline Conflict dans les 100 premières places du classement.,0,1116,1,0,0,0,0,0,0,0,719,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3425,Roi du conflit : saison 10,Terminer la saison 10 de Crystalline Conflict à la 1re place du classement.,0,1117,1,0,0,0,0,0,0,0,720,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3426,Prince du conflit : saison 10,Terminer la saison 10 de Crystalline Conflict dans les 30 premières places du classement.,0,1118,1,0,0,0,0,0,0,0,721,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3427,As du conflit : saison 10,Terminer la saison 10 de Crystalline Conflict dans les 100 premières places du classement.,0,1119,1,0,0,0,0,0,0,0,722,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3428,Accroc de l'annexe,"Accomplir les hauts faits “L'égout et les couleurs”, “Supplicier des montagnes” et “Île cauchemardesque”.",0,3156,3340,3350,0,0,0,0,0,0,723,3054,1219,2,43,90,20,255,255,0,2,2,1,0
 3429,Gladiateur mythique,Atteindre le niveau 100 avec la classe gladiateur.,0,1,100,0,0,0,0,0,0,0,0,30408,10,13,0,0,5,255,255,0,1,3,1,0
 3430,Pugiliste mythique,Atteindre le niveau 100 avec avec la classe pugiliste.,0,2,100,0,0,0,0,0,0,0,0,31004,30,13,0,0,5,255,255,0,1,3,1,0
@@ -3596,26 +3596,26 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3569,Tonnerre de Limsa Lominsa,Accomplir la quête “Commémoration sous les lumières de l'avenir”.,0,70552,0,0,0,0,0,0,0,0,0,26107,139,38,0,0,10,255,255,0,1,6,1,0
 3570,L'ahriman bien intégré,Accomplir la quête “Duel de friandises”.,0,70721,0,0,0,0,0,0,0,0,0,56726,140,38,0,0,10,255,255,0,1,6,1,0
 3571,"Ô vénérable tsuchinoko blanc, entends mes prières",Accomplir la quête “Le quiz de la transition”.,0,70722,0,0,0,0,0,0,0,0,0,59892,142,38,0,0,10,255,255,0,1,6,1,0
-3572,Champion poids mi-lourds de l'Arcadion I,Conquérir la division poids mi-lourds CCA et accomplir la quête “L'Enchanteresse électrique”.,0,70501,0,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,6,1,0
-3573,Champion poids mi-lourds de l'Arcadion II,Conquérir la division poids mi-lourds CCA 5 fois.,0,1138,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
-3574,Champion poids mi-lourds de l'Arcadion III,Conquérir la division poids mi-lourds CCA 10 fois.,0,1138,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
-3575,Champion poids mi-lourds incontesté de l'Arcadion I,Conquérir la division poids mi-lourds CCA (sadique) 1 fois.,0,1139,1,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,1,1,0
-3576,Champion poids mi-lourds incontesté de l'Arcadion II,Conquérir la division poids mi-lourds CCA (sadique) 5 fois.,0,1139,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
-3577,Champion poids mi-lourds incontesté de l'Arcadion III,Conquérir la division poids mi-lourds CCA (sadique) 10 fois.,0,1139,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
-3578,Roi du conflit : saison 11,Terminer la saison 11 de Crystalline Conflict à la 1re place du classement.,0,1140,1,0,0,0,0,0,0,0,753,210,0,8,43,30,20,255,255,0,1,1,1,0
-3579,Prince du conflit : saison 11,Terminer la saison 11 de Crystalline Conflict dans les 30 premières places du classement.,0,1141,1,0,0,0,0,0,0,0,754,210,0,8,43,30,20,255,255,0,1,1,1,0
-3580,As du conflit : saison 11,Terminer la saison 11 de Crystalline Conflict dans les 100 premières places du classement.,0,1142,1,0,0,0,0,0,0,0,755,210,0,8,43,30,20,255,255,0,1,1,1,0
+3572,Champion poids mi-lourds de l'Arcadion I,Conquérir la catégorie poids mi-lourds CCA et accomplir la quête “L'Enchanteresse électrique”.,0,70501,0,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,6,1,0
+3573,Champion poids mi-lourds de l'Arcadion II,Conquérir la catégorie poids mi-lourds CCA 5 fois.,0,1138,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
+3574,Champion poids mi-lourds de l'Arcadion III,Conquérir la catégorie poids mi-lourds CCA 10 fois.,0,1138,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
+3575,Champion poids mi-lourds incontesté de l'Arcadion I,Conquérir la catégorie poids mi-lourds CCA (sadique) 1 fois.,0,1139,1,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,1,1,0
+3576,Champion poids mi-lourds incontesté de l'Arcadion II,Conquérir la catégorie poids mi-lourds CCA (sadique) 5 fois.,0,1139,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
+3577,Champion poids mi-lourds incontesté de l'Arcadion III,Conquérir la catégorie poids mi-lourds CCA (sadique) 10 fois.,0,1139,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
+3578,Roi du conflit : saison 11,Terminer la saison 11 de Crystalline Conflict à la 1re place du classement.,0,1140,1,0,0,0,0,0,0,0,753,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3579,Prince du conflit : saison 11,Terminer la saison 11 de Crystalline Conflict dans les 30 premières places du classement.,0,1141,1,0,0,0,0,0,0,0,754,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3580,As du conflit : saison 11,Terminer la saison 11 de Crystalline Conflict dans les 100 premières places du classement.,0,1142,1,0,0,0,0,0,0,0,755,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3581,Mélomane mécanique VII,Ajouter 500 rouleaux différents à votre liste de morceaux pour orchestrion.,0,464,500,0,0,0,0,0,0,0,0,25945,32,19,47,1,10,255,255,0,1,1,1,0
-3582,Roi du conflit : saison 12,Terminer la saison 12 de Crystalline Conflict à la 1re place du classement.,0,1146,1,0,0,0,0,0,0,0,756,210,0,8,43,30,20,255,255,0,1,1,1,0
-3583,Prince du conflit : saison 12,Terminer la saison 12 de Crystalline Conflict dans les 30 premières places du classement.,0,1147,1,0,0,0,0,0,0,0,757,210,0,8,43,30,20,255,255,0,1,1,1,0
-3584,As du conflit : saison 12,Terminer la saison 12 de Crystalline Conflict dans les 100 premières places du classement.,0,1148,1,0,0,0,0,0,0,0,758,210,0,8,43,30,20,255,255,0,1,1,1,0
-3585,Roi du conflit : saison 13,Terminer la saison 13 de Crystalline Conflict à la 1re place du classement.,0,1149,1,0,0,0,0,0,0,0,759,210,0,8,43,30,20,255,255,0,1,1,1,0
-3586,Prince du conflit : saison 13,Terminer la saison 13 de Crystalline Conflict dans les 30 premières places du classement.,0,1150,1,0,0,0,0,0,0,0,760,210,0,8,43,30,20,255,255,0,1,1,1,0
-3587,As du conflit : saison 13,Terminer la saison 13 de Crystalline Conflict dans les 100 premières places du classement.,0,1151,1,0,0,0,0,0,0,0,761,210,0,8,43,30,20,255,255,0,1,1,1,0
+3582,Roi du conflit : saison 12,Terminer la saison 12 de Crystalline Conflict à la 1re place du classement.,0,1146,1,0,0,0,0,0,0,0,756,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3583,Prince du conflit : saison 12,Terminer la saison 12 de Crystalline Conflict dans les 30 premières places du classement.,0,1147,1,0,0,0,0,0,0,0,757,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3584,As du conflit : saison 12,Terminer la saison 12 de Crystalline Conflict dans les 100 premières places du classement.,0,1148,1,0,0,0,0,0,0,0,758,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3585,Roi du conflit : saison 13,Terminer la saison 13 de Crystalline Conflict à la 1re place du classement.,0,1149,1,0,0,0,0,0,0,0,759,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3586,Prince du conflit : saison 13,Terminer la saison 13 de Crystalline Conflict dans les 30 premières places du classement.,0,1150,1,0,0,0,0,0,0,0,760,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3587,As du conflit : saison 13,Terminer la saison 13 de Crystalline Conflict dans les 100 premières places du classement.,0,1151,1,0,0,0,0,0,0,0,761,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3588,Conseiller touristique I,Atteindre le rang 3 (Ami) de réputation auprès des Pelupelu de l'agence Tural Voyages.,0,18,3,0,0,0,0,0,0,0,0,62978,0,37,0,0,5,255,255,0,1,15,1,0
 3589,Conseiller touristique II,Atteindre le rang 4 (Estimé) de réputation auprès des Pelupelu de l'agence Tural Voyages.,0,18,4,0,0,0,0,0,0,0,0,62978,0,37,0,0,5,255,255,0,1,15,1,0
 3590,Conseiller touristique III,Atteindre le rang 6 (Émérite) de réputation auprès des Pelupelu de l'agence Tural Voyages.,0,18,6,0,0,0,0,0,0,0,0,62978,0,37,0,0,10,255,255,0,1,15,1,0
-3591,Tural Voyages Conseil,Atteindre le rang 7 (Assermenté) de réputation auprès des Pelupelu de l'agence Tural Voyages.,0,18,7,0,0,0,0,0,0,0,762,62978,0,37,44,90,20,255,255,0,1,15,1,0
+3591,Tural Voyages Conseil,Atteindre le rang 7 (Assermenté) de réputation auprès des Pelupelu de l'agence Tural Voyages.,0,18,7,0,0,0,0,0,0,0,762,62978,0,37,43,90,20,255,255,0,1,15,1,0
 3592,Train-train quotidien I,Atteindre le rang 1 de sa­tis­fac­tion auprès de Nitowikwe.,0,1143,1,0,0,0,0,0,0,0,0,25507,231,12,0,0,5,255,255,0,1,1,1,0
 3593,Train-train quotidien II,Atteindre le rang 2 de sa­tis­fac­tion auprès de Nitowikwe.,0,1143,2,0,0,0,0,0,0,0,0,25507,232,12,0,0,5,255,255,0,1,1,1,0
 3594,Train-train quotidien III,Atteindre le rang 3 de sa­tis­fac­tion auprès de Nitowikwe.,0,1143,3,0,0,0,0,0,0,0,0,25507,233,12,0,0,5,255,255,0,1,1,1,0
@@ -3642,26 +3642,26 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3615,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 3616,Nuage dissipé,Vaincre le Nuage de Ténèbres dans le raid “La Tour de Ténèbres (chaotique)”.,0,20098,0,0,0,0,0,0,0,0,0,64893,0,4,0,0,5,255,255,0,1,14,1,0
 3617,Nous ne ferons plus qu'un,Fusionner les destins des prêtresses de la Lumière et des Ténèbres.,0,30143,0,0,0,0,0,0,0,0,768,317,0,4,43,100,10,255,255,0,1,14,1,0
-3618,Roi du conflit : saison 14,Terminer la saison 14 de Crystalline Conflict à la 1re place du classement.,0,1152,1,0,0,0,0,0,0,0,769,210,0,8,43,30,20,255,255,0,1,1,1,0
-3619,Prince du conflit : saison 14,Terminer la saison 14 de Crystalline Conflict dans les 30 premières places du classement.,0,1153,1,0,0,0,0,0,0,0,770,210,0,8,43,30,20,255,255,0,1,1,1,0
-3620,As du conflit : saison 14,Terminer la saison 14 de Crystalline Conflict dans les 100 premières places du classement.,0,1154,1,0,0,0,0,0,0,0,771,210,0,8,43,30,20,255,255,0,1,1,1,0
+3618,Roi du conflit : saison 14,Terminer la saison 14 de Crystalline Conflict à la 1re place du classement.,0,1152,1,0,0,0,0,0,0,0,769,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3619,Prince du conflit : saison 14,Terminer la saison 14 de Crystalline Conflict dans les 30 premières places du classement.,0,1153,1,0,0,0,0,0,0,0,770,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3620,As du conflit : saison 14,Terminer la saison 14 de Crystalline Conflict dans les 100 premières places du classement.,0,1154,1,0,0,0,0,0,0,0,771,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3621,À la mode de Mamook I,Atteindre le rang 3 (Ami) de réputation auprès des fermiers de Gok Golma.,0,19,3,0,0,0,0,0,0,0,0,62979,0,37,0,0,5,255,255,0,1,15,1,0
 3622,À la mode de Mamook II,Atteindre le rang 4 (Estimé) de réputation auprès des fermiers de Gok Golma.,0,19,4,0,0,0,0,0,0,0,0,62979,0,37,0,0,5,255,255,0,1,15,1,0
 3623,À la mode de Mamook III,Atteindre le rang 6 (Émérite) de réputation auprès des fermiers de Gok Golma.,0,19,6,0,0,0,0,0,0,0,0,62979,0,37,0,0,10,255,255,0,1,15,1,0
 3624,Le champ bleu,Atteindre le rang 7 (Assermenté) de réputation auprès des fermiers de Gok Golma.,0,19,7,0,0,0,0,0,0,0,772,62979,0,37,45,90,20,255,255,0,1,15,1,0
 3625,Cartographe du continent : La Gardienne de l'Immémorial,Découvrir toute la carte de la Gardienne de l'Immémorial.,0,995,0,0,0,0,0,0,0,0,0,1001,110,49,0,0,10,255,255,0,1,8,1,0
 3626,Honneur préservé,Vaincre Zelenia dans le défi “Le Sanctuaire du Serment (extrême)”.,0,20101,0,0,0,0,0,0,0,0,0,317,43,3,0,0,10,255,255,0,1,14,1,0
-3627,Champion poids lourds-légers de l'Arcadion I,Conquérir la division poids lourds-légers CCA 1 fois.,0,1155,1,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,1,1,0
-3628,Champion poids lourds-légers de l'Arcadion II,Conquérir la division poids lourds-légers CCA 5 fois.,0,1155,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
-3629,Champion poids lourds-légers de l'Arcadion III,Conquérir la division poids lourds-légers CCA 10 fois.,0,1155,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
-3630,Champion poids lourds-légers incontesté de l'Arcadion I,Conquérir la division poids lourds-légers CCA (sadique) 1 fois.,0,1156,1,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,1,1,0
-3631,Champion poids lourds-légers incontesté de l'Arcadion II,Conquérir la division poids lourds-légers CCA (sadique) 5 fois.,0,1156,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
-3632,Champion poids lourds-légers incontesté de l'Arcadion III,Conquérir la division poids lourds-légers CCA (sadique) 10 fois.,0,1156,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
+3627,Champion poids lourds-légers de l'Arcadion I,Conquérir la catégorie poids lourds-légers CCA 1 fois.,0,1155,1,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,1,1,0
+3628,Champion poids lourds-légers de l'Arcadion II,Conquérir la catégorie poids lourds-légers CCA 5 fois.,0,1155,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
+3629,Champion poids lourds-légers de l'Arcadion III,Conquérir la catégorie poids lourds-légers CCA 10 fois.,0,1155,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
+3630,Champion poids lourds-légers incontesté de l'Arcadion I,Conquérir la catégorie poids lourds-légers CCA (sadique) 1 fois.,0,1156,1,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,1,1,0
+3631,Champion poids lourds-légers incontesté de l'Arcadion II,Conquérir la catégorie poids lourds-légers CCA (sadique) 5 fois.,0,1156,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
+3632,Champion poids lourds-légers incontesté de l'Arcadion III,Conquérir la catégorie poids lourds-légers CCA (sadique) 10 fois.,0,1156,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
 3633,Explorateurs de l'éternité,Accomplir la quête “Explorateurs de l'éternité”.,0,70842,0,0,0,0,0,0,0,0,773,26002,94,76,43,100,20,255,255,0,1,6,1,0
 3634,"Au sud, rien de nouveau",Accomplir la quête “Le mystère reste entier”.,0,70854,0,0,0,0,0,0,0,0,0,26002,710,35,0,0,10,255,255,0,1,6,1,0
 3635,"Quand il rêve, il est un Roi",Accomplir la quête “Le Roi singé”.,0,70858,0,0,0,0,0,0,0,0,0,64462,146,38,0,0,10,255,255,0,1,6,1,0
 3636,Croisière à haut risque,Accomplir la quête “Alerte à Costa del Sol”.,0,70857,0,0,0,0,0,0,0,0,0,57245,147,38,0,0,10,255,255,0,1,6,1,0
-3637,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3637,Douzaine dorée,Accomplir la quête “La lumière du lendemain”.,0,70834,0,0,0,0,0,0,0,0,0,26107,148,38,0,0,10,255,255,0,1,6,1,0
 3638,Armes fantômes : épée fantôme penumbra et écu mandorle fantôme penumbra,Obtenir l'épée fantôme penumbra et l'écu mandorle fantôme penumbra.,0,70856,19,0,0,0,0,0,0,0,0,30694,100,81,0,0,10,255,255,0,1,24,1,3
 3639,Armes fantômes : bardiche fantôme penumbra,Obtenir la bardiche fantôme penumbra.,0,70856,21,0,0,0,0,0,0,0,0,31268,300,81,0,0,10,255,255,0,1,24,1,3
 3640,Armes fantômes : fendoir fantôme penumbra,Obtenir le fendoir fantôme penumbra.,0,70856,32,0,0,0,0,0,0,0,0,34023,1100,81,0,0,10,255,255,0,1,24,1,3
@@ -3714,7 +3714,7 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3687,Carotte sans bâton II,Ouvrir 50 coffres de lapin du bonheur sur l'île de Lunule.,0,1166,50,0,0,0,0,0,0,0,0,115,1682,71,0,0,5,255,255,0,1,1,1,0
 3688,Carotte sans bâton III,Ouvrir 200 coffres de lapin du bonheur sur l'île de Lunule.,0,1166,200,0,0,0,0,0,0,0,0,115,1683,71,0,0,5,255,255,0,1,1,1,0
 3689,Carotte sans bâton IV,Ouvrir 1 000 coffres de lapin du bonheur sur l'île de Lunule.,0,1166,1000,0,0,0,0,0,0,0,780,115,1684,71,43,100,5,255,255,0,1,1,1,0
-3690,Explorateur sélénien aguerri,Terminer toutes les missions cosmiques de Sinus Ardorum avec la meilleure évaluation possible.,0,1167,1,0,0,0,0,0,0,0,781,64875,2500,69,0,0,20,255,255,0,1,1,1,0
+3690,Explorateur sélénien aguerri,Terminer toutes les missions cosmiques de Sinus Ardorum avec la meilleure évaluation possible.,0,1167,1,0,0,0,0,0,0,0,781,64875,2500,69,46,100,20,255,255,0,1,1,1,0
 3691,Outil cosmique : scie cosmique,Obtenir la scie cosmique.,0,1168,1,0,0,0,0,0,0,0,0,39013,100,82,0,0,10,255,255,0,1,1,1,0
 3692,Outil cosmique : marteau à panne croisée cosmique,Obtenir le marteau à panne croisée cosmique.,0,1169,1,0,0,0,0,0,0,0,0,39112,200,82,0,0,10,255,255,0,1,1,1,0
 3693,Outil cosmique : marteau de batteur cosmique,Obtenir le marteau de batteur cosmique.,0,1170,1,0,0,0,0,0,0,0,0,39212,300,82,0,0,10,255,255,0,1,1,1,0
@@ -3728,28 +3728,28 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3701,Outil cosmique : canne à pêche cosmique,Obtenir la canne à pêche cosmique.,0,1178,1,0,0,0,0,0,0,0,0,38515,1100,82,0,0,10,255,255,0,1,1,1,0
 3702,Menuisier du cosmos I,Gagner un total de 50 000 points cosmiques en tant que menuisier.,0,1179,1,0,0,0,0,0,0,0,0,1503,180,24,0,0,5,255,255,0,1,1,1,0
 3703,Menuisier du cosmos II,Gagner un total de 150 000 points cosmiques en tant que menuisier.,0,1180,1,0,0,0,0,0,0,0,0,1503,181,24,0,0,5,255,255,0,1,1,1,0
-3704,Maître menuisier du cosmos,Gagner un total de 500 000 points cosmiques en tant que menuisier.,0,1181,1,0,0,0,0,0,0,0,782,1503,182,24,9,20,10,255,255,0,1,1,1,0
+3704,Maître menuisier du cosmos,Gagner un total de 500 000 points cosmiques en tant que menuisier.,0,1181,1,0,0,0,0,0,0,0,782,1503,182,24,9,10,10,255,255,0,1,1,1,0
 3705,Forgeron du cosmos I,Gagner un total de 50 000 points cosmiques en tant que forgeron.,0,1182,1,0,0,0,0,0,0,0,0,1553,180,25,0,0,5,255,255,0,1,1,1,0
 3706,Forgeron du cosmos II,Gagner un total de 150 000 points cosmiques en tant que forgeron.,0,1183,1,0,0,0,0,0,0,0,0,1553,181,25,0,0,5,255,255,0,1,1,1,0
-3707,Maître forgeron du cosmos,Gagner un total de 500 000 points cosmiques en tant que forgeron.,0,1184,1,0,0,0,0,0,0,0,783,1553,182,25,10,20,10,255,255,0,1,1,1,0
+3707,Maître forgeron du cosmos,Gagner un total de 500 000 points cosmiques en tant que forgeron.,0,1184,1,0,0,0,0,0,0,0,783,1553,182,25,10,10,10,255,255,0,1,1,1,0
 3708,Armurier du cosmos I,Gagner un total de 50 000 points cosmiques en tant qu'armurier.,0,1185,1,0,0,0,0,0,0,0,0,1603,180,26,0,0,5,255,255,0,1,1,1,0
 3709,Armurier du cosmos II,Gagner un total de 150 000 points cosmiques en tant qu'armurier.,0,1186,1,0,0,0,0,0,0,0,0,1603,181,26,0,0,5,255,255,0,1,1,1,0
-3710,Maître armurier du cosmos,Gagner un total de 500 000 points cosmiques en tant qu'armurier.,0,1187,1,0,0,0,0,0,0,0,784,1603,182,26,11,20,10,255,255,0,1,1,1,0
+3710,Maître armurier du cosmos,Gagner un total de 500 000 points cosmiques en tant qu'armurier.,0,1187,1,0,0,0,0,0,0,0,784,1603,182,26,11,10,10,255,255,0,1,1,1,0
 3711,Orfèvre du cosmos I,Gagner un total de 50 000 points cosmiques en tant qu'orfèvre.,0,1188,1,0,0,0,0,0,0,0,0,1653,180,27,0,0,5,255,255,0,1,1,1,0
 3712,Orfèvre du cosmos II,Gagner un total de 150 000 points cosmiques en tant qu'orfèvre.,0,1189,1,0,0,0,0,0,0,0,0,1653,181,27,0,0,5,255,255,0,1,1,1,0
-3713,Maître orfèvre du cosmos,Gagner un total de 500 000 points cosmiques en tant qu'orfèvre.,0,1190,1,0,0,0,0,0,0,0,785,1653,182,27,12,20,10,255,255,0,1,1,1,0
+3713,Maître orfèvre du cosmos,Gagner un total de 500 000 points cosmiques en tant qu'orfèvre.,0,1190,1,0,0,0,0,0,0,0,785,1653,182,27,12,10,10,255,255,0,1,1,1,0
 3714,Tanneur du cosmos I,Gagner un total de 50 000 points cosmiques en tant que tanneur.,0,1191,1,0,0,0,0,0,0,0,0,1703,180,28,0,0,5,255,255,0,1,1,1,0
 3715,Tanneur du cosmos II,Gagner un total de 150 000 points cosmiques en tant que tanneur.,0,1192,1,0,0,0,0,0,0,0,0,1703,181,28,0,0,5,255,255,0,1,1,1,0
-3716,Maître tanneur du cosmos,Gagner un total de 500 000 points cosmiques en tant que tanneur.,0,1193,1,0,0,0,0,0,0,0,786,1703,182,28,13,20,10,255,255,0,1,1,1,0
+3716,Maître tanneur du cosmos,Gagner un total de 500 000 points cosmiques en tant que tanneur.,0,1193,1,0,0,0,0,0,0,0,786,1703,182,28,13,10,10,255,255,0,1,1,1,0
 3717,Couturier du cosmos I,Gagner un total de 50 000 points cosmiques en tant que couturier.,0,1194,1,0,0,0,0,0,0,0,0,1753,180,29,0,0,5,255,255,0,1,1,1,0
 3718,Couturier du cosmos II,Gagner un total de 150 000 points cosmiques en tant que couturier.,0,1195,1,0,0,0,0,0,0,0,0,1753,181,29,0,0,5,255,255,0,1,1,1,0
-3719,Maître couturier du cosmos,Gagner un total de 500 000 points cosmiques en tant que couturier.,0,1196,1,0,0,0,0,0,0,0,787,1753,182,29,14,20,10,255,255,0,1,1,1,0
+3719,Maître couturier du cosmos,Gagner un total de 500 000 points cosmiques en tant que couturier.,0,1196,1,0,0,0,0,0,0,0,787,1753,182,29,14,10,10,255,255,0,1,1,1,0
 3720,Alchimiste du cosmos I,Gagner un total de 50 000 points cosmiques en tant qu'alchimiste.,0,1197,1,0,0,0,0,0,0,0,0,1803,180,30,0,0,5,255,255,0,1,1,1,0
 3721,Alchimiste du cosmos II,Gagner un total de 150 000 points cosmiques en tant qu'alchimiste.,0,1198,1,0,0,0,0,0,0,0,0,1803,181,30,0,0,5,255,255,0,1,1,1,0
-3722,Maître alchimiste du cosmos,Gagner un total de 500 000 points cosmiques en tant qu'alchimiste.,0,1199,1,0,0,0,0,0,0,0,788,1803,182,30,15,20,10,255,255,0,1,1,1,0
+3722,Maître alchimiste du cosmos,Gagner un total de 500 000 points cosmiques en tant qu'alchimiste.,0,1199,1,0,0,0,0,0,0,0,788,1803,182,30,15,10,10,255,255,0,1,1,1,0
 3723,Cuisinier du cosmos I,Gagner un total de 50 000 points cosmiques en tant que cuisinier.,0,1200,1,0,0,0,0,0,0,0,0,1853,180,31,0,0,5,255,255,0,1,1,1,0
 3724,Cuisinier du cosmos II,Gagner un total de 150 000 points cosmiques en tant que cuisinier.,0,1201,1,0,0,0,0,0,0,0,0,1853,181,31,0,0,5,255,255,0,1,1,1,0
-3725,Maître cuisinier du cosmos,Gagner un total de 500 000 points cosmiques en tant que cuisinier.,0,1202,1,0,0,0,0,0,0,0,789,1853,182,31,16,20,10,255,255,0,1,1,1,0
+3725,Maître cuisinier du cosmos,Gagner un total de 500 000 points cosmiques en tant que cuisinier.,0,1202,1,0,0,0,0,0,0,0,789,1853,182,31,16,10,10,255,255,0,1,1,1,0
 3726,Mineur du cosmos I,Gagner un total de 50 000 points cosmiques en tant que mineur.,0,1203,1,0,0,0,0,0,0,0,0,1021,161,32,0,0,5,255,255,0,1,1,1,0
 3727,Mineur du cosmos II,Gagner un total de 150 000 points cosmiques en tant que mineur.,0,1204,1,0,0,0,0,0,0,0,0,1021,162,32,0,0,5,255,255,0,1,1,1,0
 3728,Maître mineur du cosmos,Gagner un total de 500 000 points cosmiques en tant que mineur.,0,1205,1,0,0,0,0,0,0,0,790,1021,163,32,17,10,10,255,255,0,1,1,1,0
@@ -3759,12 +3759,93 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,
 3732,Pêcheur du cosmos I,Gagner un total de 50 000 points cosmiques en tant que pêcheur.,0,1209,1,0,0,0,0,0,0,0,0,1126,501,34,0,0,5,255,255,0,1,1,1,0
 3733,Pêcheur du cosmos II,Gagner un total de 150 000 points cosmiques en tant que pêcheur.,0,1210,1,0,0,0,0,0,0,0,0,1126,502,34,0,0,5,255,255,0,1,1,1,0
 3734,Maître pêcheur du cosmos,Gagner un total de 500 000 points cosmiques en tant que pêcheur.,0,1211,1,0,0,0,0,0,0,0,792,1126,503,34,19,10,10,255,255,0,1,1,1,0
-3735,Maître artisan du cosmos,Gagner un total de 50 000 points cosmiques en tant qu'artisan.,0,63,1,0,0,0,0,0,0,0,0,1986,2301,69,44,20,5,255,255,0,0,26,1,0
-3736,Maître récolteur du cosmos,Gagner un total de 50 000 points cosmiques en tant que récolteur.,0,64,1,0,0,0,0,0,0,0,0,1019,2321,69,45,10,5,255,255,0,0,26,1,0
-3737,Artisan en chef du cosmos,Gagner un total de 500 000 points cosmiques avec toutes les classes d'artisanat.,0,65,8,0,0,0,0,0,0,0,793,1982,2302,69,44,20,10,255,255,0,0,26,1,0
+3735,Maître artisan du cosmos,Gagner un total de 50 000 points cosmiques en tant qu'artisan.,0,63,1,0,0,0,0,0,0,0,0,1986,2301,69,0,0,5,255,255,0,0,26,1,0
+3736,Maître récolteur du cosmos,Gagner un total de 50 000 points cosmiques en tant que récolteur.,0,64,1,0,0,0,0,0,0,0,0,1019,2321,69,0,0,5,255,255,0,0,26,1,0
+3737,Artisan en chef du cosmos,Gagner un total de 500 000 points cosmiques avec toutes les classes d'artisanat.,0,65,8,0,0,0,0,0,0,0,793,1982,2302,69,44,10,10,255,255,0,0,26,1,0
 3738,Récolteur en chef du cosmos,Gagner un total de 500 000 points cosmiques avec toutes les classes de récolte.,0,66,3,0,0,0,0,0,0,0,794,1029,2322,69,45,10,10,255,255,0,0,26,1,0
-3739,Grand explorateur du cosmos,Gagner un total de 500 000 points cosmiques avec toutes les classes d'artisanat et de récolte.,48232,67,11,0,0,0,0,0,0,0,0,1955,2330,69,46,20,20,255,192,1,0,26,1,0
-3740,Une chance cosmique,Jouer 10 fois à la Roue de la fortune cosmique.,0,1212,10,0,0,0,0,0,0,0,0,1904,2400,69,44,20,5,255,255,0,1,1,1,0
+3739,Grand explorateur du cosmos,Gagner un total de 500 000 points cosmiques avec toutes les classes d'artisanat et de récolte.,48232,67,11,0,0,0,0,0,0,0,0,1955,2330,69,46,10,20,255,192,1,0,26,1,0
+3740,Une chance cosmique,Jouer 10 fois à la Roue de la fortune cosmique.,0,1212,10,0,0,0,0,0,0,0,0,1904,2400,69,0,0,5,255,255,0,1,1,1,0
 3741,Une chance stellaire,Jouer 100 fois à la Roue de la fortune cosmique.,0,1212,100,0,0,0,0,0,0,0,0,1904,2401,69,0,0,5,255,255,0,1,1,1,0
-3742,Une chance galactique,Jouer 1 000 fois à la Roue de la fortune cosmique.,0,1212,1000,0,0,0,0,0,0,0,795,1904,2402,69,44,20,10,255,255,0,1,1,1,0
+3742,Une chance galactique,Jouer 1 000 fois à la Roue de la fortune cosmique.,0,1212,1000,0,0,0,0,0,0,0,795,1904,2402,69,46,10,10,255,255,0,1,1,1,0
 3743,Cartographe du continent : Île de Lunule méridionale,Découvrir toute la carte de l'île de Lunule méridionale.,0,967,0,0,0,0,0,0,0,0,0,1001,2401,49,0,0,10,255,255,0,1,8,1,0
+3744,Roi du conflit : saison 15,Terminer la saison 15 de Crystalline Conflict à la 1re place du classement.,0,1239,1,0,0,0,0,0,0,0,797,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3745,Prince du conflit : saison 15,Terminer la saison 15 de Crystalline Conflict dans les 30 premières places du classement.,0,1240,1,0,0,0,0,0,0,0,798,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3746,As du conflit : saison 15,Terminer la saison 15 de Crystalline Conflict dans les 100 premières places du classement.,0,1241,1,0,0,0,0,0,0,0,799,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3747,Roi du conflit : saison 16,Terminer la saison 16 de Crystalline Conflict à la 1re place du classement.,0,1242,1,0,0,0,0,0,0,0,800,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3748,Prince du conflit : saison 16,Terminer la saison 16 de Crystalline Conflict dans les 30 premières places du classement.,0,1243,1,0,0,0,0,0,0,0,801,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3749,As du conflit : saison 16,Terminer la saison 16 de Crystalline Conflict dans les 100 premières places du classement.,0,1244,1,0,0,0,0,0,0,0,802,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3750,Siège de cristal : Oméga,Terminer une saison de Crystalline Conflict à l'échelon Oméga ou supérieur.,0,1245,1,0,0,0,0,0,0,0,803,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3751,Siège de cristal : Ultima,Terminer une saison de Crystalline Conflict à l'échelon Ultima.,0,1246,1,0,0,0,0,0,0,0,804,821,1000,8,43,30,20,255,255,0,1,1,1,0
+3752,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3753,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3754,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3755,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3756,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3757,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3758,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3759,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3760,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3761,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3762,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3763,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3764,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3765,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3766,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3767,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3768,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3769,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3770,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3771,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3772,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3773,La promesse de demain,Accomplir la quête “La promesse de demain”.,0,70909,0,0,0,0,0,0,0,0,805,26002,95,76,43,100,20,255,255,0,1,6,1,0
+3774,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3775,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3776,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3777,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3778,Creuser son trou XVII,Déchiffrer 20 vieilles cartes en peau de gargantua et ouvrir les coffres auxquels elles conduisent.,0,1268,20,0,0,0,0,0,0,0,0,115,18,6,0,0,20,255,255,0,1,1,1,0
+3779,Rêves de grandeur I,Pénétrer 1 fois dans le coffre d'Oneiron.,0,1269,1,0,0,0,0,0,0,0,807,116,104,6,43,100,5,255,255,0,1,1,1,0
+3780,Rêves de grandeur II,Pénétrer 5 fois dans le coffre d'Oneiron.,0,1269,5,0,0,0,0,0,0,0,0,116,105,6,0,0,10,255,255,0,1,1,1,0
+3781,Rêves de grandeur III,Pénétrer 10 fois dans le coffre d'Oneiron.,0,1269,10,0,0,0,0,0,0,0,0,116,106,6,0,0,10,255,255,0,1,1,1,0
+3782,Rêves de grandeur IV,Pénétrer 20 fois dans le coffre d'Oneiron.,0,1269,20,0,0,0,0,0,0,0,808,116,107,6,43,100,20,255,255,0,1,1,1,0
+3783,Trésor de rêve I,Conquérir 1 fois le coffre d'Oneiron.,0,1270,1,0,0,0,0,0,0,0,0,116,108,6,0,0,5,255,255,0,1,1,1,0
+3784,Trésor de rêve II,Conquérir 5 fois le coffre d'Oneiron.,0,1270,5,0,0,0,0,0,0,0,0,116,109,6,0,0,10,255,255,0,1,1,1,0
+3785,Trésor de rêve III,Conquérir 10 fois le coffre d'Oneiron.,0,1270,10,0,0,0,0,0,0,0,0,116,110,6,0,0,10,255,255,0,1,1,1,0
+3786,Trésor de rêve IV,Conquérir 20 fois le coffre d'Oneiron.,0,1270,20,0,0,0,0,0,0,0,809,116,111,6,43,100,20,255,255,0,1,1,1,0
+3787,愉快なみんなの廃屋敷,クエスト「守護天節とふたつの幻影」をコンプリートする,0,70912,0,0,0,0,0,0,0,0,0,59548,149,38,0,0,10,255,255,0,1,6,1,0
+3788,プンシュで乾杯！,クエスト「星芒祭と心躍る一杯」をコンプリートする,0,70767,0,0,0,0,0,0,0,0,0,26435,151,38,0,0,10,255,255,0,1,6,1,0
+3789,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3790,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3791,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3792,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3793,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3794,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3795,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3796,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3797,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3798,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3799,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3800,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3801,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3802,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3803,Cartographe du continent : mésoterminal,Découvrir toute la carte du mésoterminal.,0,1055,0,0,0,0,0,0,0,0,0,1001,111,49,0,0,10,255,255,0,1,8,1,0
+3804,Cartographe du continent : San d'Oria - La deuxième perambulation,Découvrir toute la carte de San d'Oria - La deuxième perambulation.,0,1033,0,0,0,0,0,0,0,0,0,1001,1511,49,0,0,10,255,255,0,1,8,1,0
+3805,Chasser l'obscurité,Vaincre Darkness dans le défi “La Nécropole intemporelle (extrême)”.,0,20105,0,0,0,0,0,0,0,0,0,317,44,3,0,0,10,255,255,0,1,14,1,3
+3806,Échos des peuples anciens,Finir San d'Oria - La deuxième perambulation.,0,30153,0,0,0,0,0,0,0,0,0,64875,0,4,0,0,5,255,255,0,1,14,1,0
+3807,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3808,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3809,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3810,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3811,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3812,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3813,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3814,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3815,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3816,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3817,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3818,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3819,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3820,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3821,Pêcheur de légendes éternel II,Pêcher 24 prises légendaires différentes dans les zones explorées lors de Dawntrail.,0,1145,24,0,0,0,0,0,0,0,0,1102,111,34,0,0,10,255,255,0,1,1,1,0
+3822,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3823,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3824,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -740,7 +740,7 @@
 683,Desertwalkers,Récompense de quête
 684,Blade's Exaltation,Échange à Tuliyollal
 685,Roads Forsaken,Chasse aux trésors
-686,Pathmaker,Cénote Ja Ja Gural
+686,Pathmaker,Chasse aux trésors
 687,Dawntrail,Récompense de quête
 688,Smile,Récompense de quête
 689,Subterranean Drop,Expéditions en sous-marin
@@ -780,22 +780,22 @@
 721,,
 722,Winter's Warm Boughs,Récompense d'événement saisonnier
 723,Nature's Bounty,Expéditions en sous-marin
-724,Cast Stones in Shadow,Cénote Ja Ja Gural
+724,Cast Stones in Shadow,Chasse aux trésors ou Cénote Ja Ja Gural
 725,Bee My Honey (Darkest Before Dawn),Achat sur la boutique en ligne ou obtention en tant qu'objet bonus
 726,Give It All (Darkest Before Dawn),Achat sur la boutique en ligne ou obtention en tant qu'objet bonus
 727,Mog House,Échange à Vieille Gridania
 728,Home at Heart,Échange à Gok Golma
 729,Roses of May (Dawntrail),"Synthèse (matériau principal obtenu dans un défi extrême de l'épopée de Dawntrail)
 * Meilleures chances d'obtention au niveau d'objet minimum"
-730,Garden Relics,Échange ou obtention dans un coffre sur l'île de Lunule.
-731,Garden Ruins,Échange ou obtention dans un coffre sur l'île de Lunule.
-732,Town Theme (Dawntrail),Échange ou obtention dans un coffre sur l'île de Lunule.
-733,A New World (Dawntrail),Échange ou obtention dans un coffre sur l'île de Lunule.
-734,Exdeath's Castle (Dawntrail),Échange à l'île de Lunule.
-735,FINAL FANTASY V: Battle 1 (Dawntrail),Échange à l'île de Lunule.
+730,Garden Relics,Échange ou obtention dans un coffre sur l'île de Lunule méridionale.
+731,Garden Ruins,Échange ou obtention dans un coffre sur l'île de Lunule méridionale.
+732,Town Theme (Dawntrail),Échange ou obtention dans un coffre sur l'île de Lunule méridionale.
+733,A New World (Dawntrail),Échange ou obtention dans un coffre sur l'île de Lunule méridionale.
+734,Exdeath's Castle (Dawntrail),Échange sur l'île de Lunule méridionale.
+735,FINAL FANTASY V: Battle 1 (Dawntrail),Échange sur l'île de Lunule méridionale.
 736,Stargazers,La Roue de la fortune cosmique à Sinus Ardorum
-737,"Hey, Cid!",Échange à Sinus Ardorum
-738,The Airship,Échange à Sinus Ardorum
+737,"Hey, Cid!",Échange dans les stations de l'exploration cosmique
+738,The Airship,Échange dans les stations de l'exploration cosmique
 739,Find the Princess (Dawntrail),La Gardienne de l'Immémorial
 740,Ride the Rhythm,Poids lourds-légers CCA - match 1
 741,Back to the Drawing Board,Poids lourds-légers CCA - match 2
@@ -808,3 +808,42 @@
 748,Sunset,Échange à Idyllée
 749,In Dawn's Embrace,Expéditions en sous-marin
 750,Fun and Games,Cénote Ja Ja Gural
+751,FINAL FANTASY IX: The Final Battle (Dawntrail),"Défi extrême de l'épopée de Dawntrail
+* Meilleures chances d'obtention au niveau d'objet minimum"
+752,Remembrance,Le Mésoterminal
+753,Ronfaure,Échange au Bas Jeuno
+754,Tough Battle,Échange au Bas Jeuno
+755,Tough Battle #2,Échange au Bas Jeuno
+756,Eald'narche,Échange au Bas Jeuno
+757,Belief,Échange au Bas Jeuno
+758,Despair (Memoro de la S^tono),Échange au Bas Jeuno
+759,Jeweled Boughs,Échange au Bas Jeuno
+760,Hopelessness,Échange au Bas Jeuno
+761,"Sometime, Somewhere",Échange au Bas Jeuno
+762,Voyager,Échange au Bas Jeuno
+763,Vana'diel March #2,Récompense de quête
+764,The Big One,Échange au Bas Jeuno
+765,Gustaberg,Échange au Bas Jeuno
+766,Sarutabaruta,Échange au Bas Jeuno
+767,Coffee Break,Expéditions en sous-marin
+768,Etched in Memory,Coffre d'Oneiron
+769,The Promise of Tomorrow,Récompense de quête
+770,,
+771,,
+772,,
+773,,
+774,,
+775,,
+776,,
+777,,
+778,,
+779,,
+780,,
+781,,
+782,,
+783,Prologue,Achat sur la boutique en ligne ou obtention en tant qu'objet bonus
+784,Memories,Achat sur la boutique en ligne ou obtention en tant qu'objet bonus
+785,Party Composition,Achat sur la boutique en ligne ou obtention en tant qu'objet bonus
+786,Brave Story,Achat sur la boutique en ligne ou obtention en tant qu'objet bonus
+787,Thunder God Cid's Theme,Achat sur la boutique en ligne ou obtention en tant qu'objet bonus
+788,Hidden Truths,Échange au Bas Jeuno

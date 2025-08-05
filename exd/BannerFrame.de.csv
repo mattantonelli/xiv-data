@@ -124,8 +124,8 @@
 122,Blaumagier,191320,82092,522,0,0,0,2171,2
 123,10. Jubiläum,191710,82092,523,0,0,0,3950,7
 124,Unstetes Gewölbe: Der Rokkon,191711,82092,528,0,0,0,2401,4
-125,Fischer auf großer Fahrt,191712,82092,529,0,0,0,2343,8
-126,Kapitalbeschaffung,191713,82092,530,0,0,0,2344,8
+125,Fischer auf großer Fahrt,191712,82092,529,0,0,0,2345,8
+126,Kapitalbeschaffung,191713,82092,530,0,0,0,2346,8
 127,Mahjong-Profi,191714,82092,531,0,0,0,2350,8
 128,Das Ende einer Ära,191715,82092,527,0,0,0,2250,3
 129,Die Palästra,191490,82092,578,0,0,0,3008,10
@@ -146,7 +146,7 @@
 144,Crystalline Conflict: Diamant (9. Saison),191488,82092,593,0,0,0,3276,5
 145,Crystalline Conflict: Platin (9. Saison),191487,82092,594,0,0,0,3277,5
 146,Crystalline Conflict: Gold (9. Saison),191486,82092,595,0,0,0,3278,5
-147,Crystalline Conflict: Silber (9. Saison),191485,82092,596,0,0,0,3289,5
+147,Crystalline Conflict: Silber (9. Saison),191485,82092,596,0,0,0,3279,5
 148,Crystalline Conflict: Bronze (9. Saison),191484,82092,597,0,0,0,3280,5
 149,Kristallkönig (10. Saison),191492,82092,598,0,0,0,3281,5
 150,Kristallfürst (10. Saison),191493,82092,599,0,0,0,3282,5
@@ -231,12 +231,42 @@
 229,Crystalline Conflict: Bronze (14. Saison),191537,82092,871,0,0,0,3325,5
 230,Eine zweite Zukunft,191724,82092,872,0,0,0,2505,4
 231,Kreszentia,191725,82092,879,0,0,0,2403,4
-232,Kosmo-Erkundung,191726,82092,878,0,0,0,2342,8
+232,Kosmo-Erkundung 1,191726,82092,878,0,0,0,2343,8
 233,,0,0,0,0,0,0,0,0
 234,,0,0,0,0,0,0,0,0
-235,,0,0,0,0,0,0,0,0
-236,,0,0,0,0,0,0,0,0
-237,,0,0,0,0,0,0,0,0
-238,,0,0,0,0,0,0,0,0
-239,,0,0,0,0,0,0,0,0
-240,,0,0,0,0,0,0,0,0
+235,Verborgene Schlucht,191543,82092,916,0,0,0,3016,10
+236,Äußere Ruinen (Sicherung),191544,82092,917,0,0,0,3017,10
+237,Kristallkönig (15. Saison),191545,82092,918,0,0,0,3326,5
+238,Kristallfürst (15. Saison),191546,82092,919,0,0,0,3327,5
+239,Kristallkämpfer (15. Saison),191547,82092,920,0,0,0,3328,5
+240,Crystalline Conflict: Kristall (15. Saison),191553,82092,921,0,0,0,3329,5
+241,Crystalline Conflict: Diamant (15. Saison),191552,82092,922,0,0,0,3330,5
+242,Crystalline Conflict: Platin (15. Saison),191551,82092,923,0,0,0,3331,5
+243,Crystalline Conflict: Gold (15. Saison),191550,82092,924,0,0,0,3332,5
+244,Crystalline Conflict: Silber (15. Saison),191549,82092,925,0,0,0,3333,5
+245,Crystalline Conflict: Bronze (15. Saison),191548,82092,926,0,0,0,3334,5
+246,Kristallkönig (16. Saison),191554,82092,927,0,0,0,3335,5
+247,Kristallfürst (16. Saison),191555,82092,928,0,0,0,3336,5
+248,Kristallkämpfer (16. Saison),191556,82092,929,0,0,0,3337,5
+249,Crystalline Conflict: Ultima (16. Saison),191564,82092,930,0,0,0,3338,5
+250,Crystalline Conflict: Omega (16. Saison),191563,82092,931,0,0,0,3339,5
+251,Crystalline Conflict: Kristall (16. Saison),191562,82092,932,0,0,0,3340,5
+252,Crystalline Conflict: Diamant (16. Saison),191561,82092,933,0,0,0,3341,5
+253,Crystalline Conflict: Platin (16. Saison),191560,82092,934,0,0,0,3342,5
+254,Crystalline Conflict: Gold (16. Saison),191559,82092,935,0,0,0,3343,5
+255,Crystalline Conflict: Silber (16. Saison),191558,82092,936,0,0,0,3344,5
+256,Crystalline Conflict: Bronze (16. Saison),191557,82092,937,0,0,0,3345,5
+257,,0,0,0,0,0,0,0,0
+258,Inselparadies 3,191730,82092,939,0,0,0,2342,8
+259,,0,0,0,0,0,0,0,0
+260,,0,0,0,0,0,0,0,0
+261,,0,0,0,0,0,0,0,0
+262,,0,0,0,0,0,0,0,0
+263,,0,0,0,0,0,0,0,0
+264,,0,0,0,0,0,0,0,0
+265,,0,0,0,0,0,0,0,0
+266,,0,0,0,0,0,0,0,0
+267,,0,0,0,0,0,0,0,0
+268,,0,0,0,0,0,0,0,0
+269,,0,0,0,0,0,0,0,0
+270,,0,0,0,0,0,0,0,0

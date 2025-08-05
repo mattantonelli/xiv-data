@@ -1668,8 +1668,8 @@
 1662,For the Hoard II,Discover 100 pieces of the Accursed Hoard.,0,539,100,0,0,0,0,0,0,0,0,60035,36,2,0,0,5,255,255,0,1,1,1,0
 1663,For the Hoard III,"Discover 1,000 pieces of the Accursed Hoard.",0,539,1000,0,0,0,0,0,0,0,322,60035,37,2,43,60,10,255,255,0,1,1,1,0
 1664,For the Hoard IV,"Discover 5,000 pieces of the Accursed Hoard.",0,539,5000,0,0,0,0,0,0,0,0,60035,38,2,0,0,20,255,255,0,1,1,1,0
-1665,The Trouble with Buried I,Discover a piece of the Accursed Hoard without using a pomander or protomander of intuition.,0,540,1,0,0,0,0,0,0,0,0,60035,41,2,0,0,10,255,255,0,1,1,1,0
-1666,The Trouble with Buried II,Discover 100 pieces of the Accursed Hoard without using a pomander or protomander of intuition.,0,540,100,0,0,0,0,0,0,0,323,60035,42,2,43,60,20,255,255,0,1,1,1,0
+1665,The Trouble with Buried I,Discover a piece of the Accursed Hoard without using a pomander or protomander of intuition.,0,540,1,0,0,0,0,0,0,0,0,60035,51,2,0,0,10,255,255,0,1,1,1,0
+1666,The Trouble with Buried II,Discover 100 pieces of the Accursed Hoard without using a pomander or protomander of intuition.,0,540,100,0,0,0,0,0,0,0,323,60035,52,2,43,60,20,255,255,0,1,1,1,0
 1667,It's Smart: The Twin Thegns,Obtain both a sharpened Sword of the Twin Thegns and a sharpened Shield of the Twin Thegns.,0,67915,19,0,0,0,0,0,0,0,0,30545,103,64,0,0,20,255,255,0,1,24,1,0
 1668,It's Smart: The Sultan,Obtain a pair of sharpened Sultan's Fists.,0,67915,20,0,0,0,0,0,0,0,0,31113,203,64,0,0,20,255,255,0,1,24,1,0
 1669,It's Smart: The Blood Emperor,Obtain a sharpened Axe of the Blood Emperor.,0,67915,21,0,0,0,0,0,0,0,0,31517,303,64,0,0,20,255,255,0,1,24,1,0
@@ -3069,15 +3069,15 @@
 3043,Crystal Lining III,Triumph in 100 matches in Crystalline Conflict.,0,988,100,0,0,0,0,0,0,0,0,2555,1303,9,43,30,10,255,255,0,1,1,1,0
 3044,Crystal Lining IV,Triumph in 500 matches in Crystalline Conflict.,0,988,500,0,0,0,0,0,0,0,0,2555,1304,9,43,30,10,255,255,0,1,1,1,0
 3045,Crystal Lining V,"Triumph in 1,000 matches in Crystalline Conflict.",0,988,1000,0,0,0,0,0,0,0,623,2555,1305,9,43,30,20,255,255,0,1,1,1,0
-3046,Solid Bronze,Complete a Crystalline Conflict season in or above the Bronze tier.,0,989,1,0,0,0,0,0,0,0,624,821,0,8,43,30,10,255,255,0,1,1,1,0
-3047,Solid Silver,Complete a Crystalline Conflict season in or above the Silver tier.,0,990,1,0,0,0,0,0,0,0,625,821,0,8,43,30,10,255,255,0,1,1,1,0
-3048,Solid Gold,Complete a Crystalline Conflict season in or above the Gold tier.,0,991,1,0,0,0,0,0,0,0,626,821,0,8,43,30,10,255,255,0,1,1,1,0
-3049,Solid Platinum,Complete a Crystalline Conflict season in or above the Platinum tier.,0,992,1,0,0,0,0,0,0,0,627,821,0,8,43,30,10,255,255,0,1,1,1,0
-3050,Solid Diamond,Complete a Crystalline Conflict season in or above the Diamond tier.,0,993,1,0,0,0,0,0,0,0,628,821,0,8,43,30,10,255,255,0,1,1,1,0
-3051,Solid Crystal,Complete a Crystalline Conflict season in the Crystal tier.,0,994,1,0,0,0,0,0,0,0,629,821,0,8,43,30,20,255,255,0,1,1,1,0
-3052,Top Tier,Complete Crystalline Conflict Season One ranked #1.,0,995,1,0,0,0,0,0,0,0,630,210,0,8,43,30,20,255,255,0,1,1,1,0
-3053,Crystal in the Rough,Complete Crystalline Conflict Season One ranked within the top 30.,0,996,1,0,0,0,0,0,0,0,631,210,0,8,43,30,20,255,255,0,1,1,1,0
-3054,Ranked and Filed,Complete Crystalline Conflict Season One ranked within the top 100.,0,997,1,0,0,0,0,0,0,0,632,210,0,8,43,30,20,255,255,0,1,1,1,0
+3046,Solid Bronze,Complete a Crystalline Conflict season in or above the Bronze tier.,0,989,1,0,0,0,0,0,0,0,624,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3047,Solid Silver,Complete a Crystalline Conflict season in or above the Silver tier.,0,990,1,0,0,0,0,0,0,0,625,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3048,Solid Gold,Complete a Crystalline Conflict season in or above the Gold tier.,0,991,1,0,0,0,0,0,0,0,626,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3049,Solid Platinum,Complete a Crystalline Conflict season in or above the Platinum tier.,0,992,1,0,0,0,0,0,0,0,627,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3050,Solid Diamond,Complete a Crystalline Conflict season in or above the Diamond tier.,0,993,1,0,0,0,0,0,0,0,628,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3051,Solid Crystal,Complete a Crystalline Conflict season in or above the Crystal tier.,0,994,1,0,0,0,0,0,0,0,629,821,1000,8,43,30,20,255,255,0,1,1,1,0
+3052,Top Tier,Complete Crystalline Conflict Season One ranked #1.,0,995,1,0,0,0,0,0,0,0,630,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3053,Crystal in the Rough,Complete Crystalline Conflict Season One ranked within the top 30.,0,996,1,0,0,0,0,0,0,0,631,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3054,Ranked and Filed,Complete Crystalline Conflict Season One ranked within the top 100.,0,997,1,0,0,0,0,0,0,0,632,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3055,Hasty Hasty Hippos I,Attain rank 3 reputation (friendly) with the Hippo Riders.,0,15,3,0,0,0,0,0,0,0,0,62975,0,37,0,0,5,255,255,0,1,15,1,0
 3056,Hasty Hasty Hippos II,Attain rank 4 reputation (trusted) with the Hippo Riders.,0,15,4,0,0,0,0,0,0,0,0,62975,0,37,0,0,5,255,255,0,1,15,1,0
 3057,Hasty Hasty Hippos III,Attain rank 6 reputation (honored) with the Hippo Riders.,0,15,6,0,0,0,0,0,0,0,0,62975,0,37,0,0,10,255,255,0,1,15,1,0
@@ -3137,12 +3137,12 @@
 3111,Savage Gaze of the Abyss I,Complete Pandæmonium: Abyssos (Savage).,0,1018,1,0,0,0,0,0,0,0,0,64848,0,4,0,0,5,255,255,0,1,1,64,0
 3112,Savage Gaze of the Abyss II,Complete Pandæmonium: Abyssos (Savage) 5 times.,0,1018,5,0,0,0,0,0,0,0,0,64848,0,4,0,0,10,255,255,0,1,1,64,0
 3113,Savage Gaze of the Abyss III,Complete Pandæmonium: Abyssos (Savage) 10 times.,0,1018,10,0,0,0,0,0,0,0,0,64848,0,4,0,0,20,255,255,0,1,1,64,0
-3114,Top Tier: Season Two,Complete Crystalline Conflict Season Two ranked #1.,0,1019,1,0,0,0,0,0,0,0,649,210,0,8,43,30,20,255,255,0,1,1,1,0
-3115,Crystal in the Rough: Season Two,Complete Crystalline Conflict Season Two ranked within the top 30.,0,1020,1,0,0,0,0,0,0,0,650,210,0,8,43,30,20,255,255,0,1,1,1,0
-3116,Ranked and Filed: Season Two,Complete Crystalline Conflict Season Two ranked within the top 100.,0,1021,1,0,0,0,0,0,0,0,651,210,0,8,43,30,20,255,255,0,1,1,1,0
-3117,Top Tier: Season Three,Complete Crystalline Conflict Season Three ranked #1.,0,1022,1,0,0,0,0,0,0,0,652,210,0,8,43,30,20,255,255,0,1,1,1,0
-3118,Crystal in the Rough: Season Three,Complete Crystalline Conflict Season Three ranked within the top 30.,0,1023,1,0,0,0,0,0,0,0,653,210,0,8,43,30,20,255,255,0,1,1,1,0
-3119,Ranked and Filed: Season Three,Complete Crystalline Conflict Season Three ranked within the top 100.,0,1024,1,0,0,0,0,0,0,0,654,210,0,8,43,30,20,255,255,0,1,1,1,0
+3114,Top Tier: Season Two,Complete Crystalline Conflict Season Two ranked #1.,0,1019,1,0,0,0,0,0,0,0,649,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3115,Crystal in the Rough: Season Two,Complete Crystalline Conflict Season Two ranked within the top 30.,0,1020,1,0,0,0,0,0,0,0,650,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3116,Ranked and Filed: Season Two,Complete Crystalline Conflict Season Two ranked within the top 100.,0,1021,1,0,0,0,0,0,0,0,651,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3117,Top Tier: Season Three,Complete Crystalline Conflict Season Three ranked #1.,0,1022,1,0,0,0,0,0,0,0,652,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3118,Crystal in the Rough: Season Three,Complete Crystalline Conflict Season Three ranked within the top 30.,0,1023,1,0,0,0,0,0,0,0,653,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3119,Ranked and Filed: Season Three,Complete Crystalline Conflict Season Three ranked within the top 100.,0,1024,1,0,0,0,0,0,0,0,654,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3120,Many Faces,Complete the quest “A Mad Masquerade.”,0,70191,0,0,0,0,0,0,0,0,0,41996,123,38,0,0,10,255,255,0,1,6,1,0
 3121,Make It Reindeer,Complete the quest “The Ghost of Starlight Present.”,0,70195,0,0,0,0,0,0,0,0,0,59240,124,38,0,0,10,255,255,0,1,6,1,0
 3122,To Thine Own Self Be True,Complete the quest “Suited for Affection.”,0,70190,0,0,0,0,0,0,0,0,0,41998,126,38,0,0,10,255,255,0,1,6,1,0
@@ -3241,12 +3241,12 @@
 3215,Let None but Gymnasts Enter Here II,Conquer the final trial in the Shifting Gymnasion Agonon 5 times.,0,1044,5,0,0,0,0,0,0,0,0,116,93,6,0,0,10,255,255,0,1,1,1,0
 3216,Let None but Gymnasts Enter Here III,Conquer the final trial in the Shifting Gymnasion Agonon 10 times.,0,1044,10,0,0,0,0,0,0,0,0,116,94,6,0,0,10,255,255,0,1,1,1,0
 3217,Let None but Gymnasts Enter Here IV,Conquer the final trial in the Shifting Gymnasion Agonon 20 times.,0,1044,20,0,0,0,0,0,0,0,670,116,95,6,43,90,20,255,255,0,1,1,1,0
-3218,Top Tier: Season Four,Complete Crystalline Conflict Season Four ranked #1.,0,1045,1,0,0,0,0,0,0,0,671,210,0,8,43,30,20,255,255,0,1,1,1,0
-3219,Crystal in the Rough: Season Four,Complete Crystalline Conflict Season Four ranked within the top 30.,0,1046,1,0,0,0,0,0,0,0,672,210,0,8,43,30,20,255,255,0,1,1,1,0
-3220,Ranked and Filed: Season Four,Complete Crystalline Conflict Season Four ranked within the top 100.,0,1047,1,0,0,0,0,0,0,0,673,210,0,8,43,30,20,255,255,0,1,1,1,0
-3221,Top Tier: Season Five,Complete Crystalline Conflict Season Five ranked #1.,0,1048,1,0,0,0,0,0,0,0,674,210,0,8,43,30,20,255,255,0,1,1,1,0
-3222,Crystal in the Rough: Season Five,Complete Crystalline Conflict Season Five ranked within the top 30.,0,1049,1,0,0,0,0,0,0,0,675,210,0,8,43,30,20,255,255,0,1,1,1,0
-3223,Ranked and Filed: Season Five,Complete Crystalline Conflict Season Five ranked within the top 100.,0,1050,1,0,0,0,0,0,0,0,676,210,0,8,43,30,20,255,255,0,1,1,1,0
+3218,Top Tier: Season Four,Complete Crystalline Conflict Season Four ranked #1.,0,1045,1,0,0,0,0,0,0,0,671,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3219,Crystal in the Rough: Season Four,Complete Crystalline Conflict Season Four ranked within the top 30.,0,1046,1,0,0,0,0,0,0,0,672,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3220,Ranked and Filed: Season Four,Complete Crystalline Conflict Season Four ranked within the top 100.,0,1047,1,0,0,0,0,0,0,0,673,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3221,Top Tier: Season Five,Complete Crystalline Conflict Season Five ranked #1.,0,1048,1,0,0,0,0,0,0,0,674,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3222,Crystal in the Rough: Season Five,Complete Crystalline Conflict Season Five ranked within the top 30.,0,1049,1,0,0,0,0,0,0,0,675,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3223,Ranked and Filed: Season Five,Complete Crystalline Conflict Season Five ranked within the top 100.,0,1050,1,0,0,0,0,0,0,0,676,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3224,Well-oiled: Amazing Manderville Sword & Shield ,Obtain an amazing Manderville sword and amazing Manderville kite shield.,0,70261,70262,19,0,0,0,0,0,0,0,30660,101,75,0,0,10,255,255,0,1,24,1,3
 3225,Well-oiled: Amazing Manderville Axe ,Obtain an amazing Manderville axe.,0,70261,70262,21,0,0,0,0,0,0,0,31234,301,75,0,0,10,255,255,0,1,24,1,3
 3226,Well-oiled: Amazing Manderville Zweihander,Obtain an amazing Manderville zweihander.,0,70261,70262,32,0,0,0,0,0,0,0,34388,1101,75,0,0,10,255,255,0,1,24,1,3
@@ -3293,12 +3293,12 @@
 3267,What Did Shellfish Do to You?,Earn the “Maximum Mussel” bonus during an ocean fishing voyage on the Ruby route.,0,1058,1,0,0,0,0,0,0,0,680,28090,251,34,19,1,10,255,255,0,1,1,1,0
 3268,What Did Squid Do to You?,Earn the “Squid Squadron” bonus during an ocean fishing voyage on the Ruby route.,0,1059,1,0,0,0,0,0,0,0,681,29932,252,34,19,1,10,255,255,0,1,1,1,0
 3269,What Did Shrimp Do to You?,Earn the “Shrimp Smorgasbord” bonus during an ocean fishing voyage on the Ruby route.,0,1060,1,0,0,0,0,0,0,0,682,29145,253,34,19,1,10,255,255,0,1,1,1,0
-3270,Top Tier: Season Six,Complete Crystalline Conflict Season Six ranked #1.,0,1061,1,0,0,0,0,0,0,0,683,210,0,8,43,30,20,255,255,0,1,1,1,0
-3271,Crystal in the Rough: Season Six,Complete Crystalline Conflict Season Six ranked within the top 30.,0,1062,1,0,0,0,0,0,0,0,684,210,0,8,43,30,20,255,255,0,1,1,1,0
-3272,Ranked and Filed: Season Six,Complete Crystalline Conflict Season Six ranked within the top 100.,0,1063,1,0,0,0,0,0,0,0,685,210,0,8,43,30,20,255,255,0,1,1,1,0
-3273,Top Tier: Season Seven,Complete Crystalline Conflict Season Seven ranked #1.,0,1064,1,0,0,0,0,0,0,0,686,210,0,8,43,30,20,255,255,0,1,1,1,0
-3274,Crystal in the Rough: Season Seven,Complete Crystalline Conflict Season Seven ranked within the top 30.,0,1065,1,0,0,0,0,0,0,0,687,210,0,8,43,30,20,255,255,0,1,1,1,0
-3275,Ranked and Filed: Season Seven,Complete Crystalline Conflict Season Seven ranked within the top 100.,0,1066,1,0,0,0,0,0,0,0,688,210,0,8,43,30,20,255,255,0,1,1,1,0
+3270,Top Tier: Season Six,Complete Crystalline Conflict Season Six ranked #1.,0,1061,1,0,0,0,0,0,0,0,683,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3271,Crystal in the Rough: Season Six,Complete Crystalline Conflict Season Six ranked within the top 30.,0,1062,1,0,0,0,0,0,0,0,684,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3272,Ranked and Filed: Season Six,Complete Crystalline Conflict Season Six ranked within the top 100.,0,1063,1,0,0,0,0,0,0,0,685,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3273,Top Tier: Season Seven,Complete Crystalline Conflict Season Seven ranked #1.,0,1064,1,0,0,0,0,0,0,0,686,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3274,Crystal in the Rough: Season Seven,Complete Crystalline Conflict Season Seven ranked within the top 30.,0,1065,1,0,0,0,0,0,0,0,687,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3275,Ranked and Filed: Season Seven,Complete Crystalline Conflict Season Seven ranked within the top 100.,0,1066,1,0,0,0,0,0,0,0,688,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3276,Rhyme & Region 2023,Emerge victorious in the 2023 Crystalline Conflict Regional Championship (Japan).,0,1067,1,0,0,0,0,0,0,0,689,62968,6,9,0,0,0,255,255,0,0,1,1,1
 3277,Rhyme & Region 2023,Emerge victorious in the 2023 Crystalline Conflict Regional Championship (North America).,0,1068,1,0,0,0,0,0,0,0,689,62968,7,9,0,0,0,255,255,0,0,1,1,1
 3278,Rhyme & Region 2023,Emerge victorious in the 2023 Crystalline Conflict Regional Championship (Europe & Oceania).,0,1069,1,0,0,0,0,0,0,0,689,62968,8,9,0,0,0,255,255,0,0,1,1,1
@@ -3442,15 +3442,15 @@
 3416,A Heartfelt Gesture,Complete the quest “It's All about Heart.”,0,70345,0,0,0,0,0,0,0,0,0,52793,135,38,0,0,10,255,255,0,1,6,1,0
 3417,She's Goobbue and She's Grace,Complete the quest “Peatie in Pink.”,0,70347,0,0,0,0,0,0,0,0,0,4276,136,38,0,0,10,255,255,0,1,6,1,0
 3418,Mission: Imp Possible,Complete the quest “Of Impish Importance.”,0,70350,0,0,0,0,0,0,0,0,0,56635,137,38,0,0,10,255,255,0,1,6,1,0
-3419,Top Tier: Season Eight,Complete Crystalline Conflict Season Eight ranked #1.,0,1111,1,0,0,0,0,0,0,0,714,210,0,8,43,30,20,255,255,0,1,1,1,0
-3420,Crystal in the Rough: Season Eight,Complete Crystalline Conflict Season Eight ranked within the top 30.,0,1112,1,0,0,0,0,0,0,0,715,210,0,8,43,30,20,255,255,0,1,1,1,0
-3421,Ranked and Filed: Season Eight,Complete Crystalline Conflict Season Eight ranked within the top 100.,0,1113,1,0,0,0,0,0,0,0,716,210,0,8,43,30,20,255,255,0,1,1,1,0
-3422,Top Tier: Season Nine,Complete Crystalline Conflict Season Nine ranked #1.,0,1114,1,0,0,0,0,0,0,0,717,210,0,8,43,30,20,255,255,0,1,1,1,0
-3423,Crystal in the Rough: Season Nine,Complete Crystalline Conflict Season Nine ranked within the top 30.,0,1115,1,0,0,0,0,0,0,0,718,210,0,8,43,30,20,255,255,0,1,1,1,0
-3424,Ranked and Filed: Season Nine,Complete Crystalline Conflict Season Nine ranked within the top 100.,0,1116,1,0,0,0,0,0,0,0,719,210,0,8,43,30,20,255,255,0,1,1,1,0
-3425,Top Tier: Season Ten,Complete Crystalline Conflict Season Ten ranked #1.,0,1117,1,0,0,0,0,0,0,0,720,210,0,8,43,30,20,255,255,0,1,1,1,0
-3426,Crystal in the Rough: Season Ten,Complete Crystalline Conflict Season Ten ranked within the top 30.,0,1118,1,0,0,0,0,0,0,0,721,210,0,8,43,30,20,255,255,0,1,1,1,0
-3427,Ranked and Filed: Season Ten,Complete Crystalline Conflict Season Ten ranked within the top 100.,0,1119,1,0,0,0,0,0,0,0,722,210,0,8,43,30,20,255,255,0,1,1,1,0
+3419,Top Tier: Season Eight,Complete Crystalline Conflict Season Eight ranked #1.,0,1111,1,0,0,0,0,0,0,0,714,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3420,Crystal in the Rough: Season Eight,Complete Crystalline Conflict Season Eight ranked within the top 30.,0,1112,1,0,0,0,0,0,0,0,715,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3421,Ranked and Filed: Season Eight,Complete Crystalline Conflict Season Eight ranked within the top 100.,0,1113,1,0,0,0,0,0,0,0,716,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3422,Top Tier: Season Nine,Complete Crystalline Conflict Season Nine ranked #1.,0,1114,1,0,0,0,0,0,0,0,717,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3423,Crystal in the Rough: Season Nine,Complete Crystalline Conflict Season Nine ranked within the top 30.,0,1115,1,0,0,0,0,0,0,0,718,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3424,Ranked and Filed: Season Nine,Complete Crystalline Conflict Season Nine ranked within the top 100.,0,1116,1,0,0,0,0,0,0,0,719,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3425,Top Tier: Season Ten,Complete Crystalline Conflict Season Ten ranked #1.,0,1117,1,0,0,0,0,0,0,0,720,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3426,Crystal in the Rough: Season Ten,Complete Crystalline Conflict Season Ten ranked within the top 30.,0,1118,1,0,0,0,0,0,0,0,721,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3427,Ranked and Filed: Season Ten,Complete Crystalline Conflict Season Ten ranked within the top 100.,0,1119,1,0,0,0,0,0,0,0,722,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3428,Criterion Core,"Obtain the achievements “The Savage Sands Below,” “Moving a Savage Mountain,” and “Charting the Savage Unknown.”",0,3156,3340,3350,0,0,0,0,0,0,723,3054,1219,2,43,90,20,255,255,0,2,2,1,0
 3429,Stick Them with the Pointy End X,Achieve gladiator level 100.,0,1,100,0,0,0,0,0,0,0,0,30408,10,13,0,0,5,255,255,0,1,3,1,0
 3430,The Sweet Science X,Achieve pugilist level 100.,0,2,100,0,0,0,0,0,0,0,0,31004,30,13,0,0,5,255,255,0,1,3,1,0
@@ -3605,20 +3605,20 @@
 3575,Savage Someone Your Own Size I,Complete AAC Light-heavyweight Tier (Savage).,0,1139,1,0,0,0,0,0,0,0,0,2981,0,4,0,0,5,255,255,0,1,1,1,0
 3576,Savage Someone Your Own Size II,Complete AAC Light-heavyweight Tier (Savage) 5 times.,0,1139,5,0,0,0,0,0,0,0,0,2981,0,4,0,0,10,255,255,0,1,1,1,0
 3577,Savage Someone Your Own Size III,Complete AAC Light-heavyweight Tier (Savage) 10 times.,0,1139,10,0,0,0,0,0,0,0,0,2981,0,4,0,0,20,255,255,0,1,1,1,0
-3578,Top Tier: Season Eleven,Complete Crystalline Conflict Season Eleven ranked #1.,0,1140,1,0,0,0,0,0,0,0,753,210,0,8,43,30,20,255,255,0,1,1,1,0
-3579,Crystal in the Rough: Season Eleven,Complete Crystalline Conflict Season Eleven ranked within the top 30.,0,1141,1,0,0,0,0,0,0,0,754,210,0,8,43,30,20,255,255,0,1,1,1,0
-3580,Ranked and Filed: Season Eleven,Complete Crystalline Conflict Season Eleven ranked within the top 100.,0,1142,1,0,0,0,0,0,0,0,755,210,0,8,43,30,20,255,255,0,1,1,1,0
+3578,Top Tier: Season Eleven,Complete Crystalline Conflict Season Eleven ranked #1.,0,1140,1,0,0,0,0,0,0,0,753,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3579,Crystal in the Rough: Season Eleven,Complete Crystalline Conflict Season Eleven ranked within the top 30.,0,1141,1,0,0,0,0,0,0,0,754,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3580,Ranked and Filed: Season Eleven,Complete Crystalline Conflict Season Eleven ranked within the top 100.,0,1142,1,0,0,0,0,0,0,0,755,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3581,The Leader of the Band VII,Add 500 unique music rolls to your orchestrion.,0,464,500,0,0,0,0,0,0,0,0,25945,32,19,47,1,10,255,255,0,1,1,1,0
-3582,Top Tier: Season Twelve,Complete Crystalline Conflict Season Twelve ranked #1.,0,1146,1,0,0,0,0,0,0,0,756,210,0,8,43,30,20,255,255,0,1,1,1,0
-3583,Crystal in the Rough: Season Twelve,Achieve high ranking rewards in Crystalline Conflict Season Twelve.,0,1147,1,0,0,0,0,0,0,0,757,210,0,8,43,30,20,255,255,0,1,1,1,0
-3584,Ranked and Filed: Season Twelve,Achieve ranked rewards in Crystalline Conflict Season Twelve. ,0,1148,1,0,0,0,0,0,0,0,758,210,0,8,43,30,20,255,255,0,1,1,1,0
-3585,Top Tier: Season Thirteen,Complete Crystalline Conflict Season Thirteen ranked #1.,0,1149,1,0,0,0,0,0,0,0,759,210,0,8,43,30,20,255,255,0,1,1,1,0
-3586,Crystal in the Rough: Season Thirteen,Achieve high ranking rewards in Crystalline Conflict Season Thirteen.,0,1150,1,0,0,0,0,0,0,0,760,210,0,8,43,30,20,255,255,0,1,1,1,0
-3587,Ranked and Filed: Season Thirteen,Achieve ranked rewards in Crystalline Conflict Season Thirteen. ,0,1151,1,0,0,0,0,0,0,0,761,210,0,8,43,30,20,255,255,0,1,1,1,0
+3582,Top Tier: Season Twelve,Complete Crystalline Conflict Season Twelve ranked #1.,0,1146,1,0,0,0,0,0,0,0,756,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3583,Crystal in the Rough: Season Twelve,Achieve high ranking rewards in Crystalline Conflict Season Twelve.,0,1147,1,0,0,0,0,0,0,0,757,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3584,Ranked and Filed: Season Twelve,Achieve ranked rewards in Crystalline Conflict Season Twelve. ,0,1148,1,0,0,0,0,0,0,0,758,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3585,Top Tier: Season Thirteen,Complete Crystalline Conflict Season Thirteen ranked #1.,0,1149,1,0,0,0,0,0,0,0,759,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3586,Crystal in the Rough: Season Thirteen,Achieve high ranking rewards in Crystalline Conflict Season Thirteen.,0,1150,1,0,0,0,0,0,0,0,760,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3587,Ranked and Filed: Season Thirteen,Achieve ranked rewards in Crystalline Conflict Season Thirteen. ,0,1151,1,0,0,0,0,0,0,0,761,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3588,Pelu Proponent I,Attain rank 3 reputation (friendly) with the Turali Travel Agency.,0,18,3,0,0,0,0,0,0,0,0,62978,0,37,0,0,5,255,255,0,1,15,1,0
 3589,Pelu Proponent II,Attain rank 4 reputation (trusted) with the Turali Travel Agency.,0,18,4,0,0,0,0,0,0,0,0,62978,0,37,0,0,5,255,255,0,1,15,1,0
 3590,Pelu Proponent III,Attain rank 6 reputation (honored) with the Turali Travel Agency.,0,18,6,0,0,0,0,0,0,0,0,62978,0,37,0,0,10,255,255,0,1,15,1,0
-3591,Extra-special Advisor,Attain rank 7 reputation (sworn) with the Turali Travel Agency.,0,18,7,0,0,0,0,0,0,0,762,62978,0,37,44,90,20,255,255,0,1,15,1,0
+3591,Extra-special Advisor,Attain rank 7 reputation (sworn) with the Turali Travel Agency.,0,18,7,0,0,0,0,0,0,0,762,62978,0,37,43,90,20,255,255,0,1,15,1,0
 3592,Satisfaction Guaranteed: Nitowikwe I,Achieve a satisfaction level of 1 with Nitowikwe.,0,1143,1,0,0,0,0,0,0,0,0,25507,231,12,0,0,5,255,255,0,1,1,1,0
 3593,Satisfaction Guaranteed: Nitowikwe II,Achieve a satisfaction level of 2 with Nitowikwe.,0,1143,2,0,0,0,0,0,0,0,0,25507,232,12,0,0,5,255,255,0,1,1,1,0
 3594,Satisfaction Guaranteed: Nitowikwe III,Achieve a satisfaction level of 3 with Nitowikwe.,0,1143,3,0,0,0,0,0,0,0,0,25507,233,12,0,0,5,255,255,0,1,1,1,0
@@ -3645,9 +3645,9 @@
 3615,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 3616,Cloud Strife,Defeat the Cloud of Darkness in the Cloud of Darkness (Chaotic).,0,20098,0,0,0,0,0,0,0,0,0,64893,0,4,0,0,5,255,255,0,1,14,1,0
 3617,Alternative Destiny,Bear witness to a different future for the Oracles of Light and Darkness.,0,30143,0,0,0,0,0,0,0,0,768,317,0,4,43,100,10,255,255,0,1,14,1,0
-3618,Top Tier: Season Fourteen,Complete Crystalline Conflict Season Fourteen ranked #1.,0,1152,1,0,0,0,0,0,0,0,769,210,0,8,43,30,20,255,255,0,1,1,1,0
-3619,Crystal in the Rough: Season Fourteen,Achieve high ranking rewards in Crystalline Conflict Season Fourteen.,0,1153,1,0,0,0,0,0,0,0,770,210,0,8,43,30,20,255,255,0,1,1,1,0
-3620,Ranked and Filed: Season Fourteen,Achieve ranked rewards in Crystalline Conflict Season Fourteen.,0,1154,1,0,0,0,0,0,0,0,771,210,0,8,43,30,20,255,255,0,1,1,1,0
+3618,Top Tier: Season Fourteen,Complete Crystalline Conflict Season Fourteen ranked #1.,0,1152,1,0,0,0,0,0,0,0,769,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3619,Crystal in the Rough: Season Fourteen,Achieve high ranking rewards in Crystalline Conflict Season Fourteen.,0,1153,1,0,0,0,0,0,0,0,770,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3620,Ranked and Filed: Season Fourteen,Achieve ranked rewards in Crystalline Conflict Season Fourteen.,0,1154,1,0,0,0,0,0,0,0,771,210,1001,8,43,30,20,255,255,0,1,1,1,0
 3621,Eat Your Vegetables I,Attain rank 3 reputation (friendly) with the farmers of Gok Golma.,0,19,3,0,0,0,0,0,0,0,0,62979,0,37,0,0,5,255,255,0,1,15,1,0
 3622,Eat Your Vegetables II,Attain rank 4 reputation (trusted) with the farmers of Gok Golma.,0,19,4,0,0,0,0,0,0,0,0,62979,0,37,0,0,5,255,255,0,1,15,1,0
 3623,Eat Your Vegetables III,Attain rank 6 reputation (honored) with the farmers of Gok Golma.,0,19,6,0,0,0,0,0,0,0,0,62979,0,37,0,0,10,255,255,0,1,15,1,0
@@ -3664,7 +3664,7 @@
 3634,Highly Crescentialed,Complete the quest “Mysteries Abide.”,0,70854,0,0,0,0,0,0,0,0,0,26002,710,35,0,0,10,255,255,0,1,6,1,0
 3635,Royal Rumor Repudiated,Complete the quest “Royal Rumblings.”,0,70858,0,0,0,0,0,0,0,0,0,64462,146,38,0,0,10,255,255,0,1,6,1,0
 3636,Uniformly Guarded,Complete the quest “Dressed to Protect.”,0,70857,0,0,0,0,0,0,0,0,0,57245,147,38,0,0,10,255,255,0,1,6,1,0
-3637,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3637,Delightful Dozen,Complete the quest “A Light That Ever Burns.”,0,70834,0,0,0,0,0,0,0,0,0,26107,148,38,0,0,10,255,255,0,1,6,1,0
 3638,The Might Phantastick: Sword & Kite Shield Penumbrae,Obtain a phantom sword penumbrae and phantom kite shield penumbrae.,0,70856,19,0,0,0,0,0,0,0,0,30694,100,81,0,0,10,255,255,0,1,24,1,3
 3639,The Might Phantastick: Bardiche Penumbrae,Obtain a phantom bardiche penumbrae.,0,70856,21,0,0,0,0,0,0,0,0,31268,300,81,0,0,10,255,255,0,1,24,1,3
 3640,The Might Phantastick: Guillotine Penumbrae,Obtain a phantom guillotine penumbrae.,0,70856,32,0,0,0,0,0,0,0,0,34023,1100,81,0,0,10,255,255,0,1,24,1,3
@@ -3702,7 +3702,7 @@
 3672,Magic Is the Best Medicine I,Resurrect another player on the Occult Crescent 10 times.,0,1160,10,0,0,0,0,0,0,0,0,64556,1651,71,0,0,5,255,255,0,1,1,1,0
 3673,Magic Is the Best Medicine II,Resurrect another player on the Occult Crescent 100 times.,0,1160,100,0,0,0,0,0,0,0,0,64556,1652,71,0,0,5,255,255,0,1,1,1,0
 3674,Magic Is the Best Medicine III,Resurrect another player on the Occult Crescent 500 times.,0,1160,500,0,0,0,0,0,0,0,777,64556,1653,71,43,100,10,255,255,0,1,1,1,0
-3675,Phantomastery I,Master 1 phantom job.,0,1161,1,0,0,0,0,0,0,0,0,64571,1641,71,0,0,5,255,255,0,1,1,1,0
+3675,Phantomastery I,Master a phantom job.,0,1161,1,0,0,0,0,0,0,0,0,64571,1641,71,0,0,5,255,255,0,1,1,1,0
 3676,Phantomastery II,Master 5 phantom jobs.,0,1162,1,0,0,0,0,0,0,0,0,64571,1642,71,0,0,5,255,255,0,1,1,1,0
 3677,Phantomastery III,Master 10 phantom jobs.,0,1163,1,0,0,0,0,0,0,0,796,64571,1643,71,43,100,5,255,255,0,1,1,1,0
 3678,Horns of Plenty I,Open 10 treasure coffers found during your excursions on the Occult Crescent.,0,1164,10,0,0,0,0,0,0,0,0,115,1661,71,0,0,5,255,255,0,1,1,1,0
@@ -3717,7 +3717,7 @@
 3687,Where Rabbits Roam II,Open 50 treasure coffers revealed to you by happy bunnies on the Occult Crescent.,0,1166,50,0,0,0,0,0,0,0,0,115,1682,71,0,0,5,255,255,0,1,1,1,0
 3688,Where Rabbits Roam III,Open 200 treasure coffers revealed to you by happy bunnies on the Occult Crescent.,0,1166,200,0,0,0,0,0,0,0,0,115,1683,71,0,0,5,255,255,0,1,1,1,0
 3689,Where Rabbits Roam IV,"Open 1,000 treasure coffers revealed to you by happy bunnies on the Occult Crescent.",0,1166,1000,0,0,0,0,0,0,0,780,115,1684,71,43,100,5,255,255,0,1,1,1,0
-3690,One Giant Hop,Successfully complete all stellar missions in Sinus Ardorum with the highest rating possible.,0,1167,1,0,0,0,0,0,0,0,781,64875,2500,69,0,0,20,255,255,0,1,1,1,0
+3690,One Giant Hop,Successfully complete all stellar missions in Sinus Ardorum with the highest rating possible.,0,1167,1,0,0,0,0,0,0,0,781,64875,2500,69,46,100,20,255,255,0,1,1,1,0
 3691,R&D: Cosmic Saw,Obtain a cosmic saw.,0,1168,1,0,0,0,0,0,0,0,0,39013,100,82,0,0,10,255,255,0,1,1,1,0
 3692,R&D: Cosmic Cross-pein Hammer,Obtain a cosmic cross-pein hammer.,0,1169,1,0,0,0,0,0,0,0,0,39112,200,82,0,0,10,255,255,0,1,1,1,0
 3693,R&D: Cosmic Raising Hammer,Obtain a cosmic raising hammer.,0,1170,1,0,0,0,0,0,0,0,0,39212,300,82,0,0,10,255,255,0,1,1,1,0
@@ -3731,28 +3731,28 @@
 3701,R&D: Cosmic Fishing Rod,Obtain a cosmic fishing rod.,0,1178,1,0,0,0,0,0,0,0,0,38515,1100,82,0,0,10,255,255,0,1,1,1,0
 3702,Rocket Carpentry I,"Earn a cosmic class score of 50,000 points as a carpenter.",0,1179,1,0,0,0,0,0,0,0,0,1503,180,24,0,0,5,255,255,0,1,1,1,0
 3703,Rocket Carpentry II,"Earn a cosmic class score of 150,000 points as a carpenter.",0,1180,1,0,0,0,0,0,0,0,0,1503,181,24,0,0,5,255,255,0,1,1,1,0
-3704,Hammering with the Stars,"Earn a cosmic class score of 500,000 points as a carpenter.",0,1181,1,0,0,0,0,0,0,0,782,1503,182,24,9,20,10,255,255,0,1,1,1,0
+3704,Hammering with the Stars,"Earn a cosmic class score of 500,000 points as a carpenter.",0,1181,1,0,0,0,0,0,0,0,782,1503,182,24,9,10,10,255,255,0,1,1,1,0
 3705,Rocket Smithing I,"Earn a cosmic class score of 50,000 points as a blacksmith.",0,1182,1,0,0,0,0,0,0,0,0,1553,180,25,0,0,5,255,255,0,1,1,1,0
 3706,Rocket Smithing II,"Earn a cosmic class score of 150,000 points as a blacksmith.",0,1183,1,0,0,0,0,0,0,0,0,1553,181,25,0,0,5,255,255,0,1,1,1,0
-3707,Smithing with the Stars,"Earn a cosmic class score of 500,000 points as a blacksmith.",0,1184,1,0,0,0,0,0,0,0,783,1553,182,25,10,20,10,255,255,0,1,1,1,0
+3707,Smithing with the Stars,"Earn a cosmic class score of 500,000 points as a blacksmith.",0,1184,1,0,0,0,0,0,0,0,783,1553,182,25,10,10,10,255,255,0,1,1,1,0
 3708,Rocket Forgery I,"Earn a cosmic class score of 50,000 points as an armorer.",0,1185,1,0,0,0,0,0,0,0,0,1603,180,26,0,0,5,255,255,0,1,1,1,0
 3709,Rocket Forgery II,"Earn a cosmic class score of 150,000 points as an armorer.",0,1186,1,0,0,0,0,0,0,0,0,1603,181,26,0,0,5,255,255,0,1,1,1,0
-3710,Forging with the Stars,"Earn a cosmic class score of 500,000 points as an armorer.",0,1187,1,0,0,0,0,0,0,0,784,1603,182,26,11,20,10,255,255,0,1,1,1,0
+3710,Forging with the Stars,"Earn a cosmic class score of 500,000 points as an armorer.",0,1187,1,0,0,0,0,0,0,0,784,1603,182,26,11,10,10,255,255,0,1,1,1,0
 3711,Rocket Metallurgy I,"Earn a cosmic class score of 50,000 points as a goldsmith.",0,1188,1,0,0,0,0,0,0,0,0,1653,180,27,0,0,5,255,255,0,1,1,1,0
 3712,Rocket Metallurgy II,"Earn a cosmic class score of 150,000 points as a goldsmith.",0,1189,1,0,0,0,0,0,0,0,0,1653,181,27,0,0,5,255,255,0,1,1,1,0
-3713,Goldsmithing with the Stars,"Earn a cosmic class score of 500,000 points as a goldsmith.",0,1190,1,0,0,0,0,0,0,0,785,1653,182,27,12,20,10,255,255,0,1,1,1,0
+3713,Goldsmithing with the Stars,"Earn a cosmic class score of 500,000 points as a goldsmith.",0,1190,1,0,0,0,0,0,0,0,785,1653,182,27,12,10,10,255,255,0,1,1,1,0
 3714,Rocket Tanning I ,"Earn a cosmic class score of 50,000 points as a leatherworker.",0,1191,1,0,0,0,0,0,0,0,0,1703,180,28,0,0,5,255,255,0,1,1,1,0
 3715,Rocket Tanning II,"Earn a cosmic class score of 150,000 points as a leatherworker.",0,1192,1,0,0,0,0,0,0,0,0,1703,181,28,0,0,5,255,255,0,1,1,1,0
-3716,Tanning with the Stars,"Earn a cosmic class score of 500,000 points as a leatherworker.",0,1193,1,0,0,0,0,0,0,0,786,1703,182,28,13,20,10,255,255,0,1,1,1,0
+3716,Tanning with the Stars,"Earn a cosmic class score of 500,000 points as a leatherworker.",0,1193,1,0,0,0,0,0,0,0,786,1703,182,28,13,10,10,255,255,0,1,1,1,0
 3717,Rocket Stitchery I,"Earn a cosmic class score of 50,000 points as a weaver.",0,1194,1,0,0,0,0,0,0,0,0,1753,180,29,0,0,5,255,255,0,1,1,1,0
 3718,Rocket Stitchery II,"Earn a cosmic class score of 150,000 points as a weaver.",0,1195,1,0,0,0,0,0,0,0,0,1753,181,29,0,0,5,255,255,0,1,1,1,0
-3719,Stitching with the Stars,"Earn a cosmic class score of 500,000 points as a weaver.",0,1196,1,0,0,0,0,0,0,0,787,1753,182,29,14,20,10,255,255,0,1,1,1,0
+3719,Stitching with the Stars,"Earn a cosmic class score of 500,000 points as a weaver.",0,1196,1,0,0,0,0,0,0,0,787,1753,182,29,14,10,10,255,255,0,1,1,1,0
 3720,Rocket Science I,"Earn a cosmic class score of 50,000 points as an alchemist.",0,1197,1,0,0,0,0,0,0,0,0,1803,180,30,0,0,5,255,255,0,1,1,1,0
 3721,Rocket Science II,"Earn a cosmic class score of 150,000 points as an alchemist.",0,1198,1,0,0,0,0,0,0,0,0,1803,181,30,0,0,5,255,255,0,1,1,1,0
-3722,Distilling with the Stars,"Earn a cosmic class score of 500,000 points as an alchemist.",0,1199,1,0,0,0,0,0,0,0,788,1803,182,30,15,20,10,255,255,0,1,1,1,0
+3722,Distilling with the Stars,"Earn a cosmic class score of 500,000 points as an alchemist.",0,1199,1,0,0,0,0,0,0,0,788,1803,182,30,15,10,10,255,255,0,1,1,1,0
 3723,Rocket Seasoning I,"Earn a cosmic class score of 50,000 points as a culinarian.",0,1200,1,0,0,0,0,0,0,0,0,1853,180,31,0,0,5,255,255,0,1,1,1,0
 3724,Rocket Seasoning II,"Earn a cosmic class score of 150,000 points as a culinarian.",0,1201,1,0,0,0,0,0,0,0,0,1853,181,31,0,0,5,255,255,0,1,1,1,0
-3725,Cooking with the Stars,"Earn a cosmic class score of 500,000 points as a culinarian.",0,1202,1,0,0,0,0,0,0,0,789,1853,182,31,16,20,10,255,255,0,1,1,1,0
+3725,Cooking with the Stars,"Earn a cosmic class score of 500,000 points as a culinarian.",0,1202,1,0,0,0,0,0,0,0,789,1853,182,31,16,10,10,255,255,0,1,1,1,0
 3726,Rocket Geology I,"Earn a cosmic class score of 50,000 points as a miner.",0,1203,1,0,0,0,0,0,0,0,0,1021,161,32,0,0,5,255,255,0,1,1,1,0
 3727,Rocket Geology II,"Earn a cosmic class score of 150,000 points as a miner.",0,1204,1,0,0,0,0,0,0,0,0,1021,162,32,0,0,5,255,255,0,1,1,1,0
 3728,Mining with the Stars,"Earn a cosmic class score of 500,000 points as a miner.",0,1205,1,0,0,0,0,0,0,0,790,1021,163,32,17,10,10,255,255,0,1,1,1,0
@@ -3762,12 +3762,93 @@
 3732,Rocket Ichthyology I,"Earn a cosmic class score of 50,000 points as a fisher.",0,1209,1,0,0,0,0,0,0,0,0,1126,501,34,0,0,5,255,255,0,1,1,1,0
 3733,Rocket Ichthyology II,"Earn a cosmic class score of 150,000 points as a fisher.",0,1210,1,0,0,0,0,0,0,0,0,1126,502,34,0,0,5,255,255,0,1,1,1,0
 3734,Fishing with the Stars,"Earn a cosmic class score of 500,000 points as a fisher.",0,1211,1,0,0,0,0,0,0,0,792,1126,503,34,19,10,10,255,255,0,1,1,1,0
-3735,Crafting in Spaaace,"Earn a cosmic class score of 50,000 points with any Disciple of the Hand.",0,63,1,0,0,0,0,0,0,0,0,1986,2301,69,44,20,5,255,255,0,0,26,1,0
-3736,Gathering in Spaaace,"Earn a cosmic class score of 50,000 points with any Disciple of the Land.",0,64,1,0,0,0,0,0,0,0,0,1019,2321,69,45,10,5,255,255,0,0,26,1,0
-3737,Star Crafter,"Earn a cosmic class score of 500,000 points as every Disciple of the Hand.",0,65,8,0,0,0,0,0,0,0,793,1982,2302,69,44,20,10,255,255,0,0,26,1,0
+3735,Crafting in Spaaace,"Earn a cosmic class score of 50,000 points with any Disciple of the Hand.",0,63,1,0,0,0,0,0,0,0,0,1986,2301,69,0,0,5,255,255,0,0,26,1,0
+3736,Gathering in Spaaace,"Earn a cosmic class score of 50,000 points with any Disciple of the Land.",0,64,1,0,0,0,0,0,0,0,0,1019,2321,69,0,0,5,255,255,0,0,26,1,0
+3737,Star Crafter,"Earn a cosmic class score of 500,000 points as every Disciple of the Hand.",0,65,8,0,0,0,0,0,0,0,793,1982,2302,69,44,10,10,255,255,0,0,26,1,0
 3738,Star Gatherer,"Earn a cosmic class score of 500,000 points as every Disciple of the Land.",0,66,3,0,0,0,0,0,0,0,794,1029,2322,69,45,10,10,255,255,0,0,26,1,0
-3739,Out of This World,"Earn a cosmic class score of 500,000 points as every Disciple of the Hand and Land.",48232,67,11,0,0,0,0,0,0,0,0,1955,2330,69,46,20,20,255,192,1,0,26,1,0
-3740,Just One More Spin I,Draw 10 cosmic fortunes.,0,1212,10,0,0,0,0,0,0,0,0,1904,2400,69,44,20,5,255,255,0,1,1,1,0
+3739,Out of This World,"Earn a cosmic class score of 500,000 points as every Disciple of the Hand and Land.",48232,67,11,0,0,0,0,0,0,0,0,1955,2330,69,46,10,20,255,192,1,0,26,1,0
+3740,Just One More Spin I,Draw 10 cosmic fortunes.,0,1212,10,0,0,0,0,0,0,0,0,1904,2400,69,0,0,5,255,255,0,1,1,1,0
 3741,Just One More Spin II,Draw 100 cosmic fortunes.,0,1212,100,0,0,0,0,0,0,0,0,1904,2401,69,0,0,5,255,255,0,1,1,1,0
-3742,Just One More Spin III,"Draw 1,000 cosmic fortunes.",0,1212,1000,0,0,0,0,0,0,0,795,1904,2402,69,44,20,10,255,255,0,1,1,1,0
+3742,Just One More Spin III,"Draw 1,000 cosmic fortunes.",0,1212,1000,0,0,0,0,0,0,0,795,1904,2402,69,46,10,10,255,255,0,1,1,1,0
 3743,Mapping the Realm: The Occult Crescent: South Horn,Discover every location on the Occult Crescent: South Horn.,0,967,0,0,0,0,0,0,0,0,0,1001,2401,49,0,0,10,255,255,0,1,8,1,0
+3744,Top Tier: Season Fifteen,Complete Crystalline Conflict Season Fifteen ranked #1.,0,1239,1,0,0,0,0,0,0,0,797,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3745,Crystal in the Rough: Season Fifteen,Achieve high ranking rewards in Crystalline Conflict Season Fifteen.,0,1240,1,0,0,0,0,0,0,0,798,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3746,Ranked and Filed: Season Fifteen,Achieve ranked rewards in Crystalline Conflict Season Fifteen.,0,1241,1,0,0,0,0,0,0,0,799,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3747,Top Tier: Season Sixteen,Complete Crystalline Conflict Season Sixteen ranked #1.,0,1242,1,0,0,0,0,0,0,0,800,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3748,Crystal in the Rough: Season Sixteen,Achieve high ranking rewards in Crystalline Conflict Season Sixteen.,0,1243,1,0,0,0,0,0,0,0,801,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3749,Ranked and Filed: Season Sixteen,Achieve ranked rewards in Crystalline Conflict Season Sixteen.,0,1244,1,0,0,0,0,0,0,0,802,210,1001,8,43,30,20,255,255,0,1,1,1,0
+3750,Omega Material,Complete a Crystalline Conflict season in or above the Omega tier.,0,1245,1,0,0,0,0,0,0,0,803,821,1000,8,43,30,10,255,255,0,1,1,1,0
+3751,Ultima Material,Complete a Crystalline Conflict season in the Ultima tier.,0,1246,1,0,0,0,0,0,0,0,804,821,1000,8,43,30,20,255,255,0,1,1,1,0
+3752,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3753,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3754,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3755,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3756,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3757,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3758,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3759,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3760,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3761,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3762,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3763,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3764,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3765,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3766,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3767,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3768,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3769,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3770,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3771,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3772,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3773,In Memoriam,Complete the main scenario quest “The Promise of Tomorrow.”,0,70909,0,0,0,0,0,0,0,0,805,26002,95,76,43,100,20,255,255,0,1,6,1,0
+3774,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3775,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3776,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3777,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3778,I Can Dig It XVII,Decipher 20 timeworn gargantuaskin maps and open the treasure coffers to which they lead.,0,1268,20,0,0,0,0,0,0,0,0,115,18,6,0,0,20,255,255,0,1,1,1,0
+3779,Dreaming in Neon I,Raid Vault Oneiron.,0,1269,1,0,0,0,0,0,0,0,807,116,104,6,43,100,5,255,255,0,1,1,1,0
+3780,Dreaming in Neon II,Raid Vault Oneiron 5 times.,0,1269,5,0,0,0,0,0,0,0,0,116,105,6,0,0,10,255,255,0,1,1,1,0
+3781,Dreaming in Neon III,Raid Vault Oneiron 10 times.,0,1269,10,0,0,0,0,0,0,0,0,116,106,6,0,0,10,255,255,0,1,1,1,0
+3782,Dreaming in Neon IV,Raid Vault Oneiron 20 times.,0,1269,20,0,0,0,0,0,0,0,808,116,107,6,43,100,20,255,255,0,1,1,1,0
+3783,Viva Vault Oneiron I,Clear the final play in Vault Oneiron.,0,1270,1,0,0,0,0,0,0,0,0,116,108,6,0,0,5,255,255,0,1,1,1,0
+3784,Viva Vault Oneiron II,Clear the final play in Vault Oneiron 5 times.,0,1270,5,0,0,0,0,0,0,0,0,116,109,6,0,0,10,255,255,0,1,1,1,0
+3785,Viva Vault Oneiron III,Clear the final play in Vault Oneiron 10 times.,0,1270,10,0,0,0,0,0,0,0,0,116,110,6,0,0,10,255,255,0,1,1,1,0
+3786,Viva Vault Oneiron IV,Clear the final play in Vault Oneiron 20 times.,0,1270,20,0,0,0,0,0,0,0,809,116,111,6,43,100,20,255,255,0,1,1,1,0
+3787,The Void Is Back in Town,Complete the quest “Dressed to Impresario.”,0,70912,0,0,0,0,0,0,0,0,0,59548,149,38,0,0,10,255,255,0,1,6,1,0
+3788,プンシュで乾杯！,クエスト「星芒祭と心躍る一杯」をコンプリートする,0,70767,0,0,0,0,0,0,0,0,0,26435,151,38,0,0,10,255,255,0,1,6,1,0
+3789,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3790,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3791,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3792,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3793,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3794,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3795,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3796,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3797,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3798,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3799,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3800,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3801,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3802,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3803,Mapping the Realm: The Meso Terminal,Discover every location within the Meso Terminal.,0,1055,0,0,0,0,0,0,0,0,0,1001,111,49,0,0,10,255,255,0,1,8,1,0
+3804,Mapping the Realm: San d'Oria: The Second Walk,Discover every location within San d'Oria: The Second Walk.,0,1033,0,0,0,0,0,0,0,0,0,1001,1511,49,0,0,10,255,255,0,1,8,1,0
+3805,"Not Today, Necron",Defeat Necron in the Minstrel's Ballad: Necron's Embrace.,0,20105,0,0,0,0,0,0,0,0,0,317,44,3,0,0,10,255,255,0,1,14,1,3
+3806,"O Brother, Where Zilart Thou",Complete San d'Oria: The Second Walk.,0,30153,0,0,0,0,0,0,0,0,0,64875,0,4,0,0,5,255,255,0,1,14,1,0
+3807,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3808,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3809,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3810,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3811,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3812,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3813,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3814,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3815,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3816,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3817,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3818,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3819,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3820,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3821,Go Big on the Trail II,Catch 24 different varieties of big fish in areas explored during Dawntrail.,0,1145,24,0,0,0,0,0,0,0,0,1102,111,34,0,0,10,255,255,0,1,1,1,0
+3822,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3823,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3824,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

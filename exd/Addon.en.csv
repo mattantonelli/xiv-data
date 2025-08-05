@@ -1285,6 +1285,9 @@ A notification will be given UNKNOWN minute prior."
 1261,Type 20
 1262,Name Display Settings
 1263,Name Display Settings
+1264,Chat Prompt Transparency
+1265,Chat Bubble Settings
+1266,Chat Bubble Settings
 1270,Select a set of default settings.
 1271,Your changes have not been saved. Proceed?
 1272,Delete log filter settings?
@@ -2308,6 +2311,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 2306,Gathering Forays
 2307,Field Operations
 2308,GATEs
+2309,
 2310,UNKNOWN. (Contract suspended)
 2311,UNKNOWN - UNKNOWN
 2312,Select a level range.
@@ -2451,6 +2455,8 @@ Proceed with the transaction?"
 2438,Proceed
 2439,Try on Retainer
 2440,Return
+2441,TRANSFIGURATION
+2442,変身キャラクター選択
 2445,Aether Currents
 2446,
 2447,There is no information to display.
@@ -3093,6 +3099,8 @@ Send **UNKNOWN** an invitation e-mail?"
 3165,Guildhests
 3166,
 3167,Guildhests
+3176,Close
+3177,Display guide.
 3180,Character (PvP)
 3181,
 3185,Glamour Plate
@@ -3269,7 +3277,7 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 3390,Active Help
 3391,
 3392,Mouse/Keyboard
-3393,Controller
+3393, Mode
 3394,There are no entries.
 3395,※Tutorials are tailored to players using controllers.
 3396,UNKNOWN-UNKNOWN
@@ -3285,6 +3293,7 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 3412,Cancel
 3415,Show only recently added items.
 3416,There are no items to display.
+3417,Show items for current job/class.
 3420,Your company rank is not high enough.
 3421,Your company lacks sufficient credits.
 3422,Purchase the action “” for 0 credits?
@@ -3880,7 +3889,7 @@ Currently unavailable for the Mac version of FINAL FANTASY XIV."
 4171,Sound Settings
 4172,Graphics Settings
 4173,Mouse Settings
-4174,Gamepad Settings
+4174, Settings
 4175,Language Settings
 4176,Wireless Controller Settings
 4177,Other Settings
@@ -5253,7 +5262,9 @@ UNKNOWN
 5605,One or more lines of seals have been completed. Deliver the journal to Khloe Aliapoh to receive your reward or continue adventuring to add more seals.
 5606,Second Chance points can be used to increase your chances of completing lines.
 5607,Select a completed duty to receive a seal.
-5608,Complete a task to receive a seal.
+5608,"Complete a task to receive a seal.
+
+※Applicable duties may be confirmed via the subcommand."
 5609,Reward List
 5610,9 Seals
 5611,1 Line
@@ -5492,6 +5503,10 @@ Do you still wish to proceed?"
 Do you still wish to proceed?"
 5843,"You have yet to mark off nine squares. Should you turn it in now, you will not receive the rewards for filling up your journal, including associated experience points. Proceed anyway?"
 5844,I wish to continue and forfeit these rewards.
+5845,Wondrous Tails
+5846,
+5847,Open Duty or Category
+5848,Applicable Duties
 5860,Quantity
 5861,Quantity: UNKNOWN
 5862,Retry
@@ -5584,8 +5599,8 @@ Controller:  Stick"
 5932,R
 5933,G
 5934,B
-5935,Angle of View Settings
-5936,Roll Angle Settings
+5935,"Camera distance acts similarly to the zoom function. A shorter distance can help emphasize a subject, while increasing the distance can give compositions a greater sense of perspective."
+5936,Adjusting the roll angle rotates the camera horizontally. Using this feature to tilt the image can help create dynamic compositions.
 5937,R
 5938,G
 5939,B
@@ -5641,8 +5656,8 @@ Controller:  Button"
 5981,Select NPC Currently Facing
 5982,"※Exit group pose to apply changes.
 ※Changes inapplicable on select NPCs."
-5983,General Settings
-5984,Effect/Frame Settings
+5983,Camera Settings
+5984,Screen Settings
 5985,Lighting Settings
 5986,Select Action
 5987,※Exit group pose to apply battle action changes.
@@ -6914,7 +6929,7 @@ Waymarks can only be saved and loaded during certain duties."
 7513,Hotbar Settings
 7514,Log Window Settings
 7515,Mouse Mode
-7516,Controller Mode
+7516, Mode
 7517,Item Settings
 7518,Auto-target Settings
 7519,When executing a target-based attack with no target specified:
@@ -7369,10 +7384,12 @@ Waymarks can only be saved and loaded during certain duties."
 7980,Next to Cursor
 7981,Fixed (Reversed)
 7982,Fixed
-7984,Close immediately
-7985,Close when active
-7987,Normal
-7988,Justified Left (Priority)
+7983,Close immediately
+7984,Close when active
+7985,Normal
+7986,Justified Left (Priority)
+7987,Enemy Settings
+7988,Display progress bar (only applicable to bosses and powerful foes).
 7990,Type 0
 7991,Type 1
 7992,Type 2
@@ -7571,6 +7588,9 @@ Inform your comrades that you are ready?
 8184,90%
 8185,80%
 8186,60%
+8187,Maximum
+8188,Extended
+8189,Normal
 8190,HUD Copy
 8191,Source
 8192,Copy HUD settings of selected display.
@@ -7582,6 +7602,7 @@ Current settings will be overwritten. Proceed?"
 8196,No.
 8197,Normal Display (PS3)
 8198,Remote Play Display
+8199,Character Display Range
 8200,Enable wet surface effects.
 8201,Gamepad Speaker Settings
 8202,Speaker Volume
@@ -7605,6 +7626,7 @@ Current settings will be overwritten. Proceed?"
 8220,All System Sounds
 8221,Notices Only
 8222,None
+8224,Automatic
 8225,Maximum
 8226,High
 8227,Normal
@@ -8208,7 +8230,7 @@ Adjusting Listening Position may further enhance audio quality."
 8831,Currently not accepting donations.
 8832,The Masked Carnivale
 8833,Confirm weekly target progression.
-8834, UNKNOWN:00 Remaining (8/27 8:00) All Complete
+8834, UNKNOWN:00 Remaining (27/8 8:00) All Complete
 8835,Weekly Target Conditions
 8836,C
 8837,B
@@ -9227,8 +9249,8 @@ Now tallying results. "
 9863,Round UNKNOWN
 9864,Points +UNKNOWN　Captures +UNKNOWN
 9865,OK
-9866,Mahjong Character Voices
-9867,
+9866,Settings
+9867,Sound
 9868,Enable character voices during matches.
 9869,Current Voice
 9870,
@@ -9257,6 +9279,8 @@ Now tallying results. "
 9893,Obtained from a seasonal event.
 9894,"
 "
+9895,Display
+9896,–/–/––
 9979,Prize
 9980,Mini Cactpot
 9981,Jumbo Cactpot
@@ -9533,7 +9557,7 @@ shared between all matched content."
 10161,Close
 10162,Enlistment in a Grand Company
 10163,"Set whether or not you wish to join a party in progress looking for members. This feature allows for party matching without using the Duty Finder.
-**※Setting active only when playing solo.**"
+**※Setting active only when playing solo and when all duties registered have been previously completed.**"
 10165,Skipping duty. **The corresponding weekly reward will be made available again after the weekly reset.**
 10166,Duty Status
 10167,Withdraw
@@ -9869,15 +9893,11 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10464,Select data to reset.
 10465,Select party to disband.
 10466,Access Ranking
-10467,https://sqex.to/fkM
-10468,https://sqex.to/Bry
 10469, / 
 10470,None of the Accursed Hoard has been discovered.
 10471,"Current Deep Dungeon rankings can be viewed on the Lodestone!
 UNKNOWN"
 10472,UNKNOWN
-10473,https://sqex.to/C_D
-10474,https://sqex.to/J43
 10475,Magicite
 10476,You detect the call of the Accursed Hoard on this floor.
 10477,Beacon of Return
@@ -10173,55 +10193,11 @@ Spectator Party: 1-8 players"
 10830,Register from Home World
 10831,Ranked 1st Dan or Higher
 10832,"Due to revisions being made to the PvP system, this duty is temporarily unavailable. Further announcements will be made in upcoming patch notes or similar."
-10834,
-10835,"The following changes have been made to Savage duties:
-　・Progress records are no longer kept for individual duties.
-　・The “Progress” option is no longer available.
-　・Two treasure coffers will always appear upon completion.
-　・The weekly limit on items from treasure coffers has been removed.
-"
-10836,Matching Requirements
-10837,"**Matching Requirements**
-The “Duty Complete” option is only available for previously completed duties.
-
-**Purpose**
-The “Duty Completion” option is only available if the weekly reward has yet to be obtained.
-
-**Practice Phase Selection**
-This is only available when “Purpose” is set to “Practice.” Practice phase selection does not entail the actual skipping of phases.
-
-If the registration period overlaps with the weekly reset, registration will be canceled."
-10838,Progress Record
-10839,"Progress within the latest Savage duty is periodically saved, allowing for continuation from that point.
-
-Progress is reset every week on Tuesday at 5 p.m. (Earth time).
-"
-10840,Reward Restrictions
-10841,"Players will not earn rewards for completing phases they have already completed.
-
-Coffer quantity will vary based on the total number of party members who have already completed the duty.
-　・1-4 players = 1 coffer 
-　・5 or more = No coffers
- 
-When participating in the latest Savage raid with a matched party, duty rewards may change based on the progress level of matched members."
-10842,Job Distribution
-10843,"Parties formed with the Raid Finder do not allow for two members with the same job unless certain conditions are met.
-　・DPS jobs are divided into the following roles:
-    Melee DPS, Physical Ranged DPS, Magical Ranged DPS, and Not Specified.
-
-When the raid purpose is set as “Duty Completion,” the jobs that fall into Not Specified must be different from the ones which fill the other three DPS roles. When the raid purpose is set to “Practice,” overlapping between specified and unspecified DPS jobs is allowed.
-
-Parties formed with the Raid Finder do not allow for more than one pure healer and one barrier healer.
-　・Pure Healers: White Mage, Astrologian
-　※Emphasis on actions that directly heal self and party members.
-　・Barrier Healers: Scholar, Sage
-　※Emphasis on actions that negate damage via magicked barriers."
-10844,Party Progress
-10845,"A party's starting point in the duty is determined by the leader's past progress. As long as all other conditions are met, players who have not progressed as far as the leader may still participate in the duty.
-
-If a party member's progress was less than that of the leader, then progress will be updated to match.
-If a party member's progress is beyond that of the leader, that member's progress will remain unaffected.
-"
+10841,
+10842,
+10843,
+10844,
+10845,
 10846,* Not all unfulfilled requirements are displayed.
 10847,Item Level UNKNOWN
 10848,Battle mentor with current certification
@@ -10321,8 +10297,7 @@ Add UNKNOWN to your blacklist?"
 10956,Online Status Unknown
 10957,"UNKNOWN will be registered to your blacklist. Messages from this character will no longer be displayed, and their character model will be hidden. Any other characters registered to this player's account will also be blacklisted.
 This character's name and Home World at the time of registration will be saved locally.
-**If you wish to simply mute this character, you can instead add them to your mute list.
-If this character has already been added to your mute list, they will be transferred to your blacklist.**"
+**If you wish to simply mute this character, you can instead add them to your mute list.**"
 10958,I understand.
 10959,Register
 10960,Returner Status
@@ -11364,6 +11339,7 @@ The following dyes will be used:"
 11996,Store as Outfit Glamour
 11997,**Includes items that can be stored in an armoire.**
 11998,**Includes items saved to a gear set.**
+11999,Dyes and company crests are also removed in the process.
 12002,C
 12003,D
 12004,E
@@ -11610,6 +11586,7 @@ Tactical Rating"
 12241,Results may not reflect current inventory status. Open again for latest results.
 12242,Displaying latest results.
 12243,–-
+12244,"Some search results need to be verified by the player. Results marked with a **?** are based on information from the last point of access. For the latest results, please access the corresponding menus again."
 12245,
 12246,Active Actions
 12247,Empty
@@ -11756,7 +11733,7 @@ Tactical Rating"
 12388,UNKNOWN Wins
 12389,Show
 12390,Hide
-12391,Settings
+12391,Adjust Settings
 12392,Back
 12393,On
 12394,Off
@@ -11781,7 +11758,7 @@ Tactical Rating"
 12413,8th Dan
 12414,9th Dan
 12415,10th Dan
-12416,Mahjong Settings
+12416,Mahjong Display Settings
 12417,Tile Set
 12418,Doman
 12419,●002 クガネ式麻雀牌
@@ -13349,6 +13326,22 @@ Recorded motion will be repeated at set intervals."
 14011,Type 3
 14012,"Loop Motion: Disabled
 Return to idle state once selected motion has been performed."
+14013,Zoom (Camera Distance)
+14014,Roll Angle
+14015,Chromatic Aberration
+14016,Portrait Preview
+14017,Portrait Mode
+14018,Effect Settings
+14019,General Settings
+14020,Control Settings
+14021,Face Camera on Activation
+14022,Enable Roll Angle Correction
+14023,Portrait Mode Settings
+14024,Screen Rotation
+14025,Rotate Left
+14026,Rotate Right
+14027,Filter Intensity
+14028,"Chromatic aberration refers to the color distortion that can occur when light passes through a lens. Applying this effect adds a striking red, blue, and green fringe around objects and characters near the edges of the screen."
 14050,Sticker Mode
 14051,Icon
 14052,Text
@@ -14737,6 +14730,9 @@ Registered glamours may be placed as many times as desired from the Registered G
 15586,Default Agenda Settings
 15587,Isleworks Agenda
 15588,Set According to Demand
+15589,Maximize Length
+15590,Sets the expedition length to maximum without changing the expedition area. This option is only available if all gathered materials have been claimed.
+15591,Spend UNKNOWN seafarer's cowries to maximize the length of the expedition?
 15600,Filter Settings
 15601,
 15602,Filter By:
@@ -14917,6 +14913,7 @@ The third attribute will be set to a lower value."
 15910,Mogpendium
 15911,Important Items
 15912,Underway
+15913,Participate in a casual match of Crystalline Conflict.
 15914,Reward Available
 15915,**Expiring Soon**
 15916,"
@@ -14957,7 +14954,7 @@ Lv. UNKNOWN"
 Lv. UNKNOWN"
 15946,Decipher a timeworn map and collect the treasure.
 15947,Complete a stage of the Masked Carnivale.
-15948,"Defeat UNKNOWN notorious monster in the Forbidden Land, Eureka."
+15948,Defeat UNKNOWN notorious monster in .
 15949,Complete UNKNOWN critical engagement on the Bozjan southern front.
 15950,Gather materials UNKNOWN time in .
 15953,Masked Carnivale
@@ -14977,6 +14974,8 @@ Lv. UNKNOWN"
 15965,Complete the sidequest after “” to unlock.
 15966,Complete any society daily quest UNKNOWN times.
 15967,Complete any custom delivery UNKNOWN times.
+15968,Collect UNKNOWN seals for Wondrous Tails.
+15969,Participate in UNKNOWN chocobo races.
 15970,Dye 1
 15971,Dye 2
 15972,Undo color selection.
@@ -15029,6 +15028,12 @@ In survival stages, eliminated participants' names will be displayed."
 16025,Skip
 16026,You have been eliminated. You may either watch the next round via spectator mode or leave the show.
 16027,Previous Location: UNKNOWN
+16030,Glamours
+16031,Gear
+16032,View applied glamours.
+16033,View equipped gear.
+16034,Viewing applied glamours.
+16035,Glamours
 16040,View Color Variants
 16041,Color Variants
 16042,
@@ -15240,6 +15245,8 @@ Only the Main Rightsholder can remove characters from the list."
 16234,Not specified.
 16235,The list is empty.
 16236,Apartments and private chambers cannot be renovated or relocated.
+16237,Add to Favorites (UNKNOWN/UNKNOWN)
+16238,Add to Favorites (UNKNOWN/UNKNOWN)
 16280,Advanced Settings
 16281,Sound
 16282,Bell
@@ -15398,6 +15405,7 @@ Only the Main Rightsholder can remove characters from the list."
 16466,Register from Home World physical data center.
 16467,
 16481,You may not undertake this exercise as your current class/job.
+16482,Casting
 16580,
 16581,
 16582,
@@ -15408,6 +15416,12 @@ Only the Main Rightsholder can remove characters from the list."
 16588,Knowledge
 16589,Ph. EXP
 16590,Close
+16591,Your current offering is sufficient to secure priority passage.
+16592,Offering 99 ciphers will give a chance at passage.
+16593,Your current offering is insufficient for a chance at passage.
+16594,Your passage to the tower is not guaranteed.
+16595,You have secured priority passage to the tower.
+16596,**UNKNOWN**/UNKNOWN
 16597,E. Silver Pieces
 16598,E. Gold Pieces
 16599,Sanguine Ciphers
@@ -15425,13 +15439,10 @@ Only the Main Rightsholder can remove characters from the list."
 16611,Phantom Job
 16612,–
 16613,/
-16614,"クリティカルエンカウント
-『UNKNOWN』
-が発生しました！ あなたはこの発生に貢献したため、直接突入が可能です。今すぐ移動しますか？
-**※一度突入すると、デジョン以外での退出はできません。**"
-16615,はい
-16616,いいえ
-16617,保留
+16614,
+16615,
+16616,
+16617,
 16618,Phantom EXP
 16619,Critical Encounter
 16620,Sync Knowledge Level
@@ -15442,6 +15453,9 @@ Commences in UNKNOWN"
 16624,Recruiting Members: UNKNOWN:00
 16625,Preparing to Commence: UNKNOWN:00
 16626,Battle Underway: UNKNOWN:00
+16627,Priority Places
+16628,Seeking Passage / Remaining Places
+16629,Offering Threshold
 16630,Obtainable knowledge and phantom EXP is displayed in applicable areas.
 16631, Lv. UNKNOWN
 16632,Knowledge Level
@@ -15469,6 +15483,7 @@ Press to disable level sync."
 **Should the cipher fail to gain you access, it will be returned to you. However, if you are granted access but fail to enter, it will be forfeit.**"
 16653,Phantom Actions
 16654,Phantom Traits
+16655,※Data updated at set intervals. Information may not be current.
 16656,Settings
 16657,Learn about phantom jobs.
 16658,Phantom Job Repertoire
@@ -15484,8 +15499,8 @@ Press to disable level sync."
 16668,Occult Record UNKNOWN
 16669," has been added
 to the Occult Record."
-16670,"Confirm your offering of .
-**Priority will be given to greater offerings if participation exceeds transportational abilities.**"
+16670,"Confirm your additional offering of .
+An aetherial node granting access to the tower will activate if at least 24 players offer ciphers. **A maximum of 48 players can be teleported. Priority will be given to greater offerings if participation exceeds transportational abilities.**"
 16671,You Have Offered
 16672,Current Participants
 16673,Confirm
@@ -15510,10 +15525,12 @@ to the Occult Record."
 16692,Controller Settings
 16693,Select the direction in which the phantom action panel turns when toggling actions.
 16694,"When enabled, resets the phantom action panel after executing actions."
-16695,Select which combination of inputs on your controller are used to select and execute phantom actions.
+16695,"Select which combination of inputs on your controller are used to select and execute phantom actions.
+※If you have only learned a single phantom action, using either combination will execute the action."
 16696,You will lose all unsaved changes. Proceed?
 16697,
 16698,
+16699,The Forked Towers are **the greatest challenge** to be found upon the Occult Crescent. Make full use of your phantom jobs and work in unison to overcome powerful foes and tricky battle mechanics.
 16716,Starward Standings
 16717,
 16718,World: UNKNOWN
@@ -15521,6 +15538,7 @@ to the Occult Record."
 16720,Next Update:  27/8/2013 8:00
 16721,Display guide.
 16722,The list is empty.
+16724,Mech Ops
 16729,"In recognition of superior skill, unwavering dedication, and countless contributions to the initiative, we hereby commemorate UNKNOWN as a Star Contributor!"
 16730,Star Contributor
 16731, 27/8/2013
@@ -15550,8 +15568,9 @@ to the Occult Record."
 16756,Requirements for Class B Missions
 16757,Requirements for Class A Missions
 16758,Lv. UNKNOWN
-16759,"Availability Expires
- UNKNOWNmUNKNOWNs"
+16759,"Sequential missions become unavailable in case of the following:
+　・Another mission is accepted
+　・The sequential mission is abandoned"
 16760,Reward
 16761,Stellar Mission Actions
 16762,Overview
@@ -15608,7 +15627,7 @@ cannot be immediately reinitiated if they are abandoned.**"
 16811,COMPLETE
 16812,Cosmic Crafting Log
 16813,
-16814,Unlock Cosmic Research by speaking with Researchingway at the Moongate Hub.
+16814,Unlock Cosmic Research by speaking with  at .
 16815,Red Alert
 16816, /  / 
 16817,Time Remaining: UNKNOWN:00
@@ -15662,8 +15681,8 @@ UNKNOWN:00s until operation concludes."
 16861,Two Hands on Hips
 16862,Complete UNKNOWN (UNKNOWN/UNKNOWN)
 16863,Complete UNKNOWN with a gold star rank (UNKNOWN/UNKNOWN)
-16864,Complete certain UNKNOWN with a gold star rank
-16865,UNKNOWN
+16864,Sequential Mission Available
+16865,Data unavailable for pending missions.
 16866,Collectables and Stellar Reduction Required
 16867,**Quest Sync**
 16868,Commence selected mission?
@@ -15703,8 +15722,9 @@ Are you certain you wish to proceed?"
 **※If the current infrastructure project progresses while you are watching this cutscene, you may be unable to view the results in real time.**"
 16897,Yes
 16898,No
-16899,Current Score: 0. Silver Star Requirement: 0
-16900,Current Score: 0. Gold Star Requirement: 0
+16899,"Current Score: 0
+Silver Star Requirement: 0
+Gold Star Requirement: 0"
 16901,Silver Star Requirement: 00:00 remaining
 16902,Gold Star Requirement: 00:00 remaining
 16903,???
@@ -15741,7 +15761,6 @@ Are you certain you wish to proceed?"
 16935,Cosmic Research Information
 16936,
 16937,Submitted Research
-16938,None
 16939,Rate of data analysis up to UNKNOWN for each class +UNKNOWN%
 16940,Stellar Roulette
 16941,Class
@@ -15780,8 +15799,8 @@ Are you certain you wish to proceed?"
 16983,MECH OP INITIATED
 16984,Withdraw pilot application?
 16985,Searchingway
-16986,A (0) (Current instance)
-16987,Details cannot be displayed for incompleted missions.
+16986, A. (0) (Current instance)
+16987,Data unavailable for incomplete missions.
 16988,Display guide.
 16989,Display guide.
 16990,"Mech ops are special missions that require the use of powerful vacuum suits.
@@ -15802,13 +15821,79 @@ Would you like to view the Exploration Guide?"
 16997,"Stellar successes refer to the achievements attained through cosmic exploration.
 
 Would you like to view the Exploration Guide?"
-16998,"Your item level is below average for the selected mission. To more easily achieve a gold star rank, you may wish to purchase gear from Godgyth at the Moongate Hub."
+16998,"Your item level is below average for the selected mission. To more easily achieve a gold star rank, you may wish to purchase gear from  at ."
 16999,Do not show this message until next log in.
 17000,Number Required: UNKNOWN
 17001,Mech Ops: 
 17002,class D missions
 17003,class C missions
 17004,class B missions
+17011,Scored Value:
+17012,　NQ = UNKNOWN pts
+17013,　Average-sized = UNKNOWN pts
+17014,Time Remaining:  UNKNOWN minute UNKNOWN second
+17018,Settings
+17019,A Message from the Cosmic Exploration Initiative
+17020,Close
+17021,Next: UNKNOWN/UNKNOWN
+17022,Omega
+17023,Ultima
+17024,Until Next Tier:
+17025,Phoenix Down Not Allowed
+17026,Current
+17027,UNKNOWN
+17028,UNKNOWN
+17029,UNKNOWN
+17030,Open Wondrous Tails
+17031,Chocobo Racing
+17032,"Chocobo Racing
+Lv. UNKNOWN"
+17033,Crystalline Conflict
+17034,"Crystalline Conflict
+Lv. UNKNOWN"
+17050,Daily Quest Allowance
+17051,UNKNOWN/UNKNOWN
+17052,Allied Society ()
+17053,Adjust headgear settings.
+17054,Show ears through headgear (select gear only).
+17110,Chat Bubble Settings
+17111,
+17112,Mode-specific Settings
+17113,General Settings
+17114,Enable chat bubbles.
+17115,"With this option enabled, a portion of chat messages will be displayed above respective characters' heads."
+17116,Apply
+17117,Close
+17118,Default
+17119,Basic Settings
+17120,Maximum Display Count
+17121,Display your own messages.
+17122,Display during battle.
+17123,Chat Bubble Size
+17124,Normal
+17125,Large
+17126,Maximum
+17127,Duty-specific Display Settings
+17128,Large-scale PvP Duties (Frontline and Rival Wings)
+17129,Crystalline Conflict: Quick Chat
+17130,Select which settings you wish to restore to default.
+17131,You will lose all unsaved changes. Proceed?
+17132,Mode-specific Display Settings.
+17133,Mode-specific Text and Background Color Settings.
+17134,General Settings.
+17135,Chat Bubble Format
+17136,1 Row
+17137,2 Rows
+17150,Cosmic Exploration Settings
+17151,
+17152,Cosmic Exploration Info Display Settings
+17153,Display progress of ongoing exploration projects
+17154,Display Infrastructure Index
+17155,Automatically open Infrastructure Index after project completion
+17156,Close window and discard all changes without saving?
+17157,Apply
+17158,Close
+17200,One Player per Job
 101000, Subcommands
 101001,
 101002, Select

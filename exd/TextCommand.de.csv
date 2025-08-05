@@ -410,6 +410,15 @@ VERWENDUNG:
 　**aus**
 　　Deaktiviert die Einstellung.
 Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.",/automatischanvisieren,,/autotargetpriority,,0,36,2,1,2,0,0
+49,"/vieraohren, /vieraears
+VERWENDUNG:
+→ Macht Viera-Ohren bei bestimmten Kopfbedeckungen sichtbar oder verborgen.
+>>Unterbefehle:
+　**ein**
+　　Viera-Ohren sind sichtbar.
+　**aus**
+　　Viera-Ohren sind verborgen.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.",/vieraohren,,/vieraears,/vears,0,36,2,1,2,0,0
 91,"/pvpteam, /pt
 VERWENDUNG:
 pvpteam [Nachr.]
@@ -1209,8 +1218,8 @@ VERWENDUNG:
 /statusaus ""[Status]""
 → Deaktiviert den angegebenen positiven Statuseffekt.
 >>Beispiel:
-/statusaus ""Lanzenschärfung""
-Entfernt den Status Lanzenschärfung.",/statusaus,,/statusoff,,0,36,2,0,0,0,0
+/statusaus ""Schutzwall""
+Entfernt den Status Schutzwall.",/statusaus,,/statusoff,,0,36,2,0,0,0,0
 276,"/pluspvpkmd, /pluspvp, /addpvpaction, /apa
 ** Dieses Kommando wurde deaktiviert. **",/pluspvpkmd,/pluspvp,/addpvpaction,/apa,1000,36,3,0,0,0,0
 277,"/pvpkommando, /pvpkmd, /pvpaction, /pvpac
@@ -3293,3 +3302,45 @@ VERWENDUNG:
 → Du hörst nicht auf, konzentriert zu lesen.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/schmökern,,/study,,0,293,2,1,2,0,0
+699,"/gridanischesschlückchen, /gridaniansip
+VERWENDUNG:
+/gridanischersip [Unterbefehl]
+→ Du trinkst einen Schluck gridanischen Kinderpunsches.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/gridanischesschlückchen,,/gridaniansip,,0,293,2,1,2,0,0
+700,"/uldhischesschlückchen, /uldahnsip
+VERWENDUNG:
+/uldhischersip [Unterbefehl]
+→ Du trinkst einen Schluck ul'dhischen Kinderpunsches.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/uldhischesschlückchen,,/uldahnsip,,0,293,2,1,2,0,0
+701,"/limsischesschlückchen, /lominsansip
+VERWENDUNG:
+/limsischersip [Unterbefehl]
+→ Du trinkst einen Schluck limsischen Kinderpunsches.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/limsischesschlückchen,,/lominsansip,,0,293,2,1,2,0,0
+702,"/gridanischerschluck, /gridaniangulp
+VERWENDUNG:
+/gridanischerschluck [Unterbefehl]
+→ Du genießt einen Becher gridanischen Kinderpunsches.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/gridanischerschluck,,/gridaniangulp,,0,293,2,1,2,0,0
+703,"/uldhischerschluck, /uldahngulp
+VERWENDUNG:
+/uldhischerschluck [Unterbefehl]
+→ Du genießt einen Becher ul'dhischen Kinderpunsches.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/uldhischerschluck,,/uldahngulp,,0,293,2,1,2,0,0
+704,"/limsischerschluck, /lominsangulp
+VERWENDUNG:
+/limsischerschluck [Unterbefehl]
+→ Du genießt einen Becher limsischen Kinderpunsches.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/limsischerschluck,,/lominsangulp,,0,293,2,1,2,0,0
+708,"/beschwingtnotieren, /pen
+VERWENDUNG:
+/beschwingtnotieren [Unterbefehl]
+→ Du machst die mit deiner Feder ein paar Notizen.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/beschwingtnotieren,,/pen,,0,293,2,1,2,0,0

@@ -78,8 +78,8 @@
 76,Aufträge der Namazuo,193961,526,0,0,0,2310,1,0,3,True,True
 77,Das Ende einer Ära,193715,527,0,0,0,2250,1,0,3,True,True
 78,10. Jubiläum,193716,523,0,0,0,3950,1,0,7,True,True
-79,Fischer auf großer Fahrt,193717,529,0,0,0,2343,1,0,8,True,True
-80,Kapitalbeschaffung,193718,530,0,0,0,2344,1,0,8,True,True
+79,Fischer auf großer Fahrt,193717,529,0,0,0,2345,1,0,8,True,True
+80,Kapitalbeschaffung,193718,530,0,0,0,2346,1,0,8,True,True
 81,Mahjong-Profi,193719,531,0,0,0,2350,1,0,8,True,True
 82,Aufträge der Vanu Vanu,193956,567,0,0,0,2305,1,0,3,True,True
 83,Aufträge der Gnath,193957,568,0,0,0,2306,1,0,3,True,True
@@ -136,7 +136,17 @@
 134,Tiefes Gewölbe: Himmelssäule 1,193708,876,0,0,0,2356,1,0,4,True,True
 135,Tiefes Gewölbe: Himmelssäule 2,193709,877,0,0,0,2357,1,0,4,True,True
 136,Kreszentia,193740,879,0,0,0,2403,1,0,4,True,True
-137,Kosmo-Erkundung,193741,878,0,0,0,2342,1,0,8,True,True
+137,Kosmo-Erkundung 1,193741,878,0,0,0,2343,1,0,8,True,True
 138,,0,0,0,0,0,0,0,0,0,False,False
 139,,0,0,0,0,0,0,0,0,0,False,False
 140,,0,0,0,0,0,0,0,0,0,False,False
+141,,0,0,0,0,0,0,0,0,0,False,False
+142,,0,0,0,0,0,0,0,0,0,False,False
+143,,0,0,0,0,0,0,0,0,0,False,False
+144,Inselparadies 3,193747,939,0,0,0,2342,2,0,8,True,True
+145,,0,0,0,0,0,0,0,0,0,False,False
+146,,0,0,0,0,0,0,0,0,0,False,False
+147,,0,0,0,0,0,0,0,0,0,False,False
+148,,0,0,0,0,0,0,0,0,0,False,False
+149,,0,0,0,0,0,0,0,0,0,False,False
+150,,0,0,0,0,0,0,0,0,0,False,False
