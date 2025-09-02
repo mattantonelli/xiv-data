@@ -5481,6 +5481,17 @@ Both text and motion will be displayed when no subcommand is specified.",,,/ulda
  　**motion**    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.",,,/lominsangulp,,0,293,2,1,2,0,0
+705,"ALIASES:
+　/limberup, /limber
+USAGE:
+　/limberup [subcommand]
+
+→Wind up your arm in a brisk stretch.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/limberup,/limber,0,293,2,1,2,0,0
 708,"USAGE:
 　/pen [subcommand]
 

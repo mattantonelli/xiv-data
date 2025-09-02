@@ -2613,7 +2613,7 @@ East Shroud",,0,0,0,1,0,1,0,0,0
 2561,Faux Hollows,Faux Hollows,,0,0,0,1,0,1,0,0,0
 2562,Sundry Splendors,Sundry Splendors,,0,0,0,1,0,1,0,0,0
 2563,Lost Finds Cache,lost finds cache,,0,0,0,1,0,0,0,0,0
-2564,Resistance Secretariat,Resistance secretariat,,0,0,0,1,0,0,0,0,0
+2564,Expedition Information,Expedition Information,,0,0,0,1,0,0,0,0,0
 2565,Andron,andron,,1,0,0,1,0,0,0,0,0
 2566,Island Sanctuary,island sanctuary,,0,0,0,1,0,0,0,0,0
 2567,Starward Standings,Starward Standings,,0,0,0,1,0,0,0,0,0
@@ -5352,42 +5352,42 @@ East Shroud",,0,0,0,1,0,1,0,0,0
 5283,,,,0,0,0,0,0,0,0,0,0
 5284,The Ageless Necropolis,Ageless Necropolis,,1,0,0,1,0,0,0,0,0
 5285,The Lightless Abyss,lightless abyss,,1,0,0,1,0,0,0,0,0
-5286,,,,0,0,0,0,0,0,0,0,0
-5287,,,,0,0,0,0,0,0,0,0,0
-5288,,,,0,0,0,0,0,0,0,0,0
-5289,,,,0,0,0,0,0,0,0,0,0
-5290,,,,0,0,0,0,0,0,0,0,0
-5291,,,,0,0,0,0,0,0,0,0,0
-5292,,,,0,0,0,0,0,0,0,0,0
-5293,,,,0,0,0,0,0,0,0,0,0
-5294,,,,0,0,0,0,0,0,0,0,0
-5295,,,,0,0,0,0,0,0,0,0,0
-5296,,,,0,0,0,0,0,0,0,0,0
+5286,The Lehr,Lehr,,2,0,0,1,0,0,0,0,0
+5287,West Beaconveil,West Beaconveil,,1,0,0,1,0,1,0,0,0
+5288,Opalescent Crossing,Opalescent Crossing,,0,0,0,1,0,0,0,0,0
+5289,Upper Soda-lime Float,upper Soda-lime Float,,1,0,0,1,0,0,0,0,0
+5290,Central Soda-lime Channel,central soda-lime channel,,1,0,0,1,0,0,0,0,0
+5291,Western Soda-lime Tributary,western soda-lime tributary,,1,0,0,1,0,0,0,0,0
+5292,Lower Soda-lime Float,lower Soda-lime Float,,1,0,0,1,0,0,0,0,0
+5293,The Prismatic Pull,Prismatic Pull,,0,0,0,1,0,0,0,0,0
+5294,Capsule Pools,Capsule Pools,,1,0,0,1,0,1,0,0,0
+5295,Bubble Bursters,bubble bursters,,1,0,0,1,0,0,0,0,0
+5296,Fusingway Flow,Fusingway Flow,,1,0,0,1,0,1,0,0,0
 5297,Vault Oneiron,Vault Oneiron,,1,0,0,1,0,1,0,0,0
 5298,Armada Airship,armada airship,,2,0,0,1,0,1,0,0,0
 5299,,,,0,0,0,0,0,0,0,0,0
 5300,Mech Ops,mech ops,,1,0,0,1,0,0,0,0,0
-5301,,,,0,0,0,0,0,0,0,0,0
-5302,,,,0,0,0,0,0,0,0,0,0
-5303,,,,0,0,0,0,0,0,0,0,0
-5304,,,,0,0,0,0,0,0,0,0,0
-5305,,,,0,0,0,0,0,0,0,0,0
-5306,,,,0,0,0,0,0,0,0,0,0
-5307,,,,0,0,0,0,0,0,0,0,0
-5308,,,,0,0,0,0,0,0,0,0,0
-5309,,,,0,0,0,0,0,0,0,0,0
-5310,,,,0,0,0,0,0,0,0,0,0
-5311,,,,0,0,0,0,0,0,0,0,0
-5312,,,,0,0,0,0,0,0,0,0,0
-5313,,,,0,0,0,0,0,0,0,0,0
-5314,,,,0,0,0,0,0,0,0,0,0
-5315,,,,0,0,0,0,0,0,0,0,0
-5316,,,,0,0,0,0,0,0,0,0,0
-5317,,,,0,0,0,0,0,0,0,0,0
-5318,,,,0,0,0,0,0,0,0,0,0
-5319,,,,0,0,0,0,0,0,0,0,0
+5301,Phaenna,Phaenna,,2,0,0,1,0,1,0,0,0
+5302,Glassblown Grotto,Glassblown Grotto,,1,0,0,1,0,0,0,0,0
+5303,Millefiori ,Millefiori ,,1,0,0,1,0,1,0,0,0
+5304,The Soda-lime Float,Soda-lime Float,,1,0,0,1,0,0,0,0,0
+5305,The Saltpeter Shore,Saltpeter Shore,,2,0,0,1,0,0,0,0,0
+5306,Iridized Rise,Iridized Rise,,2,0,0,1,0,0,0,0,0
+5307,Capsule Chasm,Capsule Chasm,,1,0,0,1,0,1,0,0,0
+5308,Fusingway Vent,Fusingway Vent,,0,0,0,1,0,1,0,0,0
+5309,The Lehr,Lehr,,2,0,0,1,0,0,0,0,0
+5310,The Chillmark,Chillmark,,0,0,0,1,0,0,0,0,0
+5311,Windsbreath Bellows,Windsbreath Bellows,,0,0,0,1,0,1,0,0,0
+5312,Stonesbreath Bellows,Stonesbreath Bellows,,0,0,0,1,0,1,0,0,0
+5313,The Slumping Plunge,Slumping Plunge,,0,0,0,1,0,0,0,0,0
+5314,The Prismatic Pull,Prismatic Pull,,0,0,0,1,0,0,0,0,0
+5315,Scoresheen Sands,Scoresheen Sands,,2,0,0,1,0,1,0,0,0
+5316,Glassblowers' Beacon,Glassblowers' Beacon,,1,0,0,1,0,1,0,0,0
+5317,Capsule Pools,Capsule Pools,,1,0,0,1,0,1,0,0,0
+5318,Opalescent Crossing,Opalescent Crossing,,0,0,0,1,0,0,0,0,0
+5319,Marver Mesa,Marver Mesa,,2,0,0,1,0,1,0,0,0
 5320,Intersite Travel,Intersite Travel,,0,0,0,1,0,1,0,0,0
-5321,,,,0,0,0,0,0,0,0,0,0
+5321,Emergency Transport,Emergency Transport,,0,0,0,1,0,1,0,0,0
 5322,,,,0,0,0,0,0,0,0,0,0
 5323,,,,0,0,0,0,0,0,0,0,0
 5324,,,,0,0,0,0,0,0,0,0,0

@@ -303,7 +303,7 @@
 301,Tasse gridanienne (continu),554,702,8170,8169,0,0,0,0,0,11602,64471,8335,8334,730,2,83,False,False,False,False,True,False,False,False
 302,Tasse uldienne (continu),554,703,8174,8173,0,0,0,0,0,11603,64472,8337,8336,730,2,84,False,False,False,False,True,False,False,False
 303,Tasse limséenne (continu),554,704,8178,8177,0,0,0,0,0,11601,64473,8339,8338,730,2,85,False,False,False,False,True,False,False,False
-304,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+304,S'échauffer,555,705,8156,0,0,0,0,0,0,3122,64474,8341,8340,731,1,0,False,False,False,False,True,False,False,False
 305,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
 306,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
 307,Écrire avec une plume,557,708,8144,8143,0,0,0,0,0,11517,64477,8347,8346,730,2,87,False,False,False,False,True,False,False,False

@@ -35856,12 +35856,12 @@ Maximale Aufladungen: 2"
 29094,"Du ziehst alle umstehenden Gegner innerhalb von 10y blitzschnell zu dir hin und wirkst **Salzige Erde** mit einem Radius von 5y zu deinen Füßen.
 Dauer: 10 Sekunden
 Effekt von **Salzige Erde** auf dich: Regeneriert innerhalb der Zone stetig eigene LP und verringert erlittenen Schaden um 20 %.
-Heilpotenzial: 4.000
+Heilpotenzial: 6.000
 Effekt von **Salzige Erde** auf Gegner: Ziele erleiden innerhalb Schaden über Zeit.
-Attacke-Wert: 4.000
+Attacke-Wert: 6.000
 Kommando ändert sich bei Ausführung zu **Salz und Schwärze**."
 29095,"Du führst eine magische Attacke auf alle Gegner aus, die sich in deiner **Salzigen Erde** befinden.
-Attacke-Wert: 4.000
+Attacke-Wert: 6.000
 Zusatzeffekt: **Fessel**
 Dauer: 2 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
@@ -36219,7 +36219,7 @@ Dauer: 10 Sekunden
 Zusatzeffekt: Entfernt einen negativen Statuseffekt, der auch von **Purifikation** aufgehoben werden kann. Wird ein negativer Statuseffekt erfolgreich entfernt, verdoppelt sich die Wirkung der Barriere."
 29228,"Du verwandelst deinen Gegner in einen Flusskobold oder ein Ferkel. Während der Dauer der Ver­wand­lung können lediglich Kommandos ausgeführt werden, die negative Status aufheben.
 Dauer: 2 Sekunden
-Zusatzeffekt: Reduziert MP des anvisierten Ziels um 2.500.
+Zusatzeffekt: Reduziert MP des anvisierten Ziels um 1.000.
 Unwirksam gegen Spieler mit aktivem Status, der vor durch **Purifikation** aufhebbaren Effekten schützt, sowie Spieler mit aktivem **Multi** oder **Klingentanz**, Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind."
 29229,"Du führst eine Sprung-Attacke aus und fügst dem Ziel und den Gegnern in seiner Nähe magischen Schaden zu.
 Attacke-Wert: 6.000
@@ -36234,7 +36234,7 @@ Dauer: 20 Sekunden
 Während **Vitaga bereit** ändert sich **Vitra** zu **Vitaga**.
 Kann nicht während **Fessel** ausgeführt werden."
 29230,"Du führst eine magische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: 20.000
+Attacke-Wert: 16.000
 Zusatzeffekt: **Betäubung**
 Dauer: 2 Sekunden
 Zusatzeffekt: **Linderung**
@@ -36400,7 +36400,7 @@ Dauer: 10 Sekunden
 Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer"
 29259,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 8.000
+Attacke-Wert: 10.000
 Zusatzeffekt: **Fessel**
 Dauer: 3 Sekunden
 Zusatzeffekt: Zieht die umstehenden Gegner näher zum Hauptziel.
@@ -36650,7 +36650,7 @@ Bedingung: **Überhitzung** aktiv
 Eigener Reaktivierungs-Timer
 Kann nicht im Kommandomenü angelegt werden."
 29404,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus. Triffst du mit diesem Kommando nur ein Ziel, schießt du zweimal.
-Attacke-Wert: 6.000
+Attacke-Wert: 8.000
 Zusatzeffekt: Das Ziel wird um 10y zurückgeschleudert.
 Eigener Reaktivierungs-Timer"
 29405,"Du führst eine physische Fernkampfattacke aus, jeglichen Effekt von **Wehr** auf dem Ziel ignorierend.
@@ -36730,7 +36730,7 @@ Während **En Avant** ändert sich **Cascade** zu **Invertierte Cascade**.
 Kann nicht im Kommandomenü angelegt werden."
 29417,"**Kombo-Kommando**
 Du führst eine physische Fernkampfattacke aus.
-Attacke-Wert: 6.000
+Attacke-Wert: 7.000
 Kombo-Bedingung: **Cascade** oder **Invertierte Cascade**
 Während **En Avant** ändert sich **Fontäne** zu **Fallende Fontäne**.
 Kann nicht im Kommandomenü angelegt werden."
@@ -36742,7 +36742,7 @@ Dauer: 15 Sekunden
 Bedingung: **En Avant** aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29419,"Du führst eine physische Fernkampfattacke aus.
-Attacke-Wert: 8.000
+Attacke-Wert: 9.000
 Kombo-Bedingung: **Cascade** oder **Invertierte Cascade**
 Zusatzeffekt: **Klingenfänger**
 Ist **Klingenfänger** bereits aktiv, ändert sich der Status zu **Hitziger Schwerttanz**.
@@ -36859,7 +36859,7 @@ Bei Ausführung wird **Klingentanz** verbraucht.
 Bedingung: **Klingentanz** aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29428,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
-Attacke-Wert: 4.000
+Attacke-Wert: 6.000
 Zusatzeffekt: Eigener erlittener Schaden und der erlittene Schaden des von dir bestimmten Grup­pen­mit­glieds mit dem Status **Auserwählter Tanzpartner** ist um 20 % verringert.
 Dauer: 5 Sekunden"
 29429,"Du regenerierst eigene LP und die von umstehenden Grup­pen­mit­gliedern.
@@ -36964,22 +36964,21 @@ Zusatzeffekt: **Wesen des Windes** ist um 5 Sekunden verlängert (maximal 15 Sek
 Kann nicht im Kommandomenü angelegt werden."
 29475,"**Kombo-Kommando**
 Du führst eine physische Attacke aus.
-Attacke-Wert: 4.500
+Attacke-Wert: 5.500
 Kann nicht im Kommandomenü angelegt werden."
 29476,"**Kombo-Kommando**
 Du führst eine physische Attacke aus.
-Attacke-Wert: 5.000
+Attacke-Wert: 6.000
 Kombo-Bedingung: **Drachentritt**
 Kann nicht im Kommandomenü angelegt werden."
 29477,"**Kombo-Kommando**
 Du führst eine physische Attacke aus.
-Attacke-Wert: 5.500
+Attacke-Wert: 6.500
 Kombo-Bedingung: **Doppelviper**
 Kann nicht im Kommandomenü angelegt werden."
 29478,"**Kombo-Kommando**
 Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 12.000
-Attacke-Wert verringert sich ab dem zweiten Gegner auf 9.000.
 Kombo-Bedingung: **Tigerpeitschenhieb**
 Kann nicht im Kommandomenü angelegt werden."
 29479,"Du führst eine physische Attacke aus.
@@ -37010,11 +37009,11 @@ Maximale Aufladungen: 2"
 29482,"Du gewährst dir **Wesen der Erde** und dieses Kommando ändert sich zu **Echo der Erde**.
 Dauer: 8 Sekunden
 Effekt von **Wesen der Erde**: Erleidest du während der Wirkungsdauer Schaden, wird dieser angesammelt. Bei Ausführung von **Echo der Erde** führst du eine physische Attacke auf alle umstehenden Gegner aus und regenerierst eigene LP.
-Attacke-Wert: 3.000 plus 25 % des angesammelten Schadens
-Heilpotenzial: 6.000 plus 50 % des angesammelten Schadens"
+Attacke-Wert: 4.000 plus 25 % des angesammelten Schadens
+Heilpotenzial: 8.000 plus 50 % des angesammelten Schadens"
 29483,"Du beendest den Effekt des von dir selbst gewährten **Wesen der Erde** und führst dabei eine physische Attacke auf alle umstehenden Gegner aus und regenerierst eigene LP.
-Attacke-Wert: 3.000 plus 25 % des angesammelten Schadens
-Heilpotenzial: 6.000 plus 50 % des angesammelten Schadens
+Attacke-Wert: 4.000 plus 25 % des angesammelten Schadens
+Heilpotenzial: 8.000 plus 50 % des angesammelten Schadens
 Bedingung: **Wesen der Erde** aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29484,"Du bewegst dich augenblicklich vor dein anvisiertes Ziel. Visierst du einen Gegner an, errichtest du eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 8.000 absorbiert. Visierst du einen Verbündeten an, errichtest du die Barriere stattdessen um den Verbündeten.
@@ -37057,7 +37056,7 @@ Eigener Reaktivierungs-Timer"
 Attacke-Wert: 4.000
 Zusatzeffekt: Gewährt dir **Drachengeist**.
 Dauer: 10 Sekunden
-Effekt von **Drachengeist**: Ausgeteilter sowie erlittener Schaden ist um 25 % erhöht.
+Effekt von **Drachengeist**: Ausgeteilter Schaden ist um 25 % und erlittener Schaden um 15 % erhöht.
 Zusatzeffekt: Gewährt dir **Zielgerichtet**.
 Dauer: 10 Sekunden
 Während **Zielgerichtet** ändert sich dieses Kommando zu **Nastrond**.
@@ -37166,7 +37165,7 @@ Attacke-Wert: 6.000
 Zusatzeffekt: **Betäubung**
 Dauer: 2 Sekunden
 Zusatzeffekt: **Raiju-Tanz**
-Dauer: 10 Sekunden
+Dauer: 5 Sekunden
 Während **Raiju-Tanz** ändert sich **Kombo Äolusklinge** zu **Brüllendes Raiju**.
 Bedingung: **Tri-Mudra** aktiv
 Kann nicht während **Fessel** ausgeführt werden.
@@ -37310,7 +37309,7 @@ Zusatzeffekt: **Betäubung**
 Dauer: 2 Sekunden"
 29536,"Du gewährst dir selbst **Meikyo Shisui**.
 Effekt von **Meikyo Shisui**: Immun gegen alle negativen Status, die auch von **Purifikation** entfernt werden können, sowie Rückstoß- und Heranzieheffekte.
-Dauer: 3 Sekunden
+Dauer: 2 Sekunden
 Zusatzeffekt: Gewährt dir **Tendo Setsugekka**.
 Dauer: 10 Sekunden
 Ändert sich bei Ausführung zu **Tendo Setsugekka**."
@@ -37597,7 +37596,7 @@ Dauer: 10 Sekunden
 Eigener Reaktivierungs-Timer"
 29658,"Du führst eine magische Attacke aus.
 Attacke-Wert: 12.000
-Zusatzeffekt: 100 % des ausgeteilten Schadens werden als LP absorbiert.
+Zusatzeffekt: 50 % des ausgeteilten Schadens werden als LP absorbiert.
 Verbleiben dir weniger als 50 % deiner LP, verringert sich der Attacke-Wert auf 8.000, du absorbierst dafür aber 200 % des ausgeteilten Schadens als LP.
 Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer"
@@ -43316,7 +43315,7 @@ Nur im Kampf wirksam."
 34648,
 34649,
 34650,"Du führst eine feuerbasierte magische Attacke aus.
-Attacke-Wert:490
+Attacke-Wert: 490
 Zusatzeffekt: Gewährt dir **Zweite Pikto-Farbe**.
 Dauer: 30 Sekunden
 Bedingung: **Subtraktive Palette** nicht aktiv
@@ -48786,7 +48785,7 @@ Attacke-Wert: 12.000
 Ist **Otterngeblüt** aktiv, wird der Wirkungsradius auf 15y erweitert und der Attacke-Wert gegen Gegner innerhalb von 6y um 50 % erhöht."
 39186,"Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 12.000
-Zusatzeffekt: Du absorbierst 100 % des ausgeteilten Schadens als eigene LP.
+Zusatzeffekt: Du absorbierst 50 % des ausgeteilten Schadens als eigene LP.
 Ist **Otterngeblüt** aktiv, wird der Wirkungsradius auf 15y erweitert und der Attacke-Wert gegen Gegner innerhalb von 6y um 50 % erhöht.
 **Hornplatten** und **Otterngeblüt** werden durch die Ausführung beendet.
 Bedingung: **Hornplatten** aktiv
@@ -51280,17 +51279,17 @@ Heilpotenzial: 12.000
 Dauer: 10 Sekunden"
 41444,"**Kombo-Kommando**
 Du führst eine physische Attacke aus.
-Attacke-Wert: 6.500
+Attacke-Wert: 7.000
 Kombo-Bedingung: **Demolieren**
 Kann nicht im Kommandomenü angelegt werden."
 41445,"**Kombo-Kommando**
 Du führst eine physische Attacke aus.
-Attacke-Wert: 7.000
+Attacke-Wert: 7.500
 Kombo-Bedingung: **Affenprankenhieb**
 Kann nicht im Kommandomenü angelegt werden."
 41446,"**Kombo-Kommando**
 Du führst eine physische Attacke aus.
-Attacke-Wert: 7.500
+Attacke-Wert: 8.000
 Kombo-Bedingung: **Drachenkieferschlag**
 Kann nicht im Kommandomenü angelegt werden."
 41447,"Du führst eine physische Attacke aus.
@@ -51374,7 +51373,7 @@ Bei vier Aufladungen: 4.500
 Maximale Aufladungen: 4"
 41467,"Du führst eine physische Fernkampfattacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 10.000
-Zusatzeffekt: Reduziert MP des anvisierten Ziels um 5.000.
+Zusatzeffekt: Reduziert MP des anvisierten Ziels um 4.000.
 Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.
 Bedingung: **Zugabe des Helden** aktiv
 Kann nicht im Kommandomenü angelegt werden."
@@ -51430,7 +51429,7 @@ Bedingung: **Lichtfeuer** aktiv
 Kann nicht im Kommandomenü angelegt werden."
 41477,
 41478,"Gewährt dir **Kranz des Eises**.
-Effekt von **Kranz des Eises**: Verringert erlittenen Schaden um 25 % und führt bei erlittenem Schaden eine Konterattacke auf den Angreifer aus.
+Effekt von **Kranz des Eises**: Verringert erlittenen Schaden um 20 % und führt bei erlittenem Schaden eine Konterattacke auf den Angreifer aus.
 Attacke-Wert: 3.000
 Dauer: 10 Sekunden
 Bedingung: **Schatteneis** aktiv
@@ -51455,7 +51454,7 @@ Attacke-Wert: 8.000
 Bedingung: **Rand des Ruins** aktiv
 Kann nicht im Kommandomenü angelegt werden."
 41483,"Du führst eine magische Attacke auf das Ziel aus.
-Attacke-Wert: 4.000
+Attacke-Wert: 5.000
 Zusatzeffekt: Gewährt dir **Rand des Ruins**.
 Dauer: 10 Sekunden
 Maximale Aufladungen: 2"
@@ -51920,7 +51919,7 @@ Dauer: 60 Sekunden"
 41657,
 41658,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 12.000
-Schaden auf umliegende Gegner verringert sich ab einer Distanz von 3y vom Ziel um 50 %.
+Schaden auf umliegende Gegner verringert sich ab einer Distanz von 3y vom Ziel um einen Wert von 8000.
 Kombo-Bedingung: **Phlegma III**
 Kann nicht im Kommandomenü angelegt werden."
 41659,
@@ -52427,7 +52426,8 @@ Bedingung: **Aufgerüstet** aktiv "
 Zeigt keine Wirkung bei Riesenkristallen."
 42151,"Feuert mit einem fröhlichen „Peng!“ ein Glückssignal ab.
 (Nur visueller Effekt, keine Wirkung.)"
-42152,
+42152,"Macht die gesamte Umgebung auf dich und deine Maschine aufmerksam.
+(Nur visueller Effekt, keine Wirkung.)"
 42153,
 42154,
 42155,
@@ -55234,13 +55234,19 @@ Effekt endet bei erneuter Ausführung oder nächstem Kommando."
 44917,
 44918,
 44919,
-44920,
-44921,
-44922,
-44923,
-44924,
-44925,
-44926,
+44920,Saugt Ionenenergie in einem fächerförmigen Wir­kungs­be­reich vor dir ein und speichert diese ab.
+44921,"Ein Strahl, der mithilfe von Levitationsmagie Phaennit aus dem Untergrund an die Oberfläche befördert.
+Ionenenergie-Kosten: 10 "
+44922,"Ein Strahl, der mithilfe von Levitationsmagie Phaennit aus dem Untergrund an die Oberfläche befördert.
+Ionenenergie-Kosten: 10 "
+44923,"Dein Sternenebner rast in einer geraden Linie nach vorne und zerstört mit seinen Klingen jegliche Glaskristalle in seinem Weg.
+Zusatzeffekt: Gewährt dir **Geladene Klinge**
+Ma­xi­mal­sta­pel­zahl: 6"
+44924,"Dein Sternenebner rast in einer geraden Linie nach vorne und setzt eine windbasierte Schockwelle frei, die jegliche Glaskristalle in seinem Weg zerstört.
+Bedingung: 3 Stapel von **Geladene Klinge**"
+44925,Befördert mit einem Bohrer aus lunarem Adamantit kleine Exemplare an Phaennit an die Oberfläche.
+44926,"Saugt mit einem windbasierten Gerät Anhäufungen an Glassplittern in einem fächerförmigen Wir­kungs­be­reich vor dir ein.
+Hat keinen Effekt auf große Glaskristalle."
 44927,
 44928,
 44929,

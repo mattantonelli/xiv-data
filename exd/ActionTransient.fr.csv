@@ -36317,12 +36317,12 @@ Vous octroie **Arts ténébreux** quand la barrière a absorbé son montant de d
 29094,"Attire près de vous les ennemis dans un rayon de 10 yalms et fait apparaître à vos pieds un cercle de Terre salée d'une portée de 5 yalms.
 **Durée :** 10s
 **Effet de Terre salée sur vous :** restaure périodiquement vos PV et réduit de 20% vos dégâts subis dans l'aire d'effet.
-**Puissance :** 4000
+**Puissance :** 6000
 **Effet de Terre salée sur vos ennemis :** inflige des dégâts périodiques dans l'aire d'effet.
-**Puissance :** 4000
+**Puissance :** 6000
 Cette action devient Sel et Ténèbres après utilisation."
 29095,"Effectue une attaque magique sur les ennemis se trouvant dans votre cercle de Terre salée.
-**Puissance :** 4000
+**Puissance :** 6000
 **Effet additionnel :** inflige Entrave.
 **Durée :** 2s
 
@@ -36702,6 +36702,7 @@ Ce sort a un temps de recharge indépendant."
 Si une altération d'état est soignée avec succès, l'effet de la barrière est doublé."
 29228,"Transforme la cible en kappa ou en porcelet, l'empêchant d'utiliser des actions.
 **Durée :** 2s
+**Effet additionnel :** réduit de 1000 les PM de la cible.
 Sans effet si la cible bénéficie d'un effet annulant les altérations d'état soignables avec Dépuration, ou est sous l'effet de Multi-taillade, ou de Danse tranchante, ou encore si la cible est à bord d'une machine de guerre ou est un personnage non-joueur."
 29229,"Saute sur la cible et porte une attaque magique sur elle et les ennemis alentour.
 **Puissance :** 6000
@@ -36716,7 +36717,7 @@ Méga Chatoiement devient Giga Chatoiement pendant la durée de l'effet.
 Extra Soin devient Méga Soin pendant la durée de l'effet.
 Ne peut pas être utilisé sous l'effet Entrave."
 29230,"Effectue une attaque magique en ligne droite sur les ennemis devant vous.
-**Puissance :** 20 000
+**Puissance :** 16 000
 **Effet additionnel :** inflige Étourdissement.
 **Durée :** 2s
 **Effet additionnel :** vous octroie **Tempérance**.
@@ -36862,7 +36863,7 @@ Ce sort a un temps de recharge indépendant."
 29254,"Met fin à votre **Macrocosme** et restaure avec une puissance de 4000 + 20% des dégâts encaissés pendant la durée de l'effet.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
-29255,"Augmente de 30% vos dégâts infligés et la puissance de vos sorts curatifs, ainsi que ceux des équipiers alentour. Réduit également de 30% les dégâts infligés et la puissance des sorts curatifs des ennemis alentour.
+29255,"Augmente de 30% vos dégâts infligés et la puissance de vos sorts curatifs, ainsi que ceux des équipiers alentour. Réduit également de 30% les dégâts infligés des ennemis alentour.
 L'effet diminue par tranche de 10% toutes les 5s.
 **Durée :** 15s
 **Effet additionnel :** vous octroie **Oracle préparé**.
@@ -36889,7 +36890,7 @@ L'effet prend fin lorsque vous lancez **Dosis eucrasique III**.
 **Maximum de charges :** 2
 Ce sort a un temps de recharge indépendant."
 29259,"Effectue une attaque magique sur la cible et les ennemis autour.
-**Puissance :** 8000
+**Puissance :** 10 000
 **Effet additionnel :** inflige Entrave.
 **Durée :** 3s
 **Effet additionnel :** attire vers la cible principale les ennemis alentour.
@@ -37160,7 +37161,7 @@ Cette technique d'arme a un temps de recharge indépendant.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29404,"Effectue une attaque physique dans une zone en éventail vers la cible.
-**Puissance :** 6000
+**Puissance :** 8000
 Les dégâts sont infligés deux fois de suite en cas de cible unique.
 **Effet additionnel :** projette la cible 10 yalms en arrière.
 Cette action a un temps de recharge indépendant."
@@ -37247,7 +37248,7 @@ Avec **En avant**, cette action est remplacée par Cascade inversée.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29417,"Effectue une attaque physique à distance sur la cible.
-**Puissance :** 6000
+**Puissance :** 7000
 **Combo :** Cascade/Cascade inversée
 Avec **En avant**, cette action est remplacée par Fontaine en cascade.
 
@@ -37261,7 +37262,7 @@ Si vous étiez déjà sous l'effet de **Lame volante**, vous octroie **Danse du 
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29419,"Effectue une attaque physique à distance sur la cible.
-**Puissance :** 8000
+**Puissance :** 9000
 **Combo :** Cascade/Cascade inversée
 **Effet additionnel :** vous octroie **Lame volante**.
 Si vous étiez déjà sous l'effet de **Lame volante**, vous octroie **Danse du sabre préparée**. 
@@ -37362,7 +37363,7 @@ Met fin à l'effet **Danse tranchante**.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29428,"Effectue une attaque physique dans une zone en éventail vers la cible.
-**Puissance :** 4000
+**Puissance :** 6000
 **Effet additionnel :** diminue de 20% les dégâts subis par vous et par votre **Partenaire de position rapprochée**.
 **Durée :** 5s"
 29429,"Restaure vos PV et ceux des équipiers alentour.
@@ -37463,22 +37464,21 @@ Met fin à l'effet **Danse tranchante**.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29475,"Effectue une attaque physique sur la cible.
-**Puissance :** 4500
+**Puissance :** 5500
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29476,"Effectue une attaque physique sur la cible.
-**Puissance :** 5000
+**Puissance :** 6000
 **Combo :** Tacle du dragon
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29477,"Effectue une attaque physique sur la cible.
-**Puissance :** 5500
+**Puissance :** 6500
 **Combo :** Serpents jumeaux
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29478,"Effectue une attaque physique sur la cible et les ennemis autour.
 **Puissance :** 12 000
-La puissance est réduite à 9000 au-delà du premier ennemi touché.
 **Combo :** Plongeon du coeurl
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
@@ -37511,11 +37511,11 @@ Rose de la conviction devient Réaction du feu pendant la durée de l'effet.
 Cette action devient Cercles de terre après utilisation.
 **Durée :** 8s
 L'activation de Cercles de terre inflige des dégâts physiques sur les ennemis alentour et restaure vos PV.
-**Puissance de l'attaque :** 3000 + 25% des dégâts encaissés pendant la durée de l'effet.
-**Puissance du soin :** 6000 + 50% des dégâts encaissés pendant la durée de l'effet."
+**Puissance de l'attaque :** 4000 + 25% des dégâts encaissés pendant la durée de l'effet.
+**Puissance du soin :** 8000 + 50% des dégâts encaissés pendant la durée de l'effet."
 29483,"Met fin à **Quintessence de terre**, inflige des dégâts physiques sur les ennemis alentour et restaure vos PV.
-**Puissance de l'attaque :** 3000 + 25% des dégâts encaissés pendant la durée de l'effet.
-**Puissance du soin :** 6000 + 50% des dégâts encaissés pendant la durée de l'effet.
+**Puissance de l'attaque :** 4000 + 25% des dégâts encaissés pendant la durée de l'effet.
+**Puissance du soin :** 8000 + 50% des dégâts encaissés pendant la durée de l'effet.
 **Condition :**** Quintessence de terre**
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
@@ -37562,7 +37562,7 @@ Cette technique d'arme a un temps de recharge indépendant."
 **Puissance :** 4000
 **Effet additionnel :** vous octroie **Vie du dragon**.
 **Durée :** 10s
-**Vie du dragon :** les dégâts que vous infligez et recevez augmentent de 25%.
+**Vie du dragon :** les dégâts que vous infligez augmentent de 25%, et ceux que vous recevez de 15%.
 **Effet additionnel :** vous octroie **Naströnd préparé**.
 **Durée :** 10s
 Cette action devient Naströnd pendant la durée de l'effet.
@@ -37679,7 +37679,7 @@ Devient **Gôka Mekkyaku** sous l'effet **Trimudrâ**."
 **Effet additionnel :** inflige Étourdissement.
 **Durée :** 2s
 **Bonus du combo :** vous octroie **Croc de Raijû préparé**.
-**Durée :** 10s
+**Durée :** 5s
 Le combo Lame éolienne devient Croc de Raijû.
 **Condition :** **Trimudrâ**.
 Ne peut pas être utilisé sous l'effet Entrave.
@@ -37831,7 +37831,7 @@ Si la cible est déjà sous votre effet de **Kuzushi**, allonge la durée de 4s 
 **Durée :** 2s"
 29536,"Vous octroie **Meikyô Shisui**.
 **Meikyô Shisui :** immunise contre les altérations d'état soignables avec Dépuration, les projections et les attractions.
-**Durée :** 3s
+**Durée :** 2s
 **Effet additionnel :** vous octroie **Tendô Setsugekka préparé**.
 **Durée :** 10s
 Cette action devient **Tendô Setsugekka** après utilisation."
@@ -38128,7 +38128,7 @@ Ne peut être cumulé avec l'effet **Feu changeant**.
 Ce sort a un temps de recharge indépendant."
 29658,"Effectue une attaque magique sur la cible.
 **Puissance :** 12 000
-**Effet additionnel :** absorbe en PV 100% des dégâts infligés.
+**Effet additionnel :** absorbe en PV 50% des dégâts infligés.
 Si vos PV restants sont inférieurs à 50% du maximum, la puissance est réduite à 8000, et l'attaque absorbe en PV 200% des dégâts infligés.
 Ce sort a un temps de recharge indépendant.
 **Maximum de charges :** 2"
@@ -49471,7 +49471,7 @@ Si **Écailles vampiriques** est utilisé pendant cette durée ou à l'issue de 
 Si vous êtes sous l'effet de **Sang ophidien**, la zone d'effet est étendue à 15 yalms et la puissance est augmentée de 50% si la cible est à 6 yalms ou moins."
 39186,"Effectue une attaque physique sur les ennemis alentour.
 **Puissance :** 12 000
-**Effet additionnel :** absorbe en PV 100% des dégâts infligés.
+**Effet additionnel :** absorbe en PV 50% des dégâts infligés.
 Si vous êtes sous l'effet de **Sang ophidien**, la zone d'effet est étendue à 15 yalms et la puissance est augmentée de 50% si la cible est à 6 yalms ou moins.
 Met fin aux effets **Écailles inflexibles** et **Sang ophidien**.
 **Condition :** **Écailles inflexibles**.
@@ -51988,17 +51988,17 @@ Cette technique d'arme a un temps de recharge indépendant."
 **Puissance :** 12 000
 **Durée :** 10s"
 41444,"Effectue une attaque physique sur la cible.
-**Puissance :** 6500
+**Puissance :** 7000
 **Combo :** Démolition
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 41445,"Effectue une attaque physique sur la cible.
-**Puissance :** 7000
+**Puissance :** 7500
 **Combo :** Bond de l'opo-opo
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 41446,"Effectue une attaque physique sur la cible.
-**Puissance :** 7500
+**Puissance :** 8000
 **Combo :** Percée du raptor
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
@@ -52094,7 +52094,7 @@ Plus le nombre de charges consommées est élevé, plus le nombre de coups port�
 **Maximum de charges :** 4"
 41467,"Effectue une attaque physique à distance sur la cible et les ennemis autour.
 **Puissance :** 10 000
-**Effet additionnel :** réduit de 5000 les PM de la cible.
+**Effet additionnel :** réduit de 4000 les PM de la cible.
 Sans effet si la cible est à bord d'une machine de guerre ou est un personnage non-joueur.
 **Condition :** **Rappel héroïque**.
 
@@ -52160,7 +52160,7 @@ La défense de la cible n'a aucune influence sur ces dégâts.
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 41477,
 41478,"Vous octroie **Couronne de glace**.
-**Couronne de glace :** réduit de 25% vos dégâts subis et inflige des dégâts pour chaque attaque que vous recevez.
+**Couronne de glace :** réduit de 20% vos dégâts subis et inflige des dégâts pour chaque attaque que vous recevez.
 **Puissance :** 3000 **
 Durée :** 10s
 **Condition :** **Glace ombrale**.
@@ -52189,7 +52189,7 @@ Durée :** 10s
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 41483,"Effectue une attaque magique sur la cible.
-**Puissance :** 4000
+**Puissance :** 5000
 **Effet additionnel :** vous octroie **Giga Ruine préparée**.
 **Durée :** 10s
 **Maximum de charges :** 2"
@@ -52678,7 +52678,7 @@ Fonctionne uniquement dans un donjon."
 41657,
 41658,"Effectue une attaque magique sur la cible et les ennemis autour.
 **Puissance :** 12 000
-La puissance est diminuée de moitié pour les ennemis situés à plus de 3y de la cible principale.
+La puissance est réduite à 8000 pour les ennemis situés à plus de 3y de la cible principale.
 **Combo :** Phlegma III
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
@@ -53188,7 +53188,8 @@ La sélection de la cible se fait au­to­ma­ti­que­ment lorsque le ciblage a
 Ne fonctionne pas sur les grands cristaux corrompus."
 42151,"Projette une fusée éclairante conçue à partir d'une graine du bonheur.
 * Effet spécial. N'inflige aucun dégât."
-42152,
+42152,"Prévient les alentours de la présence de votre engin.
+* Effet spécial. N'inflige aucun dégât."
 42153,
 42154,
 42155,
@@ -55999,13 +56000,18 @@ Dure indéfiniment."
 44917,
 44918,
 44919,
-44920,
-44921,
-44922,
-44923,
-44924,
-44925,
-44926,
+44920,"Aspire les charges ioniques présentes dans la zone en éventail devant vous, et les convertit en énergie pour votre robot."
+44921,"Crée un rayon basé sur un principe similaire aux sorts de lévitation, qui permet de faire remonter à la surface les blocs de phaennite ensevelis. Peut être utilisé sur les trous de sable.
+**Condition :** 10 **charges ioniques** cumulées."
+44922,"Crée un rayon basé sur un principe similaire aux sorts de lévitation, qui permet de faire remonter à la surface les blocs de phaennite ensevelis. Peut être utilisé sur les trous de sable.
+**Condition :** 10 **charges ioniques** cumulées."
+44923,"Se rue en avant et balaye les amas de verre d'un grand coup de lame frontale.
+**Effet additionnel :** octroie Lame chargée (cumulable jusqu'au 6e degré)"
+44924,"Génère une onde de choc et se rue en avant, détruisant les amas de verre situés dans la zone d'effet.
+**Condition :** 3 degrés de **Lame chargée**"
+44925,Creuse le sol grâce à une puissante foreuse en adamantium sélénien pour en extraire les morceaux de phaennite.
+44926,"Aspire les éclats de verre dans une zone en éventail devant vous grâce à la magie du vent.
+Ne fonctionne pas sur les amas de verre."
 44927,
 44928,
 44929,

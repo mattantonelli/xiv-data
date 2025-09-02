@@ -15306,6 +15306,13 @@ Einstellungen wirklich schließen?"
 16467,
 16481,Diese Übungen können mit deiner momentanen Klasse/deinem momentanen Job nicht bestritten werden
 16482,FORTSCHRITT
+16551,Grüne Äthersphäre
+16552,Rote Äthersphäre
+16553,Blaue Äthersphäre
+16554,Gelbe Äthersphäre
+16555,SPHÄRENTAFEL
+16556,
+16557,
 16580,
 16581,
 16582,
@@ -15602,6 +15609,7 @@ Möchtest du trotzdem fortfahren?"
 16877,INFRASTRUKTUR-INDEX
 16878,
 16879,Lunare Entwicklungsinitiative
+16880,Phaenna-Entwicklungsinitiative
 16883,Projektfortschritt: UNKNOWN im Gange - Beitrag via Stellarmissionen
 16884,Projektfortschritt: Gemeinschaftsprojekt in Vorbereitung - Teilnehmersuche geplant
 16885,Projektfortschritt: Stationsstruktur im Bau
@@ -15623,6 +15631,7 @@ Möchtest du trotzdem fortfahren?"
 16901,Silberwertung: Mindestens 00:00 Min. übrig
 16902,Goldwertung: Mindestens 00:00 Min. übrig
 16903,???
+16904,Phaenna
 16907,Ø Gegen­stands­stufe: UNKNOWN
 16908,Materialien
 16909,Sammlerwert:
@@ -15670,7 +15679,9 @@ Möchtest du trotzdem fortfahren?"
 16950,Max.
 16951,Sinus Ardorum
 16952,Löblicher Beitrag
+16953,Beachtenswerter Beitrag
 16956,Lunare Entwicklungsinitiative
+16957,Phaenna-Entwicklungsinitiative
 16960,Über den Infrastruktur-Index
 16961,Über Wertungen
 16962,Keine Mission verfügbar.
@@ -15689,6 +15700,7 @@ Möchtest du trotzdem fortfahren?"
 16975,Im Einsatz. Noch UNKNOWN:00..
 16976,Abschlusszeit
 16977,UNKNOWN:00
+16978,Phaenna
 16981,Besondere Vergütung für Mecha-Einsätze
 16982,STARTBEREIT
 16983,MECHA-EINSATZ
@@ -15724,10 +15736,21 @@ Für die Höchstwertung wird empfohlen, von  in der  Ausrüstung mit der benöti
 17002, Klasse D-Missionen
 17003, Klasse C-Missionen
 17004, Klasse B-Missionen
+17005,Zielauswahl
+17006,
+17007,Abflug
+17008,Zufällige Instanz
+17009,Bestimmte Instanz
+17010,ANKÜNDIGUNG
 17011,Bewertung:
 17012,NQ = UNKNOWN Pkt
 17013,Normal = UNKNOWN Pkt
 17014,Verbleibende Annahmezeit:  UNKNOWN Min. UNKNOWN Sek.
+17015,Zum ausgewählten Ziel reisen?
+17016,"Um das Zielgebiet zu entlasten, wurde es in mehrere Instanzen gleichen Inhalts aufgeteilt. Wird keine Instanz festgelegt, so wird zufällig eine Instanz ausgewählt.
+
+Mit der Reise fortfahren?"
+17017,"Es können keine Details angezeigt werden, da diese Mission Teil eines anderen Erkundungsareals ist. "
 17018,Einstellungen
 17019,Nachricht vom Projektkomitee
 17020,Schließen
@@ -15752,7 +15775,7 @@ St. UNKNOWN"
 17052, 
 17053,Einstellungen für Ausrüstung am Kopf
 17054,Ohren trotz Kopfbedeckung anzeigen (wenn möglich)
-17110,Einstellungen für Chat-Sprechblasen
+17110,EINSTELLUNGEN FÜR CHAT-SPRECHBLASEN
 17111,
 17112,Einstellungen nach Modus
 17113,Allgemeine Einstellungen

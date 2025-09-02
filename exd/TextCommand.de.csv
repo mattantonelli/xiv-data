@@ -3338,9 +3338,15 @@ VERWENDUNG:
 → Du genießt einen Becher limsischen Kinderpunsches.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/limsischerschluck,,/lominsangulp,,0,293,2,1,2,0,0
+705,"/lockern, /limberup, /limber
+VERWENDUNG:
+/lockern [Unterbefehl]
+→ Du dehnst und lockerst deine Muskeln.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/lockern,,/limberup,/limber,0,293,2,1,2,0,0
 708,"/beschwingtnotieren, /pen
 VERWENDUNG:
 /beschwingtnotieren [Unterbefehl]
-→ Du machst die mit deiner Feder ein paar Notizen.
+→ Du machst dir mit deiner Feder ein paar Notizen.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/beschwingtnotieren,,/pen,,0,293,2,1,2,0,0

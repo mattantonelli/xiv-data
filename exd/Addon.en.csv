@@ -15406,6 +15406,13 @@ Only the Main Rightsholder can remove characters from the list."
 16467,
 16481,You may not undertake this exercise as your current class/job.
 16482,Casting
+16551,Green Aetherwell
+16552,Red Aetherwell
+16553,Blue Aetherwell
+16554,Yellow Aetherwell
+16555,Aetherwell Array
+16556,
+16557,
 16580,
 16581,
 16582,
@@ -15705,6 +15712,7 @@ Are you certain you wish to proceed?"
 16877,Infrastructure Index
 16878,
 16879,Lunar Development Initiative
+16880,Phaenna Development Initiative
 16883,Current Progress: UNKNOWN pending further development via stellar missions.
 16884,Current Progress: Project preparations underway. Please stand by for recruitment opportunities.
 16885,Current Progress: Facility construction underway.
@@ -15728,6 +15736,7 @@ Gold Star Requirement: 0"
 16901,Silver Star Requirement: 00:00 remaining
 16902,Gold Star Requirement: 00:00 remaining
 16903,???
+16904,Phaenna
 16907,Average Item Level: UNKNOWN
 16908,Supplies
 16909,Collectability:
@@ -15775,7 +15784,9 @@ Gold Star Requirement: 0"
 16950,Max.
 16951,Sinus Ardorum
 16952,novice level
+16953,intermediate level
 16956,lunar development initiative
+16957,Phaenna development initiative
 16960,Display guide.
 16961,Display guide.
 16962,There are no missions available.
@@ -15794,6 +15805,7 @@ Gold Star Requirement: 0"
 16975,Mech Ops Underway: UNKNOWN:00
 16976,Clear Time
 16977, UNKNOWN:00
+16978,Phaenna
 16981,Mech Pilot Reward
 16982,PREPARE FOR LAUNCH
 16983,MECH OP INITIATED
@@ -15828,10 +15840,21 @@ Would you like to view the Exploration Guide?"
 17002,class D missions
 17003,class C missions
 17004,class B missions
+17005,Select Destination
+17006,
+17007,Blast Off!
+17008,Blast Off!
+17009,Specify Instance
+17010,ANNOUNCEMENT
 17011,Scored Value:
 17012,　NQ = UNKNOWN pts
 17013,　Average-sized = UNKNOWN pts
 17014,Time Remaining:  UNKNOWN minute UNKNOWN second
+17015,Travel to the selected destination?
+17016,"To reduce congestion, the destination you are about to travel to has been divided into multiple identical instances.
+
+Proceed without specifying an instance?"
+17017,Data unavailable for pending missions on other stars.
 17018,Settings
 17019,A Message from the Cosmic Exploration Initiative
 17020,Close

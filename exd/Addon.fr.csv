@@ -15564,6 +15564,13 @@ MNO/INV/MRG"
 16481,"Impossible d'effectuer cet exercice 
 dans la classe ou le job actuel."
 16482,Lancement
+16551,Orbe magique vert
+16552,Orbe magique rouge
+16553,Orbe magique bleu
+16554,Orbe magique jaune
+16555,Magi sphérier
+16556,
+16557,
 16580,
 16581,
 16582,
@@ -15872,6 +15879,7 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par­ti­ci­pa�
 16877,Registre du projet
 16878,
 16879,Programme de développement de la station sélénienne
+16880,Programme de développement de Phaenna
 16883,Progression : UNKNOWN en cours via par­ti­ci­pa­tion aux missions cosmiques
 16884,"Progression : ouvrage collectif en cours de préparation, recrutement de volontaires à prévoir"
 16885,Progression : con­struc­tion d'une installation débutée
@@ -15893,6 +15901,7 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par­ti­ci­pa�
 16901,Rang argent : 00:00 restantes
 16902,Rang or : 00:00 restantes
 16903,???
+16904,Phaenna
 16907,Nv objet moyen : UNKNOWN ou plus
 16908,Matériaux
 16909,Valeur de collection :
@@ -15940,7 +15949,9 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par­ti­ci­pa�
 16950,Max
 16951,Sinus Ardorum
 16952,niveau novice
+16953,niveau intermédiaire
 16956,développement de la station
+16957,développement de Phaenna
 16960,Afficher l'aide
 16961,Afficher l'aide
 16962,Aucune mission disponible.
@@ -15960,6 +15971,7 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par­ti­ci­pa�
 Temps restant : UNKNOWNm00s"
 16976,Temps réalisé
 16977, UNKNOWN:00
+16978,Phaenna
 16981,Vous pouvez obtenir ces récompenses lorsque vous pilotez un robot.
 16982,PARÉ AU LANCEMENT
 16983,INTERVENTION MÉCANIQUE
@@ -15993,10 +16005,22 @@ Voulez-vous consulter la page d'aide et obtenir plus de détails ?"
 17002,missions de classe D
 17003,missions de classe C
 17004,missions de classe B
+17005,Sélection de destination
+17006,
+17007,Se déplacer
+17008,Instance automatique
+17009,Choix de l'instance
+17010,ANNONCE
 17011,Évaluation :
 17012,QN = UNKNOWN pts
 17013,Taille normale = UNKNOWN pts
 17014,Temps restant :   UNKNOWNmUNKNOWNs
+17015,Voulez-vous vous rendre à la destination sé­lec­tion­née ?
+17016,"La destination sé­lec­tion­née est divisée en plusieurs instances pour éviter une surcharge.
+L'instance sera choisie au­to­ma­ti­que­ment. Continuer ?
+(Elles sont toutes identiques en contenu.)"
+17017,"Impossible d'afficher les détails.
+Cette mission est pour une autre zone d'exploration."
 17018,Paramètres
 17019,Annonces concernant l'exploration cosmique
 17020,Fermer
