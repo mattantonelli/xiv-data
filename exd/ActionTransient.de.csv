@@ -23788,7 +23788,7 @@ Bei Ausführung werden alle **Meditationsebenen** verbraucht.
 Bedingung: mindestens 1 **Meditationsebene**"
 18930,"Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 800
-Zusatzeffekt bei **Menuett des Wanderers** oder **Hymne der Krieger**: Erhöht den Seelenstimmenbalken mit jedem Treffer um 10."
+Zusatzeffekt bei **Menuett des Wanderers** oder **Hymne der Krieger**: Erhöht den Seelenstimmen-Balken mit jedem Treffer um 10."
 18931,"Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 600 bis 1.800
 Attacke-Wert steigt, je mehr LP das Ziel noch hat."
@@ -28627,7 +28627,7 @@ Dauer: 15 Sekunden"
 23280,"Du verringerst erlittenen Schaden um 20 %.
 Dauer: 15 Sekunden
 Zusatzeffekt bei **Äther-Mimikry: Verteidiger**: Wirkung der Schadensreduktion erhöht sich auf 40 %.
-Gemeinsamer Reaktivierungs-Timer mit **Engelsspeise** und **Matra-Magie**"
+Gemeinsamer Reaktivierungs-Timer mit **Engelspeise** und **Matra-Magie**"
 23281,"Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 50
 Zusatzeffekt: Schaden über Zeit
@@ -28649,7 +28649,7 @@ Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %."
 23285,"Du führst eine achtfache elementneutrale magische Attacke auf das Ziel aus.
 Attacke-Wert: 50
 Attacke-Wert bei **Äther-Mimikry: Angreifer**: 100
-Gemeinsamer Reaktivierungs-Timer mit **Engelsspeise** und **Drachenkraft**"
+Gemeinsamer Reaktivierungs-Timer mit **Engelspeise** und **Drachenkraft**"
 23286,"Du führst eine elementneutrale physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 220
 Zusatzeffekt: Fügt dem Ziel **Auf wackeligen Beinen** zu.
@@ -35774,7 +35774,7 @@ Zusatzeffekt: Ausgeteilter Schaden der Ziele um 10 % verringert.
 Dauer: 10 Sekunden"
 29081,"Du ziehst das Ziel blitzschnell zu dir.
 Zusatzeffekt: Ziel erleidet 75 % **Gewicht**.
-Dauer: 3 Sekunden
+Dauer: 2 Sekunden
 Zusatzeffekt: Gewährt dir **Inneres Chaos**.
 Dauer: 15 Sekunden
 Ändert sich bei Ausführung zu **Inneres Chaos**."
@@ -35867,7 +35867,7 @@ Dauer: 2 Sekunden
 Kann nicht im Kommandomenü angelegt werden."
 29096,
 29097,"Du opferst alle deine LP bis auf 1 und führst eine physische Attacke auf alle Gegner in gerader Linie vor und hinter dir aus.
-Attacke-Wert: 12.000 bis 24.000
+Attacke-Wert: 8.000 bis 24.000
 Attacke-Wert umso höher, je mehr LP du bei Ausführung des Kommandos hast.
 Zusatzeffekt: **Untote Erlösung**
 Dauer: 10 Sekunden
@@ -36068,7 +36068,7 @@ Attacke-Wert: 2.000
 Zusatzeffekt: **Ohne Gnade**
 Dauer: 7 Sekunden
 Effekt von **Ohne Gnade**: Dein ausgeteilter Schaden und die Wirkung deiner Heileffekte sind um 10 % und deine Be­we­gungs­ge­schwin­dig­keit ist um 25 % erhöht.
-Maximale Aufladungen: 2
+Maximale Aufladungen: 3
 Kann nicht während **Fessel** ausgeführt werden."
 29124,"Du ziehst Magie aus dir selbst und verringerst den ausgeteilten Schaden sowie die gewirkte Heilung des Ziels um 25 %.
 Dauer: 6 Sekunden
@@ -36234,7 +36234,7 @@ Dauer: 20 Sekunden
 Während **Vitaga bereit** ändert sich **Vitra** zu **Vitaga**.
 Kann nicht während **Fessel** ausgeführt werden."
 29230,"Du führst eine magische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: 16.000
+Attacke-Wert: 18.000
 Zusatzeffekt: **Betäubung**
 Dauer: 2 Sekunden
 Zusatzeffekt: **Linderung**
@@ -36374,7 +36374,7 @@ Eigener Reaktivierungs-Timer"
 29254,"Du beendest den Effekt von **Makrokosmos** auf den Zielen und regenerierst ihre LP.
 Heilpotenzial: 4.000 plus 20 % des angesammelten Schadens
 Kann nicht im Kommandomenü angelegt werden."
-29255,"Du erhöhst den ausgeteilten Schaden sowie die gewirkte Heilung von dir und umstehenden Grup­pen­mit­gliedern um 30 % und verringerst den ausgeteilten Schaden sowie die gewirkte Heilung der umstehenden Gegner um 30 %.
+29255,"Du erhöhst den ausgeteilten Schaden sowie die gewirkte Heilung von dir und umstehenden Grup­pen­mit­gliedern um 30 % und verringerst den ausgeteilten Schaden der umstehenden Gegner um 30 %.
 Die Wirkung wird alle 5 Sekunden um 10 % verringert.
 Dauer: 15 Sekunden.
 Zusatzeffekt: Gewährt dir **Auge des Orakels**.
@@ -36402,7 +36402,7 @@ Eigener Reaktivierungs-Timer"
 29259,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 10.000
 Zusatzeffekt: **Fessel**
-Dauer: 3 Sekunden
+Dauer: 2 Sekunden
 Zusatzeffekt: Zieht die umstehenden Gegner näher zum Hauptziel.
 Eigener Reaktivierungs-Timer"
 29260,"Du führst eine magische Attacke auf alle Gegner in gerader Linie vor dir aus.
@@ -37663,9 +37663,9 @@ Zusatzeffekt: Alle dem Ziel umstehenden Gegner werden 5y vom Ziel zurückgeschle
 Bedingung: **Zinnoberfeuer** aktiv
 Kann nicht im Kommandomenü angelegt werden."
 29669,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 8.000
+Attacke-Wert: 9.000
 Zusatzeffekt gegen Gegner: Schaden über Zeit
-Attacke-Wert: 4.000
+Attacke-Wert: 4.500
 Dauer: 6 Sekunden
 Zusatzeffekt für Verbündete: Erhöht die Be­we­gungs­ge­schwin­dig­keit von dir selbst und Grup­pen­mit­gliedern im Bereich um 25 %.
 Dauer: 6 Sekunden
@@ -48799,7 +48799,7 @@ Zusatzeffekt: Gewährt dir **Ruf der Ahnen** und erhöht deine Be­we­gungs­ge
 Dauer: 20 Sekunden
 Während **Ruf der Ahnen** aktiv ist, ändert sich **Kombo Gebleckte Fänge** zu **Erstes Blut** und **Labender Otterngriff** zu **Ouroboros**.
 Zusatzeffekt: **Viperngift**
-Dauer: 10 Sekunden
+Dauer: 12 Sekunden
 Effekt von **Viperngift**: Eigener Schaden beim Ziel ist um 25 % erhöht.
 Zusatzeffekt: Ziele erleiden 75 % **Gewicht**.
 Dauer: 5 Sekunden
@@ -51919,7 +51919,7 @@ Dauer: 60 Sekunden"
 41657,
 41658,"Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 12.000
-Schaden auf umliegende Gegner verringert sich ab einer Distanz von 3y vom Ziel um einen Wert von 8000.
+Schaden auf umliegende Gegner verringert sich ab einer Distanz von 3y vom Ziel auf 8.000.
 Kombo-Bedingung: **Phlegma III**
 Kann nicht im Kommandomenü angelegt werden."
 41659,
@@ -54558,7 +54558,7 @@ Effekt endet bei erneuter Ausführung oder nächstem Kommando."
 44244,
 44245,
 44246,
-44247,
+44247,Stellt einen Teil deiner LP wieder her.
 44248,
 44249,
 44250,
@@ -54803,7 +54803,7 @@ Effekt endet bei erneuter Ausführung oder nächstem Kommando."
 44489,
 44490,
 44491,
-44492,
+44492,Macht die Ver­wand­lung rückgängig.
 44493,
 44494,
 44495,
@@ -54827,7 +54827,8 @@ Effekt endet bei erneuter Ausführung oder nächstem Kommando."
 44513,
 44514,
 44515,
-44516,
+44516,"Erzeugt Blumen aus Schnee.
+(Nur visueller Effekt, keine Wirkung.)"
 44517,Lässt zauberhafte Süßigkeiten regnen.
 44518,Ein Gruß vom angesauerten Impresario an seine Imps.
 44519,"Lässt zauberhafte Süßigkeiten regnen.
@@ -54941,8 +54942,8 @@ Effekt endet bei erneuter Ausführung oder nächstem Kommando."
 44625,
 44626,
 44627,
-44628,
-44629,
+44628,Du schnellst 25 Yalme nach vorne und fügst allen Zielen auf deinem Weg Schaden zu.
+44629,Fügt den Gegnern in deiner Nähe Schaden zu.
 44630,
 44631,
 44632,

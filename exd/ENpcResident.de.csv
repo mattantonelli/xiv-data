@@ -50160,10 +50160,10 @@
 1050158,,,,0,0,0,1,0,0,4,False
 1050159,,,,0,0,0,0,0,0,0,False
 1050160,,,,0,0,0,0,0,0,0,False
-1050161,,,,0,0,0,0,0,0,0,False
-1050162,,,,0,0,0,0,0,0,0,False
-1050163,,,,0,0,0,0,0,0,0,False
-1050164,,,,0,0,0,0,0,0,0,False
+1050161,,,,0,0,0,1,0,0,4,False
+1050162,,,,0,0,0,1,0,0,4,False
+1050163,,,,0,0,0,1,0,0,4,False
+1050164,,,,0,0,0,1,0,0,4,False
 1050165,,,,0,0,0,0,0,0,0,False
 1050166,,,,0,0,0,0,0,0,0,False
 1050167,,,,0,0,0,0,0,0,0,False
@@ -53948,7 +53948,7 @@
 1053946,Beaudefoin,NONE,,3,1,0,0,0,1,3,False
 1053947,Hildelana,NONE,,3,1,0,0,1,1,3,False
 1053948,besorgt[a] Badegast,besorgt[a] Badegäste,,4,2,0,1,0,0,3,False
-1053949,R'Fhul Tia,NONE,,3,1,0,0,0,1,3,False
+1053949,R'fhul Tia,NONE,,3,1,0,0,0,1,3,False
 1053950,R'majha,NONE,,3,1,0,0,1,1,3,False
 1053951,,,,0,0,0,1,0,0,5,False
 1053952,hibbelig[a] Badegästin,hibbelig[a] Badegästinnen,,3,1,0,1,1,0,3,False
@@ -54035,13 +54035,13 @@
 1054033,T'zanza,NONE,,3,1,0,0,1,1,4,False
 1054034,Beaudefoin,NONE,,3,1,0,0,0,1,4,False
 1054035,Hildelana,NONE,,3,1,0,0,1,1,4,False
-1054036,R'Fhul Tia,NONE,,3,1,0,0,0,1,4,False
+1054036,R'fhul Tia,NONE,,3,1,0,0,0,1,4,False
 1054037,Rückkehrer[p] aus Tuliyollal,Rückkehrer[p] aus Tuliyollal,,4,2,0,1,0,0,4,False
 1054038,,,,0,0,0,1,0,0,4,False
 1054039,,,,0,0,0,0,0,0,0,False
 1054040,,,,0,0,0,0,0,0,0,False
 1054041,,,,0,0,0,1,0,0,4,False
-1054042,,,,0,0,0,0,0,0,0,False
+1054042,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,4,False
 1054043,Sphene,NONE,,3,1,0,0,1,1,4,False
 1054044,Sphene,NONE,,3,1,0,0,1,1,4,False
 1054045,,,,0,0,0,1,0,0,4,False
@@ -54061,7 +54061,7 @@
 1054059,,,,0,0,0,1,0,0,5,False
 1054060,,,,0,0,0,1,0,0,5,False
 1054061,T'zanza,NONE,,3,1,0,0,1,1,3,False
-1054062,R'Fhul Tia,NONE,,3,1,0,0,0,1,3,False
+1054062,R'fhul Tia,NONE,,3,1,0,0,0,1,3,False
 1054063,R'majha,NONE,,3,1,0,0,1,1,3,False
 1054064,Beaudefoin,NONE,,3,1,0,0,0,1,3,False
 1054065,Hildelana,NONE,,3,1,0,0,1,1,3,False
@@ -54185,9 +54185,9 @@
 1054183,,,,0,0,0,1,0,0,4,False
 1054184,,,,0,0,0,1,0,0,4,False
 1054185,,,,0,0,0,1,0,0,4,False
-1054186,,,,0,0,0,0,0,0,0,False
-1054187,,,,0,0,0,0,0,0,0,False
-1054188,,,,0,0,0,0,0,0,0,False
+1054186,Palico[p] auf Reisen,Palicos[p] auf Reisen,,4,1,0,1,0,0,4,False
+1054187,,,,0,0,0,1,0,0,4,False
+1054188,,,,0,0,0,1,0,0,4,False
 1054189,,,,0,0,0,1,0,0,4,False
 1054190,,,,0,0,0,0,0,0,0,False
 1054191,,,,0,0,0,0,0,0,0,False
@@ -54195,28 +54195,28 @@
 1054193,,,,0,0,0,1,0,0,4,False
 1054194,,,,0,0,0,1,0,0,4,False
 1054195,,,,0,0,0,1,0,0,4,False
-1054196,,,,0,0,0,0,0,0,0,False
+1054196,,,,0,0,0,1,0,0,4,False
 1054197,,,,0,0,0,0,0,0,0,False
 1054198,,,,0,0,0,0,0,0,0,False
 1054199,,,,0,0,0,0,0,0,0,False
 1054200,,,,0,0,0,0,0,0,0,False
-1054201,,,,0,0,0,0,0,0,0,False
-1054202,,,,0,0,0,0,0,0,0,False
-1054203,,,,0,0,0,0,0,0,0,False
-1054204,,,,0,0,0,0,0,0,0,False
-1054205,,,,0,0,0,0,0,0,0,False
-1054206,,,,0,0,0,0,0,0,0,False
-1054207,,,,0,0,0,0,0,0,0,False
-1054208,,,,0,0,0,0,0,0,0,False
-1054209,,,,0,0,0,0,0,0,0,False
-1054210,,,,0,0,0,0,0,0,0,False
-1054211,,,,0,0,0,0,0,0,0,False
-1054212,,,,0,0,0,0,0,0,0,False
-1054213,,,,0,0,0,0,0,0,0,False
+1054201,,,,0,0,0,1,0,0,4,False
+1054202,ungehobelt[a] Rüpel,ungehobelt[a] Rüpel,,4,2,0,1,0,0,4,False
+1054203,dreist[a] Revolverheldin,dreist[a] Revolverheldinnen,,3,1,0,1,1,0,4,False
+1054204,,,,0,0,0,1,0,0,4,False
+1054205,,,,0,0,0,1,0,0,4,False
+1054206,randalierend[a] Cauahealoa,randalierend[a] Cauahealoas,,3,1,0,1,0,0,4,False
+1054207,Carnelian,Carnelian,,3,1,0,0,0,1,4,False
+1054208,Kemakka,Kemakka,,3,1,0,0,0,1,4,False
+1054209,,,,0,0,0,1,0,0,4,False
+1054210,,,,0,0,0,1,0,0,4,False
+1054211,,,,0,0,0,1,0,0,4,False
+1054212,,,,0,0,0,1,0,0,4,False
+1054213,,,,0,0,0,1,0,0,4,False
 1054214,,,,0,0,0,1,0,0,4,False
 1054215,weinend[a] Kind,weinend[a] Kinder,,4,2,0,1,2,0,4,False
 1054216,verängstigt[a] Kind,verängstigt[a] Kinder,,4,2,0,1,2,0,4,False
-1054217,umsichtig[a] Kind,umsichtig[a] Kinder,,4,2,0,1,2,0,4,False
+1054217,unsicher[a] Kind,unsicher[a] Kinder,,4,2,0,1,2,0,4,False
 1054218,ominös[a] Bedienstet[a],ominös[a] Bedienstet[a],Domizil der Kürbishexe,3,1,0,1,0,0,4,False
 1054219,Joultain,NONE,,3,1,0,0,0,1,4,False
 1054220,klug[a] Mädchen,klug[a] Mädchen,,4,1,0,1,2,0,4,False
@@ -54230,14 +54230,14 @@
 1054228,,,,0,0,0,0,0,0,0,False
 1054229,,,,0,0,0,0,0,0,0,False
 1054230,,,,0,0,0,0,0,0,0,False
-1054231,,,,0,0,0,0,0,0,0,False
-1054232,,,,0,0,0,0,0,0,0,False
-1054233,,,,0,0,0,0,0,0,0,False
-1054234,,,,0,0,0,0,0,0,0,False
-1054235,,,,0,0,0,0,0,0,0,False
-1054236,,,,0,0,0,0,0,0,0,False
-1054237,,,,0,0,0,0,0,0,0,False
-1054238,,,,0,0,0,0,0,0,0,False
+1054231,,,,0,0,0,1,0,0,4,False
+1054232,Fahrafahr,NONE,,3,1,0,0,1,1,4,False
+1054233,Ryoqor Terteh,Ryoqor Terteh,,3,1,0,0,0,1,4,False
+1054234,Rorrlo Teh,Rorrlo Teh,,3,1,0,1,0,0,4,False
+1054235,schaffend[a] Steinwächter,schaffend[a] Steinwächter,,4,2,0,1,0,0,4,False
+1054236,Girzorhor,NONE,,3,1,0,0,0,1,4,False
+1054237,Kurburlur,NONE,,3,1,0,0,0,1,4,False
+1054238,,,,0,0,0,1,0,0,4,False
 1054239,durchdrehend[a] Bewohner,durchdrehend[a] Bewohner,,4,2,0,1,0,0,4,False
 1054240,,,,0,0,0,0,0,0,0,False
 1054241,,,,0,0,0,0,0,0,0,False
@@ -54249,10 +54249,10 @@
 1054247,,,,0,0,0,0,0,0,0,False
 1054248,,,,0,0,0,0,0,0,0,False
 1054249,,,,0,0,0,0,0,0,0,False
-1054250,,,,0,0,0,0,0,0,0,False
-1054251,,,,0,0,0,0,0,0,0,False
-1054252,,,,0,0,0,0,0,0,0,False
-1054253,,,,0,0,0,0,0,0,0,False
+1054250,Aenc Daen,NONE,,3,1,0,0,0,1,4,False
+1054251,Ose Wyd,Ose Wyd,,3,1,0,0,1,1,4,False
+1054252,Vanthau,Vanthau,,3,1,0,0,0,1,4,False
+1054253,Tyr Marn,Tyr Marn,,3,1,0,0,1,1,4,False
 1054254,,,,0,0,0,1,0,0,4,False
 1054255,,,,0,0,0,0,0,0,0,False
 1054256,,,,0,0,0,0,0,0,0,False
@@ -54267,15 +54267,15 @@
 1054265,Phasingway,NONE,,3,1,0,0,0,1,4,False
 1054266,Y'adebh,NONE,,3,1,0,0,1,1,4,False
 1054267,Jasper,NONE,,3,1,0,0,0,1,4,False
-1054268,,,,0,0,0,0,0,0,0,False
+1054268,Tonawawta-Wache,Tonawawta-Wachen,,3,1,0,1,1,0,4,False
 1054269,Sternenläufer-Mechanikerin,Sternenläufer-Mechanikerinnen,,3,1,0,1,1,0,4,False
 1054270,,,,0,0,0,1,0,0,4,False
 1054271,,,,0,0,0,1,0,0,4,False
 1054272,Mitglied[p] des Vergessens,Mitglieder[p] des Vergessens,,4,2,0,1,2,0,4,False
 1054273,Mitglied[p] des Vergessens,Mitglieder[p] des Vergessens,,4,2,0,1,2,0,4,False
-1054274,,,,0,0,0,0,0,0,0,False
+1054274,Wurfurtar,NONE,,3,1,0,0,1,1,4,False
 1054275,Wuk Lamat,NONE,,3,1,0,0,1,1,4,False
-1054276,,,,0,0,0,0,0,0,0,False
+1054276,,,,0,0,0,1,0,0,4,False
 1054277,,,,0,0,0,0,0,0,0,False
 1054278,,,,0,0,0,0,0,0,0,False
 1054279,,,,0,0,0,0,0,0,0,False
@@ -54380,8 +54380,8 @@
 1054378,Sternenlichtfest-Verwalter,Sternenlichtfest-Verwalter,,4,2,0,1,0,0,3,True
 1054379,Sternenlichtfest-Verwalter,Sternenlichtfest-Verwalter,,4,2,0,1,0,0,3,True
 1054380,Baenfaeld,NONE,,3,1,0,0,0,1,3,False
-1054381,Klein[a] Helferlein,Klein[a] Helferlein,SEASONAL,4,1,0,1,2,0,3,False
-1054382,Klein[a] Helferlein,Klein[a] Helferlein,SEASONAL,4,1,0,1,2,0,3,False
+1054381,Klein[a] Helferlein,Klein[a] Helferlein,Saisonales Geschäft,4,1,0,1,2,0,3,False
+1054382,Klein[a] Helferlein,Klein[a] Helferlein,Saisonales Geschäft,4,1,0,1,2,0,3,False
 1054383,Klein[a] Helferlein,Klein[a] Helferlein,Saisonales Geschäft,4,1,0,1,2,0,3,True
 1054384,Klein[a] Helferlein,Klein[a] Helferlein,Saisonales Geschäft,4,1,0,1,2,0,3,True
 1054385,Krämer,Krämer,,4,2,0,1,0,0,3,True
@@ -54464,39 +54464,39 @@
 1054462,,,,0,0,0,1,0,0,2,False
 1054463,,,,0,0,0,1,0,0,2,False
 1054464,,,,0,0,0,1,0,0,2,False
-1054465,,,,0,0,0,0,0,0,0,False
-1054466,,,,0,0,0,0,0,0,0,False
-1054467,,,,0,0,0,0,0,0,0,False
-1054468,,,,0,0,0,0,0,0,0,False
-1054469,,,,0,0,0,0,0,0,0,False
-1054470,,,,0,0,0,0,0,0,0,False
-1054471,,,,0,0,0,0,0,0,0,False
-1054472,,,,0,0,0,0,0,0,0,False
-1054473,,,,0,0,0,0,0,0,0,False
-1054474,,,,0,0,0,0,0,0,0,False
-1054475,,,,0,0,0,0,0,0,0,False
-1054476,,,,0,0,0,0,0,0,0,False
+1054465,Kundschafter[p] der Goldenen Jagd,Kundschafter[p] der Goldenen Jagd,,4,2,0,1,0,0,3,False
+1054466,Palico[p] auf Reisen,Palicos[p] auf Reisen,,4,1,0,1,0,0,3,False
+1054467,Saikrii,Saikrii,,4,1,0,1,0,0,3,False
+1054468,,,,0,0,0,1,0,0,5,False
+1054469,Palico[p] auf Reisen,Palicos[p] auf Reisen,,4,1,0,1,0,0,3,False
+1054470,Saikrii,Saikrii,,4,1,0,1,0,0,3,False
+1054471,Palico[p] auf Reisen,Palicos[p] auf Reisen,,4,1,0,1,0,0,3,False
+1054472,Saikrii,Saikrii,,4,1,0,1,0,0,3,False
+1054473,Schmied,Schmiede,Monsterteile und mehr,4,2,0,1,0,0,3,True
+1054474,,,,0,0,0,1,0,0,2,False
+1054475,,,,0,0,0,1,0,0,2,False
+1054476,,,,0,0,0,1,0,0,2,False
 1054477,verdächtig[a] Verkäuferin,verdächtig[a] Verkäuferinnen,Saisonales Geschäft,3,1,0,1,1,0,3,True
 1054478,Zirkusausruferin,Zirkusausruferinnen,,3,1,0,1,1,0,3,True
 1054479,Zirkusausruferin,Zirkusausruferinnen,,3,1,0,1,1,0,3,True
 1054480,Zirkusausruferin,Zirkusausruferinnen,,3,1,0,1,1,0,3,True
 1054481,Kostümparty-Concierge,Kostümparty-Concierges,Wache,3,1,0,1,0,0,3,True
 1054482,ominös[a] Bedienstet[a],ominös[a] Bedienstet[a],Domizil der Kürbishexe,3,1,0,1,0,0,3,True
-1054483,Kürbishexe,Kürbishexen,,3,2,0,1,0,0,3,False
+1054483,Kürbishexe,Kürbishexen,,3,1,0,1,1,0,3,False
 1054484,Kostümparty-Concierge,Kostümparty-Concierges,Wache,3,1,0,1,0,0,3,False
 1054485,Impresario,Impresarios,,4,1,0,1,0,0,3,False
 1054486,schleimig[a] Schelm,schleimig[a] Schelme,,4,2,0,1,0,0,3,False
 1054487,Zauberpott,Zauberpötte,,4,2,0,1,0,0,3,False
-1054488,ängstlich[a] Akrobat,ängstlich[a] Akrobaten,,1,1,0,1,0,0,3,False
+1054488,ängstlich[a] Akrobat,ängstlich[a] Akrobaten,,6,1,0,1,0,0,3,False
 1054489,bibbernd[a] Besucher,bibbernd[a] Besucher,,4,2,0,1,0,0,3,False
 1054490,verwirrt[a] Kind,verwirrt[a] Kinder,,2,2,0,1,2,0,3,False
 1054491,Gildengärtner,Gildengärtner,,4,2,0,1,0,0,3,False
 1054492,,,,0,0,0,1,0,0,5,False
 1054493,schleimig[a] Schelm,schleimig[a] Schelme,,4,2,0,1,0,0,3,False
 1054494,Zauberpott,Zauberpötte,,4,2,0,1,0,0,3,False
-1054495,ängstlich[a] Akrobat,ängstlich[a] Akrobaten,,1,1,0,1,0,0,3,False
+1054495,ängstlich[a] Akrobat,ängstlich[a] Akrobaten,,6,1,0,1,0,0,3,False
 1054496,Impresario,Impresarios,,4,1,0,1,0,0,3,False
-1054497,,,,0,0,0,0,0,0,0,False
+1054497,Chocobo[p](?),Chocobos[p](?),,4,1,0,1,0,0,3,False
 1054498,Sphene,NONE,,3,1,0,0,1,1,3,False
 1054499,Krile,NONE,,3,1,0,0,1,1,3,False
 1054500,Geode,NONE,,3,1,0,0,0,1,3,False
@@ -54634,49 +54634,49 @@
 1054632,Alisaie,NONE,,3,1,0,0,1,1,3,False
 1054633,Y'shtola,NONE,,3,1,0,0,1,1,3,False
 1054634,Shale,NONE,,3,1,0,0,1,1,3,False
-1054635,,,,0,0,0,0,0,0,0,False
-1054636,,,,0,0,0,0,0,0,0,False
-1054637,,,,0,0,0,0,0,0,0,False
-1054638,,,,0,0,0,0,0,0,0,False
+1054635,Vuyargur,NONE,,3,1,0,0,0,1,3,False
+1054636,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054637,Rarkorgor,NONE,Yok Huy-Händler,3,1,0,0,0,1,3,True
+1054638,Worhemur,NONE,Reparatur,3,1,0,0,0,1,3,True
 1054639,Narvurgar,NONE,,3,1,0,0,0,1,3,False
-1054640,,,,0,0,0,0,0,0,0,False
-1054641,,,,0,0,0,0,0,0,0,False
-1054642,,,,0,0,0,0,0,0,0,False
-1054643,,,,0,0,0,0,0,0,0,False
-1054644,,,,0,0,0,0,0,0,0,False
-1054645,,,,0,0,0,0,0,0,0,False
-1054646,,,,0,0,0,0,0,0,0,False
-1054647,,,,0,0,0,0,0,0,0,False
-1054648,,,,0,0,0,0,0,0,0,False
-1054649,,,,0,0,0,0,0,0,0,False
-1054650,,,,0,0,0,0,0,0,0,False
-1054651,,,,0,0,0,0,0,0,0,False
-1054652,,,,0,0,0,0,0,0,0,False
-1054653,,,,0,0,0,0,0,0,0,False
-1054654,,,,0,0,0,0,0,0,0,False
-1054655,,,,0,0,0,0,0,0,0,False
-1054656,,,,0,0,0,0,0,0,0,False
-1054657,,,,0,0,0,0,0,0,0,False
-1054658,,,,0,0,0,0,0,0,0,False
-1054659,,,,0,0,0,0,0,0,0,False
-1054660,,,,0,0,0,0,0,0,0,False
-1054661,,,,0,0,0,0,0,0,0,False
-1054662,,,,0,0,0,0,0,0,0,False
-1054663,,,,0,0,0,0,0,0,0,False
-1054664,,,,0,0,0,0,0,0,0,False
-1054665,,,,0,0,0,0,0,0,0,False
-1054666,,,,0,0,0,0,0,0,0,False
-1054667,,,,0,0,0,0,0,0,0,False
-1054668,,,,0,0,0,0,0,0,0,False
-1054669,,,,0,0,0,0,0,0,0,False
-1054670,,,,0,0,0,0,0,0,0,False
-1054671,,,,0,0,0,0,0,0,0,False
-1054672,,,,0,0,0,0,0,0,0,False
-1054673,,,,0,0,0,0,0,0,0,False
-1054674,,,,0,0,0,0,0,0,0,False
-1054675,,,,0,0,0,0,0,0,0,False
-1054676,,,,0,0,0,0,0,0,0,False
-1054677,,,,0,0,0,0,0,0,0,False
+1054640,Narvurgar,NONE,Pfadwächter,3,1,0,0,0,1,3,True
+1054641,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054642,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054643,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054644,kräftig[a] Yok Huy,kräftig[a] Yok Huy,,3,1,0,1,0,0,3,False
+1054645,Yok Huy-Steinmetz,Yok Huy-Steinmetze,,2,2,0,1,0,0,3,False
+1054646,Vuyargur,NONE,,3,1,0,0,0,1,3,False
+1054647,Murfurlur ,NONE,,3,1,0,0,0,1,3,False
+1054648,Nopli,NONE,,3,1,0,0,0,1,3,False
+1054649,Wurfurtar,NONE,,3,1,0,0,0,1,3,False
+1054650,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054651,Girzorhor,NONE,,3,1,0,0,0,1,3,False
+1054652,Girzorhor,NONE,,3,1,0,0,0,1,3,False
+1054653,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054654,Kurburlur,NONE,,3,1,0,0,0,1,3,False
+1054655,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054656,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054657,schaffend[a] Steinwächter,schaffend[a] Steinwächter,,4,2,0,1,0,0,3,False
+1054658,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054659,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054660,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054661,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054662,Rorrlo Teh,Rorrlo Teh,,3,1,0,1,0,0,3,False
+1054663,Girzorhor,NONE,,3,1,0,0,0,1,3,False
+1054664,Kurburlur,NONE,,3,1,0,0,0,1,3,False
+1054665,Yok Huy[p] im Gespräch,Yok Huy[p] im Gespräch,,3,1,0,1,0,0,3,False
+1054666,wächterkundig[a] Yok Huy,wächterkundig[a] Yok Huy,,3,1,0,1,0,0,3,False
+1054667,fröhlich[a] Rorrlo Teh,fröhlich[a] Rorrlo Teh,,3,1,0,1,0,0,3,False
+1054668,strahlend[a] Rorrlo Teh,strahlend[a] Rorrlo Teh,,3,1,0,1,0,0,3,False
+1054669,vergnügt[a] Rorrlo Teh,vergnügt[a] Rorrlo Teh,,3,1,0,1,0,0,3,False
+1054670,Fahrafahr,NONE,,3,1,0,0,1,1,3,False
+1054671,Ryoqor Terteh,Ryoqor Terteh,,3,1,0,0,0,1,3,False
+1054672,Vuyargur,NONE,,3,1,0,0,0,1,3,False
+1054673,Kurburlur,NONE,,3,1,0,0,0,1,3,False
+1054674,Kurburlur,NONE,,3,1,0,0,0,1,3,False
+1054675,Rorrlo Teh,Rorrlo Teh,,3,1,0,1,0,0,3,False
+1054676,Garharlor,NONE,,3,1,0,0,0,1,3,False
+1054677,schneeschippend[a] Yok Huy,schneeschippend[a] Yok Huy,,3,1,0,1,0,0,3,False
 1054678,,,,0,0,0,0,0,0,0,False
 1054679,,,,0,0,0,0,0,0,0,False
 1054680,,,,0,0,0,0,0,0,0,False
@@ -54747,51 +54747,51 @@
 1054745,,,,0,0,0,0,0,0,0,False
 1054746,,,,0,0,0,0,0,0,0,False
 1054747,,,,0,0,0,0,0,0,0,False
-1054748,,,,0,0,0,0,0,0,0,False
-1054749,,,,0,0,0,0,0,0,0,False
-1054750,,,,0,0,0,0,0,0,0,False
-1054751,,,,0,0,0,0,0,0,0,False
-1054752,,,,0,0,0,0,0,0,0,False
-1054753,,,,0,0,0,0,0,0,0,False
-1054754,,,,0,0,0,0,0,0,0,False
-1054755,,,,0,0,0,0,0,0,0,False
-1054756,,,,0,0,0,0,0,0,0,False
-1054757,,,,0,0,0,0,0,0,0,False
-1054758,,,,0,0,0,0,0,0,0,False
-1054759,,,,0,0,0,0,0,0,0,False
-1054760,,,,0,0,0,0,0,0,0,False
-1054761,,,,0,0,0,0,0,0,0,False
-1054762,,,,0,0,0,0,0,0,0,False
-1054763,,,,0,0,0,0,0,0,0,False
-1054764,,,,0,0,0,0,0,0,0,False
-1054765,,,,0,0,0,0,0,0,0,False
-1054766,,,,0,0,0,0,0,0,0,False
-1054767,,,,0,0,0,0,0,0,0,False
-1054768,,,,0,0,0,0,0,0,0,False
-1054769,,,,0,0,0,0,0,0,0,False
-1054770,,,,0,0,0,0,0,0,0,False
-1054771,,,,0,0,0,0,0,0,0,False
-1054772,,,,0,0,0,0,0,0,0,False
-1054773,,,,0,0,0,0,0,0,0,False
-1054774,,,,0,0,0,0,0,0,0,False
-1054775,,,,0,0,0,0,0,0,0,False
-1054776,,,,0,0,0,0,0,0,0,False
-1054777,,,,0,0,0,0,0,0,0,False
-1054778,,,,0,0,0,0,0,0,0,False
-1054779,,,,0,0,0,0,0,0,0,False
-1054780,,,,0,0,0,0,0,0,0,False
-1054781,,,,0,0,0,0,0,0,0,False
-1054782,,,,0,0,0,0,0,0,0,False
-1054783,,,,0,0,0,0,0,0,0,False
-1054784,,,,0,0,0,0,0,0,0,False
-1054785,,,,0,0,0,0,0,0,0,False
-1054786,,,,0,0,0,0,0,0,0,False
-1054787,,,,0,0,0,0,0,0,0,False
-1054788,,,,0,0,0,0,0,0,0,False
-1054789,,,,0,0,0,0,0,0,0,False
-1054790,,,,0,0,0,0,0,0,0,False
-1054791,,,,0,0,0,0,0,0,0,False
-1054792,,,,0,0,0,0,0,0,0,False
+1054748,Mymond,Mymond,,3,1,0,0,0,1,3,False
+1054749,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054750,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054751,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
+1054752,,,,0,0,0,1,0,0,5,False
+1054753,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054754,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054755,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
+1054756,,,,0,0,0,1,0,0,5,False
+1054757,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054758,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054759,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
+1054760,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054761,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054762,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
+1054763,Tonawawta-Wache,Tonawawta-Wachen,,3,1,0,1,1,0,3,False
+1054764,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054765,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054766,,,,0,0,0,1,0,0,5,False
+1054767,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
+1054768,ungehobelt[a] Rüpel,ungehobelt[a] Rüpel,,4,2,0,1,0,0,3,False
+1054769,,,,0,0,0,1,0,0,5,False
+1054770,,,,0,0,0,1,0,0,5,False
+1054771,,,,0,0,0,1,0,0,5,False
+1054772,,,,0,0,0,1,0,0,5,False
+1054773,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054774,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054775,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054776,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054777,raubeinig[a] Bauer,raubeinig[a] Bauern,,4,1,0,1,0,0,3,False
+1054778,herzlich[a] Dorfbewohner,herzlich[a] Dorfbewohner,,4,2,0,1,0,0,3,False
+1054779,forsch[a] Frau,forsch[a] Frauen,,3,1,0,1,1,0,3,False
+1054780,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054781,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054782,Hildibrüh,Hildibrüh,,3,1,0,0,0,1,3,False
+1054783,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054784,lautstark[a] Nager,lautstark[a] Nager,,4,2,0,1,0,0,3,False
+1054785,,,,0,0,0,1,0,0,5,False
+1054786,Hildibrand,Hildibrand,,3,1,0,0,0,1,3,False
+1054787,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
+1054788,,,,0,0,0,1,0,0,5,False
+1054789,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
+1054790,,,,0,0,0,1,0,0,5,False
+1054791,,,,0,0,0,1,0,0,5,False
+1054792,Nashu Mhakaracca,Nashu Mhakaracca,,3,1,0,0,1,1,3,False
 1054793,,,,0,0,0,1,0,0,5,False
 1054794,Impresario,Impresarios,,4,1,0,1,0,0,3,False
 1054795,,,,0,0,0,0,0,0,0,False
@@ -54941,67 +54941,67 @@
 1054939,Wuk Lamat,NONE,,3,1,0,0,1,1,3,False
 1054940,Gulool Ja,NONE,,3,1,0,0,0,1,3,False
 1054941,Sphene,NONE,,3,1,0,0,1,1,3,False
-1054942,,,,0,0,0,0,0,0,0,False
-1054943,,,,0,0,0,0,0,0,0,False
-1054944,,,,0,0,0,0,0,0,0,False
-1054945,,,,0,0,0,0,0,0,0,False
-1054946,,,,0,0,0,0,0,0,0,False
-1054947,,,,0,0,0,0,0,0,0,False
-1054948,,,,0,0,0,0,0,0,0,False
-1054949,,,,0,0,0,0,0,0,0,False
-1054950,,,,0,0,0,0,0,0,0,False
-1054951,,,,0,0,0,0,0,0,0,False
-1054952,,,,0,0,0,0,0,0,0,False
-1054953,,,,0,0,0,0,0,0,0,False
-1054954,,,,0,0,0,0,0,0,0,False
-1054955,,,,0,0,0,0,0,0,0,False
-1054956,,,,0,0,0,0,0,0,0,False
-1054957,,,,0,0,0,0,0,0,0,False
-1054958,,,,0,0,0,0,0,0,0,False
-1054959,,,,0,0,0,0,0,0,0,False
-1054960,,,,0,0,0,0,0,0,0,False
-1054961,,,,0,0,0,0,0,0,0,False
-1054962,,,,0,0,0,0,0,0,0,False
-1054963,,,,0,0,0,0,0,0,0,False
-1054964,,,,0,0,0,0,0,0,0,False
-1054965,,,,0,0,0,0,0,0,0,False
-1054966,,,,0,0,0,0,0,0,0,False
-1054967,,,,0,0,0,0,0,0,0,False
-1054968,,,,0,0,0,0,0,0,0,False
-1054969,,,,0,0,0,0,0,0,0,False
-1054970,,,,0,0,0,0,0,0,0,False
-1054971,,,,0,0,0,0,0,0,0,False
-1054972,,,,0,0,0,0,0,0,0,False
-1054973,,,,0,0,0,0,0,0,0,False
-1054974,,,,0,0,0,0,0,0,0,False
-1054975,,,,0,0,0,0,0,0,0,False
-1054976,,,,0,0,0,0,0,0,0,False
-1054977,,,,0,0,0,0,0,0,0,False
-1054978,,,,0,0,0,0,0,0,0,False
-1054979,,,,0,0,0,0,0,0,0,False
-1054980,,,,0,0,0,0,0,0,0,False
-1054981,,,,0,0,0,0,0,0,0,False
-1054982,,,,0,0,0,0,0,0,0,False
-1054983,,,,0,0,0,0,0,0,0,False
-1054984,,,,0,0,0,0,0,0,0,False
-1054985,,,,0,0,0,0,0,0,0,False
-1054986,,,,0,0,0,0,0,0,0,False
-1054987,,,,0,0,0,0,0,0,0,False
-1054988,,,,0,0,0,0,0,0,0,False
-1054989,,,,0,0,0,0,0,0,0,False
-1054990,,,,0,0,0,0,0,0,0,False
-1054991,,,,0,0,0,0,0,0,0,False
-1054992,,,,0,0,0,0,0,0,0,False
-1054993,,,,0,0,0,0,0,0,0,False
-1054994,,,,0,0,0,0,0,0,0,False
+1054942,Vanthau,Vanthau,,3,1,0,0,0,1,3,True
+1054943,Tyr Marn,Tyr Marn,,3,1,0,0,1,1,3,True
+1054944,Ose Wyd,Ose Wyd,,3,1,0,0,1,1,3,True
+1054945,Aenc Daen,NONE,,3,1,0,0,0,1,3,True
+1054946,aufgeregt[a] Kind,aufgeregt[a] Kinder,,2,2,0,1,2,0,3,False
+1054947,ernst[a] Mutter,ernst[a] Mütter,,3,2,0,1,1,0,3,False
+1054948,eilig[a] Fuath,eilig[a] Fuath,,3,1,0,1,0,0,3,False
+1054949,Aenc Daen,NONE,,3,1,0,0,0,1,3,False
+1054950,Ose Wyd,Ose Wyd,,3,1,0,0,1,1,3,False
+1054951,Aenc Daen,NONE,,3,1,0,0,0,1,3,False
+1054952,,,,0,0,0,1,0,0,5,False
+1054953,,,,0,0,0,1,0,0,5,False
+1054954,,,,0,0,0,1,0,0,5,False
+1054955,,,,0,0,0,1,0,0,5,False
+1054956,,,,0,0,0,1,0,0,5,False
+1054957,,,,0,0,0,1,0,0,5,False
+1054958,,,,0,0,0,1,0,0,5,False
+1054959,,,,0,0,0,1,0,0,5,False
+1054960,,,,0,0,0,1,0,0,6,False
+1054961,,,,0,0,0,1,0,0,6,False
+1054962,,,,0,0,0,1,0,0,5,False
+1054963,,,,0,0,0,1,0,0,5,False
+1054964,,,,0,0,0,1,0,0,6,False
+1054965,,,,0,0,0,1,0,0,5,False
+1054966,,,,0,0,0,1,0,0,5,False
+1054967,,,,0,0,0,1,0,0,5,False
+1054968,,,,0,0,0,1,0,0,5,False
+1054969,,,,0,0,0,1,0,0,5,False
+1054970,,,,0,0,0,1,0,0,5,False
+1054971,,,,0,0,0,1,0,0,6,False
+1054972,,,,0,0,0,1,0,0,5,False
+1054973,,,,0,0,0,1,0,0,5,False
+1054974,,,,0,0,0,1,0,0,5,False
+1054975,,,,0,0,0,1,0,0,5,False
+1054976,,,,0,0,0,1,0,0,5,False
+1054977,,,,0,0,0,1,0,0,5,False
+1054978,,,,0,0,0,1,0,0,5,False
+1054979,,,,0,0,0,1,0,0,5,False
+1054980,,,,0,0,0,1,0,0,5,False
+1054981,,,,0,0,0,1,0,0,5,False
+1054982,Ryoqor Terteh,Ryoqor Terteh,,3,1,0,0,0,1,3,False
+1054983,,,,0,0,0,1,0,0,5,False
+1054984,,,,0,0,0,1,0,0,5,False
+1054985,,,,0,0,0,1,0,0,5,False
+1054986,,,,0,0,0,1,0,0,5,False
+1054987,,,,0,0,0,1,0,0,6,False
+1054988,,,,0,0,0,1,0,0,6,False
+1054989,,,,0,0,0,1,0,0,6,False
+1054990,,,,0,0,0,1,0,0,6,False
+1054991,Tokorzur,NONE,,3,1,0,0,0,1,3,False
+1054992,Girzorhor,NONE,,3,1,0,0,0,1,3,False
+1054993,Kurburlur,NONE,,3,1,0,0,0,1,3,False
+1054994,Bugardor,NONE,,3,1,0,0,0,1,3,False
 1054995,,,,0,0,0,1,0,0,3,False
 1054996,,,,0,0,0,0,0,0,0,False
-1054997,,,,0,0,0,0,0,0,0,False
-1054998,,,,0,0,0,0,0,0,0,False
-1054999,,,,0,0,0,0,0,0,0,False
-1055000,,,,0,0,0,0,0,0,0,False
-1055001,,,,0,0,0,0,0,0,0,False
-1055002,,,,0,0,0,0,0,0,0,False
+1054997,Vanthau,Vanthau,,3,1,0,0,0,1,3,False
+1054998,Tyr Marn,Tyr Marn,,3,1,0,0,1,1,3,False
+1054999,Aenc Daen,NONE,,3,1,0,0,0,1,3,False
+1055000,Ose Wyd,Ose Wyd,,3,1,0,0,1,1,3,False
+1055001,Vanthau,Vanthau,,3,1,0,0,0,1,3,False
+1055002,Tyr Marn,Tyr Marn,,3,1,0,0,1,1,3,False
 1055003,,,,0,0,0,0,0,0,0,False
 1055004,,,,0,0,0,0,0,0,0,False
 1055005,,,,0,0,0,0,0,0,0,False
@@ -55068,20 +55068,20 @@
 1055066,,,,0,0,0,0,0,0,0,False
 1055067,,,,0,0,0,0,0,0,0,False
 1055068,,,,0,0,0,0,0,0,0,False
-1055069,,,,0,0,0,0,0,0,0,False
-1055070,,,,0,0,0,0,0,0,0,False
-1055071,,,,0,0,0,0,0,0,0,False
-1055072,,,,0,0,0,0,0,0,0,False
-1055073,,,,0,0,0,0,0,0,0,False
-1055074,,,,0,0,0,0,0,0,0,False
-1055075,,,,0,0,0,0,0,0,0,False
-1055076,,,,0,0,0,0,0,0,0,False
-1055077,,,,0,0,0,0,0,0,0,False
-1055078,,,,0,0,0,0,0,0,0,False
-1055079,,,,0,0,0,0,0,0,0,False
-1055080,,,,0,0,0,0,0,0,0,False
-1055081,,,,0,0,0,0,0,0,0,False
-1055082,,,,0,0,0,0,0,0,0,False
+1055069,,,,0,0,0,1,0,0,5,False
+1055070,,,,0,0,0,1,0,0,5,False
+1055071,,,,0,0,0,1,0,0,5,False
+1055072,,,,0,0,0,1,0,0,5,False
+1055073,,,,0,0,0,1,0,0,5,False
+1055074,,,,0,0,0,1,0,0,5,False
+1055075,,,,0,0,0,1,0,0,5,False
+1055076,,,,0,0,0,1,0,0,5,False
+1055077,,,,0,0,0,1,0,0,5,False
+1055078,,,,0,0,0,1,0,0,5,False
+1055079,,,,0,0,0,1,0,0,5,False
+1055080,,,,0,0,0,1,0,0,5,False
+1055081,,,,0,0,0,1,0,0,5,False
+1055082,,,,0,0,0,1,0,0,5,False
 1055083,Impresario,Impresarios,,4,1,0,1,0,0,3,False
 1055084,dubios[a] Imp,dubios[a] Imp,Allerschutzheiligen,4,1,0,1,0,0,3,True
 1055085,dubios[a] Imp,dubios[a] Imp,Allerschutzheiligen,4,1,0,1,0,0,3,True
@@ -55120,8 +55120,8 @@
 1055118,,,,0,0,0,0,0,0,0,False
 1055119,,,,0,0,0,0,0,0,0,False
 1055120,,,,0,0,0,0,0,0,0,False
-1055121,,,,0,0,0,0,0,0,0,False
-1055122,,,,0,0,0,0,0,0,0,False
+1055121,weinbrennend[a] Yok Huy,weinbrennend[a] Yok Huy,,3,1,0,1,0,0,3,False
+1055122,Fahrafahr,NONE,,3,1,0,0,0,1,3,False
 1055123,,,,0,0,0,0,0,0,0,False
 1055124,,,,0,0,0,0,0,0,0,False
 1055125,,,,0,0,0,1,0,0,5,False
@@ -55785,52 +55785,52 @@
 1055783,,,,0,0,0,1,0,0,2,False
 1055784,,,,0,0,0,1,0,0,2,False
 1055785,,,,0,0,0,1,0,0,2,False
-1055786,,,,0,0,0,0,0,0,0,False
-1055787,,,,0,0,0,0,0,0,0,False
-1055788,,,,0,0,0,0,0,0,0,False
-1055789,,,,0,0,0,0,0,0,0,False
-1055790,,,,0,0,0,0,0,0,0,False
-1055791,,,,0,0,0,0,0,0,0,False
-1055792,,,,0,0,0,0,0,0,0,False
-1055793,,,,0,0,0,0,0,0,0,False
-1055794,,,,0,0,0,0,0,0,0,False
-1055795,,,,0,0,0,0,0,0,0,False
-1055796,,,,0,0,0,0,0,0,0,False
-1055797,,,,0,0,0,0,0,0,0,False
-1055798,,,,0,0,0,0,0,0,0,False
-1055799,,,,0,0,0,0,0,0,0,False
-1055800,,,,0,0,0,0,0,0,0,False
-1055801,,,,0,0,0,0,0,0,0,False
-1055802,,,,0,0,0,0,0,0,0,False
-1055803,,,,0,0,0,0,0,0,0,False
-1055804,,,,0,0,0,0,0,0,0,False
-1055805,,,,0,0,0,0,0,0,0,False
-1055806,,,,0,0,0,0,0,0,0,False
-1055807,,,,0,0,0,0,0,0,0,False
-1055808,,,,0,0,0,0,0,0,0,False
-1055809,,,,0,0,0,0,0,0,0,False
-1055810,,,,0,0,0,0,0,0,0,False
-1055811,,,,0,0,0,0,0,0,0,False
-1055812,,,,0,0,0,0,0,0,0,False
-1055813,,,,0,0,0,0,0,0,0,False
-1055814,,,,0,0,0,0,0,0,0,False
+1055786,Yok Huy-Steinhüter,Yok Huy-Steinhüter,,4,2,0,1,0,0,3,False
+1055787,Yok Huy-Handwerker,Yok Huy-Handwerker,,4,2,0,1,0,0,3,False
+1055788,Yok Huy-Aufseher,Yok Huy-Aufseher,,4,2,0,1,0,0,3,False
+1055789,Yok Huy-Lehrling,Yok Huy-Lehrlinge,,4,2,0,1,0,0,3,False
+1055790,Yok Huy-Materialverwalter,Yok Huy-Materialverwalter,,4,2,0,1,0,0,3,False
+1055791,Yok Huy-Altarpflegerin,Yok Huy-Altarpflegerinnen,,3,1,0,1,1,0,3,False
+1055792,Yok Huy-Bergführer,Yok Huy-Bergführer,,4,2,0,1,0,0,3,False
+1055793,Pelupelu-Bergsteiger,Pelupelu-Bergsteiger,,4,2,0,1,0,0,3,False
+1055794,Yok Huy-Braumeister,Yok Huy-Braumeister,,4,2,0,1,0,0,3,False
+1055795,Verwalter[p] der Steinwächter,Verwalter[p] der Steinwächter,,4,2,0,1,0,0,3,False
+1055796,Yok Huy-Lehrling,Yok Huy-Lehrlinge,,4,2,0,1,0,0,3,False
+1055797,Yok Huy-Lehrling,Yok Huy-Lehrlinge,,4,2,0,1,0,0,3,False
+1055798,Yok Huy-Lehrling,Yok Huy-Lehrlinge,,4,2,0,1,0,0,3,False
+1055799,Materialkiste,Materialkisten,,3,1,0,1,1,0,3,False
+1055800,Materialkiste,Materialkisten,,3,1,0,1,1,0,3,False
+1055801,Materialkiste,Materialkisten,,3,1,0,1,1,0,3,False
+1055802,Xarhorkur,NONE,,3,1,0,0,0,1,3,False
+1055803,schwer[a] Warenkiste,schwer[a] Warenkisten,,3,1,0,1,1,0,3,False
+1055804,Yok Huy-Lebensmittelexpertin,Yok Huy-Lebensmittelexpertinnen,,3,1,0,1,1,0,3,False
+1055805,Chirwagur-Handelspartner,Chirwagur-Handelspartner,,4,2,0,1,0,0,3,False
+1055806,Yok Huy-Lageraufsicht,Yok Huy-Lageraufsichten,,3,1,0,1,1,0,3,False
+1055807,Yok Huy-Lebensmittelaufsicht,Yok Huy-Lebensmittelaufsichten,,3,1,0,1,1,0,3,False
+1055808,Vorratskammer-Yok Huy,Vorratskammer-Yok Huy,,3,1,0,1,0,0,3,False
+1055809,Pelupelu-Lebensmittelhändler,Pelupelu-Lebensmittelhändler,,4,2,0,1,0,0,3,False
+1055810,Yok Huy-Lebensmittellieferant,Yok Huy-Lebensmittellieferanten,,6,1,0,1,0,0,3,False
+1055811,Yok Huy-Inventarverwalter,Yok Huy-Inventarverwalter,,4,2,0,1,0,0,3,False
+1055812,Yok Huy-Lieferantin,Yok Huy-Lieferantinnen,,3,1,0,1,1,0,3,False
+1055813,,,,0,0,0,1,0,0,5,False
+1055814,schwer[a] Warenkiste,schwer[a] Warenkisten,,3,1,0,1,1,0,3,False
 1055815,,,,0,0,0,1,0,0,5,False
-1055816,,,,0,0,0,0,0,0,0,False
-1055817,,,,0,0,0,0,0,0,0,False
-1055818,,,,0,0,0,0,0,0,0,False
-1055819,,,,0,0,0,0,0,0,0,False
-1055820,,,,0,0,0,0,0,0,0,False
-1055821,,,,0,0,0,0,0,0,0,False
-1055822,,,,0,0,0,0,0,0,0,False
-1055823,,,,0,0,0,0,0,0,0,False
-1055824,,,,0,0,0,0,0,0,0,False
-1055825,,,,0,0,0,0,0,0,0,False
-1055826,,,,0,0,0,0,0,0,0,False
+1055816,Yok Huy-Materialverwalter,Yok Huy-Materialverwalter,,4,2,0,1,0,0,3,False
+1055817,fahrend[a] Händler,fahrend[a] Händler,,4,2,0,1,0,0,3,False
+1055818,Yok Huy-Minenarbeiter,Yok Huy-Minenarbeiter,,4,2,0,1,0,0,3,False
+1055819,Yok Huy-Minenarbeiter,Yok Huy-Minenarbeiter,,4,2,0,1,0,0,3,False
+1055820,Yok Huy-Minenarbeiter,Yok Huy-Minenarbeiter,,4,2,0,1,0,0,3,False
+1055821,Yok Huy-Lieferant,Yok Huy-Lieferanten,,6,1,0,1,0,0,3,False
+1055822,Materialkiste,Materialkisten,,3,1,0,1,1,0,3,False
+1055823,Materialkiste,Materialkisten,,3,1,0,1,1,0,3,False
+1055824,freundlich[a] Pelupelu,freundlich[a] Pelupelu,,3,1,0,1,0,0,3,False
+1055825,Yok Huy-Sammler,Yok Huy-Sammler,,4,2,0,1,0,0,3,False
+1055826,müd[a] Yok Huy,müd[a] Yok Huy,,3,1,0,1,0,0,3,False
 1055827,Gulool Ja,NONE,,3,1,0,1,0,0,3,False
-1055828,,,,0,0,0,0,0,0,0,False
-1055829,,,,0,0,0,0,0,0,0,False
-1055830,,,,0,0,0,0,0,0,0,False
-1055831,,,,0,0,0,0,0,0,0,False
+1055828,,,,0,0,0,1,0,0,6,False
+1055829,,,,0,0,0,1,0,0,6,False
+1055830,,,,0,0,0,1,0,0,6,False
+1055831,,,,0,0,0,1,0,0,5,False
 1055832,,,,0,0,0,1,0,0,4,False
 1055833,,,,0,0,0,1,0,0,4,False
 1055834,,,,0,0,0,0,0,0,0,False
@@ -55850,7 +55850,7 @@
 1055848,,,,0,0,0,0,0,0,0,False
 1055849,,,,0,0,0,0,0,0,0,False
 1055850,,,,0,0,0,0,0,0,0,False
-1055851,,,,0,0,0,0,0,0,0,False
+1055851,,,,0,0,0,1,0,0,4,False
 1055852,Mahuwsa,NONE,,3,1,0,1,1,0,3,False
 1055853,,,,0,0,0,0,0,0,0,False
 1055854,,,,0,0,0,0,0,0,0,False
@@ -56019,21 +56019,21 @@
 1056017,Erenville,NONE,,3,1,0,0,0,1,3,False
 1056018,,,,0,0,0,1,0,0,5,False
 1056019,Wihuwte,NONE,,3,1,0,0,0,1,3,False
-1056020,,,,0,0,0,0,0,0,0,False
-1056021,,,,0,0,0,0,0,0,0,False
-1056022,,,,0,0,0,0,0,0,0,False
-1056023,,,,0,0,0,0,0,0,0,False
-1056024,,,,0,0,0,0,0,0,0,False
-1056025,,,,0,0,0,0,0,0,0,False
-1056026,,,,0,0,0,0,0,0,0,False
-1056027,,,,0,0,0,0,0,0,0,False
+1056020,Materiallieferanten-Felyne,Materiallieferanten-Felynen,,3,1,0,1,1,0,3,True
+1056021,Krämer-Felyne,Krämer-Felynen,,3,1,0,1,1,0,3,True
+1056022,Reparateur-Felyne,Reparateur-Felynen,,3,1,0,1,1,0,3,True
+1056023,Diener-Felyne,Diener-Felynen,,3,1,0,1,1,0,3,True
+1056024,Materiallieferanten-Felyne,Materiallieferanten-Felynen,,3,1,0,1,1,0,3,True
+1056025,Krämer-Felyne,Krämer-Felynen,,3,1,0,1,1,0,3,True
+1056026,Reparateur-Felyne,Reparateur-Felynen,,3,1,0,1,1,0,3,True
+1056027,Diener-Felyne,Diener-Felynen,,3,1,0,1,1,0,3,True
 1056028,,,,0,0,0,0,0,0,0,False
 1056029,,,,0,0,0,1,0,0,4,False
 1056030,,,,0,0,0,1,0,0,4,False
-1056031,,,,0,0,0,0,0,0,0,False
+1056031,,,,0,0,0,1,0,0,4,False
 1056032,,,,0,0,0,0,0,0,0,False
 1056033,,,,0,0,0,0,0,0,0,False
-1056034,,,,0,0,0,0,0,0,0,False
+1056034,Nashu Mhakaracca,NONE,,3,1,0,0,1,1,4,False
 1056035,,,,0,0,0,0,0,0,0,False
 1056036,,,,0,0,0,1,0,0,4,False
 1056037,,,,0,0,0,0,0,0,0,False

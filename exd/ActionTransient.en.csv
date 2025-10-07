@@ -35012,7 +35012,7 @@ Consumes 10% of current HP when executed.
 **Duration: **10s"
 29081,"Instantly draws target to your side.
 **Additional Effect: ****Heavy** +75%
-**Duration: **3s
+**Duration: **2s
 **Additional Effect: **Grants **Inner Chaos Ready**
 **Duration: **15s
 
@@ -35104,7 +35104,7 @@ Grants **Dark Arts** when barrier is completely absorbed.
 
 ※This action cannot be assigned to a hotbar."
 29096,
-29097,"Delivers an attack with a potency of 12,000 to all enemies in a straight line before and behind you.
+29097,"Delivers an attack with a potency of 8,000 to all enemies in a straight line before and behind you.
 Potency increases up to 24,000 as HP nears maximum.
 HP is reduced to 1 upon execution.
 **Additional Effect: **Grants **Undead Redemption**
@@ -35302,7 +35302,7 @@ Can only be executed when **Ready to Gouge**.
 **Additional Effect: **Grants **No Mercy**
 **No Mercy Effect: **Increases damage dealt and healing potency by 10%, while also increasing movement speed by 25%
 **Duration: **7s
-**Maximum Charges: **2
+**Maximum Charges: **3
 Cannot be executed while bound."
 29124,"Reduces the potency of target's attacks and healing potency by 25%.
 **Duration: **6s
@@ -35468,7 +35468,7 @@ Cannot be executed while bound.
 
 ※**Glare III** changes to **Glare IV** while under the effect of **Sacred Sight**.
 ※**Cure II** changes to **Cure III** while under the effect of **Cure III Ready**."
-29230,"Deals unaspected damage with a potency of 16,000 to all enemies in a straight line before you.
+29230,"Deals unaspected damage with a potency of 18,000 to all enemies in a straight line before you.
 **Additional Effect: ****Stun**
 **Duration: **2s
 **Additional Effect: **Grants **Temperance**
@@ -35644,7 +35644,7 @@ Effect expires upon executing **Eukrasian Dosis III**.
 This action does not share a recast timer with any other actions."
 29259,"Deals unaspected damage with a potency of 10,000 to target and all enemies nearby it.
 **Additional Effect: ****Bind**
-**Duration: **3s
+**Duration: **2s
 **Additional Effect: **Draws nearby enemies to target
 This action does not share a recast timer with any other actions."
 29260,"Deals unaspected damage with a potency of 12,000 to all enemies in a straight line before you.
@@ -36071,7 +36071,7 @@ Potency of both the attack and barrier doubles when targets are within 6 yalms.
 **Honing Dance** effect expires upon execution.
 
 ※This action cannot be assigned to a hotbar."
-29428,"Delivers an attack with a potency of 6000 to all enemies in a cone before you.
+29428,"Delivers an attack with a potency of 6,000 to all enemies in a cone before you.
 **Additional Effect: **Reduces damage taken by self and party member designated as your **Dance Partner** by 20%
 **Duration: **5s"
 29429,"Restores own HP and the HP of all nearby party members.
@@ -36831,9 +36831,9 @@ Cannot be executed while bound.
 Can only be executed while under the effect of **Crimson Strike Ready**.
 
 ※This action cannot be assigned to a hotbar."
-29669,"Deals wind damage with a potency of 8,000 to target and all enemies nearby it.
+29669,"Deals wind damage with a potency of 9,000 to target and all enemies nearby it.
 **Additional Effect: **Damage over time
-**Potency: **4,000
+**Potency: **4,500
 **Duration: **6s
 **Additional Effect: **Increases movement speed of self and party members standing near the target by 25%
 **Duration: **6s
@@ -47860,7 +47860,7 @@ Recast time is reduced by 15s upon earning a kill or an assist."
 **Duration: **20s
 **Additional Effect: **Afflicts target with **Noxious Gnash**
 **Noxious Gnash Effect: **Increases damage you deal target by 25%
-**Duration: **10s
+**Duration: **12s
 **Additional Effect: ****Heavy** +75%
 **Duration: **5s
 Can only be executed when the limit gauge is full.
@@ -53592,7 +53592,7 @@ Can only be used in Frontlines and Rival Wings."
 44244,
 44245,
 44246,
-44247,
+44247,Restores a moderate amount of health.
 44248,
 44249,
 44250,
@@ -53837,7 +53837,7 @@ Can only be used in Frontlines and Rival Wings."
 44489,
 44490,
 44491,
-44492,
+44492,Removes the effects of transfiguration.
 44493,
 44494,
 44495,
@@ -53861,13 +53861,14 @@ Can only be used in Frontlines and Rival Wings."
 44513,
 44514,
 44515,
-44516,
-44517,お菓子の幻影を出す。
-44518,カボチャの幻影を出す。
-44519,"お菓子の幻影を出す。
-※演出用アクション。特に効果は発生しない。"
-44520,"カボチャの幻影を出す。
-※演出用アクション。特に効果は発生しない。"
+44516,"Conjures a delicate frozen flower.
+※Has no effect in battle."
+44517,Conjures an illusory rain of All Saints' Wake treats.
+44518,Conjures spectral pumpkins bound to frighten all who gaze upon them.
+44519,"Conjures an illusory rain of All Saints' Wake treats.
+※Has no effect in battle."
+44520,"Conjures spectral pumpkins bound to frighten all who gaze upon them.
+※Has no effect in battle."
 44521,
 44522,
 44523,
@@ -53975,8 +53976,8 @@ Can only be used in Frontlines and Rival Wings."
 44625,
 44626,
 44627,
-44628,
-44629,
+44628,"Quickly dash 25 yalms forward, dealing damage to targets in your path."
+44629,Delivers damage to all nearby enemies.
 44630,
 44631,
 44632,

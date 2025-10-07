@@ -7845,6 +7845,7 @@ Seuls les 30 premiers résultats seront affichés."
 8376,Recherche de mascotte
 8377,Favorites
 8378,Recherche de monture
+8379,Obtention de trésor
 8380,Une seule récompense par semaine pour cette mission
 8390,Linkshell inter-Monde [2]
 8391,Linkshell inter-Monde [3]
@@ -9938,7 +9939,7 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
 10449,Équipe
 10450,---
 10451,Défaites : UNKNOWN
-10452,Il est nécessaire d'obtenir l'accès aux étages suivants pour progresser.
+10452,Il est nécessaire d'obtenir l'accès aux sous-sols suivants pour progresser.
 10453,Cette option n'est disponible qu'avec une sauvegarde qui ne compte aucune défaite.
 10454,Désenvoûtement
 10455,
@@ -9953,13 +9954,17 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
 10464,Choisissez la sauvegarde à effacer.
 10465,Choisissez la sauvegarde à convertir.
 10466,Voir les classements
+10467,Zone
+10468,Encens de genévrier
 10469,/
 10470,Il n'y a aucun objet à désenvoûter.
 10471,"Les classements sont ac­tu­el­le­ment disponibles sur The Lodestone !
 UNKNOWN"
 10472,UNKNOWN
+10473,Candélabre de l'Aurore
+10474,Suivant
 10475,Magilithes
-10476,Votre instinct vous dit qu'un coffre est enfoui à cet étage.
+10476,Votre instinct vous dit qu'un coffre est enfoui dans les environs.
 10477,Lanterne de résurrection
 10478,Lanterne de téléportation
 10479,Indique l'état d'activation de la lanterne de résurrection.
@@ -9976,6 +9981,11 @@ pour l'obtention de hauts faits en solo."
 10489,Semi-clones
 10490,Guides de jeu (The Lodestone)
 10491,En savoir plus sur les donjons sans fond
+10492,Autel de résurrection
+10493,Téléporteur
+10494,Indique l'état d'activation de l'autel de résurrection.
+10495,Indique l'état d'activation du téléporteur.
+10496,?
 10500,Participer avec des PNJ alliés
 10501,Participer avec l'adjuration
 10507,/
@@ -10256,6 +10266,13 @@ Spectateurs : 1 à 8 joueurs (si disponible)"
 10831,Rang minimum 1er dan
 10832,"Les systèmes de jeu JcJ faisant l'objet d'une refonte, cette mission est temporairement indisponible.
 Sa réouverture sera annoncée dans les notes d'une future mise à jour."
+10834,Offrandes
+10835,Total
+10836,Bonus de récompenses
+10837,**UNKNOWN**
+10838,Commencer
+10839,Retour
+10840,Pénétrer dans le Verset final (quantique)
 10841,
 10842,
 10843,
@@ -16045,6 +16062,7 @@ Nv UNKNOWN"
 17052,Peuple allié ()
 17053,Paramètres d'affichage pour la tête
 17054,Afficher/Cacher les oreilles (si disponible)
+17100,Sanctuaire des pèlerins
 17110,Paramètres des bulles de discussion
 17111,
 17112,Configuration par mode

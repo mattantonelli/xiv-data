@@ -3344,6 +3344,18 @@ VERWENDUNG:
 → Du dehnst und lockerst deine Muskeln.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/lockern,,/limberup,/limber,0,293,2,1,2,0,0
+706,"/grünteetrinken, /greentea
+VERWENDUNG
+/grünteetrinken [Unterbefehl]
+→ Du trinkst eine Tasse Grüntee.
+>>Unterbefehl
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/grünteetrinken,,/drinkgreentea,/greentea,0,293,2,1,2,0,0
+707,"/grünteegenießen, /savortea
+VERWENDUNG
+/grünteegenießen [Unterbefehl]
+→ Du setzt dich hin und trinkst kontinuierlich eine Tasse Grüntee.
+>>Unterbefehl
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/grünteegenießen,,/savortea,,0,293,2,1,2,0,0
 708,"/beschwingtnotieren, /pen
 VERWENDUNG:
 /beschwingtnotieren [Unterbefehl]

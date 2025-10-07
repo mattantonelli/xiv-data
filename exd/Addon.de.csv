@@ -7744,6 +7744,7 @@ Momentane Einstellungen des Ziels überschreiben?"
 8376,Begleiter suchen
 8377,Favoriten
 8378,Reittier suchen
+8379,Material erhalten!
 8380,※ Bestimmte Gegenstände nur ein Mal wöchentlich erwerbbar (Erdenzeit).
 8390,Welten-Kontaktkreis [2]
 8391,Welten-Kontaktkreis [3]
@@ -9768,7 +9769,6 @@ Es ist möglich, mit Freunden eine Gruppe zu bilden, die den gleichen Fortschrit
 
 **- In zufälligen Gruppen werden keine Punkte gezählt.**
 
-**- Konvertierung von Speicherdaten von Fortschritt bis Ebenen, die nur bestehende Gruppen betreten können, die noch nie komplett kampfunfähig geworden sind, ist nicht möglich.**
 
 **※ Achtung! Der Vorgang kann nicht rückgängig gemacht werden!**"
 10411,Speicherdaten konvertieren
@@ -9832,11 +9832,15 @@ Die erreichte Ebene und deine Stufe werden auf 1 zurückgesetzt. Die Verstärkun
 10464,Fortschritt zurücksetzen: Wähle einen Speicherplatz.
 10465,Bestehende Gruppe auflösen: Wähle einen Speicherplatz.
 10466,Wertung ansehen
+10467,Ebenen
+10468,WEIHRAUCH
 10469, / 
 10470,Keine verborgenen Schätze gefunden.
 10471,"Die aktuellen Ranglisten können auf dem Lodestone eingesehen werden.
 UNKNOWN"
 10472,UNKNOWN
+10473,Leuchter
+10474,Vorschau:
 10475,Zaubersteine
 10476,"Dein Gespür sagt dir, dass auf dieser Ebene noch ein Schatz verborgen ist."
 10477,Totenlaterne
@@ -9855,6 +9859,11 @@ Durchgang keine Errungenschaft für alleinige Eroberung erhalten werden."
 10489,DEMIKLON-GENERATOR
 10490,Spielanleitung (Lodestone)
 10491,Erklärung zu Tiefen Gewölben
+10492,Altar des Lebens
+10493,Zirkel des Weges
+10494,Aktivierungsstatus für Altar des Lebens
+10495,Aktivierungsstatus für Zirkel des Weges
+10496,?
 10500,Mit Inhaltshelfer betreten
 10501,Mit Seite an Seite betreten
 10507,/
@@ -10129,6 +10138,13 @@ Zuschauer: 1 bis 8 Spieler (wenn gestattet)"
 10830,Von Stammwelt aus teilnehmen
 10831,1. Dan oder höher
 10832,"Das PvP-System wird großflächig umgestaltet, daher ist dieser Inhalt momentan nicht verfügbar. Kommende Patchnotes werden darüber informieren, wann er wieder zugänglich ist."
+10834,Opfergaben
+10835,Insgesamt
+10836,Schatzsegen
+10837,**UNKNOWN**
+10838,Betreten
+10839,Zurück
+10840,Eminente Trauer (variabel)
 10841,
 10842,
 10843,
@@ -15775,6 +15791,7 @@ St. UNKNOWN"
 17052, 
 17053,Einstellungen für Ausrüstung am Kopf
 17054,Ohren trotz Kopfbedeckung anzeigen (wenn möglich)
+17100,Pilgers Pfad
 17110,EINSTELLUNGEN FÜR CHAT-SPRECHBLASEN
 17111,
 17112,Einstellungen nach Modus

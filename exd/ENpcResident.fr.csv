@@ -50160,10 +50160,10 @@
 1050158,,,,0,0,0,1,0,0,4,False
 1050159,,,,0,0,0,0,0,0,0,False
 1050160,,,,0,0,0,0,0,0,0,False
-1050161,,,,0,0,0,0,0,0,0,False
-1050162,,,,0,0,0,0,0,0,0,False
-1050163,,,,0,0,0,0,0,0,0,False
-1050164,,,,0,0,0,0,0,0,0,False
+1050161,,,,0,0,0,1,0,0,4,False
+1050162,,,,0,0,0,1,0,0,4,False
+1050163,,,,0,0,0,1,0,0,4,False
+1050164,,,,0,0,0,1,0,0,4,False
 1050165,,,,0,0,0,0,0,0,0,False
 1050166,,,,0,0,0,0,0,0,0,False
 1050167,,,,0,0,0,0,0,0,0,False
@@ -54047,7 +54047,7 @@
 1054039,,,,0,0,0,0,0,0,0,False
 1054040,,,,0,0,0,0,0,0,0,False
 1054041,,,,0,0,0,1,0,0,4,False
-1054042,,,,0,0,0,0,0,0,0,False
+1054042,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,4,False
 1054043,Sphene,Sphene,,0,0,0,1,1,1,4,False
 1054044,Sphene,Sphene,,0,0,0,1,1,1,4,False
 1054045,,,,0,0,0,1,0,0,4,False
@@ -54191,9 +54191,9 @@
 1054183,,,,0,0,0,1,0,0,4,False
 1054184,,,,0,0,0,1,0,0,4,False
 1054185,,,,0,0,0,1,0,0,4,False
-1054186,,,,0,0,0,0,0,0,0,False
-1054187,,,,0,0,0,0,0,0,0,False
-1054188,,,,0,0,0,0,0,0,0,False
+1054186,Felyne voyageur,Felynes voyageurs,,0,0,0,1,0,0,4,False
+1054187,,,,0,0,0,1,0,0,4,False
+1054188,,,,0,0,0,1,0,0,4,False
 1054189,,,,0,0,0,1,0,0,4,False
 1054190,,,,0,0,0,0,0,0,0,False
 1054191,,,,0,0,0,0,0,0,0,False
@@ -54201,49 +54201,49 @@
 1054193,,,,0,0,0,1,0,0,4,False
 1054194,,,,0,0,0,1,0,0,4,False
 1054195,,,,0,0,0,1,0,0,4,False
-1054196,,,,0,0,0,0,0,0,0,False
+1054196,,,,0,0,0,1,0,0,4,False
 1054197,,,,0,0,0,0,0,0,0,False
 1054198,,,,0,0,0,0,0,0,0,False
 1054199,,,,0,0,0,0,0,0,0,False
 1054200,,,,0,0,0,0,0,0,0,False
-1054201,,,,0,0,0,0,0,0,0,False
-1054202,,,,0,0,0,0,0,0,0,False
-1054203,,,,0,0,0,0,0,0,0,False
-1054204,,,,0,0,0,0,0,0,0,False
-1054205,,,,0,0,0,0,0,0,0,False
-1054206,,,,0,0,0,0,0,0,0,False
-1054207,,,,0,0,0,0,0,0,0,False
-1054208,,,,0,0,0,0,0,0,0,False
-1054209,,,,0,0,0,0,0,0,0,False
-1054210,,,,0,0,0,0,0,0,0,False
-1054211,,,,0,0,0,0,0,0,0,False
-1054212,,,,0,0,0,0,0,0,0,False
-1054213,,,,0,0,0,0,0,0,0,False
+1054201,,,,0,0,0,1,0,0,4,False
+1054202,vaurien arrogant,vauriens arrogants,,0,0,0,1,0,0,4,False
+1054203,loubarde audacieuse,loubardes audacieuses,,0,0,0,1,1,0,4,False
+1054204,,,,0,0,0,1,0,0,4,False
+1054205,,,,0,0,0,1,0,0,4,False
+1054206,cauahealoa saccageur,cauahealoa saccageurs,,0,0,0,1,0,0,4,False
+1054207,Carnelian,Carnelian,,0,0,0,1,0,1,4,False
+1054208,Kemakka,Kemakka,,0,0,0,1,0,1,4,False
+1054209,,,,0,0,0,1,0,0,4,False
+1054210,,,,0,0,0,1,0,0,4,False
+1054211,,,,0,0,0,1,0,0,4,False
+1054212,,,,0,0,0,1,0,0,4,False
+1054213,,,,0,0,0,1,0,0,4,False
 1054214,,,,0,0,0,1,0,0,4,False
 1054215,enfant en pleurs,enfants en pleurs,,0,0,1,1,0,0,4,False
 1054216,enfant craintive,enfants craintives,,0,0,1,1,1,0,4,False
 1054217,enfant aux aguets,enfants aux aguets,,0,0,1,1,1,0,4,False
 1054218,guide étrange,guides étranges,,0,0,0,1,0,0,4,False
-1054219,ジュルタン,,,0,0,0,1,0,0,4,False
-1054220,利発そうな少女,,,0,0,0,1,0,0,4,False
-1054221,おとなしそうな少女,,,0,0,0,1,0,0,4,False
-1054222,穏やかそうな少年,,,0,0,0,1,0,0,4,False
-1054223,勇ましそうな少年,,,0,0,0,1,0,0,4,False
-1054224,おっとりした星芒祭実行委員,,,0,0,0,1,0,0,4,False
+1054219,Joultain,Joultain,,0,0,0,1,0,1,4,False
+1054220,fillette futée,fillettes futées,,0,0,0,1,1,0,4,False
+1054221,fillette réservée,fillettes réservées,,0,0,0,1,1,0,4,False
+1054222,garçon sage,garçons sages,,0,0,0,1,0,0,4,False
+1054223,garçon costaud,garçons costauds,,0,0,0,1,0,0,4,False
+1054224,disciple du saint calme,disciples du saint calme,,0,0,0,1,0,0,4,False
 1054225,,,,0,0,0,0,0,0,0,False
 1054226,,,,0,0,0,0,0,0,0,False
 1054227,,,,0,0,0,0,0,0,0,False
 1054228,,,,0,0,0,0,0,0,0,False
 1054229,,,,0,0,0,0,0,0,0,False
 1054230,,,,0,0,0,0,0,0,0,False
-1054231,,,,0,0,0,0,0,0,0,False
-1054232,,,,0,0,0,0,0,0,0,False
-1054233,,,,0,0,0,0,0,0,0,False
-1054234,,,,0,0,0,0,0,0,0,False
-1054235,,,,0,0,0,0,0,0,0,False
-1054236,,,,0,0,0,0,0,0,0,False
-1054237,,,,0,0,0,0,0,0,0,False
-1054238,,,,0,0,0,0,0,0,0,False
+1054231,,,,0,0,0,1,0,0,4,False
+1054232,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,4,False
+1054233,Ryoqor Terteh,Ryoqor Terteh,,0,0,0,1,0,1,4,False
+1054234,rorrlo teh,rorrlo teh,,0,0,0,1,0,0,4,False
+1054235,soldat de pierre,soldats de pierre,,0,0,0,1,0,0,4,False
+1054236,Girzorhor,Girzorhor,,0,0,0,1,0,1,4,False
+1054237,Kurbulur,Kurbulur,,0,0,0,1,0,1,4,False
+1054238,,,,0,0,0,1,0,0,4,False
 1054239,habitant à l'attitude étrange,habitants à l'attitude étrange,,0,0,0,1,0,0,4,False
 1054240,,,,0,0,0,0,0,0,0,False
 1054241,,,,0,0,0,0,0,0,0,False
@@ -54255,10 +54255,10 @@
 1054247,,,,0,0,0,0,0,0,0,False
 1054248,,,,0,0,0,0,0,0,0,False
 1054249,,,,0,0,0,0,0,0,0,False
-1054250,,,,0,0,0,0,0,0,0,False
-1054251,,,,0,0,0,0,0,0,0,False
-1054252,,,,0,0,0,0,0,0,0,False
-1054253,,,,0,0,0,0,0,0,0,False
+1054250,Aenc Daen,Aenc Daen,,0,0,1,1,0,1,4,False
+1054251,Ose Wyd,Ose Wyd,,0,0,1,1,1,1,4,False
+1054252,Vanthau,Vanthau,,0,0,0,1,0,1,4,False
+1054253,Tyr Marn,Tyr Marn,,0,0,0,1,0,1,4,False
 1054254,,,,0,0,0,1,0,0,4,False
 1054255,,,,0,0,0,0,0,0,0,False
 1054256,,,,0,0,0,0,0,0,0,False
@@ -54273,15 +54273,15 @@
 1054265,Phasingway,Phasingway,,0,0,0,1,0,1,4,False
 1054266,Y'adebh,Y'adebh,,0,0,0,1,1,1,4,False
 1054267,Jasper,Jasper,,0,0,0,1,0,1,4,False
-1054268,,,,0,0,0,0,0,0,0,False
+1054268,milicien tonawawta,miliciens tonawawta,,0,0,0,1,0,0,4,False
 1054269,mécanicienne à temps plein,mécaniciennes à temps plein,,0,0,0,1,1,0,4,False
 1054270,,,,0,0,0,1,0,0,4,False
 1054271,,,,0,0,0,1,0,0,4,False
 1054272,femme d'Oblivion,femmes d'Oblivion,,0,0,0,1,1,0,4,False
 1054273,homme d'Oblivion,hommes d'Oblivion,,0,0,1,1,0,0,4,False
-1054274,,,,0,0,0,0,0,0,0,False
+1054274,Wurfurtar,Wurfurtar,,0,0,0,1,0,1,4,False
 1054275,Wuk Lamat,Wuk Lamat,,0,0,0,1,1,1,4,False
-1054276,,,,0,0,0,0,0,0,0,False
+1054276,,,,0,0,0,1,0,0,4,False
 1054277,,,,0,0,0,0,0,0,0,False
 1054278,,,,0,0,0,0,0,0,0,False
 1054279,,,,0,0,0,0,0,0,0,False
@@ -54366,34 +54366,34 @@
 1054358,,,,0,0,0,0,0,0,0,False
 1054359,,,,0,0,0,0,0,0,0,False
 1054360,,,,0,0,0,0,0,0,0,False
-1054361,アム・ガランジ,,,0,0,0,1,0,0,3,False
-1054362,アム・ガランジ,,,0,0,0,1,0,0,3,False
-1054363,星芒マーケットの案内係,,GATEKEEPER,0,0,0,1,0,0,3,False
-1054364,星芒マーケットの案内係,,GATEKEEPER,0,0,0,1,0,0,3,True
-1054365,海都風の料理人,,,0,0,0,1,0,0,3,False
-1054366,砂都風の貴婦人,,,0,0,0,1,0,0,3,False
-1054367,砂都風の商人,,,0,0,0,1,0,0,3,False
-1054368,ジュルタン,,,0,0,0,1,0,0,3,False
-1054369,ジュルタン,,,0,0,0,1,0,0,3,False
-1054370,利発そうな少女,,,0,0,0,1,0,0,3,False
-1054371,おとなしそうな少女,,,0,0,0,1,0,0,3,False
+1054361,Amh Garanjy,Amh Garanjy,,0,0,1,1,1,1,3,False
+1054362,Amh Garanjy,Amh Garanjy,,0,0,1,1,1,1,3,False
+1054363,accompagnateur du marché des étoiles,accompagnateurs du marché des étoiles,Guide,0,0,1,1,0,0,3,False
+1054364,accompagnateur du marché des étoiles,accompagnateurs du marché des étoiles,Guide,0,0,1,1,0,0,3,True
+1054365,cuisinière au style limséen,cuisinières au style limséen,,0,0,0,1,1,0,3,False
+1054366,noble au style uldien,nobles au style uldien,,0,0,0,1,1,0,3,False
+1054367,marchand au style uldien,marchands au style uldien,,0,0,0,1,0,0,3,False
+1054368,Joultain,Joultain,,0,0,0,1,0,1,3,False
+1054369,Joultain,Joultain,,0,0,0,1,0,1,3,False
+1054370,fillette futée,fillettes futées,,0,0,0,1,1,0,3,False
+1054371,fillette réservée,fillettes réservées,,0,0,0,1,1,0,3,False
 1054372,,,,0,0,0,1,0,0,5,False
 1054373,,,,0,0,0,1,0,0,5,False
-1054374,おっとりした星芒祭実行委員,,,0,0,0,1,0,0,3,False
-1054375,おっとりした星芒祭実行委員,,SEASONAL EVENT,0,0,0,1,0,0,3,True
+1054374,disciple du saint calme,disciples du saint calme,,0,0,0,1,0,0,3,False
+1054375,disciple du saint calme,disciples du saint calme,Saisonnier,0,0,0,1,0,0,3,True
 1054376,,,,0,0,0,1,0,0,5,False
-1054377,星芒祭の広報係,,,0,0,0,1,0,0,3,True
-1054378,星芒祭の広報係,,,0,0,0,1,0,0,3,True
-1054379,星芒祭の広報係,,,0,0,0,1,0,0,3,True
-1054380,ベーンフェールド,,,0,0,0,1,0,0,3,False
-1054381,星芒祭実行委員,,SEASONAL,0,0,0,1,0,0,3,False
-1054382,星芒祭実行委員,,SEASONAL,0,0,0,1,0,0,3,False
-1054383,星芒祭実行委員,,SEASONAL,0,0,0,1,0,0,3,True
-1054384,星芒祭実行委員,,SEASONAL,0,0,0,1,0,0,3,True
-1054385,雑貨屋,,SHOP,0,0,0,1,0,0,3,True
-1054386,料理屋,,SHOP,0,0,0,1,0,0,3,True
-1054387,花屋,,SHOP,0,0,0,1,0,0,3,True
-1054388,ジュルタン,,,0,0,0,1,0,0,3,False
+1054377,démarcheur de la fête des étoiles,démarcheurs de la fête des étoiles,,0,0,0,1,0,0,3,True
+1054378,démarcheur de la fête des étoiles,démarcheurs de la fête des étoiles,,0,0,0,1,0,0,3,True
+1054379,démarcheur de la fête des étoiles,démarcheurs de la fête des étoiles,,0,0,0,1,0,0,3,True
+1054380,Baenfaeld,Baenfaeld,,0,0,0,1,0,1,3,False
+1054381,disciple du saint,disciples du saint,Saisonnière,0,0,0,1,1,0,3,False
+1054382,disciple du saint,disciples du saint,Saisonnière,0,0,0,1,1,0,3,False
+1054383,disciple du saint,disciples du saint,Saisonnière,0,0,0,1,1,0,3,True
+1054384,disciple du saint,disciples du saint,Saisonnière,0,0,0,1,1,0,3,True
+1054385,quincailler,quincaillers,Objets,0,0,0,1,0,0,3,True
+1054386,cuisinier,cuisiniers,Objets,0,0,0,1,0,0,3,True
+1054387,fleuriste,fleuristes,Objets,0,0,0,1,1,0,3,True
+1054388,Joultain,Joultain,,0,0,0,1,0,1,3,False
 1054389,,,,0,0,0,1,0,0,5,False
 1054390,,,,0,0,0,1,0,0,5,False
 1054391,,,,0,0,0,1,0,0,5,False
@@ -54465,23 +54465,23 @@
 1054457,,,,0,0,0,1,0,0,5,False
 1054458,,,,0,0,0,1,0,0,5,False
 1054459,,,,0,0,0,1,0,0,5,False
-1054460,アム・ガランジ,,,0,0,0,1,0,0,3,False
+1054460,Amh Garanjy,Amh Garanjy,,0,0,1,1,1,1,3,False
 1054461,,,,0,0,0,1,0,0,2,False
 1054462,,,,0,0,0,1,0,0,2,False
 1054463,,,,0,0,0,1,0,0,2,False
 1054464,,,,0,0,0,1,0,0,2,False
-1054465,,,,0,0,0,0,0,0,0,False
-1054466,,,,0,0,0,0,0,0,0,False
-1054467,,,,0,0,0,0,0,0,0,False
-1054468,,,,0,0,0,0,0,0,0,False
-1054469,,,,0,0,0,0,0,0,0,False
-1054470,,,,0,0,0,0,0,0,0,False
-1054471,,,,0,0,0,0,0,0,0,False
-1054472,,,,0,0,0,0,0,0,0,False
-1054473,,,,0,0,0,0,0,0,0,False
-1054474,,,,0,0,0,0,0,0,0,False
-1054475,,,,0,0,0,0,0,0,0,False
-1054476,,,,0,0,0,0,0,0,0,False
+1054465,re­pré­sen­tant de la coopérative de chasse,représentants de la coopérative de chasse,,0,0,0,1,0,0,3,False
+1054466,Felyne voyageur,Felynes voyageurs,,0,0,0,1,0,0,3,False
+1054467,Seikret,Seikret,,0,0,0,1,0,0,3,False
+1054468,,,,0,0,0,1,0,0,5,False
+1054469,Felyne voyageur,Felynes voyageurs,,0,0,0,1,0,0,3,False
+1054470,Seikret,Seikret,,0,0,0,1,0,0,3,False
+1054471,Felyne voyageur,Felynes voyageurs,,0,0,0,1,0,0,3,False
+1054472,Seikret,Seikret,,0,0,0,1,0,0,3,False
+1054473,forgeron itinérant,forgerons itinérants,Équipement,0,0,0,1,0,0,3,True
+1054474,,,,0,0,0,1,0,0,2,False
+1054475,,,,0,0,0,1,0,0,2,False
+1054476,,,,0,0,0,1,0,0,2,False
 1054477,vendeuse suspecte,vendeuses suspectes,Saisonnière,0,0,0,1,1,0,3,True
 1054478,démarcheuse des saltimbanques,démarcheuses des saltimbanques,,0,0,0,1,1,0,3,True
 1054479,démarcheuse des saltimbanques,démarcheuses des saltimbanques,,0,0,0,1,1,0,3,True
@@ -54491,18 +54491,18 @@
 1054483,femme à tête de citrouille,femmes à tête de citrouille,,0,0,0,1,1,0,3,False
 1054484,guide du bal costumé,guides du bal costumé,Gardien,0,0,0,1,0,0,3,False
 1054485,impresario,impresarii,,0,0,1,0,0,0,3,False
-1054486,arlequin exubérant,arlequins exubérants,,0,0,1,0,0,0,3,False
+1054486,pudding exubérant,puddings exubérants,,0,0,0,0,0,0,3,False
 1054487,pot magique,pots magiques,,0,0,0,0,0,0,3,False
 1054488,acrobate timoré,acrobates timorés,,0,0,1,0,0,0,3,False
 1054489,visiteur apeuré,visiteurs apeurés,,0,0,0,0,0,0,3,False
 1054490,enfant aux aguets,enfants aux aguets,,0,0,1,1,1,0,3,False
 1054491,botaniste amateur de courges,botanistes amateurs de courges,,0,0,0,0,0,0,3,False
 1054492,,,,0,0,0,1,0,0,5,False
-1054493,arlequin exubérant,arlequins exubérants,,0,0,1,0,0,0,3,False
+1054493,pudding exubérant,puddings exubérants,,0,0,0,0,0,0,3,False
 1054494,pot magique,pots magiques,,0,0,0,0,0,0,3,False
 1054495,acrobate timoré,acrobates timorés,,0,0,1,0,0,0,3,False
 1054496,impresario,impresarii,,0,0,1,0,0,0,3,False
-1054497,,,,0,0,0,0,0,0,0,False
+1054497,chocobo ?,chocobos ?,,0,0,0,1,0,0,3,False
 1054498,Sphene,Sphene,,0,0,0,1,1,1,3,False
 1054499,Krile,Krile,,0,0,0,1,1,1,3,False
 1054500,Geode,Geode,,0,0,0,1,0,1,3,False
@@ -54640,49 +54640,49 @@
 1054632,Alisaie,Alisaie,,0,0,1,0,1,1,3,False
 1054633,Y'shtola,Y'shtola,,0,0,0,1,1,1,3,False
 1054634,Shale,Shale,,0,0,0,1,1,1,3,False
-1054635,,,,0,0,0,0,0,0,0,False
-1054636,,,,0,0,0,0,0,0,0,False
-1054637,,,,0,0,0,0,0,0,0,False
-1054638,,,,0,0,0,0,0,0,0,False
+1054635,Vuyargur,Vuyargur,,0,0,0,1,0,1,3,False
+1054636,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054637,Rarkorgor,Rarkorgor,Objets spéciaux,0,0,0,1,0,1,3,True
+1054638,Worhemur,Worhemur,Réparations,0,0,0,1,0,1,3,True
 1054639,Narvurgar,Narvurgar,,0,0,0,1,0,1,3,False
-1054640,,,,0,0,0,0,0,0,0,False
-1054641,,,,0,0,0,0,0,0,0,False
-1054642,,,,0,0,0,0,0,0,0,False
-1054643,,,,0,0,0,0,0,0,0,False
-1054644,,,,0,0,0,0,0,0,0,False
-1054645,,,,0,0,0,0,0,0,0,False
-1054646,,,,0,0,0,0,0,0,0,False
-1054647,,,,0,0,0,0,0,0,0,False
-1054648,,,,0,0,0,0,0,0,0,False
-1054649,,,,0,0,0,0,0,0,0,False
-1054650,,,,0,0,0,0,0,0,0,False
-1054651,,,,0,0,0,0,0,0,0,False
-1054652,,,,0,0,0,0,0,0,0,False
-1054653,,,,0,0,0,0,0,0,0,False
-1054654,,,,0,0,0,0,0,0,0,False
-1054655,,,,0,0,0,0,0,0,0,False
-1054656,,,,0,0,0,0,0,0,0,False
-1054657,,,,0,0,0,0,0,0,0,False
-1054658,,,,0,0,0,0,0,0,0,False
-1054659,,,,0,0,0,0,0,0,0,False
-1054660,,,,0,0,0,0,0,0,0,False
-1054661,,,,0,0,0,0,0,0,0,False
-1054662,,,,0,0,0,0,0,0,0,False
-1054663,,,,0,0,0,0,0,0,0,False
-1054664,,,,0,0,0,0,0,0,0,False
-1054665,,,,0,0,0,0,0,0,0,False
-1054666,,,,0,0,0,0,0,0,0,False
-1054667,,,,0,0,0,0,0,0,0,False
-1054668,,,,0,0,0,0,0,0,0,False
-1054669,,,,0,0,0,0,0,0,0,False
-1054670,,,,0,0,0,0,0,0,0,False
-1054671,,,,0,0,0,0,0,0,0,False
-1054672,,,,0,0,0,0,0,0,0,False
-1054673,,,,0,0,0,0,0,0,0,False
-1054674,,,,0,0,0,0,0,0,0,False
-1054675,,,,0,0,0,0,0,0,0,False
-1054676,,,,0,0,0,0,0,0,0,False
-1054677,,,,0,0,0,0,0,0,0,False
+1054640,Narvurgar,Narvurgar,Guide,0,0,0,1,0,1,3,True
+1054641,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054642,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054643,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054644,Yok Huy costaud,Yok Huy costauds,,0,0,0,1,0,0,3,False
+1054645,sculpteur yok huy,sculpteurs yok huy,,0,0,0,1,0,0,3,False
+1054646,Vuyargur,Vuyargur,,0,0,0,1,0,1,3,False
+1054647,Murfurlur,Murfurlur,,0,0,0,1,0,1,3,False
+1054648,Nopli,Nopli,,0,0,0,1,0,1,3,False
+1054649,Wurfurtar,Wurfurtar,,0,0,0,1,0,1,3,False
+1054650,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054651,Girzorhor,Girzorhor,,0,0,0,1,0,1,3,False
+1054652,Girzorhor,Girzorhor,,0,0,0,1,0,1,3,False
+1054653,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054654,Kurbulur,Kurbulur,,0,0,0,1,0,1,3,False
+1054655,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054656,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054657,soldat de pierre,soldats de pierre,,0,0,0,1,0,0,3,False
+1054658,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054659,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054660,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054661,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054662,rorrlo teh,rorrlo teh,,0,0,0,1,0,0,3,False
+1054663,Girzorhor,Girzorhor,,0,0,0,1,0,1,3,False
+1054664,Kurbulur,Kurbulur,,0,0,0,1,0,1,3,False
+1054665,Yok Huy amical,Yok Huy amicaux,,0,0,0,1,0,0,3,False
+1054666,mage yok huy,mages yok huy,,0,0,0,1,0,0,3,False
+1054667,rorrlo teh jovial,rorrlo teh joviaux,,0,0,0,1,0,0,3,False
+1054668,rorrlo teh extatique,rorrlo teh extatiques,,0,0,0,1,0,0,3,False
+1054669,rorrlo teh joyeux,rorrlo teh joyeux,,0,0,0,1,0,0,3,False
+1054670,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
+1054671,Ryoqor Terteh,Ryoqor Terteh,,0,0,0,1,0,1,3,False
+1054672,Vuyargur,Vuyargur,,0,0,0,1,0,1,3,False
+1054673,Kurbulur,Kurbulur,,0,0,0,1,0,1,3,False
+1054674,Kurbulur,Kurbulur,,0,0,0,1,0,1,3,False
+1054675,rorrlo teh,rorrlo teh,,0,0,0,1,0,0,3,False
+1054676,Garharlor,Garharlor,,0,0,0,1,0,1,3,False
+1054677,déblayeur yok huy,déblayeurs yok huy,,0,0,0,1,0,0,3,False
 1054678,,,,0,0,0,0,0,0,0,False
 1054679,,,,0,0,0,0,0,0,0,False
 1054680,,,,0,0,0,0,0,0,0,False
@@ -54753,51 +54753,51 @@
 1054745,,,,0,0,0,0,0,0,0,False
 1054746,,,,0,0,0,0,0,0,0,False
 1054747,,,,0,0,0,0,0,0,0,False
-1054748,,,,0,0,0,0,0,0,0,False
-1054749,,,,0,0,0,0,0,0,0,False
-1054750,,,,0,0,0,0,0,0,0,False
-1054751,,,,0,0,0,0,0,0,0,False
-1054752,,,,0,0,0,0,0,0,0,False
-1054753,,,,0,0,0,0,0,0,0,False
-1054754,,,,0,0,0,0,0,0,0,False
-1054755,,,,0,0,0,0,0,0,0,False
-1054756,,,,0,0,0,0,0,0,0,False
-1054757,,,,0,0,0,0,0,0,0,False
-1054758,,,,0,0,0,0,0,0,0,False
-1054759,,,,0,0,0,0,0,0,0,False
-1054760,,,,0,0,0,0,0,0,0,False
-1054761,,,,0,0,0,0,0,0,0,False
-1054762,,,,0,0,0,0,0,0,0,False
-1054763,,,,0,0,0,0,0,0,0,False
-1054764,,,,0,0,0,0,0,0,0,False
-1054765,,,,0,0,0,0,0,0,0,False
-1054766,,,,0,0,0,0,0,0,0,False
-1054767,,,,0,0,0,0,0,0,0,False
-1054768,,,,0,0,0,0,0,0,0,False
-1054769,,,,0,0,0,0,0,0,0,False
-1054770,,,,0,0,0,0,0,0,0,False
-1054771,,,,0,0,0,0,0,0,0,False
-1054772,,,,0,0,0,0,0,0,0,False
-1054773,,,,0,0,0,0,0,0,0,False
-1054774,,,,0,0,0,0,0,0,0,False
-1054775,,,,0,0,0,0,0,0,0,False
-1054776,,,,0,0,0,0,0,0,0,False
-1054777,,,,0,0,0,0,0,0,0,False
-1054778,,,,0,0,0,0,0,0,0,False
-1054779,,,,0,0,0,0,0,0,0,False
-1054780,,,,0,0,0,0,0,0,0,False
-1054781,,,,0,0,0,0,0,0,0,False
-1054782,,,,0,0,0,0,0,0,0,False
-1054783,,,,0,0,0,0,0,0,0,False
-1054784,,,,0,0,0,0,0,0,0,False
-1054785,,,,0,0,0,0,0,0,0,False
-1054786,,,,0,0,0,0,0,0,0,False
-1054787,,,,0,0,0,0,0,0,0,False
-1054788,,,,0,0,0,0,0,0,0,False
-1054789,,,,0,0,0,0,0,0,0,False
-1054790,,,,0,0,0,0,0,0,0,False
-1054791,,,,0,0,0,0,0,0,0,False
-1054792,,,,0,0,0,0,0,0,0,False
+1054748,Mymond,Mymond,,0,0,0,1,0,1,3,False
+1054749,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054750,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054751,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
+1054752,,,,0,0,0,1,0,0,5,False
+1054753,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054754,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054755,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
+1054756,,,,0,0,0,1,0,0,5,False
+1054757,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054758,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054759,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
+1054760,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054761,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054762,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
+1054763,milicien tonawawta,miliciens tonawawta,,0,0,0,1,0,0,3,False
+1054764,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054765,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054766,,,,0,0,0,1,0,0,5,False
+1054767,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
+1054768,vaurien arrogant,vauriens arrogants,,0,0,0,1,0,0,3,False
+1054769,,,,0,0,0,1,0,0,5,False
+1054770,,,,0,0,0,1,0,0,5,False
+1054771,,,,0,0,0,1,0,0,5,False
+1054772,,,,0,0,0,1,0,0,5,False
+1054773,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054774,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054775,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054776,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054777,fermier patibulaire,fermiers patibulaires,,0,0,0,1,0,0,3,False
+1054778,homme affable,hommes affables,,0,0,1,1,0,0,3,False
+1054779,femme trapue,femmes trapues,,0,0,0,1,1,0,3,False
+1054780,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054781,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054782,Hildibrut,Hildibrut,,0,0,0,1,0,1,3,False
+1054783,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054784,créature mystérieuse,créatures mystérieuses,,0,0,0,1,1,0,3,False
+1054785,,,,0,0,0,1,0,0,5,False
+1054786,Hildibrand,Hildibrand,,0,0,0,1,0,1,3,False
+1054787,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
+1054788,,,,0,0,0,1,0,0,5,False
+1054789,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
+1054790,,,,0,0,0,1,0,0,5,False
+1054791,,,,0,0,0,1,0,0,5,False
+1054792,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,3,False
 1054793,,,,0,0,0,1,0,0,5,False
 1054794,impresario,impresarii,,0,0,1,0,0,0,3,False
 1054795,,,,0,0,0,0,0,0,0,False
@@ -54947,67 +54947,67 @@
 1054939,Wuk Lamat,Wuk Lamat,,0,0,0,1,1,1,3,False
 1054940,Gulool Ja,Gulool Ja,,0,0,0,1,0,1,3,False
 1054941,Sphene,Sphene,,0,0,0,1,1,1,3,False
-1054942,,,,0,0,0,0,0,0,0,False
-1054943,,,,0,0,0,0,0,0,0,False
-1054944,,,,0,0,0,0,0,0,0,False
-1054945,,,,0,0,0,0,0,0,0,False
-1054946,,,,0,0,0,0,0,0,0,False
-1054947,,,,0,0,0,0,0,0,0,False
-1054948,,,,0,0,0,0,0,0,0,False
-1054949,,,,0,0,0,0,0,0,0,False
-1054950,,,,0,0,0,0,0,0,0,False
-1054951,,,,0,0,0,0,0,0,0,False
-1054952,,,,0,0,0,0,0,0,0,False
-1054953,,,,0,0,0,0,0,0,0,False
-1054954,,,,0,0,0,0,0,0,0,False
-1054955,,,,0,0,0,0,0,0,0,False
-1054956,,,,0,0,0,0,0,0,0,False
-1054957,,,,0,0,0,0,0,0,0,False
-1054958,,,,0,0,0,0,0,0,0,False
-1054959,,,,0,0,0,0,0,0,0,False
-1054960,,,,0,0,0,0,0,0,0,False
-1054961,,,,0,0,0,0,0,0,0,False
-1054962,,,,0,0,0,0,0,0,0,False
-1054963,,,,0,0,0,0,0,0,0,False
-1054964,,,,0,0,0,0,0,0,0,False
-1054965,,,,0,0,0,0,0,0,0,False
-1054966,,,,0,0,0,0,0,0,0,False
-1054967,,,,0,0,0,0,0,0,0,False
-1054968,,,,0,0,0,0,0,0,0,False
-1054969,,,,0,0,0,0,0,0,0,False
-1054970,,,,0,0,0,0,0,0,0,False
-1054971,,,,0,0,0,0,0,0,0,False
-1054972,,,,0,0,0,0,0,0,0,False
-1054973,,,,0,0,0,0,0,0,0,False
-1054974,,,,0,0,0,0,0,0,0,False
-1054975,,,,0,0,0,0,0,0,0,False
-1054976,,,,0,0,0,0,0,0,0,False
-1054977,,,,0,0,0,0,0,0,0,False
-1054978,,,,0,0,0,0,0,0,0,False
-1054979,,,,0,0,0,0,0,0,0,False
-1054980,,,,0,0,0,0,0,0,0,False
-1054981,,,,0,0,0,0,0,0,0,False
-1054982,,,,0,0,0,0,0,0,0,False
-1054983,,,,0,0,0,0,0,0,0,False
-1054984,,,,0,0,0,0,0,0,0,False
-1054985,,,,0,0,0,0,0,0,0,False
-1054986,,,,0,0,0,0,0,0,0,False
-1054987,,,,0,0,0,0,0,0,0,False
-1054988,,,,0,0,0,0,0,0,0,False
-1054989,,,,0,0,0,0,0,0,0,False
-1054990,,,,0,0,0,0,0,0,0,False
-1054991,,,,0,0,0,0,0,0,0,False
-1054992,,,,0,0,0,0,0,0,0,False
-1054993,,,,0,0,0,0,0,0,0,False
-1054994,,,,0,0,0,0,0,0,0,False
+1054942,Vanthau,Vanthau,,0,0,0,1,0,1,3,True
+1054943,Tyr Marn,Tyr Marn,,0,0,0,1,0,1,3,True
+1054944,Ose Wyd,Ose Wyd,,0,0,1,1,1,1,3,True
+1054945,Aenc Daen,Aenc Daen,,0,0,1,1,0,1,3,True
+1054946,jeune fille aux yeux étincelants,jeunes filles aux yeux étincelants,,0,0,0,1,1,0,3,False
+1054947,mère lasse,mères lasses,,0,0,0,1,1,0,3,False
+1054948,Fuath stressé,Fuath stressés,,0,0,0,1,0,0,3,False
+1054949,Aenc Daen,Aenc Daen,,0,0,1,1,0,1,3,False
+1054950,Ose Wyd,Ose Wyd,,0,0,1,1,1,1,3,False
+1054951,Aenc Daen,Aenc Daen,,0,0,1,1,0,1,3,False
+1054952,,,,0,0,0,1,0,0,5,False
+1054953,,,,0,0,0,1,0,0,5,False
+1054954,,,,0,0,0,1,0,0,5,False
+1054955,,,,0,0,0,1,0,0,5,False
+1054956,,,,0,0,0,1,0,0,5,False
+1054957,,,,0,0,0,1,0,0,5,False
+1054958,,,,0,0,0,1,0,0,5,False
+1054959,,,,0,0,0,1,0,0,5,False
+1054960,,,,0,0,0,1,0,0,6,False
+1054961,,,,0,0,0,1,0,0,6,False
+1054962,,,,0,0,0,1,0,0,5,False
+1054963,,,,0,0,0,1,0,0,5,False
+1054964,,,,0,0,0,1,0,0,6,False
+1054965,,,,0,0,0,1,0,0,5,False
+1054966,,,,0,0,0,1,0,0,5,False
+1054967,,,,0,0,0,1,0,0,5,False
+1054968,,,,0,0,0,1,0,0,5,False
+1054969,,,,0,0,0,1,0,0,5,False
+1054970,,,,0,0,0,1,0,0,5,False
+1054971,,,,0,0,0,1,0,0,6,False
+1054972,,,,0,0,0,1,0,0,5,False
+1054973,,,,0,0,0,1,0,0,5,False
+1054974,,,,0,0,0,1,0,0,5,False
+1054975,,,,0,0,0,1,0,0,5,False
+1054976,,,,0,0,0,1,0,0,5,False
+1054977,,,,0,0,0,1,0,0,5,False
+1054978,,,,0,0,0,1,0,0,5,False
+1054979,,,,0,0,0,1,0,0,5,False
+1054980,,,,0,0,0,1,0,0,5,False
+1054981,,,,0,0,0,1,0,0,5,False
+1054982,Ryoqor Terteh,Ryoqor Terteh,,0,0,0,1,0,1,3,False
+1054983,,,,0,0,0,1,0,0,5,False
+1054984,,,,0,0,0,1,0,0,5,False
+1054985,,,,0,0,0,1,0,0,5,False
+1054986,,,,0,0,0,1,0,0,5,False
+1054987,,,,0,0,0,1,0,0,6,False
+1054988,,,,0,0,0,1,0,0,6,False
+1054989,,,,0,0,0,1,0,0,6,False
+1054990,,,,0,0,0,1,0,0,6,False
+1054991,Tokorzur,Tokorzur,,0,0,0,1,0,1,3,False
+1054992,Girzorhor,Girzorhor,,0,0,0,1,0,1,3,False
+1054993,Kurbulur,Kurbulur,,0,0,0,1,0,1,3,False
+1054994,Bugardor,Bugardor,,0,0,0,1,0,1,3,False
 1054995,,,,0,0,0,1,0,0,3,False
 1054996,,,,0,0,0,0,0,0,0,False
-1054997,,,,0,0,0,0,0,0,0,False
-1054998,,,,0,0,0,0,0,0,0,False
-1054999,,,,0,0,0,0,0,0,0,False
-1055000,,,,0,0,0,0,0,0,0,False
-1055001,,,,0,0,0,0,0,0,0,False
-1055002,,,,0,0,0,0,0,0,0,False
+1054997,Vanthau,Vanthau,,0,0,0,1,0,1,3,False
+1054998,Tyr Marn,Tyr Marn,,0,0,0,1,0,1,3,False
+1054999,Aenc Daen,Aenc Daen,,0,0,1,1,0,1,3,False
+1055000,Ose Wyd,Ose Wyd,,0,0,1,1,1,1,3,False
+1055001,Vanthau,Vanthau,,0,0,0,1,0,1,3,False
+1055002,Tyr Marn,Tyr Marn,,0,0,0,1,0,1,3,False
 1055003,,,,0,0,0,0,0,0,0,False
 1055004,,,,0,0,0,0,0,0,0,False
 1055005,,,,0,0,0,0,0,0,0,False
@@ -55074,20 +55074,20 @@
 1055066,,,,0,0,0,0,0,0,0,False
 1055067,,,,0,0,0,0,0,0,0,False
 1055068,,,,0,0,0,0,0,0,0,False
-1055069,,,,0,0,0,0,0,0,0,False
-1055070,,,,0,0,0,0,0,0,0,False
-1055071,,,,0,0,0,0,0,0,0,False
-1055072,,,,0,0,0,0,0,0,0,False
-1055073,,,,0,0,0,0,0,0,0,False
-1055074,,,,0,0,0,0,0,0,0,False
-1055075,,,,0,0,0,0,0,0,0,False
-1055076,,,,0,0,0,0,0,0,0,False
-1055077,,,,0,0,0,0,0,0,0,False
-1055078,,,,0,0,0,0,0,0,0,False
-1055079,,,,0,0,0,0,0,0,0,False
-1055080,,,,0,0,0,0,0,0,0,False
-1055081,,,,0,0,0,0,0,0,0,False
-1055082,,,,0,0,0,0,0,0,0,False
+1055069,,,,0,0,0,1,0,0,5,False
+1055070,,,,0,0,0,1,0,0,5,False
+1055071,,,,0,0,0,1,0,0,5,False
+1055072,,,,0,0,0,1,0,0,5,False
+1055073,,,,0,0,0,1,0,0,5,False
+1055074,,,,0,0,0,1,0,0,5,False
+1055075,,,,0,0,0,1,0,0,5,False
+1055076,,,,0,0,0,1,0,0,5,False
+1055077,,,,0,0,0,1,0,0,5,False
+1055078,,,,0,0,0,1,0,0,5,False
+1055079,,,,0,0,0,1,0,0,5,False
+1055080,,,,0,0,0,1,0,0,5,False
+1055081,,,,0,0,0,1,0,0,5,False
+1055082,,,,0,0,0,1,0,0,5,False
 1055083,impresario,impresarii,,0,0,1,0,0,0,3,False
 1055084,imp louche,imps louches,Saisonnier,0,0,1,1,0,0,3,True
 1055085,imp louche,imps louches,Saisonnier,0,0,1,1,0,0,3,True
@@ -55126,8 +55126,8 @@
 1055118,,,,0,0,0,0,0,0,0,False
 1055119,,,,0,0,0,0,0,0,0,False
 1055120,,,,0,0,0,0,0,0,0,False
-1055121,,,,0,0,0,0,0,0,0,False
-1055122,,,,0,0,0,0,0,0,0,False
+1055121,distillateur yok huy,distillateurs yok huy,,0,0,0,1,0,0,3,False
+1055122,Fahrafahr,Fahrafahr,,0,0,0,1,1,1,3,False
 1055123,,,,0,0,0,0,0,0,0,False
 1055124,,,,0,0,0,0,0,0,0,False
 1055125,,,,0,0,0,1,0,0,5,False
@@ -55791,52 +55791,52 @@
 1055783,,,,0,0,0,1,0,0,2,False
 1055784,,,,0,0,0,1,0,0,2,False
 1055785,,,,0,0,0,1,0,0,2,False
-1055786,,,,0,0,0,0,0,0,0,False
-1055787,,,,0,0,0,0,0,0,0,False
-1055788,,,,0,0,0,0,0,0,0,False
-1055789,,,,0,0,0,0,0,0,0,False
-1055790,,,,0,0,0,0,0,0,0,False
-1055791,,,,0,0,0,0,0,0,0,False
-1055792,,,,0,0,0,0,0,0,0,False
-1055793,,,,0,0,0,0,0,0,0,False
-1055794,,,,0,0,0,0,0,0,0,False
-1055795,,,,0,0,0,0,0,0,0,False
-1055796,,,,0,0,0,0,0,0,0,False
-1055797,,,,0,0,0,0,0,0,0,False
-1055798,,,,0,0,0,0,0,0,0,False
-1055799,,,,0,0,0,0,0,0,0,False
-1055800,,,,0,0,0,0,0,0,0,False
-1055801,,,,0,0,0,0,0,0,0,False
-1055802,,,,0,0,0,0,0,0,0,False
-1055803,,,,0,0,0,0,0,0,0,False
-1055804,,,,0,0,0,0,0,0,0,False
-1055805,,,,0,0,0,0,0,0,0,False
-1055806,,,,0,0,0,0,0,0,0,False
-1055807,,,,0,0,0,0,0,0,0,False
-1055808,,,,0,0,0,0,0,0,0,False
-1055809,,,,0,0,0,0,0,0,0,False
-1055810,,,,0,0,0,0,0,0,0,False
-1055811,,,,0,0,0,0,0,0,0,False
-1055812,,,,0,0,0,0,0,0,0,False
-1055813,,,,0,0,0,0,0,0,0,False
-1055814,,,,0,0,0,0,0,0,0,False
+1055786,Yok Huy gardien des pierres,Yok Huy gardiens des pierres,,0,0,0,1,0,0,3,False
+1055787,Yok Huy artisan,Yok Huy artisans,,0,0,0,1,0,0,3,False
+1055788,Yok Huy contremaître,Yok Huy contremaîtres,,0,0,0,1,0,0,3,False
+1055789,sculpteur apprenti,sculpteurs apprentis,,0,0,0,1,0,0,3,False
+1055790,Yok Huy responsable des déchets,Yok Huy responsables des déchets,,0,0,0,1,0,0,3,False
+1055791,Yok Huy responsable de l'autel,Yok Huy responsables de l'autel,,0,0,0,1,1,0,3,False
+1055792,Yok Huy guide de montagne,Yok Huy guides de montagne,,0,0,0,1,0,0,3,False
+1055793,Pelupelu randonneur,Pelupelu randonneurs,,0,0,0,1,0,0,3,False
+1055794,Yok Huy distillateur,Yok Huy distillateurs,,0,0,0,1,0,0,3,False
+1055795,Yok Huy responsable du soldat de pierre,Yok Huy responsables du soldat de pierre,,0,0,0,1,0,0,3,False
+1055796,sculpteur apprenti,sculpteurs apprentis,,0,0,0,1,0,0,3,False
+1055797,sculpteur apprenti,sculpteurs apprentis,,0,0,0,1,0,0,3,False
+1055798,sculpteur apprenti,sculpteurs apprentis,,0,0,0,1,0,0,3,False
+1055799,caisse de matériaux,caisses de matériaux,,0,0,0,1,1,0,3,False
+1055800,caisse de matériaux,caisses de matériaux,,0,0,0,1,1,0,3,False
+1055801,caisse de matériaux,caisses de matériaux,,0,0,0,1,1,0,3,False
+1055802,Xarhorkur,Xarhorkur,,0,0,0,1,0,1,3,False
+1055803,caisse de matériaux,caisses de matériaux,,0,0,0,1,1,0,3,False
+1055804,Yok Huy gourmet,Yok Huy gourmets,,0,0,0,1,1,0,3,False
+1055805,Yok Huy de Chirwagur négociant,Yok Huy de Chirwagur négociants,,0,0,0,1,0,0,3,False
+1055806,Yok Huy responsable du garde-manger,Yok Huy responsables du garde-manger,,0,0,0,1,0,0,3,False
+1055807,Yok Huy chargé des repas,Yok Huy chargés des repas,,0,0,0,1,0,0,3,False
+1055808,Yok Huy récolteur de glace,Yok Huy récolteurs de glace,,0,0,0,1,0,0,3,False
+1055809,marchand pelupelu,marchands pelupelu,,0,0,0,1,0,0,3,False
+1055810,Yok Huy livreur de vivres,Yok Huy livreurs de vivres,,0,0,0,1,0,0,3,False
+1055811,Yok Huy magasinier,Yok Huy magasiniers,,0,0,0,1,0,0,3,False
+1055812,Yok Huy coursière,Yok Huy coursières,,0,0,0,1,1,0,3,False
+1055813,,,,0,0,0,1,0,0,5,False
+1055814,caisse de matériaux,caisses de matériaux,,0,0,0,1,1,0,3,False
 1055815,,,,0,0,0,1,0,0,5,False
-1055816,,,,0,0,0,0,0,0,0,False
-1055817,,,,0,0,0,0,0,0,0,False
-1055818,,,,0,0,0,0,0,0,0,False
-1055819,,,,0,0,0,0,0,0,0,False
-1055820,,,,0,0,0,0,0,0,0,False
-1055821,,,,0,0,0,0,0,0,0,False
-1055822,,,,0,0,0,0,0,0,0,False
-1055823,,,,0,0,0,0,0,0,0,False
-1055824,,,,0,0,0,0,0,0,0,False
-1055825,,,,0,0,0,0,0,0,0,False
-1055826,,,,0,0,0,0,0,0,0,False
+1055816,Yok Huy responsable des fournitures,Yok Huy responsables des fournitures,,0,0,0,1,0,0,3,False
+1055817,marchand ambulant,marchands ambulants,,0,0,0,1,0,0,3,False
+1055818,Yok Huy montagnard,Yok Huy montagnards,,0,0,0,1,0,0,3,False
+1055819,Yok Huy montagnard,Yok Huy montagnards,,0,0,0,1,0,0,3,False
+1055820,Yok Huy montagnard,Yok Huy montagnards,,0,0,0,1,0,0,3,False
+1055821,Yok Huy gestionnaire de l'approvisionnement,Yok Huy gestionnaires de l'approvisionnement,,0,0,0,1,0,0,3,False
+1055822,caisse de matériaux,caisses de matériaux,,0,0,0,1,1,0,3,False
+1055823,caisse de matériaux,caisses de matériaux,,0,0,0,1,1,0,3,False
+1055824,Pelupelu aimable,Pelupelu aimables,,0,0,0,1,0,0,3,False
+1055825,Yok Huy collectant des ressources,Yok Huy collectant des ressources,,0,0,0,1,0,0,3,False
+1055826,Yok Huy fatigué,Yok Huy fatigués,,0,0,0,1,0,0,3,False
 1055827,Gulool Ja,Gulool Ja,,0,0,0,1,0,1,3,False
-1055828,,,,0,0,0,0,0,0,0,False
-1055829,,,,0,0,0,0,0,0,0,False
-1055830,,,,0,0,0,0,0,0,0,False
-1055831,,,,0,0,0,0,0,0,0,False
+1055828,,,,0,0,0,1,0,0,6,False
+1055829,,,,0,0,0,1,0,0,6,False
+1055830,,,,0,0,0,1,0,0,6,False
+1055831,,,,0,0,0,1,0,0,5,False
 1055832,,,,0,0,0,1,0,0,4,False
 1055833,,,,0,0,0,1,0,0,4,False
 1055834,,,,0,0,0,0,0,0,0,False
@@ -55856,7 +55856,7 @@
 1055848,,,,0,0,0,0,0,0,0,False
 1055849,,,,0,0,0,0,0,0,0,False
 1055850,,,,0,0,0,0,0,0,0,False
-1055851,,,,0,0,0,0,0,0,0,False
+1055851,,,,0,0,0,1,0,0,4,False
 1055852,Mahuwsa,Mahuwsa,,0,0,0,1,1,1,3,False
 1055853,,,,0,0,0,0,0,0,0,False
 1055854,,,,0,0,0,0,0,0,0,False
@@ -56025,21 +56025,21 @@
 1056017,Erenville,Erenville,,0,0,1,1,0,1,3,False
 1056018,,,,0,0,0,1,0,0,5,False
 1056019,Wihuwte,Wihuwte,,0,0,0,1,0,1,3,False
-1056020,,,,0,0,0,0,0,0,0,False
-1056021,,,,0,0,0,0,0,0,0,False
-1056022,,,,0,0,0,0,0,0,0,False
-1056023,,,,0,0,0,0,0,0,0,False
-1056024,,,,0,0,0,0,0,0,0,False
-1056025,,,,0,0,0,0,0,0,0,False
-1056026,,,,0,0,0,0,0,0,0,False
-1056027,,,,0,0,0,0,0,0,0,False
+1056020,vendeur felyne,vendeurs felynes,Matériaux,0,0,0,1,0,0,3,True
+1056021,quincaillier felyne,quincailliers felynes,Divers,0,0,0,1,0,0,3,True
+1056022,réparateur felyne,réparateurs felynes,Réparations,0,0,0,1,0,0,3,True
+1056023,employé felyne,employés felynes,Ameublement,0,0,1,1,0,0,3,True
+1056024,vendeur felyne,vendeurs felynes,Matériaux,0,0,0,1,0,0,3,True
+1056025,quincaillier felyne,quincailliers felynes,Divers,0,0,0,1,0,0,3,True
+1056026,réparateur felyne,réparateurs felynes,Réparations,0,0,0,1,0,0,3,True
+1056027,employé felyne,employés felynes,Ameublement,0,0,1,1,0,0,3,True
 1056028,,,,0,0,0,0,0,0,0,False
 1056029,,,,0,0,0,1,0,0,4,False
 1056030,,,,0,0,0,1,0,0,4,False
-1056031,,,,0,0,0,0,0,0,0,False
+1056031,,,,0,0,0,1,0,0,4,False
 1056032,,,,0,0,0,0,0,0,0,False
 1056033,,,,0,0,0,0,0,0,0,False
-1056034,,,,0,0,0,0,0,0,0,False
+1056034,Nashu Mhakaracca,Nashu Mhakaracca,,0,0,0,1,1,1,4,False
 1056035,,,,0,0,0,0,0,0,0,False
 1056036,,,,0,0,0,1,0,0,4,False
 1056037,,,,0,0,0,0,0,0,0,False

@@ -2456,7 +2456,7 @@ Proceed with the transaction?"
 2439,Try on Retainer
 2440,Return
 2441,TRANSFIGURATION
-2442,変身キャラクター選択
+2442,
 2445,Aether Currents
 2446,
 2447,There is no information to display.
@@ -7772,6 +7772,7 @@ Current settings will be overwritten. Proceed?"
 8376,Minion Search
 8377,Favorites
 8378,Mount Search
+8379,Treasure Acquired
 8380,One piece of gear or gear-enhancing material obtainable per week.
 8390,Cross-world Linkshell [2]
 8391,Cross-world Linkshell [3]
@@ -9828,7 +9829,7 @@ UNKNOWN"
 
 Matched party save data still allows for the creation of preformed parties as long as the party is formed before returning to the deep dungeon, and the progression of all members is identical. Any open party slots will be filled automatically via the matching system.
 
-**All special items (pomanders) will be lost upon data conversion.**
+**All special items will be lost upon data conversion.**
 
 **Scores will not be recorded for matched parties.**
 
@@ -9836,7 +9837,7 @@ Matched party save data still allows for the creation of preformed parties as lo
 10411,Accept terms and convert data.
 10412,"Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from floor 1.
 
-Floor progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.
+Dungeon progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.
 
 **※Data cannot be restored once deleted.**"
 10413,Accept terms and delete data.
@@ -9893,13 +9894,17 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10464,Select data to reset.
 10465,Select party to disband.
 10466,Access Ranking
+10467,Stone
+10468,Incense
 10469, / 
 10470,None of the Accursed Hoard has been discovered.
 10471,"Current Deep Dungeon rankings can be viewed on the Lodestone!
 UNKNOWN"
 10472,UNKNOWN
+10473,Votive Candelabra
+10474,Next Area
 10475,Magicite
-10476,You detect the call of the Accursed Hoard on this floor.
+10476,You detect the call of the Accursed Hoard.
 10477,Beacon of Return
 10478,Beacon of Passage
 10479,Display progression required for Beacon of Return activation.
@@ -9916,6 +9921,11 @@ Progress will not count towards solo completion achievements."
 10489,Demiclone Generator
 10490,Lodestone Playguide
 10491,View the deep dungeon guide.
+10492,Altar of Return
+10493,Pylon of Passage
+10494,Progress toward Altar of Return activation.
+10495,Progress toward Pylon of Passage activation.
+10496,?
 10500,Register via Duty Support
 10501,Register via Trust
 10507,/
@@ -10193,6 +10203,13 @@ Spectator Party: 1-8 players"
 10830,Register from Home World
 10831,Ranked 1st Dan or Higher
 10832,"Due to revisions being made to the PvP system, this duty is temporarily unavailable. Further announcements will be made in upcoming patch notes or similar."
+10834,Sacramental Offerings
+10835,Total
+10836,Reward Bonus
+10837,**UNKNOWN**
+10838,Summon
+10839,Return
+10840,Summon Eminent Grief with the Final Verse (Quantum).
 10841,
 10842,
 10843,
@@ -14960,7 +14977,7 @@ Lv. UNKNOWN"
 15953,Masked Carnivale
 15954,"Masked Carnivale
 Lv. UNKNOWN"
-15955,Complete floor UNKNOWN of UNKNOWN. 
+15955,Clear floor UNKNOWN of UNKNOWN. 
 15956,※A fixed party is required to challenge floors 31 and beyond.
 15957,"
 "
@@ -15879,6 +15896,7 @@ Lv. UNKNOWN"
 17052,Allied Society ()
 17053,Adjust headgear settings.
 17054,Show ears through headgear (select gear only).
+17100,Pilgrim's Traverse
 17110,Chat Bubble Settings
 17111,
 17112,Mode-specific Settings

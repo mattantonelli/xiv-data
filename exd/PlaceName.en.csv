@@ -2651,7 +2651,9 @@ East Shroud",,0,0,0,1,0,1,0,0,0
 2584,"The Occult Crescent
 (Field Entry)","Occult Crescent
 (Field Entry)",,0,0,0,1,0,0,0,0,0
-2585,,,,0,0,0,0,0,0,0,0,0
+2585,"Pilgrim's Traverse
+(Dungeon Entry)","Pilgrim's Traverse
+(Dungeon Entry)",,0,0,0,1,0,1,0,0,0
 2586,The Ghimlyt Dark,Ghimlyt Dark,,1,0,0,1,0,0,0,0,0
 2587,North Mercenary Base,north mercenary base,,0,0,0,1,0,0,0,0,0
 2588,South Mercenary Base,south mercenary base,,0,0,0,1,0,0,0,0,0
@@ -3998,7 +4000,7 @@ East Shroud",,0,0,0,1,0,1,0,0,0
 3929,The Twelve Wonders,Twelve Wonders,,1,0,0,1,0,0,1605,0,0
 3930,Noetophoreon,Noetophoreon,,0,0,0,1,0,1,1606,0,0
 3931,The Mourning Dew,Mourning Dew,,1,0,0,1,0,0,1607,0,0
-3932,The Cthonic Horns,Cthonic Horns,,0,0,0,1,0,0,1608,0,0
+3932,The Chthonic Horns,Chthonic Horns,,0,0,0,1,0,0,1608,0,0
 3933,Notoneus,Notoneus,,0,0,0,1,0,1,1609,0,0
 3934,Kallimelios Zephyros,Kallimelios Zephyros,,1,0,0,1,0,1,1610,0,0
 3935,Southerly Zephyrneus,southerly Zephyrneus,,0,0,0,1,0,0,1611,0,0
@@ -5015,19 +5017,19 @@ East Shroud",,0,0,0,1,0,1,0,0,0
 4946,Occult Cloister,occult cloister,,1,0,0,1,0,0,0,0,0
 4947,Stonemarsh,Stonemarsh,,1,0,0,1,0,1,0,0,0
 4948,Containment Complex 10-29,Containment Complex 10-29,,1,0,0,1,0,1,0,0,0
-4949,,,,0,0,0,0,0,0,0,0,0
+4949,Zirgorteh the Open-armed,Zirgorteh the Open-armed,,0,0,0,1,0,1,0,0,0
 4950,Researchers' Commons,researchers' commons,,1,0,0,1,0,0,0,0,0
 4951,Hub,hub,,1,0,0,1,0,0,0,0,0
 4952,Protolab,protolab,,1,0,0,1,0,0,0,0,0
 4953,Deuterolab,deuterolab,,1,0,0,1,0,0,0,0,0
 4954,Facilities,Facilities,,1,0,0,1,0,1,0,0,0
 4955,Director's Office,director's office,,1,0,0,1,0,0,0,0,0
-4956,,,,0,0,0,0,0,0,0,0,0
-4957,,,,0,0,0,0,0,0,0,0,0
-4958,,,,0,0,0,0,0,0,0,0,0
-4959,,,,0,0,0,0,0,0,0,0,0
-4960,,,,0,0,0,0,0,0,0,0,0
-4961,,,,0,0,0,0,0,0,0,0,0
+4956,Warmth,Warmth,,1,0,0,1,0,1,0,0,0
+4957,Masons' Work,Masons' Work,,1,0,0,1,0,1,0,0,0
+4958,High Larder,high larder,,1,0,0,1,0,0,0,0,0
+4959,Kirkahryar House,kirkahryar house,,1,0,0,1,0,0,0,0,0
+4960,Breathless Altar,Breathless Altar,,2,0,0,1,0,0,0,0,0
+4961,Shelter,Shelter,,1,0,0,1,0,1,0,0,0
 4962,,,,0,0,0,1,0,0,0,0,0
 4963,,,,0,0,0,1,0,0,0,0,0
 4964,,,,0,0,0,1,0,0,0,0,0
@@ -5342,8 +5344,8 @@ East Shroud",,0,0,0,1,0,1,0,0,0
 5273,Preserved Medical Facility,preserved medical facility,,1,0,0,1,0,0,0,0,0
 5274,Preserved Carceral Facility,preserved carceral facility,,1,0,0,1,0,0,0,0,0
 5275,Preserved Castle Town,preserved castle town,,1,0,0,1,0,0,0,0,0
-5276,,,,0,0,0,0,0,0,0,0,0
-5277,,,,0,0,0,0,0,0,0,0,0
+5276,The Windward Wilds,Windward Wilds,,1,0,0,1,0,0,0,0,0
+5277,Pilgrim's Traverse,Pilgrim's Traverse,,1,0,0,1,0,1,0,0,0
 5278,,,,0,0,0,0,0,0,0,0,0
 5279,,,,0,0,0,0,0,0,0,0,0
 5280,,,,0,0,0,0,0,0,0,0,0
@@ -5356,8 +5358,8 @@ East Shroud",,0,0,0,1,0,1,0,0,0
 5287,West Beaconveil,West Beaconveil,,1,0,0,1,0,1,0,0,0
 5288,Opalescent Crossing,Opalescent Crossing,,0,0,0,1,0,0,0,0,0
 5289,Upper Soda-lime Float,upper Soda-lime Float,,1,0,0,1,0,0,0,0,0
-5290,Central Soda-lime Channel,central soda-lime channel,,1,0,0,1,0,0,0,0,0
-5291,Western Soda-lime Tributary,western soda-lime tributary,,1,0,0,1,0,0,0,0,0
+5290,Central Soda-lime Channel,central Soda-lime channel,,1,0,0,1,0,0,0,0,0
+5291,Western Soda-lime Tributary,western Soda-lime tributary,,1,0,0,1,0,0,0,0,0
 5292,Lower Soda-lime Float,lower Soda-lime Float,,1,0,0,1,0,0,0,0,0
 5293,The Prismatic Pull,Prismatic Pull,,0,0,0,1,0,0,0,0,0
 5294,Capsule Pools,Capsule Pools,,1,0,0,1,0,1,0,0,0

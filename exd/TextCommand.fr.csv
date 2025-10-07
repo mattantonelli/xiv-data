@@ -3191,6 +3191,18 @@ S'échauffe.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/séchauffer,,/limberup,/limber,0,293,2,1,2,0,0
+706,"/thévert, /drinkgreentea, /greentea
+Utilisation : /thévert [sous-commande]
+Boit une tasse de thé vert.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/thévert,,/drinkgreentea,/greentea,0,293,2,1,2,0,0
+707,"/thévertcontinu, /thévertcont, /savortea
+Utilisation : /thévertcontinu [sous-commande]
+S'asseoit à l'orientale et boit une tasse de thé vert en continu.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/thévertcontinu,/thévertcont,/savortea,,0,293,2,1,2,0,0
 708,"/écrireplume, /plume, /pen
 Utilisation : /écrireplume [sous-commande]
 Écrit avec une plume.

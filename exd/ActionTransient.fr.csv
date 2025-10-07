@@ -36235,7 +36235,7 @@ Réduit vos PV de 10%.
 **Durée :** 10s"
 29081,"Attire la cible près de vous.
 **Effet additionnel :** inflige Pesanteur 75%.
-**Durée :** 3s
+**Durée :** 2s
 **Effet additionnel :** vous octroie **Chaos intérieur préparé**.
 **Durée :** 15s
 Cette action devient Chaos intérieur après utilisation."
@@ -36329,7 +36329,7 @@ Cette action devient Sel et Ténèbres après utilisation."
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29096,
 29097,"Effectue une attaque magique en ligne droite sur les ennemis devant et derrière vous et réduit vos PV à 1.
-**Puissance :** 12 000 à 24 000
+**Puissance :** 8000 à 24 000
 La puissance est proportionnelle à vos PV restants.
 **Effet additionnel :** vous octroie **Rédemption du survivant**.
 **Durée :** 10s
@@ -36548,7 +36548,7 @@ Cette technique d'arme a un temps de recharge indépendant."
 **Effet additionnel :** vous octroie **Sans pitié**.
 **Durée :** 7s
 **Sans pitié :** augmente de 10% vos dégâts infligés et les effets de récupération de PV sur vous. Augmente aussi de 25% votre vitesse de déplacement.
-**Maximum de charges : **2
+**Maximum de charges : **3
 Ne peut pas être utilisé sous l'effet Entrave."
 29124,"Réduit de 25% les dégâts infligés et les soins prodigués par la cible.
 **Durée :** 6s
@@ -36717,7 +36717,7 @@ Méga Chatoiement devient Giga Chatoiement pendant la durée de l'effet.
 Extra Soin devient Méga Soin pendant la durée de l'effet.
 Ne peut pas être utilisé sous l'effet Entrave."
 29230,"Effectue une attaque magique en ligne droite sur les ennemis devant vous.
-**Puissance :** 16 000
+**Puissance :** 18 000
 **Effet additionnel :** inflige Étourdissement.
 **Durée :** 2s
 **Effet additionnel :** vous octroie **Tempérance**.
@@ -36892,7 +36892,7 @@ Ce sort a un temps de recharge indépendant."
 29259,"Effectue une attaque magique sur la cible et les ennemis autour.
 **Puissance :** 10 000
 **Effet additionnel :** inflige Entrave.
-**Durée :** 3s
+**Durée :** 2s
 **Effet additionnel :** attire vers la cible principale les ennemis alentour.
 Ce sort a un temps de recharge indépendant."
 29260,"Effectue une attaque magique en ligne droite vers la cible.
@@ -38195,9 +38195,9 @@ La puissance est réduite à 8000 au-delà du premier ennemi touché.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 29669,"Effectue une attaque magique sur la cible et les ennemis autour.
-**Puissance :** 8000
+**Puissance :** 9000
 **Effet sur les ennemis :** des dégâts périodiques sont subis.
-**Puissance :** 4000 **Durée :** 6s
+**Puissance :** 4500 **Durée :** 6s
 **Effet sur soi et les équipiers :** augmente de 25% la vitesse de déplacement dans l'aire d'effet.
 **Durée :** 6s
 Ce sort a un temps de recharge indépendant."
@@ -43756,7 +43756,7 @@ Cette technique d'arme a un temps de recharge indépendant.
 Remplace **Crochets mortels** et **Mâchoire mortelle** lorsque les conditions sont réunies.**"
 34629,"Effectue une attaque physique sur la cible et les ennemis autour.
 **Puissance :** 480
-Si utilisée après **Seconde ère**, augmente la puissance à 680.
+Si utilisée après **Deuxième ère**, augmente la puissance à 680.
 La puissance est réduite de 65% au-delà du premier ennemi touché.
 **Condition :** **Esprit ophidien**.
 Cette technique d'arme a un temps de recharge indépendant.
@@ -43850,7 +43850,7 @@ Remplace **Queue serpentine** lorsque les conditions sont réunies.**"
 34641,"Effectue une attaque physique sur la cible et les ennemis autour.
 **Puissance :** 320
 La puissance est réduite de 65% au-delà du premier ennemi touché.
-**Condition :** après avoir utilisé **Seconde ère** avec succès.
+**Condition :** après avoir utilisé **Deuxième ère** avec succès.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.
 Remplace **Queue serpentine** lorsque les conditions sont réunies.**"
@@ -45430,7 +45430,7 @@ Si une esquisse est peinte sur la toile Paysage, cette action devient au­to­ma
 35917,
 35918,
 35919,
-35920,"Lorsque les conditions sont réunies, devient **Cascabelle mortelle**, **Spirale finale**, **Premier cycle**, **Second cycle**, **Troisième cycle** ou **Quatrième cycle**."
+35920,"Lorsque les conditions sont réunies, devient **Cascabelle mortelle**, **Spirale finale**, **Premier cycle**, **Deuxième cycle**, **Troisième cycle** ou **Quatrième cycle**."
 35921,"Lorsque les conditions sont réunies, devient **Morsure vicieuse**, **Vortex vicieux** ou **Assaut vicieux**."
 35922,"Lorsque les conditions sont réunies, devient **Morsure frénétique**, **Vortex frénétique** ou **Assaut frénétique**."
 35923,
@@ -49372,7 +49372,7 @@ Cette technique d'arme a un temps de recharge indépendant.
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 39171,"Effectue une attaque physique sur la cible et les ennemis autour.
 **Puissance :** 8000
-**Combo :** Seconde ère
+**Combo :** Deuxième ère
 **Condition :** **Réminiscence**.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
@@ -49435,7 +49435,7 @@ La défense de la cible n'a aucune influence sur les dégâts infligés par cett
 **Puissance :** 4000
 La défense de la cible n'a aucune influence sur les dégâts infligés par cette action.
 **Effet additionnel :** réduit de 3s le temps de charge de votre jauge de Transcendance.
-**Condition :** après avoir utilisé **Seconde ère** avec succès.
+**Condition :** après avoir utilisé **Deuxième ère** avec succès.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
 39181,"Effectue une attaque physique sur la cible et les ennemis autour.
@@ -49452,7 +49452,7 @@ La défense de la cible n'a aucune influence sur les dégâts infligés par cett
 **Condition :** après avoir utilisé **Quatrième ère** avec succès.
 
 *** Cette action ne peut pas être ajoutée aux barres de raccourcis.**"
-39183,"Lorsque les conditions sont réunies, devient **Cascabelle mortelle**, **Morsure vicieuse**, **Morsure frénétique**, **Assaut vicieux**, **Assaut frénétique**, **Premier cycle**, **Second cycle**, **Troisième cycle** ou **Quatrième cycle**."
+39183,"Lorsque les conditions sont réunies, devient **Cascabelle mortelle**, **Morsure vicieuse**, **Morsure frénétique**, **Assaut vicieux**, **Assaut frénétique**, **Premier cycle**, **Deuxième cycle**, **Troisième cycle** ou **Quatrième cycle**."
 39184,"Vous déplace rapidement vers la cible.
 **Effet additionnel :** augmente de 25% votre vitesse de déplacement.
 **Durée :** 4s
@@ -49488,7 +49488,7 @@ Augmente aussi de 50% votre vitesse de déplacement.
 **Durée :** 20s
 Le combo Posture des crochets devient Première ère, Anneaux du saigneur devient Esprit du Serpent-Monde.
 **Effet additionnel :** inflige **Mortification**.
-**Durée :** 10s
+**Durée :** 12s
 **Mortification :** augmente les dégâts infligés à la cible par le lanceur de 25%.
 **Effet additionnel :** inflige Pesanteur 75%.
 **Durée :** 5s
@@ -55324,7 +55324,7 @@ Dure indéfiniment."
 44244,
 44245,
 44246,
-44247,
+44247,Restaure une grande quantité de PV.
 44248,
 44249,
 44250,
@@ -55569,7 +55569,7 @@ Dure indéfiniment."
 44489,
 44490,
 44491,
-44492,
+44492,Retire le déguisement.
 44493,
 44494,
 44495,
@@ -55593,7 +55593,8 @@ Dure indéfiniment."
 44513,
 44514,
 44515,
-44516,
+44516,"Crée des fleurs de neige.
+* Effet spécial. N'inflige aucun dégât."
 44517,Projette l'illusion d'une pluie de sucreries.
 44518,Projette l'illusion d'un déluge de citrouilles.
 44519,"Projette l'illusion d'une pluie de sucreries.
@@ -55707,8 +55708,8 @@ Dure indéfiniment."
 44625,
 44626,
 44627,
-44628,
-44629,
+44628,"Vous déplace rapidement sur 25 yalms en ligne droite devant vous, et inflige des dégâts physiques aux ennemis sur votre trajectoire."
+44629,Inflige des dégâts aux ennemis autour de vous.
 44630,
 44631,
 44632,

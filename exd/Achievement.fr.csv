@@ -3798,10 +3798,10 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,1000,8,43,30,10,255,255,0
 3771,Armes fantômes : globe céleste fantôme umbra,Obtenir le globe céleste fantôme umbra.,0,70918,33,0,0,0,0,0,0,0,0,34716,1301,81,0,0,10,255,255,0,1,24,1,3
 3772,Armes fantômes : pendules fantômes umbra,Obtenir les pendules fantômes umbra.,0,70918,40,0,0,0,0,0,0,0,0,37080,1901,81,0,0,10,255,255,0,1,24,1,3
 3773,La promesse de demain,Accomplir la quête “La promesse de demain”.,0,70909,0,0,0,0,0,0,0,0,805,26002,95,76,43,100,20,255,255,0,1,6,1,0
-3774,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3775,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3776,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3777,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3774,Séjour à l'autel I,Atteindre le rang 3 (Ami) de réputation auprès des bienfaiteurs de Zirgorteh.,0,20,3,0,0,0,0,0,0,0,0,62980,0,37,0,0,5,255,255,0,1,15,1,0
+3775,Séjour à l'autel II,Atteindre le rang 4 (Estimé) de réputation auprès des bienfaiteurs de Zirgorteh.,0,20,4,0,0,0,0,0,0,0,0,62980,0,37,0,0,5,255,255,0,1,15,1,0
+3776,Séjour à l'autel III,Atteindre le rang 6 (Émérite) de réputation auprès des bienfaiteurs de Zirgorteh.,0,20,6,0,0,0,0,0,0,0,0,62980,0,37,0,0,10,255,255,0,1,15,1,0
+3777,Travail en haute altitude,Atteindre le rang 7 (Assermenté) de réputation auprès des bienfaiteurs de Zirgorteh.,0,20,7,0,0,0,0,0,0,0,806,62980,0,37,44,90,20,255,255,0,1,15,1,0
 3778,Creuser son trou XVII,Déchiffrer 20 vieilles cartes en peau de gargantua et ouvrir les coffres auxquels elles conduisent.,0,1268,20,0,0,0,0,0,0,0,0,115,18,6,0,0,20,255,255,0,1,1,1,0
 3779,Rêves de grandeur I,Pénétrer 1 fois dans le coffre d'Oneiron.,0,1269,1,0,0,0,0,0,0,0,807,116,104,6,43,100,5,255,255,0,1,1,1,0
 3780,Rêves de grandeur II,Pénétrer 5 fois dans le coffre d'Oneiron.,0,1269,5,0,0,0,0,0,0,0,0,116,105,6,0,0,10,255,255,0,1,1,1,0
@@ -3811,8 +3811,8 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,1000,8,43,30,10,255,255,0
 3784,Trésor de rêve II,Conquérir 5 fois le coffre d'Oneiron.,0,1270,5,0,0,0,0,0,0,0,0,116,109,6,0,0,10,255,255,0,1,1,1,0
 3785,Trésor de rêve III,Conquérir 10 fois le coffre d'Oneiron.,0,1270,10,0,0,0,0,0,0,0,0,116,110,6,0,0,10,255,255,0,1,1,1,0
 3786,Trésor de rêve IV,Conquérir 20 fois le coffre d'Oneiron.,0,1270,20,0,0,0,0,0,0,0,809,116,111,6,43,100,20,255,255,0,1,1,1,0
-3787,愉快なみんなの廃屋敷,クエスト「守護天節とふたつの幻影」をコンプリートする,0,70912,0,0,0,0,0,0,0,0,0,59548,149,38,0,0,10,255,255,0,1,6,1,0
-3788,プンシュで乾杯！,クエスト「星芒祭と心躍る一杯」をコンプリートする,0,70767,0,0,0,0,0,0,0,0,0,26435,151,38,0,0,10,255,255,0,1,6,1,0
+3787,Impresario impressionné,Accomplir la quête “Des bonbons ou six trouilles ?”.,0,70912,0,0,0,0,0,0,0,0,0,59548,149,38,0,0,10,255,255,0,1,6,1,0
+3788,Kinderpunsch surprise,Accomplir la quête “Les tasses des Cités”.,0,70767,0,0,0,0,0,0,0,0,0,26435,151,38,0,0,10,255,255,0,1,6,1,0
 3789,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 3790,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 3791,Explorateur phaennien aguerri,Terminer toutes les missions cosmiques de Phaenna avec la meilleure évaluation possible.,0,1271,1,0,0,0,0,0,0,0,810,64875,2501,69,46,100,20,255,255,0,1,1,1,0
@@ -3831,21 +3831,21 @@ d'argent ou supérieur.",0,990,1,0,0,0,0,0,0,0,625,821,1000,8,43,30,10,255,255,0
 3804,Cartographe du continent : San d'Oria - La deuxième perambulation,Découvrir toute la carte de San d'Oria - La deuxième perambulation.,0,1033,0,0,0,0,0,0,0,0,0,1001,1511,49,0,0,10,255,255,0,1,8,1,0
 3805,Chasser l'obscurité,Vaincre Darkness dans le défi “La Nécropole intemporelle (extrême)”.,0,20105,0,0,0,0,0,0,0,0,0,317,44,3,0,0,10,255,255,0,1,14,1,3
 3806,Échos des peuples anciens,Finir San d'Oria - La deuxième perambulation.,0,30153,0,0,0,0,0,0,0,0,0,64875,0,4,0,0,5,255,255,0,1,14,1,0
-3807,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3808,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3809,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3810,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3811,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3812,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3813,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3814,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3815,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3816,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3817,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3818,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3819,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3820,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3807,Pèlerinage en terre sainte I,Conquérir la 10e zone du Sanctuaire des pèlerins.,0,1283,1,0,0,0,0,0,0,0,0,64810,221,2,0,0,5,255,255,0,1,1,1,0
+3808,Pèlerinage en terre sainte II,Conquérir la 20e zone du Sanctuaire des pèlerins.,0,1284,1,0,0,0,0,0,0,0,0,64810,222,2,0,0,5,255,255,0,1,1,1,0
+3809,Pèlerinage en terre sainte III,Conquérir la 30e zone du Sanctuaire des pèlerins.,0,1285,1,0,0,0,0,0,0,0,811,64810,223,2,43,91,5,255,255,0,1,1,1,0
+3810,Pèlerinage en terre sainte IV,Conquérir la 40e zone du Sanctuaire des pèlerins.,0,1286,1,0,0,0,0,0,0,0,0,64810,224,2,0,0,10,255,255,0,1,1,1,0
+3811,Pèlerinage en terre sainte VI,Conquérir la 100e zone du Sanctuaire des pèlerins.,0,1287,1,0,0,0,0,0,0,0,812,64810,226,2,43,91,10,255,255,0,1,1,1,0
+3812,Armement étincelant,Obtenir une des armes de la Lumière originelle.,0,1288,1,0,0,0,0,0,0,0,0,61265,7000,65,0,0,10,255,255,0,1,1,1,0
+3813,Sacrement guerrier,Obtenir une des armes sacramentelles.,0,1289,1,0,0,0,0,0,0,0,0,61265,7001,65,0,0,10,255,255,0,1,1,1,0
+3814,Pèlerin solitaire I,Obtenir un score en solo dans le Sanctuaire des pèlerins en commençant par la 1re zone et en s'aventurant au-delà de la 50e.,0,1290,1,0,0,0,0,0,0,0,0,3321,231,2,0,0,10,255,255,0,1,1,1,0
+3815,Pèlerin solitaire II,Atteindre la 100e zone en solo dans le Sanctuaire des pèlerins en commençant par la 1re.,0,1291,1,0,0,0,0,0,0,0,813,3321,232,2,43,91,10,255,255,0,1,1,1,0
+3816,Exhumation profonde VII,Découvrir 30 000 trésors cachés.,0,539,30000,0,0,0,0,0,0,0,814,60035,41,2,43,60,20,255,255,0,1,1,1,0
+3817,Mystique raffiné,"Parler à Aenc Daen en étant en possession ou en s'étant équipé d'une paire de boucles d'oreilles de la Lumière originelle, d'un collier de la Lumière originelle, d'une paire de joncs de la Lumière originelle et d'une bague de la Lumière originelle.",0,1292,1,0,0,0,0,0,0,0,815,26081,221,19,43,91,10,255,255,0,1,1,1,0
+3818,Six fulms sous terre,Finir le Verset final (quantique).,0,1293,1,0,0,0,0,0,0,0,816,3374,233,2,43,91,10,255,255,0,1,1,1,0
+3819,Mort et enterré,Finir le Verset final (quantique) après avoir accompli le maximum possible d'offrandes sacramentelles.,0,1294,1,0,0,0,0,0,0,0,817,3370,234,2,43,91,20,255,255,0,1,1,1,0
+3820,Porte-cartes XIV,Obtenir 451 cartes de Triple Triade différentes.,46821,352,451,0,0,0,0,0,0,0,0,27661,48,18,47,15,10,255,193,4,1,1,1,0
 3821,Pêcheur de légendes éternel II,Pêcher 24 prises légendaires différentes dans les zones explorées lors de Dawntrail.,0,1145,24,0,0,0,0,0,0,0,0,1102,111,34,0,0,10,255,255,0,1,1,1,0
-3822,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3823,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3824,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3822,Le Spectre Blanc,Accomplir la quête “Le Spectre Blanc”.,0,70910,0,0,0,0,0,0,0,0,818,53720,1001,35,43,100,10,255,255,0,1,6,1,0
+3823,Le retour du Spectre Blanc,Vaincre l'Arkveld Gardien dans le défi “Chasse à l'Arkveld Gardien (extrême)”.,0,20103,0,0,0,0,0,0,0,0,0,317,102,3,0,0,10,255,255,0,1,14,1,0
+3824,Pèlerinage en terre sainte V,Conquérir la 70e zone du Sanctuaire des pèlerins.,0,1295,1,0,0,0,0,0,0,0,0,64810,225,2,0,0,10,255,255,0,1,1,1,0
