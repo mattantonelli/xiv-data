@@ -1,4 +1,4 @@
-#,Id,DiscoveryFlag,MapMarkerRange,SizeFactor,PlaceNameRegion,PlaceName,PlaceNameSub,TerritoryType,OffsetX,OffsetY,DiscoveryIndex,MapCondition,PriorityCategoryUI,PriorityUI,Hierarchy,Unknown2,Unknown0,MapIndex,DiscoveryArrayByte,IsEvent,Unknown1
+#,Id,DiscoveryFlag,MapMarkerRange,SizeFactor,PlaceNameRegion,PlaceName,PlaceNameSub,TerritoryType,OffsetX,OffsetY,DiscoveryIndex,MapCondition,PriorityCategoryUI,PriorityUI,MapType,Unknown2,MapReplace,MapIndex,DiscoveryArrayByte,IsEvent,Unknown1
 0,,0,0,100,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,True,False,False
 1,default/00,0,0,100,2405,21,0,1,0,0,-1,0,0,0,1,0,0,0,True,False,False
 2,f1t1/00,0,3,200,23,52,0,132,0,0,-1,0,2,2,1,0,0,0,True,False,False
