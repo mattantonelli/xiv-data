@@ -1,4 +1,5 @@
 #,Description,Alias,ShortAlias,Command,ShortCommand,Unknown0,Param,Unknown1,Unknown2,Unknown3,Unknown4,Unknown5
+0,,,,,,0,0,0,0,0,0,0
 1,"/rückblende, /rück, /record
 → Öffnet das Rückblendenmenü.",/rückblende,/rück,/record,,0,32,1,0,0,0,0
 2,"/rückbereit, /rb, /recordready
@@ -248,11 +249,12 @@ Einstellungen für Freunde.
 **feast**
 Einstellungen für PvP-Gegner in „Crystalline Conflict“.
 
->>Typen (1-4)
+>>Typen (1-5)
 1: Immer anzeigen
 2: Im Kampf
 3: Wenn anvisiert
 4: Nie
+5: Nicht im Kampf
 
 Beispiel:
 /namensanzeige alle 4
@@ -385,7 +387,8 @@ Beispiel:
 45,"/gesichtsaccessoireliste, /faceaccessorylist, /facewearlist→ Öffnet die Übersicht der Gesichtsaccessoires.",/gesichtsaccessoireliste,,/facewearlist,,0,32,1,0,0,0,0
 46,"/tondarstellung, /visualalerts
 VERWENDUNG:
-→ Aktiviert die Einstellung „Visuelle Tondarstellung“. (Nur Windows und Mac)
+/tondarstellung [Unterbefehl]
+→ Aktiviert die Einstellung „Visuelle Tondarstellung“.
 >>Unterbefehle:
 　**ein**
 　　Aktiviert die Einstellung.
@@ -394,7 +397,8 @@ VERWENDUNG:
 Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.",/tondarstellung,,/visualalerts,,0,509,2,1,2,0,0
 47,"/farbkorrektur, /colorfiltering
 VERWENDUNG:
-→ Aktiviert die Einstellung „Farbwahrnehmung: Farbkorrektur umschalten“. (Nur Windows und Mac)
+/farbkorrektur [Unterbefehl]
+→ Aktiviert die Einstellung „Farbwahrnehmung: Farbkorrektur umschalten“.
 >>Unterbefehle:
 　**ein**
 　　Aktiviert die Einstellung.
@@ -419,6 +423,49 @@ VERWENDUNG:
 　**aus**
 　　Viera-Ohren sind verborgen.
 Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.",/vieraohren,,/vieraears,/vears,0,36,2,1,2,0,0
+50,"/kommandotafel, /quickpanel, /commandpanel
+→ Öffnet die Kommandotafel.",/kommandotafel,/commandpanel,/quickpanel,,0,32,1,0,0,0,0
+51,"/strategyboard, /strategiebrett
+→ Öffnet deine Strategiebretter.",/strategiebrett,,/strategyboard,,0,32,1,0,0,0,0
+52,,,,,,0,0,0,0,0,0,0
+53,,,,,,0,0,0,0,0,0,0
+54,,,,,,0,0,0,0,0,0,0
+55,,,,,,0,0,0,0,0,0,0
+56,,,,,,0,0,0,0,0,0,0
+57,,,,,,0,0,0,0,0,0,0
+58,,,,,,0,0,0,0,0,0,0
+59,,,,,,0,0,0,0,0,0,0
+60,,,,,,0,0,0,0,0,0,0
+61,,,,,,0,0,0,0,0,0,0
+62,,,,,,0,0,0,0,0,0,0
+63,,,,,,0,0,0,0,0,0,0
+64,,,,,,0,0,0,0,0,0,0
+65,,,,,,0,0,0,0,0,0,0
+66,,,,,,0,0,0,0,0,0,0
+67,,,,,,0,0,0,0,0,0,0
+68,,,,,,0,0,0,0,0,0,0
+69,,,,,,0,0,0,0,0,0,0
+70,,,,,,0,0,0,0,0,0,0
+71,,,,,,0,0,0,0,0,0,0
+72,,,,,,0,0,0,0,0,0,0
+73,,,,,,0,0,0,0,0,0,0
+74,,,,,,0,0,0,0,0,0,0
+75,,,,,,0,0,0,0,0,0,0
+76,,,,,,0,0,0,0,0,0,0
+77,,,,,,0,0,0,0,0,0,0
+78,,,,,,0,0,0,0,0,0,0
+79,,,,,,0,0,0,0,0,0,0
+80,,,,,,0,0,0,0,0,0,0
+81,,,,,,0,0,0,0,0,0,0
+82,,,,,,0,0,0,0,0,0,0
+83,,,,,,0,0,0,0,0,0,0
+84,,,,,,0,0,0,0,0,0,0
+85,,,,,,0,0,0,0,0,0,0
+86,,,,,,0,0,0,0,0,0,0
+87,,,,,,0,0,0,0,0,0,0
+88,,,,,,0,0,0,0,0,0,0
+89,,,,,,0,0,0,0,0,0,0
+90,,,,,,0,0,0,0,0,0,0
 91,"/pvpteam, /pt
 VERWENDUNG:
 pvpteam [Nachr.]
@@ -435,6 +482,14 @@ VERWENDUNG:
 /wkk [Nachr.]
 
 → Sendet eine Nachricht an alle Mitglieder deines aktiven Welten-Kontaktkreises. Die Entfernung spielt keine Rolle. Wenn keine Nachricht eingegeben wird, ändert dies den Chatmodus zu deinem aktiven „Welten-Kontaktkreis“-Chat",/wkk,,/cwlinkshell,/cwl,0,1021,1,0,0,0,0
+93,,,,,,0,0,0,0,0,0,0
+94,,,,,,0,0,0,0,0,0,0
+95,,,,,,0,0,0,0,0,0,0
+96,,,,,,0,0,0,0,0,0,0
+97,,,,,,0,0,0,0,0,0,0
+98,,,,,,0,0,0,0,0,0,0
+99,,,,,,0,0,0,0,0,0,0
+100,,,,,,0,0,0,0,0,0,0
 101,"/neuling, /neu, /beginner, /b
 VERWENDUNG:
 /neuling [Nachr.]
@@ -514,6 +569,7 @@ VERWENDUNG:
 VERWENDUNG:
 /all [Nachr.]
 → Sendet eine Nachricht an alle Mitglieder deiner Allianz. Wenn keine Nachricht eingegeben wird, ändert dies den Chatmodus zu „Allianz“. ",/allianz,/all,/alliance,/a,0,1021,1,0,0,0,0
+120,,,,,,0,0,0,0,0,0,0
 121,"/ann, /join
 → Du nimmst die Einladung in eine Gruppe an.",/ann,,/join,,0,4,1,0,0,0,0
 122,"/abl, /decline
@@ -532,6 +588,10 @@ VERWENDUNG:
 → Macht einen Charakter zum Anführer der Gruppe. Bei fehlender Zielangabe wird der gerade anvisierte Charakter zum Anführer gemacht.",/anführer,/anf,/leader,,0,4,2,0,0,0,0
 126,"/verlassen, /verl, /leave
 → Du trittst aus der Gruppe aus.",/verlassen,/verl,/leave,,0,4,2,0,0,0,0
+127,,,,,,0,0,0,0,0,0,0
+128,,,,,,0,0,0,0,0,0,0
+129,,,,,,0,0,0,0,0,0,0
+130,,,,,,0,0,0,0,0,0,0
 131,"/check, /c
 VERWENDUNG:
 /check [Variable zur Zielbestimmung]
@@ -553,10 +613,15 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.",/lauf,,/automove,,0,
 VERWENDUNG:
 /folg [Variable zur Zielbestimmung]
 → Lässt dich automatisch dem angegebenen Spielercharakter nachlaufen. Bei fehlender Zielangabe folgst du dem anvisierten Charakter.",/folg,,/follow,,0,36,2,0,0,0,0
+135,,,,,,0,0,0,0,0,0,0
 136,"/materiaanfrage, /matan, /meldrequest
 VERWENDUNG:
 /matan [Variable zur Zielbestimmung]
 → Sendet dem angegebenen Charakter eine Anfrage, Materia einzusetzen. Ohne Zielangabe wird die Anfrage an den gerade anvisierten Charakter gestellt. Nur möglich, wenn der Empfänger die Voraus­setzungen zum Einsetzen von Materia erfüllt.",/materiaanfrage,/matan,/meldrequest,,0,32,2,0,0,0,0
+137,,,,,,0,0,0,0,0,0,0
+138,,,,,,0,0,0,0,0,0,0
+139,,,,,,0,0,0,0,0,0,0
+140,,,,,,0,0,0,0,0,0,0
 141,"/charakter, /character, /char, /gear
 → Öffnet das Charaktermenü.",/charakter,/char,/character,/gear,0,32,1,0,0,0,0
 142,"/archiv, /journal
@@ -644,21 +709,21 @@ Sucht nach allen Gladiatoren Stufe 20-30, die momentan in La Noscea sind (Name, 
 156,"/mark, /marking, /mk
 VERWENDUNG:
 /mark [Symbol] [Variable zur Zielbestimmung]
-→ Markiert ein Ziel mit einem Symbol.
+→ Markiert ein Ziel mit einer Feindmarkierung.
 >>Symbole:
   **att1**-**8**
   **bind1**-**3**
   **ignor1**-**2**
-  Wird keine Ziffer eingegeben, so wird automatisch die niedrigste unzugeordnete verwendet.
+  Wird keine Ziffer eingegeben, so wird automatisch die niedrigste nicht zugeordnete verwendet.
   **kreis (**circle**)**
   **kreuz (**cross**)**
   **quadr (**square**)**
   **drei (**triangle**)**
-  ****aus** (**off**), **zurück** (**clear**)**  Löscht die Markierung.
+  ****aus** (**off**), **zurück** (**clear**)**  Löscht die Feindmarkierung.
   Bei fehlendem Unterbefehl wird das Markierungen-Menü geöffnet. Wird kein Ziel bestimmt, so wird das momentan anvisierte Ziel markiert.
 >>Beispiel:
   /mk att2 <t>
-Markiert das momentane Ziel mit dem Symbol 2 für „Angreifen“.   ",/mark,,/marking,/mk,0,32,3,1,2,0,0
+Markiert das momentane Ziel mit dem Symbol 2 für „Angreifen“.",/mark,,/marking,/mk,0,32,3,1,2,0,0
 157,"/kommandoliste, /klist, /actionlist, /alist
 → Öffnet das Kommandos & Eigenschaften-Menü.",/kommandoliste,/klist,/actionlist,/alist,0,32,1,0,0,0,0
 158,"/timer
@@ -782,6 +847,7 @@ Startet einen 10-sekündigen Countdown.",,,/countdown,/cd,0,32,2,1,0,0,0
 → Öffnet und schließt den Gruppenverlauf.",/gruppenverlauf,/gv,/contactlist,,0,32,1,0,0,0,0
 199,"/reitgeschwindigkeit, /mountspeed
 → Öffnet und schließt das Menü der Reit­tier­geschwindig­keit.",/reitgeschwindigkeit,,/mountspeed,,0,32,1,0,0,0,0
+200,,,,,,0,0,0,0,0,0,0
 201,"/?
 VERWENDUNG:
 /? [Textkommando]
@@ -790,6 +856,7 @@ VERWENDUNG:
 VERWENDUNG:
 /warte [Wartezeit]
 → Legt die Pause zwischen Befehlen fest. Eine Wartezeit von 1 entspricht einer Sekunde. Die maximal zulässige Wartezeit ist 60. Eine Wartezeit über 60 wird als 60 interpretiert.",/warte,,/wait,,0,181,2,1,0,0,0
+203,,,,,,0,0,0,0,0,0,0
 204,"/legacy, /legacymark, /lmark
 VERWENDUNG:
 /legacy [Unterbefehl]
@@ -945,6 +1012,7 @@ Kameraposition zurücksetzen
 >>Beispiel:
 /knips <t>
 Zeigt im 10-Sekunden-Takt zufällige Kameraeinstellungen mit Fokus auf den anvisierten Charakter.",/knips,,/idlingcamera,/icam,0,40,2,0,0,0,0
+222,,,,,,0,0,0,0,0,0,0
 223,"/duell, /duelswitch
 VERWENDUNG:
 /duell [Unterbefehl]
@@ -1027,6 +1095,7 @@ Wiederholung und Ankündigung können ausgelassen werden. Eine Zeitangabe ist vo
  **zurück** (**clear**)  Löscht alle Alarme.
 
 Bei fehlendem Unterbefehl wird das Alarmfenster geöffnet bzw. geschlossen.",/alarm,,/alarm,,0,32,8,3,2,2,2
+230,,,,,,0,0,0,0,0,0,0
 231,"/beschäftigt, /busy
 VERWENDUNG:
 /beschäftigt [Unterbefehl]
@@ -1093,6 +1162,17 @@ VERWENDUNG:
   **ein** (**on**)  Aktiviert den Status „Im Rollenspiel“.
   **aus** (**off**)  Aktiviert den Status „Online“.
 Bei fehlendem Unterbefehl wird die Einstellung gewechselt.",/rollenspiel,,/roleplaying,,0,36,2,1,2,0,0
+240,,,,,,0,0,0,0,0,0,0
+241,,,,,,0,0,0,0,0,0,0
+242,,,,,,0,0,0,0,0,0,0
+243,,,,,,0,0,0,0,0,0,0
+244,,,,,,0,0,0,0,0,0,0
+245,,,,,,0,0,0,0,0,0,0
+246,,,,,,0,0,0,0,0,0,0
+247,,,,,,0,0,0,0,0,0,0
+248,,,,,,0,0,0,0,0,0,0
+249,,,,,,0,0,0,0,0,0,0
+250,,,,,,0,0,0,0,0,0,0
 251,"/kommando, /kmd, /action, /ac
 VERWENDUNG:
 /kmd ""[Kommando]"" [Variable zur Zielbestimmung]
@@ -1164,7 +1244,8 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.",/feststellen,/fest,/
 265,"/fokusziel, /focustarget
 VERWENDUNG:
 /fokusziel [Variable zur Zielbestimmung]
-→ Macht den ausgewählten Charakter zu deinem Fokusziel. Wird kein Ziel angegeben, wird der gerade anvisierte Charakter zum Fokusziel gemacht.",/fokusziel,,/focustarget,,0,36,2,0,0,0,0
+→ Macht das ausgewählte Ziel zu deinem Fokusziel. Wird kein Ziel angegeben, wird das gerade anvisierte Ziel zum Fokusziel gemacht.",/fokusziel,,/focustarget,,0,36,2,0,0,0,0
+266,,,,,,0,0,0,0,0,0,0
 267,"/familiarkomm, /fkmd, /petaction, /pac
 VERWENDUNG:
 /fkmd ""[Kommando]"" [Variable zur Zielbestimmung]
@@ -1239,6 +1320,7 @@ Führt „Kombo Sturmkeil“ auf das anvisierte Ziel aus.
 Shukuchi wird am Standort des anvisierten Ziels ausgelöst.
 /action Shukuchi bzaus
 Shukuchi wird direkt an der Stelle des Zeigers ausgelöst.",/pvpkommando,/pvpkmd,/pvpaction,/pvpac,0,4,3,2,16,2,0
+278,,,,,,0,0,0,0,0,0,0
 279,"/blaukommando, /blauk, /blueaction
 VERWENDUNG:
 /blaukommando ""[Kommando]"" [Variable zur Zielbestimmung]
@@ -1251,6 +1333,27 @@ VERWENDUNG:
 >>Beispiel:
 /blaukommando Wasserkanone  <t>
 Führt das Kommando Wasserkanone auf das anvisierte Ziel aus.",/blaukommando,/blauk,/blueaction,,0,36,3,2,18,2,0
+280,,,,,,0,0,0,0,0,0,0
+281,,,,,,0,0,0,0,0,0,0
+282,,,,,,0,0,0,0,0,0,0
+283,,,,,,0,0,0,0,0,0,0
+284,,,,,,0,0,0,0,0,0,0
+285,,,,,,0,0,0,0,0,0,0
+286,,,,,,0,0,0,0,0,0,0
+287,,,,,,0,0,0,0,0,0,0
+288,,,,,,0,0,0,0,0,0,0
+289,,,,,,0,0,0,0,0,0,0
+290,,,,,,0,0,0,0,0,0,0
+291,,,,,,0,0,0,0,0,0,0
+292,,,,,,0,0,0,0,0,0,0
+293,,,,,,0,0,0,0,0,0,0
+294,,,,,,0,0,0,0,0,0,0
+295,,,,,,0,0,0,0,0,0,0
+296,,,,,,0,0,0,0,0,0,0
+297,,,,,,0,0,0,0,0,0,0
+298,,,,,,0,0,0,0,0,0,0
+299,,,,,,0,0,0,0,0,0,0
+300,,,,,,0,0,0,0,0,0,0
 301,"/autofest, /autolockon
 VERWENDUNG:
 /autofest [Unterbefehl]
@@ -1379,7 +1482,7 @@ VERWENDUNG:
 /hud [Element] [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 >>HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kosmo-Erkundung: Info (KosInfo), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kosmo-Erkundung: Info (KosInfo), PvP: Kampfverlauf (PvPKam), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
 >>Unterbefehle:
   **ein** (**on**)  Element anzeigen
   **aus** (**off**)  Element ausblenden
@@ -1723,6 +1826,65 @@ Bei fehlendem Unterbefehl wird die Einstellung geändert, also die Musik entwede
 341,"/performsounds, /komplaut [Zahl]
 → Ändert die Lautstärke von Kompositionen auf den angegebenen Zahlenwert (0 bis 100).
 Bei fehlendem Unterbefehl wird die Stummschaltung aktiviert bzw. deaktiviert.",/komplaut,,/performsounds,,0,229,2,0,0,0,0
+342,,,,,,0,0,0,0,0,0,0
+343,,,,,,0,0,0,0,0,0,0
+344,,,,,,0,0,0,0,0,0,0
+345,,,,,,0,0,0,0,0,0,0
+346,,,,,,0,0,0,0,0,0,0
+347,,,,,,0,0,0,0,0,0,0
+348,,,,,,0,0,0,0,0,0,0
+349,,,,,,0,0,0,0,0,0,0
+350,,,,,,0,0,0,0,0,0,0
+351,,,,,,0,0,0,0,0,0,0
+352,,,,,,0,0,0,0,0,0,0
+353,,,,,,0,0,0,0,0,0,0
+354,,,,,,0,0,0,0,0,0,0
+355,,,,,,0,0,0,0,0,0,0
+356,,,,,,0,0,0,0,0,0,0
+357,,,,,,0,0,0,0,0,0,0
+358,,,,,,0,0,0,0,0,0,0
+359,,,,,,0,0,0,0,0,0,0
+360,,,,,,0,0,0,0,0,0,0
+361,,,,,,0,0,0,0,0,0,0
+362,,,,,,0,0,0,0,0,0,0
+363,,,,,,0,0,0,0,0,0,0
+364,,,,,,0,0,0,0,0,0,0
+365,,,,,,0,0,0,0,0,0,0
+366,,,,,,0,0,0,0,0,0,0
+367,,,,,,0,0,0,0,0,0,0
+368,,,,,,0,0,0,0,0,0,0
+369,,,,,,0,0,0,0,0,0,0
+370,,,,,,0,0,0,0,0,0,0
+371,,,,,,0,0,0,0,0,0,0
+372,,,,,,0,0,0,0,0,0,0
+373,,,,,,0,0,0,0,0,0,0
+374,,,,,,0,0,0,0,0,0,0
+375,,,,,,0,0,0,0,0,0,0
+376,,,,,,0,0,0,0,0,0,0
+377,,,,,,0,0,0,0,0,0,0
+378,,,,,,0,0,0,0,0,0,0
+379,,,,,,0,0,0,0,0,0,0
+380,,,,,,0,0,0,0,0,0,0
+381,,,,,,0,0,0,0,0,0,0
+382,,,,,,0,0,0,0,0,0,0
+383,,,,,,0,0,0,0,0,0,0
+384,,,,,,0,0,0,0,0,0,0
+385,,,,,,0,0,0,0,0,0,0
+386,,,,,,0,0,0,0,0,0,0
+387,,,,,,0,0,0,0,0,0,0
+388,,,,,,0,0,0,0,0,0,0
+389,,,,,,0,0,0,0,0,0,0
+390,,,,,,0,0,0,0,0,0,0
+391,,,,,,0,0,0,0,0,0,0
+392,,,,,,0,0,0,0,0,0,0
+393,,,,,,0,0,0,0,0,0,0
+394,,,,,,0,0,0,0,0,0,0
+395,,,,,,0,0,0,0,0,0,0
+396,,,,,,0,0,0,0,0,0,0
+397,,,,,,0,0,0,0,0,0,0
+398,,,,,,0,0,0,0,0,0,0
+399,,,,,,0,0,0,0,0,0,0
+400,,,,,,0,0,0,0,0,0,0
 401,"/emote, /em
 VERWENDUNG:
 /emote [Nachr.]
@@ -2023,8 +2185,10 @@ VERWENDUNG:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/allesaus,,/disappointed,,0,293,2,1,2,0,0
 451,"/sitz, /sit, /lounge
 → Wechselt zwischen Sitzen und Stehen. Manche Emotes sind im Sitzen anders als im Stehen. Man kann sich auch auf Stühle setzen.",/sitz,/lounge,/lounge,/sit,0,37,1,0,0,0,0
+452,,,,,,0,0,0,0,0,0,0
 453,"/bodensitz, /groundsit
 → Lässt deinen Charakter auf dem Boden Platz nehmen. Wenn er bereits sitzt, steht er auf. Manche Emotes sind beim Sitzen auf dem Boden anders als im Stehen.",/bodensitz,,/groundsit,,0,37,1,0,0,0,0
+454,,,,,,0,0,0,0,0,0,0
 455,"/sogenannt, /sog, /airquotes
 → Signalisiert mit den Fingern Anführungszeichen, um Ironie, Betonung usw. auszudrücken. Es wird kein Text zur Bewegung angezeigt. ",/sogenannt,/sog,/airquotes,,0,293,2,1,2,0,0
 456,"/gsalut, /gcsalute
@@ -2060,6 +2224,7 @@ VERWENDUNG:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/garsalut,,/imperialsalute,,0,293,2,1,2,0,0
 461,"/visier, /visor
 → Du öffnest/schließt dein Helmvisier bzw. schaltest Leuchteffekte deiner Ausrüstung am Kopf an/aus. Es wird kein Text zur Bewegung angezeigt.",/visier,,/visor,,0,301,2,1,2,0,0
+462,,,,,,0,0,0,0,0,0,0
 463,"/megaflare, /mega
 VERWENDUNG:
 /megaflare [Unterbefehl]
@@ -2078,24 +2243,24 @@ VERWENDUNG:
 → Du verfällst einer lockenden Umarmung.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/betört,,/charmed,,0,293,2,1,2,0,0
-466,"/anfeuernblau, /anblau, /cheeron
+466,"/anwippblau, /wippblau, /cheerob
 VERWENDUNG:
-/anfeuernblau [Unterbefehl]
-→ Du feuerst mit blau schimmernden Leuchtstäben an.
+/anwippblau [Unterbefehl]
+→ Du feuerst wippend mit blau schimmernden Leuchtstäben an.
 >>Unterbefehl:
-  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anfeuernblau,/anblau,/cheeron,,0,293,2,1,2,0,0
-467,"/anfeuerngelb, /angelb, /cheerwave
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anwippblau,/wippblau,/cheeronblue,/cheerob,0,293,2,1,2,0,0
+467,"/anschwenkgelb, /schwenkgelb, /cheerwy
 VERWENDUNG:
-/anfeuerngelb [Unterbefehl]
-→ Du feuerst mit gelb schimmernden Leuchtstäben an.
+/anschwenkgelb [Unterbefehl]
+→ Du feuerst schwenkend mit gelb schimmernden Leuchtstäben an.
 >>Unterbefehl:
-  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anfeuerngelb,/angelb,/cheerwave,,0,293,2,1,2,0,0
-468,"/anfeuernrot, /anrot, /cheerjump
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwenkgelb,/schwenkgelb,/cheerwaveyellow,/cheerwy,0,293,2,1,2,0,0
+468,"/anhüpfrot, /hüpfrot, /cheerjr
 VERWENDUNG:
-/anfeuernrot [Unterbefehl]
-→ Du feuerst mit rot schimmernden Leuchtstäben an.
+/anhüpfrot [Unterbefehl]
+→ Du feuerst hüpfend mit rot schimmernden Leuchtstäben an.
 >>Unterbefehl:
-  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anfeuernrot,/anrot,/cheerjump,,0,293,2,1,2,0,0
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anhüpfrot,/hüpfrot,/cheerjumpred,/cheerjr,0,293,2,1,2,0,0
 469,"/neutral, /straightface, /straight
 VERWENDUNG:
 /neutral [Unterbefehl]
@@ -2204,8 +2369,22 @@ VERWENDUNG:
 → Du wirfst ein Objekt.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/werfen,,/throw,,0,293,2,1,2,0,0
+487,,,,,,0,0,0,0,0,0,0
+488,,,,,,0,0,0,0,0,0,0
+489,,,,,,0,0,0,0,0,0,0
+490,,,,,,0,0,0,0,0,0,0
 491,"/pose2, /changepose, /cpose
 → Du nimmst die nächste Pose deiner üblichen Haltungen bei Untätigkeit ein. Es wird kein Text zur Bewegung angezeigt.",/pose2,,/changepose,/cpose,0,37,2,1,2,0,0
+492,,,,,,0,0,0,0,0,0,0
+493,,,,,,0,0,0,0,0,0,0
+494,,,,,,0,0,0,0,0,0,0
+495,,,,,,0,0,0,0,0,0,0
+496,,,,,,0,0,0,0,0,0,0
+497,,,,,,0,0,0,0,0,0,0
+498,,,,,,0,0,0,0,0,0,0
+499,,,,,,0,0,0,0,0,0,0
+500,,,,,,0,0,0,0,0,0,0
+501,,,,,,0,0,0,0,0,0,0
 502,"/stepptanz, /stanz, /stepdance, /sdance
 VERWENDUNG:
 /stanz [Unterbefehl]
@@ -2242,6 +2421,8 @@ VERWENDUNG:
 → Du übergibst etwas.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/übergeben,/geben,/handover,,0,293,2,1,2,0,0
+508,,,,,,0,0,0,0,0,0,0
+509,,,,,,0,0,0,0,0,0,0
 510,"/feuertanz, /ftanz, /bombdance
 VERWENDUNG:
 /ftanz [Unterbefehl]
@@ -2285,6 +2466,8 @@ VERWENDUNG:
 → Du streckst jemandem die Faust zur Begrüßung entgegen.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/faustgruß,/faust,/fistbump,/fist,0,293,2,1,2,0,0
+517,,,,,,0,0,0,0,0,0,0
+518,,,,,,0,0,0,0,0,0,0
 519,"/thavnairtanz, /ttanz, /thavdance, /tdance
 VERWENDUNG:
 /ttanz [Unterbefehl]
@@ -2474,6 +2657,7 @@ VERWENDUNG:
 → Du zeigst, wie verliebt du bist.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/kussregen,/kuss2,/dote,,0,293,2,1,2,0,0
+548,,,,,,0,0,0,0,0,0,0
 549,"/brille, /spectacles
 VERWENDUNG:
 /brille [Unterbefehl]
@@ -2599,6 +2783,7 @@ VERWENDUNG:
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus.
 Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/beschwören,,/ritualprayer,,0,293,2,1,2,0,0
+569,,,,,,0,0,0,0,0,0,0
 570,"/zittern, /tremble
 VERWENDUNG:
 /zittern [Unterbefehl]
@@ -2655,6 +2840,7 @@ VERWENDUNG:
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus.
 Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/yoltanz,,/yoldance,,0,293,2,1,2,0,0
+578,,,,,,0,0,0,0,0,0,0
 579,"/wasserschlacht, /splash
 VERWENDUNG:
 /wasserschlacht [Unterbefehl]
@@ -2662,6 +2848,7 @@ VERWENDUNG:
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus.
 Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/wasserschlacht,,/splash,,0,293,2,1,2,0,0
+580,,,,,,0,0,0,0,0,0,0
 581,"/heiß, /sweat
 VERWENDUNG:
 /heiß [Unterbefehl]
@@ -3032,6 +3219,8 @@ VERWENDUNG:
 → Du zeigst nach links.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/linkszeigen,,/showleft,,0,293,2,1,2,0,0
+644,,,,,,0,0,0,0,0,0,0
+645,,,,,,0,0,0,0,0,0,0
 646,"/verhöhnen, /deride
 VERWENDUNG:
 /verhöhnen [Unterbefehl]
@@ -3080,6 +3269,9 @@ VERWENDUNG:
 → Du wackelst vergnügt mit deinen Löffeln.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/löffelwackeln,,/earwiggle,,0,293,2,1,2,0,0
+654,,,,,,0,0,0,0,0,0,0
+655,,,,,,0,0,0,0,0,0,0
+656,,,,,,0,0,0,0,0,0,0
 657,"/angstundschrecken, /schrecken, /frighten
 VERWENDUNG:
 /angstundschrecken [Unterbefehl]
@@ -3128,30 +3320,31 @@ VERWENDUNG:
 → Du legst die Hand auf die Brust.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/handaufdiebrust,,/handtoheart,,0,293,2,1,2,0,0
-665,"/anfeuernweiß, /anweiß, /cheerbright
+665,"/anwippweiß, /wippweiß, /cheerow
 VERWENDUNG:
-/anfeuernweiß [Unterbefehl]
+/anwippweiß [Unterbefehl]
 → Du feuerst mit weiß schimmernden Leuchtstäben an.
 >>Unterbefehl:
-  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anfeuernweiß,/anweiß,/cheeronbright,/cheerbright,0,293,2,1,2,0,0
-666,"/anfeuernlila, /anlila, /cheerviolet
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anwippweiß,/wippweiß,/cheeronbright,/cheerow,0,293,2,1,2,0,0
+666,"/anschwenklila, /schwenklila, /cheerwv
 VERWENDUNG:
-/anfeuernlila [Unterbefehl]
-→ Du feuerst mit lila schimmernden Leuchtstäben an.
+/anschwenklila [Unterbefehl]
+→ Du feuerst schwenkend mit lila schimmernden Leuchtstäben an.
 >>Unterbefehl:
-  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anfeuernlila,/anlila,/cheerwaveviolet,/cheerviolet,0,293,2,1,2,0,0
-667,"/anfeuerngrün, /angrün, /cheergreen
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwenklila,/schwenklila,/cheerwaveviolet,/cheerwv,0,293,2,1,2,0,0
+667,"/anhüpfgrün, /hüpfgrün, /cheerjg
 VERWENDUNG:
-/anfeuerngrün [Unterbefehl]
-→ Du feuerst mit grün schimmernden Leuchtstäben an.
+/anhüpfgrün [Unterbefehl]
+→ Du feuerst hüpfend mit grün schimmernden Leuchtstäben an.
 >>Unterbefehl:
-  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anfeuerngrün,/angrün,/cheerjumpgreen,/cheergreen,0,293,2,1,2,0,0
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anhüpfgrün,/hüpfgrün,/cheerjumpgreen,/cheerjg,0,293,2,1,2,0,0
 668,"/verwandlungsmagie, /verwand, /allsaintscharm
 VERWENDUNG:
 /verwandlungsmagie [Unterbefehl]
 → Du führst einen Ver­wand­lungszauber aus.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.",/verwandlungsmagie,/verwand,/allsaintscharm,,0,293,2,1,2,0,0
+669,,,,,,0,0,0,0,0,0,0
 670,"/lophop, /loporrittanz
 VERWENDUNG:
 /lophop [Unterbefehl]
@@ -3260,12 +3453,15 @@ VERWENDUNG:
 → Du hast ein Selbstportrait auf dem Exotablet gespeichert.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/schönheit,,/visage,,0,293,2,1,2,0,0
+688,,,,,,0,0,0,0,0,0,0
 689,"/foto, /photograph
 VERWENDUNG:
 /foto [Unterbefehl]
 → Du machst ein Foto.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/foto,,/photograph,,0,293,2,1,2,0,0
+690,,,,,,0,0,0,0,0,0,0
+691,,,,,,0,0,0,0,0,0,0
 692,"/socken, /overreact
 VERWENDUNG:
 /socken [Unterbefehl]
@@ -3302,6 +3498,7 @@ VERWENDUNG:
 → Du hörst nicht auf, konzentriert zu lesen.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/schmökern,,/study,,0,293,2,1,2,0,0
+698,,,,,,0,0,0,0,0,0,0
 699,"/gridanischesschlückchen, /gridaniansip
 VERWENDUNG:
 /gridanischersip [Unterbefehl]
@@ -3362,3 +3559,75 @@ VERWENDUNG:
 → Du machst dir mit deiner Feder ein paar Notizen.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/beschwingtnotieren,,/pen,,0,293,2,1,2,0,0
+709,,,,,,0,0,0,0,0,0,0
+710,,,,,,0,0,0,0,0,0,0
+711,"/angroovrot, /groovrot, /cheerrr
+VERWENDUNG:
+/angroovrot [Unterbefehl]
+→ Du feuerst groovend mit rot schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/angroovrot,/groovrot,/cheerrhythmred,/cheerrr,0,293,2,1,2,0,0
+712,"/anschwofgelb, /schwofgelb, /cheerly
+VERWENDUNG:
+/anschwofgelb [Unterbefehl]
+→ Du feuerst schwofend mit gelb schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwofgelb,/schwofgelb,/cheerlightyellow,/cheerly,0,293,2,1,2,0,0
+713,,,,,,0,0,0,0,0,0,0
+714,"/laufstegschritt, /stegschritt, /runway
+VERWENDUNG:
+/laufstegschritt [Unterbefehl]
+→ Du läufst mit unerschütterlichem Selbst­be­wusst­sein.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/laufstegschritt,/stegschritt,/runwaywalk,/runway,0,293,2,1,2,0,0
+715,,,,,,0,0,0,0,0,0,0
+716,,,,,,0,0,0,0,0,0,0
+717,,,,,,0,0,0,0,0,0,0
+718,"/buchtragen, /carrybook
+VERWENDUNG:
+/buchtragen [Unterbefehl]
+→ Du drückst dir ein Buch fest an die Brust.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/buchtragen,,/carrybook,,0,293,2,1,2,0,0
+719,"/göttlicherhandschuh, /divinearm
+VERWENDUNG:
+/göttlichehalskette [Unterbefehl]
+→ Du lässt das göttliche Artefakt an deiner Hand hell erstrahlen.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/göttlicherhandschuh,,/divinearm,,0,293,2,1,2,0,0
+720,"/göttlichehalskette, /divinedisk
+VERWENDUNG:
+/göttlichehalskette [Unterbefehl]
+→ Du lässt das göttliche Artefakt um deinen Hals hell erstrahlen.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/göttlichehalskette,,/divinedisk,,0,293,2,1,2,0,0
+721,"/göttlichesdiadem, /divinetiara
+VERWENDUNG:
+/göttlichesdiadem [Unterbefehl]
+→ Du lässt das göttliche Artefakt auf deinem Kopf hell erstrahlen.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/göttlichesdiadem,,/divinetiara,,0,293,2,1,2,0,0
+722,"/angroovlila, /groovlila, /cheerrv
+VERWENDUNG:
+/angroovlila [Unterbefehl]
+→ Du feuerst groovend mit lila schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/angroovlila,/groovlila,/cheerrhythmviolet,/cheerrv,0,293,2,1,2,0,0
+723,"/angroovweiß, /groovweiß, /cheerrw
+VERWENDUNG:
+/angroovweiß [Unterbefehl]
+→ Du feuerst groovend mit weiß schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/angroovweiß,/groovweiß,/cheerrhythmbright,/cheerrw,0,293,2,1,2,0,0
+724,"/anschwofblau, /schwofblau, /cheerlb
+VERWENDUNG:
+/anschwofblau [Unterbefehl]
+→ Du feuerst schwofend mit blau schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwofblau,/schwofblau,/cheerlightblue,/cheerlb,0,293,2,1,2,0,0
+725,"/anschwofgrün, /schwofgrün, /cheerlg
+VERWENDUNG:
+/anschwofgrün [Unterbefehl]
+→ Du feuerst schwofend mit grün schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwofgrün,/schwofgrün,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0

@@ -1,4 +1,5 @@
 #,Description,Alias,ShortAlias,Command,ShortCommand,Unknown0,Param,Unknown1,Unknown2,Unknown3,Unknown4,Unknown5
+0,,,,,,0,0,0,0,0,0,0
 1,"/visionnage, /visio, /record
 Ouvre la fenêtre de visionnage de mission.",/visionnage,/visio,/record,,0,32,1,0,0,0,0
 2,"/appelenregistrement, /appelenreg, /recordready
@@ -229,6 +230,7 @@ Change le mode d'affichage des plaques de noms pour la catégorie de joueur spé
  2 : en combat
  3 : en ciblage
  4 : jamais
+ 5 : hors-combat
 
 >> Exemples :
 /affichageplaquedenom tous 4
@@ -349,7 +351,6 @@ Ouvre la fenêtre des accessoires de visage.",/listeaccvisage,/lavisage,/facewea
 46,"/rvisuelle, /visualalerts
 Utilisation : /rvisuelle [sous-commande]
 Permet de régler la repré­sen­ta­tion visuelle des sons (configuration système).
-* Uniquement pour les versions Windows/Mac.
 >> Sous-commandes :
 activé (on) Active la repré­sen­ta­tion visuelle des sons.
 désactivé (off) Désactive la repré­sen­ta­tion visuelle des sons.
@@ -357,7 +358,6 @@ désactivé (off) Désactive la repré­sen­ta­tion visuelle des sons.
 47,"/perceptioncouleurs, /pcouleurs, /colorfiltering
 Utilisation : /perceptioncouleurs [sous-commande]
 Permet d'effectuer les réglages de perception des couleurs (configuration système).
-* Uniquement pour les versions Windows/Mac.
 >> Sous-commandes :
 activé (on) Active les réglages de perception des couleurs.
 désactivé (off) Désactive les réglages de perception des couleurs.
@@ -369,13 +369,56 @@ Permet d'activer/désactiver le ciblage automatique d'un ennemi en effectuant un
 activé (on) Active le ciblage automatique d'un ennemi en effectuant une action offensive.
 désactivé (off) Désactive le ciblage automatique d'un ennemi en effectuant une action offensive.
 * Si aucune sous-commande n'est spécifiée, alterne entre les deux options.",/ciblageautomatique,/cibauto,/autotargetpriority,,0,36,2,1,2,0,0
-49,"/oreillesviera,/oviera,/vears
+49,"/oreillesviera, /oviera, /vears
 Permet d'activer/désactiver l'affichage des oreilles des Viéras.
 * Les oreilles ne peuvent être affichées qu'avec des pièces d'équipement de tête compatibles.
 >> Sous-commandes :
 activé (on) Affiche les oreilles à travers l'équipement de tête
 désactivé (off) Masque les oreilles sous l'équipement de tête.
 * Si aucune sous-commande n'est spécifiée, alterne entre les deux options.",/oreillesviera,/oviera,/vieraears,/vears,0,36,2,1,2,0,0
+50,"/accesrapide, /accrap, /quickpanel
+Ouvre la fenêtre d'accès rapide.",/accesrapide,/accrap,/quickpanel,,0,32,1,0,0,0,0
+51,"/tableauxstrategiques, /tabstrat
+Ouvre la fenêtre des tableaux stratégiques.",/tableauxstrategiques,/tabstrat,/strategyboard,,0,32,1,0,0,0,0
+52,,,,,,0,0,0,0,0,0,0
+53,,,,,,0,0,0,0,0,0,0
+54,,,,,,0,0,0,0,0,0,0
+55,,,,,,0,0,0,0,0,0,0
+56,,,,,,0,0,0,0,0,0,0
+57,,,,,,0,0,0,0,0,0,0
+58,,,,,,0,0,0,0,0,0,0
+59,,,,,,0,0,0,0,0,0,0
+60,,,,,,0,0,0,0,0,0,0
+61,,,,,,0,0,0,0,0,0,0
+62,,,,,,0,0,0,0,0,0,0
+63,,,,,,0,0,0,0,0,0,0
+64,,,,,,0,0,0,0,0,0,0
+65,,,,,,0,0,0,0,0,0,0
+66,,,,,,0,0,0,0,0,0,0
+67,,,,,,0,0,0,0,0,0,0
+68,,,,,,0,0,0,0,0,0,0
+69,,,,,,0,0,0,0,0,0,0
+70,,,,,,0,0,0,0,0,0,0
+71,,,,,,0,0,0,0,0,0,0
+72,,,,,,0,0,0,0,0,0,0
+73,,,,,,0,0,0,0,0,0,0
+74,,,,,,0,0,0,0,0,0,0
+75,,,,,,0,0,0,0,0,0,0
+76,,,,,,0,0,0,0,0,0,0
+77,,,,,,0,0,0,0,0,0,0
+78,,,,,,0,0,0,0,0,0,0
+79,,,,,,0,0,0,0,0,0,0
+80,,,,,,0,0,0,0,0,0,0
+81,,,,,,0,0,0,0,0,0,0
+82,,,,,,0,0,0,0,0,0,0
+83,,,,,,0,0,0,0,0,0,0
+84,,,,,,0,0,0,0,0,0,0
+85,,,,,,0,0,0,0,0,0,0
+86,,,,,,0,0,0,0,0,0,0
+87,,,,,,0,0,0,0,0,0,0
+88,,,,,,0,0,0,0,0,0,0
+89,,,,,,0,0,0,0,0,0,0
+90,,,,,,0,0,0,0,0,0,0
 91,"/équipejcj, /éj, /pvpteam, /pt
 Utilisation : /équipejcj [message]
 Affiche un message visible par tous les joueurs appartenant à la même équipe JcJ.
@@ -390,6 +433,14 @@ Le mode de discussion par défaut devient celui de la linkshell inter-Monde acti
   Envoie le message ""Bonjour !"" à tous les membres de la linkshell inter-Monde active.
 /lsim 
   Change le mode de discussion par défaut par celui de la linkshell inter-Monde active.",/linkshellim,/lsim,/cwlinkshell,/cwl,0,1021,1,0,0,0,0
+93,,,,,,0,0,0,0,0,0,0
+94,,,,,,0,0,0,0,0,0,0
+95,,,,,,0,0,0,0,0,0,0
+96,,,,,,0,0,0,0,0,0,0
+97,,,,,,0,0,0,0,0,0,0
+98,,,,,,0,0,0,0,0,0,0
+99,,,,,,0,0,0,0,0,0,0
+100,,,,,,0,0,0,0,0,0,0
 101,"/novice, /n, /beginner, /b
 Utilisation : /novice [message]
 Affiche un message visible par tous les joueurs participant au réseau des novices.
@@ -463,6 +514,7 @@ Permet d'envoyer un message à la dernière personne qui vous a contacté avec /
 Utilisation : /alliance [message]
 Affiche un message visible par tous les membres de l'alliance, où qu'ils se trouvent.
 ""Alliance"" devient le mode de discussion par défaut si /alliance est utilisé sans message.",/all,,/alliance,/a,0,1021,1,0,0,0,0
+120,,,,,,0,0,0,0,0,0,0
 121,"/rejoindre, /accepter, /join
 Permet d'accepter une invitation à rejoindre une équipe.",/rejoindre,/accepter,/join,,0,4,1,0,0,0,0
 122,"/décliner, /decline
@@ -478,6 +530,10 @@ Utilisation : /chef [argument de ciblage]
 La cible désignée devient chef d'équipe. Si aucun argument n'est spécifié, le personnage ciblé devient chef d'équipe.",/chef,,/leader,,0,4,2,0,0,0,0
 126,"/partir, /leave
 Quitte l'équipe.",/partir,,/leave,,0,4,2,0,0,0,0
+127,,,,,,0,0,0,0,0,0,0
+128,,,,,,0,0,0,0,0,0,0
+129,,,,,,0,0,0,0,0,0,0
+130,,,,,,0,0,0,0,0,0,0
 131,"/examiner, /exam, /check, /c
 Utilisation : /examiner [argument de ciblage]
 Examine la cible spécifiée, ou le personnage ciblé si aucun argument n'est saisi.",/examiner,/exam,/check,/c,0,160,2,0,0,0,0
@@ -495,9 +551,14 @@ désactivé (off)    Désactive la course automatique.
 134,"/suivre, /follow
 Utilisation : /suivre [argument de ciblage]
 Permet de suivre au­to­ma­ti­que­ment la cible spécifiée, ou le personnage ciblé si aucun argument n'est saisi.",/suivre,,/follow,,0,36,2,0,0,0,0
+135,,,,,,0,0,0,0,0,0,0
 136,"/sertirsvp, /sertir, /meldrequest
 Utilisation : /sertirsvp [argument de ciblage]
 Demande à la cible désignée de sertir une matéria. Si aucun argument n'est spécifié, la demande est faite au personnage ciblé.",/sertirsvp,/sertir,/meldrequest,,0,32,2,0,0,0,0
+137,,,,,,0,0,0,0,0,0,0
+138,,,,,,0,0,0,0,0,0,0
+139,,,,,,0,0,0,0,0,0,0
+140,,,,,,0,0,0,0,0,0,0
 141,"/personnage, /character, /gear
 Ouvre le menu personnage.",/personnage,,/character,/gear,0,32,1,0,0,0,0
 142,"/journal
@@ -579,7 +640,7 @@ Affiche la carte de la zone où se trouve votre personnage.",/carte,,/map,,0,104
 Ouvre le menu Téléportation.",/téléportation,/télép,/teleport,,0,0,1,0,0,0,0
 156,"/marquer, /signe, /marking, /mk
 Utilisation : /marquer [type]  [argument de ciblage]
-Permet de placer un signe sur la cible spécifiée ou le personnage ciblé si aucun argument n'est saisi.
+Permet de placer un signe sur la cible spécifiée ou le personnage/objet ciblé si aucun argument n'est saisi.
 >> Signes :
 ""attaque1"" jusqu'à ""attaque8"" (attack1 à 8)
 ""entrave1"" jusqu'à ""entrave3"" (bind1 à 3) 
@@ -595,7 +656,7 @@ désactivé (off) : retirer le signe
 /marquer ignore2 <t>
   La cible reçoit le signe ""2e cible à ignorer"".
 /marquer entrave1
-  Le personnage ou ennemi ciblé reçoit le signe ""1re cible à entraver"".
+  Le personnage/objet ciblé reçoit le signe ""1re cible à entraver"".
 Une fois marquées, les cibles peuvent être désignées par les arguments <stop1>, <ignore1>, etc.",/marquer,/signe,/marking,/mk,0,32,3,1,2,0,0
 157,"/actionstraits, /actionlist, /alist
 Ouvre le menu Actions et traits.",/actionstraits,,/actionlist,/alist,0,32,1,0,0,0,0
@@ -729,6 +790,7 @@ Affiche votre liste de contacts.",/listecontacts,/lc,/contactlist,,0,32,1,0,0,0,
 199,"/vitessemontures, /vm, /mountspeed
 Utilisation : /vitessemontures
 Ouvre le menu Vitesse des montures.",/vitessemontures,/vm,/mountspeed,,0,32,1,0,0,0,0
+200,,,,,,0,0,0,0,0,0,0
 201,"/infocmd, /?
 Utilisation : /? [nom de commande]
 Décrit en détail la commande spécifiée. La ou les abréviations peuvent être utilisées. La commande doit être saisie en minuscules.",/infocmd,,/?,,0,189,2,1,1,0,0
@@ -737,6 +799,7 @@ Utilisation : /attendre [temps d'attente]
 Commande de macro permettant de retarder la commande suivante.
 Un délai de 1 correspond à environ une seconde.
 Le délai maximum est de 60 (tout chiffre supérieur équivaut à 60).",/attendre,,/wait,,0,181,2,1,0,0,0
+203,,,,,,0,0,0,0,0,0,0
 204,"/marquelegacy, /mleg, /legacymark, /lmark
 Utilisation : /mleg [sous-commande]
 Affiche ou cache la marque des Douze, qui apparaît sur le cou de ceux qui ont survécu au Fléau.
@@ -876,6 +939,7 @@ W/    Réinitialise la position du cadre.
 /cameradiaporama <t>
   Active la caméra diaporama centrée sur la cible.
 (Touches par défaut)",/cameradiaporama,/cdiapo,/idlingcamera,/icam,0,40,2,0,0,0,0
+222,,,,,,0,0,0,0,0,0,0
 223,"/refuscombatsingulier, /refuscomsing, /duelswitch
 Utilisation : /refuscombatsingulier [sous-commande]
 Permet de bloquer les demandes de combat singulier.
@@ -958,6 +1022,7 @@ annuler (clear) Permet de supprimer toutes les alertes.
   Règle une alerte nommée ""Rassemblement"" qui se déclenchera 10 minutes avant qu'il soit 20h00 heure locale.
 /alerte ""Pause"" hl rp 30 se05
   Règle une alerte nommée ""Pause"" qui se déclenchera toutes les heures à la demie (15h30, 16h30, 17h30, etc).",/alerte,,/alarm,,0,32,8,3,2,2,2
+230,,,,,,0,0,0,0,0,0,0
 231,"/occupé, /busy
 Utilisation : /occupé [sous-commande]
 Change l'état en ligne du personnage en ""Occupé(e)"".
@@ -1020,6 +1085,17 @@ Change l'état en ligne du personnage en ""Jeu de rôle"".
 activé (on)  Passe en état ""Jeu de rôle"".
 désactivé (off)  Passe en état ""En ligne"".
 * Si aucune sous-commande n'est spécifiée, alterne entre les deux états.",/jeuderôle,/jdr,/roleplaying,,0,36,2,1,2,0,0
+240,,,,,,0,0,0,0,0,0,0
+241,,,,,,0,0,0,0,0,0,0
+242,,,,,,0,0,0,0,0,0,0
+243,,,,,,0,0,0,0,0,0,0
+244,,,,,,0,0,0,0,0,0,0
+245,,,,,,0,0,0,0,0,0,0
+246,,,,,,0,0,0,0,0,0,0
+247,,,,,,0,0,0,0,0,0,0
+248,,,,,,0,0,0,0,0,0,0
+249,,,,,,0,0,0,0,0,0,0
+250,,,,,,0,0,0,0,0,0,0
 251,"/act, /action, /ac
 Utilisation : /action ""[nom d'action]"" [argument de ciblage]
 Permet d'effectuer une action sur la cible spécifiée.
@@ -1087,6 +1163,7 @@ Fait de la cible spécifiée la cible focalisée. Si aucun argument n'est saisi,
 >> Exemple :
 /focalisercible <t>
   Fait de la cible actuelle la cible focalisée.",/focalisercible,/foccib,/focustarget,,0,36,2,0,0,0,0
+266,,,,,,0,0,0,0,0,0,0
 267,"/actionfamilier, /actfam, /petaction
 Utilisation : /actionfamilier ""[nom d'action]"" [argument de ciblage]
 Exécute l'action de familier désignée sur le personnage spécifié.
@@ -1160,6 +1237,7 @@ Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol""
   Utilise l'action Shukuchi sur la cible.
 /actionjcj ""Shukuchi"" sansciblesol
   Utilise l'action Shukuchi directement là où se trouve le curseur.",/actionjcj,/aj,/pvpaction,/pvpac,0,4,3,2,16,2,0
+278,,,,,,0,0,0,0,0,0,0
 279,"/actionmagiebleue, /mb, /blueaction ""Nom de l'action de magie bleue"" [argument de ciblage]
 Permet d'effectuer une action de magie bleue sur la cible spécifiée.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
@@ -1167,6 +1245,27 @@ Exécution impossible si l'action n'est pas apprise, ou si les conditions de son
 >> Exemple :
 /actionmagiebleue ""Tir d'eau"" <t>
   Utilise l'action de magie bleue Tir d'eau sur la cible.",/actionmagiebleue,/mb,/blueaction,,0,36,3,2,18,2,0
+280,,,,,,0,0,0,0,0,0,0
+281,,,,,,0,0,0,0,0,0,0
+282,,,,,,0,0,0,0,0,0,0
+283,,,,,,0,0,0,0,0,0,0
+284,,,,,,0,0,0,0,0,0,0
+285,,,,,,0,0,0,0,0,0,0
+286,,,,,,0,0,0,0,0,0,0
+287,,,,,,0,0,0,0,0,0,0
+288,,,,,,0,0,0,0,0,0,0
+289,,,,,,0,0,0,0,0,0,0
+290,,,,,,0,0,0,0,0,0,0
+291,,,,,,0,0,0,0,0,0,0
+292,,,,,,0,0,0,0,0,0,0
+293,,,,,,0,0,0,0,0,0,0
+294,,,,,,0,0,0,0,0,0,0
+295,,,,,,0,0,0,0,0,0,0
+296,,,,,,0,0,0,0,0,0,0
+297,,,,,,0,0,0,0,0,0,0
+298,,,,,,0,0,0,0,0,0,0
+299,,,,,,0,0,0,0,0,0,0
+300,,,,,,0,0,0,0,0,0,0
 301,"/verrouillerauto, /verrauto, /autolockon
 Utilisation : /verrouillerauto [sous-commande]
 Verrouille la cible sur l'ennemi lors de l'attaque automatique.
@@ -1313,10 +1412,10 @@ Croix de raccourcis (cxracc)
 Guide de l'épopée (Guideépopée)
 Éther compressé (Éthcomp)
 Exploration cosmique : planètes (ECplanètes)
+JcJ - log de combat : JcJLog (PvP:Log)
 Crystalline Conflict - jauge de progression : CConflictProgress (CrystallineConflict:ProgressGauge)
 Crystalline Conflict - alliés : CConflictEqu (CrystallineConflict:AllyInfo)
 Crystalline Conflict - adversaires : CConflictAdv (CrystallineConflict:EnemyInfo)
-Crystalline Conflict - log de combat : CConflictLog (CrystallineConflict:BattleLog)
 Crystalline Conflict - carte : CConflictCarte (CrystallineConflict:Map)
 Le Front - jauge de combat : JaugeCombat (Frontline:BattleGauge)
 Le Front - score : FrontScore (Frontline:Score)
@@ -1610,6 +1709,65 @@ Règle le volume des Actions d'interprétation sur la valeur spécifiée.
 >> Sous-commande :
 [0-100]  Règle le volume sur la valeur correspondante.
 * Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.",/actionsinterprétation,/ainterp,/performsounds,,0,229,2,0,0,0,0
+342,,,,,,0,0,0,0,0,0,0
+343,,,,,,0,0,0,0,0,0,0
+344,,,,,,0,0,0,0,0,0,0
+345,,,,,,0,0,0,0,0,0,0
+346,,,,,,0,0,0,0,0,0,0
+347,,,,,,0,0,0,0,0,0,0
+348,,,,,,0,0,0,0,0,0,0
+349,,,,,,0,0,0,0,0,0,0
+350,,,,,,0,0,0,0,0,0,0
+351,,,,,,0,0,0,0,0,0,0
+352,,,,,,0,0,0,0,0,0,0
+353,,,,,,0,0,0,0,0,0,0
+354,,,,,,0,0,0,0,0,0,0
+355,,,,,,0,0,0,0,0,0,0
+356,,,,,,0,0,0,0,0,0,0
+357,,,,,,0,0,0,0,0,0,0
+358,,,,,,0,0,0,0,0,0,0
+359,,,,,,0,0,0,0,0,0,0
+360,,,,,,0,0,0,0,0,0,0
+361,,,,,,0,0,0,0,0,0,0
+362,,,,,,0,0,0,0,0,0,0
+363,,,,,,0,0,0,0,0,0,0
+364,,,,,,0,0,0,0,0,0,0
+365,,,,,,0,0,0,0,0,0,0
+366,,,,,,0,0,0,0,0,0,0
+367,,,,,,0,0,0,0,0,0,0
+368,,,,,,0,0,0,0,0,0,0
+369,,,,,,0,0,0,0,0,0,0
+370,,,,,,0,0,0,0,0,0,0
+371,,,,,,0,0,0,0,0,0,0
+372,,,,,,0,0,0,0,0,0,0
+373,,,,,,0,0,0,0,0,0,0
+374,,,,,,0,0,0,0,0,0,0
+375,,,,,,0,0,0,0,0,0,0
+376,,,,,,0,0,0,0,0,0,0
+377,,,,,,0,0,0,0,0,0,0
+378,,,,,,0,0,0,0,0,0,0
+379,,,,,,0,0,0,0,0,0,0
+380,,,,,,0,0,0,0,0,0,0
+381,,,,,,0,0,0,0,0,0,0
+382,,,,,,0,0,0,0,0,0,0
+383,,,,,,0,0,0,0,0,0,0
+384,,,,,,0,0,0,0,0,0,0
+385,,,,,,0,0,0,0,0,0,0
+386,,,,,,0,0,0,0,0,0,0
+387,,,,,,0,0,0,0,0,0,0
+388,,,,,,0,0,0,0,0,0,0
+389,,,,,,0,0,0,0,0,0,0
+390,,,,,,0,0,0,0,0,0,0
+391,,,,,,0,0,0,0,0,0,0
+392,,,,,,0,0,0,0,0,0,0
+393,,,,,,0,0,0,0,0,0,0
+394,,,,,,0,0,0,0,0,0,0
+395,,,,,,0,0,0,0,0,0,0
+396,,,,,,0,0,0,0,0,0,0
+397,,,,,,0,0,0,0,0,0,0
+398,,,,,,0,0,0,0,0,0,0
+399,,,,,,0,0,0,0,0,0,0
+400,,,,,,0,0,0,0,0,0,0
 401,"/cmdémotion, /emote, /em
 Utilisation : /cmdémotion [message]
 Affiche un message commençant par le nom de votre personnage dans la couleur d'un message d'emote et dans le même périmètre qu'un ""Dire"".
@@ -1911,9 +2069,11 @@ animation (motion)   Exécute uniquement l'animation.
 451,"/asseoir, /sit, /lounge
 Alterner entre la position assise et la position levée. Cette commande peut également être utilisée à proximité d'un siège pour s'y asseoir.
 Certaines commandes d'emotes comportent des gestes spéciaux adaptés à la position assise.",/asseoir,/lounge,/lounge,/sit,0,37,1,0,0,0,0
+452,,,,,,0,0,0,0,0,0,0
 453,"/asseoirparterre, /groundsit
 Alterne entre la position assise par terre et la position levée.
 Certaines commandes d'emotes comportent des gestes spéciaux adaptés à la position assise.",/asseoirparterre,,/groundsit,,0,37,1,0,0,0,0
+454,,,,,,0,0,0,0,0,0,0
 455,"/guillemets, /airquotes
 Faire des guillemets avec les doigts pour citer les dires de quelqu'un ou encore marquer l'ironie ou l'importance de certains mots.
 Seule une animation est exécutée.",/guillemets,,/airquotes,,0,293,2,1,2,0,0
@@ -1949,6 +2109,7 @@ animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/salutimp,,/imperialsalute,,0,293,2,1,2,0,0
 461,"/visière, /visor
 Baisse ou remonte la visière d'un couvre-chef pour lequel une telle opération est possible.",/visière,,/visor,,0,301,2,1,2,0,0
+462,,,,,,0,0,0,0,0,0,0
 463,"/mégabrasier, /megaflare
 Utilisation : /mégabrasier [sous-commande]
 Effectue une dé­mon­stra­tion pyrotechnique.
@@ -1967,24 +2128,24 @@ Tombe en pâmoison.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/tombersouslecharme,,/charmed,,0,293,2,1,2,0,0
-466,"/encouragerbleu, /cheeron
-Utilisation : /encouragerbleu [sous-commande]
-Encourage avec des bâtons lumineux bleus.
+466,"/encouragerdevantbleu, /bâtonsdvble, /cheeronblue, /cheerob
+Utilisation : /encouragerdevantbleu [sous-commande]
+Encourage vers l'avant avec des bâtons lumineux bleus.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerbleu,,/cheeron,,0,293,2,1,2,0,0
-467,"/encouragerjaune, /cheerwave
-Utilisation : /encouragerjaune [sous-commande]
-Encourage avec des bâtons lumineux jaunes.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerdevantbleu,/bâtonsdvble,/cheeronblue,/cheerob,0,293,2,1,2,0,0
+467,"/encouragerarcjaune, /bâtonsarcjau, /cheerwaveyellow, /cheerwy
+Utilisation : /encouragerarcjaune [sous-commande]
+Encourage en agitant le bras en arc-de-cercle avec des bâtons lumineux jaunes.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerjaune,,/cheerwave,,0,293,2,1,2,0,0
-468,"/encouragerrouge, /cheerjump
-Utilisation : /encouragerrouge [sous-commande]
-Encourage avec des bâtons lumineux rouges.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerarcjaune,/bâtonsarcjau,/cheerwaveyellow,/cheerwy,0,293,2,1,2,0,0
+468,"/encouragersautrouge, /bâtonssautrou, /cheerjumpred, /cheerjr
+Utilisation : /encouragersautrouge [sous-commande]
+Encourage en sautillant avec des bâtons lumineux rouges.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerrouge,,/cheerjump,,0,293,2,1,2,0,0
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragersautrouge,/bâtonssautrou,/cheerjumpred,/cheerjr,0,293,2,1,2,0,0
 469,"/neutre, /straightface, /straight
 Utilisation : /neutre [sous-commande]
 Afficher une expression normale.
@@ -2093,9 +2254,23 @@ Lance un objet.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/lancer,,/throw,,0,293,2,1,2,0,0
+487,,,,,,0,0,0,0,0,0,0
+488,,,,,,0,0,0,0,0,0,0
+489,,,,,,0,0,0,0,0,0,0
+490,,,,,,0,0,0,0,0,0,0
 491,"/changerpose, /changepose, /cpose
 Change la pose du personnage.
 Seule une animation est exécutée.",/changerpose,,/changepose,/cpose,0,37,2,1,2,0,0
+492,,,,,,0,0,0,0,0,0,0
+493,,,,,,0,0,0,0,0,0,0
+494,,,,,,0,0,0,0,0,0,0
+495,,,,,,0,0,0,0,0,0,0
+496,,,,,,0,0,0,0,0,0,0
+497,,,,,,0,0,0,0,0,0,0
+498,,,,,,0,0,0,0,0,0,0
+499,,,,,,0,0,0,0,0,0,0
+500,,,,,,0,0,0,0,0,0,0
+501,,,,,,0,0,0,0,0,0,0
 502,"/claquettes, /stepdance
 Utilisation : /claquettes [sous-commande]
 Fait faire des claquettes.
@@ -2132,6 +2307,8 @@ Donner.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/donner,/donne,/handover,,0,293,2,1,2,0,0
+508,,,,,,0,0,0,0,0,0,0
+509,,,,,,0,0,0,0,0,0,0
 510,"/dansebombo, /dbombo, /bombdance
 Utilisation : /dansebombo [sous-commande]
 Exécute la danse du bombo.
@@ -2174,6 +2351,8 @@ Exécute un salut avec le poing.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/salutpoing,/brofist,/fistbump,/fist,0,293,2,1,2,0,0
+517,,,,,,0,0,0,0,0,0,0
+518,,,,,,0,0,0,0,0,0,0
 519,"/dansethavnairoise, /dthavn, /thavdance, /tdanse
 Utilisation : /dansethavnairoise [sous-commande]
 Exécute la danse thavnairoise.
@@ -2348,6 +2527,7 @@ Exprime son amour.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/exprimersonamour,/expramour,/dote,,0,293,2,1,2,0,0
+548,,,,,,0,0,0,0,0,0,0
 549,"/ajusterseslunettes, /ajlunettes, /spectacles
 Utilisation : /ajusterseslunettes [sous-commande]
 Ajuste ses lunettes.
@@ -2462,6 +2642,7 @@ Effectue une prière rituelle.
 >> Sous-commande :
 animation (motion)  Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/prièrerituelle,/prituelle,/ritualprayer,,0,293,2,1,2,0,0
+569,,,,,,0,0,0,0,0,0,0
 570,"/tremblerdepeur, /tremble
 Utilisation : /tremblerdepeur [sous-commande]
 Tremble de peur.
@@ -2510,12 +2691,14 @@ Exécute la danse des yols.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/dansedesyols,,/yoldance,,0,293,2,1,2,0,0
+578,,,,,,0,0,0,0,0,0,0
 579,"/éclabousser, /splash
 Utilisation : /éclabousser [sous-commande]
 Fait semblant d'asperger avec de l'eau.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/éclabousser,,/splash,,0,293,2,1,2,0,0
+580,,,,,,0,0,0,0,0,0,0
 581,"/transpirer, /sweat
 Utilisation : /transpirer [sous-commande]
 S'essuie le front.
@@ -2879,6 +3062,8 @@ Exhibe ce qui se trouve à sa gauche.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/montrergauche,/montreg,/showleft,,0,293,2,1,2,0,0
+644,,,,,,0,0,0,0,0,0,0
+645,,,,,,0,0,0,0,0,0,0
 646,"/montrersoncôtérebelle, /rebelle, /deride, /pagaga
 Utilisation : /montrersoncôtérebelle [sous-commande]
 Montre son côté rebelle.
@@ -2927,6 +3112,9 @@ Exhibe de longues oreilles soyeuses.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/longuesoreillessoyeuses,/longorsoy,/earwiggle,,0,293,2,1,2,0,0
+654,,,,,,0,0,0,0,0,0,0
+655,,,,,,0,0,0,0,0,0,0
+656,,,,,,0,0,0,0,0,0,0
 657,"/effrayer, /frighten
 Utilisation : /effrayer [sous-commande]
 Prend un air effrayant.
@@ -2975,30 +3163,31 @@ Met sa main sur sa poitrine.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/mainsurlapoitrine,/mainpoit,/handtoheart,,0,293,2,1,2,0,0
-665,"/encouragerblanc, /cheerbright, /cheeronbright
-Utilisation : /encouragerblanc [sous-commande]
-Encourage avec des bâtons lumineux blancs.
+665,"/encouragerdevantblanc, /bâtonsdvbla, /cheeronbright, /cheerow
+Utilisation : /encouragerdevantblanc [sous-commande]
+Encourage vers l'avant avec des bâtons lumineux blancs.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerblanc,,/cheeronbright,/cheerbright,0,293,2,1,2,0,0
-666,"/encouragerviolet, /cheerviolet, /cheerwaveviolet
-Utilisation : /encouragerviolet [sous-commande]
-Encourage avec des bâtons lumineux violets.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerdevantblanc,/bâtonsdvbla,/cheeronbright,/cheerow,0,293,2,1,2,0,0
+666,"/encouragerarcviolet, /bâtonsarcsvio, /cheerwaveviolet, /cheerwv
+Utilisation : /encouragerarcviolet [sous-commande]
+Encourage en agitant le bras en arc-de-cercle avec des bâtons lumineux violets.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerviolet,,/cheerwaveviolet,/cheerviolet,0,293,2,1,2,0,0
-667,"/encouragervert, /cheergreen, /cheerjumpgreen
-Utilisation : /encouragervert [sous-commande]
-Encourage avec des bâtons lumineux verts.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerarcviolet,/bâtonsarcvio,/cheerwaveviolet,/cheerwv,0,293,2,1,2,0,0
+667,"/encouragersautvert, /bâtonssautver, /cheerjumpgreen, /cheerjg
+Utilisation : /encouragersautvert [sous-commande]
+Encourage en sautillant avec des bâtons lumineux verts.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragervert,,/cheerjumpgreen,/cheergreen,0,293,2,1,2,0,0
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragersautvert,/bâtonssautver,/cheerjumpgreen,/cheerjg,0,293,2,1,2,0,0
 668,"/sortilègedelaveillée, /sortveillée
 Utilisation : /sortilègedelaveillée [sous-commande]
 Lance un sortilège de la Veillée des saints.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/sortilègedelaveillée,/sortveillée,/allsaintscharm,,0,293,2,1,2,0,0
+669,,,,,,0,0,0,0,0,0,0
 670,"/dansedesloporrites, /danslopo, /lophop
 Utilisation : /dansedesloporrites [sous-commande]
 Effectue la danse des Loporrites.
@@ -3107,12 +3296,15 @@ Immortalise son portrait.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/immortaliserportrait,/selfie,/visage,,0,293,2,1,2,0,0
+688,,,,,,0,0,0,0,0,0,0
 689,"/photographier, /photo, /photograph
 Utilisation : /photographier [sous-commande]
 Prend une photo.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/photographier,/photo,/photograph,,0,293,2,1,2,0,0
+690,,,,,,0,0,0,0,0,0,0
+691,,,,,,0,0,0,0,0,0,0
 692,"/stupeurexagérée, /stupeurex, /overreact
 Utilisation : /stupeurexagérée [sous-commande]
 Exprime sa stupeur de façon exagérée.
@@ -3149,6 +3341,7 @@ Lit un livre en continu.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/lireunlivrecontinu,/lirecont,/study,,0,293,2,1,2,0,0
+698,,,,,,0,0,0,0,0,0,0
 699,"/tassegridania, /gridaniansip
 Utilisation : /tassegridania [sous-commande]
 Boit du kinderpunsch dans une tasse de Gridania.
@@ -3209,3 +3402,75 @@ Utilisation : /écrireplume [sous-commande]
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/écrireplume,/plume,/pen,,0,293,2,1,2,0,0
+709,,,,,,0,0,0,0,0,0,0
+710,,,,,,0,0,0,0,0,0,0
+711,"/encouragerrapiderouge, /bâtonsraprou, /cheerrythmred, /cheerrr
+Utilisation : /encouragerrapiderouge [sous-commande]
+Encourage en battant la cadence avec des bâtons lumineux rouges.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerrapiderouge,/bâtonsraprou,/cheerrhythmred,/cheerrr,0,293,2,1,2,0,0
+712,"/encouragerlentjaune, /bâtonslenjau, /cheerlightyellow, /cheerly
+Utilisation : /encouragerlentjaune [sous-commande]
+Encourage d'un rythme lent avec des bâtons lumineux jaunes.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerlentjaune,/bâtonslenjau,/cheerlightyellow,/cheerly,0,293,2,1,2,0,0
+713,,,,,,0,0,0,0,0,0,0
+714,"/démarchemannequin, /démarchem, /runwaywalk, /runway
+Utilisation : /démarchemannequin [sous-commande]
+Effectue une démarche de mannequin.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/démarchemannequin,/démarchem,/runwaywalk,/runway,0,293,2,1,2,0,0
+715,,,,,,0,0,0,0,0,0,0
+716,,,,,,0,0,0,0,0,0,0
+717,,,,,,0,0,0,0,0,0,0
+718,"/serrerlivre, /carrybook
+Utilisation : /serrerlivre [sous-commande]
+Serre un livre contre sa poitrine.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/serrerlivre,,/carrybook,,0,293,2,1,2,0,0
+719,"/gantdivin, /divinearm
+Utilisation : /gantdivin [sous-commande]
+Fait briller son gant divin.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/gantdivin,,/divinearm,,0,293,2,1,2,0,0
+720,"/rasdecoudivin, /coudivin, /divinedisk
+Utilisation : /rasdecoudivin [sous-commande]
+Fait briller son ras de cou divin.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/rasdecoudivin,/coudivin,/divinedisk,,0,293,2,1,2,0,0
+721,"/tiaredivine, /divinetiara
+Utilisation : /tiaredivine [sous-commande]
+Fait briller sa tiare divine.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/tiaredivine,,/divinetiara,,0,293,2,1,2,0,0
+722,"/encouragerrapideviolet, /bâtonsrapvio, /cheerrythmviolet, /cheerrv
+Utilisation : /encouragerrapideviolet [sous-commande]
+Encourage en battant la cadence avec des bâtons lumineux violets.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerrapideviolet,/bâtonsrapvio,/cheerrhythmviolet,/cheerrv,0,293,2,1,2,0,0
+723,"/encouragerrapideblanc, /bâtonsrapbla, /cheerrythmbright, /cheerw
+Utilisation : /encouragerrapideblanc [sous-commande]
+Encourage en battant la cadence avec des bâtons lumineux blancs.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerrapideblanc,/bâtonsrapbla,/cheerrhythmbright,/cheerrw,0,293,2,1,2,0,0
+724,"/encouragerlentbleu, /bâtonslenble, /cheerlightblue, /cheerlb
+Utilisation : /encouragerlentbleu [sous-commande]
+Encourage d'un rythme lent avec des bâtons lumineux bleus.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerlentbleu,/bâtonslenble,/cheerlightblue,/cheerlb,0,293,2,1,2,0,0
+725,"/encouragerlentvert, /bâtonslenver, /cheerlightgreen, /cheerlg
+Utilisation : /encouragerlentvert [sous-commande]
+Encourage d'un rythme lent avec des bâtons lumineux verts.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerlentvert,/bâtonslenver,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0

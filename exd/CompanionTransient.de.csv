@@ -1573,7 +1573,8 @@ jetzt nicht auf irgendwelche Zaubertricks verlassen.
 **Dauer:** 10 Sekunden",20,50,3,3,False,True,False,False,False
 528,Du rufst deinen Nanolord als Begleiter herbei. Lass seine Klinge deine sterbliche Essenz trinken. Bitte!,"Das „etwas“ kleinere Ebenbild des Schattenlords. Überreste der Echos sollen sich nach dem Kampf in dieser Form manifestiert haben und von dannen geschritten sein. Der Schattenlord selbst, auf dem dieser Begleiter basiert, soll in der Welt Vana'diel ein wahrer Schrecken für alle dort lebenden Völker gewesen sein.",Eure Seelen sollen mein sein!,Nanohieb,"Erhöht die ABW der ausführenden Trabanten um 40.
 **Dauer:** 10 Sekunden",70,50,2,3,False,False,False,True,False
-529,,,,,,0,0,0,0,False,False,False,False,False
+529,Du rufst dein Kleinhörnchen als Begleiter herbei. Es will nur jene mit reinem Herzen auf ihren Reisen begleiten.,"Eine niedlichere Version des Kleinhorns, das anlässlich der Himmelswende von den Fortemps herbeigeordert wurde. Zu Beginn gab es sich zwar noch etwas nervös, dank deiner sanften Führung gewöhnte es sich aber schnell ein und galoppierte fröhlich durch die Straßen. Jetzt will es seine Hufen gar nicht mehr zum Stehen bringen.",<wieher>,Hufenscharren,"Führt eine Attacke mit Attacke-Wert 120 auf die Gegner in der Nähe aus und erhöht die ATT der ausführenden Trabanten um 20.
+**Dauer:** 6 Sekunden",65,35,3,1,False,True,False,False,False
 530,"Du rufst deine Adamantit-Waffe als Begleiter herbei. Die Miniaturversion eines Prototyps, welche in einer Militärbasis des Imperiums entdeckt wurde.","Ein Modell der ähnlich aussehenden Waffe des Kaiserreichs, welches in einem ihrer Stützpunkte entdeckt wurde. Da es aus­schließ­lich zum Testen der G-Krieger-Abwehr dienen sollte, ist es weder mit Waffen ausgerüstet noch auf andere Weise gefährlich. Nach der Beschlagnahme und Analyse durch die Allianz wurde es als Preis für herausragende Leistungen in Militärübungen ausgegeben.",<Piepup>,Adamantit-Brenner,Fügt dem nächstgelegenen gegnerischen Arkana-Stein 8 % Schaden zu.,50,55,1,8,False,False,False,True,False
 531,Du rufst deinen Tuka-Tukitu als Begleiter herbei. Ein großschnabliger Fiederfreund aus südlichen Gefilden.,"Dieses Großmaul ist vor allem in feuchten Dschungelgebieten anzutreffen, wo es mit seinem gewaltigen, aber hohlen Schnabel federleicht durch die Lüfte segelt. Sein farbenfrohes Äußeres macht ihn zu einem der beliebtesten Vögel von allen, was ihm auch den Titel „Schatz des Waldes“ eingespielt hat.",Krah! Krah!,Schatz des Waldes,"Halbiert den Ruf-Timer von Trabanten beim Herbeirufen.
 **Dauer:** 10 Sekunden",60,60,3,9,False,True,False,False,False
@@ -1647,3 +1648,27 @@ jetzt nicht auf irgendwelche Zaubertricks verlassen.
 566,Du rufst deinen Sündenbiber als Begleiter herbei. Er verfügt nur über einen geringen Wortschatz.,"Dieses mysteriöse Wesen, das auf Pilgers Pfad erschien, liefert die Antwort auf die Frage, was passiert, wenn ein Sünden­ver­tilger auf einen riesigen Biber trifft.",<flöt> <quietsch>,Sündhaftes Quiken,"Verringert die ABW von Gegnern in der Nähe um 50 %.
 **Dauer:** 15 Sekunden",45,40,3,4,False,False,True,False,False
 567,,,,,,0,0,0,0,False,False,False,False,False
+568,,,,,,0,0,0,0,False,False,False,False,False
+569,,,,,,0,0,0,0,False,False,False,False,False
+570,Du rufst deinen G-Krieger MGSD als Begleiter herbei. Das „MGSD“ steht angeblich für „Meister Garlond Super Design“ oder so etwas Ähnliches.,"Ein Garlond-Modellbauer fertigte dieses Modell nach dem Vorbild der beliebten Kampfmaschine „G-Krieger“ an, welche den Maschinenspezialisten in so mancher Schlacht schon zu Ruhm verholfen hat. Als Teil der Öffentlichkeitsarbeit der Metallwerke wird es nun als Trophäe an die erfolgreichsten Schlachtenteilnehmer vergeben.","Das ist eine Spe­zial­an­fer­ti­gung des Ultima-Kriegers aus unseren Gar­lond-Me­tall­wer­ken. Wir nennen ihn kurz „G-Krieger“.
+*Cid Garlond*",Lenkraketen,Zerstört eigene und feindliche Schilde und Suchende Augen. Die ausführenden Trabanten werden weggeschickt.,50,50,2,8,False,True,True,False,False
+571,Du rufst dein La Noscea-Kurzhaar als Begleiter herbei. Für ein wenig Katzenfutter löst es jedes Nagetierproblem.,"Ursprünglich in Vylbrand beheimatet, sind diese grauhaarigen Fellbällchen besonders bei Seeleuten für ihr Talent bei der Mäusejagd in engen Schiffskajüten beliebt. Jüngst wurden auf Kreszentia ebenfalls Exemplare entdeckt, bei denen es sich wohl um die Nachkommen ihrer schiffsbrüchigen Vormiezen handeln muss.","Miau, miau ♪
+*Schwarze Katze*",Krallenwetzen,"Fügt Gegnern in der Nähe im Sekundentakt 10 Schaden über Zeit zu.
+**Dauer:** 20 Sekunden",40,55,1,1,False,False,False,True,False
+572,"Du rufst deinen braven Schäferhund als Begleiter herbei. So mutig und loyal, wie man es sich von jedem Hund wünscht.","Diese äußerst robuste und verantwortungsbewusste Rasse dient seinen Frauchen und Herrchen seit Jahrhunderten sowohl als Wach- wie auch als Schäferhund. Und besonders Seeleute nehmen sie regelmäßig als treue Beschützer mit auf ihre Reisen. Jüngst wurden auf Kreszentia ebenfalls Exemplare entdeckt, bei denen es sich wohl um die Nachkommen ihrer schiffsbrüchigen Vorwuffer handeln muss.","Wuff, wuff!
+*Schwarzer Hund*",Hüten,"Erhöht die ATT der ausführenden Trabanten um 40.
+**Dauer:** 15 Sekunden",45,70,2,3,False,True,True,False,False
+573,,,,,,0,0,0,0,False,False,False,False,False
+574,,,,,,0,0,0,0,False,False,False,False,False
+575,,,,,,0,0,0,0,False,False,False,False,False
+576,Du rufst deinen Hüpfis Khan als Begleiter herbei. Wer dreht noch weiter auf?,"Diese Puppe ist aus Elektrob gefertigt und Springis Khan nachempfunden - ein aufgedrehter Kämpfer mit sprungkräftigen Oberschenkeln der Schwergewichtsliga des Arkadions, der seine Ausdauer und sein Tanzgeschick mithilfe der Seele einer Kröte stark erhöht. Diese begehrte Puppe wird nun unter allen Zuschauern seiner Kämpfe verlost!","Auf der Tanzfläche ist jeder ein Staaaar!
+*Springis Khan*",Tanzbein,"Macht die eigenen Einrichtungen (Tore, Schild und Suchendes Auge) unempfindlich für alle Angriffe.
+**Dauer:** 20 Sekunden",45,85,2,9,False,False,True,False,False
+577,"Du rufst deinen Nebelkondor als Begleiter herbei. Ein Feinschmeckervogel, dem du besser nur perfekt gebratenes Fleisch anbietest, sonst ...","Dieser Riesenvogel ist auf dem Kontinent des Nebels beheimatet und hat sich ursprünglich wie jeder andere Kondor von rohem Fleisch ernährt. Seit dem Anstieg des Blitzäthers im neunten Splitter hat sich seine Art jedoch an den Geschmack von blitzversengtem Bratfleisch gewöhnt. So stellt er lecker wirkender Beute nach, bis diese schließlich von einem Blitz auf etwa „medium“ durchgebraten worden ist, bevor er sie verzehrt.","Ich musste ein paar Blitzen mit Hechtsprüngen ausweichen, aber schlussendlich hab ich's geschafft!
+*Auszubildende Merzerin*",Plötzlicher Sturz,Fügt dem nächstgelegenen gegnerischen Arkana-Stein 5 % Schaden zu.,20,70,3,8,False,True,False,False,False
+578,,,,,,0,0,0,0,False,False,False,False,False
+579,,,,,,0,0,0,0,False,False,False,False,False
+580,,,,,,0,0,0,0,False,False,False,False,False
+581,,,,,,0,0,0,0,False,False,False,False,False
+582,,,,,,0,0,0,0,False,False,False,False,False
+583,,,,,,0,0,0,0,False,False,False,False,False

@@ -2969,9 +2969,9 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 2943,Festungsstadt Zolm'ak,,zur Festungsstadt Zolm'ak,0,0,0,1,0,0,0,0,0
 2944,Goldene Ebene,,zur Goldene Ebene,0,0,0,1,0,0,0,0,0
 2945,Amalj'aa Nomadenlager,,zum Amalj'aa Nomadenlager,0,0,0,1,0,0,0,0,0
-2946,,,,0,0,0,1,0,0,0,0,0
-2947,,,,0,0,0,1,0,0,0,0,0
-2948,,,,0,0,0,1,0,0,0,0,0
+2946,,,,0,0,0,0,0,0,0,0,0
+2947,,,,0,0,0,0,0,0,0,0,0
+2948,,,,0,0,0,0,0,0,0,0,0
 2949,Norvrandt,,nach Norvrandt,0,0,0,1,0,0,0,0,0
 2950,Norvrandt,,nach Norvrandt,0,0,0,1,0,0,1200,0,0
 2951,Crystarium,,nach Crystarium,0,0,0,1,0,0,0,0,0
@@ -4785,10 +4785,10 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 4759,Ruheraum,,zum Ruheraum,0,0,0,1,0,0,0,0,0
 4760,Audienzhalle,,zur Audienzhalle,0,0,0,1,0,0,0,0,0
 4761,*FF Lhaminn*,,zur *FF Lhaminn*,0,0,0,1,0,0,0,0,0
-4762,,,,0,0,0,1,0,0,0,0,0
-4763,,,,0,0,0,1,0,0,0,0,0
-4764,,,,0,0,0,1,0,0,0,0,0
-4765,,,,0,0,0,1,0,0,0,0,0
+4762,Alexandrias Ruinenring,,nach Alexandrias Ruinenring,0,0,0,1,0,0,0,0,0
+4763,Bahnhof Bentini,,zum Bahnhof Bentini,0,0,0,1,0,0,0,0,0
+4764,,,,0,0,0,0,0,0,0,0,0
+4765,Treno,,nach Treno,0,0,0,1,0,0,0,0,0
 4766,,,,0,0,0,1,0,0,0,0,0
 4767,,,,0,0,0,1,0,0,0,0,0
 4768,,,,0,0,0,1,0,0,0,0,0
@@ -5301,12 +5301,12 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 5275,Gespeicherte Hauptstadt,,zur gespeicherten Hauptstadt,0,0,0,1,0,0,0,0,0
 5276,Wildebene,,zur Wildebene,0,0,0,1,0,0,0,0,0
 5277,Pilgers Pfad,,zu Pilgers Pfad,0,0,0,1,0,0,0,0,0
-5278,,,,0,0,0,0,0,0,0,0,0
-5279,,,,0,0,0,0,0,0,0,0,0
-5280,,,,0,0,0,0,0,0,0,0,0
-5281,,,,0,0,0,0,0,0,0,0,0
-5282,,,,0,0,0,0,0,0,0,0,0
-5283,,,,0,0,0,0,0,0,0,0,0
+5278,Pâtisserie,,,0,0,0,1,0,0,0,0,0
+5279,Küche,,,0,0,0,1,0,0,0,0,0
+5280,Cremes,,,0,0,0,1,0,0,0,0,0
+5281,Früchte,,,0,0,0,1,0,0,0,0,0
+5282,Beläge,,,0,0,0,1,0,0,0,0,0
+5283,Dekorationen,,,0,0,0,1,0,0,0,0,0
 5284,Fülle des Todes,,zur Fülle des Todes,0,0,0,1,0,0,0,0,0
 5285,Abgrund,,zum Abgrund,0,0,0,1,0,0,0,0,0
 5286,Kühltunnel,,zum Kühltunnel,0,0,0,1,0,0,0,0,0
@@ -5343,8 +5343,8 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 5317,Kapsel-Becken,,zum Kapsel-Becken,0,0,0,1,0,0,0,0,0
 5318,Opal-Kreuzung,,zur Opal-Kreuzung,0,0,0,1,0,0,0,0,0
 5319,Marmorier-Plateau,,zum Marmorier-Plateau,0,0,0,1,0,0,0,0,0
-5320,Portal zur Basis,,zum Portal zur Basis,0,0,0,1,0,0,0,0,0
-5321,Portal zum Einsatzort,,zum Portal zum Einsatzort,0,0,0,1,0,0,0,0,0
+5320,Weltraum-Reise,,zur Weltraum-Reise,0,0,0,1,0,0,0,0,0
+5321,Alarmstufe Rot - Schnellreise,,zur Alarmstufe Rot - Schnellreise,0,0,0,1,0,0,0,0,0
 5322,,,,0,0,0,0,0,0,0,0,0
 5323,,,,0,0,0,0,0,0,0,0,0
 5324,,,,0,0,0,0,0,0,0,0,0
@@ -5373,28 +5373,28 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 5347,,,,0,0,0,0,0,0,0,0,0
 5348,,,,0,0,0,0,0,0,0,0,0
 5349,,,,0,0,0,0,0,0,0,0,0
-5350,,,,0,0,0,0,0,0,0,0,0
-5351,,,,0,0,0,0,0,0,0,0,0
-5352,,,,0,0,0,0,0,0,0,0,0
-5353,,,,0,0,0,0,0,0,0,0,0
-5354,,,,0,0,0,0,0,0,0,0,0
-5355,,,,0,0,0,0,0,0,0,0,0
-5356,,,,0,0,0,0,0,0,0,0,0
-5357,,,,0,0,0,0,0,0,0,0,0
-5358,,,,0,0,0,0,0,0,0,0,0
-5359,,,,0,0,0,0,0,0,0,0,0
-5360,,,,0,0,0,0,0,0,0,0,0
-5361,,,,0,0,0,0,0,0,0,0,0
-5362,,,,0,0,0,0,0,0,0,0,0
-5363,,,,0,0,0,0,0,0,0,0,0
-5364,,,,0,0,0,0,0,0,0,0,0
-5365,,,,0,0,0,0,0,0,0,0,0
-5366,,,,0,0,0,0,0,0,0,0,0
-5367,,,,0,0,0,0,0,0,0,0,0
-5368,,,,0,0,0,0,0,0,0,0,0
-5369,,,,0,0,0,0,0,0,0,0,0
-5370,,,,0,0,0,0,0,0,0,0,0
-5371,,,,0,0,0,0,0,0,0,0,0
+5350,Nebeltrift,,zur Nebeltrift,0,0,0,1,0,0,0,0,0
+5351,Quans Höhle,,nach Quans Höhle,0,0,0,1,0,0,0,0,0
+5352,Treno-Ebene,,zur Treno-Ebene,0,0,0,1,0,0,0,0,0
+5353,Treno-Stadt,,nach Treno-Stadt,0,0,0,1,0,0,0,0,0
+5354,Steinernes Nest,,zum steinernen Nest,0,0,0,1,0,0,0,0,0
+5355,Boulevardplatz,,zum Boulevardplatz,0,0,0,1,0,0,0,0,0
+5356,Rathausplatz,,zum Rathausplatz,0,0,0,1,0,0,0,0,0
+5357,Quans Höhle,,nach Quans Höhle,0,0,0,1,0,0,0,0,0
+5358,Treno-Ebene,,zur Treno-Ebene,0,0,0,1,0,0,0,0,0
+5359,Treno-Stadt,,nach Treno-Stadt,0,0,0,1,0,0,0,0,0
+5360,Verlassener Bruch,,zum verlassenen Bruch,0,0,0,1,0,0,0,0,0
+5361,Gütergleise,,zu den Gütergleisen,0,0,0,1,0,0,0,0,0
+5362,Weg nach Treno,,zum Weg nach Treno,0,0,0,1,0,0,0,0,0
+5363,Stadttore,,zu den Stadttoren,0,0,0,1,0,0,0,0,0
+5364,Kleinstadt,,nach Kleinstadt,0,0,0,1,0,0,0,0,0
+5365,Hauptstraße,,zur Hauptstraße,0,0,0,1,0,0,0,0,0
+5366,Gartengasse,,zur Gartengasse,0,0,0,1,0,0,0,0,0
+5367,Gütergleise,,zu den Gütergleisen,0,0,0,1,0,0,0,0,0
+5368,???,,nach ???,0,0,0,1,0,0,0,0,0
+5369,Vampirring,,zum Vampirring,0,0,0,1,0,0,0,0,0
+5370,Extremring,,zum Extremring,0,0,0,1,0,0,0,0,0
+5371,Tyrannenring,,zum Tyrannenring,0,0,0,1,0,0,0,0,0
 5372,,,,0,0,0,0,0,0,0,0,0
 5373,,,,0,0,0,0,0,0,0,0,0
 5374,,,,0,0,0,0,0,0,0,0,0
@@ -5428,7 +5428,7 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 5402,,,,0,0,0,0,0,0,0,0,0
 5403,,,,0,0,0,0,0,0,0,0,0
 5404,,,,0,0,0,0,0,0,0,0,0
-5405,,,,0,0,0,0,0,0,0,0,0
+5405,Arkadionring,,zum Arkadionring,0,0,0,1,0,0,0,0,0
 5406,,,,0,0,0,0,0,0,0,0,0
 5407,,,,0,0,0,0,0,0,0,0,0
 5408,,,,0,0,0,0,0,0,0,0,0
@@ -5455,30 +5455,30 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 5429,,,,0,0,0,0,0,0,0,0,0
 5430,,,,0,0,0,0,0,0,0,0,0
 5431,,,,0,0,0,0,0,0,0,0,0
-5432,,,,0,0,0,0,0,0,0,0,0
-5433,,,,0,0,0,0,0,0,0,0,0
-5434,,,,0,0,0,0,0,0,0,0,0
-5435,,,,0,0,0,0,0,0,0,0,0
-5436,,,,0,0,0,0,0,0,0,0,0
-5437,,,,0,0,0,0,0,0,0,0,0
-5438,,,,0,0,0,0,0,0,0,0,0
-5439,,,,0,0,0,0,0,0,0,0,0
-5440,,,,0,0,0,0,0,0,0,0,0
-5441,,,,0,0,0,0,0,0,0,0,0
-5442,,,,0,0,0,0,0,0,0,0,0
-5443,,,,0,0,0,0,0,0,0,0,0
-5444,,,,0,0,0,0,0,0,0,0,0
-5445,,,,0,0,0,0,0,0,0,0,0
-5446,,,,0,0,0,0,0,0,0,0,0
-5447,,,,0,0,0,0,0,0,0,0,0
-5448,,,,0,0,0,0,0,0,0,0,0
-5449,,,,0,0,0,0,0,0,0,0,0
-5450,,,,0,0,0,0,0,0,0,0,0
-5451,,,,0,0,0,0,0,0,0,0,0
-5452,,,,0,0,0,0,0,0,0,0,0
-5453,,,,0,0,0,0,0,0,0,0,0
-5454,,,,0,0,0,0,0,0,0,0,0
-5455,,,,0,0,0,0,0,0,0,0,0
+5432,Worqor Chirteh,,nach Worqor Chirteh,0,0,0,1,0,0,0,0,0
+5433,Triumphpunkt 1,,zum Triumphpunkt 1,0,0,0,1,0,0,0,0,0
+5434,Triumphpunkt 2,,zum Triumphpunkt 2,0,0,0,1,0,0,0,0,0
+5435,Triumphpunkt 3,,zum Triumphpunkt 3,0,0,0,1,0,0,0,0,0
+5436,Triumphpunkt 4,,zum Triumphpunkt 4,0,0,0,1,0,0,0,0,0
+5437,Triumphpunkt 5,,zum Triumphpunkt 5,0,0,0,1,0,0,0,0,0
+5438,Triumphpunkt 6,,zum Triumphpunkt 6,0,0,0,1,0,0,0,0,0
+5439,Triumphpunkt 7,,zum Triumphpunkt 7,0,0,0,1,0,0,0,0,0
+5440,Triumphpunkt 8,,zum Triumphpunkt 8,0,0,0,1,0,0,0,0,0
+5441,Triumphpunkt 9,,zum Triumphpunkt 9,0,0,0,1,0,0,0,0,0
+5442,Triumphpunkt 10,,zum Triumphpunkt 10,0,0,0,1,0,0,0,0,0
+5443,Triumphpunkt 11,,zum Triumphpunkt 11,0,0,0,1,0,0,0,0,0
+5444,Triumphpunkt 12,,zum Triumphpunkt 12,0,0,0,1,0,0,0,0,0
+5445,睡蓮湖近郊,,,0,0,0,1,0,0,0,0,0
+5446,Mondtor-Station,,zur Mondtor-Station,0,0,0,1,0,0,0,0,0
+5447,Kalabassenbucht ,,zur Kalabassenbucht,0,0,0,1,0,0,0,0,0
+5448,Weddingways Traugarten,,zu Weddingways Traugarten,0,0,0,1,0,0,0,0,0
+5449,Glimmberg,,zum Glimmberg,0,0,0,1,0,0,0,0,0
+5450,Lunarer Nadir,,zum Lunaren Nadir,0,0,0,1,0,0,0,0,0
+5451,Glasbläser-Basis,,zur Glasbläser-Basis,0,0,0,1,0,0,0,0,0
+5452,Schillerstufen,,zu den Schillerstufen,0,0,0,1,0,0,0,0,0
+5453,Glassteinküste,,zur Glassteinküste,0,0,0,1,0,0,0,0,0
+5454,Kapselgrund,,zum Kapselgrund,0,0,0,1,0,0,0,0,0
+5455,Fusingway-Schlund,,zum Fusingway-Schlund,0,0,0,1,0,0,0,0,0
 5456,,,,0,0,0,0,0,0,0,0,0
 5457,,,,0,0,0,0,0,0,0,0,0
 5458,,,,0,0,0,0,0,0,0,0,0
@@ -5490,13 +5490,13 @@ Fähre zum Ostwald",,,0,0,0,1,0,0,0,0,0
 5464,,,,0,0,0,0,0,0,0,0,0
 5465,,,,0,0,0,0,0,0,0,0,0
 5466,,,,0,0,0,0,0,0,0,0,0
-5467,,,,0,0,0,0,0,0,0,0,0
-5468,,,,0,0,0,0,0,0,0,0,0
-5469,,,,0,0,0,0,0,0,0,0,0
-5470,,,,0,0,0,0,0,0,0,0,0
-5471,,,,0,0,0,0,0,0,0,0,0
-5472,,,,0,0,0,0,0,0,0,0,0
-5473,,,,0,0,0,0,0,0,0,0,0
+5467,Dorgerwor der Scharfsinnige,,zu Dorgerwor dem Scharfsinnigen,0,0,0,1,0,0,0,0,0
+5468,Weg des Gesangs,,zum Weg des Gesangs,0,0,0,1,0,0,0,0,0
+5469,Chirteh-Burgruine,,zur Chirteh-Burgruine,0,0,0,1,0,0,0,0,0
+5470,Zirgor,,zu Zirgor,0,0,0,1,0,0,0,0,0
+5471,Silberhügel,,zum Silberhügel,0,0,0,1,0,0,0,0,0
+5472,Vahder,,zu Vahder,0,0,0,1,0,0,0,0,0
+5473,Schneeschmelze,,zur Schneeschmelze,0,0,0,1,0,0,0,0,0
 5474,,,,0,0,0,0,0,0,0,0,0
 5475,,,,0,0,0,0,0,0,0,0,0
 5476,,,,0,0,0,0,0,0,0,0,0

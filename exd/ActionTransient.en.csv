@@ -3762,7 +3762,7 @@ Shares a recast timer with **Suppressive Fire**."
 **Hypercharge Effect:** Regeneration potency is doubled
 Attack mode is reactivated upon reuse.
 Can only be executed while a turret is deployed."
-2890,"Deals damage to all nearby enemies with a potency of 130 for the first enemy, and 30% less for all remaining enemies.
+2890,"Deals damage to target and all enemies nearby it with a potency of 130 for the first enemy, and 30% less for all remaining enemies.
 **Maximum Charges: **3"
 2891,"Delivers an attack with a potency of 80.
 **Hypercharge Potency:** 120
@@ -4691,11 +4691,11 @@ Effect ends upon reuse."
 3613,"Creates a celestial ring 8 yalms around the caster.
 **Duration: **18s
 **Additional Effect: **Reduces damage taken by 10% for self and any party members within 30 yalms and applies **Wheel of Fortune** to self and any party members within 8 yalms
-**Duration: **5s
+**Duration: **10s
 **Wheel of Fortune Effect: ****Regen**
 **Cure Potency: **100
 **Duration: **15s
-Effects will be applied continuously to self and all party members standing within the celestial ring.
+**Wheel of Fortune** will be applied continuously to self and all party members standing within the celestial ring.
 **Collective Unconscious** effect ends upon using another action or moving (including facing a different direction).
 Cancels auto-attack upon execution."
 3614,"Restores target's HP.
@@ -8920,7 +8920,7 @@ Will only execute while Demi-Bahamut is summoned.
 7432,"Creates a barrier around self or target party member that absorbs damage equivalent to a heal of 500 potency.
 **Duration: **15s
 **Maximum Charges: **2"
-7433,"Grants **Confession** to self and nearby party members.
+7433,"Grants **Confession** to self and nearby party members, reducing damage taken by 10%.
 **Duration: **10s
 Party members under the effect of **Confession** will receive additional healing upon receiving HP recovery via **Medica**, **Medica III**, **Cure III**, or **Afflatus Rapture**.
 **Cure Potency: **200"
@@ -9194,16 +9194,15 @@ Action upgraded to **Enchanted Redoublement** if both **Black Mana** and **White
 **Duration: **30s
 **Maximum Charges: **2"
 7519,Delivers an attack with a potency of 420 to target and all enemies nearby it.
-7520,"Increases own magic damage dealt by 5% and damage dealt by nearby party members by 5%.
+7520,"Increases own magic damage dealt by 10% and damage dealt by nearby party members by 5%.
 **Duration:** 20s
 **Additional Effect: **Grants **Thorned Flourish**
 **Duration: **30s"
-7521,"Grants 3 stacks of **Magicked Swordplay**, each stack allowing the use of **Enchanted Riposte**, **Enchanted Zwerchhau**, **Enchanted Redoublement**, **Enchanted Moulinet**, **Enchanted Moulinet Deux**, or **Enchanted Moulinet Trois** without cost.
+7521,"Temporarily increases the ranges of **Enchanted Riposte**, **Enchanted Zwerchhau**, and **Enchanted Redoublement** to 25 yalms.
+**Duration:** 30s
+**Additional Effect:** Grants 3 stacks of **Magicked Swordplay**, each stack allowing the use of **Enchanted Riposte**, **Enchanted Zwerchhau**, **Enchanted Redoublement**, **Enchanted Moulinet**, **Enchanted Moulinet Deux**, or **Enchanted Moulinet Trois** without cost
 **Duration: **30s
-**Additional Effect: **Grants 6 stacks of **Manafication**
-**Manafication Effect: **Increases magic damage dealt by 5%
-**Duration: **30s
-**Additional Effect: **Grants **Prefulgence Ready** upon consuming 6 stacks of **Manafication**
+**Additional Effect: **Grants **Prefulgence Ready**
 **Duration: **30s
 All combos are canceled upon execution of **Manafication**.
 Can only be executed while in combat."
@@ -18805,7 +18804,7 @@ This weaponskill does not share a recast timer with any other actions. Upon exec
 
 ※This action cannot be assigned to a hotbar.
 ※**Technical Step** changes to **Technical Finish** when requirements for execution are met."
-16005,"Delivers an attack to target and all enemies nearby it with a potency of 520 for the first enemy, and 60% less for all remaining enemies.
+16005,"Delivers an attack to target and all enemies nearby it with a potency of 540 for the first enemy, and 60% less for all remaining enemies.
 **Esprit Gauge Cost: **50"
 16006,"Grants you **Closed Position** and designates a party member as your **Dance Partner**, allowing you to share the effects of **Standard Finish**, **Curing Waltz**, **Devilment**, and **Finishing Move** with said party member.
 Effect ends upon reuse."
@@ -18989,13 +18988,14 @@ Effect ends upon reuse."
 **Combo Action: ****Brutal Shell**
 **Combo Potency: ****460
 **Combo Bonus: **Adds a **Cartridge** to your **Powder Gauge**"
-16146,"Delivers an attack with a potency of 500.
+16146,"Delivers an attack with a potency of 440.
 **Additional Effect: **Grants **Ready to Rip**
 **Duration: **10s
 Effect of **Ready to Rip** ends upon execution of any weaponskill.
 **Cartridge Cost: **1
+**Maximum Charges: **2
 This weaponskill does not share a recast timer with any other actions."
-16147,"Delivers an attack with a potency of 560.
+16147,"Delivers an attack with a potency of 500.
 **Combo Action: ****Gnashing Fang**
 **Combo Bonus: **Grants **Ready to Tear**
 **Duration: **10s
@@ -19010,7 +19010,7 @@ Effect of **Ready to Tear** ends upon execution of any weaponskill.
 **Combo Action: ****Demon Slice**
 **Combo Potency: **160
 **Combo Bonus: **Adds a **Cartridge** to your **Powder Gauge**"
-16150,"Delivers an attack with a potency of 620.
+16150,"Delivers an attack with a potency of 560.
 **Combo Action: ****Savage Claw**
 **Combo Bonus: **Grants **Ready to Gouge**
 **Duration: **10s
@@ -19024,10 +19024,10 @@ Effect of **Ready to Gouge** ends upon execution of any weaponskill.
 **Maximum Charges: **2"
 16152,"Reduces HP by 50% of maximum and renders you impervious to most attacks.
 **Duration: **10s"
-16153,"Delivers an attack with a potency of 300.
+16153,"Delivers an attack with a potency of 340.
 **Additional Effect: **Damage over time
-**Potency: **60
-**Duration: **30s
+**Potency: **120
+**Duration: **15s
 Can only be executed when **Ready to Break**."
 16154,"Delivers a jumping attack with a potency of 150.
 **Maximum Charges: **2
@@ -19038,17 +19038,17 @@ Cannot be executed while bound."
 **Wicked Talon** may be followed by **Eye Gouge**.
 **Burst Strike** may be followed by **Hypervelocity**.
 **Fated Circle** may be followed by **Fated Brand**."
-16156,"Delivers an attack with a potency of 240.
+16156,"Delivers an attack with a potency of 220.
 Can only be executed when **Ready to Rip**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Continuation** changes to **Jugular Rip** when requirements for execution are met."
-16157,"Delivers an attack with a potency of 280.
+16157,"Delivers an attack with a potency of 260.
 Can only be executed when **Ready to Tear**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Continuation** changes to **Abdomen Tear** when requirements for execution are met."
-16158,"Delivers an attack with a potency of 320.
+16158,"Delivers an attack with a potency of 300.
 Can only be executed when **Ready to Gouge**.
 
 ※This action cannot be assigned to a hotbar.
@@ -19063,7 +19063,7 @@ Can only be executed when **Ready to Gouge**.
 **Duration: **7s
 **Additional Effect: **When targeting a party member while under the effect of **Brutal Shell**, that effect is also granted to the target
 **Duration: **30s"
-16162,"Delivers an attack with a potency of 460.
+16162,"Delivers an attack with a potency of 420.
 **Additional Effect: **Grants **Ready to Blast**
 **Duration: **10s
 Effect of **Ready to Blast** ends upon execution of any weaponskill.
@@ -19073,7 +19073,8 @@ Effect of **Ready to Blast** ends upon execution of any weaponskill.
 **Duration: **10s
 Effect of **Ready to Raze** ends upon execution of any weaponskill.
 **Cartridge Cost: **1"
-16164,"Draws aetheric energy from target, adding 3 **Cartridges** to your **Powder Gauge**.
+16164,"Draws aetheric energy from target, adding 3 **Cartridges** to your **Powder Gauge**, and increasing maximum **Cartridges** to 6.
+**Duration: **30s
 **Additional Effect:** Grants **Ready to Reign**
 **Duration: **30s"
 16165,Delivers an attack with a potency of **800.
@@ -19574,7 +19575,7 @@ Shares a recast timer with **Flood of Shadow**."
 16471,"Reduces physical damage taken by 5% and magic damage taken by 10% for self and nearby party members.
 **Duration: **15s"
 16472,"Conjure a simulacrum of your darkside to fight alongside you.
-**Duration: **20s
+**Duration: **22s
 **Additional Effect: **Grants **Scorn**
 **Duration: **30s
 **Simulacrum Attack Potency: **420
@@ -19659,7 +19660,7 @@ Consumes all stacks of **Meditation** upon execution."
 **Meisui Effect: **Increases the potency of **Zesho Meppo** to 850 and **Bhavacakra** to 550
 Can only be executed while in combat and under the effect of **Shadow Walker**."
 16490,
-16491,"Deals fire damage with a potency of 600 to target and all enemies nearby it.
+16491,"Deals fire damage with a potency of 850 to target and all enemies nearby it.
 **Mudra Combination: ****Chi**→**Ten** or **Jin**→**Ten**
 Can only be executed while under the effect of **Kassatsu**.
 Triggers the cooldown of weaponskills, mudra, and **Ninjutsu** upon execution.
@@ -19688,16 +19689,16 @@ Can only be executed when under the effect of **Hawk's Eye** or **Barrage**."
 16495,"Delivers an attack with a potency of 220.
 **Additional Effect: **35% chance of granting **Hawk's Eye**
 **Duration: **30s"
-16496,"Delivers an attack with a potency of 120 to all enemies in a straight line before you.
+16496,"Delivers an attack with a potency of 140 to all enemies in a straight line before you.
 **Soul Voice Gauge Cost: **20 
-Potency increases up to 600 as **Soul Voice Gauge** exceeds minimum cost.
+Potency increases up to 700 as **Soul Voice Gauge** exceeds minimum cost.
 **Additional Effect: **Grants **Blast Arrow Ready** upon execution while **Soul Voice Gauge** is 80 or higher
 **Duration: **10s
 Consumes **Soul Voice Gauge** upon execution."
 16497,"Delivers an attack with a potency of 180 to all enemies in a cone before you.
 Can only be executed when firearm is **Overheated**.
 This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
-16498,"Delivers an attack with a potency of 620.
+16498,"Delivers an attack with a potency of 660.
 **Maximum Charges: **2
 Shares a recast timer with **Bioblaster**."
 16499,"Delivers an attack with a potency of 50 to all enemies in a cone before you.
@@ -19706,7 +19707,7 @@ Shares a recast timer with **Bioblaster**."
 **Duration: **15s
 **Maximum Charges: **2
 Shares a recast timer with **Drill**."
-16500,"Delivers an attack with a potency of 620.
+16500,"Delivers an attack with a potency of 660.
 **Additional Effect: **Increases **Battery Gauge** by 20
 This weaponskill does not share a recast timer with any other actions."
 16501,"Deploys an Automaton Queen to fight at your side.
@@ -19855,7 +19856,7 @@ Can only be executed after successfully landing **Verflare** or **Verholy** as a
 **Cure Potency: **400
 **Additional Effect: **Nourishes the **Blood Lily**
 **Healing Gauge Cost: **1 **Lily**"
-16535,"Deals unaspected damage to target and all enemies nearby it with a potency of 1,360 for the first enemy, and 50% less for all remaining enemies.
+16535,"Deals unaspected damage to target and all enemies nearby it with a potency of 1,400 for the first enemy, and 50% less for all remaining enemies.
 Can only be executed when the **Blood Lily** is in full bloom."
 16536,"Increases healing magic potency by 20%, while reducing damage taken by self and all party members within a radius of 50 yalms by 10%.
 **Duration: **20s
@@ -19871,7 +19872,7 @@ Can only be executed when the **Blood Lily** is in full bloom."
 Effect cannot be stacked with **Seraphic Illumination**."
 16539,Deals unaspected damage with a potency of 165 to all nearby enemies.
 16540,"Deals unaspected damage over time.
-**Potency: **80
+**Potency: **85
 **Duration: **30s"
 16541,Deals unaspected damage with a potency of 255.
 16542,"Allows the execution of **Adloquium**, **Concitation**, **Indomitability**, or **Excogitation** without consuming resources while also ensuring critical HP is restored.
@@ -29238,7 +29239,7 @@ When the effect duration expires, a healing effect is then applied.
 **Maximum Charges: **2
 Recast timer cannot be affected by status effects or gear attributes."
 24314,"Deals unaspected damage over time.
-**Potency: **80
+**Potency: **85
 **Duration: **30s
 Effect cannot be stacked with **Eukrasian Dyskrasia**.
 **Additional Effect: **Restores HP to targets under the effect of **Kardion** granted by you
@@ -30943,13 +30944,13 @@ Can only be executed while under the effect of **Darkside**."
 **Catharsis of Corundum Effect: **Restores HP when HP falls to 50% or below, or upon effect duration expiration
 **Cure Potency: **900
 **Duration: **20s"
-25759,"Delivers an attack with a potency of 200.
+25759,"Delivers an attack with a potency of 180.
 Can only be executed when **Ready to Blast**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Continuation** changes to **Hypervelocity** when requirements for execution are met."
-25760,"Delivers an attack to all nearby enemies with a potency of 1,200 for the first enemy, and 15% less for all remaining enemies.
-**Cartridge Cost: **1
+25760,"Delivers an attack to all nearby enemies with a potency of 1,000 for the first enemy, and 15% less for all remaining enemies.
+**Cartridge Cost: **2
 This weaponskill does not share a recast timer with any other actions."
 25761,"Delivers an attack with a potency of 180.
 Can only be executed while in combat and under the effect of five **Chakra**. Five chakra close upon execution."
@@ -31053,7 +31054,7 @@ Damage dealt is increased when under an effect that raises critical hit rate.
 25783,"Delivers an attack with a potency of 140 to all enemies in a cone before you.
 **Additional Effect: **35% chance of granting **Hawk's Eye**
 **Duration: **30s"
-25784,"Delivers an attack to all enemies in a straight line before you with a potency of 600 for the first enemy, and 50% less for all remaining enemies.
+25784,"Delivers an attack to all enemies in a straight line before you with a potency of 700 for the first enemy, and 50% less for all remaining enemies.
 Can only be executed while under the effect of **Blast Arrow Ready**.
 
 ※This action cannot be assigned to a hotbar.
@@ -31074,7 +31075,7 @@ Potency increases as **Battery Gauge** exceeds required cost at time of deployme
 The Automaton Queen shuts down after execution. If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
 
 ※This action cannot be assigned to a hotbar."
-25788,"Delivers an attack to all enemies in a straight line before you with a potency of 620 for the first enemy, and 25% less for all remaining enemies.
+25788,"Delivers an attack to all enemies in a straight line before you with a potency of 660 for the first enemy, and 25% less for all remaining enemies.
 **Additional Effect: **Increases **Battery Gauge** by 20
 **Additional Effect: **Grants **Excavator Ready**
 **Duration: **30s
@@ -31096,7 +31097,7 @@ Can only be executed while under the effect of **Flourishing Finish**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Technical Finish** changes to **Tillana** when requirements for execution are met."
-25791,"Delivers an attack to all enemies in a cone before you with a potency of 420 for the first enemy, and 60% less for all remaining enemies.
+25791,"Delivers an attack to all enemies in a cone before you with a potency of 460 for the first enemy, and 60% less for all remaining enemies.
 Can only be executed while under the effect of **Fourfold Fan Dance**."
 25792,"Delivers a critical direct hit to all enemies in a straight line before you with a potency of 600 for the first enemy, and 75% less for all remaining enemies.
 Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
@@ -31399,7 +31400,7 @@ Can only be executed after successfully landing **Scorch** as a combo action.
 
 ※This action cannot be assigned to a hotbar.
 ※**Scorch** changes to **Resolution** when requirements for execution are met."
-25859,Deals unaspected damage with a potency of 340.
+25859,Deals unaspected damage with a potency of 350.
 25860,"Deals unaspected damage with a potency of 150 to all nearby enemies.
 **Additional Effect: ****Stun**
 **Duration: **4s"
@@ -34949,6 +34950,7 @@ Grants **Shield Oath** when barrier is completely absorbed.
 **Duration: **15s
 Can only be executed when the limit gauge is full.
 **Gauge Charge Time: **120s
+This action's effects extend through obstructions.
 
 ※Action changes to **Blade of Faith** upon execution."
 29070,"Deals unaspected damage with a potency of 10,000 to target and all enemies nearby it.
@@ -35081,9 +35083,9 @@ Can only be executed when current HP is above 12,000 or while under the effect o
 ※**Souleater Combo** changes to **Torcleaver** while under the effect of **Torcleaver Ready**."
 29092,"Rushes target and delivers an attack with a potency of 2,000.
 **Additional Effect: **Afflicts target with **Sole Survivor**
-**Sole Survivor Effect: **Reduces target's HP recovered by healing actions by 20%
+**Sole Survivor Effect: **Reduces target's HP recovered by healing actions by 15%
 **Duration: **12s
-If that target should be KO'd in battle before **Sole Survivor** expires, your HP and MP will be restored by 20%, and the recast time of **Plunge** will be reset.
+If that target should be KO'd in battle before **Sole Survivor** expires, your HP and MP will be restored by 15%, and the recast time of **Plunge** will be reset.
 Cannot be executed while bound."
 29093,"Creates a barrier around self or target party member that absorbs damage equivalent to a heal of 8,000 potency.
 **Duration: **8s
@@ -35092,10 +35094,10 @@ Grants **Dark Arts** when barrier is completely absorbed.
 **Dark Arts Effect: **Consume **Dark Arts** instead of HP to execute **Shadowbringer**
 **Maximum Charges: **2"
 29094,"Instantly draws nearby enemies within 10 yalms to your side, and creates a patch of salted earth at your feet, dealing unaspected damage over time to enemies within a 5-yalm radius.
-**Potency: **6,000
+**Potency: **5,000
 **Duration: **10s
 **Additional Effect: **Gradually restores your HP and reduces damage taken by 20% while standing in the patch of salted earth
-**Cure Potency: **6,000
+**Cure Potency: **5,000
 
 ※Action changes to **Salt and Darkness** upon execution."
 29095,"All enemies standing in the corrupted patch of **Salted Earth** take additional unaspected damage with a potency of 6,000.
@@ -35118,7 +35120,7 @@ Can only be executed when the limit gauge is full.
 **Gauge Charge Time: **105s
 
 ※Action changes to **Disesteem** while under the effect of **Scorn**.
-※**Souleater Combo** changes to **Scarlet Delerium** while under the effect of **Blackblood**.
+※**Souleater Combo** changes to **Scarlet Delirium** while under the effect of **Blackblood**.
 ※**Souleater Combo** changes to **Comeuppance** while under the effect of **Comeuppance Ready**.
 ※**Souleater Combo** changes to **Torcleaver** while under the effect of **Torcleaver Ready**."
 29098,"Delivers an attack with a potency of 5,000.
@@ -35331,7 +35333,7 @@ Can only be executed while under the effect of **Junction Healer**.
 Shares a recast timer with **Nebula** and **Blasting Zone**.
 
 ※This action cannot be assigned to a hotbar."
-29130,"Unleashes a flurry of blade strikes on nearby enemies, dealing damage over time with a potency of 4,000 and reducing damage taken by 25% until effect expires.
+29130,"Unleashes a flurry of blade strikes on nearby enemies, dealing damage over time with a potency of 4,500 and reducing damage taken by 25% until effect expires.
 **Duration: **4s
 Activates **Terminal Trigger** when effect duration expires.
 **Additional Effect: **Afflicts target with **Relentless Shrapnel**, increasing target's damage taken by 5%
@@ -35458,7 +35460,7 @@ Barrier potency is doubled when successfully nullifying a status affliction."
 **Additional Effect: **Reduces MP by 1,000
 Has no effect on players under an effect that nullifies status afflictions that can be removed by **Purify**, **Relentless Rush**, **Honing Dance**, players riding machina, or non-player combatants."
 29229,"Delivers a jumping attack that deals unaspected damage to target and all enemies nearby it with a potency of 6,000.
-**Additional Effect: **Grants **Protect** to self and nearby party members, reducing damage taken by 8%
+**Additional Effect: **Grants **Protect** to self and nearby party members, reducing damage taken by 10%
 **Duration: **10s
 **Additional Effect: **Grants 3 stacks of **Sacred Sight**
 **Duration: **20s
@@ -35476,7 +35478,8 @@ Cannot be executed while bound.
 **Cure Potency: **4,000
 **Duration: **15s
 Can only be executed when the limit gauge is full.
-**Gauge Charge Time: **60s"
+**Gauge Charge Time: **60s
+This action's effects extend through obstructions."
 29231,"Deals unaspected damage with a potency of 6,000."
 29232,"Restores target's HP.
 **Cure Potency: **4,000
@@ -35493,7 +35496,7 @@ This action does not share a recast timer with any other actions."
 **Potency: **3,000
 **Duration: **12s
 Potency is increased by 50% when you are under the effect of **Recitation**.
-**Biolytic Effect: **Reduces target's HP recovered by healing actions by 20%
+**Biolytic Effect: **Reduces target's HP recovered by healing actions by 15%
 **Duration: **12s
 This action does not share a recast timer with any other actions."
 29234,"Extends **Galvanize** and **Catalyze** effects cast on self or target to nearby party members.
@@ -35511,7 +35514,8 @@ No effect on targets not under effects applied by you, players riding machina, o
 **Duration: **10s
 **Additional Effect: **Grants **Recitation**
 **Recitation Effect: **Increases the potency of **Galvanize**, **Biolysis**, and **Biolytic** effects
-**Duration: **20s"
+**Duration: **20s
+This action's effects extend through obstructions."
 29237,"Summons **Seraph** to fight at a designated location.
 **Duration: **20s
 Automatically casts **Seraphic Veil** on party members within 30 yalms.
@@ -35612,6 +35616,7 @@ For the effect's duration, 20% of damage taken is compiled.
 Restores HP equal to a cure of 4,000 potency plus compiled damage when the effect expires or upon execution of **Microcosmos**.
 This action does not share a recast timer with any other actions."
 29254,"Triggers the healing effect of **Macrocosmos**, restoring HP equal to a cure of 4,000 potency plus 20% of compiled damage.
+This action's effects extend through obstructions.
 
 ※This action cannot be assigned to a hotbar."
 29255,"Increases damage dealt and healing potency of self and nearby party members by 30%, while reducing damage dealt by nearby enemies by 30%.
@@ -35654,6 +35659,7 @@ This action does not share a recast timer with any other actions."
 When the barrier is completely absorbed, a stack of **Haimatinon** is consumed and a new barrier is applied.
 When the effect duration expires, a healing effect is then applied.
 **Cure Potency: **4,000 per remaining stack of **Haimatinon**
+This action's effects extend through obstructions.
 This action does not share a recast timer with any other actions."
 29261,"Rush to a target's side.
 **Maximum Charges: **2
@@ -35834,6 +35840,7 @@ Can only be executed while under the effect of **Repertoire**.
 **Duration: **30s
 **Additional Effect: **Grants **Blast Arrow Ready**
 **Duration: **20s
+This action's effects extend through obstructions.
 This weaponskill does not share a recast timer with any other actions.
 
 ※Action changes to **Blast Arrow** while under the effect of **Blast Arrow Ready**."
@@ -35879,6 +35886,7 @@ Effect also gradually fills the limit gauge when targets are in combat.
 **Duration: **30s
 Can only be executed when the limit gauge is full.
 **Gauge Charge Time: **120s
+This action's effects extend through obstructions.
 
 ※Action changes to **Encore of Light** upon execution."
 29402,"Delivers a ranged attack with a potency of 6,000.
@@ -36001,7 +36009,7 @@ Can only be executed while under the effect of **Flourishing Saber Dance**.
 **Additional Effect: **Increases movement speed for self and party member designated as your **Dance Partner** by 25%
 **Duration: **5s
 This weaponskill does not share a recast timer with any other actions."
-29422,"Unleashes a flurry of chakram strikes on nearby enemies, dealing damage over time with a potency of 4,000. Decreases damage taken by 25% and increases movement speed by 50% until effect expires.
+29422,"Unleashes a flurry of chakram strikes on nearby enemies, dealing damage over time with a potency of 4,500. Decreases damage taken by 25% and increases movement speed by 50% until effect expires.
 **Duration: **3s
 Executes **Honing Ovation** when effect duration expires.
 **Additional Effect: **Grants a stack of **Acclaim**, up to a maximum of 4
@@ -36076,7 +36084,8 @@ Potency of both the attack and barrier doubles when targets are within 6 yalms.
 **Duration: **5s"
 29429,"Restores own HP and the HP of all nearby party members.
 **Cure Potency: **8,000
-**Additional Effect: **Party member designated as your **Dance Partner** will also heal self and nearby party members"
+**Additional Effect: **Party member designated as your **Dance Partner** will also heal self and nearby party members
+This action's effects extend through obstructions."
 29430,"Quickly dash 10 yalms forward.
 **Additional Effect: **Grants **En Avant**
 **En Avant Effect: ****Cascade** is upgraded to **Reverse Cascade** and **Fountain** is upgraded to **Fountainfall**
@@ -36244,7 +36253,7 @@ Can only be executed while under the effect of **Heavensent**.
 Ignores the effects of **Guard** when dealing damage.
 **Additional Effect: **Absorbs 150% of damage dealt as HP
 This weaponskill does not share a recast timer with any other actions."
-29491,"Delivers an attack with a potency of 4,000 to all enemies in a straight line before you.
+29491,"Delivers an attack with a potency of 5,000 to all enemies in a straight line before you.
 **Additional Effect: **Grants **Life of the Dragon**
 **Life of the Dragon Effect: **Increases damage dealt by 25% and damage suffered by 15%
 **Duration: **10s
@@ -36255,8 +36264,8 @@ This weaponskill does not share a recast timer with any other actions."
 
 ※Action changes to **Nastrond** while under the effect of **Nastrond Ready**.
 ※**Wheeling Thrust Combo** changes to **Starcross** while under the effect of **Starcross Ready**."
-29492,"Delivers an attack with a potency of 4,000 to all enemies in a straight line before you.
-Potency increases up to 8,000 as the target's HP decreases, reaching its maximum value when the target has 50% HP or less.
+29492,"Delivers an attack with a potency of 5,000 to all enemies in a straight line before you.
+Potency increases up to 10,000 as the target's HP decreases, reaching its maximum value when the target has 50% HP or less.
 **Life of the Dragon** effect fades upon execution.
 Can only be executed while under the effect of **Nastrond Ready**.
 
@@ -36315,9 +36324,9 @@ Ignores the effects of **Guard** when dealing damage.
 Can only be executed while under the effect of **Hidden**.
 
 ※This action cannot be assigned to a hotbar."
-29504,"Deals unaspected damage with a potency of 4,000 to target and all enemies nearby it.
+29504,"Deals unaspected damage with a potency of 5,000 to target and all enemies nearby it.
 **Additional Effect: **Damage over time
-**Potency: **4,000
+**Potency: **5,000
 **Duration: **12s
 Can only be executed while under the effect of **Three Mudra**.
 
@@ -36327,7 +36336,7 @@ Can only be executed while under the effect of **Three Mudra**.
 This weaponskill does not share a recast timer with any other actions.
 
 ※Action changes to **Hyosho Ranryu** while under the effect of **Three Mudra**."
-29506,"Deals unaspected damage with a potency of 16,000.
+29506,"Deals unaspected damage with a potency of 18,000.
 Can only be executed while under the effect of **Three Mudra**.
 
 ※This action cannot be assigned to a hotbar."
@@ -36456,7 +36465,7 @@ Can only be executed while under the effect of **Midare**.
 ※This action cannot be assigned to a hotbar."
 29530,"Delivers an attack with a potency of 8,000 to all enemies in a cone before you.
 Potency is increased to 12,000 when attacking only a single target.
-**Additional Effect: **When attacking two or more targets, creates a barrier around self that absorbs damage equivalent to a heal of 9,000 potency
+**Additional Effect: **When attacking two or more targets, creates a barrier around self that absorbs damage equivalent to a heal of 10,000 potency
 **Duration: **10s
 This weaponskill does not share a recast timer with any other actions.
 
@@ -36464,7 +36473,7 @@ This weaponskill does not share a recast timer with any other actions.
 29531,"Delivers an attack with a potency of 8,000 to all enemies in a cone before you.
 Potency is increased to 12,000 when attacking only a single target.
 **Combo Action: ****Ogi Namikiri**
-**Additional Effect: **When attacking two or more targets, creates a barrier around self that absorbs damage equivalent to a heal of 9,000 potency
+**Additional Effect: **When attacking two or more targets, creates a barrier around self that absorbs damage equivalent to a heal of 10,000 potency
 **Duration: **10s
 
 ※This action cannot be assigned to a hotbar."
@@ -36585,7 +36594,8 @@ Cannot be executed while bound.
 Grants the **Crest of Time Returned** to self and nearby party members within a radius of 15 yalms when barrier is completely absorbed.
 **Crest of Time Returned Effect: **Gradually restores HP
 **Cure Potency: **6,000
-**Duration: **6s"
+**Duration: **6s
+This action's effects extend through obstructions."
 29553,"Offers your flesh as a vessel to your avatar, gaining 5 stacks of **Enshrouded**.
 **Duration: **20s
 **Additional Effect: **Afflicts nearby enemies with **Hysteria**
@@ -36860,6 +36870,7 @@ Can only be executed when the limit gauge is full.
 
 ※This action cannot be assigned to a hotbar."
 29675,"Deals unaspected damage with a potency of 20,000 to all nearby enemies.
+This action's effects extend through obstructions.
 
 ※This action cannot be assigned to a hotbar."
 29676,"Deals unaspected damage with a potency of 8,000.
@@ -36888,6 +36899,7 @@ Can only be executed when the limit gauge is full.
 **Duration: **18s
 **Additional Effect: **Restores HP when HP falls below 25% or upon effect duration expiration
 **Cure Potency: **16,000
+This action's effects extend through obstructions.
 
 ※This action cannot be assigned to a hotbar."
 29681,"Deals fire damage with a potency of 4,000.
@@ -37086,7 +37098,7 @@ Cannot be executed while bound.
 29715,
 29716,"Increases target's damage taken by 10%.
 **Duration: **10s
-Halves the defensive bonus of **Guard** when targeting enemies under its effect."
+Halves the defensive bonus of **Guard** instead when targeting enemies under its effect."
 29717,
 29718,Unleashes an energetic blast of lightning.
 29719,"Unleashes an energetic blast of lightning.
@@ -42200,19 +42212,19 @@ Can only be executed after successfully landing **Swiftskin's Sting**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Swiftskin's Sting** changes to **Hindsbane Fang** when requirements for execution are met."
-34614,"Delivers an attack with a potency of 100 to all nearby enemies.
-**Honed Steel Potency:** 120
+34614,"Delivers an attack with a potency of 120 to all nearby enemies.
+**Honed Steel Potency:** 140
 **Additional Effect: **Grants **Honed Reavers**
 **Honed Reavers Effect: **Increases potency of **Reaving Fangs** by 100 and **Reaving Maw** by 20
 **Duration: **60s
 Effect cannot be stacked with **Honed Steel**."
-34615,"Delivers an attack with a potency of 100 to all nearby enemies.
-**Honed Reavers Potency:** 120
+34615,"Delivers an attack with a potency of 120 to all nearby enemies.
+**Honed Reavers Potency:** 140
 **Additional Effect: **Grants **Honed Steel**
 **Honed Steel Effect: **Increases potency of **Steel Fangs** by 100 and **Steel Maw** by 20
 **Duration: **60s
 Effect cannot be stacked with **Honed Reavers**."
-34616,"Delivers an attack with a potency of 130 to all nearby enemies.
+34616,"Delivers an attack with a potency of 180 to all nearby enemies.
 **Additional Effect: **Grants **Hunter's Instinct**
 **Hunter's Instinct Effect: **Increases damage dealt by 10%
 **Duration: **40s
@@ -42220,7 +42232,7 @@ Can only be executed after successfully landing **Steel Maw** or **Reaving Maw**
 
 ※This action cannot be assigned to a hotbar.
 ※**Steel Maw** changes to **Hunter's Bite** when requirements for execution are met."
-34617,"Delivers an attack with a potency of 130 to all nearby enemies.
+34617,"Delivers an attack with a potency of 180 to all nearby enemies.
 **Additional Effect: **Grants **Swiftscaled**
 **Swiftscaled Effect: **Reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 15%
 **Duration: **40s
@@ -42228,10 +42240,10 @@ Can only be executed after successfully landing **Steel Maw** or **Reaving Maw**
 
 ※This action cannot be assigned to a hotbar.
 ※**Reaving Maw** changes to **Swiftskin's Bite** when requirements for execution are met."
-34618,"Delivers an attack with a potency of 140 to all nearby enemies.
-Potencies are increased by 20 while under the effect of **Grimhunter's Venom**.
+34618,"Delivers an attack with a potency of 180 to all nearby enemies.
+Potencies are increased by 40 while under the effect of **Grimhunter's Venom**.
 **Additional Effect: **Grants **Grimskin's Venom**
-**Grimskin's Venom Effect: **Increases potency of **Bloodied Maw** by 20
+**Grimskin's Venom Effect: **Increases potency of **Bloodied Maw** by 40
 **Duration: **60s
 Effect cannot be stacked with other viper venom effects.
 **Additional Effect: **Increases **Serpent Offerings Gauge** by 10
@@ -42239,10 +42251,10 @@ Can only be executed after successfully landing **Hunter's Bite** or **Swiftskin
 
 ※This action cannot be assigned to a hotbar.
 ※**Hunter's Bite** changes to **Jagged Maw** when requirements for execution are met."
-34619,"Delivers an attack with a potency of 140 to all nearby enemies.
-Potencies are increased by 20 while under the effect of **Grimskin's Venom**.
+34619,"Delivers an attack with a potency of 180 to all nearby enemies.
+Potencies are increased by 40 while under the effect of **Grimskin's Venom**.
 **Additional Effect: **Grants **Grimhunter's Venom**
-**Grimhunter's Venom Effect: **Increases potency of **Jagged Maw** by 20
+**Grimhunter's Venom Effect: **Increases potency of **Jagged Maw** by 40
 **Duration: **60s
 Effect cannot be stacked with other viper venom effects.
 **Additional Effect: **Increases **Serpent Offerings Gauge** by 10
@@ -42280,11 +42292,11 @@ Upon successfully landing this action, **Twinfang** changes to **Twinfang Bite**
 These actions can be executed a total of two times following **Swiftskin's Coil**.
 Can only be executed after successfully landing **Vicewinder** or **Hunter's Coil**.
 This weaponskill does not share a recast timer with any other actions."
-34623,"Delivers an attack with a potency of 220 to all nearby enemies.
+34623,"Delivers an attack with a potency of 250 to all nearby enemies.
 **Additional Effect: **Grants a **Rattling Coil**, up to a maximum of 3
 **Maximum Charges: **2
 Shares a recast timer with **Vicewinder**."
-34624,"Delivers an attack with a potency of 280 to all nearby enemies.
+34624,"Delivers an attack with a potency of 300 to all nearby enemies.
 **Additional Effect: **Grants **Hunter's Instinct**
 **Hunter's Instinct Effect: **Increases damage dealt by 10%
 **Duration: **40s
@@ -42296,7 +42308,7 @@ Upon successfully landing this action, **Twinfang** changes to **Twinfang Thresh
 These actions can be executed a total of two times following **Hunter's Den**.
 Can only be executed after **Vicepit** or **Swiftskin's Den**.
 This weaponskill does not share a recast timer with any other actions."
-34625,"Delivers an attack with a potency of 280 to all nearby enemies.
+34625,"Delivers an attack with a potency of 300 to all nearby enemies.
 **Additional Effect: **Grants **Swiftscaled**
 **Swiftscaled Effect: **Reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 15%
 **Duration: **40s
@@ -42308,39 +42320,39 @@ Upon successfully landing this action, **Twinfang** changes to **Twinfang Thresh
 These actions can be executed a total of two times following **Swiftskin's Den**.
 Can only be executed after **Vicepit** or **Hunter's Den**.
 This weaponskill does not share a recast timer with any other actions."
-34626,"Delivers an attack with a potency of 750 for the first enemy, and 65% less for all remaining enemies.
+34626,"Delivers an attack with a potency of 750 for the first enemy, and 80% less for all remaining enemies.
 **Additional Effect: **Grants 5 stacks of **Anguine Tribute**
 **Duration: **30s
 **Serpent Offerings Gauge Cost: **50"
-34627,"Delivers an attack with a potency of 480 to the first enemy, and 65% less for all remaining enemies.
+34627,"Delivers an attack with a potency of 480 to the first enemy, and 80% less for all remaining enemies.
 Potency is increased to 680 when executed after **Reawaken**.
 **Anguine Tribute Cost: **1
 This weaponskill does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar.
 ※**Steel Fangs** and **Steel Maw** change to **First Generation** when requirements for execution are met."
-34628,"Delivers an attack with a potency of 480 to the first enemy, and 65% less for all remaining enemies.
+34628,"Delivers an attack with a potency of 480 to the first enemy, and 80% less for all remaining enemies.
 Potency is increased to 680 when executed after **First Generation**.
 **Anguine Tribute Cost: **1
 This weaponskill does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar.
 ※**Reaving Fangs** and **Reaving Maw** change to **Second Generation** when requirements for execution are met."
-34629,"Delivers an attack with a potency of 480 to the first enemy, and 65% less for all remaining enemies.
+34629,"Delivers an attack with a potency of 480 to the first enemy, and 80% less for all remaining enemies.
 Potency is increased to 680 when executed after **Second Generation**.
 **Anguine Tribute Cost: **1
 This weaponskill does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar.
 ※**Hunter's Coil** and **Hunter's Den** change to **Third Generation** when requirements for execution are met."
-34630,"Delivers an attack with a potency of 480 to the first enemy, and 65% less for all remaining enemies.
+34630,"Delivers an attack with a potency of 480 to the first enemy, and 80% less for all remaining enemies.
 Potency is increased to 680 when executed after **Third Generation**.
 **Anguine Tribute Cost: **1
 This weaponskill does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar.
 ※**Swiftskin's Coil** and **Swiftskin's Den** change to **Fourth Generation** when requirements for execution are met."
-34631,"Delivers an attack with a potency of 1,150 to the first enemy, and 65% less for all remaining enemies.
+34631,"Delivers an attack with a potency of 1,150 to the first enemy, and 80% less for all remaining enemies.
 **Reawakened** effect expires upon execution.
 Requires at least one stack of **Anguine Tribute**.
 This weaponskill does not share a recast timer with any other actions.
@@ -42348,7 +42360,7 @@ This weaponskill does not share a recast timer with any other actions.
 ※This action cannot be assigned to a hotbar.
 ※**Reawaken** changes to **Ouroboros** when requirements for execution are met."
 34632,Delivers a ranged attack with a potency of 200.
-34633,"Delivers an attack with a potency of 680 to the first enemy, and 60% less for all remaining enemies.
+34633,"Delivers an attack with a potency of 680 to the first enemy, and 75% less for all remaining enemies.
 **Additional Effect: **Grants **Poised for Twinfang**
 **Poised for Twinfang Effect: **Increases the potency of **Uncoiled Twinfang** by 50
 **Duration: **60s
@@ -42361,7 +42373,7 @@ Can only be executed after successfully landing **Flanksting Strike**, **Flanksb
 
 ※This action cannot be assigned to a hotbar.
 ※**Serpent's Tail** changes to **Death Rattle** when requirements for execution are met."
-34635,"Delivers an attack with a potency of 100 to all nearby enemies.
+34635,"Delivers an attack with a potency of 120 to all nearby enemies.
 Can only be executed after successfully landing **Jagged Maw** or **Bloodied Maw**.
 
 ※This action cannot be assigned to a hotbar.
@@ -42398,27 +42410,27 @@ Can only be executed after successfully landing **Hunter's Den** or **Swiftskin'
 
 ※This action cannot be assigned to a hotbar.
 ※**Twinblood** changes to **Twinblood Thresh** when requirements for execution are met."
-34640,"Delivers an attack with a potency of 320 to the first enemy, and 65% less for all remaining enemies.
+34640,"Delivers an attack with a potency of 320 to the first enemy, and 80% less for all remaining enemies.
 Can only be executed after successfully landing **First Generation**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Serpent's Tail** changes to **First Legacy** when requirements for execution are met."
-34641,"Delivers an attack with a potency of 320 to the first enemy, and 65% less for all remaining enemies.
+34641,"Delivers an attack with a potency of 320 to the first enemy, and 80% less for all remaining enemies.
 Can only be executed after successfully landing **Second Generation**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Serpent's Tail** changes to **Second Legacy** when requirements for execution are met."
-34642,"Delivers an attack with a potency of 320 to the first enemy, and 65% less for all remaining enemies.
+34642,"Delivers an attack with a potency of 320 to the first enemy, and 80% less for all remaining enemies.
 Can only be executed after successfully landing **Third Generation**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Serpent's Tail** changes to **Third Legacy** when requirements for execution are met."
-34643,"Delivers an attack with a potency of 320 to the first enemy, and 65% less for all remaining enemies.
+34643,"Delivers an attack with a potency of 320 to the first enemy, and 80% less for all remaining enemies.
 Can only be executed after successfully landing **Fourth Generation**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Serpent's Tail** changes to **Fourth Legacy** when requirements for execution are met."
-34644,"Delivers an attack with a potency of 120 to the first enemy, and 60% less for all remaining enemies.
+34644,"Delivers an attack with a potency of 120 to the first enemy, and 75% less for all remaining enemies.
 **Poised for Twinfang Potency: **170
 **Additional Effect: **Grants **Poised for Twinblood**
 **Poised for Twinblood Effect: **Increases the potency of **Uncoiled Twinblood** by 50
@@ -42427,7 +42439,7 @@ Can only be executed after successfully landing **Uncoiled Fury**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Twinfang** changes to **Uncoiled Twinfang** when requirements for execution are met."
-34645,"Delivers an attack with a potency of 120 to the first enemy, and 60% less for all remaining enemies.
+34645,"Delivers an attack with a potency of 120 to the first enemy, and 75% less for all remaining enemies.
 **Poised for Twinblood Potency: **170
 Can only be executed after successfully landing **Uncoiled Fury**.
 
@@ -45052,14 +45064,14 @@ Can only be executed when **Ready to Raze**.
 
 ※This action cannot be assigned to a hotbar.
 ※**Continuation** changes to **Fated Brand** when requirements for execution are met."
-36937,"Delivers an attack to target and all enemies nearby it with a potency of 1,000 for the first enemy, and 60% less for all remaining enemies.
+36937,"Delivers an attack to target and all enemies nearby it with a potency of 800 for the first enemy, and 60% less for all remaining enemies.
 Can only be executed when **Ready to Reign**."
-36938,"Delivers an attack to target and all enemies nearby it with a potency of 1,100 for the first enemy, and 60% less for all remaining enemies.
+36938,"Delivers an attack to target and all enemies nearby it with a potency of 900 for the first enemy, and 60% less for all remaining enemies.
 **Combo Action: ****Reign of Beasts**
 
 ※This action cannot be assigned to a hotbar.
 ※**Reign of Beasts** changes to **Noble Blood** when requirements for execution are met."
-36939,"Delivers an attack to target and all enemies nearby it with a potency of 1,200 for the first enemy, and 60% less for all remaining enemies.
+36939,"Delivers an attack to target and all enemies nearby it with a potency of 1,000 for the first enemy, and 60% less for all remaining enemies.
 **Combo Action: ****Noble Blood**
 
 ※This action cannot be assigned to a hotbar.
@@ -45117,7 +45129,7 @@ Can only be executed while under the effect of three of the same **Beast Chakra*
 ※**Masterful Blitz** changes to **Elixir Burst** when requirements for execution are met."
 36949,"Delivers an attack to all enemies in a straight line before you with a potency of 1,040 for the first enemy, and 35% less for all remaining enemies.
 Can only be executed while under the effect of **Wind's Rumination**."
-36950,"Deals damage to all nearby enemies with a potency of 1,400 for the first enemy, and 35% less for all remaining enemies.
+36950,"Deals damage to target and all enemies nearby it with a potency of 1,400 for the first enemy, and 35% less for all remaining enemies.
 **Additional Effect: **Grants **Formless Fist**, allowing the execution of a weaponskill that requires a certain form, without being in that form
 **Duration: **30s
 Any additional effects associated with the executed action will also be applied.
@@ -45265,9 +45277,9 @@ Shares a recast timer with **Rain of Death**."
 Can only be executed while under the effect of **Resonant Arrow Ready**."
 36977,"Delivers an attack to target and all enemies nearby it.
 Potency is determined by the number of different **Coda** consumed in the **Radiant Finale** executed prior, dealing full damage for the first enemy, and 50% less for all remaining enemies.
-**1 Coda: **600
-**2 Coda: **700
-**3 Coda: **1,000
+**1 Coda: **700
+**2 Coda: **800
+**3 Coda: **1,100
 Can only be executed while under the effect of **Radiant Encore Ready**."
 36978,"Delivers an attack with a potency of 240.
 **Additional Effect:** Reduces the recast time of both **Double Check** and **Checkmate** by 15s
@@ -45277,7 +45289,7 @@ This weaponskill does not share a recast timer with any other actions. Upon exec
 **Maximum Charges: **3"
 36980,"Delivers an attack to target and all enemies nearby it with a potency of 180 for the first enemy, and 30% less for all remaining enemies.
 **Maximum Charges: **3"
-36981,"Delivers an attack to target and all enemies nearby it with a potency of 620 for the first enemy, and 25% less for all remaining enemies.
+36981,"Delivers an attack to target and all enemies nearby it with a potency of 660 for the first enemy, and 25% less for all remaining enemies.
 **Additional Effect: **Increases **Battery Gauge** by 20
 Can only be executed while under the effect of **Excavator Ready**.
 
@@ -45287,7 +45299,7 @@ Can only be executed while under the effect of **Excavator Ready**.
 Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
 This action is not affected by **Reassemble**.
 Can only be executed while under the effect of **Full Metal Machinist**."
-36983,"Delivers an attack to target and all enemies nearby it with a potency of 520 for the first enemy, and 60% less for all remaining enemies.
+36983,"Delivers an attack to target and all enemies nearby it with a potency of 540 for the first enemy, and 60% less for all remaining enemies.
 Can only be executed while under the effect of **Last Dance Ready**."
 36984,"Delivers an attack to all nearby enemies with a potency of 850 for the first enemy, and 60% less for all remaining enemies.
 **Additional Effect:** Grants **Standard Finish** and **Esprit** to self and party member designated as your **Dance Partner**
@@ -45390,7 +45402,7 @@ Can only be executed while Solar Bahamut is summoned.
 ※**Enchanted Moulinet Deux** changes to **Enchanted Moulinet Trois** when requirements for execution are met."
 37004,"Deals unaspected damage with a potency of 360.
 **Additional Effect: **Increases both **Black Mana** and **White Mana** by 2"
-37005,"Deals unaspected damage to target and all enemies nearby it with a potency of 900 for the first enemy, and 55% less for all remaining enemies.
+37005,"Deals unaspected damage to target and all enemies nearby it with a potency of 950 for the first enemy, and 55% less for all remaining enemies.
 Can only be executed while under the effect of **Thorned Flourish**."
 37006,"Deals unaspected damage to target and all enemies nearby it with a potency of 600 for the first enemy, and 55% less for all remaining enemies.
 **Additional Effect: **Increases both **Black Mana** and **White Mana** by 3
@@ -45399,10 +45411,7 @@ Can only be executed while under the effect of **Grand Impact Ready**.
 ※This action cannot be assigned to a hotbar.
 ※**Jolt III** and **Impact** change to **Grand Impact** when requirements for execution are met."
 37007,"Deals unaspected damage to target and all enemies nearby it with a potency of 1,200 for the first enemy, and 55% less for all remaining enemies.
-Can only be executed while under the effect of **Prefulgence Ready**.
-
-※This action cannot be assigned to a hotbar.
-※**Manafication** changes to **Prefulgence** when requirements for execution are met."
+Can only be executed while under the effect of **Prefulgence Ready**."
 37008,"Quickly dash 15 yalms forward.
 Cannot be executed while bound."
 37009,"Deals unaspected damage to target and all enemies nearby it with a potency of 640 for the first enemy, and 40% less for all remaining enemies.
@@ -47855,7 +47864,7 @@ Can only be executed while under the effect of **Hardened Scales**.
 39188,
 39189,"Resets the recast timer for **Uncoiled Fury** and **Snake Scales**.
 Recast time is reduced by 15s upon earning a kill or an assist."
-39190,"Delivers a jumping physical attack to target and all enemies nearby it with a potency of 12,000.
+39190,"Delivers a jumping physical attack to target and all enemies nearby it with a potency of 15,000.
 **Additional Effect: **Grants **Reawakened** and increases movement speed by 50%
 **Duration: **20s
 **Additional Effect: **Afflicts target with **Noxious Gnash**
@@ -47961,7 +47970,7 @@ Can only be cast while under the effect of **Wing Motif**.
 
 ※This action cannot be assigned to a hotbar."
 39207,"Render a sharpened claw, dealing unaspected damage with a potency of 8,000 to target and all enemies nearby it.
-**Additional Effect: **Increases target's damage taken by 10%, while reducing HP recovered by healing actions by 20%
+**Additional Effect: **Increases target's damage taken by 10%, while reducing HP recovered by healing actions by 15%
 **Duration: **10s
 **Additional Effect: **Grants **Maw Sketch**
 **Maximum Charges: **2
@@ -47997,6 +48006,7 @@ Reduces the recast time of **Tempera Coat** by 5 seconds when barrier is complet
 39212,"Ends the effect of **Tempera Coat** and grants **Tempera Grassa** to self and nearby party members.
 **Tempera Grassa Effect: **Erects a magicked barrier which nullifies damage equivalent to a heal of 8,000 potency
 **Duration: **10s
+This action's effects extend through obstructions.
 Can only be executed while under the effect of **Tempera Coat**.
 
 ※This action cannot be assigned to a hotbar."
@@ -48017,6 +48027,7 @@ Can only be executed when the limit gauge is full.
 **Cure Potency: **16,000
 **Additional Effect: **Increases damage dealt by all party members within 30 yalms of target by 15%
 **Duration: **15s
+This action's effects extend through obstructions.
 
 ※This action cannot be assigned to a hotbar."
 39217,
@@ -50264,7 +50275,7 @@ Can only be executed while under the effect of **Sepulchre Ready**.
 41430,"Delivers an attack with a potency of 8,000 to all enemies in a cone before you.
 **Additional Effect:** Increases target's damage taken by 10%
 **Duration:** 10s
-Halves the defensive bonus of **Guard** when targeting enemies under its effect.
+Halves the defensive bonus of **Guard** instead when targeting enemies under its effect.
 This weaponskill does not share a recast timer with any other actions."
 41431,"Deals unaspected damage with a potency of 4,000 to target and all enemies nearby it.
 **Additional Effect: **Afflicts target with **Sacred Claim**
@@ -50564,6 +50575,7 @@ Can only be executed while under the effect of **Thorned Flourish**.
 **Duration: **8s
 **Additional Effect: **Grants **Prefulgence Ready**
 **Duration: **15s
+This action's effects extend through obstructions.
 
 ※Action changes to **Prefulgence** upon execution."
 41495,"Deals unaspected damage with a potency of 10,000 to target and all enemies nearby it.
@@ -50598,6 +50610,7 @@ Can only be executed while under the effect of **Seraphism**.
 **Additional Effect: **Grants **Consolation**
 **Consolation Effect: **Creates a barrier that absorbs damage equivalent to a heal of 8,000 potency
 **Duration: **20s
+This action's effects extend through obstructions.
 Can only be executed while under the effect of **Seraphism**.
 
 ※This action cannot be assigned to a hotbar."
@@ -50610,6 +50623,7 @@ Can only be executed while under the effect of **Seraphism**.
 **Duration: **20s
 Can only be executed when the limit gauge is full.
 **Gauge Charge Time: **90s
+This action's effects extend through obstructions.
 
 ※Action changes to **Accession** upon execution."
 41503,"Draws either the **Lord of Crowns** or the **Lady of Crowns** from your divining deck.
@@ -50888,6 +50902,7 @@ Shares a recast timer with **Dark Cannon**."
 Potency scales with item level.
 **Additional Effect: **Afflicts target with **Silver Sickness**, reducing damage target deals by 10% and increasing damage taken by 5%
 **Duration: **70s
+Effect cannot be stacked with Phantom Dancer's **Mesmerized**.
 Shares a recast timer with **Holy Cannon**."
 41631,"Consume an **Occult Potion** to completely restore HP of self or target.
 Can only be executed while you possess an **Occult Potion**."
@@ -51351,8 +51366,9 @@ Consumes all charges upon execution, each charge adding an additional strike to 
 **Additional Effect: **10% chance of granting **Carrot Power**"
 42037,"Fires a vitamin-rich blast capable of destroying corrupted crystals.
 Can only be executed while under the effect of **Carrot Power**. "
-42038,
-42039,
+42038,"Unleashes the shrubbery-slaying beast within.
+Can only be executed upon accumulating 50 onzes of cleaning spirit."
+42039,"Quickly dash 14 yalms forward, destroying leafkin in your wake."
 42040,
 42041,
 42042,
@@ -52581,12 +52597,14 @@ Effect ends when riding a mount."
 Potency increases up to 18,000 as the target's HP decreases, reaching its maximum value when the target has 25% HP or less.
 Recast time resets upon earning a kill or an assist."
 43249,"Reduces cast time and recast time of spells and weaponskills by 10%, and increases movement speed by 33% for self and nearby party members.
+This action's effects extend through obstructions.
 **Duration: **12s"
-43250,"Increases damage dealt by 25%, and reduces damage taken by 25%.
+43250,"Increases damage dealt by a party member or self by 25%, and reduces damage taken by 25%.
 **Duration: **15s"
 43251,"Delivers an attack with a potency of 12,000.
 Ignores the effects of **Guard** when dealing damage."
 43252,"Deals magic damage to enemies at the designated area with a potency of 20,000.
+This action's effects extend through obstructions.
 You cannot move while casting, nor can you cancel the spell once cast."
 43253,"自身に一定量のダメージを防ぐバリアを張る。
 **バリア量：**回復力15000相当
@@ -52596,6 +52614,7 @@ You cannot move while casting, nor can you cancel the spell once cast."
 43255,"Restores target's HP.
 **Cure Potency: **15,000"
 43256,"Creates a barrier around self and all nearby party members that absorbs damage equivalent to a heal of 12,000 potency.
+This action's effects extend through obstructions.
 **Duration: **10s"
 43257,"Deals unaspected damage with a potency of 9,000 to target and all enemies nearby it.
 **Additional Effect: **Reduces target's HP recovered by healing actions by 33%
@@ -53846,10 +53865,10 @@ Can only be used in Frontlines and Rival Wings."
 44498,
 44499,
 44500,
-44501,
-44502,
-44503,
-44504,
+44501,Might as well use a red light to cheer on your favorite performer.
+44502,Use a yellow light to cheer on your favorite performer like you just don't care.
+44503,Use a pair of blue lights to clear your favorite performer for landing.
+44504,Use a violet light to cheer on your favorite performer like you just don't care.
 44505,
 44506,
 44507,
@@ -54480,7 +54499,7 @@ Can only be used in Frontlines and Rival Wings."
 45124,
 45125,
 45126,
-45127,
+45127,Delivers a trim to all nearby plantlife.
 45128,
 45129,
 45130,
@@ -55316,9 +55335,31 @@ Can only be used in Frontlines and Rival Wings."
 45957,
 45958,
 45959,
-45960,
-45961,
-45962,
+45960,"Deals unaspected damage with a potency of 340.
+**Additional Effect: **Grants a **Mana Stack**
+**Balance Gauge Cost: **20 **Black Mana**
+**Balance Gauge Cost: **20 **White Mana**
+
+※This action cannot be assigned to a hotbar.
+※**Riposte** changes to **Enchanted Riposte** when requirements for execution are met."
+45961,"Deals unaspected damage with a potency of 190.
+**Combo Action:** **Riposte** or **Enchanted Riposte**
+**Combo Potency:** 380
+**Additional Effect: **Grants a **Mana Stack**
+**Balance Gauge Cost: **15 **Black Mana**
+**Balance Gauge Cost: **15 **White Mana**
+
+※This action cannot be assigned to a hotbar.
+※**Zwerchhau** changes to **Enchanted Zwerchhau** when requirements for execution are met."
+45962,"Deals unaspected damage with a potency of 190.
+**Combo Action:** **Enchanted Zwerchhau**
+**Combo Potency:** 560
+**Additional Effect: **Grants a **Mana Stack**
+**Balance Gauge Cost: **15 **Black Mana**
+**Balance Gauge Cost: **15 **White Mana**
+
+※This action cannot be assigned to a hotbar.
+※**Redoublement** changes to **Enchanted Redoublement** when requirements for execution are met."
 45963,
 45964,
 45965,
@@ -55857,3 +55898,2582 @@ Can only be used in Frontlines and Rival Wings."
 46498,
 46499,
 46500,
+46501,
+46502,
+46503,
+46504,
+46505,
+46506,
+46507,
+46508,
+46509,
+46510,
+46511,
+46512,
+46513,
+46514,
+46515,
+46516,
+46517,
+46518,
+46519,
+46520,
+46521,
+46522,
+46523,
+46524,
+46525,
+46526,
+46527,
+46528,
+46529,
+46530,
+46531,
+46532,
+46533,
+46534,
+46535,
+46536,
+46537,
+46538,
+46539,
+46540,
+46541,
+46542,
+46543,
+46544,
+46545,
+46546,
+46547,
+46548,
+46549,
+46550,
+46551,
+46552,
+46553,
+46554,
+46555,
+46556,
+46557,
+46558,
+46559,
+46560,
+46561,
+46562,
+46563,
+46564,
+46565,
+46566,
+46567,
+46568,
+46569,
+46570,
+46571,
+46572,
+46573,
+46574,
+46575,
+46576,
+46577,
+46578,
+46579,
+46580,
+46581,
+46582,
+46583,
+46584,
+46585,
+46586,
+46587,
+46588,
+46589,
+46590,"Creates a barrier around self or target party member that absorbs damage equivalent to 20% of the caster's maximum HP.
+**Duration: **60s
+When the barrier is completely absorbed, grants **Honed Spellblade** to the caster.
+**Honed Spellblade Effect: **Increases damage dealt by next Spellblade
+**Duration: **30s"
+46591,"Delivers an attack with a potency of 200.
+**Honed Spellblade Potency: **300
+Potency scales with item level.
+**Additional Effect: **20% chance to **Petrify** target
+**Petrify Effect: **Incapacitated upon taking damage
+**Duration: **10s
+Shares a recast timer with **Holy Spellblade** and **Blazing Spellblade**."
+46592,"Delivers an attack with a potency of 300.
+Potency increases to 500 when used against undead enemies.
+**Honed Spellblade Potency: **400
+Spellblade potency increases to 600 when used against undead enemies.
+Potency scales with item level.
+Shares a recast timer with **Sundering Spellblade** and **Blazing Spellblade**."
+46593,"Delivers an attack with a potency of 200.
+**Honed Spellblade Potency: **300
+Potency scales with item level.
+**Additional Effect: **Increases target's damage taken by 5%
+**Duration: **70s
+**Additional Effect: **Increases damage dealt by 5%
+**Duration: **70s
+Shares a recast timer with **Sundering Spellblade** and **Holy Spellblade**."
+46594,"Delivers an attack to target.
+60% chance for an attack with a potency of 600, the chance increasing by 15% for every stack of **Finishing Fervor**.
+20% chance for an attack with a potency of 1,000 potency, the chance increasing by 20% for every stack of **Finishing Fervor**.
+20% chance for your attack to miss, the chance decreasing by 5% for every stack of **Finishing Fervor**.
+Potency scales with item level.
+**Additional Effect: **25% chance to kill target instantly, with some exceptions."
+46595,"Reduces damage taken by 50%.
+**Duration: **5s
+**Additional Effect: **Grants a stack of **Finishing Fervor** upon taking reduced damage
+**Maximum Stacks: **4
+**Duration: **120s
+Removes a stack of **Finishing Fervor** upon taking damage when the action is not on cooldown."
+46596,"Delivers an attack with a potency of 400.
+Potency scales with item level."
+46597,"Delivers an attack with a potency of 600 to all nearby enemies.
+Potency scales with item level."
+46598,"Grants **Poised to Sword Dance**, **Tempted to Tango**, **Jitterbugged**, or **Willing to Waltz**, allowing the execution of an action depending on the effect granted.
+**Phantom Sword Dance Effect: **Delivers an attack with high potency
+**Tempting Tango Effect: **Deals unaspected damage and freezes time
+**Jitterbug Effect: **Deals unaspected damage, absorbing a portion of damage dealt as HP, and afflicts target with **Paralysis**
+**Mystery Waltz Effect: **Deals unaspected damage, afflicts target with **Blind**, and restores MP"
+46599,"Delivers an attack with a potency of 600.
+Potency scales with item level."
+46600,"Deals unaspected damage with a potency of 400.
+Potency scales with item level.
+**Additional Effect: **Freezes time
+**Duration: **8s"
+46601,"Deals unaspected damage with a potency of 400.
+Potency scales with item level.
+**Additional Effect: **Absorbs a portion of damage dealt as HP
+**Additional Effect: ****Paralysis**
+**Duration: **30s"
+46602,"Deals unaspected damage with a potency of 400.
+Potency scales with item level.
+**Additional Effect: **Restores MP
+**Additional Effect: ****Blind**
+**Duration: **30s"
+46603,"Increases evasion by 20%.
+**Duration: **90s
+**Additional Effect: **Grants **Quicker Step** to self and nearby party members when executed within proximity of a knowledge crystal
+**Quicker Step Effect: **Increases damage dealt by 2%
+**Duration: **30m"
+46604,"Grants **Steadfast Stance**.
+When targeting a party member, rush to their side, granting both you and the target **Steadfast Stance**.
+**Steadfast Stance Effect:** Grants a barrier that absorbs damage equal to 10% of maximum HP
+**Duration:** 30s"
+46605,"Afflicts target with **Enamored**, reducing damage dealt by 40%.
+**Duration: **4s
+**Additional Effect: **Afflicts target with **Mesmerized**
+**Mesmerized Effect: **Reduces damage dealt by 10% and increases damage taken by 5%
+**Duration: **100s
+Effect cannot be stacked with Phantom Cannoneer's **Silver Sickness**."
+46606,"When executed near a knowledge crystal, grants an effect to self and nearby party members based on your phantom job and its level.
+**Phantom Knight Effect (Level 2 or Higher): **Grants **Enduring Fortitude**
+**Enduring Fortitude Effect: **Reduces damage taken by 10%
+**Duration: **30m
+**Phantom Monk Effect (Level 3 or Higher): **Grants **Fleetfooted**
+**Fleetfooted Effect: **Increases movement speed
+**Duration: **30m
+**Phantom Bard Effect (Level 2 or Higher): **Grants **Romeo's Ballad**
+**Romeo's Ballad Effect: **Increases Phantom EXP earned through battle by 10%
+**Duration: **30m
+**Phantom Dancer Effect (Level 2 or Higher): **Grants **Quicker Step**
+**Swiftstrike Effect: **Increases damage dealt by 2%
+**Duration: **30m"
+46607,
+46608,
+46609,
+46610,
+46611,
+46612,
+46613,
+46614,
+46615,
+46616,
+46617,
+46618,
+46619,
+46620,
+46621,
+46622,
+46623,
+46624,
+46625,
+46626,
+46627,
+46628,
+46629,
+46630,
+46631,
+46632,
+46633,
+46634,
+46635,
+46636,
+46637,
+46638,
+46639,
+46640,
+46641,
+46642,
+46643,
+46644,
+46645,
+46646,
+46647,
+46648,
+46649,
+46650,
+46651,
+46652,
+46653,
+46654,
+46655,
+46656,
+46657,
+46658,
+46659,
+46660,
+46661,
+46662,
+46663,
+46664,
+46665,
+46666,
+46667,
+46668,
+46669,
+46670,
+46671,
+46672,
+46673,
+46674,
+46675,
+46676,
+46677,
+46678,
+46679,
+46680,
+46681,
+46682,
+46683,
+46684,
+46685,
+46686,
+46687,
+46688,
+46689,
+46690,
+46691,
+46692,
+46693,
+46694,
+46695,
+46696,
+46697,
+46698,
+46699,
+46700,
+46701,
+46702,
+46703,
+46704,
+46705,
+46706,
+46707,
+46708,
+46709,
+46710,
+46711,
+46712,
+46713,
+46714,
+46715,
+46716,
+46717,
+46718,
+46719,
+46720,
+46721,
+46722,
+46723,
+46724,
+46725,
+46726,
+46727,
+46728,
+46729,
+46730,
+46731,
+46732,
+46733,
+46734,
+46735,
+46736,
+46737,
+46738,
+46739,
+46740,
+46741,
+46742,
+46743,
+46744,
+46745,
+46746,
+46747,
+46748,
+46749,
+46750,
+46751,
+46752,
+46753,
+46754,
+46755,
+46756,
+46757,
+46758,
+46759,
+46760,
+46761,
+46762,Restores own HP.
+46763,"Deals magic damage three times in succession to all nearby enemies.
+Potency and area of effect increase with each successive attack.
+**First Attack: **490 potency in a 3-yalm radius
+**Second Attack: **630 potency in a 5-yalm radius
+**Third Attack: **740 potency in an 8-yalm radius"
+46764,
+46765,
+46766,
+46767,
+46768,
+46769,
+46770,
+46771,
+46772,
+46773,
+46774,
+46775,
+46776,
+46777,
+46778,
+46779,
+46780,
+46781,
+46782,
+46783,
+46784,
+46785,
+46786,
+46787,
+46788,
+46789,
+46790,
+46791,
+46792,
+46793,
+46794,
+46795,
+46796,
+46797,
+46798,
+46799,
+46800,
+46801,
+46802,
+46803,
+46804,
+46805,
+46806,
+46807,
+46808,
+46809,
+46810,
+46811,
+46812,
+46813,
+46814,
+46815,
+46816,
+46817,
+46818,
+46819,
+46820,
+46821,
+46822,
+46823,
+46824,
+46825,
+46826,
+46827,
+46828,
+46829,
+46830,
+46831,
+46832,
+46833,
+46834,
+46835,
+46836,
+46837,
+46838,
+46839,
+46840,
+46841,
+46842,
+46843,
+46844,
+46845,
+46846,
+46847,
+46848,
+46849,
+46850,
+46851,
+46852,
+46853,
+46854,
+46855,
+46856,
+46857,
+46858,
+46859,
+46860,
+46861,
+46862,
+46863,
+46864,
+46865,
+46866,
+46867,
+46868,
+46869,
+46870,
+46871,
+46872,
+46873,
+46874,
+46875,
+46876,
+46877,
+46878,
+46879,
+46880,
+46881,
+46882,
+46883,
+46884,
+46885,
+46886,
+46887,
+46888,
+46889,
+46890,
+46891,
+46892,
+46893,
+46894,
+46895,
+46896,
+46897,
+46898,
+46899,
+46900,
+46901,
+46902,
+46903,
+46904,
+46905,
+46906,
+46907,
+46908,
+46909,
+46910,
+46911,
+46912,
+46913,
+46914,
+46915,
+46916,
+46917,
+46918,
+46919,
+46920,
+46921,
+46922,
+46923,
+46924,
+46925,
+46926,
+46927,
+46928,
+46929,
+46930,
+46931,
+46932,
+46933,
+46934,
+46935,
+46936,
+46937,
+46938,
+46939,
+46940,
+46941,
+46942,"Delivers a ranged attack with a potency of 150.
+Potency scales with item level."
+46943,
+46944,
+46945,
+46946,
+46947,
+46948,
+46949,
+46950,
+46951,
+46952,
+46953,
+46954,
+46955,
+46956,
+46957,
+46958,
+46959,
+46960,
+46961,
+46962,
+46963,
+46964,
+46965,
+46966,
+46967,
+46968,
+46969,
+46970,
+46971,
+46972,
+46973,
+46974,
+46975,
+46976,
+46977,
+46978,
+46979,
+46980,
+46981,
+46982,
+46983,
+46984,
+46985,
+46986,
+46987,
+46988,
+46989,
+46990,
+46991,
+46992,
+46993,
+46994,
+46995,
+46996,
+46997,
+46998,
+46999,
+47000,
+47001,
+47002,
+47003,
+47004,
+47005,
+47006,
+47007,
+47008,
+47009,
+47010,
+47011,
+47012,
+47013,
+47014,
+47015,
+47016,
+47017,
+47018,
+47019,
+47020,
+47021,
+47022,
+47023,
+47024,
+47025,
+47026,
+47027,
+47028,
+47029,
+47030,
+47031,
+47032,
+47033,
+47034,
+47035,
+47036,
+47037,
+47038,
+47039,
+47040,
+47041,
+47042,
+47043,
+47044,
+47045,
+47046,
+47047,
+47048,
+47049,
+47050,
+47051,
+47052,
+47053,
+47054,
+47055,
+47056,
+47057,
+47058,
+47059,
+47060,
+47061,
+47062,
+47063,
+47064,
+47065,
+47066,
+47067,
+47068,
+47069,
+47070,
+47071,
+47072,
+47073,
+47074,
+47075,
+47076,
+47077,
+47078,
+47079,
+47080,
+47081,
+47082,
+47083,
+47084,
+47085,
+47086,
+47087,
+47088,
+47089,
+47090,
+47091,
+47092,
+47093,
+47094,
+47095,
+47096,
+47097,
+47098,
+47099,
+47100,
+47101,
+47102,
+47103,
+47104,
+47105,
+47106,
+47107,
+47108,
+47109,
+47110,
+47111,
+47112,
+47113,
+47114,
+47115,
+47116,
+47117,
+47118,
+47119,
+47120,
+47121,
+47122,
+47123,
+47124,
+47125,
+47126,
+47127,
+47128,
+47129,
+47130,
+47131,
+47132,
+47133,
+47134,
+47135,
+47136,
+47137,
+47138,
+47139,
+47140,
+47141,
+47142,
+47143,
+47144,
+47145,
+47146,
+47147,
+47148,
+47149,
+47150,
+47151,
+47152,
+47153,
+47154,
+47155,
+47156,
+47157,
+47158,
+47159,
+47160,
+47161,
+47162,
+47163,
+47164,
+47165,
+47166,
+47167,
+47168,
+47169,
+47170,
+47171,
+47172,
+47173,
+47174,
+47175,
+47176,
+47177,
+47178,
+47179,
+47180,
+47181,
+47182,
+47183,
+47184,
+47185,
+47186,
+47187,
+47188,
+47189,
+47190,
+47191,
+47192,
+47193,
+47194,
+47195,
+47196,
+47197,
+47198,
+47199,
+47200,
+47201,
+47202,
+47203,
+47204,
+47205,
+47206,
+47207,
+47208,
+47209,
+47210,
+47211,
+47212,
+47213,
+47214,
+47215,
+47216,
+47217,
+47218,
+47219,
+47220,
+47221,
+47222,
+47223,
+47224,
+47225,
+47226,
+47227,
+47228,
+47229,
+47230,
+47231,
+47232,
+47233,
+47234,
+47235,
+47236,
+47237,
+47238,
+47239,
+47240,
+47241,
+47242,
+47243,
+47244,
+47245,
+47246,"Crush your competitors with a king-sized hop.
+※Has no effect in battle."
+47247,
+47248,
+47249,
+47250,
+47251,
+47252,
+47253,
+47254,
+47255,
+47256,
+47257,
+47258,
+47259,
+47260,
+47261,
+47262,
+47263,
+47264,
+47265,
+47266,
+47267,
+47268,
+47269,
+47270,
+47271,
+47272,
+47273,
+47274,
+47275,
+47276,
+47277,
+47278,
+47279,
+47280,
+47281,
+47282,
+47283,
+47284,
+47285,
+47286,
+47287,
+47288,
+47289,
+47290,
+47291,
+47292,
+47293,
+47294,
+47295,
+47296,
+47297,
+47298,
+47299,
+47300,
+47301,
+47302,
+47303,
+47304,
+47305,
+47306,
+47307,
+47308,
+47309,
+47310,
+47311,
+47312,
+47313,
+47314,
+47315,
+47316,
+47317,
+47318,
+47319,
+47320,
+47321,
+47322,
+47323,
+47324,
+47325,
+47326,
+47327,
+47328,
+47329,
+47330,
+47331,
+47332,
+47333,
+47334,
+47335,
+47336,
+47337,
+47338,
+47339,
+47340,
+47341,
+47342,
+47343,
+47344,
+47345,
+47346,
+47347,
+47348,
+47349,
+47350,
+47351,
+47352,
+47353,
+47354,
+47355,
+47356,
+47357,
+47358,
+47359,
+47360,
+47361,
+47362,
+47363,
+47364,
+47365,
+47366,
+47367,
+47368,
+47369,
+47370,
+47371,
+47372,
+47373,
+47374,
+47375,
+47376,
+47377,
+47378,
+47379,
+47380,
+47381,
+47382,
+47383,
+47384,
+47385,
+47386,
+47387,
+47388,
+47389,
+47390,
+47391,
+47392,
+47393,
+47394,
+47395,
+47396,
+47397,
+47398,
+47399,
+47400,
+47401,
+47402,
+47403,
+47404,
+47405,
+47406,
+47407,
+47408,
+47409,
+47410,
+47411,
+47412,
+47413,
+47414,
+47415,
+47416,
+47417,
+47418,
+47419,
+47420,
+47421,
+47422,
+47423,
+47424,
+47425,
+47426,
+47427,
+47428,
+47429,
+47430,
+47431,
+47432,
+47433,
+47434,
+47435,
+47436,
+47437,
+47438,
+47439,
+47440,
+47441,
+47442,
+47443,
+47444,
+47445,
+47446,
+47447,
+47448,
+47449,
+47450,
+47451,
+47452,
+47453,
+47454,
+47455,
+47456,
+47457,
+47458,
+47459,
+47460,
+47461,
+47462,
+47463,
+47464,
+47465,
+47466,
+47467,
+47468,
+47469,
+47470,
+47471,
+47472,
+47473,
+47474,
+47475,
+47476,
+47477,
+47478,
+47479,
+47480,
+47481,
+47482,
+47483,
+47484,
+47485,
+47486,
+47487,
+47488,
+47489,
+47490,
+47491,
+47492,
+47493,
+47494,
+47495,
+47496,
+47497,
+47498,
+47499,
+47500,
+47501,
+47502,
+47503,
+47504,
+47505,
+47506,
+47507,
+47508,
+47509,
+47510,
+47511,
+47512,
+47513,
+47514,
+47515,
+47516,
+47517,
+47518,
+47519,
+47520,
+47521,
+47522,
+47523,
+47524,
+47525,
+47526,
+47527,
+47528,
+47529,
+47530,
+47531,
+47532,
+47533,
+47534,
+47535,
+47536,
+47537,
+47538,
+47539,
+47540,
+47541,
+47542,
+47543,
+47544,
+47545,
+47546,
+47547,
+47548,
+47549,
+47550,
+47551,
+47552,
+47553,
+47554,
+47555,
+47556,
+47557,
+47558,
+47559,
+47560,
+47561,
+47562,
+47563,
+47564,
+47565,
+47566,
+47567,
+47568,
+47569,
+47570,
+47571,
+47572,
+47573,
+47574,
+47575,
+47576,
+47577,
+47578,
+47579,
+47580,
+47581,
+47582,
+47583,
+47584,
+47585,
+47586,
+47587,
+47588,
+47589,
+47590,
+47591,
+47592,
+47593,
+47594,
+47595,
+47596,
+47597,
+47598,
+47599,
+47600,
+47601,
+47602,
+47603,
+47604,
+47605,
+47606,
+47607,
+47608,
+47609,
+47610,
+47611,
+47612,
+47613,
+47614,
+47615,
+47616,
+47617,
+47618,
+47619,
+47620,
+47621,
+47622,
+47623,
+47624,
+47625,
+47626,
+47627,
+47628,
+47629,
+47630,
+47631,
+47632,
+47633,
+47634,
+47635,
+47636,
+47637,
+47638,
+47639,
+47640,
+47641,
+47642,
+47643,
+47644,
+47645,
+47646,
+47647,
+47648,
+47649,
+47650,
+47651,
+47652,
+47653,
+47654,
+47655,
+47656,
+47657,
+47658,
+47659,
+47660,
+47661,
+47662,
+47663,
+47664,
+47665,
+47666,
+47667,
+47668,
+47669,
+47670,
+47671,
+47672,
+47673,
+47674,
+47675,
+47676,
+47677,
+47678,
+47679,
+47680,
+47681,
+47682,
+47683,
+47684,
+47685,
+47686,
+47687,
+47688,
+47689,
+47690,
+47691,
+47692,
+47693,
+47694,
+47695,
+47696,
+47697,
+47698,
+47699,
+47700,
+47701,
+47702,
+47703,
+47704,
+47705,
+47706,
+47707,
+47708,
+47709,
+47710,
+47711,
+47712,
+47713,
+47714,
+47715,
+47716,
+47717,
+47718,
+47719,
+47720,
+47721,
+47722,
+47723,
+47724,
+47725,
+47726,
+47727,
+47728,
+47729,
+47730,
+47731,
+47732,
+47733,
+47734,
+47735,
+47736,
+47737,
+47738,
+47739,
+47740,
+47741,
+47742,
+47743,
+47744,
+47745,
+47746,
+47747,
+47748,
+47749,
+47750,
+47751,
+47752,
+47753,
+47754,
+47755,
+47756,
+47757,
+47758,
+47759,
+47760,
+47761,
+47762,
+47763,
+47764,
+47765,
+47766,
+47767,
+47768,
+47769,
+47770,
+47771,
+47772,
+47773,
+47774,
+47775,
+47776,
+47777,
+47778,
+47779,
+47780,
+47781,
+47782,
+47783,
+47784,
+47785,
+47786,
+47787,
+47788,
+47789,
+47790,
+47791,
+47792,
+47793,
+47794,
+47795,
+47796,
+47797,
+47798,
+47799,
+47800,
+47801,
+47802,
+47803,
+47804,
+47805,
+47806,
+47807,
+47808,
+47809,
+47810,
+47811,
+47812,
+47813,
+47814,
+47815,
+47816,
+47817,
+47818,
+47819,
+47820,
+47821,
+47822,
+47823,
+47824,
+47825,
+47826,
+47827,
+47828,
+47829,
+47830,
+47831,
+47832,
+47833,
+47834,
+47835,
+47836,
+47837,
+47838,
+47839,
+47840,
+47841,
+47842,
+47843,
+47844,
+47845,
+47846,
+47847,
+47848,
+47849,
+47850,
+47851,
+47852,
+47853,
+47854,
+47855,
+47856,
+47857,
+47858,
+47859,
+47860,
+47861,
+47862,
+47863,
+47864,
+47865,
+47866,
+47867,
+47868,
+47869,
+47870,
+47871,
+47872,
+47873,
+47874,
+47875,
+47876,
+47877,
+47878,
+47879,
+47880,
+47881,
+47882,
+47883,
+47884,
+47885,
+47886,
+47887,
+47888,
+47889,
+47890,
+47891,
+47892,
+47893,
+47894,
+47895,
+47896,
+47897,
+47898,
+47899,
+47900,
+47901,
+47902,
+47903,
+47904,
+47905,
+47906,
+47907,
+47908,
+47909,
+47910,
+47911,
+47912,
+47913,
+47914,
+47915,
+47916,
+47917,
+47918,
+47919,
+47920,
+47921,
+47922,
+47923,
+47924,
+47925,
+47926,
+47927,
+47928,
+47929,
+47930,
+47931,
+47932,
+47933,
+47934,
+47935,
+47936,
+47937,
+47938,
+47939,
+47940,
+47941,
+47942,
+47943,
+47944,
+47945,
+47946,
+47947,
+47948,
+47949,
+47950,
+47951,
+47952,
+47953,
+47954,
+47955,
+47956,
+47957,
+47958,
+47959,
+47960,
+47961,
+47962,
+47963,
+47964,
+47965,
+47966,
+47967,
+47968,
+47969,
+47970,
+47971,
+47972,
+47973,
+47974,
+47975,
+47976,
+47977,
+47978,
+47979,
+47980,
+47981,
+47982,
+47983,
+47984,
+47985,
+47986,
+47987,
+47988,
+47989,
+47990,
+47991,
+47992,
+47993,
+47994,
+47995,
+47996,
+47997,
+47998,
+47999,
+48000,
+48001,
+48002,
+48003,
+48004,
+48005,
+48006,
+48007,
+48008,
+48009,
+48010,
+48011,
+48012,
+48013,
+48014,
+48015,
+48016,
+48017,
+48018,
+48019,
+48020,
+48021,
+48022,
+48023,
+48024,
+48025,
+48026,
+48027,
+48028,
+48029,
+48030,
+48031,
+48032,
+48033,
+48034,
+48035,
+48036,
+48037,
+48038,
+48039,
+48040,
+48041,
+48042,
+48043,
+48044,
+48045,
+48046,
+48047,
+48048,
+48049,
+48050,
+48051,
+48052,
+48053,
+48054,
+48055,
+48056,
+48057,
+48058,
+48059,
+48060,
+48061,
+48062,
+48063,
+48064,
+48065,
+48066,
+48067,
+48068,
+48069,
+48070,
+48071,
+48072,
+48073,
+48074,
+48075,
+48076,
+48077,
+48078,
+48079,
+48080,
+48081,
+48082,
+48083,
+48084,
+48085,
+48086,
+48087,
+48088,
+48089,
+48090,
+48091,
+48092,
+48093,
+48094,
+48095,
+48096,
+48097,
+48098,
+48099,
+48100,
+48101,
+48102,
+48103,
+48104,
+48105,
+48106,
+48107,
+48108,
+48109,
+48110,
+48111,
+48112,
+48113,
+48114,
+48115,
+48116,
+48117,
+48118,
+48119,
+48120,
+48121,
+48122,
+48123,
+48124,
+48125,
+48126,
+48127,
+48128,
+48129,
+48130,
+48131,
+48132,
+48133,
+48134,
+48135,
+48136,
+48137,
+48138,
+48139,
+48140,
+48141,
+48142,
+48143,
+48144,
+48145,
+48146,
+48147,
+48148,
+48149,
+48150,
+48151,
+48152,
+48153,
+48154,
+48155,
+48156,
+48157,
+48158,
+48159,
+48160,
+48161,
+48162,
+48163,
+48164,
+48165,
+48166,
+48167,
+48168,
+48169,
+48170,
+48171,
+48172,
+48173,
+48174,
+48175,
+48176,
+48177,
+48178,
+48179,
+48180,
+48181,
+48182,
+48183,
+48184,
+48185,
+48186,
+48187,
+48188,
+48189,
+48190,
+48191,
+48192,
+48193,
+48194,
+48195,
+48196,
+48197,
+48198,
+48199,
+48200,
+48201,
+48202,
+48203,
+48204,
+48205,
+48206,
+48207,
+48208,
+48209,
+48210,
+48211,
+48212,
+48213,
+48214,
+48215,
+48216,
+48217,
+48218,
+48219,
+48220,
+48221,
+48222,
+48223,
+48224,
+48225,
+48226,
+48227,
+48228,
+48229,
+48230,
+48231,
+48232,
+48233,
+48234,
+48235,
+48236,
+48237,
+48238,
+48239,
+48240,
+48241,
+48242,
+48243,
+48244,
+48245,
+48246,
+48247,
+48248,
+48249,
+48250,
+48251,
+48252,
+48253,
+48254,
+48255,
+48256,
+48257,
+48258,
+48259,
+48260,
+48261,
+48262,
+48263,
+48264,
+48265,
+48266,
+48267,
+48268,
+48269,
+48270,
+48271,
+48272,
+48273,
+48274,
+48275,
+48276,
+48277,
+48278,
+48279,
+48280,
+48281,
+48282,
+48283,
+48284,
+48285,
+48286,
+48287,
+48288,
+48289,
+48290,
+48291,
+48292,
+48293,
+48294,
+48295,
+48296,
+48297,
+48298,
+48299,
+48300,
+48301,
+48302,
+48303,
+48304,
+48305,
+48306,
+48307,
+48308,
+48309,
+48310,
+48311,
+48312,
+48313,
+48314,
+48315,
+48316,
+48317,
+48318,
+48319,
+48320,
+48321,
+48322,
+48323,
+48324,
+48325,
+48326,
+48327,
+48328,
+48329,
+48330,
+48331,
+48332,
+48333,
+48334,
+48335,
+48336,
+48337,
+48338,
+48339,
+48340,
+48341,
+48342,
+48343,
+48344,
+48345,
+48346,
+48347,
+48348,
+48349,
+48350,
+48351,
+48352,
+48353,
+48354,
+48355,
+48356,
+48357,
+48358,
+48359,
+48360,
+48361,
+48362,
+48363,
+48364,
+48365,
+48366,
+48367,
+48368,
+48369,
+48370,
+48371,
+48372,
+48373,
+48374,
+48375,
+48376,
+48377,
+48378,
+48379,
+48380,
+48381,
+48382,
+48383,
+48384,
+48385,
+48386,
+48387,
+48388,
+48389,
+48390,
+48391,
+48392,
+48393,
+48394,
+48395,
+48396,
+48397,
+48398,
+48399,
+48400,
+48401,
+48402,
+48403,
+48404,
+48405,
+48406,
+48407,
+48408,
+48409,
+48410,
+48411,
+48412,
+48413,
+48414,
+48415,
+48416,
+48417,
+48418,
+48419,
+48420,
+48421,
+48422,
+48423,
+48424,
+48425,
+48426,
+48427,
+48428,
+48429,
+48430,
+48431,
+48432,
+48433,
+48434,
+48435,
+48436,
+48437,
+48438,
+48439,
+48440,
+48441,
+48442,
+48443,
+48444,
+48445,
+48446,
+48447,
+48448,
+48449,
+48450,
+48451,
+48452,
+48453,
+48454,
+48455,
+48456,
+48457,
+48458,
+48459,
+48460,
+48461,
+48462,
+48463,
+48464,
+48465,
+48466,
+48467,
+48468,
+48469,
+48470,
+48471,
+48472,
+48473,
+48474,
+48475,
+48476,
+48477,
+48478,
+48479,
+48480,
+48481,
+48482,
+48483,
+48484,
+48485,
+48486,
+48487,
+48488,
+48489,
+48490,
+48491,
+48492,
+48493,
+48494,
+48495,
+48496,
+48497,
+48498,
+48499,
+48500,
+48501,
+48502,
+48503,
+48504,
+48505,
+48506,
+48507,
+48508,
+48509,
+48510,
+48511,
+48512,
+48513,
+48514,
+48515,
+48516,
+48517,
+48518,
+48519,
+48520,
+48521,
+48522,
+48523,
+48524,
+48525,
+48526,
+48527,
+48528,
+48529,
+48530,
+48531,
+48532,
+48533,
+48534,
+48535,
+48536,
+48537,
+48538,
+48539,
+48540,
+48541,
+48542,
+48543,
+48544,
+48545,
+48546,
+48547,
+48548,
+48549,
+48550,
+48551,
+48552,
+48553,
+48554,
+48555,
+48556,
+48557,
+48558,
+48559,
+48560,
+48561,
+48562,
+48563,
+48564,
+48565,
+48566,
+48567,
+48568,
+48569,
+48570,
+48571,
+48572,
+48573,
+48574,
+48575,
+48576,
+48577,
+48578,
+48579,
+48580,
+48581,
+48582,
+48583,
+48584,
+48585,
+48586,
+48587,
+48588,
+48589,
+48590,
+48591,
+48592,
+48593,
+48594,
+48595,
+48596,
+48597,
+48598,
+48599,
+48600,
+48601,
+48602,
+48603,
+48604,
+48605,
+48606,
+48607,
+48608,
+48609,
+48610,
+48611,
+48612,
+48613,
+48614,
+48615,
+48616,
+48617,
+48618,
+48619,
+48620,
+48621,
+48622,
+48623,
+48624,
+48625,
+48626,
+48627,
+48628,
+48629,
+48630,
+48631,
+48632,
+48633,
+48634,
+48635,
+48636,
+48637,
+48638,
+48639,
+48640,
+48641,
+48642,
+48643,
+48644,
+48645,
+48646,
+48647,
+48648,
+48649,
+48650,
+48651,
+48652,
+48653,
+48654,
+48655,
+48656,
+48657,
+48658,
+48659,
+48660,
+48661,
+48662,
+48663,
+48664,
+48665,
+48666,
+48667,
+48668,
+48669,
+48670,
+48671,
+48672,
+48673,
+48674,
+48675,
+48676,
+48677,
+48678,
+48679,
+48680,
+48681,
+48682,
+48683,
+48684,
+48685,
+48686,
+48687,
+48688,
+48689,
+48690,
+48691,
+48692,
+48693,
+48694,
+48695,
+48696,
+48697,
+48698,
+48699,
+48700,
+48701,
+48702,
+48703,
+48704,
+48705,
+48706,
+48707,
+48708,
+48709,
+48710,
+48711,
+48712,
+48713,
+48714,
+48715,
+48716,
+48717,
+48718,
+48719,
+48720,
+48721,
+48722,
+48723,
+48724,
+48725,
+48726,
+48727,
+48728,
+48729,
+48730,
+48731,
+48732,
+48733,
+48734,
+48735,
+48736,
+48737,
+48738,
+48739,
+48740,
+48741,
+48742,
+48743,
+48744,
+48745,
+48746,
+48747,
+48748,
+48749,
+48750,
+48751,
+48752,
+48753,
+48754,
+48755,
+48756,
+48757,
+48758,
+48759,
+48760,
+48761,
+48762,
+48763,
+48764,
+48765,
+48766,
+48767,
+48768,
+48769,
+48770,
+48771,
+48772,
+48773,
+48774,
+48775,
+48776,
+48777,
+48778,
+48779,
+48780,
+48781,
+48782,
+48783,
+48784,
+48785,
+48786,
+48787,
+48788,
+48789,
+48790,
+48791,
+48792,
+48793,
+48794,
+48795,
+48796,
+48797,
+48798,
+48799,
+48800,
+48801,
+48802,
+48803,
+48804,
+48805,
+48806,
+48807,
+48808,
+48809,
+48810,
+48811,
+48812,
+48813,
+48814,
+48815,
+48816,
+48817,
+48818,
+48819,
+48820,
+48821,
+48822,
+48823,
+48824,
+48825,
+48826,
+48827,
+48828,
+48829,
+48830,
+48831,
+48832,
+48833,
+48834,
+48835,
+48836,
+48837,
+48838,
+48839,
+48840,
+48841,
+48842,
+48843,
+48844,
+48845,
+48846,
+48847,
+48848,
+48849,
+48850,
+48851,
+48852,
+48853,
+48854,
+48855,
+48856,
+48857,
+48858,
+48859,
+48860,
+48861,
+48862,
+48863,
+48864,
+48865,
+48866,
+48867,
+48868,
+48869,
+48870,
+48871,
+48872,
+48873,
+48874,
+48875,
+48876,
+48877,
+48878,
+48879,
+48880,
+48881,
+48882,
+48883,
+48884,
+48885,
+48886,
+48887,
+48888,
+48889,
+48890,
+48891,
+48892,
+48893,
+48894,
+48895,
+48896,
+48897,
+48898,
+48899,
+48900,
+48901,
+48902,
+48903,
+48904,
+48905,
+48906,
+48907,
+48908,
+48909,
+48910,
+48911,
+48912,
+48913,
+48914,
+48915,
+48916,
+48917,
+48918,
+48919,
+48920,
+48921,
+48922,
+48923,
+48924,
+48925,
+48926,
+48927,
+48928,
+48929,
+48930,
+48931,
+48932,
+48933,
+48934,
+48935,
+48936,
+48937,
+48938,
+48939,
+48940,
+48941,
+48942,
+48943,
+48944,
+48945,
+48946,
+48947,
+48948,
+48949,
+48950,
+48951,
+48952,
+48953,
+48954,
+48955,
+48956,
+48957,
+48958,
+48959,
+48960,
+48961,
+48962,
+48963,
+48964,
+48965,
+48966,
+48967,
+48968,
+48969,
+48970,
+48971,
+48972,
+48973,
+48974,
+48975,
+48976,
+48977,
+48978,
+48979,
+48980,
+48981,
+48982,
+48983,
+48984,
+48985,
+48986,
+48987,
+48988,
+48989,
+48990,
+48991,
+48992,
+48993,
+48994,
+48995,
+48996,
+48997,
+48998,
+48999,

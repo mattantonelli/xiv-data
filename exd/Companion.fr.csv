@@ -528,7 +528,7 @@
 526,Zero miniature,Zero miniatures,0,0,0,1,1,0,4124,523,0,4926,9052,600,120,605,100,10,10,0,0,1,0,0,0,8,0,25,20,20,2,3,False,True,False,True,False,False,True,True
 527,Erenville miniature,Erenville miniatures,0,0,1,1,0,0,4125,524,0,4927,9053,500,360,617,100,10,0,0,0,1,0,0,0,8,0,15,11,20,1,3,False,True,False,True,False,False,True,True
 528,Seigneur des ombres miniature,Seigneurs des ombres miniatures,0,0,0,1,0,1,4385,525,0,4928,2111,620,0,620,100,10,0,0,0,1,0,0,0,8,0,30,10,20,1,2,False,True,False,True,False,False,True,True
-529,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+529,bébé licorne de la transition,bébés licornes de la transition,0,0,0,1,0,0,4386,526,0,4929,3006,480,30,621,100,10,0,0,0,2,0,0,0,8,0,20,8,20,1,1,True,False,True,False,True,False,True,False
 530,Arme Adamantium,Armes Adamantium,0,0,1,1,1,0,4387,497,0,4930,8303,500,0,620,100,10,0,0,0,1,0,0,0,8,0,20,31,40,1,3,False,True,False,True,False,False,True,True
 531,toucancan,toucancans,0,0,0,1,0,0,4388,527,0,4931,5014,500,0,620,100,10,0,0,0,2,2,0,0,8,0,25,43,20,1,1,True,False,True,False,True,False,True,True
 532,shshuye,shshuyes,0,0,0,1,0,0,4389,528,0,4932,3042,510,30,606,100,10,0,0,0,2,0,0,0,8,0,15,1,30,1,1,True,False,True,False,True,False,True,True
@@ -545,25 +545,41 @@
 543,babouin hamadryas,babouins hamadryas,0,0,0,1,0,0,4485,536,0,4942,3044,590,0,620,100,10,0,0,0,2,0,0,0,8,0,20,34,30,1,1,True,False,True,False,True,False,True,False
 544,oppresseur mécanique,oppresseurs mécaniques,0,0,1,1,0,0,4486,537,0,4943,11034,660,360,634,100,10,0,0,0,1,0,0,0,8,0,30,35,25,2,4,False,True,False,True,False,False,True,True
 545,sangfeuille de Ja Tiika,sangfeuilles de Ja Tiika,0,0,0,1,0,0,4487,538,0,4944,1114,500,30,606,100,10,0,0,0,2,0,0,0,8,0,25,23,20,1,2,True,False,True,False,True,False,True,True
-546,Gulool Ja Ja miniature,Gulool Ja Ja miniatures,0,0,0,1,0,0,4488,539,0,4945,9052,480,360,617,100,10,0,0,0,1,0,0,0,8,0,20,11,30,1,3,False,True,False,True,False,False,True,False
+546,Gulool Ja Ja miniature,Gulool Ja Ja miniatures,0,0,0,1,0,0,4488,539,0,4945,9052,480,360,617,100,10,0,0,0,1,0,0,0,8,0,20,11,30,1,3,False,True,False,True,False,False,True,True
 547,mini-ouvrier cosmique,mini-ouvriers cosmiques,0,0,0,1,0,0,4437,540,0,4948,11035,390,120,622,100,10,0,0,0,1,0,0,0,8,0,15,26,20,1,4,False,True,False,True,False,False,True,True
 548,tortue à pourboires,tortues à pourboires,0,0,0,1,1,0,4441,541,0,4952,1116,320,120,609,100,10,0,0,0,2,0,0,0,8,0,10,19,30,1,2,True,False,True,False,True,False,True,True
 549,limier royal,limiers royaux,0,0,0,1,0,0,4491,542,0,4953,3045,400,0,620,100,10,0,0,0,2,0,0,0,8,0,15,21,20,1,1,True,False,True,False,True,False,True,True
 550,uolosapa de Skalla,uolosapas de Skalla,0,0,1,1,0,0,4515,90,0,4941,5012,650,30,601,100,10,0,0,0,2,2,0,0,8,0,20,1,20,1,1,True,False,True,False,True,False,True,True
 551,bébé Seikret,bébés Seikret,0,0,0,1,0,0,4626,366,0,4954,13021,455,30,621,100,10,10,0,0,2,0,0,0,8,0,30,14,20,2,1,True,False,True,False,True,False,True,False
 552,vitaguêpe,vitaguêpes,0,0,0,1,1,0,4627,366,0,4955,13021,430,360,615,100,10,10,0,0,2,0,0,0,8,0,25,27,30,1,1,True,False,False,True,True,False,True,False
-553,mécano cosmique factice,mécanos cosmiques factices,0,0,0,1,0,0,4628,540,0,4956,11036,650,0,620,100,10,0,0,0,1,0,0,0,8,0,30,37,20,1,4,False,True,False,True,False,False,True,False
-554,Yok Huy miniature,Yok Huy miniatures,0,0,0,1,0,0,4629,543,0,4957,6008,500,120,608,100,10,0,0,0,1,0,0,0,8,0,20,19,30,1,3,False,True,False,True,False,False,True,False
-555,gobtank mécanique carmin,gobtanks mécaniques carmins,0,0,0,1,0,0,4630,544,0,4958,11037,410,0,620,100,10,0,0,0,1,0,0,0,8,0,15,31,30,1,4,False,True,False,True,False,False,True,False
-556,gobtank mécanique céruléen,gobtanks mécaniques céruléens,0,0,0,1,0,0,4631,544,0,4959,11038,550,30,604,100,10,0,0,0,1,0,0,0,8,0,25,1,20,1,4,False,True,False,True,False,False,True,False
-557,Eald'narche miniature,Eald'narche miniatures,0,0,1,1,0,0,4632,545,0,4960,2112,380,360,634,100,10,0,0,0,1,0,0,0,8,0,15,36,30,1,2,False,True,False,True,False,False,True,False
-558,bébé rroneek,bébés rroneeks,0,0,0,1,0,0,4633,546,0,4961,1117,800,360,617,100,10,0,0,0,2,0,0,0,8,0,30,11,20,1,1,True,False,True,False,True,False,True,False
+553,mécano cosmique factice,mécanos cosmiques factices,0,0,0,1,0,0,4628,540,0,4956,11036,650,0,620,100,10,0,0,0,1,0,0,0,8,0,30,37,20,1,4,False,True,False,True,False,False,True,True
+554,Yok Huy miniature,Yok Huy miniatures,0,0,0,1,0,0,4629,543,0,4957,6008,500,120,608,100,10,0,0,0,1,0,0,0,8,0,20,19,30,1,3,False,True,False,True,False,False,True,True
+555,gobtank mécanique carmin,gobtanks mécaniques carmins,0,0,0,1,0,0,4630,544,0,4958,11037,410,0,620,100,10,0,0,0,1,0,0,0,8,0,15,31,30,1,4,False,True,False,True,False,False,True,True
+556,gobtank mécanique céruléen,gobtanks mécaniques céruléens,0,0,0,1,0,0,4631,544,0,4959,11038,550,30,604,100,10,0,0,0,1,0,0,0,8,0,25,1,20,1,4,False,True,False,True,False,False,True,True
+557,Eald'narche miniature,Eald'narche miniatures,0,0,1,1,0,0,4632,545,0,4960,2112,380,360,634,100,10,0,0,0,1,0,0,0,8,0,15,36,30,1,2,False,True,False,True,False,False,True,True
+558,bébé rroneek,bébés rroneeks,0,0,0,1,0,0,4633,546,0,4961,1117,800,360,617,100,10,0,0,0,2,0,0,0,8,0,30,11,20,1,1,True,False,True,False,True,False,True,True
 559,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
 560,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
-561,mini-corbeau,mini-corbeaux,0,0,0,1,0,0,4636,548,0,4964,5015,560,120,609,100,10,0,0,0,2,2,0,0,8,0,25,38,20,1,1,True,False,True,False,True,False,True,False
-562,Feo Ul miniature,Feo Ul miniatures,0,0,0,1,1,0,4637,400,0,4965,7016,400,360,634,100,10,0,0,0,1,0,0,0,8,0,15,35,30,1,3,False,True,False,True,False,False,True,False
-563,raie rayonnante,raies rayonnantes,0,0,0,1,1,0,4638,549,0,4966,4017,750,120,608,100,10,0,0,0,2,5,0,0,8,0,30,19,30,1,1,True,False,True,False,True,False,True,False
-564,mini-belhamel,mini-belhamels,0,0,0,1,0,0,4489,550,0,4946,1118,360,0,620,100,10,0,0,0,2,0,0,0,8,0,10,42,20,1,2,True,False,True,False,True,False,True,False
-565,bébé chat-pardeur,bébés chats-pardeurs,0,0,0,1,0,0,4490,551,0,4947,1119,550,120,605,100,10,0,0,0,2,0,0,0,8,0,20,28,20,1,2,True,False,True,False,True,False,True,False
-566,castor purgateur,castors purgateurs,0,0,0,1,0,0,4708,391,0,4967,6004,440,30,621,100,10,5,0,0,2,0,0,0,8,0,15,14,20,1,1,True,False,True,False,True,False,True,False
+561,mini-corbeau,mini-corbeaux,0,0,0,1,0,0,4636,548,0,4964,5015,560,120,609,100,10,0,0,0,2,2,0,0,8,0,25,38,20,1,1,True,False,True,False,True,False,True,True
+562,Feo Ul miniature,Feo Ul miniatures,0,0,0,1,1,0,4637,400,0,4965,7016,400,360,634,100,10,0,0,0,1,0,0,0,8,0,15,35,30,1,3,False,True,False,True,False,False,True,True
+563,raie rayonnante,raies rayonnantes,0,0,0,1,1,0,4638,549,0,4966,4017,750,120,608,100,10,0,0,0,2,5,0,0,8,0,30,19,30,1,1,True,False,True,False,True,False,True,True
+564,mini-belhamel,mini-belhamels,0,0,0,1,0,0,4489,550,0,4946,1118,360,0,620,100,10,0,0,0,2,0,0,0,8,0,10,42,20,1,2,True,False,True,False,True,False,True,True
+565,bébé chat-pardeur,bébés chats-pardeurs,0,0,0,1,0,0,4490,551,0,4947,1119,550,120,605,100,10,0,0,0,2,0,0,0,8,0,20,28,20,1,2,True,False,True,False,True,False,True,True
+566,castor purgateur,castors purgateurs,0,0,0,1,0,0,4708,391,0,4967,6004,440,30,621,100,10,5,0,0,2,0,0,0,8,0,15,14,20,1,1,True,False,True,False,True,False,True,True
 567,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+568,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+569,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+570,figurine magitek SD Guerrier-G,figurines magitek SD Guerrier-G,0,0,0,1,1,0,4808,554,0,4971,8304,400,0,620,100,10,0,0,0,1,0,0,0,8,0,15,45,60,1,3,False,True,False,True,False,False,True,False
+571,noscéen à poil court,noscéens à poil court,0,0,0,1,0,0,4809,555,0,4972,3046,540,120,605,100,10,0,0,0,2,0,0,0,8,0,20,20,20,1,1,True,False,True,False,True,False,True,False
+572,berger des Braves,bergers des Braves,0,0,0,1,0,0,4810,556,0,4973,3047,520,0,620,100,10,0,0,0,2,0,0,0,8,0,25,9,20,1,1,True,False,True,False,True,False,True,False
+573,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+574,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+575,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+576,Grooving Green,Grooving Green,0,0,0,1,0,1,4814,557,0,4977,2013,580,0,620,100,10,10,0,0,1,0,0,0,8,0,30,46,20,2,3,False,True,False,True,False,False,True,False
+577,condor mystique,condors mystiques,0,0,0,1,0,0,4815,558,0,4978,5016,320,0,620,100,10,0,0,0,2,2,0,0,8,0,10,31,30,1,1,True,False,True,False,True,False,True,False
+578,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+579,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+580,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+581,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+582,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False
+583,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False

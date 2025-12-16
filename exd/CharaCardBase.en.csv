@@ -1,4 +1,4 @@
-#,Name,Image,UnlockCondition,Unknown_70_1,Unknown_70_2,Unknown4,SortKey,FontColor,Unknown3,Unknown0,Unknown1,Unknown2
+#,Name,Image,UnlockCondition,Unknown_70_1,Unknown_70_2,Unknown4,SortKey,FontColor,Unknown3,Category,Unknown1,Unknown2
 0,None,0,0,0,0,0,0,0,0,0,True,True
 1,,0,0,0,0,0,0,0,0,0,False,False
 2,Solid Black,193002,1,0,0,0,1,1,0,1,True,True
@@ -51,8 +51,8 @@
 49,,0,0,0,0,0,0,0,0,0,False,False
 50,,0,0,0,0,0,0,0,0,0,False,False
 51,,0,0,0,0,0,0,0,0,0,False,False
-52,Companion 1,193901,154,0,0,0,4000,1,0,7,True,True
-53,Companion 2,193902,155,0,0,0,4001,1,0,7,True,True
+52,Companion 1,193901,154,1032,1034,1036,4000,1,0,7,True,True
+53,Companion 2,193902,155,1033,1035,1037,4001,1,0,7,True,True
 54,Unending Coil of Bahamut,193701,319,0,0,0,2500,1,0,4,True,True
 55,Weapon's Refrain,193702,320,0,0,0,2501,1,0,4,True,True
 56,Epic of Alexander,193703,321,0,0,0,2502,2,0,4,True,True
@@ -78,8 +78,8 @@
 76,Seven Hundred Seventy-Seven,193961,526,0,0,0,2310,1,0,3,True,True
 77,End of an Era,193715,527,0,0,0,2250,1,0,3,True,True
 78,Ten Year Anniversary,193716,523,0,0,0,3950,1,0,7,True,True
-79,Adventurous Angling,193717,529,0,0,0,2345,1,0,8,True,True
-80,Big Fish,193718,530,0,0,0,2346,1,0,8,True,True
+79,Adventurous Angling,193717,529,0,0,0,2346,1,0,8,True,True
+80,Big Fish,193718,530,0,0,0,2347,1,0,8,True,True
 81,Mahjong Mastery,193719,531,0,0,0,2350,1,0,8,True,True
 82,Gundu,193956,567,0,0,0,2305,1,0,3,True,True
 83,Vath,193957,568,0,0,0,2306,1,0,3,True,True
@@ -145,8 +145,28 @@
 143,Cosmic Constructs,193746,940,0,0,0,2344,1,0,8,True,True
 144,Island Days,193747,939,0,0,0,2342,2,0,8,True,True
 145,,0,0,0,0,0,0,0,0,0,False,False
-146,,0,0,0,0,0,0,0,0,0,False,False
-147,,0,0,0,0,0,0,0,0,0,False,False
-148,,0,0,0,0,0,0,0,0,0,False,False
-149,,0,0,0,0,0,0,0,0,0,False,False
-150,,0,0,0,0,0,0,0,0,0,False,False
+146,Simple Pink,193016,1044,0,0,0,15,2,0,7,True,True
+147,Simple Violet,193017,1045,0,0,0,16,2,0,7,True,True
+148,Simple Pale Blue,193018,1046,0,0,0,17,2,0,7,True,True
+149,Simple Peach,193019,1047,0,0,0,18,2,0,7,True,True
+150,Simple Lime,193020,1048,0,0,0,19,2,0,7,True,True
+151,Simple Pale Teal,193021,1049,0,0,0,20,2,0,7,True,True
+152,Simple Pale Yellow,193022,1050,0,0,0,21,2,0,7,True,True
+153,Simple Yellow,193023,1051,0,0,0,22,2,0,7,True,True
+154,,0,0,0,0,0,0,0,0,0,False,False
+155,,0,0,0,0,0,0,0,0,0,False,False
+156,,0,0,0,0,0,0,0,0,0,False,False
+157,,0,0,0,0,0,0,0,0,0,False,False
+158,,0,0,0,0,0,0,0,0,0,False,False
+159,,0,0,0,0,0,0,0,0,0,False,False
+160,,0,0,0,0,0,0,0,0,0,False,False
+161,,0,0,0,0,0,0,0,0,0,False,False
+162,,0,0,0,0,0,0,0,0,0,False,False
+163,,0,0,0,0,0,0,0,0,0,False,False
+164,,0,0,0,0,0,0,0,0,0,False,False
+165,,0,0,0,0,0,0,0,0,0,False,False
+166,,0,0,0,0,0,0,0,0,0,False,False
+167,,0,0,0,0,0,0,0,0,0,False,False
+168,,0,0,0,0,0,0,0,0,0,False,False
+169,,0,0,0,0,0,0,0,0,0,False,False
+170,,0,0,0,0,0,0,0,0,0,False,False

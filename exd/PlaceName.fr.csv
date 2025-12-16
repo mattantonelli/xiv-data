@@ -3012,9 +3012,9 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 2943,Camp fortifié de Zolm'ak,Camp fortifié de Zolm'ak,le camp fortifié de Zolm'ak,0,0,0,1,0,0,0,0,0
 2944,Prairie mordorée,Prairie mordorée,la prairie mordorée,0,0,0,1,0,0,0,0,0
 2945,Campement annexe,Campement annexe,le campement annexe,0,0,0,1,0,0,0,0,0
-2946,,,,0,0,0,1,0,0,0,0,0
-2947,,,,0,0,0,1,0,0,0,0,0
-2948,,,,0,0,0,1,0,0,0,0,0
+2946,,,,0,0,0,0,0,0,0,0,0
+2947,,,,0,0,0,0,0,0,0,0,0
+2948,,,,0,0,0,0,0,0,0,0,0
 2949,Norvrandt,Norvrandt,Norvrandt,0,0,0,1,0,0,0,0,0
 2950,Norvrandt,Norvrandt,Norvrandt,0,0,0,1,0,0,1200,0,0
 2951,Cristarium,Cristarium,Cristarium,0,0,0,1,0,0,0,0,0
@@ -4830,10 +4830,10 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 4759,Salle de repos,Salle de repos,la salle de repos,0,0,0,1,0,0,0,0,0
 4760,Salle du trône séculaire,Salle du trône séculaire,la salle du trône séculaire,0,0,0,1,0,0,0,0,0
 4761,Queen Lhaminn,Queen Lhaminn,le Queen Lhaminn,0,0,0,1,0,0,0,0,0
-4762,,,,0,0,0,1,0,0,0,0,0
-4763,,,,0,0,0,1,0,0,0,0,0
-4764,,,,0,0,0,1,0,0,0,0,0
-4765,,,,0,0,0,1,0,0,0,0,0
+4762,Vestiges d'Alexandrie,Vestiges d'Alexandrie,les vestiges d'Alexandrie,0,0,0,1,0,0,0,0,0
+4763,Gare de Bendini,Gare de Bendini,la gare de Bendini,0,0,0,1,0,0,0,0,0
+4764,,,,0,0,0,0,0,0,0,0,0
+4765,Tréno,Tréno,Tréno,0,0,0,1,0,0,0,0,0
 4766,,,,0,0,0,1,0,0,0,0,0
 4767,,,,0,0,0,1,0,0,0,0,0
 4768,,,,0,0,0,1,0,0,0,0,0
@@ -5346,12 +5346,12 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5275,Ville royale reconstituée,Ville royale reconstituée,la ville royale reconstituée,0,0,0,1,0,0,0,0,0
 5276,Plaines venteuses,Plaines venteuses,les Plaines venteuses,0,0,0,1,0,0,0,0,0
 5277,Sanctuaire des pèlerins,Sanctuaire des pèlerins,le Sanctuaire des pèlerins,0,0,0,1,0,0,0,0,0
-5278,,,,0,0,0,0,0,0,0,0,0
-5279,,,,0,0,0,0,0,0,0,0,0
-5280,,,,0,0,0,0,0,0,0,0,0
-5281,,,,0,0,0,0,0,0,0,0,0
-5282,,,,0,0,0,0,0,0,0,0,0
-5283,,,,0,0,0,0,0,0,0,0,0
+5278,Pâtisserie de la Valention,Pâtisserie de la Valention,la pâtisserie de la Valention,0,0,0,1,0,0,0,0,0
+5279,Cuisines,Cuisines,les cuisines,0,0,0,1,0,0,0,0,0
+5280,Galerie des crèmes,Galerie des crèmes,la galerie des crèmes,0,0,0,1,0,0,0,0,0
+5281,Galerie des fruits,Galerie des fruits,la galerie des fruits,0,0,0,1,0,0,0,0,0
+5282,Galerie des garnitures,Galerie des garnitures,la galerie des garnitures,0,0,0,1,0,0,0,0,0
+5283,Galerie des décorations,Galerie des décorations,la galerie des décorations,0,0,0,1,0,0,0,0,0
 5284,Nécropole intemporelle,Nécropole intemporelle,la Nécropole intemporelle,0,0,0,1,0,0,0,0,0
 5285,Abîme d'Obscurité,Abîme d'Obscurité,l'abîme d'Obscurité,0,0,0,1,0,0,0,0,0
 5286,L'Arche de Recuisson,L'Arche de Recuisson,L'Arche de Recuisson,0,0,0,1,0,0,0,0,0
@@ -5418,28 +5418,28 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5347,,,,0,0,0,0,0,0,0,0,0
 5348,,,,0,0,0,0,0,0,0,0,0
 5349,,,,0,0,0,0,0,0,0,0,0
-5350,,,,0,0,0,0,0,0,0,0,0
-5351,,,,0,0,0,0,0,0,0,0,0
-5352,,,,0,0,0,0,0,0,0,0,0
-5353,,,,0,0,0,0,0,0,0,0,0
-5354,,,,0,0,0,0,0,0,0,0,0
-5355,,,,0,0,0,0,0,0,0,0,0
-5356,,,,0,0,0,0,0,0,0,0,0
-5357,,,,0,0,0,0,0,0,0,0,0
-5358,,,,0,0,0,0,0,0,0,0,0
-5359,,,,0,0,0,0,0,0,0,0,0
-5360,,,,0,0,0,0,0,0,0,0,0
-5361,,,,0,0,0,0,0,0,0,0,0
-5362,,,,0,0,0,0,0,0,0,0,0
-5363,,,,0,0,0,0,0,0,0,0,0
-5364,,,,0,0,0,0,0,0,0,0,0
-5365,,,,0,0,0,0,0,0,0,0,0
-5366,,,,0,0,0,0,0,0,0,0,0
-5367,,,,0,0,0,0,0,0,0,0,0
-5368,,,,0,0,0,0,0,0,0,0,0
-5369,,,,0,0,0,0,0,0,0,0,0
-5370,,,,0,0,0,0,0,0,0,0,0
-5371,,,,0,0,0,0,0,0,0,0,0
+5350,Sillage brumeux,Sillage brumeux,le Sillage brumeux,0,0,0,1,0,0,0,0,0
+5351,Grotte de Kwane,Grotte de Kwane,la grotte de Kwane,0,0,0,1,0,0,0,0,0
+5352,Plaine de Tréno,Plaine de Tréno,la plaine de Tréno,0,0,0,1,0,0,0,0,0
+5353,Centre-ville de Tréno,Centre-ville de Tréno,le centre-ville de Tréno,0,0,0,1,0,0,0,0,0
+5354,Territoire des fauves,Territoire des fauves,le territoire des fauves,0,0,0,1,0,0,0,0,0
+5355,Parvis de Tréno,Parvis de Tréno,le parvis de Tréno,0,0,0,1,0,0,0,0,0
+5356,Place de l'hôtel de ville,Place de l'hôtel de ville,la place de l'hôtel de ville,0,0,0,1,0,0,0,0,0
+5357,Grotte de Kwane,Grotte de Kwane,la grotte de Kwane,0,0,0,1,0,0,0,0,0
+5358,Plaine de Tréno,Plaine de Tréno,la plaine de Tréno,0,0,0,1,0,0,0,0,0
+5359,Centre-ville de Tréno,Centre-ville de Tréno,le centre-ville de Tréno,0,0,0,1,0,0,0,0,0
+5360,Mine abandonnée,Mine abandonnée,la mine abandonnée,0,0,0,1,0,0,0,0,0
+5361,Voie ferroviaire,Voie ferroviaire,la voie ferroviaire,0,0,0,1,0,0,0,0,0
+5362,Entrée de Tréno,Entrée de Tréno,l'entrée de Tréno,0,0,0,1,0,0,0,0,0
+5363,Grande Porte de Tréno,Grande Porte de Tréno,la Grande Porte de Tréno,0,0,0,1,0,0,0,0,0
+5364,Quartier périphérique,Quartier périphérique,le quartier périphérique,0,0,0,1,0,0,0,0,0
+5365,Avenue principale de Tréno,Avenue principale de Tréno,l'avenue principale de Tréno,0,0,0,1,0,0,0,0,0
+5366,Allée pavée de Tréno,Allée pavée de Tréno,l'allée pavée de Tréno,0,0,0,1,0,0,0,0,0
+5367,Voie ferroviaire,Voie ferroviaire,la voie ferroviaire,0,0,0,1,0,0,0,0,0
+5368,???,???,???,0,0,0,1,0,0,0,0,0
+5369,Ring fatal,Ring fatal,le ring fatal,0,0,0,1,0,0,0,0,0
+5370,Ring extrême,Ring extrême,le ring extrême,0,0,0,1,0,0,0,0,0
+5371,Ring du champion,Ring du champion,le ring du champion,0,0,0,1,0,0,0,0,0
 5372,,,,0,0,0,0,0,0,0,0,0
 5373,,,,0,0,0,0,0,0,0,0,0
 5374,,,,0,0,0,0,0,0,0,0,0
@@ -5473,7 +5473,7 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5402,,,,0,0,0,0,0,0,0,0,0
 5403,,,,0,0,0,0,0,0,0,0,0
 5404,,,,0,0,0,0,0,0,0,0,0
-5405,,,,0,0,0,0,0,0,0,0,0
+5405,Ring arcadien,Ring arcadien,le ring arcadien,0,0,0,1,0,0,0,0,0
 5406,,,,0,0,0,0,0,0,0,0,0
 5407,,,,0,0,0,0,0,0,0,0,0
 5408,,,,0,0,0,0,0,0,0,0,0
@@ -5500,30 +5500,30 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5429,,,,0,0,0,0,0,0,0,0,0
 5430,,,,0,0,0,0,0,0,0,0,0
 5431,,,,0,0,0,0,0,0,0,0,0
-5432,,,,0,0,0,0,0,0,0,0,0
-5433,,,,0,0,0,0,0,0,0,0,0
-5434,,,,0,0,0,0,0,0,0,0,0
-5435,,,,0,0,0,0,0,0,0,0,0
-5436,,,,0,0,0,0,0,0,0,0,0
-5437,,,,0,0,0,0,0,0,0,0,0
-5438,,,,0,0,0,0,0,0,0,0,0
-5439,,,,0,0,0,0,0,0,0,0,0
-5440,,,,0,0,0,0,0,0,0,0,0
-5441,,,,0,0,0,0,0,0,0,0,0
-5442,,,,0,0,0,0,0,0,0,0,0
-5443,,,,0,0,0,0,0,0,0,0,0
-5444,,,,0,0,0,0,0,0,0,0,0
-5445,,,,0,0,0,0,0,0,0,0,0
-5446,,,,0,0,0,0,0,0,0,0,0
-5447,,,,0,0,0,0,0,0,0,0,0
-5448,,,,0,0,0,0,0,0,0,0,0
-5449,,,,0,0,0,0,0,0,0,0,0
-5450,,,,0,0,0,0,0,0,0,0,0
-5451,,,,0,0,0,0,0,0,0,0,0
-5452,,,,0,0,0,0,0,0,0,0,0
-5453,,,,0,0,0,0,0,0,0,0,0
-5454,,,,0,0,0,0,0,0,0,0,0
-5455,,,,0,0,0,0,0,0,0,0,0
+5432,Worqor Chirteh,Worqor Chirteh,Worqor Chirteh,0,0,0,1,0,0,0,0,0
+5433,Point névralgique 1,Points névralgiques 1,le point névralgique 1,0,0,0,1,0,0,0,0,0
+5434,Point névralgique 2,Points névralgiques 2,le point névralgique 2,0,0,0,1,0,0,0,0,0
+5435,Point névralgique 3,Points névralgiques 3,le point névralgique 3,0,0,0,1,0,0,0,0,0
+5436,Point névralgique 4,Points névralgiques 4,le point névralgique 4,0,0,0,1,0,0,0,0,0
+5437,Point névralgique 5,Points névralgiques 5,le point névralgique 5,0,0,0,1,0,0,0,0,0
+5438,Point névralgique 6,Points névralgiques 6,le point névralgique 6,0,0,0,1,0,0,0,0,0
+5439,Point névralgique 7,Points névralgiques 7,le point névralgique 7,0,0,0,1,0,0,0,0,0
+5440,Point névralgique 8,Points névralgiques 8,le point névralgique 8,0,0,0,1,0,0,0,0,0
+5441,Point névralgique 9,Points névralgiques 9,le point névralgique 9,0,0,0,1,0,0,0,0,0
+5442,Point névralgique 10,Points névralgiques 10,le point névralgique 10,0,0,0,1,0,0,0,0,0
+5443,Point névralgique 11,Points névralgiques 11,le point névralgique 11,0,0,0,1,0,0,0,0,0
+5444,Point névralgique 12,Points névralgiques 12,le point névralgique 12,0,0,0,1,0,0,0,0,0
+5445,Alentours du lac aux Nénuphars,Alentours du lac aux Nénuphars,les alentours du lac aux Nénuphars,0,0,0,1,0,0,0,0,0
+5446,Station sélénienne,Station sélénienne,la station sélénienne,0,0,0,1,0,0,0,0,0
+5447,La Gourde,La Gourde,La Gourde,0,0,0,1,0,0,0,0,0
+5448,Pépinière de Weddingway,Pépinière de Weddingway,la pépinière de Weddingway,0,0,0,1,0,0,0,0,0
+5449,Mont scintillant,Mont scintillant,le Mont scintillant,0,0,0,1,0,0,0,0,0
+5450,Nadir lunaire,Nadir lunaire,le Nadir lunaire,0,0,0,1,0,0,0,0,0
+5451,Station Souffleverre,Station Souffleverre,la station Souffleverre,0,0,0,1,0,0,0,0,0
+5452,Marches iridescentes,Marches iridescentes,les Marches iridescentes,0,0,0,1,0,0,0,0,0
+5453,Berges de Salpêtre,Berges de Salpêtre,les berges de Salpêtre,0,0,0,1,0,0,0,0,0
+5454,Gouffre aux Capsules,Gouffre aux Capsules,le gouffre aux Capsules,0,0,0,1,0,0,0,0,0
+5455,Cheminée de Fusingway,Cheminée de Fusingway,la Cheminée de Fusingway,0,0,0,1,0,0,0,0,0
 5456,,,,0,0,0,0,0,0,0,0,0
 5457,,,,0,0,0,0,0,0,0,0,0
 5458,,,,0,0,0,0,0,0,0,0,0
@@ -5535,13 +5535,13 @@ Guilde des surineurs",,0,0,0,1,0,0,0,0,0
 5464,,,,0,0,0,0,0,0,0,0,0
 5465,,,,0,0,0,0,0,0,0,0,0
 5466,,,,0,0,0,0,0,0,0,0,0
-5467,,,,0,0,0,0,0,0,0,0,0
-5468,,,,0,0,0,0,0,0,0,0,0
-5469,,,,0,0,0,0,0,0,0,0,0
-5470,,,,0,0,0,0,0,0,0,0,0
-5471,,,,0,0,0,0,0,0,0,0,0
-5472,,,,0,0,0,0,0,0,0,0,0
-5473,,,,0,0,0,0,0,0,0,0,0
+5467,Campement de Dorgerwor,Campement de Dorgerwor,le Campement de Dorgerwor,0,0,0,1,0,0,0,0,0
+5468,Chanteroche,Chanteroche,Chanteroche,0,0,0,1,0,0,0,0,0
+5469,Fort de Chirteh,Fort de Chirteh,le Fort de Chirteh,0,0,0,1,0,0,0,0,0
+5470,Zirgor,Zirgor,Zirgor,0,0,0,1,0,0,0,0,0
+5471,Colline d'argent,Colline d'argent,la colline d'argent,0,0,0,1,0,0,0,0,0
+5472,Vahder,Vahder,Vahder,0,0,0,1,0,0,0,0,0
+5473,Source gelée,Source gelée,la source gelée,0,0,0,1,0,0,0,0,0
 5474,,,,0,0,0,0,0,0,0,0,0
 5475,,,,0,0,0,0,0,0,0,0,0
 5476,,,,0,0,0,0,0,0,0,0,0
