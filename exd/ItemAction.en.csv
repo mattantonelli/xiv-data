@@ -1,4 +1,4 @@
-#,Action,Data[0],Data[1],Data[2],Data[3],Data[4],Data[5],Data[6],Data[7],Data[8],DataHQ[0],DataHQ[1],DataHQ[2],DataHQ[3],DataHQ[4],DataHQ[5],DataHQ[6],DataHQ[7],DataHQ[8],CondLv,CondBattle,CondPVP,CondPVPOnly
+#,Type,Data[0],Data[1],Data[2],Data[3],Data[4],Data[5],Data[6],Data[7],Data[8],DataHQ[0],DataHQ[1],DataHQ[2],DataHQ[3],DataHQ[4],DataHQ[5],DataHQ[6],DataHQ[7],DataHQ[8],CondLv,CondBattle,CondPVP,CondPVPOnly
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,True,False
 1,847,32,160,0,0,0,0,0,0,0,40,200,0,0,0,0,0,0,0,0,True,True,False
 2,847,32,340,0,0,0,0,0,0,0,40,440,0,0,0,0,0,0,0,0,True,True,False
