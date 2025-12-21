@@ -1,6 +1,6 @@
 # XIVData
 
-This is a collection of CSV files used for updating [FFXIV Collect](https://github.com/mattantonelli/ffxiv-collect).
+This is a collection of CSV files created from Final Fantasy XIV's game data. This data is used to update [FFXIV Collect](https://github.com/mattantonelli/ffxiv-collect).
 
 ### Usage
 
